@@ -21,13 +21,32 @@
     <h2 style="margin-top:0">Pagamentos</h2>
     <div class="rx-rolagem"><table class="rx-tabela" id="pedidos"></table></div>
   </section>
+  <section class="rx-cartao" style="margin-top:16px">
+    <h2 style="margin-top:0">Privacidade e segurança</h2>
+    <div class="rx-linha">
+      <a class="botao" href="/api/eu/dados">Baixar meus dados</a>
+      <button class="botao" id="sair-todos">Sair de todos os aparelhos</button>
+      <button class="botao" id="excluir">Excluir minha conta</button>
+    </div>
+    <p class="rx-mudo" style="margin-top:10px">Seus dados são tratados conforme a <a href="/privacidade">Política de Privacidade</a> (LGPD). Excluir a conta apaga seus dados pessoais e seu progresso; os registros de pagamento ficam guardados sem identificação, por obrigação fiscal.</p>
+  </section>
 </main>
 <script type="module">
 import { $, api, reais, data, dataHora, esc } from '/_rx/comum.js';
 const NOMES = { mensal: 'Mensal', ciclo: 'Ciclo de prova', 'segunda-etapa': '2ª etapa', anual: 'Anual completo', gratis: 'Gratuito' };
 const { usuario, acesso } = await api('/eu');
-if (!usuario) location.href = '/entrar?voltar=/minha-conta';
+if (!usuario) { location.replace('/entrar?voltar=/minha-conta'); await new Promise(() => {}); }
 $('#sair').addEventListener('click', async () => { await api('/sair', { metodo: 'POST', corpo: {} }); location.href = '/'; });
+$('#sair-todos').addEventListener('click', async () => {
+  if (!confirm('Encerrar a sessão em todos os aparelhos, inclusive este?')) return;
+  await api('/sair-de-todos', { metodo: 'POST', corpo: {} }); location.href = '/entrar';
+});
+$('#excluir').addEventListener('click', async () => {
+  const senha = prompt('Para excluir a conta de vez, digite sua senha. Esta ação não pode ser desfeita.');
+  if (!senha) return;
+  try { await api('/eu/excluir', { metodo: 'POST', corpo: { senha } }); alert('Conta excluída.'); location.href = '/'; }
+  catch (err) { alert(err.message); }
+});
 $('#acesso').innerHTML = acesso.ativo
   ? `<span class="rx-etq ativo">Ativo</span><h2>${esc(NOMES[acesso.plano] || acesso.plano)}</h2><p>Acesso completo até <strong>${data(acesso.ate)}</strong>.</p>
      <div class="rx-linha"><a class="botao botao-primario" href="/plataforma/index.html">Estudar agora →</a><a class="botao" href="/planos.html">Renovar ou mudar de plano</a></div>`

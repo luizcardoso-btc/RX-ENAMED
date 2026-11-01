@@ -1,0 +1,11 @@
+.git
+**/node_modules
+app/dist
+site/dist
+servidor/demo/dist
+**/__pycache__
+provas
+importar
+*.xlsx
+.env
+.claude

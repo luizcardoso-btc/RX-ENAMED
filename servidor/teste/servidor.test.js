@@ -25,7 +25,7 @@ before(async () => {
   await banco.consulta('DROP SCHEMA public CASCADE; CREATE SCHEMA public;');
   await migrar(banco);
   const config = carregarConfig({ DATABASE_URL: BANCO, MP_API_URL: mpFalso.url, MP_ACCESS_TOKEN: 'TEST', MP_PUBLIC_KEY: 'TEST-PUB',
-    MP_WEBHOOK_SECRET: SEGREDO, ADMIN_EMAILS: 'admin@rx.test', PASTA_SITE: '/nao-existe' });
+    MP_WEBHOOK_SECRET: SEGREDO, ADMIN_EMAILS: 'admin@rx.test', PASTA_SITE: '/nao-existe', LIMITE_MULTIPLICADOR: '1000' });
   const planos = carregarPlanos(config.arquivoPlanos);
   planosTeste = planos;
   const base = criarCorreio({ banco, config });
@@ -42,7 +42,7 @@ function cliente() {
   let cookie = '';
   const req = async (metodo, caminho, corpo, extras = {}) => {
     const r = await fetch(url + caminho, {
-      method: metodo, headers: { 'Content-Type': 'application/json', ...(cookie ? { cookie } : {}), ...extras },
+      method: metodo, headers: { 'Content-Type': 'application/json', origin: 'http://localhost', ...(cookie ? { cookie } : {}), ...extras },
       body: corpo ? JSON.stringify(corpo) : undefined,
     });
     const novo = r.headers.get('set-cookie');
@@ -73,9 +73,12 @@ test('utilitários: CPF, assinatura e soma de meses', () => {
 test('cadastro, sessão e proteção das rotas', async () => {
   const a = cliente();
   assert.equal((await a.get('/api/eu')).corpo.usuario, null);
-  assert.equal((await a.post('/api/cadastro', { nome: 'Ana', email: 'ana@rx.test', senha: '123' })).status, 400);
-  assert.equal((await a.post('/api/cadastro', { nome: 'Ana Souza', email: 'ana@rx.test', senha: 'senha-forte-1' })).status, 201);
-  assert.equal((await cliente().post('/api/cadastro', { nome: 'Ana', email: 'ANA@rx.test', senha: 'senha-forte-1' })).status, 409);
+  assert.equal((await a.post('/api/cadastro', { nome: 'Ana', email: 'ana@rx.test', senha: '123' , aceite: true })).status, 400);
+  assert.equal((await a.post('/api/cadastro', { nome: 'Ana', email: 'ana@rx.test', senha: 'senha-forte-1' })).status, 400, 'sem aceite dos termos');
+  assert.equal((await a.post('/api/cadastro', { nome: 'Ana', email: 'ana@rx.test', senha: '12345678901' , aceite: true })).status, 400, 'senha comum/sem letras');
+  assert.equal((await a.post('/api/cadastro', { nome: 'Ana', email: 'ana@rx.test', senha: 'senha-forte-1' , aceite: true }, { origin: 'https://golpe.test' })).status, 403);
+  assert.equal((await a.post('/api/cadastro', { nome: 'Ana Souza', email: 'ana@rx.test', senha: 'senha-forte-1' , aceite: true })).status, 201);
+  assert.equal((await cliente().post('/api/cadastro', { nome: 'Ana', email: 'ANA@rx.test', senha: 'senha-forte-1' , aceite: true })).status, 409);
   const eu = (await a.get('/api/eu')).corpo;
   assert.equal(eu.usuario.email, 'ana@rx.test');
   assert.deepEqual(eu.acesso, { ativo: false, plano: 'gratis', ate: null });
@@ -91,7 +94,7 @@ test('cadastro, sessão e proteção das rotas', async () => {
 
 test('PIX: pedido pendente, aviso com assinatura falsa é recusado, aviso válido libera o acesso uma vez só', async () => {
   const a = cliente();
-  await a.post('/api/cadastro', { nome: 'Bruno Lima', email: 'bruno@rx.test', senha: 'senha-forte-1' });
+  await a.post('/api/cadastro', { nome: 'Bruno Lima', email: 'bruno@rx.test', senha: 'senha-forte-1' , aceite: true });
   assert.equal((await a.post('/api/checkout/pagar', { plano: 'mensal', metodo: 'pix', cpf: '123' })).status, 400);
   const r = await a.post('/api/checkout/pagar', { plano: 'mensal', metodo: 'pix', cpf: CPF, valor: 1 });
   assert.equal(r.status, 201);
@@ -117,7 +120,7 @@ test('PIX: pedido pendente, aviso com assinatura falsa é recusado, aviso válid
 
 test('cartão: aprovado na hora, recusado com mensagem, parcelas acima do limite bloqueadas; renovação soma ao período atual', async () => {
   const a = cliente();
-  await a.post('/api/cadastro', { nome: 'Carla Dias', email: 'carla@rx.test', senha: 'senha-forte-1' });
+  await a.post('/api/cadastro', { nome: 'Carla Dias', email: 'carla@rx.test', senha: 'senha-forte-1' , aceite: true });
   const recusado = await a.post('/api/checkout/pagar', { plano: 'ciclo', metodo: 'cartao', cpf: CPF, cartao: { token: 'cartao-recusado', metodoPagamento: 'visa', parcelas: 1 } });
   assert.equal(recusado.status, 402);
   assert.match(recusado.corpo.erro, /limite/);
@@ -135,7 +138,7 @@ test('cartão: aprovado na hora, recusado com mensagem, parcelas acima do limite
 
 test('boleto: devolve link e código de barras', async () => {
   const a = cliente();
-  await a.post('/api/cadastro', { nome: 'Davi Reis', email: 'davi@rx.test', senha: 'senha-forte-1' });
+  await a.post('/api/cadastro', { nome: 'Davi Reis', email: 'davi@rx.test', senha: 'senha-forte-1' , aceite: true });
   const r = await a.post('/api/checkout/pagar', { plano: 'segunda-etapa', metodo: 'boleto', cpf: CPF });
   assert.equal(r.status, 201);
   assert.equal(r.corpo.pedido.pagamento.boletoUrl, 'https://mp.test/boleto');
@@ -144,7 +147,7 @@ test('boleto: devolve link e código de barras', async () => {
 
 test('admin: resumo de vendas, lista de alunos, liberação manual, revogação, reembolso e CSV', async () => {
   const adm = cliente();
-  await adm.post('/api/cadastro', { nome: 'Admin RX', email: 'admin@rx.test', senha: 'senha-forte-1' });
+  await adm.post('/api/cadastro', { nome: 'Admin RX', email: 'admin@rx.test', senha: 'senha-forte-1' , aceite: true });
   const resumo = (await adm.get('/api/admin/resumo?dias=30')).corpo;
   assert.equal(resumo.receita.total, 14790 + 49790 + 14790);
   assert.equal(resumo.alunos.ativos, 2);
@@ -201,7 +204,7 @@ test('cupons e afiliados: desconto calculado no servidor, comissão, limite de u
   assert.equal((await adm.post('/api/admin/cupons', { codigo: 'PAULA50', tipo: 'fixo', valor: 50, afiliadoId: af.id })).status, 201);
 
   const a = cliente();
-  await a.post('/api/cadastro', { nome: 'Elisa Melo', email: 'elisa@rx.test', senha: 'senha-forte-1' });
+  await a.post('/api/cadastro', { nome: 'Elisa Melo', email: 'elisa@rx.test', senha: 'senha-forte-1' , aceite: true });
   assert.equal((await a.post('/api/checkout/cupom', { plano: 'mensal', cupom: 'RX20' })).status, 400, 'cupom só do ciclo');
   const previa = (await a.post('/api/checkout/cupom', { plano: 'ciclo', cupom: 'rx20' })).corpo;
   assert.equal(previa.valorCentavos, 49790 - 9958);
@@ -230,7 +233,7 @@ test('progresso: salva na conta e devolve em outro aparelho', async () => {
   assert.equal((await celular.get('/api/progresso')).corpo.dados, null);
   const dados = { versao: 1, respostas: { q1: [{ t: 1, escolha: 'A', certa: true, origem: 'treino' }] }, aulas: {} };
   assert.equal((await celular.post('/api/progresso', dados)).status, 404, 'só PUT');
-  const r = await fetch(`${url}/api/progresso`, { method: 'PUT', headers: { 'Content-Type': 'application/json', cookie: await (async () => { const c = cliente(); await c.post('/api/entrar', { email: 'davi@rx.test', senha: 'senha-forte-1' }); return c.cookie(); })() }, body: JSON.stringify({ dados }) });
+  const r = await fetch(`${url}/api/progresso`, { method: 'PUT', headers: { 'Content-Type': 'application/json', origin: 'http://localhost', cookie: await (async () => { const c = cliente(); await c.post('/api/entrar', { email: 'davi@rx.test', senha: 'senha-forte-1' }); return c.cookie(); })() }, body: JSON.stringify({ dados }) });
   assert.equal(r.status, 200);
   assert.deepEqual((await celular.get('/api/progresso')).corpo.dados.respostas, dados.respostas);
   assert.equal((await cliente().get('/api/progresso')).status, 401);
@@ -244,4 +247,51 @@ test('rotinas: aviso de vencimento em 7 dias, uma vez só', async () => {
   await rodarRotinas({ banco, planos: planosTeste, correio });
   const n = await banco.um(`SELECT count(*) AS n FROM emails WHERE usuario_id = $1 AND modelo = 'acessoVencendo'`, [u.id]);
   assert.equal(n.n, 1);
+});
+
+test('segurança: bloqueio por tentativas, sem origem é recusado, cabeçalhos e duas etapas para admin', async () => {
+  const sem = await fetch(`${url}/api/entrar`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' });
+  assert.equal(sem.status, 403, 'POST sem Origin/Referer é recusado');
+  const h = (await fetch(`${url}/entrar`)).headers;
+  assert.match(h.get('content-security-policy'), /object-src 'none'/);
+  assert.doesNotMatch(h.get('content-security-policy').split(';').find((x) => x.includes('script-src')), /unsafe-inline/);
+  assert.equal(h.get('x-frame-options'), 'DENY');
+
+  const c = cliente();
+  await c.post('/api/cadastro', { nome: 'Fábio Prado', email: 'fabio@rx.test', senha: 'senha-forte-1', aceite: true });
+  for (let i = 0; i < 8; i += 1) assert.equal((await cliente().post('/api/entrar', { email: 'fabio@rx.test', senha: 'errada-' + i })).status, 401);
+  assert.equal((await cliente().post('/api/entrar', { email: 'fabio@rx.test', senha: 'senha-forte-1' })).status, 429, 'conta bloqueada após 8 erros');
+  await banco.consulta(`UPDATE usuarios SET bloqueado_ate = NULL WHERE email = 'fabio@rx.test'`);
+
+  // Duas etapas: ativa para o admin; um novo login só acessa o painel depois do código.
+  const { codigoTotp } = await import('../src/seguranca.js');
+  const adm = cliente();
+  await adm.post('/api/entrar', { email: 'admin@rx.test', senha: 'senha-forte-1' });
+  const { segredo } = (await adm.post('/api/2fa/iniciar', {})).corpo;
+  assert.equal((await adm.post('/api/2fa/ativar', { codigo: '000000' })).status, 400);
+  const ativ = await adm.post('/api/2fa/ativar', { codigo: codigoTotp(segredo) });
+  assert.equal(ativ.corpo.codigosRecuperacao.length, 10);
+  assert.equal((await adm.get('/api/admin/resumo')).status, 200, 'a sessão que ativou já está verificada');
+  const outro = cliente();
+  assert.equal((await outro.post('/api/entrar', { email: 'admin@rx.test', senha: 'senha-forte-1' })).corpo.precisa2fa, true);
+  assert.equal((await outro.get('/api/admin/resumo')).corpo.codigo, '2fa_verificar');
+  assert.equal((await outro.post('/api/2fa/verificar', { codigo: ativ.corpo.codigosRecuperacao[0] })).status, 200, 'código de recuperação');
+  assert.equal((await outro.get('/api/admin/resumo')).status, 200);
+  const terceiro = cliente();
+  await terceiro.post('/api/entrar', { email: 'admin@rx.test', senha: 'senha-forte-1' });
+  assert.equal((await terceiro.post('/api/2fa/verificar', { codigo: ativ.corpo.codigosRecuperacao[0] })).status, 400, 'recuperação vale uma vez');
+});
+
+test('LGPD: exportar dados e excluir a conta', async () => {
+  const c = cliente();
+  await c.post('/api/cadastro', { nome: 'Gina Luz', email: 'gina@rx.test', senha: 'senha-forte-1', aceite: true });
+  const dados = await c.get('/api/eu/dados');
+  assert.equal(dados.corpo.conta.email, 'gina@rx.test');
+  assert.ok(dados.corpo.conta.aceite_termos_em);
+  assert.equal((await c.post('/api/eu/excluir', { senha: 'errada' })).status, 400);
+  assert.equal((await c.post('/api/eu/excluir', { senha: 'senha-forte-1' })).status, 200);
+  assert.equal((await c.get('/api/eu')).corpo.usuario, null);
+  assert.equal((await cliente().post('/api/entrar', { email: 'gina@rx.test', senha: 'senha-forte-1' })).status, 401);
+  const u = await banco.um(`SELECT nome, cpf FROM usuarios WHERE excluido_em IS NOT NULL`);
+  assert.equal(u.nome, 'Conta excluída');
 });

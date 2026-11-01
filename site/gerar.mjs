@@ -184,7 +184,7 @@ ${alternativos}
 <main>
 ${corpo({ sobe, raizLingua, daRaiz, plataforma, outra })}
 </main>
-<footer class="rodape"><div class="envoltorio"><p>${tx.rodape}</p><p>© ${new Date().getFullYear()} RX ENAMED</p></div></footer>
+<footer class="rodape"><div class="envoltorio"><p>${tx.rodape}</p><p>© ${new Date().getFullYear()} RX ENAMED${CHECKOUT_PROPRIO ? ` · <a href="/termos">${lingua === 'es' ? 'Términos de uso' : 'Termos de Uso'}</a> · <a href="/privacidade">${lingua === 'es' ? 'Política de privacidad' : 'Política de Privacidade'}</a> · <a href="/entrar">${lingua === 'es' ? 'Entrar' : 'Entrar'}</a>` : ''}</p></div></footer>
 </body>
 </html>
 `;

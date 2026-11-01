@@ -1,4 +1,4 @@
-import { carregarConfig } from './config.js';
+import { carregarConfig, conferirProducao } from './config.js';
 import { criarBanco, migrar } from './db.js';
 import { carregarPlanos } from './planos.js';
 import { criarMercadoPago } from './mercadopago.js';
@@ -7,7 +7,8 @@ import { criarCorreio } from './email.js';
 import { rodarRotinas } from './rotinas.js';
 
 const config = carregarConfig();
-const banco = criarBanco(config.bancoUrl);
+for (const aviso of conferirProducao(config)) console.warn(`aviso: ${aviso}`);
+const banco = criarBanco(config.bancoUrl, { ssl: config.bancoSsl });
 const aplicadas = await migrar(banco);
 if (aplicadas.length) console.log('migrações aplicadas:', aplicadas.join(', '));
 const planos = carregarPlanos(config.arquivoPlanos);

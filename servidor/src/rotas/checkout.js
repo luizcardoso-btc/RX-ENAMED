@@ -28,16 +28,18 @@ const pedidoPublico = (p) => ({
   status: p.status, statusDetalhe: p.status_detalhe, pagamento: p.pagamento, criadoEm: p.criado_em, pagoEm: p.pago_em,
 });
 
-export function rotasCheckout({ banco, config, planos, mp, correio }) {
+export function rotasCheckout({ banco, config, planos, mp, correio, limitar }) {
   const r = Router();
+  const pagamentosAtivos = Boolean(config.mercadoPago.tokenAcesso && config.mercadoPago.chavePublica);
+  const limite = (chave, max, seg) => async (req, res, next) => ((await limitar(chave(req), max, seg)) ? res.status(429).json({ erro: 'Muitas tentativas. Espere alguns minutos.' }) : next());
   const ctx = { banco, planos, correio };
 
   r.get('/checkout/config', (_req, res) => {
-    res.json({ chavePublica: config.mercadoPago.chavePublica, planos: planos.planos, limitesGratis: planos.limitesGratis });
+    res.json({ chavePublica: config.mercadoPago.chavePublica, pagamentosAtivos, planos: planos.planos, limitesGratis: planos.limitesGratis });
   });
 
   // Confere um cupom e devolve o preço com desconto (o desconto de verdade é recalculado ao pagar).
-  r.post('/checkout/cupom', async (req, res) => {
+  r.post('/checkout/cupom', limite((q) => `cupom|${q.ip}`, 20, 600), async (req, res) => {
     const plano = planos.porId[req.body?.plano];
     if (!plano) return res.status(400).json({ erro: 'Plano inválido.' });
     try {
@@ -49,7 +51,8 @@ export function rotasCheckout({ banco, config, planos, mp, correio }) {
     }
   });
 
-  r.post('/checkout/pagar', exigirLogin, async (req, res) => {
+  r.post('/checkout/pagar', exigirLogin, limite((q) => `pagar|${q.usuario.id}`, 10, 600), async (req, res) => {
+    if (!pagamentosAtivos) return res.status(503).json({ erro: 'Os pagamentos ainda não foram ativados. Tente novamente em breve.' });
     const plano = planos.porId[req.body?.plano];
     const metodo = req.body?.metodo;
     if (!plano) return res.status(400).json({ erro: 'Plano inválido.' });

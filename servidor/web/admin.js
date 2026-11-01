@@ -13,7 +13,51 @@ else if (usuario.papel !== 'admin') conteudo.innerHTML = '<p>Esta conta não é 
 $('#sair').addEventListener('click', async () => { await api('/sair', { metodo: 'POST', corpo: {} }); location.href = '/'; });
 for (const b of document.querySelectorAll('[data-aba]')) b.addEventListener('click', () => { location.hash = b.dataset.aba; });
 window.addEventListener('hashchange', abrir);
-if (usuario?.papel === 'admin') abrir();
+if (usuario?.papel === 'admin') portaria();
+
+// Duas etapas: o painel só abre com o código do aplicativo autenticador (obrigatório para admin em produção).
+async function portaria() {
+  if (usuario.precisa2fa) return telaVerificar();
+  try { await api('/admin/resumo?dias=7'); abrir(); } catch (e) {
+    if (e.corpo?.codigo === '2fa_obrigatorio') return telaAtivar();
+    if (e.corpo?.codigo === '2fa_verificar') return telaVerificar();
+    conteudo.innerHTML = `<p class="rx-erro">${esc(e.message)}</p>`;
+  }
+}
+function telaVerificar() {
+  conteudo.innerHTML = `<section class="rx-cartao" style="max-width:440px"><h1 style="margin-top:0">Verificação em duas etapas</h1>
+    <p>Digite o código de 6 dígitos do aplicativo autenticador, ou um código de recuperação.</p>
+    <form id="f2"><label class="rx-campo"><span>Código</span><input name="codigo" inputmode="numeric" autocomplete="one-time-code" required autofocus></label>
+    <p class="rx-erro rx-oculto" id="e2"></p><button class="botao botao-primario rx-botao-largo">Entrar no painel</button></form></section>`;
+  $('#f2').addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    try { await api('/2fa/verificar', { metodo: 'POST', corpo: Object.fromEntries(new FormData(ev.target)) }); abrir(); }
+    catch (err) { const el = $('#e2'); el.textContent = err.message; el.classList.remove('rx-oculto'); }
+  });
+}
+async function telaAtivar() {
+  const { segredo, uri } = await api('/2fa/iniciar', { metodo: 'POST', corpo: {} });
+  conteudo.innerHTML = `<section class="rx-cartao" style="max-width:560px"><h1 style="margin-top:0">Proteja o painel com duas etapas</h1>
+    <p>Para abrir o painel, ative a verificação em duas etapas. Assim, mesmo que alguém descubra sua senha, não entra sem o seu celular.</p>
+    <ol><li>Instale um aplicativo autenticador (Google Authenticator, Microsoft Authenticator, Authy ou 1Password).</li>
+    <li>No aplicativo, escolha "adicionar conta" e "digitar chave" e informe a chave abaixo (ou toque no link pelo celular).</li>
+    <li>Digite o código de 6 dígitos que aparecer.</li></ol>
+    <p class="rx-codigos" style="grid-template-columns:1fr;word-break:break-all">${esc(segredo)}</p>
+    <p><a href="${esc(uri)}">Abrir no aplicativo autenticador (pelo celular)</a></p>
+    <form id="f3"><label class="rx-campo"><span>Código de 6 dígitos</span><input name="codigo" inputmode="numeric" autocomplete="one-time-code" required></label>
+    <p class="rx-erro rx-oculto" id="e3"></p><button class="botao botao-primario rx-botao-largo">Ativar</button></form></section>`;
+  $('#f3').addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    try {
+      const r = await api('/2fa/ativar', { metodo: 'POST', corpo: Object.fromEntries(new FormData(ev.target)) });
+      conteudo.innerHTML = `<section class="rx-cartao" style="max-width:560px"><h1 style="margin-top:0">Duas etapas ativada</h1>
+        <p><strong>Guarde estes códigos de recuperação</strong> num lugar seguro (fora do celular). Cada um vale uma vez, se você perder o celular.</p>
+        <div class="rx-codigos">${r.codigosRecuperacao.map((c) => `<span>${esc(c)}</span>`).join('')}</div>
+        <p><button class="botao botao-primario" id="seguir">Já guardei, abrir o painel</button></p></section>`;
+      $('#seguir').addEventListener('click', abrir);
+    } catch (err) { const el = $('#e3'); el.textContent = err.message; el.classList.remove('rx-oculto'); }
+  });
+}
 
 function abrir() {
   const aba = location.hash.slice(1) || 'painel';

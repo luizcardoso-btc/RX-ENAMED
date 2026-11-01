@@ -12,7 +12,7 @@ const T = {
     sucesso: '¡Pago aprobado! Su acceso ya está liberado.', irPlataforma: 'Ir al área del alumno', processando: 'Procesando…', planoInvalido: 'Plan no encontrado.',
     cpf: 'Informe un CPF válido.', semChave: 'El pago con tarjeta aún no está configurado. Use PIX o boleto.', analise: 'Pago en análisis. El acceso se libera solo cuando se apruebe.' },
 }[idioma];
-const TEXTOS_ES = { conta: 'Su cuenta', criarConta: 'Crear cuenta', jaTenho: 'Ya tengo cuenta', nome: 'Nombre completo', senha: 'Contraseña (mínimo 8 caracteres)', continuar: 'Continuar',
+const TEXTOS_ES = { conta: 'Su cuenta', criarConta: 'Crear cuenta', jaTenho: 'Ya tengo cuenta', nome: 'Nombre completo', senha: 'Contraseña (mínimo 10 caracteres, con letras y número o símbolo)', continuar: 'Continuar',
   pagamento: 'Pago', temCupom: '¿Tiene un cupón de descuento?', cupom: 'Cupón', aplicar: 'Aplicar', pixSub: 'aprobación inmediata', cartao: 'Tarjeta', boletoSub: 'hasta 3 días hábiles', gerarPix: 'Generar PIX', gerarBoleto: 'Generar boleto',
   rodape: 'Pagos procesados por Mercado Pago. Los datos de la tarjeta van directo a Mercado Pago, cifrados; RX ENAMED no los almacena. Tiene 7 días para desistir y recibir el dinero de vuelta.' };
 if (idioma === 'es') { document.documentElement.lang = 'es'; for (const el of document.querySelectorAll('[data-t]')) if (TEXTOS_ES[el.dataset.t]) el.textContent = TEXTOS_ES[el.dataset.t]; }
@@ -70,6 +70,7 @@ for (const b of document.querySelectorAll('[data-modo]')) {
     modoConta = b.dataset.modo;
     for (const x of document.querySelectorAll('[data-modo]')) x.setAttribute('aria-pressed', String(x === b));
     $('#campo-nome').classList.toggle('rx-oculto', modoConta === 'entrar');
+    $('#campo-aceite').classList.toggle('rx-oculto', modoConta === 'entrar');
     $('#form-conta [name=senha]').autocomplete = modoConta === 'entrar' ? 'current-password' : 'new-password';
   });
 }
@@ -78,7 +79,7 @@ $('#form-conta').addEventListener('submit', async (e) => {
   const f = new FormData(e.target);
   mostrarErro($('#erro-conta'), '');
   try {
-    await api(modoConta === 'cadastro' ? '/cadastro' : '/entrar', { metodo: 'POST', corpo: Object.fromEntries(f) });
+    await api(modoConta === 'cadastro' ? '/cadastro' : '/entrar', { metodo: 'POST', corpo: { ...Object.fromEntries(f), aceite: f.get('aceite') === 'on' } });
     usuario = (await api('/eu')).usuario;
     contaLogada();
   } catch (err) { mostrarErro($('#erro-conta'), err.message); }
@@ -204,6 +205,10 @@ function sucesso() {
   plano = config.planos.find((p) => p.id === id);
   if (!plano) { $('#resumo').innerHTML = `<p>${T.planoInvalido} <a href="/planos.html">Ver planos</a></p>`; $('#fluxo').classList.add('rx-oculto'); return; }
   desenharResumo();
+  if (!config.pagamentosAtivos) {
+    $('#fluxo').innerHTML = `<p>${idioma === 'es' ? 'Los pagos se habilitarán en breve. Cree su cuenta gratuita mientras tanto.' : 'Os pagamentos serão liberados em breve. Enquanto isso, crie sua conta grátis e comece a estudar.'}</p><a class="botao botao-primario" href="/entrar">${idioma === 'es' ? 'Crear cuenta gratis' : 'Criar conta grátis'}</a>`;
+    return;
+  }
   if (params.get('cupom')) { $('#cupom').value = params.get('cupom'); $('#cupom-box').open = true; await aplicarCupom(params.get('cupom')); }
   usuario = (await api('/eu')).usuario;
   if (usuario) contaLogada();

@@ -24,7 +24,74 @@ Contas de alunos, checkout próprio com o Mercado Pago, liberação automática 
   - auditoria de todas as ações do admin.
 - **Área do aluno:** em `/minha-conta`, o aluno vê o plano e os pagamentos. A plataforma (`/plataforma/`) consulta `/api/eu` e libera tudo para quem tem plano ativo. Quem não tem fica com os limites do gratuito.
 
-## Colocar no ar (Render, cerca de 30 minutos)
+## Colocar no ar no Railway
+
+O repositório tem um `Dockerfile` e um `railway.json`: o Railway monta a imagem, roda as migrações do banco ao iniciar e confere `/api/saude` antes de trocar a versão no ar.
+
+Variáveis do serviço (aba **Variables**):
+
+| Variável | Valor |
+|---|---|
+| `NODE_ENV` | `production` |
+| `DATABASE_URL` | `${{rx-enamed-banco.DATABASE_URL}}` (referência ao banco do projeto, pela rede interna) |
+| `URL_BASE` | `https://<seu-servico>.up.railway.app` no começo, depois o seu domínio |
+| `ADMIN_EMAILS` | `luizcardoso476@gmail.com` |
+| `MP_ACCESS_TOKEN`, `MP_PUBLIC_KEY` | credenciais de **produção** do Mercado Pago |
+| `MP_WEBHOOK_SECRET` | assinatura secreta do webhook (Mercado Pago > Webhooks) |
+| `MP_DESCRICAO_FATURA` | `RXENAMED` |
+| `RESEND_API_KEY`, `EMAIL_REMETENTE`, `EMAIL_RESPONDER_PARA` | e-mails automáticos (opcional no começo) |
+| `LEGAL_EMPRESA`, `LEGAL_DOCUMENTO`, `LEGAL_EMAIL` | nome, CNPJ (ou CPF) e e-mail mostrados nos Termos e na Política de Privacidade |
+
+Sem as chaves do Mercado Pago o site sobe normalmente e o checkout mostra "pagamentos em breve".
+
+## Segurança
+
+- **Transporte:** HTTPS obrigatório. Redirecionamento automático e HSTS de 2 anos com `preload`.
+- **Cabeçalhos:**
+  - política de conteúdo (CSP) sem scripts soltos: só rodam scripts com assinatura sha256 calculada no início e os domínios do Mercado Pago;
+  - `object-src 'none'`;
+  - proteção contra embutir o site em outra página (`frame-ancestors 'none'` e `X-Frame-Options: DENY`);
+  - `nosniff`, `Referrer-Policy`, `Permissions-Policy`, COOP e CORP.
+- **Senhas:**
+  - guardadas com scrypt (N=32768), com os parâmetros no próprio hash, refeitas sozinhas quando o custo sobe;
+  - mínimo de 10 caracteres com letras e número ou símbolo, recusando senhas comuns e senhas que contêm o e-mail.
+- **Login:**
+  - mesma resposta e mesmo tempo para e-mail inexistente ou senha errada;
+  - conta bloqueada após 8 erros, por 15 minutos, dobrando até 24 horas;
+  - limite por IP guardado no banco.
+- **Sessões:**
+  - cookie `__Host-` com `HttpOnly`, `Secure` e `SameSite=Lax`;
+  - token aleatório de 256 bits guardado só como hash, válido por 30 dias;
+  - "sair de todos os aparelhos";
+  - todas as sessões caem quando a senha é redefinida ou quando a verificação em duas etapas é ativada.
+- **Admin:**
+  - verificação em duas etapas (TOTP) obrigatória em produção, com 10 códigos de recuperação de uso único;
+  - auditoria de todas as ações.
+- **CSRF:** requisições que alteram dados precisam vir do próprio site (Origin ou Referer) e em JSON.
+- **Abuso:**
+  - limites por IP em cadastro, login, recuperação de senha, cupom e pagamento, mais um limite geral da API;
+  - corpo das requisições limitado a 100 KB;
+  - tempo máximo de 15 segundos por consulta ao banco.
+- **Pagamentos:**
+  - preço sempre calculado no servidor;
+  - webhook com assinatura HMAC, janela de tempo e confirmação do pagamento direto na API do Mercado Pago;
+  - valor conferido;
+  - processamento idempotente;
+  - dados do cartão nunca passam pelo servidor.
+- **LGPD:**
+  - aceite dos Termos e da Política de Privacidade no cadastro, com data;
+  - exportação dos dados e exclusão da conta pelo próprio aluno, com anonimização: pagamentos ficam guardados sem identificação, por obrigação fiscal.
+- **Infraestrutura:**
+  - imagem Docker com só o necessário, rodando como usuário sem privilégios;
+  - sem segredos no código;
+  - dependências sem vulnerabilidades conhecidas (`npm audit`).
+
+Antes de abrir as vendas:
+1. Ative os backups do Postgres no Railway (aba do banco > **Backups**).
+2. Cadastre o domínio próprio.
+3. Faça uma compra real de valor baixo e reembolse pelo painel.
+
+## Colocar no ar no Render (alternativa)
 
 1. **Código no GitHub:** o projeto precisa estar num repositório do GitHub. O Render publica a partir dele.
 2. **Mercado Pago:**

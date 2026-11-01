@@ -21,9 +21,9 @@ const BASE_ALUNOS = `
 
 const csv = (linhas) => linhas.map((l) => l.map((v) => `"${String(v ?? '').replace(/"/g, '""')}"`).join(';')).join('\r\n');
 
-export function rotasAdmin({ banco, planos, mp, correio }) {
+export function rotasAdmin({ banco, planos, mp, correio, config }) {
   const r = Router();
-  r.use(exigirLogin, exigirAdmin);
+  r.use(exigirLogin, exigirAdmin(config));
   const auditar = (req, acao, alvo, detalhes = {}) =>
     banco.consulta('INSERT INTO auditoria (admin_id, acao, alvo, detalhes) VALUES ($1, $2, $3, $4)', [req.usuario.id, acao, alvo, JSON.stringify(detalhes)]);
 

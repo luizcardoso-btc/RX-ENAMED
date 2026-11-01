@@ -25,8 +25,16 @@
       <label class="rx-campo rx-oculto" id="campo-nome"><span>Nome completo</span><input name="nome" autocomplete="name"></label>
       <label class="rx-campo"><span>E-mail</span><input name="email" type="email" autocomplete="email" required></label>
       <label class="rx-campo"><span>Senha</span><input name="senha" type="password" autocomplete="current-password" required></label>
+      <p class="rx-mudo rx-oculto" id="dica-senha">Mínimo de 10 caracteres, com letras e pelo menos um número ou símbolo.</p>
+      <label class="rx-aceite rx-oculto" id="campo-aceite"><input type="checkbox" name="aceite"> <span>Li e aceito os <a href="/termos" target="_blank">Termos de Uso</a> e a <a href="/privacidade" target="_blank">Política de Privacidade</a>.</span></label>
       <p class="rx-erro rx-oculto" id="erro" role="alert"></p>
       <button class="botao botao-primario rx-botao-largo" type="submit">Continuar</button>
+    </form>
+    <form id="form-2fa" class="rx-oculto" novalidate>
+      <p>Digite o código de 6 dígitos do seu aplicativo autenticador (ou um código de recuperação).</p>
+      <label class="rx-campo"><span>Código</span><input name="codigo" inputmode="numeric" autocomplete="one-time-code" required></label>
+      <p class="rx-erro rx-oculto" id="erro-2fa" role="alert"></p>
+      <button class="botao botao-primario rx-botao-largo" type="submit">Confirmar</button>
     </form>
     <p style="margin-top:14px"><a href="#" id="esqueci">Esqueci minha senha</a></p>
     <form id="form-esqueci" class="rx-oculto" novalidate>
@@ -46,7 +54,14 @@ for (const b of document.querySelectorAll('[data-modo]')) b.addEventListener('cl
   modo = b.dataset.modo;
   for (const x of document.querySelectorAll('[data-modo]')) x.setAttribute('aria-pressed', String(x === b));
   $('#campo-nome').classList.toggle('rx-oculto', modo === 'entrar');
+  $('#campo-aceite').classList.toggle('rx-oculto', modo === 'entrar');
+  $('#dica-senha').classList.toggle('rx-oculto', modo === 'entrar');
   $('#titulo').textContent = modo === 'entrar' ? 'Entrar' : 'Criar conta';
+});
+$('#form-2fa').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  try { await api('/2fa/verificar', { metodo: 'POST', corpo: Object.fromEntries(new FormData(e.target)) }); location.href = seguro; }
+  catch (err) { mostrarErro($('#erro-2fa'), err.message); }
 });
 $('#esqueci').addEventListener('click', (e) => { e.preventDefault(); $('#form-esqueci').classList.toggle('rx-oculto'); });
 $('#form-esqueci').addEventListener('submit', async (e) => {
@@ -60,7 +75,9 @@ $('#form').addEventListener('submit', async (e) => {
   e.preventDefault();
   mostrarErro($('#erro'), '');
   try {
-    await api(modo === 'entrar' ? '/entrar' : '/cadastro', { metodo: 'POST', corpo: Object.fromEntries(new FormData(e.target)) });
+    const f = Object.fromEntries(new FormData(e.target));
+    const r = await api(modo === 'entrar' ? '/entrar' : '/cadastro', { metodo: 'POST', corpo: { ...f, aceite: f.aceite === 'on' } });
+    if (r.precisa2fa) { $('#form').classList.add('rx-oculto'); $('#form-2fa').classList.remove('rx-oculto'); $('#form-2fa [name=codigo]').focus(); return; }
     location.href = seguro;
   } catch (err) { mostrarErro($('#erro'), err.message); }
 });

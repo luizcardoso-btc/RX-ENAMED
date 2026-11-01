@@ -68,3 +68,9 @@ button.botao { font: inherit; font-weight: 600; }
 .rx-duas .rx-cartao, .rx-gaveta table { overflow-x: auto; display: block; }
 .rx-gaveta .rx-tabela { display: table; min-width: 100%; }
 @media (max-width: 600px) { .rx-kpi strong { font-size: 1.1rem; } }
+
+.rx-aceite { display: flex; gap: 8px; align-items: flex-start; font-size: .88rem; color: var(--tinta-2); margin: 4px 0 12px; }
+.rx-aceite input { margin-top: 3px; }
+.rx-codigos { font-family: var(--f-dado); display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; background: var(--folha-2); padding: 12px; border-radius: 10px; }
+.rx-legal { max-width: 760px; line-height: 1.7; }
+.rx-legal h2 { margin-top: 28px; }

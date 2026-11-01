@@ -4,8 +4,8 @@ import { readdirSync, readFileSync } from 'node:fs';
 // Datas e números do Postgres chegam como tipos do JavaScript; bigint (contagens) vira número.
 pg.types.setTypeParser(20, (v) => Number(v));
 
-export function criarBanco(url) {
-  const pool = new pg.Pool({ connectionString: url, max: 10 });
+export function criarBanco(url, { ssl = false } = {}) {
+  const pool = new pg.Pool({ connectionString: url, max: 10, ...(ssl ? { ssl: { rejectUnauthorized: false } } : {}), statement_timeout: 15000 });
   const consulta = (sql, params) => pool.query(sql, params);
   const um = async (sql, params) => (await pool.query(sql, params)).rows[0] ?? null;
   const varios = async (sql, params) => (await pool.query(sql, params)).rows;

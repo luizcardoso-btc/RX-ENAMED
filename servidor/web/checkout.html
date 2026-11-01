@@ -31,7 +31,8 @@
           <form id="form-conta" novalidate>
             <label class="rx-campo" id="campo-nome"><span data-t="nome">Nome completo</span><input name="nome" autocomplete="name" required></label>
             <label class="rx-campo"><span>E-mail</span><input name="email" type="email" autocomplete="email" required></label>
-            <label class="rx-campo"><span data-t="senha">Senha (mínimo 8 caracteres)</span><input name="senha" type="password" autocomplete="new-password" minlength="8" required></label>
+            <label class="rx-campo"><span data-t="senha">Senha (mínimo 10 caracteres, com letras e número ou símbolo)</span><input name="senha" type="password" autocomplete="new-password" minlength="10" required></label>
+            <label class="rx-aceite" id="campo-aceite"><input type="checkbox" name="aceite"> <span>Li e aceito os <a href="/termos" target="_blank">Termos de Uso</a> e a <a href="/privacidade" target="_blank">Política de Privacidade</a>.</span></label>
             <p class="rx-erro rx-oculto" id="erro-conta" role="alert"></p>
             <button class="botao botao-primario rx-botao-largo" type="submit" data-t="continuar">Continuar</button>
           </form>
