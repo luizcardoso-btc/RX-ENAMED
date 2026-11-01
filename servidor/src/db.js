@@ -4,8 +4,19 @@ import { readdirSync, readFileSync } from 'node:fs';
 // Datas e números do Postgres chegam como tipos do JavaScript; bigint (contagens) vira número.
 pg.types.setTypeParser(20, (v) => Number(v));
 
+/** SSL automático: bancos fora da rede interna (ex.: URL pública do Railway) exigem conexão cifrada. */
+export function precisaSsl(url, forcar) {
+  if (forcar === true || forcar === false) return forcar;
+  try {
+    const host = new URL(url).hostname;
+    return !(host === 'localhost' || host === '127.0.0.1' || host === '' || host.endsWith('.railway.internal') || host.endsWith('.internal'));
+  } catch { return false; }
+}
+
 export function criarBanco(url, { ssl = false } = {}) {
-  const pool = new pg.Pool({ connectionString: url, max: 10, ...(ssl ? { ssl: { rejectUnauthorized: false } } : {}), statement_timeout: 15000 });
+  const pool = new pg.Pool({ connectionString: url, max: 10, ...(ssl ? { ssl: { rejectUnauthorized: false } } : {}),
+    statement_timeout: 15000, connectionTimeoutMillis: 10000 });
+  pool.on('error', (e) => console.error('banco: conexão perdida', e.message));
   const consulta = (sql, params) => pool.query(sql, params);
   const um = async (sql, params) => (await pool.query(sql, params)).rows[0] ?? null;
   const varios = async (sql, params) => (await pool.query(sql, params)).rows;

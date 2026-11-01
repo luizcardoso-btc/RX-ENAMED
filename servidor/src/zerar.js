@@ -1,13 +1,14 @@
 // Apaga os dados de teste (alunos, pedidos, acessos, e-mails, cupons, afiliados, avisos e auditoria) para abrir as vendas
 // com o painel zerado. Contas de administrador são mantidas. Uso: npm run zerar -- --confirmar
 import { carregarConfig } from './config.js';
-import { criarBanco, migrar } from './db.js';
+import { precisaSsl, criarBanco, migrar } from './db.js';
 
 if (!process.argv.includes('--confirmar')) {
   console.error('Isto apaga todos os alunos, pedidos e vendas (menos as contas de admin). Para confirmar: npm run zerar -- --confirmar');
   process.exit(1);
 }
-const banco = criarBanco(carregarConfig().bancoUrl);
+const cfgB = carregarConfig();
+const banco = criarBanco(cfgB.bancoUrl, { ssl: precisaSsl(cfgB.bancoUrl, cfgB.bancoSsl) });
 await migrar(banco);
 await banco.transacao(async (t) => {
   await t.consulta('TRUNCATE avisos_pagamento, auditoria, emails, redefinicoes_senha, progresso, matriculas RESTART IDENTITY CASCADE');
