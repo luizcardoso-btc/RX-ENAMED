@@ -10,7 +10,8 @@ export function conferirProducao(config) {
   if (!config.producao) return [];
   const erros = [];
   const avisos = [];
-  if (!config.bancoUrl) erros.push('DATABASE_URL não definida: em Variables, use ${{rx-enamed-banco.DATABASE_URL}}.');
+  if (!config.bancoUrl) erros.push('DATABASE_URL não definida. Em Variables, apague e crie DATABASE_URL com o valor ${{rx-enamed-banco.DATABASE_URL}} (é uma referência ao banco).');
+  else if (!/^postgres(ql)?:\/\//.test(config.bancoUrl)) erros.push('DATABASE_URL está com um valor que não é endereço de banco (deve começar com postgresql://). Em Variables, troque o valor por ${{rx-enamed-banco.DATABASE_URL}}.');
   if (!/^https:\/\//.test(config.urlBase)) erros.push('URL_BASE não definida ou sem https:// (ex.: https://rx-enamed-production.up.railway.app).');
   const mp = config.mercadoPago;
   if (!mp.tokenAcesso || !mp.chavePublica) avisos.push('MP_ACCESS_TOKEN/MP_PUBLIC_KEY vazios: o checkout fica desligado (o site funciona).');
@@ -25,7 +26,8 @@ export function carregarConfig(env = process.env) {
   return {
     producao,
     porta: Number(env.PORT || 3000),
-    urlBase: (env.URL_BASE || `http://localhost:${env.PORT || 3000}`).replace(/\/$/, ''),
+    // URL_BASE: o endereço público do site. Sem ela, usa o domínio que o Railway informa (RAILWAY_PUBLIC_DOMAIN).
+    urlBase: (env.URL_BASE?.trim() || (env.RAILWAY_PUBLIC_DOMAIN ? `https://${env.RAILWAY_PUBLIC_DOMAIN}` : `http://localhost:${env.PORT || 3000}`)).replace(/\/$/, ''),
     bancoUrl: env.DATABASE_URL || '',
     bancoSsl: env.DATABASE_SSL === 'true' ? true : env.DATABASE_SSL === 'false' ? false : null, // null = automático
     // Multiplica os limites de requisição (1 em produção; os testes usam um valor alto).
