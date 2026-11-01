@@ -21,7 +21,9 @@ export function conferirProducao(config) {
   return { erros, avisos };
 }
 
-export function carregarConfig(env = process.env) {
+export function carregarConfig(envBruto = process.env) {
+  // Espaços e aspas coladas por engano no painel não podem derrubar a configuração.
+  const env = Object.fromEntries(Object.entries(envBruto).map(([k, v]) => [k, typeof v === 'string' ? v.trim().replace(/^["']|["']$/g, '').trim() : v]));
   const producao = env.NODE_ENV === 'production';
   return {
     producao,
