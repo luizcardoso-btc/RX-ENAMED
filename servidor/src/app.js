@@ -81,7 +81,7 @@ export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ b
       ...(config.producao ? { 'Strict-Transport-Security': 'max-age=63072000; includeSubDomains; preload' } : {}),
     });
     // Em produção, tudo por HTTPS.
-    if (config.producao && req.get('x-forwarded-proto') === 'http') return res.redirect(301, `https://${req.get('host')}${req.originalUrl}`);
+    if (config.producao && req.get('x-forwarded-proto') === 'http' && req.path !== '/api/saude') return res.redirect(301, `https://${req.get('host')}${req.originalUrl}`);
     next();
   });
   app.get('/api/saude', async (_req, res) => {

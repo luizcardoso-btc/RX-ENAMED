@@ -6,7 +6,9 @@ import { criarApp } from './app.js';
 import { criarCorreio } from './email.js';
 import { rodarRotinas } from './rotinas.js';
 
+process.on('unhandledRejection', (e) => { console.error('ERRO AO INICIAR:', e?.message || e); process.exit(1); });
 const config = carregarConfig();
+console.log(`iniciando: NODE_ENV=${process.env.NODE_ENV || '-'} PORT=${config.porta} URL_BASE=${config.urlBase} banco=${config.bancoUrl ? 'configurado' : 'FALTANDO'}`);
 for (const aviso of conferirProducao(config)) console.warn(`aviso: ${aviso}`);
 const banco = criarBanco(config.bancoUrl, { ssl: config.bancoSsl });
 const aplicadas = await migrar(banco);
