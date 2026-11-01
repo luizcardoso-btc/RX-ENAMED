@@ -56,7 +56,7 @@ try {
   await p.getByRole('heading', { level: 1 }).first().waitFor();
   await p.getByRole('navigation', { name: 'Secciones' }).waitFor();
   // Sair da área do aluno volta para a página inicial do site, no mesmo idioma.
-  await p.getByRole('link', { name: 'Salir' }).click();
+  await p.getByRole('button', { name: 'Salir' }).click();
   await p.waitForURL('http://site.local/es/index.html');
   // As provas não ficam mais abertas no site público.
   if (existsSync(`${dist}/provas`)) erros.push('site: a pasta provas/ não deveria existir');
