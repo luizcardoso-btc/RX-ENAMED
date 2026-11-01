@@ -9,13 +9,25 @@
 <link rel="stylesheet" href="/site.css">
 <link rel="stylesheet" href="/_rx/rx.css">
 </head>
-<body>
-<header class="rx-topo"><div class="envoltorio">
+<body class="pagina-login">
+<header class="rx-topo login-topo"><div class="envoltorio">
   <a class="marca" href="/"><span class="marca-simbolo" aria-hidden="true">RX</span><span>RX <em>ENAMED</em></span></a>
-  <nav id="nav"><a href="/planos.html">Planos</a></nav>
+  <nav id="nav"><a href="/">O curso</a><a href="/planos.html">Planos</a></nav>
 </div></header>
-<main class="envoltorio rx-pagina" style="max-width:440px">
-  <section class="rx-cartao">
+<main class="envoltorio login-grade">
+  <section class="login-apresentacao" aria-hidden="false">
+    <span class="login-sobre">Área do aluno · ENAMED e Revalida</span>
+    <p class="login-chamada">Sua preparação, <span>no raio-x.</span></p>
+    <p class="login-texto">Entre para continuar seu desafio diário, ver seu cronograma da semana e acompanhar sua evolução até a prova.</p>
+    <ul class="login-beneficios">
+      <li><span class="login-check" aria-hidden="true"></span><span><strong>700 questões oficiais do Inep</strong>, 646 comentadas alternativa por alternativa</span></li>
+      <li><span class="login-check" aria-hidden="true"></span><span><strong>Desafio diário</strong> com sequência e bônus de XP</span></li>
+      <li><span class="login-check" aria-hidden="true"></span><span><strong>Cronograma que se adapta</strong> ao seu desempenho e ao seu tempo</span></li>
+      <li><span class="login-check" aria-hidden="true"></span><span><strong>2ª etapa</strong> com paciente simulado por IA</span></li>
+    </ul>
+    <p class="login-seguro"><span aria-hidden="true">🔒</span> Conexão protegida. Seus dados seguem a LGPD.</p>
+  </section>
+  <section class="rx-cartao login-cartao">
     <h1 style="font-family:var(--f-display);margin-top:0" id="titulo">Entrar</h1>
     <p class="rx-mudo rx-oculto" id="subtitulo">A área do aluno é pessoal: crie sua conta grátis (25 questões por dia, desafio diário e Raio-X) ou entre com a sua.</p>
     <div class="rx-abas duas" role="group">
@@ -25,7 +37,7 @@
     <form id="form" novalidate>
       <label class="rx-campo rx-oculto" id="campo-nome"><span>Nome completo</span><input name="nome" autocomplete="name"></label>
       <label class="rx-campo"><span>E-mail</span><input name="email" type="email" autocomplete="email" required></label>
-      <label class="rx-campo"><span>Senha</span><input name="senha" type="password" autocomplete="current-password" required></label>
+      <label class="rx-campo"><span>Senha</span><span class="campo-senha"><input name="senha" type="password" autocomplete="current-password" required><button type="button" class="mostrar-senha" id="mostrar-senha" aria-label="Mostrar senha" aria-pressed="false">Mostrar</button></span></label>
       <p class="rx-mudo rx-oculto" id="dica-senha">Mínimo de 10 caracteres, com letras e pelo menos um número ou símbolo.</p>
       <label class="rx-aceite rx-oculto" id="campo-aceite"><input type="checkbox" name="aceite"> <span>Li e aceito os <a href="/termos" target="_blank">Termos de Uso</a> e a <a href="/privacidade" target="_blank">Política de Privacidade</a>.</span></label>
       <p class="rx-erro rx-oculto" id="erro" role="alert"></p>
@@ -64,6 +76,14 @@ for (const b of document.querySelectorAll('[data-modo]')) b.addEventListener('cl
 // Vindo da área do aluno sem conta: abre direto no cadastro.
 if (params.get('modo') === 'cadastro') document.querySelector('[data-modo=cadastro]').click();
 if (destino && destino.startsWith('/plataforma')) $('#subtitulo').classList.remove('rx-oculto');
+$('#mostrar-senha').addEventListener('click', (e) => {
+  const campo = $('#form [name=senha]');
+  const ver = campo.type === 'password';
+  campo.type = ver ? 'text' : 'password';
+  e.currentTarget.textContent = ver ? 'Ocultar' : 'Mostrar';
+  e.currentTarget.setAttribute('aria-pressed', String(ver));
+  e.currentTarget.setAttribute('aria-label', ver ? 'Ocultar senha' : 'Mostrar senha');
+});
 $('#form-2fa').addEventListener('submit', async (e) => {
   e.preventDefault();
   try { await api('/2fa/verificar', { metodo: 'POST', corpo: Object.fromEntries(new FormData(e.target)) }); location.href = seguro; }
