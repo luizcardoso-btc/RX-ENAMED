@@ -1,0 +1,78 @@
+{
+  "id": "cm-02-diabetes",
+  "area": "Clínica Médica",
+  "especialidade": "Endocrinologia",
+  "titulo": "Exames alterados na UBS",
+  "tema": "Diabetes mellitus tipo 2: diagnóstico e início do tratamento",
+  "mentor": "caio",
+  "duracaoMin": 10,
+  "cenario": "Consultório de Unidade Básica de Saúde. A paciente retorna para mostrar exames pedidos na consulta anterior de rotina.",
+  "tarefas": [
+    "Realize a anamnese dirigida.",
+    "Interprete os exames trazidos e solicite o exame físico.",
+    "Estabeleça o diagnóstico.",
+    "Proponha o plano terapêutico e o rastreamento de complicações, e oriente a paciente."
+  ],
+  "paciente": {
+    "nome": "Maria Aparecida Souza",
+    "idade": 52,
+    "sexo": "feminino",
+    "ocupacao": "cozinheira de restaurante",
+    "perfil": "Simpática, falante, um pouco assustada com a palavra diabetes porque a mãe amputou um pé. Tem medo de precisar de insulina.",
+    "abertura": "Bom dia, doutor. Trouxe os exames que o senhor pediu. A moça do laboratório disse que o açúcar deu alto.",
+    "roteiro": [
+      {"topico": "Sintomas", "resposta": "Ando com muita sede e levanto à noite para fazer xixi umas duas vezes. Achei que era o calor da cozinha."},
+      {"topico": "Peso", "resposta": "Engordei uns 8 quilos nos últimos dois anos."},
+      {"topico": "Visão e formigamento", "resposta": "A vista às vezes embaça no fim do dia. Formigamento nos pés não tenho."},
+      {"topico": "Feridas", "resposta": "Não tenho ferida que demora a sarar."},
+      {"topico": "Alimentação", "resposta": "Belisco o dia todo no trabalho. Tomo refrigerante no almoço e no jantar."},
+      {"topico": "Atividade física", "resposta": "Não faço nada. Chego cansada em casa."},
+      {"topico": "Doenças", "resposta": "Só a pressão que o senhor mediu no limite da outra vez."},
+      {"topico": "Medicamentos", "resposta": "Não tomo remédio nenhum."},
+      {"topico": "Gestações", "resposta": "Tive três filhos. No último a médica falou que o açúcar subiu na gravidez."},
+      {"topico": "História familiar", "resposta": "Minha mãe era diabética e cortou o pé direito. Meu irmão também tem diabetes."},
+      {"topico": "Tabagismo e álcool", "resposta": "Não fumo. Bebo só em festa."}
+    ],
+    "perguntasDoPaciente": ["Vou ter que tomar insulina?", "Vou perder o pé igual minha mãe?"],
+    "seNaoSouber": "Diga que não sabe ou que nunca reparou."
+  },
+  "exameFisico": [
+    {"item": "Antropometria", "achado": "Peso 82 kg, altura 1,63 m, IMC 30,9 kg/m², circunferência abdominal 104 cm."},
+    {"item": "Sinais vitais", "achado": "PA 128 x 82 mmHg, FC 76 bpm."},
+    {"item": "Exame dos pés", "achado": "Pele íntegra, sem calosidades. Pulsos pediosos e tibiais posteriores presentes. Sensibilidade ao monofilamento de 10 g preservada."},
+    {"item": "Pele", "achado": "Acantose nigricans em região cervical posterior."},
+    {"item": "Demais sistemas", "achado": "Sem alterações."}
+  ],
+  "exames": [
+    {"item": "Glicemia de jejum (duas coletas em dias diferentes)", "resultado": "142 mg/dL e 138 mg/dL."},
+    {"item": "Hemoglobina glicada (HbA1c)", "resultado": "7,4%."},
+    {"item": "Creatinina", "resultado": "0,8 mg/dL (TFG estimada maior que 90 mL/min/1,73 m²)."},
+    {"item": "Colesterol total e frações", "resultado": "Colesterol total 232 mg/dL, LDL 148 mg/dL, HDL 38 mg/dL, triglicerídeos 230 mg/dL."},
+    {"item": "Urina tipo I", "resultado": "Sem alterações; glicosúria 1+."}
+  ],
+  "diagnostico": "Diabetes mellitus tipo 2 (duas glicemias de jejum maiores ou iguais a 126 mg/dL e HbA1c maior ou igual a 6,5%), com obesidade e dislipidemia.",
+  "condutaEsperada": [
+    "Comunicar o diagnóstico com linguagem simples e acolher o medo.",
+    "Mudança de estilo de vida: plano alimentar, redução de bebidas açucaradas, atividade física de pelo menos 150 minutos por semana, meta de perda de peso.",
+    "Iniciar metformina 500 mg uma a duas vezes ao dia com as refeições, aumentando a dose de forma gradual conforme tolerância.",
+    "Estatina pela idade e pelo diabetes (prevenção cardiovascular).",
+    "Rastrear complicações: albuminúria (relação albumina/creatinina), fundoscopia anual, exame dos pés em toda consulta.",
+    "Retorno em cerca de 3 meses com nova HbA1c; meta individualizada em torno de 7%."
+  ],
+  "pep": [
+    {"id": "apresentacao", "item": "Apresenta-se e explica o objetivo da consulta.", "peso": 0.5},
+    {"id": "sintomas", "item": "Pergunta sintomas de hiperglicemia (poliúria, polidipsia, perda ou ganho de peso, visão turva).", "peso": 1},
+    {"id": "habitos", "item": "Investiga alimentação e atividade física.", "peso": 1},
+    {"id": "antecedentes", "item": "Investiga antecedentes pessoais (diabetes gestacional, hipertensão) e familiares.", "peso": 0.5},
+    {"id": "exame-pes", "item": "Solicita exame físico com IMC, circunferência abdominal, PA e exame dos pés.", "peso": 1},
+    {"id": "diagnostico", "item": "Diagnostica diabetes tipo 2 justificando pelos critérios (glicemia de jejum e HbA1c).", "peso": 1.5},
+    {"id": "mev", "item": "Orienta mudança de estilo de vida de forma concreta.", "peso": 1},
+    {"id": "metformina", "item": "Prescreve metformina com dose inicial e orientação de tomar junto às refeições.", "peso": 1.5},
+    {"id": "complicacoes", "item": "Solicita rastreamento de complicações (albuminúria, fundoscopia) e considera estatina.", "peso": 1},
+    {"id": "acolhimento", "item": "Responde às dúvidas da paciente sobre insulina e amputação sem falsas promessas e combina retorno.", "peso": 1}
+  ],
+  "referencias": [
+    "Diretriz da Sociedade Brasileira de Diabetes",
+    "Caderno de Atenção Básica nº 36: Estratégias para o cuidado da pessoa com doença crônica: diabetes mellitus"
+  ]
+}

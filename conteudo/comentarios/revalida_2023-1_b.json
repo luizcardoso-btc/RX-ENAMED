@@ -1,0 +1,402 @@
+{
+ "revalida_2023-1_q022": {
+  "pt": {
+   "resumo": "Nódulo indolor na face interna da pálpebra, que restou após um episódio inflamatório, é o calázio: inflamação granulomatosa crônica de uma glândula de Meibomius obstruída.",
+   "alternativas": {
+    "A": "Correta: nódulo palpebral indolor e crônico.",
+    "B": "Hordéolo é agudo, doloroso e com sinais de infecção, como no episódio inicial que já se resolveu.",
+    "C": "Canaliculite acomete o canalículo lacrimal, com secreção no ponto lacrimal.",
+    "D": "Dacriocistite causa dor e edema no canto medial, sobre o saco lacrimal."
+   }
+  },
+  "es": {
+   "resumo": "Un nódulo indoloro en la cara interna del párpado, que quedó tras un episodio inflamatorio, es el chalazión: inflamación granulomatosa crónica de una glándula de Meibomio obstruida.",
+   "alternativas": {
+    "A": "Correcta: nódulo palpebral indoloro y crónico.",
+    "B": "El orzuelo es agudo, doloroso y con signos de infección, como el episodio inicial que ya se resolvió.",
+    "C": "La canaliculitis afecta el canalículo lagrimal, con secreción por el punto lagrimal.",
+    "D": "La dacriocistitis causa dolor y edema en el canto medial, sobre el saco lagrimal."
+   }
+  }
+ },
+ "revalida_2023-1_q023": {
+  "pt": {
+   "resumo": "Placa eritematosa e pruriginosa no local do piercing (níquel) é dermatite de contato. Baixa estatura, pescoço alado, implantação baixa das orelhas e ausência de puberdade aos 16 anos (M1P1, amenorreia primária) indicam síndrome de Turner.",
+   "alternativas": {
+    "A": "Tinea forma placa anular de borda ativa; síndrome de Kabuki tem fácies própria e não causa falência ovariana.",
+    "B": "Dermatite atópica é crônica e em dobras; Noonan pode ter pescoço alado, mas a puberdade costuma ocorrer.",
+    "C": "Correta: dermatite de contato pelo piercing e síndrome de Turner.",
+    "D": "Dermatite seborreica acomete áreas oleosas; Carpenter tem craniossinostose e sindactilia."
+   }
+  },
+  "es": {
+   "resumo": "Una placa eritematosa y pruriginosa en el sitio del piercing (níquel) es dermatitis de contacto. Talla baja, cuello alado, implantación baja de las orejas y ausencia de pubertad a los 16 años (M1P1, amenorrea primaria) indican síndrome de Turner.",
+   "alternativas": {
+    "A": "La tiña forma una placa anular de borde activo; el síndrome de Kabuki tiene facies propia y no causa falla ovárica.",
+    "B": "La dermatitis atópica es crónica y en pliegues; Noonan puede tener cuello alado, pero la pubertad suele ocurrir.",
+    "C": "Correcta: dermatitis de contacto por el piercing y síndrome de Turner.",
+    "D": "La dermatitis seborreica afecta zonas grasas; Carpenter tiene craneosinostosis y sindactilia."
+   }
+  }
+ },
+ "revalida_2023-1_q024": {
+  "pt": {
+   "resumo": "Metaplasia escamosa, alterações inflamatórias e bacilos de Döderlein são achados benignos, considerados citologia normal. Após dois exames anuais normais, a citologia passa a ser repetida a cada 3 anos.",
+   "alternativas": {
+    "A": "Não há lesão para cauterizar.",
+    "B": "Correta: com dois exames anuais normais, o intervalo passa a 3 anos.",
+    "C": "Repetir em 6 meses vale para atipias como ASC-US ou LSIL.",
+    "D": "Lactobacilos são flora normal; não há vaginose para tratar."
+   }
+  },
+  "es": {
+   "resumo": "Metaplasia escamosa, alteraciones inflamatorias y bacilos de Döderlein son hallazgos benignos, considerados citología normal. Tras dos exámenes anuales normales, la citología se repite cada 3 años.",
+   "alternativas": {
+    "A": "No hay lesión que cauterizar.",
+    "B": "Correcta: con dos exámenes anuales normales, el intervalo pasa a 3 años.",
+    "C": "Repetir a los 6 meses vale para atipias como ASC-US o LSIL.",
+    "D": "Los lactobacilos son flora normal; no hay vaginosis que tratar."
+   }
+  }
+ },
+ "revalida_2023-1_q025": {
+  "pt": {
+   "resumo": "Na maioria dos casos de abuso sexual infantil o agressor é alguém conhecido ou da família, o que facilita o segredo e a repetição. A equipe deve acolher, notificar e acionar o Conselho Tutelar.",
+   "alternativas": {
+    "A": "Correta: o agressor costuma ser conhecido ou familiar.",
+    "B": "Meninas são as vítimas mais frequentes; o subregistro em meninos não inverte essa proporção.",
+    "C": "O abuso na infância tem repercussões importantes na vida adulta.",
+    "D": "A equipe tem obrigação de notificar e acionar a rede de proteção, não só tratar lesões."
+   }
+  },
+  "es": {
+   "resumo": "En la mayoría de los casos de abuso sexual infantil el agresor es un conocido o un familiar, lo que facilita el secreto y la repetición. El equipo debe acoger, notificar y avisar al Consejo Tutelar.",
+   "alternativas": {
+    "A": "Correcta: el agresor suele ser un conocido o un familiar.",
+    "B": "Las niñas son las víctimas más frecuentes; el subregistro en varones no invierte la proporción.",
+    "C": "El abuso en la infancia tiene repercusiones importantes en la vida adulta.",
+    "D": "El equipo está obligado a notificar y activar la red de protección, no solo a tratar lesiones."
+   }
+  }
+ },
+ "revalida_2023-1_q026": {
+  "pt": {
+   "resumo": "Anorexia nervosa com IMC de 14,8, bradicardia de 42 bpm, hipotensão postural e desidratação tem critérios de instabilidade clínica. A paciente deve ser encaminhada a hospital para avaliação de internação e realimentação monitorada.",
+   "alternativas": {
+    "A": "Correta: sinais de gravidade indicam avaliação hospitalar para internar.",
+    "B": "Topiramato não trata anorexia e ainda reduz o apetite.",
+    "C": "Amitriptilina pode piorar a bradicardia e causar arritmias; não resolve a urgência clínica.",
+    "D": "Encaminhar a ambulatório atrasa o cuidado de uma paciente instável."
+   }
+  },
+  "es": {
+   "resumo": "Anorexia nerviosa con IMC de 14,8, bradicardia de 42 lpm, hipotensión postural y deshidratación cumple criterios de inestabilidad clínica. La paciente debe derivarse al hospital para evaluar internación y realimentación monitorizada.",
+   "alternativas": {
+    "A": "Correcta: los signos de gravedad indican evaluación hospitalaria para internar.",
+    "B": "El topiramato no trata la anorexia y además reduce el apetito.",
+    "C": "La amitriptilina puede empeorar la bradicardia y causar arritmias; no resuelve la urgencia clínica.",
+    "D": "Derivar a consultorio retrasa la atención de una paciente inestable."
+   }
+  }
+ },
+ "revalida_2023-1_q027": {
+  "pt": {
+   "resumo": "Citologia Bethesda V (suspeita de malignidade) tem risco de câncer de cerca de 60 a 75%. A conduta é cirurgia da tireoide, sem necessidade de nova punção ou cintilografia.",
+   "alternativas": {
+    "A": "Correta: Bethesda V indica tratamento cirúrgico.",
+    "B": "Repetir a punção é para Bethesda I (insatisfatória) ou III.",
+    "C": "Cintilografia avalia nódulo com TSH baixo; aqui a função é normal e a citologia já é suspeita.",
+    "D": "Seguimento ultrassonográfico é para Bethesda II (benigno)."
+   }
+  },
+  "es": {
+   "resumo": "La citología Bethesda V (sospechosa de malignidad) tiene un riesgo de cáncer de cerca del 60 al 75 %. La conducta es la cirugía de tiroides, sin necesidad de nueva punción ni gammagrafía.",
+   "alternativas": {
+    "A": "Correcta: Bethesda V indica tratamiento quirúrgico.",
+    "B": "Repetir la punción es para Bethesda I (insatisfactoria) o III.",
+    "C": "La gammagrafía evalúa nódulos con TSH baja; aquí la función es normal y la citología ya es sospechosa.",
+    "D": "El seguimiento ecográfico es para Bethesda II (benigno)."
+   }
+  }
+ },
+ "revalida_2023-1_q028": {
+  "pt": {
+   "resumo": "Pródromo viral, tosse e estridor em repouso com tiragem em criança de 2 anos é crupe viral moderado. O tratamento é dexametasona e nebulização com epinefrina (adrenalina) pelo estridor em repouso.",
+   "alternativas": {
+    "A": "Salmeterol não age no edema subglótico e crupe não pede antibiótico.",
+    "B": "Salbutamol trata broncoespasmo, que não é o mecanismo do crupe.",
+    "C": "Correta: dexametasona e epinefrina nebulizada.",
+    "D": "Soro fisiológico nebulizado não reduz o edema de via aérea."
+   }
+  },
+  "es": {
+   "resumo": "Pródromo viral, tos y estridor en reposo con tiraje en un niño de 2 años es crup viral moderado. El tratamiento es dexametasona y nebulización con epinefrina (adrenalina) por el estridor en reposo.",
+   "alternativas": {
+    "A": "El salmeterol no actúa sobre el edema subglótico y el crup no requiere antibiótico.",
+    "B": "El salbutamol trata el broncoespasmo, que no es el mecanismo del crup.",
+    "C": "Correcta: dexametasona y epinefrina nebulizada.",
+    "D": "La solución salina nebulizada no reduce el edema de la vía aérea."
+   }
+  }
+ },
+ "revalida_2023-1_q029": {
+  "pt": {
+   "resumo": "Condilomas planos genitais e lesões papulosas acastanhadas em palmas e plantas com VDRL positivo são sífilis secundária, forma recente. O tratamento é penicilina benzatina 2.400.000 UI IM em dose única.",
+   "alternativas": {
+    "A": "Sífilis primária é o cancro duro, úlcera indolor única, sem lesões palmoplantares.",
+    "B": "Correta: sífilis secundária, dose única de 2,4 milhões de UI.",
+    "C": "Latente não tem lesões; aqui há lesões ativas.",
+    "D": "Latente recente também não tem lesões, e o esquema de 3 semanas é para formas tardias."
+   }
+  },
+  "es": {
+   "resumo": "Condilomas planos genitales y lesiones papulosas pardas en palmas y plantas con VDRL positivo son sífilis secundaria, forma reciente. El tratamiento es penicilina benzatínica 2.400.000 UI IM en dosis única.",
+   "alternativas": {
+    "A": "La sífilis primaria es el chancro duro, úlcera indolora única, sin lesiones palmoplantares.",
+    "B": "Correcta: sífilis secundaria, dosis única de 2,4 millones de UI.",
+    "C": "La latente no tiene lesiones; aquí hay lesiones activas.",
+    "D": "La latente reciente tampoco tiene lesiones, y el esquema de 3 semanas es para las formas tardías."
+   }
+  }
+ },
+ "revalida_2023-1_q030": {
+  "pt": {
+   "resumo": "Paciente estável com esquizofrenia não pode ficar sem antipsicótico. A UBS renova a receita, faz o cuidado compartilhado com apoio multiprofissional (eNASF) e inicia medidas para a síndrome metabólica (diabetes, dislipidemia e obesidade), comum com antipsicóticos.",
+   "alternativas": {
+    "A": "Suspender o antipsicótico arrisca recaída; a APS pode renovar a receita.",
+    "B": "Sulfonilureia aumenta peso e hipoglicemia; não é a escolha e não basta.",
+    "C": "Correta: renovar, cuidado multiprofissional e controle metabólico.",
+    "D": "Encaminhar só para renovar a receita fragmenta o cuidado e atrasa o tratamento."
+   }
+  },
+  "es": {
+   "resumo": "Un paciente estable con esquizofrenia no puede quedarse sin antipsicótico. La UBS renueva la receta, hace el cuidado compartido con apoyo multiprofesional (eNASF) e inicia medidas para el síndrome metabólico (diabetes, dislipidemia y obesidad), frecuente con antipsicóticos.",
+   "alternativas": {
+    "A": "Suspender el antipsicótico arriesga una recaída; la APS puede renovar la receta.",
+    "B": "La sulfonilurea aumenta peso e hipoglucemia; no es la elección y no basta.",
+    "C": "Correcta: renovar, cuidado multiprofesional y control metabólico.",
+    "D": "Derivar solo para renovar la receta fragmenta el cuidado y retrasa el tratamiento."
+   }
+  }
+ },
+ "revalida_2023-1_q031": {
+  "pt": {
+   "resumo": "Líquido turvo e dor abdominal em diálise peritoneal sugerem peritonite associada à diálise. Peritonite por Pseudomonas tem alta taxa de falha e, segundo o gabarito, exige retirada do cateter junto com antibiótico.",
+   "alternativas": {
+    "A": "Dor e líquido turvo são comuns, mas febre não é rara nesses quadros.",
+    "B": "O critério citológico é mais de 100 leucócitos/µL com mais de 50% de neutrófilos, não 250.",
+    "C": "A própria CAPD causa hiperglicemia (glicose do dialisato) e perda de albumina.",
+    "D": "Correta segundo o gabarito: Pseudomonas indica retirada do cateter."
+   }
+  },
+  "es": {
+   "resumo": "Líquido turbio y dolor abdominal en diálisis peritoneal sugieren peritonitis asociada a diálisis. La peritonitis por Pseudomonas tiene alta tasa de fracaso y, según la clave, exige retirar el catéter junto con el antibiótico.",
+   "alternativas": {
+    "A": "El dolor y el líquido turbio son comunes, pero la fiebre no es rara en estos cuadros.",
+    "B": "El criterio citológico es más de 100 leucocitos/µL con más del 50 % de neutrófilos, no 250.",
+    "C": "La propia DPCA causa hiperglucemia (glucosa del dializado) y pérdida de albúmina.",
+    "D": "Correcta según la clave: Pseudomonas indica retirar el catéter."
+   }
+  }
+ },
+ "revalida_2023-1_q032": {
+  "pt": {
+   "resumo": "Empiema é derrame pleural purulento ou com critérios de derrame complicado: pH abaixo de 7,2, glicose abaixo de 60 mg/dL e LDH acima de 1.000 UI. Das opções, só a LDH elevada é compatível.",
+   "alternativas": {
+    "A": "No empiema o pH é menor que 7,2.",
+    "B": "Correta: LDH acima de 1.000 UI.",
+    "C": "A glicose cai abaixo de 60 mg/dL pelo consumo bacteriano.",
+    "D": "Empiema é exsudato, com proteína elevada."
+   }
+  },
+  "es": {
+   "resumo": "El empiema es un derrame pleural purulento o con criterios de derrame complicado: pH menor de 7,2, glucosa menor de 60 mg/dL y LDH mayor de 1.000 UI. De las opciones, solo la LDH elevada es compatible.",
+   "alternativas": {
+    "A": "En el empiema el pH es menor de 7,2.",
+    "B": "Correcta: LDH mayor de 1.000 UI.",
+    "C": "La glucosa baja de 60 mg/dL por el consumo bacteriano.",
+    "D": "El empiema es un exudado, con proteínas elevadas."
+   }
+  }
+ },
+ "revalida_2023-1_q033": {
+  "pt": {
+   "resumo": "Poliúria com enurese, polifagia, perda de peso, vômitos e respiração de Kussmaul indicam diabetes tipo 1 com cetoacidose. É doença crônica que exige insulina por toda a vida, e o apoio familiar é central no controle e na prevenção de complicações.",
+   "alternativas": {
+    "A": "Correta: doença crônica em que o apoio da família é essencial.",
+    "B": "Desmopressina e alarme tratam enurese primária, não diabetes.",
+    "C": "A lua de mel dura meses, não décadas, e a insulina volta a ser necessária.",
+    "D": "No tipo 1 a insulina é indispensável; estilo de vida não substitui o tratamento."
+   }
+  },
+  "es": {
+   "resumo": "Poliuria con enuresis, polifagia, pérdida de peso, vómitos y respiración de Kussmaul indican diabetes tipo 1 con cetoacidosis. Es una enfermedad crónica que exige insulina de por vida, y el apoyo familiar es central para el control y la prevención de complicaciones.",
+   "alternativas": {
+    "A": "Correcta: enfermedad crónica en la que el apoyo de la familia es esencial.",
+    "B": "La desmopresina y la alarma tratan la enuresis primaria, no la diabetes.",
+    "C": "La luna de miel dura meses, no décadas, y la insulina vuelve a ser necesaria.",
+    "D": "En el tipo 1 la insulina es indispensable; el estilo de vida no sustituye el tratamiento."
+   }
+  }
+ },
+ "revalida_2023-1_q034": {
+  "pt": {
+   "resumo": "Mutação da MTHFR, mesmo homozigótica, não aumenta de forma relevante o risco de trombose ou de perda gestacional e não é considerada trombofilia. Um único aborto precoce também não indica investigação. O pré-natal segue habitual.",
+   "alternativas": {
+    "A": "Correta: MTHFR isolada não muda a conduta.",
+    "B": "Não há indicação de investigar trombofilia por um aborto único precoce.",
+    "C": "AAS com heparina não se justifica sem trombofilia ou SAF.",
+    "D": "SAF obstétrica exige três ou mais perdas precoces, entre outros critérios."
+   }
+  },
+  "es": {
+   "resumo": "La mutación de la MTHFR, incluso homocigota, no aumenta de forma relevante el riesgo de trombosis ni de pérdida gestacional y no se considera trombofilia. Un único aborto precoz tampoco indica estudio. El control prenatal sigue siendo habitual.",
+   "alternativas": {
+    "A": "Correcta: la MTHFR aislada no cambia la conducta.",
+    "B": "No hay indicación de estudiar trombofilia por un único aborto precoz.",
+    "C": "AAS con heparina no se justifica sin trombofilia ni SAF.",
+    "D": "El SAF obstétrico exige tres o más pérdidas precoces, entre otros criterios."
+   }
+  }
+ },
+ "revalida_2023-1_q036": {
+  "pt": {
+   "resumo": "Dor difusa crônica acima e abaixo da cintura, fadiga, depressão, disfunção temporomandibular, intestino irritável, pontos dolorosos típicos e exames normais (hemograma, PCR, VHS, tireoide) definem fibromialgia.",
+   "alternativas": {
+    "A": "Correta: dor difusa com pontos dolorosos e exames normais.",
+    "B": "TSH e T4 livre normais excluem hipotireoidismo subclínico.",
+    "C": "Fibromialgia é síndrome reconhecida, não transtorno psicossomático.",
+    "D": "A depressão é comorbidade, mas não explica os pontos dolorosos e a dor difusa."
+   }
+  },
+  "es": {
+   "resumo": "Dolor difuso crónico por encima y por debajo de la cintura, fatiga, depresión, disfunción temporomandibular, colon irritable, puntos dolorosos típicos y exámenes normales (hemograma, PCR, VSG, tiroides) definen la fibromialgia.",
+   "alternativas": {
+    "A": "Correcta: dolor difuso con puntos dolorosos y exámenes normales.",
+    "B": "TSH y T4 libre normales excluyen el hipotiroidismo subclínico.",
+    "C": "La fibromialgia es un síndrome reconocido, no un trastorno psicosomático.",
+    "D": "La depresión es una comorbilidad, pero no explica los puntos dolorosos ni el dolor difuso."
+   }
+  }
+ },
+ "revalida_2023-1_q037": {
+  "pt": {
+   "resumo": "Trauma torácico com hipotensão, taquicardia e turgência jugular, com murmúrio presente dos dois lados (afasta pneumotórax hipertensivo), é tamponamento cardíaco. Garantida a via aérea, faz-se pericardiocentese como ponte para a cirurgia.",
+   "alternativas": {
+    "A": "Drenagem pleural trata hemotórax ou pneumotórax, ausentes com murmúrio bilateral.",
+    "B": "Correta: via aérea e pericardiocentese.",
+    "C": "Ultrassom confirma, mas não trata o choque obstrutivo.",
+    "D": "Cricotireoidostomia não tem indicação, e toracotomia de reanimação é para parada."
+   }
+  },
+  "es": {
+   "resumo": "Trauma torácico con hipotensión, taquicardia e ingurgitación yugular, con murmullo presente en ambos lados (descarta neumotórax a tensión), es taponamiento cardíaco. Asegurada la vía aérea, se hace pericardiocentesis como puente a la cirugía.",
+   "alternativas": {
+    "A": "El drenaje pleural trata hemotórax o neumotórax, ausentes con murmullo bilateral.",
+    "B": "Correcta: vía aérea y pericardiocentesis.",
+    "C": "La ecografía confirma, pero no trata el shock obstructivo.",
+    "D": "La cricotiroidotomía no está indicada, y la toracotomía de reanimación es para el paro."
+   }
+  }
+ },
+ "revalida_2023-1_q039": {
+  "pt": {
+   "resumo": "Pré-eclâmpsia em gestação anterior é fator de alto risco. A prevenção é ácido acetilsalicílico em baixa dose, iniciado entre 12 e 16 semanas, que reduz a recorrência e melhora o prognóstico materno e perinatal.",
+   "alternativas": {
+    "A": "PA de 135 × 83 não pede anti-hipertensivo, e hidralazina oral não é escolha de manutenção.",
+    "B": "Metildopa trata hipertensão estabelecida, ausente aqui.",
+    "C": "Correta: AAS 100 mg ao dia na gestante de alto risco.",
+    "D": "Enoxaparina em dose terapêutica não tem indicação sem trombose ou SAF."
+   }
+  },
+  "es": {
+   "resumo": "La preeclampsia en un embarazo anterior es un factor de alto riesgo. La prevención es ácido acetilsalicílico en dosis baja, iniciado entre las 12 y 16 semanas, que reduce la recurrencia y mejora el pronóstico materno y perinatal.",
+   "alternativas": {
+    "A": "Una PA de 135 × 83 no requiere antihipertensivo, y la hidralazina oral no es la elección de mantenimiento.",
+    "B": "La metildopa trata hipertensión establecida, ausente aquí.",
+    "C": "Correcta: AAS 100 mg al día en la gestante de alto riesgo.",
+    "D": "La enoxaparina en dosis terapéutica no está indicada sin trombosis ni SAF."
+   }
+  }
+ },
+ "revalida_2023-1_q040": {
+  "pt": {
+   "resumo": "HBsAg e anti-HBc não reagentes com anti-HBs reagente indicam imunidade por vacinação. Não há infecção nem necessidade de vacinar; o pré-natal segue na unidade.",
+   "alternativas": {
+    "A": "Hepatite aguda teria HBsAg e anti-HBc IgM reagentes.",
+    "B": "Hepatite crônica teria HBsAg reagente por mais de 6 meses.",
+    "C": "Suscetível teria anti-HBs não reagente.",
+    "D": "Correta: imunidade vacinal, sem motivo de preocupação."
+   }
+  },
+  "es": {
+   "resumo": "HBsAg y anti-HBc no reactivos con anti-HBs reactivo indican inmunidad por vacunación. No hay infección ni necesidad de vacunar; el control prenatal sigue en la unidad.",
+   "alternativas": {
+    "A": "La hepatitis aguda tendría HBsAg y anti-HBc IgM reactivos.",
+    "B": "La hepatitis crónica tendría HBsAg reactivo por más de 6 meses.",
+    "C": "La persona susceptible tendría anti-HBs no reactivo.",
+    "D": "Correcta: inmunidad vacunal, sin motivo de preocupación."
+   }
+  }
+ },
+ "revalida_2023-1_q041": {
+  "pt": {
+   "resumo": "Febre, cefaleia e sinais meníngeos sem déficit focal, sem papiledema e com consciência preservada permitem punção lombar imediata. A bioquímica e a citologia do líquor distinguem meningite bacteriana de viral e orientam o tratamento.",
+   "alternativas": {
+    "A": "Não há contraindicação à punção lombar; a suboccipital não é rotina.",
+    "B": "Pneumococo é diplococo Gram-positivo, não bastonete Gram-negativo.",
+    "C": "Correta: punção com bioquímica para diferenciar bacteriana de viral.",
+    "D": "Imagem antes da punção só com déficit focal, papiledema, rebaixamento, convulsão ou imunossupressão."
+   }
+  },
+  "es": {
+   "resumo": "Fiebre, cefalea y signos meníngeos sin déficit focal, sin papiledema y con conciencia preservada permiten la punción lumbar inmediata. La bioquímica y la citología del LCR distinguen meningitis bacteriana de viral y orientan el tratamiento.",
+   "alternativas": {
+    "A": "No hay contraindicación a la punción lumbar; la suboccipital no es de rutina.",
+    "B": "El neumococo es un diplococo grampositivo, no un bacilo gramnegativo.",
+    "C": "Correcta: punción con bioquímica para diferenciar bacteriana de viral.",
+    "D": "La imagen antes de la punción solo con déficit focal, papiledema, deterioro de conciencia, convulsión o inmunosupresión."
+   }
+  }
+ },
+ "revalida_2023-1_q043": {
+  "pt": {
+   "resumo": "pH 7,22 com bicarbonato de 12,5 é acidose metabólica (diarreia). A PaCO2 esperada pela fórmula de Winter seria cerca de 27 ± 2 mmHg; com PaCO2 de 48, há também acidose respiratória (hipoventilação no lactente comatoso). Acidose mista.",
+   "alternativas": {
+    "A": "Correta: acidose metabólica e respiratória ao mesmo tempo.",
+    "B": "Hiperventilação baixaria a PaCO2; ela está alta.",
+    "C": "O pH é ácido, então não há alcalose primária.",
+    "D": "Não existe alcalose respiratória com PaCO2 de 48 mmHg."
+   }
+  },
+  "es": {
+   "resumo": "pH 7,22 con bicarbonato de 12,5 es acidosis metabólica (diarrea). La PaCO2 esperada por la fórmula de Winter sería cerca de 27 ± 2 mmHg; con PaCO2 de 48 hay también acidosis respiratoria (hipoventilación en el lactante comatoso). Acidosis mixta.",
+   "alternativas": {
+    "A": "Correcta: acidosis metabólica y respiratoria a la vez.",
+    "B": "La hiperventilación bajaría la PaCO2; está alta.",
+    "C": "El pH es ácido, así que no hay alcalosis primaria.",
+    "D": "No hay alcalosis respiratoria con PaCO2 de 48 mmHg."
+   }
+  }
+ },
+ "revalida_2023-1_q044": {
+  "pt": {
+   "resumo": "Sepse neonatal precoce após bolsa rota e parto pré-termo de 36 semanas tem como agente principal o estreptococo do grupo B. O rastreio com cultura vaginal e retal entre 35 e 37 semanas e a profilaxia intraparto com penicilina previnem a doença.",
+   "alternativas": {
+    "A": "Correta: estreptococo β-hemolítico do grupo B.",
+    "B": "Clamídia causa conjuntivite e pneumonia afebril semanas após o parto, não sepse precoce em 36 horas.",
+    "C": "Não há rastreio pré-natal nem profilaxia intraparto para Staphylococcus aureus.",
+    "D": "E. coli também causa sepse precoce, mas não há rastreio pré-natal com profilaxia para ela."
+   }
+  },
+  "es": {
+   "resumo": "La sepsis neonatal precoz tras rotura de membranas y parto pretérmino de 36 semanas tiene como agente principal al estreptococo del grupo B. El tamizaje con cultivo vaginal y rectal entre las 35 y 37 semanas y la profilaxis intraparto con penicilina previenen la enfermedad.",
+   "alternativas": {
+    "A": "Correcta: estreptococo β-hemolítico del grupo B.",
+    "B": "La clamidia causa conjuntivitis y neumonía afebril semanas después del parto, no sepsis precoz a las 36 horas.",
+    "C": "No hay tamizaje prenatal ni profilaxis intraparto para Staphylococcus aureus.",
+    "D": "E. coli también causa sepsis precoz, pero no hay tamizaje prenatal con profilaxis para ella."
+   }
+  }
+ }
+}

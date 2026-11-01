@@ -1,0 +1,76 @@
+{
+  "id": "mfc-01-tuberculose",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Infectologia",
+  "titulo": "Tosse há um mês na UBS",
+  "tema": "Tuberculose pulmonar: diagnóstico, tratamento, notificação e contatos",
+  "mentor": "lia",
+  "duracaoMin": 10,
+  "cenario": "Unidade de Saúde da Família. O agente comunitário de saúde encaminhou o paciente após visita domiciliar. A unidade coleta escarro e tem acesso ao teste rápido molecular (TRM-TB) e à radiografia no município.",
+  "tarefas": [
+    "Realize a anamnese dirigida.",
+    "Solicite os exames para investigação.",
+    "Com o resultado, estabeleça o diagnóstico e o tratamento.",
+    "Oriente o paciente sobre as medidas de vigilância e o cuidado com a família."
+  ],
+  "paciente": {
+    "nome": "Antônio Pereira",
+    "idade": 45,
+    "sexo": "masculino",
+    "ocupacao": "pedreiro autônomo",
+    "perfil": "Desconfiado e preocupado com dinheiro: não pode parar de trabalhar. Tem vergonha da tosse e medo de passar para os filhos.",
+    "abertura": "O agente de saúde mandou eu vir aqui por causa dessa tosse que não passa.",
+    "roteiro": [
+      {"topico": "Tosse", "resposta": "Faz mais de um mês que tusso. No começo era seca, agora sai um catarro amarelado. Uma vez veio rajado de sangue."},
+      {"topico": "Febre", "resposta": "Sinto febre no fim da tarde, quase todo dia."},
+      {"topico": "Sudorese", "resposta": "Acordo de madrugada com a camisa molhada de suor."},
+      {"topico": "Peso", "resposta": "Perdi uns 6 quilos, a calça tá caindo."},
+      {"topico": "Falta de ar e dor", "resposta": "Um pouco de cansaço quando carrego peso. Dor no peito não."},
+      {"topico": "Contato com tuberculose", "resposta": "Um colega da obra tratou tuberculose no ano passado. A gente almoçava junto."},
+      {"topico": "Tabagismo e álcool", "resposta": "Fumo meio maço por dia. Bebo cerveja no fim de semana."},
+      {"topico": "HIV e outras doenças", "resposta": "Nunca fiz teste de HIV. Não tenho diabetes que eu saiba."},
+      {"topico": "Moradia e contatos", "resposta": "Moro numa casa de dois cômodos com minha esposa e dois filhos, de 8 e 15 anos."},
+      {"topico": "Tratamento anterior", "resposta": "Nunca tratei tuberculose."},
+      {"topico": "Medicamentos", "resposta": "Tomei xarope da farmácia, não adiantou."}
+    ],
+    "perguntasDoPaciente": ["Vou ter que ficar internado? Não posso parar de trabalhar.", "Meus filhos vão pegar?"],
+    "seNaoSouber": "Diga que não sabe."
+  },
+  "exameFisico": [
+    {"item": "Sinais vitais e antropometria", "achado": "Temperatura 37,6 °C, FC 96 bpm, FR 20 irpm, SatO2 95%, PA 120 x 80 mmHg. Peso 58 kg."},
+    {"item": "Estado geral", "achado": "Emagrecido, hipocorado 1+/4+."},
+    {"item": "Aparelho respiratório", "achado": "Estertores crepitantes em ápice do hemitórax direito."},
+    {"item": "Linfonodos", "achado": "Sem linfonodomegalias."}
+  ],
+  "exames": [
+    {"item": "Teste rápido molecular para tuberculose (TRM-TB) no escarro", "resultado": "Mycobacterium tuberculosis detectado; resistência à rifampicina não detectada."},
+    {"item": "Baciloscopia de escarro", "resultado": "2+ (BAAR positivo)."},
+    {"item": "Cultura de escarro com teste de sensibilidade", "resultado": "Coletada; resultado em algumas semanas."},
+    {"item": "Radiografia de tórax", "resultado": "Opacidade heterogênea com cavitação em lobo superior direito."},
+    {"item": "Teste rápido para HIV", "resultado": "Não reagente."}
+  ],
+  "diagnostico": "Tuberculose pulmonar bacilífera, caso novo, sensível à rifampicina.",
+  "condutaEsperada": [
+    "Esquema básico: 2 meses de rifampicina, isoniazida, pirazinamida e etambutol (RHZE) e 4 meses de rifampicina e isoniazida (RH), em comprimidos combinados com dose pelo peso (58 kg: 4 comprimidos na fase intensiva).",
+    "Notificação compulsória no SINAN.",
+    "Tratamento diretamente observado (TDO) na unidade ou no domicílio, com vínculo e apoio ao trabalho.",
+    "Oferecer teste de HIV (feito) e avaliar comorbidades; orientar cessação do tabagismo e evitar álcool.",
+    "Avaliação dos contatos domiciliares: investigar sintomas, radiografia e prova tuberculínica ou IGRA para infecção latente.",
+    "Orientar transmissão: ambiente ventilado, etiqueta da tosse; após cerca de 15 dias de tratamento a transmissão cai muito. Controle mensal com baciloscopia."
+  ],
+  "pep": [
+    {"id": "apresentacao", "item": "Apresenta-se e acolhe o paciente.", "peso": 0.5},
+    {"id": "sintomas", "item": "Caracteriza tosse (duração maior que 3 semanas), expectoração e hemoptise.", "peso": 1},
+    {"id": "sistemicos", "item": "Pergunta febre vespertina, sudorese noturna e perda de peso.", "peso": 1},
+    {"id": "epidemiologia", "item": "Investiga contato com tuberculose, tratamento prévio, HIV e condições de moradia.", "peso": 1},
+    {"id": "exames", "item": "Solicita TRM-TB ou baciloscopia de escarro, cultura com teste de sensibilidade, radiografia de tórax e teste de HIV.", "peso": 1.5},
+    {"id": "diagnostico", "item": "Diagnostica tuberculose pulmonar bacilífera sensível à rifampicina.", "peso": 1},
+    {"id": "esquema", "item": "Prescreve o esquema básico (2RHZE/4RH) com duração correta e dose pelo peso.", "peso": 1.5},
+    {"id": "notificacao", "item": "Realiza a notificação compulsória e indica tratamento diretamente observado.", "peso": 1},
+    {"id": "contatos", "item": "Orienta a avaliação dos contatos domiciliares (esposa e filhos).", "peso": 1},
+    {"id": "orientacoes", "item": "Orienta transmissão, adesão e acompanhamento mensal, respondendo à preocupação com o trabalho.", "peso": 0.5}
+  ],
+  "referencias": [
+    "Manual de Recomendações para o Controle da Tuberculose no Brasil, Ministério da Saúde, 2ª edição atualizada"
+  ]
+}

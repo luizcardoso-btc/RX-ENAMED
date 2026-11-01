@@ -1,0 +1,206 @@
+{
+"revalida_2024-1_q001": {
+ "pt": {"resumo": "Disúria, polaciúria, urgência e dor hipogástrica em mulher jovem, sem febre, sem dor lombar e sem antibiótico recente: cistite não complicada (ITU baixa). Trata-se empiricamente com nitrofurantoína, sem urocultura.",
+  "alternativas": {"A": "Correta: ITU baixa, nitrofurantoína.", "B": "Sem febre ou dor lombar não há pielonefrite, e quinolonas não são primeira escolha na cistite.", "C": "S. aureus não é causa típica de cistite comunitária, e amplo espectro é desnecessário.", "D": "Não há dados de litíase, e cistite simples não exige esperar a urocultura."}},
+ "es": {"resumo": "Disuria, polaquiuria, urgencia y dolor hipogástrico en una mujer joven, sin fiebre, sin dolor lumbar y sin antibiótico reciente: cistitis no complicada (ITU baja). Se trata empíricamente con nitrofurantoína, sin urocultivo.",
+  "alternativas": {"A": "Correcta: ITU baja, nitrofurantoína.", "B": "Sin fiebre ni dolor lumbar no hay pielonefritis, y las quinolonas no son primera elección en la cistitis.", "C": "S. aureus no es causa típica de cistitis comunitaria, y el amplio espectro es innecesario.", "D": "No hay datos de litiasis, y la cistitis simple no exige esperar el urocultivo."}}
+},
+"revalida_2024-1_q002": {
+ "pt": {"resumo": "Fratura instável de pelve com hematoma perineal sugere lesão de uretra. O melhor método diagnóstico é a uretrocistografia retrógrada, feita antes de qualquer sondagem vesical.",
+  "alternativas": {"A": "Correta: uretrocistografia retrógrada.", "B": "Cistostomia é tratamento para drenar a urina, não diagnóstico.", "C": "Tomografia sem contraste não avalia a integridade da uretra.", "D": "Ultrassom não define lesão uretral."}},
+ "es": {"resumo": "Una fractura inestable de pelvis con hematoma perineal sugiere lesión de uretra. El mejor método diagnóstico es la uretrocistografía retrógrada, hecha antes de cualquier sondaje vesical.",
+  "alternativas": {"A": "Correcta: uretrocistografía retrógrada.", "B": "La cistostomía es tratamiento para drenar la orina, no diagnóstico.", "C": "La tomografía sin contraste no evalúa la integridad de la uretra.", "D": "La ecografía no define la lesión uretral."}}
+},
+"revalida_2024-1_q003": {
+ "pt": {"resumo": "Movimentos oculares oscilatórios repetitivos em lactente de 3 meses são nistagmo, que pode indicar baixa visão (catarata, doença retiniana) ou causa neurológica. Com teste do olhinho inconclusivo, encaminha-se ao oftalmologista e ao neuropediatra.",
+  "alternativas": {"A": "O movimento descrito é nistagmo; a catarata pode ser causa, mas a conduta é avaliação especializada.", "B": "Estrabismo é desvio, não oscilação; tranquilizar atrasaria o diagnóstico.", "C": "Correta: nistagmo, oftalmologista e neuropediatra.", "D": "Xeroftalmia não causa nistagmo em lactente eutrófico."}},
+ "es": {"resumo": "Movimientos oculares oscilatorios repetitivos en un lactante de 3 meses son nistagmo, que puede indicar baja visión (catarata, enfermedad retiniana) o causa neurológica. Con el reflejo rojo no concluyente, se deriva al oftalmólogo y al neuropediatra.",
+  "alternativas": {"A": "El movimiento descrito es nistagmo; la catarata puede ser la causa, pero la conducta es la evaluación especializada.", "B": "El estrabismo es una desviación, no una oscilación; tranquilizar retrasaría el diagnóstico.", "C": "Correcta: nistagmo, oftalmólogo y neuropediatra.", "D": "La xeroftalmía no causa nistagmo en un lactante eutrófico."}}
+},
+"revalida_2024-1_q004": {
+ "pt": {"resumo": "Sangramento com colo aberto e eliminação de restos ovulares é abortamento em evolução (inevitável). Com a paciente estável, explica-se o quadro e oferecem-se as opções: esvaziamento uterino por AMIU ou curetagem, ou conduta expectante.",
+  "alternativas": {"A": "Na ameaça o colo está fechado.", "B": "Repouso não muda o desfecho, e o colo aberto exclui ameaça.", "C": "A paciente deve participar da decisão; não é obrigatório internar para confirmar útero vazio.", "D": "Correta: abortamento em evolução, com escolha entre AMIU, curetagem ou expectante."}},
+ "es": {"resumo": "Sangrado con cuello abierto y salida de restos ovulares es un aborto en curso (inevitable). Con la paciente estable, se explica el cuadro y se ofrecen las opciones: evacuación uterina por AMEU o legrado, o conducta expectante.",
+  "alternativas": {"A": "En la amenaza el cuello está cerrado.", "B": "El reposo no cambia el desenlace, y el cuello abierto excluye la amenaza.", "C": "La paciente debe participar en la decisión; no es obligatorio internar para confirmar útero vacío.", "D": "Correcta: aborto en curso, con elección entre AMEU, legrado o expectante."}}
+},
+"revalida_2024-1_q005": {
+ "pt": {"resumo": "Definir critérios para priorizar visitas domiciliares segundo as necessidades de cada família é aplicar a equidade: oferecer mais a quem precisa mais, segundo o gabarito.",
+  "alternativas": {"A": "Correta segundo o gabarito: equidade, priorizar pela necessidade.", "B": "Autonomia não é princípio doutrinário do SUS nesse contexto.", "C": "Integralidade é ver o indivíduo como um todo; o foco da estratégia é priorizar por critérios.", "D": "Universalidade é o acesso de todos, não a priorização."}},
+ "es": {"resumo": "Definir criterios para priorizar las visitas domiciliarias según las necesidades de cada familia es aplicar la equidad: dar más a quien más necesita, según la clave.",
+  "alternativas": {"A": "Correcta según la clave: equidad, priorizar por necesidad.", "B": "La autonomía no es principio doctrinario del SUS en este contexto.", "C": "La integralidad es ver al individuo como un todo; el foco de la estrategia es priorizar con criterios.", "D": "La universalidad es el acceso de todos, no la priorización."}}
+},
+"revalida_2024-1_q006": {
+ "pt": {"resumo": "Quem teve varicela tem o vírus latente e risco de herpes-zóster com a idade. Para mulher de 64 anos com diabetes, a vacina indicada entre as opções é a contra herpes-zóster (varicela-zóster).",
+  "alternativas": {"A": "Já teve caxumba, então é imune.", "B": "Já teve hepatite A, então é imune.", "C": "Já teve sarampo, caxumba e rubéola.", "D": "Correta: vacina contra herpes-zóster."}},
+ "es": {"resumo": "Quien tuvo varicela tiene el virus latente y riesgo de herpes zóster con la edad. Para una mujer de 64 años con diabetes, la vacuna indicada entre las opciones es la del herpes zóster (varicela-zóster).",
+  "alternativas": {"A": "Ya tuvo paperas, así que es inmune.", "B": "Ya tuvo hepatitis A, así que es inmune.", "C": "Ya tuvo sarampión, paperas y rubéola.", "D": "Correcta: vacuna contra el herpes zóster."}}
+},
+"revalida_2024-1_q008": {
+ "pt": {"resumo": "Crise generalizada com menos de 15 minutos, única em 24 horas, em criança de 2 anos com febre e recuperação completa: convulsão febril simples. Não exige neuroimagem ou EEG; investiga-se e trata-se a causa da febre.",
+  "alternativas": {"A": "Tomografia e punção não são rotina sem sinais meníngeos ou neurológicos.", "B": "Não é complexa: durou menos de 15 minutos e foi generalizada e única.", "C": "Correta: convulsão febril simples, tratar a causa da febre.", "D": "Não é complexa e não exige ressonância."}},
+ "es": {"resumo": "Crisis generalizada de menos de 15 minutos, única en 24 horas, en un niño de 2 años con fiebre y recuperación completa: convulsión febril simple. No exige neuroimagen ni EEG; se estudia y trata la causa de la fiebre.",
+  "alternativas": {"A": "La tomografía y la punción no son de rutina sin signos meníngeos o neurológicos.", "B": "No es compleja: duró menos de 15 minutos y fue generalizada y única.", "C": "Correcta: convulsión febril simple, tratar la causa de la fiebre.", "D": "No es compleja y no exige resonancia."}}
+},
+"revalida_2024-1_q009": {
+ "pt": {"resumo": "BI-RADS 4 (achado suspeito, como microcalcificações agrupadas) indica biópsia para diagnóstico histológico.",
+  "alternativas": {"A": "Cirurgia sem diagnóstico histológico é inadequada.", "B": "Correta: biópsia.", "C": "Controle em 6 meses é para BI-RADS 3.", "D": "Ultrassom não avalia bem microcalcificações; a lesão já é suspeita."}},
+ "es": {"resumo": "BI-RADS 4 (hallazgo sospechoso, como microcalcificaciones agrupadas) indica biopsia para diagnóstico histológico.",
+  "alternativas": {"A": "La cirugía sin diagnóstico histológico es inadecuada.", "B": "Correcta: biopsia.", "C": "El control a los 6 meses es para BI-RADS 3.", "D": "La ecografía no evalúa bien las microcalcificaciones; la lesión ya es sospechosa."}}
+},
+"revalida_2024-1_q010": {
+ "pt": {"resumo": "PA elevada com dor torácica, dispneia e alteração de consciência é emergência hipertensiva com lesão de órgão-alvo (possível síndrome coronariana). Na UBS: monitorizar, dar AAS 300 mg pela dor torácica e encaminhar imediatamente ao serviço de urgência.",
+  "alternativas": {"A": "Reduzir em 24 a 48 horas é conduta da urgência hipertensiva sem lesão de órgão.", "B": "Anti-hipertensivo oral e espera não tratam emergência com lesão de órgão.", "C": "Ajustar o tratamento crônico não é prioridade num quadro agudo grave.", "D": "Correta: monitorizar, AAS e encaminhar à urgência."}},
+ "es": {"resumo": "PA elevada con dolor torácico, disnea y alteración de conciencia es una emergencia hipertensiva con daño de órgano blanco (posible síndrome coronario). En la UBS: monitorizar, dar AAS 300 mg por el dolor torácico y derivar de inmediato al servicio de urgencias.",
+  "alternativas": {"A": "Reducir en 24 a 48 horas es la conducta de la urgencia hipertensiva sin daño de órgano.", "B": "El antihipertensivo oral y la espera no tratan una emergencia con daño de órgano.", "C": "Ajustar el tratamiento crónico no es prioridad en un cuadro agudo grave.", "D": "Correcta: monitorizar, AAS y derivar a urgencias."}}
+},
+"revalida_2024-1_q011": {
+ "pt": {"resumo": "Na doença de Graves, a captação de iodo radioativo está elevada e a cintilografia mostra distribuição difusa na glândula, refletindo a estimulação pelo TRAb.",
+  "alternativas": {"A": "No Graves o TRAb está elevado, não reduzido.", "B": "O padrão é bócio difuso, hipoecogênico e vascularizado, não nódulos císticos.", "C": "No hipertireoidismo o TSH cai e o T4 livre sobe.", "D": "Correta: captação elevada com distribuição difusa."}},
+ "es": {"resumo": "En la enfermedad de Graves, la captación de yodo radiactivo está elevada y la gammagrafía muestra distribución difusa en la glándula, reflejo de la estimulación por el TRAb.",
+  "alternativas": {"A": "En Graves el TRAb está elevado, no reducido.", "B": "El patrón es bocio difuso, hipoecoico y vascularizado, no nódulos quísticos.", "C": "En el hipertiroidismo la TSH baja y la T4 libre sube.", "D": "Correcta: captación elevada con distribución difusa."}}
+},
+"revalida_2024-1_q012": {
+ "pt": {"resumo": "Lesão endurecida no testículo de homem jovem, com transiluminação negativa e sem aumento à manobra de Valsalva: tumor de testículo. O tratamento é orquiectomia radical por via inguinal, após ultrassom e marcadores.",
+  "alternativas": {"A": "Correta: tumor de testículo, orquiectomia.", "B": "Hidrocele transilumina.", "C": "Hérnia aumenta à manobra de Valsalva.", "D": "Orquiepididimite é dolorosa e febril."}},
+ "es": {"resumo": "Lesión dura en el testículo de un hombre joven, con transiluminación negativa y sin aumento con la maniobra de Valsalva: tumor de testículo. El tratamiento es la orquiectomía radical por vía inguinal, tras ecografía y marcadores.",
+  "alternativas": {"A": "Correcta: tumor de testículo, orquiectomía.", "B": "El hidrocele transilumina.", "C": "La hernia aumenta con la maniobra de Valsalva.", "D": "La orquiepididimitis es dolorosa y febril."}}
+},
+"revalida_2024-1_q013": {
+ "pt": {"resumo": "Lactente com Hirschsprung apresentou enterocolite, tratada com hidratação, descompressão e antibiótico. Após estabilização, o tratamento definitivo para aganglionose restrita ao retossigmoide é o abaixamento de cólon por via endoanal, sem necessidade de colostomia.",
+  "alternativas": {"A": "Correta: abaixamento endoanal sem colostomia.", "B": "A via abdominoperineal com colostomia é reservada para casos mais extensos ou complicados.", "C": "Colostomia descompressiva é medida temporária, não tratamento definitivo.", "D": "Colostomia definitiva não é necessária."}},
+ "es": {"resumo": "Lactante con Hirschsprung que presentó enterocolitis, tratada con hidratación, descompresión y antibiótico. Tras estabilizar, el tratamiento definitivo de la aganglionosis limitada al rectosigma es el descenso de colon por vía endoanal, sin necesidad de colostomía.",
+  "alternativas": {"A": "Correcta: descenso endoanal sin colostomía.", "B": "La vía abdominoperineal con colostomía se reserva para casos más extensos o complicados.", "C": "La colostomía descompresiva es una medida temporal, no el tratamiento definitivo.", "D": "La colostomía definitiva no es necesaria."}}
+},
+"revalida_2024-1_q014": {
+ "pt": {"resumo": "Na análise da caderneta, o ponto incorreto é a época da ultrassonografia morfológica do 2º trimestre, que deve ser feita entre 20 e 24 semanas.",
+  "alternativas": {"A": "Os registros mostram falhas no seguimento.", "B": "Os dados não permitem confirmar pré-eclâmpsia.", "C": "Os registros indicam necessidade de avaliação em alto risco.", "D": "Correta: a morfológica foi pedida fora da janela de 20 a 24 semanas."}},
+ "es": {"resumo": "En el análisis del carné, el punto incorrecto es el momento de la ecografía morfológica del 2.º trimestre, que debe hacerse entre las 20 y 24 semanas.",
+  "alternativas": {"A": "Los registros muestran fallas en el seguimiento.", "B": "Los datos no permiten confirmar preeclampsia.", "C": "Los registros indican necesidad de evaluación en alto riesgo.", "D": "Correcta: la morfológica se pidió fuera de la ventana de 20 a 24 semanas."}}
+},
+"revalida_2024-1_q015": {
+ "pt": {"resumo": "Criança que anda descalça em sítio, com pápulas ceratóticas com ponto central enegrecido, prurido e dor nos pés: tungíase (bicho-de-pé). O manejo é a retirada do parasita com material estéril na UBS.",
+  "alternativas": {"A": "Larva migrans faz trajeto serpiginoso, não pápula com ponto negro.", "B": "Eczema disidrótico tem vesículas nas laterais dos dedos.", "C": "Correta: tungíase, retirada estéril do parasita.", "D": "Verruga não tem ponto central negro com pústulas agudas."}},
+ "es": {"resumo": "Niño que anda descalzo en el campo, con pápulas queratósicas con punto central negro, prurito y dolor en los pies: tungiasis (nigua). El manejo es la extracción del parásito con material estéril en la UBS.",
+  "alternativas": {"A": "La larva migrans hace un trayecto serpiginoso, no una pápula con punto negro.", "B": "El eczema dishidrótico tiene vesículas en los lados de los dedos.", "C": "Correcta: tungiasis, extracción estéril del parásito.", "D": "La verruga no tiene punto central negro con pústulas agudas."}}
+},
+"revalida_2024-1_q016": {
+ "pt": {"resumo": "Cefaleia hemicraniana pulsátil precedida de escotomas, com foto e fonofobia, há 10 anos e exame normal: migrânea com aura. Para as crises que não respondem a analgésico comum, indica-se triptano.",
+  "alternativas": {"A": "Correta: migrânea, triptano.", "B": "Cefaleia tensional é em aperto, bilateral, sem aura.", "C": "Cefaleia em salvas é orbitária, curta e com sinais autonômicos.", "D": "Sem sinais de alarme, não há suspeita de malformação vascular."}},
+ "es": {"resumo": "Cefalea hemicraneal pulsátil precedida de escotomas, con fotofobia y fonofobia, desde hace 10 años y examen normal: migraña con aura. Para las crisis que no responden al analgésico común, se indica triptán.",
+  "alternativas": {"A": "Correcta: migraña, triptán.", "B": "La cefalea tensional es opresiva, bilateral, sin aura.", "C": "La cefalea en racimos es orbitaria, breve y con signos autonómicos.", "D": "Sin signos de alarma, no se sospecha malformación vascular."}}
+},
+"revalida_2024-1_q018": {
+ "pt": {"resumo": "Prematuro tardio com desconforto respiratório moderado (taquipneia de 82, retrações) e boa perfusão: indica-se suporte com ventilação não invasiva (CPAP) com o oxigênio necessário e radiografia de tórax para definir a causa.",
+  "alternativas": {"A": "Capacete de oxigênio não trata o esforço respiratório moderado, e fisioterapia não é indicada.", "B": "Cateter nasal é insuficiente para desconforto moderado.", "C": "Surfactante é para doença da membrana hialina comprovada ou suspeita em prematuros menores.", "D": "Correta: ventilação não invasiva e radiografia."}},
+ "es": {"resumo": "Prematuro tardío con dificultad respiratoria moderada (taquipnea de 82, retracciones) y buena perfusión: se indica soporte con ventilación no invasiva (CPAP) con el oxígeno necesario y radiografía de tórax para definir la causa.",
+  "alternativas": {"A": "La cámara de oxígeno no trata el esfuerzo respiratorio moderado, y la fisioterapia no está indicada.", "B": "La cánula nasal es insuficiente para una dificultad moderada.", "C": "El surfactante es para la enfermedad de membrana hialina confirmada o sospechada en prematuros menores.", "D": "Correcta: ventilación no invasiva y radiografía."}}
+},
+"revalida_2024-1_q019": {
+ "pt": {"resumo": "Com ciclos regulares, a DUM é confiável e indica 40 semanas e 4 dias; ultrassom de 27 semanas tem erro maior. Com cardiotocografia reativa e líquido normal há bem-estar fetal, e a gestante pode retornar com 41 semanas para reavaliar ou induzir.",
+  "alternativas": {"A": "FC basal de 150 com boa variabilidade é normal, sem sinais de hipóxia.", "B": "Acelerações são sinal de bem-estar, não de hipóxia.", "C": "A FC basal de 150 bpm não é taquicardia (o limite é 160).", "D": "Correta: bem-estar fetal, retorno com 41 semanas."}},
+ "es": {"resumo": "Con ciclos regulares, la FUM es confiable e indica 40 semanas y 4 días; la ecografía de 27 semanas tiene más error. Con cardiotocografía reactiva y líquido normal hay bienestar fetal, y la gestante puede volver a las 41 semanas para reevaluar o inducir.",
+  "alternativas": {"A": "Una FC basal de 150 con buena variabilidad es normal, sin signos de hipoxia.", "B": "Las aceleraciones son signo de bienestar, no de hipoxia.", "C": "Una FC basal de 150 lpm no es taquicardia (el límite es 160).", "D": "Correcta: bienestar fetal, volver a las 41 semanas."}}
+},
+"revalida_2024-1_q020": {
+ "pt": {"resumo": "Pelos dados antropométricos da figura, a criança tem estatura adequada e peso para estatura (ou IMC) na faixa de sobrepeso. A conduta é orientar alimentação e estilo de vida, sem necessidade de exames ou especialista.",
+  "alternativas": {"A": "O peso está acima do adequado.", "B": "A estatura é adequada.", "C": "Não há baixa estatura, e sobrepeso isolado não exige endocrinologista.", "D": "Correta: sobrepeso com estatura adequada, orientar estilo de vida."}},
+ "es": {"resumo": "Según los datos antropométricos de la figura, el niño tiene talla adecuada y peso para la talla (o IMC) en rango de sobrepeso. La conducta es orientar alimentación y estilo de vida, sin necesidad de exámenes ni especialista.",
+  "alternativas": {"A": "El peso está por encima de lo adecuado.", "B": "La talla es adecuada.", "C": "No hay talla baja, y el sobrepeso aislado no requiere endocrinólogo.", "D": "Correcta: sobrepeso con talla adecuada, orientar estilo de vida."}}
+},
+"revalida_2024-1_q021": {
+ "pt": {"resumo": "Fraqueza ascendente com arreflexia nos membros inferiores e parestesias em bota e luva, dias após infecção viral com exantema (arbovirose): síndrome de Guillain-Barré. O líquor típico tem dissociação albuminocitológica.",
+  "alternativas": {"A": "Miastenia tem fraqueza flutuante, ptose e diplopia, com reflexos preservados.", "B": "Correta: Guillain-Barré.", "C": "AVC é súbito e unilateral.", "D": "ELA tem sinais de neurônio motor superior e inferior, sem alterações sensitivas."}},
+ "es": {"resumo": "Debilidad ascendente con arreflexia en miembros inferiores y parestesias en bota y guante, días después de una infección viral con exantema (arbovirosis): síndrome de Guillain-Barré. El LCR típico tiene disociación albuminocitológica.",
+  "alternativas": {"A": "La miastenia tiene debilidad fluctuante, ptosis y diplopía, con reflejos preservados.", "B": "Correcta: Guillain-Barré.", "C": "El ACV es súbito y unilateral.", "D": "La ELA tiene signos de neurona motora superior e inferior, sin alteraciones sensitivas."}}
+},
+"revalida_2024-1_q022": {
+ "pt": {"resumo": "Úlcera plantar em área de pressão, indolor, com hiperqueratose e pulsos presentes, em diabético de longa data: úlcera neuropática. O tratamento é desbridamento e curativo, alívio da pressão com calçado adequado e controle glicêmico.",
+  "alternativas": {"A": "Simpatectomia não tem papel na úlcera neuropática.", "B": "Enxerto não é a primeira medida sem alívio da pressão.", "C": "Compressão inelástica é para úlcera venosa.", "D": "Correta: curativo e adaptação de calçado."}},
+ "es": {"resumo": "Úlcera plantar en zona de presión, indolora, con hiperqueratosis y pulsos presentes, en un diabético de larga data: úlcera neuropática. El tratamiento es desbridamiento y curación, descarga de presión con calzado adecuado y control glucémico.",
+  "alternativas": {"A": "La simpatectomía no tiene papel en la úlcera neuropática.", "B": "El injerto no es la primera medida sin descarga de presión.", "C": "La compresión inelástica es para la úlcera venosa.", "D": "Correcta: curación y adaptación del calzado."}}
+},
+"revalida_2024-1_q023": {
+ "pt": {"resumo": "Lactente de 6 semanas com vômitos em jato não biliosos, perda de peso, oliva palpável e alcalose metabólica hipoclorêmica e hipocalêmica: estenose hipertrófica de piloro. Corrige-se hidratação e eletrólitos antes da piloromiotomia.",
+  "alternativas": {"A": "Correta: estabilizar e fazer piloromiotomia.", "B": "Fundoplicatura trata refluxo, não obstrução pilórica.", "C": "Os achados são típicos de estenose de piloro, não de erro inato.", "D": "Alergia à proteína do leite não causa oliva palpável nem esse distúrbio."}},
+ "es": {"resumo": "Lactante de 6 semanas con vómitos en proyectil no biliosos, pérdida de peso, oliva palpable y alcalosis metabólica hipoclorémica e hipopotasémica: estenosis hipertrófica del píloro. Se corrigen la hidratación y los electrolitos antes de la piloromiotomía.",
+  "alternativas": {"A": "Correcta: estabilizar y hacer piloromiotomía.", "B": "La funduplicatura trata el reflujo, no la obstrucción pilórica.", "C": "Los hallazgos son típicos de estenosis pilórica, no de error innato.", "D": "La alergia a la proteína de la leche no causa oliva palpable ni ese trastorno."}}
+},
+"revalida_2024-1_q024": {
+ "pt": {"resumo": "PA de 140 × 95 confirmada após 20 semanas em gestante antes normotensa, assintomática: suspeita de pré-eclâmpsia. Para confirmar, é preciso pesquisar proteinúria significativa ou lesão de órgão-alvo.",
+  "alternativas": {"A": "O diagnóstico ainda não está confirmado e não há indicação imediata de interrupção.", "B": "Correta: exames para proteinúria e lesão de órgão-alvo.", "C": "Hipertensão crônica é anterior às 20 semanas; a PA era normal.", "D": "PA de 140 × 95 sem sintomas não é emergência hipertensiva."}},
+ "es": {"resumo": "PA de 140 × 95 confirmada después de las 20 semanas en una gestante antes normotensa, asintomática: sospecha de preeclampsia. Para confirmarla hay que buscar proteinuria significativa o daño de órgano blanco.",
+  "alternativas": {"A": "El diagnóstico aún no está confirmado y no hay indicación inmediata de interrupción.", "B": "Correcta: exámenes para proteinuria y daño de órgano blanco.", "C": "La hipertensión crónica es anterior a las 20 semanas; la PA era normal.", "D": "Una PA de 140 × 95 sin síntomas no es emergencia hipertensiva."}}
+},
+"revalida_2024-1_q025": {
+ "pt": {"resumo": "Diarreia aquosa em criança sem saneamento, após contato com viajante de área endêmica (Moçambique): suspeita de cólera. Com desidratação leve: reidratação oral, manter a dieta, acompanhar, notificar e acionar vigilância epidemiológica, ambiental e sanitária, investigando os comunicantes.",
+  "alternativas": {"A": "Desidratação leve não exige via venosa, e a notificação é feita na suspeita.", "B": "Quimioprofilaxia em massa e isolamento não são recomendados.", "C": "Correta: reidratação oral, notificação e ações de vigilância.", "D": "Antidiarreicos são contraindicados, e a notificação é imediata na suspeita."}},
+ "es": {"resumo": "Diarrea acuosa en un niño sin saneamiento, tras contacto con un viajero de zona endémica (Mozambique): sospecha de cólera. Con deshidratación leve: rehidratación oral, mantener la dieta, seguimiento, notificar y activar la vigilancia epidemiológica, ambiental y sanitaria, investigando a los contactos.",
+  "alternativas": {"A": "La deshidratación leve no exige vía intravenosa, y la notificación se hace ante la sospecha.", "B": "La quimioprofilaxis masiva y el aislamiento no se recomiendan.", "C": "Correcta: rehidratación oral, notificación y acciones de vigilancia.", "D": "Los antidiarreicos están contraindicados, y la notificación es inmediata ante la sospecha."}}
+},
+"revalida_2024-1_q026": {
+ "pt": {"resumo": "Parada cardíaca presenciada: compressões imediatas de pelo menos 5 cm, a 100–120 por minuto, seguidas de abertura das vias aéreas e ventilação (30:2), até chegar o DEA.",
+  "alternativas": {"A": "Ventilação a cada 2–3 segundos com compressão contínua é para via aérea avançada, não boca-máscara.", "B": "A sequência começa pelas compressões (C-A-B), não pela ventilação.", "C": "O pulso é checado a cada 2 minutos, não 5.", "D": "Correta: compressões de qualidade seguidas de ventilação."}},
+ "es": {"resumo": "Paro cardíaco presenciado: compresiones inmediatas de al menos 5 cm, a 100–120 por minuto, seguidas de apertura de la vía aérea y ventilación (30:2), hasta que llegue el DEA.",
+  "alternativas": {"A": "Ventilar cada 2–3 segundos con compresión continua es para vía aérea avanzada, no boca-mascarilla.", "B": "La secuencia empieza por las compresiones (C-A-B), no por la ventilación.", "C": "El pulso se comprueba cada 2 minutos, no cada 5.", "D": "Correcta: compresiones de calidad seguidas de ventilación."}}
+},
+"revalida_2024-1_q027": {
+ "pt": {"resumo": "Ferimento torácico com choque grave, macicez e murmúrio abolido à direita, sem resposta ao volume: hemotórax maciço com sangramento contínuo. Paciente instável refratário exige toracotomia de emergência.",
+  "alternativas": {"A": "Correta: toracotomia de emergência.", "B": "Não se espera estabilizar: o paciente não estabiliza sem controle do sangramento.", "C": "Punção diagnóstica atrasa a conduta definitiva.", "D": "Radiografia não deve atrasar o tratamento de paciente instável."}},
+ "es": {"resumo": "Herida torácica con shock grave, matidez y murmullo abolido a la derecha, sin respuesta al volumen: hemotórax masivo con sangrado continuo. El paciente inestable refractario exige toracotomía de emergencia.",
+  "alternativas": {"A": "Correcta: toracotomía de emergencia.", "B": "No se espera a estabilizar: el paciente no se estabiliza sin controlar el sangrado.", "C": "La punción diagnóstica retrasa la conducta definitiva.", "D": "La radiografía no debe retrasar el tratamiento de un paciente inestable."}}
+},
+"revalida_2024-1_q028": {
+ "pt": {"resumo": "Criança em uso de corticoide em dose imunossupressora não pode receber vacinas de vírus ou bactérias vivos atenuados (BCG, tetraviral, febre amarela). Podem ser aplicadas as inativadas, como tríplice bacteriana e hepatite B.",
+  "alternativas": {"A": "Nem todas: as vivas atenuadas são contraindicadas.", "B": "Correta: tríplice bacteriana e hepatite B, que são inativadas.", "C": "Tetraviral é vacina de vírus vivo.", "D": "BCG é vacina viva e, aos 6 anos, já não é indicada."}},
+ "es": {"resumo": "Un niño en uso de corticoide en dosis inmunosupresora no puede recibir vacunas de virus o bacterias vivos atenuados (BCG, tetraviral, fiebre amarilla). Pueden aplicarse las inactivadas, como triple bacteriana y hepatitis B.",
+  "alternativas": {"A": "No todas: las vivas atenuadas están contraindicadas.", "B": "Correcta: triple bacteriana y hepatitis B, que son inactivadas.", "C": "La tetraviral es una vacuna de virus vivo.", "D": "La BCG es una vacuna viva y, a los 6 años, ya no está indicada."}}
+},
+"revalida_2024-1_q029": {
+ "pt": {"resumo": "TSH elevado na gestação está associado a perda fetal e complicações, com ou sem bócio, e o risco é maior quando o anti-TPO é positivo. Deve-se tratar com levotiroxina desde já.",
+  "alternativas": {"A": "Metimazol trata hipertireoidismo; aqui há hipotireoidismo.", "B": "O aumento de TBG eleva o T4 total, não o TSH.", "C": "Correta: TSH alto se associa a perdas fetais, pior com anti-TPO positivo.", "D": "A levotiroxina deve começar logo; a tireoide fetal depende do T4 materno no início da gestação."}},
+ "es": {"resumo": "La TSH elevada en el embarazo se asocia a pérdida fetal y complicaciones, con o sin bocio, y el riesgo es mayor con anti-TPO positivo. Debe tratarse con levotiroxina desde ya.",
+  "alternativas": {"A": "El metimazol trata el hipertiroidismo; aquí hay hipotiroidismo.", "B": "El aumento de TBG eleva la T4 total, no la TSH.", "C": "Correcta: TSH alta se asocia a pérdidas fetales, peor con anti-TPO positivo.", "D": "La levotiroxina debe empezar ya; la tiroides fetal depende de la T4 materna al inicio del embarazo."}}
+},
+"revalida_2024-1_q030": {
+ "pt": {"resumo": "Segundo o gabarito, a estratégia prioritária é capacitar os profissionais de saúde para o tratamento da cessação do tabagismo, para atender quem deseja parar de fumar.",
+  "alternativas": {"A": "Medicamento só faz sentido para quem deseja parar.", "B": "Correta segundo o gabarito: capacitar os profissionais para o tratamento.", "C": "A regulação da venda é competência legal, não de comitês de bairro.", "D": "O tabagismo é tratado na atenção primária; não há motivo para encaminhar."}},
+ "es": {"resumo": "Según la clave, la estrategia prioritaria es capacitar a los profesionales de salud en el tratamiento para dejar de fumar, para atender a quien desea dejarlo.",
+  "alternativas": {"A": "La medicación solo tiene sentido para quien desea dejar de fumar.", "B": "Correcta según la clave: capacitar a los profesionales para el tratamiento.", "C": "La regulación de la venta es competencia legal, no de comités barriales.", "D": "El tabaquismo se trata en la atención primaria; no hay motivo para derivar."}}
+},
+"revalida_2024-1_q031": {
+ "pt": {"resumo": "Trabalhador de reciclagem de baterias com anemia microcítica refratária ao ferro e confusão mental: intoxicação por chumbo (saturnismo). Solicita-se a dosagem de chumbo no sangue.",
+  "alternativas": {"A": "Mielograma não é o primeiro exame com exposição ocupacional clara.", "B": "Haptoglobina investiga hemólise.", "C": "Correta: chumbo sérico.", "D": "Coombs investiga anemia hemolítica autoimune."}},
+ "es": {"resumo": "Trabajador de reciclaje de baterías con anemia microcítica refractaria al hierro y confusión mental: intoxicación por plomo (saturnismo). Se pide la dosificación de plomo en sangre.",
+  "alternativas": {"A": "El mielograma no es el primer examen con exposición laboral clara.", "B": "La haptoglobina estudia la hemólisis.", "C": "Correcta: plomo sérico.", "D": "El Coombs estudia la anemia hemolítica autoinmune."}}
+},
+"revalida_2024-1_q032": {
+ "pt": {"resumo": "Esquema antitetânico completo com última dose há menos de 5 anos: mesmo em ferimento de alto risco (queimadura), não é necessário reforço nem soro antitetânico.",
+  "alternativas": {"A": "O reforço é para última dose há mais de 5 anos em ferimento de risco.", "B": "Soro é para esquema incompleto ou desconhecido em ferimento de risco.", "C": "Soro não é necessário com vacinação completa e recente.", "D": "Correta: sem reforço e sem soro."}},
+ "es": {"resumo": "Esquema antitetánico completo con la última dosis hace menos de 5 años: aun en una herida de alto riesgo (quemadura), no hace falta refuerzo ni suero antitetánico.",
+  "alternativas": {"A": "El refuerzo es para última dosis hace más de 5 años en heridas de riesgo.", "B": "El suero es para esquema incompleto o desconocido en heridas de riesgo.", "C": "El suero no es necesario con vacunación completa y reciente.", "D": "Correcta: sin refuerzo y sin suero."}}
+},
+"revalida_2024-1_q033": {
+ "pt": {"resumo": "Pápulas com halo eritematoso em face e tronco, surgidas no 3º dia em recém-nascido a termo e saudável: eritema tóxico neonatal, benigno e autolimitado.",
+  "alternativas": {"A": "Miliária são vesículas ou pápulas pequenas por calor, em dobras.", "B": "Correta: eritema tóxico.", "C": "Melanose pustulosa está presente ao nascer e deixa manchas pigmentadas.", "D": "Candidíase tem placas eritematosas com lesões satélites."}},
+ "es": {"resumo": "Pápulas con halo eritematoso en cara y tronco, aparecidas al 3.er día en un recién nacido a término y sano: eritema tóxico neonatal, benigno y autolimitado.",
+  "alternativas": {"A": "La miliaria son vesículas o pápulas pequeñas por calor, en pliegues.", "B": "Correcta: eritema tóxico.", "C": "La melanosis pustulosa está presente al nacer y deja manchas pigmentadas.", "D": "La candidiasis tiene placas eritematosas con lesiones satélite."}}
+},
+"revalida_2024-1_q034": {
+ "pt": {"resumo": "IgM positivo com IgG negativo na gestação: possível infecção aguda muito recente (ou IgM falso positivo). Inicia-se espiramicina e repete-se a sorologia em cerca de 3 semanas: se o IgG positivar, confirma-se infecção recente.",
+  "alternativas": {"A": "Teste de avidez exige IgG positivo, e avidez alta indica infecção antiga.", "B": "Sem IgG não há como fazer teste de avidez.", "C": "Correta: espiramicina e nova sorologia em 3 semanas.", "D": "Não se deve esperar para iniciar a espiramicina diante de possível infecção aguda."}},
+ "es": {"resumo": "IgM positiva con IgG negativa en el embarazo: posible infección aguda muy reciente (o IgM falsa positiva). Se inicia espiramicina y se repite la serología en unas 3 semanas: si la IgG se positiviza, se confirma la infección reciente.",
+  "alternativas": {"A": "La prueba de avidez exige IgG positiva, y la avidez alta indica infección antigua.", "B": "Sin IgG no se puede hacer la prueba de avidez.", "C": "Correcta: espiramicina y nueva serología a las 3 semanas.", "D": "No se debe esperar para iniciar la espiramicina ante una posible infección aguda."}}
+},
+"revalida_2024-1_q035": {
+ "pt": {"resumo": "Banho em rio com caramujos no interior da Bahia, hemorragia digestiva e icterícia: esquistossomose mansônica na forma hepatoesplênica, com hipertensão portal. Pedem-se ultrassonografia abdominal (fibrose periportal), endoscopia (varizes) e exame parasitológico de fezes.",
+  "alternativas": {"A": "A reação intradérmica não é usada no diagnóstico atual.", "B": "Correta: ultrassom, endoscopia e pesquisa de ovos nas fezes.", "C": "Ressonância e biópsia retal não são os primeiros exames.", "D": "Radiografia de tórax e PCR não são a investigação inicial dessa forma."}},
+ "es": {"resumo": "Baños en un río con caracoles en el interior de Bahía, hemorragia digestiva e ictericia: esquistosomiasis mansónica en la forma hepatoesplénica, con hipertensión portal. Se piden ecografía abdominal (fibrosis periportal), endoscopia (várices) y examen parasitológico de heces.",
+  "alternativas": {"A": "La reacción intradérmica no se usa en el diagnóstico actual.", "B": "Correcta: ecografía, endoscopia y búsqueda de huevos en heces.", "C": "La resonancia y la biopsia rectal no son los primeros exámenes.", "D": "La radiografía de tórax y la PCR no son el estudio inicial de esta forma."}}
+},
+"revalida_2024-1_q036": {
+ "pt": {"resumo": "Jovem em área de enchente, no período de chuvas, com febre, mialgia intensa nas panturrilhas, icterícia importante e sufusão conjuntival: leptospirose, provavelmente na forma ictérica (síndrome de Weil).",
+  "alternativas": {"A": "Dengue não costuma causar icterícia intensa.", "B": "Malária não é endêmica no Sudeste urbano e não tem essa relação com enchentes.", "C": "Hepatite A não causa sufusão conjuntival e mialgia intensa nas panturrilhas.", "D": "Correta: leptospirose."}},
+ "es": {"resumo": "Joven en zona inundable, en temporada de lluvias, con fiebre, mialgia intensa en pantorrillas, ictericia importante y sufusión conjuntival: leptospirosis, probablemente en la forma ictérica (síndrome de Weil).",
+  "alternativas": {"A": "El dengue no suele causar ictericia intensa.", "B": "La malaria no es endémica en el Sudeste urbano y no tiene esa relación con las inundaciones.", "C": "La hepatitis A no causa sufusión conjuntival ni mialgia intensa en pantorrillas.", "D": "Correcta: leptospirosis."}}
+}
+}

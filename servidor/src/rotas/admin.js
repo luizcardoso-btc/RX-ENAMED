@@ -1,0 +1,250 @@
+import { Router } from 'express';
+import { exigirLogin, exigirAdmin } from './autenticacao.js';
+import { aplicarPagamento } from '../pagamentos.js';
+import { somarMeses } from '../planos.js';
+
+const POR_PAGINA = 50;
+// Situação do aluno calculada no banco: ativo (acesso vigente), vencendo (termina em até 7 dias), expirado (já teve) ou gratuito (nunca pagou).
+const SITUACAO = `
+  CASE
+    WHEN m.fim IS NOT NULL AND m.fim > now() AND m.fim <= now() + interval '7 days' THEN 'vencendo'
+    WHEN m.fim IS NOT NULL AND m.fim > now() THEN 'ativo'
+    WHEN h.teve THEN 'expirado'
+    ELSE 'gratuito'
+  END`;
+const BASE_ALUNOS = `
+  FROM usuarios u
+  LEFT JOIN LATERAL (SELECT plano_id, fim FROM matriculas WHERE usuario_id = u.id AND status = 'ativa' AND inicio <= now() AND fim > now()
+                     ORDER BY fim DESC LIMIT 1) m ON true
+  LEFT JOIN LATERAL (SELECT true AS teve FROM matriculas WHERE usuario_id = u.id LIMIT 1) h ON true
+  LEFT JOIN LATERAL (SELECT COALESCE(sum(valor_centavos), 0) AS total FROM pedidos WHERE usuario_id = u.id AND status = 'aprovado') g ON true`;
+
+const csv = (linhas) => linhas.map((l) => l.map((v) => `"${String(v ?? '').replace(/"/g, '""')}"`).join(';')).join('\r\n');
+
+export function rotasAdmin({ banco, planos, mp, correio }) {
+  const r = Router();
+  r.use(exigirLogin, exigirAdmin);
+  const auditar = (req, acao, alvo, detalhes = {}) =>
+    banco.consulta('INSERT INTO auditoria (admin_id, acao, alvo, detalhes) VALUES ($1, $2, $3, $4)', [req.usuario.id, acao, alvo, JSON.stringify(detalhes)]);
+
+  // Painel de vendas: receita, pedidos, conversão, alunos e série diária.
+  r.get('/resumo', async (req, res) => {
+    const dias = Math.min(365, Math.max(7, Number(req.query.dias) || 30));
+    const receita = await banco.um(`
+      SELECT
+        COALESCE(sum(valor_centavos) FILTER (WHERE pago_em >= date_trunc('day', now())), 0) AS hoje,
+        COALESCE(sum(valor_centavos) FILTER (WHERE pago_em >= now() - interval '7 days'), 0) AS semana,
+        COALESCE(sum(valor_centavos) FILTER (WHERE pago_em >= date_trunc('month', now())), 0) AS mes,
+        COALESCE(sum(valor_centavos) FILTER (WHERE pago_em >= now() - make_interval(days => $1)), 0) AS periodo,
+        COALESCE(sum(valor_centavos), 0) AS total,
+        count(*) FILTER (WHERE pago_em >= now() - make_interval(days => $1)) AS vendas_periodo
+      FROM pedidos WHERE status = 'aprovado'`, [dias]);
+    const pedidos = await banco.varios(
+      `SELECT status, count(*) AS n FROM pedidos WHERE criado_em >= now() - make_interval(days => $1) GROUP BY status`, [dias]);
+    const porPlano = await banco.varios(`
+      SELECT plano_id AS plano, count(*) AS vendas, sum(valor_centavos) AS receita FROM pedidos
+       WHERE status = 'aprovado' AND pago_em >= now() - make_interval(days => $1) GROUP BY plano_id ORDER BY receita DESC`, [dias]);
+    const porMetodo = await banco.varios(`
+      SELECT metodo, count(*) FILTER (WHERE status = 'aprovado') AS aprovados, count(*) AS tentativas FROM pedidos
+       WHERE criado_em >= now() - make_interval(days => $1) GROUP BY metodo`, [dias]);
+    const serie = await banco.varios(`
+      SELECT to_char(d, 'YYYY-MM-DD') AS dia,
+             COALESCE((SELECT sum(valor_centavos) FROM pedidos WHERE status = 'aprovado' AND pago_em >= d AND pago_em < d + interval '1 day'), 0) AS receita,
+             (SELECT count(*) FROM usuarios WHERE criado_em >= d AND criado_em < d + interval '1 day') AS cadastros
+        FROM generate_series(date_trunc('day', now()) - make_interval(days => $1 - 1), date_trunc('day', now()), interval '1 day') d`, [dias]);
+    const alunos = await banco.um(`
+      SELECT count(*) AS total,
+             count(*) FILTER (WHERE situacao IN ('ativo', 'vencendo')) AS ativos,
+             count(*) FILTER (WHERE situacao = 'vencendo') AS vencendo,
+             count(*) FILTER (WHERE situacao = 'expirado') AS expirados,
+             count(*) FILTER (WHERE situacao = 'gratuito') AS gratuitos,
+             count(*) FILTER (WHERE criado_em >= now() - make_interval(days => $1)) AS novos
+        FROM (SELECT u.criado_em, ${SITUACAO} AS situacao ${BASE_ALUNOS} WHERE u.papel = 'aluno') x`, [dias]);
+    const reembolsos = await banco.um(
+      `SELECT count(*) AS n, COALESCE(sum(valor_centavos), 0) AS valor FROM pedidos WHERE status = 'reembolsado' AND atualizado_em >= now() - make_interval(days => $1)`, [dias]);
+    const porAfiliado = await banco.varios(`
+      SELECT a.id, a.nome, a.codigo, count(p.*) AS vendas, COALESCE(sum(p.valor_centavos), 0) AS receita, COALESCE(sum(p.comissao_centavos), 0) AS comissao
+        FROM pedidos p JOIN afiliados a ON a.id = p.afiliado_id
+       WHERE p.status = 'aprovado' AND p.pago_em >= now() - make_interval(days => $1) GROUP BY a.id ORDER BY receita DESC`, [dias]);
+    const porCupom = await banco.varios(`
+      SELECT c.codigo, count(p.*) AS vendas, COALESCE(sum(p.desconto_centavos), 0) AS desconto, COALESCE(sum(p.valor_centavos), 0) AS receita
+        FROM pedidos p JOIN cupons c ON c.id = p.cupom_id
+       WHERE p.status = 'aprovado' AND p.pago_em >= now() - make_interval(days => $1) GROUP BY c.codigo ORDER BY vendas DESC`, [dias]);
+    const criados = pedidos.reduce((s, p) => s + p.n, 0);
+    const aprovados = pedidos.find((p) => p.status === 'aprovado')?.n || 0;
+    res.json({
+      dias, receita, alunos, porPlano, porMetodo, porAfiliado, porCupom, serie, reembolsos,
+      pedidos: Object.fromEntries(pedidos.map((p) => [p.status, p.n])),
+      conversao: criados ? aprovados / criados : 0,
+      ticketMedio: receita.vendas_periodo ? Math.round(receita.periodo / receita.vendas_periodo) : 0,
+      planos: planos.planos.map((p) => ({ id: p.id, nome: p.nome })),
+    });
+  });
+
+  r.get('/alunos', async (req, res) => {
+    const busca = String(req.query.busca || '').trim();
+    const situacao = ['ativo', 'vencendo', 'expirado', 'gratuito'].includes(req.query.situacao) ? req.query.situacao : null;
+    const pagina = Math.max(1, Number(req.query.pagina) || 1);
+    const params = [];
+    const filtros = ["u.papel = 'aluno'"];
+    if (busca) { params.push(`%${busca.toLowerCase()}%`); filtros.push(`(lower(u.nome) LIKE $${params.length} OR lower(u.email) LIKE $${params.length} OR u.cpf LIKE $${params.length})`); }
+    const sql = `SELECT * FROM (SELECT u.id, u.nome, u.email, u.cpf, u.criado_em, u.ultimo_acesso, m.plano_id AS plano, m.fim AS acesso_ate,
+                        g.total AS total_pago, ${SITUACAO} AS situacao ${BASE_ALUNOS} WHERE ${filtros.join(' AND ')}) x
+                  ${situacao ? `WHERE situacao = '${situacao}'` : ''}`;
+    if (req.query.formato === 'csv') {
+      const todos = await banco.varios(`${sql} ORDER BY criado_em DESC`, params);
+      res.type('text/csv; charset=utf-8').attachment('alunos-rx-enamed.csv');
+      return res.send('﻿' + csv([['Nome', 'E-mail', 'CPF', 'Situação', 'Plano', 'Acesso até', 'Total pago (R$)', 'Cadastro', 'Último acesso'],
+        ...todos.map((a) => [a.nome, a.email, a.cpf, a.situacao, a.plano, a.acesso_ate?.toISOString().slice(0, 10), (a.total_pago / 100).toFixed(2).replace('.', ','),
+          a.criado_em.toISOString().slice(0, 10), a.ultimo_acesso?.toISOString().slice(0, 10)])]));
+    }
+    const total = (await banco.um(`SELECT count(*) AS n FROM (${sql}) y`, params)).n;
+    params.push(POR_PAGINA, (pagina - 1) * POR_PAGINA);
+    const alunos = await banco.varios(`${sql} ORDER BY criado_em DESC LIMIT $${params.length - 1} OFFSET $${params.length}`, params);
+    res.json({ alunos, total, pagina, porPagina: POR_PAGINA });
+  });
+
+  r.get('/alunos/:id', async (req, res) => {
+    const aluno = await banco.um('SELECT id, nome, email, cpf, telefone, papel, criado_em, ultimo_acesso FROM usuarios WHERE id = $1', [req.params.id]).catch(() => null);
+    if (!aluno) return res.status(404).json({ erro: 'Aluno não encontrado.' });
+    const matriculas = await banco.varios('SELECT * FROM matriculas WHERE usuario_id = $1 ORDER BY inicio DESC', [aluno.id]);
+    const pedidos = await banco.varios('SELECT * FROM pedidos WHERE usuario_id = $1 ORDER BY criado_em DESC', [aluno.id]);
+    const emails = await banco.varios('SELECT modelo, assunto, status, criado_em FROM emails WHERE usuario_id = $1 ORDER BY criado_em DESC LIMIT 30', [aluno.id]);
+    const progresso = await banco.um(`SELECT atualizado_em, (SELECT count(*) FROM jsonb_object_keys(COALESCE(dados->'respostas', '{}'::jsonb))) AS questoes FROM progresso WHERE usuario_id = $1`, [aluno.id]);
+    res.json({ aluno, matriculas, pedidos, emails, progresso });
+  });
+
+  // Liberação manual (bolsa, cortesia, correção) ou revogação do acesso.
+  r.post('/alunos/:id/acesso', async (req, res) => {
+    const aluno = await banco.um('SELECT id FROM usuarios WHERE id = $1', [req.params.id]).catch(() => null);
+    if (!aluno) return res.status(404).json({ erro: 'Aluno não encontrado.' });
+    const { acao, plano, meses, observacao } = req.body || {};
+    if (acao === 'conceder') {
+      const p = planos.porId[plano];
+      const n = Number(meses || p?.duracaoMeses);
+      if (!p || !Number.isInteger(n) || n < 1 || n > 36) return res.status(400).json({ erro: 'Plano ou duração inválidos.' });
+      const vigente = await banco.um(`SELECT max(fim) AS fim FROM matriculas WHERE usuario_id = $1 AND status = 'ativa' AND fim > now()`, [aluno.id]);
+      const inicio = vigente?.fim ? new Date(vigente.fim) : new Date();
+      const m = await banco.um(
+        `INSERT INTO matriculas (usuario_id, plano_id, inicio, fim, origem, observacao) VALUES ($1, $2, $3, $4, 'manual', $5) RETURNING *`,
+        [aluno.id, p.id, inicio, somarMeses(inicio, n), String(observacao || '').slice(0, 300) || null]);
+      await auditar(req, 'conceder_acesso', aluno.id, { plano: p.id, meses: n, observacao });
+      return res.status(201).json({ matricula: m });
+    }
+    if (acao === 'revogar') {
+      const r2 = await banco.consulta(`UPDATE matriculas SET status = 'cancelada' WHERE usuario_id = $1 AND status = 'ativa' AND fim > now()`, [aluno.id]);
+      await auditar(req, 'revogar_acesso', aluno.id, { observacao, matriculas: r2.rowCount });
+      return res.json({ revogadas: r2.rowCount });
+    }
+    res.status(400).json({ erro: 'Ação inválida.' });
+  });
+
+  r.get('/pedidos', async (req, res) => {
+    const pagina = Math.max(1, Number(req.query.pagina) || 1);
+    const params = [];
+    const filtros = [];
+    if (req.query.status) { params.push(String(req.query.status)); filtros.push(`p.status = $${params.length}`); }
+    if (req.query.metodo) { params.push(String(req.query.metodo)); filtros.push(`p.metodo = $${params.length}`); }
+    const onde = filtros.length ? `WHERE ${filtros.join(' AND ')}` : '';
+    const total = (await banco.um(`SELECT count(*) AS n FROM pedidos p ${onde}`, params)).n;
+    params.push(POR_PAGINA, (pagina - 1) * POR_PAGINA);
+    const pedidos = await banco.varios(`
+      SELECT p.id, p.plano_id AS plano, p.valor_centavos, p.metodo, p.parcelas, p.status, p.status_detalhe, p.mp_pagamento_id, p.criado_em, p.pago_em,
+             u.id AS aluno_id, u.nome AS aluno, u.email
+        FROM pedidos p JOIN usuarios u ON u.id = p.usuario_id ${onde}
+       ORDER BY p.criado_em DESC LIMIT $${params.length - 1} OFFSET $${params.length}`, params);
+    res.json({ pedidos, total, pagina, porPagina: POR_PAGINA });
+  });
+
+  r.post('/pedidos/:id/reembolsar', async (req, res) => {
+    const pedido = await banco.um('SELECT * FROM pedidos WHERE id = $1', [req.params.id]).catch(() => null);
+    if (!pedido) return res.status(404).json({ erro: 'Pedido não encontrado.' });
+    if (pedido.status !== 'aprovado' || !pedido.mp_pagamento_id) return res.status(400).json({ erro: 'Só pedidos aprovados podem ser reembolsados.' });
+    try {
+      await mp.reembolsar(pedido.mp_pagamento_id, `reembolso-${pedido.id}`);
+      await aplicarPagamento({ banco, planos, correio }, await mp.consultarPagamento(pedido.mp_pagamento_id));
+    } catch (e) {
+      return res.status(502).json({ erro: `O Mercado Pago não aceitou o reembolso: ${e.message}` });
+    }
+    await auditar(req, 'reembolsar', pedido.id, { motivo: req.body?.motivo });
+    res.json({ pedido: await banco.um('SELECT id, status FROM pedidos WHERE id = $1', [pedido.id]) });
+  });
+
+  // ---- Cupons
+  r.get('/cupons', async (_req, res) => {
+    res.json({ cupons: await banco.varios(`
+      SELECT c.*, a.nome AS afiliado, a.codigo AS afiliado_codigo,
+             (SELECT COALESCE(sum(valor_centavos), 0) FROM pedidos WHERE cupom_id = c.id AND status = 'aprovado') AS receita
+        FROM cupons c LEFT JOIN afiliados a ON a.id = c.afiliado_id ORDER BY c.criado_em DESC`) });
+  });
+  r.post('/cupons', async (req, res) => {
+    const b = req.body || {};
+    const codigo = String(b.codigo || '').trim().toUpperCase();
+    if (!/^[A-Z0-9_-]{3,30}$/.test(codigo)) return res.status(400).json({ erro: 'Código: 3 a 30 letras, números, hífen ou sublinhado.' });
+    if (!['percentual', 'fixo'].includes(b.tipo)) return res.status(400).json({ erro: 'Tipo inválido.' });
+    const valor = b.tipo === 'percentual' ? Number(b.valor) : Math.round(Number(b.valor) * 100);
+    if (!Number.isFinite(valor) || valor <= 0 || (b.tipo === 'percentual' && valor > 90)) return res.status(400).json({ erro: 'Valor inválido (percentual até 90%).' });
+    const planosCupom = (b.planos || []).filter((id) => planos.porId[id]);
+    try {
+      const c = await banco.um(`INSERT INTO cupons (codigo, tipo, valor, planos, valido_ate, limite_usos, afiliado_id) VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING *`,
+        [codigo, b.tipo, Math.round(valor), planosCupom.length ? planosCupom : null, b.validoAte || null, b.limiteUsos ? Number(b.limiteUsos) : null, b.afiliadoId || null]);
+      await auditar(req, 'criar_cupom', c.id, { codigo, tipo: b.tipo, valor });
+      res.status(201).json({ cupom: c });
+    } catch (e) {
+      if (e.code === '23505') return res.status(409).json({ erro: 'Já existe um cupom com este código.' });
+      throw e;
+    }
+  });
+  r.post('/cupons/:id/ativo', async (req, res) => {
+    const c = await banco.um('UPDATE cupons SET ativo = $2 WHERE id = $1 RETURNING id, codigo, ativo', [req.params.id, !!req.body?.ativo]).catch(() => null);
+    if (!c) return res.status(404).json({ erro: 'Cupom não encontrado.' });
+    await auditar(req, c.ativo ? 'ativar_cupom' : 'desativar_cupom', c.id, { codigo: c.codigo });
+    res.json({ cupom: c });
+  });
+
+  // ---- Afiliados
+  r.get('/afiliados', async (_req, res) => {
+    res.json({ afiliados: await banco.varios(`
+      SELECT a.*,
+             count(p.*) FILTER (WHERE p.status = 'aprovado') AS vendas,
+             COALESCE(sum(p.valor_centavos) FILTER (WHERE p.status = 'aprovado'), 0) AS receita,
+             COALESCE(sum(p.comissao_centavos) FILTER (WHERE p.status = 'aprovado' AND p.comissao_paga_em IS NULL AND p.pago_em < now() - interval '7 days'), 0) AS comissao_liberada,
+             COALESCE(sum(p.comissao_centavos) FILTER (WHERE p.status = 'aprovado' AND p.comissao_paga_em IS NULL AND p.pago_em >= now() - interval '7 days'), 0) AS comissao_em_garantia,
+             COALESCE(sum(p.comissao_centavos) FILTER (WHERE p.comissao_paga_em IS NOT NULL), 0) AS comissao_paga
+        FROM afiliados a LEFT JOIN pedidos p ON p.afiliado_id = a.id GROUP BY a.id ORDER BY receita DESC, a.criado_em DESC`) });
+  });
+  r.post('/afiliados', async (req, res) => {
+    const b = req.body || {};
+    const codigo = String(b.codigo || '').trim().toUpperCase();
+    const comissao = Number(b.comissaoPercentual ?? 20);
+    if (String(b.nome || '').trim().length < 2) return res.status(400).json({ erro: 'Informe o nome.' });
+    if (!/^[A-Z0-9_-]{3,30}$/.test(codigo)) return res.status(400).json({ erro: 'Código: 3 a 30 letras, números, hífen ou sublinhado.' });
+    if (!(comissao >= 0 && comissao <= 90)) return res.status(400).json({ erro: 'Comissão entre 0% e 90%.' });
+    try {
+      const a = await banco.um('INSERT INTO afiliados (nome, email, codigo, comissao_percentual, chave_pix) VALUES ($1, $2, $3, $4, $5) RETURNING *',
+        [String(b.nome).trim(), String(b.email || '').trim(), codigo, comissao, String(b.chavePix || '').trim() || null]);
+      await auditar(req, 'criar_afiliado', a.id, { codigo, comissao });
+      res.status(201).json({ afiliado: a });
+    } catch (e) {
+      if (e.code === '23505') return res.status(409).json({ erro: 'Já existe um afiliado com este código.' });
+      throw e;
+    }
+  });
+  // Marca como paga a comissão liberada (vendas aprovadas há mais de 7 dias, fora do prazo de arrependimento).
+  r.post('/afiliados/:id/pagar', async (req, res) => {
+    const r2 = await banco.um(`
+      WITH pagos AS (UPDATE pedidos SET comissao_paga_em = now()
+                      WHERE afiliado_id = $1 AND status = 'aprovado' AND comissao_paga_em IS NULL AND pago_em < now() - interval '7 days'
+                      RETURNING comissao_centavos)
+      SELECT count(*) AS pedidos, COALESCE(sum(comissao_centavos), 0) AS valor FROM pagos`, [req.params.id]).catch(() => null);
+    if (!r2) return res.status(404).json({ erro: 'Afiliado não encontrado.' });
+    await auditar(req, 'pagar_comissao', req.params.id, r2);
+    res.json(r2);
+  });
+
+  r.get('/auditoria', async (_req, res) => {
+    res.json({ eventos: await banco.varios(`SELECT a.*, u.nome AS admin FROM auditoria a LEFT JOIN usuarios u ON u.id = a.admin_id ORDER BY em DESC LIMIT 200`) });
+  });
+
+  return r;
+}

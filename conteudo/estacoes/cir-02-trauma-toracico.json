@@ -1,0 +1,71 @@
+{
+  "id": "cir-02-trauma-toracico",
+  "area": "Cirurgia",
+  "especialidade": "Trauma",
+  "titulo": "Motociclista na sala de emergência",
+  "tema": "Atendimento inicial ao politraumatizado: pneumotórax hipertensivo",
+  "mentor": "helena",
+  "duracaoMin": 10,
+  "cenario": "Sala de emergência de hospital de referência em trauma. O paciente chega trazido pelo SAMU, com colar cervical e prancha. Equipe de enfermagem disponível. Material para via aérea, toracocentese e drenagem torácica à disposição.",
+  "tarefas": [
+    "Realize o atendimento inicial ao politraumatizado verbalizando cada etapa.",
+    "Identifique as lesões com risco imediato à vida e trate-as.",
+    "Solicite os exames complementares pertinentes."
+  ],
+  "paciente": {
+    "nome": "Rafael Santos",
+    "idade": 30,
+    "sexo": "masculino",
+    "ocupacao": "entregador por aplicativo",
+    "perfil": "Agitado, com muita falta de ar, fala frases curtas e entrecortadas. Pergunta da moto e do celular.",
+    "abertura": "Tô... sem ar... doutor... me ajuda.",
+    "roteiro": [
+      {"topico": "Mecanismo do trauma (relato do SAMU)", "resposta": "Colisão de moto com carro, a cerca de 60 km/h, há 30 minutos. Usava capacete. Foi arremessado e bateu o lado direito do tórax no meio-fio."},
+      {"topico": "Dor", "resposta": "Dói muito... do lado direito do peito... piora para respirar."},
+      {"topico": "Perda de consciência", "resposta": "Não apaguei... lembro de tudo."},
+      {"topico": "Alergias", "resposta": "Não tenho alergia."},
+      {"topico": "Medicamentos", "resposta": "Não tomo remédio."},
+      {"topico": "Passado médico", "resposta": "Sou saudável."},
+      {"topico": "Última refeição", "resposta": "Almocei faz umas três horas."},
+      {"topico": "Ambiente e eventos", "resposta": "O carro avançou o sinal... eu não consegui frear."}
+    ],
+    "perguntasDoPaciente": ["Eu vou morrer?", "Alguém avisa minha mãe?"],
+    "seNaoSouber": "Diga que não sabe; mantenha a fala curta por causa da falta de ar."
+  },
+  "exameFisico": [
+    {"item": "A - Via aérea e coluna cervical", "achado": "Fala com frases curtas, via aérea pérvia, colar cervical bem posicionado. Traqueia desviada para a esquerda."},
+    {"item": "B - Respiração", "achado": "FR 34 irpm, SatO2 84% em ar ambiente. Expansibilidade reduzida à direita, murmúrio vesicular abolido em hemitórax direito, hipertimpanismo à percussão à direita. Escoriações em hemitórax direito."},
+    {"item": "C - Circulação", "achado": "PA 80 x 50 mmHg, FC 132 bpm, pulsos finos, extremidades frias, turgência jugular presente. Sem sangramento externo ativo. Pelve estável."},
+    {"item": "D - Neurológico", "achado": "Escala de Coma de Glasgow 15, pupilas isocóricas e fotorreagentes, movimenta os quatro membros."},
+    {"item": "E - Exposição", "achado": "Escoriações em membro superior direito, sem deformidades. Temperatura 35,9 °C."},
+    {"item": "Reavaliação após descompressão", "achado": "Se o candidato fizer a toracocentese de alívio: saída de ar sob pressão, SatO2 sobe para 93%, PA 105 x 68 mmHg, FC 110 bpm."}
+  ],
+  "exames": [
+    {"item": "Radiografia de tórax", "resultado": "Não deve ser feita antes da descompressão: o diagnóstico de pneumotórax hipertensivo é clínico. Após drenagem: pulmão direito expandido, dreno bem posicionado, fratura do 5º e 6º arcos costais à direita."},
+    {"item": "FAST (ultrassom à beira do leito)", "resultado": "Sem líquido livre em abdome e pericárdio."},
+    {"item": "Tipagem sanguínea e gasometria", "resultado": "Tipagem O positivo. Lactato 3,8 mmol/L."}
+  ],
+  "diagnostico": "Politrauma com pneumotórax hipertensivo à direita e choque obstrutivo.",
+  "condutaEsperada": [
+    "Seguir o ABCDE: via aérea com proteção da coluna cervical, oxigênio suplementar em alto fluxo.",
+    "Reconhecer pneumotórax hipertensivo clinicamente e fazer descompressão imediata (toracocentese com agulha no 4º ou 5º espaço intercostal entre as linhas axilares anterior e média, no adulto), sem esperar radiografia.",
+    "Drenagem torácica fechada em selo d'água no 5º espaço intercostal, entre as linhas axilares anterior e média.",
+    "Dois acessos venosos calibrosos, coleta de exames e tipagem, cristaloide aquecido de forma criteriosa, avaliar resposta.",
+    "Completar avaliação (D e E), prevenir hipotermia, FAST e radiografia de tórax após a drenagem, reavaliação contínua."
+  ],
+  "pep": [
+    {"id": "seguranca", "item": "Verifica segurança, usa equipamentos de proteção e se apresenta.", "peso": 0.5},
+    {"id": "via-aerea", "item": "Avalia via aérea mantendo a proteção da coluna cervical.", "peso": 1},
+    {"id": "oxigenio", "item": "Oferece oxigênio suplementar em alto fluxo e monitoriza.", "peso": 0.5},
+    {"id": "exame-b", "item": "Examina o tórax: inspeção, ausculta e percussão, identificando murmúrio abolido e hipertimpanismo à direita.", "peso": 1.5},
+    {"id": "diagnostico", "item": "Diagnostica pneumotórax hipertensivo clinicamente, sem pedir radiografia antes de tratar.", "peso": 1.5},
+    {"id": "descompressao", "item": "Realiza descompressão imediata com agulha no local correto.", "peso": 1.5},
+    {"id": "drenagem", "item": "Indica drenagem torácica em selo d'água no 5º espaço intercostal entre as linhas axilares anterior e média.", "peso": 1},
+    {"id": "circulacao", "item": "Avalia circulação, obtém dois acessos calibrosos, coleta exames e repõe volume de forma criteriosa.", "peso": 1},
+    {"id": "d-e", "item": "Completa avaliação neurológica e exposição com prevenção de hipotermia.", "peso": 0.5},
+    {"id": "reavalia", "item": "Reavalia após cada intervenção e solicita FAST e radiografia após a drenagem.", "peso": 1}
+  ],
+  "referencias": [
+    "Advanced Trauma Life Support (ATLS), 10ª edição, American College of Surgeons"
+  ]
+}

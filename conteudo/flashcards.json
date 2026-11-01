@@ -1,0 +1,2266 @@
+{
+  "_sobre": "Cartões de conceito de alto rendimento, escritos a partir dos temas que mais se repetem nas provas e conferidos contra os gabaritos oficiais das questões listadas em 'questoes'. Em revisão médica.",
+  "cartoes": [
+    {
+      "id": "sus-conselhos",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "SUS e políticas de saúde",
+      "tema": "Conselhos de saúde",
+      "frente": "Conselhos de saúde: caráter e composição?",
+      "verso": "Permanentes e deliberativos. Composição paritária: 50% usuários, 25% trabalhadores da saúde e 25% gestores e prestadores (Lei 8.142/1990 e Resolução CNS 453/2012).",
+      "questoes": [
+        "revalida_2023-1_q060",
+        "revalida_2024-2_q050"
+      ],
+      "es": {
+        "frente": "Consejos de salud: ¿carácter y composición?",
+        "verso": "Permanentes y deliberativos. Composición paritaria: 50 % usuarios, 25 % trabajadores de la salud y 25 % gestores y prestadores (Ley 8.142/1990 y Resolución CNS 453/2012)."
+      }
+    },
+    {
+      "id": "sus-8142-repasses",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "SUS e políticas de saúde",
+      "tema": "Lei 8.142 – financiamento do SUS",
+      "frente": "Lei 8.142: o que estados e municípios precisam ter para receber repasses do Fundo Nacional de Saúde?",
+      "verso": "Fundo de saúde, conselho de saúde paritário, plano de saúde, relatório de gestão, contrapartida de recursos e comissão de elaboração do plano de carreira (PCCS).",
+      "questoes": [
+        "revalida_2024-2_q005"
+      ],
+      "es": {
+        "frente": "Ley 8.142: ¿qué necesitan estados y municipios para recibir transferencias del Fondo Nacional de Salud?",
+        "verso": "Fondo de salud, consejo de salud paritario, plan de salud, informe de gestión, contrapartida de recursos y comisión para elaborar el plan de carrera (PCCS)."
+      }
+    },
+    {
+      "id": "sus-conferencias",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "SUS e políticas de saúde",
+      "tema": "Participação social – conselhos de saúde",
+      "frente": "Conferências de saúde: periodicidade e função?",
+      "verso": "A cada 4 anos, com representação dos vários segmentos sociais, para avaliar a situação de saúde e propor diretrizes para a política de saúde (Lei 8.142/1990).",
+      "questoes": [
+        "revalida_2024-2_q030"
+      ],
+      "es": {
+        "frente": "Conferencias de salud: ¿periodicidad y función?",
+        "verso": "Cada 4 años, con representación de los distintos sectores sociales, para evaluar la situación de salud y proponer directrices para la política de salud (Ley 8.142/1990)."
+      }
+    },
+    {
+      "id": "sus-principios",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "SUS e políticas de saúde",
+      "tema": "Princípios do SUS",
+      "frente": "Princípios doutrinários e organizativos do SUS?",
+      "verso": "Doutrinários: universalidade, integralidade e equidade. Organizativos: descentralização, regionalização, hierarquização e participação da comunidade.",
+      "questoes": [
+        "revalida_2024-1_q005",
+        "revalida_2024-2_q010"
+      ],
+      "es": {
+        "frente": "¿Principios doctrinarios y organizativos del SUS?",
+        "verso": "Doctrinarios: universalidad, integralidad y equidad. Organizativos: descentralización, regionalización, jerarquización y participación de la comunidad."
+      }
+    },
+    {
+      "id": "prev-niveis",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Prevenção e rastreamento",
+      "tema": "Níveis de prevenção",
+      "frente": "Níveis de prevenção (Leavell e Clark + quaternária)?",
+      "verso": "Primária: antes da doença (vacina, hábitos). Secundária: detecção precoce e evitar novo evento (rastreamento; AAS após AVC). Terciária: reduzir sequelas e reabilitar. Quaternária: evitar intervenções desnecessárias e iatrogenia.",
+      "questoes": [
+        "revalida_2024-2_q035"
+      ],
+      "es": {
+        "frente": "¿Niveles de prevención (Leavell y Clark + cuaternaria)?",
+        "verso": "Primaria: antes de la enfermedad (vacuna, hábitos). Secundaria: detección precoz y evitar un nuevo evento (tamizaje; AAS tras un ACV). Terciaria: reducir secuelas y rehabilitar. Cuaternaria: evitar intervenciones innecesarias y iatrogenia."
+      }
+    },
+    {
+      "id": "do-quem-preenche",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Ética e medicina legal",
+      "tema": "Declaração de óbito",
+      "frente": "Quem preenche a declaração de óbito?",
+      "verso": "Morte natural com assistência: o médico que assistia o paciente. Morte natural sem assistência: SVO (onde não houver, médico do serviço público ou qualquer médico da localidade). Morte violenta ou suspeita: IML.",
+      "questoes": [
+        "revalida_2024-1_q050",
+        "revalida_2024-2_q025"
+      ],
+      "es": {
+        "frente": "¿Quién llena el certificado de defunción?",
+        "verso": "Muerte natural con asistencia: el médico que atendía al paciente. Muerte natural sin asistencia: SVO (servicio de verificación de óbito; donde no haya, médico del servicio público o cualquier médico de la localidad). Muerte violenta o sospechosa: IML (instituto médico legal)."
+      }
+    },
+    {
+      "id": "do-causas",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Ética e medicina legal",
+      "tema": "Declaração de óbito",
+      "frente": "Declaração de óbito: onde vai a causa básica e o que não deve constar?",
+      "verso": "Parte I em sequência: causa imediata na linha a e causa básica na última linha preenchida. Parte II: condições contribuintes. Não usar modos de morrer como parada cardiorrespiratória.",
+      "questoes": [
+        "revalida_2024-1_q050",
+        "revalida_2024-2_q025"
+      ],
+      "es": {
+        "frente": "Certificado de defunción: ¿dónde va la causa básica y qué no debe constar?",
+        "verso": "Parte I en secuencia: causa inmediata en la línea a y causa básica en la última línea completada. Parte II: condiciones contribuyentes. No usar modos de morir como paro cardiorrespiratorio."
+      }
+    },
+    {
+      "id": "epi-vpp",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Epidemiologia",
+      "tema": "Valor preditivo positivo",
+      "frente": "Teste com sensibilidade 80% e especificidade 80% numa população com prevalência de 10%: qual o VPP?",
+      "verso": "Em 100 pessoas: 10 doentes (8 VP) e 90 sadias (18 FP). VPP = 8 / (8 + 18) ≈ 31%. O VPP cai quando a prevalência é baixa.",
+      "questoes": [
+        "revalida_2024-1_q060"
+      ],
+      "es": {
+        "frente": "Prueba con sensibilidad 80 % y especificidad 80 % en una población con prevalencia del 10 %: ¿cuál es el VPP?",
+        "verso": "En 100 personas: 10 enfermos (8 VP) y 90 sanos (18 FP). VPP = 8 / (8 + 18) ≈ 31 %. El VPP baja cuando la prevalencia es baja."
+      }
+    },
+    {
+      "id": "epi-transversal",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Epidemiologia",
+      "tema": "Desenhos de estudo",
+      "frente": "Estudo transversal: características?",
+      "verso": "Exposição e desfecho medidos no mesmo momento; estima prevalência; não estabelece temporalidade. Exemplo: Pesquisa Nacional de Saúde (IBGE).",
+      "questoes": [
+        "revalida_2024-1_q075"
+      ],
+      "es": {
+        "frente": "Estudio transversal: ¿características?",
+        "verso": "Exposición y desenlace medidos en el mismo momento; estima prevalencia; no establece temporalidad. Ejemplo: Encuesta Nacional de Salud (IBGE)."
+      }
+    },
+    {
+      "id": "violencia-notificacao",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Violência sexual",
+      "tema": "Violência doméstica contra a mulher",
+      "frente": "Mulher adulta vítima de violência doméstica atendida na UBS: conduta?",
+      "verso": "Acolher, tratar as lesões, abordagem multiprofissional e notificação compulsória na ficha de violência interpessoal do SINAN. Notificar não é denunciar à polícia.",
+      "questoes": [
+        "revalida_2023-1_q020"
+      ],
+      "es": {
+        "frente": "Mujer adulta víctima de violencia doméstica atendida en la UBS: ¿conducta?",
+        "verso": "Acoger, tratar las lesiones, abordaje multiprofesional y notificación obligatoria en la ficha de violencia interpersonal del SINAN. Notificar no es denunciar a la policía."
+      }
+    },
+    {
+      "id": "eca-vacina",
+      "area": "Pediatria",
+      "especialidade": "Imunização",
+      "tema": "Recusa vacinal",
+      "frente": "Pais recusam vacinar os filhos: o que diz o ECA?",
+      "verso": "A vacinação recomendada pelas autoridades sanitárias é obrigatória (ECA, art. 14). A equipe deve acionar o Conselho Tutelar.",
+      "questoes": [
+        "revalida_2023-2_q068"
+      ],
+      "es": {
+        "frente": "Los padres se niegan a vacunar a sus hijos: ¿qué dice el ECA?",
+        "verso": "La vacunación recomendada por las autoridades sanitarias es obligatoria (ECA, art. 14). El equipo debe avisar al Consejo Tutelar."
+      }
+    },
+    {
+      "id": "tb-esquema",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Infectologia",
+      "tema": "Tuberculose pulmonar",
+      "frente": "Tuberculose pulmonar sensível em adulto: esquema e medidas?",
+      "verso": "2 meses de RHZE + 4 meses de RH, dose pelo peso. Notificar no SINAN, oferecer TDO, testar HIV e avaliar todos os contatos.",
+      "questoes": [
+        "revalida_2024-1_q085",
+        "revalida_2023-2_q065"
+      ],
+      "es": {
+        "frente": "Tuberculosis pulmonar sensible en adulto: ¿esquema y medidas?",
+        "verso": "2 meses de RHZE + 4 meses de RH, dosis según el peso. Notificar en el SINAN, ofrecer TDO (tratamiento directamente observado), testear VIH y evaluar a todos los contactos."
+      }
+    },
+    {
+      "id": "sifilis-tratamento",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Infectologia",
+      "tema": "Sífilis",
+      "frente": "Sífilis: esquema de penicilina benzatina por fase?",
+      "verso": "Primária, secundária e latente recente: 2,4 milhões UI IM em dose única. Latente tardia ou de duração ignorada e terciária: 2,4 milhões UI IM semanal por 3 semanas (7,2 milhões UI).",
+      "questoes": [
+        "revalida_2023-1_q010",
+        "revalida_2023-1_q029",
+        "revalida_2024-1_q040"
+      ],
+      "es": {
+        "frente": "Sífilis: ¿esquema de penicilina benzatínica por fase?",
+        "verso": "Primaria, secundaria y latente reciente: 2,4 millones UI IM en dosis única. Latente tardía o de duración desconocida y terciaria: 2,4 millones UI IM semanal por 3 semanas (7,2 millones UI)."
+      }
+    },
+    {
+      "id": "sifilis-gestante-controle",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Sífilis na gestação",
+      "frente": "Gestante tratada para sífilis: como acompanhar?",
+      "verso": "VDRL mensal até o parto (fora da gestação, trimestral), tratar a parceria e notificar. Queda de 2 diluições em 3 meses (ou 4 em 6 meses) indica resposta.",
+      "questoes": [
+        "revalida_2023-1_q010",
+        "revalida_2024-1_q040"
+      ],
+      "es": {
+        "frente": "Gestante tratada por sífilis: ¿cómo hacer el seguimiento?",
+        "verso": "VDRL mensual hasta el parto (fuera del embarazo, trimestral), tratar a la pareja y notificar. Una caída de 2 diluciones en 3 meses (o 4 en 6 meses) indica respuesta."
+      }
+    },
+    {
+      "id": "ecomapa",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Medicina de família - ferramentas",
+      "tema": "Ecomapa e genograma",
+      "frente": "Genograma x ecomapa?",
+      "verso": "Genograma: estrutura familiar ao longo das gerações, doenças e padrões de relação. Ecomapa: relações da família com a comunidade, serviços e redes de apoio (fortes, fracas ou conflituosas).",
+      "questoes": [
+        "revalida_2023-2_q030"
+      ],
+      "es": {
+        "frente": "¿Genograma o ecomapa?",
+        "verso": "Genograma: estructura familiar a lo largo de las generaciones, enfermedades y patrones de relación. Ecomapa: relaciones de la familia con la comunidad, los servicios y las redes de apoyo (fuertes, débiles o conflictivas)."
+      }
+    },
+    {
+      "id": "saude-indigena",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Populações específicas",
+      "tema": "Saúde indígena",
+      "frente": "Subsistema de Atenção à Saúde Indígena: como é organizado?",
+      "verso": "Integra o SUS, coordenado pela SESAI, em 34 Distritos Sanitários Especiais Indígenas (DSEI) definidos por critérios étnico-culturais e territoriais, que não coincidem com limites de municípios e estados.",
+      "questoes": [
+        "revalida_2023-1_q050",
+        "revalida_2024-1_q055"
+      ],
+      "es": {
+        "frente": "Subsistema de Atención a la Salud Indígena: ¿cómo se organiza?",
+        "verso": "Integra el SUS, coordinado por la SESAI, en 34 Distritos Sanitarios Especiales Indígenas (DSEI) definidos por criterios étnico-culturales y territoriales, que no coinciden con los límites de municipios y estados."
+      }
+    },
+    {
+      "id": "acesso-avancado",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Atenção primária",
+      "tema": "Acesso avançado",
+      "frente": "O que é acesso avançado na APS?",
+      "verso": "Modelo de agenda em que a maior parte das consultas fica livre para a demanda do próprio dia ('faça hoje o trabalho de hoje'), reduzindo a fila de espera.",
+      "questoes": [
+        "revalida_2024-2_q085"
+      ],
+      "es": {
+        "frente": "¿Qué es el acceso avanzado en la APS?",
+        "verso": "Modelo de agenda en el que la mayor parte de las consultas queda libre para la demanda del mismo día ('haga hoy el trabajo de hoy'), reduciendo la lista de espera."
+      }
+    },
+    {
+      "id": "tabagismo",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Promoção da saúde",
+      "tema": "Tratamento do tabagismo",
+      "frente": "Tratamento do tabagismo no SUS: o que é mais efetivo?",
+      "verso": "Abordagem cognitivo-comportamental (individual ou em grupo) associada a farmacoterapia (terapia de reposição de nicotina e/ou bupropiona), conforme a dependência.",
+      "questoes": [
+        "revalida_2024-2_q055",
+        "revalida_2024-2_q100"
+      ],
+      "es": {
+        "frente": "Tratamiento del tabaquismo en el SUS: ¿qué es lo más efectivo?",
+        "verso": "Abordaje cognitivo-conductual (individual o grupal) asociado a farmacoterapia (terapia de reemplazo de nicotina y/o bupropión), según la dependencia."
+      }
+    },
+    {
+      "id": "iam-supra",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "IAM com supra de ST",
+      "frente": "IAM com supra de ST: tempos e conduta inicial?",
+      "verso": "ECG em até 10 minutos. AAS e clopidogrel em ataque. Reperfusão: angioplastia primária se possível em até 90-120 minutos; senão, fibrinólise em até 30 minutos. Oxigênio só se SatO2 < 90%.",
+      "questoes": [],
+      "es": {
+        "frente": "IAM con elevación del ST: ¿tiempos y conducta inicial?",
+        "verso": "ECG en hasta 10 minutos. AAS y clopidogrel en dosis de carga. Reperfusión: angioplastia primaria si es posible en 90-120 minutos; si no, fibrinólisis en hasta 30 minutos. Oxígeno solo si SatO2 < 90 %."
+      }
+    },
+    {
+      "id": "taqui-instavel",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Taquiarritmia instável",
+      "frente": "Taquiarritmia com instabilidade: quais sinais e qual conduta?",
+      "verso": "Hipotensão, rebaixamento de consciência, dor torácica isquêmica ou congestão pulmonar = instável: cardioversão elétrica sincronizada imediata (sem pulso: desfibrilação).",
+      "questoes": [
+        "revalida_2023-1_q001",
+        "revalida_2023-2_q076",
+        "revalida_2024-2_q011"
+      ],
+      "es": {
+        "frente": "Taquiarritmia con inestabilidad: ¿qué signos y qué conducta?",
+        "verso": "Hipotensión, deterioro de la conciencia, dolor torácico isquémico o congestión pulmonar = inestable: cardioversión eléctrica sincronizada inmediata (sin pulso: desfibrilación)."
+      }
+    },
+    {
+      "id": "fa-flutter-estavel",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Fibrilação e flutter atrial",
+      "frente": "FA ou flutter estável, sem instabilidade: conduta inicial?",
+      "verso": "Controle da frequência (betabloqueador ou bloqueador de canal de cálcio não di-hidropiridínico) e avaliação do risco tromboembólico para anticoagulação (CHA2DS2-VASc).",
+      "questoes": [
+        "revalida_2024-1_q066"
+      ],
+      "es": {
+        "frente": "FA o flutter estable, sin inestabilidad: ¿conducta inicial?",
+        "verso": "Control de la frecuencia (betabloqueante o bloqueante de los canales de calcio no dihidropiridínico) y evaluación del riesgo tromboembólico para anticoagulación (CHA2DS2-VASc)."
+      }
+    },
+    {
+      "id": "emergencia-hipertensiva",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Encefalopatia hipertensiva",
+      "frente": "Emergência hipertensiva com encefalopatia: conduta?",
+      "verso": "Internar, tomografia de crânio para excluir AVC, anti-hipertensivo IV titulável (nitroprussiato) reduzindo a PA média em até 25% na primeira hora.",
+      "questoes": [
+        "revalida_2023-2_q001",
+        "revalida_2024-1_q086"
+      ],
+      "es": {
+        "frente": "Emergencia hipertensiva con encefalopatía: ¿conducta?",
+        "verso": "Internar, tomografía de cráneo para descartar ACV, antihipertensivo IV titulable (nitroprusiato) reduciendo la PA media hasta un 25 % en la primera hora."
+      }
+    },
+    {
+      "id": "graves",
+      "area": "Clínica Médica",
+      "especialidade": "Endocrinologia",
+      "tema": "Doença de Graves",
+      "frente": "Doença de Graves: exame que confirma e tratamento inicial?",
+      "verso": "TSH suprimido, T4 livre alto e TRAb positivo (captação difusa aumentada se feita cintilografia). Tratamento: metimazol + betabloqueador para sintomas.",
+      "questoes": [
+        "revalida_2024-1_q011",
+        "revalida_2023-1_q076",
+        "revalida_2023-2_q021"
+      ],
+      "es": {
+        "frente": "Enfermedad de Graves: ¿examen que confirma y tratamiento inicial?",
+        "verso": "TSH suprimida, T4 libre alta y TRAb positivo (captación difusa aumentada si se hace gammagrafía). Tratamiento: metimazol + betabloqueante para los síntomas."
+      }
+    },
+    {
+      "id": "dm2-dcv",
+      "area": "Clínica Médica",
+      "especialidade": "Endocrinologia",
+      "tema": "Diabetes tipo 2",
+      "frente": "DM2 em uso de metformina com doença cardiovascular estabelecida: o que associar?",
+      "verso": "Inibidor de SGLT2 ou agonista de GLP-1 com benefício cardiovascular comprovado, independentemente da HbA1c.",
+      "questoes": [
+        "revalida_2024-2_q066"
+      ],
+      "es": {
+        "frente": "DM2 con metformina y enfermedad cardiovascular establecida: ¿qué asociar?",
+        "verso": "Inhibidor de SGLT2 o agonista de GLP-1 con beneficio cardiovascular comprobado, independientemente de la HbA1c."
+      }
+    },
+    {
+      "id": "dm-diagnostico",
+      "area": "Clínica Médica",
+      "especialidade": "Endocrinologia",
+      "tema": "Diabetes tipo 2",
+      "frente": "Critérios diagnósticos de diabetes mellitus?",
+      "verso": "Glicemia de jejum ≥ 126 mg/dL, HbA1c ≥ 6,5% ou glicemia de 2 h no TOTG ≥ 200 mg/dL (confirmar com segundo exame); ou glicemia ao acaso ≥ 200 mg/dL com sintomas.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Criterios diagnósticos de diabetes mellitus?",
+        "verso": "Glucemia en ayunas ≥ 126 mg/dL, HbA1c ≥ 6,5 % o glucemia a las 2 h en la PTOG ≥ 200 mg/dL (confirmar con un segundo examen); o glucemia al azar ≥ 200 mg/dL con síntomas."
+      }
+    },
+    {
+      "id": "cad",
+      "area": "Clínica Médica",
+      "especialidade": "Endocrinologia",
+      "tema": "Cetoacidose diabética",
+      "frente": "Cetoacidose diabética: primeiros passos?",
+      "verso": "Soro fisiológico 0,9% (cerca de 1 L na primeira hora), dosar potássio antes da insulina (se K < 3,3 mEq/L, repor antes), depois insulina regular IV contínua e busca do fator desencadeante.",
+      "questoes": [
+        "revalida_2023-2_q050",
+        "revalida_2024-1_q058"
+      ],
+      "es": {
+        "frente": "Cetoacidosis diabética: ¿primeros pasos?",
+        "verso": "Solución salina 0,9 % (cerca de 1 L en la primera hora), medir el potasio antes de la insulina (si K < 3,3 mEq/L, reponer antes), después insulina regular IV continua y búsqueda del factor desencadenante."
+      }
+    },
+    {
+      "id": "sepse",
+      "area": "Clínica Médica",
+      "especialidade": "Emergência clínica",
+      "tema": "Sepse",
+      "frente": "Sepse com hipotensão ou lactato elevado: conduta da primeira hora?",
+      "verso": "Coletar lactato e hemoculturas, antibiótico de amplo espectro na primeira hora e cristaloide 30 mL/kg; vasopressor (noradrenalina) se PAM < 65 mmHg após volume.",
+      "questoes": [
+        "revalida_2023-1_q046"
+      ],
+      "es": {
+        "frente": "Sepsis con hipotensión o lactato elevado: ¿conducta de la primera hora?",
+        "verso": "Tomar lactato y hemocultivos, antibiótico de amplio espectro en la primera hora y cristaloide 30 mL/kg; vasopresor (noradrenalina) si PAM < 65 mmHg tras el volumen."
+      }
+    },
+    {
+      "id": "guillain-barre",
+      "area": "Clínica Médica",
+      "especialidade": "Neurologia",
+      "tema": "Síndrome de Guillain-Barré",
+      "frente": "Guillain-Barré: quadro e líquor?",
+      "verso": "Fraqueza ascendente e simétrica com arreflexia, dias a semanas após infecção. Líquor com dissociação albuminocitológica (proteína alta, células normais).",
+      "questoes": [
+        "revalida_2024-1_q021"
+      ],
+      "es": {
+        "frente": "Guillain-Barré: ¿cuadro y líquido cefalorraquídeo?",
+        "verso": "Debilidad ascendente y simétrica con arreflexia, días a semanas después de una infección. LCR con disociación albuminocitológica (proteína alta, células normales)."
+      }
+    },
+    {
+      "id": "wernicke",
+      "area": "Clínica Médica",
+      "especialidade": "Neurologia",
+      "tema": "Síndrome de Wernicke",
+      "frente": "Encefalopatia de Wernicke: tríade e tratamento?",
+      "verso": "Confusão mental, ataxia e oftalmoplegia, em etilistas ou desnutridos. Tiamina parenteral em dose alta, antes de oferecer glicose.",
+      "questoes": [
+        "revalida_2023-1_q061"
+      ],
+      "es": {
+        "frente": "Encefalopatía de Wernicke: ¿tríada y tratamiento?",
+        "verso": "Confusión mental, ataxia y oftalmoplejía, en alcohólicos o desnutridos. Tiamina parenteral en dosis alta, antes de ofrecer glucosa."
+      }
+    },
+    {
+      "id": "meningite-tc",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Meningite",
+      "frente": "Suspeita de meningite: quando fazer tomografia antes da punção lombar?",
+      "verso": "Déficit focal, papiledema, rebaixamento importante de consciência, convulsão recente ou imunossupressão. Sem esses sinais, punção imediata. Antibiótico não deve esperar a imagem.",
+      "questoes": [
+        "revalida_2023-1_q041",
+        "revalida_2024-1_q071"
+      ],
+      "es": {
+        "frente": "Sospecha de meningitis: ¿cuándo hacer tomografía antes de la punción lumbar?",
+        "verso": "Déficit focal, papiledema, deterioro importante de la conciencia, convulsión reciente o inmunosupresión. Sin esos signos, punción inmediata. El antibiótico no debe esperar la imagen."
+      }
+    },
+    {
+      "id": "pti",
+      "area": "Clínica Médica",
+      "especialidade": "Hematologia",
+      "tema": "Púrpura trombocitopênica imunológica",
+      "frente": "PTI: como reconhecer?",
+      "verso": "Plaquetopenia isolada com petéquias e sangramento mucocutâneo, sem anemia, sem alteração de leucócitos e sem esplenomegalia; afastar outras causas. Com sangramento: corticoide e/ou imunoglobulina.",
+      "questoes": [
+        "revalida_2023-1_q011"
+      ],
+      "es": {
+        "frente": "PTI: ¿cómo reconocerla?",
+        "verso": "Plaquetopenia aislada con petequias y sangrado mucocutáneo, sin anemia, sin alteración de leucocitos y sin esplenomegalia; descartar otras causas. Con sangrado: corticoide y/o inmunoglobulina."
+      }
+    },
+    {
+      "id": "mieloma",
+      "area": "Clínica Médica",
+      "especialidade": "Hematologia",
+      "tema": "Mieloma múltiplo",
+      "frente": "Mieloma múltiplo: achados clássicos?",
+      "verso": "CRAB: hipercalcemia, insuficiência renal, anemia e lesões ósseas líticas, em idoso com dor óssea. Confirmação por mielograma (plasmócitos clonais) e eletroforese de proteínas com pico monoclonal.",
+      "questoes": [
+        "revalida_2023-2_q071"
+      ],
+      "es": {
+        "frente": "Mieloma múltiple: ¿hallazgos clásicos?",
+        "verso": "CRAB: hipercalcemia, insuficiencia renal, anemia y lesiones óseas líticas, en un adulto mayor con dolor óseo. Confirmación por mielograma (plasmocitos clonales) y electroforesis de proteínas con pico monoclonal."
+      }
+    },
+    {
+      "id": "organofosforado",
+      "area": "Clínica Médica",
+      "especialidade": "Emergência clínica",
+      "tema": "Intoxicação por organofosforados",
+      "frente": "Intoxicação por organofosforado: quadro e antídoto?",
+      "verso": "Síndrome colinérgica: miose, sialorreia, broncorreia, bradicardia, vômitos, incontinência e fasciculações. Atropina até secar secreções, mais pralidoxima quando disponível.",
+      "questoes": [
+        "revalida_2023-2_q051"
+      ],
+      "es": {
+        "frente": "Intoxicación por organofosforados: ¿cuadro y antídoto?",
+        "verso": "Síndrome colinérgico: miosis, sialorrea, broncorrea, bradicardia, vómitos, incontinencia y fasciculaciones. Atropina hasta secar las secreciones, más pralidoxima cuando esté disponible."
+      }
+    },
+    {
+      "id": "leptospirose",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Leptospirose",
+      "frente": "Leptospirose: pistas clínicas e exame?",
+      "verso": "Exposição a enchente, febre, mialgia intensa em panturrilhas, sufusão conjuntival; forma grave com icterícia, lesão renal com hipocalemia e hemorragia. Diagnóstico por microaglutinação.",
+      "questoes": [
+        "revalida_2024-1_q036",
+        "revalida_2023-2_q066"
+      ],
+      "es": {
+        "frente": "Leptospirosis: ¿pistas clínicas y examen?",
+        "verso": "Exposición a inundación, fiebre, mialgia intensa en pantorrillas, sufusión conjuntival; forma grave con ictericia, lesión renal con hipopotasemia y hemorragia. Diagnóstico por microaglutinación."
+      }
+    },
+    {
+      "id": "pbe",
+      "area": "Clínica Médica",
+      "especialidade": "Gastroenterologia",
+      "tema": "Peritonite bacteriana espontânea",
+      "frente": "Peritonite bacteriana espontânea: diagnóstico e tratamento?",
+      "verso": "Paciente com ascite e neutrófilos ≥ 250/mm³ no líquido ascítico. Cefalosporina de 3ª geração (ceftriaxona ou cefotaxima) e albumina nos casos de maior risco renal.",
+      "questoes": [
+        "revalida_2023-2_q081"
+      ],
+      "es": {
+        "frente": "Peritonitis bacteriana espontánea: ¿diagnóstico y tratamiento?",
+        "verso": "Paciente con ascitis y neutrófilos ≥ 250/mm³ en el líquido ascítico. Cefalosporina de 3.ª generación (ceftriaxona o cefotaxima) y albúmina en los casos de mayor riesgo renal."
+      }
+    },
+    {
+      "id": "sii",
+      "area": "Clínica Médica",
+      "especialidade": "Gastroenterologia",
+      "tema": "Síndrome do intestino irritável",
+      "frente": "Síndrome do intestino irritável: critérios de Roma IV?",
+      "verso": "Dor abdominal recorrente pelo menos 1 dia por semana nos últimos 3 meses, associada a 2 ou mais: relação com evacuação, mudança na frequência ou na forma das fezes. Sem sinais de alarme.",
+      "questoes": [
+        "revalida_2024-1_q041",
+        "revalida_2023-2_q016"
+      ],
+      "es": {
+        "frente": "Síndrome del intestino irritable: ¿criterios de Roma IV?",
+        "verso": "Dolor abdominal recurrente al menos 1 día por semana en los últimos 3 meses, asociado a 2 o más: relación con la defecación, cambio en la frecuencia o en la forma de las heces. Sin signos de alarma."
+      }
+    },
+    {
+      "id": "pneumotorax-hipertensivo",
+      "area": "Cirurgia",
+      "especialidade": "Trauma",
+      "tema": "Pneumotórax hipertensivo",
+      "frente": "Pneumotórax hipertensivo: diagnóstico e tratamento?",
+      "verso": "Diagnóstico clínico (dispneia, MV abolido, hipertimpanismo, desvio de traqueia, turgência jugular, hipotensão). Descompressão imediata no 5º espaço intercostal entre as linhas axilares anterior e média (adulto) e drenagem em selo d'água. Não esperar radiografia.",
+      "questoes": [
+        "revalida_2024-2_q077"
+      ],
+      "es": {
+        "frente": "Neumotórax a tensión: ¿diagnóstico y tratamiento?",
+        "verso": "Diagnóstico clínico (disnea, murmullo vesicular abolido, hipertimpanismo, desviación traqueal, ingurgitación yugular, hipotensión). Descompresión inmediata en el 5.º espacio intercostal entre las líneas axilares anterior y media (adulto) y drenaje con sello de agua. No esperar la radiografía."
+      }
+    },
+    {
+      "id": "tamponamento",
+      "area": "Cirurgia",
+      "especialidade": "Trauma",
+      "tema": "Tamponamento cardíaco",
+      "frente": "Tamponamento cardíaco: tríade e conduta?",
+      "verso": "Tríade de Beck: hipotensão, turgência jugular e bulhas abafadas (MV presente bilateralmente). FAST confirma. Pericardiocentese como ponte e cirurgia (toracotomia/ esternotomia).",
+      "questoes": [
+        "revalida_2023-1_q037",
+        "revalida_2024-1_q091"
+      ],
+      "es": {
+        "frente": "Taponamiento cardíaco: ¿tríada y conducta?",
+        "verso": "Tríada de Beck: hipotensión, ingurgitación yugular y ruidos cardíacos apagados (murmullo vesicular presente en ambos lados). El FAST confirma. Pericardiocentesis como puente y cirugía (toracotomía o esternotomía)."
+      }
+    },
+    {
+      "id": "uretra",
+      "area": "Cirurgia",
+      "especialidade": "Trauma",
+      "tema": "Lesão de uretra",
+      "frente": "Suspeita de lesão de uretra no trauma de pelve: o que fazer antes de sondar?",
+      "verso": "Sangue no meato, hematoma perineal ou próstata alta: não passar sonda vesical. Fazer uretrocistografia retrógrada.",
+      "questoes": [
+        "revalida_2024-1_q002",
+        "revalida_2023-2_q007"
+      ],
+      "es": {
+        "frente": "Sospecha de lesión uretral en el trauma de pelvis: ¿qué hacer antes de sondar?",
+        "verso": "Sangre en el meato, hematoma perineal o próstata alta: no pasar sonda vesical. Hacer uretrocistografía retrógrada."
+      }
+    },
+    {
+      "id": "crico",
+      "area": "Cirurgia",
+      "especialidade": "Trauma",
+      "tema": "Via aérea cirúrgica",
+      "frente": "Trauma de face grave com impossibilidade de intubar: qual via aérea?",
+      "verso": "Cricotireoidostomia cirúrgica. Traqueostomia não é procedimento de emergência; em crianças pequenas, prefere-se a cricotireoidostomia por punção.",
+      "questoes": [
+        "revalida_2023-2_q062"
+      ],
+      "es": {
+        "frente": "Trauma facial grave con imposibilidad de intubar: ¿qué vía aérea?",
+        "verso": "Cricotiroidotomía quirúrgica. La traqueostomía no es un procedimiento de emergencia; en niños pequeños se prefiere la cricotiroidotomía por punción."
+      }
+    },
+    {
+      "id": "hemotorax-macico",
+      "area": "Cirurgia",
+      "especialidade": "Trauma",
+      "tema": "Hemotórax maciço",
+      "frente": "Hemotórax: quando indicar toracotomia?",
+      "verso": "Drenagem inicial ≥ 1.500 mL, débito ≥ 200 mL/h por 2 a 4 horas ou instabilidade hemodinâmica persistente.",
+      "questoes": [
+        "revalida_2024-1_q027"
+      ],
+      "es": {
+        "frente": "Hemotórax: ¿cuándo indicar toracotomía?",
+        "verso": "Drenaje inicial ≥ 1.500 mL, débito ≥ 200 mL/h durante 2 a 4 horas o inestabilidad hemodinámica persistente."
+      }
+    },
+    {
+      "id": "queimado-volume",
+      "area": "Cirurgia",
+      "especialidade": "Queimaduras",
+      "tema": "Reposição volêmica no queimado",
+      "frente": "Reposição volêmica no grande queimado adulto (ATLS 10ª edição)?",
+      "verso": "Ringer lactato 2 mL × peso (kg) × % de superfície queimada (2º e 3º graus), metade nas primeiras 8 horas desde a queimadura e metade nas 16 horas seguintes. Ajustar pela diurese (0,5 mL/kg/h no adulto).",
+      "questoes": [
+        "revalida_2024-2_q017"
+      ],
+      "es": {
+        "frente": "Reposición de volumen en el gran quemado adulto (ATLS 10.ª edición)?",
+        "verso": "Ringer lactato 2 mL × peso (kg) × % de superficie quemada (2.º y 3.er grado), la mitad en las primeras 8 horas desde la quemadura y la otra mitad en las 16 horas siguientes. Ajustar según la diuresis (0,5 mL/kg/h en el adulto)."
+      }
+    },
+    {
+      "id": "queimado-referencia",
+      "area": "Cirurgia",
+      "especialidade": "Queimaduras",
+      "tema": "Centro de queimados",
+      "frente": "Exemplos de critérios para transferir a um centro de queimados?",
+      "verso": "Queimadura elétrica (inclusive por raio), química, de face, mãos, pés, genitais ou grandes articulações, de 3º grau, inalatória, extensa ou em pacientes com comorbidades.",
+      "questoes": [
+        "revalida_2023-1_q082"
+      ],
+      "es": {
+        "frente": "¿Ejemplos de criterios para trasladar a un centro de quemados?",
+        "verso": "Quemadura eléctrica (incluso por rayo), química, de cara, manos, pies, genitales o grandes articulaciones, de 3.er grado, inhalatoria, extensa o en pacientes con comorbilidades."
+      }
+    },
+    {
+      "id": "apendicite",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Apendicite aguda",
+      "frente": "Apendicite aguda: quadro clássico e conduta?",
+      "verso": "Dor periumbilical que migra para a fossa ilíaca direita, anorexia, náuseas e febre baixa; Blumberg positivo. Antibioticoprofilaxia e apendicectomia, de preferência laparoscópica.",
+      "questoes": [
+        "revalida_2024-1_q047"
+      ],
+      "es": {
+        "frente": "Apendicitis aguda: ¿cuadro clásico y conducta?",
+        "verso": "Dolor periumbilical que migra a la fosa ilíaca derecha, anorexia, náuseas y fiebre baja; Blumberg positivo. Profilaxis antibiótica y apendicectomía, preferentemente laparoscópica."
+      }
+    },
+    {
+      "id": "colangite",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Colangite aguda",
+      "frente": "Colangite aguda: tríade e tratamento?",
+      "verso": "Tríade de Charcot: febre, icterícia e dor em hipocôndrio direito (com hipotensão e confusão: pêntade de Reynolds). Antibiótico imediato e drenagem da via biliar (CPRE).",
+      "questoes": [
+        "revalida_2023-2_q022"
+      ],
+      "es": {
+        "frente": "Colangitis aguda: ¿tríada y tratamiento?",
+        "verso": "Tríada de Charcot: fiebre, ictericia y dolor en hipocondrio derecho (con hipotensión y confusión: péntada de Reynolds). Antibiótico inmediato y drenaje de la vía biliar (CPRE)."
+      }
+    },
+    {
+      "id": "diverticulite",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Diverticulite aguda",
+      "frente": "Diverticulite: exame de escolha e conduta nas formas complicadas?",
+      "verso": "Tomografia com contraste. Abscesso grande: drenagem percutânea. Peritonite purulenta ou fecal: cirurgia (sigmoidectomia, frequentemente com colostomia à Hartmann).",
+      "questoes": [
+        "revalida_2024-1_q092",
+        "revalida_2023-1_q052",
+        "revalida_2024-2_q057"
+      ],
+      "es": {
+        "frente": "Diverticulitis: ¿examen de elección y conducta en las formas complicadas?",
+        "verso": "Tomografía con contraste. Absceso grande: drenaje percutáneo. Peritonitis purulenta o fecal: cirugía (sigmoidectomía, a menudo con colostomía tipo Hartmann)."
+      }
+    },
+    {
+      "id": "isquemia-mesenterica",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Isquemia mesentérica aguda",
+      "frente": "Isquemia mesentérica aguda: pista e exame?",
+      "verso": "Dor abdominal intensa desproporcional ao exame físico em idoso com fibrilação atrial ou aterosclerose; acidose e lactato alto. Angiotomografia de abdome.",
+      "questoes": [
+        "revalida_2024-2_q087",
+        "revalida_2023-2_q012"
+      ],
+      "es": {
+        "frente": "Isquemia mesentérica aguda: ¿pista y examen?",
+        "verso": "Dolor abdominal intenso desproporcionado al examen físico en un adulto mayor con fibrilación auricular o aterosclerosis; acidosis y lactato alto. Angiotomografía de abdomen."
+      }
+    },
+    {
+      "id": "torcao",
+      "area": "Cirurgia",
+      "especialidade": "Cirurgia pediátrica",
+      "tema": "Torção testicular",
+      "frente": "Torção testicular: achados e conduta?",
+      "verso": "Dor escrotal súbita, testículo elevado e horizontalizado, reflexo cremastérico abolido. Exploração cirúrgica imediata; não atrasar por exames (janela de cerca de 6 horas).",
+      "questoes": [
+        "revalida_2024-2_q033"
+      ],
+      "es": {
+        "frente": "Torsión testicular: ¿hallazgos y conducta?",
+        "verso": "Dolor escrotal súbito, testículo elevado y horizontal, reflejo cremastérico abolido. Exploración quirúrgica inmediata; no retrasarla por exámenes (ventana de unas 6 horas)."
+      }
+    },
+    {
+      "id": "tumor-testiculo",
+      "area": "Cirurgia",
+      "especialidade": "Urologia",
+      "tema": "Tumor de testículo",
+      "frente": "Massa testicular endurecida e indolor em jovem: investigação e tratamento?",
+      "verso": "Ultrassonografia de bolsa escrotal e marcadores (AFP, beta-hCG, DHL). Tratamento com orquiectomia radical por via inguinal (nunca biópsia escrotal).",
+      "questoes": [
+        "revalida_2023-1_q012",
+        "revalida_2024-1_q012",
+        "revalida_2023-2_q092"
+      ],
+      "es": {
+        "frente": "Masa testicular dura e indolora en un joven: ¿estudio y tratamiento?",
+        "verso": "Ecografía escrotal y marcadores (AFP, beta-hCG, LDH). Tratamiento con orquiectomía radical por vía inguinal (nunca biopsia escrotal)."
+      }
+    },
+    {
+      "id": "profilaxia",
+      "area": "Cirurgia",
+      "especialidade": "Pré e pós-operatório",
+      "tema": "Antibioticoprofilaxia",
+      "frente": "Antibioticoprofilaxia cirúrgica: quando e como?",
+      "verso": "Indicada em cirurgias potencialmente contaminadas e em limpas com implante ou alto risco; limpa sem implante em paciente de baixo risco, em geral não. Cefazolina (2 g IV no adulto) até 60 minutos antes da incisão.",
+      "questoes": [
+        "revalida_2024-2_q012",
+        "revalida_2024-1_q072"
+      ],
+      "es": {
+        "frente": "Profilaxis antibiótica quirúrgica: ¿cuándo y cómo?",
+        "verso": "Indicada en cirugías potencialmente contaminadas y en limpias con implante o alto riesgo; en la limpia sin implante en un paciente de bajo riesgo, en general no. Cefazolina (2 g IV en el adulto) hasta 60 minutos antes de la incisión."
+      }
+    },
+    {
+      "id": "queimadura-ocular",
+      "area": "Cirurgia",
+      "especialidade": "Oftalmologia",
+      "tema": "Queimadura química ocular",
+      "frente": "Queimadura química ocular: primeira conduta?",
+      "verso": "Irrigação imediata e abundante com soro fisiológico ou água corrente, por longo tempo, antes de qualquer outra medida. Depois, avaliação oftalmológica de urgência.",
+      "questoes": [
+        "revalida_2024-2_q062",
+        "revalida_2023-2_q047",
+        "revalida_2024-1_q082"
+      ],
+      "es": {
+        "frente": "Quemadura química ocular: ¿primera conducta?",
+        "verso": "Irrigación inmediata y abundante con solución salina o agua corriente, durante largo tiempo, antes de cualquier otra medida. Después, evaluación oftalmológica de urgencia."
+      }
+    },
+    {
+      "id": "trm-niveis",
+      "area": "Cirurgia",
+      "especialidade": "Trauma",
+      "tema": "Trauma raquimedular – nível de lesão",
+      "frente": "Dermátomos de referência no trauma raquimedular?",
+      "verso": "T4: linha dos mamilos. T10: umbigo. L1: região inguinal. C6: polegar. C7: dedo médio.",
+      "questoes": [
+        "revalida_2024-1_q097",
+        "revalida_2023-2_q082"
+      ],
+      "es": {
+        "frente": "¿Dermatomas de referencia en el traumatismo raquimedular?",
+        "verso": "T4: línea de los pezones. T10: ombligo. L1: región inguinal. C6: pulgar. C7: dedo medio."
+      }
+    },
+    {
+      "id": "planos-hidratacao",
+      "area": "Pediatria",
+      "especialidade": "Gastroenterologia pediátrica",
+      "tema": "Diarreia aguda – planos de hidratação",
+      "frente": "Planos A, B e C do Ministério da Saúde?",
+      "verso": "A (sem desidratação): casa, SRO após cada evacuação, zinco. B (algum grau): SRO 50 a 100 mL/kg em 4 a 6 h na unidade. C (grave): fase rápida venosa; fluxograma do MS de 2023: SF 0,9% 20 mL/kg em 30 min nos menores de 5 anos, repetindo até hidratar (a partir de 5 anos, 30 mL/kg em 30 min e depois Ringer 70 mL/kg em 2 h 30). Esquema anterior (OMS): 30 mL/kg em 1 h (< 1 ano) ou em 30 min (≥ 1 ano), depois 70 mL/kg.",
+      "questoes": [
+        "revalida_2024-2_q088",
+        "revalida_2023-2_q033"
+      ],
+      "es": {
+        "frente": "¿Planes A, B y C del Ministerio de Salud de Brasil?",
+        "verso": "A (sin deshidratación): en casa, SRO después de cada deposición, zinc. B (algún grado): SRO 50 a 100 mL/kg en 4 a 6 h en la unidad. C (grave): fase rápida IV; flujograma del MS de 2023: solución salina 0,9 % 20 mL/kg en 30 min en menores de 5 años, repitiendo hasta hidratar (de 5 años en adelante, 30 mL/kg en 30 min y luego Ringer 70 mL/kg en 2 h 30). Esquema anterior (OMS): 30 mL/kg en 1 h (< 1 año) o en 30 min (≥ 1 año), luego 70 mL/kg."
+      }
+    },
+    {
+      "id": "crupe",
+      "area": "Pediatria",
+      "especialidade": "Pneumologia pediátrica",
+      "tema": "Laringotraqueíte viral (crupe)",
+      "frente": "Crupe viral: quadro e tratamento?",
+      "verso": "Tosse ladrante, rouquidão e estridor inspiratório após pródromo viral. Dexametasona em todos; nebulização com adrenalina se estridor em repouso (moderado/grave).",
+      "questoes": [
+        "revalida_2023-1_q028",
+        "revalida_2024-1_q088"
+      ],
+      "es": {
+        "frente": "Crup viral: ¿cuadro y tratamiento?",
+        "verso": "Tos perruna, disfonía y estridor inspiratorio tras un pródromo viral. Dexametasona en todos; nebulización con adrenalina si hay estridor en reposo (moderado/grave)."
+      }
+    },
+    {
+      "id": "bronquiolite",
+      "area": "Pediatria",
+      "especialidade": "Pneumologia pediátrica",
+      "tema": "Bronquiolite viral aguda",
+      "frente": "Bronquiolite: tratamento?",
+      "verso": "Suporte: oxigênio se saturação baixa, hidratação e higiene nasal. Broncodilatador, corticoide e antibiótico não são rotina.",
+      "questoes": [
+        "revalida_2024-1_q063"
+      ],
+      "es": {
+        "frente": "Bronquiolitis: ¿tratamiento?",
+        "verso": "Soporte: oxígeno si la saturación es baja, hidratación e higiene nasal. Broncodilatador, corticoide y antibiótico no son de rutina."
+      }
+    },
+    {
+      "id": "convulsao-febril",
+      "area": "Pediatria",
+      "especialidade": "Neurologia pediátrica",
+      "tema": "Convulsão febril",
+      "frente": "Convulsão febril simples: definição e conduta?",
+      "verso": "Entre 6 meses e 5 anos, generalizada, com menos de 15 minutos, única em 24 horas e sem déficit pós-ictal. Investigar e tratar a causa da febre; sem neuroimagem ou EEG de rotina.",
+      "questoes": [
+        "revalida_2024-1_q008"
+      ],
+      "es": {
+        "frente": "Convulsión febril simple: ¿definición y conducta?",
+        "verso": "Entre 6 meses y 5 años, generalizada, de menos de 15 minutos, única en 24 horas y sin déficit poscrítico. Investigar y tratar la causa de la fiebre; sin neuroimagen ni EEG de rutina."
+      }
+    },
+    {
+      "id": "kawasaki",
+      "area": "Pediatria",
+      "especialidade": "Reumatologia pediátrica",
+      "tema": "Doença de Kawasaki",
+      "frente": "Doença de Kawasaki: critérios e complicação principal?",
+      "verso": "Febre por 5 dias ou mais com 4 de 5: conjuntivite não exsudativa, alterações de lábios e língua (framboesa), exantema, alterações de extremidades e linfonodo cervical. Complicação: aneurisma coronariano. Tratamento: imunoglobulina IV e AAS.",
+      "questoes": [
+        "revalida_2024-1_q048"
+      ],
+      "es": {
+        "frente": "Enfermedad de Kawasaki: ¿criterios y complicación principal?",
+        "verso": "Fiebre de 5 días o más con 4 de 5: conjuntivitis no exudativa, alteraciones de labios y lengua (aframbuesada), exantema, alteraciones de extremidades y adenopatía cervical. Complicación: aneurisma coronario. Tratamiento: inmunoglobulina IV y AAS."
+      }
+    },
+    {
+      "id": "iga",
+      "area": "Pediatria",
+      "especialidade": "Reumatologia pediátrica",
+      "tema": "Vasculite por IgA (Henoch-Schönlein)",
+      "frente": "Vasculite por IgA: quadro?",
+      "verso": "Criança com púrpura palpável em membros inferiores e nádegas, dor abdominal, artralgia e hematúria, geralmente após infecção de vias aéreas; plaquetas normais.",
+      "questoes": [
+        "revalida_2024-1_q078",
+        "revalida_2023-2_q043"
+      ],
+      "es": {
+        "frente": "Vasculitis por IgA: ¿cuadro?",
+        "verso": "Niño con púrpura palpable en miembros inferiores y nalgas, dolor abdominal, artralgia y hematuria, generalmente tras una infección respiratoria; plaquetas normales."
+      }
+    },
+    {
+      "id": "invaginacao",
+      "area": "Pediatria",
+      "especialidade": "Cirurgia pediátrica",
+      "tema": "Invaginação intestinal",
+      "frente": "Invaginação intestinal: quadro?",
+      "verso": "Lactente com dor em cólica intermitente, vômitos, fezes em geleia de framboesa e massa palpável; associada a infecção viral recente (hiperplasia linfoide). Ultrassonografia (alvo).",
+      "questoes": [
+        "revalida_2023-1_q073"
+      ],
+      "es": {
+        "frente": "Invaginación intestinal: ¿cuadro?",
+        "verso": "Lactante con dolor cólico intermitente, vómitos, heces en jalea de frambuesa y masa palpable; asociada a infección viral reciente (hiperplasia linfoide). Ecografía (signo de la diana)."
+      }
+    },
+    {
+      "id": "ehp",
+      "area": "Pediatria",
+      "especialidade": "Cirurgia pediátrica",
+      "tema": "Estenose hipertrófica de piloro",
+      "frente": "Estenose hipertrófica de piloro: quadro e distúrbio metabólico?",
+      "verso": "Lactente de 2 a 8 semanas com vômitos em jato não biliosos. Alcalose metabólica hipoclorêmica e hipocalêmica. Corrigir hidratação e eletrólitos antes da piloromiotomia.",
+      "questoes": [
+        "revalida_2024-1_q023"
+      ],
+      "es": {
+        "frente": "Estenosis hipertrófica del píloro: ¿cuadro y alteración metabólica?",
+        "verso": "Lactante de 2 a 8 semanas con vómitos en proyectil no biliosos. Alcalosis metabólica hipoclorémica e hipopotasémica. Corregir la hidratación y los electrolitos antes de la piloromiotomía."
+      }
+    },
+    {
+      "id": "hirschsprung",
+      "area": "Pediatria",
+      "especialidade": "Cirurgia pediátrica",
+      "tema": "Doença de Hirschsprung",
+      "frente": "Doença de Hirschsprung: pista e exames?",
+      "verso": "Retardo na eliminação de mecônio (> 48 h) e constipação. Enema opaco com zona de transição e retenção de bário em 24 h; confirmação por biópsia retal (ausência de células ganglionares).",
+      "questoes": [
+        "revalida_2024-1_q013",
+        "revalida_2023-2_q078"
+      ],
+      "es": {
+        "frente": "Enfermedad de Hirschsprung: ¿pista y exámenes?",
+        "verso": "Retraso en la eliminación de meconio (> 48 h) y estreñimiento. Enema opaco con zona de transición y retención de bario a las 24 h; confirmación por biopsia rectal (ausencia de células ganglionares)."
+      }
+    },
+    {
+      "id": "ictericia-24h",
+      "area": "Pediatria",
+      "especialidade": "Neonatologia",
+      "tema": "Icterícia neonatal",
+      "frente": "Icterícia neonatal: quando é sempre patológica?",
+      "verso": "Quando surge nas primeiras 24 horas de vida (ou com bilirrubina direta elevada, ou prolongada). Indicação de fototerapia e exsanguineotransfusão pelos nomogramas por idade gestacional e horas de vida.",
+      "questoes": [
+        "revalida_2023-2_q083",
+        "revalida_2024-2_q073"
+      ],
+      "es": {
+        "frente": "Ictericia neonatal: ¿cuándo es siempre patológica?",
+        "verso": "Cuando aparece en las primeras 24 horas de vida (o con bilirrubina directa elevada, o prolongada). Indicación de fototerapia y exanguinotransfusión según los nomogramas por edad gestacional y horas de vida."
+      }
+    },
+    {
+      "id": "reanimacao-neonatal",
+      "area": "Pediatria",
+      "especialidade": "Neonatologia",
+      "tema": "Reanimação neonatal",
+      "frente": "RN em apneia após os passos iniciais: próximo passo?",
+      "verso": "Ventilação com pressão positiva por máscara, iniciada dentro do primeiro minuto de vida ('minuto de ouro').",
+      "questoes": [
+        "revalida_2023-1_q053"
+      ],
+      "es": {
+        "frente": "RN en apnea después de los pasos iniciales: ¿siguiente paso?",
+        "verso": "Ventilación con presión positiva con mascarilla, iniciada dentro del primer minuto de vida ('minuto de oro')."
+      }
+    },
+    {
+      "id": "eritema-toxico",
+      "area": "Pediatria",
+      "especialidade": "Neonatologia",
+      "tema": "Eritema tóxico",
+      "frente": "Eritema tóxico neonatal: como é?",
+      "verso": "RN a termo nos primeiros dias com pápulas e pústulas sobre halo eritematoso, poupando palmas e plantas; autolimitado, sem tratamento.",
+      "questoes": [
+        "revalida_2024-1_q033"
+      ],
+      "es": {
+        "frente": "Eritema tóxico neonatal: ¿cómo es?",
+        "verso": "RN a término en los primeros días con pápulas y pústulas sobre un halo eritematoso, que respetan palmas y plantas; autolimitado, sin tratamiento."
+      }
+    },
+    {
+      "id": "vit-a",
+      "area": "Pediatria",
+      "especialidade": "Nutrição pediátrica",
+      "tema": "Hipovitaminose A",
+      "frente": "Deficiência de vitamina A: achados oculares?",
+      "verso": "Cegueira noturna, xeroftalmia e manchas de Bitot (manchas esbranquiçadas espumosas na conjuntiva).",
+      "questoes": [
+        "revalida_2024-2_q058"
+      ],
+      "es": {
+        "frente": "Deficiencia de vitamina A: ¿hallazgos oculares?",
+        "verso": "Ceguera nocturna, xeroftalmía y manchas de Bitot (manchas blanquecinas espumosas en la conjuntiva)."
+      }
+    },
+    {
+      "id": "tea-alerta",
+      "area": "Pediatria",
+      "especialidade": "Desenvolvimento infantil",
+      "tema": "Sinais de alerta para TEA",
+      "frente": "Sinais de alerta para TEA no primeiro ano?",
+      "verso": "Pouco contato visual, não responder ao nome, ausência de gestos sociais (estender os braços, apontar) e de balbucio. Conduta: estimulação precoce e reavaliação/ encaminhamento, sem esperar diagnóstico.",
+      "questoes": [
+        "revalida_2024-1_q098"
+      ],
+      "es": {
+        "frente": "¿Señales de alerta de TEA en el primer año?",
+        "verso": "Poco contacto visual, no responder al nombre, ausencia de gestos sociales (extender los brazos, señalar) y de balbuceo. Conducta: estimulación temprana y reevaluación o derivación, sin esperar el diagnóstico."
+      }
+    },
+    {
+      "id": "pe-criterios",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Pré-eclâmpsia",
+      "frente": "Pré-eclâmpsia: definição e sinais de gravidade?",
+      "verso": "PA ≥ 140 x 90 mmHg após 20 semanas com proteinúria ≥ 300 mg/24 h (ou lesão de órgão-alvo). Gravidade: PA ≥ 160 x 110, cefaleia, escotomas, dor epigástrica, plaquetas < 100 mil, alteração hepática ou renal, edema pulmonar.",
+      "questoes": [
+        "revalida_2024-1_q024",
+        "revalida_2024-2_q059",
+        "revalida_2023-2_q059"
+      ],
+      "es": {
+        "frente": "Preeclampsia: ¿definición y signos de gravedad?",
+        "verso": "PA ≥ 140 x 90 mmHg después de las 20 semanas con proteinuria ≥ 300 mg/24 h (o daño de órgano blanco). Gravedad: PA ≥ 160 x 110, cefalea, escotomas, dolor epigástrico, plaquetas < 100 mil, alteración hepática o renal, edema pulmonar."
+      }
+    },
+    {
+      "id": "sulfato",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Sulfato de magnésio",
+      "frente": "Sulfato de magnésio (Zuspan): doses e cuidados?",
+      "verso": "Ataque 4 g IV em 10 a 20 minutos, manutenção 1 g/h. Manter se reflexo patelar presente, FR > 16 irpm e diurese > 25 mL/h. Antídoto: gluconato de cálcio 10% 1 g IV.",
+      "questoes": [],
+      "es": {
+        "frente": "Sulfato de magnesio (Zuspan): ¿dosis y cuidados?",
+        "verso": "Carga 4 g IV en 10 a 20 minutos, mantenimiento 1 g/h. Mantener si el reflejo patelar está presente, FR > 16 rpm y diuresis > 25 mL/h. Antídoto: gluconato de calcio al 10 % 1 g IV."
+      }
+    },
+    {
+      "id": "aas-pe",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Prevenção de pré-eclâmpsia",
+      "frente": "Prevenção de pré-eclâmpsia em gestante de alto risco?",
+      "verso": "AAS em baixa dose (100 a 150 mg à noite) iniciado a partir de 12 semanas (idealmente até 16) e mantido até cerca de 36 semanas, mais cálcio se ingestão baixa.",
+      "questoes": [
+        "revalida_2023-1_q039"
+      ],
+      "es": {
+        "frente": "¿Prevención de preeclampsia en la gestante de alto riesgo?",
+        "verso": "AAS en dosis baja (100 a 150 mg por la noche) desde las 12 semanas (idealmente hasta las 16) y mantenida hasta cerca de las 36 semanas, más calcio si la ingesta es baja."
+      }
+    },
+    {
+      "id": "dmg",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Diabetes gestacional",
+      "frente": "Diabetes gestacional: como rastrear e diagnosticar?",
+      "verso": "Glicemia de jejum no início do pré-natal: 92 a 125 mg/dL já é DMG (≥ 126 é diabetes prévio). Se normal, TOTG 75 g entre 24 e 28 semanas: jejum ≥ 92, 1 h ≥ 180 ou 2 h ≥ 153; um valor alterado basta.",
+      "questoes": [
+        "revalida_2023-1_q069",
+        "revalida_2024-2_q054"
+      ],
+      "es": {
+        "frente": "Diabetes gestacional: ¿cómo tamizar y diagnosticar?",
+        "verso": "Glucemia en ayunas al inicio del control prenatal: 92 a 125 mg/dL ya es DMG (≥ 126 es diabetes previa). Si es normal, PTOG 75 g entre las 24 y 28 semanas: ayunas ≥ 92, 1 h ≥ 180 o 2 h ≥ 153; basta un valor alterado."
+      }
+    },
+    {
+      "id": "egb",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Estreptococo do grupo B",
+      "frente": "Estreptococo do grupo B: rastreio e indicações de profilaxia intraparto?",
+      "verso": "Cultura vaginal e retal com 35 a 37 semanas. Profilaxia (penicilina G IV) se cultura positiva, bacteriúria por EGB na gestação, filho anterior com doença por EGB, ou cultura desconhecida com < 37 semanas, bolsa rota ≥ 18 h ou febre intraparto.",
+      "questoes": [
+        "revalida_2024-1_q049",
+        "revalida_2023-1_q044",
+        "revalida_2023-2_q054"
+      ],
+      "es": {
+        "frente": "Estreptococo del grupo B: ¿tamizaje e indicaciones de profilaxis intraparto?",
+        "verso": "Cultivo vaginal y rectal a las 35 a 37 semanas. Profilaxis (penicilina G IV) si el cultivo es positivo, bacteriuria por EGB en el embarazo, hijo anterior con enfermedad por EGB, o cultivo desconocido con < 37 semanas, rotura de membranas ≥ 18 h o fiebre intraparto."
+      }
+    },
+    {
+      "id": "toxo-gestante",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Toxoplasmose na gestação",
+      "frente": "Gestante com IgM positivo e IgG negativo para toxoplasmose: conduta?",
+      "verso": "Possível infecção aguda: iniciar espiramicina e repetir a sorologia em 2 a 3 semanas. A soroconversão do IgG confirma infecção aguda.",
+      "questoes": [
+        "revalida_2024-1_q034"
+      ],
+      "es": {
+        "frente": "Gestante con IgM positiva e IgG negativa para toxoplasmosis: ¿conducta?",
+        "verso": "Posible infección aguda: iniciar espiramicina y repetir la serología en 2 a 3 semanas. La seroconversión de la IgG confirma la infección aguda."
+      }
+    },
+    {
+      "id": "hepb-sorologia",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Sorologia de hepatite B",
+      "frente": "HBsAg não reagente, anti-HBc não reagente e anti-HBs reagente: interpretação?",
+      "verso": "Imunidade por vacinação. Não precisa vacinar de novo nem de seguimento específico.",
+      "questoes": [
+        "revalida_2023-1_q040"
+      ],
+      "es": {
+        "frente": "HBsAg no reactivo, anti-HBc no reactivo y anti-HBs reactivo: ¿interpretación?",
+        "verso": "Inmunidad por vacunación. No necesita vacunarse de nuevo ni seguimiento específico."
+      }
+    },
+    {
+      "id": "hpp",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Hemorragia pós-parto",
+      "frente": "Hemorragia pós-parto: causas e uso do ácido tranexâmico?",
+      "verso": "4 T: tônus (atonia, a mais comum), trauma, tecido e trombina. Ocitocina e massagem uterina; ácido tranexâmico 1 g IV o mais cedo possível, dentro de 3 horas do parto, junto aos uterotônicos.",
+      "questoes": [
+        "revalida_2023-2_q064",
+        "revalida_2023-1_q059"
+      ],
+      "es": {
+        "frente": "Hemorragia posparto: ¿causas y uso del ácido tranexámico?",
+        "verso": "4 T: tono (atonía, la más común), trauma, tejido y trombina. Oxitocina y masaje uterino; ácido tranexámico 1 g IV lo antes posible, dentro de las 3 horas del parto, junto con los uterotónicos."
+      }
+    },
+    {
+      "id": "ectopica-mtx",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Gravidez ectópica",
+      "frente": "Gravidez ectópica: quando usar metotrexato?",
+      "verso": "Paciente estável, beta-hCG < 5.000 mUI/mL, massa anexial < 3,5 cm sem batimento cardíaco embrionário, desejo de gestar e possibilidade de seguimento.",
+      "questoes": [
+        "revalida_2023-1_q074"
+      ],
+      "es": {
+        "frente": "Embarazo ectópico: ¿cuándo usar metotrexato?",
+        "verso": "Paciente estable, beta-hCG < 5.000 mUI/mL, masa anexial < 3,5 cm sin latido cardíaco embrionario, deseo de embarazo y posibilidad de seguimiento."
+      }
+    },
+    {
+      "id": "abortamento",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Abortamento",
+      "frente": "Formas clínicas de abortamento pelo colo e ultrassom?",
+      "verso": "Ameaça: colo fechado e embrião vivo. Inevitável/em evolução: colo aberto com sangramento. Incompleto: restos ovulares. Completo: útero vazio e colo fechado. Retido: embrião sem vida, colo fechado.",
+      "questoes": [
+        "revalida_2024-1_q004",
+        "revalida_2024-2_q094"
+      ],
+      "es": {
+        "frente": "¿Formas clínicas de aborto según el cuello y la ecografía?",
+        "verso": "Amenaza: cuello cerrado y embrión vivo. Inevitable/en curso: cuello abierto con sangrado. Incompleto: restos ovulares. Completo: útero vacío y cuello cerrado. Retenido: embrión sin vida, cuello cerrado."
+      }
+    },
+    {
+      "id": "leopold",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Estática fetal",
+      "frente": "Estática fetal: situação, apresentação e posição?",
+      "verso": "Situação: longitudinal, transversa ou oblíqua. Apresentação: cefálica, pélvica ou córmica. Posição: lado do dorso fetal (direita ou esquerda). Avaliadas pelas manobras de Leopold.",
+      "questoes": [
+        "revalida_2024-2_q004",
+        "revalida_2023-2_q079"
+      ],
+      "es": {
+        "frente": "Estática fetal: ¿situación, presentación y posición?",
+        "verso": "Situación: longitudinal, transversa u oblicua. Presentación: cefálica, pelviana o de hombro. Posición: lado del dorso fetal (derecha o izquierda). Se evalúan con las maniobras de Leopold."
+      }
+    },
+    {
+      "id": "forceps",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Fórceps",
+      "frente": "Condições para aplicar o fórceps?",
+      "verso": "Dilatação total, membranas rotas, cabeça insinuada (plano ≥ +2 de DeLee), variedade de posição conhecida, proporção cefalopélvica adequada, feto vivo, analgesia e bexiga vazia.",
+      "questoes": [
+        "revalida_2024-2_q019",
+        "revalida_2024-1_q074"
+      ],
+      "es": {
+        "frente": "¿Condiciones para aplicar el fórceps?",
+        "verso": "Dilatación completa, membranas rotas, cabeza encajada (plano ≥ +2 de DeLee), variedad de posición conocida, proporción cefalopélvica adecuada, feto vivo, analgesia y vejiga vacía."
+      }
+    },
+    {
+      "id": "colo-rastreio",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Oncologia ginecológica",
+      "tema": "Rastreamento do câncer de colo",
+      "frente": "Rastreamento do câncer de colo pelo Ministério da Saúde: idade, intervalo e condutas?",
+      "verso": "Citologia de 25 a 64 anos, a cada 3 anos após 2 exames anuais normais. ASC-US: repetir em 6 meses (≥ 30 anos). LSIL: repetir em 6 meses. HSIL: colposcopia.",
+      "questoes": [
+        "revalida_2023-1_q024",
+        "revalida_2024-2_q034",
+        "revalida_2023-2_q034",
+        "revalida_2024-1_q089",
+        "revalida_2023-1_q099"
+      ],
+      "es": {
+        "frente": "Tamizaje del cáncer de cuello uterino según el Ministerio de Salud de Brasil: ¿edad, intervalo y conductas?",
+        "verso": "Citología de 25 a 64 años, cada 3 años después de 2 exámenes anuales normales. ASC-US: repetir en 6 meses (≥ 30 años). LSIL: repetir en 6 meses. HSIL: colposcopia."
+      }
+    },
+    {
+      "id": "mama-rastreio",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Mastologia",
+      "tema": "Rastreamento do câncer de mama",
+      "frente": "Rastreamento de câncer de mama e condutas por BI-RADS (Ministério da Saúde)?",
+      "verso": "Mamografia bienal de 50 a 69 anos. BI-RADS 0: complementar (ultrassom ou incidências). 3: controle em 6 meses. 4 e 5: biópsia.",
+      "questoes": [
+        "revalida_2024-1_q009",
+        "revalida_2024-1_q094",
+        "revalida_2023-2_q019",
+        "revalida_2023-2_q049"
+      ],
+      "es": {
+        "frente": "Tamizaje de cáncer de mama y conductas según BI-RADS (Ministerio de Salud de Brasil)?",
+        "verso": "Mamografía bienal de 50 a 69 años. BI-RADS 0: complementar (ecografía o proyecciones). 3: control en 6 meses. 4 y 5: biopsia."
+      }
+    },
+    {
+      "id": "th-menopausa",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Climatério",
+      "tema": "Terapia hormonal da menopausa",
+      "frente": "Terapia hormonal da menopausa: quando usar progestagênio e quando preferir a via transdérmica?",
+      "verso": "Mulheres com útero precisam de progestagênio associado; histerectomizadas usam estrogênio isolado. Via transdérmica é preferível com risco cardiovascular, tromboembólico, hipertensão ou hipertrigliceridemia.",
+      "questoes": [
+        "revalida_2023-2_q014",
+        "revalida_2024-2_q009",
+        "revalida_2024-1_q059"
+      ],
+      "es": {
+        "frente": "Terapia hormonal de la menopausia: ¿cuándo usar progestágeno y cuándo preferir la vía transdérmica?",
+        "verso": "Las mujeres con útero necesitan progestágeno asociado; las histerectomizadas usan estrógeno solo. La vía transdérmica es preferible con riesgo cardiovascular, tromboembólico, hipertensión o hipertrigliceridemia."
+      }
+    },
+    {
+      "id": "vulvovaginites",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia",
+      "tema": "Vulvovaginites",
+      "frente": "Candidíase x vaginose bacteriana x tricomoníase?",
+      "verso": "Candidíase: grumoso, prurido, pH < 4,5, teste das aminas negativo. Vaginose: odor de peixe, pH > 4,5, aminas positivo, clue cells. Tricomoníase: amarelo-esverdeado bolhoso, pH > 5, colo em framboesa.",
+      "questoes": [
+        "revalida_2023-1_q009",
+        "revalida_2023-2_q029"
+      ],
+      "es": {
+        "frente": "¿Candidiasis, vaginosis bacteriana o tricomoniasis?",
+        "verso": "Candidiasis: grumoso, prurito, pH < 4,5, prueba de aminas negativa. Vaginosis: olor a pescado, pH > 4,5, aminas positivas, clue cells. Tricomoniasis: amarillo verdoso espumoso, pH > 5, cuello en frambuesa."
+      }
+    },
+    {
+      "id": "iop",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia endócrina",
+      "tema": "Insuficiência ovariana prematura",
+      "frente": "Insuficiência ovariana prematura: perfil hormonal?",
+      "verso": "Antes dos 40 anos, com FSH elevado, estradiol baixo e inibina baixa, além de amenorreia e sintomas climatéricos.",
+      "questoes": [
+        "revalida_2023-1_q084"
+      ],
+      "es": {
+        "frente": "Insuficiencia ovárica prematura: ¿perfil hormonal?",
+        "verso": "Antes de los 40 años, con FSH elevada, estradiol bajo e inhibina baja, además de amenorrea y síntomas climatéricos."
+      }
+    },
+    {
+      "id": "sangramento-pos-menopausa",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Oncologia ginecológica",
+      "tema": "Sangramento pós-menopausa",
+      "frente": "Sangramento pós-menopausa com endométrio espessado: conduta?",
+      "verso": "Investigar câncer de endométrio: com endométrio > 4 mm ao ultrassom, biópsia endometrial, preferencialmente por histeroscopia.",
+      "questoes": [
+        "revalida_2024-1_q039"
+      ],
+      "es": {
+        "frente": "Sangrado posmenopáusico con endometrio engrosado: ¿conducta?",
+        "verso": "Investigar cáncer de endometrio: con endometrio > 4 mm en la ecografía, biopsia endometrial, preferentemente por histeroscopia."
+      }
+    },
+    {
+      "id": "sus-diretrizes",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "SUS e políticas de saúde",
+      "tema": "Diretrizes organizativas do SUS",
+      "frente": "Quais são as diretrizes organizativas do SUS?",
+      "verso": "Descentralização com direção única em cada esfera, regionalização e hierarquização, e participação da comunidade (Lei 8.080/1990).",
+      "questoes": [
+        "revalida_2024-2_q010"
+      ],
+      "es": {
+        "frente": "¿Cuáles son las directrices organizativas del SUS?",
+        "verso": "Descentralización con dirección única en cada esfera, regionalización y jerarquización, y participación de la comunidad (Ley 8.080/1990)."
+      }
+    },
+    {
+      "id": "sus-equidade",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "SUS e políticas de saúde",
+      "tema": "Princípios do SUS – equidade",
+      "frente": "Equidade × igualdade no SUS?",
+      "verso": "Igualdade é dar o mesmo a todos. Equidade é dar mais a quem precisa mais, para reduzir desigualdades evitáveis.",
+      "questoes": [
+        "revalida_2024-2_q010"
+      ],
+      "es": {
+        "frente": "¿Equidad × igualdad en el SUS?",
+        "verso": "Igualdad es dar lo mismo a todos. Equidad es dar más a quien más necesita, para reducir desigualdades evitables."
+      }
+    },
+    {
+      "id": "aps-atributos",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Atenção primária",
+      "tema": "Atributos da APS",
+      "frente": "Quais são os atributos essenciais da atenção primária (Starfield)?",
+      "verso": "Acesso de primeiro contato, longitudinalidade, integralidade e coordenação do cuidado. Derivados: orientação familiar, orientação comunitária e competência cultural.",
+      "questoes": [
+        "revalida_2023-1_q090"
+      ],
+      "es": {
+        "frente": "¿Cuáles son los atributos esenciales de la atención primaria (Starfield)?",
+        "verso": "Acceso de primer contacto, longitudinalidad, integralidad y coordinación del cuidado. Derivados: orientación familiar, orientación comunitaria y competencia cultural."
+      }
+    },
+    {
+      "id": "aps-territorio",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Atenção primária",
+      "tema": "Territorialização e microáreas",
+      "frente": "Como se organiza o território de uma equipe de Saúde da Família?",
+      "verso": "Território adscrito dividido em microáreas, cada uma acompanhada por um ACS. A PNAB 2017 recomenda 2.000 a 3.500 pessoas por equipe, conforme a vulnerabilidade.",
+      "questoes": [
+        "revalida_2023-2_q005",
+        "revalida_2023-2_q075"
+      ],
+      "es": {
+        "frente": "¿Cómo se organiza el territorio de un equipo de Salud de la Familia?",
+        "verso": "Territorio adscrito dividido en microáreas, cada una acompañada por un ACS. La PNAB 2017 recomienda de 2.000 a 3.500 personas por equipo, según la vulnerabilidad."
+      }
+    },
+    {
+      "id": "sus-determinantes",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "SUS e políticas de saúde",
+      "tema": "Determinantes sociais da saúde",
+      "frente": "Modelo de Dahlgren e Whitehead: quais são as camadas?",
+      "verso": "Do centro para fora: características individuais; estilo de vida; redes sociais e comunitárias; condições de vida e trabalho; condições socioeconômicas, culturais e ambientais gerais.",
+      "questoes": [
+        "revalida_2023-1_q100"
+      ],
+      "es": {
+        "frente": "Modelo de Dahlgren y Whitehead: ¿cuáles son las capas?",
+        "verso": "Del centro hacia afuera: características individuales; estilo de vida; redes sociales y comunitarias; condiciones de vida y trabajo; condiciones socioeconómicas, culturales y ambientales generales."
+      }
+    },
+    {
+      "id": "queim-profundidade-2s",
+      "area": "Cirurgia",
+      "especialidade": "Queimaduras",
+      "tema": "Profundidade da queimadura",
+      "frente": "Bolhas, base rosada e úmida, muita dor e empalidece à pressão: que grau?",
+      "verso": "2º grau superficial (epiderme e derme papilar). Cura em 2 a 3 semanas sem enxerto.",
+      "questoes": [
+        "revalida_2024-2_q017"
+      ],
+      "es": {
+        "frente": "Ampollas, base rosada y húmeda, mucho dolor y palidece a la presión: ¿qué grado?",
+        "verso": "2.º grado superficial (epidermis y dermis papilar). Cura en 2 a 3 semanas sin injerto."
+      }
+    },
+    {
+      "id": "queim-profundidade-3",
+      "area": "Cirurgia",
+      "especialidade": "Queimaduras",
+      "tema": "Profundidade da queimadura",
+      "frente": "Pele branco nacarada, seca, inelástica, com vasos trombosados e indolor: que grau e tratamento?",
+      "verso": "3º grau (espessura total). Escarectomia e enxertia.",
+      "questoes": [],
+      "es": {
+        "frente": "Piel blanco nacarada, seca, inelástica, con vasos trombosados e indolora: ¿qué grado y tratamiento?",
+        "verso": "3.er grado (espesor total). Escarectomía e injerto."
+      }
+    },
+    {
+      "id": "queim-regra-9",
+      "area": "Cirurgia",
+      "especialidade": "Queimaduras",
+      "tema": "Regra dos 9",
+      "frente": "Regra dos 9 no adulto e na criança?",
+      "verso": "Adulto: cabeça 9%, cada membro superior 9%, tronco anterior 18%, posterior 18%, cada membro inferior 18%, períneo 1%. Criança: cabeça 18% e cada membro inferior 14%. Queimadura de 1º grau não conta.",
+      "questoes": [
+        "revalida_2024-2_q017"
+      ],
+      "es": {
+        "frente": "¿Regla de los 9 en el adulto y en el niño?",
+        "verso": "Adulto: cabeza 9 %, cada miembro superior 9 %, tronco anterior 18 %, posterior 18 %, cada miembro inferior 18 %, periné 1 %. Niño: cabeza 18 % y cada miembro inferior 14 %. La quemadura de 1.er grado no cuenta."
+      }
+    },
+    {
+      "id": "queim-formula-atls",
+      "area": "Cirurgia",
+      "especialidade": "Queimaduras",
+      "tema": "Reposição volêmica",
+      "frente": "Fórmula de reposição do ATLS no queimado e como infundir?",
+      "verso": "Ringer lactato: adulto 2 mL × kg × % SCQ, criança 3 mL, trauma elétrico 4 mL. Metade nas primeiras 8 horas desde a queimadura e metade nas 16 horas seguintes.",
+      "questoes": [
+        "revalida_2024-2_q017"
+      ],
+      "es": {
+        "frente": "¿Fórmula de reposición del ATLS en el quemado y cómo infundir?",
+        "verso": "Ringer lactato: adulto 2 mL × kg × % SCQ, niño 3 mL, trauma eléctrico 4 mL. La mitad en las primeras 8 horas desde la quemadura y la mitad en las 16 horas siguientes."
+      }
+    },
+    {
+      "id": "queim-diurese",
+      "area": "Cirurgia",
+      "especialidade": "Queimaduras",
+      "tema": "Reposição volêmica",
+      "frente": "Diurese alvo na reposição do queimado?",
+      "verso": "Adulto 0,5 mL/kg/h; criança até 30 kg 1 mL/kg/h; trauma elétrico com mioglobinúria 1 mL/kg/h no adulto (2 mL/kg/h na criança) até a urina clarear.",
+      "questoes": [
+        "revalida_2022-1_q037"
+      ],
+      "es": {
+        "frente": "¿Diuresis meta en la reposición del quemado?",
+        "verso": "Adulto 0,5 mL/kg/h; niño hasta 30 kg 1 mL/kg/h; trauma eléctrico con mioglobinuria 1 mL/kg/h en el adulto (2 mL/kg/h en el niño) hasta que la orina aclare."
+      }
+    },
+    {
+      "id": "queim-intubacao",
+      "area": "Cirurgia",
+      "especialidade": "Queimaduras",
+      "tema": "Lesão inalatória",
+      "frente": "Quando intubar precocemente o queimado?",
+      "verso": "Estridor, rouquidão progressiva, esforço respiratório, queimadura dentro da boca ou circunferencial do pescoço, Glasgow ≤ 8 e grandes queimados (cerca de 40–50% ou mais).",
+      "questoes": [],
+      "es": {
+        "frente": "¿Cuándo intubar precozmente al quemado?",
+        "verso": "Estridor, disfonía progresiva, esfuerzo respiratorio, quemadura dentro de la boca o circunferencial del cuello, Glasgow ≤ 8 y grandes quemados (cerca de 40–50 % o más)."
+      }
+    },
+    {
+      "id": "queim-co",
+      "area": "Cirurgia",
+      "especialidade": "Queimaduras",
+      "tema": "Lesão inalatória",
+      "frente": "Intoxicação por monóxido de carbono: diagnóstico e tratamento?",
+      "verso": "Suspeitar em incêndio em ambiente fechado. Oximetria pode vir normal; dosar carboxi-hemoglobina. Tratar com O2 a 100% em máscara não reinalante.",
+      "questoes": [],
+      "es": {
+        "frente": "Intoxicación por monóxido de carbono: ¿diagnóstico y tratamiento?",
+        "verso": "Sospechar en incendio en ambiente cerrado. La oximetría puede ser normal; dosar carboxihemoglobina. Tratar con O2 al 100 % con mascarilla no reinhalante."
+      }
+    },
+    {
+      "id": "queim-transferencia",
+      "area": "Cirurgia",
+      "especialidade": "Queimaduras",
+      "tema": "Transferência",
+      "frente": "Critérios para transferir a centro de queimados?",
+      "verso": "2º grau acima de 10% (ATLS) ou 20% no adulto (MS); qualquer 3º grau; face, mãos, pés, genitália, períneo ou articulações; queimadura elétrica ou química; lesão inalatória; comorbidade ou trauma associado.",
+      "questoes": [
+        "revalida_2023-1_q082"
+      ],
+      "es": {
+        "frente": "¿Criterios para trasladar a centro de quemados?",
+        "verso": "2.º grado de más del 10 % (ATLS) o 20 % en el adulto (Ministerio de Salud brasileño); cualquier 3.er grado; cara, manos, pies, genitales, periné o articulaciones; quemadura eléctrica o química; lesión inhalatoria; comorbilidad o trauma asociado."
+      }
+    },
+    {
+      "id": "queim-eletrico",
+      "area": "Cirurgia",
+      "especialidade": "Queimaduras",
+      "tema": "Trauma elétrico",
+      "frente": "Trauma elétrico de alta voltagem: o que monitorar?",
+      "verso": "ECG e monitorização (arritmias, hipercalemia), mioglobinúria e CK (rabdomiólise e lesão renal) e síndrome compartimental (fasciotomia). A lesão de pele não reflete a gravidade.",
+      "questoes": [
+        "revalida_2022-1_q037",
+        "revalida_2022-2_q057"
+      ],
+      "es": {
+        "frente": "Trauma eléctrico de alto voltaje: ¿qué vigilar?",
+        "verso": "ECG y monitorización (arritmias, hiperpotasemia), mioglobinuria y CK (rabdomiólisis y lesión renal) y síndrome compartimental (fasciotomía). La lesión de piel no refleja la gravedad."
+      }
+    },
+    {
+      "id": "queim-tetano-atb",
+      "area": "Cirurgia",
+      "especialidade": "Queimaduras",
+      "tema": "Cuidados complementares",
+      "frente": "Antibiótico e tétano no queimado?",
+      "verso": "Antibiótico sistêmico profilático não é indicado; tópico com sulfadiazina de prata 1%. Tétano: queimadura é ferimento de alto risco; com 3 doses e última há menos de 5 anos, nada a fazer.",
+      "questoes": [
+        "revalida_2024-1_q032"
+      ],
+      "es": {
+        "frente": "¿Antibiótico y tétanos en el quemado?",
+        "verso": "El antibiótico sistémico profiláctico no está indicado; tópico con sulfadiazina de plata 1 %. Tétanos: la quemadura es herida de alto riesgo; con 3 dosis y la última hace menos de 5 años, no hay que hacer nada."
+      }
+    },
+    {
+      "id": "amen-primaria",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia endócrina",
+      "tema": "Amenorreia",
+      "frente": "Quando investigar amenorreia primária?",
+      "verso": "Sem menarca aos 15 anos com caracteres sexuais secundários, ou aos 13 sem eles (critérios antigos: 16 e 14). Sempre afastar gravidez.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Cuándo investigar amenorrea primaria?",
+        "verso": "Sin menarquia a los 15 años con caracteres sexuales secundarios, o a los 13 sin ellos (criterios antiguos: 16 y 14). Siempre descartar embarazo."
+      }
+    },
+    {
+      "id": "amen-secundaria",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia endócrina",
+      "tema": "Amenorreia",
+      "frente": "Definição de amenorreia secundária?",
+      "verso": "Ausência de menstruação por 3 ciclos (se ciclos regulares) ou 6 meses (se irregulares) em quem já menstruou.",
+      "questoes": [
+        "revalida_2024-1_q064"
+      ],
+      "es": {
+        "frente": "¿Definición de amenorrea secundaria?",
+        "verso": "Ausencia de menstruación por 3 ciclos (si ciclos regulares) o 6 meses (si irregulares) en quien ya menstruó."
+      }
+    },
+    {
+      "id": "amen-eixo",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia endócrina",
+      "tema": "Amenorreia",
+      "frente": "FSH e LH baixos × altos com estradiol baixo: onde está a causa?",
+      "verso": "Baixos: hipogonadismo hipogonadotrófico (hipotálamo ou hipófise). Altos: hipergonadotrófico (falência ovariana: Turner, disgenesia, insuficiência ovariana prematura).",
+      "questoes": [
+        "revalida_2023-1_q084"
+      ],
+      "es": {
+        "frente": "FSH y LH bajas × altas con estradiol bajo: ¿dónde está la causa?",
+        "verso": "Bajas: hipogonadismo hipogonadotrófico (hipotálamo o hipófisis). Altas: hipergonadotrófico (falla ovárica: Turner, disgenesia, insuficiencia ovárica prematura)."
+      }
+    },
+    {
+      "id": "amen-rokitansky-morris",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia endócrina",
+      "tema": "Amenorreia",
+      "frente": "Amenorreia primária com mamas e sem útero: Rokitansky × Morris?",
+      "verso": "Rokitansky: 46,XX, pelos normais, ovários normais, sem útero e sem os 2/3 superiores da vagina. Morris: 46,XY, testículos, pelos escassos, testosterona masculina.",
+      "questoes": [
+        "revalida_2024-2_q074"
+      ],
+      "es": {
+        "frente": "Amenorrea primaria con mamas y sin útero: ¿Rokitansky × Morris?",
+        "verso": "Rokitansky: 46,XX, vello normal, ovarios normales, sin útero ni los 2/3 superiores de la vagina. Morris: 46,XY, testículos, vello escaso, testosterona masculina."
+      }
+    },
+    {
+      "id": "amen-turner-swyer",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia endócrina",
+      "tema": "Amenorreia",
+      "frente": "Turner × Swyer × disgenesia gonadal pura?",
+      "verso": "Turner 45,X: baixa estatura, pescoço alado, coarctação. Pura 46,XX: estatura normal, gônadas em fita. Swyer 46,XY: genitália feminina, útero presente, gônadas em fita a retirar (gonadoblastoma).",
+      "questoes": [
+        "revalida_2023-1_q023"
+      ],
+      "es": {
+        "frente": "¿Turner × Swyer × disgenesia gonadal pura?",
+        "verso": "Turner 45,X: talla baja, cuello alado, coartación. Pura 46,XX: talla normal, gónadas en cintilla. Swyer 46,XY: genitales femeninos, útero presente, gónadas en cintilla a extirpar (gonadoblastoma)."
+      }
+    },
+    {
+      "id": "amen-iop",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia endócrina",
+      "tema": "Amenorreia",
+      "frente": "Diagnóstico de insuficiência ovariana prematura?",
+      "verso": "Antes dos 40 anos: oligo ou amenorreia por 4 meses ou mais e FSH acima de 25 UI/L em 2 dosagens com 4 semanas de intervalo, estradiol e inibina baixos. Tratar com terapia hormonal.",
+      "questoes": [
+        "revalida_2023-1_q084"
+      ],
+      "es": {
+        "frente": "¿Diagnóstico de insuficiencia ovárica prematura?",
+        "verso": "Antes de los 40 años: oligo o amenorrea por 4 meses o más y FSH mayor de 25 UI/L en 2 dosajes con 4 semanas de intervalo, estradiol e inhibina bajos. Tratar con terapia hormonal."
+      }
+    },
+    {
+      "id": "amen-prolactina",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia endócrina",
+      "tema": "Amenorreia",
+      "frente": "Hiperprolactinemia: causas a excluir e quando pensar em tumor?",
+      "verso": "Gravidez, hipotireoidismo, insuficiência renal e medicamentos (antipsicóticos, metoclopramida). Acima de 100–200 ng/mL sugere prolactinoma: ressonância de sela e cabergolina.",
+      "questoes": [],
+      "es": {
+        "frente": "Hiperprolactinemia: ¿causas a excluir y cuándo pensar en tumor?",
+        "verso": "Embarazo, hipotiroidismo, insuficiencia renal y medicamentos (antipsicóticos, metoclopramida). Por encima de 100–200 ng/mL sugiere prolactinoma: resonancia de silla turca y cabergolina."
+      }
+    },
+    {
+      "id": "amen-asherman",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia endócrina",
+      "tema": "Amenorreia",
+      "frente": "Amenorreia após curetagem com eixo hormonal normal?",
+      "verso": "Síndrome de Asherman (sinéquias intrauterinas). Diagnóstico e tratamento por histeroscopia.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Amenorrea tras legrado con eje hormonal normal?",
+        "verso": "Síndrome de Asherman (sinequias intrauterinas). Diagnóstico y tratamiento por histeroscopia."
+      }
+    },
+    {
+      "id": "amen-himen",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia endócrina",
+      "tema": "Amenorreia",
+      "frente": "Amenorreia primária com dor pélvica cíclica e abaulamento vaginal?",
+      "verso": "Hímen imperfurado (criptomenorreia com hematocolpo). Tratamento: himenotomia.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Amenorrea primaria con dolor pélvico cíclico y abombamiento vaginal?",
+        "verso": "Himen imperforado (criptomenorrea con hematocolpos). Tratamiento: himenotomía."
+      }
+    },
+    {
+      "id": "dm-rastreio",
+      "area": "Clínica Médica",
+      "especialidade": "Endocrinologia",
+      "tema": "Complicações crônicas do diabetes",
+      "frente": "Quando começar o rastreamento das complicações crônicas?",
+      "verso": "Tipo 2: no diagnóstico. Tipo 1: após 5 anos de doença. Depois, anualmente.",
+      "questoes": [
+        "revalida_2023-2_q086"
+      ],
+      "es": {
+        "frente": "¿Cuándo empezar el tamizaje de las complicaciones crónicas?",
+        "verso": "Tipo 2: en el diagnóstico. Tipo 1: después de 5 años de enfermedad. Luego, anualmente."
+      }
+    },
+    {
+      "id": "dm-albuminuria",
+      "area": "Clínica Médica",
+      "especialidade": "Endocrinologia",
+      "tema": "Complicações crônicas do diabetes",
+      "frente": "Primeiro marcador da doença renal do diabetes e como confirmar?",
+      "verso": "Relação albumina/creatinina urinária de 30 mg/g ou mais, em 2 de 3 amostras em 3 a 6 meses. A creatinina sobe depois.",
+      "questoes": [
+        "revalida_2023-2_q086"
+      ],
+      "es": {
+        "frente": "¿Primer marcador de la enfermedad renal de la diabetes y cómo confirmarlo?",
+        "verso": "Relación albúmina/creatinina urinaria de 30 mg/g o más, en 2 de 3 muestras en 3 a 6 meses. La creatinina sube después."
+      }
+    },
+    {
+      "id": "dm-ieca",
+      "area": "Clínica Médica",
+      "especialidade": "Endocrinologia",
+      "tema": "Complicações crônicas do diabetes",
+      "frente": "Diabético hipertenso com albuminúria: qual anti-hipertensivo?",
+      "verso": "IECA ou BRA em dose máxima tolerada (nunca juntos), mais iSGLT2 se TFG de 20 ou mais.",
+      "questoes": [
+        "revalida_2025-1_q066"
+      ],
+      "es": {
+        "frente": "Diabético hipertenso con albuminuria: ¿qué antihipertensivo?",
+        "verso": "IECA o ARA II en dosis máxima tolerada (nunca juntos), más iSGLT2 si TFG de 20 o más."
+      }
+    },
+    {
+      "id": "dm-retina",
+      "area": "Clínica Médica",
+      "especialidade": "Endocrinologia",
+      "tema": "Complicações crônicas do diabetes",
+      "frente": "Achado mais precoce da retinopatia e tratamento da forma proliferativa?",
+      "verso": "Microaneurismas. Proliferativa (neovasos): fotocoagulação panretiniana e anti-VEGF; edema macular: anti-VEGF.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Hallazgo más precoz de la retinopatía y tratamiento de la forma proliferativa?",
+        "verso": "Microaneurismas. Proliferativa (neovasos): fotocoagulación panretiniana y anti-VEGF; edema macular: anti-VEGF."
+      }
+    },
+    {
+      "id": "dm-pe",
+      "area": "Clínica Médica",
+      "especialidade": "Endocrinologia",
+      "tema": "Complicações crônicas do diabetes",
+      "frente": "Úlcera plantar indolor, com calo e pulsos presentes: conduta?",
+      "verso": "Úlcera neuropática: desbridamento, curativo e retirada da carga (calçado adequado). Investigar osteomielite se o osso for palpável.",
+      "questoes": [
+        "revalida_2024-1_q022"
+      ],
+      "es": {
+        "frente": "Úlcera plantar indolora, con callo y pulsos presentes: ¿conducta?",
+        "verso": "Úlcera neuropática: desbridamiento, curación y descarga (calzado adecuado). Investigar osteomielitis si el hueso es palpable."
+      }
+    },
+    {
+      "id": "dm-cardio",
+      "area": "Clínica Médica",
+      "especialidade": "Endocrinologia",
+      "tema": "Complicações crônicas do diabetes",
+      "frente": "Diabético tipo 2 com infarto prévio em metformina: o que associar?",
+      "verso": "iSGLT2 ou agonista de GLP-1 com benefício cardiovascular comprovado, mesmo com glicada perto da meta.",
+      "questoes": [
+        "revalida_2024-2_q066"
+      ],
+      "es": {
+        "frente": "Diabético tipo 2 con infarto previo en metformina: ¿qué asociar?",
+        "verso": "iSGLT2 o agonista de GLP-1 con beneficio cardiovascular comprobado, aun con glicada cerca de la meta."
+      }
+    },
+    {
+      "id": "hpp-4t",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Hemorragia pós-parto",
+      "frente": "Os 4 Ts da hemorragia pós-parto e o mais comum?",
+      "verso": "Tônus (atonia, cerca de 70%), Trauma, Tecido (restos) e Trombina (coagulopatia). Atonia até prova em contrário.",
+      "questoes": [
+        "revalida_2022-2_q004"
+      ],
+      "es": {
+        "frente": "¿Las 4 T de la hemorragia posparto y la más común?",
+        "verso": "Tono (atonía, cerca del 70 %), Trauma, Tejido (restos) y Trombina (coagulopatía). Atonía hasta demostrar lo contrario."
+      }
+    },
+    {
+      "id": "hpp-indice-choque",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Hemorragia pós-parto",
+      "frente": "Como calcular o índice de choque e quando ele indica transfusão?",
+      "verso": "FC ÷ PA sistólica. 0,9 ou mais: perda importante; 1,4 ou mais: transfusão e abordagem agressiva; 1,7 ou mais: altíssimo risco.",
+      "questoes": [
+        "revalida_2023-1_q059"
+      ],
+      "es": {
+        "frente": "¿Cómo calcular el índice de shock y cuándo indica transfusión?",
+        "verso": "FC ÷ PA sistólica. 0,9 o más: pérdida importante; 1,4 o más: transfusión y abordaje agresivo; 1,7 o más: altísimo riesgo."
+      }
+    },
+    {
+      "id": "hpp-uterotonicos",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Hemorragia pós-parto",
+      "frente": "Sequência de uterotônicos na atonia?",
+      "verso": "Ocitocina (5 UI IV + 20–40 UI em infusão) → metilergometrina 0,2 mg IM (não em hipertensa) → misoprostol 800 mcg retal. Depois balão e cirurgia.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Secuencia de uterotónicos en la atonía?",
+        "verso": "Oxitocina (5 UI IV + 20–40 UI en infusión) → metilergometrina 0,2 mg IM (no en hipertensa) → misoprostol 800 mcg rectal. Luego balón y cirugía."
+      }
+    },
+    {
+      "id": "hpp-tranexamico",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Hemorragia pós-parto",
+      "frente": "Ácido tranexâmico na hemorragia pós-parto: dose e janela?",
+      "verso": "1 g IV em 10 minutos, assim que diagnosticada e até 3 horas do parto; repetir se persistir após 30 minutos.",
+      "questoes": [
+        "revalida_2023-2_q064"
+      ],
+      "es": {
+        "frente": "¿Ácido tranexámico en la hemorragia posparto: dosis y ventana?",
+        "verso": "1 g IV en 10 minutos, en cuanto se diagnostica y hasta 3 horas del parto; repetir si persiste a los 30 minutos."
+      }
+    },
+    {
+      "id": "hpp-inversao",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Hemorragia pós-parto",
+      "frente": "Inversão uterina: como reconhecer e tratar?",
+      "verso": "Massa vaginal sangrante, fundo não palpável e choque com bradicardia. Repor volume e reposicionar o útero (Taxe), relaxando se preciso; depois ocitocina.",
+      "questoes": [],
+      "es": {
+        "frente": "Inversión uterina: ¿cómo reconocerla y tratarla?",
+        "verso": "Masa vaginal sangrante, fondo no palpable y shock con bradicardia. Reponer volumen y reposicionar el útero (Taxe), relajando si es necesario; luego oxitocina."
+      }
+    },
+    {
+      "id": "puerp-endometrite",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Infecção puerperal",
+      "frente": "Endometrite puerperal: clínica e antibiótico?",
+      "verso": "Febre, lóquios fétidos e útero doloroso, amolecido e subinvoluído (Bumm). Clindamicina + gentamicina IV até 48–72 h sem febre; manter amamentação.",
+      "questoes": [],
+      "es": {
+        "frente": "Endometritis puerperal: ¿clínica y antibiótico?",
+        "verso": "Fiebre, loquios fétidos y útero doloroso, blando y subinvolucionado (Bumm). Clindamicina + gentamicina IV hasta 48–72 h sin fiebre; mantener la lactancia."
+      }
+    },
+    {
+      "id": "puerp-febre-persistente",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Infecção puerperal",
+      "frente": "Febre puerperal que persiste após 72 h de antibiótico?",
+      "verso": "Investigar abscesso, hematoma infectado e restos; sem foco, pensar em tromboflebite pélvica séptica e tratar com heparina.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Fiebre puerperal que persiste tras 72 h de antibiótico?",
+        "verso": "Investigar absceso, hematoma infectado y restos; sin foco, pensar en tromboflebitis pélvica séptica y tratar con heparina."
+      }
+    },
+    {
+      "id": "hiv-diagnostico",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "HIV/aids",
+      "frente": "Como se fecha o diagnóstico de HIV no adulto e na criança com menos de 18 meses?",
+      "verso": "Adulto: dois testes diferentes reagentes (ex.: dois testes rápidos de fabricantes distintos). Menor de 18 meses: carga viral; duas detectáveis confirmam.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Cómo se confirma el diagnóstico de VIH en el adulto y en el niño menor de 18 meses?",
+        "verso": "Adulto: dos pruebas diferentes reactivas (ej.: dos pruebas rápidas de fabricantes distintos). Menor de 18 meses: carga viral; dos detectables confirman."
+      }
+    },
+    {
+      "id": "hiv-tarv",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "HIV/aids",
+      "frente": "Esquema inicial de TARV e quando começar?",
+      "verso": "TDF + 3TC + DTG para adultos e gestantes, em até 7 dias do diagnóstico, independentemente do CD4.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Esquema inicial de TAR y cuándo empezar?",
+        "verso": "TDF + 3TC + DTG para adultos y gestantes, en hasta 7 días del diagnóstico, independientemente del CD4."
+      }
+    },
+    {
+      "id": "hiv-tb",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "HIV/aids",
+      "frente": "HIV com tuberculose: ordem dos tratamentos?",
+      "verso": "Começar a TB e iniciar TARV em até 2 semanas (meningite tuberculosa: 4 a 8 semanas). Dolutegravir 50 mg de 12/12 h com rifampicina.",
+      "questoes": [
+        "revalida_2022-1_q055"
+      ],
+      "es": {
+        "frente": "VIH con tuberculosis: ¿orden de los tratamientos?",
+        "verso": "Empezar la TB e iniciar la TAR en hasta 2 semanas (meningitis tuberculosa: 4 a 8 semanas). Dolutegravir 50 mg cada 12 h con rifampicina."
+      }
+    },
+    {
+      "id": "hiv-pcp",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "HIV/aids",
+      "frente": "Pneumocistose: quando suspeitar e tratar?",
+      "verso": "CD4 abaixo de 200, tosse seca, dispneia progressiva e infiltrado intersticial bilateral. SMX-TMP por 21 dias, mais prednisona se PaO2 abaixo de 70.",
+      "questoes": [],
+      "es": {
+        "frente": "Neumocistosis: ¿cuándo sospechar y tratar?",
+        "verso": "CD4 menor de 200, tos seca, disnea progresiva e infiltrado intersticial bilateral. SMX-TMP por 21 días, más prednisona si PaO2 menor de 70."
+      }
+    },
+    {
+      "id": "hiv-neurotoxo",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "HIV/aids",
+      "frente": "Neurotoxoplasmose: imagem e tratamento?",
+      "verso": "CD4 abaixo de 100; lesões com realce em anel e edema na tomografia com contraste. Sulfadiazina + pirimetamina + ácido folínico; sem resposta em 10–14 dias, pensar em linfoma.",
+      "questoes": [
+        "revalida_2024-1_q071"
+      ],
+      "es": {
+        "frente": "Neurotoxoplasmosis: ¿imagen y tratamiento?",
+        "verso": "CD4 menor de 100; lesiones con realce en anillo y edema en la tomografía con contraste. Sulfadiazina + pirimetamina + ácido folínico; sin respuesta en 10–14 días, pensar en linfoma."
+      }
+    },
+    {
+      "id": "hiv-gestante-parto",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "HIV/aids",
+      "frente": "Gestante com HIV: via de parto e AZT intraparto?",
+      "verso": "Carga viral a partir de 34 semanas: abaixo de 1.000, via obstétrica; 1.000 ou mais ou desconhecida, cesárea eletiva com 38 semanas e AZT IV. Sem amamentação.",
+      "questoes": [
+        "revalida_2022-1_q064"
+      ],
+      "es": {
+        "frente": "Gestante con VIH: ¿vía de parto y AZT intraparto?",
+        "verso": "Carga viral desde las 34 semanas: menos de 1000, vía obstétrica; 1000 o más o desconocida, cesárea electiva a las 38 semanas y AZT IV. Sin lactancia."
+      }
+    },
+    {
+      "id": "hiv-prep",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "HIV/aids",
+      "frente": "PrEP: para quem e qual esquema?",
+      "verso": "15 anos ou mais e 35 kg ou mais com risco aumentado. TDF/FTC diário; protege após 7 dias (anal) e 20 dias (vaginal).",
+      "questoes": [],
+      "es": {
+        "frente": "PrEP: ¿para quién y qué esquema?",
+        "verso": "15 años o más y 35 kg o más con riesgo aumentado. TDF/FTC diario; protege después de 7 días (anal) y 20 días (vaginal)."
+      }
+    },
+    {
+      "id": "hiv-pep",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "HIV/aids",
+      "frente": "PEP: prazo e esquema?",
+      "verso": "Idealmente em 2 horas, no máximo 72 horas. TDF + 3TC + DTG por 28 dias. Fonte com teste rápido não reagente dispensa.",
+      "questoes": [],
+      "es": {
+        "frente": "PEP: ¿plazo y esquema?",
+        "verso": "Idealmente en 2 horas, como máximo 72 horas. TDF + 3TC + DTG por 28 días. Fuente con prueba rápida no reactiva la hace innecesaria."
+      }
+    },
+    {
+      "id": "apend-sinais",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Apendicite aguda",
+      "frente": "Blumberg, Rovsing, psoas, obturador e Lenander?",
+      "verso": "Blumberg: descompressão dolorosa em McBurney. Rovsing: dor à direita comprimindo a esquerda. Psoas: retrocecal. Obturador: pélvico. Lenander: retal menos axilar acima de 1 °C.",
+      "questoes": [
+        "revalida_2025-1_q027"
+      ],
+      "es": {
+        "frente": "¿Blumberg, Rovsing, psoas, obturador y Lenander?",
+        "verso": "Blumberg: dolor a la descompresión en McBurney. Rovsing: dolor a la derecha comprimiendo la izquierda. Psoas: retrocecal. Obturador: pélvico. Lenander: rectal menos axilar mayor de 1 °C."
+      }
+    },
+    {
+      "id": "apend-alvarado",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Apendicite aguda",
+      "frente": "Escore de Alvarado: pontos de corte?",
+      "verso": "0–3 baixa probabilidade; 4–6 intermediária, pedir imagem; 7 ou mais alta, avaliação cirúrgica. Dor na FID e leucocitose valem 2.",
+      "questoes": [],
+      "es": {
+        "frente": "Puntaje de Alvarado: ¿puntos de corte?",
+        "verso": "0–3 baja probabilidad; 4–6 intermedia, pedir imagen; 7 o más alta, evaluación quirúrgica. Dolor en FID y leucocitosis valen 2."
+      }
+    },
+    {
+      "id": "apend-imagem",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Apendicite aguda",
+      "frente": "Ultrassom ou tomografia na suspeita de apendicite?",
+      "verso": "Ultrassom em crianças, gestantes e magros; tomografia com contraste no adulto com dúvida; ressonância na gestante com ultrassom inconclusivo.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Ecografía o tomografía ante sospecha de apendicitis?",
+        "verso": "Ecografía en niños, gestantes y personas delgadas; tomografía con contraste en el adulto con duda; resonancia en la gestante con ecografía no concluyente."
+      }
+    },
+    {
+      "id": "apend-atb",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Apendicite aguda",
+      "frente": "Antibiótico na apendicite não complicada × complicada?",
+      "verso": "Não complicada: profilaxia em dose única (cefazolina + metronidazol). Complicada: terapêutico contra gram-negativos e anaeróbios por cerca de 4 dias após controle do foco.",
+      "questoes": [
+        "revalida_2024-1_q047"
+      ],
+      "es": {
+        "frente": "¿Antibiótico en la apendicitis no complicada × complicada?",
+        "verso": "No complicada: profilaxis en dosis única (cefazolina + metronidazol). Complicada: terapéutico contra gramnegativos y anaerobios por unos 4 días tras el control del foco."
+      }
+    },
+    {
+      "id": "apend-abscesso",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Apendicite aguda",
+      "frente": "Massa na FID após 5 dias de dor?",
+      "verso": "Plastrão ou abscesso: antibiótico e drenagem percutânea; apendicectomia de intervalo opcional e colonoscopia acima de 40 anos.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Masa en FID tras 5 días de dolor?",
+        "verso": "Plastrón o absceso: antibiótico y drenaje percutáneo; apendicectomía de intervalo opcional y colonoscopia por encima de 40 años."
+      }
+    },
+    {
+      "id": "ei-duke",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Endocardite infecciosa",
+      "frente": "Critérios maiores de Duke e combinação para diagnóstico definitivo?",
+      "verso": "Maiores: hemoculturas típicas em 2 amostras e evidência ecocardiográfica (vegetação, abscesso, regurgitação nova). Definitiva: 2 maiores, 1 maior + 3 menores ou 5 menores.",
+      "questoes": [
+        "revalida_2025-1_q061"
+      ],
+      "es": {
+        "frente": "¿Criterios mayores de Duke y combinación para diagnóstico definitivo?",
+        "verso": "Mayores: hemocultivos típicos en 2 muestras y evidencia ecocardiográfica (vegetación, absceso, regurgitación nueva). Definitiva: 2 mayores, 1 mayor + 3 menores o 5 menores."
+      }
+    },
+    {
+      "id": "ei-sinais",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Endocardite infecciosa",
+      "frente": "Osler, Janeway e Roth: o que são?",
+      "verso": "Osler: nódulos dolorosos nas polpas digitais (imunológico). Janeway: máculas indolores em palmas e plantas (vascular). Roth: hemorragia retiniana com centro pálido (imunológico).",
+      "questoes": [
+        "revalida_2025-1_q061"
+      ],
+      "es": {
+        "frente": "Osler, Janeway y Roth: ¿qué son?",
+        "verso": "Osler: nódulos dolorosos en los pulpejos (inmunológico). Janeway: máculas indoloras en palmas y plantas (vascular). Roth: hemorragia retiniana con centro pálido (inmunológico)."
+      }
+    },
+    {
+      "id": "ei-agentes",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Endocardite infecciosa",
+      "frente": "Agente provável: usuário de droga injetável, pós-dentista, prótese recente e S. gallolyticus?",
+      "verso": "Droga injetável: S. aureus (tricúspide). Dentista: viridans. Prótese no 1º ano: S. epidermidis. S. gallolyticus: investigar câncer colorretal.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Agente probable: usuario de drogas inyectables, tras dentista, prótesis reciente y S. gallolyticus?",
+        "verso": "Drogas inyectables: S. aureus (tricúspide). Dentista: viridans. Prótesis en el 1.er año: S. epidermidis. S. gallolyticus: investigar cáncer colorrectal."
+      }
+    },
+    {
+      "id": "ei-tratamento",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Endocardite infecciosa",
+      "frente": "Tratamento empírico e indicações de cirurgia?",
+      "verso": "Nativa comunitária: ampicilina + oxacilina + gentamicina; prótese: vancomicina + gentamicina + rifampicina, por 4–6 semanas. Cirurgia: insuficiência cardíaca, infecção não controlada, vegetação grande com risco embólico.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Tratamiento empírico e indicaciones de cirugía?",
+        "verso": "Nativa comunitaria: ampicilina + oxacilina + gentamicina; prótesis: vancomicina + gentamicina + rifampicina, por 4–6 semanas. Cirugía: insuficiencia cardíaca, infección no controlada, vegetación grande con riesgo embólico."
+      }
+    },
+    {
+      "id": "ei-profilaxia",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Endocardite infecciosa",
+      "frente": "Quem recebe profilaxia de endocardite e qual?",
+      "verso": "Alto risco (prótese, endocardite prévia, cardiopatia congênita cianótica não corrigida) em procedimento dentário com manipulação gengival: amoxicilina 2 g VO 30–60 min antes.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Quién recibe profilaxis de endocarditis y cuál?",
+        "verso": "Alto riesgo (prótesis, endocarditis previa, cardiopatía congénita cianótica no corregida) en procedimiento dental con manipulación gingival: amoxicilina 2 g VO 30–60 min antes."
+      }
+    },
+    {
+      "id": "gi-alarme",
+      "area": "Clínica Médica",
+      "especialidade": "Gastroenterologia",
+      "tema": "Diarreia crônica",
+      "frente": "Sinais de alarme na diarreia ou dor abdominal crônica?",
+      "verso": "Início após 45–50 anos, perda de peso, sangue, anemia, sintomas noturnos, febre, massa e história familiar de câncer colorretal, DII ou celíaca.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Signos de alarma en la diarrea o dolor abdominal crónico?",
+        "verso": "Inicio después de 45–50 años, pérdida de peso, sangre, anemia, síntomas nocturnos, fiebre, masa e historia familiar de cáncer colorrectal, EII o celiaquía."
+      }
+    },
+    {
+      "id": "gi-celiaca",
+      "area": "Clínica Médica",
+      "especialidade": "Gastroenterologia",
+      "tema": "Doença celíaca",
+      "frente": "Como diagnosticar doença celíaca?",
+      "verso": "Antitransglutaminase IgA com IgA total, ainda comendo glúten; confirmação com biópsia duodenal (atrofia vilositária, linfócitos intraepiteliais). Dieta sem glúten por toda a vida.",
+      "questoes": [
+        "revalida_2024-1_q041"
+      ],
+      "es": {
+        "frente": "¿Cómo diagnosticar la enfermedad celíaca?",
+        "verso": "Antitransglutaminasa IgA con IgA total, aún comiendo gluten; confirmación con biopsia duodenal (atrofia vellositaria, linfocitos intraepiteliales). Dieta sin gluten de por vida."
+      }
+    },
+    {
+      "id": "gi-roma",
+      "area": "Clínica Médica",
+      "especialidade": "Gastroenterologia",
+      "tema": "Síndrome do intestino irritável",
+      "frente": "Critérios de Roma IV para intestino irritável?",
+      "verso": "Dor abdominal 1 dia por semana ou mais nos últimos 3 meses, com 2 de: relação com evacuação, mudança na frequência e na forma das fezes; início há 6 meses ou mais.",
+      "questoes": [
+        "revalida_2023-2_q016",
+        "revalida_2024-1_q041"
+      ],
+      "es": {
+        "frente": "¿Criterios de Roma IV para intestino irritable?",
+        "verso": "Dolor abdominal 1 día por semana o más en los últimos 3 meses, con 2 de: relación con la defecación, cambio en la frecuencia y en la forma de las heces; inicio hace 6 meses o más."
+      }
+    },
+    {
+      "id": "gi-sii-tratamento",
+      "area": "Clínica Médica",
+      "especialidade": "Gastroenterologia",
+      "tema": "Síndrome do intestino irritável",
+      "frente": "Tratamento da síndrome do intestino irritável?",
+      "verso": "Vínculo e explicação, dieta pobre em FODMAPs, psyllium, antiespasmódico, loperamida (diarreia), PEG ou linaclotida (constipação), tricíclico em dose baixa, terapia cognitivo-comportamental.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Tratamiento del síndrome de intestino irritable?",
+        "verso": "Vínculo y explicación, dieta baja en FODMAP, psyllium, antiespasmódico, loperamida (diarrea), PEG o linaclotida (estreñimiento), tricíclico en dosis baja, terapia cognitivo-conductual."
+      }
+    },
+    {
+      "id": "gi-ma-absorcao",
+      "area": "Clínica Médica",
+      "especialidade": "Gastroenterologia",
+      "tema": "Diarreia crônica",
+      "frente": "Esteatorreia: como diferenciar pâncreas, supercrescimento e Whipple?",
+      "verso": "Pâncreas: elastase fecal baixa, enzimas. Supercrescimento: B12 baixa com folato alto, teste respiratório, rifaximina. Whipple: artralgia e sintomas neurológicos, macrófagos PAS+.",
+      "questoes": [],
+      "es": {
+        "frente": "Esteatorrea: ¿cómo diferenciar páncreas, sobrecrecimiento y Whipple?",
+        "verso": "Páncreas: elastasa fecal baja, enzimas. Sobrecrecimiento: B12 baja con folato alto, prueba respiratoria, rifaximina. Whipple: artralgia y síntomas neurológicos, macrófagos PAS+."
+      }
+    },
+    {
+      "id": "tox-anticolinergica",
+      "area": "Clínica Médica",
+      "especialidade": "Emergência clínica",
+      "tema": "Intoxicações exógenas",
+      "frente": "Toxíndrome anticolinérgica: sinais e exemplos?",
+      "verso": "Midríase, pele seca e quente, rubor, retenção urinária, taquicardia, hipertermia e delirium. Anti-histamínicos, tricíclicos, atropina.",
+      "questoes": [
+        "revalida_2022-2_q088"
+      ],
+      "es": {
+        "frente": "Toxíndrome anticolinérgica: ¿signos y ejemplos?",
+        "verso": "Midriasis, piel seca y caliente, rubor, retención urinaria, taquicardia, hipertermia y delirium. Antihistamínicos, tricíclicos, atropina."
+      }
+    },
+    {
+      "id": "tox-colinergica",
+      "area": "Clínica Médica",
+      "especialidade": "Emergência clínica",
+      "tema": "Intoxicações exógenas",
+      "frente": "Intoxicação por organofosforado: sinais e tratamento?",
+      "verso": "Miose, sialorreia, broncorreia, sudorese, diarreia, bradicardia e fasciculações. Descontaminar, atropina até secar secreções e pralidoxima.",
+      "questoes": [
+        "revalida_2023-2_q051"
+      ],
+      "es": {
+        "frente": "Intoxicación por organofosforado: ¿signos y tratamiento?",
+        "verso": "Miosis, sialorrea, broncorrea, sudoración, diarrea, bradicardia y fasciculaciones. Descontaminar, atropina hasta secar secreciones y pralidoxima."
+      }
+    },
+    {
+      "id": "tox-opioide-bzd",
+      "area": "Clínica Médica",
+      "especialidade": "Emergência clínica",
+      "tema": "Intoxicações exógenas",
+      "frente": "Opioide × benzodiazepínico: como diferenciar e tratar?",
+      "verso": "Opioide: miose e depressão respiratória; naloxona. Benzodiazepínico: sonolência com sinais vitais estáveis; suporte, flumazenil raramente.",
+      "questoes": [],
+      "es": {
+        "frente": "Opioide × benzodiacepina: ¿cómo diferenciar y tratar?",
+        "verso": "Opioide: miosis y depresión respiratoria; naloxona. Benzodiacepina: somnolencia con signos vitales estables; soporte, flumazenil raramente."
+      }
+    },
+    {
+      "id": "tox-paracetamol",
+      "area": "Clínica Médica",
+      "especialidade": "Emergência clínica",
+      "tema": "Intoxicações exógenas",
+      "frente": "Intoxicação por paracetamol: risco, exame e antídoto?",
+      "verso": "Acima de 150 mg/kg. Nível sérico a partir de 4 h (nomograma de Rumack-Matthew). N-acetilcisteína, idealmente em até 8–10 h.",
+      "questoes": [
+        "revalida_2024-2_q083"
+      ],
+      "es": {
+        "frente": "Intoxicación por paracetamol: ¿riesgo, examen y antídoto?",
+        "verso": "Más de 150 mg/kg. Nivel sérico desde las 4 h (nomograma de Rumack-Matthew). N-acetilcisteína, idealmente en hasta 8–10 h."
+      }
+    },
+    {
+      "id": "tox-carvao",
+      "area": "Clínica Médica",
+      "especialidade": "Emergência clínica",
+      "tema": "Intoxicações exógenas",
+      "frente": "Carvão ativado: dose, janela e quando não usar?",
+      "verso": "1 g/kg (máx. 50 g), até 1 h após a ingestão. Não serve para álcoois, ferro, lítio, metais, cáusticos e hidrocarbonetos.",
+      "questoes": [],
+      "es": {
+        "frente": "Carbón activado: ¿dosis, ventana y cuándo no usarlo?",
+        "verso": "1 g/kg (máx. 50 g), hasta 1 h tras la ingestión. No sirve para alcoholes, hierro, litio, metales, cáusticos ni hidrocarburos."
+      }
+    },
+    {
+      "id": "tox-extrapiramidal",
+      "area": "Clínica Médica",
+      "especialidade": "Emergência clínica",
+      "tema": "Intoxicações exógenas",
+      "frente": "Criança com rigidez e espasmos após ingerir antipsicótico?",
+      "verso": "Reação extrapiramidal por haloperidol: biperideno ou difenidramina. Com hipertermia e CPK alta, pensar em síndrome neuroléptica maligna.",
+      "questoes": [
+        "revalida_2022-2_q093"
+      ],
+      "es": {
+        "frente": "¿Niño con rigidez y espasmos tras ingerir antipsicótico?",
+        "verso": "Reacción extrapiramidal por haloperidol: biperideno o difenhidramina. Con hipertermia y CPK alta, pensar en síndrome neuroléptico maligno."
+      }
+    },
+    {
+      "id": "tox-metais",
+      "area": "Clínica Médica",
+      "especialidade": "Emergência clínica",
+      "tema": "Intoxicações exógenas",
+      "frente": "Chumbo × mercúrio: quadro e contexto?",
+      "verso": "Chumbo: cólica, anemia com pontilhado basófilo, punho caído, linha de Burton (baterias, tintas). Mercúrio: tremor, sintomas neuropsiquiátricos e parestesias (garimpo, peixe de rio).",
+      "questoes": [
+        "revalida_2024-1_q031",
+        "revalida_2023-1_q065"
+      ],
+      "es": {
+        "frente": "Plomo × mercurio: ¿cuadro y contexto?",
+        "verso": "Plomo: cólico, anemia con punteado basófilo, mano caída, línea de Burton (baterías, pinturas). Mercurio: temblor, síntomas neuropsiquiátricos y parestesias (minería de oro, pescado de río)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "go-pre-eclampsia",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "mentor": "marina",
+  "duracaoMin": 12,
+  "revisao": "pendente",
+  "questoes": ["revalida_2024-1_q024", "revalida_2024-2_q059", "revalida_2023-2_q059", "revalida_2023-1_q039"],
+  "referencias": [
+    "Ministério da Saúde. Manual de Gestação de Alto Risco, 2022.",
+    "FEBRASGO. Protocolo Pré-eclâmpsia, 2023.",
+    "ISSHP. Hypertensive disorders of pregnancy: classification, diagnosis and management, 2021."
+  ],
+  "pt": {
+    "titulo": "Pré-eclâmpsia: do diagnóstico ao sulfato de magnésio",
+    "resumo": "Tema que caiu em todas as edições de 2023 e 2024. A prova cobra o diagnóstico depois de 20 semanas, o reconhecimento da forma grave e a conduta imediata: anti-hipertensivo, sulfato de magnésio e momento do parto.",
+    "secoes": [
+      {
+        "titulo": "Diagnóstico",
+        "paragrafos": [
+          "Pressão arterial de 140 × 90 mmHg ou mais, depois de 20 semanas, em gestante antes normotensa, com pelo menos um destes: proteinúria, lesão de órgão-alvo ou disfunção placentária."
+        ],
+        "itens": [
+          "Proteinúria: 300 mg ou mais em 24 horas, relação proteína/creatinina de 0,3 ou mais, ou fita com 2+.",
+          "Lesão de órgão-alvo: plaquetas abaixo de 100 mil, creatinina acima de 1,1 mg/dL, transaminases no dobro do normal, edema agudo de pulmão, cefaleia intensa ou alterações visuais.",
+          "Disfunção placentária: restrição de crescimento fetal ou Doppler alterado.",
+          "Sem proteinúria também pode ser pré-eclâmpsia: basta a lesão de órgão-alvo."
+        ]
+      },
+      {
+        "titulo": "Sinais de gravidade",
+        "paragrafos": [
+          "A gravidade muda a conduta. Procure no enunciado:"
+        ],
+        "itens": [
+          "PA de 160 × 110 mmHg ou mais (crise hipertensiva).",
+          "Iminência de eclâmpsia: cefaleia, escotomas, dor epigástrica ou em hipocôndrio direito, hiperreflexia.",
+          "Síndrome HELLP: hemólise (DHL acima de 600, esquizócitos), enzimas hepáticas elevadas e plaquetopenia.",
+          "Eclâmpsia: convulsão tônico-clônica sem outra causa."
+        ]
+      },
+      {
+        "titulo": "Conduta na forma grave",
+        "paragrafos": [
+          "A ordem que a banca espera: proteger o cérebro, baixar a pressão e programar o parto."
+        ],
+        "itens": [
+          "Sulfato de magnésio para prevenir e tratar convulsão. Zuspan: 4 g IV em 10 a 20 minutos e depois 1 g por hora em bomba. Pritchard: 4 g IV mais 10 g IM (5 g em cada glúteo) e 5 g IM a cada 4 horas.",
+          "Antes de cada dose, confira reflexo patelar presente, frequência respiratória de 16 ou mais e diurese de 25 mL/h ou mais. Intoxicação: suspender e dar gluconato de cálcio 10%, 10 mL IV.",
+          "Manter o sulfato até 24 horas depois do parto ou da última convulsão.",
+          "Crise hipertensiva: hidralazina 5 mg IV a cada 20 minutos ou nifedipino 10 mg VO a cada 20 a 30 minutos. Meta: PA entre 140–150 × 90–100 mmHg, sem baixar demais.",
+          "Momento do parto: forma grave com 34 semanas ou mais, parto após estabilizar. Antes de 34 semanas e estável, corticoide para maturidade pulmonar e conduta expectante em centro de referência. Eclâmpsia, HELLP, descolamento de placenta ou sofrimento fetal: parto após estabilizar, em qualquer idade gestacional.",
+          "Sem sinais de gravidade: acompanhamento e parto com 37 semanas."
+        ]
+      },
+      {
+        "titulo": "Prevenção",
+        "paragrafos": [
+          "Caiu em 2023.1: quem tem alto risco recebe ácido acetilsalicílico."
+        ],
+        "itens": [
+          "AAS 100 a 150 mg à noite, começando entre 12 e 16 semanas (até 20) e mantendo até 36 semanas.",
+          "Alto risco: pré-eclâmpsia anterior, hipertensão crônica, diabetes, doença renal, lúpus ou síndrome antifosfolípide, gestação múltipla.",
+          "Cálcio 1 a 2 g por dia para gestantes com baixa ingestão."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Anti-hipertensivo não previne convulsão: quem previne é o sulfato de magnésio.",
+      "IECA e bloqueadores do receptor de angiotensina são contraindicados na gestação.",
+      "Pressão alta antes de 20 semanas é hipertensão crônica, não pré-eclâmpsia (exceto mola hidatiforme).",
+      "Reflexo patelar abolido: não aplicar a próxima dose do sulfato."
+    ]
+  },
+  "es": {
+    "titulo": "Preeclampsia: del diagnóstico al sulfato de magnesio",
+    "resumo": "Tema presente en todas las ediciones de 2023 y 2024. El examen pide el diagnóstico después de las 20 semanas, reconocer la forma grave y la conducta inmediata: antihipertensivo, sulfato de magnesio y momento del parto.",
+    "secoes": [
+      {
+        "titulo": "Diagnóstico",
+        "paragrafos": [
+          "Presión arterial de 140 × 90 mmHg o más, después de las 20 semanas, en una gestante antes normotensa, con al menos uno de estos: proteinuria, daño de órgano blanco o disfunción placentaria."
+        ],
+        "itens": [
+          "Proteinuria: 300 mg o más en 24 horas, índice proteína/creatinina de 0,3 o más, o tira reactiva con 2+.",
+          "Daño de órgano blanco: plaquetas por debajo de 100 mil, creatinina por encima de 1,1 mg/dL, transaminasas al doble de lo normal, edema agudo de pulmón, cefalea intensa o alteraciones visuales.",
+          "Disfunción placentaria: restricción del crecimiento fetal o Doppler alterado.",
+          "Sin proteinuria también puede ser preeclampsia: basta el daño de órgano blanco."
+        ]
+      },
+      {
+        "titulo": "Signos de gravedad",
+        "paragrafos": [
+          "La gravedad cambia la conducta. Búsquelos en el enunciado:"
+        ],
+        "itens": [
+          "PA de 160 × 110 mmHg o más (crisis hipertensiva).",
+          "Inminencia de eclampsia: cefalea, escotomas, dolor epigástrico o en hipocondrio derecho, hiperreflexia.",
+          "Síndrome HELLP: hemólisis (LDH por encima de 600, esquistocitos), enzimas hepáticas elevadas y plaquetopenia.",
+          "Eclampsia: convulsión tónico-clónica sin otra causa."
+        ]
+      },
+      {
+        "titulo": "Conducta en la forma grave",
+        "paragrafos": [
+          "El orden que espera el examen: proteger el cerebro, bajar la presión y programar el parto."
+        ],
+        "itens": [
+          "Sulfato de magnesio para prevenir y tratar la convulsión. Zuspan: 4 g IV en 10 a 20 minutos y luego 1 g por hora en bomba. Pritchard: 4 g IV más 10 g IM (5 g en cada glúteo) y 5 g IM cada 4 horas.",
+          "Antes de cada dosis, compruebe reflejo patelar presente, frecuencia respiratoria de 16 o más y diuresis de 25 mL/h o más. Intoxicación: suspender y dar gluconato de calcio al 10 %, 10 mL IV.",
+          "Mantener el sulfato hasta 24 horas después del parto o de la última convulsión.",
+          "Crisis hipertensiva: hidralazina 5 mg IV cada 20 minutos o nifedipino 10 mg VO cada 20 a 30 minutos. Meta: PA entre 140–150 × 90–100 mmHg, sin bajarla demasiado.",
+          "Momento del parto: forma grave con 34 semanas o más, parto tras estabilizar. Antes de 34 semanas y estable, corticoide para maduración pulmonar y conducta expectante en un centro de referencia. Eclampsia, HELLP, desprendimiento de placenta o sufrimiento fetal: parto tras estabilizar, a cualquier edad gestacional.",
+          "Sin signos de gravedad: seguimiento y parto a las 37 semanas."
+        ]
+      },
+      {
+        "titulo": "Prevención",
+        "paragrafos": [
+          "Apareció en 2023.1: la gestante de alto riesgo recibe ácido acetilsalicílico."
+        ],
+        "itens": [
+          "AAS 100 a 150 mg por la noche, desde las 12 a 16 semanas (hasta las 20) y hasta las 36 semanas.",
+          "Alto riesgo: preeclampsia previa, hipertensión crónica, diabetes, enfermedad renal, lupus o síndrome antifosfolípido, gestación múltiple.",
+          "Calcio 1 a 2 g al día para gestantes con baja ingesta."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "El antihipertensivo no previene la convulsión: la previene el sulfato de magnesio.",
+      "Los IECA y los bloqueadores del receptor de angiotensina están contraindicados en el embarazo.",
+      "Presión alta antes de las 20 semanas es hipertensión crónica, no preeclampsia (salvo mola hidatiforme).",
+      "Reflejo patelar abolido: no aplicar la siguiente dosis de sulfato."
+    ]
+  }
+}

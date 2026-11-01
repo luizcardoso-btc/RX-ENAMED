@@ -1,0 +1,300 @@
+{
+  "_sobre": "Mentores fictícios da marca Raio-X Revalida. Um por grande área; a Dra. Lia é a anfitriã. Usados no app (dicas, devolutivas da prática) e na comunicação. Qualquer semelhança com pessoas reais deve ser evitada ao ilustrar.",
+  "mentores": [
+    {
+      "id": "lia",
+      "nome": "Dra. Lia Moraes",
+      "titulo": "Médica de família e comunidade",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "anfitria": true,
+      "historia": "Formou-se em Medicina em Santa Cruz de la Sierra, voltou ao Brasil e foi aprovada no Revalida na segunda tentativa. Hoje trabalha numa equipe de Saúde da Família no interior de Minas e ajuda colegas que passam pelo mesmo caminho.",
+      "personalidade": "Acolhedora e prática. Fala como colega mais experiente, não como professora. Lembra que o SUS aparece na prova inteira, não só nas questões de Saúde Coletiva.",
+      "bordoes": [
+        "O SUS cai na prova inteira.",
+        "Primeiro o paciente, depois o protocolo, e os dois juntos na prova.",
+        "Errar aqui é barato. Errar na prova é caro."
+      ],
+      "tom": "segunda pessoa, frases curtas, sem jargão desnecessário, sem exclamações em excesso",
+      "visual": "Mulher de uns 38 anos, cabelo cacheado preso, jaleco sobre camiseta, crachá de UBS, mochila com garrafa d'água. Paleta: rosa da área MFC com azul caneta da marca.",
+      "mensagens": {
+        "boasVindas": "Oi, eu sou a Lia. Passei pelo Revalida e sei como ele cansa. Aqui você vai treinar com as questões oficiais e saber exatamente onde focar.",
+        "acerto": [
+          "Isso. E repare que o enunciado já dava a pista na primeira linha.",
+          "Certa. Guarde o raciocínio, não só a resposta."
+        ],
+        "erro": [
+          "Errou? Ótimo momento para aprender. Leia de novo o que a questão pedia: conduta ou diagnóstico?",
+          "Esse erro vai voltar na sua revisão em 1 dia. Quando voltar, você já vai estar pronto."
+        ],
+        "sequencia": "Dias seguidos estudando valem mais do que um domingo inteiro. Continue.",
+        "pratica": "Na estação, comece se apresentando e dizendo o que vai fazer. Parece pouco, mas está no checklist."
+      },
+      "redes": [
+        {
+          "formato": "Reels 30 s",
+          "gancho": "As 3 palavras que mais aparecem nas questões de Saúde Coletiva do Revalida",
+          "roteiro": "Lia na frente de uma UBS. Mostra no celular o Raio-X do app: equidade, integralidade, controle social. Fecha com: o SUS cai na prova inteira."
+        },
+        {
+          "formato": "Carrossel",
+          "gancho": "Formei fora. E agora?",
+          "roteiro": "Cinco cards com a história da Lia: diploma, primeira tentativa, o que mudou na segunda, a rotina na UBS, convite para a trilha."
+        },
+        {
+          "formato": "Story com enquete",
+          "gancho": "Declaração de óbito: quem preenche?",
+          "roteiro": "Pergunta da edição 2024.2, enquete com as alternativas, resposta no dia seguinte com o link do app."
+        }
+      ],
+      "es": {
+        "titulo": "Médica de familia y comunidad",
+        "bordoes": [
+          "El SUS aparece en todo el examen.",
+          "Primero el paciente, después el protocolo, y los dos juntos en el examen.",
+          "Equivocarse aquí es barato. Equivocarse en el examen es caro."
+        ],
+        "mensagens": {
+          "boasVindas": "Hola, soy Lia. Pasé por el Revalida y sé lo agotador que es. Aquí va a practicar con las preguntas oficiales y a saber exactamente dónde concentrarse.",
+          "acerto": [
+            "Eso es. Y fíjese que el enunciado ya daba la pista en la primera línea.",
+            "Correcto. Guarde el razonamiento, no solo la respuesta."
+          ],
+          "erro": [
+            "¿Falló? Buen momento para aprender. Lea de nuevo qué pedía la pregunta: ¿conducta o diagnóstico?",
+            "Este error vuelve en su repaso dentro de 1 día. Cuando vuelva, ya estará listo."
+          ],
+          "sequencia": "Estudiar varios días seguidos vale más que un domingo entero. Siga así.",
+          "pratica": "En la estación, empiece presentándose y diciendo qué va a hacer. Parece poco, pero está en la lista de evaluación."
+        }
+      }
+    },
+    {
+      "id": "caio",
+      "nome": "Dr. Caio Vasconcelos",
+      "titulo": "Clínico geral e emergencista",
+      "area": "Clínica Médica",
+      "historia": "Plantonista de pronto-socorro em Recife. Gosta de transformar casos difíceis em listas simples e tem um caderno de raciocínios que mostra para todo residente.",
+      "personalidade": "Metódico, calmo, curioso. Pensa em camadas: história, exame, hipótese, exame complementar, conduta. Faz uma pergunta antes de dar a resposta.",
+      "bordoes": [
+        "Antes da conduta, o diagnóstico. Antes do diagnóstico, a história.",
+        "ECG em 10 minutos. Sempre.",
+        "Qual é a pergunta que a questão está fazendo?"
+      ],
+      "tom": "didático, perguntas socráticas, exemplos do plantão",
+      "visual": "Homem de uns 45 anos, barba curta grisalha, óculos de armação fina, estetoscópio no pescoço, caneca de café. Paleta: azul da área Clínica.",
+      "mensagens": {
+        "acerto": [
+          "Raciocínio limpo. Agora pense: o que mudaria se o paciente fosse diabético?",
+          "Certo. Você descartou as alternativas pelo motivo certo?"
+        ],
+        "erro": [
+          "Volte ao enunciado e sublinhe o dado que muda tudo. Quase sempre ele está ali.",
+          "Faltou uma camada. Era diagnóstico ou já era conduta?"
+        ],
+        "pratica": "Caracterize a dor por completo: início, tipo, irradiação, intensidade, fatores de melhora e piora, sintomas associados."
+      },
+      "redes": [
+        {
+          "formato": "Reels 45 s",
+          "gancho": "Dor torácica no Revalida: o roteiro de 10 minutos",
+          "roteiro": "Caio no plantão (cenário), checklist na tela: caracterizar dor, fatores de risco, ECG em 10 min, AAS, reperfusão."
+        },
+        {
+          "formato": "Post",
+          "gancho": "Pergunta do Caio: qual dado do enunciado muda a conduta?",
+          "roteiro": "Recorte de enunciado oficial com um dado destacado; resposta nos comentários."
+        }
+      ],
+      "es": {
+        "titulo": "Médico clínico y emergenciólogo",
+        "bordoes": [
+          "Antes de la conducta, el diagnóstico. Antes del diagnóstico, la historia.",
+          "ECG en 10 minutos. Siempre.",
+          "¿Cuál es la pregunta que realmente hace el enunciado?"
+        ],
+        "mensagens": {
+          "acerto": [
+            "Razonamiento limpio. Ahora piense: ¿qué cambiaría si el paciente fuera diabético?",
+            "Correcto. ¿Descartó las alternativas por el motivo correcto?"
+          ],
+          "erro": [
+            "Vuelva al enunciado y subraye el dato que lo cambia todo. Casi siempre está ahí.",
+            "Faltó una capa. ¿Era diagnóstico o ya era conducta?"
+          ],
+          "pratica": "Caracterice el dolor por completo: inicio, tipo, irradiación, intensidad, factores que lo alivian y empeoran, síntomas asociados."
+        }
+      }
+    },
+    {
+      "id": "helena",
+      "nome": "Dra. Helena Duarte",
+      "titulo": "Cirurgiã geral e do trauma",
+      "area": "Cirurgia",
+      "historia": "Cirurgiã de um hospital de referência em trauma em Porto Alegre. Instrutora de suporte avançado de vida no trauma há dez anos.",
+      "personalidade": "Direta, firme e generosa. Não enrola. Cobra ordem e prioridade, e elogia quando você acerta a sequência.",
+      "bordoes": [
+        "ABCDE primeiro. Sempre.",
+        "Pneumotórax hipertensivo é diagnóstico clínico.",
+        "Quem não sabe a próxima conduta, segue o protocolo."
+      ],
+      "tom": "objetivo, imperativo gentil, frases curtas",
+      "visual": "Mulher de uns 50 anos, cabelo curto, touca cirúrgica estampada, pijama cirúrgico verde, relógio de pulso grande. Paleta: laranja da área Cirurgia.",
+      "mensagens": {
+        "acerto": [
+          "Sequência certa. É isso que a banca quer ver.",
+          "Boa. Prioridade antes de detalhe."
+        ],
+        "erro": [
+          "Você pulou uma letra do ABCDE. Volte ao início e refaça na ordem.",
+          "A pergunta era a próxima conduta, não a conduta definitiva. Releia."
+        ],
+        "pratica": "Fale em voz alta cada etapa do ABCDE. Na estação, o que você não diz não pontua."
+      },
+      "redes": [
+        {
+          "formato": "Reels 30 s",
+          "gancho": "Toracocentese de alívio: onde furar segundo o protocolo atual",
+          "roteiro": "Helena com manequim, mostra o 5º espaço intercostal entre as linhas axilares anterior e média, depois a drenagem."
+        },
+        {
+          "formato": "Story",
+          "gancho": "Verdadeiro ou falso: precisa de raio-X para tratar pneumotórax hipertensivo?",
+          "roteiro": "Enquete, resposta com o bordão."
+        }
+      ],
+      "es": {
+        "titulo": "Cirujana general y de trauma",
+        "bordoes": [
+          "ABCDE primero. Siempre.",
+          "El neumotórax a tensión es un diagnóstico clínico.",
+          "Quien no sabe la siguiente conducta, sigue el protocolo."
+        ],
+        "mensagens": {
+          "acerto": [
+            "Secuencia correcta. Es lo que el examen quiere ver.",
+            "Bien. Prioridad antes que detalle."
+          ],
+          "erro": [
+            "Se saltó una letra del ABCDE. Vuelva al inicio y hágalo en orden.",
+            "La pregunta era la siguiente conducta, no la conducta definitiva. Relea."
+          ],
+          "pratica": "Diga en voz alta cada etapa del ABCDE. En la estación, lo que no dice no suma puntos."
+        }
+      }
+    },
+    {
+      "id": "tomas",
+      "nome": "Dr. Tomás Ribeiro",
+      "titulo": "Pediatra",
+      "area": "Pediatria",
+      "historia": "Pediatra de UBS e de alojamento conjunto em Belém. Pai de gêmeos, coleciona curvas de crescimento rabiscadas pelos pacientes.",
+      "personalidade": "Acolhedor, bem-humorado, paciente com as mães e com os alunos. Explica com analogias do dia a dia.",
+      "bordoes": [
+        "Criança não é adulto pequeno.",
+        "Peso em quilos, dose por quilo.",
+        "Escute a mãe: ela conhece o filho melhor do que qualquer exame."
+      ],
+      "tom": "leve, afetuoso, exemplos de consultório",
+      "visual": "Homem de uns 35 anos, sorriso largo, jaleco com bottons de bichinhos, estetoscópio colorido, régua antropométrica na mão. Paleta: verde-água da área Pediatria.",
+      "mensagens": {
+        "acerto": [
+          "Acertou e ainda lembrou do peso da criança. A banca adora isso.",
+          "Muito bem. Agora imagine explicar isso para a mãe em uma frase."
+        ],
+        "erro": [
+          "Calma. Refaça a conta por quilo e veja se a dose bate.",
+          "Esse tema tem pegadinha de idade. Confira os marcos antes de responder."
+        ],
+        "pratica": "Converse com a mãe ou o pai, não só sobre a criança. Pergunte também como a família está."
+      },
+      "redes": [
+        {
+          "formato": "Reels 30 s",
+          "gancho": "Plano A, B ou C? Em 20 segundos",
+          "roteiro": "Tomás com três cartões coloridos, um sinal de desidratação por vez, a plateia escolhe o plano."
+        },
+        {
+          "formato": "Carrossel",
+          "gancho": "Marcos do desenvolvimento que mais caem",
+          "roteiro": "Idade por card, um marco por idade, fonte: caderneta da criança."
+        }
+      ],
+      "es": {
+        "titulo": "Pediatra",
+        "bordoes": [
+          "El niño no es un adulto pequeño.",
+          "Peso en kilos, dosis por kilo.",
+          "Escuche a la madre: conoce a su hijo mejor que cualquier examen."
+        ],
+        "mensagens": {
+          "acerto": [
+            "Acertó y además recordó el peso del niño. Al examen le encanta eso.",
+            "Muy bien. Ahora imagine explicárselo a la madre en una frase."
+          ],
+          "erro": [
+            "Calma. Rehaga la cuenta por kilo y vea si la dosis cuadra.",
+            "Este tema tiene trampa de edad. Revise los hitos antes de responder."
+          ],
+          "pratica": "Converse con la madre o el padre, no solo sobre el niño. Pregunte también cómo está la familia."
+        }
+      }
+    },
+    {
+      "id": "marina",
+      "nome": "Dra. Marina Lopes",
+      "titulo": "Ginecologista e obstetra",
+      "area": "Ginecologia e Obstetrícia",
+      "historia": "Obstetra de maternidade pública em Goiânia, coordena um ambulatório de pré-natal de alto risco. Já fez mais partos do que consegue contar.",
+      "personalidade": "Segura, acolhedora e exigente com os números: idade gestacional, pressão, dose. Valoriza o cuidado com a mulher além do protocolo.",
+      "bordoes": [
+        "Na sala de parto, são duas vidas.",
+        "Pressão 160 por 110 não espera.",
+        "Calcule a idade gestacional antes de qualquer conduta."
+      ],
+      "tom": "firme e caloroso, com números precisos",
+      "visual": "Mulher de uns 42 anos, cabelo longo em trança, pijama cirúrgico azul-marinho, sonar fetal no bolso. Paleta: amarelo da área GO.",
+      "mensagens": {
+        "acerto": [
+          "Isso. Idade gestacional certa, conduta certa.",
+          "Perfeito. E você lembrou da mãe e do bebê."
+        ],
+        "erro": [
+          "Recalcule a idade gestacional. A conduta muda conforme as semanas.",
+          "Faltou ver a pressão com atenção. Sinais de gravidade mudam tudo."
+        ],
+        "pratica": "Diga a dose completa: medicamento, quantidade, via e tempo. Sulfato de magnésio sem dose não pontua."
+      },
+      "redes": [
+        {
+          "formato": "Reels 45 s",
+          "gancho": "Sulfato de magnésio: o esquema que a banca cobra",
+          "roteiro": "Marina no posto de enfermagem, dose de ataque e de manutenção na tela, sinais de intoxicação e o antídoto."
+        },
+        {
+          "formato": "Post",
+          "gancho": "Regra de Naegele em 3 passos",
+          "roteiro": "Exemplo com datas, link para a estação de pré-natal no app."
+        }
+      ],
+      "es": {
+        "titulo": "Ginecóloga y obstetra",
+        "bordoes": [
+          "En la sala de partos hay dos vidas.",
+          "Una presión de 160 por 110 no espera.",
+          "Calcule la edad gestacional antes de cualquier conducta."
+        ],
+        "mensagens": {
+          "acerto": [
+            "Eso. Edad gestacional correcta, conducta correcta.",
+            "Perfecto. Y se acordó de la madre y del bebé."
+          ],
+          "erro": [
+            "Recalcule la edad gestacional. La conducta cambia según las semanas.",
+            "Faltó mirar la presión con atención. Los signos de gravedad lo cambian todo."
+          ],
+          "pratica": "Diga la dosis completa: medicamento, cantidad, vía y tiempo. Sulfato de magnesio sin dosis no suma puntos."
+        }
+      }
+    }
+  ]
+}

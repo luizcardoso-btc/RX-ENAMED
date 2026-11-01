@@ -1,0 +1,153 @@
+{
+  "id": "cm-endocardite-infecciosa",
+  "area": "Clínica Médica",
+  "especialidade": "Infectologia",
+  "mentor": "caio",
+  "duracaoMin": 12,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2025-1_q061"
+  ],
+  "referencias": [
+    "Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J, 2023.",
+    "Li JS et al. Proposed modifications to the Duke criteria for the diagnosis of infective endocarditis. Clin Infect Dis, 2000.",
+    "Wilson WR et al. Prevention of viridans group streptococcal infective endocarditis: AHA scientific statement. Circulation, 2021.",
+    "Sociedade Brasileira de Cardiologia. Diretriz Brasileira de Valvopatias, 2020."
+  ],
+  "pt": {
+    "titulo": "Endocardite infecciosa: critérios de Duke, agentes, tratamento e profilaxia",
+    "resumo": "A banca descreve febre com sopro e sinais periféricos e pede o diagnóstico; ou pede o agente pelo contexto (usuário de droga, procedimento dentário, prótese, câncer de cólon) e quem precisa de profilaxia.",
+    "secoes": [
+      {
+        "titulo": "Quando suspeitar",
+        "paragrafos": [
+          "Febre sem foco com sopro novo, fenômenos embólicos ou fator de risco (prótese valvar, endocardite prévia, cardiopatia, uso de drogas injetáveis, cateter, hemodiálise)."
+        ],
+        "itens": [
+          "Fenômenos vasculares: embolia arterial, infarto séptico pulmonar, aneurisma micótico, hemorragia intracraniana, hemorragia conjuntival, lesões de Janeway (máculas indolores em palmas e plantas) e hemorragias subungueais em lasca.",
+          "Fenômenos imunológicos: nódulos de Osler (dolorosos, em polpas digitais), manchas de Roth (hemorragia retiniana com centro pálido), glomerulonefrite e fator reumatoide positivo.",
+          "Também: esplenomegalia, anemia, VHS e PCR elevados e hematúria."
+        ]
+      },
+      {
+        "titulo": "Diagnóstico: critérios de Duke",
+        "paragrafos": [
+          "Colha 3 pares de hemoculturas de punções diferentes antes do antibiótico e faça ecocardiograma: transtorácico primeiro; transesofágico se houver prótese, suspeita alta com transtorácico normal ou suspeita de complicação."
+        ],
+        "itens": [
+          "Maiores: hemoculturas positivas com agente típico em 2 amostras separadas (ou persistentemente positivas) e evidência de envolvimento endocárdico no ecocardiograma (vegetação, abscesso, deiscência de prótese ou regurgitação nova).",
+          "Menores: predisposição (cardiopatia ou uso de drogas injetáveis), febre de 38 °C ou mais, fenômenos vasculares, fenômenos imunológicos e hemocultura positiva que não cumpre o critério maior.",
+          "Definitiva: 2 maiores, ou 1 maior e 3 menores, ou 5 menores. Possível: 1 maior e 1 menor, ou 3 menores."
+        ]
+      },
+      {
+        "titulo": "Agentes pelo contexto",
+        "paragrafos": [],
+        "itens": [
+          "Staphylococcus aureus: o mais comum hoje; quadro agudo e destrutivo; usuário de drogas injetáveis (valva tricúspide, êmbolos pulmonares), cateteres e hemodiálise.",
+          "Estreptococos do grupo viridans: valva nativa, curso subagudo, após procedimento dentário.",
+          "Enterococos: idosos, após procedimentos geniturinários ou gastrointestinais.",
+          "Streptococcus gallolyticus (antigo S. bovis): associado a câncer colorretal; pedir colonoscopia.",
+          "Prótese valvar no primeiro ano: estafilococo coagulase-negativo (S. epidermidis). Hemoculturas negativas: uso prévio de antibiótico, grupo HACEK, Coxiella, Bartonella e fungos."
+        ]
+      },
+      {
+        "titulo": "Tratamento",
+        "paragrafos": [
+          "Antibiótico bactericida intravenoso por 4 a 6 semanas, guiado pela cultura. O empírico depende da valva e da origem."
+        ],
+        "itens": [
+          "Valva nativa adquirida na comunidade: ampicilina + oxacilina + gentamicina (vancomicina se houver risco de MRSA ou alergia).",
+          "Prótese valvar ou infecção relacionada à assistência: vancomicina + gentamicina + rifampicina.",
+          "Cirurgia: insuficiência cardíaca por disfunção valvar (indicação mais comum), infecção não controlada (abscesso, fungo, germe multirresistente, bacteremia persistente) e prevenção de embolia em vegetações grandes, sobretudo com embolia prévia."
+        ]
+      },
+      {
+        "titulo": "Profilaxia",
+        "paragrafos": [
+          "Só para pacientes de alto risco em procedimentos dentários com manipulação da gengiva, da região periapical ou perfuração da mucosa."
+        ],
+        "itens": [
+          "Alto risco: prótese valvar ou material protético de reparo, endocardite prévia, cardiopatia congênita cianótica não corrigida ou com shunt residual e transplantado cardíaco com valvopatia.",
+          "Esquema: amoxicilina 2 g VO 30 a 60 minutos antes; alergia à penicilina, azitromicina 500 mg (ou doxiciclina).",
+          "Higiene bucal adequada é a principal medida de prevenção."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Hemocultura antes do antibiótico, em 3 pares.",
+      "Osler dói; Janeway não.",
+      "S. gallolyticus pede colonoscopia.",
+      "Usuário de drogas injetáveis: S. aureus na tricúspide, com êmbolos pulmonares.",
+      "Prolapso mitral sem regurgitação e sopro inocente não recebem profilaxia."
+    ]
+  },
+  "es": {
+    "titulo": "Endocarditis infecciosa: criterios de Duke, agentes, tratamiento y profilaxis",
+    "resumo": "La prueba describe fiebre con soplo y signos periféricos y pide el diagnóstico; o pide el agente según el contexto (usuario de drogas, procedimiento dental, prótesis, cáncer de colon) y quién necesita profilaxis.",
+    "secoes": [
+      {
+        "titulo": "Cuándo sospechar",
+        "paragrafos": [
+          "Fiebre sin foco con soplo nuevo, fenómenos embólicos o factor de riesgo (prótesis valvular, endocarditis previa, cardiopatía, uso de drogas inyectables, catéter, hemodiálisis)."
+        ],
+        "itens": [
+          "Fenómenos vasculares: embolia arterial, infarto séptico pulmonar, aneurisma micótico, hemorragia intracraneal, hemorragia conjuntival, lesiones de Janeway (máculas indoloras en palmas y plantas) y hemorragias subungueales en astilla.",
+          "Fenómenos inmunológicos: nódulos de Osler (dolorosos, en pulpejos), manchas de Roth (hemorragia retiniana con centro pálido), glomerulonefritis y factor reumatoide positivo.",
+          "También: esplenomegalia, anemia, VSG y PCR elevadas y hematuria."
+        ]
+      },
+      {
+        "titulo": "Diagnóstico: criterios de Duke",
+        "paragrafos": [
+          "Tome 3 pares de hemocultivos de punciones diferentes antes del antibiótico y haga ecocardiograma: transtorácico primero; transesofágico si hay prótesis, sospecha alta con transtorácico normal o sospecha de complicación."
+        ],
+        "itens": [
+          "Mayores: hemocultivos positivos con agente típico en 2 muestras separadas (o persistentemente positivos) y evidencia de compromiso endocárdico en el ecocardiograma (vegetación, absceso, dehiscencia de prótesis o regurgitación nueva).",
+          "Menores: predisposición (cardiopatía o uso de drogas inyectables), fiebre de 38 °C o más, fenómenos vasculares, fenómenos inmunológicos y hemocultivo positivo que no cumple el criterio mayor.",
+          "Definitiva: 2 mayores, o 1 mayor y 3 menores, o 5 menores. Posible: 1 mayor y 1 menor, o 3 menores."
+        ]
+      },
+      {
+        "titulo": "Agentes según el contexto",
+        "paragrafos": [],
+        "itens": [
+          "Staphylococcus aureus: el más común hoy; cuadro agudo y destructivo; usuario de drogas inyectables (válvula tricúspide, émbolos pulmonares), catéteres y hemodiálisis.",
+          "Estreptococos del grupo viridans: válvula nativa, curso subagudo, tras procedimiento dental.",
+          "Enterococos: adultos mayores, tras procedimientos genitourinarios o gastrointestinales.",
+          "Streptococcus gallolyticus (antes S. bovis): asociado a cáncer colorrectal; pedir colonoscopia.",
+          "Prótesis valvular en el primer año: estafilococo coagulasa negativo (S. epidermidis). Hemocultivos negativos: antibiótico previo, grupo HACEK, Coxiella, Bartonella y hongos."
+        ]
+      },
+      {
+        "titulo": "Tratamiento",
+        "paragrafos": [
+          "Antibiótico bactericida intravenoso por 4 a 6 semanas, guiado por el cultivo. El empírico depende de la válvula y del origen."
+        ],
+        "itens": [
+          "Válvula nativa adquirida en la comunidad: ampicilina + oxacilina + gentamicina (vancomicina si hay riesgo de SARM o alergia).",
+          "Prótesis valvular o infección asociada a la atención: vancomicina + gentamicina + rifampicina.",
+          "Cirugía: insuficiencia cardíaca por disfunción valvular (indicación más común), infección no controlada (absceso, hongo, germen multirresistente, bacteriemia persistente) y prevención de embolia en vegetaciones grandes, sobre todo con embolia previa."
+        ]
+      },
+      {
+        "titulo": "Profilaxis",
+        "paragrafos": [
+          "Solo para pacientes de alto riesgo en procedimientos dentales con manipulación de la encía, de la región periapical o perforación de la mucosa."
+        ],
+        "itens": [
+          "Alto riesgo: prótesis valvular o material protésico de reparación, endocarditis previa, cardiopatía congénita cianótica no corregida o con shunt residual y trasplantado cardíaco con valvulopatía.",
+          "Esquema: amoxicilina 2 g VO 30 a 60 minutos antes; alergia a la penicilina, azitromicina 500 mg (o doxiciclina).",
+          "La higiene bucal adecuada es la principal medida de prevención."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Hemocultivos antes del antibiótico, en 3 pares.",
+      "Osler duele; Janeway no.",
+      "S. gallolyticus pide colonoscopia.",
+      "Usuario de drogas inyectables: S. aureus en la tricúspide, con émbolos pulmonares.",
+      "Prolapso mitral sin regurgitación y soplo inocente no reciben profilaxis."
+    ]
+  }
+}

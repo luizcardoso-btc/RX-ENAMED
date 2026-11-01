@@ -1,0 +1,123 @@
+{
+  "id": "ped-desidratacao-plano-c",
+  "area": "Pediatria",
+  "especialidade": "Gastroenterologia pediátrica",
+  "mentor": "tomas",
+  "duracaoMin": 10,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2024-1_q043",
+    "revalida_2023-2_q033"
+  ],
+  "referencias": [
+    "Ministério da Saúde. Manejo do paciente com diarreia (cartaz), edição vigente.",
+    "Sociedade Brasileira de Pediatria. Diarreia aguda: diagnóstico e tratamento, Guia Prático de Atualização.",
+    "OMS. The treatment of diarrhoea: a manual for physicians and other senior health workers, 2005."
+  ],
+  "pt": {
+    "titulo": "Diarreia aguda na criança: avaliar a hidratação e aplicar o plano certo",
+    "resumo": "Caiu em 2023.2 e 2024.1, sempre pedindo a conduta da desidratação grave. A prova segue o cartaz do Ministério da Saúde: classifique em plano A, B ou C e aplique a reposição correspondente.",
+    "secoes": [
+      {
+        "titulo": "Classificar a hidratação",
+        "paragrafos": [
+          "Observe estado geral, olhos, sede, sinal da prega, pulso e enchimento capilar. Dois ou mais sinais de uma coluna definem a classificação."
+        ],
+        "itens": [
+          "Sem desidratação (plano A): alerta, olhos normais, bebe normalmente, prega desaparece rápido.",
+          "Com desidratação (plano B): irritada ou inquieta, olhos fundos, bebe com sede, prega desaparece lentamente, enchimento capilar até 5 segundos.",
+          "Desidratação grave (plano C): comatosa, hipotônica ou letárgica, olhos muito fundos, bebe mal ou não consegue beber, prega desaparece muito lentamente, pulso fraco ou ausente, enchimento capilar acima de 5 segundos."
+        ]
+      },
+      {
+        "titulo": "Planos A e B",
+        "paragrafos": [],
+        "itens": [
+          "Plano A (em casa): mais líquido que o habitual, soro de reidratação oral após cada evacuação, manter a alimentação e o aleitamento, zinco e sinais de alerta para retorno.",
+          "Plano B (na unidade): soro de reidratação oral 50 a 100 mL/kg em 4 a 6 horas, com reavaliação frequente. Hidratada, passa para o plano A; se piorar, plano C."
+        ]
+      },
+      {
+        "titulo": "Plano C: reidratação venosa",
+        "paragrafos": [
+          "Na desidratação grave, a reposição é venosa e começa pela fase rápida (expansão). Sem acesso venoso, use a via intraóssea."
+        ],
+        "itens": [
+          "Menores de 5 anos: soro fisiológico 0,9% 20 mL/kg em 30 minutos, repetindo até sair do quadro de desidratação grave.",
+          "5 anos ou mais: soro fisiológico 0,9% 30 mL/kg em 30 minutos e depois Ringer lactato ou solução polieletrolítica 70 mL/kg em 2 horas e 30 minutos.",
+          "Esquema anterior, da OMS, ainda cobrado em 2023.2: 30 mL/kg em 1 hora para menores de 1 ano ou em 30 minutos para 1 ano ou mais, seguido de 70 mL/kg (em 5 horas ou em 2 horas e 30 minutos). A questão de 2024.1 que citava o fluxograma de 2023 foi anulada: leia qual referência o enunciado pede.",
+          "Fase de manutenção e reposição: soro glicosado 5% e soro fisiológico 0,9% na proporção 4:1 para a manutenção (regra de Holliday-Segar), com cloreto de potássio 10% 2 mL para cada 100 mL, mais a reposição das perdas com soro glicosado e fisiológico 1:1, cerca de 50 mL/kg/dia.",
+          "Reavalie a cada 15 a 30 minutos. Assim que a criança puder beber, comece o soro oral; suspenda a venosa quando ela estiver hidratada e aceitando o oral."
+        ]
+      },
+      {
+        "titulo": "Zinco e antibiótico",
+        "paragrafos": [],
+        "itens": [
+          "Zinco por 10 a 14 dias: 10 mg/dia para menores de 6 meses e 20 mg/dia a partir de 6 meses.",
+          "Antibiótico só em disenteria (sangue nas fezes) com comprometimento do estado geral, cólera grave ou imunossupressão.",
+          "Antidiarreicos e antieméticos de rotina não são indicados."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Desidratação grave pede via venosa (ou intraóssea) imediatamente: soro oral não é a resposta.",
+      "Manter o aleitamento materno durante a reidratação.",
+      "A primeira etapa do plano C é soro fisiológico ou Ringer, nunca soro glicosado puro.",
+      "Confira a referência citada: o fluxograma do Ministério da Saúde de 2023 usa 20 mL/kg para menores de 5 anos; o esquema anterior usava 30 mL/kg."
+    ]
+  },
+  "es": {
+    "titulo": "Diarrea aguda en el niño: evaluar la hidratación y aplicar el plan correcto",
+    "resumo": "Apareció en 2023.2 y 2024.1, siempre pidiendo la conducta en la deshidratación grave. El examen sigue el cartel del Ministerio de Salud de Brasil: clasifique en plan A, B o C y aplique la reposición correspondiente.",
+    "secoes": [
+      {
+        "titulo": "Clasificar la hidratación",
+        "paragrafos": [
+          "Observe estado general, ojos, sed, signo del pliegue, pulso y llenado capilar. Dos o más signos de una columna definen la clasificación."
+        ],
+        "itens": [
+          "Sin deshidratación (plan A): alerta, ojos normales, bebe con normalidad, el pliegue desaparece rápido.",
+          "Con deshidratación (plan B): irritable o inquieto, ojos hundidos, bebe con sed, el pliegue desaparece lentamente, llenado capilar de hasta 5 segundos.",
+          "Deshidratación grave (plan C): comatoso, hipotónico o letárgico, ojos muy hundidos, bebe mal o no puede beber, el pliegue desaparece muy lentamente, pulso débil o ausente, llenado capilar de más de 5 segundos."
+        ]
+      },
+      {
+        "titulo": "Planes A y B",
+        "paragrafos": [],
+        "itens": [
+          "Plan A (en casa): más líquido de lo habitual, suero de rehidratación oral después de cada deposición, mantener la alimentación y la lactancia, zinc y signos de alarma para volver.",
+          "Plan B (en la unidad): suero de rehidratación oral 50 a 100 mL/kg en 4 a 6 horas, con reevaluación frecuente. Si se hidrata, pasa al plan A; si empeora, al plan C."
+        ]
+      },
+      {
+        "titulo": "Plan C: rehidratación intravenosa",
+        "paragrafos": [
+          "En la deshidratación grave la reposición es intravenosa y empieza por la fase rápida (expansión). Sin acceso venoso, use la vía intraósea."
+        ],
+        "itens": [
+          "Menores de 5 años: solución salina 0,9 % 20 mL/kg en 30 minutos, repitiendo hasta salir del cuadro de deshidratación grave.",
+          "5 años o más: solución salina 0,9 % 30 mL/kg en 30 minutos y después Ringer lactato o solución polielectrolítica 70 mL/kg en 2 horas y 30 minutos.",
+          "Esquema anterior, de la OMS, todavía evaluado en 2023.2: 30 mL/kg en 1 hora para menores de 1 año o en 30 minutos para 1 año o más, seguido de 70 mL/kg (en 5 horas o en 2 horas y 30 minutos). La pregunta de 2024.1 que citaba el flujograma de 2023 fue anulada: lea qué referencia pide el enunciado.",
+          "Fase de mantenimiento y reposición: dextrosa al 5 % y solución salina 0,9 % en proporción 4:1 para el mantenimiento (regla de Holliday-Segar), con cloruro de potasio al 10 % 2 mL por cada 100 mL, más la reposición de pérdidas con dextrosa y salina 1:1, unos 50 mL/kg/día.",
+          "Reevalúe cada 15 a 30 minutos. En cuanto el niño pueda beber, inicie el suero oral; suspenda la vía intravenosa cuando esté hidratado y acepte la vía oral."
+        ]
+      },
+      {
+        "titulo": "Zinc y antibiótico",
+        "paragrafos": [],
+        "itens": [
+          "Zinc durante 10 a 14 días: 10 mg/día en menores de 6 meses y 20 mg/día a partir de los 6 meses.",
+          "Antibiótico solo en disentería (sangre en las heces) con afectación del estado general, cólera grave o inmunosupresión.",
+          "No están indicados antidiarreicos ni antieméticos de rutina."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "La deshidratación grave exige vía intravenosa (o intraósea) de inmediato: el suero oral no es la respuesta.",
+      "Mantener la lactancia materna durante la rehidratación.",
+      "La primera etapa del plan C es salina o Ringer, nunca dextrosa sola.",
+      "Revise la referencia citada: el flujograma del Ministerio de Salud de 2023 usa 20 mL/kg para menores de 5 años; el esquema anterior usaba 30 mL/kg."
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout seguro | RX ENAMED</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/site.css">
+<link rel="stylesheet" href="/_rx/rx.css">
+<script src="https://sdk.mercadopago.com/js/v2"></script>
+</head>
+<body>
+<header class="rx-topo"><div class="envoltorio">
+  <a class="marca" href="/"><span class="marca-simbolo" aria-hidden="true">RX</span><span>RX <em>ENAMED</em></span></a>
+  <nav><span class="rx-mudo" id="cadeado">🔒 Pagamento seguro</span></nav>
+</div></header>
+<main class="envoltorio rx-pagina">
+  <div class="rx-grade-checkout">
+    <aside class="rx-cartao rx-resumo" id="resumo" aria-live="polite"><p class="rx-mudo">Carregando plano…</p></aside>
+
+    <section class="rx-cartao" id="fluxo">
+      <div class="rx-passo" id="passo-conta">
+        <h2><span class="rx-num">1</span> <span data-t="conta">Sua conta</span></h2>
+        <div id="conta-logada" class="rx-oculto"></div>
+        <div id="conta-form">
+          <div class="rx-abas duas" role="group">
+            <button type="button" class="rx-aba" data-modo="cadastro" aria-pressed="true" data-t="criarConta">Criar conta</button>
+            <button type="button" class="rx-aba" data-modo="entrar" aria-pressed="false" data-t="jaTenho">Já tenho conta</button>
+          </div>
+          <form id="form-conta" novalidate>
+            <label class="rx-campo" id="campo-nome"><span data-t="nome">Nome completo</span><input name="nome" autocomplete="name" required></label>
+            <label class="rx-campo"><span>E-mail</span><input name="email" type="email" autocomplete="email" required></label>
+            <label class="rx-campo"><span data-t="senha">Senha (mínimo 8 caracteres)</span><input name="senha" type="password" autocomplete="new-password" minlength="8" required></label>
+            <p class="rx-erro rx-oculto" id="erro-conta" role="alert"></p>
+            <button class="botao botao-primario rx-botao-largo" type="submit" data-t="continuar">Continuar</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="rx-passo rx-oculto" id="passo-pagamento">
+        <h2><span class="rx-num">2</span> <span data-t="pagamento">Pagamento</span></h2>
+        <div class="rx-abas" role="group" aria-label="Forma de pagamento">
+          <button type="button" class="rx-aba" data-metodo="pix" aria-pressed="true">PIX<small data-t="pixSub">aprovação na hora</small></button>
+          <button type="button" class="rx-aba" data-metodo="cartao" aria-pressed="false"><span data-t="cartao">Cartão</span><small id="sub-cartao">até 12×</small></button>
+          <button type="button" class="rx-aba" data-metodo="boleto" aria-pressed="false">Boleto<small data-t="boletoSub">até 3 dias úteis</small></button>
+        </div>
+        <details class="rx-cupom" id="cupom-box"><summary data-t="temCupom">Tem um cupom de desconto?</summary>
+          <div class="rx-linha" style="margin-top:10px"><label class="rx-campo" style="flex:1;margin:0"><span data-t="cupom">Cupom</span><input id="cupom" autocomplete="off" style="text-transform:uppercase"></label>
+          <button type="button" class="botao" id="aplicar-cupom" data-t="aplicar">Aplicar</button></div>
+          <p class="rx-mudo" id="cupom-status" role="status"></p>
+        </details>
+        <label class="rx-campo" id="campo-cpf"><span>CPF</span><input id="cpf" inputmode="numeric" autocomplete="off" placeholder="000.000.000-00" maxlength="14"></label>
+        <p class="rx-erro rx-oculto" id="erro-pagamento" role="alert"></p>
+        <div id="metodo-pix"><button class="botao botao-primario rx-botao-largo" id="gerar-pix" data-t="gerarPix">Gerar PIX</button></div>
+        <div id="metodo-cartao" class="rx-oculto"><div id="cartao-brick"></div></div>
+        <div id="metodo-boleto" class="rx-oculto"><button class="botao botao-primario rx-botao-largo" id="gerar-boleto" data-t="gerarBoleto">Gerar boleto</button></div>
+      </div>
+
+      <div class="rx-passo rx-oculto" id="passo-aguardando"></div>
+      <div class="rx-passo rx-oculto" id="passo-sucesso"></div>
+    </section>
+  </div>
+  <p class="rx-mudo" style="margin-top:18px" data-t="rodape">Pagamentos processados pelo Mercado Pago. Os dados do cartão são enviados direto ao Mercado Pago, criptografados; o RX ENAMED não os armazena. Você tem 7 dias para desistir e receber o valor de volta.</p>
+</main>
+<script type="module" src="/_rx/checkout.js"></script>
+</body>
+</html>

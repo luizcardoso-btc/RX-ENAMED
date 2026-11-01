@@ -1,0 +1,136 @@
+{
+  "id": "cm-disabsorcao-intestino-irritavel",
+  "area": "Clínica Médica",
+  "especialidade": "Gastroenterologia",
+  "mentor": "caio",
+  "duracaoMin": 12,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2024-1_q041",
+    "revalida_2023-2_q016"
+  ],
+  "referencias": [
+    "Lacy BE et al. Bowel disorders (Rome IV). Gastroenterology, 2016.",
+    "Rubio-Tapia A et al. ACG Clinical Guidelines: Diagnosis and Management of Celiac Disease, 2023.",
+    "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Doença Celíaca, 2015.",
+    "Lacy BE et al. ACG Clinical Guideline: Management of Irritable Bowel Syndrome, 2021."
+  ],
+  "pt": {
+    "titulo": "Diarreia crônica: síndromes disabsortivas e síndrome do intestino irritável",
+    "resumo": "Na prova, o caso é de diarreia ou dor abdominal crônica com exames normais (intestino irritável) ou com sinais de má absorção (doença celíaca, lactose, pâncreas). O segredo é reconhecer os sinais de alarme e pedir o exame certo.",
+    "secoes": [
+      {
+        "titulo": "Diarreia crônica e sinais de alarme",
+        "paragrafos": [
+          "Diarreia crônica dura mais de 4 semanas. Antes de rotular como funcional, procure sinais de alarme."
+        ],
+        "itens": [
+          "Sinais de alarme: início após 45–50 anos, perda de peso não intencional, sangue nas fezes, anemia, sintomas noturnos que acordam o paciente, febre, massa abdominal e história familiar de câncer colorretal, doença inflamatória intestinal ou doença celíaca.",
+          "Com sinal de alarme: colonoscopia e investigação dirigida.",
+          "Má absorção sugere esteatorreia (fezes volumosas, gordurosas, que boiam), perda de peso e carências: anemia ferropriva ou megaloblástica, osteoporose (vitamina D e cálcio), sangramento (vitamina K) e edema (hipoalbuminemia)."
+        ]
+      },
+      {
+        "titulo": "Doença celíaca",
+        "paragrafos": [
+          "Enteropatia autoimune desencadeada pelo glúten em pessoas geneticamente predispostas (HLA-DQ2 e DQ8)."
+        ],
+        "itens": [
+          "Formas: clássica (diarreia, distensão, perda de peso, déficit de crescimento na criança) e não clássica (anemia ferropriva refratária ao ferro oral, osteoporose precoce, aftas, elevação de transaminases, infertilidade). A dermatite herpetiforme é a manifestação cutânea.",
+          "Grupos de risco para rastrear: diabetes tipo 1, tireoidite autoimune, síndrome de Down, Turner, deficiência de IgA e parentes de primeiro grau.",
+          "Diagnóstico: antitransglutaminase IgA com dosagem de IgA total (na deficiência de IgA, usar testes IgG), ainda comendo glúten. Confirmação por biópsia duodenal: atrofia de vilosidades, hiperplasia de criptas e linfócitos intraepiteliais.",
+          "Tratamento: dieta sem glúten por toda a vida. Sem adesão, há risco de linfoma intestinal de células T."
+        ]
+      },
+      {
+        "titulo": "Outras causas de má absorção",
+        "paragrafos": [],
+        "itens": [
+          "Intolerância à lactose (hipolactasia): distensão, flatulência e diarreia após laticínios. Teste do hidrogênio expirado ou teste terapêutico com exclusão.",
+          "Insuficiência pancreática exócrina (pancreatite crônica, fibrose cística): esteatorreia; elastase fecal baixa; reposição de enzimas pancreáticas.",
+          "Supercrescimento bacteriano (alça cega, dismotilidade, cirurgia prévia): B12 baixa com folato normal ou alto; teste respiratório; rifaximina.",
+          "Doença de Whipple (Tropheryma whipplei): homem de meia-idade com diarreia, emagrecimento, artralgia e sintomas neurológicos; macrófagos PAS-positivos na biópsia; ceftriaxona e depois SMX-TMP por 1 ano.",
+          "Giardíase: causa infecciosa de má absorção; tratar com metronidazol, tinidazol ou secnidazol."
+        ]
+      },
+      {
+        "titulo": "Síndrome do intestino irritável",
+        "paragrafos": [
+          "Distúrbio da interação intestino-cérebro, comum em mulheres jovens, sem lesão estrutural."
+        ],
+        "itens": [
+          "Critérios de Roma IV: dor abdominal recorrente pelo menos 1 dia por semana nos últimos 3 meses, associada a 2 ou mais: relação com a evacuação, mudança na frequência das fezes e mudança na forma das fezes. Início há pelo menos 6 meses.",
+          "Subtipos pela forma das fezes (escala de Bristol): com constipação, com diarreia ou misto.",
+          "Sem sinais de alarme, investigação mínima: hemograma, PCR, sorologia para doença celíaca e, se diarreia, calprotectina fecal. Colonoscopia só com sinal de alarme ou idade de rastreamento.",
+          "Tratamento: explicar a doença e firmar vínculo; dieta pobre em FODMAPs; fibra solúvel (psyllium); antiespasmódicos para dor; loperamida na diarreia; polietilenoglicol ou linaclotida na constipação; antidepressivo tricíclico em dose baixa para dor refratária; terapia cognitivo-comportamental."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Sinal de alarme afasta o diagnóstico de intestino irritável até investigação.",
+      "Sorologia celíaca só vale com o paciente comendo glúten, e sempre com IgA total.",
+      "Anemia ferropriva que não responde ao ferro oral: pense em doença celíaca.",
+      "Intestino irritável não acorda o paciente à noite nem causa perda de peso.",
+      "Repetir antiparasitários sem melhora não é investigação."
+    ]
+  },
+  "es": {
+    "titulo": "Diarrea crónica: síndromes de malabsorción y síndrome de intestino irritable",
+    "resumo": "En la prueba, el caso es de diarrea o dolor abdominal crónico con exámenes normales (intestino irritable) o con signos de malabsorción (enfermedad celíaca, lactosa, páncreas). La clave es reconocer los signos de alarma y pedir el examen correcto.",
+    "secoes": [
+      {
+        "titulo": "Diarrea crónica y signos de alarma",
+        "paragrafos": [
+          "La diarrea crónica dura más de 4 semanas. Antes de rotularla como funcional, busque signos de alarma."
+        ],
+        "itens": [
+          "Signos de alarma: inicio después de 45–50 años, pérdida de peso no intencional, sangre en las heces, anemia, síntomas nocturnos que despiertan al paciente, fiebre, masa abdominal e historia familiar de cáncer colorrectal, enfermedad inflamatoria intestinal o enfermedad celíaca.",
+          "Con signo de alarma: colonoscopia e investigación dirigida.",
+          "La malabsorción sugiere esteatorrea (heces voluminosas, grasosas, que flotan), pérdida de peso y carencias: anemia ferropénica o megaloblástica, osteoporosis (vitamina D y calcio), sangrado (vitamina K) y edema (hipoalbuminemia)."
+        ]
+      },
+      {
+        "titulo": "Enfermedad celíaca",
+        "paragrafos": [
+          "Enteropatía autoinmune desencadenada por el gluten en personas genéticamente predispuestas (HLA-DQ2 y DQ8)."
+        ],
+        "itens": [
+          "Formas: clásica (diarrea, distensión, pérdida de peso, retraso del crecimiento en el niño) y no clásica (anemia ferropénica refractaria al hierro oral, osteoporosis precoz, aftas, elevación de transaminasas, infertilidad). La dermatitis herpetiforme es la manifestación cutánea.",
+          "Grupos de riesgo para tamizar: diabetes tipo 1, tiroiditis autoinmune, síndrome de Down, Turner, déficit de IgA y familiares de primer grado.",
+          "Diagnóstico: antitransglutaminasa IgA con dosaje de IgA total (en el déficit de IgA, usar pruebas IgG), aún comiendo gluten. Confirmación por biopsia duodenal: atrofia de vellosidades, hiperplasia de criptas y linfocitos intraepiteliales.",
+          "Tratamiento: dieta sin gluten de por vida. Sin adherencia, hay riesgo de linfoma intestinal de células T."
+        ]
+      },
+      {
+        "titulo": "Otras causas de malabsorción",
+        "paragrafos": [],
+        "itens": [
+          "Intolerancia a la lactosa (hipolactasia): distensión, flatulencia y diarrea tras lácteos. Prueba de hidrógeno espirado o prueba terapéutica con exclusión.",
+          "Insuficiencia pancreática exocrina (pancreatitis crónica, fibrosis quística): esteatorrea; elastasa fecal baja; reemplazo de enzimas pancreáticas.",
+          "Sobrecrecimiento bacteriano (asa ciega, dismotilidad, cirugía previa): B12 baja con folato normal o alto; prueba respiratoria; rifaximina.",
+          "Enfermedad de Whipple (Tropheryma whipplei): hombre de mediana edad con diarrea, adelgazamiento, artralgia y síntomas neurológicos; macrófagos PAS positivos en la biopsia; ceftriaxona y luego SMX-TMP por 1 año.",
+          "Giardiasis: causa infecciosa de malabsorción; tratar con metronidazol, tinidazol o secnidazol."
+        ]
+      },
+      {
+        "titulo": "Síndrome de intestino irritable",
+        "paragrafos": [
+          "Trastorno de la interacción intestino-cerebro, común en mujeres jóvenes, sin lesión estructural."
+        ],
+        "itens": [
+          "Criterios de Roma IV: dolor abdominal recurrente al menos 1 día por semana en los últimos 3 meses, asociado a 2 o más: relación con la defecación, cambio en la frecuencia de las heces y cambio en la forma de las heces. Inicio hace al menos 6 meses.",
+          "Subtipos por la forma de las heces (escala de Bristol): con estreñimiento, con diarrea o mixto.",
+          "Sin signos de alarma, investigación mínima: hemograma, PCR, serología para enfermedad celíaca y, si hay diarrea, calprotectina fecal. Colonoscopia solo con signo de alarma o edad de tamizaje.",
+          "Tratamiento: explicar la enfermedad y construir vínculo; dieta baja en FODMAP; fibra soluble (psyllium); antiespasmódicos para el dolor; loperamida en la diarrea; polietilenglicol o linaclotida en el estreñimiento; antidepresivo tricíclico en dosis baja para dolor refractario; terapia cognitivo-conductual."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Un signo de alarma descarta el diagnóstico de intestino irritable hasta investigar.",
+      "La serología celíaca solo vale con el paciente comiendo gluten, y siempre con IgA total.",
+      "Anemia ferropénica que no responde al hierro oral: piense en enfermedad celíaca.",
+      "El intestino irritable no despierta al paciente de noche ni causa pérdida de peso.",
+      "Repetir antiparasitarios sin mejoría no es investigar."
+    ]
+  }
+}

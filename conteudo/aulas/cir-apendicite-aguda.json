@@ -1,0 +1,134 @@
+{
+  "id": "cir-apendicite-aguda",
+  "area": "Cirurgia",
+  "especialidade": "Abdome agudo",
+  "mentor": "helena",
+  "duracaoMin": 12,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2025-1_q027",
+    "revalida_2024-1_q047",
+    "revalida_2025-1_q008"
+  ],
+  "referencias": [
+    "Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg, 2020.",
+    "Alvarado A. A practical score for the early diagnosis of acute appendicitis. Ann Emerg Med, 1986.",
+    "Sawyer RG et al. Trial of short-course antimicrobial therapy for intraabdominal infection (STOP-IT). N Engl J Med, 2015."
+  ],
+  "pt": {
+    "titulo": "Apendicite aguda: sinais, escore de Alvarado, imagem e antibiótico",
+    "resumo": "Causa mais comum de abdome agudo cirúrgico. A banca cobra a sequência clássica dos sintomas, os sinais com epônimo, quando pedir imagem, a escolha entre ultrassom e tomografia e o antibiótico de cada forma.",
+    "secoes": [
+      {
+        "titulo": "Quadro clínico",
+        "paragrafos": [
+          "A obstrução da luz do apêndice (fecalito, hiperplasia linfoide) leva a distensão, isquemia e perfuração. Pico entre 10 e 30 anos."
+        ],
+        "itens": [
+          "Sequência típica: dor periumbilical ou epigástrica mal definida que migra para a fossa ilíaca direita em horas, seguida de anorexia, náuseas e febre baixa.",
+          "Sinal de Blumberg: descompressão brusca dolorosa no ponto de McBurney (entre o terço lateral e o médio da linha da espinha ilíaca anterossuperior ao umbigo).",
+          "Rovsing: dor na fossa ilíaca direita ao comprimir a esquerda. Psoas: dor à extensão da coxa direita (apêndice retrocecal). Obturador: dor à rotação interna da coxa fletida (apêndice pélvico). Lenander: diferença entre temperatura retal e axilar acima de 1 °C.",
+          "Leucocitose com desvio é comum; o exame de urina pode ter alguns piócitos sem infecção urinária, pela proximidade com o ureter.",
+          "Apresentação atípica: crianças pequenas, idosos e gestantes (dor mais alta no terceiro trimestre) perfuram mais."
+        ]
+      },
+      {
+        "titulo": "Escore de Alvarado e imagem",
+        "paragrafos": [
+          "O escore organiza a decisão: migração da dor 1, anorexia 1, náuseas ou vômitos 1, dor na fossa ilíaca direita 2, descompressão dolorosa 1, febre 1, leucocitose 2 e desvio à esquerda 1 (total 10)."
+        ],
+        "itens": [
+          "0 a 3: baixa probabilidade; observar e considerar outras causas.",
+          "4 a 6: intermediária; pedir exame de imagem.",
+          "7 ou mais: alta probabilidade; avaliação cirúrgica (a imagem ainda ajuda em mulheres e idosos).",
+          "Ultrassonografia primeiro em crianças, gestantes e pessoas magras: apêndice não compressível acima de 6 mm.",
+          "Tomografia com contraste é o exame mais acurado no adulto com dúvida. Na gestante com ultrassom inconclusivo, ressonância sem contraste."
+        ]
+      },
+      {
+        "titulo": "Tratamento",
+        "paragrafos": [],
+        "itens": [
+          "Apendicectomia, de preferência laparoscópica, com hidratação, analgesia (que não mascara o diagnóstico) e jejum.",
+          "Apendicite não complicada: antibiótico profilático em dose única antes da incisão (por exemplo, cefazolina + metronidazol), sem manter no pós-operatório.",
+          "Apendicite complicada (perfurada, gangrenosa, com peritonite): antibiótico terapêutico que cubra gram-negativos e anaeróbios (como ceftriaxona + metronidazol), por cerca de 4 dias após controle do foco.",
+          "Antibiótico isolado sem cirurgia é opção em casos selecionados de apendicite não complicada sem fecalito, com taxa de recidiva relevante."
+        ]
+      },
+      {
+        "titulo": "Plastrão e abscesso",
+        "paragrafos": [],
+        "itens": [
+          "Quadro arrastado (mais de 5 dias) com massa palpável na fossa ilíaca direita: plastrão ou abscesso apendicular.",
+          "Abscesso: antibiótico e drenagem percutânea guiada por imagem; cirurgia imediata aumenta complicações.",
+          "Depois, apendicectomia de intervalo é opcional; acima de 40 anos, colonoscopia para afastar neoplasia de ceco."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Analgesia não atrapalha o diagnóstico e deve ser feita.",
+      "Alguns piócitos na urina não afastam apendicite.",
+      "Não complicada: antibiótico só profilático, dose única.",
+      "Massa com mais de 5 dias de evolução: imagem e drenagem, não cirurgia imediata.",
+      "Dor que piora com a tosse e descompressão dolorosa indicam irritação peritoneal."
+    ]
+  },
+  "es": {
+    "titulo": "Apendicitis aguda: signos, puntaje de Alvarado, imagen y antibiótico",
+    "resumo": "Causa más común de abdomen agudo quirúrgico. La prueba cobra la secuencia clásica de síntomas, los signos con epónimo, cuándo pedir imagen, la elección entre ecografía y tomografía y el antibiótico de cada forma.",
+    "secoes": [
+      {
+        "titulo": "Cuadro clínico",
+        "paragrafos": [
+          "La obstrucción de la luz del apéndice (fecalito, hiperplasia linfoide) lleva a distensión, isquemia y perforación. Pico entre 10 y 30 años."
+        ],
+        "itens": [
+          "Secuencia típica: dolor periumbilical o epigástrico mal definido que migra a la fosa ilíaca derecha en horas, seguido de anorexia, náuseas y fiebre baja.",
+          "Signo de Blumberg: dolor a la descompresión brusca en el punto de McBurney (entre el tercio lateral y el medio de la línea de la espina ilíaca anterosuperior al ombligo).",
+          "Rovsing: dolor en fosa ilíaca derecha al comprimir la izquierda. Psoas: dolor a la extensión del muslo derecho (apéndice retrocecal). Obturador: dolor a la rotación interna del muslo flexionado (apéndice pélvico). Lenander: diferencia entre temperatura rectal y axilar mayor de 1 °C.",
+          "La leucocitosis con desviación es común; el examen de orina puede tener algunos piocitos sin infección urinaria, por la cercanía con el uréter.",
+          "Presentación atípica: niños pequeños, adultos mayores y gestantes (dolor más alto en el tercer trimestre) se perforan más."
+        ]
+      },
+      {
+        "titulo": "Puntaje de Alvarado e imagen",
+        "paragrafos": [
+          "El puntaje organiza la decisión: migración del dolor 1, anorexia 1, náuseas o vómitos 1, dolor en fosa ilíaca derecha 2, dolor a la descompresión 1, fiebre 1, leucocitosis 2 y desviación a la izquierda 1 (total 10)."
+        ],
+        "itens": [
+          "0 a 3: baja probabilidad; observar y considerar otras causas.",
+          "4 a 6: intermedia; pedir examen de imagen.",
+          "7 o más: alta probabilidad; evaluación quirúrgica (la imagen aún ayuda en mujeres y adultos mayores).",
+          "Ecografía primero en niños, gestantes y personas delgadas: apéndice no compresible mayor de 6 mm.",
+          "La tomografía con contraste es el examen más preciso en el adulto con duda. En la gestante con ecografía no concluyente, resonancia sin contraste."
+        ]
+      },
+      {
+        "titulo": "Tratamiento",
+        "paragrafos": [],
+        "itens": [
+          "Apendicectomía, de preferencia laparoscópica, con hidratación, analgesia (que no enmascara el diagnóstico) y ayuno.",
+          "Apendicitis no complicada: antibiótico profiláctico en dosis única antes de la incisión (por ejemplo, cefazolina + metronidazol), sin mantenerlo en el posoperatorio.",
+          "Apendicitis complicada (perforada, gangrenosa, con peritonitis): antibiótico terapéutico que cubra gramnegativos y anaerobios (como ceftriaxona + metronidazol), por unos 4 días tras el control del foco.",
+          "El antibiótico solo, sin cirugía, es opción en casos seleccionados de apendicitis no complicada sin fecalito, con tasa de recidiva relevante."
+        ]
+      },
+      {
+        "titulo": "Plastrón y absceso",
+        "paragrafos": [],
+        "itens": [
+          "Cuadro prolongado (más de 5 días) con masa palpable en la fosa ilíaca derecha: plastrón o absceso apendicular.",
+          "Absceso: antibiótico y drenaje percutáneo guiado por imagen; la cirugía inmediata aumenta las complicaciones.",
+          "Después, la apendicectomía de intervalo es opcional; por encima de 40 años, colonoscopia para descartar neoplasia de ciego."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "La analgesia no dificulta el diagnóstico y debe hacerse.",
+      "Algunos piocitos en la orina no descartan apendicitis.",
+      "No complicada: antibiótico solo profiláctico, dosis única.",
+      "Masa con más de 5 días de evolución: imagen y drenaje, no cirugía inmediata.",
+      "Dolor que empeora con la tos y dolor a la descompresión indican irritación peritoneal."
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+/* Telas do servidor (entrar, checkout, minha conta, admin). Usa os tokens e componentes de /site.css. */
+body { background: var(--papel); color: var(--tinta); font-family: var(--f-ui); margin: 0; }
+.rx-topo { border-bottom: 1px solid var(--linha); background: var(--folha); }
+.rx-topo .envoltorio { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 60px; }
+.rx-topo nav { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.rx-topo nav a, .rx-topo nav button { color: var(--tinta-2); text-decoration: none; padding: 8px 10px; border-radius: 8px; background: none; border: 0; font: inherit; cursor: pointer; }
+.rx-topo nav a:hover, .rx-topo nav button:hover { color: var(--tinta); background: var(--folha-2); }
+.rx-pagina { padding: 32px 0 64px; }
+.rx-cartao { background: var(--folha); border: 1px solid var(--linha); border-radius: var(--raio); padding: 22px; }
+.rx-grade-checkout { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 24px; align-items: start; }
+@media (max-width: 860px) { .rx-grade-checkout { grid-template-columns: 1fr; } }
+.rx-resumo h1 { font-family: var(--f-display); font-size: 1.6rem; margin: 6px 0 4px; }
+.rx-preco { font-family: var(--f-dado); font-size: 2rem; font-weight: 600; margin: 12px 0 2px; }
+.rx-resumo ul { padding-left: 18px; color: var(--tinta-2); line-height: 1.6; }
+.rx-selos { display: grid; gap: 8px; margin-top: 18px; color: var(--tinta-2); font-size: .9rem; }
+.rx-selos span::before { content: '✓ '; color: var(--certo); font-weight: 700; }
+.rx-passo { margin-bottom: 18px; }
+.rx-passo h2 { font-size: 1.05rem; margin: 0 0 12px; display: flex; gap: 10px; align-items: center; }
+.rx-num { width: 26px; height: 26px; border-radius: 50%; background: var(--acento); color: #fff; display: inline-grid; place-items: center; font-size: .85rem; font-weight: 700; }
+.rx-campo { display: grid; gap: 6px; margin-bottom: 12px; }
+.rx-campo span { font-size: .85rem; color: var(--tinta-2); }
+.rx-campo input, .rx-campo select { background: var(--folha-2); color: var(--tinta); border: 1px solid var(--linha); border-radius: 10px; padding: 11px 12px; font: inherit; width: 100%; box-sizing: border-box; }
+.rx-campo input:focus, .rx-campo select:focus { outline: 2px solid var(--acento); outline-offset: 1px; }
+.rx-abas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 16px; }
+.rx-abas.duas { grid-template-columns: repeat(2, 1fr); }
+.rx-aba { background: var(--folha-2); border: 1px solid var(--linha); color: var(--tinta); border-radius: 12px; padding: 12px 8px; font: inherit; font-weight: 600; cursor: pointer; display: grid; gap: 2px; text-align: center; }
+.rx-aba small { font-weight: 400; color: var(--tinta-3); font-size: .78rem; }
+.rx-aba[aria-pressed="true"] { border-color: var(--acento); background: var(--acento-suave); box-shadow: 0 0 0 1px var(--acento) inset; }
+.rx-erro { background: #321417; border: 1px solid #f87171; color: #fecaca; padding: 10px 12px; border-radius: 10px; margin: 10px 0; }
+.rx-ok { background: #0c2a22; border: 1px solid var(--certo); padding: 18px; border-radius: 12px; }
+.rx-pix { display: grid; gap: 12px; justify-items: center; text-align: center; }
+.rx-pix img { width: 220px; height: 220px; background: #fff; border-radius: 12px; padding: 8px; }
+.rx-copia { display: flex; gap: 8px; width: 100%; }
+.rx-copia input { flex: 1; min-width: 0; font-family: var(--f-dado); font-size: .8rem; }
+.rx-mudo { color: var(--tinta-3); font-size: .88rem; }
+.rx-oculto { display: none !important; }
+.rx-botao-largo { width: 100%; justify-content: center; }
+/* Admin */
+.rx-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin-bottom: 18px; }
+.rx-kpi { background: var(--folha); border: 1px solid var(--linha); border-radius: 12px; padding: 14px; }
+.rx-kpi span { color: var(--tinta-3); font-size: .8rem; display: block; }
+.rx-kpi strong { font-family: var(--f-dado); font-size: 1.35rem; display: block; margin-top: 4px; }
+.rx-kpi small { color: var(--tinta-2); }
+.rx-tabela { width: 100%; border-collapse: collapse; font-size: .9rem; }
+.rx-tabela th, .rx-tabela td { text-align: left; padding: 9px 8px; border-bottom: 1px solid var(--linha); vertical-align: top; }
+.rx-tabela th { color: var(--tinta-3); font-weight: 600; font-size: .8rem; }
+.rx-tabela tr.clicavel { cursor: pointer; }
+.rx-tabela tr.clicavel:hover td { background: var(--folha-2); }
+.rx-rolagem { overflow-x: auto; }
+.rx-filtros { display: flex; gap: 10px; flex-wrap: wrap; align-items: end; margin-bottom: 14px; }
+.rx-filtros .rx-campo { margin: 0; min-width: 180px; }
+.rx-etq { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: .78rem; font-weight: 600; border: 1px solid var(--linha); }
+.rx-etq.ativo, .rx-etq.aprovado { color: var(--certo); border-color: var(--certo); }
+.rx-etq.vencendo, .rx-etq.pendente { color: var(--aviso); border-color: var(--aviso); }
+.rx-etq.expirado, .rx-etq.recusado, .rx-etq.reembolsado, .rx-etq.cancelado, .rx-etq.contestado { color: #f87171; border-color: #f87171; }
+.rx-grafico { display: flex; align-items: end; gap: 3px; height: 140px; padding-top: 8px; }
+.rx-grafico i { flex: 1; background: var(--acento); border-radius: 3px 3px 0 0; min-height: 2px; position: relative; }
+.rx-grafico i:hover { background: var(--realce); }
+.rx-duas { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin-top: 16px; }
+.rx-gaveta { position: fixed; inset: 0 0 0 auto; width: min(560px, 100%); background: var(--folha); border-left: 1px solid var(--linha); padding: 22px; overflow-y: auto; z-index: 20; box-shadow: -20px 0 40px #0008; }
+.rx-gaveta h2 { margin-top: 0; }
+.rx-linha { display: flex; gap: 8px; flex-wrap: wrap; align-items: end; }
+button.botao { font: inherit; font-weight: 600; }
+.rx-gaveta h3 { margin: 22px 0 10px; }
+.rx-cupom { margin: 0 0 14px; }
+.rx-cupom summary { cursor: pointer; color: var(--realce); font-size: .92rem; }
+.rx-duas { grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); }
+.rx-duas .rx-cartao, .rx-gaveta table { overflow-x: auto; display: block; }
+.rx-gaveta .rx-tabela { display: table; min-width: 100%; }
+@media (max-width: 600px) { .rx-kpi strong { font-size: 1.1rem; } }

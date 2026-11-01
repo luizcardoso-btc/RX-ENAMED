@@ -1,0 +1,73 @@
+{
+  "id": "ped-02-puericultura",
+  "area": "Pediatria",
+  "especialidade": "Puericultura",
+  "titulo": "Consulta dos 6 meses",
+  "tema": "Puericultura: crescimento, desenvolvimento, alimentação complementar e vacinas",
+  "mentor": "tomas",
+  "duracaoMin": 10,
+  "cenario": "Consultório de Unidade de Saúde da Família. Consulta de puericultura agendada. A caderneta da criança está disponível.",
+  "tarefas": [
+    "Realize a anamnese de puericultura.",
+    "Avalie crescimento e desenvolvimento com os dados fornecidos.",
+    "Oriente a introdução da alimentação complementar.",
+    "Verifique a situação vacinal e as suplementações indicadas."
+  ],
+  "paciente": {
+    "nome": "Camila Rocha, mãe de Pedro (6 meses)",
+    "idade": 24,
+    "sexo": "feminino",
+    "ocupacao": "estudante de técnico de enfermagem",
+    "perfil": "Animada e cheia de dúvidas. Ouviu da sogra que já devia dar leite de vaca, água com açúcar e mel para fortalecer.",
+    "abertura": "Oi, doutor! O Pedro fez seis meses e eu quero saber o que posso começar a dar de comida.",
+    "roteiro": [
+      {"topico": "Alimentação atual", "resposta": "Só peito, desde que nasceu. Mama umas oito vezes por dia, inclusive de noite."},
+      {"topico": "Água, chás e outros leites", "resposta": "Não dei nada além do peito. Minha sogra quer que eu dê leite de vaca e água com açúcar."},
+      {"topico": "Gestação e parto", "resposta": "Pré-natal certinho, parto normal com 39 semanas. Nasceu com 3.250 gramas."},
+      {"topico": "Intercorrências", "resposta": "Nunca ficou doente, só uma gripe leve mês passado."},
+      {"topico": "Desenvolvimento", "resposta": "Ele rola, senta com apoio da almofada, pega os brinquedos e leva à boca. Dá risada alta e faz barulhinhos tipo 'gu-gu'. Vira quando eu chamo."},
+      {"topico": "Sono", "resposta": "Dorme de barriga para cima, no berço do lado da minha cama."},
+      {"topico": "Evacuações e diurese", "resposta": "Fralda molhada várias vezes. Faz cocô quase todo dia, mole, amarelo."},
+      {"topico": "Vacinas", "resposta": "Tomou todas até a de 5 meses. A de hoje ainda não."},
+      {"topico": "Suplementos", "resposta": "Não toma vitamina nem ferro."},
+      {"topico": "Família e rede de apoio", "resposta": "Moro com meu marido e minha sogra. Ela ajuda quando eu vou para a aula."}
+    ],
+    "perguntasDoPaciente": ["Posso dar mel? Minha sogra disse que fortalece.", "Preciso parar de dar o peito?"],
+    "seNaoSouber": "Diga que não sabe ou que vai olhar na caderneta."
+  },
+  "exameFisico": [
+    {"item": "Antropometria", "achado": "Peso 7,9 kg, comprimento 67 cm, perímetro cefálico 43 cm. Na caderneta, peso e comprimento entre os escores-z 0 e +1, trajetória ascendente e paralela às curvas."},
+    {"item": "Exame geral", "achado": "Ativo, corado, hidratado, sem alterações ao exame segmentar. Fontanela anterior normotensa."},
+    {"item": "Desenvolvimento observado", "achado": "Senta com apoio, rola, transfere objetos de uma mão para a outra, vocaliza e localiza a voz da mãe."}
+  ],
+  "exames": [
+    {"item": "Caderneta de vacinação", "resultado": "BCG e hepatite B ao nascer; pentavalente, VIP, pneumocócica 10, rotavírus e meningocócica C em dia até os 5 meses. Pendentes para hoje: 3ª dose da pentavalente, 3ª dose da VIP e influenza."}
+  ],
+  "diagnostico": "Lactente de 6 meses com crescimento e desenvolvimento adequados, em aleitamento materno exclusivo, apto a iniciar alimentação complementar.",
+  "condutaEsperada": [
+    "Elogiar o aleitamento materno exclusivo e orientar mantê-lo até 2 anos ou mais, junto com a alimentação complementar.",
+    "Iniciar alimentação complementar com comida de verdade amassada (não liquidificada): cereais ou tubérculos, feijões, legumes, verduras, carnes ou ovo e frutas; oferecer água nos intervalos.",
+    "Não oferecer açúcar, mel (risco de botulismo antes de 1 ano), ultraprocessados nem leite de vaca integral como substituto antes de 1 ano.",
+    "Suplementação de ferro profilática a partir dos 6 meses até os 24 meses, conforme o programa nacional; vitamina A conforme a região.",
+    "Aplicar as vacinas pendentes (pentavalente, VIP e influenza), conferindo o calendário vigente do PNI.",
+    "Registrar na caderneta, orientar segurança (prevenção de engasgos e quedas) e agendar próxima consulta."
+  ],
+  "pep": [
+    {"id": "apresentacao", "item": "Apresenta-se e acolhe a mãe e a criança.", "peso": 0.5},
+    {"id": "alimentacao", "item": "Investiga a alimentação atual (aleitamento materno exclusivo, água, outros leites).", "peso": 1},
+    {"id": "antecedentes", "item": "Pergunta gestação, parto, peso ao nascer e intercorrências.", "peso": 0.5},
+    {"id": "desenvolvimento", "item": "Avalia marcos do desenvolvimento esperados para 6 meses.", "peso": 1.5},
+    {"id": "crescimento", "item": "Interpreta peso, comprimento e perímetro cefálico nas curvas da caderneta.", "peso": 1},
+    {"id": "complementar", "item": "Orienta a introdução da alimentação complementar com consistência e grupos alimentares adequados, mantendo o aleitamento.", "peso": 1.5},
+    {"id": "evitar", "item": "Orienta evitar mel, açúcar, ultraprocessados e leite de vaca antes de 1 ano, respondendo à dúvida da mãe.", "peso": 1},
+    {"id": "ferro", "item": "Prescreve suplementação de ferro (e vitamina A quando indicada).", "peso": 1},
+    {"id": "vacinas", "item": "Identifica e indica as vacinas dos 6 meses.", "peso": 1.5},
+    {"id": "retorno", "item": "Orienta sono seguro ou prevenção de acidentes e agenda retorno.", "peso": 0.5}
+  ],
+  "referencias": [
+    "Guia Alimentar para Crianças Brasileiras Menores de 2 Anos, Ministério da Saúde",
+    "Caderneta da Criança, Ministério da Saúde",
+    "Programa Nacional de Suplementação de Ferro",
+    "Calendário Nacional de Vacinação (PNI), versão vigente"
+  ]
+}

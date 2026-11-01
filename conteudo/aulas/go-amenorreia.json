@@ -1,0 +1,157 @@
+{
+  "id": "go-amenorreia",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Ginecologia endócrina",
+  "mentor": "marina",
+  "duracaoMin": 15,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2024-2_q074",
+    "revalida_2023-1_q084",
+    "revalida_2024-1_q064",
+    "revalida_2023-1_q004",
+    "revalida_2023-1_q023"
+  ],
+  "referencias": [
+    "FEBRASGO. Amenorreia: diagnóstico e tratamento. Protocolo FEBRASGO de Ginecologia, 2021.",
+    "Practice Committee of the American Society for Reproductive Medicine. Current evaluation of amenorrhea. Fertil Steril, 2008.",
+    "ESHRE. Guideline on management of women with premature ovarian insufficiency, 2016 (atualização 2024).",
+    "Melmed S et al. Diagnosis and treatment of hyperprolactinemia: Endocrine Society clinical practice guideline, 2011."
+  ],
+  "pt": {
+    "titulo": "Amenorreia: primária × secundária, eixo hormonal e as síndromes que caem",
+    "resumo": "Tema entre os mais cobrados de ginecologia. A banca descreve uma paciente e pede a causa ou o próximo exame. Primeiro exclua gravidez; depois pergunte se há caracteres sexuais secundários e se o útero existe.",
+    "secoes": [
+      {
+        "titulo": "Definições",
+        "paragrafos": [
+          "Amenorreia é sintoma, não diagnóstico. Antes de qualquer investigação, afaste gravidez com beta-hCG."
+        ],
+        "itens": [
+          "Primária: nunca menstruou aos 15 anos com caracteres sexuais secundários, ou aos 13 sem eles (critério atual; livros mais antigos usam 16 e 14 anos). Também investigar se passaram 3 anos da telarca sem menarca.",
+          "Secundária: ausência de menstruação por 3 ciclos em quem tinha ciclos regulares, ou por 6 meses em quem tinha ciclos irregulares.",
+          "Sequência puberal normal: telarca → pubarca → estirão de crescimento → menarca."
+        ]
+      },
+      {
+        "titulo": "Leitura do eixo pelo FSH e LH",
+        "paragrafos": [],
+        "itens": [
+          "Hipogonadismo hipogonadotrófico (FSH e LH baixos ou normais, estradiol baixo): causa no hipotálamo ou na hipófise. Exemplos: amenorreia hipotalâmica funcional (estresse, perda de peso, exercício intenso), deficiência isolada de GnRH (Kallmann, com anosmia), tumores e síndrome de Sheehan.",
+          "Hipogonadismo hipergonadotrófico (FSH e LH altos, estradiol baixo): o ovário falhou. Exemplos: síndrome de Turner, disgenesias gonadais e insuficiência ovariana prematura.",
+          "Eugonadotrófico (FSH e LH normais): SOP, hiperprolactinemia leve, causas uterinas e anomalias müllerianas."
+        ]
+      },
+      {
+        "titulo": "Amenorreia primária",
+        "paragrafos": [
+          "A primeira pergunta é se há caracteres sexuais secundários (mamas). Com mamas, o ovário produziu estrogênio; investigue útero e vagina."
+        ],
+        "itens": [
+          "Agenesia mülleriana (Mayer-Rokitansky-Küster-Hauser): 46,XX, mamas e pelos normais, ovários normais, ausência de útero e dos dois terços superiores da vagina. É a principal causa de amenorreia primária com caracteres sexuais presentes.",
+          "Insensibilidade androgênica completa (síndrome de Morris): 46,XY com testículos, mamas presentes (aromatização da testosterona), mas pelos pubianos e axilares escassos ou ausentes e sem útero. Testosterona em nível masculino. Gonadectomia após a puberdade pelo risco de tumor.",
+          "Hímen imperfurado e septo vaginal transverso: amenorreia primária com dor pélvica cíclica (criptomenorreia), hematocolpo e abaulamento da membrana. Tratamento cirúrgico (himenotomia).",
+          "Sem caracteres sexuais e FSH alto: disgenesia gonadal. Síndrome de Turner (45,X ou mosaico): baixa estatura, pescoço alado, tórax em escudo, implantação baixa das orelhas, coarctação da aorta. Disgenesia gonadal pura 46,XX: estatura normal, gônadas em fita. Síndrome de Swyer (46,XY): genitália feminina, útero presente (sem hormônio antimülleriano) e gônadas em fita com risco de gonadoblastoma, que devem ser retiradas.",
+          "Sem caracteres sexuais e FSH baixo: causa central, como deficiência isolada de GnRH ou atraso constitucional. Tratamento com reposição hormonal (e indução de ovulação quando houver desejo reprodutivo)."
+        ]
+      },
+      {
+        "titulo": "Amenorreia secundária",
+        "paragrafos": [
+          "Depois do beta-hCG, a investigação inicial pede TSH, prolactina e FSH, com avaliação de sinais de hiperandrogenismo."
+        ],
+        "itens": [
+          "SOP: principal causa de anovulação crônica e de amenorreia secundária. Rotterdam exige 2 de 3: oligo ou anovulação, hiperandrogenismo clínico ou laboratorial e ovários policísticos na ultrassonografia, excluídas outras causas (TSH, prolactina, 17-OH-progesterona).",
+          "Insuficiência ovariana prematura: falência ovariana antes dos 40 anos. Diagnóstico: oligo ou amenorreia por pelo menos 4 meses e FSH acima de 25 UI/L em duas dosagens com intervalo de 4 semanas, com estradiol baixo. Associa-se a autoimunidade (tireoidite, Addison, diabetes tipo 1, vitiligo), a X frágil e a quimio ou radioterapia. Tratamento: terapia hormonal até a idade da menopausa natural.",
+          "Hiperprolactinemia: galactorreia, amenorreia e infertilidade. Excluir gravidez, hipotireoidismo, insuficiência renal e medicamentos (antipsicóticos, metoclopramida, domperidona, antidepressivos). Prolactina acima de 100–200 ng/mL sugere prolactinoma; pedir ressonância de sela. Tratamento do prolactinoma: cabergolina.",
+          "Síndrome de Asherman: sinéquias intrauterinas após curetagem ou infecção. Eixo hormonal normal, mas o endométrio não responde. Diagnóstico e tratamento por histeroscopia.",
+          "Amenorreia hipotalâmica funcional: estresse, baixo peso, transtorno alimentar ou exercício intenso; FSH e LH baixos. Tratar a causa."
+        ]
+      },
+      {
+        "titulo": "Teste da progesterona (uso clássico)",
+        "paragrafos": [],
+        "itens": [
+          "Progesterona por 5 a 10 dias: se sangrar, há estrogênio e trato de saída pérvio (anovulação, como na SOP).",
+          "Se não sangrar, estrogênio com progesterona: sangrar indica ovário ou eixo central sem estrogênio; não sangrar aponta causa uterina ou do trato de saída (Asherman).",
+          "Hoje a dosagem hormonal direta substitui em grande parte esses testes, mas eles ainda aparecem em questões."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Gravidez é a principal causa de amenorreia secundária: sempre beta-hCG primeiro.",
+      "Mamas presentes com pelos ausentes e sem útero: Morris. Mamas e pelos presentes sem útero: Rokitansky.",
+      "Swyer tem útero; Morris não.",
+      "Insuficiência ovariana: FSH alto com estradiol e inibina baixos.",
+      "Anticoncepcional não causa amenorreia prolongada após a suspensão; pense em SOP ou outra causa."
+    ]
+  },
+  "es": {
+    "titulo": "Amenorrea: primaria × secundaria, eje hormonal y los síndromes que aparecen en la prueba",
+    "resumo": "Uno de los temas más cobrados de ginecología. La prueba describe una paciente y pide la causa o el próximo examen. Primero descarte embarazo; luego pregunte si hay caracteres sexuales secundarios y si existe el útero.",
+    "secoes": [
+      {
+        "titulo": "Definiciones",
+        "paragrafos": [
+          "La amenorrea es un síntoma, no un diagnóstico. Antes de cualquier investigación, descarte embarazo con beta-hCG."
+        ],
+        "itens": [
+          "Primaria: nunca menstruó a los 15 años con caracteres sexuales secundarios, o a los 13 sin ellos (criterio actual; textos más antiguos usan 16 y 14 años). También investigar si pasaron 3 años desde la telarquia sin menarquia.",
+          "Secundaria: ausencia de menstruación por 3 ciclos en quien tenía ciclos regulares, o por 6 meses en quien tenía ciclos irregulares.",
+          "Secuencia puberal normal: telarquia → pubarquia → estirón de crecimiento → menarquia."
+        ]
+      },
+      {
+        "titulo": "Lectura del eje por FSH y LH",
+        "paragrafos": [],
+        "itens": [
+          "Hipogonadismo hipogonadotrófico (FSH y LH bajas o normales, estradiol bajo): causa en hipotálamo o hipófisis. Ejemplos: amenorrea hipotalámica funcional (estrés, pérdida de peso, ejercicio intenso), déficit aislado de GnRH (Kallmann, con anosmia), tumores y síndrome de Sheehan.",
+          "Hipogonadismo hipergonadotrófico (FSH y LH altas, estradiol bajo): falló el ovario. Ejemplos: síndrome de Turner, disgenesias gonadales e insuficiencia ovárica prematura.",
+          "Eugonadotrófico (FSH y LH normales): SOP, hiperprolactinemia leve, causas uterinas y anomalías müllerianas."
+        ]
+      },
+      {
+        "titulo": "Amenorrea primaria",
+        "paragrafos": [
+          "La primera pregunta es si hay caracteres sexuales secundarios (mamas). Con mamas, el ovario produjo estrógeno; investigue útero y vagina."
+        ],
+        "itens": [
+          "Agenesia mülleriana (Mayer-Rokitansky-Küster-Hauser): 46,XX, mamas y vello normales, ovarios normales, ausencia de útero y de los dos tercios superiores de la vagina. Es la principal causa de amenorrea primaria con caracteres sexuales presentes.",
+          "Insensibilidad androgénica completa (síndrome de Morris): 46,XY con testículos, mamas presentes (aromatización de la testosterona), pero vello púbico y axilar escaso o ausente y sin útero. Testosterona en nivel masculino. Gonadectomía después de la pubertad por riesgo de tumor.",
+          "Himen imperforado y tabique vaginal transverso: amenorrea primaria con dolor pélvico cíclico (criptomenorrea), hematocolpos y abombamiento de la membrana. Tratamiento quirúrgico (himenotomía).",
+          "Sin caracteres sexuales y FSH alta: disgenesia gonadal. Síndrome de Turner (45,X o mosaico): talla baja, cuello alado, tórax en escudo, implantación baja de orejas, coartación de aorta. Disgenesia gonadal pura 46,XX: talla normal, gónadas en cintilla. Síndrome de Swyer (46,XY): genitales femeninos, útero presente (sin hormona antimülleriana) y gónadas en cintilla con riesgo de gonadoblastoma, que deben extirparse.",
+          "Sin caracteres sexuales y FSH baja: causa central, como déficit aislado de GnRH o retraso constitucional. Tratamiento con reemplazo hormonal (e inducción de ovulación si hay deseo reproductivo)."
+        ]
+      },
+      {
+        "titulo": "Amenorrea secundaria",
+        "paragrafos": [
+          "Después de la beta-hCG, la investigación inicial pide TSH, prolactina y FSH, con evaluación de signos de hiperandrogenismo."
+        ],
+        "itens": [
+          "SOP: principal causa de anovulación crónica y de amenorrea secundaria. Rotterdam exige 2 de 3: oligo o anovulación, hiperandrogenismo clínico o de laboratorio y ovarios poliquísticos en la ecografía, excluidas otras causas (TSH, prolactina, 17-OH-progesterona).",
+          "Insuficiencia ovárica prematura: falla ovárica antes de los 40 años. Diagnóstico: oligo o amenorrea por al menos 4 meses y FSH mayor de 25 UI/L en dos dosajes con 4 semanas de intervalo, con estradiol bajo. Se asocia a autoinmunidad (tiroiditis, Addison, diabetes tipo 1, vitíligo), X frágil y quimio o radioterapia. Tratamiento: terapia hormonal hasta la edad de la menopausia natural.",
+          "Hiperprolactinemia: galactorrea, amenorrea e infertilidad. Descartar embarazo, hipotiroidismo, insuficiencia renal y medicamentos (antipsicóticos, metoclopramida, domperidona, antidepresivos). Prolactina por encima de 100–200 ng/mL sugiere prolactinoma; pedir resonancia de silla turca. Tratamiento del prolactinoma: cabergolina.",
+          "Síndrome de Asherman: sinequias intrauterinas tras legrado o infección. Eje hormonal normal, pero el endometrio no responde. Diagnóstico y tratamiento por histeroscopia.",
+          "Amenorrea hipotalámica funcional: estrés, bajo peso, trastorno alimentario o ejercicio intenso; FSH y LH bajas. Tratar la causa."
+        ]
+      },
+      {
+        "titulo": "Prueba de progesterona (uso clásico)",
+        "paragrafos": [],
+        "itens": [
+          "Progesterona por 5 a 10 días: si sangra, hay estrógeno y tracto de salida permeable (anovulación, como en el SOP).",
+          "Si no sangra, estrógeno con progesterona: sangrar indica ovario o eje central sin estrógeno; no sangrar apunta a causa uterina o del tracto de salida (Asherman).",
+          "Hoy el dosaje hormonal directo sustituye en gran parte estas pruebas, pero todavía aparecen en preguntas."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "El embarazo es la principal causa de amenorrea secundaria: siempre beta-hCG primero.",
+      "Mamas presentes con vello ausente y sin útero: Morris. Mamas y vello presentes sin útero: Rokitansky.",
+      "Swyer tiene útero; Morris no.",
+      "Insuficiencia ovárica: FSH alta con estradiol e inhibina bajos.",
+      "El anticonceptivo no causa amenorrea prolongada después de suspenderlo; piense en SOP u otra causa."
+    ]
+  }
+}

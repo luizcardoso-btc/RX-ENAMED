@@ -1,0 +1,81 @@
+{
+  "id": "cm-01-dor-toracica",
+  "area": "Clínica Médica",
+  "especialidade": "Cardiologia",
+  "titulo": "Dor torácica na UPA",
+  "tema": "IAM com supradesnivelamento de ST",
+  "mentor": "caio",
+  "duracaoMin": 10,
+  "cenario": "Unidade de Pronto Atendimento (UPA 24h) de cidade de médio porte. Há eletrocardiógrafo, monitor, oxigênio e medicamentos da sala vermelha. O hospital com hemodinâmica fica a 40 minutos.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta inicial e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "José Carlos Almeida",
+    "idade": 58,
+    "sexo": "masculino",
+    "ocupacao": "motorista de ônibus",
+    "perfil": "Ansioso, com a mão no peito, suando. Responde de forma curta porque está com dor. Quer saber se vai morrer e se pode avisar a esposa.",
+    "abertura": "Doutor, tô com uma dor muito forte no peito, parece que tem um peso aqui em cima.",
+    "roteiro": [
+      {"topico": "Início", "resposta": "Começou faz uma hora, mais ou menos, quando eu tava estacionando o ônibus na garagem."},
+      {"topico": "Tipo da dor", "resposta": "É um aperto, um peso no meio do peito."},
+      {"topico": "Irradiação", "resposta": "Vai para o braço esquerdo e um pouco para o queixo."},
+      {"topico": "Intensidade", "resposta": "De zero a dez, uns nove."},
+      {"topico": "Fatores de melhora ou piora", "resposta": "Não melhora com nada. Fiquei parado e não passou."},
+      {"topico": "Sintomas associados", "resposta": "Tô suando frio e meio enjoado. Um pouco de falta de ar."},
+      {"topico": "Episódios anteriores", "resposta": "Nos últimos dias sentia um aperto quando subia escada, mas passava sentando."},
+      {"topico": "Doenças", "resposta": "Tenho pressão alta faz uns 10 anos. Colesterol alto também, o médico falou."},
+      {"topico": "Medicamentos", "resposta": "Losartana de manhã. Às vezes esqueço."},
+      {"topico": "Uso de sildenafila ou similares", "resposta": "Não, nunca usei isso."},
+      {"topico": "Sangramentos, cirurgias ou AVC recentes", "resposta": "Não tive nada disso."},
+      {"topico": "Alergias", "resposta": "Não tenho alergia a remédio."},
+      {"topico": "Tabagismo", "resposta": "Fumo um maço por dia desde os 18 anos."},
+      {"topico": "Álcool e drogas", "resposta": "Cerveja no fim de semana. Droga nunca."},
+      {"topico": "História familiar", "resposta": "Meu pai morreu do coração com 60 anos."}
+    ],
+    "perguntasDoPaciente": ["É infarto, doutor? Eu vou morrer?", "Posso ligar para a minha esposa?"],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {"item": "Sinais vitais", "achado": "PA 150 x 90 mmHg (iguais nos dois braços), FC 98 bpm, FR 20 irpm, SatO2 95% em ar ambiente, temperatura 36,4 °C, glicemia capilar 118 mg/dL."},
+    {"item": "Estado geral", "achado": "Regular estado geral, sudoreico, ansioso, corado, hidratado."},
+    {"item": "Aparelho cardiovascular", "achado": "Ritmo regular em 2 tempos, bulhas normofonéticas, sem sopros. Pulsos periféricos presentes e simétricos."},
+    {"item": "Aparelho respiratório", "achado": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."},
+    {"item": "Abdome", "achado": "Flácido, indolor, sem visceromegalias."},
+    {"item": "Extremidades", "achado": "Sem edema, perfusão periférica preservada."}
+  ],
+  "exames": [
+    {"item": "Eletrocardiograma de 12 derivações", "resultado": "Ritmo sinusal, FC 98 bpm. Supradesnivelamento do segmento ST de 3 mm em V1 a V4 e de 1 mm em DI e aVL, com infradesnivelamento recíproco em DII, DIII e aVF."},
+    {"item": "Troponina", "resultado": "Coletada; resultado previsto para daqui a 1 hora. Não deve atrasar a conduta."},
+    {"item": "Radiografia de tórax", "resultado": "Área cardíaca normal, sem congestão, mediastino sem alargamento."}
+  ],
+  "diagnostico": "Síndrome coronariana aguda com supradesnivelamento do segmento ST (IAM com supra de ST) de parede anterior extensa.",
+  "condutaEsperada": [
+    "Monitorização, acesso venoso, eletrocardiograma em até 10 minutos da chegada.",
+    "AAS 150 a 300 mg mastigado e clopidogrel em dose de ataque (300 mg; 75 mg se acima de 75 anos e for receber fibrinolítico).",
+    "Oxigênio apenas se SatO2 menor que 90%. Nitrato sublingual se não houver contraindicação; morfina só para dor refratária.",
+    "Reperfusão: angioplastia primária se o tempo até a hemodinâmica for menor que 120 minutos; se não for possível, fibrinólise em até 30 minutos (tenecteplase) e transferência.",
+    "Anticoagulação (enoxaparina ou heparina não fracionada) conforme estratégia.",
+    "Explicar ao paciente o diagnóstico e a urgência, e acionar a família."
+  ],
+  "pep": [
+    {"id": "apresentacao", "item": "Apresenta-se, identifica o paciente e explica o que vai fazer.", "peso": 0.5},
+    {"id": "caracteriza-dor", "item": "Caracteriza a dor: início, tipo, irradiação, intensidade e fatores de melhora/piora (pelo menos 4 desses).", "peso": 1.5},
+    {"id": "associados", "item": "Pergunta sintomas associados (sudorese, náuseas, dispneia).", "peso": 0.5},
+    {"id": "fatores-risco", "item": "Investiga fatores de risco cardiovascular (hipertensão, dislipidemia, tabagismo, história familiar).", "peso": 1},
+    {"id": "contraindicacoes", "item": "Investiga contraindicações a nitrato e a fibrinolítico (uso de inibidor de fosfodiesterase, sangramento, AVC, cirurgia recente).", "peso": 1},
+    {"id": "ecg", "item": "Solicita eletrocardiograma imediatamente (em até 10 minutos).", "peso": 1},
+    {"id": "interpreta", "item": "Interpreta o ECG como supradesnivelamento de ST em parede anterior e diagnostica IAM com supra de ST.", "peso": 1.5},
+    {"id": "antiagregacao", "item": "Prescreve AAS e clopidogrel em dose de ataque.", "peso": 1},
+    {"id": "reperfusao", "item": "Define a estratégia de reperfusão considerando o tempo até a hemodinâmica (angioplastia primária em até 120 min ou fibrinólise em até 30 min).", "peso": 1.5},
+    {"id": "comunica", "item": "Explica ao paciente o diagnóstico e a conduta de forma clara e acolhe a ansiedade.", "peso": 0.5}
+  ],
+  "referencias": [
+    "Diretriz da Sociedade Brasileira de Cardiologia sobre Angina Instável e IAM sem e com supradesnível de ST",
+    "Linha de Cuidado do Infarto Agudo do Miocárdio, Ministério da Saúde"
+  ]
+}

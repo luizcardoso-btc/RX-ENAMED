@@ -1,0 +1,20 @@
+{
+  "name": "rx-enamed-servidor",
+  "private": true,
+  "type": "module",
+  "description": "Servidor do RX ENAMED: contas de alunos, checkout próprio com Mercado Pago, liberação de acesso e painel administrativo.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "iniciar": "node src/iniciar.js",
+    "migrar": "node src/migrar.js",
+    "criar-admin": "node src/criar-admin.js",
+    "teste": "node --test teste/*.test.js",
+    "zerar": "node src/zerar.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}

@@ -1,0 +1,170 @@
+{
+"revalida_2024-1_q072": {
+ "pt": {"resumo": "Hérnia incisional limpa com tela em paciente de 72 kg: cefazolina 2 g IV até 60 minutos antes da incisão, repetindo 1 g a cada 4 horas durante a cirurgia, e suspensão ao fechar a pele. Profilaxia não se estende ao pós-operatório.",
+  "alternativas": {"A": "Correta: cefazolina 2 g, repique de 4/4 h e suspensão ao fechar a pele.", "B": "Metronidazol é desnecessário em cirurgia limpa, e a dose de 1 g é baixa.", "C": "Manter por 72 horas aumenta resistência sem benefício.", "D": "Metronidazol não é indicado, e a dose deve ser dada até 60 minutos antes."}},
+ "es": {"resumo": "Hernia incisional limpia con malla en un paciente de 72 kg: cefazolina 2 g IV hasta 60 minutos antes de la incisión, repitiendo 1 g cada 4 horas durante la cirugía, y suspensión al cerrar la piel. La profilaxis no se extiende al posoperatorio.",
+  "alternativas": {"A": "Correcta: cefazolina 2 g, redosis cada 4 h y suspensión al cerrar la piel.", "B": "El metronidazol es innecesario en cirugía limpia, y la dosis de 1 g es baja.", "C": "Mantenerla 72 horas aumenta la resistencia sin beneficio.", "D": "El metronidazol no está indicado, y la dosis debe darse hasta 60 minutos antes."}}
+},
+"revalida_2024-1_q073": {
+ "pt": {"resumo": "Lactente com prurido intenso, eczema malar poupando o maciço central, liquenificação em fossa cubital e atopia familiar (rinite e asma): dermatite atópica.",
+  "alternativas": {"A": "Correta: dermatite atópica.", "B": "Tinea forma placas anulares com borda ativa.", "C": "Escabiose acomete dobras, mãos e outros contactantes.", "D": "Psoríase forma placas eritematodescamativas bem delimitadas em superfícies extensoras."}},
+ "es": {"resumo": "Lactante con prurito intenso, eccema malar que respeta el centro de la cara, liquenificación en la fosa cubital y atopia familiar (rinitis y asma): dermatitis atópica.",
+  "alternativas": {"A": "Correcta: dermatitis atópica.", "B": "La tiña forma placas anulares con borde activo.", "C": "La escabiosis afecta pliegues, manos y a otros convivientes.", "D": "La psoriasis forma placas eritematodescamativas bien delimitadas en superficies extensoras."}}
+},
+"revalida_2024-1_q074": {
+ "pt": {"resumo": "Período expulsivo prolongado com feto em +2 de De Lee, occipito-púbico, colo dilatado, bradicardia fetal e exaustão materna: parto vaginal assistido com fórceps (Simpson), mais rápido que a cesárea nessa altura de apresentação.",
+  "alternativas": {"A": "Com cabeça baixa e condições de aplicabilidade, o fórceps é mais rápido e seguro.", "B": "Correta: fórceps de Simpson.", "C": "Com bradicardia, nova ocitocina atrasa a extração.", "D": "Bradicardia fetal exige ação imediata."}},
+ "es": {"resumo": "Periodo expulsivo prolongado con feto en +2 de De Lee, occipitopúbico, cuello dilatado, bradicardia fetal y agotamiento materno: parto vaginal asistido con fórceps (Simpson), más rápido que la cesárea con esa altura de presentación.",
+  "alternativas": {"A": "Con la cabeza baja y condiciones de aplicación, el fórceps es más rápido y seguro.", "B": "Correcta: fórceps de Simpson.", "C": "Con bradicardia, más oxitocina retrasa la extracción.", "D": "La bradicardia fetal exige acción inmediata."}}
+},
+"revalida_2024-1_q075": {
+ "pt": {"resumo": "Inquéritos populacionais como a Pesquisa Nacional de Saúde medem exposição e desfecho no mesmo momento: são estudos transversais.",
+  "alternativas": {"A": "Coorte acompanha pessoas ao longo do tempo.", "B": "Correta: estudo transversal.", "C": "Não há intervenção dos pesquisadores.", "D": "Caso-controle parte do desfecho para a exposição."}},
+ "es": {"resumo": "Las encuestas poblacionales como la Encuesta Nacional de Salud miden exposición y desenlace en el mismo momento: son estudios transversales.",
+  "alternativas": {"A": "La cohorte sigue a las personas en el tiempo.", "B": "Correcta: estudio transversal.", "C": "No hay intervención de los investigadores.", "D": "El caso-control parte del desenlace hacia la exposición."}}
+},
+"revalida_2024-1_q076": {
+ "pt": {"resumo": "Prurido e pápulas eritematosas disseminadas dias após iniciar naproxeno, sem sinais sistêmicos: farmacodermia leve. Suspende-se o medicamento e usa-se anti-histamínico oral.",
+  "alternativas": {"A": "Doença do soro tem febre e artralgia, e o fármaco deve ser suspenso.", "B": "Não há comprometimento respiratório ou hemodinâmico de anafilaxia.", "C": "Correta: farmacodermia; suspender e dar anti-histamínico oral.", "D": "Dermatite atópica é crônica, e a via IV é desnecessária."}},
+ "es": {"resumo": "Prurito y pápulas eritematosas diseminadas días después de iniciar naproxeno, sin signos sistémicos: farmacodermia leve. Se suspende el fármaco y se usa antihistamínico oral.",
+  "alternativas": {"A": "La enfermedad del suero tiene fiebre y artralgia, y el fármaco debe suspenderse.", "B": "No hay compromiso respiratorio ni hemodinámico de anafilaxia.", "C": "Correcta: farmacodermia; suspender y dar antihistamínico oral.", "D": "La dermatitis atópica es crónica, y la vía IV es innecesaria."}}
+},
+"revalida_2024-1_q077": {
+ "pt": {"resumo": "Etilista e tabagista com dor abdominal pós-prandial, emagrecimento e esteatorreia há meses: pancreatite crônica, com insuficiência exócrina. O manejo inclui analgesia, abstinência e orientação dietética (com enzimas pancreáticas).",
+  "alternativas": {"A": "O quadro é arrastado, não agudo.", "B": "Correta: pancreatite crônica, analgesia e dieta.", "C": "Hepatite alcoólica cursa com icterícia e febre.", "D": "Não há sinais de cirrose, e esteatorreia aponta para o pâncreas."}},
+ "es": {"resumo": "Alcohólico y fumador con dolor abdominal posprandial, adelgazamiento y esteatorrea desde hace meses: pancreatitis crónica, con insuficiencia exocrina. El manejo incluye analgesia, abstinencia y orientación dietética (con enzimas pancreáticas).",
+  "alternativas": {"A": "El cuadro es prolongado, no agudo.", "B": "Correcta: pancreatitis crónica, analgesia y dieta.", "C": "La hepatitis alcohólica cursa con ictericia y fiebre.", "D": "No hay signos de cirrosis, y la esteatorrea apunta al páncreas."}}
+},
+"revalida_2024-1_q078": {
+ "pt": {"resumo": "Criança com infecção de vias aéreas prévia, artralgia, púrpura palpável em membros inferiores e glúteos com plaquetas normais e dor abdominal com enterorragia: vasculite por IgA (Henoch-Schönlein).",
+  "alternativas": {"A": "Poliarterite nodosa é rara na criança e não cursa com essa púrpura.", "B": "Takayasu acomete grandes vasos de mulheres jovens.", "C": "Kawasaki tem febre prolongada, conjuntivite e alterações de mucosas.", "D": "Correta: vasculite por IgA."}},
+ "es": {"resumo": "Niño con infección respiratoria previa, artralgia, púrpura palpable en miembros inferiores y glúteos con plaquetas normales y dolor abdominal con enterorragia: vasculitis por IgA (Henoch-Schönlein).",
+  "alternativas": {"A": "La poliarteritis nudosa es rara en el niño y no cursa con esta púrpura.", "B": "Takayasu afecta grandes vasos de mujeres jóvenes.", "C": "Kawasaki tiene fiebre prolongada, conjuntivitis y alteraciones de mucosas.", "D": "Correcta: vasculitis por IgA."}}
+},
+"revalida_2024-1_q079": {
+ "pt": {"resumo": "Puérpera com fissuras, dor, calor e hiperemia localizada na mama e febre, sem flutuação: mastite. Trata-se com analgesia, manutenção da amamentação (esvaziar a mama) e antibiótico oral com cobertura para estafilococo.",
+  "alternativas": {"A": "Galactocele é cisto indolor, sem sinais inflamatórios.", "B": "Correta: mastite com antibiótico oral e amamentação mantida.", "C": "Sem flutuação não há abscesso.", "D": "Interromper a amamentação piora a estase e não é recomendado."}},
+ "es": {"resumo": "Puérpera con grietas, dolor, calor y eritema localizado en la mama y fiebre, sin fluctuación: mastitis. Se trata con analgesia, manteniendo la lactancia (vaciar la mama) y antibiótico oral con cobertura para estafilococo.",
+  "alternativas": {"A": "El galactocele es un quiste indoloro, sin signos inflamatorios.", "B": "Correcta: mastitis con antibiótico oral y lactancia mantenida.", "C": "Sin fluctuación no hay absceso.", "D": "Interrumpir la lactancia empeora la estasis y no se recomienda."}}
+},
+"revalida_2024-1_q080": {
+ "pt": {"resumo": "No calendário nacional, a meningocócica C conjugada é dada aos 3 e 5 meses, com reforço aos 12 meses. A ACWY é dose única entre 11 e 14 anos; aos 15 anos, quem já recebeu deve ter uma dose. Logo: 2 doses aos 9 meses; 2 doses e reforço aos 4 anos; 1 dose de ACWY.",
+  "alternativas": {"A": "Aos 9 meses já devem ter sido dadas 2 doses.", "B": "Correta: 2 doses; 2 doses e reforço; 1 dose de ACWY.", "C": "O esquema não tem 3 doses de C nem 2 de ACWY.", "D": "O reforço só ocorre aos 12 meses, e a ACWY não tem reforço no calendário."}},
+ "es": {"resumo": "En el calendario nacional brasileño, la meningocócica C conjugada se aplica a los 3 y 5 meses, con refuerzo a los 12 meses. La ACWY es dosis única entre los 11 y 14 años; a los 15 años, quien ya la recibió debe tener una dosis. Así: 2 dosis a los 9 meses; 2 dosis y refuerzo a los 4 años; 1 dosis de ACWY.",
+  "alternativas": {"A": "A los 9 meses ya deben haberse aplicado 2 dosis.", "B": "Correcta: 2 dosis; 2 dosis y refuerzo; 1 dosis de ACWY.", "C": "El esquema no tiene 3 dosis de C ni 2 de ACWY.", "D": "El refuerzo es solo a los 12 meses, y la ACWY no tiene refuerzo en el calendario."}}
+},
+"revalida_2024-1_q081": {
+ "pt": {"resumo": "Desdobramento fixo da segunda bulha em adulta jovem com dispneia é típico de comunicação interatrial. Pelo shunt, um trombo venoso pode cruzar para a circulação sistêmica (embolia paradoxal).",
+  "alternativas": {"A": "Estenose pulmonar tem sopro sistólico ejetivo e desdobramento variável.", "B": "Estenose mitral tem estalido de abertura e ruflar diastólico.", "C": "Correta: CIA e embolia sistêmica (paradoxal).", "D": "Prolapso mitral tem clique mesossistólico."}},
+ "es": {"resumo": "El desdoblamiento fijo del segundo ruido en una adulta joven con disnea es típico de comunicación interauricular. Por el cortocircuito, un trombo venoso puede pasar a la circulación sistémica (embolia paradójica).",
+  "alternativas": {"A": "La estenosis pulmonar tiene soplo sistólico eyectivo y desdoblamiento variable.", "B": "La estenosis mitral tiene chasquido de apertura y retumbo diastólico.", "C": "Correcta: CIA y embolia sistémica (paradójica).", "D": "El prolapso mitral tiene clic mesosistólico."}}
+},
+"revalida_2024-1_q082": {
+ "pt": {"resumo": "Cal é álcali e causa queimadura química grave e progressiva da córnea. Após irrigação abundante, o paciente com dor e visão embaçada deve ser avaliado com urgência por oftalmologista.",
+  "alternativas": {"A": "Lubrificante e repouso subestimam a gravidade.", "B": "Correta: avaliação oftalmológica no pronto-socorro.", "C": "Oclusão prolongada não é tratamento e atrasa a avaliação.", "D": "A atenção básica não tem recursos para avaliar a lesão por álcali."}},
+ "es": {"resumo": "La cal es un álcali y causa una quemadura química grave y progresiva de la córnea. Tras irrigación abundante, el paciente con dolor y visión borrosa debe ser evaluado con urgencia por un oftalmólogo.",
+  "alternativas": {"A": "El lubricante y el reposo subestiman la gravedad.", "B": "Correcta: evaluación oftalmológica en urgencias.", "C": "La oclusión prolongada no es tratamiento y retrasa la evaluación.", "D": "La atención primaria no tiene recursos para evaluar la lesión por álcali."}}
+},
+"revalida_2024-1_q084": {
+ "pt": {"resumo": "Idosa com líquen escleroso e lesão vulvar eritematosa persistente, sem resposta a corticoide e antifúngico: suspeita de neoplasia vulvar (não relacionada ao HPV). A conduta é vulvoscopia com biópsia.",
+  "alternativas": {"A": "Correta: vulvoscopia e biópsia.", "B": "Lesão refratária exige histologia, não novo corticoide.", "C": "Já houve falha de antifúngico.", "D": "Azul de toluidina é pouco específico, e vulvectomia sem diagnóstico é inadequada."}},
+ "es": {"resumo": "Adulta mayor con liquen escleroso y lesión vulvar eritematosa persistente, sin respuesta a corticoide ni antifúngico: sospecha de neoplasia vulvar (no relacionada con VPH). La conducta es vulvoscopia con biopsia.",
+  "alternativas": {"A": "Correcta: vulvoscopia y biopsia.", "B": "Una lesión refractaria exige histología, no un nuevo corticoide.", "C": "El antifúngico ya fracasó.", "D": "El azul de toluidina es poco específico, y la vulvectomía sin diagnóstico es inadecuada."}}
+},
+"revalida_2024-1_q085": {
+ "pt": {"resumo": "Na população em situação de rua, tosse de qualquer duração é investigada para tuberculose. Solicita-se baciloscopia ou teste rápido com cultura e teste de sensibilidade, além de testagem para HIV, hepatites e sífilis.",
+  "alternativas": {"A": "Correta: exame bacteriológico com cultura e sensibilidade, e testagens.", "B": "Radiografia isolada não basta para iniciar tratamento sem investigação bacteriológica.", "C": "Exame positivo não significa multirresistência.", "D": "Falta cultura com teste de sensibilidade, indicada para essa população."}},
+ "es": {"resumo": "En la población en situación de calle, la tos de cualquier duración se estudia para tuberculosis. Se pide baciloscopia o prueba rápida con cultivo y prueba de sensibilidad, además de pruebas de VIH, hepatitis y sífilis.",
+  "alternativas": {"A": "Correcta: examen bacteriológico con cultivo y sensibilidad, y las pruebas.", "B": "La radiografía sola no basta para iniciar tratamiento sin estudio bacteriológico.", "C": "Un examen positivo no significa multirresistencia.", "D": "Falta el cultivo con prueba de sensibilidad, indicado para esta población."}}
+},
+"revalida_2024-1_q086": {
+ "pt": {"resumo": "Pressão muito elevada com desorientação aguda, sem déficit focal: encefalopatia hipertensiva, uma emergência hipertensiva. O fundo de olho mostra papiledema.",
+  "alternativas": {"A": "Coriorretinite é inflamatória ou infecciosa, não hipertensiva.", "B": "Correta: encefalopatia hipertensiva com papiledema.", "C": "Fibras meduladas são variação congênita, e AIT tem déficit focal.", "D": "Pulso venoso espontâneo é achado normal, e AVE hemorrágico tem déficit focal."}},
+ "es": {"resumo": "Presión muy elevada con desorientación aguda, sin déficit focal: encefalopatía hipertensiva, una emergencia hipertensiva. El fondo de ojo muestra papiledema.",
+  "alternativas": {"A": "La coriorretinitis es inflamatoria o infecciosa, no hipertensiva.", "B": "Correcta: encefalopatía hipertensiva con papiledema.", "C": "Las fibras mielinizadas son una variante congénita, y el AIT tiene déficit focal.", "D": "El pulso venoso espontáneo es un hallazgo normal, y el ACV hemorrágico tiene déficit focal."}}
+},
+"revalida_2024-1_q087": {
+ "pt": {"resumo": "Mulher jovem com diarreia crônica com muco, urgência, tenesmo, sangramento retal e perda de peso: retocolite ulcerativa, que acomete o reto de forma contínua.",
+  "alternativas": {"A": "Aos 25 anos, mesmo com história familiar, o quadro inflamatório aponta para DII.", "B": "Crohn costuma poupar o reto e cursa mais com dor e lesões perianais.", "C": "Correta: retocolite ulcerativa.", "D": "Hemorroidas não explicam diarreia, tenesmo e perda de peso."}},
+ "es": {"resumo": "Mujer joven con diarrea crónica con moco, urgencia, tenesmo, sangrado rectal y pérdida de peso: colitis ulcerosa, que afecta el recto de forma continua.",
+  "alternativas": {"A": "A los 25 años, aun con antecedente familiar, el cuadro inflamatorio apunta a EII.", "B": "Crohn suele respetar el recto y cursa más con dolor y lesiones perianales.", "C": "Correcta: colitis ulcerosa.", "D": "Las hemorroides no explican la diarrea, el tenesmo ni la pérdida de peso."}}
+},
+"revalida_2024-1_q088": {
+ "pt": {"resumo": "Lactente com rouquidão, tosse ladrante e estridor em repouso após pródromo viral: crupe (laringotraqueíte) moderado a grave, com cianose à agitação. Trata-se com corticoide e nebulização com adrenalina, com internação.",
+  "alternativas": {"A": "Beta-2 agonista não age no edema subglótico.", "B": "Correta: corticoide, adrenalina inalatória e internação.", "C": "Intubação é reservada a falência respiratória.", "D": "Estridor em repouso e cianose contraindicam alta."}},
+ "es": {"resumo": "Lactante con disfonía, tos perruna y estridor en reposo tras un pródromo viral: crup (laringotraqueítis) moderado a grave, con cianosis al agitarse. Se trata con corticoide y nebulización con adrenalina, con internación.",
+  "alternativas": {"A": "El beta-2 agonista no actúa sobre el edema subglótico.", "B": "Correcta: corticoide, adrenalina inhalada e internación.", "C": "La intubación se reserva a la falla respiratoria.", "D": "El estridor en reposo y la cianosis contraindican el alta."}}
+},
+"revalida_2024-1_q089": {
+ "pt": {"resumo": "Pelas diretrizes do INCA, LSIL em mulher com 25 anos ou mais: repetir a citologia em 6 meses. A colposcopia fica para persistência do resultado.",
+  "alternativas": {"A": "O teste de DNA-HPV não é a conduta das diretrizes citológicas para LSIL.", "B": "Correta: repetir a citologia em 6 meses.", "C": "Biópsia exige colposcopia com lesão.", "D": "Ver e tratar é para HSIL."}},
+ "es": {"resumo": "Según las directrices del INCA, LSIL en una mujer de 25 años o más: repetir la citología en 6 meses. La colposcopia queda para la persistencia del resultado.",
+  "alternativas": {"A": "La prueba de ADN-VPH no es la conducta de las directrices citológicas para LSIL.", "B": "Correcta: repetir la citología en 6 meses.", "C": "La biopsia exige colposcopia con lesión.", "D": "Ver y tratar es para HSIL."}}
+},
+"revalida_2024-1_q090": {
+ "pt": {"resumo": "Diante de sangramento uterino anormal na perimenopausa, primeiro se exclui gestação e se examinam vagina e colo para afastar lesões, antes de atribuir a causas uterinas.",
+  "alternativas": {"A": "SUA é frequente, não raro.", "B": "Histerectomia não é a primeira linha.", "C": "Correta: excluir gestação e lesões de vagina e colo.", "D": "O ultrassom tem boa sensibilidade e não é o exame com mais dados para todos os casos."}},
+ "es": {"resumo": "Ante sangrado uterino anormal en la perimenopausia, primero se excluye embarazo y se examinan vagina y cuello para descartar lesiones, antes de atribuirlo a causas uterinas.",
+  "alternativas": {"A": "El SUA es frecuente, no raro.", "B": "La histerectomía no es la primera línea.", "C": "Correcta: excluir embarazo y lesiones de vagina y cuello.", "D": "La ecografía tiene buena sensibilidad y no es el examen con más datos para todos los casos."}}
+},
+"revalida_2024-1_q091": {
+ "pt": {"resumo": "Paciente oncológico com hipotensão, turgência jugular, bulhas abafadas (tríade de Beck), pulso paradoxal e baixa voltagem no ECG: tamponamento cardíaco. Confirma-se com ecocardiograma e trata-se com pericardiocentese.",
+  "alternativas": {"A": "Correta: ecocardiografia e pericardiocentese.", "B": "Não há sinais de infarto, e trombolítico pode piorar derrame hemorrágico.", "C": "Vasopressor é ponte; o tratamento é drenar.", "D": "Angiotomografia e coagulação atrasam a drenagem."}},
+ "es": {"resumo": "Paciente oncológico con hipotensión, ingurgitación yugular, ruidos apagados (tríada de Beck), pulso paradójico y bajo voltaje en el ECG: taponamiento cardíaco. Se confirma con ecocardiograma y se trata con pericardiocentesis.",
+  "alternativas": {"A": "Correcta: ecocardiografía y pericardiocentesis.", "B": "No hay signos de infarto, y el trombolítico puede empeorar un derrame hemorrágico.", "C": "El vasopresor es puente; el tratamiento es drenar.", "D": "La angiotomografía y la coagulación retrasan el drenaje."}}
+},
+"revalida_2024-1_q092": {
+ "pt": {"resumo": "Doença diverticular com dor em fossa ilíaca esquerda, febre baixa e plastrão palpável, sem peritonite: diverticulite complicada com abscesso. O exame é tomografia com contraste; colonoscopia é contraindicada na fase aguda.",
+  "alternativas": {"A": "Colonoscopia na fase aguda tem risco de perfuração.", "B": "Não há peritonite (abdome flácido, sem descompressão dolorosa).", "C": "Mesmo erro: não há peritonite fecal.", "D": "Correta: abscesso e tomografia com contraste."}},
+ "es": {"resumo": "Enfermedad diverticular con dolor en fosa ilíaca izquierda, febrícula y plastrón palpable, sin peritonitis: diverticulitis complicada con absceso. El examen es la tomografía con contraste; la colonoscopia está contraindicada en la fase aguda.",
+  "alternativas": {"A": "La colonoscopia en la fase aguda tiene riesgo de perforación.", "B": "No hay peritonitis (abdomen blando, sin rebote).", "C": "Mismo error: no hay peritonitis fecal.", "D": "Correcta: absceso y tomografía con contraste."}}
+},
+"revalida_2024-1_q093": {
+ "pt": {"resumo": "Criança de 6 anos com dificuldade de aprendizagem, sem déficits sensoriais, doenças, alerta do desenvolvimento ou fatores ambientais: encaminhar para avaliação psicopedagógica, que identifica o transtorno específico.",
+  "alternativas": {"A": "Correta: avaliação psicopedagógica.", "B": "Aos 6 anos já há parâmetros para avaliar aprendizagem.", "C": "Sem sinais neurológicos, o neuropediatra não é o primeiro passo.", "D": "Reforço sem avaliação não identifica o transtorno."}},
+ "es": {"resumo": "Niño de 6 años con dificultad de aprendizaje, sin déficits sensoriales, enfermedades, alertas del desarrollo ni factores ambientales: derivar a evaluación psicopedagógica, que identifica el trastorno específico.",
+  "alternativas": {"A": "Correcta: evaluación psicopedagógica.", "B": "A los 6 años ya hay parámetros para evaluar el aprendizaje.", "C": "Sin signos neurológicos, el neuropediatra no es el primer paso.", "D": "El refuerzo sin evaluación no identifica el trastorno."}}
+},
+"revalida_2024-1_q094": {
+ "pt": {"resumo": "Tia com câncer aos 65 anos não é parente de primeiro grau nem caso precoce: a paciente é de risco habitual. O Ministério da Saúde recomenda mamografia bienal dos 50 aos 69 anos; segundo o gabarito, com exame clínico anual.",
+  "alternativas": {"A": "Ressonância é para alto risco.", "B": "Ultrassom não é método de rastreamento.", "C": "Mamografia anual não é a recomendação do Ministério para risco habitual.", "D": "Correta: exame clínico anual e mamografia bienal após 50 anos."}},
+ "es": {"resumo": "Una tía con cáncer a los 65 años no es pariente de primer grado ni caso precoz: la paciente es de riesgo habitual. El Ministerio de Salud recomienda mamografía bienal de los 50 a los 69 años; según la clave, con examen clínico anual.",
+  "alternativas": {"A": "La resonancia es para alto riesgo.", "B": "La ecografía no es método de tamizaje.", "C": "La mamografía anual no es la recomendación del Ministerio para riesgo habitual.", "D": "Correcta: examen clínico anual y mamografía bienal después de los 50 años."}}
+},
+"revalida_2024-1_q095": {
+ "pt": {"resumo": "Criança de área endêmica com febre, exantema e mialgia: suspeita de dengue. Faz-se a prova do laço e, pela otalgia, a otoscopia. Sem sinais de alarme e com desidratação leve (grupo A ou B), prescreve-se hidratação oral e retorno no dia da defervescência.",
+  "alternativas": {"A": "Antibiótico sem otite confirmada é inadequado.", "B": "Falta a prova do laço, e o antibiótico é empírico.", "C": "Correta: prova do laço, otoscopia e hidratação oral.", "D": "Desidratação leve não exige hidratação venosa."}},
+ "es": {"resumo": "Niña de área endémica con fiebre, exantema y mialgias: sospecha de dengue. Se hace la prueba del lazo y, por la otalgia, la otoscopia. Sin signos de alarma y con deshidratación leve (grupo A o B), se indica hidratación oral y regreso el día de la defervescencia.",
+  "alternativas": {"A": "El antibiótico sin otitis confirmada es inadecuado.", "B": "Falta la prueba del lazo, y el antibiótico es empírico.", "C": "Correcta: prueba del lazo, otoscopia e hidratación oral.", "D": "La deshidratación leve no exige hidratación intravenosa."}}
+},
+"revalida_2024-1_q096": {
+ "pt": {"resumo": "Diarreia sanguinolenta há 3 meses com tenesmo, artrite migratória assimétrica e eritema nodoso, sem resposta a antibióticos: doença inflamatória intestinal com manifestações extraintestinais. Confirma-se com colonoscopia e biópsia.",
+  "alternativas": {"A": "Correta: colonoscopia com histopatologia.", "B": "Isospora e Cryptosporidium causam diarreia aquosa em imunossuprimidos.", "C": "C. difficile não explica eritema nodoso e artrite.", "D": "Amebíase não causa essas manifestações extraintestinais."}},
+ "es": {"resumo": "Diarrea sanguinolenta de 3 meses con tenesmo, artritis migratoria asimétrica y eritema nudoso, sin respuesta a antibióticos: enfermedad inflamatoria intestinal con manifestaciones extraintestinales. Se confirma con colonoscopia y biopsia.",
+  "alternativas": {"A": "Correcta: colonoscopia con histopatología.", "B": "Isospora y Cryptosporidium causan diarrea acuosa en inmunodeprimidos.", "C": "C. difficile no explica el eritema nudoso ni la artritis.", "D": "La amebiasis no causa esas manifestaciones extraintestinales."}}
+},
+"revalida_2024-1_q097": {
+ "pt": {"resumo": "Perda de sensibilidade a partir da cicatriz umbilical, que corresponde ao dermátomo T10, com paraplegia: lesão medular em T10.",
+  "alternativas": {"A": "L2 corresponde à face anterior da coxa.", "B": "T4 é a linha dos mamilos.", "C": "Correta: T10, cicatriz umbilical.", "D": "T12 é a região inguinal."}},
+ "es": {"resumo": "Pérdida de sensibilidad desde el ombligo, que corresponde al dermatoma T10, con paraplejia: lesión medular en T10.",
+  "alternativas": {"A": "L2 corresponde a la cara anterior del muslo.", "B": "T4 es la línea de los pezones.", "C": "Correcta: T10, ombligo.", "D": "T12 es la región inguinal."}}
+},
+"revalida_2024-1_q098": {
+ "pt": {"resumo": "Lactente de 9 meses com pouco contato visual, sem estender os braços e com tio com TEA: sinais de alerta. A conduta imediata é iniciar estimulação precoce sem esperar o diagnóstico e reavaliar em breve.",
+  "alternativas": {"A": "Encaminhar é útil, mas não deve atrasar a estimulação imediata.", "B": "Correta: estimulação precoce e retorno breve.", "C": "Tranquilizar ignora os sinais de alerta.", "D": "Risperidona não é indicada nessa idade nem para sinais de alerta."}},
+ "es": {"resumo": "Lactante de 9 meses con poco contacto visual, que no extiende los brazos y con un tío con TEA: signos de alerta. La conducta inmediata es iniciar estimulación temprana sin esperar el diagnóstico y reevaluar pronto.",
+  "alternativas": {"A": "Derivar es útil, pero no debe retrasar la estimulación inmediata.", "B": "Correcta: estimulación temprana y control pronto.", "C": "Tranquilizar ignora los signos de alerta.", "D": "La risperidona no está indicada a esta edad ni por signos de alerta."}}
+},
+"revalida_2024-1_q099": {
+ "pt": {"resumo": "Em massa anexial, as projeções papilares (componente sólido) são o principal critério ultrassonográfico de malignidade e indicam investigação cirúrgica.",
+  "alternativas": {"A": "Cisto de 6 cm simples pode ser acompanhado; o tamanho isolado não define.", "B": "Aos 45 anos, a idade não é o critério decisivo.", "C": "Correta: projeção papilar.", "D": "Irregularidade menstrual não indica cirurgia."}},
+ "es": {"resumo": "En una masa anexial, las proyecciones papilares (componente sólido) son el principal criterio ecográfico de malignidad e indican estudio quirúrgico.",
+  "alternativas": {"A": "Un quiste simple de 6 cm puede seguirse; el tamaño solo no define.", "B": "A los 45 años, la edad no es el criterio decisivo.", "C": "Correcta: proyección papilar.", "D": "La irregularidad menstrual no indica cirugía."}}
+},
+"revalida_2024-1_q100": {
+ "pt": {"resumo": "Episódios de embriaguez com prejuízo (faltas, sintomas depressivos após o uso), sem tolerância, abstinência ou perda de controle contínua, e bom funcionamento entre episódios: uso nocivo de álcool.",
+  "alternativas": {"A": "Correta: uso nocivo de álcool.", "B": "Dependência exige critérios como tolerância, abstinência e compulsão.", "C": "Os sintomas depressivos são consequência dos episódios de uso.", "D": "Abstinência ocorre com a retirada em dependentes, com tremor e hiperatividade autonômica."}},
+ "es": {"resumo": "Episodios de embriaguez con daño (ausencias, síntomas depresivos tras el consumo), sin tolerancia, abstinencia ni pérdida de control continua, y buen funcionamiento entre episodios: consumo perjudicial de alcohol.",
+  "alternativas": {"A": "Correcta: consumo perjudicial de alcohol.", "B": "La dependencia exige criterios como tolerancia, abstinencia y compulsión.", "C": "Los síntomas depresivos son consecuencia de los episodios de consumo.", "D": "La abstinencia ocurre al retirar el alcohol en dependientes, con temblor e hiperactividad autonómica."}}
+}
+}

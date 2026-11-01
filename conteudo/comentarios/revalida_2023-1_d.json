@@ -1,0 +1,194 @@
+{
+"revalida_2023-1_q069": {
+ "pt": {"resumo": "Glicemia de jejum no 1º trimestre abaixo de 92 mg/dL é normal. A gestante deve fazer o TOTG com 75 g entre 24 e 28 semanas; um único valor alterado (jejum ≥ 92, 1 h ≥ 180 ou 2 h ≥ 153) já define diabetes gestacional.",
+  "alternativas": {"A": "O teste usado no Brasil é com 75 g, entre 24 e 28 semanas.", "B": "Correta: TOTG 75 g entre 24 e 28 semanas, um valor alterado basta.", "C": "A janela é 24 a 28 semanas e basta um valor alterado.", "D": "Teste de 100 g com dois valores é critério antigo e não é o adotado."}},
+ "es": {"resumo": "Una glucemia en ayunas en el 1.er trimestre menor de 92 mg/dL es normal. La gestante debe hacer la PTOG con 75 g entre las 24 y 28 semanas; un solo valor alterado (ayunas ≥ 92, 1 h ≥ 180 o 2 h ≥ 153) ya define diabetes gestacional.",
+  "alternativas": {"A": "La prueba usada en Brasil es con 75 g, entre las 24 y 28 semanas.", "B": "Correcta: PTOG 75 g entre las 24 y 28 semanas, basta un valor alterado.", "C": "La ventana es de 24 a 28 semanas y basta un valor alterado.", "D": "La prueba de 100 g con dos valores es un criterio antiguo y no el adoptado."}}
+},
+"revalida_2023-1_q070": {
+ "pt": {"resumo": "Febre alta, mialgia e exantema que atinge plantas após trilha em área de carrapatos sugerem febre maculosa. Colhe-se a primeira sorologia (RIFI) já, repetindo em 14 a 21 dias, e inicia-se doxiciclina imediatamente, sem esperar resultado. Contatos não fazem profilaxia, apenas observam sintomas.",
+  "alternativas": {"A": "Correta: RIFI pareada, doxiciclina imediata e orientar o namorado.", "B": "Ceftriaxona não trata riquétsias, e não se faz profilaxia nos contatos.", "C": "Esperar o resultado atrasa o tratamento e aumenta a letalidade; a sorologia precisa ser pareada.", "D": "A primeira amostra é colhida já, e o tratamento é com doxiciclina."}},
+ "es": {"resumo": "Fiebre alta, mialgia y exantema que llega a las plantas tras una caminata en zona de garrapatas sugieren fiebre maculosa. Se toma la primera serología (IFI) ya, repitiéndola a los 14 a 21 días, y se inicia doxiciclina de inmediato, sin esperar el resultado. Los contactos no reciben profilaxis, solo vigilan síntomas.",
+  "alternativas": {"A": "Correcta: IFI pareada, doxiciclina inmediata y orientar al novio.", "B": "La ceftriaxona no trata las rickettsias, y no se hace profilaxis en los contactos.", "C": "Esperar el resultado retrasa el tratamiento y aumenta la letalidad; la serología debe ser pareada.", "D": "La primera muestra se toma ya, y el tratamiento es con doxiciclina."}}
+},
+"revalida_2023-1_q071": {
+ "pt": {"resumo": "Quadro subagudo com febre, perda de peso, confusão e rebaixamento, líquor com predomínio linfocitário, proteína alta e glicose baixa, e tinta nanquim negativa: meningite tuberculosa.",
+  "alternativas": {"A": "Correta: líquor linfocitário com glicose baixa e proteína alta, em quadro subagudo.", "B": "Meningite bacteriana é aguda e tem predomínio de neutrófilos.", "C": "Criptococose costuma ter tinta nanquim positiva, sobretudo em imunossuprimidos.", "D": "Meningite viral tem glicose normal no líquor."}},
+ "es": {"resumo": "Cuadro subagudo con fiebre, pérdida de peso, confusión y deterioro de conciencia, LCR con predominio linfocitario, proteína alta y glucosa baja, y tinta china negativa: meningitis tuberculosa.",
+  "alternativas": {"A": "Correcta: LCR linfocitario con glucosa baja y proteína alta, en un cuadro subagudo.", "B": "La meningitis bacteriana es aguda y tiene predominio de neutrófilos.", "C": "La criptococosis suele tener tinta china positiva, sobre todo en inmunodeprimidos.", "D": "La meningitis viral tiene glucosa normal en el LCR."}}
+},
+"revalida_2023-1_q072": {
+ "pt": {"resumo": "Na embolia aérea após cateter central, coloca-se o paciente em decúbito lateral esquerdo e Trendelenburg (manobra de Durant), para manter o ar no ventrículo direito, e aspira-se o ar pelo próprio cateter, com oxigênio a 100%.",
+  "alternativas": {"A": "Procedimento endovascular atrasa a conduta, que pode ser feita na beira do leito.", "B": "Toracotomia é invasiva e desnecessária como primeira medida.", "C": "Correta: aspirar pelo mesmo cateter em Trendelenburg e decúbito lateral esquerdo.", "D": "Um novo cateter no outro lado não alcança o ar e soma riscos."}},
+ "es": {"resumo": "En la embolia aérea tras un catéter central, se coloca al paciente en decúbito lateral izquierdo y Trendelenburg (maniobra de Durant), para mantener el aire en el ventrículo derecho, y se aspira el aire por el mismo catéter, con oxígeno al 100 %.",
+  "alternativas": {"A": "El procedimiento endovascular retrasa la conducta, que puede hacerse junto a la cama.", "B": "La toracotomía es invasiva e innecesaria como primera medida.", "C": "Correcta: aspirar por el mismo catéter en Trendelenburg y decúbito lateral izquierdo.", "D": "Un nuevo catéter del otro lado no alcanza el aire y suma riesgos."}}
+},
+"revalida_2023-1_q073": {
+ "pt": {"resumo": "Lactente com cólica intermitente, irritabilidade e fezes com sangue e muco (geleia de framboesa) tem invaginação intestinal. Associa-se a infecção viral recente, que causa hiperplasia das placas de Peyer, o ponto de partida da intussuscepção.",
+  "alternativas": {"A": "Correta: invaginação após infecção viral.", "B": "Volvo causa obstrução com vômitos biliosos; aganglionose é Hirschsprung.", "C": "Estenose de piloro dá vômitos não biliosos em lactentes de 2 a 8 semanas, sem sangue nas fezes.", "D": "Apendicite é rara aos 9 meses e não causa fezes em geleia de framboesa."}},
+ "es": {"resumo": "Lactante con cólico intermitente, irritabilidad y heces con sangre y moco (jalea de frambuesa) tiene invaginación intestinal. Se asocia a una infección viral reciente, que causa hiperplasia de las placas de Peyer, punto de partida de la intususcepción.",
+  "alternativas": {"A": "Correcta: invaginación tras infección viral.", "B": "El vólvulo causa obstrucción con vómitos biliosos; la aganglionosis es Hirschsprung.", "C": "La estenosis pilórica da vómitos no biliosos en lactantes de 2 a 8 semanas, sin sangre en las heces.", "D": "La apendicitis es rara a los 9 meses y no causa heces en jalea de frambuesa."}}
+},
+"revalida_2023-1_q074": {
+ "pt": {"resumo": "Ectópica íntegra em paciente estável, com beta-hCG abaixo de 5.000 mUI/mL, massa menor que 3,5 cm sem embrião vivo, desejo de gestar e possibilidade de seguimento: indicação de metotrexato.",
+  "alternativas": {"A": "Cirurgia aberta é para instabilidade, sem acesso à laparoscopia.", "B": "Expectante exige beta-hCG baixo e em queda; aqui ele está subindo.", "C": "Correta: metotrexato preenche todos os critérios.", "D": "Cirurgia não é necessária quando o tratamento clínico é possível."}},
+ "es": {"resumo": "Embarazo ectópico íntegro en una paciente estable, con beta-hCG menor de 5.000 mUI/mL, masa menor de 3,5 cm sin embrión vivo, deseo de embarazo y posibilidad de seguimiento: indicación de metotrexato.",
+  "alternativas": {"A": "La cirugía abierta es para inestabilidad o sin acceso a laparoscopia.", "B": "La conducta expectante exige beta-hCG bajo y en descenso; aquí está subiendo.", "C": "Correcta: el metotrexato cumple todos los criterios.", "D": "La cirugía no es necesaria cuando es posible el tratamiento clínico."}}
+},
+"revalida_2023-1_q075": {
+ "pt": {"resumo": "As práticas integrativas e complementares, como auriculoterapia e fitoterapia tradicional, fazem parte da política nacional no SUS. Com boa resposta e um episódio isolado de insônia, mantém-se o tratamento e orienta-se retorno se houver piora.",
+  "alternativas": {"A": "Não há sinal de intoxicação, e suspender tiraria um tratamento que está funcionando.", "B": "Zolpidem não se justifica por um episódio isolado; traz risco de dependência.", "C": "Correta: manter tintura e auriculoterapia e orientar retorno.", "D": "Auriculoterapia é oferecida na atenção primária pela política de práticas integrativas."}},
+ "es": {"resumo": "Las prácticas integrativas y complementarias, como la auriculoterapia y la fitoterapia tradicional, forman parte de la política nacional en el SUS. Con buena respuesta y un episodio aislado de insomnio, se mantiene el tratamiento y se indica volver si empeora.",
+  "alternativas": {"A": "No hay signos de intoxicación, y suspender quitaría un tratamiento que funciona.", "B": "El zolpidem no se justifica por un episodio aislado; tiene riesgo de dependencia.", "C": "Correcta: mantener la tintura y la auriculoterapia e indicar volver.", "D": "La auriculoterapia se ofrece en la atención primaria por la política de prácticas integrativas."}}
+},
+"revalida_2023-1_q076": {
+ "pt": {"resumo": "Bócio difuso com frêmito, oftalmopatia, T4 livre alto e TSH suprimido é doença de Graves. O tratamento inicial é antitireoidiano (metimazol) com betabloqueador (propranolol) para os sintomas adrenérgicos.",
+  "alternativas": {"A": "Levotiroxina trata hipotireoidismo e pioraria o quadro.", "B": "Correta: metimazol e propranolol.", "C": "Radioiodo piora a oftalmopatia ativa e não é a primeira escolha aqui.", "D": "Mesmo problema: radioiodo não é indicado com oftalmopatia evidente sem preparo."}},
+ "es": {"resumo": "Bocio difuso con frémito, oftalmopatía, T4 libre alta y TSH suprimida es enfermedad de Graves. El tratamiento inicial es antitiroideo (metimazol) con betabloqueante (propranolol) para los síntomas adrenérgicos.",
+  "alternativas": {"A": "La levotiroxina trata el hipotiroidismo y empeoraría el cuadro.", "B": "Correcta: metimazol y propranolol.", "C": "El radioyodo empeora la oftalmopatía activa y no es la primera elección aquí.", "D": "Mismo problema: el radioyodo no se indica con oftalmopatía evidente sin preparación."}}
+},
+"revalida_2023-1_q077": {
+ "pt": {"resumo": "Dispneia logo após punção de subclávia: a complicação mais frequente é o pneumotórax. Paciente com falta de ar e repercussão precisa de descompressão e drenagem torácica.",
+  "alternativas": {"A": "Correta: pneumotórax, com drenagem e descompressão.", "B": "Hemotórax é menos frequente e tem outra imagem (opacidade).", "C": "Hidrotórax ocorre com infusão por cateter mal posicionado, não é a complicação mais comum.", "D": "Paralisia frênica é rara na punção de subclávia."}},
+ "es": {"resumo": "Disnea poco después de una punción subclavia: la complicación más frecuente es el neumotórax. Una paciente con falta de aire y repercusión necesita descompresión y drenaje torácico.",
+  "alternativas": {"A": "Correcta: neumotórax, con drenaje y descompresión.", "B": "El hemotórax es menos frecuente y tiene otra imagen (opacidad).", "C": "El hidrotórax ocurre con infusión por un catéter mal posicionado; no es la complicación más común.", "D": "La parálisis frénica es rara en la punción subclavia."}}
+},
+"revalida_2023-1_q078": {
+ "pt": {"resumo": "Crosta láctea com escamas gordurosas no couro cabeludo, sobrancelhas e região retroauricular no 1º mês é dermatite seborreica do lactente. Ela tipicamente não coça e não cursa com eosinofilia ou IgE alta, o que a separa da dermatite atópica.",
+  "alternativas": {"A": "Exsudação e vesículas lembram eczema agudo ou atopia.", "B": "Liquenificação aparece em lesões crônicas com coceira, como na atopia.", "C": "IgE alta é marca da atopia, não da seborreica.", "D": "Correta: sem prurido e sem eosinofilia."}},
+ "es": {"resumo": "La costra láctea con escamas grasas en cuero cabelludo, cejas y región retroauricular en el 1.er mes es dermatitis seborreica del lactante. Típicamente no pica y no cursa con eosinofilia ni IgE alta, lo que la distingue de la dermatitis atópica.",
+  "alternativas": {"A": "La exudación y las vesículas recuerdan el eczema agudo o la atopia.", "B": "La liquenificación aparece en lesiones crónicas con prurito, como en la atopia.", "C": "La IgE alta es propia de la atopia, no de la seborreica.", "D": "Correcta: sin prurito y sin eosinofilia."}}
+},
+"revalida_2023-1_q079": {
+ "pt": {"resumo": "No descolamento prematuro de placenta com parto vaginal possível, a amniotomia é recomendada: reduz a pressão intrauterina, a passagem de tromboplastina para a circulação materna e o risco de coagulação intravascular disseminada, além de acelerar o parto.",
+  "alternativas": {"A": "Não há aumento relevante de embolia amniótica; a amniotomia é recomendada no DPP.", "B": "O benefício esperado não é encurtar a dequitação.", "C": "Correta: reduz o risco de CIVD.", "D": "A amniotomia diminui, não piora, a área de descolamento ao reduzir a pressão."}},
+ "es": {"resumo": "En el desprendimiento prematuro de placenta con parto vaginal posible, la amniotomía está recomendada: reduce la presión intrauterina, el paso de tromboplastina a la circulación materna y el riesgo de coagulación intravascular diseminada, además de acelerar el parto.",
+  "alternativas": {"A": "No hay aumento relevante de embolia amniótica; la amniotomía se recomienda en el DPP.", "B": "El beneficio esperado no es acortar el alumbramiento.", "C": "Correcta: reduce el riesgo de CID.", "D": "La amniotomía disminuye, no empeora, el área de desprendimiento al reducir la presión."}}
+},
+"revalida_2023-1_q080": {
+ "pt": {"resumo": "Crise grave (fala entrecortada, SatO2 89%): oxigênio para 94 a 98%, salbutamol em dose plena (6 puffs com espaçador, a cada 20 minutos), ipratrópio e prednisolona 1 a 2 mg/kg, com remoção para internação. Na manutenção, a asma não estava controlada: sobe o degrau com corticoide inalatório e LABA.",
+  "alternativas": {"A": "Meta de saturação e dose de prednisolona erradas, e não sobe o degrau adequadamente.", "B": "Dois puffs são subdose na crise grave, e o ipratrópio não é opcional aqui.", "C": "Correta: dose plena na crise e subida de degrau com LABA.", "D": "Crise grave exige internação, não observação na unidade."}},
+ "es": {"resumo": "Crisis grave (habla entrecortada, SatO2 89 %): oxígeno para 94 a 98 %, salbutamol en dosis plena (6 puffs con espaciador, cada 20 minutos), ipratropio y prednisolona 1 a 2 mg/kg, con traslado para internación. En el mantenimiento, el asma no estaba controlada: se sube de escalón con corticoide inhalado y LABA.",
+  "alternativas": {"A": "Meta de saturación y dosis de prednisolona incorrectas, y no sube de escalón adecuadamente.", "B": "Dos puffs son una subdosis en la crisis grave, y el ipratropio no es opcional aquí.", "C": "Correcta: dosis plena en la crisis y subida de escalón con LABA.", "D": "La crisis grave exige internación, no observación en la unidad."}}
+},
+"revalida_2023-1_q081": {
+ "pt": {"resumo": "No hiperparatireoidismo primário assintomático, a cirurgia é indicada se houver osteoporose (escore T ≤ -2,5), cálcio mais de 1 mg/dL acima do normal, idade abaixo de 50 anos, nefrolitíase ou nefrocalcinose, calciúria elevada ou queda da função renal. Entre as opções, o critério é o escore T.",
+  "alternativas": {"A": "Colelitíase não é critério cirúrgico.", "B": "O critério é idade abaixo de 50 anos, não acima.", "C": "O tamanho do adenoma não define a indicação.", "D": "Correta: escore T menor que -2,5."}},
+ "es": {"resumo": "En el hiperparatiroidismo primario asintomático, la cirugía se indica si hay osteoporosis (puntuación T ≤ -2,5), calcio más de 1 mg/dL por encima de lo normal, edad menor de 50 años, nefrolitiasis o nefrocalcinosis, calciuria elevada o caída de la función renal. Entre las opciones, el criterio es la puntuación T.",
+  "alternativas": {"A": "La colelitiasis no es criterio quirúrgico.", "B": "El criterio es edad menor de 50 años, no mayor.", "C": "El tamaño del adenoma no define la indicación.", "D": "Correcta: puntuación T menor de -2,5."}}
+},
+"revalida_2023-1_q082": {
+ "pt": {"resumo": "Queimadura elétrica é critério de transferência para unidade de queimados, sobretudo com ponto de entrada e saída (passagem de corrente). A lesão profunda no calcâneo indica trajeto da corrente e possível lesão interna.",
+  "alternativas": {"A": "Queimadura de 1º grau não entra no cálculo da superfície queimada para transferência.", "B": "Segundo grau em 5% não é critério isolado de transferência.", "C": "Correta: queimadura elétrica com passagem de corrente.", "D": "O critério é a queimadura elétrica em si, não o arco voltaico de baixa voltagem."}},
+ "es": {"resumo": "La quemadura eléctrica es criterio de traslado a una unidad de quemados, sobre todo con punto de entrada y salida (paso de corriente). La lesión profunda en el calcáneo indica el trayecto de la corriente y posible lesión interna.",
+  "alternativas": {"A": "La quemadura de 1.er grado no entra en el cálculo de superficie quemada para el traslado.", "B": "Segundo grado en el 5 % no es criterio aislado de traslado.", "C": "Correcta: quemadura eléctrica con paso de corriente.", "D": "El criterio es la quemadura eléctrica en sí, no el arco voltaico de baja tensión."}}
+},
+"revalida_2023-1_q083": {
+ "pt": {"resumo": "Adolescente com febre prolongada, sudorese noturna, linfonodos cervicais e supraclaviculares endurecidos e indolores e adenopatia hilar: linfoma de Hodgkin. Confirma-se com biópsia excisional do linfonodo e estadia-se com PET-CT de corpo inteiro.",
+  "alternativas": {"A": "Mononucleose não costuma dar linfonodos fixos e supraclaviculares, e o aspirado não basta para linfoma.", "B": "Tuberculose entra no diagnóstico diferencial, mas o quadro e a conduta propostos não o confirmam.", "C": "Pneumonia não explica os linfonodos endurecidos e a falta de resposta à amoxicilina.", "D": "Correta: biópsia excisional e PET-CT de corpo inteiro."}},
+ "es": {"resumo": "Adolescente con fiebre prolongada, sudoración nocturna, ganglios cervicales y supraclaviculares duros e indoloros y adenopatía hiliar: linfoma de Hodgkin. Se confirma con biopsia escisional del ganglio y se estadifica con PET-TC de cuerpo entero.",
+  "alternativas": {"A": "La mononucleosis no suele dar ganglios fijos y supraclaviculares, y la punción aspirativa no basta para linfoma.", "B": "La tuberculosis entra en el diagnóstico diferencial, pero el cuadro y la conducta propuestos no la confirman.", "C": "La neumonía no explica los ganglios duros ni la falta de respuesta a la amoxicilina.", "D": "Correcta: biopsia escisional y PET-TC de cuerpo entero."}}
+},
+"revalida_2023-1_q084": {
+ "pt": {"resumo": "Na insuficiência ovariana o folículo deixa de responder: o estradiol e a inibina caem, e sem retroalimentação negativa o FSH sobe. Perfil: FSH alto, estradiol e inibina baixos.",
+  "alternativas": {"A": "Estradiol alto não ocorre na falência ovariana.", "B": "Correta: FSH elevado, estradiol e inibina baixos.", "C": "FSH baixo indica causa central (hipotálamo ou hipófise).", "D": "FSH e estradiol baixos também apontam para causa central."}},
+ "es": {"resumo": "En la insuficiencia ovárica el folículo deja de responder: el estradiol y la inhibina caen, y sin retroalimentación negativa la FSH sube. Perfil: FSH alta, estradiol e inhibina bajos.",
+  "alternativas": {"A": "El estradiol alto no ocurre en la falla ovárica.", "B": "Correcta: FSH elevada, estradiol e inhibina bajos.", "C": "La FSH baja indica causa central (hipotálamo o hipófisis).", "D": "FSH y estradiol bajos también apuntan a causa central."}}
+},
+"revalida_2023-1_q085": {
+ "pt": {"resumo": "Para evitar a reurbanização da febre amarela, o caso suspeito deve ficar protegido de mosquitos (isolamento com telas ou mosquiteiros) durante a viremia quando há Aedes aegypti no território. Isso impede o mosquito urbano de se infectar.",
+  "alternativas": {"A": "A notificação é imediata, em até 24 horas, não semanal.", "B": "A vacina de rotina é aos 9 meses; antecipar para 6 meses é medida excepcional em surto.", "C": "O Brasil adota dose única, sem reforço a cada 10 anos.", "D": "Correta: isolar o caso suspeito na viremia onde há Aedes."}},
+ "es": {"resumo": "Para evitar la reurbanización de la fiebre amarilla, el caso sospechoso debe quedar protegido de los mosquitos (aislamiento con mallas o mosquiteros) durante la viremia cuando hay Aedes aegypti en el territorio. Eso impide que el mosquito urbano se infecte.",
+  "alternativas": {"A": "La notificación es inmediata, en hasta 24 horas, no semanal.", "B": "La vacuna de rutina es a los 9 meses; adelantarla a los 6 meses es medida excepcional en brotes.", "C": "Brasil adopta dosis única, sin refuerzo cada 10 años.", "D": "Correcta: aislar el caso sospechoso en la viremia donde hay Aedes."}}
+},
+"revalida_2023-1_q086": {
+ "pt": {"resumo": "Esclerose sistêmica com pirose, regurgitação, disfagia e tosse ao deitar indica dismotilidade esofágica com refluxo, por hipotonia do esfíncter inferior e do esôfago distal. O exame que avalia é a manometria esofágica.",
+  "alternativas": {"A": "Pleurite causa dor ventilatório-dependente, não disfagia e regurgitação.", "B": "Dor em queimação com regurgitação e disfagia não sugere angina.", "C": "Correta: dismotilidade esofágica, investigada por manometria.", "D": "Doença intersticial causa dispneia e tosse, mas não explica disfagia e regurgitação."}},
+ "es": {"resumo": "Esclerosis sistémica con pirosis, regurgitación, disfagia y tos al acostarse indica dismotilidad esofágica con reflujo, por hipotonía del esfínter inferior y del esófago distal. El examen que la evalúa es la manometría esofágica.",
+  "alternativas": {"A": "La pleuritis causa dolor que cambia con la respiración, no disfagia ni regurgitación.", "B": "El dolor urente con regurgitación y disfagia no sugiere angina.", "C": "Correcta: dismotilidad esofágica, estudiada por manometría.", "D": "La enfermedad intersticial causa disnea y tos, pero no explica disfagia ni regurgitación."}}
+},
+"revalida_2023-1_q087": {
+ "pt": {"resumo": "Paciente intubada com murmúrio reduzido à esquerda, sem desvio de traqueia e sem turgência jugular: a causa mais provável é intubação seletiva no brônquio direito. A primeira medida é checar a posição do tubo.",
+  "alternativas": {"A": "Radiografia atrasa uma checagem que é clínica e imediata.", "B": "Correta: checar a intubação traqueal.", "C": "Sem sinais de pneumotórax hipertensivo, não há indicação de punção.", "D": "Drenar antes de checar o tubo pode ser desnecessário e causar dano."}},
+ "es": {"resumo": "Paciente intubada con murmullo disminuido a la izquierda, sin desviación traqueal ni ingurgitación yugular: la causa más probable es la intubación selectiva del bronquio derecho. La primera medida es comprobar la posición del tubo.",
+  "alternativas": {"A": "La radiografía retrasa una comprobación que es clínica e inmediata.", "B": "Correcta: comprobar la intubación traqueal.", "C": "Sin signos de neumotórax a tensión, no hay indicación de punción.", "D": "Drenar antes de comprobar el tubo puede ser innecesario y causar daño."}}
+},
+"revalida_2023-1_q088": {
+ "pt": {"resumo": "Panela com cabo voltado para fora ao alcance de uma criança de 2 anos é um risco previsível e evitável. Por isso o evento é classificado como negligência, e não simples acidente, e deve gerar orientação de prevenção.",
+  "alternativas": {"A": "Não foi fortuito: o risco era previsível.", "B": "O padrão da queimadura por derramamento é compatível com o relato; não sugere agressão intencional.", "C": "Correta: negligência, pois os fatores de risco eram evitáveis.", "D": "Não há dados de violência intencional; o problema é a falta de proteção."}},
+ "es": {"resumo": "Una olla con el mango hacia afuera al alcance de un niño de 2 años es un riesgo previsible y evitable. Por eso el evento se clasifica como negligencia, y no como simple accidente, y debe generar orientación de prevención.",
+  "alternativas": {"A": "No fue fortuito: el riesgo era previsible.", "B": "El patrón de la quemadura por derrame es compatible con el relato; no sugiere agresión intencional.", "C": "Correcta: negligencia, porque los factores de riesgo eran evitables.", "D": "No hay datos de violencia intencional; el problema es la falta de protección."}}
+},
+"revalida_2023-1_q089": {
+ "pt": {"resumo": "Na categoria 4 da OMS o risco é inaceitável: o método não deve ser usado. Trombofilia conhecida é exemplo clássico para o contraceptivo combinado, pelo risco de trombose.",
+  "alternativas": {"A": "Cefaleia tensional não é contraindicação ao contraceptivo combinado.", "B": "Correta: categoria 4, contraindicação absoluta, como na trombofilia.", "C": "A descrição dada é a da categoria 3, não da 4.", "D": "Também descreve a categoria 3; TVP atual é categoria 4."}},
+ "es": {"resumo": "En la categoría 4 de la OMS el riesgo es inaceptable: el método no debe usarse. La trombofilia conocida es un ejemplo clásico para el anticonceptivo combinado, por el riesgo de trombosis.",
+  "alternativas": {"A": "La cefalea tensional no contraindica el anticonceptivo combinado.", "B": "Correcta: categoría 4, contraindicación absoluta, como en la trombofilia.", "C": "La descripción dada es la de la categoría 3, no la 4.", "D": "También describe la categoría 3; la TVP actual es categoría 4."}}
+},
+"revalida_2023-1_q090": {
+ "pt": {"resumo": "Pela PNAB 2017, o número de agentes comunitários por equipe é definido conforme critérios demográficos, socioeconômicos e epidemiológicos do território, o que pode usar os dados do censo.",
+  "alternativas": {"A": "Correta: número de ACS conforme critérios do território.", "B": "O NASF faz apoio matricial às equipes, não assistência especializada focal.", "C": "O censo do IBGE não coleta condições de saúde bucal.", "D": "Com cerca de 12 mil habitantes e até 3.500 pessoas por equipe, seriam necessárias mais de 3 equipes."}},
+ "es": {"resumo": "Según la PNAB 2017, el número de agentes comunitarios por equipo se define según criterios demográficos, socioeconómicos y epidemiológicos del territorio, lo que puede usar los datos del censo.",
+  "alternativas": {"A": "Correcta: número de ACS según criterios del territorio.", "B": "El NASF hace apoyo matricial a los equipos, no atención especializada focal.", "C": "El censo del IBGE no recoge condiciones de salud bucal.", "D": "Con cerca de 12 mil habitantes y hasta 3.500 personas por equipo, harían falta más de 3 equipos."}}
+},
+"revalida_2023-1_q091": {
+ "pt": {"resumo": "Mudança do padrão de uma cefaleia antiga, que passa a ser diária, holocraniana, mais intensa e com despertar noturno, é sinal de alarme. Exige neuroimagem, de preferência ressonância magnética.",
+  "alternativas": {"A": "Punção lombar não é o primeiro exame e pode ser perigosa sem imagem prévia.", "B": "Reiniciar profilaxia sem investigar ignora os sinais de alarme.", "C": "Correta: ressonância magnética de encéfalo.", "D": "Profilaxia antes de excluir causa secundária é inadequada."}},
+ "es": {"resumo": "El cambio de patrón de una cefalea antigua, que pasa a ser diaria, holocraneal, más intensa y con despertar nocturno, es un signo de alarma. Exige neuroimagen, preferentemente resonancia magnética.",
+  "alternativas": {"A": "La punción lumbar no es el primer examen y puede ser peligrosa sin imagen previa.", "B": "Reiniciar la profilaxis sin estudiar ignora los signos de alarma.", "C": "Correcta: resonancia magnética de encéfalo.", "D": "La profilaxis antes de excluir una causa secundaria es inadecuada."}}
+},
+"revalida_2023-1_q092": {
+ "pt": {"resumo": "Homem acima de 50 anos sem história familiar, com pólipo hiperplásico pequeno no reto (lesão sem risco aumentado). Segundo o gabarito, enquadra-se no risco moderado (médio) da população geral, cujo rastreamento é pesquisa anual de sangue oculto nas fezes.",
+  "alternativas": {"A": "Colonoscopia anual não é o rastreio recomendado para esse grupo.", "B": "Colonoscopia anual não é recomendada; pólipo hiperplásico pequeno não muda o risco.", "C": "Segundo o gabarito, a idade acima de 50 anos coloca o paciente em risco moderado.", "D": "Correta segundo o gabarito: risco moderado e sangue oculto anual."}},
+ "es": {"resumo": "Hombre mayor de 50 años sin historia familiar, con un pólipo hiperplásico pequeño en el recto (lesión sin riesgo aumentado). Según la clave, se ubica en el riesgo moderado (medio) de la población general, cuyo tamizaje es la búsqueda anual de sangre oculta en heces.",
+  "alternativas": {"A": "La colonoscopia anual no es el tamizaje recomendado para este grupo.", "B": "No se recomienda colonoscopia anual; un pólipo hiperplásico pequeño no cambia el riesgo.", "C": "Según la clave, la edad mayor de 50 años ubica al paciente en riesgo moderado.", "D": "Correcta según la clave: riesgo moderado y sangre oculta anual."}}
+},
+"revalida_2023-1_q093": {
+ "pt": {"resumo": "No suporte avançado pediátrico: avaliar responsividade, chamar ajuda, checar pulso central (carotídeo ou femoral na criança) e respiração juntos, em até 10 segundos. Sem pulso, começar compressões, 15:2 com dois socorristas no ambiente hospitalar.",
+  "alternativas": {"A": "Correta: responsividade, ajuda, pulso carotídeo com respiração e 15:2.", "B": "Pulso radial não é usado, e 30:2 é para um socorrista só.", "C": "Ordem invertida e pulso periférico, que não é confiável.", "D": "Não avalia a responsividade primeiro e usa 30:2."}},
+ "es": {"resumo": "En el soporte vital avanzado pediátrico: evaluar la respuesta, pedir ayuda, comprobar pulso central (carotídeo o femoral en el niño) y respiración juntos, en hasta 10 segundos. Sin pulso, iniciar compresiones, 15:2 con dos reanimadores en el hospital.",
+  "alternativas": {"A": "Correcta: respuesta, ayuda, pulso carotídeo con respiración y 15:2.", "B": "No se usa el pulso radial, y 30:2 es para un solo reanimador.", "C": "Orden invertido y pulso periférico, que no es confiable.", "D": "No evalúa primero la respuesta y usa 30:2."}}
+},
+"revalida_2023-1_q094": {
+ "pt": {"resumo": "Atraso menstrual, dor em fossa ilíaca com irritação peritoneal, sangramento discreto, dor anexial e taquicardia com PA baixa: gravidez ectópica até prova em contrário. Confirma-se com beta-hCG e ultrassonografia transvaginal, sem atrasar a conduta se houver instabilidade.",
+  "alternativas": {"A": "Correta: ectópica, investigada com beta-hCG e ultrassom transvaginal.", "B": "Torção anexial não explica atraso menstrual e sangramento.", "C": "DIP cursa com febre e corrimento, ausentes aqui.", "D": "Cisto roto entra no diferencial, mas o atraso menstrual aponta para gravidez, e a tomografia não é o exame."}},
+ "es": {"resumo": "Atraso menstrual, dolor en fosa ilíaca con irritación peritoneal, sangrado leve, dolor anexial y taquicardia con PA baja: embarazo ectópico hasta que se demuestre lo contrario. Se confirma con beta-hCG y ecografía transvaginal, sin retrasar la conducta si hay inestabilidad.",
+  "alternativas": {"A": "Correcta: ectópico, estudiado con beta-hCG y ecografía transvaginal.", "B": "La torsión anexial no explica el atraso menstrual ni el sangrado.", "C": "La EPI cursa con fiebre y flujo, ausentes aquí.", "D": "El quiste roto entra en el diferencial, pero el atraso menstrual apunta a embarazo, y la tomografía no es el examen."}}
+},
+"revalida_2023-1_q095": {
+ "pt": {"resumo": "O Conselho Federal de Medicina permite discutir casos em grupos de mensagens formados só por médicos e exclusivos para esse fim, desde que se mantenha o caráter confidencial das informações (Parecer CFM 14/2017).",
+  "alternativas": {"A": "Grupo recreativo não é ambiente adequado para discutir pacientes.", "B": "O parecer exige sigilo, não autorização expressa do paciente para cada discussão.", "C": "Correta: grupo exclusivo de médicos, mantendo a confidencialidade.", "D": "O uso é permitido nas condições do parecer."}},
+ "es": {"resumo": "El Consejo Federal de Medicina de Brasil permite discutir casos en grupos de mensajería formados solo por médicos y exclusivos para ese fin, siempre que se mantenga la confidencialidad de la información (Dictamen CFM 14/2017).",
+  "alternativas": {"A": "Un grupo recreativo no es un espacio adecuado para discutir pacientes.", "B": "El dictamen exige confidencialidad, no autorización expresa del paciente para cada discusión.", "C": "Correcta: grupo exclusivo de médicos, manteniendo la confidencialidad.", "D": "El uso está permitido en las condiciones del dictamen."}}
+},
+"revalida_2023-1_q096": {
+ "pt": {"resumo": "Paciente com lesão neurológica grave (Glasgow abaixo de 8) e previsão de ventilação prolongada: as diretrizes brasileiras de ventilação mecânica recomendam traqueostomia precoce, em até 7 dias de intubação.",
+  "alternativas": {"A": "Esperar 14 dias é a conduta tardia, não recomendada nesse perfil.", "B": "Correta: traqueostomia precoce em até 7 dias.", "C": "Cricotireoidostomia é via aérea de emergência, não definitiva.", "D": "Com Glasgow abaixo de 8 não há proteção de via aérea para extubar."}},
+ "es": {"resumo": "Paciente con lesión neurológica grave (Glasgow menor de 8) y previsión de ventilación prolongada: las directrices brasileñas de ventilación mecánica recomiendan traqueostomía precoz, en hasta 7 días de intubación.",
+  "alternativas": {"A": "Esperar 14 días es la conducta tardía, no recomendada en este perfil.", "B": "Correcta: traqueostomía precoz en hasta 7 días.", "C": "La cricotiroidotomía es una vía aérea de emergencia, no definitiva.", "D": "Con Glasgow menor de 8 no hay protección de la vía aérea para extubar."}}
+},
+"revalida_2023-1_q097": {
+ "pt": {"resumo": "Etilista com dor abdominal difusa, vômitos, icterícia, febre baixa, leucocitose e amilase e lipase elevadas, sem irritação peritoneal: abdome agudo inflamatório por pancreatite aguda.",
+  "alternativas": {"A": "Úlcera perfurada cursaria com irritação peritoneal e pneumoperitônio.", "B": "Correta: pancreatite aguda.", "C": "Não há parada de eliminação de gases e fezes nem distensão.", "D": "Isquemia mesentérica é dor desproporcional com lactato muito alto; o quadro favorece pancreatite."}},
+ "es": {"resumo": "Alcohólico con dolor abdominal difuso, vómitos, ictericia, fiebre baja, leucocitosis y amilasa y lipasa elevadas, sin irritación peritoneal: abdomen agudo inflamatorio por pancreatitis aguda.",
+  "alternativas": {"A": "La úlcera perforada cursaría con irritación peritoneal y neumoperitoneo.", "B": "Correcta: pancreatitis aguda.", "C": "No hay detención de gases y heces ni distensión.", "D": "La isquemia mesentérica es dolor desproporcionado con lactato muy alto; el cuadro favorece la pancreatitis."}}
+},
+"revalida_2023-1_q098": {
+ "pt": {"resumo": "Crianças com síndrome de Down têm padrão de crescimento próprio. A avaliação nutricional usa curvas antropométricas específicas para a síndrome, por idade e sexo.",
+  "alternativas": {"A": "As necessidades são estimadas por métodos próprios, não pelo peso ideal de curvas gerais.", "B": "O peso é medida global e não reflete diretamente a massa proteica.", "C": "Correta: usar curvas específicas para síndrome de Down.", "D": "A estimativa de altura pelo comprimento da perna não é o método padrão para crianças."}},
+ "es": {"resumo": "Los niños con síndrome de Down tienen un patrón de crecimiento propio. La evaluación nutricional usa curvas antropométricas específicas del síndrome, por edad y sexo.",
+  "alternativas": {"A": "Las necesidades se estiman con métodos propios, no por el peso ideal de curvas generales.", "B": "El peso es una medida global y no refleja directamente la masa proteica.", "C": "Correcta: usar curvas específicas para síndrome de Down.", "D": "La estimación de la talla por la longitud de la pierna no es el método estándar en niños."}}
+},
+"revalida_2023-1_q099": {
+ "pt": {"resumo": "Lesão intraepitelial escamosa de alto grau (HSIL) na citologia exige colposcopia, na atenção secundária, para biópsia dirigida ou tratamento.",
+  "alternativas": {"A": "Repetir em 6 meses é para ASC-US e LSIL.", "B": "Repetir a citologia atrasa o diagnóstico de uma lesão de alto grau.", "C": "Correta: encaminhar para colposcopia.", "D": "A conização pode ocorrer depois da colposcopia, não antes."}},
+ "es": {"resumo": "La lesión intraepitelial escamosa de alto grado (HSIL) en la citología exige colposcopia, en la atención secundaria, para biopsia dirigida o tratamiento.",
+  "alternativas": {"A": "Repetir a los 6 meses es para ASC-US y LSIL.", "B": "Repetir la citología retrasa el diagnóstico de una lesión de alto grado.", "C": "Correcta: derivar a colposcopia.", "D": "La conización puede ocurrir después de la colposcopia, no antes."}}
+},
+"revalida_2023-1_q100": {
+ "pt": {"resumo": "No modelo de Dahlgren e Whitehead, idade, sexo e fatores hereditários ficam no centro (base), e o estilo de vida individual fica no limiar entre fatores individuais e determinantes sociais, cercado por redes sociais, condições de vida e trabalho e condições gerais.",
+  "alternativas": {"A": "O modelo inclui também condições de vida, de trabalho e condições gerais da sociedade.", "B": "Condições de vida e trabalho orientam diretamente as ações no território.", "C": "O modelo não diz que hereditariedade e estilo de vida são os mais importantes.", "D": "Correta: indivíduo na base e estilo de vida no limiar com os determinantes sociais."}},
+ "es": {"resumo": "En el modelo de Dahlgren y Whitehead, edad, sexo y factores hereditarios están en el centro (base), y el estilo de vida individual queda en el límite entre los factores individuales y los determinantes sociales, rodeado por redes sociales, condiciones de vida y trabajo y condiciones generales.",
+  "alternativas": {"A": "El modelo incluye también condiciones de vida, de trabajo y condiciones generales de la sociedad.", "B": "Las condiciones de vida y trabajo orientan directamente las acciones en el territorio.", "C": "El modelo no dice que la herencia y el estilo de vida sean los más importantes.", "D": "Correcta: el individuo en la base y el estilo de vida en el límite con los determinantes sociales."}}
+}
+}

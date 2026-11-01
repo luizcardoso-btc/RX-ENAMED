@@ -1,0 +1,262 @@
+{
+ "edicao": "Revalida 2023.2",
+ "fonte": "Inep – Prova discursiva, padrão de resposta definitivo",
+ "discursivas": [
+  {
+   "id": "revalida_2023-2_d1",
+   "numero": 1,
+   "area": "Clínica Médica",
+   "especialidade": "Cardiologia",
+   "tema": "Fibrilação atrial com oclusão arterial aguda do membro superior",
+   "figuras": [
+    "revalida_2023-2_disc1_ecg.png"
+   ],
+   "enunciado": [
+    "Uma mulher de 77 anos, professora de matemática aposentada, faz sua primeira visita à unidade básica de saúde (UBS) após mudar-se de região. Ela vai à consulta porque está sentindo dificuldade para segurar objetos e percebe que sua mão está mais fria. Conta que sente dor e formigamento na mão direita, os quais começaram subitamente ontem, por volta das 15h; ela não apresenta outras queixas. A paciente faz tratamento para hipertensão e para diabetes diagnosticados há mais de 10 anos. Ela toma, regularmente, enalapril 10 mg de manhã e metformina 850 mg, 3 vezes ao dia. Suas mucosas estão bem coradas e a ausculta cardíaca revela um ritmo irregularmente irregular com uma frequência aproximada de 60 a 80 batimentos por minuto e, ao exame, é possível perceber uma variação na intensidade do som da primeira bulha cardíaca de batimento para batimento. Além disso, não é possível visualizar onda a normal no pulso venoso jugular. O médico, então, examina a mão direita de forma comparativa e conclui que a mão está mal perfundida. A mão da paciente está pálida e o pulso radial direito está mais fraco se comparado com o esquerdo. O enchimento capilar está lentificado nos dedos da mão direita.",
+    "A imagem a seguir apresenta um eletrocardiograma (ECG).",
+    "[FIG:1]"
+   ],
+   "itens": [
+    {
+     "letra": "a",
+     "pergunta": "Com base no ritmo cardíaco observado pelo médico no exame físico, qual é o diagnóstico clínico mais provável? Caso seja escrito mais de um diagnóstico, será considerado apenas o primeiro.",
+     "valor": 3.0,
+     "padrao": [
+      "Fibrilação atrial (ou auricular) é o diagnóstico clínico mais provável (3,0 pontos)."
+     ]
+    },
+    {
+     "letra": "b",
+     "pergunta": "Cite três fatores de risco dessa paciente para o desenvolvimento da alteração de ritmo verificada no ECG. Serão pontuados apenas os três primeiros fatores indicados.",
+     "valor": 3.0,
+     "padrao": [
+      "Idade (idoso ou idade avançada), hipertensão e diabetes mellitus (1,0 ponto para cada item)."
+     ]
+    },
+    {
+     "letra": "c",
+     "pergunta": "Quais devem ser as condutas médicas em relação à queixa principal da paciente? Definir quatro condutas. Serão pontuadas apenas as quatro primeiras condutas indicadas.",
+     "valor": 4.0,
+     "padrao": [
+      "Internação hospitalar em unidade de terapia intensiva ou box de emergência com monitorização cardíaca (1,0 ponto).",
+      "Manejo da obstrução arterial aguda: anticoagulação sistêmica (anticoagulantes orais ou venosos) para preservar a perfusão da mão direita e evitar amputação (1,0 ponto).",
+      "Trombólise, trombectomia, embolectomia e/ou by-pass arterial (0,5 ponto); doppler, angiotomografia, angiorressonância e/ou arteriografia (0,5 ponto).",
+      "Avaliação de cirurgião vascular (ou angiologista ou cirurgião cardiovascular) ou encaminhamento para centro de referência (1,0 ponto).",
+      "Manejo da fibrilação atrial: sem necessidade de cardioversão ou de antiarrítmicos, pois a paciente está assintomática quanto à FA, com frequência cardíaca de 60 a 80 bpm (1,0 ponto)."
+     ]
+    }
+   ],
+   "referencias": [
+    "II Diretrizes Brasileiras de Fibrilação Atrial. Arq Bras Cardiol 2016;106(4 Supl. 2):1-22.",
+    "Harrison – Medicina Interna, 20ª ed. (fibrilação atrial; doenças arteriais das extremidades)."
+   ]
+  },
+  {
+   "id": "revalida_2023-2_d2",
+   "numero": 2,
+   "area": "Cirurgia",
+   "especialidade": "Cirurgia do aparelho digestivo",
+   "tema": "Câncer de cabeça de pâncreas irressecável",
+   "figuras": [],
+   "enunciado": [
+    "Um homem branco de 68 anos, aposentado, vai a uma consulta no ambulatório de cirurgia geral após ser encaminhado pela unidade básica de saúde (UBS). Ele apresenta queixa de dor abdominal há 2 meses — epigástrica, sem relação com alimentação — e perda de 20 kg em 3 meses. Há 1 mês vem apresentando icterícia, colúria, acolia e prurido cutâneo. O paciente é etilista de cerca de 20 g de etanol ao dia e tabagista de 20 maços/ano. Tem hipertensão arterial sistêmica, gastrite crônica e diabetes mellitus tipo 2, o qual foi diagnosticado há 1 ano. Ele faz uso contínuo de losartana 50 mg/dia, de hidroclorotiazida 25 mg/dia, de omeprazol 20 mg/dia e de metformina 850 mg 2 vezes ao dia.",
+    "Ao exame físico, apresenta bom estado geral, hipocorado +/4+, hidratado, eupneico, ictérico 3+/4+ e acianótico; peso de 98 kg, altura de 1,80 m, frequência cardíaca de 88 batimentos por minuto, pressão arterial de 140 × 88 mmHg; palpação de massa arredondada abaixo do bordo costal direito, de consistência fibroelástica, indolor; dor à palpação profunda em quadrante superior direito abdominal, ruídos hidroaéreos presentes, descompressão brusca negativa; os demais aspectos do exame físico apresentam-se sem particularidades.",
+    "Exames séricos: hemoglobina 12,5 g/dL (VR 13 a 15); hematócrito 38% (VR 41 a 54%); bilirrubinas totais 18,8 mg/dL (VR 0,3 a 1,0); bilirrubina direta 16,4 mg/dL (VR 0,1 a 0,3); bilirrubina indireta 2,4 mg/dL (VR 0,2 a 0,7); TGO 180 U/L (VR 0 a 35); TGP 194 U/L (VR 0 a 35); fosfatase alcalina 348 U/L (VR 30 a 120); gama-GT 138 U/L (VR 1 a 94); INR 1,8 (VR 0,8 a 1,2); glicemia de jejum 199 mg/dL (VR 70 a 100); hemoglobina glicada 9% (VR < 5,6%); ureia 54 mg/dL (VR 10 a 45); creatinina 1,4 mg/dL (VR 0,6 a 1,2); amilase 21 U/L (VR 20 a 160); lipase 22 U/L (VR 8 a 60); antígeno carcinoembrionário 12 ng/mL (VR 0,2 a 5); CA 19-9 950 U/mL (VR 0,6 a 37).",
+    "Tomografia computadorizada de abdome: massa sólida em cabeça do pâncreas com 5 cm de diâmetro, com sinais de invasão duodenal e de vasos mesentéricos. Dilatação acentuada das vias biliares intra e extra-hepáticas. Vesícula biliar aumentada de volume, com paredes finas e conteúdo homogêneo em seu interior. Tomografia computadorizada de tórax: normal."
+   ],
+   "itens": [
+    {
+     "letra": "a",
+     "pergunta": "Cite três fatores de risco para neoplasia de pâncreas apresentados nesse caso. Serão pontuados apenas os três primeiros fatores de risco indicados.",
+     "valor": 1.5,
+     "padrao": [
+      "Tabagismo, obesidade, diabetes de início recente, idade acima de 60 anos, sexo masculino, etilismo (0,5 ponto cada, até 1,5 ponto).",
+      "Hipertensão arterial, gastrite e anemia não são fatores de risco para neoplasia de pâncreas."
+     ]
+    },
+    {
+     "letra": "b",
+     "pergunta": "Quais são as duas utilidades do exame CA 19-9 nesse caso? Serão pontuadas apenas as duas primeiras utilidades indicadas.",
+     "valor": 2.0,
+     "padrao": [
+      "Auxiliar no diagnóstico clínico; vigilância da evolução (resposta à quimioterapia); indicação de laparoscopia; avaliação prognóstica (1,0 ponto cada, até 2,0 pontos)."
+     ]
+    },
+    {
+     "letra": "c",
+     "pergunta": "O que significa a massa palpável encontrada no exame físico?",
+     "valor": 2.0,
+     "padrao": [
+      "Vesícula biliar distendida e palpável, ou sinal de Courvoisier-Terrier, ou sinal indicativo de neoplasia periampular (2,0 pontos)."
+     ]
+    },
+    {
+     "letra": "d",
+     "pergunta": "Cite duas condutas clínicas e três condutas cirúrgicas possíveis para esse paciente. Serão pontuadas apenas as cinco primeiras condutas indicadas.",
+     "valor": 4.5,
+     "padrao": [
+      "Cada conduta vale 0,9 ponto.",
+      "Clínicas: terapia nutricional (suplementação oral, sonda nasoenteral), reposição de vitamina K, medicações para o prurido (ácido ursodesoxicólico, anti-histamínico), analgesia, controle da glicemia, quimioterapia paliativa ou exclusiva, quimiorradioterapia, radioterapia exclusiva, imunoterapia.",
+      "Cirúrgicas ou endoscópicas: prótese biliar, derivação biliodigestiva (coledocojejuno, hepaticojejuno ou coledocoduodenoanastomose), gastroenteroanastomose, jejunostomia alimentar, drenagem biliar percutânea, colecistostomia, duodenopancreatectomia (Whipple), drenagem da via biliar com dreno de Kehr, biópsia da lesão, prótese duodenal, neurólise ou bloqueio do plexo celíaco."
+     ]
+    }
+   ],
+   "referencias": [
+    "Sabiston – Tratado de Cirurgia, 2019.",
+    "NCCN Guidelines for Pancreatic Adenocarcinoma 2023.2.",
+    "INCA – câncer de pâncreas."
+   ]
+  },
+  {
+   "id": "revalida_2023-2_d3",
+   "numero": 3,
+   "area": "Pediatria",
+   "especialidade": "Pneumologia pediátrica",
+   "tema": "Crise de asma grave na criança",
+   "figuras": [],
+   "enunciado": [
+    "Uma paciente de 7 anos vai a um pronto-socorro acompanhada de sua mãe. Essa paciente é asmática e apresenta crise de sibilância de repetição desde o primeiro ano de vida. Ela faz uso de beclometasona 200 mcg/dia e há relato de várias internações por asma — uma, inclusive, com necessidade de terapia intensiva. A mãe informa que a paciente começou a apresentar início de tosse seca frequente, dor torácica e gemência há cerca de 2 horas, quando inalou fumaça de um pneu queimado na rua.",
+    "Ao exame físico, a paciente apresenta agitação alternada com leve sonolência e incapacidade de falar frases, ou seja, ela pronuncia somente palavras; frequência respiratória de 60 incursões respiratórias por minuto, frequência cardíaca de 156 batimentos por minuto, temperatura axilar de 36,8 °C, saturação de O2 no oxímetro de pulso (ar ambiente) de 88%; tiragens intercostais, batimento de aletas nasais, diminuição difusa de murmúrio vesicular e presença de sibilos bilaterais.",
+    "No pronto-socorro, a paciente começa a usar salbutamol inalatório na dose de 600 mcg; 20 minutos depois do ciclo de salbutamol, a saturação de O2 vai para 89%, mantendo dispneia importante."
+   ],
+   "itens": [
+    {
+     "letra": "a",
+     "pergunta": "Classifique a crise de asma da paciente de acordo com a gravidade. Justifique sua resposta citando, ao menos, cinco dados clínicos verificados nesse caso. Serão pontuados apenas os cinco primeiros dados clínicos indicados.",
+     "valor": 2.0,
+     "padrao": [
+      "Crise asmática aguda grave, ou crise de asma grave ou muito grave (1,0 ponto).",
+      "Justificativa (0,2 ponto por item, até 1,0 ponto com 5 itens): dispneia importante ou uso de musculatura acessória (tiragens, batimento de aletas nasais); alteração do sensório (agitação, sonolência); fala apenas em palavras; frequência cardíaca alta; frequência respiratória alta; saturação de O2 abaixo de 90%; diminuição difusa do murmúrio vesicular; PFE ≤ 50% do previsto; sentar-se inclinado para frente."
+     ]
+    },
+    {
+     "letra": "b",
+     "pergunta": "Há necessidade de exames complementares no atendimento imediato e após estabilização no pronto-socorro? Justifique sua resposta.",
+     "valor": 2.0,
+     "padrao": [
+      "Momento inicial: não são necessários exames, pois antes de investigar complicações deve-se completar o tratamento inicial; ou medida do pico de fluxo expiratório (1,0 ponto).",
+      "Após completar o tratamento: com o histórico da paciente, pode-se aguardar a resposta; se não melhorar, avaliar hemograma e gasometria arterial (0,5 ponto) e radiografia de tórax (0,5 ponto)."
+     ]
+    },
+    {
+     "letra": "c",
+     "pergunta": "Cite quatro condutas a serem tomadas nesse momento imediato. Serão aceitas apenas as quatro primeiras condutas indicadas.",
+     "valor": 6.0,
+     "padrao": [
+      "Cada conduta vale 1,5 ponto (1,0 se faltar a dose, quando pedida).",
+      "Oxigênio para manter SatO2 acima de 94%.",
+      "Salbutamol (beta-2 agonista de curta duração) 400 a 1.000 mcg ou 4 a 10 jatos, a cada 20 minutos.",
+      "Brometo de ipratrópio 80 a 160 mcg, 3 vezes a cada 20 minutos.",
+      "Corticoide oral (1 a 2 mg/kg/dia) ou venoso.",
+      "Considerar sulfato de magnésio 50 a 75 mg/kg.",
+      "Considerar hidratação venosa.",
+      "Reavaliar e reclassificar após o início do tratamento, internando se não houver boa resposta.",
+      "Transferência para UTI."
+     ]
+    }
+   ],
+   "referencias": [
+    "Global Strategy for Asthma Management and Prevention (GINA), 2023.",
+    "Tratado de Pediatria da SBP, 5ª ed., 2022 – Asma aguda na urgência pediátrica."
+   ]
+  },
+  {
+   "id": "revalida_2023-2_d4",
+   "numero": 4,
+   "area": "Ginecologia e Obstetrícia",
+   "especialidade": "Ginecologia endócrina",
+   "tema": "Síndrome dos ovários policísticos",
+   "figuras": [],
+   "enunciado": [
+    "Uma paciente de 32 anos procura um ambulatório de ginecologia com queixa de irregularidade menstrual e de infertilidade, pois tenta engravidar há 7 anos sem sucesso. É casada há 9 anos e mantém relações sexuais regulares com o cônjuge, com média de 2 relações semanais. Nunca fez uso de nenhum método contraceptivo hormonal e tem períodos de amenorreia de até 6 meses. Queixa-se, também, de acne e de muitos pelos iniciados na adolescência, com piora progressiva na fase adulta. A paciente traz os exames solicitados pelo centro de saúde, mostrando níveis normais de TSH, T4 livre, prolactina, 17-OH progesterona, FSH e cortisol de 24 horas. Ela também apresenta um ultrassom transvaginal, o qual evidencia ovários direito e esquerdo medindo, respectivamente, 12 cm³ e 15 cm³, ambos de padrão multifolicular com pelo menos 12 folículos cada. À inspeção, nota-se pilificação aumentada no rosto, membros superiores, dorso e abdômen, com escala de Ferriman-Gallwey de 18. Altura de 1,62 m; peso de 71 kg; pressão arterial de 120 × 80 mmHg. Os resultados do exame ginecológico especular e de toque não apresentaram alterações."
+   ],
+   "itens": [
+    {
+     "letra": "a",
+     "pergunta": "Qual é a hipótese diagnóstica desse caso? Caso seja escrita mais de uma hipótese diagnóstica, será considerada apenas a primeira.",
+     "valor": 2.5,
+     "padrao": [
+      "Síndrome dos ovários policísticos (SOP), síndrome da anovulação crônica (hiperandrogênica), ovários policísticos ou micropolicistose ovariana (2,5 pontos)."
+     ]
+    },
+    {
+     "letra": "b",
+     "pergunta": "Cite três achados observados no caso apresentado que levam ao estabelecimento da hipótese diagnóstica. Serão pontuados apenas os três primeiros fatores indicados.",
+     "valor": 3.0,
+     "padrao": [
+      "Hiperandrogenismo: hirsutismo, pilificação aumentada ou Ferriman-Gallwey de 18 (1,0 ponto).",
+      "Oligo-ovulação ou anovulação: irregularidade menstrual, amenorreia (1,0 ponto).",
+      "Morfologia policística dos ovários: ovários acima de 10 cm³ ou mais de 10 folículos por ovário (1,0 ponto)."
+     ]
+    },
+    {
+     "letra": "c",
+     "pergunta": "Cite três diagnósticos diferenciais que devem ser considerados nesse caso. Serão pontuados apenas os três primeiros diagnósticos diferenciais indicados.",
+     "valor": 1.5,
+     "padrao": [
+      "0,5 ponto cada, até 1,5 ponto: gravidez, hipo ou hipertireoidismo, hiperprolactinemia, amenorreia hipotalâmica, hiperplasia adrenal congênita, tumores de ovário, tumores de adrenal, síndrome de Cushing, insuficiência ovariana precoce."
+     ]
+    },
+    {
+     "letra": "d",
+     "pergunta": "Cite três possíveis complicações decorrentes desse diagnóstico. Serão pontuadas apenas as três primeiras complicações indicadas.",
+     "valor": 3.0,
+     "padrao": [
+      "1,0 ponto cada, até 3,0 pontos: resistência insulínica, diabetes mellitus, dislipidemia, síndrome metabólica, obesidade ou sobrepeso, hipertensão arterial, eventos cardiovasculares (infarto, AVC), infertilidade, abortamento, parto pré-termo, diabetes gestacional, hiperplasia e câncer de endométrio, apneia do sono, esteatose hepática (NAFLD, NASH), cirrose, ansiedade, depressão."
+     ]
+    }
+   ],
+   "referencias": [
+    "International Evidence-based Guideline for the Assessment and Management of PCOS, 2023.",
+    "CONITEC – Protocolos clínicos e diretrizes terapêuticas."
+   ]
+  },
+  {
+   "id": "revalida_2023-2_d5",
+   "numero": 5,
+   "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+   "especialidade": "Atenção primária",
+   "tema": "Infarto com supra de ST na unidade básica",
+   "figuras": [],
+   "enunciado": [
+    "Um homem de 56 anos comparece, em demanda espontânea, à unidade básica de saúde (UBS) com queixa de dor precordial há 6 horas, a qual irradia para o pescoço, o ombro e o braço esquerdos. Ele é portador de hipertensão arterial sistêmica, tabagista há 30 anos, com Escore de Risco Global de Framingham de 22 pontos e faz uso regular de hidroclorotiazida 25 mg, 1 comprimido de manhã, e de losartana 50 mg, 1 comprimido de manhã e 1 comprimido à noite. Nega alergias ou outras comorbidades. Ao exame físico, apresenta pressão arterial de 160 × 100 mmHg e saturação de O2 de 86%, sem outras alterações detectadas.",
+    "O eletrocardiograma com 12 derivações, realizado na UBS no momento do atendimento e com o paciente ainda com dor, apresentou ritmo cardíaco sinusal regular, frequência cardíaca de 105 batimentos por minuto, eixo QRS sem desvio, supradesnivelamento de segmento ST de V1 a V4."
+   ],
+   "itens": [
+    {
+     "letra": "a",
+     "pergunta": "Qual a hipótese diagnóstica mais provável no caso desse paciente? Caso seja escrita mais de uma hipótese diagnóstica, será considerada apenas a primeira.",
+     "valor": 3.0,
+     "padrao": [
+      "Adequado (3,0 pontos): infarto agudo do miocárdio (IAM), cardiopatia isquêmica, síndrome coronariana aguda, IAM com supradesnivelamento de ST de parede anterior.",
+      "Parcialmente adequado (1,5 ponto): infarto do miocárdio.",
+      "Inadequado (0 ponto): infarto, angina (típica, atípica, estável ou instável), dor torácica, doença coronariana."
+     ]
+    },
+    {
+     "letra": "b",
+     "pergunta": "Cite as sete principais medidas de abordagem imediata do caso clínico apresentado na UBS. Serão pontuadas apenas as sete primeiras medidas indicadas.",
+     "valor": 4.0,
+     "padrao": [
+      "Monitorar sinais vitais (consciência, PA, FC, FR e SpO2); oxigênio; ácido acetilsalicílico 300 mg; nitratos; morfina se não houver resposta aos nitratos; acesso venoso calibroso; referenciar para serviço de emergência com transporte seguro o mais cedo possível.",
+      "Adequado (4,0 pontos): 6 ou 7 medidas. Parcial (2,0 pontos): 3 a 5 medidas. Inadequado: 1 ou 2 medidas."
+     ]
+    },
+    {
+     "letra": "c",
+     "pergunta": "Indique o tipo de transporte seguro para a condição clínica do paciente.",
+     "valor": 3.0,
+     "padrao": [
+      "Adequado (3,0 pontos): ambulância de suporte avançado (USA, UTI móvel) ou ambulância de suporte básico com o médico da UBS na equipe de transporte.",
+      "Parcial (2,0 pontos): ambulância de suporte básico sem mencionar o médico da UBS.",
+      "Inadequado: transporte por meios próprios, não encaminhar ou dar alta."
+     ]
+    }
+   ],
+   "referencias": [
+    "Diretrizes da SBC sobre Angina Instável e IAM sem supradesnível de ST, 2021.",
+    "Atualização da Diretriz de Prevenção Cardiovascular da SBC, 2019."
+   ]
+  }
+ ]
+}

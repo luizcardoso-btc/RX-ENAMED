@@ -1,0 +1,194 @@
+{
+  "id": "go-hemorragia-pos-parto",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "mentor": "marina",
+  "duracaoMin": 15,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2023-1_q059",
+    "revalida_2023-2_q064",
+    "revalida_2022-2_q004"
+  ],
+  "referencias": [
+    "Organização Pan-Americana da Saúde. Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica (Estratégia Zero Morte Materna por Hemorragia). Brasília: OPAS, 2018.",
+    "WHO. Recommendations on the prevention and treatment of postpartum haemorrhage, 2023 (inclui o ácido tranexâmico, estudo WOMAN).",
+    "FEBRASGO. Hemorragia pós-parto e infecção puerperal. Protocolos FEBRASGO de Obstetrícia, 2021."
+  ],
+  "pt": {
+    "titulo": "Hemorragia pós-parto e infecção puerperal: 4 Ts, índice de choque e antibiótico certo",
+    "resumo": "A hemorragia pós-parto é a principal causa de morte materna no mundo e uma das primeiras no Brasil. A banca pede a causa pelos 4 Ts, a sequência de uterotônicos, o ácido tranexâmico e o índice de choque. Na infecção puerperal, cai o esquema clindamicina com gentamicina.",
+    "secoes": [
+      {
+        "titulo": "Definição e prevenção",
+        "paragrafos": [],
+        "itens": [
+          "Perda acima de 500 mL após parto vaginal ou acima de 1.000 mL após cesárea, ou qualquer perda que cause instabilidade hemodinâmica.",
+          "Primária: nas primeiras 24 horas. Secundária: de 24 horas até 12 semanas após o parto (restos, infecção, subinvolução).",
+          "Prevenção universal: ocitocina 10 UI IM logo após o nascimento, mais tração controlada do cordão e vigilância do tônus uterino."
+        ]
+      },
+      {
+        "titulo": "Causas: os 4 Ts",
+        "paragrafos": [
+          "Até prova em contrário, hemorragia pós-parto é atonia. Útero amolecido e acima da cicatriz umbilical confirma."
+        ],
+        "itens": [
+          "Tônus (cerca de 70%): atonia uterina. Fatores de risco: sobredistensão (gemelar, polidrâmnio, macrossomia), trabalho de parto prolongado ou muito rápido, multiparidade, corioamnionite e uso prolongado de ocitocina.",
+          "Trauma (cerca de 20%): lacerações de trajeto, hematomas, rotura e inversão uterina. Útero contraído e sangramento vermelho vivo contínuo sugerem laceração.",
+          "Tecido (cerca de 10%): retenção de placenta ou de cotilédones. Placenta incompleta à revisão ou dequitação além de 30 minutos.",
+          "Trombina (1%): coagulopatia, como na CIVD por descolamento de placenta, embolia amniótica ou pré-eclâmpsia grave."
+        ]
+      },
+      {
+        "titulo": "Gravidade: índice de choque",
+        "paragrafos": [
+          "Índice de choque = frequência cardíaca ÷ pressão sistólica. A estimativa visual subestima a perda."
+        ],
+        "itens": [
+          "Exemplo: FC 112 bpm e PA 90 × 50 mmHg → 112 ÷ 90 = 1,24.",
+          "Índice de 0,9 ou mais sugere perda importante; 1,4 ou mais indica necessidade de transfusão e de abordagem agressiva, provavelmente com protocolo de transfusão maciça; 1,7 ou mais é altíssimo risco.",
+          "Primeira hora (hora de ouro): chamar ajuda, dois acessos calibrosos, Ringer lactato aquecido, oxigênio, sondagem vesical, exames e reserva de sangue."
+        ]
+      },
+      {
+        "titulo": "Tratamento da atonia",
+        "paragrafos": [
+          "Comece com massagem uterina bimanual e uterotônicos em sequência rápida. O ácido tranexâmico entra junto, assim que se faz o diagnóstico."
+        ],
+        "itens": [
+          "Ocitocina: 5 UI IV lento seguida de 20–40 UI em 500 mL a 250 mL/h, com dose de manutenção.",
+          "Metilergometrina: 0,2 mg IM, contraindicada em hipertensas e pré-eclâmpticas.",
+          "Misoprostol: 800 mcg via retal (ação mais lenta; não atrasar os passos seguintes).",
+          "Ácido tranexâmico: 1 g IV em 10 minutos, o mais cedo possível e até 3 horas após o parto; repetir 1 g se o sangramento persistir após 30 minutos.",
+          "Sem resposta: balão de tamponamento intrauterino (traje antichoque não pneumático como ponte) e, se falhar, cirurgia: suturas compressivas (B-Lynch), ligaduras vasculares e histerectomia."
+        ],
+        "figuras": [
+          {
+            "arquivo": "aula_hpp_atonia_pt.svg",
+            "alt": "Fluxograma: massagem uterina bimanual, depois ocitocina, metilergometrina, misoprostol, balão de tamponamento e cirurgia, cada etapa após falha da anterior; ácido tranexâmico em paralelo.",
+            "legenda": "Sequência da atonia uterina. O ácido tranexâmico entra em paralelo, até 3 horas do parto."
+          }
+        ]
+      },
+      {
+        "titulo": "Inversão uterina",
+        "paragrafos": [],
+        "itens": [
+          "Quadro: dor intensa, sangramento, massa vaginal sangrante, fundo uterino não palpável no abdome e choque desproporcional ao sangramento (componente vagal, com bradicardia).",
+          "Conduta: reposição volêmica e reposição imediata do útero (manobra de Taxe), sem retirar a placenta antes. Se o útero estiver contraído, relaxar com terbutalina, sulfato de magnésio, nitroglicerina ou anestesia geral. Após reposicionar, ocitocina.",
+          "Se a redução manual falhar: correção cirúrgica (Huntington ou Haultain)."
+        ]
+      },
+      {
+        "titulo": "Infecção puerperal",
+        "paragrafos": [
+          "É a infecção do trato genital após o parto; a endometrite é a forma mais comum e a principal causa de febre no puerpério."
+        ],
+        "itens": [
+          "Morbidade febril puerperal: temperatura de 38 °C ou mais em 2 dias quaisquer dos primeiros 10 dias, excluídas as primeiras 24 horas.",
+          "Principal fator de risco: cesárea, sobretudo após trabalho de parto e com bolsa rota prolongada. Outros: muitos toques, corioamnionite, obesidade, diabetes, anemia e retenção de restos.",
+          "Clínica: febre, dor pélvica, lóquios fétidos e útero doloroso, amolecido e subinvoluído (tríade de Bumm).",
+          "Tratamento: internação e antibiótico intravenoso. Esquema clássico: clindamicina 900 mg 8/8 h + gentamicina 5 mg/kg/dia. Alternativa: ampicilina + gentamicina + metronidazol. Manter até 48–72 horas sem febre, sem necessidade de completar por via oral. A amamentação é mantida.",
+          "Restos placentários: esvaziamento uterino após iniciar o antibiótico.",
+          "Febre persistente após 72 horas de antibiótico: pensar em abscesso pélvico ou de parede, hematoma infectado e tromboflebite pélvica séptica (diagnóstico de exclusão, tratada com heparina)."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Índice de choque é FC dividida pela pressão sistólica, não pela diastólica.",
+      "Metilergometrina é proibida em hipertensas.",
+      "Ácido tranexâmico só funciona se dado cedo: até 3 horas do parto.",
+      "Útero contraído com sangramento contínuo: procure laceração, não dê mais ocitocina.",
+      "Infecção puerperal não suspende a amamentação."
+    ]
+  },
+  "es": {
+    "titulo": "Hemorragia posparto e infección puerperal: 4 T, índice de shock y antibiótico correcto",
+    "resumo": "La hemorragia posparto es la principal causa de muerte materna en el mundo y una de las primeras en Brasil. La prueba pide la causa por las 4 T, la secuencia de uterotónicos, el ácido tranexámico y el índice de shock. En la infección puerperal aparece el esquema clindamicina con gentamicina.",
+    "secoes": [
+      {
+        "titulo": "Definición y prevención",
+        "paragrafos": [],
+        "itens": [
+          "Pérdida de más de 500 mL tras parto vaginal o más de 1000 mL tras cesárea, o cualquier pérdida que cause inestabilidad hemodinámica.",
+          "Primaria: en las primeras 24 horas. Secundaria: de 24 horas a 12 semanas después del parto (restos, infección, subinvolución).",
+          "Prevención universal: oxitocina 10 UI IM poco después del nacimiento, más tracción controlada del cordón y vigilancia del tono uterino."
+        ]
+      },
+      {
+        "titulo": "Causas: las 4 T",
+        "paragrafos": [
+          "Hasta demostrar lo contrario, la hemorragia posparto es atonía. Útero blando y por encima del ombligo lo confirma."
+        ],
+        "itens": [
+          "Tono (cerca del 70 %): atonía uterina. Factores de riesgo: sobredistensión (gemelar, polihidramnios, macrosomía), trabajo de parto prolongado o muy rápido, multiparidad, corioamnionitis y uso prolongado de oxitocina.",
+          "Trauma (cerca del 20 %): desgarros del canal, hematomas, rotura e inversión uterina. Útero contraído con sangrado rojo vivo continuo sugiere desgarro.",
+          "Tejido (cerca del 10 %): retención de placenta o de cotiledones. Placenta incompleta en la revisión o alumbramiento de más de 30 minutos.",
+          "Trombina (1 %): coagulopatía, como la CID por desprendimiento de placenta, embolia de líquido amniótico o preeclampsia grave."
+        ]
+      },
+      {
+        "titulo": "Gravedad: índice de shock",
+        "paragrafos": [
+          "Índice de shock = frecuencia cardíaca ÷ presión sistólica. La estimación visual subestima la pérdida."
+        ],
+        "itens": [
+          "Ejemplo: FC 112 lpm y PA 90 × 50 mmHg → 112 ÷ 90 = 1,24.",
+          "Un índice de 0,9 o más sugiere pérdida importante; 1,4 o más indica necesidad de transfusión y de abordaje agresivo, probablemente con protocolo de transfusión masiva; 1,7 o más es altísimo riesgo.",
+          "Primera hora (hora de oro): pedir ayuda, dos accesos de grueso calibre, Ringer lactato tibio, oxígeno, sonda vesical, exámenes y reserva de sangre."
+        ]
+      },
+      {
+        "titulo": "Tratamiento de la atonía",
+        "paragrafos": [
+          "Empiece con masaje uterino bimanual y uterotónicos en secuencia rápida. El ácido tranexámico entra junto, en cuanto se hace el diagnóstico."
+        ],
+        "itens": [
+          "Oxitocina: 5 UI IV lenta seguida de 20–40 UI en 500 mL a 250 mL/h, con dosis de mantenimiento.",
+          "Metilergometrina: 0,2 mg IM, contraindicada en hipertensas y preeclámpticas.",
+          "Misoprostol: 800 mcg vía rectal (acción más lenta; no retrasar los pasos siguientes).",
+          "Ácido tranexámico: 1 g IV en 10 minutos, lo antes posible y hasta 3 horas después del parto; repetir 1 g si el sangrado persiste a los 30 minutos.",
+          "Sin respuesta: balón de taponamiento intrauterino (traje antichoque no neumático como puente) y, si falla, cirugía: suturas compresivas (B-Lynch), ligaduras vasculares e histerectomía."
+        ],
+        "figuras": [
+          {
+            "arquivo": "aula_hpp_atonia_es.svg",
+            "alt": "Diagrama de flujo: masaje uterino bimanual, luego oxitocina, metilergometrina, misoprostol, balón de taponamiento y cirugía, cada etapa tras el fallo de la anterior; ácido tranexámico en paralelo.",
+            "legenda": "Secuencia de la atonía uterina. El ácido tranexámico entra en paralelo, hasta 3 horas del parto."
+          }
+        ]
+      },
+      {
+        "titulo": "Inversión uterina",
+        "paragrafos": [],
+        "itens": [
+          "Cuadro: dolor intenso, sangrado, masa vaginal sangrante, fondo uterino no palpable en el abdomen y shock desproporcionado al sangrado (componente vagal, con bradicardia).",
+          "Conducta: reposición de volumen y reposición inmediata del útero (maniobra de Taxe), sin retirar antes la placenta. Si el útero está contraído, relajar con terbutalina, sulfato de magnesio, nitroglicerina o anestesia general. Tras reposicionar, oxitocina.",
+          "Si la reducción manual falla: corrección quirúrgica (Huntington o Haultain)."
+        ]
+      },
+      {
+        "titulo": "Infección puerperal",
+        "paragrafos": [
+          "Es la infección del tracto genital después del parto; la endometritis es la forma más común y la principal causa de fiebre en el puerperio."
+        ],
+        "itens": [
+          "Morbilidad febril puerperal: temperatura de 38 °C o más en 2 días cualesquiera de los primeros 10 días, excluidas las primeras 24 horas.",
+          "Principal factor de riesgo: cesárea, sobre todo tras trabajo de parto y con rotura prolongada de membranas. Otros: muchos tactos, corioamnionitis, obesidad, diabetes, anemia y retención de restos.",
+          "Clínica: fiebre, dolor pélvico, loquios fétidos y útero doloroso, blando y subinvolucionado (tríada de Bumm).",
+          "Tratamiento: internación y antibiótico intravenoso. Esquema clásico: clindamicina 900 mg cada 8 h + gentamicina 5 mg/kg/día. Alternativa: ampicilina + gentamicina + metronidazol. Mantener hasta 48–72 horas sin fiebre, sin necesidad de completar por vía oral. La lactancia se mantiene.",
+          "Restos placentarios: evacuación uterina tras iniciar el antibiótico.",
+          "Fiebre persistente después de 72 horas de antibiótico: pensar en absceso pélvico o de pared, hematoma infectado y tromboflebitis pélvica séptica (diagnóstico de exclusión, tratada con heparina)."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "El índice de shock es la FC dividida por la presión sistólica, no por la diastólica.",
+      "La metilergometrina está prohibida en hipertensas.",
+      "El ácido tranexámico solo funciona si se da temprano: hasta 3 horas del parto.",
+      "Útero contraído con sangrado continuo: busque desgarro, no dé más oxitocina.",
+      "La infección puerperal no suspende la lactancia."
+    ]
+  }
+}

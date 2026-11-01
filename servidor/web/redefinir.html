@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nova senha | RX ENAMED</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/site.css">
+<link rel="stylesheet" href="/_rx/rx.css">
+</head>
+<body>
+<header class="rx-topo"><div class="envoltorio">
+  <a class="marca" href="/"><span class="marca-simbolo" aria-hidden="true">RX</span><span>RX <em>ENAMED</em></span></a>
+  <nav id="nav"></nav>
+</div></header>
+<main class="envoltorio rx-pagina" style="max-width:440px">
+  <section class="rx-cartao">
+    <h1 style="font-family:var(--f-display);margin-top:0">Criar nova senha</h1>
+    <form id="form" novalidate>
+      <label class="rx-campo"><span>Nova senha (mínimo 8 caracteres)</span><input name="senha" type="password" autocomplete="new-password" minlength="8" required></label>
+      <label class="rx-campo"><span>Repita a nova senha</span><input name="repetir" type="password" autocomplete="new-password" required></label>
+      <p class="rx-erro rx-oculto" id="erro" role="alert"></p>
+      <button class="botao botao-primario rx-botao-largo" type="submit">Salvar e entrar</button>
+    </form>
+  </section>
+</main>
+<script type="module">
+import { $, api, mostrarErro } from '/_rx/comum.js';
+const token = new URLSearchParams(location.search).get('token') || '';
+$('#form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const f = Object.fromEntries(new FormData(e.target));
+  if (f.senha !== f.repetir) return mostrarErro($('#erro'), 'As senhas não são iguais.');
+  try { await api('/senha/redefinir', { metodo: 'POST', corpo: { token, senha: f.senha } }); location.href = '/minha-conta'; }
+  catch (err) { mostrarErro($('#erro'), err.message); }
+});
+</script>
+</body>
+</html>

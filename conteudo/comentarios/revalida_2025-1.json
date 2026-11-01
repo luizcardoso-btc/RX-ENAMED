@@ -1,0 +1,1942 @@
+{
+ "revalida_2025-1_q001": {
+  "pt": {
+   "resumo": "Bradicardia de 45 bpm com tontura, mas sem sinais de instabilidade (pressão normal, lúcido, perfusão boa), em ECG com bloqueio atrioventricular avançado. Monitoriza-se, deixa-se o marca-passo transcutâneo preparado e aguarda-se o cardiologista para marca-passo definitivo.",
+   "alternativas": {
+    "A": "Bloqueio avançado sintomático não pode receber alta.",
+    "B": "Correta: monitorizar, preparar marca-passo e aguardar o cardiologista.",
+    "C": "Atropina e marca-passo transcutâneo são para o paciente instável.",
+    "D": "Dopamina também é reservada à instabilidade."
+   }
+  },
+  "es": {
+   "resumo": "Bradicardia de 45 lpm con mareo, pero sin signos de inestabilidad (presión normal, lúcido, buena perfusión), con ECG de bloqueo auriculoventricular avanzado. Se monitoriza, se deja preparado el marcapasos transcutáneo y se espera al cardiólogo para marcapasos definitivo.",
+   "alternativas": {
+    "A": "Un bloqueo avanzado sintomático no puede recibir el alta.",
+    "B": "Correcta: monitorizar, preparar marcapasos y esperar al cardiólogo.",
+    "C": "Atropina y marcapasos transcutáneo son para el paciente inestable.",
+    "D": "La dopamina también se reserva para la inestabilidad."
+   }
+  }
+ },
+ "revalida_2025-1_q002": {
+  "pt": {
+   "resumo": "Uso crônico de AINE, dor epigástrica súbita e intensa, peritonite difusa e pneumoperitônio na tomografia: úlcera péptica perfurada.",
+   "alternativas": {
+    "A": "Correta: úlcera gástrica perfurada.",
+    "B": "Pancreatite não causa pneumoperitônio.",
+    "C": "Colecistite dá dor no hipocôndrio direito, sem ar livre.",
+    "D": "Diverticulite é de fossa ilíaca esquerda e de idade maior."
+   }
+  },
+  "es": {
+   "resumo": "Uso crónico de AINE, dolor epigástrico súbito e intenso, peritonitis difusa y neumoperitoneo en la tomografía: úlcera péptica perforada.",
+   "alternativas": {
+    "A": "Correcta: úlcera gástrica perforada.",
+    "B": "La pancreatitis no causa neumoperitoneo.",
+    "C": "La colecistitis da dolor en hipocondrio derecho, sin aire libre.",
+    "D": "La diverticulitis es de fosa ilíaca izquierda y de mayor edad."
+   }
+  }
+ },
+ "revalida_2025-1_q003": {
+  "pt": {
+   "resumo": "Telarca antes dos 8 anos com aceleração do crescimento (estatura em Z +2) e idade óssea 2 anos à frente da cronológica: puberdade precoce central.",
+   "alternativas": {
+    "A": "Correta: puberdade precoce central, com avanço da idade óssea.",
+    "B": "Dois anos de avanço é diferença significativa.",
+    "C": "A telarca não é isolada, pois há avanço de idade óssea e de estatura.",
+    "D": "O estadiamento é P1, sem pubarca."
+   }
+  },
+  "es": {
+   "resumo": "Telarquia antes de los 8 años con aceleración del crecimiento (talla en Z +2) y edad ósea 2 años por delante de la cronológica: pubertad precoz central.",
+   "alternativas": {
+    "A": "Correcta: pubertad precoz central, con avance de la edad ósea.",
+    "B": "Dos años de avance es una diferencia significativa.",
+    "C": "La telarquia no es aislada, pues hay avance de edad ósea y de talla.",
+    "D": "El estadio es P1, sin pubarquia."
+   }
+  }
+ },
+ "revalida_2025-1_q004": {
+  "pt": {
+   "resumo": "Sangramento discreto com colo fechado e beta-hCG em ascensão adequada (mais que dobrou em 2 dias): ameaça de aborto, com conduta expectante e repouso relativo.",
+   "alternativas": {
+    "A": "Beta-hCG que dobra em 48 horas sugere gestação tópica viável.",
+    "B": "Correta: ameaça de aborto e repouso relativo.",
+    "C": "Aborto incompleto tem colo aberto e eliminação de restos.",
+    "D": "Aborto em evolução tem colo dilatado."
+   }
+  },
+  "es": {
+   "resumo": "Sangrado escaso con cuello cerrado y beta-hCG en ascenso adecuado (más que duplicó en 2 días): amenaza de aborto, con conducta expectante y reposo relativo.",
+   "alternativas": {
+    "A": "Una beta-hCG que se duplica en 48 horas sugiere gestación intrauterina viable.",
+    "B": "Correcta: amenaza de aborto y reposo relativo.",
+    "C": "El aborto incompleto tiene cuello abierto y eliminación de restos.",
+    "D": "El aborto en curso tiene cuello dilatado."
+   }
+  }
+ },
+ "revalida_2025-1_q005": {
+  "pt": {
+   "resumo": "Prurido noturno com pápulas em pregas, em cela superlotada: escabiose. Trata-se o caso e todos os contactantes com ivermectina por peso (200 mcg/kg), repetida em 7 a 15 dias, e reforça-se a higiene de roupas e ambiente.",
+   "alternativas": {
+    "A": "Isolamento sem saída é desproporcional, e 6 mg é subdose para 98 kg.",
+    "B": "Inseticidas e fumigantes não são indicados, e falta o tratamento.",
+    "C": "Fluconazol não trata escabiose.",
+    "D": "Correta: higiene e ivermectina por peso para todos da cela."
+   }
+  },
+  "es": {
+   "resumo": "Prurito nocturno con pápulas en pliegues, en celda superpoblada: escabiosis. Se trata el caso y todos los contactos con ivermectina por peso (200 mcg/kg), repetida en 7 a 15 días, y se refuerza la higiene de ropa y ambiente.",
+   "alternativas": {
+    "A": "El aislamiento sin salida es desproporcionado, y 6 mg es subdosis para 98 kg.",
+    "B": "Insecticidas y fumigantes no están indicados, y falta el tratamiento.",
+    "C": "El fluconazol no trata la escabiosis.",
+    "D": "Correcta: higiene e ivermectina por peso para todos en la celda."
+   }
+  }
+ },
+ "revalida_2025-1_q006": {
+  "pt": {
+   "resumo": "Falha de tratamento de H. pylori em paciente com uso prévio de macrolídeos e fluoroquinolonas: evitam-se ambos. O resgate é a quádrupla com bismuto, IBP, tetraciclina (ou doxiciclina) e metronidazol por 14 dias.",
+   "alternativas": {
+    "A": "Levofloxacino deve ser evitado, e 7 dias é curto.",
+    "B": "Claritromicina e levofloxacino são justamente os que falham.",
+    "C": "Correta: quádrupla com bismuto, doxiciclina e metronidazol.",
+    "D": "Também inclui levofloxacino."
+   }
+  },
+  "es": {
+   "resumo": "Fallo del tratamiento de H. pylori en paciente con uso previo de macrólidos y fluoroquinolonas: se evitan ambos. El rescate es la cuádruple con bismuto, IBP, tetraciclina (o doxiciclina) y metronidazol por 14 días.",
+   "alternativas": {
+    "A": "El levofloxacino debe evitarse, y 7 días es poco.",
+    "B": "Claritromicina y levofloxacino son justamente los que fallan.",
+    "C": "Correcta: cuádruple con bismuto, doxiciclina y metronidazol.",
+    "D": "También incluye levofloxacino."
+   }
+  }
+ },
+ "revalida_2025-1_q008": {
+  "pt": {
+   "resumo": "Descompressão brusca dolorosa é sinal de irritação peritoneal e indica avaliação cirúrgica, como na apendicite.",
+   "alternativas": {
+    "A": "Dor difusa é inespecífica.",
+    "B": "Correta: descompressão brusca dolorosa.",
+    "C": "Dor com vômitos ocorre em muitas causas clínicas.",
+    "D": "O paciente não tem massa palpável."
+   }
+  },
+  "es": {
+   "resumo": "El dolor a la descompresión brusca es signo de irritación peritoneal e indica evaluación quirúrgica, como en la apendicitis.",
+   "alternativas": {
+    "A": "El dolor difuso es inespecífico.",
+    "B": "Correcta: dolor a la descompresión brusca.",
+    "C": "El dolor con vómitos aparece en muchas causas clínicas.",
+    "D": "El paciente no tiene masa palpable."
+   }
+  }
+ },
+ "revalida_2025-1_q009": {
+  "pt": {
+   "resumo": "Losartana (e IECA) é teratogênica e deve ser suspensa, trocada por metildopa. Hipertensa crônica tem alto risco de pré-eclâmpsia: inicia-se AAS e avaliam-se lesões de órgãos-alvo.",
+   "alternativas": {
+    "A": "Correta: trocar losartana por metildopa, AAS e pesquisa de lesão de órgão-alvo.",
+    "B": "Losartana não pode ser mantida.",
+    "C": "Suspender sem substituir deixa a pressão descontrolada.",
+    "D": "Losartana não pode ser mantida."
+   }
+  },
+  "es": {
+   "resumo": "El losartán (e IECA) es teratogénico y debe suspenderse, cambiándolo por metildopa. La hipertensa crónica tiene alto riesgo de preeclampsia: se inicia AAS y se evalúan lesiones de órgano blanco.",
+   "alternativas": {
+    "A": "Correcta: cambiar losartán por metildopa, AAS y búsqueda de lesión de órgano blanco.",
+    "B": "El losartán no puede mantenerse.",
+    "C": "Suspender sin sustituir deja la presión descontrolada.",
+    "D": "El losartán no puede mantenerse."
+   }
+  }
+ },
+ "revalida_2025-1_q010": {
+  "pt": {
+   "resumo": "Diante de gestação indesejada fora das hipóteses legais, o médico acolhe sem julgamento, garante sigilo e informação clínica e legal, e orienta sinais de alarme de aborto inseguro (redução de danos).",
+   "alternativas": {
+    "A": "Iniciar pré-natal ignora o desejo da paciente.",
+    "B": "Não há direito legal ao aborto nesse caso, e desencorajar com ameaças não é acolhimento.",
+    "C": "Correta: informação, sigilo e orientação de sinais de alarme.",
+    "D": "Não há obrigação de registrar boletim de ocorrência; isso quebraria o sigilo."
+   }
+  },
+  "es": {
+   "resumo": "Ante un embarazo no deseado fuera de los supuestos legales, el médico acoge sin juzgar, garantiza el secreto y la información clínica y legal, y orienta sobre signos de alarma de aborto inseguro (reducción de daños).",
+   "alternativas": {
+    "A": "Iniciar el control prenatal ignora el deseo de la paciente.",
+    "B": "No hay derecho legal al aborto en este caso, y desalentar con amenazas no es acogida.",
+    "C": "Correcta: información, secreto y orientación sobre signos de alarma.",
+    "D": "No hay obligación de denunciar a la policía; eso rompería el secreto."
+   }
+  }
+ },
+ "revalida_2025-1_q011": {
+  "pt": {
+   "resumo": "Fumante pesada com sintomas de abstinência e tentativas frustradas: o tratamento combina abordagem cognitivo-comportamental e farmacoterapia, como a reposição de nicotina.",
+   "alternativas": {
+    "A": "Reposição sem abordagem comportamental é menos eficaz.",
+    "B": "Correta: terapia comportamental com reposição de nicotina.",
+    "C": "Sem farmacoterapia, a abstinência dificulta a cessação.",
+    "D": "Benzodiazepínico não trata tabagismo."
+   }
+  },
+  "es": {
+   "resumo": "Fumadora intensa con síntomas de abstinencia e intentos fallidos: el tratamiento combina abordaje cognitivo-conductual y farmacoterapia, como el reemplazo de nicotina.",
+   "alternativas": {
+    "A": "El reemplazo sin abordaje conductual es menos eficaz.",
+    "B": "Correcta: terapia conductual con reemplazo de nicotina.",
+    "C": "Sin farmacoterapia, la abstinencia dificulta la cesación.",
+    "D": "La benzodiacepina no trata el tabaquismo."
+   }
+  }
+ },
+ "revalida_2025-1_q012": {
+  "pt": {
+   "resumo": "Polidrâmnio, salivação excessiva e tosse, cianose e engasgo à mamada: atresia de esôfago (geralmente com fístula traqueoesofágica). A sonda que não progride confirma.",
+   "alternativas": {
+    "A": "Correta: atresia esofágica.",
+    "B": "Atresia gástrica é rara e causa vômitos não biliosos.",
+    "C": "Atresia intestinal causa vômitos biliosos e distensão.",
+    "D": "Atresia pancreática não existe como entidade clínica."
+   }
+  },
+  "es": {
+   "resumo": "Polihidramnios, salivación excesiva y tos, cianosis y atragantamiento con la toma: atresia de esófago (generalmente con fístula traqueoesofágica). La sonda que no progresa lo confirma.",
+   "alternativas": {
+    "A": "Correcta: atresia esofágica.",
+    "B": "La atresia gástrica es rara y causa vómitos no biliosos.",
+    "C": "La atresia intestinal causa vómitos biliosos y distensión.",
+    "D": "La atresia pancreática no existe como entidad clínica."
+   }
+  }
+ },
+ "revalida_2025-1_q013": {
+  "pt": {
+   "resumo": "175 g de 3.500 g é 5%. Perda de até 10% nos primeiros dias é fisiológica, com recuperação até 10 a 15 dias.",
+   "alternativas": {
+    "A": "Correta: 5%, sem motivo de preocupação.",
+    "B": "O cálculo é 5%, e não há indicação de fórmula.",
+    "C": "O cálculo é 5%.",
+    "D": "A perda nos primeiros dias é esperada."
+   }
+  },
+  "es": {
+   "resumo": "175 g de 3500 g es el 5 %. Una pérdida de hasta el 10 % en los primeros días es fisiológica, con recuperación hacia los 10 a 15 días.",
+   "alternativas": {
+    "A": "Correcta: 5 %, sin motivo de preocupación.",
+    "B": "El cálculo es 5 %, y no hay indicación de fórmula.",
+    "C": "El cálculo es 5 %.",
+    "D": "La pérdida en los primeros días es esperada."
+   }
+  }
+ },
+ "revalida_2025-1_q014": {
+  "pt": {
+   "resumo": "Menopausa cirúrgica com sintomas intensos: terapia hormonal indicada. Mesmo sem útero, quem teve endometriose recebe estrogênio associado a progestagênio, para não estimular focos residuais.",
+   "alternativas": {
+    "A": "Fitoterápicos têm pouca eficácia, e a terapia hormonal não é contraindicada.",
+    "B": "A terapia hormonal não é contraindicada.",
+    "C": "Estrogênio isolado pode reativar endometriose residual.",
+    "D": "Correta: estrogênio com progestagênio, pela endometriose."
+   }
+  },
+  "es": {
+   "resumo": "Menopausia quirúrgica con síntomas intensos: terapia hormonal indicada. Aun sin útero, quien tuvo endometriosis recibe estrógeno asociado a progestágeno, para no estimular focos residuales.",
+   "alternativas": {
+    "A": "Los fitoterápicos tienen poca eficacia, y la terapia hormonal no está contraindicada.",
+    "B": "La terapia hormonal no está contraindicada.",
+    "C": "El estrógeno solo puede reactivar endometriosis residual.",
+    "D": "Correcta: estrógeno con progestágeno, por la endometriosis."
+   }
+  }
+ },
+ "revalida_2025-1_q015": {
+  "pt": {
+   "resumo": "Suspeita de violência sexual contra criança: registra-se de forma objetiva no prontuário, notifica-se no SINAN (a suspeita basta) e aciona-se o conselho tutelar e a rede de proteção.",
+   "alternativas": {
+    "A": "Correta: registro isento, notificação e conselho tutelar.",
+    "B": "Não se espera confirmar para notificar.",
+    "C": "Confrontar os pais pode expor a criança a mais risco.",
+    "D": "A comunicação obrigatória é ao conselho tutelar, com notificação."
+   }
+  },
+  "es": {
+   "resumo": "Sospecha de violencia sexual contra un niño: se registra de forma objetiva en la historia clínica, se notifica en el SINAN (basta la sospecha) y se activa el consejo tutelar y la red de protección.",
+   "alternativas": {
+    "A": "Correcta: registro objetivo, notificación y consejo tutelar.",
+    "B": "No se espera confirmar para notificar.",
+    "C": "Confrontar a los padres puede exponer al niño a más riesgo.",
+    "D": "La comunicación obligatoria es al consejo tutelar, con notificación."
+   }
+  }
+ },
+ "revalida_2025-1_q016": {
+  "pt": {
+   "resumo": "Etilista crônico 48 horas após parar de beber, com agitação, confusão, tremor, sudorese, taquicardia e hipertensão: delirium tremens. O tratamento é benzodiazepínico intravenoso (diazepam), além de tiamina.",
+   "alternativas": {
+    "A": "Haloperidol reduz o limiar convulsivo e não é primeira linha.",
+    "B": "Correta: delirium tremens e diazepam intravenoso.",
+    "C": "A pressão sobe pela abstinência, não por encefalopatia hipertensiva.",
+    "D": "Nitroprussiato não trata a causa."
+   }
+  },
+  "es": {
+   "resumo": "Alcohólico crónico 48 horas después de dejar de beber, con agitación, confusión, temblor, sudoración, taquicardia e hipertensión: delirium tremens. El tratamiento es benzodiacepina intravenosa (diazepam), además de tiamina.",
+   "alternativas": {
+    "A": "El haloperidol reduce el umbral convulsivo y no es primera línea.",
+    "B": "Correcta: delirium tremens y diazepam intravenoso.",
+    "C": "La presión sube por la abstinencia, no por encefalopatía hipertensiva.",
+    "D": "El nitroprusiato no trata la causa."
+   }
+  }
+ },
+ "revalida_2025-1_q017": {
+  "pt": {
+   "resumo": "Jejum pré-operatório atual: 6 a 8 horas para sólidos (8 horas para refeição gordurosa) e 2 horas para líquidos claros.",
+   "alternativas": {
+    "A": "12 e 8 horas é jejum excessivo e ultrapassado.",
+    "B": "Correta: 6 a 8 horas de sólidos e 2 horas de líquidos claros.",
+    "C": "Bebida proteica não é líquido claro.",
+    "D": "4 horas para água é tempo excessivo."
+   }
+  },
+  "es": {
+   "resumo": "Ayuno preoperatorio actual: 6 a 8 horas para sólidos (8 horas para comida grasa) y 2 horas para líquidos claros.",
+   "alternativas": {
+    "A": "12 y 8 horas es un ayuno excesivo y obsoleto.",
+    "B": "Correcta: 6 a 8 horas de sólidos y 2 horas de líquidos claros.",
+    "C": "La bebida proteica no es líquido claro.",
+    "D": "4 horas para el agua es un tiempo excesivo."
+   }
+  }
+ },
+ "revalida_2025-1_q018": {
+  "pt": {
+   "resumo": "O teste do pezinho é coletado idealmente do 3º ao 5º dia. Após o 28º dia é exceção, mas deve ser feito em casos de difícil acesso ou negligência, como este.",
+   "alternativas": {
+    "A": "A coleta após 28 dias é permitida como exceção.",
+    "B": "O período ideal não impede coleta tardia.",
+    "C": "Antes de 48 horas o resultado pode ser falso.",
+    "D": "Correta: exceção, em difícil acesso ou negligência."
+   }
+  },
+  "es": {
+   "resumo": "La prueba del talón se toma idealmente del 3.º al 5.º día. Después del día 28 es excepción, pero debe hacerse en casos de difícil acceso o negligencia, como este.",
+   "alternativas": {
+    "A": "La toma después de los 28 días se permite como excepción.",
+    "B": "El período ideal no impide la toma tardía.",
+    "C": "Antes de 48 horas el resultado puede ser falso.",
+    "D": "Correcta: excepción, en difícil acceso o negligencia."
+   }
+  }
+ },
+ "revalida_2025-1_q019": {
+  "pt": {
+   "resumo": "Bradicardia fetal na linha de base, com o restante da cardiotocografia normal: aplicam-se medidas de reanimação intrauterina (decúbito lateral, oxigênio, hidratação, suspender ocitocina) e reavalia-se.",
+   "alternativas": {
+    "A": "Cesárea imediata é precipitada antes da reanimação.",
+    "B": "Ocitocina pode piorar a oxigenação fetal.",
+    "C": "Tocólise é para taquissistolia, que não há.",
+    "D": "Correta: oxigênio, mudança de posição e reavaliação."
+   }
+  },
+  "es": {
+   "resumo": "Bradicardia fetal en la línea de base, con el resto de la cardiotocografía normal: se aplican medidas de reanimación intrauterina (decúbito lateral, oxígeno, hidratación, suspender oxitocina) y se reevalúa.",
+   "alternativas": {
+    "A": "Una cesárea inmediata es precipitada antes de la reanimación.",
+    "B": "La oxitocina puede empeorar la oxigenación fetal.",
+    "C": "La tocólisis es para taquisistolia, que no hay.",
+    "D": "Correcta: oxígeno, cambio de posición y reevaluación."
+   }
+  }
+ },
+ "revalida_2025-1_q020": {
+  "pt": {
+   "resumo": "Pelo modelo transteórico, quem admite o problema e suas consequências, mas ainda está ambivalente e sem plano, está em contemplação.",
+   "alternativas": {
+    "A": "Ação é quando a mudança já começou.",
+    "B": "Correta: contemplação.",
+    "C": "Na pré-contemplação o problema não é reconhecido.",
+    "D": "Preparação é quando já há plano de mudança próximo."
+   }
+  },
+  "es": {
+   "resumo": "Según el modelo transteórico, quien admite el problema y sus consecuencias, pero aún está ambivalente y sin plan, está en contemplación.",
+   "alternativas": {
+    "A": "Acción es cuando el cambio ya empezó.",
+    "B": "Correcta: contemplación.",
+    "C": "En la precontemplación el problema no se reconoce.",
+    "D": "Preparación es cuando ya hay un plan de cambio cercano."
+   }
+  }
+ },
+ "revalida_2025-1_q021": {
+  "pt": {
+   "resumo": "Na DPOC, o estágio GOLD é dado pelo VEF1 pós-broncodilatador: GOLD 1 ≥ 80%, GOLD 2 50–79%, GOLD 3 30–49% e GOLD 4 < 30% do previsto. A espirometria do caso cai no GOLD 3.",
+   "alternativas": {
+    "A": "GOLD 1 é obstrução leve, com VEF1 ≥ 80%.",
+    "B": "GOLD 2 é VEF1 entre 50% e 79%.",
+    "C": "Correta: estágio 3.",
+    "D": "GOLD 4 é VEF1 abaixo de 30%."
+   }
+  },
+  "es": {
+   "resumo": "En la EPOC, el estadio GOLD lo da el VEF1 posbroncodilatador: GOLD 1 ≥ 80 %, GOLD 2 50–79 %, GOLD 3 30–49 % y GOLD 4 < 30 % del previsto. La espirometría del caso cae en GOLD 3.",
+   "alternativas": {
+    "A": "GOLD 1 es obstrucción leve, con VEF1 ≥ 80 %.",
+    "B": "GOLD 2 es VEF1 entre 50 % y 79 %.",
+    "C": "Correcta: estadio 3.",
+    "D": "GOLD 4 es VEF1 por debajo de 30 %."
+   }
+  }
+ },
+ "revalida_2025-1_q022": {
+  "pt": {
+   "resumo": "Fragmento metálico em alta velocidade com extravasamento de conteúdo gelatinoso: trauma ocular aberto. Protege-se com escudo rígido sem pressão, inicia-se antibiótico sistêmico (fluoroquinolona), verifica-se a vacina antitetânica e encaminha-se.",
+   "alternativas": {
+    "A": "Irrigar globo aberto é contraindicado.",
+    "B": "Correta: escudo rígido, fluoroquinolona e antitetânica.",
+    "C": "Colírio em globo aberto é contraindicado.",
+    "D": "Colírio e curativo oclusivo com pressão são contraindicados."
+   }
+  },
+  "es": {
+   "resumo": "Fragmento metálico a alta velocidad con salida de contenido gelatinoso: trauma ocular abierto. Se protege con escudo rígido sin presión, se inicia antibiótico sistémico (fluoroquinolona), se verifica la vacuna antitetánica y se deriva.",
+   "alternativas": {
+    "A": "Irrigar un globo abierto está contraindicado.",
+    "B": "Correcta: escudo rígido, fluoroquinolona y antitetánica.",
+    "C": "El colirio en globo abierto está contraindicado.",
+    "D": "El colirio y el vendaje oclusivo con presión están contraindicados."
+   }
+  }
+ },
+ "revalida_2025-1_q024": {
+  "pt": {
+   "resumo": "Hipertensa com dor súbita, útero hipertônico, sangramento escuro, choque e bradicardia fetal: descolamento prematuro de placenta. Estabiliza-se a mãe e faz-se cesárea imediata, pois o feto está vivo e o parto vaginal não é iminente.",
+   "alternativas": {
+    "A": "Correta: DPP, estabilização e cesárea imediata.",
+    "B": "Com colo fechado e feto em sofrimento, induzir parto vaginal é demorado.",
+    "C": "Placenta prévia sangra vermelho vivo, sem dor nem hipertonia.",
+    "D": "Não é placenta prévia."
+   }
+  },
+  "es": {
+   "resumo": "Hipertensa con dolor súbito, útero hipertónico, sangrado oscuro, shock y bradicardia fetal: desprendimiento prematuro de placenta. Se estabiliza a la madre y se hace cesárea inmediata, pues el feto está vivo y el parto vaginal no es inminente.",
+   "alternativas": {
+    "A": "Correcta: DPP, estabilización y cesárea inmediata.",
+    "B": "Con cuello cerrado y feto en sufrimiento, inducir parto vaginal es demorado.",
+    "C": "La placenta previa sangra rojo vivo, sin dolor ni hipertonía.",
+    "D": "No es placenta previa."
+   }
+  }
+ },
+ "revalida_2025-1_q025": {
+  "pt": {
+   "resumo": "Nas comunidades ciganas, depressão e suicídio são problemas relevantes, sobretudo em mulheres, ligados ao racismo e a outras violências. As demais afirmações generalizam a cultura cigana.",
+   "alternativas": {
+    "A": "Não há regra de que mulheres não possam ir sozinhas ao hospital.",
+    "B": "Correta: depressão e suicídio, maiores em mulheres, motivados por violências.",
+    "C": "As lideranças variam entre comunidades.",
+    "D": "A maioria hoje não é nômade."
+   }
+  },
+  "es": {
+   "resumo": "En las comunidades gitanas, la depresión y el suicidio son problemas relevantes, sobre todo en mujeres, ligados al racismo y a otras violencias. Las demás afirmaciones generalizan la cultura gitana.",
+   "alternativas": {
+    "A": "No hay regla de que las mujeres no puedan ir solas al hospital.",
+    "B": "Correcta: depresión y suicidio, mayores en mujeres, motivados por violencias.",
+    "C": "Los liderazgos varían entre comunidades.",
+    "D": "La mayoría hoy no es nómada."
+   }
+  }
+ },
+ "revalida_2025-1_q026": {
+  "pt": {
+   "resumo": "Exacerbação de DPOC com piora da dispneia, aumento e purulência da expectoração, cianose e confusão: exacerbação grave. Exige internação, corticoide sistêmico, broncodilatador, antibiótico e suporte ventilatório.",
+   "alternativas": {
+    "A": "Torpor e cianose impedem tratamento ambulatorial.",
+    "B": "Corticoide inalatório não trata exacerbação, e o caso exige internação.",
+    "C": "Na exacerbação, o corticoide é sistêmico.",
+    "D": "Correta: corticoide sistêmico e internação."
+   }
+  },
+  "es": {
+   "resumo": "Exacerbación de EPOC con empeoramiento de la disnea, aumento y purulencia del esputo, cianosis y confusión: exacerbación grave. Exige internación, corticoide sistémico, broncodilatador, antibiótico y soporte ventilatorio.",
+   "alternativas": {
+    "A": "El torpor y la cianosis impiden el tratamiento ambulatorio.",
+    "B": "El corticoide inhalado no trata la exacerbación, y el caso exige internación.",
+    "C": "En la exacerbación, el corticoide es sistémico.",
+    "D": "Correcta: corticoide sistémico e internación."
+   }
+  }
+ },
+ "revalida_2025-1_q027": {
+  "pt": {
+   "resumo": "Dor que começa no epigástrio e migra para a fossa ilíaca direita, náuseas, dissociação térmica axilorretal e leucocitose: apendicite aguda. O sinal que complementa é o de Blumberg, no ponto de McBurney.",
+   "alternativas": {
+    "A": "Giordano positivo sugere pielonefrite.",
+    "B": "Crepitação com gás sugere infecção necrotizante de parede.",
+    "C": "Sinal de Murphy é de colecistite.",
+    "D": "Correta: sinal de Blumberg no ponto de McBurney."
+   }
+  },
+  "es": {
+   "resumo": "Dolor que empieza en el epigastrio y migra a la fosa ilíaca derecha, náuseas, disociación térmica axilorrectal y leucocitosis: apendicitis aguda. El signo que complementa es el de Blumberg, en el punto de McBurney.",
+   "alternativas": {
+    "A": "El Giordano positivo sugiere pielonefritis.",
+    "B": "La crepitación con gas sugiere infección necrotizante de pared.",
+    "C": "El signo de Murphy es de colecistitis.",
+    "D": "Correcta: signo de Blumberg en el punto de McBurney."
+   }
+  }
+ },
+ "revalida_2025-1_q028": {
+  "pt": {
+   "resumo": "Prematuro de 28 semanas no primeiro ano de vida, entrando na sazonalidade do vírus sincicial respiratório: indicação de palivizumabe, além de cuidados de prevenção.",
+   "alternativas": {
+    "A": "Influenza é indicada a partir de 6 meses.",
+    "B": "Correta: palivizumabe e cuidados de prevenção.",
+    "C": "Não há indicação de infectologista.",
+    "D": "Omalizumabe é para asma alérgica grave."
+   }
+  },
+  "es": {
+   "resumo": "Prematuro de 28 semanas en su primer año de vida, entrando en la estación del virus sincitial respiratorio: indicación de palivizumab, además de cuidados de prevención.",
+   "alternativas": {
+    "A": "La vacuna contra la influenza se indica a partir de los 6 meses.",
+    "B": "Correcta: palivizumab y cuidados de prevención.",
+    "C": "No hay indicación de infectólogo.",
+    "D": "El omalizumab es para asma alérgica grave."
+   }
+  }
+ },
+ "revalida_2025-1_q029": {
+  "pt": {
+   "resumo": "Febre, artralgia leve, exantema e hemograma alterado: dengue. Gestante com dengue é no mínimo grupo B, com risco maior de gravidade. Pelo gabarito: internação, hidratação venosa, dipirona e controle diário de plaquetas.",
+   "alternativas": {
+    "A": "Correta: dengue, internação, hidratação e controle de plaquetas.",
+    "B": "Chikungunya tem artralgia intensa, e a gestante não deve ser liberada.",
+    "C": "Zika tem febre baixa e exantema pruriginoso precoce.",
+    "D": "Transfusão de plaquetas não é indicada sem sangramento grave."
+   }
+  },
+  "es": {
+   "resumo": "Fiebre, artralgia leve, exantema y hemograma alterado: dengue. La gestante con dengue es como mínimo grupo B, con mayor riesgo de gravedad. Según la clave: internación, hidratación intravenosa, dipirona y control diario de plaquetas.",
+   "alternativas": {
+    "A": "Correcta: dengue, internación, hidratación y control de plaquetas.",
+    "B": "El chikungunya tiene artralgia intensa, y la gestante no debe ser dada de alta.",
+    "C": "El Zika tiene fiebre baja y exantema pruriginoso precoz.",
+    "D": "La transfusión de plaquetas no está indicada sin sangrado grave."
+   }
+  }
+ },
+ "revalida_2025-1_q030": {
+  "pt": {
+   "resumo": "A poluição do ar aumenta o risco de hipertensão, diabetes e doenças alérgicas, e reduzir a exposição nos horários de pico é medida de promoção da saúde.",
+   "alternativas": {
+    "A": "Correta: poluição do ar e redução da exposição.",
+    "B": "Monoculturas para biocombustível geram impactos ambientais e sociais.",
+    "C": "No calor a pressão tende a cair, e não se aumentam anti-hipertensivos.",
+    "D": "Educação sobre clima nas escolas é recomendada."
+   }
+  },
+  "es": {
+   "resumo": "La contaminación del aire aumenta el riesgo de hipertensión, diabetes y enfermedades alérgicas, y reducir la exposición en las horas pico es una medida de promoción de la salud.",
+   "alternativas": {
+    "A": "Correcta: contaminación del aire y reducción de la exposición.",
+    "B": "Los monocultivos para biocombustible generan impactos ambientales y sociales.",
+    "C": "Con el calor la presión tiende a bajar, y no se aumentan los antihipertensivos.",
+    "D": "La educación sobre el clima en las escuelas es recomendada."
+   }
+  }
+ },
+ "revalida_2025-1_q031": {
+  "pt": {
+   "resumo": "TRM positivo com resistência à rifampicina dispensa baciloscopia para o diagnóstico. Mantém-se o encaminhamento à referência, repete-se o TRM e solicitam-se cultura e teste de sensibilidade.",
+   "alternativas": {
+    "A": "A baciloscopia não é necessária, e o encaminhamento deve continuar.",
+    "B": "Esquema básico tem rifampicina, à qual há resistência.",
+    "C": "Correta: manter encaminhamento, novo TRM, cultura e sensibilidade.",
+    "D": "A conduta baseada no TRM é adequada."
+   }
+  },
+  "es": {
+   "resumo": "Un TRM positivo con resistencia a rifampicina no requiere baciloscopia para el diagnóstico. Se mantiene la derivación a la referencia, se repite el TRM y se solicitan cultivo y prueba de sensibilidad.",
+   "alternativas": {
+    "A": "La baciloscopia no es necesaria, y la derivación debe continuar.",
+    "B": "El esquema básico tiene rifampicina, a la que hay resistencia.",
+    "C": "Correcta: mantener la derivación, nuevo TRM, cultivo y sensibilidad.",
+    "D": "La conducta basada en el TRM es adecuada."
+   }
+  }
+ },
+ "revalida_2025-1_q032": {
+  "pt": {
+   "resumo": "Transferir paciente instável sem estabilização nem transporte adequado, entregando-a à família, é omissão de cuidado: negligência.",
+   "alternativas": {
+    "A": "Operar em clínica privada não é imprudência.",
+    "B": "Não há dado de falha técnica na cirurgia.",
+    "C": "Correta: negligente na estabilização pré-transporte.",
+    "D": "Entregar paciente instável à família não é diligência."
+   }
+  },
+  "es": {
+   "resumo": "Trasladar a una paciente inestable sin estabilización ni transporte adecuado, entregándola a la familia, es omisión de cuidado: negligencia.",
+   "alternativas": {
+    "A": "Operar en una clínica privada no es imprudencia.",
+    "B": "No hay dato de falla técnica en la cirugía.",
+    "C": "Correcta: negligente en la estabilización antes del traslado.",
+    "D": "Entregar a una paciente inestable a la familia no es diligencia."
+   }
+  }
+ },
+ "revalida_2025-1_q033": {
+  "pt": {
+   "resumo": "Leite materno ordenhado dura até 15 dias no congelador e 12 horas na geladeira. Descongela-se em banho-maria (sem ferver nem micro-ondas) e oferece-se em copo.",
+   "alternativas": {
+    "A": "Fervura e micro-ondas destroem componentes do leite.",
+    "B": "As mamas são higienizadas só com água.",
+    "C": "Correta: até 15 dias no congelador.",
+    "D": "Mamadeira prejudica a amamentação; usa-se copo."
+   }
+  },
+  "es": {
+   "resumo": "La leche materna extraída dura hasta 15 días en el congelador y 12 horas en la nevera. Se descongela a baño maría (sin hervir ni microondas) y se ofrece en vaso.",
+   "alternativas": {
+    "A": "El hervor y el microondas destruyen componentes de la leche.",
+    "B": "Las mamas se higienizan solo con agua.",
+    "C": "Correcta: hasta 15 días en el congelador.",
+    "D": "El biberón perjudica la lactancia; se usa vaso."
+   }
+  }
+ },
+ "revalida_2025-1_q035": {
+  "pt": {
+   "resumo": "No cuidado de povos indígenas e ribeirinhos, valoriza-se o cuidado tradicional e integra-se ao saber biomédico, com participação local e uso racional de medicamentos.",
+   "alternativas": {
+    "A": "Profissionais locais também precisam de capacitação.",
+    "B": "As duas populações merecem cuidado intercultural integrado.",
+    "C": "Correta: valorizar práticas tradicionais e integrar saberes.",
+    "D": "Padronizar ignora as diferenças culturais."
+   }
+  },
+  "es": {
+   "resumo": "En el cuidado de pueblos indígenas y ribereños se valora el cuidado tradicional y se integra con el saber biomédico, con participación local y uso racional de medicamentos.",
+   "alternativas": {
+    "A": "Los profesionales locales también necesitan capacitación.",
+    "B": "Ambas poblaciones merecen cuidado intercultural integrado.",
+    "C": "Correcta: valorar prácticas tradicionales e integrar saberes.",
+    "D": "Estandarizar ignora las diferencias culturales."
+   }
+  }
+ },
+ "revalida_2025-1_q036": {
+  "pt": {
+   "resumo": "Surto de síndrome gripal em comunidade indígena (grupo de risco), com dispneia e crepitações: influenza com sinal de agravamento. Indica-se oseltamivir o quanto antes.",
+   "alternativas": {
+    "A": "Correta: pneumonia viral e oseltamivir.",
+    "B": "O quadro é agudo, de 36 horas, e coletivo.",
+    "C": "O surto aponta para causa viral.",
+    "D": "Febre alta, mialgia e dispneia não são resfriado comum."
+   }
+  },
+  "es": {
+   "resumo": "Brote de síndrome gripal en comunidad indígena (grupo de riesgo), con disnea y crepitantes: influenza con signo de agravamiento. Se indica oseltamivir cuanto antes.",
+   "alternativas": {
+    "A": "Correcta: neumonía viral y oseltamivir.",
+    "B": "El cuadro es agudo, de 36 horas, y colectivo.",
+    "C": "El brote apunta a causa viral.",
+    "D": "La fiebre alta, la mialgia y la disnea no son un resfriado común."
+   }
+  }
+ },
+ "revalida_2025-1_q037": {
+  "pt": {
+   "resumo": "Pela Lei 9.434/1997, a doação de órgãos de falecido depende da autorização do cônjuge ou de parente, mesmo que a pessoa tenha manifestado o desejo de doar.",
+   "alternativas": {
+    "A": "Rim único saudável não contraindica a doação de outros órgãos.",
+    "B": "Correta: exige autorização do esposo.",
+    "C": "O poder público não pode impor a doação.",
+    "D": "Anti-HBs positivo com HBsAg negativo indica imunidade."
+   }
+  },
+  "es": {
+   "resumo": "Según la Ley 9.434/1997, la donación de órganos de un fallecido depende de la autorización del cónyuge o de un pariente, aunque la persona haya manifestado el deseo de donar.",
+   "alternativas": {
+    "A": "Un riñón único sano no contraindica la donación de otros órganos.",
+    "B": "Correcta: exige autorización del esposo.",
+    "C": "El poder público no puede imponer la donación.",
+    "D": "Anti-HBs positivo con HBsAg negativo indica inmunidad."
+   }
+  }
+ },
+ "revalida_2025-1_q038": {
+  "pt": {
+   "resumo": "Aos 6 meses, mantém-se o aleitamento materno e introduz-se a alimentação complementar com frutas e uma refeição principal (papa salgada) com alimentos in natura, evoluindo para duas aos 7 meses.",
+   "alternativas": {
+    "A": "Composto lácteo não é recomendado.",
+    "B": "A refeição deve ser de alimentos in natura, não processados.",
+    "C": "Suco de frutas não é recomendado antes de 1 ano.",
+    "D": "Correta: uma refeição principal e uma porção de fruta."
+   }
+  },
+  "es": {
+   "resumo": "A los 6 meses se mantiene la lactancia materna y se introduce la alimentación complementaria con frutas y una comida principal (papilla salada) con alimentos naturales, pasando a dos a los 7 meses.",
+   "alternativas": {
+    "A": "El compuesto lácteo no se recomienda.",
+    "B": "La comida debe ser de alimentos naturales, no procesados.",
+    "C": "El jugo de frutas no se recomienda antes de 1 año.",
+    "D": "Correcta: una comida principal y una porción de fruta."
+   }
+  }
+ },
+ "revalida_2025-1_q039": {
+  "pt": {
+   "resumo": "Corrimento homogêneo com odor fétido após a menstruação, pH acima de 4,5, teste das aminas positivo e clue cells: vaginose bacteriana. Trata-se com metronidazol oral ou vaginal, ou clindamicina creme.",
+   "alternativas": {
+    "A": "Vaginose citolítica tem pH ácido e lactobacilos em excesso.",
+    "B": "Tricomoníase tem corrimento amarelo-esverdeado, colo em framboesa e protozoário ao exame.",
+    "C": "Candidíase tem corrimento grumoso, prurido e pH ácido.",
+    "D": "Correta: vaginose bacteriana e metronidazol ou clindamicina."
+   }
+  },
+  "es": {
+   "resumo": "Flujo homogéneo con olor fétido tras la menstruación, pH mayor de 4,5, prueba de aminas positiva y clue cells: vaginosis bacteriana. Se trata con metronidazol oral o vaginal, o clindamicina en crema.",
+   "alternativas": {
+    "A": "La vaginosis citolítica tiene pH ácido y exceso de lactobacilos.",
+    "B": "La tricomoniasis tiene flujo amarillo verdoso, cuello en frambuesa y protozoo en el examen.",
+    "C": "La candidiasis tiene flujo grumoso, prurito y pH ácido.",
+    "D": "Correcta: vaginosis bacteriana y metronidazol o clindamicina."
+   }
+  }
+ },
+ "revalida_2025-1_q040": {
+  "pt": {
+   "resumo": "Lombalgia mecânica sem sinais de alerta e com exame neurológico normal: não se pedem exames. Orienta-se manter atividade e exercício, com AINE e relaxante muscular por curto período.",
+   "alternativas": {
+    "A": "Irradiação sem déficit não indica ressonância.",
+    "B": "Radiografia e corticoide sistêmico não são indicados.",
+    "C": "Repouso prolongado piora a lombalgia.",
+    "D": "Correta: sem exames, exercício, AINE e relaxante muscular."
+   }
+  },
+  "es": {
+   "resumo": "Lumbalgia mecánica sin signos de alarma y con examen neurológico normal: no se piden exámenes. Se orienta a mantener la actividad y el ejercicio, con AINE y relajante muscular por un período corto.",
+   "alternativas": {
+    "A": "La irradiación sin déficit no indica resonancia.",
+    "B": "La radiografía y el corticoide sistémico no están indicados.",
+    "C": "El reposo prolongado empeora la lumbalgia.",
+    "D": "Correcta: sin exámenes, ejercicio, AINE y relajante muscular."
+   }
+  }
+ },
+ "revalida_2025-1_q041": {
+  "pt": {
+   "resumo": "Úlcera genital única, indolor, de fundo limpo e bordas endurecidas, com adenopatia inguinal indolor: cancro duro (sífilis primária). Entre as opções, o exame indicado é o VDRL (o teste rápido treponêmico também é usado).",
+   "alternativas": {
+    "A": "Correta: VDRL.",
+    "B": "Thayer-Martin é para gonococo.",
+    "C": "H. ducreyi causa cancro mole doloroso.",
+    "D": "Corpúsculos de Donovan são da donovanose."
+   }
+  },
+  "es": {
+   "resumo": "Úlcera genital única, indolora, de fondo limpio y bordes indurados, con adenopatía inguinal indolora: chancro duro (sífilis primaria). Entre las opciones, el examen indicado es el VDRL (la prueba rápida treponémica también se usa).",
+   "alternativas": {
+    "A": "Correcta: VDRL.",
+    "B": "Thayer-Martin es para gonococo.",
+    "C": "H. ducreyi causa chancro blando doloroso.",
+    "D": "Los cuerpos de Donovan son de la donovanosis."
+   }
+  }
+ },
+ "revalida_2025-1_q042": {
+  "pt": {
+   "resumo": "Pelos protocolos ERAS e ACERTO, após cirurgia sem complicações e sem náuseas, a dieta oral é liberada de imediato, conforme a vontade da paciente.",
+   "alternativas": {
+    "A": "Esperar 6 horas é desnecessário.",
+    "B": "Correta: dieta oral imediata, conforme a vontade.",
+    "C": "Esperar 24 horas contraria os protocolos.",
+    "D": "Não é preciso escalonar."
+   }
+  },
+  "es": {
+   "resumo": "Según los protocolos ERAS y ACERTO, tras una cirugía sin complicaciones y sin náuseas, la dieta oral se libera de inmediato, según el deseo de la paciente.",
+   "alternativas": {
+    "A": "Esperar 6 horas es innecesario.",
+    "B": "Correcta: dieta oral inmediata, según su deseo.",
+    "C": "Esperar 24 horas contradice los protocolos.",
+    "D": "No hace falta escalonar."
+   }
+  }
+ },
+ "revalida_2025-1_q043": {
+  "pt": {
+   "resumo": "Exacerbação pulmonar na fibrose cística com hipoxemia (87%): internação, oxigênio, antibiótico intravenoso de amplo espectro (cobrindo Pseudomonas e estafilococo) e cultura de escarro.",
+   "alternativas": {
+    "A": "Correta: internação, oxigênio, antibiótico intravenoso e cultura.",
+    "B": "Corticoide não é a base do tratamento, e falta antibiótico.",
+    "C": "Hipoxemia impede tratamento domiciliar.",
+    "D": "Não se atrasa o tratamento por exames."
+   }
+  },
+  "es": {
+   "resumo": "Exacerbación pulmonar en la fibrosis quística con hipoxemia (87 %): internación, oxígeno, antibiótico intravenoso de amplio espectro (cubriendo Pseudomonas y estafilococo) y cultivo de esputo.",
+   "alternativas": {
+    "A": "Correcta: internación, oxígeno, antibiótico intravenoso y cultivo.",
+    "B": "El corticoide no es la base del tratamiento, y falta antibiótico.",
+    "C": "La hipoxemia impide el tratamiento domiciliario.",
+    "D": "No se retrasa el tratamiento por exámenes."
+   }
+  }
+ },
+ "revalida_2025-1_q044": {
+  "pt": {
+   "resumo": "Gestante Rh negativo com Coombs indireto positivo já está aloimunizada: a imunoglobulina anti-D não serve mais. Encaminha-se ao pré-natal de alto risco para monitorar anemia fetal (Doppler da artéria cerebral média).",
+   "alternativas": {
+    "A": "Aloimunização não torna a gestação inviável.",
+    "B": "Imunoglobulina não adianta na mulher já sensibilizada.",
+    "C": "Repetir não muda a conduta.",
+    "D": "Correta: alto risco e monitoramento da aloimunização."
+   }
+  },
+  "es": {
+   "resumo": "Gestante Rh negativo con Coombs indirecto positivo ya está aloinmunizada: la inmunoglobulina anti-D ya no sirve. Se deriva al control prenatal de alto riesgo para vigilar anemia fetal (Doppler de la arteria cerebral media).",
+   "alternativas": {
+    "A": "La aloinmunización no hace inviable la gestación.",
+    "B": "La inmunoglobulina no sirve en la mujer ya sensibilizada.",
+    "C": "Repetir no cambia la conducta.",
+    "D": "Correcta: alto riesgo y vigilancia de la aloinmunización."
+   }
+  }
+ },
+ "revalida_2025-1_q045": {
+  "pt": {
+   "resumo": "Para conhecer, em pouco tempo, a frequência de doenças crônicas numa população, o desenho adequado é o estudo transversal (de prevalência).",
+   "alternativas": {
+    "A": "Correta: estudo transversal.",
+    "B": "Estudo experimental testa intervenções.",
+    "C": "Caso-controle investiga fatores de risco a partir de doentes.",
+    "D": "Coorte prospectiva é longa."
+   }
+  },
+  "es": {
+   "resumo": "Para conocer, en poco tiempo, la frecuencia de enfermedades crónicas en una población, el diseño adecuado es el estudio transversal (de prevalencia).",
+   "alternativas": {
+    "A": "Correcta: estudio transversal.",
+    "B": "El estudio experimental prueba intervenciones.",
+    "C": "El caso-control investiga factores de riesgo a partir de enfermos.",
+    "D": "La cohorte prospectiva es larga."
+   }
+  }
+ },
+ "revalida_2025-1_q046": {
+  "pt": {
+   "resumo": "Poliartrite simétrica de mãos, punhos e joelhos há mais de 6 semanas, com rigidez matinal prolongada e provas inflamatórias elevadas: artrite reumatoide, mesmo com fator reumatoide negativo. O tratamento de base é metotrexato.",
+   "alternativas": {
+    "A": "Osteoartrite não tem rigidez prolongada nem inflamação sistêmica.",
+    "B": "Correta: artrite reumatoide e metotrexato.",
+    "C": "Não há fenômeno de Raynaud nem alterações de pele.",
+    "D": "Não há manifestações cutâneas ou sistêmicas de lúpus."
+   }
+  },
+  "es": {
+   "resumo": "Poliartritis simétrica de manos, muñecas y rodillas por más de 6 semanas, con rigidez matinal prolongada y reactantes de fase aguda elevados: artritis reumatoide, aun con factor reumatoide negativo. El tratamiento de base es metotrexato.",
+   "alternativas": {
+    "A": "La artrosis no tiene rigidez prolongada ni inflamación sistémica.",
+    "B": "Correcta: artritis reumatoide y metotrexato.",
+    "C": "No hay fenómeno de Raynaud ni alteraciones de piel.",
+    "D": "No hay manifestaciones cutáneas o sistémicas de lupus."
+   }
+  }
+ },
+ "revalida_2025-1_q047": {
+  "pt": {
+   "resumo": "No xABCDE do ATLS, o X vem primeiro: controle da hemorragia exsanguinante. Na amputação com sangramento ativo e sinais de choque, coloca-se torniquete acima do local.",
+   "alternativas": {
+    "A": "Via aérea vem depois do controle do sangramento.",
+    "B": "Fluidos sem conter o sangramento não resolvem.",
+    "C": "A coluna vem junto com o A, depois do X.",
+    "D": "Correta: torniquete acima da amputação."
+   }
+  },
+  "es": {
+   "resumo": "En el xABCDE del ATLS, la X va primero: control de la hemorragia exanguinante. En la amputación con sangrado activo y signos de shock se coloca un torniquete por encima del sitio.",
+   "alternativas": {
+    "A": "La vía aérea viene después del control del sangrado.",
+    "B": "Los fluidos sin contener el sangrado no resuelven.",
+    "C": "La columna va junto con la A, después de la X.",
+    "D": "Correcta: torniquete por encima de la amputación."
+   }
+  }
+ },
+ "revalida_2025-1_q048": {
+  "pt": {
+   "resumo": "IMC entre +2 e +3 escores Z aos 6 anos é obesidade. Manchas escuras e aveludadas em pescoço e axilas são acantose nigricans, marcador de resistência à insulina. A conduta é mudança de estilo de vida.",
+   "alternativas": {
+    "A": "O IMC indica obesidade, e hipoglicemiante não é a primeira conduta.",
+    "B": "A criança não é eutrófica, e não é acrodermatite.",
+    "C": "Correta: obesidade, acantose, alimentação e esportes.",
+    "D": "Não é sobrepeso nem acrodermatite."
+   }
+  },
+  "es": {
+   "resumo": "Un IMC entre +2 y +3 puntuaciones Z a los 6 años es obesidad. Manchas oscuras y aterciopeladas en cuello y axilas son acantosis nigricans, marcador de resistencia a la insulina. La conducta es cambio de estilo de vida.",
+   "alternativas": {
+    "A": "El IMC indica obesidad, y el hipoglucemiante no es la primera conducta.",
+    "B": "El niño no es eutrófico, y no es acrodermatitis.",
+    "C": "Correcta: obesidad, acantosis, alimentación y deporte.",
+    "D": "No es sobrepeso ni acrodermatitis."
+   }
+  }
+ },
+ "revalida_2025-1_q049": {
+  "pt": {
+   "resumo": "Osteoporose pós-menopausa com uso crônico de corticoide: o tratamento de primeira linha é bisfosfonato oral, com exercício físico regular e suplementação de cálcio e vitamina D.",
+   "alternativas": {
+    "A": "Terapia hormonal não é indicada para osteoporose aos 65 anos.",
+    "B": "Calcitonina tem eficácia limitada.",
+    "C": "Vitamina D isolada não trata osteoporose.",
+    "D": "Correta: bisfosfonato, exercício, cálcio e vitamina D."
+   }
+  },
+  "es": {
+   "resumo": "Osteoporosis posmenopáusica con uso crónico de corticoides: el tratamiento de primera línea es bisfosfonato oral, con ejercicio físico regular y suplementación de calcio y vitamina D.",
+   "alternativas": {
+    "A": "La terapia hormonal no está indicada para osteoporosis a los 65 años.",
+    "B": "La calcitonina tiene eficacia limitada.",
+    "C": "La vitamina D sola no trata la osteoporosis.",
+    "D": "Correcta: bisfosfonato, ejercicio, calcio y vitamina D."
+   }
+  }
+ },
+ "revalida_2025-1_q050": {
+  "pt": {
+   "resumo": "Pescador em área endêmica com dermatite, diarreia, hepatoesplenomegalia e eosinofilia: esquistossomose. Kato-Katz positivo confirma; trata-se com praziquantel e notifica-se no sistema do programa de controle da esquistossomose.",
+   "alternativas": {
+    "A": "Metronidazol não trata esquistossomose.",
+    "B": "Ovos nas fezes já confirmam a doença ativa.",
+    "C": "Correta: praziquantel e notificação no sistema do programa.",
+    "D": "Kato-Katz negativo pede repetição de amostras, não Hoffman."
+   }
+  },
+  "es": {
+   "resumo": "Pescador en área endémica con dermatitis, diarrea, hepatoesplenomegalia y eosinofilia: esquistosomiasis. Un Kato-Katz positivo confirma; se trata con praziquantel y se notifica en el sistema del programa de control de la esquistosomiasis.",
+   "alternativas": {
+    "A": "El metronidazol no trata la esquistosomiasis.",
+    "B": "Los huevos en las heces ya confirman la enfermedad activa.",
+    "C": "Correcta: praziquantel y notificación en el sistema del programa.",
+    "D": "Un Kato-Katz negativo pide repetir muestras, no Hoffman."
+   }
+  }
+ },
+ "revalida_2025-1_q051": {
+  "pt": {
+   "resumo": "Dengue com dor abdominal e hepatomegalia dolorosa (sinais de alarme), sem choque (pulsos cheios, extremidades quentes): grupo C. Hidratação venosa e internação em leito de enfermaria com reavaliação frequente.",
+   "alternativas": {
+    "A": "Sinais de alarme impedem alta.",
+    "B": "Sinais de alarme impedem alta.",
+    "C": "Correta: hidratação venosa e internação em enfermaria.",
+    "D": "UTI é para choque (grupo D)."
+   }
+  },
+  "es": {
+   "resumo": "Dengue con dolor abdominal y hepatomegalia dolorosa (signos de alarma), sin shock (pulsos llenos, extremidades calientes): grupo C. Hidratación intravenosa e internación en sala con reevaluación frecuente.",
+   "alternativas": {
+    "A": "Los signos de alarma impiden el alta.",
+    "B": "Los signos de alarma impiden el alta.",
+    "C": "Correcta: hidratación intravenosa e internación en sala.",
+    "D": "La UCI es para shock (grupo D)."
+   }
+  }
+ },
+ "revalida_2025-1_q052": {
+  "pt": {
+   "resumo": "Icterícia colestática com cálculo no colédoco confirmado por colangiorressonância: coledocolitíase. Faz-se CPRE para retirar os cálculos e, depois, colecistectomia.",
+   "alternativas": {
+    "A": "Antibiótico isolado não resolve a obstrução.",
+    "B": "A colangiorressonância já mostrou a via biliar.",
+    "C": "Colecistectomia sozinha deixa o cálculo no colédoco.",
+    "D": "Correta: CPRE para retirar os cálculos."
+   }
+  },
+  "es": {
+   "resumo": "Ictericia colestásica con cálculo en el colédoco confirmado por colangiorresonancia: coledocolitiasis. Se hace CPRE para extraer los cálculos y luego colecistectomía.",
+   "alternativas": {
+    "A": "El antibiótico solo no resuelve la obstrucción.",
+    "B": "La colangiorresonancia ya mostró la vía biliar.",
+    "C": "La colecistectomía sola deja el cálculo en el colédoco.",
+    "D": "Correcta: CPRE para extraer los cálculos."
+   }
+  }
+ },
+ "revalida_2025-1_q053": {
+  "pt": {
+   "resumo": "Lactente em aleitamento de mãe vegana sem suplementação, com atraso motor, irritabilidade e anemia no hemograma: deficiência de vitamina B12, associada a carência de ferro. Suplementam-se ferro e B12, com fisioterapia para o atraso motor.",
+   "alternativas": {
+    "A": "Vitaminas A e C não explicam o quadro.",
+    "B": "Correta: ferro, vitamina B12 e fisioterapia.",
+    "C": "Ácido fólico isolado pode mascarar a anemia e piorar o dano neurológico.",
+    "D": "O problema não é vitamina D."
+   }
+  },
+  "es": {
+   "resumo": "Lactante amamantado por madre vegana sin suplementación, con retraso motor, irritabilidad y anemia en el hemograma: déficit de vitamina B12, asociado a carencia de hierro. Se suplementan hierro y B12, con fisioterapia para el retraso motor.",
+   "alternativas": {
+    "A": "Las vitaminas A y C no explican el cuadro.",
+    "B": "Correcta: hierro, vitamina B12 y fisioterapia.",
+    "C": "El ácido fólico solo puede enmascarar la anemia y empeorar el daño neurológico.",
+    "D": "El problema no es la vitamina D."
+   }
+  }
+ },
+ "revalida_2025-1_q054": {
+  "pt": {
+   "resumo": "Sangramento pós-menopausa em obesa e diabética: suspeita de câncer de endométrio. Com paciente estável e hemograma sem repercussão, o primeiro exame é a ultrassonografia transvaginal (espessura endometrial), com retorno à atenção primária.",
+   "alternativas": {
+    "A": "Correta: ultrassonografia transvaginal e retorno à UBS.",
+    "B": "Ressonância não é exame inicial.",
+    "C": "Histeroscopia vem depois da ultrassonografia.",
+    "D": "A paciente está estável, sem indicação de curetagem de urgência."
+   }
+  },
+  "es": {
+   "resumo": "Sangrado posmenopáusico en una mujer obesa y diabética: sospecha de cáncer de endometrio. Con paciente estable y hemograma sin repercusión, el primer examen es la ecografía transvaginal (grosor endometrial), con regreso a atención primaria.",
+   "alternativas": {
+    "A": "Correcta: ecografía transvaginal y regreso a la UBS.",
+    "B": "La resonancia no es examen inicial.",
+    "C": "La histeroscopia viene después de la ecografía.",
+    "D": "La paciente está estable, sin indicación de legrado de urgencia."
+   }
+  }
+ },
+ "revalida_2025-1_q055": {
+  "pt": {
+   "resumo": "No SUS, o rastreamento do câncer colorretal de pessoas assintomáticas de 50 a 75 anos é feito com pesquisa de sangue oculto nas fezes. Colonoscopia é reservada a resultado positivo ou risco aumentado.",
+   "alternativas": {
+    "A": "Ação judicial não é conduta adequada.",
+    "B": "Colonoscopia não é o exame inicial de rastreio no SUS.",
+    "C": "Correta: sangue oculto nas fezes.",
+    "D": "O SUS oferece rastreio, com sangue oculto nas fezes."
+   }
+  },
+  "es": {
+   "resumo": "En el SUS, el tamizaje del cáncer colorrectal en personas asintomáticas de 50 a 75 años se hace con sangre oculta en heces. La colonoscopia se reserva para resultado positivo o riesgo aumentado.",
+   "alternativas": {
+    "A": "Una acción judicial no es conducta adecuada.",
+    "B": "La colonoscopia no es el examen inicial de tamizaje en el SUS.",
+    "C": "Correcta: sangre oculta en heces.",
+    "D": "El SUS ofrece tamizaje, con sangre oculta en heces."
+   }
+  }
+ },
+ "revalida_2025-1_q056": {
+  "pt": {
+   "resumo": "Mordedura por herbívoro de interesse econômico (boi) não permite observação do animal como no cão e gato. Em ferimento leve, inicia-se o esquema de vacinação antirrábica (sem soro).",
+   "alternativas": {
+    "A": "Observação de 10 dias vale só para cão e gato.",
+    "B": "Há indicação de vacina.",
+    "C": "Correta: esquema de vacinação antirrábica.",
+    "D": "Soro é para ferimentos graves."
+   }
+  },
+  "es": {
+   "resumo": "La mordedura por herbívoro de interés económico (buey) no permite la observación del animal como con perro y gato. En herida leve se inicia el esquema de vacunación antirrábica (sin suero).",
+   "alternativas": {
+    "A": "La observación de 10 días vale solo para perro y gato.",
+    "B": "Hay indicación de vacuna.",
+    "C": "Correcta: esquema de vacunación antirrábica.",
+    "D": "El suero es para heridas graves."
+   }
+  }
+ },
+ "revalida_2025-1_q057": {
+  "pt": {
+   "resumo": "Ferimento torácico com murmúrio diminuído, macicez e frêmito abolido à direita: hemotórax. O tratamento é drenagem pleural em selo d'água no 5º espaço intercostal, entre as linhas axilares anterior e média.",
+   "alternativas": {
+    "A": "Toracotomia é para drenagem volumosa ou persistente.",
+    "B": "Punção no 2º espaço é para pneumotórax hipertensivo.",
+    "C": "Correta: drenagem no 5º espaço intercostal.",
+    "D": "Não se drena pelo orifício do projétil."
+   }
+  },
+  "es": {
+   "resumo": "Herida torácica con murmullo disminuido, matidez y frémito abolido a la derecha: hemotórax. El tratamiento es drenaje pleural en sello de agua en el 5.º espacio intercostal, entre las líneas axilares anterior y media.",
+   "alternativas": {
+    "A": "La toracotomía es para drenaje voluminoso o persistente.",
+    "B": "La punción en el 2.º espacio es para neumotórax a tensión.",
+    "C": "Correcta: drenaje en el 5.º espacio intercostal.",
+    "D": "No se drena por el orificio del proyectil."
+   }
+  }
+ },
+ "revalida_2025-1_q058": {
+  "pt": {
+   "resumo": "Asma não controlada (sintomas noturnos, limitação ao exercício e duas crises recentes) em uso só de resgate: sobe-se a etapa com corticoide inalatório associado a beta-2 de longa duração, mantendo resgate nas crises.",
+   "alternativas": {
+    "A": "Antileucotrieno é inferior, e o corticoide inalatório deve ser diário.",
+    "B": "Correta: LABA com corticoide inalatório e resgate.",
+    "C": "Corticoide oral não é manutenção.",
+    "D": "LABA sem corticoide inalatório é contraindicado."
+   }
+  },
+  "es": {
+   "resumo": "Asma no controlada (síntomas nocturnos, limitación al ejercicio y dos crisis recientes) usando solo rescate: se sube el escalón con corticoide inhalado asociado a beta-2 de acción prolongada, manteniendo rescate en las crisis.",
+   "alternativas": {
+    "A": "El antileucotrieno es inferior, y el corticoide inhalado debe ser diario.",
+    "B": "Correcta: LABA con corticoide inhalado y rescate.",
+    "C": "El corticoide oral no es mantenimiento.",
+    "D": "El LABA sin corticoide inhalado está contraindicado."
+   }
+  }
+ },
+ "revalida_2025-1_q059": {
+  "pt": {
+   "resumo": "Mãe com câncer de mama antes dos 50 anos coloca a paciente em risco elevado: o rastreamento com mamografia anual começa aos 35 anos.",
+   "alternativas": {
+    "A": "Alto risco começa o rastreio antes dos 40.",
+    "B": "Ela não segue a recomendação da população geral.",
+    "C": "Esperar os 50 anos atrasa o rastreio.",
+    "D": "Correta: mamografia a partir dos 35 anos."
+   }
+  },
+  "es": {
+   "resumo": "Una madre con cáncer de mama antes de los 50 años pone a la paciente en riesgo elevado: el tamizaje con mamografía anual empieza a los 35 años.",
+   "alternativas": {
+    "A": "El alto riesgo empieza el tamizaje antes de los 40.",
+    "B": "Ella no sigue la recomendación de la población general.",
+    "C": "Esperar a los 50 años retrasa el tamizaje.",
+    "D": "Correcta: mamografía a partir de los 35 años."
+   }
+  }
+ },
+ "revalida_2025-1_q060": {
+  "pt": {
+   "resumo": "Ausência de sorriso social e de vocalização aos 6 meses são sinais de alerta. O M-CHAT só vale de 16 a 30 meses; agora, valoriza-se a preocupação materna e investigam-se fatores de risco e sinais de alerta.",
+   "alternativas": {
+    "A": "O M-CHAT não é usado aos 6 meses.",
+    "B": "Correta: considerar a preocupação materna e investigar sinais de alerta.",
+    "C": "Diagnóstico de TEA não é feito aos 6 meses.",
+    "D": "Exame de imagem não é a investigação inicial."
+   }
+  },
+  "es": {
+   "resumo": "La ausencia de sonrisa social y de vocalización a los 6 meses son signos de alarma. El M-CHAT solo vale de 16 a 30 meses; ahora se valora la preocupación materna y se investigan factores de riesgo y signos de alarma.",
+   "alternativas": {
+    "A": "El M-CHAT no se usa a los 6 meses.",
+    "B": "Correcta: considerar la preocupación materna e investigar signos de alarma.",
+    "C": "El diagnóstico de TEA no se hace a los 6 meses.",
+    "D": "El examen de imagen no es la investigación inicial."
+   }
+  }
+ },
+ "revalida_2025-1_q061": {
+  "pt": {
+   "resumo": "Febre persistente, sopro, manchas de Roth na fundoscopia e hemorragias subungueais em lasca: endocardite infecciosa.",
+   "alternativas": {
+    "A": "Correta: endocardite infecciosa.",
+    "B": "Leucemia não explica sopro e hemorragias em lasca.",
+    "C": "Vasculite leucocitoclástica causa púrpura palpável.",
+    "D": "Lúpus tem outro conjunto de achados."
+   }
+  },
+  "es": {
+   "resumo": "Fiebre persistente, soplo, manchas de Roth en el fondo de ojo y hemorragias subungueales en astilla: endocarditis infecciosa.",
+   "alternativas": {
+    "A": "Correcta: endocarditis infecciosa.",
+    "B": "La leucemia no explica el soplo ni las hemorragias en astilla.",
+    "C": "La vasculitis leucocitoclástica causa púrpura palpable.",
+    "D": "El lupus tiene otro conjunto de hallazgos."
+   }
+  }
+ },
+ "revalida_2025-1_q062": {
+  "pt": {
+   "resumo": "Morte por causa externa (queda), mesmo após longa internação e por complicação, é morte violenta. A declaração de óbito é emitida pelo IML.",
+   "alternativas": {
+    "A": "Em morte violenta, a equipe assistente não emite a declaração.",
+    "B": "Correta: encaminhar ao IML.",
+    "C": "SVO é para morte natural sem causa definida.",
+    "D": "Em morte violenta, a equipe assistente não emite a declaração."
+   }
+  },
+  "es": {
+   "resumo": "La muerte por causa externa (caída), incluso tras larga internación y por complicación, es muerte violenta. El certificado de defunción lo emite el IML.",
+   "alternativas": {
+    "A": "En muerte violenta, el equipo tratante no emite el certificado.",
+    "B": "Correcta: derivar al IML.",
+    "C": "El SVO es para muerte natural sin causa definida.",
+    "D": "En muerte violenta, el equipo tratante no emite el certificado."
+   }
+  }
+ },
+ "revalida_2025-1_q063": {
+  "pt": {
+   "resumo": "Constipação funcional com massa fecal palpável (fecaloma): primeiro se faz a desimpactação, com polietilenoglicol oral em dose alta ou enema, e depois a manutenção e as orientações.",
+   "alternativas": {
+    "A": "O diagnóstico é clínico.",
+    "B": "Lactulose não é usada para desimpactação.",
+    "C": "Orientações vêm depois da desimpactação.",
+    "D": "Correta: desimpactação com enema ou polietilenoglicol."
+   }
+  },
+  "es": {
+   "resumo": "Estreñimiento funcional con masa fecal palpable (fecaloma): primero se hace la desimpactación, con polietilenglicol oral en dosis alta o enema, y luego el mantenimiento y las orientaciones.",
+   "alternativas": {
+    "A": "El diagnóstico es clínico.",
+    "B": "La lactulosa no se usa para desimpactación.",
+    "C": "Las orientaciones vienen después de la desimpactación.",
+    "D": "Correcta: desimpactación con enema o polietilenglicol."
+   }
+  }
+ },
+ "revalida_2025-1_q064": {
+  "pt": {
+   "resumo": "Cesárea a pedido é direito da gestante bem informada (Resolução CFM 2.284/2020), desde que feita a partir de 39 semanas.",
+   "alternativas": {
+    "A": "Correta: informar e agendar a partir de 39 semanas.",
+    "B": "A cesárea a pedido é permitida.",
+    "C": "O limite é 39 semanas, não 41.",
+    "D": "Com 38 semanas ainda não se pode fazer."
+   }
+  },
+  "es": {
+   "resumo": "La cesárea a pedido es derecho de la gestante bien informada (Resolución CFM 2.284/2020), siempre que se haga a partir de las 39 semanas.",
+   "alternativas": {
+    "A": "Correcta: informar y programar a partir de las 39 semanas.",
+    "B": "La cesárea a pedido está permitida.",
+    "C": "El límite es 39 semanas, no 41.",
+    "D": "Con 38 semanas aún no se puede hacer."
+   }
+  }
+ },
+ "revalida_2025-1_q065": {
+  "pt": {
+   "resumo": "Fora do pós-parto imediato (até 48 horas), o DIU é inserido a partir de 4 a 6 semanas. O cobre causa reação inflamatória e citotóxica no endométrio, que é espermicida.",
+   "alternativas": {
+    "A": "Não é preciso esperar 12 semanas.",
+    "B": "Com 15 dias o risco de expulsão e perfuração é maior, e espessar o muco é ação do DIU hormonal.",
+    "C": "Correta: 4 a 6 semanas e ação inflamatória e citotóxica.",
+    "D": "Não é imediato, e o cobre não fluidifica o muco."
+   }
+  },
+  "es": {
+   "resumo": "Fuera del posparto inmediato (hasta 48 horas), el DIU se inserta a partir de las 4 a 6 semanas. El cobre causa una reacción inflamatoria y citotóxica en el endometrio, que es espermicida.",
+   "alternativas": {
+    "A": "No hace falta esperar 12 semanas.",
+    "B": "A los 15 días el riesgo de expulsión y perforación es mayor, y espesar el moco es acción del DIU hormonal.",
+    "C": "Correcta: 4 a 6 semanas y acción inflamatoria y citotóxica.",
+    "D": "No es inmediato, y el cobre no fluidifica el moco."
+   }
+  }
+ },
+ "revalida_2025-1_q066": {
+  "pt": {
+   "resumo": "Hipertenso diabético com albuminúria (50 mg/g): o anti-hipertensivo de escolha é IECA (ou BRA), pela proteção renal.",
+   "alternativas": {
+    "A": "Betabloqueador não é primeira linha.",
+    "B": "Diurético não reduz albuminúria.",
+    "C": "Correta: IECA.",
+    "D": "Bloqueador de cálcio não tem a mesma proteção renal."
+   }
+  },
+  "es": {
+   "resumo": "Hipertenso diabético con albuminuria (50 mg/g): el antihipertensivo de elección es IECA (o ARA II), por la protección renal.",
+   "alternativas": {
+    "A": "El betabloqueante no es primera línea.",
+    "B": "El diurético no reduce la albuminuria.",
+    "C": "Correcta: IECA.",
+    "D": "El bloqueador de calcio no tiene la misma protección renal."
+   }
+  }
+ },
+ "revalida_2025-1_q067": {
+  "pt": {
+   "resumo": "Massa cervical na linha média, indolor, que se move com a protrusão da língua: cisto do ducto tireoglosso.",
+   "alternativas": {
+    "A": "Cisto dermoide não se move com a língua.",
+    "B": "Tireoide ectópica é diagnóstico diferencial, mas menos comum.",
+    "C": "Higroma cístico é lateral e amolecido.",
+    "D": "Correta: cisto tireoglosso."
+   }
+  },
+  "es": {
+   "resumo": "Masa cervical en la línea media, indolora, que se mueve con la protrusión de la lengua: quiste del conducto tirogloso.",
+   "alternativas": {
+    "A": "El quiste dermoide no se mueve con la lengua.",
+    "B": "La tiroides ectópica es diagnóstico diferencial, pero menos común.",
+    "C": "El higroma quístico es lateral y blando.",
+    "D": "Correcta: quiste tirogloso."
+   }
+  }
+ },
+ "revalida_2025-1_q068": {
+  "pt": {
+   "resumo": "Criança com sintomas e contato com tuberculose: investiga-se com radiografia de tórax e prova tuberculínica, aplicando o escore do Ministério da Saúde para o diagnóstico na criança.",
+   "alternativas": {
+    "A": "Antibiótico empírico atrasa o diagnóstico.",
+    "B": "O tratamento depende do escore, com radiografia e prova tuberculínica.",
+    "C": "Correta: radiografia e prova tuberculínica.",
+    "D": "Não é preciso afastar o avô."
+   }
+  },
+  "es": {
+   "resumo": "Niño con síntomas y contacto con tuberculosis: se investiga con radiografía de tórax y prueba tuberculínica, aplicando el puntaje del Ministerio de Salud brasileño para el diagnóstico en el niño.",
+   "alternativas": {
+    "A": "El antibiótico empírico retrasa el diagnóstico.",
+    "B": "El tratamiento depende del puntaje, con radiografía y prueba tuberculínica.",
+    "C": "Correcta: radiografía y prueba tuberculínica.",
+    "D": "No hace falta alejar al abuelo."
+   }
+  }
+ },
+ "revalida_2025-1_q069": {
+  "pt": {
+   "resumo": "Gestante com parto prematuro espontâneo anterior: a progesterona natural micronizada vaginal diária reduz o risco de nova prematuridade.",
+   "alternativas": {
+    "A": "Indometacina não é prevenção de longo prazo.",
+    "B": "Pessário depende de colo curto.",
+    "C": "A progesterona intramuscular semanal (17-OHP) teve eficácia contestada.",
+    "D": "Correta: progesterona natural micronizada vaginal."
+   }
+  },
+  "es": {
+   "resumo": "Gestante con parto prematuro espontáneo previo: la progesterona natural micronizada vaginal diaria reduce el riesgo de nueva prematuridad.",
+   "alternativas": {
+    "A": "La indometacina no es prevención a largo plazo.",
+    "B": "El pesario depende de cuello corto.",
+    "C": "La progesterona intramuscular semanal (17-OHP) tuvo eficacia cuestionada.",
+    "D": "Correcta: progesterona natural micronizada vaginal."
+   }
+  }
+ },
+ "revalida_2025-1_q070": {
+  "pt": {
+   "resumo": "Cefaleia intensa súbita e afasia há 30 minutos: suspeita de AVC (possivelmente hemorrágico), emergência tempo-dependente. Aciona-se o SAMU de imediato e estabiliza-se na UBS até a remoção, sem baixar a pressão às cegas.",
+   "alternativas": {
+    "A": "Manter na UBS atrasa o diagnóstico e o tratamento.",
+    "B": "Correta: acionar o SAMU e estabilizar até a ambulância.",
+    "C": "Anti-hipertensivo sublingual é contraindicado e atrasa a remoção.",
+    "D": "Seguimento ambulatorial não serve para AVC agudo."
+   }
+  },
+  "es": {
+   "resumo": "Cefalea intensa súbita y afasia desde hace 30 minutos: sospecha de ACV (posiblemente hemorrágico), emergencia tiempo-dependiente. Se activa el SAMU de inmediato y se estabiliza en la UBS hasta el traslado, sin bajar la presión a ciegas.",
+   "alternativas": {
+    "A": "Mantener en la UBS retrasa el diagnóstico y el tratamiento.",
+    "B": "Correcta: activar el SAMU y estabilizar hasta la ambulancia.",
+    "C": "El antihipertensivo sublingual está contraindicado y retrasa el traslado.",
+    "D": "El seguimiento ambulatorio no sirve para un ACV agudo."
+   }
+  }
+ },
+ "revalida_2025-1_q071": {
+  "pt": {
+   "resumo": "Lombalgia há mais de 3 meses com rigidez matinal prolongada (2 horas), melhora parcial com AINE e limitação da mobilidade (Schober de 1 cm): características de dor inflamatória. Investiga-se espondiloartrite com provas inflamatórias e ressonância das sacroilíacas.",
+   "alternativas": {
+    "A": "O marcador é o HLA-B27, e corticoide sistêmico não é a terapia.",
+    "B": "Correta: provas inflamatórias e ressonância de sacroilíacas.",
+    "C": "Tratar como mecânica deixa de investigar a espondiloartrite.",
+    "D": "Opioide não é indicado."
+   }
+  },
+  "es": {
+   "resumo": "Lumbalgia de más de 3 meses con rigidez matinal prolongada (2 horas), mejoría parcial con AINE y limitación de la movilidad (Schober de 1 cm): características de dolor inflamatorio. Se investiga espondiloartritis con reactantes de fase aguda y resonancia de sacroilíacas.",
+   "alternativas": {
+    "A": "El marcador es el HLA-B27, y el corticoide sistémico no es la terapia.",
+    "B": "Correcta: reactantes de fase aguda y resonancia de sacroilíacas.",
+    "C": "Tratarla como mecánica deja de investigar la espondiloartritis.",
+    "D": "El opioide no está indicado."
+   }
+  }
+ },
+ "revalida_2025-1_q072": {
+  "pt": {
+   "resumo": "Icterícia com colúria e acolia fecal desde a 2ª semana, com fígado endurecido: colestase neonatal, com suspeita de atresia de vias biliares. Encaminha-se com urgência, pois a cirurgia de Kasai antes de 60 dias melhora o prognóstico.",
+   "alternativas": {
+    "A": "Colúria e acolia indicam icterícia obstrutiva.",
+    "B": "Não se suspende o leite materno.",
+    "C": "Icterícia do leite materno não causa colúria nem acolia.",
+    "D": "Correta: atresia biliar e encaminhamento urgente."
+   }
+  },
+  "es": {
+   "resumo": "Ictericia con coluria y acolia desde la 2.ª semana, con hígado duro: colestasis neonatal, con sospecha de atresia de vías biliares. Se deriva con urgencia, pues la cirugía de Kasai antes de los 60 días mejora el pronóstico.",
+   "alternativas": {
+    "A": "La coluria y la acolia indican ictericia obstructiva.",
+    "B": "No se suspende la leche materna.",
+    "C": "La ictericia por leche materna no causa coluria ni acolia.",
+    "D": "Correcta: atresia biliar y derivación urgente."
+   }
+  }
+ },
+ "revalida_2025-1_q073": {
+  "pt": {
+   "resumo": "Lactente com febre alta por 3 a 4 dias, em bom estado, e exantema que aparece quando a febre cede: exantema súbito (roséola, herpes-vírus 6). O diagnóstico é clínico.",
+   "alternativas": {
+    "A": "Mão-pé-boca tem vesículas em mãos, pés e boca.",
+    "B": "No sarampo o exantema surge com febre, tosse e conjuntivite.",
+    "C": "Correta: exantema súbito, com diagnóstico clínico.",
+    "D": "Escarlatina é rara antes de 3 anos e tem exantema áspero com febre."
+   }
+  },
+  "es": {
+   "resumo": "Lactante con fiebre alta por 3 a 4 días, en buen estado, y exantema que aparece cuando cede la fiebre: exantema súbito (roséola, herpesvirus 6). El diagnóstico es clínico.",
+   "alternativas": {
+    "A": "La mano-pie-boca tiene vesículas en manos, pies y boca.",
+    "B": "En el sarampión el exantema surge con fiebre, tos y conjuntivitis.",
+    "C": "Correcta: exantema súbito, con diagnóstico clínico.",
+    "D": "La escarlatina es rara antes de los 3 años y tiene exantema áspero con fiebre."
+   }
+  }
+ },
+ "revalida_2025-1_q074": {
+  "pt": {
+   "resumo": "Cisto ovariano simples, anecoico, de paredes finas, em mulher assintomática na menacme: provavelmente funcional. Repete-se a ultrassonografia em até 12 semanas para ver se regrediu.",
+   "alternativas": {
+    "A": "CA-125 não é indicado para cisto simples na menacme.",
+    "B": "Com 6 cm, precisa de reavaliação.",
+    "C": "Ressonância é para massas indeterminadas.",
+    "D": "Correta: repetir a ultrassonografia em até 12 semanas."
+   }
+  },
+  "es": {
+   "resumo": "Quiste ovárico simple, anecoico, de paredes finas, en mujer asintomática en edad fértil: probablemente funcional. Se repite la ecografía en hasta 12 semanas para ver si regresó.",
+   "alternativas": {
+    "A": "El CA-125 no está indicado para quiste simple en edad fértil.",
+    "B": "Con 6 cm, necesita reevaluación.",
+    "C": "La resonancia es para masas indeterminadas.",
+    "D": "Correcta: repetir la ecografía en hasta 12 semanas."
+   }
+  }
+ },
+ "revalida_2025-1_q075": {
+  "pt": {
+   "resumo": "Nódulo mamário na gestação deve ser investigado sem demora: ultrassonografia primeiro, com mamografia (com proteção abdominal) se necessário. A história familiar reforça a urgência.",
+   "alternativas": {
+    "A": "A biópsia vem depois da imagem.",
+    "B": "O nódulo não muda o risco da gestação em si.",
+    "C": "Correta: ultrassonografia e mamografia com proteção.",
+    "D": "Esperar o fim da gestação atrasa o diagnóstico."
+   }
+  },
+  "es": {
+   "resumo": "Un nódulo mamario en el embarazo debe investigarse sin demora: ecografía primero, con mamografía (con protección abdominal) si es necesaria. La historia familiar refuerza la urgencia.",
+   "alternativas": {
+    "A": "La biopsia viene después de la imagen.",
+    "B": "El nódulo no cambia el riesgo de la gestación en sí.",
+    "C": "Correcta: ecografía y mamografía con protección.",
+    "D": "Esperar al fin del embarazo retrasa el diagnóstico."
+   }
+  }
+ },
+ "revalida_2025-1_q076": {
+  "pt": {
+   "resumo": "Lesão pigmentada assimétrica, de bordas irregulares, crescendo, com prurido e sangramento: critérios ABCDE de melanoma.",
+   "alternativas": {
+    "A": "Correta: melanoma.",
+    "B": "Queratoacantoma é nódulo com cratera central de crescimento rápido.",
+    "C": "Carcinoma basocelular é perolado, geralmente em face.",
+    "D": "Carcinoma espinocelular é lesão queratósica ou ulcerada, não pigmentada."
+   }
+  },
+  "es": {
+   "resumo": "Lesión pigmentada asimétrica, de bordes irregulares, que crece, con prurito y sangrado: criterios ABCDE de melanoma.",
+   "alternativas": {
+    "A": "Correcta: melanoma.",
+    "B": "El queratoacantoma es un nódulo con cráter central de crecimiento rápido.",
+    "C": "El carcinoma basocelular es perlado, generalmente en la cara.",
+    "D": "El carcinoma espinocelular es lesión queratósica o ulcerada, no pigmentada."
+   }
+  }
+ },
+ "revalida_2025-1_q077": {
+  "pt": {
+   "resumo": "No ATLS, a sala de emergência reinicia o ABCDE pelo A: confirma-se a posição e a permeabilidade do tubo, mesmo no paciente já intubado.",
+   "alternativas": {
+    "A": "Tomografia só depois da avaliação primária.",
+    "B": "Não há hemorragia, e o B e o C vêm depois do A.",
+    "C": "Correta: avaliação das vias aéreas.",
+    "D": "A coluna é protegida junto com o A, mas a prioridade é a via aérea."
+   }
+  },
+  "es": {
+   "resumo": "En el ATLS, la sala de emergencias reinicia el ABCDE por la A: se confirma la posición y la permeabilidad del tubo, incluso en el paciente ya intubado.",
+   "alternativas": {
+    "A": "La tomografía solo después de la evaluación primaria.",
+    "B": "No hay hemorragia, y la B y la C vienen después de la A.",
+    "C": "Correcta: evaluación de la vía aérea.",
+    "D": "La columna se protege junto con la A, pero la prioridad es la vía aérea."
+   }
+  }
+ },
+ "revalida_2025-1_q078": {
+  "pt": {
+   "resumo": "Após infecção respiratória: púrpura palpável em membros inferiores e nádegas, dor abdominal, artralgia e hematúria com proteinúria. É a vasculite por IgA (Henoch-Schönlein).",
+   "alternativas": {
+    "A": "Kawasaki tem febre prolongada, conjuntivite e alterações de mucosa.",
+    "B": "Artrite juvenil não causa púrpura palpável.",
+    "C": "Lúpus em menino de 7 anos é raro e não causa esse padrão de púrpura.",
+    "D": "Correta: vasculite por IgA."
+   }
+  },
+  "es": {
+   "resumo": "Tras infección respiratoria: púrpura palpable en miembros inferiores y nalgas, dolor abdominal, artralgia y hematuria con proteinuria. Es la vasculitis por IgA (Henoch-Schönlein).",
+   "alternativas": {
+    "A": "Kawasaki tiene fiebre prolongada, conjuntivitis y alteraciones de mucosas.",
+    "B": "La artritis juvenil no causa púrpura palpable.",
+    "C": "El lupus en un niño de 7 años es raro y no causa ese patrón de púrpura.",
+    "D": "Correcta: vasculitis por IgA."
+   }
+  }
+ },
+ "revalida_2025-1_q079": {
+  "pt": {
+   "resumo": "Mastite com flutuação e febre: abscesso mamário. Drena-se (por punção ou cirurgia) e mantém-se a amamentação em ambas as mamas, além de antibiótico.",
+   "alternativas": {
+    "A": "Correta: drenagem e amamentação nas duas mamas.",
+    "B": "Não é preciso suspender a mama afetada.",
+    "C": "Abscesso exige drenagem, e não se ferve o leite.",
+    "D": "Não se suspende a amamentação."
+   }
+  },
+  "es": {
+   "resumo": "Mastitis con fluctuación y fiebre: absceso mamario. Se drena (por punción o cirugía) y se mantiene la lactancia en ambas mamas, además de antibiótico.",
+   "alternativas": {
+    "A": "Correcta: drenaje y lactancia en ambas mamas.",
+    "B": "No hace falta suspender la mama afectada.",
+    "C": "El absceso exige drenaje, y no se hierve la leche.",
+    "D": "No se suspende la lactancia."
+   }
+  }
+ },
+ "revalida_2025-1_q080": {
+  "pt": {
+   "resumo": "Desde 2024, a vacina HPV é em dose única dos 9 aos 14 anos, para meninas e meninos. A menina de 13 anos recebe agora; o menino de 8 anos ainda não tem idade.",
+   "alternativas": {
+    "A": "O menino de 8 anos ainda não pode receber.",
+    "B": "O esquema é dose única.",
+    "C": "A menina deve ser vacinada, e o menino recebe a partir de 9 anos.",
+    "D": "Correta: dose única para a menina; o menino ainda não."
+   }
+  },
+  "es": {
+   "resumo": "Desde 2024, la vacuna contra el VPH es dosis única de 9 a 14 años, para niñas y niños. La niña de 13 años la recibe ahora; el niño de 8 años aún no tiene edad.",
+   "alternativas": {
+    "A": "El niño de 8 años aún no puede recibirla.",
+    "B": "El esquema es dosis única.",
+    "C": "La niña debe vacunarse, y el niño la recibe a partir de los 9 años.",
+    "D": "Correcta: dosis única para la niña; el niño todavía no."
+   }
+  }
+ },
+ "revalida_2025-1_q081": {
+  "pt": {
+   "resumo": "Etilista com dor epigástrica recorrente irradiada para o dorso: pancreatite crônica. A tomografia mostra calcificações e alterações ductais. Para a dor, usam-se analgésicos e neuromoduladores, como a amitriptilina.",
+   "alternativas": {
+    "A": "Correta: tomografia e amitriptilina.",
+    "B": "CPRE não é exame diagnóstico inicial.",
+    "C": "Ácido ursodesoxicólico não trata pancreatite.",
+    "D": "CPRE não é exame inicial; enzimas são para insuficiência exócrina."
+   }
+  },
+  "es": {
+   "resumo": "Alcohólico con dolor epigástrico recurrente irradiado a la espalda: pancreatitis crónica. La tomografía muestra calcificaciones y alteraciones ductales. Para el dolor se usan analgésicos y neuromoduladores, como la amitriptilina.",
+   "alternativas": {
+    "A": "Correcta: tomografía y amitriptilina.",
+    "B": "La CPRE no es examen diagnóstico inicial.",
+    "C": "El ácido ursodesoxicólico no trata la pancreatitis.",
+    "D": "La CPRE no es examen inicial; las enzimas son para insuficiencia exocrina."
+   }
+  }
+ },
+ "revalida_2025-1_q082": {
+  "pt": {
+   "resumo": "Trauma em sela, equimose perineal em asa de borboleta, uretrorragia e retenção urinária: lesão de uretra bulbar. Sondagem vesical é contraindicada; faz-se cistostomia suprapúbica.",
+   "alternativas": {
+    "A": "Sonda vesical pode piorar a lesão.",
+    "B": "Correta: cistostomia por punção.",
+    "C": "Diurético agrava a retenção.",
+    "D": "Hidratação não resolve a retenção."
+   }
+  },
+  "es": {
+   "resumo": "Trauma a horcajadas, equimosis perineal en alas de mariposa, uretrorragia y retención urinaria: lesión de uretra bulbar. El sondaje vesical está contraindicado; se hace cistostomía suprapúbica.",
+   "alternativas": {
+    "A": "La sonda vesical puede empeorar la lesión.",
+    "B": "Correcta: cistostomía por punción.",
+    "C": "El diurético agrava la retención.",
+    "D": "La hidratación no resuelve la retención."
+   }
+  }
+ },
+ "revalida_2025-1_q083": {
+  "pt": {
+   "resumo": "Anemia ferropriva por excesso de leite de vaca e pouca carne. Sem resposta após 3 meses, com o mesmo consumo de leite e dose de 2 mg/kg/dia (abaixo dos 3 a 6 mg/kg/dia de tratamento): a falha vem da dose baixa e da dieta.",
+   "alternativas": {
+    "A": "Não houve a resposta esperada.",
+    "B": "Antes de ferro venoso, corrigem-se dose e dieta.",
+    "C": "Há causa evidente para a falha antes de pensar em talassemia.",
+    "D": "Correta: aumentar a dose e orientar a alimentação."
+   }
+  },
+  "es": {
+   "resumo": "Anemia ferropénica por exceso de leche de vaca y poca carne. Sin respuesta tras 3 meses, con el mismo consumo de leche y dosis de 2 mg/kg/día (por debajo de los 3 a 6 mg/kg/día de tratamiento): el fallo se debe a la dosis baja y a la dieta.",
+   "alternativas": {
+    "A": "No hubo la respuesta esperada.",
+    "B": "Antes del hierro intravenoso, se corrigen dosis y dieta.",
+    "C": "Hay una causa evidente del fallo antes de pensar en talasemia.",
+    "D": "Correcta: aumentar la dosis y orientar la alimentación."
+   }
+  }
+ },
+ "revalida_2025-1_q084": {
+  "pt": {
+   "resumo": "Gestação ectópica íntegra, com paciente estável, massa de 3 cm, beta-hCG abaixo de 5.000 e embrião sem batimentos: candidata a metotrexato intramuscular.",
+   "alternativas": {
+    "A": "Cirurgia não é necessária com critérios para metotrexato.",
+    "B": "Correta: metotrexato intramuscular.",
+    "C": "Laparotomia é para instabilidade hemodinâmica.",
+    "D": "O diagnóstico já está feito pela ultrassonografia."
+   }
+  },
+  "es": {
+   "resumo": "Gestación ectópica íntegra, con paciente estable, masa de 3 cm, beta-hCG por debajo de 5000 y embrión sin latidos: candidata a metotrexato intramuscular.",
+   "alternativas": {
+    "A": "La cirugía no es necesaria con criterios para metotrexato.",
+    "B": "Correcta: metotrexato intramuscular.",
+    "C": "La laparotomía es para inestabilidad hemodinámica.",
+    "D": "El diagnóstico ya está hecho por la ecografía."
+   }
+  }
+ },
+ "revalida_2025-1_q085": {
+  "pt": {
+   "resumo": "Pelo Estatuto da Pessoa Idosa, omissão de cuidados básicos (higiene, mobilidade, dor) por uma instituição é negligência, uma forma de violência institucional.",
+   "alternativas": {
+    "A": "Institucionalizar não é violência.",
+    "B": "Agitação e demência não justificam omissão de cuidado.",
+    "C": "Correta: negligência como violência institucional.",
+    "D": "Não há dado de desvio de recursos."
+   }
+  },
+  "es": {
+   "resumo": "Según el Estatuto de la Persona Mayor, la omisión de cuidados básicos (higiene, movilidad, dolor) por una institución es negligencia, una forma de violencia institucional.",
+   "alternativas": {
+    "A": "Institucionalizar no es violencia.",
+    "B": "La agitación y la demencia no justifican la omisión de cuidado.",
+    "C": "Correcta: negligencia como violencia institucional.",
+    "D": "No hay dato de desvío de recursos."
+   }
+  }
+ },
+ "revalida_2025-1_q086": {
+  "pt": {
+   "resumo": "Paciente em cuidados paliativos com diretiva antecipada de não ser submetido a procedimentos invasivos: respeita-se a vontade dele. A dispneia é tratada com morfina parenteral.",
+   "alternativas": {
+    "A": "Intubar contraria a diretiva antecipada.",
+    "B": "Correta: morfina parenteral.",
+    "C": "O derrame é pequeno e não explica a dispneia.",
+    "D": "Intubar contraria a diretiva antecipada."
+   }
+  },
+  "es": {
+   "resumo": "Paciente en cuidados paliativos con directiva anticipada de no ser sometido a procedimientos invasivos: se respeta su voluntad. La disnea se trata con morfina parenteral.",
+   "alternativas": {
+    "A": "Intubar contradice la directiva anticipada.",
+    "B": "Correcta: morfina parenteral.",
+    "C": "El derrame es pequeño y no explica la disnea.",
+    "D": "Intubar contradice la directiva anticipada."
+   }
+  }
+ },
+ "revalida_2025-1_q087": {
+  "pt": {
+   "resumo": "Objeto metálico redondo com duplo contorno na radiografia: bateria em disco (pilha de botão). Causa necrose rápida e exige retirada imediata em centro de referência.",
+   "alternativas": {
+    "A": "Liberar atrasa a retirada.",
+    "B": "Correta: transferir para retirada imediata.",
+    "C": "Lavagem pode piorar a lesão.",
+    "D": "A retirada não pode ser eletiva."
+   }
+  },
+  "es": {
+   "resumo": "Objeto metálico redondo con doble contorno en la radiografía: pila de botón. Causa necrosis rápida y exige retiro inmediato en un centro de referencia.",
+   "alternativas": {
+    "A": "Dar el alta retrasa el retiro.",
+    "B": "Correcta: trasladar para retiro inmediato.",
+    "C": "El lavado puede empeorar la lesión.",
+    "D": "El retiro no puede ser electivo."
+   }
+  }
+ },
+ "revalida_2025-1_q088": {
+  "pt": {
+   "resumo": "Pelo gabarito, a inscrição em centro de transplante de medula óssea na LLA é feita assim que se detecta falha da terapia de indução, uma das indicações de transplante.",
+   "alternativas": {
+    "A": "O momento é a falha da indução.",
+    "B": "Correta: inscrição ao detectar falha na indução.",
+    "C": "A compatibilidade familiar não precisa vir antes da inscrição.",
+    "D": "Não é preciso esperar a alta."
+   }
+  },
+  "es": {
+   "resumo": "Según la clave, la inscripción en un centro de trasplante de médula ósea en la LLA se hace en cuanto se detecta fallo de la terapia de inducción, una de las indicaciones de trasplante.",
+   "alternativas": {
+    "A": "El momento es el fallo de la inducción.",
+    "B": "Correcta: inscripción al detectar fallo en la inducción.",
+    "C": "La compatibilidad familiar no tiene que venir antes de la inscripción.",
+    "D": "No hace falta esperar el alta."
+   }
+  }
+ },
+ "revalida_2025-1_q089": {
+  "pt": {
+   "resumo": "Na NIC III, faz-se conização (excisão da zona de transformação). Ela trata e também permite afastar microinvasão, o que muda a conduta; histerectomia de saída não é indicada.",
+   "alternativas": {
+    "A": "Histerectomia sem afastar invasão pode ser tratamento inadequado.",
+    "B": "Prole constituída não muda a primeira conduta.",
+    "C": "Correta: conização para afastar microinvasão.",
+    "D": "A conização trata, mas é necessária principalmente para afastar invasão."
+   }
+  },
+  "es": {
+   "resumo": "En la NIC III se hace conización (escisión de la zona de transformación). Trata y también permite descartar microinvasión, lo que cambia la conducta; la histerectomía de entrada no está indicada.",
+   "alternativas": {
+    "A": "La histerectomía sin descartar invasión puede ser tratamiento inadecuado.",
+    "B": "Tener la familia completa no cambia la primera conducta.",
+    "C": "Correcta: conización para descartar microinvasión.",
+    "D": "La conización trata, pero es necesaria sobre todo para descartar invasión."
+   }
+  }
+ },
+ "revalida_2025-1_q090": {
+  "pt": {
+   "resumo": "No Brasil, a vacina de febre amarela é dose única para quem foi vacinado depois dos 5 anos. Adulto com uma dose não precisa de reforço, mesmo com epizootia perto de casa.",
+   "alternativas": {
+    "A": "Há áreas de risco no Brasil, e macaco morto é alerta.",
+    "B": "Correta: reforço desnecessário.",
+    "C": "A vacinação não depende da confirmação no animal.",
+    "D": "Não há indicação de reforço."
+   }
+  },
+  "es": {
+   "resumo": "En Brasil, la vacuna contra la fiebre amarilla es dosis única para quien fue vacunado después de los 5 años. Un adulto con una dosis no necesita refuerzo, aunque haya epizootia cerca de su casa.",
+   "alternativas": {
+    "A": "Hay áreas de riesgo en Brasil, y un mono muerto es una alerta.",
+    "B": "Correcta: refuerzo innecesario.",
+    "C": "La vacunación no depende de la confirmación en el animal.",
+    "D": "No hay indicación de refuerzo."
+   }
+  }
+ },
+ "revalida_2025-1_q091": {
+  "pt": {
+   "resumo": "Grande perda por sonda nasogástrica leva a hipocalemia, que causa íleo paralítico (distensão, ruídos hipoativos, sem flatos).",
+   "alternativas": {
+    "A": "Correta: hipocalemia.",
+    "B": "Perda gástrica não causa hipercalemia.",
+    "C": "Hipermagnesemia não ocorre por perda gástrica.",
+    "D": "Hipomagnesemia pode acompanhar, mas a causa principal do íleo é o potássio."
+   }
+  },
+  "es": {
+   "resumo": "Una gran pérdida por sonda nasogástrica lleva a hipopotasemia, que causa íleo paralítico (distensión, ruidos hipoactivos, sin flatos).",
+   "alternativas": {
+    "A": "Correcta: hipopotasemia.",
+    "B": "La pérdida gástrica no causa hiperpotasemia.",
+    "C": "La hipermagnesemia no ocurre por pérdida gástrica.",
+    "D": "La hipomagnesemia puede acompañar, pero la causa principal del íleo es el potasio."
+   }
+  }
+ },
+ "revalida_2025-1_q092": {
+  "pt": {
+   "resumo": "Hiperplasia prostática com sintomas refratários a terapia combinada (alfabloqueador e inibidor da 5-alfa-redutase), PSA compatível e próstata de 40 g: indica-se ressecção transuretral.",
+   "alternativas": {
+    "A": "PSA de 3,1 sem nódulo não indica biópsia.",
+    "B": "Não há infecção.",
+    "C": "Repetir ultrassonografia não muda a conduta.",
+    "D": "Correta: ressecção transuretral."
+   }
+  },
+  "es": {
+   "resumo": "Hiperplasia prostática con síntomas refractarios a terapia combinada (alfabloqueante e inhibidor de la 5-alfa-reductasa), PSA compatible y próstata de 40 g: se indica resección transuretral.",
+   "alternativas": {
+    "A": "Un PSA de 3,1 sin nódulo no indica biopsia.",
+    "B": "No hay infección.",
+    "C": "Repetir la ecografía no cambia la conducta.",
+    "D": "Correcta: resección transuretral."
+   }
+  }
+ },
+ "revalida_2025-1_q093": {
+  "pt": {
+   "resumo": "Criança sem possibilidade terapêutica curativa: cuidados paliativos com controle da dor por opioides e decisão compartilhada com a família de não reanimar.",
+   "alternativas": {
+    "A": "Correta: opioides e não reanimação com a família.",
+    "B": "Intubação não traz conforto e é medida invasiva.",
+    "C": "Nova quimioterapia é obstinação terapêutica.",
+    "D": "Nova cirurgia é obstinação terapêutica."
+   }
+  },
+  "es": {
+   "resumo": "Niño sin posibilidad terapéutica curativa: cuidados paliativos con control del dolor con opioides y decisión compartida con la familia de no reanimar.",
+   "alternativas": {
+    "A": "Correcta: opioides y no reanimación con la familia.",
+    "B": "La intubación no aporta confort y es una medida invasiva.",
+    "C": "Una nueva quimioterapia es obstinación terapéutica.",
+    "D": "Una nueva cirugía es obstinación terapéutica."
+   }
+  }
+ },
+ "revalida_2025-1_q094": {
+  "pt": {
+   "resumo": "Sangramento pós-menopausa com endométrio espessado (12 mm) e heterogêneo: suspeita de câncer de endométrio. Para que a recusa seja autônoma e informada, o médico explica a possibilidade de câncer e reforça a necessidade do exame.",
+   "alternativas": {
+    "A": "Sem informação, a decisão não é autônoma.",
+    "B": "Correta: informar a possibilidade de câncer e reforçar o exame.",
+    "C": "Omitir à paciente e contar à família fere o sigilo e a autonomia.",
+    "D": "Abandonar a paciente por recusa é antiético."
+   }
+  },
+  "es": {
+   "resumo": "Sangrado posmenopáusico con endometrio engrosado (12 mm) y heterogéneo: sospecha de cáncer de endometrio. Para que el rechazo sea autónomo e informado, el médico explica la posibilidad de cáncer y refuerza la necesidad del examen.",
+   "alternativas": {
+    "A": "Sin información, la decisión no es autónoma.",
+    "B": "Correcta: informar la posibilidad de cáncer y reforzar el examen.",
+    "C": "Ocultarlo a la paciente y contarlo a la familia vulnera el secreto y la autonomía.",
+    "D": "Abandonar a la paciente por rechazo no es ético."
+   }
+  }
+ },
+ "revalida_2025-1_q095": {
+  "pt": {
+   "resumo": "A internet espalha dúvidas sobre a eficácia e a segurança das vacinas, e os algoritmos das redes ligam o tema a pautas morais, gerando exposição seletiva e reduzindo a confiança.",
+   "alternativas": {
+    "A": "Correta: dúvidas na internet e exposição seletiva nas redes.",
+    "B": "Hesitação vacinal ocorre em todos os estratos sociais.",
+    "C": "Não existe política de redução temporária de vacinas.",
+    "D": "Fake news também afetam a população de menor renda."
+   }
+  },
+  "es": {
+   "resumo": "Internet difunde dudas sobre la eficacia y la seguridad de las vacunas, y los algoritmos de las redes ligan el tema a pautas morales, generando exposición selectiva y reduciendo la confianza.",
+   "alternativas": {
+    "A": "Correcta: dudas en internet y exposición selectiva en las redes.",
+    "B": "La reticencia vacunal ocurre en todos los estratos sociales.",
+    "C": "No existe una política de reducción temporal de vacunas.",
+    "D": "Las noticias falsas también afectan a la población de menor renta."
+   }
+  }
+ },
+ "revalida_2025-1_q096": {
+  "pt": {
+   "resumo": "Adulto capaz pode recusar transfusão por convicção religiosa, sem risco iminente de morte. O médico respeita a autonomia e busca alternativas, como eritropoietina.",
+   "alternativas": {
+    "A": "Adiar para ter mais poder de convencimento é manipulação.",
+    "B": "Correta: respeitar a autonomia e buscar alternativas.",
+    "C": "Insistir desrespeita a decisão informada.",
+    "D": "A comissão de ética não serve para convencer o paciente."
+   }
+  },
+  "es": {
+   "resumo": "Un adulto capaz puede rechazar la transfusión por convicción religiosa, sin riesgo inminente de muerte. El médico respeta la autonomía y busca alternativas, como la eritropoyetina.",
+   "alternativas": {
+    "A": "Postergar para tener más poder de convencimiento es manipulación.",
+    "B": "Correcta: respetar la autonomía y buscar alternativas.",
+    "C": "Insistir no respeta la decisión informada.",
+    "D": "El comité de ética no sirve para convencer al paciente."
+   }
+  }
+ },
+ "revalida_2025-1_q097": {
+  "pt": {
+   "resumo": "Estenose péptica do esôfago distal com biópsia sem malignidade: o tratamento inicial é dilatação endoscópica e IBP para controlar o refluxo.",
+   "alternativas": {
+    "A": "Esofagectomia é para câncer ou falha de todos os tratamentos.",
+    "B": "Toxina botulínica é para acalasia.",
+    "C": "Fundoplicatura não resolve a estenose de imediato.",
+    "D": "Correta: dilatação endoscópica e IBP."
+   }
+  },
+  "es": {
+   "resumo": "Estenosis péptica del esófago distal con biopsia sin malignidad: el tratamiento inicial es dilatación endoscópica e IBP para controlar el reflujo.",
+   "alternativas": {
+    "A": "La esofagectomía es para cáncer o fallo de todos los tratamientos.",
+    "B": "La toxina botulínica es para acalasia.",
+    "C": "La funduplicatura no resuelve la estenosis de inmediato.",
+    "D": "Correcta: dilatación endoscópica e IBP."
+   }
+  }
+ },
+ "revalida_2025-1_q098": {
+  "pt": {
+   "resumo": "Em menor com risco iminente de morte, o médico transfunde mesmo contra a recusa dos responsáveis (Resolução CFM 2.232/2019 e ECA).",
+   "alternativas": {
+    "A": "Correta: transfundir.",
+    "B": "A recusa dos pais não prevalece sobre a vida do menor.",
+    "C": "Recusar atendimento é omissão de socorro.",
+    "D": "No choque não se espera decisão judicial."
+   }
+  },
+  "es": {
+   "resumo": "En un menor con riesgo inminente de muerte, el médico transfunde aun contra el rechazo de los responsables (Resolución CFM 2.232/2019 y ECA).",
+   "alternativas": {
+    "A": "Correcta: transfundir.",
+    "B": "El rechazo de los padres no prevalece sobre la vida del menor.",
+    "C": "Rechazar la atención es omisión de socorro.",
+    "D": "En el shock no se espera una decisión judicial."
+   }
+  }
+ },
+ "revalida_2025-1_q099": {
+  "pt": {
+   "resumo": "Usuária de tamoxifeno com sangramento anormal e endométrio heterogêneo de 15 mm: risco de hiperplasia e câncer de endométrio. Indica-se estudo histológico (histeroscopia com biópsia).",
+   "alternativas": {
+    "A": "DIU hormonal não substitui a biópsia.",
+    "B": "Suspender o tamoxifeno antes do diagnóstico prejudica o tratamento do câncer de mama.",
+    "C": "Correta: estudo histológico do endométrio.",
+    "D": "Progestagênio não substitui a biópsia."
+   }
+  },
+  "es": {
+   "resumo": "Usuaria de tamoxifeno con sangrado anormal y endometrio heterogéneo de 15 mm: riesgo de hiperplasia y cáncer de endometrio. Se indica estudio histológico (histeroscopia con biopsia).",
+   "alternativas": {
+    "A": "El DIU hormonal no sustituye la biopsia.",
+    "B": "Suspender el tamoxifeno antes del diagnóstico perjudica el tratamiento del cáncer de mama.",
+    "C": "Correcta: estudio histológico del endometrio.",
+    "D": "El progestágeno no sustituye la biopsia."
+   }
+  }
+ },
+ "revalida_2025-1_q100": {
+  "pt": {
+   "resumo": "Sensibilidade = verdadeiros positivos / doentes = 98/100 = 98%.",
+   "alternativas": {
+    "A": "90% é a especificidade.",
+    "B": "90,7% não corresponde à sensibilidade.",
+    "C": "97,8% não corresponde à sensibilidade.",
+    "D": "Correta: 98%."
+   }
+  },
+  "es": {
+   "resumo": "Sensibilidad = verdaderos positivos / enfermos = 98/100 = 98 %.",
+   "alternativas": {
+    "A": "90 % es la especificidad.",
+    "B": "90,7 % no corresponde a la sensibilidad.",
+    "C": "97,8 % no corresponde a la sensibilidad.",
+    "D": "Correcta: 98 %."
+   }
+  }
+ }
+}

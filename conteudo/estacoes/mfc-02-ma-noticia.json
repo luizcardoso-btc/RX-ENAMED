@@ -1,0 +1,67 @@
+{
+  "id": "mfc-02-ma-noticia",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Ética e medicina legal",
+  "titulo": "Resultado da biópsia",
+  "tema": "Comunicação de notícia difícil (protocolo SPIKES)",
+  "mentor": "lia",
+  "duracaoMin": 10,
+  "cenario": "Consultório de Unidade de Saúde da Família. A paciente veio buscar o resultado da biópsia de um nódulo de mama investigado pela equipe. O laudo está em suas mãos.",
+  "tarefas": [
+    "Comunique o resultado do exame à paciente utilizando técnica adequada.",
+    "Acolha as reações e dúvidas da paciente.",
+    "Explique os próximos passos do cuidado."
+  ],
+  "paciente": {
+    "nome": "Sandra Regina Costa",
+    "idade": 47,
+    "sexo": "feminino",
+    "ocupacao": "professora de história",
+    "perfil": "Chega tentando parecer tranquila, mas está tensa. Veio sozinha. Ao receber a notícia, fica em silêncio, chora e depois pergunta se vai morrer e como contar para a filha de 16 anos. Reage mal a termos técnicos.",
+    "abertura": "Oi, doutor. Vim buscar o resultado daquela biópsia. Está tudo bem, né?",
+    "roteiro": [
+      {"topico": "O que ela sabe", "resposta": "Sei que fizeram a biópsia de um caroço no seio esquerdo. A moça do exame disse que era bom investigar."},
+      {"topico": "O que imagina", "resposta": "Pensei que podia ser alguma coisa ruim, mas quero acreditar que não é nada."},
+      {"topico": "O quanto quer saber", "resposta": "Pode falar tudo, doutor. Prefiro saber a verdade."},
+      {"topico": "Reação à notícia", "resposta": "(Fica em silêncio por alguns segundos e começa a chorar.) Eu sabia... eu sabia que tinha alguma coisa errada."},
+      {"topico": "Rede de apoio", "resposta": "Sou separada. Moro com minha filha de 16 anos. Minha irmã mora perto."},
+      {"topico": "Medos", "resposta": "Tenho medo de perder o seio, do cabelo cair, de não ver minha filha se formar."},
+      {"topico": "História familiar", "resposta": "Minha tia materna teve câncer de mama aos 60 anos."}
+    ],
+    "perguntasDoPaciente": ["Eu vou morrer?", "Vou ter que tirar a mama?", "Como eu conto para a minha filha?"],
+    "seNaoSouber": "Diga que não sabe e devolva a pergunta ao médico."
+  },
+  "exameFisico": [
+    {"item": "Exame físico", "achado": "Não é o foco desta estação. Nódulo de 2 cm em quadrante superior externo da mama esquerda já descrito, sem linfonodos axilares palpáveis."}
+  ],
+  "exames": [
+    {"item": "Laudo da biópsia por agulha grossa (core biopsy)", "resultado": "Carcinoma ductal invasivo, grau histológico 2. Imuno-histoquímica em andamento."},
+    {"item": "Mamografia prévia", "resultado": "BI-RADS 5 em mama esquerda."}
+  ],
+  "diagnostico": "Carcinoma ductal invasivo de mama esquerda, recém-diagnosticado.",
+  "condutaEsperada": [
+    "S (setting): ambiente privado, sentado, sem interrupções, contato visual; perguntar se quer alguém junto.",
+    "P (percepção): perguntar o que a paciente já sabe ou imagina sobre o exame.",
+    "I (convite): perguntar o quanto ela quer saber.",
+    "K (conhecimento): aviso prévio ('infelizmente não trago a notícia que gostaríamos') e comunicação clara, sem jargão, em pequenas partes, confirmando a compreensão.",
+    "E (emoções): acolher o silêncio e o choro, nomear e validar a emoção, respostas empáticas.",
+    "S (estratégia e resumo): explicar os próximos passos (encaminhamento prioritário à oncologia/mastologia pela regulação, exames de estadiamento), o direito de iniciar o tratamento em até 60 dias do diagnóstico (Lei 12.732/2012), sem falsas promessas; oferecer apoio psicológico e da equipe, combinar retorno e deixar canal aberto."
+  ],
+  "pep": [
+    {"id": "ambiente", "item": "Garante ambiente adequado, apresenta-se e pergunta se a paciente quer um acompanhante.", "peso": 1},
+    {"id": "percepcao", "item": "Investiga o que a paciente já sabe ou imagina sobre o exame.", "peso": 1},
+    {"id": "convite", "item": "Pergunta o quanto ela deseja saber.", "peso": 0.5},
+    {"id": "aviso", "item": "Faz um aviso prévio antes da notícia.", "peso": 1},
+    {"id": "clareza", "item": "Comunica o diagnóstico de forma clara, sem jargão, e verifica a compreensão.", "peso": 1.5},
+    {"id": "emocoes", "item": "Acolhe as emoções (respeita o silêncio, valida o choro, responde com empatia).", "peso": 1.5},
+    {"id": "sem-promessas", "item": "Responde às perguntas sobre prognóstico e mastectomia com honestidade e sem falsas promessas.", "peso": 1},
+    {"id": "plano", "item": "Explica os próximos passos (encaminhamento prioritário, estadiamento, prazo legal para início do tratamento).", "peso": 1.5},
+    {"id": "apoio", "item": "Oferece rede de apoio (equipe, psicologia, família) e ajuda a pensar como conversar com a filha.", "peso": 0.5},
+    {"id": "retorno", "item": "Resume a conversa e combina retorno.", "peso": 0.5}
+  ],
+  "referencias": [
+    "Baile WF e colaboradores. SPIKES: a six-step protocol for delivering bad news. The Oncologist, 2000",
+    "Comunicação de notícias difíceis: compartilhando desafios na atenção à saúde, INCA",
+    "Lei nº 12.732/2012 (prazo de 60 dias para início do tratamento oncológico no SUS)"
+  ]
+}

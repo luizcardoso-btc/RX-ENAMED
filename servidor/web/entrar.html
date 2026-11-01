@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Entrar | RX ENAMED</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/site.css">
+<link rel="stylesheet" href="/_rx/rx.css">
+</head>
+<body>
+<header class="rx-topo"><div class="envoltorio">
+  <a class="marca" href="/"><span class="marca-simbolo" aria-hidden="true">RX</span><span>RX <em>ENAMED</em></span></a>
+  <nav id="nav"><a href="/planos.html">Planos</a></nav>
+</div></header>
+<main class="envoltorio rx-pagina" style="max-width:440px">
+  <section class="rx-cartao">
+    <h1 style="font-family:var(--f-display);margin-top:0" id="titulo">Entrar</h1>
+    <div class="rx-abas duas" role="group">
+      <button type="button" class="rx-aba" data-modo="entrar" aria-pressed="true">Entrar</button>
+      <button type="button" class="rx-aba" data-modo="cadastro" aria-pressed="false">Criar conta</button>
+    </div>
+    <form id="form" novalidate>
+      <label class="rx-campo rx-oculto" id="campo-nome"><span>Nome completo</span><input name="nome" autocomplete="name"></label>
+      <label class="rx-campo"><span>E-mail</span><input name="email" type="email" autocomplete="email" required></label>
+      <label class="rx-campo"><span>Senha</span><input name="senha" type="password" autocomplete="current-password" required></label>
+      <p class="rx-erro rx-oculto" id="erro" role="alert"></p>
+      <button class="botao botao-primario rx-botao-largo" type="submit">Continuar</button>
+    </form>
+    <p style="margin-top:14px"><a href="#" id="esqueci">Esqueci minha senha</a></p>
+    <form id="form-esqueci" class="rx-oculto" novalidate>
+      <p class="rx-mudo">Digite o e-mail da sua conta. Enviamos um link para você criar uma nova senha.</p>
+      <label class="rx-campo"><span>E-mail</span><input name="email" type="email" autocomplete="email" required></label>
+      <p class="rx-mudo rx-oculto" id="esqueci-ok" role="status"></p>
+      <button class="botao rx-botao-largo" type="submit">Enviar link</button>
+    </form>
+  </section>
+</main>
+<script type="module">
+import { $, api, mostrarErro } from '/_rx/comum.js';
+const destino = new URLSearchParams(location.search).get('voltar');
+const seguro = destino && destino.startsWith('/') && !destino.startsWith('//') ? destino : '/minha-conta';
+let modo = 'entrar';
+for (const b of document.querySelectorAll('[data-modo]')) b.addEventListener('click', () => {
+  modo = b.dataset.modo;
+  for (const x of document.querySelectorAll('[data-modo]')) x.setAttribute('aria-pressed', String(x === b));
+  $('#campo-nome').classList.toggle('rx-oculto', modo === 'entrar');
+  $('#titulo').textContent = modo === 'entrar' ? 'Entrar' : 'Criar conta';
+});
+$('#esqueci').addEventListener('click', (e) => { e.preventDefault(); $('#form-esqueci').classList.toggle('rx-oculto'); });
+$('#form-esqueci').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const r = await api('/senha/esqueci', { metodo: 'POST', corpo: Object.fromEntries(new FormData(e.target)) }).catch((err) => ({ mensagem: err.message }));
+  const ok = $('#esqueci-ok');
+  ok.textContent = r.mensagem;
+  ok.classList.remove('rx-oculto');
+});
+$('#form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  mostrarErro($('#erro'), '');
+  try {
+    await api(modo === 'entrar' ? '/entrar' : '/cadastro', { metodo: 'POST', corpo: Object.fromEntries(new FormData(e.target)) });
+    location.href = seguro;
+  } catch (err) { mostrarErro($('#erro'), err.message); }
+});
+</script>
+</body>
+</html>

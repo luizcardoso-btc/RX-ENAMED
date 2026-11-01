@@ -1,0 +1,72 @@
+{
+  "id": "go-01-pre-natal",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "titulo": "Primeira consulta de pré-natal",
+  "tema": "Pré-natal de baixo risco: primeira consulta",
+  "mentor": "marina",
+  "duracaoMin": 10,
+  "cenario": "Consultório de Unidade Básica de Saúde. Hoje é 5 de maio. A paciente teve teste de gravidez positivo na farmácia e veio iniciar o pré-natal.",
+  "tarefas": [
+    "Realize a anamnese da primeira consulta de pré-natal.",
+    "Calcule a idade gestacional e a data provável do parto.",
+    "Solicite os exames de rotina do primeiro trimestre.",
+    "Prescreva as suplementações e oriente a gestante."
+  ],
+  "paciente": {
+    "nome": "Juliana Martins",
+    "idade": 24,
+    "sexo": "feminino",
+    "ocupacao": "vendedora",
+    "perfil": "Feliz e nervosa, primeira gravidez planejada. Quer saber quando vai descobrir o sexo do bebê e se pode continuar trabalhando.",
+    "abertura": "Oi, doutora. Deu positivo o teste de farmácia! Vim começar o pré-natal.",
+    "roteiro": [
+      {"topico": "Data da última menstruação", "resposta": "Foi no dia 10 de março. Tenho certeza porque anotei no aplicativo. Meu ciclo é regular, de 28 dias."},
+      {"topico": "Gestações anteriores", "resposta": "É a primeira vez que engravido. Nunca tive aborto."},
+      {"topico": "Sintomas", "resposta": "Enjoo de manhã, mas consigo comer. Seio dolorido. Sem sangramento e sem dor."},
+      {"topico": "Doenças", "resposta": "Não tenho pressão alta, diabetes, nada. Nunca operei."},
+      {"topico": "Medicamentos", "resposta": "Parei o anticoncepcional em janeiro. Não comecei ácido fólico ainda."},
+      {"topico": "Alergias", "resposta": "Nenhuma."},
+      {"topico": "Hábitos", "resposta": "Não fumo, parei de beber quando decidi engravidar. Não uso drogas."},
+      {"topico": "Vacinas", "resposta": "Acho que tomei hepatite B na escola, mas não tenho o cartão aqui."},
+      {"topico": "História familiar", "resposta": "Minha mãe tem diabetes. Ninguém com gêmeos ou malformação."},
+      {"topico": "Situação social", "resposta": "Moro com meu marido, ele vai participar do pré-natal. Trabalho em pé o dia todo na loja."},
+      {"topico": "Tipo sanguíneo", "resposta": "Não sei meu tipo de sangue."}
+    ],
+    "perguntasDoPaciente": ["Quando vou saber se é menino ou menina?", "Posso continuar trabalhando?"],
+    "seNaoSouber": "Diga que não sabe."
+  },
+  "exameFisico": [
+    {"item": "Sinais vitais e antropometria", "achado": "PA 110 x 70 mmHg, peso 62 kg, altura 1,65 m, IMC 22,8 kg/m²."},
+    {"item": "Exame geral e mamas", "achado": "Sem alterações; mamas com aumento de volume e da pigmentação areolar."},
+    {"item": "Exame obstétrico", "achado": "Útero não palpável acima da sínfise púbica. Batimentos cardíacos fetais não audíveis com sonar nesta idade gestacional."},
+    {"item": "Exame especular", "achado": "Colo epitelizado, sem secreção anormal. Citopatológico de colo coletado há 1 ano, normal."}
+  ],
+  "exames": [
+    {"item": "Teste rápido de gravidez", "resultado": "Positivo."}
+  ],
+  "diagnostico": "Gestação tópica presumida de 8 semanas pela DUM (10/03), data provável do parto em 17/12 pela regra de Naegele; pré-natal de risco habitual.",
+  "condutaEsperada": [
+    "Calcular a idade gestacional (8 semanas) e a DPP pela regra de Naegele (17 de dezembro).",
+    "Solicitar exames do 1º trimestre: hemograma, tipagem ABO/Rh e Coombs indireto se Rh negativo, glicemia de jejum, testes rápidos de HIV, sífilis, hepatite B e hepatite C, sorologia para toxoplasmose, urina tipo I e urocultura, ultrassonografia obstétrica.",
+    "Prescrever ácido fólico 400 mcg/dia e sulfato ferroso (40 mg de ferro elementar ao dia) conforme protocolo do Ministério da Saúde.",
+    "Atualizar vacinas: hepatite B conforme situação vacinal, influenza, e dTpa a partir de 20 semanas.",
+    "Preencher a caderneta da gestante, orientar sinais de alarme (sangramento, dor, febre, perda de líquido) e calendário de consultas; responder às dúvidas sobre trabalho e sexo do bebê."
+  ],
+  "pep": [
+    {"id": "apresentacao", "item": "Apresenta-se e acolhe a gestante.", "peso": 0.5},
+    {"id": "dum", "item": "Pergunta a data da última menstruação e a regularidade dos ciclos.", "peso": 1},
+    {"id": "antecedentes-obst", "item": "Investiga antecedentes obstétricos (gestações, partos, abortos).", "peso": 0.5},
+    {"id": "antecedentes", "item": "Investiga antecedentes pessoais, familiares, medicamentos e hábitos.", "peso": 1},
+    {"id": "calculo", "item": "Calcula corretamente a idade gestacional (8 semanas) e a DPP (17/12).", "peso": 1.5},
+    {"id": "exames", "item": "Solicita os exames de rotina do 1º trimestre, incluindo testes rápidos, tipagem e urocultura.", "peso": 2},
+    {"id": "suplementos", "item": "Prescreve ácido fólico e sulfato ferroso com dose.", "peso": 1},
+    {"id": "vacinas", "item": "Orienta a atualização vacinal (hepatite B, influenza, dTpa a partir de 20 semanas).", "peso": 1},
+    {"id": "alarme", "item": "Orienta sinais de alarme e o calendário de consultas.", "peso": 1},
+    {"id": "duvidas", "item": "Responde às dúvidas da gestante com linguagem clara.", "peso": 0.5}
+  ],
+  "referencias": [
+    "Caderno de Atenção Básica nº 32: Atenção ao Pré-natal de Baixo Risco, Ministério da Saúde",
+    "Manual de Gestação de Alto Risco, Ministério da Saúde, 2022"
+  ]
+}

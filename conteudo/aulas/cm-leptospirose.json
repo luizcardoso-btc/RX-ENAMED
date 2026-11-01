@@ -1,0 +1,101 @@
+{
+  "id": "cm-leptospirose",
+  "area": "Clínica Médica",
+  "especialidade": "Infectologia",
+  "mentor": "caio",
+  "duracaoMin": 9,
+  "revisao": "pendente",
+  "questoes": ["revalida_2024-1_q036", "revalida_2023-2_q066"],
+  "referencias": [
+    "Ministério da Saúde. Leptospirose: diagnóstico e manejo clínico, 2014.",
+    "Ministério da Saúde. Guia de Vigilância em Saúde, 6ª edição, 2023."
+  ],
+  "pt": {
+    "titulo": "Leptospirose: enchente, panturrilha e icterícia rubínica",
+    "resumo": "Caiu em 2023.2 e 2024.1. A banca descreve o contato com água de enchente e pede o diagnóstico, os achados laboratoriais típicos ou o antibiótico. Doença de notificação compulsória.",
+    "secoes": [
+      {
+        "titulo": "Quando pensar",
+        "paragrafos": [
+          "A Leptospira entra pela pele lesada ou mucosas em contato com água ou lama contaminadas pela urina de roedores. A incubação vai de 1 a 30 dias, em geral 5 a 14."
+        ],
+        "itens": [
+          "Exposição: enchentes, esgoto, limpeza de terrenos, trabalho rural ou com lixo.",
+          "Fase precoce: febre súbita, cefaleia, mialgia intensa principalmente nas panturrilhas e sufusão conjuntival.",
+          "Forma grave (síndrome de Weil), em cerca de 15% dos casos: icterícia de tom alaranjado (rubínica), insuficiência renal aguda e hemorragias.",
+          "Síndrome de hemorragia pulmonar: tosse com sangue e insuficiência respiratória, principal causa de morte."
+        ]
+      },
+      {
+        "titulo": "Laboratório típico",
+        "paragrafos": [],
+        "itens": [
+          "Bilirrubina elevada à custa da direta, com transaminases pouco aumentadas (raramente acima de 500 U/L). Isso a diferencia da hepatite viral.",
+          "Insuficiência renal aguda frequentemente não oligúrica e com potássio baixo.",
+          "CPK elevada, plaquetopenia e leucocitose com desvio à esquerda.",
+          "Confirmação: ELISA IgM a partir do 7º dia ou microaglutinação (MAT). Nos primeiros dias, PCR ou cultura.",
+          "Não espere o resultado para tratar."
+        ]
+      },
+      {
+        "titulo": "Tratamento",
+        "paragrafos": [],
+        "itens": [
+          "Fase precoce: doxiciclina 100 mg VO de 12 em 12 horas por 5 a 7 dias, ou amoxicilina 500 mg VO de 8 em 8 horas por 5 a 7 dias (preferida em gestantes e crianças).",
+          "Forma grave: penicilina cristalina 1,5 milhão de UI IV de 6 em 6 horas, ou ceftriaxona 1 a 2 g IV por dia, ou ampicilina, por 7 dias.",
+          "Suporte: hidratação, reposição de potássio, diálise precoce se necessário e ventilação protetora na hemorragia pulmonar.",
+          "Notificar o caso."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Icterícia intensa com transaminases só um pouco elevadas aponta para leptospirose, não hepatite.",
+      "Insuficiência renal com potássio baixo é típica; na maioria das outras causas o potássio sobe.",
+      "Dor na panturrilha mais enchente é a pista clássica do enunciado."
+    ]
+  },
+  "es": {
+    "titulo": "Leptospirosis: inundación, pantorrilla e ictericia rubínica",
+    "resumo": "Apareció en 2023.2 y 2024.1. El examen describe el contacto con agua de inundación y pide el diagnóstico, los hallazgos de laboratorio típicos o el antibiótico. En Brasil es de notificación obligatoria.",
+    "secoes": [
+      {
+        "titulo": "Cuándo sospechar",
+        "paragrafos": [
+          "La Leptospira entra por piel lesionada o mucosas en contacto con agua o barro contaminados por orina de roedores. La incubación va de 1 a 30 días, en general de 5 a 14."
+        ],
+        "itens": [
+          "Exposición: inundaciones, alcantarillado, limpieza de terrenos, trabajo rural o con basura.",
+          "Fase precoz: fiebre súbita, cefalea, mialgia intensa sobre todo en las pantorrillas y sufusión conjuntival.",
+          "Forma grave (síndrome de Weil), en cerca del 15 % de los casos: ictericia de tono anaranjado (rubínica), insuficiencia renal aguda y hemorragias.",
+          "Síndrome de hemorragia pulmonar: tos con sangre e insuficiencia respiratoria, principal causa de muerte."
+        ]
+      },
+      {
+        "titulo": "Laboratorio típico",
+        "paragrafos": [],
+        "itens": [
+          "Bilirrubina elevada a expensas de la directa, con transaminasas poco aumentadas (rara vez por encima de 500 U/L). Esto la distingue de la hepatitis viral.",
+          "Insuficiencia renal aguda a menudo no oligúrica y con potasio bajo.",
+          "CPK elevada, plaquetopenia y leucocitosis con desviación a la izquierda.",
+          "Confirmación: ELISA IgM a partir del 7.º día o microaglutinación (MAT). En los primeros días, PCR o cultivo.",
+          "No espere el resultado para tratar."
+        ]
+      },
+      {
+        "titulo": "Tratamiento",
+        "paragrafos": [],
+        "itens": [
+          "Fase precoz: doxiciclina 100 mg VO cada 12 horas durante 5 a 7 días, o amoxicilina 500 mg VO cada 8 horas durante 5 a 7 días (preferida en gestantes y niños).",
+          "Forma grave: penicilina cristalina 1,5 millones de UI IV cada 6 horas, o ceftriaxona 1 a 2 g IV al día, o ampicilina, durante 7 días.",
+          "Soporte: hidratación, reposición de potasio, diálisis precoz si hace falta y ventilación protectora en la hemorragia pulmonar.",
+          "Notificar el caso."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Ictericia intensa con transaminasas solo un poco elevadas apunta a leptospirosis, no a hepatitis.",
+      "La insuficiencia renal con potasio bajo es típica; en la mayoría de las demás causas el potasio sube.",
+      "Dolor en la pantorrilla más inundación es la pista clásica del enunciado."
+    ]
+  }
+}

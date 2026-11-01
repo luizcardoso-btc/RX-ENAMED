@@ -1,0 +1,232 @@
+{
+  "id": "cir-queimaduras-trauma-eletrico",
+  "area": "Cirurgia",
+  "especialidade": "Queimaduras",
+  "mentor": "helena",
+  "duracaoMin": 15,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2024-2_q017",
+    "revalida_2024-1_q032",
+    "revalida_2023-1_q082",
+    "revalida_2022-1_q037",
+    "revalida_2022-2_q057"
+  ],
+  "referencias": [
+    "American College of Surgeons. ATLS – Advanced Trauma Life Support, 10ª e 11ª edições (capítulo de lesões térmicas).",
+    "Ministério da Saúde. Cartilha para tratamento de emergência das queimaduras. Brasília, 2012.",
+    "American Burn Association. Guidelines for burn patient referral, 2022."
+  ],
+  "pt": {
+    "titulo": "Queimaduras e trauma elétrico: profundidade, regra dos 9, reposição e transferência",
+    "resumo": "Cai quase todo ano. A banca pede a profundidade pela descrição da lesão, o volume de cristaloide pela fórmula do ATLS, os critérios de transferência e as complicações do choque elétrico (rabdomiólise, arritmia, síndrome compartimental).",
+    "secoes": [
+      {
+        "titulo": "Profundidade",
+        "paragrafos": [
+          "Classifique pela descrição: bolha, dor, cor e enchimento capilar."
+        ],
+        "itens": [
+          "1º grau (superficial): só epiderme. Eritema doloroso, sem bolhas. Cura em cerca de 7 dias, sem cicatriz. Não entra no cálculo da superfície queimada.",
+          "2º grau superficial: epiderme e derme papilar. Bolhas, base rosada, úmida, muito dolorosa, empalidece à pressão. Cura em até 2 a 3 semanas.",
+          "2º grau profundo: chega à derme reticular. Bolhas ou base vermelho-desbotada a esbranquiçada, menos dolorosa, enchimento capilar lento. Costuma precisar de desbridamento e enxerto.",
+          "3º grau (espessura total): toda a derme. Branco nacarado ou acastanhado, seco, endurecido, inelástico, com vasos trombosados visíveis, indolor. Tratamento cirúrgico: escarectomia e enxertia.",
+          "4º grau: atinge músculo, tendão ou osso, típico do trauma elétrico de alta voltagem."
+        ]
+      },
+      {
+        "titulo": "Atendimento inicial (xABCDE)",
+        "paragrafos": [
+          "No local, interrompa a queimadura: retire roupas e adornos e resfrie com água corrente em temperatura ambiente por até 20 minutos. Gelo é contraindicado. Depois, cubra com pano limpo e seco e evite hipotermia."
+        ],
+        "itens": [
+          "A – via aérea: suspeite de lesão inalatória em incêndio em ambiente fechado, queimadura de face, vibrissas chamuscadas, escarro carbonáceo, rouquidão ou estridor.",
+          "Intubação precoce: estridor, rouquidão progressiva, uso de musculatura acessória, queimadura dentro da boca, queimadura circunferencial do pescoço, Glasgow ≤ 8 e grandes queimados (acima de cerca de 40–50% da superfície), pelo edema que vai piorar.",
+          "B – monóxido de carbono: cefaleia e náuseas (COHb 10–20%), confusão (20–40%), coma (40–60%), morte acima de 60%. A oximetria de pulso engana (lê a carboxi-hemoglobina como oxigenada). Diagnóstico pela dosagem de carboxi-hemoglobina; tratamento com O2 a 100% em máscara não reinalante.",
+          "C – dois acessos calibrosos, de preferência em pele não queimada, e início da reposição com Ringer lactato.",
+          "Circunferencial de 3º grau em tórax, abdome ou membro com restrição ventilatória ou isquemia: escarotomia."
+        ]
+      },
+      {
+        "titulo": "Superfície queimada: regra dos 9",
+        "paragrafos": [
+          "Some só áreas de 2º e 3º grau. Para lesões pequenas ou espalhadas, a palma da mão do paciente (com os dedos) vale cerca de 1%."
+        ],
+        "itens": [
+          "Adulto: cabeça e pescoço 9%; cada membro superior 9%; tronco anterior 18%; tronco posterior 18%; cada membro inferior 18%; períneo 1%.",
+          "Criança: cabeça 18% e cada membro inferior 14% (o restante como no adulto). A tabela de Lund-Browder é a mais precisa."
+        ],
+        "figuras": [
+          {
+            "arquivo": "aula_regra9_adulto.svg",
+            "alt": "Esquema do corpo adulto, frente e costas: cabeça 4,5% em cada face, cada braço 4,5% em cada face, tronco 18% na frente e 18% atrás, cada perna 9% em cada face e períneo 1%.",
+            "legenda": "Adulto. À esquerda a frente, à direita as costas. Cada valor vale para uma face; some frente e costas da região queimada."
+          },
+          {
+            "arquivo": "aula_regra9_crianca.svg",
+            "alt": "Esquema do corpo infantil, frente e costas: cabeça 9% em cada face, cada braço 4,5% em cada face, tronco 18% na frente, costas 13% mais 2,5% em cada nádega, cada perna 7% em cada face.",
+            "legenda": "Criança. Cabeça maior (18% somando as duas faces) e pernas menores (14% cada). À esquerda a frente, à direita as costas."
+          }
+        ]
+      },
+      {
+        "titulo": "Reposição volêmica",
+        "paragrafos": [
+          "Indicada em queimaduras de 2º e 3º grau acima de 20% da superfície no adulto (acima de 10% na criança). O cristaloide de escolha é o Ringer lactato."
+        ],
+        "itens": [
+          "Volume das primeiras 24 horas (ATLS): adulto 2 mL × peso (kg) × % de superfície queimada; criança 3 mL; trauma elétrico 4 mL. A fórmula clássica de Parkland usa 4 mL para todos.",
+          "Metade do volume nas primeiras 8 horas contadas do momento da queimadura, e a outra metade nas 16 horas seguintes.",
+          "Exemplo: 90 kg com 30% → 2 × 90 × 30 = 5.400 mL; 2.700 mL em 8 horas (cerca de 340 mL/h) e 2.700 mL em 16 horas.",
+          "A fórmula é só o ponto de partida: ajuste pela diurese. Alvo de 0,5 mL/kg/h no adulto e 1 mL/kg/h na criança de até 30 kg; no trauma elétrico com urina escura, 1 mL/kg/h no adulto até clarear (2 mL/kg/h na criança)."
+        ]
+      },
+      {
+        "titulo": "Cuidados complementares e transferência",
+        "paragrafos": [],
+        "itens": [
+          "Analgesia com opioide intravenoso (morfina ou fentanil).",
+          "Profilaxia do tétano conforme a história vacinal: queimadura é ferimento de alto risco. Três doses com reforço há menos de 5 anos não precisam de nada.",
+          "Antibiótico sistêmico profilático não é indicado. Curativo com sulfadiazina de prata 1% nas lesões de 2º e 3º grau.",
+          "Proteção gástrica (risco de úlcera de Curling) e profilaxia de trombose venosa.",
+          "Transferir para centro de queimados: 2º grau acima de 10% (ATLS) ou acima de 20% no adulto (cartilha do MS); qualquer 3º grau; face, mãos, pés, genitália, períneo ou grandes articulações; queimadura elétrica, inclusive por raio; queimadura química; lesão inalatória; comorbidades graves ou trauma associado; crianças em hospital sem estrutura pediátrica."
+        ]
+      },
+      {
+        "titulo": "Trauma elétrico",
+        "paragrafos": [
+          "A pele mostra só a ponta do iceberg: a corrente lesa músculos, nervos e vasos em todo o trajeto. A extensão cutânea não reflete a gravidade. Alta voltagem é acima de 1.000 V."
+        ],
+        "itens": [
+          "Arritmias: faça ECG e monitorize. A corrente pode causar fibrilação ventricular ou assistolia, e a necrose muscular libera potássio (hipercalemia).",
+          "Rabdomiólise: urina escura (cor de chá ou de coca-cola), CK elevada e risco de lesão renal aguda pela mioglobina. Tratamento: cristaloide em volume generoso (fórmula de 4 mL) para manter diurese de 1 mL/kg/h até clarear.",
+          "Síndrome compartimental: dor desproporcional, dor ao estiramento passivo, parestesia e compartimento tenso. Tratamento: fasciotomia.",
+          "Todo trauma elétrico de alta voltagem deve ser internado e transferido para centro de queimados, mesmo com pele pouco lesada."
+        ]
+      },
+      {
+        "titulo": "Complicações tardias",
+        "paragrafos": [],
+        "itens": [
+          "Infecção da ferida, principal causa de morte após as primeiras 48 a 72 horas: mudança de aspecto ou cor da escara, odor, celulite ao redor. Confirmação por biópsia com mais de 10⁵ UFC por grama de tecido; tratar com antibiótico sistêmico.",
+          "Úlcera de Curling (úlcera de estresse gástrica ou duodenal no grande queimado), íleo adinâmico e pseudo-obstrução colônica (Ogilvie).",
+          "Estado hipermetabólico prolongado: necessidade calórica alta e nutrição enteral precoce."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Queimadura de 1º grau não entra na conta da superfície queimada.",
+      "A fórmula é contada a partir do momento da queimadura, não da chegada ao hospital.",
+      "Gelo e pomadas caseiras no local são contraindicados.",
+      "Oximetria normal não afasta intoxicação por monóxido de carbono.",
+      "Trauma elétrico: pele quase intacta não significa lesão leve; o volume usa 4 mL e a diurese alvo é 1 mL/kg/h.",
+      "Antibiótico sistêmico profilático não é indicado no queimado."
+    ]
+  },
+  "es": {
+    "titulo": "Quemaduras y trauma eléctrico: profundidad, regla de los 9, reposición y traslado",
+    "resumo": "Aparece casi todos los años. La prueba pide la profundidad según la descripción de la lesión, el volumen de cristaloide por la fórmula del ATLS, los criterios de traslado y las complicaciones del choque eléctrico (rabdomiólisis, arritmia, síndrome compartimental).",
+    "secoes": [
+      {
+        "titulo": "Profundidad",
+        "paragrafos": [
+          "Clasifique por la descripción: ampolla, dolor, color y relleno capilar."
+        ],
+        "itens": [
+          "1.er grado (superficial): solo epidermis. Eritema doloroso, sin ampollas. Cura en unos 7 días, sin cicatriz. No entra en el cálculo de la superficie quemada.",
+          "2.º grado superficial: epidermis y dermis papilar. Ampollas, base rosada, húmeda, muy dolorosa, palidece a la presión. Cura en 2 a 3 semanas.",
+          "2.º grado profundo: llega a la dermis reticular. Ampollas o base rojo pálido a blanquecina, menos dolorosa, relleno capilar lento. Suele necesitar desbridamiento e injerto.",
+          "3.er grado (espesor total): toda la dermis. Blanco nacarado o pardo, seca, dura, inelástica, con vasos trombosados visibles, indolora. Tratamiento quirúrgico: escarectomía e injerto.",
+          "4.º grado: alcanza músculo, tendón o hueso, típico del trauma eléctrico de alto voltaje."
+        ]
+      },
+      {
+        "titulo": "Atención inicial (xABCDE)",
+        "paragrafos": [
+          "En el lugar, detenga la quemadura: retire ropa y adornos y enfríe con agua corriente a temperatura ambiente hasta 20 minutos. El hielo está contraindicado. Luego cubra con paño limpio y seco y evite la hipotermia."
+        ],
+        "itens": [
+          "A – vía aérea: sospeche lesión inhalatoria en incendio en ambiente cerrado, quemadura facial, vibrisas chamuscadas, esputo carbonáceo, disfonía o estridor.",
+          "Intubación precoz: estridor, disfonía progresiva, uso de musculatura accesoria, quemadura dentro de la boca, quemadura circunferencial del cuello, Glasgow ≤ 8 y grandes quemados (más de cerca de 40–50 % de la superficie), por el edema que empeorará.",
+          "B – monóxido de carbono: cefalea y náuseas (COHb 10–20 %), confusión (20–40 %), coma (40–60 %), muerte por encima de 60 %. La oximetría de pulso engaña (lee la carboxihemoglobina como oxigenada). Diagnóstico por dosaje de carboxihemoglobina; tratamiento con O2 al 100 % con mascarilla no reinhalante.",
+          "C – dos accesos de grueso calibre, de preferencia en piel no quemada, e inicio de la reposición con Ringer lactato.",
+          "Quemadura circunferencial de 3.er grado en tórax, abdomen o miembro con restricción ventilatoria o isquemia: escarotomía."
+        ]
+      },
+      {
+        "titulo": "Superficie quemada: regla de los 9",
+        "paragrafos": [
+          "Sume solo áreas de 2.º y 3.er grado. Para lesiones pequeñas o dispersas, la palma de la mano del paciente (con los dedos) vale cerca del 1 %."
+        ],
+        "itens": [
+          "Adulto: cabeza y cuello 9 %; cada miembro superior 9 %; tronco anterior 18 %; tronco posterior 18 %; cada miembro inferior 18 %; periné 1 %.",
+          "Niño: cabeza 18 % y cada miembro inferior 14 % (el resto como en el adulto). La tabla de Lund-Browder es la más precisa."
+        ],
+        "figuras": [
+          {
+            "arquivo": "aula_regra9_adulto.svg",
+            "alt": "Esquema del cuerpo adulto, frente y espalda: cabeza 4,5 % en cada cara, cada brazo 4,5 % en cada cara, tronco 18 % adelante y 18 % atrás, cada pierna 9 % en cada cara y periné 1 %.",
+            "legenda": "Adulto. A la izquierda el frente, a la derecha la espalda. Cada valor corresponde a una cara; sume frente y espalda de la región quemada."
+          },
+          {
+            "arquivo": "aula_regra9_crianca.svg",
+            "alt": "Esquema del cuerpo infantil, frente y espalda: cabeza 9 % en cada cara, cada brazo 4,5 % en cada cara, tronco 18 % adelante, espalda 13 % más 2,5 % en cada nalga, cada pierna 7 % en cada cara.",
+            "legenda": "Niño. Cabeza mayor (18 % sumando ambas caras) y piernas menores (14 % cada una). A la izquierda el frente, a la derecha la espalda."
+          }
+        ]
+      },
+      {
+        "titulo": "Reposición de volumen",
+        "paragrafos": [
+          "Indicada en quemaduras de 2.º y 3.er grado de más del 20 % de la superficie en el adulto (más del 10 % en el niño). El cristaloide de elección es el Ringer lactato."
+        ],
+        "itens": [
+          "Volumen de las primeras 24 horas (ATLS): adulto 2 mL × peso (kg) × % de superficie quemada; niño 3 mL; trauma eléctrico 4 mL. La fórmula clásica de Parkland usa 4 mL para todos.",
+          "La mitad del volumen en las primeras 8 horas contadas desde el momento de la quemadura, y la otra mitad en las 16 horas siguientes.",
+          "Ejemplo: 90 kg con 30 % → 2 × 90 × 30 = 5400 mL; 2700 mL en 8 horas (cerca de 340 mL/h) y 2700 mL en 16 horas.",
+          "La fórmula es solo el punto de partida: ajuste por la diuresis. Meta de 0,5 mL/kg/h en el adulto y 1 mL/kg/h en el niño de hasta 30 kg; en el trauma eléctrico con orina oscura, 1 mL/kg/h en el adulto hasta aclarar (2 mL/kg/h en el niño)."
+        ]
+      },
+      {
+        "titulo": "Cuidados complementarios y traslado",
+        "paragrafos": [],
+        "itens": [
+          "Analgesia con opioide intravenoso (morfina o fentanilo).",
+          "Profilaxis del tétanos según la historia vacunal: la quemadura es herida de alto riesgo. Tres dosis con refuerzo hace menos de 5 años no necesitan nada.",
+          "El antibiótico sistémico profiláctico no está indicado. Curación con sulfadiazina de plata 1 % en las lesiones de 2.º y 3.er grado.",
+          "Protección gástrica (riesgo de úlcera de Curling) y profilaxis de trombosis venosa.",
+          "Trasladar a centro de quemados: 2.º grado de más del 10 % (ATLS) o más del 20 % en el adulto (cartilla del Ministerio de Salud brasileño); cualquier 3.er grado; cara, manos, pies, genitales, periné o grandes articulaciones; quemadura eléctrica, incluso por rayo; quemadura química; lesión inhalatoria; comorbilidades graves o trauma asociado; niños en hospital sin estructura pediátrica."
+        ]
+      },
+      {
+        "titulo": "Trauma eléctrico",
+        "paragrafos": [
+          "La piel muestra solo la punta del iceberg: la corriente lesiona músculos, nervios y vasos en todo el trayecto. La extensión cutánea no refleja la gravedad. Alto voltaje es más de 1000 V."
+        ],
+        "itens": [
+          "Arritmias: haga ECG y monitorice. La corriente puede causar fibrilación ventricular o asistolia, y la necrosis muscular libera potasio (hiperpotasemia).",
+          "Rabdomiólisis: orina oscura (color té o cola), CK elevada y riesgo de lesión renal aguda por la mioglobina. Tratamiento: cristaloide en volumen generoso (fórmula de 4 mL) para mantener diuresis de 1 mL/kg/h hasta aclarar.",
+          "Síndrome compartimental: dolor desproporcionado, dolor al estiramiento pasivo, parestesia y compartimento tenso. Tratamiento: fasciotomía.",
+          "Todo trauma eléctrico de alto voltaje debe internarse y trasladarse a centro de quemados, aun con la piel poco lesionada."
+        ]
+      },
+      {
+        "titulo": "Complicaciones tardías",
+        "paragrafos": [],
+        "itens": [
+          "Infección de la herida, principal causa de muerte después de las primeras 48 a 72 horas: cambio de aspecto o color de la escara, olor, celulitis alrededor. Confirmación por biopsia con más de 10⁵ UFC por gramo de tejido; tratar con antibiótico sistémico.",
+          "Úlcera de Curling (úlcera de estrés gástrica o duodenal en el gran quemado), íleo adinámico y seudoobstrucción colónica (Ogilvie).",
+          "Estado hipermetabólico prolongado: alta necesidad calórica y nutrición enteral precoz."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "La quemadura de 1.er grado no entra en el cálculo de la superficie quemada.",
+      "La fórmula se cuenta desde el momento de la quemadura, no desde la llegada al hospital.",
+      "El hielo y las pomadas caseras en el lugar están contraindicados.",
+      "Una oximetría normal no descarta intoxicación por monóxido de carbono.",
+      "Trauma eléctrico: piel casi intacta no significa lesión leve; el volumen usa 4 mL y la diuresis meta es 1 mL/kg/h.",
+      "El antibiótico sistémico profiláctico no está indicado en el quemado."
+    ]
+  }
+}

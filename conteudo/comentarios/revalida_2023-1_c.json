@@ -1,0 +1,134 @@
+{
+"revalida_2023-1_q045": {
+ "pt": {"resumo": "A Política Nacional de Saúde Integral LGBT prevê ações específicas de saúde mental, álcool e outras drogas para essa população na Rede de Atenção Psicossocial, além do uso do nome social e do processo transexualizador no SUS.",
+  "alternativas": {"A": "O uso do nome social é direito garantido no SUS, não escolha de cada UBS.", "B": "Correta: há políticas específicas de saúde mental para a população LGBTQIA+ na RAPS.", "C": "Mulheres lésbicas e bissexuais têm menor cobertura de citologia, por barreiras de acesso.", "D": "O processo transexualizador é regulamentado no SUS por portarias do Ministério da Saúde."}},
+ "es": {"resumo": "La Política Nacional de Salud Integral LGBT prevé acciones específicas de salud mental, alcohol y otras drogas para esta población en la Red de Atención Psicosocial, además del uso del nombre social y del proceso transexualizador en el SUS.",
+  "alternativas": {"A": "El uso del nombre social es un derecho garantizado en el SUS, no una elección de cada UBS.", "B": "Correcta: hay políticas específicas de salud mental para la población LGBTQIA+ en la RAPS.", "C": "Las mujeres lesbianas y bisexuales tienen menor cobertura de citología, por barreras de acceso.", "D": "El proceso transexualizador está regulado en el SUS por ordenanzas del Ministerio de Salud."}}
+},
+"revalida_2023-1_q046": {
+ "pt": {"resumo": "Pneumonia aspirativa com hipotensão, lactato de 5,1 e disfunção orgânica é choque séptico. Junto com o antibiótico na primeira hora, a prioridade é ressuscitação com cristaloide, 30 mL/kg nas primeiras 3 horas, e vasopressor se a PAM seguir abaixo de 65 mmHg.",
+  "alternativas": {"A": "A lesão renal é pré-renal e séptica; diálise não é prioridade antes do volume.", "B": "Correta: cristaloide intravenoso para ressuscitação volêmica.", "C": "Hemoglobina de 8,5 não indica transfusão; o limiar habitual é 7 g/dL.", "D": "Corticoide entra só no choque refratário a volume e vasopressor."}},
+ "es": {"resumo": "Neumonía aspirativa con hipotensión, lactato de 5,1 y disfunción orgánica es shock séptico. Junto con el antibiótico en la primera hora, la prioridad es la reanimación con cristaloides, 30 mL/kg en las primeras 3 horas, y vasopresor si la PAM sigue por debajo de 65 mmHg.",
+  "alternativas": {"A": "La lesión renal es prerrenal y séptica; la diálisis no es prioridad antes del volumen.", "B": "Correcta: cristaloides intravenosos para la reanimación.", "C": "Una hemoglobina de 8,5 no indica transfusión; el umbral habitual es 7 g/dL.", "D": "El corticoide entra solo en el shock refractario a volumen y vasopresor."}}
+},
+"revalida_2023-1_q047": {
+ "pt": {"resumo": "Febre, icterícia e enzimas canaliculares elevadas logo após colecistectomia difícil, com evolução para hipotensão, sugerem lesão de via biliar com sepse. A família deve ser informada e a paciente transferida para centro com UTI, equipe especializada e exames como a colangiorressonância.",
+  "alternativas": {"A": "A videolaparoscopia tem incidência maior de lesão de via biliar que a cirurgia aberta, e o quadro é biliar, não pulmonar.", "B": "Obesidade não obriga cirurgia aberta, e a conduta exige primeiro definir a lesão.", "C": "Esperar o processo esfriar em paciente séptica e sem diagnóstico definido é inadequado.", "D": "Correta: informar a família e transferir para centro com UTI, especialistas e colangiorressonância."}},
+ "es": {"resumo": "Fiebre, ictericia y enzimas canaliculares elevadas poco después de una colecistectomía difícil, con evolución a hipotensión, sugieren lesión de la vía biliar con sepsis. Hay que informar a la familia y trasladar a la paciente a un centro con UCI, equipo especializado y estudios como la colangiorresonancia.",
+  "alternativas": {"A": "La videolaparoscopia tiene mayor incidencia de lesión de vía biliar que la cirugía abierta, y el cuadro es biliar, no pulmonar.", "B": "La obesidad no obliga a la cirugía abierta, y la conducta exige primero definir la lesión.", "C": "Esperar a que el proceso se enfríe en una paciente séptica y sin diagnóstico definido es inadecuado.", "D": "Correcta: informar a la familia y trasladar a un centro con UCI, especialistas y colangiorresonancia."}}
+},
+"revalida_2023-1_q050": {
+ "pt": {"resumo": "O Subsistema de Atenção à Saúde Indígena integra o SUS e segue seus princípios. Sua implementação ainda pede aperfeiçoamento para garantir descentralização, universalidade, equidade, participação comunitária e controle social.",
+  "alternativas": {"A": "Os DSEI fazem parte do SUS, não são estruturas paralelas.", "B": "Os DSEI seguem critérios étnico-culturais e territoriais e não coincidem com os limites de municípios e estados.", "C": "A coordenação é da SESAI, no Ministério da Saúde, não da Funai.", "D": "Correta: o subsistema precisa de aperfeiçoamento para aplicar os princípios do SUS."}},
+ "es": {"resumo": "El Subsistema de Atención a la Salud Indígena integra el SUS y sigue sus principios. Su implementación todavía necesita mejoras para garantizar descentralización, universalidad, equidad, participación comunitaria y control social.",
+  "alternativas": {"A": "Los DSEI forman parte del SUS, no son estructuras paralelas.", "B": "Los DSEI siguen criterios étnico-culturales y territoriales y no coinciden con los límites de municipios y estados.", "C": "La coordinación es de la SESAI, en el Ministerio de Salud, no de la Funai.", "D": "Correcta: el subsistema necesita mejoras para aplicar los principios del SUS."}}
+},
+"revalida_2023-1_q051": {
+ "pt": {"resumo": "Disúria, polaciúria e hematúria em mulher jovem, sem febre e sem dor lombar, é cistite não complicada. O diagnóstico é clínico e o tratamento é antibiótico empírico (por exemplo nitrofurantoína ou fosfomicina), sem necessidade de urocultura.",
+  "alternativas": {"A": "Urocultura fica para casos complicados, recorrentes, gestantes ou falha de tratamento.", "B": "Correta: antibiótico empírico na cistite não complicada.", "C": "Não há sinais de candidíase; o quadro é bacteriano.", "D": "Sem corrimento, não há vaginite a investigar."}},
+ "es": {"resumo": "Disuria, polaquiuria y hematuria en una mujer joven, sin fiebre ni dolor lumbar, es cistitis no complicada. El diagnóstico es clínico y el tratamiento es antibiótico empírico (por ejemplo nitrofurantoína o fosfomicina), sin necesidad de urocultivo.",
+  "alternativas": {"A": "El urocultivo queda para casos complicados, recurrentes, gestantes o fracaso del tratamiento.", "B": "Correcta: antibiótico empírico en la cistitis no complicada.", "C": "No hay signos de candidiasis; el cuadro es bacteriano.", "D": "Sin flujo, no hay vaginitis que estudiar."}}
+},
+"revalida_2023-1_q052": {
+ "pt": {"resumo": "Idosa séptica, com peritonite difusa e pneumoperitônio volumoso, e história de sangramento e perda de peso (possível neoplasia ou diverticulite perfurada). Em paciente instável com contaminação fecal, faz-se colectomia segmentar sem anastomose: cirurgia de Hartmann.",
+  "alternativas": {"A": "A lesão é colônica (flanco esquerdo), não do intestino delgado.", "B": "Anastomose primária em paciente em choque com peritonite fecal tem alto risco de deiscência.", "C": "Só lavar e drenar deixa a perfuração e o possível tumor no lugar.", "D": "Correta: colectomia segmentar com colostomia terminal (Hartmann)."}},
+ "es": {"resumo": "Anciana séptica, con peritonitis difusa y neumoperitoneo voluminoso, e historia de sangrado y pérdida de peso (posible neoplasia o diverticulitis perforada). En una paciente inestable con contaminación fecal se hace colectomía segmentaria sin anastomosis: cirugía de Hartmann.",
+  "alternativas": {"A": "La lesión es colónica (flanco izquierdo), no del intestino delgado.", "B": "La anastomosis primaria en una paciente en shock con peritonitis fecal tiene alto riesgo de dehiscencia.", "C": "Solo lavar y drenar deja la perforación y el posible tumor en su lugar.", "D": "Correcta: colectomía segmentaria con colostomía terminal (Hartmann)."}}
+},
+"revalida_2023-1_q053": {
+ "pt": {"resumo": "Recém-nascido que segue em apneia após os passos iniciais precisa de ventilação com pressão positiva por máscara, iniciada dentro do primeiro minuto de vida (minuto de ouro).",
+  "alternativas": {"A": "Oxigênio inalatório não ventila um bebê em apneia.", "B": "Intubação não é o primeiro passo; começa-se pela ventilação com máscara.", "C": "Estímulo tátil já faz parte dos passos iniciais e não deve atrasar a ventilação.", "D": "Correta: ventilação com pressão positiva por máscara."}},
+ "es": {"resumo": "Un recién nacido que sigue en apnea tras los pasos iniciales necesita ventilación con presión positiva con mascarilla, iniciada dentro del primer minuto de vida (minuto de oro).",
+  "alternativas": {"A": "El oxígeno inhalado no ventila a un bebé en apnea.", "B": "La intubación no es el primer paso; se empieza por la ventilación con mascarilla.", "C": "El estímulo táctil ya forma parte de los pasos iniciales y no debe retrasar la ventilación.", "D": "Correcta: ventilación con presión positiva con mascarilla."}}
+},
+"revalida_2023-1_q054": {
+ "pt": {"resumo": "Infecção urinária, inclusive a bacteriúria assintomática, está associada a parto prematuro e pielonefrite. Por isso toda gestante faz urocultura no pré-natal e trata a bacteriúria com antibiótico.",
+  "alternativas": {"A": "Progesterona é indicada para grupos de risco (colo curto, prematuro anterior), não para toda gestante.", "B": "Risco alto pela classificação deve ir para pré-natal de alto risco, não seguir só no ambulatório habitual.", "C": "Correta: tratar toda bacteriúria assintomática na gestação.", "D": "Nifedipino é tocolítico de primeira linha; não é proibido."}},
+ "es": {"resumo": "La infección urinaria, incluida la bacteriuria asintomática, se asocia a parto prematuro y pielonefritis. Por eso toda gestante hace urocultivo en el control prenatal y trata la bacteriuria con antibiótico.",
+  "alternativas": {"A": "La progesterona se indica en grupos de riesgo (cuello corto, prematuro previo), no en toda gestante.", "B": "El riesgo alto según la clasificación debe pasar a control de alto riesgo, no seguir en el consultorio habitual.", "C": "Correcta: tratar toda bacteriuria asintomática en el embarazo.", "D": "El nifedipino es tocolítico de primera línea; no está prohibido."}}
+},
+"revalida_2023-1_q055": {
+ "pt": {"resumo": "O IVCF-20 é um questionário rápido de vulnerabilidade do idoso que avalia idade, autopercepção de saúde, atividades de vida diária, cognição, humor, mobilidade (incluindo quedas no último ano), comunicação e comorbidades.",
+  "alternativas": {"A": "Renda familiar não é item do IVCF-20.", "B": "A avaliação geriátrica ampla é indicada conforme o resultado, para idosos em risco ou frágeis.", "C": "Correta: pergunta sobre duas ou mais quedas no último ano.", "D": "Idosos com pontuação alta precisam de avaliação complementar, como a avaliação geriátrica ampla."}},
+ "es": {"resumo": "El IVCF-20 es un cuestionario rápido de vulnerabilidad del adulto mayor que evalúa edad, autopercepción de salud, actividades de la vida diaria, cognición, ánimo, movilidad (incluidas las caídas del último año), comunicación y comorbilidades.",
+  "alternativas": {"A": "La renta familiar no es un ítem del IVCF-20.", "B": "La evaluación geriátrica integral se indica según el resultado, para adultos mayores en riesgo o frágiles.", "C": "Correcta: pregunta sobre dos o más caídas en el último año.", "D": "Los adultos mayores con puntaje alto necesitan evaluación complementaria, como la evaluación geriátrica integral."}}
+},
+"revalida_2023-1_q056": {
+ "pt": {"resumo": "Melena após uso de anti-inflamatório, com paciente estável (PA normal, hemoglobina de 13) e erosões gástricas na endoscopia. A conduta é jejum, cristaloide e inibidor de bomba de prótons, além de suspender o anti-inflamatório.",
+  "alternativas": {"A": "Plaquetas e INR normais não indicam plaquetas ou plasma.", "B": "Hemoglobina de 13 em paciente estável não indica transfusão.", "C": "Correta: cristaloide e inibidor de bomba de prótons.", "D": "Não há anemia grave nem plaquetopenia para transfundir."}},
+ "es": {"resumo": "Melena tras uso de antiinflamatorio, con paciente estable (PA normal, hemoglobina de 13) y erosiones gástricas en la endoscopia. La conducta es ayuno, cristaloides e inhibidor de la bomba de protones, además de suspender el antiinflamatorio.",
+  "alternativas": {"A": "Plaquetas e INR normales no indican plaquetas ni plasma.", "B": "Una hemoglobina de 13 en un paciente estable no indica transfusión.", "C": "Correcta: cristaloides e inhibidor de la bomba de protones.", "D": "No hay anemia grave ni plaquetopenia que transfundir."}}
+},
+"revalida_2023-1_q057": {
+ "pt": {"resumo": "Câncer de esôfago cervical com paralisia de cordas vocais e invasão traqueobrônquica é irressecável. Para garantir a nutrição de forma paliativa, a opção adequada é a gastrostomia.",
+  "alternativas": {"A": "Esofagectomia é tratamento curativo, contraindicado em doença avançada com invasão da via aérea.", "B": "Tunelização cirúrgica é procedimento de grande porte sem benefício nesse paciente.", "C": "Esofagostomia desvia saliva, mas não alimenta o paciente.", "D": "Correta: gastrostomia para nutrição paliativa."}},
+ "es": {"resumo": "Un cáncer de esófago cervical con parálisis de cuerdas vocales e invasión traqueobronquial es irresecable. Para asegurar la nutrición de forma paliativa, la opción adecuada es la gastrostomía.",
+  "alternativas": {"A": "La esofagectomía es un tratamiento curativo, contraindicado en enfermedad avanzada con invasión de la vía aérea.", "B": "La tunelización quirúrgica es un procedimiento mayor sin beneficio en este paciente.", "C": "La esofagostomía desvía la saliva, pero no alimenta al paciente.", "D": "Correcta: gastrostomía para nutrición paliativa."}}
+},
+"revalida_2023-1_q058": {
+ "pt": {"resumo": "Adolescente obeso, de 10 a 16 anos, com dor no quadril e incapacidade de apoiar o membro sem trauma: epifisiólise proximal do fêmur (escorregamento epifisário). Fatores de risco: obesidade e alterações endócrinas.",
+  "alternativas": {"A": "Correta: epifisiólise femoral no adolescente obeso.", "B": "Artrite séptica teria febre e sinais infecciosos.", "C": "Artrite idiopática juvenil é poliarticular ou crônica, não quadro agudo isolado do quadril.", "D": "Sinovite transitória ocorre em crianças menores, geralmente após infecção viral."}},
+ "es": {"resumo": "Adolescente obeso, de 10 a 16 años, con dolor de cadera e imposibilidad de apoyar el miembro sin trauma: epifisiólisis proximal del fémur (deslizamiento epifisario). Factores de riesgo: obesidad y alteraciones endocrinas.",
+  "alternativas": {"A": "Correcta: epifisiólisis femoral en el adolescente obeso.", "B": "La artritis séptica tendría fiebre y signos infecciosos.", "C": "La artritis idiopática juvenil es poliarticular o crónica, no un cuadro agudo aislado de cadera.", "D": "La sinovitis transitoria ocurre en niños menores, generalmente tras una infección viral."}}
+},
+"revalida_2023-1_q059": {
+ "pt": {"resumo": "Sangramento volumoso no pós-parto com útero amolecido e aumentado após trabalho longo com ocitocina é atonia uterina, com choque. Conduta imediata: acesso calibroso e cristaloide, massagem uterina e uterotônicos (ocitocina), além do ácido tranexâmico.",
+  "alternativas": {"A": "Correta: volume, massagem uterina e uterotônicos.", "B": "Ultrassonografia atrasa o tratamento de uma paciente em choque.", "C": "Histerectomia é o último recurso, após falha das medidas clínicas.", "D": "Não é loquiação normal: a paciente está chocada."}},
+ "es": {"resumo": "Sangrado abundante en el posparto con útero blando y aumentado tras un trabajo de parto largo con oxitocina es atonía uterina, con shock. Conducta inmediata: acceso venoso grueso y cristaloides, masaje uterino y uterotónicos (oxitocina), además del ácido tranexámico.",
+  "alternativas": {"A": "Correcta: volumen, masaje uterino y uterotónicos.", "B": "La ecografía retrasa el tratamiento de una paciente en shock.", "C": "La histerectomía es el último recurso, tras el fracaso de las medidas clínicas.", "D": "No son loquios normales: la paciente está en shock."}}
+},
+"revalida_2023-1_q060": {
+ "pt": {"resumo": "Pela Lei 8.142/1990 os conselhos de saúde são permanentes e deliberativos. A composição é paritária: usuários são 50%, e os outros 50% se dividem entre trabalhadores da saúde (25%) e gestores e prestadores (25%).",
+  "alternativas": {"A": "Os conselhos são deliberativos, não consultivos.", "B": "Correta: deliberativos, com 50% de usuários, 25% de trabalhadores e 25% de gestores.", "C": "A divisão não é em terços: usuários são metade.", "D": "Erra o caráter e a composição."}},
+ "es": {"resumo": "Según la Ley 8.142/1990, los consejos de salud son permanentes y deliberativos. La composición es paritaria: los usuarios son el 50 %, y el otro 50 % se divide entre trabajadores de la salud (25 %) y gestores y prestadores (25 %).",
+  "alternativas": {"A": "Los consejos son deliberativos, no consultivos.", "B": "Correcta: deliberativos, con 50 % de usuarios, 25 % de trabajadores y 25 % de gestores.", "C": "La división no es en tercios: los usuarios son la mitad.", "D": "Falla en el carácter y en la composición."}}
+},
+"revalida_2023-1_q061": {
+ "pt": {"resumo": "Etilista desnutrido com confusão, ataxia e oftalmoplegia (Wernicke) e amnésia com confabulação (Korsakoff), vitamina B1 baixa e lesões periaquedutais. A causa é deficiência de tiamina pelo alcoolismo, e o tratamento é tiamina parenteral em dose alta, antes de glicose.",
+  "alternativas": {"A": "Glicose antes da tiamina pode piorar o quadro, e a via oral é insuficiente na fase aguda.", "B": "O quadro não é causado por traumatismo craniano.", "C": "Erra a causa, e soro glicosado sem tiamina é perigoso.", "D": "Correta: alcoolismo e tiamina parenteral em dose alta."}},
+ "es": {"resumo": "Alcohólico desnutrido con confusión, ataxia y oftalmoplejía (Wernicke) y amnesia con confabulación (Korsakoff), vitamina B1 baja y lesiones periacueductales. La causa es el déficit de tiamina por alcoholismo, y el tratamiento es tiamina parenteral en dosis alta, antes de la glucosa.",
+  "alternativas": {"A": "La glucosa antes de la tiamina puede empeorar el cuadro, y la vía oral es insuficiente en la fase aguda.", "B": "El cuadro no se debe a traumatismo craneal.", "C": "Falla en la causa, y la solución glucosada sin tiamina es peligrosa.", "D": "Correcta: alcoholismo y tiamina parenteral en dosis alta."}}
+},
+"revalida_2023-1_q062": {
+ "pt": {"resumo": "Dor glútea e febre em diabético, com abaulamento da mucosa retal ao toque e pele sem flogose, indicam abscesso anorretal profundo. Abscesso se trata com drenagem cirúrgica, e o antibiótico é associado no diabético e em infecção extensa.",
+  "alternativas": {"A": "Anti-inflamatório não trata abscesso, e anuscopia não resolve o quadro.", "B": "Antibiótico sozinho não drena o abscesso, que pode evoluir para infecção necrosante.", "C": "Correta: drenagem cirúrgica com antibiótico.", "D": "Banho de assento é medida de conforto, não tratamento."}},
+ "es": {"resumo": "Dolor glúteo y fiebre en un diabético, con abombamiento de la mucosa rectal al tacto y piel sin flogosis, indican absceso anorrectal profundo. El absceso se trata con drenaje quirúrgico, y se asocia antibiótico en el diabético y en infecciones extensas.",
+  "alternativas": {"A": "El antiinflamatorio no trata el absceso, y la anoscopia no resuelve el cuadro.", "B": "El antibiótico solo no drena el absceso, que puede evolucionar a infección necrotizante.", "C": "Correcta: drenaje quirúrgico con antibiótico.", "D": "El baño de asiento es una medida de confort, no un tratamiento."}}
+},
+"revalida_2023-1_q063": {
+ "pt": {"resumo": "Criança assintomática após ingerir desinfetante doméstico: examinar a mucosa oral e observar por algumas horas. Não se usam neutralizantes, indução de vômito, lavagem gástrica ou carvão em cáusticos.",
+  "alternativas": {"A": "Neutralizar gera calor e pode piorar a lesão; diluir não é recomendado de rotina.", "B": "Lavagem gástrica e carvão são contraindicados em cáusticos.", "C": "Induzir vômito expõe o esôfago de novo ao agente.", "D": "Correta: examinar a mucosa e observar."}},
+ "es": {"resumo": "Niño asintomático tras ingerir desinfectante doméstico: examinar la mucosa oral y observar durante algunas horas. No se usan neutralizantes, inducción del vómito, lavado gástrico ni carbón en los cáusticos.",
+  "alternativas": {"A": "Neutralizar genera calor y puede empeorar la lesión; diluir no se recomienda de rutina.", "B": "El lavado gástrico y el carbón están contraindicados en los cáusticos.", "C": "Inducir el vómito vuelve a exponer el esófago al agente.", "D": "Correcta: examinar la mucosa y observar."}}
+},
+"revalida_2023-1_q064": {
+ "pt": {"resumo": "Quando o ponto de referência palpável é o mento (queixo), a apresentação cefálica é defletida de 3º grau: apresentação de face.",
+  "alternativas": {"A": "Deflexão de 1º grau é bregmática, com referência no bregma.", "B": "Deflexão de 2º grau é de fronte, com referência na glabela ou nariz.", "C": "Correta: deflexão de 3º grau, apresentação de face (mento).", "D": "Fletida tem o occipício (lambda) como referência."}},
+ "es": {"resumo": "Cuando el punto de referencia palpable es el mentón, la presentación cefálica es deflexionada de 3.er grado: presentación de cara.",
+  "alternativas": {"A": "La deflexión de 1.er grado es bregmática, con referencia en el bregma.", "B": "La deflexión de 2.º grado es de frente, con referencia en la glabela o la nariz.", "C": "Correcta: deflexión de 3.er grado, presentación de cara (mentón).", "D": "La flexionada tiene el occipucio (lambda) como referencia."}}
+},
+"revalida_2023-1_q065": {
+ "pt": {"resumo": "Criança ribeirinha que come peixe de rio contaminado pelo garimpo, com parestesias, ataxia, tremores, alterações de fala e de aprendizagem: intoxicação crônica por metilmercúrio.",
+  "alternativas": {"A": "Poliomielite causa paralisia flácida aguda assimétrica, sem alterações cognitivas, e está erradicada no Brasil.", "B": "Correta: intoxicação por mercúrio ligada ao garimpo.", "C": "Guillain-Barré é ascendente, aguda e com arreflexia, sem prejuízo cognitivo.", "D": "Organofosforados causam síndrome colinérgica aguda, sem relação com o garimpo."}},
+ "es": {"resumo": "Niño ribereño que come pescado de río contaminado por la minería ilegal, con parestesias, ataxia, temblores y alteraciones del habla y del aprendizaje: intoxicación crónica por metilmercurio.",
+  "alternativas": {"A": "La poliomielitis causa parálisis flácida aguda asimétrica, sin alteraciones cognitivas, y está erradicada en Brasil.", "B": "Correcta: intoxicación por mercurio vinculada a la minería ilegal.", "C": "Guillain-Barré es ascendente, aguda y con arreflexia, sin daño cognitivo.", "D": "Los organofosforados causan un síndrome colinérgico agudo, sin relación con la minería."}}
+},
+"revalida_2023-1_q066": {
+ "pt": {"resumo": "Mesmo após cálcio, insulina com glicose, bicarbonato, beta-2 agonista e hidratação, o potássio segue em 6,1 com alterações no ECG. Hipercalemia refratária ao tratamento clínico é indicação de terapia de substituição renal. A acidose já melhorou (bicarbonato de 20).",
+  "alternativas": {"A": "Correta: hipercalemia que não responde ao tratamento clínico.", "B": "Não há sinais de uremia; ureia isolada não indica diálise.", "C": "O bicarbonato subiu de 14 para 20; a acidose respondeu.", "D": "Creatinina elevada sozinha não é indicação de diálise de urgência."}},
+ "es": {"resumo": "Incluso después de calcio, insulina con glucosa, bicarbonato, agonista beta-2 e hidratación, el potasio sigue en 6,1 con alteraciones en el ECG. La hiperpotasemia refractaria al tratamiento clínico es indicación de terapia de reemplazo renal. La acidosis ya mejoró (bicarbonato de 20).",
+  "alternativas": {"A": "Correcta: hiperpotasemia que no responde al tratamiento clínico.", "B": "No hay signos de uremia; la urea aislada no indica diálisis.", "C": "El bicarbonato subió de 14 a 20; la acidosis respondió.", "D": "La creatinina elevada sola no es indicación de diálisis urgente."}}
+},
+"revalida_2023-1_q067": {
+ "pt": {"resumo": "Dor em hipocôndrio direito há 24 horas, vômitos, calafrios e sinal de Murphy positivo em paciente de alto risco sugerem colecistite aguda. Abdome agudo inflamatório deve ser avaliado no pronto-socorro, com exames, antibiótico e avaliação cirúrgica.",
+  "alternativas": {"A": "Correta: encaminhar para avaliação de urgência.", "B": "Ultrassonografia eletiva atrasa o diagnóstico de uma urgência.", "C": "Tratar em casa com antiespasmódico é inadequado na colecistite.", "D": "Antibiótico domiciliar sem avaliação cirúrgica é inadequado."}},
+ "es": {"resumo": "Dolor en hipocondrio derecho de 24 horas, vómitos, escalofríos y signo de Murphy positivo en una paciente de alto riesgo sugieren colecistitis aguda. El abdomen agudo inflamatorio debe evaluarse en urgencias, con exámenes, antibiótico y evaluación quirúrgica.",
+  "alternativas": {"A": "Correcta: derivar para evaluación urgente.", "B": "La ecografía electiva retrasa el diagnóstico de una urgencia.", "C": "Tratar en casa con antiespasmódico es inadecuado en la colecistitis.", "D": "El antibiótico domiciliario sin evaluación quirúrgica es inadecuado."}}
+},
+"revalida_2023-1_q068": {
+ "pt": {"resumo": "Infecção urinária na criança é confirmada pela urocultura colhida de forma adequada. Segundo o gabarito, na coleta por cateterismo vesical valores acima de 1.000 UFC/mL já confirmam o diagnóstico.",
+  "alternativas": {"A": "Qualquer contagem só vale para punção suprapúbica, não para a coleta limpa.", "B": "Correta segundo o gabarito: mais de 1.000 UFC/mL por cateterismo.", "C": "Piúria sugere, mas não confirma infecção.", "D": "No jato médio o ponto de corte é 100.000 UFC/mL."}},
+ "es": {"resumo": "La infección urinaria en el niño se confirma con un urocultivo tomado de forma adecuada. Según la clave, en la muestra por sondaje vesical, valores por encima de 1.000 UFC/mL ya confirman el diagnóstico.",
+  "alternativas": {"A": "Cualquier recuento solo vale para la punción suprapúbica, no para la recolección limpia.", "B": "Correcta según la clave: más de 1.000 UFC/mL por sondaje.", "C": "La piuria sugiere, pero no confirma la infección.", "D": "En el chorro medio el punto de corte es 100.000 UFC/mL."}}
+}
+}

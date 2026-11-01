@@ -1,0 +1,662 @@
+{
+ "revalida_2023-2_q001": {
+  "pt": {
+   "resumo": "PA de 220 × 140 com cefaleia, vômitos, confusão e sonolência, sem déficit focal, é encefalopatia hipertensiva, uma emergência hipertensiva. Faz-se tomografia de crânio para excluir AVC e hemorragia e infunde-se anti-hipertensivo venoso titulável, como o nitroprussiato, reduzindo a PA média em até 25% na primeira hora.",
+   "alternativas": {
+    "A": "Punção liquórica não é indicada, e betabloqueador oral não controla emergência hipertensiva.",
+    "B": "Correta: tomografia e nitroprussiato de sódio.",
+    "C": "Furosemida não é o tratamento da encefalopatia hipertensiva e pode piorar a hipovolemia.",
+    "D": "AAS é contraindicado antes de excluir hemorragia e não trata a PA."
+   }
+  },
+  "es": {
+   "resumo": "PA de 220 × 140 con cefalea, vómitos, confusión y somnolencia, sin déficit focal, es encefalopatía hipertensiva, una emergencia hipertensiva. Se hace tomografía de cráneo para excluir ACV y hemorragia y se infunde un antihipertensivo intravenoso titulable, como el nitroprusiato, reduciendo la PA media hasta un 25 % en la primera hora.",
+   "alternativas": {
+    "A": "La punción lumbar no está indicada, y el betabloqueante oral no controla una emergencia hipertensiva.",
+    "B": "Correcta: tomografía y nitroprusiato de sodio.",
+    "C": "La furosemida no es el tratamiento de la encefalopatía hipertensiva y puede empeorar la hipovolemia.",
+    "D": "El AAS está contraindicado antes de excluir hemorragia y no trata la PA."
+   }
+  }
+ },
+ "revalida_2023-2_q002": {
+  "pt": {
+   "resumo": "Na Lista de Verificação de Cirurgia Segura da OMS, a etapa de identificação (antes da indução) confirma paciente, procedimento e local, a demarcação da lateralidade, alergias conhecidas, o consentimento, a via aérea e o risco de sangramento.",
+   "alternativas": {
+    "A": "A apresentação da equipe pelo nome é da pausa cirúrgica, antes da incisão.",
+    "B": "Explicação aos familiares e equipe de acolhimento não são itens da lista.",
+    "C": "Contagem de materiais é feita na saída, antes de o paciente deixar a sala.",
+    "D": "Correta: lateralidade, alergias e consentimento na identificação."
+   }
+  },
+  "es": {
+   "resumo": "En la Lista de Verificación de Cirugía Segura de la OMS, la etapa de identificación (antes de la inducción) confirma paciente, procedimiento y sitio, la marcación de la lateralidad, alergias conocidas, el consentimiento, la vía aérea y el riesgo de sangrado.",
+   "alternativas": {
+    "A": "La presentación del equipo por nombre es de la pausa quirúrgica, antes de la incisión.",
+    "B": "La explicación a los familiares y el equipo de acogida no son ítems de la lista.",
+    "C": "El conteo de materiales se hace a la salida, antes de que el paciente deje el quirófano.",
+    "D": "Correcta: lateralidad, alergias y consentimiento en la identificación."
+   }
+  }
+ },
+ "revalida_2023-2_q004": {
+  "pt": {
+   "resumo": "Mulher sem fatores de risco adicionais e com dieta adequada: a prevenção primária da osteoporose é por medidas de estilo de vida, com dieta rica em cálcio e vitamina D, exposição solar e exercício físico regular, inclusive de força.",
+   "alternativas": {
+    "A": "Suplementar sem deficiência não é indicado, e a densitometria de rastreio é a partir dos 65 anos ou antes se houver fatores de risco.",
+    "B": "Correta: dieta, sol e exercício.",
+    "C": "Densitometria de rotina aos 49 anos sem fatores de risco não é recomendada, e osteopenia não indica bisfosfonato por si só.",
+    "D": "A menopausa é diagnóstico clínico, e terapia hormonal não é indicada para prevenir osteoporose isoladamente."
+   }
+  },
+  "es": {
+   "resumo": "Mujer sin factores de riesgo adicionales y con dieta adecuada: la prevención primaria de la osteoporosis es con medidas de estilo de vida, con dieta rica en calcio y vitamina D, exposición solar y ejercicio físico regular, incluido el de fuerza.",
+   "alternativas": {
+    "A": "Suplementar sin déficit no está indicado, y la densitometría de tamizaje es desde los 65 años o antes si hay factores de riesgo.",
+    "B": "Correcta: dieta, sol y ejercicio.",
+    "C": "La densitometría de rutina a los 49 años sin factores de riesgo no se recomienda, y la osteopenia no indica bifosfonato por sí sola.",
+    "D": "La menopausia es un diagnóstico clínico, y la terapia hormonal no se indica solo para prevenir osteoporosis."
+   }
+  }
+ },
+ "revalida_2023-2_q005": {
+  "pt": {
+   "resumo": "Na territorialização, as microáreas reúnem grupos com condições de vida e necessidades semelhantes, mesmo que fiquem geograficamente desiguais. Isso facilita direcionar as ações sanitárias e sociais.",
+   "alternativas": {
+    "A": "As microáreas não buscam distribuir famílias vulneráveis por igual, e sim agrupar necessidades parecidas.",
+    "B": "Correta: microáreas homogêneas em necessidades, ainda que assimétricas.",
+    "C": "Mapas impressos não permitem melhor análise que o geoprocessamento.",
+    "D": "DATASUS e IBGE são dados secundários e não têm a desagregação de uma microárea."
+   }
+  },
+  "es": {
+   "resumo": "En la territorialización, las microáreas agrupan poblaciones con condiciones de vida y necesidades similares, aunque queden geográficamente desiguales. Eso facilita dirigir las acciones sanitarias y sociales.",
+   "alternativas": {
+    "A": "Las microáreas no buscan repartir por igual a las familias vulnerables, sino agrupar necesidades parecidas.",
+    "B": "Correcta: microáreas homogéneas en necesidades, aunque asimétricas.",
+    "C": "Los mapas impresos no permiten mejor análisis que el geoprocesamiento.",
+    "D": "DATASUS e IBGE son datos secundarios y no tienen el nivel de detalle de una microárea."
+   }
+  }
+ },
+ "revalida_2023-2_q006": {
+  "pt": {
+   "resumo": "Urticária por anti-inflamatório, sem dispneia, sem alterações circulatórias ou gastrointestinais: não é anafilaxia. Suspende-se o medicamento e trata-se com anti-histamínico oral e hidratação da pele.",
+   "alternativas": {
+    "A": "Correta: anti-histamínico e hidratação da pele.",
+    "B": "Epinefrina é para anafilaxia, ausente aqui; e a via é intramuscular.",
+    "C": "Não há sinais de comprometimento respiratório que justifiquem observação no pronto-socorro.",
+    "D": "Corticoide sistêmico não é necessário na urticária leve, e corticoide venoso não se justifica."
+   }
+  },
+  "es": {
+   "resumo": "Urticaria por antiinflamatorio, sin disnea ni alteraciones circulatorias o gastrointestinales: no es anafilaxia. Se suspende el fármaco y se trata con antihistamínico oral e hidratación de la piel.",
+   "alternativas": {
+    "A": "Correcta: antihistamínico e hidratación de la piel.",
+    "B": "La epinefrina es para la anafilaxia, ausente aquí; y la vía es intramuscular.",
+    "C": "No hay signos de compromiso respiratorio que justifiquen observación en urgencias.",
+    "D": "El corticoide sistémico no es necesario en la urticaria leve, y el corticoide intravenoso no se justifica."
+   }
+  }
+ },
+ "revalida_2023-2_q007": {
+  "pt": {
+   "resumo": "Fratura de pelve com sangue no meato uretral e hematoma perineal sugere lesão de uretra. Antes de qualquer sondagem, faz-se uretrocistografia retrógrada para confirmar e definir a lesão.",
+   "alternativas": {
+    "A": "Correta: uretrocistografia retrógrada.",
+    "B": "Cistostomia suprapúbica drena a bexiga, mas não confirma o diagnóstico.",
+    "C": "Sondar pela uretra pode transformar lesão parcial em total.",
+    "D": "Tomografia avalia a pelve, mas não é o exame de escolha para a uretra."
+   }
+  },
+  "es": {
+   "resumo": "Fractura de pelvis con sangre en el meato uretral y hematoma perineal sugiere lesión de uretra. Antes de cualquier sondaje se hace uretrocistografía retrógrada para confirmar y definir la lesión.",
+   "alternativas": {
+    "A": "Correcta: uretrocistografía retrógrada.",
+    "B": "La cistostomía suprapúbica drena la vejiga, pero no confirma el diagnóstico.",
+    "C": "Sondar por la uretra puede transformar una lesión parcial en total.",
+    "D": "La tomografía evalúa la pelvis, pero no es el examen de elección para la uretra."
+   }
+  }
+ },
+ "revalida_2023-2_q008": {
+  "pt": {
+   "resumo": "Após bypass gástrico, sintomas vasomotores e gastrointestinais 2 a 3 horas depois de comer carboidratos simples, com exames normais, são a síndrome de dumping tardio, causada por hipoglicemia reativa. Trata-se com ajuste da dieta.",
+   "alternativas": {
+    "A": "Fístula gastrogástrica causa úlcera, dor e perda de efeito da cirurgia, não sintomas pós-carboidrato.",
+    "B": "Correta: síndrome de dumping.",
+    "C": "Peritonite cursaria com dor intensa, febre e exame alterado.",
+    "D": "Deficiências nutricionais são crônicas e não surgem logo após refeições."
+   }
+  },
+  "es": {
+   "resumo": "Tras un bypass gástrico, síntomas vasomotores y gastrointestinales 2 a 3 horas después de comer carbohidratos simples, con exámenes normales, son el síndrome de dumping tardío, causado por hipoglucemia reactiva. Se trata ajustando la dieta.",
+   "alternativas": {
+    "A": "La fístula gastrogástrica causa úlcera, dolor y pérdida de efecto de la cirugía, no síntomas tras carbohidratos.",
+    "B": "Correcta: síndrome de dumping.",
+    "C": "La peritonitis cursaría con dolor intenso, fiebre y examen alterado.",
+    "D": "Los déficits nutricionales son crónicos y no aparecen justo después de las comidas."
+   }
+  }
+ },
+ "revalida_2023-2_q009": {
+  "pt": {
+   "resumo": "Em meninas, o início do desenvolvimento mamário a partir dos 8 anos é normal. Aos 9 anos e 4 meses, com M2P2 e crescimento adequado, trata-se de puberdade normal, sem necessidade de exames.",
+   "alternativas": {
+    "A": "Puberdade precoce em meninas é antes dos 8 anos.",
+    "B": "Hiperplasia adrenal causa virilização, não telarca isolada.",
+    "C": "Não há sinais neurológicos nem puberdade precoce que sugiram tumor.",
+    "D": "Correta: desenvolvimento puberal normal."
+   }
+  },
+  "es": {
+   "resumo": "En las niñas, el inicio del desarrollo mamario a partir de los 8 años es normal. A los 9 años y 4 meses, con M2P2 y crecimiento adecuado, se trata de una pubertad normal, sin necesidad de exámenes.",
+   "alternativas": {
+    "A": "La pubertad precoz en niñas es antes de los 8 años.",
+    "B": "La hiperplasia suprarrenal causa virilización, no telarquia aislada.",
+    "C": "No hay signos neurológicos ni pubertad precoz que sugieran tumor.",
+    "D": "Correcta: desarrollo puberal normal."
+   }
+  }
+ },
+ "revalida_2023-2_q010": {
+  "pt": {
+   "resumo": "A febre tem foco definido: otite média com mastoidite (hiperemia e dor retroauricular), complicação grave. Isso afasta dengue como causa. A conduta é ceftriaxona venosa, analgesia e internação.",
+   "alternativas": {
+    "A": "O foco infeccioso explica o quadro; notificar dengue não se justifica.",
+    "B": "Correta: descartar dengue, ceftriaxona venosa e internação.",
+    "C": "Mastoidite não se trata em casa com antibiótico oral.",
+    "D": "Tratamento ambulatorial é inadequado na mastoidite."
+   }
+  },
+  "es": {
+   "resumo": "La fiebre tiene foco definido: otitis media con mastoiditis (eritema y dolor retroauricular), complicación grave. Eso descarta el dengue como causa. La conducta es ceftriaxona intravenosa, analgesia e internación.",
+   "alternativas": {
+    "A": "El foco infeccioso explica el cuadro; notificar dengue no se justifica.",
+    "B": "Correcta: descartar dengue, ceftriaxona intravenosa e internación.",
+    "C": "La mastoiditis no se trata en casa con antibiótico oral.",
+    "D": "El tratamiento ambulatorio es inadecuado en la mastoiditis."
+   }
+  }
+ },
+ "revalida_2023-2_q011": {
+  "pt": {
+   "resumo": "Sinais de Trousseau (espasmo da mão com o manguito) e de Chvostek (contração perilabial à percussão do facial), parestesias e QT longo indicam hipocalcemia, complicação da pancreatite aguda por saponificação do cálcio na gordura necrótica.",
+   "alternativas": {
+    "A": "Hipocalemia causa fraqueza e onda U, não tetania com Trousseau e Chvostek.",
+    "B": "A glicemia é de 138 e não explica a tetania.",
+    "C": "Correta: hipocalcemia.",
+    "D": "Hipercalcemia encurta o QT e não causa tetania."
+   }
+  },
+  "es": {
+   "resumo": "Signos de Trousseau (espasmo de la mano con el manguito) y de Chvostek (contracción perilabial al percutir el facial), parestesias y QT largo indican hipocalcemia, complicación de la pancreatitis aguda por saponificación del calcio en la grasa necrótica.",
+   "alternativas": {
+    "A": "La hipopotasemia causa debilidad y onda U, no tetania con Trousseau y Chvostek.",
+    "B": "La glucemia es de 138 y no explica la tetania.",
+    "C": "Correcta: hipocalcemia.",
+    "D": "La hipercalcemia acorta el QT y no causa tetania."
+   }
+  }
+ },
+ "revalida_2023-2_q012": {
+  "pt": {
+   "resumo": "Idoso com fibrilação atrial sem anticoagulação e dor abdominal intensa desproporcional ao exame: isquemia mesentérica aguda embólica. O exame mais sensível e específico é a angiotomografia de abdome.",
+   "alternativas": {
+    "A": "Radiografia é normal no início e pouco específica.",
+    "B": "DHL é inespecífico e sobe tarde.",
+    "C": "Correta: angiotomografia com contraste.",
+    "D": "Doppler é limitado por gases e operador, e menos sensível."
+   }
+  },
+  "es": {
+   "resumo": "Anciano con fibrilación auricular sin anticoagulación y dolor abdominal intenso desproporcionado al examen: isquemia mesentérica aguda embólica. El examen más sensible y específico es la angiotomografía de abdomen.",
+   "alternativas": {
+    "A": "La radiografía es normal al inicio y poco específica.",
+    "B": "La LDH es inespecífica y sube tarde.",
+    "C": "Correcta: angiotomografía con contraste.",
+    "D": "El Doppler está limitado por los gases y el operador, y es menos sensible."
+   }
+  }
+ },
+ "revalida_2023-2_q013": {
+  "pt": {
+   "resumo": "Pelos critérios PECARN, criança acima de 2 anos com Glasgow 15, exame normal, sem sinais de fratura e um único vômito, sem mecanismo grave, tem risco muito baixo de lesão intracraniana. Não há indicação de tomografia; orienta-se observação.",
+   "alternativas": {
+    "A": "Um vômito isolado, sem outros fatores, não indica tomografia.",
+    "B": "Correta: sem sinais de alerta, não há indicação de tomografia.",
+    "C": "A tomografia não é feita de rotina em toda criança dessa idade.",
+    "D": "Radiografia de crânio não é recomendada no trauma craniano."
+   }
+  },
+  "es": {
+   "resumo": "Según los criterios PECARN, un niño mayor de 2 años con Glasgow 15, examen normal, sin signos de fractura y un solo vómito, sin mecanismo grave, tiene riesgo muy bajo de lesión intracraneal. No hay indicación de tomografía; se indica observación.",
+   "alternativas": {
+    "A": "Un vómito aislado, sin otros factores, no indica tomografía.",
+    "B": "Correcta: sin signos de alarma, no hay indicación de tomografía.",
+    "C": "La tomografía no se hace de rutina en todo niño de esa edad.",
+    "D": "La radiografía de cráneo no se recomienda en el trauma craneal."
+   }
+  }
+ },
+ "revalida_2023-2_q014": {
+  "pt": {
+   "resumo": "Em mulher hipertensa, o esquema de menor risco é estradiol por via transdérmica (sem primeira passagem hepática, menor risco de trombose e de alterar a PA) com progesterona natural micronizada, mais neutra para mama e risco cardiovascular.",
+   "alternativas": {
+    "A": "Estradiol oral tem maior risco trombótico que o transdérmico.",
+    "B": "Transdérmico, mas com progestagênio sintético; a progesterona micronizada é mais segura.",
+    "C": "Estrogênio equino oral com medroxiprogesterona é o esquema de maior risco.",
+    "D": "Correta: estradiol transdérmico com progesterona micronizada."
+   }
+  },
+  "es": {
+   "resumo": "En una mujer hipertensa, el esquema de menor riesgo es estradiol por vía transdérmica (sin primer paso hepático, menor riesgo de trombosis y de alterar la PA) con progesterona natural micronizada, más neutra para la mama y el riesgo cardiovascular.",
+   "alternativas": {
+    "A": "El estradiol oral tiene más riesgo trombótico que el transdérmico.",
+    "B": "Transdérmico, pero con progestágeno sintético; la progesterona micronizada es más segura.",
+    "C": "El estrógeno equino oral con medroxiprogesterona es el esquema de mayor riesgo.",
+    "D": "Correcta: estradiol transdérmico con progesterona micronizada."
+   }
+  }
+ },
+ "revalida_2023-2_q015": {
+  "pt": {
+   "resumo": "Sangramento uterino aumentado há meses, agora com instabilidade. A investigação inicial inclui hemograma (anemia), TSH (causa endócrina) e ultrassonografia transvaginal (causas estruturais), e segundo o gabarito o tratamento hormonal inicial é com acetato de medroxiprogesterona.",
+   "alternativas": {
+    "A": "Correta segundo o gabarito: hemograma, TSH, ultrassom e medroxiprogesterona.",
+    "B": "Transaminases não fazem parte da investigação inicial, e desogestrel não controla sangramento agudo intenso.",
+    "C": "Ácido mefenâmico tem efeito modesto e falta avaliar anemia e tireoide.",
+    "D": "FSH, LH e prolactina não investigam a causa do sangramento, e diclofenaco não é a terapia."
+   }
+  },
+  "es": {
+   "resumo": "Sangrado uterino aumentado desde hace meses, ahora con inestabilidad. El estudio inicial incluye hemograma (anemia), TSH (causa endocrina) y ecografía transvaginal (causas estructurales), y según la clave el tratamiento hormonal inicial es con acetato de medroxiprogesterona.",
+   "alternativas": {
+    "A": "Correcta según la clave: hemograma, TSH, ecografía y medroxiprogesterona.",
+    "B": "Las transaminasas no forman parte del estudio inicial, y el desogestrel no controla el sangrado agudo intenso.",
+    "C": "El ácido mefenámico tiene efecto modesto y falta evaluar anemia y tiroides.",
+    "D": "FSH, LH y prolactina no estudian la causa del sangrado, y el diclofenaco no es la terapia."
+   }
+  }
+ },
+ "revalida_2023-2_q016": {
+  "pt": {
+   "resumo": "Diarreia alternada com constipação, dor que alivia com a evacuação, sem sintomas noturnos, sem perda de peso, sem sangue e com colonoscopia normal: síndrome do intestino irritável. A história familiar de Crohn não muda o diagnóstico sem sinais de alarme.",
+   "alternativas": {
+    "A": "Crohn costuma ter sinais de alarme e alterações na colonoscopia.",
+    "B": "Síndrome disabsortiva cursa com esteatorreia e perda de peso.",
+    "C": "Correta: intestino irritável.",
+    "D": "Retocolite tem sangue e muco e colonoscopia alterada."
+   }
+  },
+  "es": {
+   "resumo": "Diarrea alternada con estreñimiento, dolor que mejora con la defecación, sin síntomas nocturnos, sin pérdida de peso, sin sangre y con colonoscopia normal: síndrome del intestino irritable. La historia familiar de Crohn no cambia el diagnóstico sin signos de alarma.",
+   "alternativas": {
+    "A": "El Crohn suele tener signos de alarma y alteraciones en la colonoscopia.",
+    "B": "El síndrome malabsortivo cursa con esteatorrea y pérdida de peso.",
+    "C": "Correcta: intestino irritable.",
+    "D": "La colitis ulcerosa tiene sangre y moco y colonoscopia alterada."
+   }
+  }
+ },
+ "revalida_2023-2_q017": {
+  "pt": {
+   "resumo": "Pirose diária, sintomas extraesofágicos (tosse, rouquidão) e resposta parcial ao inibidor de bomba em homem de 49 anos e obeso: a endoscopia digestiva alta é o exame de escolha para avaliar esofagite, Barrett e complicações.",
+   "alternativas": {
+    "A": "pHmetria fica para quando a endoscopia é normal e há dúvida diagnóstica.",
+    "B": "Correta: endoscopia digestiva alta.",
+    "C": "Esofagografia avalia anatomia e estenoses, não confirma DRGE.",
+    "D": "Manometria avalia motilidade, principalmente antes de cirurgia antirrefluxo."
+   }
+  },
+  "es": {
+   "resumo": "Pirosis diaria, síntomas extraesofágicos (tos, disfonía) y respuesta parcial al inhibidor de bomba en un hombre de 49 años con obesidad: la endoscopia digestiva alta es el examen de elección para evaluar esofagitis, Barrett y complicaciones.",
+   "alternativas": {
+    "A": "La pHmetría queda para cuando la endoscopia es normal y hay duda diagnóstica.",
+    "B": "Correcta: endoscopia digestiva alta.",
+    "C": "El esofagograma evalúa anatomía y estenosis, no confirma ERGE.",
+    "D": "La manometría evalúa la motilidad, sobre todo antes de una cirugía antirreflujo."
+   }
+  }
+ },
+ "revalida_2023-2_q018": {
+  "pt": {
+   "resumo": "Anel cicatricial no prepúcio e infecções de repetição definem fimose patológica, que não se resolve sozinha. Indica-se postectomia eletiva com cirurgião pediátrico.",
+   "alternativas": {
+    "A": "A fimose fisiológica não tem anel cicatricial.",
+    "B": "Correta: fimose patológica, postectomia eletiva.",
+    "C": "Parafimose é o prepúcio retraído preso atrás da glande, uma urgência.",
+    "D": "Forçar a retração causa fissuras e cicatriz; não é recomendado."
+   }
+  },
+  "es": {
+   "resumo": "Un anillo cicatricial en el prepucio e infecciones repetidas definen la fimosis patológica, que no se resuelve sola. Se indica postectomía electiva con cirujano pediátrico.",
+   "alternativas": {
+    "A": "La fimosis fisiológica no tiene anillo cicatricial.",
+    "B": "Correcta: fimosis patológica, postectomía electiva.",
+    "C": "La parafimosis es el prepucio retraído atrapado detrás del glande, una urgencia.",
+    "D": "Forzar la retracción causa fisuras y cicatriz; no se recomienda."
+   }
+  }
+ },
+ "revalida_2023-2_q019": {
+  "pt": {
+   "resumo": "BI-RADS 0 significa exame inconclusivo: precisa de complementação, em geral com ultrassonografia (ou incidências adicionais). Com a massa palpável, a ultrassonografia é o primeiro passo antes de decidir a biópsia.",
+   "alternativas": {
+    "A": "A biópsia vem depois de caracterizar a lesão com a complementação.",
+    "B": "Repetir em 6 meses é conduta de BI-RADS 3.",
+    "C": "Correta: ultrassonografia para complementar.",
+    "D": "PAAF não é o passo inicial para massa sólida suspeita."
+   }
+  },
+  "es": {
+   "resumo": "BI-RADS 0 significa examen no concluyente: necesita complementarse, en general con ecografía (o proyecciones adicionales). Con la masa palpable, la ecografía es el primer paso antes de decidir la biopsia.",
+   "alternativas": {
+    "A": "La biopsia viene después de caracterizar la lesión con la complementación.",
+    "B": "Repetir a los 6 meses es la conducta de BI-RADS 3.",
+    "C": "Correcta: ecografía para complementar.",
+    "D": "La PAAF no es el paso inicial ante una masa sólida sospechosa."
+   }
+  }
+ },
+ "revalida_2023-2_q020": {
+  "pt": {
+   "resumo": "A Política Nacional de Práticas Integrativas e Complementares no SUS prevê ações multiprofissionais, adequadas a cada nível de atenção, com ênfase na atenção primária.",
+   "alternativas": {
+    "A": "A acupuntura também pode ser oferecida na atenção primária.",
+    "B": "A OMS recomenda, mas quem define as práticas no SUS é o Ministério da Saúde.",
+    "C": "Correta: caráter multiprofissional e adequação ao nível de atenção.",
+    "D": "A ênfase das práticas integrativas é a atenção primária, não a terciária."
+   }
+  },
+  "es": {
+   "resumo": "La Política Nacional de Prácticas Integrativas y Complementarias en el SUS prevé acciones multiprofesionales, adecuadas a cada nivel de atención, con énfasis en la atención primaria.",
+   "alternativas": {
+    "A": "La acupuntura también puede ofrecerse en la atención primaria.",
+    "B": "La OMS las recomienda, pero quien define las prácticas en el SUS es el Ministerio de Salud.",
+    "C": "Correcta: carácter multiprofesional y adecuación al nivel de atención.",
+    "D": "El énfasis de las prácticas integrativas es la atención primaria, no la terciaria."
+   }
+  }
+ },
+ "revalida_2023-2_q021": {
+  "pt": {
+   "resumo": "Tireotoxicose com fácies basedowiana e bócio difuso, sem dor cervical nem infecção recente: a hipótese é doença de Graves, confirmada pelo anticorpo antirreceptor de TSH (TRAb).",
+   "alternativas": {
+    "A": "A captação ajuda na dúvida etiológica, mas o TRAb é o exame confirmatório mais direto.",
+    "B": "Ultrassonografia não confirma Graves.",
+    "C": "PAAF é para nódulos, ausentes aqui.",
+    "D": "Correta: TRAb."
+   }
+  },
+  "es": {
+   "resumo": "Tirotoxicosis con facies basedowiana y bocio difuso, sin dolor cervical ni infección reciente: la hipótesis es enfermedad de Graves, confirmada por el anticuerpo antirreceptor de TSH (TRAb).",
+   "alternativas": {
+    "A": "La captación ayuda en la duda etiológica, pero el TRAb es el examen confirmatorio más directo.",
+    "B": "La ecografía no confirma Graves.",
+    "C": "La PAAF es para nódulos, ausentes aquí.",
+    "D": "Correcta: TRAb."
+   }
+  }
+ },
+ "revalida_2023-2_q022": {
+  "pt": {
+   "resumo": "Febre, icterícia e dor em hipocôndrio direito (tríade de Charcot) com dilatação de vias biliares e cálculos: colangite aguda. A conduta imediata é antibiótico de amplo espectro, seguido de drenagem biliar (CPRE).",
+   "alternativas": {
+    "A": "Correta: colangite aguda, antibioticoterapia imediata.",
+    "B": "Não é colecistite: há icterícia e dilatação da via biliar com vesícula de paredes finas.",
+    "C": "Colecistostomia drena a vesícula, não a via biliar.",
+    "D": "O diagnóstico é colangite, e cirurgia não é a primeira medida."
+   }
+  },
+  "es": {
+   "resumo": "Fiebre, ictericia y dolor en hipocondrio derecho (tríada de Charcot) con dilatación de la vía biliar y cálculos: colangitis aguda. La conducta inmediata es antibiótico de amplio espectro, seguido de drenaje biliar (CPRE).",
+   "alternativas": {
+    "A": "Correcta: colangitis aguda, antibioticoterapia inmediata.",
+    "B": "No es colecistitis: hay ictericia y dilatación de la vía biliar con vesícula de paredes finas.",
+    "C": "La colecistostomía drena la vesícula, no la vía biliar.",
+    "D": "El diagnóstico es colangitis, y la cirugía no es la primera medida."
+   }
+  }
+ },
+ "revalida_2023-2_q023": {
+  "pt": {
+   "resumo": "Sífilis congênita (pré-natal adequado), desnutrição (ações de saúde da criança) e asfixia ao nascer (atenção ao parto) são causas de morte infantil evitáveis por ações do SUS.",
+   "alternativas": {
+    "A": "Correta: as três causas são evitáveis.",
+    "B": "Malformações do sistema nervoso não são consideradas evitáveis.",
+    "C": "Síndrome da morte súbita não é classificada como evitável.",
+    "D": "Doenças desmielinizantes não são causa evitável."
+   }
+  },
+  "es": {
+   "resumo": "La sífilis congénita (control prenatal adecuado), la desnutrición (acciones de salud infantil) y la asfixia al nacer (atención del parto) son causas de muerte infantil evitables con acciones del SUS.",
+   "alternativas": {
+    "A": "Correcta: las tres causas son evitables.",
+    "B": "Las malformaciones del sistema nervioso no se consideran evitables.",
+    "C": "El síndrome de muerte súbita no se clasifica como evitable.",
+    "D": "Las enfermedades desmielinizantes no son causa evitable."
+   }
+  }
+ },
+ "revalida_2023-2_q024": {
+  "pt": {
+   "resumo": "Tromboembolismo prévio e lúpus contraindicam estrogênio (categoria 4). Útero didelfo, com cavidade distorcida, contraindica dispositivos intrauterinos. Sobra a pílula de progestagênio isolado, que também pode reduzir o fluxo.",
+   "alternativas": {
+    "A": "SIU não deve ser usado em cavidade uterina distorcida por malformação.",
+    "B": "DIU de cobre também é contraindicado e ainda aumenta o fluxo.",
+    "C": "Pílula combinada é contraindicada por TEP prévio e lúpus.",
+    "D": "Correta: progestagênio isolado."
+   }
+  },
+  "es": {
+   "resumo": "El tromboembolismo previo y el lupus contraindican el estrógeno (categoría 4). El útero didelfo, con cavidad distorsionada, contraindica los dispositivos intrauterinos. Queda la píldora de progestágeno solo, que además puede reducir el flujo.",
+   "alternativas": {
+    "A": "El SIU no debe usarse en una cavidad uterina distorsionada por malformación.",
+    "B": "El DIU de cobre también está contraindicado y además aumenta el flujo.",
+    "C": "La píldora combinada está contraindicada por TEP previo y lupus.",
+    "D": "Correcta: progestágeno solo."
+   }
+  }
+ },
+ "revalida_2023-2_q025": {
+  "pt": {
+   "resumo": "O foco da questão é a esposa idosa que relata sobrecarga ao cuidar do marido com declínio em atividades instrumentais. Segundo o gabarito, a conduta é avaliar a sobrecarga da cuidadora com instrumento validado (como a escala de Zarit), em entrevista sem o idoso presente. Na prática, a avaliação funcional do idoso (Katz e Lawton) também se faz depois.",
+   "alternativas": {
+    "A": "MEEM de 25 e autocuidado preservado não indicam demência avançada.",
+    "B": "Correta: avaliar a sobrecarga da cuidadora, sem o idoso presente.",
+    "C": "Snellen avalia acuidade visual, não funcionalidade.",
+    "D": "A avaliação funcional é útil, mas a banca priorizou a queixa de sobrecarga da cuidadora."
+   }
+  },
+  "es": {
+   "resumo": "El foco de la pregunta es la esposa adulta mayor que refiere sobrecarga al cuidar a su marido con deterioro en actividades instrumentales. Según la clave, la conducta es evaluar la sobrecarga de la cuidadora con un instrumento validado (como la escala de Zarit), en una entrevista sin el paciente presente. En la práctica, la evaluación funcional del adulto mayor (Katz y Lawton) también se hace después.",
+   "alternativas": {
+    "A": "Un MMSE de 25 y el autocuidado preservado no indican demencia avanzada.",
+    "B": "Correcta: evaluar la sobrecarga de la cuidadora, sin el paciente presente.",
+    "C": "Snellen evalúa la agudeza visual, no la funcionalidad.",
+    "D": "La evaluación funcional es útil, pero el examen priorizó la queja de sobrecarga de la cuidadora."
+   }
+  }
+ },
+ "revalida_2023-2_q026": {
+  "pt": {
+   "resumo": "Militar na Amazônia com úlcera única indolor, de bordas elevadas e fundo granuloso, que começou como pápula: leishmaniose tegumentar. O tratamento de primeira linha é o antimoniato de N-metilglucamina.",
+   "alternativas": {
+    "A": "Paracoccidioidomicose costuma afetar mucosa oral e pulmão, com outro aspecto.",
+    "B": "Carcinoma espinocelular é raro aos 19 anos e em lesão de semanas.",
+    "C": "Hanseníase dá manchas ou placas com alteração de sensibilidade, não úlcera assim.",
+    "D": "Correta: leishmaniose tegumentar e antimoniato."
+   }
+  },
+  "es": {
+   "resumo": "Militar en la Amazonía con úlcera única indolora, de bordes elevados y fondo granuloso, que empezó como pápula: leishmaniasis tegumentaria. El tratamiento de primera línea es el antimoniato de N-metilglucamina.",
+   "alternativas": {
+    "A": "La paracoccidioidomicosis suele afectar la mucosa oral y el pulmón, con otro aspecto.",
+    "B": "El carcinoma espinocelular es raro a los 19 años y en una lesión de semanas.",
+    "C": "La lepra da manchas o placas con alteración de la sensibilidad, no una úlcera así.",
+    "D": "Correcta: leishmaniasis tegumentaria y antimoniato."
+   }
+  }
+ },
+ "revalida_2023-2_q027": {
+  "pt": {
+   "resumo": "Lesão pigmentada antiga em área exposta ao sol que passou a crescer, com assimetria, bordas irregulares e cores variadas: a principal hipótese é melanoma. Mudança de tamanho é o sinal de alarme mais importante (regra ABCDE).",
+   "alternativas": {
+    "A": "Correta: melanoma.",
+    "B": "Nevo benigno é estável e simétrico.",
+    "C": "Ceratose seborreica tem aspecto verrucoso, de lesão colada à pele.",
+    "D": "Carcinoma espinocelular costuma ser ceratósico ou ulcerado, não pigmentado."
+   }
+  },
+  "es": {
+   "resumo": "Una lesión pigmentada antigua en zona expuesta al sol que empezó a crecer, con asimetría, bordes irregulares y colores variados: la principal hipótesis es melanoma. El cambio de tamaño es la señal de alarma más importante (regla ABCDE).",
+   "alternativas": {
+    "A": "Correcta: melanoma.",
+    "B": "El nevo benigno es estable y simétrico.",
+    "C": "La queratosis seborreica tiene aspecto verrugoso, de lesión pegada a la piel.",
+    "D": "El carcinoma espinocelular suele ser queratósico o ulcerado, no pigmentado."
+   }
+  }
+ },
+ "revalida_2023-2_q029": {
+  "pt": {
+   "resumo": "Corrimento branco, grumoso e aderido, com prurido e hiperemia, pH abaixo de 4,5 e teste das aminas negativo: candidíase vulvovaginal.",
+   "alternativas": {
+    "A": "Correta: Candida.",
+    "B": "Vaginose tem pH acima de 4,5 e teste das aminas positivo.",
+    "C": "Tricomoníase tem corrimento amarelo-esverdeado bolhoso e pH alto.",
+    "D": "Clamídia causa cervicite, não vaginite com corrimento grumoso."
+   }
+  },
+  "es": {
+   "resumo": "Flujo blanco, grumoso y adherido, con prurito y eritema, pH menor de 4,5 y prueba de aminas negativa: candidiasis vulvovaginal.",
+   "alternativas": {
+    "A": "Correcta: Candida.",
+    "B": "La vaginosis tiene pH mayor de 4,5 y prueba de aminas positiva.",
+    "C": "La tricomoniasis tiene flujo amarillo verdoso espumoso y pH alto.",
+    "D": "La clamidia causa cervicitis, no vaginitis con flujo grumoso."
+   }
+  }
+ },
+ "revalida_2023-2_q030": {
+  "pt": {
+   "resumo": "Genograma e ecomapa servem para compreender a dinâmica familiar e as relações com a rede de apoio. A equipe deve reconhecer o funcionamento da família, detectar disfuncionalidades e planejar intervenções precoces para reequilibrar o sistema.",
+   "alternativas": {
+    "A": "O projeto terapêutico singular é construído com a família e revisado, não definitivo.",
+    "B": "Internação compulsória não tem indicação e não resolve a dinâmica familiar.",
+    "C": "Correta: reconhecer a dinâmica e planejar intervenções.",
+    "D": "Cuidados paliativos podem ser feitos no domicílio com apoio da equipe; internar não é a primeira proposta."
+   }
+  },
+  "es": {
+   "resumo": "El genograma y el ecomapa sirven para comprender la dinámica familiar y las relaciones con la red de apoyo. El equipo debe reconocer el funcionamiento de la familia, detectar disfuncionalidades y planificar intervenciones precoces para reequilibrar el sistema.",
+   "alternativas": {
+    "A": "El proyecto terapéutico singular se construye con la familia y se revisa, no es definitivo.",
+    "B": "La internación compulsoria no está indicada y no resuelve la dinámica familiar.",
+    "C": "Correcta: reconocer la dinámica y planificar intervenciones.",
+    "D": "Los cuidados paliativos pueden darse en el domicilio con apoyo del equipo; internar no es la primera propuesta."
+   }
+  }
+ },
+ "revalida_2023-2_q031": {
+  "pt": {
+   "resumo": "Nova inflamação intensa no joelho após artrocentese, com líquido de 120.000 leucócitos e 95% de neutrófilos: artrite séptica até prova em contrário (contagem acima de 50.000 sugere infecção). Exige cultura, antibiótico e drenagem.",
+   "alternativas": {
+    "A": "Correta: artrite séptica bacteriana.",
+    "B": "Pseudogota raramente chega a 120.000 leucócitos e não explica a piora após punção.",
+    "C": "Gota pode inflamar muito, mas essa contagem e o contexto exigem excluir infecção.",
+    "D": "Artrite gonocócica costuma ter tenossinovite e lesões de pele, e a punção recente é a pista principal."
+   }
+  },
+  "es": {
+   "resumo": "Nueva inflamación intensa en la rodilla tras una artrocentesis, con líquido de 120.000 leucocitos y 95 % de neutrófilos: artritis séptica hasta que se demuestre lo contrario (más de 50.000 sugiere infección). Exige cultivo, antibiótico y drenaje.",
+   "alternativas": {
+    "A": "Correcta: artritis séptica bacteriana.",
+    "B": "La pseudogota rara vez llega a 120.000 leucocitos y no explica el empeoramiento tras la punción.",
+    "C": "La gota puede inflamar mucho, pero ese recuento y el contexto obligan a excluir infección.",
+    "D": "La artritis gonocócica suele tener tenosinovitis y lesiones cutáneas, y la punción reciente es la pista principal."
+   }
+  }
+ },
+ "revalida_2023-2_q032": {
+  "pt": {
+   "resumo": "Febre persistente, distensão, íleo e leucocitose após cirurgia por peritonite, com ferida limpa e sem foco urinário ou pulmonar: abscesso ou infecção intra-abdominal. O exame é tomografia de abdome e pelve, que também guia a drenagem.",
+   "alternativas": {
+    "A": "Os pulmões estão quase normais; o abdome é o foco provável.",
+    "B": "Giordano negativo e sem sintomas urinários.",
+    "C": "Culturas ajudam, mas não localizam o foco, que precisa de imagem.",
+    "D": "Correta: infecção intra-abdominal, tomografia."
+   }
+  },
+  "es": {
+   "resumo": "Fiebre persistente, distensión, íleo y leucocitosis tras una cirugía por peritonitis, con herida limpia y sin foco urinario ni pulmonar: absceso o infección intraabdominal. El examen es la tomografía de abdomen y pelvis, que además guía el drenaje.",
+   "alternativas": {
+    "A": "Los pulmones están casi normales; el abdomen es el foco probable.",
+    "B": "Giordano negativo y sin síntomas urinarios.",
+    "C": "Los cultivos ayudan, pero no localizan el foco, que necesita imagen.",
+    "D": "Correcta: infección intraabdominal, tomografía."
+   }
+  }
+ },
+ "revalida_2023-2_q033": {
+  "pt": {
+   "resumo": "Desidratação grave (hipotônico, pulsos fracos, não consegue beber) com 10% de perda de peso: plano C. Pelo esquema cobrado nessa edição, para 1 ano ou mais faz-se soro fisiológico 30 mL/kg em 30 minutos: 300 mL para 10 kg.",
+   "alternativas": {
+    "A": "200 mL corresponde a 20 mL/kg e em tempo diferente do esquema esperado.",
+    "B": "Correta: 300 mL de soro fisiológico em 30 minutos.",
+    "C": "Ringer em 1 hora é o tempo para menores de 1 ano.",
+    "D": "Volume e tempo não correspondem ao esquema."
+   }
+  },
+  "es": {
+   "resumo": "Deshidratación grave (hipotónico, pulsos débiles, no puede beber) con 10 % de pérdida de peso: plan C. Según el esquema evaluado en esta edición, para 1 año o más se da solución salina 30 mL/kg en 30 minutos: 300 mL para 10 kg.",
+   "alternativas": {
+    "A": "200 mL corresponde a 20 mL/kg y en un tiempo distinto del esquema esperado.",
+    "B": "Correcta: 300 mL de solución salina en 30 minutos.",
+    "C": "Ringer en 1 hora es el tiempo para menores de 1 año.",
+    "D": "Volumen y tiempo no corresponden al esquema."
+   }
+  }
+ },
+ "revalida_2023-2_q034": {
+  "pt": {
+   "resumo": "Lesão intraepitelial de baixo grau (LSIL) em mulher com 25 anos ou mais: repete-se a citologia em 6 meses. Colposcopia só se a alteração persistir ou piorar.",
+   "alternativas": {
+    "A": "Correta: nova citologia em 6 meses.",
+    "B": "Colposcopia imediata é para lesão de alto grau ou LSIL persistente.",
+    "C": "Exérese da zona de transformação é tratamento de lesão de alto grau.",
+    "D": "O teste de DNA-HPV não é a conduta do protocolo brasileiro para LSIL."
+   }
+  },
+  "es": {
+   "resumo": "Lesión intraepitelial de bajo grado (LSIL) en una mujer de 25 años o más: se repite la citología a los 6 meses. Colposcopia solo si la alteración persiste o empeora.",
+   "alternativas": {
+    "A": "Correcta: nueva citología a los 6 meses.",
+    "B": "La colposcopia inmediata es para lesión de alto grado o LSIL persistente.",
+    "C": "La escisión de la zona de transformación es tratamiento de lesión de alto grado.",
+    "D": "La prueba de ADN-VPH no es la conducta del protocolo brasileño para LSIL."
+   }
+  }
+ },
+ "revalida_2023-2_q035": {
+  "pt": {
+   "resumo": "Aos 6 meses, sem sorriso social, sem contato visual, sem resposta ao chamado e sem lalação, com audição normal, há sinais de alerta para transtorno do espectro autista. A criança deve ser referenciada para atenção especializada, com intervenção precoce e cuidado compartilhado com a APS, sem esperar o diagnóstico.",
+   "alternativas": {
+    "A": "Manter só a rotina ignora sinais de alerta importantes.",
+    "B": "Não se deve atrasar o encaminhamento para concluir um rastreio na APS.",
+    "C": "Há sinais de alerta claros; esperar até 16 meses atrasa a intervenção.",
+    "D": "Correta: referenciar para atenção especializada com acompanhamento compartilhado."
+   }
+  },
+  "es": {
+   "resumo": "A los 6 meses, sin sonrisa social, sin contacto visual, sin respuesta al llamado y sin balbuceo, con audición normal, hay señales de alerta de trastorno del espectro autista. El niño debe derivarse a atención especializada, con intervención temprana y cuidado compartido con la APS, sin esperar el diagnóstico.",
+   "alternativas": {
+    "A": "Mantener solo la rutina ignora señales de alerta importantes.",
+    "B": "No se debe retrasar la derivación para completar un tamizaje en la APS.",
+    "C": "Hay señales de alerta claras; esperar hasta los 16 meses retrasa la intervención.",
+    "D": "Correcta: derivar a atención especializada con seguimiento compartido."
+   }
+  }
+ }
+}

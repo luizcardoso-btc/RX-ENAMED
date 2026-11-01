@@ -1,0 +1,172 @@
+{
+  "id": "cm-diabetes-complicacoes-cronicas",
+  "area": "Clínica Médica",
+  "especialidade": "Endocrinologia",
+  "mentor": "caio",
+  "duracaoMin": 15,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2023-2_q086",
+    "revalida_2024-1_q022",
+    "revalida_2024-2_q066",
+    "revalida_2025-1_q066"
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Diabetes. Diretriz da SBD 2024 (capítulos de doença renal, retinopatia, neuropatia, pé diabético e tratamento farmacológico).",
+    "American Diabetes Association. Standards of Care in Diabetes, 2025.",
+    "KDIGO 2022 Clinical Practice Guideline for Diabetes Management in Chronic Kidney Disease.",
+    "IWGDF Guidelines on the prevention and management of diabetes-related foot disease, 2023."
+  ],
+  "pt": {
+    "titulo": "Diabetes: complicações crônicas — rastreamento, diagnóstico e tratamento",
+    "resumo": "A banca cobra quando rastrear, qual exame vem alterado primeiro na nefropatia, como tratar a albuminúria e o que fazer com a úlcera do pé. Saiba também quando associar iSGLT2 ou agonista de GLP-1.",
+    "secoes": [
+      {
+        "titulo": "Quando começar o rastreamento",
+        "paragrafos": [
+          "Rastreie anualmente retinopatia, doença renal, neuropatia e pé."
+        ],
+        "itens": [
+          "Diabetes tipo 2: no diagnóstico, porque a doença já existia havia anos.",
+          "Diabetes tipo 1: após 5 anos de doença (para retinopatia, a partir da puberdade ou dos 5 anos de diagnóstico, o que vier antes).",
+          "Gestante com diabetes prévio: fundo de olho no primeiro trimestre."
+        ]
+      },
+      {
+        "titulo": "Doença renal do diabetes",
+        "paragrafos": [],
+        "itens": [
+          "Rastreio anual com relação albumina/creatinina em amostra isolada de urina e TFG estimada pela creatinina.",
+          "Albuminúria aumentada: 30 a 300 mg/g (antiga microalbuminúria) e acima de 300 mg/g (macroalbuminúria). Confirme com 2 de 3 amostras em 3 a 6 meses, porque febre, exercício, infecção urinária e descompensação elevam o valor.",
+          "A albuminúria costuma ser o primeiro marcador; a creatinina sobe depois.",
+          "Tratamento: controle glicêmico e pressórico (alvo menor que 130 × 80 mmHg). Com albuminúria, IECA ou BRA em dose máxima tolerada (nunca os dois juntos). Associe iSGLT2 com TFG de 20 mL/min/1,73 m² ou mais, e considere finerenona.",
+          "Depois de iniciar IECA ou BRA, dose creatinina e potássio em 2 a 4 semanas; elevação de até 30% da creatinina é aceitável."
+        ]
+      },
+      {
+        "titulo": "Retinopatia diabética",
+        "paragrafos": [],
+        "itens": [
+          "Não proliferativa: microaneurismas (achado mais precoce), hemorragias em chama de vela e em ponto, exsudatos duros e manchas algodonosas.",
+          "Proliferativa: neovasos, com risco de hemorragia vítrea e descolamento tracional. Tratamento: fotocoagulação panretiniana e anti-VEGF.",
+          "Edema macular, principal causa de perda visual: anti-VEGF intravítreo.",
+          "Controle glicêmico muito rápido pode piorar a retinopatia transitoriamente."
+        ]
+      },
+      {
+        "titulo": "Neuropatia diabética",
+        "paragrafos": [],
+        "itens": [
+          "Polineuropatia simétrica distal, em bota e luva: é a forma mais comum. Perda da sensibilidade protetora testada com monofilamento de 10 g, diapasão de 128 Hz, reflexo aquileu e sensibilidade dolorosa.",
+          "Dor neuropática: pregabalina ou gabapentina, duloxetina ou amitriptilina.",
+          "Autonômica: hipotensão postural, taquicardia de repouso fixa, gastroparesia, diarreia noturna, bexiga neurogênica e disfunção erétil.",
+          "Mononeuropatias: a do III par craniano poupa a pupila, ao contrário da compressão por aneurisma."
+        ]
+      },
+      {
+        "titulo": "Pé diabético",
+        "paragrafos": [
+          "Neuropatia, doença arterial e trauma repetido somam-se para causar úlcera. Examine o pé em toda consulta de quem tem alto risco."
+        ],
+        "itens": [
+          "Úlcera neuropática: plantar, sobre pontos de pressão (cabeça dos metatarsos), indolor, com calo ao redor e pulsos presentes. Tratamento: desbridamento, curativo e retirada da carga (calçado adequado ou bota).",
+          "Úlcera isquêmica: dolorosa, em bordas e pontas dos dedos, pulsos ausentes. Avalie o índice tornozelo-braquial (pode vir falsamente alto por calcificação) e revascularize quando indicado.",
+          "Infecção: sinais flogísticos ou secreção; com osso palpável ao toque (probe-to-bone), suspeite de osteomielite. Infecção grave ou isquemia crítica pede internação.",
+          "Prevenção: inspeção diária, calçados adequados, não andar descalço e cuidado das unhas."
+        ]
+      },
+      {
+        "titulo": "Tratamento que protege órgãos",
+        "paragrafos": [],
+        "itens": [
+          "Doença cardiovascular aterosclerótica estabelecida: associe agonista de GLP-1 ou iSGLT2 com benefício comprovado, independentemente da hemoglobina glicada.",
+          "Insuficiência cardíaca ou doença renal crônica: prefira iSGLT2.",
+          "Estatina para a maioria dos diabéticos acima de 40 anos ou com risco cardiovascular elevado."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "No tipo 2, rastreie as complicações já no diagnóstico; no tipo 1, após 5 anos.",
+      "Proteinúria no exame de urina tipo 1 é achado tardio; o primeiro marcador é a albuminúria.",
+      "Não associe IECA com BRA.",
+      "Úlcera plantar indolor com pulsos presentes é neuropática: retirar a carga e cuidar da ferida, não fazer simpatectomia.",
+      "Paciente com infarto prévio deve receber iSGLT2 ou agonista de GLP-1 mesmo com glicada perto da meta."
+    ]
+  },
+  "es": {
+    "titulo": "Diabetes: complicaciones crónicas — tamizaje, diagnóstico y tratamiento",
+    "resumo": "La prueba cobra cuándo tamizar, qué examen se altera primero en la nefropatía, cómo tratar la albuminuria y qué hacer con la úlcera del pie. Sepa también cuándo asociar iSGLT2 o agonista de GLP-1.",
+    "secoes": [
+      {
+        "titulo": "Cuándo empezar el tamizaje",
+        "paragrafos": [
+          "Tamice anualmente retinopatía, enfermedad renal, neuropatía y pie."
+        ],
+        "itens": [
+          "Diabetes tipo 2: en el diagnóstico, porque la enfermedad ya existía desde hacía años.",
+          "Diabetes tipo 1: después de 5 años de enfermedad (para retinopatía, desde la pubertad o los 5 años de diagnóstico, lo que ocurra primero).",
+          "Gestante con diabetes previa: fondo de ojo en el primer trimestre."
+        ]
+      },
+      {
+        "titulo": "Enfermedad renal de la diabetes",
+        "paragrafos": [],
+        "itens": [
+          "Tamizaje anual con relación albúmina/creatinina en muestra aislada de orina y TFG estimada por la creatinina.",
+          "Albuminuria aumentada: 30 a 300 mg/g (antigua microalbuminuria) y más de 300 mg/g (macroalbuminuria). Confirme con 2 de 3 muestras en 3 a 6 meses, porque fiebre, ejercicio, infección urinaria y descompensación elevan el valor.",
+          "La albuminuria suele ser el primer marcador; la creatinina sube después.",
+          "Tratamiento: control glucémico y de la presión (meta menor de 130 × 80 mmHg). Con albuminuria, IECA o ARA II en dosis máxima tolerada (nunca ambos juntos). Asocie iSGLT2 con TFG de 20 mL/min/1,73 m² o más, y considere finerenona.",
+          "Tras iniciar IECA o ARA II, dose creatinina y potasio en 2 a 4 semanas; una elevación de hasta 30 % de la creatinina es aceptable."
+        ]
+      },
+      {
+        "titulo": "Retinopatía diabética",
+        "paragrafos": [],
+        "itens": [
+          "No proliferativa: microaneurismas (hallazgo más precoz), hemorragias en llama y en punto, exudados duros y manchas algodonosas.",
+          "Proliferativa: neovasos, con riesgo de hemorragia vítrea y desprendimiento traccional. Tratamiento: fotocoagulación panretiniana y anti-VEGF.",
+          "Edema macular, principal causa de pérdida visual: anti-VEGF intravítreo.",
+          "Un control glucémico muy rápido puede empeorar la retinopatía de forma transitoria."
+        ]
+      },
+      {
+        "titulo": "Neuropatía diabética",
+        "paragrafos": [],
+        "itens": [
+          "Polineuropatía simétrica distal, en bota y guante: es la forma más común. Pérdida de la sensibilidad protectora evaluada con monofilamento de 10 g, diapasón de 128 Hz, reflejo aquíleo y sensibilidad dolorosa.",
+          "Dolor neuropático: pregabalina o gabapentina, duloxetina o amitriptilina.",
+          "Autonómica: hipotensión postural, taquicardia de reposo fija, gastroparesia, diarrea nocturna, vejiga neurogénica y disfunción eréctil.",
+          "Mononeuropatías: la del III par craneal respeta la pupila, a diferencia de la compresión por aneurisma."
+        ]
+      },
+      {
+        "titulo": "Pie diabético",
+        "paragrafos": [
+          "Neuropatía, enfermedad arterial y trauma repetido se suman para causar la úlcera. Examine el pie en cada consulta de quien tiene alto riesgo."
+        ],
+        "itens": [
+          "Úlcera neuropática: plantar, sobre puntos de presión (cabeza de los metatarsianos), indolora, con callo alrededor y pulsos presentes. Tratamiento: desbridamiento, curación y descarga (calzado adecuado o bota).",
+          "Úlcera isquémica: dolorosa, en bordes y puntas de los dedos, pulsos ausentes. Evalúe el índice tobillo-brazo (puede salir falsamente alto por calcificación) y revascularice cuando esté indicado.",
+          "Infección: signos inflamatorios o secreción; con hueso palpable al sondaje (probe-to-bone), sospeche osteomielitis. La infección grave o la isquemia crítica piden internación.",
+          "Prevención: inspección diaria, calzado adecuado, no andar descalzo y cuidado de las uñas."
+        ]
+      },
+      {
+        "titulo": "Tratamiento que protege órganos",
+        "paragrafos": [],
+        "itens": [
+          "Enfermedad cardiovascular aterosclerótica establecida: asocie agonista de GLP-1 o iSGLT2 con beneficio comprobado, independientemente de la hemoglobina glicada.",
+          "Insuficiencia cardíaca o enfermedad renal crónica: prefiera iSGLT2.",
+          "Estatina para la mayoría de los diabéticos mayores de 40 años o con riesgo cardiovascular elevado."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "En el tipo 2, tamice las complicaciones ya en el diagnóstico; en el tipo 1, después de 5 años.",
+      "La proteinuria en el examen de orina simple es un hallazgo tardío; el primer marcador es la albuminuria.",
+      "No asocie IECA con ARA II.",
+      "Úlcera plantar indolora con pulsos presentes es neuropática: descarga y cuidado de la herida, no simpatectomía.",
+      "El paciente con infarto previo debe recibir iSGLT2 o agonista de GLP-1 aun con glicada cerca de la meta."
+    ]
+  }
+}

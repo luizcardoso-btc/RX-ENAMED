@@ -1,0 +1,74 @@
+{
+  "id": "cir-01-apendicite",
+  "area": "Cirurgia",
+  "especialidade": "Abdome agudo",
+  "titulo": "Dor abdominal no pronto-socorro",
+  "tema": "Apendicite aguda",
+  "mentor": "helena",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com centro cirúrgico, laboratório, ultrassonografia e tomografia disponíveis.",
+  "tarefas": [
+    "Realize a anamnese dirigida.",
+    "Solicite o exame físico e os exames complementares necessários.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente."
+  ],
+  "paciente": {
+    "nome": "Lucas Ferreira",
+    "idade": 22,
+    "sexo": "masculino",
+    "ocupacao": "estudante universitário",
+    "perfil": "Deitado, evita se mexer porque dói. Educado, quer saber se vai precisar operar e se perde a prova da faculdade amanhã.",
+    "abertura": "Doutor, tô com uma dor na barriga desde ontem à noite que não passa.",
+    "roteiro": [
+      {"topico": "Início e localização", "resposta": "Começou em volta do umbigo, ontem umas dez da noite. Hoje de manhã a dor foi para o lado direito, embaixo."},
+      {"topico": "Tipo e intensidade", "resposta": "É uma dor contínua, uns sete de dez. Piora quando ando ou tusso."},
+      {"topico": "Apetite", "resposta": "Não tenho fome nenhuma desde ontem."},
+      {"topico": "Náuseas e vômitos", "resposta": "Enjoei e vomitei uma vez hoje cedo."},
+      {"topico": "Febre", "resposta": "Acho que tive febre, me senti quente, mas não medi."},
+      {"topico": "Hábito intestinal", "resposta": "Não evacuei hoje. Ontem foi normal. Não tem diarreia."},
+      {"topico": "Sintomas urinários", "resposta": "Xixi normal, sem ardência e sem sangue."},
+      {"topico": "Doenças e cirurgias", "resposta": "Nunca operei nada. Não tenho doença nenhuma."},
+      {"topico": "Medicamentos e alergias", "resposta": "Tomei uma dipirona de madrugada, melhorou pouco. Não tenho alergia."},
+      {"topico": "Última refeição", "resposta": "Comi um sanduíche ontem às oito da noite. Depois só água."}
+    ],
+    "perguntasDoPaciente": ["Vou ter que operar?", "Dá para ir para a faculdade amanhã?"],
+    "seNaoSouber": "Diga que não sabe."
+  },
+  "exameFisico": [
+    {"item": "Sinais vitais", "achado": "Temperatura axilar 37,9 °C, FC 102 bpm, PA 120 x 76 mmHg, FR 18 irpm."},
+    {"item": "Estado geral", "achado": "Regular estado geral, hidratado, fácies de dor, prefere ficar imóvel."},
+    {"item": "Abdome", "achado": "Plano, ruídos hidroaéreos diminuídos, dor à palpação em fossa ilíaca direita no ponto de McBurney, defesa localizada, descompressão brusca dolorosa (Blumberg positivo), sinal de Rovsing positivo."},
+    {"item": "Toque retal", "achado": "Dor à palpação da parede lateral direita, sem massas, sem sangue."},
+    {"item": "Demais sistemas", "achado": "Sem alterações."}
+  ],
+  "exames": [
+    {"item": "Hemograma", "resultado": "Leucócitos 14.800/mm³ com 84% de neutrófilos e 6% de bastões. Hemoglobina 14,8 g/dL. Plaquetas 260.000/mm³."},
+    {"item": "PCR", "resultado": "68 mg/L."},
+    {"item": "Urina tipo I", "resultado": "Sem leucocitúria e sem hematúria."},
+    {"item": "Ultrassonografia de abdome", "resultado": "Apêndice cecal não compressível, com 9 mm de diâmetro e borramento da gordura periapendicular. Sem líquido livre."}
+  ],
+  "diagnostico": "Apendicite aguda não complicada (escore de Alvarado 9).",
+  "condutaEsperada": [
+    "Jejum, hidratação venosa, analgesia e antiemético.",
+    "Antibioticoprofilaxia (por exemplo cefazolina com metronidazol) antes da cirurgia.",
+    "Apendicectomia, de preferência por videolaparoscopia, com avaliação da equipe de cirurgia.",
+    "Explicar ao paciente o diagnóstico, a cirurgia e o tempo provável de recuperação."
+  ],
+  "pep": [
+    {"id": "apresentacao", "item": "Apresenta-se e explica o que vai fazer.", "peso": 0.5},
+    {"id": "caracteriza-dor", "item": "Caracteriza a dor com início, localização inicial e migração para fossa ilíaca direita.", "peso": 1.5},
+    {"id": "associados", "item": "Pergunta anorexia, náuseas/vômitos e febre.", "peso": 1},
+    {"id": "diferenciais", "item": "Investiga sintomas urinários e intestinais para diagnóstico diferencial.", "peso": 0.5},
+    {"id": "jejum", "item": "Pergunta a última refeição, comorbidades, alergias e cirurgias prévias.", "peso": 0.5},
+    {"id": "exame", "item": "Solicita exame abdominal com sinais de irritação peritoneal (McBurney, Blumberg, Rovsing).", "peso": 1.5},
+    {"id": "exames", "item": "Solicita hemograma, urina tipo I e exame de imagem (ultrassonografia ou tomografia) quando indicado.", "peso": 1},
+    {"id": "diagnostico", "item": "Diagnostica apendicite aguda.", "peso": 1},
+    {"id": "conduta", "item": "Indica jejum, hidratação, analgesia, antibiótico e apendicectomia (preferencialmente laparoscópica).", "peso": 1.5},
+    {"id": "comunica", "item": "Explica ao paciente a necessidade de cirurgia e responde às dúvidas.", "peso": 1}
+  ],
+  "referencias": [
+    "Diretrizes de Jerusalém da World Society of Emergency Surgery para apendicite aguda",
+    "Escore de Alvarado"
+  ]
+}

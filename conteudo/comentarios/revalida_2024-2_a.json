@@ -1,0 +1,200 @@
+{
+"revalida_2024-2_q001": {
+ "pt": {"resumo": "Cólica lombar intensa irradiada para a fossa ilíaca, Giordano positivo, hematúria e ausência de febre e nitrito: cólica nefrética por litíase. Trata-se com analgesia (anti-inflamatório e opioide se preciso) e hidratação.",
+  "alternativas": {"A": "Cirurgia de urgência é para obstrução com infecção ou rim único, ausentes aqui.", "B": "Sem febre e sem nitrito, a leucocitúria leve não indica infecção.", "C": "Correta: litíase, analgesia e hidratação.", "D": "O quadro é de litíase, não de infecção."}},
+ "es": {"resumo": "Cólico lumbar intenso irradiado a la fosa ilíaca, puñopercusión positiva, hematuria y ausencia de fiebre y nitritos: cólico renal por litiasis. Se trata con analgesia (antiinflamatorio y opioide si hace falta) e hidratación.",
+  "alternativas": {"A": "La cirugía urgente es para obstrucción con infección o riñón único, ausentes aquí.", "B": "Sin fiebre ni nitritos, la leucocituria leve no indica infección.", "C": "Correcta: litiasis, analgesia e hidratación.", "D": "El cuadro es de litiasis, no de infección."}}
+},
+"revalida_2024-2_q002": {
+ "pt": {"resumo": "Edema vespertino, dermatite ocre e úlcera no maléolo medial: insuficiência venosa crônica com úlcera venosa (CEAP 6). A base do tratamento é compressão (meias de média compressão) e elevação dos membros.",
+  "alternativas": {"A": "Baixa compressão é insuficiente para úlcera venosa.", "B": "Correta: média compressão e elevação das pernas.", "C": "A bota de Unna é útil, mas atividade intensa não é a orientação.", "D": "A úlcera tem granulação e não precisa de desbridamento; Trendelenburg não é a conduta."}},
+ "es": {"resumo": "Edema vespertino, dermatitis ocre y úlcera en el maléolo medial: insuficiencia venosa crónica con úlcera venosa (CEAP 6). La base del tratamiento es la compresión (medias de compresión media) y la elevación de los miembros.",
+  "alternativas": {"A": "La compresión baja es insuficiente para una úlcera venosa.", "B": "Correcta: compresión media y elevación de las piernas.", "C": "La bota de Unna es útil, pero la actividad intensa no es la indicación.", "D": "La úlcera tiene granulación y no necesita desbridamiento; Trendelenburg no es la conducta."}}
+},
+"revalida_2024-2_q004": {
+ "pt": {"resumo": "No terceiro tempo de Leopold palpa-se a região suprapúbica. Polo duro, arredondado e regular ali é o polo cefálico: situação longitudinal e apresentação cefálica.",
+  "alternativas": {"A": "Na situação transversal não há polo na pelve.", "B": "O polo encontrado é cefálico, não pélvico.", "C": "Córmica é a apresentação da situação transversal.", "D": "Correta: longitudinal e cefálica."}},
+ "es": {"resumo": "En la tercera maniobra de Leopold se palpa la región suprapúbica. Un polo duro, redondeado y regular allí es el polo cefálico: situación longitudinal y presentación cefálica.",
+  "alternativas": {"A": "En situación transversa no hay polo en la pelvis.", "B": "El polo hallado es cefálico, no pélvico.", "C": "La presentación de hombro corresponde a la situación transversa.", "D": "Correcta: longitudinal y cefálica."}}
+},
+"revalida_2024-2_q005": {
+ "pt": {"resumo": "A Lei 8.142/1990 exige, para receber repasses federais, fundo de saúde, conselho de saúde paritário, plano de saúde, relatório de gestão, contrapartida e comissão de plano de carreira. A alternativa que reúne exigências corretas é fundo e conselho paritário.",
+  "alternativas": {"A": "Prontuário eletrônico não é exigência da lei.", "B": "Plano diretor de regionalização não está entre os requisitos da lei.", "C": "Central de marcação não é exigência da lei.", "D": "Correta: fundo de saúde e conselho paritário."}},
+ "es": {"resumo": "La Ley 8.142/1990 exige, para recibir transferencias federales, fondo de salud, consejo de salud paritario, plan de salud, informe de gestión, contrapartida y comisión de plan de carrera. La opción con requisitos correctos es fondo y consejo paritario.",
+  "alternativas": {"A": "La historia clínica electrónica no es exigencia de la ley.", "B": "El plan director de regionalización no está entre los requisitos de la ley.", "C": "La central de turnos no es exigencia de la ley.", "D": "Correcta: fondo de salud y consejo paritario."}}
+},
+"revalida_2024-2_q006": {
+ "pt": {"resumo": "Dor glútea irradiada para a perna, Lasègue positivo, perda de força e alteração de sensibilidade no pé: comprometimento sensitivo e motor distal do membro (radicular, como ciatalgia). Pelo gabarito, a melhor descrição é neuropatia sensitivo-motora distal.",
+  "alternativas": {"A": "Correta: há déficit sensitivo e motor distal.", "B": "O déficit não é só motor nem proximal.", "C": "Há também perda de força, não só sensitiva.", "D": "Não há sintomas autonômicos."}},
+ "es": {"resumo": "Dolor glúteo irradiado a la pierna, Lasègue positivo, pérdida de fuerza y alteración sensitiva en el pie: compromiso sensitivo y motor distal del miembro (radicular, como ciatalgia). Según la clave, la mejor descripción es neuropatía sensitivomotora distal.",
+  "alternativas": {"A": "Correcta: hay déficit sensitivo y motor distal.", "B": "El déficit no es solo motor ni proximal.", "C": "También hay pérdida de fuerza, no solo sensitiva.", "D": "No hay síntomas autonómicos."}}
+},
+"revalida_2024-2_q007": {
+ "pt": {"resumo": "Massa renal sólida hipervascular em idoso é carcinoma de células renais até prova em contrário; é o tumor renal maligno mais comum no adulto.",
+  "alternativas": {"A": "Sarcoma renal é raro.", "B": "Linfoma renal costuma ser hipovascular e multifocal, com adenomegalias.", "C": "Não há tumor primário em outro local.", "D": "Correta: carcinoma de células renais."}},
+ "es": {"resumo": "Una masa renal sólida hipervascular en un adulto mayor es carcinoma de células renales hasta que se demuestre lo contrario; es el tumor renal maligno más frecuente en el adulto.",
+  "alternativas": {"A": "El sarcoma renal es raro.", "B": "El linfoma renal suele ser hipovascular y multifocal, con adenopatías.", "C": "No hay tumor primario en otro sitio.", "D": "Correcta: carcinoma de células renales."}}
+},
+"revalida_2024-2_q008": {
+ "pt": {"resumo": "Recém-nascido grande para a idade gestacional, filho de mãe diabética, tem risco de hipoglicemia. A conduta inicial é monitorar a glicemia capilar nas primeiras horas, mantendo o aleitamento.",
+  "alternativas": {"A": "Correta: monitorar a glicemia capilar.", "B": "Fórmula de rotina não é indicada e prejudica o aleitamento.", "C": "Glicemia de 60 não indica glicose venosa em RN assintomático.", "D": "Esperar sintomas graves atrasa o diagnóstico."}},
+ "es": {"resumo": "Un recién nacido grande para la edad gestacional, hijo de madre diabética, tiene riesgo de hipoglucemia. La conducta inicial es vigilar la glucemia capilar en las primeras horas, manteniendo la lactancia.",
+  "alternativas": {"A": "Correcta: vigilar la glucemia capilar.", "B": "La fórmula de rutina no está indicada y perjudica la lactancia.", "C": "Una glucemia de 60 no indica glucosa intravenosa en un RN asintomático.", "D": "Esperar síntomas graves retrasa el diagnóstico."}}
+},
+"revalida_2024-2_q009": {
+ "pt": {"resumo": "Mulher histerectomizada com sintomas climatéricos intensos usa estrogênio isolado, sem progestagênio. A via transdérmica tem menor risco trombótico, e a terapia também previne osteoporose.",
+  "alternativas": {"A": "Raloxifeno piora fogachos e não melhora a cognição.", "B": "Correta: estradiol transdérmico isolado.", "C": "Sem útero, não é preciso progesterona.", "D": "Histerectomia e anti-inflamatório não contraindicam a terapia hormonal."}},
+ "es": {"resumo": "Una mujer histerectomizada con síntomas climatéricos intensos usa estrógeno solo, sin progestágeno. La vía transdérmica tiene menor riesgo trombótico, y la terapia también previene la osteoporosis.",
+  "alternativas": {"A": "El raloxifeno empeora los sofocos y no mejora la cognición.", "B": "Correcta: estradiol transdérmico solo.", "C": "Sin útero, no hace falta progesterona.", "D": "La histerectomía y el antiinflamatorio no contraindican la terapia hormonal."}}
+},
+"revalida_2024-2_q010": {
+ "pt": {"resumo": "O aumento de cobertura em todos os quintis, com redução da diferença entre ricos e pobres, expressa a universalidade (acesso para todos) e a equidade (reduzir desigualdades).",
+  "alternativas": {"A": "Integralidade refere-se ao cuidado completo, não à redução de desigualdade de cobertura.", "B": "Correta: universalidade e equidade.", "C": "Regionalização é diretriz organizativa.", "D": "Participação social e hierarquização são diretrizes organizativas."}},
+ "es": {"resumo": "El aumento de cobertura en todos los quintiles, con reducción de la diferencia entre ricos y pobres, expresa la universalidad (acceso para todos) y la equidad (reducir desigualdades).",
+  "alternativas": {"A": "La integralidad se refiere a la atención completa, no a reducir la desigualdad de cobertura.", "B": "Correcta: universalidad y equidad.", "C": "La regionalización es una directriz organizativa.", "D": "La participación social y la jerarquización son directrices organizativas."}}
+},
+"revalida_2024-2_q011": {
+ "pt": {"resumo": "Fibrilação atrial de início recente (ritmo irregularmente irregular) com instabilidade hemodinâmica (PAS 70 mmHg): cardioversão elétrica sincronizada imediata.",
+  "alternativas": {"A": "Correta: cardioversão elétrica.", "B": "Volume não resolve a arritmia causadora da instabilidade.", "C": "Betabloqueador em paciente hipotenso piora o choque.", "D": "Amiodarona é para paciente estável."}},
+ "es": {"resumo": "Fibrilación auricular de inicio reciente (ritmo irregularmente irregular) con inestabilidad hemodinámica (PAS 70 mmHg): cardioversión eléctrica sincronizada inmediata.",
+  "alternativas": {"A": "Correcta: cardioversión eléctrica.", "B": "El volumen no resuelve la arritmia que causa la inestabilidad.", "C": "El betabloqueante en un paciente hipotenso empeora el shock.", "D": "La amiodarona es para el paciente estable."}}
+},
+"revalida_2024-2_q012": {
+ "pt": {"resumo": "Herniorrafia umbilical sem tela em paciente de baixo risco é cirurgia limpa sem prótese: não há indicação de antibioticoprofilaxia.",
+  "alternativas": {"A": "Hipertensão controlada não indica profilaxia.", "B": "Correta: cirurgia limpa sem indicação de profilaxia.", "C": "O tipo de anestesia não define a profilaxia.", "D": "O regime ambulatorial não define a profilaxia."}},
+ "es": {"resumo": "La herniorrafia umbilical sin malla en una paciente de bajo riesgo es cirugía limpia sin prótesis: no hay indicación de profilaxis antibiótica.",
+  "alternativas": {"A": "La hipertensión controlada no indica profilaxis.", "B": "Correcta: cirugía limpia sin indicación de profilaxis.", "C": "El tipo de anestesia no define la profilaxis.", "D": "El régimen ambulatorio no define la profilaxis."}}
+},
+"revalida_2024-2_q013": {
+ "pt": {"resumo": "Na faringoamigdalite estreptocócica, a penicilina benzatina em dose única é a primeira linha para erradicar o estreptococo e prevenir febre reumática.",
+  "alternativas": {"A": "Cefalexina é alternativa, não primeira linha.", "B": "Amoxicilina é eficaz, mas o gabarito considera a benzatina a escolha clássica para prevenir febre reumática.", "C": "Eritromicina é para alérgicos à penicilina.", "D": "Correta: penicilina benzatina."}},
+ "es": {"resumo": "En la faringoamigdalitis estreptocócica, la penicilina benzatínica en dosis única es la primera línea para erradicar el estreptococo y prevenir la fiebre reumática.",
+  "alternativas": {"A": "La cefalexina es alternativa, no primera línea.", "B": "La amoxicilina es eficaz, pero la clave considera la benzatínica la elección clásica para prevenir la fiebre reumática.", "C": "La eritromicina es para alérgicos a la penicilina.", "D": "Correcta: penicilina benzatínica."}}
+},
+"revalida_2024-2_q014": {
+ "pt": {"resumo": "Pela Lei 14.443/2022, a laqueadura é permitida a partir de 21 anos ou com 2 filhos vivos, sem consentimento do cônjuge, após 60 dias da manifestação e com aconselhamento sobre métodos reversíveis. A paciente (23 anos, 3 filhos) pode fazer, e o profissional deve oferecer informações sobre os demais métodos.",
+  "alternativas": {"A": "Ela se enquadra nos critérios legais.", "B": "A lei de 2022 retirou a exigência de autorização do cônjuge.", "C": "Correta: oferecer informações para livre escolha.", "D": "Ela se enquadra nos critérios legais."}},
+ "es": {"resumo": "Según la Ley 14.443/2022 de Brasil, la ligadura tubaria se permite desde los 21 años o con 2 hijos vivos, sin consentimiento del cónyuge, tras 60 días de la solicitud y con consejería sobre métodos reversibles. La paciente (23 años, 3 hijos) puede hacerla, y el profesional debe ofrecer información sobre los demás métodos.",
+  "alternativas": {"A": "Cumple los criterios legales.", "B": "La ley de 2022 eliminó la exigencia de autorización del cónyuge.", "C": "Correcta: ofrecer información para una elección libre.", "D": "Cumple los criterios legales."}}
+},
+"revalida_2024-2_q015": {
+ "pt": {"resumo": "Pápulas amareladas com ponto negro central nos pés de quem trabalha com porcos: tungíase (bicho-de-pé). Trata-se com retirada da pulga, antiparasitário (ivermectina ou tiabendazol), orientação, tratamento de animais e solo e profilaxia antitetânica.",
+  "alternativas": {"A": "As lesões não regridem sozinhas e precisam de retirada.", "B": "Antibiótico não trata a tungíase.", "C": "A transmissão é pela penetração da pulga na pele, não por picada, e falta tratar as lesões.", "D": "Correta: retirada, antiparasitário, orientação e antitetânica."}},
+ "es": {"resumo": "Pápulas amarillentas con punto negro central en los pies de quien trabaja con cerdos: tungiasis (nigua). Se trata con extracción de la pulga, antiparasitario (ivermectina o tiabendazol), orientación, tratamiento de animales y suelo y profilaxis antitetánica.",
+  "alternativas": {"A": "Las lesiones no regresan solas y requieren extracción.", "B": "El antibiótico no trata la tungiasis.", "C": "La transmisión es por penetración de la pulga en la piel, no por picadura, y falta tratar las lesiones.", "D": "Correcta: extracción, antiparasitario, orientación y antitetánica."}}
+},
+"revalida_2024-2_q016": {
+ "pt": {"resumo": "No TCE grave, a tríade de Cushing (hipertensão, bradicardia e respiração irregular) é o sinal clínico de hipertensão intracraniana com risco de herniação.",
+  "alternativas": {"A": "Glasgow 3 indica coma, não especificamente hipertensão intracraniana.", "B": "Midríase bilateral tem várias causas e não confirma sozinha.", "C": "Correta: tríade de Cushing.", "D": "Ausência de reflexo corneano indica lesão de tronco, não confirma a hipertensão intracraniana."}},
+ "es": {"resumo": "En el TCE grave, la tríada de Cushing (hipertensión, bradicardia y respiración irregular) es el signo clínico de hipertensión intracraneal con riesgo de herniación.",
+  "alternativas": {"A": "Glasgow 3 indica coma, no específicamente hipertensión intracraneal.", "B": "La midriasis bilateral tiene varias causas y no confirma por sí sola.", "C": "Correcta: tríada de Cushing.", "D": "La ausencia de reflejo corneal indica lesión de tronco, no confirma la hipertensión intracraneal."}}
+},
+"revalida_2024-2_q017": {
+ "pt": {"resumo": "Eritema com bolhas é segundo grau. Tronco anterior (18%), membros superiores (18%) e membro inferior anterior (9%) somam cerca de 45%: queimadura grave. ATLS: 2 mL × 90 kg × 45% ≈ 8.000 mL em 24 h; metade (4.000 mL) em 8 h, cerca de 500 mL/h, e o resto em 16 h, cerca de 250 mL/h.",
+  "alternativas": {"A": "Não é terceiro grau, e a reposição inicial é com cristaloide.", "B": "Não é terceiro grau, e os volumes e tempos estão invertidos.", "C": "Correta: grave, segundo grau, 500 mL/h por 8 h e 250 mL/h por 16 h.", "D": "Com 45% de superfície, a queimadura é grave e exige reposição venosa."}},
+ "es": {"resumo": "El eritema con ampollas es de segundo grado. Tronco anterior (18 %), miembros superiores (18 %) y miembro inferior anterior (9 %) suman cerca del 45 %: quemadura grave. ATLS: 2 mL × 90 kg × 45 % ≈ 8.000 mL en 24 h; la mitad (4.000 mL) en 8 h, cerca de 500 mL/h, y el resto en 16 h, cerca de 250 mL/h.",
+  "alternativas": {"A": "No es tercer grado, y la reposición inicial es con cristaloide.", "B": "No es tercer grado, y los volúmenes y tiempos están invertidos.", "C": "Correcta: grave, segundo grado, 500 mL/h por 8 h y 250 mL/h por 16 h.", "D": "Con 45 % de superficie, la quemadura es grave y exige reposición intravenosa."}}
+},
+"revalida_2024-2_q018": {
+ "pt": {"resumo": "Prova do laço: calcular a pressão média ((PAS + PAD) / 2), insuflar o manguito até esse valor por 3 minutos em criança (5 minutos em adulto) e contar as petéquias num quadrado de 2,5 cm. É positiva com 10 ou mais em criança (20 em adulto).",
+  "alternativas": {"A": "Correta: valor médio, 3 minutos, mais de 10 petéquias na criança.", "B": "Não se usa a sistólica, e 20 é o ponto de corte do adulto.", "C": "Não se usa o valor máximo nem 10 minutos.", "D": "Não se usa a diastólica nem 10 minutos."}},
+ "es": {"resumo": "Prueba del lazo: calcular la presión media ((PAS + PAD) / 2), inflar el manguito hasta ese valor 3 minutos en el niño (5 minutos en el adulto) y contar las petequias en un cuadrado de 2,5 cm. Es positiva con 10 o más en el niño (20 en el adulto).",
+  "alternativas": {"A": "Correcta: valor medio, 3 minutos, más de 10 petequias en el niño.", "B": "No se usa la sistólica, y 20 es el punto de corte del adulto.", "C": "No se usa el valor máximo ni 10 minutos.", "D": "No se usa la diastólica ni 10 minutos."}}
+},
+"revalida_2024-2_q019": {
+ "pt": {"resumo": "Pré-requisitos do fórceps: dilatação completa, membranas rotas, cabeça insinuada (plano 0 ou abaixo), variedade de posição conhecida, proporção adequada, bexiga vazia, analgesia e feto vivo.",
+  "alternativas": {"A": "Correta: concepto vivo.", "B": "A dilatação deve ser completa.", "C": "As membranas devem estar rotas.", "D": "No plano -1 a cabeça não está insinuada."}},
+ "es": {"resumo": "Requisitos del fórceps: dilatación completa, membranas rotas, cabeza encajada (plano 0 o más abajo), variedad de posición conocida, proporción adecuada, vejiga vacía, analgesia y feto vivo.",
+  "alternativas": {"A": "Correcta: feto vivo.", "B": "La dilatación debe ser completa.", "C": "Las membranas deben estar rotas.", "D": "En el plano -1 la cabeza no está encajada."}}
+},
+"revalida_2024-2_q020": {
+ "pt": {"resumo": "Cólera é de notificação compulsória imediata (em até 24 horas) à vigilância municipal. O isolamento é de contato, e não se tratam nem vacinam contactantes de rotina.",
+  "alternativas": {"A": "A transmissão é fecal-oral; o isolamento é de contato, não de gotículas.", "B": "Correta: notificação imediata.", "C": "Não se testam nem tratam contactantes assintomáticos de rotina.", "D": "A vacinação de contactantes não é medida de controle no Brasil."}},
+ "es": {"resumo": "El cólera es de notificación obligatoria inmediata (en hasta 24 horas) a la vigilancia municipal. El aislamiento es de contacto, y no se trata ni vacuna a los contactos de rutina.",
+  "alternativas": {"A": "La transmisión es fecal-oral; el aislamiento es de contacto, no por gotas.", "B": "Correcta: notificación inmediata.", "C": "No se estudia ni trata a contactos asintomáticos de rutina.", "D": "La vacunación de contactos no es medida de control en Brasil."}}
+},
+"revalida_2024-2_q021": {
+ "pt": {"resumo": "Disfagia progressiva com regurgitação de alimentos em idoso de zona rural da Bahia: megaesôfago chagásico. A investigação inicial deve incluir sorologia para Chagas, além de esofagografia e endoscopia.",
+  "alternativas": {"A": "Radiografia de tórax não define a etiologia.", "B": "CA 19-9 não investiga o esôfago.", "C": "Ressonância de tórax não é exame inicial.", "D": "Correta: sorologia para doença de Chagas."}},
+ "es": {"resumo": "Disfagia progresiva con regurgitación de alimentos en un adulto mayor de zona rural de Bahía: megaesófago chagásico. El estudio inicial debe incluir serología para Chagas, además de esofagograma y endoscopia.",
+  "alternativas": {"A": "La radiografía de tórax no define la etiología.", "B": "El CA 19-9 no estudia el esófago.", "C": "La resonancia de tórax no es examen inicial.", "D": "Correcta: serología para enfermedad de Chagas."}}
+},
+"revalida_2024-2_q023": {
+ "pt": {"resumo": "Menino afrodescendente com icterícia prolongada, Coombs negativo (sem incompatibilidade, já que o RN é A e mãe O, mas sem hemólise imune): a hipótese principal é deficiência de G6PD, ligada ao X e frequente em afrodescendentes.",
+  "alternativas": {"A": "Esferocitose costuma ter história familiar e esferócitos.", "B": "Correta: deficiência de G6PD.", "C": "Anemia falciforme não causa icterícia neonatal pela hemoglobina fetal protetora.", "D": "Galactosemia teria vômitos, hepatopatia e baixo ganho de peso."}},
+ "es": {"resumo": "Varón afrodescendiente con ictericia prolongada y Coombs negativo (aunque el RN es A y la madre O, no hay hemólisis inmune): la hipótesis principal es déficit de G6PD, ligado al X y frecuente en afrodescendientes.",
+  "alternativas": {"A": "La esferocitosis suele tener historia familiar y esferocitos.", "B": "Correcta: déficit de G6PD.", "C": "La anemia falciforme no causa ictericia neonatal por la protección de la hemoglobina fetal.", "D": "La galactosemia tendría vómitos, hepatopatía y mal aumento de peso."}}
+},
+"revalida_2024-2_q024": {
+ "pt": {"resumo": "Hipotireoidismo clínico na gestação (TSH alto, T4 livre baixo) é tratado com levotiroxina. O seguimento é com TSH a cada 4 semanas até a meta; o tratamento reduz aborto, prematuridade e pré-eclâmpsia.",
+  "alternativas": {"A": "Hipotireoidismo não se associa a feto grande.", "B": "T3 livre não é usado no seguimento.", "C": "O controle da dose é pelo TSH.", "D": "Correta: TSH mensal para evitar parto prematuro."}},
+ "es": {"resumo": "El hipotiroidismo clínico en el embarazo (TSH alta, T4 libre baja) se trata con levotiroxina. El seguimiento es con TSH cada 4 semanas hasta la meta; el tratamiento reduce aborto, prematuridad y preeclampsia.",
+  "alternativas": {"A": "El hipotiroidismo no se asocia a feto grande.", "B": "La T3 libre no se usa en el seguimiento.", "C": "El control de la dosis es por la TSH.", "D": "Correcta: TSH mensual para evitar el parto prematuro."}}
+},
+"revalida_2024-2_q025": {
+ "pt": {"resumo": "Morte natural de paciente acompanhado, sem sinais de violência: o médico assistente emite a declaração. Segundo o gabarito, broncopneumonia é a causa básica, DPOC a antecedente, e HAS e sequelas de AVC são contribuintes. Parada cardiorrespiratória nunca é causa.",
+  "alternativas": {"A": "Morte natural acompanhada não vai ao legista.", "B": "Não é caso de legista.", "C": "Correta: médico de família; broncopneumonia, DPOC e contribuintes.", "D": "Parada cardiorrespiratória é modo de morrer, não causa básica."}},
+ "es": {"resumo": "Muerte natural de un paciente en seguimiento, sin signos de violencia: el médico tratante emite el certificado. Según la clave, la bronconeumonía es la causa básica, la EPOC la antecedente, y la HTA y las secuelas de ACV son contribuyentes. El paro cardiorrespiratorio nunca es causa.",
+  "alternativas": {"A": "Una muerte natural en seguimiento no va al forense.", "B": "No es caso de forense.", "C": "Correcta: médico de familia; bronconeumonía, EPOC y contribuyentes.", "D": "El paro cardiorrespiratorio es modo de morir, no causa básica."}}
+},
+"revalida_2024-2_q026": {
+ "pt": {"resumo": "Fraqueza progressiva em membros inferiores com piora recente, hipotonia e arreflexia, em idosa diabética: segundo o gabarito, a investigação é ressonância de coluna toracolombar para afastar compressão medular ou radicular, causa tratável que piora rápido.",
+  "alternativas": {"A": "Radiografia não mostra medula e raízes.", "B": "O quadro bilateral nos membros inferiores aponta para coluna, não encéfalo.", "C": "Correta: ressonância de coluna toracolombar.", "D": "Biotesiômetro avalia neuropatia, já sugerida pelo monofilamento, e não afasta compressão."}},
+ "es": {"resumo": "Debilidad progresiva en miembros inferiores con empeoramiento reciente, hipotonía y arreflexia, en una adulta mayor diabética: según la clave, el estudio es la resonancia de columna toracolumbar para descartar compresión medular o radicular, causa tratable que empeora rápido.",
+  "alternativas": {"A": "La radiografía no muestra médula ni raíces.", "B": "El cuadro bilateral en miembros inferiores apunta a la columna, no al encéfalo.", "C": "Correcta: resonancia de columna toracolumbar.", "D": "El biotesiómetro evalúa neuropatía, ya sugerida por el monofilamento, y no descarta compresión."}}
+},
+"revalida_2024-2_q027": {
+ "pt": {"resumo": "Lombociatalgia com retenção urinária e anestesia perineal (em sela) por hérnia volumosa: síndrome da cauda equina, emergência cirúrgica. Indica-se descompressão de urgência.",
+  "alternativas": {"A": "Correta: descompressão cirúrgica de urgência.", "B": "Tratamento conservador na cauda equina causa sequelas permanentes.", "C": "A sonda alivia a retenção, mas não trata a compressão.", "D": "Tratamento conservador é inadequado."}},
+ "es": {"resumo": "Lumbociatalgia con retención urinaria y anestesia perineal (en silla de montar) por una hernia voluminosa: síndrome de cauda equina, urgencia quirúrgica. Se indica descompresión urgente.",
+  "alternativas": {"A": "Correcta: descompresión quirúrgica urgente.", "B": "El tratamiento conservador en la cauda equina deja secuelas permanentes.", "C": "La sonda alivia la retención, pero no trata la compresión.", "D": "El tratamiento conservador es inadecuado."}}
+},
+"revalida_2024-2_q028": {
+ "pt": {"resumo": "Febre e calafrios no fim da transfusão, com estabilidade, sem icterícia, hipoxemia ou alteração radiológica: segundo o gabarito, reação febril não hemolítica, comum em politransfundidos. Mesmo assim, a transfusão deve ser suspensa para excluir hemólise.",
+  "alternativas": {"A": "Sobrecarga causa dispneia e congestão.", "B": "TRALI causa hipoxemia e infiltrado.", "C": "Correta: reação febril não hemolítica.", "D": "Hemólise aguda costuma ter hipotensão, hemoglobinúria e icterícia."}},
+ "es": {"resumo": "Fiebre y escalofríos al final de la transfusión, con estabilidad, sin ictericia, hipoxemia ni alteración radiológica: según la clave, reacción febril no hemolítica, frecuente en politransfundidos. Aun así, debe suspenderse la transfusión para excluir hemólisis.",
+  "alternativas": {"A": "La sobrecarga causa disnea y congestión.", "B": "El TRALI causa hipoxemia e infiltrado.", "C": "Correcta: reacción febril no hemolítica.", "D": "La hemólisis aguda suele tener hipotensión, hemoglobinuria e ictericia."}}
+},
+"revalida_2024-2_q029": {
+ "pt": {"resumo": "A circunferência abdominal é a medida isolada mais sensível para restrição de crescimento fetal. O Doppler avalia as circulações materna (uterinas), feto-placentária (umbilical) e fetal (cerebral média, ducto venoso).",
+  "alternativas": {"A": "O diâmetro biparietal é pouco sensível, e o Doppler é usado em toda suspeita.", "B": "Correta: circunferência abdominal e Doppler das três circulações.", "C": "A razão CA/fêmur não é o parâmetro mais sensível.", "D": "Os parâmetros não são igualmente sensíveis, e o Doppler inclui as artérias uterinas e umbilical."}},
+ "es": {"resumo": "La circunferencia abdominal es la medida aislada más sensible para la restricción de crecimiento fetal. El Doppler evalúa las circulaciones materna (uterinas), fetoplacentaria (umbilical) y fetal (cerebral media, ductus venoso).",
+  "alternativas": {"A": "El diámetro biparietal es poco sensible, y el Doppler se usa en toda sospecha.", "B": "Correcta: circunferencia abdominal y Doppler de las tres circulaciones.", "C": "La razón CA/fémur no es el parámetro más sensible.", "D": "Los parámetros no son igualmente sensibles, y el Doppler incluye las arterias uterinas y umbilical."}}
+},
+"revalida_2024-2_q031": {
+ "pt": {"resumo": "Nódulo sólido de 18 mm em tabagista pesado tem alto risco de malignidade. Segundo o gabarito, o próximo passo é tomografia com contraste para caracterização e estadiamento, antes da biópsia.",
+  "alternativas": {"A": "Controle anual é para nódulos pequenos de baixo risco.", "B": "Lavado brônquico tem baixo rendimento em nódulo periférico.", "C": "Correta: tomografia com contraste.", "D": "Ultrassom não guia biópsia de nódulo intraparenquimatoso."}},
+ "es": {"resumo": "Un nódulo sólido de 18 mm en un fumador pesado tiene alto riesgo de malignidad. Según la clave, el siguiente paso es la tomografía con contraste para caracterizar y estadificar, antes de la biopsia.",
+  "alternativas": {"A": "El control anual es para nódulos pequeños de bajo riesgo.", "B": "El lavado bronquial tiene bajo rendimiento en un nódulo periférico.", "C": "Correcta: tomografía con contraste.", "D": "La ecografía no guía la biopsia de un nódulo intraparenquimatoso."}}
+},
+"revalida_2024-2_q032": {
+ "pt": {"resumo": "Febre nas primeiras 24 a 48 horas de pós-operatório, ainda em ventilação mecânica: a causa mais lembrada é pulmonar (atelectasia ou pneumonia). Pede-se radiografia de tórax.",
+  "alternativas": {"A": "Coleções abdominais surgem mais tarde.", "B": "Correta: radiografia de tórax.", "C": "Hemocultura não identifica a causa mais prevalente nesse momento.", "D": "Infecção urinária é mais tardia."}},
+ "es": {"resumo": "Fiebre en las primeras 24 a 48 horas del posoperatorio, aún en ventilación mecánica: la causa más considerada es pulmonar (atelectasia o neumonía). Se pide radiografía de tórax.",
+  "alternativas": {"A": "Las colecciones abdominales aparecen más tarde.", "B": "Correcta: radiografía de tórax.", "C": "El hemocultivo no identifica la causa más prevalente en ese momento.", "D": "La infección urinaria es más tardía."}}
+},
+"revalida_2024-2_q033": {
+ "pt": {"resumo": "Dor escrotal súbita, testículo elevado e reflexo cremastérico abolido em menino: torção testicular. É emergência cirúrgica (idealmente em até 6 horas); encaminha-se de imediato, sem esperar exames.",
+  "alternativas": {"A": "Correta: encaminhamento imediato para cirurgia.", "B": "Não é orquiepididimite.", "C": "Tratar com anti-inflamatório perde o testículo.", "D": "Ultrassom e retorno atrasam a cirurgia."}},
+ "es": {"resumo": "Dolor escrotal súbito, testículo elevado y reflejo cremastérico abolido en un niño: torsión testicular. Es una urgencia quirúrgica (idealmente en hasta 6 horas); se deriva de inmediato, sin esperar exámenes.",
+  "alternativas": {"A": "Correcta: derivación inmediata para cirugía.", "B": "No es orquiepididimitis.", "C": "Tratar con antiinflamatorio pierde el testículo.", "D": "La ecografía y el control retrasan la cirugía."}}
+},
+"revalida_2024-2_q034": {
+ "pt": {"resumo": "Pelas diretrizes do INCA, ASC-US entre 25 e 29 anos repete-se a citologia em 12 meses; a partir de 30 anos, em 6 meses. Aos 30 anos: repetir em 6 meses.",
+  "alternativas": {"A": "Correta: repetir a citologia em 6 meses.", "B": "Biópsia exige colposcopia com lesão.", "C": "ASC-US é manejado na atenção básica.", "D": "Conização não é indicada para ASC-US."}},
+ "es": {"resumo": "Según las directrices del INCA, ASC-US entre 25 y 29 años se repite la citología a los 12 meses; desde los 30 años, a los 6 meses. A los 30 años: repetir en 6 meses.",
+  "alternativas": {"A": "Correcta: repetir la citología en 6 meses.", "B": "La biopsia exige colposcopia con lesión.", "C": "El ASC-US se maneja en atención primaria.", "D": "La conización no está indicada para ASC-US."}}
+},
+"revalida_2024-2_q035": {
+ "pt": {"resumo": "Aspirina após AVC para evitar novo evento é prevenção secundária na classificação usada pela banca (o paciente já tem a doença e evita recorrência).",
+  "alternativas": {"A": "Primária é antes de qualquer doença.", "B": "Terciária é reabilitação de sequelas.", "C": "Correta: prevenção secundária.", "D": "Quaternária evita intervenções desnecessárias."}},
+ "es": {"resumo": "La aspirina tras un ACV para evitar un nuevo evento es prevención secundaria en la clasificación usada por el examen (el paciente ya tiene la enfermedad y se evita la recurrencia).",
+  "alternativas": {"A": "La primaria es antes de cualquier enfermedad.", "B": "La terciaria es rehabilitación de secuelas.", "C": "Correcta: prevención secundaria.", "D": "La cuaternaria evita intervenciones innecesarias."}}
+},
+"revalida_2024-2_q036": {
+ "pt": {"resumo": "AUDIT de 20 ou mais sugere provável dependência: rastreamento positivo. Além de orientar sobre direção alcoolizada, pode-se oferecer naltrexona ou acamprosato.",
+  "alternativas": {"A": "Escore 22 é positivo.", "B": "Correta: positivo, orientação e naltrexona ou acamprosato.", "C": "Benzodiazepínico não trata dependência fora da abstinência, e dissulfiram não é primeira escolha.", "D": "O rastreamento é positivo."}},
+ "es": {"resumo": "Un AUDIT de 20 o más sugiere probable dependencia: tamizaje positivo. Además de orientar sobre conducir alcoholizado, puede ofrecerse naltrexona o acamprosato.",
+  "alternativas": {"A": "Un puntaje de 22 es positivo.", "B": "Correcta: positivo, orientación y naltrexona o acamprosato.", "C": "La benzodiacepina no trata la dependencia fuera de la abstinencia, y el disulfiram no es primera elección.", "D": "El tamizaje es positivo."}}
+}
+}

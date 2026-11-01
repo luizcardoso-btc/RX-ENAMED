@@ -1,0 +1,46 @@
+# Implantação no Render (https://render.com) com um clique: New > Blueprint > escolha este repositório.
+# Cria o servidor (site, área do aluno, checkout e admin) e o banco Postgres. Os segredos você preenche no painel do Render.
+databases:
+  - name: rx-enamed-banco
+    plan: basic-256mb
+    region: virginia
+    databaseName: rxenamed
+    postgresMajorVersion: "16"
+
+services:
+  - type: web
+    name: rx-enamed
+    runtime: node
+    plan: starter
+    region: virginia
+    buildCommand: >-
+      cd app && npm ci && node build.mjs && cd .. &&
+      CHECKOUT_PROPRIO=1 SITE_URL=$URL_BASE node site/gerar.mjs &&
+      cd servidor && npm ci --omit=dev
+    startCommand: cd servidor && npm run iniciar
+    healthCheckPath: /api/saude
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: "22"
+      - key: DATABASE_URL
+        fromDatabase: { name: rx-enamed-banco, property: connectionString }
+      - key: URL_BASE
+        sync: false        # ex.: https://www.rxenamed.com.br (ou o endereço .onrender.com até ter o domínio)
+      - key: MP_ACCESS_TOKEN
+        sync: false
+      - key: MP_PUBLIC_KEY
+        sync: false
+      - key: MP_WEBHOOK_SECRET
+        sync: false
+      - key: MP_DESCRICAO_FATURA
+        value: RXENAMED
+      - key: ADMIN_EMAILS
+        value: luizcardoso476@gmail.com
+      - key: RESEND_API_KEY
+        sync: false
+      - key: EMAIL_REMETENTE
+        value: RX ENAMED <contato@rxenamed.com.br>
+      - key: EMAIL_RESPONDER_PARA
+        value: luizcardoso476@gmail.com

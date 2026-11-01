@@ -1,0 +1,77 @@
+{
+  "id": "ped-01-diarreia",
+  "area": "Pediatria",
+  "especialidade": "Gastroenterologia pediátrica",
+  "titulo": "Criança com diarreia na UBS",
+  "tema": "Diarreia aguda com desidratação: plano B",
+  "mentor": "tomas",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde com sala de reidratação oral, balança e soro de reidratação oral disponíveis. A mãe traz a filha sem agendamento.",
+  "tarefas": [
+    "Realize a anamnese com a mãe.",
+    "Solicite o exame físico e classifique o estado de hidratação.",
+    "Defina o plano de tratamento e prescreva.",
+    "Oriente a mãe sobre cuidados em casa e sinais de alarme."
+  ],
+  "paciente": {
+    "nome": "Patrícia Lima, mãe de Ana Clara (2 anos)",
+    "idade": 27,
+    "sexo": "feminino",
+    "ocupacao": "atendente de loja",
+    "perfil": "Preocupada e cansada, dormiu pouco. Quer que a filha tome soro na veia ou um antibiótico para cortar a diarreia.",
+    "abertura": "Doutor, minha filha está com diarreia há três dias e hoje ela tá muito molinha e chorona.",
+    "roteiro": [
+      {"topico": "Duração e frequência", "resposta": "Faz três dias. Hoje já foram umas seis vezes, bem líquida."},
+      {"topico": "Aspecto das fezes", "resposta": "Amarela, aguada. Não vi sangue nem catarro."},
+      {"topico": "Vômitos", "resposta": "Vomitou duas vezes hoje de manhã. Depois parou."},
+      {"topico": "Febre", "resposta": "Teve febre de 38 no primeiro dia. Hoje não."},
+      {"topico": "Aceitação de líquidos", "resposta": "Tá com muita sede, pega o copo da minha mão. Comida ela recusa."},
+      {"topico": "Diurese", "resposta": "A fralda tá mais seca, troquei só duas hoje."},
+      {"topico": "Comportamento", "resposta": "Tá irritada, chorando à toa. Mas acorda e brinca um pouco."},
+      {"topico": "Contatos e creche", "resposta": "Ela vai na creche. Tem outras crianças com diarreia lá."},
+      {"topico": "Peso e vacinas", "resposta": "Pesava 12 quilos no mês passado. As vacinas estão em dia, inclusive a do rotavírus."},
+      {"topico": "Medicamentos dados", "resposta": "Dei só soro caseiro ontem, mas ela vomitou."},
+      {"topico": "Doenças prévias", "resposta": "Nunca foi internada. Não tem alergia."}
+    ],
+    "perguntasDoPaciente": ["Não é melhor dar soro na veia?", "Não vai passar um antibiótico?"],
+    "seNaoSouber": "Diga que não reparou."
+  },
+  "exameFisico": [
+    {"item": "Estado geral", "achado": "Irritada, chorosa, mas consolável. Peso atual 11,4 kg."},
+    {"item": "Sinais vitais", "achado": "FC 132 bpm, FR 28 irpm, temperatura 36,8 °C."},
+    {"item": "Olhos e lágrimas", "achado": "Olhos fundos. Chora com poucas lágrimas."},
+    {"item": "Boca e língua", "achado": "Mucosas secas."},
+    {"item": "Sede", "achado": "Bebe com avidez quando oferecido."},
+    {"item": "Sinal da prega", "achado": "A prega cutânea abdominal desaparece lentamente (menos de 2 segundos)."},
+    {"item": "Pulso e enchimento capilar", "achado": "Pulso cheio, enchimento capilar de 2 segundos."},
+    {"item": "Abdome", "achado": "Ruídos hidroaéreos aumentados, flácido, indolor."}
+  ],
+  "exames": [
+    {"item": "Exames laboratoriais", "resultado": "Não são necessários neste caso."}
+  ],
+  "diagnostico": "Diarreia aguda aquosa com desidratação (algum grau de desidratação), sem sinais de gravidade: plano B do Ministério da Saúde.",
+  "condutaEsperada": [
+    "Plano B na unidade: soro de reidratação oral 50 a 100 mL/kg em 4 a 6 horas (cerca de 600 a 1.200 mL para 12 kg), em pequenas quantidades frequentes.",
+    "Reavaliar a criança durante e ao fim da reidratação; ao reidratar, passar ao plano A.",
+    "Zinco por 10 a 14 dias (20 mg/dia para maiores de 6 meses).",
+    "Manter alimentação habitual após a reidratação; não suspender o aleitamento se houver.",
+    "Não indicar antibiótico (diarreia sem sangue) nem hidratação venosa de rotina.",
+    "Orientar sinais de alarme: piora da diarreia, vômitos repetidos, sangue nas fezes, recusa de líquidos, sonolência, diurese muito reduzida."
+  ],
+  "pep": [
+    {"id": "apresentacao", "item": "Apresenta-se, identifica a criança e a acompanhante.", "peso": 0.5},
+    {"id": "caracteriza", "item": "Caracteriza a diarreia: duração, número de evacuações, aspecto e presença de sangue.", "peso": 1.5},
+    {"id": "associados", "item": "Pergunta vômitos, febre, aceitação de líquidos e diurese.", "peso": 1},
+    {"id": "antecedentes", "item": "Pergunta peso, vacinação (rotavírus) e medicamentos usados.", "peso": 0.5},
+    {"id": "exame", "item": "Avalia os sinais de hidratação: estado geral, olhos, lágrimas, mucosas, sede, prega, pulso e enchimento capilar.", "peso": 1.5},
+    {"id": "classifica", "item": "Classifica como desidratação (algum grau) e indica plano B.", "peso": 1.5},
+    {"id": "sro", "item": "Prescreve SRO 50 a 100 mL/kg em 4 a 6 horas na unidade, com reavaliação.", "peso": 1.5},
+    {"id": "zinco", "item": "Prescreve zinco e orienta manter alimentação.", "peso": 0.5},
+    {"id": "sem-antibiotico", "item": "Explica por que não há indicação de antibiótico nem de soro na veia.", "peso": 0.5},
+    {"id": "alarme", "item": "Orienta sinais de alarme e quando retornar.", "peso": 1}
+  ],
+  "referencias": [
+    "Manejo do paciente com diarreia, Ministério da Saúde (cartaz de planos A, B e C)",
+    "Atenção Integrada às Doenças Prevalentes na Infância (AIDPI)"
+  ]
+}

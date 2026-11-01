@@ -1,0 +1,131 @@
+{
+ "id": "mfc-controle-social",
+ "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+ "especialidade": "SUS e políticas de saúde",
+ "modulo": "sus",
+ "mentor": "lia",
+ "duracaoMin": 8,
+ "revisao": "pendente",
+ "questoes": [
+  "revalida_2024-2_q005",
+  "revalida_2024-2_q030",
+  "revalida_2024-2_q050",
+  "revalida_2023-1_q060",
+  "revalida_2023-2_q085"
+ ],
+ "referencias": [
+  "Brasil. Lei nº 8.080, de 19 de setembro de 1990.",
+  "Brasil. Lei nº 8.142, de 28 de dezembro de 1990.",
+  "Conselho Nacional de Saúde. Resolução nº 453, de 10 de maio de 2012."
+ ],
+ "pt": {
+  "titulo": "Controle social no SUS: conselhos, conferências e a Lei 8.142",
+  "resumo": "Cinco questões entre 2023 e 2024. A prova cobra a diferença entre conselho e conferência, a composição paritária e o que estados e municípios precisam ter para receber recursos do Fundo Nacional de Saúde.",
+  "secoes": [
+   {
+    "titulo": "As duas leis orgânicas",
+    "paragrafos": [],
+    "itens": [
+     "Lei 8.080/1990: organiza o SUS, define princípios (universalidade, integralidade, equidade) e diretrizes (descentralização, regionalização, hierarquização).",
+     "Lei 8.142/1990: trata da participação da comunidade na gestão e das transferências de recursos entre as esferas de governo."
+    ]
+   },
+   {
+    "titulo": "Conselho × conferência",
+    "paragrafos": [
+     "As duas são instâncias colegiadas em cada esfera de governo, mas funcionam de forma diferente."
+    ],
+    "itens": [
+     "Conferência de Saúde: reúne-se a cada 4 anos com representação dos vários segmentos, avalia a situação de saúde e propõe diretrizes. É convocada pelo Poder Executivo ou, extraordinariamente, pela própria conferência ou pelo conselho.",
+     "Conselho de Saúde: permanente e deliberativo. Formula estratégias e controla a execução da política de saúde, inclusive nos aspectos econômicos e financeiros. Suas decisões são homologadas pelo chefe do Poder Executivo.",
+     "O presidente do conselho é eleito entre os próprios conselheiros (Resolução CNS 453/2012)."
+    ]
+   },
+   {
+    "titulo": "Composição paritária",
+    "paragrafos": [
+     "A representação dos usuários é paritária em relação ao conjunto dos demais segmentos."
+    ],
+    "itens": [
+     "50% usuários.",
+     "25% trabalhadores da saúde.",
+     "25% gestores e prestadores de serviço.",
+     "Conselhos locais, ligados às unidades de saúde, são criados por regulamento do município e aproximam a gestão da comunidade."
+    ]
+   },
+   {
+    "titulo": "Requisitos para receber recursos (art. 4º da Lei 8.142)",
+    "paragrafos": [],
+    "itens": [
+     "Fundo de Saúde.",
+     "Conselho de Saúde com composição paritária.",
+     "Plano de Saúde.",
+     "Relatório de gestão.",
+     "Contrapartida de recursos no orçamento.",
+     "Comissão para elaborar o plano de carreira, cargos e salários (PCCS).",
+     "Sem esses requisitos, os recursos passam a ser administrados pelo estado ou pela União."
+    ]
+   }
+  ],
+  "pegadinhas": [
+   "Conselho é deliberativo, não apenas consultivo.",
+   "Paridade é usuários de um lado e os demais segmentos juntos do outro: 50% contra 50%.",
+   "Conferência a cada 4 anos; conselho funciona de forma permanente."
+  ]
+ },
+ "es": {
+  "titulo": "Control social en el SUS: consejos, conferencias y la Ley 8.142",
+  "resumo": "Cinco preguntas entre 2023 y 2024. El examen pide la diferencia entre consejo y conferencia, la composición paritaria y lo que estados y municipios necesitan para recibir recursos del Fondo Nacional de Salud.",
+  "secoes": [
+   {
+    "titulo": "Las dos leyes orgánicas",
+    "paragrafos": [],
+    "itens": [
+     "Ley 8.080/1990: organiza el SUS, define principios (universalidad, integralidad, equidad) y directrices (descentralización, regionalización, jerarquización).",
+     "Ley 8.142/1990: trata de la participación de la comunidad en la gestión y de las transferencias de recursos entre las esferas de gobierno."
+    ]
+   },
+   {
+    "titulo": "Consejo y conferencia",
+    "paragrafos": [
+     "Ambas son instancias colegiadas en cada esfera de gobierno, pero funcionan de forma diferente."
+    ],
+    "itens": [
+     "Conferencia de Salud: se reúne cada 4 años con representación de los distintos sectores, evalúa la situación de salud y propone directrices. La convoca el Poder Ejecutivo o, de forma extraordinaria, la propia conferencia o el consejo.",
+     "Consejo de Salud: permanente y deliberativo. Formula estrategias y controla la ejecución de la política de salud, incluidos los aspectos económicos y financieros. Sus decisiones las homologa el jefe del Poder Ejecutivo.",
+     "El presidente del consejo es elegido entre los propios consejeros (Resolución CNS 453/2012)."
+    ]
+   },
+   {
+    "titulo": "Composición paritaria",
+    "paragrafos": [
+     "La representación de los usuarios es paritaria respecto del conjunto de los demás sectores."
+    ],
+    "itens": [
+     "50 % usuarios.",
+     "25 % trabajadores de la salud.",
+     "25 % gestores y prestadores de servicios.",
+     "Los consejos locales, vinculados a las unidades de salud, los crea el municipio por reglamento y acercan la gestión a la comunidad."
+    ]
+   },
+   {
+    "titulo": "Requisitos para recibir recursos (art. 4 de la Ley 8.142)",
+    "paragrafos": [],
+    "itens": [
+     "Fondo de Salud.",
+     "Consejo de Salud con composición paritaria.",
+     "Plan de Salud.",
+     "Informe de gestión.",
+     "Contrapartida de recursos en el presupuesto.",
+     "Comisión para elaborar el plan de carrera, cargos y salarios (PCCS).",
+     "Sin estos requisitos, los recursos pasan a ser administrados por el estado o por la Unión."
+    ]
+   }
+  ],
+  "pegadinhas": [
+   "El consejo es deliberativo, no solo consultivo.",
+   "La paridad es usuarios de un lado y los demás sectores juntos del otro: 50 % contra 50 %.",
+   "Conferencia cada 4 años; el consejo funciona de forma permanente."
+  ]
+ }
+}

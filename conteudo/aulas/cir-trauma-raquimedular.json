@@ -1,0 +1,126 @@
+{
+  "id": "cir-trauma-raquimedular",
+  "area": "Cirurgia",
+  "especialidade": "Trauma",
+  "mentor": "helena",
+  "duracaoMin": 10,
+  "revisao": "pendente",
+  "questoes": ["revalida_2024-1_q097", "revalida_2024-2_q047", "revalida_2023-2_q082", "revalida_2023-1_q017"],
+  "referencias": [
+    "American College of Surgeons. ATLS – Advanced Trauma Life Support, 10ª edição.",
+    "ASIA/ISCoS. International Standards for Neurological Classification of Spinal Cord Injury, 2019.",
+    "Stiell IG et al. The Canadian C-spine rule. JAMA, 2001; Hoffman JR et al. NEXUS. NEJM, 2000."
+  ],
+  "pt": {
+    "titulo": "Trauma raquimedular: nível de lesão, choque neurogênico e quando liberar o colar",
+    "resumo": "Caiu quatro vezes entre 2023 e 2024, quase sempre pedindo o nível da lesão a partir do exame neurológico. Decore os dermátomos e miótomos-chave e saiba diferenciar choque neurogênico de choque medular.",
+    "secoes": [
+      {
+        "titulo": "Nível da lesão",
+        "paragrafos": [
+          "O nível neurológico é o segmento mais baixo com sensibilidade e força normais dos dois lados. Na prova, ache o último dermátomo normal e o último músculo com força 3 ou mais."
+        ],
+        "itens": [
+          "Dermátomos: C4 clavícula, C6 polegar, C8 dedo mínimo, T4 linha dos mamilos, T10 umbigo, L1 região inguinal, L4 face medial da perna, L5 dorso do pé, S1 borda lateral do pé, S4–S5 região perianal.",
+          "Miótomos: C5 flexão do cotovelo, C6 extensão do punho, C7 extensão do cotovelo, C8 flexão dos dedos, T1 abdução do dedo mínimo; L2 flexão do quadril, L3 extensão do joelho, L4 dorsiflexão do tornozelo, L5 extensão do hálux, S1 flexão plantar.",
+          "Lesão completa (ASIA A): sem função motora ou sensitiva em S4–S5. Qualquer sensibilidade perianal ou contração anal voluntária torna a lesão incompleta."
+        ]
+      },
+      {
+        "titulo": "Síndromes medulares incompletas",
+        "paragrafos": [],
+        "itens": [
+          "Medular central: idoso com hiperextensão do pescoço; fraqueza maior nos braços do que nas pernas.",
+          "Medular anterior: perda de força e de dor e temperatura abaixo da lesão, com propriocepção preservada. Pior prognóstico.",
+          "Brown-Séquard (hemissecção, como em ferimento por faca): perda de força e propriocepção do mesmo lado e de dor e temperatura do lado oposto."
+        ]
+      },
+      {
+        "titulo": "Choque neurogênico × choque medular",
+        "paragrafos": [
+          "São coisas diferentes e a banca gosta de trocar uma pela outra."
+        ],
+        "itens": [
+          "Choque neurogênico: lesão acima de T6 interrompe o simpático. Hipotensão com bradicardia e pele quente. Tratar com volume com cautela e vasopressor; atropina se a bradicardia for importante.",
+          "Choque medular: perda transitória de reflexos e tônus abaixo da lesão logo após o trauma. Não é choque circulatório.",
+          "Hipotensão com taquicardia no traumatizado é hemorragia até prova em contrário, mesmo com lesão medular."
+        ]
+      },
+      {
+        "titulo": "Quando retirar a restrição da coluna cervical",
+        "paragrafos": [
+          "Todo politraumatizado chega com restrição de movimento da coluna. Para liberar sem exame de imagem, a regra NEXUS exige todos os itens abaixo:"
+        ],
+        "itens": [
+          "Sem dor à palpação da linha média posterior.",
+          "Sem déficit neurológico focal.",
+          "Nível de consciência normal.",
+          "Sem intoxicação.",
+          "Sem lesão dolorosa que distraia a atenção.",
+          "Se algum item falhar, o exame de escolha é a tomografia da coluna cervical."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Corticoide em altas doses (metilprednisolona) não é recomendado de rotina no trauma raquimedular.",
+      "Bradicardia com hipotensão em lesão alta sugere choque neurogênico; taquicardia sugere sangramento.",
+      "Sensibilidade perianal preservada muda a lesão de completa para incompleta e melhora o prognóstico."
+    ]
+  },
+  "es": {
+    "titulo": "Traumatismo raquimedular: nivel de lesión, shock neurogénico y cuándo retirar el collarín",
+    "resumo": "Apareció cuatro veces entre 2023 y 2024, casi siempre pidiendo el nivel de la lesión a partir del examen neurológico. Memorice los dermatomas y miotomas clave y sepa distinguir el shock neurogénico del shock medular.",
+    "secoes": [
+      {
+        "titulo": "Nivel de la lesión",
+        "paragrafos": [
+          "El nivel neurológico es el segmento más bajo con sensibilidad y fuerza normales en ambos lados. En el examen, busque el último dermatoma normal y el último músculo con fuerza 3 o más."
+        ],
+        "itens": [
+          "Dermatomas: C4 clavícula, C6 pulgar, C8 meñique, T4 línea de los pezones, T10 ombligo, L1 región inguinal, L4 cara medial de la pierna, L5 dorso del pie, S1 borde lateral del pie, S4–S5 región perianal.",
+          "Miotomas: C5 flexión del codo, C6 extensión de la muñeca, C7 extensión del codo, C8 flexión de los dedos, T1 abducción del meñique; L2 flexión de la cadera, L3 extensión de la rodilla, L4 dorsiflexión del tobillo, L5 extensión del hallux, S1 flexión plantar.",
+          "Lesión completa (ASIA A): sin función motora ni sensitiva en S4–S5. Cualquier sensibilidad perianal o contracción anal voluntaria hace que la lesión sea incompleta."
+        ]
+      },
+      {
+        "titulo": "Síndromes medulares incompletos",
+        "paragrafos": [],
+        "itens": [
+          "Medular central: anciano con hiperextensión del cuello; debilidad mayor en los brazos que en las piernas.",
+          "Medular anterior: pérdida de fuerza y de dolor y temperatura por debajo de la lesión, con propiocepción preservada. Peor pronóstico.",
+          "Brown-Séquard (hemisección, como en una herida por arma blanca): pérdida de fuerza y propiocepción del mismo lado y de dolor y temperatura del lado opuesto."
+        ]
+      },
+      {
+        "titulo": "Shock neurogénico y shock medular",
+        "paragrafos": [
+          "Son cosas distintas y el examen suele confundirlas."
+        ],
+        "itens": [
+          "Shock neurogénico: una lesión por encima de T6 interrumpe el simpático. Hipotensión con bradicardia y piel caliente. Tratar con volumen con cautela y vasopresor; atropina si la bradicardia es importante.",
+          "Shock medular: pérdida transitoria de reflejos y tono por debajo de la lesión justo después del trauma. No es un shock circulatorio.",
+          "Hipotensión con taquicardia en el politraumatizado es hemorragia hasta que se demuestre lo contrario, aunque haya lesión medular."
+        ]
+      },
+      {
+        "titulo": "Cuándo retirar la restricción de la columna cervical",
+        "paragrafos": [
+          "Todo politraumatizado llega con restricción de movimiento de la columna. Para liberarla sin imagen, la regla NEXUS exige todos los puntos siguientes:"
+        ],
+        "itens": [
+          "Sin dolor a la palpación de la línea media posterior.",
+          "Sin déficit neurológico focal.",
+          "Nivel de conciencia normal.",
+          "Sin intoxicación.",
+          "Sin una lesión dolorosa que distraiga la atención.",
+          "Si falla algún punto, el examen de elección es la tomografía de columna cervical."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Los corticoides en dosis altas (metilprednisolona) no se recomiendan de rutina en el traumatismo raquimedular.",
+      "Bradicardia con hipotensión en una lesión alta sugiere shock neurogénico; taquicardia sugiere sangrado.",
+      "La sensibilidad perianal preservada convierte la lesión de completa en incompleta y mejora el pronóstico."
+    ]
+  }
+}

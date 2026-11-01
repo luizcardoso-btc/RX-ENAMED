@@ -1,0 +1,170 @@
+{
+"revalida_2023-2_q071": {
+ "pt": {"resumo": "Idoso com dor óssea, lesões líticas e fraturas vertebrais, banda monoclonal na imunoeletroforese e sonolência (hipercalcemia ou hiperviscosidade): mieloma múltiplo. Confirma-se com mielograma, que mostra plasmócitos clonais na medula.",
+  "alternativas": {"A": "Anemia falciforme não começa aos 68 anos nem causa banda monoclonal.", "B": "Linfoma não explica lesões líticas difusas com banda monoclonal.", "C": "Hiperparatireoidismo causa hipercalcemia, mas não banda monoclonal.", "D": "Correta: mieloma múltiplo e mielograma."}},
+ "es": {"resumo": "Adulto mayor con dolor óseo, lesiones líticas y fracturas vertebrales, banda monoclonal en la inmunoelectroforesis y somnolencia (hipercalcemia o hiperviscosidad): mieloma múltiple. Se confirma con mielograma, que muestra plasmocitos clonales en la médula.",
+  "alternativas": {"A": "La anemia falciforme no empieza a los 68 años ni causa banda monoclonal.", "B": "El linfoma no explica lesiones líticas difusas con banda monoclonal.", "C": "El hiperparatiroidismo causa hipercalcemia, pero no banda monoclonal.", "D": "Correcta: mieloma múltiple y mielograma."}}
+},
+"revalida_2023-2_q072": {
+ "pt": {"resumo": "Dor intensa ao evacuar que persiste por minutos, com sangue vivo no papel e constipação com fezes endurecidas: fissura anal aguda, quase sempre na linha média posterior e de fundo raso.",
+  "alternativas": {"A": "Correta: fissura anal na linha média posterior.", "B": "Hemorroidas sangram, mas costumam doer pouco, salvo trombose.", "C": "Fístula drena secreção por orifício externo, não dor à evacuação.", "D": "Abscesso tem dor contínua, febre e abaulamento."}},
+ "es": {"resumo": "Dolor intenso al defecar que persiste por minutos, con sangre roja en el papel y estreñimiento con heces duras: fisura anal aguda, casi siempre en la línea media posterior y de fondo superficial.",
+  "alternativas": {"A": "Correcta: fisura anal en la línea media posterior.", "B": "Las hemorroides sangran, pero suelen doler poco, salvo trombosis.", "C": "La fístula drena secreción por un orificio externo, no dolor al defecar.", "D": "El absceso tiene dolor continuo, fiebre y abombamiento."}}
+},
+"revalida_2023-2_q074": {
+ "pt": {"resumo": "Gestante com febre, lombalgia e queda do estado geral, com história de litíase: suspeita de pielonefrite, que na gestação exige internação e antibiótico venoso. Prescreve-se antitérmico e encaminha-se com urgência ao pronto-socorro obstétrico.",
+  "alternativas": {"A": "Pielonefrite na gestação não pode esperar 7 dias.", "B": "Avaliação eletiva atrasa um quadro grave.", "C": "Correta: antitérmico e encaminhamento urgente.", "D": "O sintoma a tratar é a febre; antiespasmódico não é o principal, embora o encaminhamento esteja certo."}},
+ "es": {"resumo": "Gestante con fiebre, lumbalgia y deterioro del estado general, con historia de litiasis: sospecha de pielonefritis, que en el embarazo exige internación y antibiótico intravenoso. Se prescribe antitérmico y se deriva con urgencia a la emergencia obstétrica.",
+  "alternativas": {"A": "La pielonefritis en el embarazo no puede esperar 7 días.", "B": "La evaluación electiva retrasa un cuadro grave.", "C": "Correcta: antitérmico y derivación urgente.", "D": "El síntoma a tratar es la fiebre; el antiespasmódico no es lo principal, aunque la derivación sea correcta."}}
+},
+"revalida_2023-2_q075": {
+ "pt": {"resumo": "Entre as atribuições do agente comunitário estão verificar se teste do pezinho e vacinas da 1ª semana foram feitos, identificar sinais de violência e conferir a inscrição em programas sociais como o Bolsa Família. Ações que exigem avaliação clínica são de outros profissionais.",
+  "alternativas": {"A": "Orientar alimentação por gráfico de crescimento é atribuição de profissionais de saúde de nível superior.", "B": "Orientar medicamentos e dieta de crianças obesas não é atribuição do ACS.", "C": "Correta: ações de vigilância e verificação próprias do ACS.", "D": "Antropometria pode ser feita pelo ACS, mas avaliar ausência de cicatriz vacinal com conduta não é atribuição dele."}},
+ "es": {"resumo": "Entre las atribuciones del agente comunitario están verificar si el tamizaje neonatal y las vacunas de la 1.ª semana se hicieron, identificar signos de violencia y comprobar la inscripción en programas sociales como Bolsa Familia. Las acciones que exigen evaluación clínica son de otros profesionales.",
+  "alternativas": {"A": "Orientar la alimentación según gráficos de crecimiento es atribución de profesionales de nivel superior.", "B": "Orientar medicamentos y dieta de niños obesos no es atribución del ACS.", "C": "Correcta: acciones de vigilancia y verificación propias del ACS.", "D": "El ACS puede medir, pero evaluar la ausencia de cicatriz vacunal con conducta no le corresponde."}}
+},
+"revalida_2023-2_q076": {
+ "pt": {"resumo": "Taquicardia ventricular com pulso e rebaixamento de consciência pós-infarto é taquiarritmia instável. A conduta imediata é cardioversão elétrica sincronizada.",
+  "alternativas": {"A": "Correta: cardioversão elétrica.", "B": "Cateterismo não trata a arritmia instável agora.", "C": "Betabloqueador venoso pode piorar a hipotensão em paciente instável.", "D": "Antiarrítmico é para taquicardia ventricular estável."}},
+ "es": {"resumo": "Taquicardia ventricular con pulso y deterioro de conciencia tras un infarto es una taquiarritmia inestable. La conducta inmediata es la cardioversión eléctrica sincronizada.",
+  "alternativas": {"A": "Correcta: cardioversión eléctrica.", "B": "El cateterismo no trata ahora la arritmia inestable.", "C": "El betabloqueante intravenoso puede empeorar la hipotensión en un paciente inestable.", "D": "El antiarrítmico es para la taquicardia ventricular estable."}}
+},
+"revalida_2023-2_q077": {
+ "pt": {"resumo": "Fumante com claudicação intermitente, dor que piora com as pernas elevadas e úlcera profunda, pálida, de bordas definidas e com necrose: úlcera por insuficiência arterial crônica.",
+  "alternativas": {"A": "Linfedema causa edema duro, sem úlcera isquêmica dolorosa.", "B": "Úlcera neuropática é indolor e em pontos de pressão.", "C": "Correta: insuficiência arterial crônica.", "D": "Úlcera venosa é rasa, com granulação, e melhora com as pernas elevadas."}},
+ "es": {"resumo": "Fumadora con claudicación intermitente, dolor que empeora con las piernas elevadas y úlcera profunda, pálida, de bordes definidos y con necrosis: úlcera por insuficiencia arterial crónica.",
+  "alternativas": {"A": "El linfedema causa edema duro, sin úlcera isquémica dolorosa.", "B": "La úlcera neuropática es indolora y en puntos de presión.", "C": "Correcta: insuficiencia arterial crónica.", "D": "La úlcera venosa es superficial, con granulación, y mejora con las piernas elevadas."}}
+},
+"revalida_2023-2_q078": {
+ "pt": {"resumo": "Atraso na eliminação de mecônio, distensão e eliminação explosiva após o toque retal sugerem doença de Hirschsprung. O enema opaco mostra zona de transição e retenção de bário em 24 a 36 horas; a confirmação é a biópsia retal.",
+  "alternativas": {"A": "Colonoscopia sem biópsia não confirma a ausência de células ganglionares.", "B": "Dupla bolha é sinal de atresia duodenal.", "C": "Ultrassom não confirma Hirschsprung.", "D": "Correta: enema opaco com retenção de bário sugere o diagnóstico."}},
+ "es": {"resumo": "Retraso en la eliminación de meconio, distensión y salida explosiva tras el tacto rectal sugieren enfermedad de Hirschsprung. El enema opaco muestra zona de transición y retención de bario a las 24 a 36 horas; la confirmación es la biopsia rectal.",
+  "alternativas": {"A": "La colonoscopia sin biopsia no confirma la ausencia de células ganglionares.", "B": "La doble burbuja es signo de atresia duodenal.", "C": "La ecografía no confirma Hirschsprung.", "D": "Correcta: enema opaco con retención de bario sugiere el diagnóstico."}}
+},
+"revalida_2023-2_q079": {
+ "pt": {"resumo": "Pelas manobras de Leopold da figura, o feto é longitudinal, cefálico, com dorso à esquerda. A altura uterina de 31 cm com 34 semanas fica dentro das curvas de normalidade do Ministério da Saúde.",
+  "alternativas": {"A": "O dorso está à esquerda, não à direita.", "B": "Feto longitudinal não pode ser córmico, e a altura está adequada.", "C": "Mesmo erro: longitudinal não é córmico.", "D": "Correta: cefálico, dorso à esquerda e altura adequada."}},
+ "es": {"resumo": "Según las maniobras de Leopold de la figura, el feto es longitudinal, cefálico, con dorso a la izquierda. La altura uterina de 31 cm a las 34 semanas está dentro de las curvas de normalidad del Ministerio de Salud.",
+  "alternativas": {"A": "El dorso está a la izquierda, no a la derecha.", "B": "Un feto longitudinal no puede ser de hombro, y la altura es adecuada.", "C": "Mismo error: longitudinal no es de hombro.", "D": "Correcta: cefálico, dorso a la izquierda y altura adecuada."}}
+},
+"revalida_2023-2_q080": {
+ "pt": {"resumo": "Quadro bifásico com icterícia e hemorragia em quem frequenta mata com epizootia de macacos: caso suspeito de febre amarela silvestre, de notificação imediata. Para diagnóstico sorológico, pesquisa-se IgM por ELISA a partir do 7º dia, válido em não vacinados.",
+  "alternativas": {"A": "O caso é suspeito até confirmação laboratorial; não se confirma só pela epizootia.", "B": "Correta: caso suspeito e IgM por ELISA a partir do 7º dia em não vacinado.", "C": "Não há transmissão urbana, e IgG não serve para diagnóstico agudo.", "D": "A vacinação prévia interfere na interpretação da IgM, e o prazo é a partir do 7º dia."}},
+ "es": {"resumo": "Cuadro bifásico con ictericia y hemorragia en alguien que frecuenta un bosque con epizootia de monos: caso sospechoso de fiebre amarilla selvática, de notificación inmediata. Para el diagnóstico serológico se busca IgM por ELISA desde el 7.º día, válido en no vacunados.",
+  "alternativas": {"A": "El caso es sospechoso hasta la confirmación de laboratorio; no se confirma solo por la epizootia.", "B": "Correcta: caso sospechoso e IgM por ELISA desde el 7.º día en no vacunado.", "C": "No hay transmisión urbana, y la IgG no sirve para el diagnóstico agudo.", "D": "La vacunación previa interfiere en la interpretación de la IgM, y el plazo es desde el 7.º día."}}
+},
+"revalida_2023-2_q081": {
+ "pt": {"resumo": "Ascite de cirrose (GASA de 1,3, transudato portal) com 320 neutrófilos/mm³ no líquido: peritonite bacteriana espontânea (250 ou mais). O tratamento é cefalosporina de 3ª geração, como ceftriaxona.",
+  "alternativas": {"A": "Correta: ceftriaxona.", "B": "Aminoglicosídeo é nefrotóxico e evitado em cirróticos.", "C": "Quinolona é usada na profilaxia, não no tratamento de primeira linha.", "D": "Penicilina cristalina não cobre os Gram-negativos entéricos."}},
+ "es": {"resumo": "Ascitis por cirrosis (GASA de 1,3, trasudado portal) con 320 neutrófilos/mm³ en el líquido: peritonitis bacteriana espontánea (250 o más). El tratamiento es cefalosporina de 3.ª generación, como ceftriaxona.",
+  "alternativas": {"A": "Correcta: ceftriaxona.", "B": "El aminoglucósido es nefrotóxico y se evita en cirróticos.", "C": "La quinolona se usa en la profilaxis, no en el tratamiento de primera línea.", "D": "La penicilina cristalina no cubre los gramnegativos entéricos."}}
+},
+"revalida_2023-2_q082": {
+ "pt": {"resumo": "Sensibilidade presente até os dedos do C6 e C7 (1º ao 3º dedos), ausente a partir do C8 (4º e 5º dedos), tríceps (C7) fraco e flexores dos dedos (C8) sem força: lesão no nível cervical baixo, compatível com fratura de C7 e subluxação C7-T1, típica de mergulho em água rasa.",
+  "alternativas": {"A": "Fratura de Jefferson (C1) costuma não ter déficit neurológico.", "B": "Correta: fratura de C7 com subluxação C7-T1.", "C": "Lesão em C3 comprometeria a respiração e todos os membros superiores.", "D": "Fratura do enforcado (C2) não produziria esse nível de déficit."}},
+ "es": {"resumo": "Sensibilidad presente hasta los dedos de C6 y C7 (1.º al 3.er dedos), ausente desde C8 (4.º y 5.º dedos), tríceps (C7) débil y flexores de los dedos (C8) sin fuerza: lesión cervical baja, compatible con fractura de C7 y subluxación C7-T1, típica del clavado en agua poco profunda.",
+  "alternativas": {"A": "La fractura de Jefferson (C1) suele no tener déficit neurológico.", "B": "Correcta: fractura de C7 con subluxación C7-T1.", "C": "Una lesión en C3 comprometería la respiración y todos los miembros superiores.", "D": "La fractura del ahorcado (C2) no produciría ese nivel de déficit."}}
+},
+"revalida_2023-2_q083": {
+ "pt": {"resumo": "Bilirrubina indireta de 18,5 com 18 horas de vida é icterícia grave e precoce (patológica), acima do limite para exsanguineotransfusão nessa idade. Inicia-se fototerapia intensiva imediatamente e repete-se a bilirrubina em 2 a 3 horas enquanto se prepara a exsanguineotransfusão.",
+  "alternativas": {"A": "Icterícia nas primeiras 24 horas com esse valor é grave, não moderada.", "B": "Correta: fototerapia já e preparo para exsanguineotransfusão.", "C": "A fototerapia não é ineficaz e deve começar enquanto se prepara o sangue; soro fisiológico não substitui a troca.", "D": "O quadro é grave e o risco de aumento é alto."}},
+ "es": {"resumo": "Una bilirrubina indirecta de 18,5 a las 18 horas de vida es ictericia grave y precoz (patológica), por encima del límite de exanguinotransfusión a esa edad. Se inicia fototerapia intensiva de inmediato y se repite la bilirrubina en 2 a 3 horas mientras se prepara la exanguinotransfusión.",
+  "alternativas": {"A": "La ictericia en las primeras 24 horas con ese valor es grave, no moderada.", "B": "Correcta: fototerapia ya y preparación de la exanguinotransfusión.", "C": "La fototerapia no es ineficaz y debe empezar mientras se prepara la sangre; la salina no sustituye el recambio.", "D": "El cuadro es grave y el riesgo de aumento es alto."}}
+},
+"revalida_2023-2_q084": {
+ "pt": {"resumo": "Com 24 semanas, o sistema nervoso autônomo fetal ainda é imaturo, e a cardiotocografia tem muitos falsos positivos (pouca variabilidade e poucas acelerações). Por isso a indicação está incorreta nessa idade gestacional.",
+  "alternativas": {"A": "Diabetes não contraindica cardiotocografia.", "B": "A cardiotocografia não é o exame adequado com 24 semanas.", "C": "Não é o primeiro exame nessa idade e sua sensibilidade não justifica o uso.", "D": "Correta: imaturidade autonômica gera falsos positivos."}},
+ "es": {"resumo": "A las 24 semanas, el sistema nervioso autónomo fetal aún es inmaduro, y la cardiotocografía tiene muchos falsos positivos (poca variabilidad y pocas aceleraciones). Por eso la indicación es incorrecta a esa edad gestacional.",
+  "alternativas": {"A": "La diabetes no contraindica la cardiotocografía.", "B": "La cardiotocografía no es el examen adecuado a las 24 semanas.", "C": "No es el primer examen a esa edad y su sensibilidad no justifica el uso.", "D": "Correcta: la inmadurez autonómica genera falsos positivos."}}
+},
+"revalida_2023-2_q085": {
+ "pt": {"resumo": "Para problemas da unidade, com participação da comunidade, a instância indicada é o Conselho Local de Saúde, que aproxima usuários e equipe e ajuda a resolver questões como agendamento e coleta de exames.",
+  "alternativas": {"A": "Correta: Conselho Local de Saúde.", "B": "O Conselho Municipal é deliberativo, não consultivo, e atua no município todo.", "C": "Um conselho só com profissionais e gestores exclui a comunidade.", "D": "Não existe esse órgão como instância de participação da comunidade."}},
+ "es": {"resumo": "Para problemas de la unidad, con participación de la comunidad, la instancia indicada es el Consejo Local de Salud, que acerca usuarios y equipo y ayuda a resolver cuestiones como la agenda y la toma de exámenes.",
+  "alternativas": {"A": "Correcta: Consejo Local de Salud.", "B": "El Consejo Municipal es deliberativo, no consultivo, y actúa en todo el municipio.", "C": "Un consejo solo con profesionales y gestores excluye a la comunidad.", "D": "No existe ese órgano como instancia de participación de la comunidad."}}
+},
+"revalida_2023-2_q086": {
+ "pt": {"resumo": "A nefropatia diabética inicial é detectada pela albuminúria aumentada (30 mg/g ou mais na relação albumina/creatinina), confirmada em 2 de 3 amostras em 3 a 6 meses.",
+  "alternativas": {"A": "Proteinúria na urina tipo 1 indica fase mais avançada.", "B": "Creatinina alta indica perda de função, fase tardia.", "C": "TFG abaixo de 45 é doença renal moderada a grave, não inicial.", "D": "Correta: albuminúria acima de 30 mg/g."}},
+ "es": {"resumo": "La nefropatía diabética inicial se detecta por albuminuria aumentada (30 mg/g o más en el índice albúmina/creatinina), confirmada en 2 de 3 muestras en 3 a 6 meses.",
+  "alternativas": {"A": "La proteinuria en el examen simple de orina indica una fase más avanzada.", "B": "La creatinina alta indica pérdida de función, fase tardía.", "C": "Una TFG menor de 45 es enfermedad renal moderada a grave, no inicial.", "D": "Correcta: albuminuria mayor de 30 mg/g."}}
+},
+"revalida_2023-2_q087": {
+ "pt": {"resumo": "Olho vermelho e doloroso, perda de campo periférico e aumento da escavação do disco óptico sugerem glaucoma. A amitriptilina tem efeito anticolinérgico, que pode precipitar fechamento angular e aumentar a pressão intraocular. Mede-se a pressão intraocular e troca-se o antidepressivo.",
+  "alternativas": {"A": "Não há hemorragias ou alterações vasculares de retinopatia.", "B": "Vitaminas são para degeneração macular, não glaucoma.", "C": "Correta: medir a pressão intraocular e trocar a amitriptilina.", "D": "Não há edema de papila nem sinais de compressão."}},
+ "es": {"resumo": "Ojo rojo y doloroso, pérdida del campo periférico y aumento de la excavación del disco óptico sugieren glaucoma. La amitriptilina tiene efecto anticolinérgico, que puede precipitar el cierre angular y aumentar la presión intraocular. Se mide la presión intraocular y se cambia el antidepresivo.",
+  "alternativas": {"A": "No hay hemorragias ni alteraciones vasculares de retinopatía.", "B": "Las vitaminas son para la degeneración macular, no para el glaucoma.", "C": "Correcta: medir la presión intraocular y cambiar la amitriptilina.", "D": "No hay edema de papila ni signos de compresión."}}
+},
+"revalida_2023-2_q088": {
+ "pt": {"resumo": "Assimetria dos ombros e teste de Adams positivo com membros de mesmo comprimento sugerem escoliose idiopática do adolescente. Confirma-se com radiografia panorâmica da coluna, que mede o ângulo de Cobb.",
+  "alternativas": {"A": "Correta: radiografia panorâmica da coluna.", "B": "Os membros têm o mesmo comprimento; escanometria não é necessária.", "C": "Ultrassom não avalia escoliose.", "D": "Ressonância fica para casos atípicos ou com sinais neurológicos."}},
+ "es": {"resumo": "Asimetría de hombros y prueba de Adams positiva con miembros de igual longitud sugieren escoliosis idiopática del adolescente. Se confirma con radiografía panorámica de columna, que mide el ángulo de Cobb.",
+  "alternativas": {"A": "Correcta: radiografía panorámica de columna.", "B": "Los miembros tienen igual longitud; la escanometría no es necesaria.", "C": "La ecografía no evalúa la escoliosis.", "D": "La resonancia queda para casos atípicos o con signos neurológicos."}}
+},
+"revalida_2023-2_q089": {
+ "pt": {"resumo": "O parâmetro mais fiel para datar a gestação é o comprimento cabeça-nádegas na ultrassonografia de 1º trimestre (até cerca de 13 semanas), com erro de poucos dias.",
+  "alternativas": {"A": "DUM com ciclos irregulares é pouco confiável.", "B": "A biometria de 22 semanas tem erro maior e sofre influência do crescimento fetal.", "C": "Correta: comprimento cabeça-nádegas até 12 semanas.", "D": "O diâmetro biparietal no 2º trimestre é menos preciso que o CCN."}},
+ "es": {"resumo": "El parámetro más fiel para datar el embarazo es la longitud cráneo-nalgas en la ecografía del 1.er trimestre (hasta cerca de 13 semanas), con error de pocos días.",
+  "alternativas": {"A": "La FUM con ciclos irregulares es poco confiable.", "B": "La biometría de 22 semanas tiene mayor error y está influida por el crecimiento fetal.", "C": "Correcta: longitud cráneo-nalgas hasta las 12 semanas.", "D": "El diámetro biparietal en el 2.º trimestre es menos preciso que la LCN."}}
+},
+"revalida_2023-2_q090": {
+ "pt": {"resumo": "Lombalgia aguda sem irradiação e sem sinais de alarme em trabalhadora com esforço físico: origem mecânico-postural. O tratamento é conservador, com analgesia, manter-se ativa e orientações posturais.",
+  "alternativas": {"A": "Correta: lombalgia mecânico-postural, tratamento conservador.", "B": "Dispensar exames é correto, mas falta indicar o tratamento.", "C": "Não há sinais de alerta.", "D": "Repouso no leito não é recomendado; deve-se manter a atividade."}},
+ "es": {"resumo": "Lumbalgia aguda sin irradiación y sin signos de alarma en una trabajadora con esfuerzo físico: origen mecánico-postural. El tratamiento es conservador, con analgesia, mantenerse activa y orientaciones posturales.",
+  "alternativas": {"A": "Correcta: lumbalgia mecánico-postural, tratamiento conservador.", "B": "No pedir exámenes es correcto, pero falta indicar el tratamiento.", "C": "No hay signos de alarma.", "D": "El reposo en cama no se recomienda; se debe mantener la actividad."}}
+},
+"revalida_2023-2_q091": {
+ "pt": {"resumo": "Pielonefrite com cálculo impactado e sepse com disfunção orgânica: infecção obstrutiva é urgência urológica. Além do antibiótico, a medida decisiva é descomprimir a via urinária (cateter duplo J ou nefrostomia).",
+  "alternativas": {"A": "Volume ajuda, mas não resolve o foco obstruído.", "B": "Correta: desobstrução urológica.", "C": "PAM de 70 não exige vasopressor neste momento.", "D": "A cobertura empírica deve focar Gram-negativos, não Gram-positivos multirresistentes."}},
+ "es": {"resumo": "Pielonefritis con cálculo impactado y sepsis con disfunción orgánica: la infección obstructiva es una urgencia urológica. Además del antibiótico, la medida decisiva es descomprimir la vía urinaria (catéter doble J o nefrostomía).",
+  "alternativas": {"A": "El volumen ayuda, pero no resuelve el foco obstruido.", "B": "Correcta: desobstrucción urológica.", "C": "Una PAM de 70 no exige vasopresor en este momento.", "D": "La cobertura empírica debe enfocarse en gramnegativos, no en grampositivos multirresistentes."}}
+},
+"revalida_2023-2_q092": {
+ "pt": {"resumo": "Aumento escrotal indolor e progressivo em homem jovem, com hidrocele: a hidrocele secundária pode esconder tumor de testículo. O exame indicado é a ultrassonografia da bolsa escrotal.",
+  "alternativas": {"A": "Orquiepididimite é dolorosa e febril.", "B": "Correta: câncer de testículo e ultrassonografia.", "C": "Torção é aguda e muito dolorosa.", "D": "Não há trauma relatado, e tomografia não é o exame da bolsa escrotal."}},
+ "es": {"resumo": "Aumento escrotal indoloro y progresivo en un hombre joven, con hidrocele: el hidrocele secundario puede ocultar un tumor de testículo. El examen indicado es la ecografía escrotal.",
+  "alternativas": {"A": "La orquiepididimitis es dolorosa y febril.", "B": "Correcta: cáncer de testículo y ecografía.", "C": "La torsión es aguda y muy dolorosa.", "D": "No hay trauma relatado, y la tomografía no es el examen del escroto."}}
+},
+"revalida_2023-2_q094": {
+ "pt": {"resumo": "Entre os dados, os fatores de risco para parto pré-termo são a infecção urinária e a anemia. Atividade física regular e idade de 33 anos não aumentam o risco.",
+  "alternativas": {"A": "Atividade física não é fator de risco.", "B": "33 anos não é idade de risco para prematuridade.", "C": "Correta: anemia e infecção urinária.", "D": "A idade materna não é fator de risco aqui."}},
+ "es": {"resumo": "Entre los datos, los factores de riesgo de parto pretérmino son la infección urinaria y la anemia. La actividad física regular y la edad de 33 años no aumentan el riesgo.",
+  "alternativas": {"A": "La actividad física no es factor de riesgo.", "B": "33 años no es una edad de riesgo para prematuridad.", "C": "Correcta: anemia e infección urinaria.", "D": "La edad materna no es factor de riesgo aquí."}}
+},
+"revalida_2023-2_q095": {
+ "pt": {"resumo": "Na saúde suplementar, o médico de família pode atuar em clínicas de operadoras ou em consultório particular, no modelo de atenção primária, coordenando o cuidado e garantindo integralidade e longitudinalidade.",
+  "alternativas": {"A": "O modelo tradicional, centrado em especialistas focais, não garante o cuidado longitudinal.", "B": "A atenção domiciliar também pode ser feita de forma autônoma.", "C": "A descrição é limitada e não menciona a coordenação pela APS.", "D": "Correta: clínica de operadora ou consultório, com coordenação do cuidado pela APS."}},
+ "es": {"resumo": "En la salud suplementaria, el médico de familia puede trabajar en clínicas de aseguradoras o en consultorio privado, con el modelo de atención primaria, coordinando el cuidado y garantizando integralidad y longitudinalidad.",
+  "alternativas": {"A": "El modelo tradicional, centrado en especialistas focales, no garantiza el cuidado longitudinal.", "B": "La atención domiciliaria también puede hacerse de forma autónoma.", "C": "La descripción es limitada y no menciona la coordinación por la APS.", "D": "Correcta: clínica de aseguradora o consultorio, con coordinación del cuidado por la APS."}}
+},
+"revalida_2023-2_q096": {
+ "pt": {"resumo": "Etilista com tosse e expectoração pútrida há semanas, febre e imagem cavitada com nível hidroaéreo: abscesso pulmonar por aspiração. Inicia-se antibiótico empírico com cobertura para anaeróbios (como clindamicina ou amoxicilina-clavulanato).",
+  "alternativas": {"A": "TEP não causa expectoração pútrida nem cavidade com nível líquido.", "B": "Correta: abscesso pulmonar, antibiótico empírico.", "C": "Neoplasia é diferencial, mas o quadro infeccioso exige tratar primeiro.", "D": "Tuberculose entra no diferencial, mas a expectoração pútrida e o nível líquido favorecem abscesso."}},
+ "es": {"resumo": "Alcohólico con tos y expectoración pútrida durante semanas, fiebre e imagen cavitada con nivel hidroaéreo: absceso pulmonar por aspiración. Se inicia antibiótico empírico con cobertura de anaerobios (como clindamicina o amoxicilina-clavulánico).",
+  "alternativas": {"A": "El TEP no causa expectoración pútrida ni cavidad con nivel líquido.", "B": "Correcta: absceso pulmonar, antibiótico empírico.", "C": "La neoplasia es diferencial, pero el cuadro infeccioso exige tratar primero.", "D": "La tuberculosis entra en el diferencial, pero la expectoración pútrida y el nivel líquido favorecen el absceso."}}
+},
+"revalida_2023-2_q097": {
+ "pt": {"resumo": "IMC de cerca de 42,7 kg/m² com hipertensão, diabetes e dislipidemia preenche critério para cirurgia bariátrica. A conduta é encaminhar ao serviço cirúrgico, onde a equipe multidisciplinar discute mudanças de hábito, técnicas e preparo.",
+  "alternativas": {"A": "Com esse IMC e comorbidades, não é preciso adiar o encaminhamento.", "B": "Correta: encaminhar ao serviço cirúrgico.", "C": "Ela já preenche os critérios; não há razão para manter só abordagem conservadora.", "D": "Comorbidades metabólicas reforçam a indicação; não a contraindicam."}},
+ "es": {"resumo": "Un IMC de cerca de 42,7 kg/m² con hipertensión, diabetes y dislipidemia cumple el criterio de cirugía bariátrica. La conducta es derivar al servicio quirúrgico, donde el equipo multidisciplinario discute cambios de hábitos, técnicas y preparación.",
+  "alternativas": {"A": "Con ese IMC y comorbilidades, no hace falta postergar la derivación.", "B": "Correcta: derivar al servicio quirúrgico.", "C": "Ya cumple los criterios; no hay razón para mantener solo el abordaje conservador.", "D": "Las comorbilidades metabólicas refuerzan la indicación; no la contraindican."}}
+},
+"revalida_2023-2_q098": {
+ "pt": {"resumo": "Deficiência intelectual, TDAH, convulsões, face alongada, orelhas proeminentes, macrorquidia e hiperextensibilidade articular: síndrome do X frágil. A confirmação é por exame genético molecular do gene FMR1.",
+  "alternativas": {"A": "Correta: exame genético.", "B": "Ressonância de sela não investiga a causa da deficiência intelectual.", "C": "Tomografia de crânio não confirma síndrome genética.", "D": "Eletroencefalograma avalia as crises, não a etiologia."}},
+ "es": {"resumo": "Discapacidad intelectual, TDAH, convulsiones, cara alargada, orejas prominentes, macroorquidismo e hiperextensibilidad articular: síndrome del X frágil. La confirmación es por estudio genético molecular del gen FMR1.",
+  "alternativas": {"A": "Correcta: estudio genético.", "B": "La resonancia de silla turca no estudia la causa de la discapacidad intelectual.", "C": "La tomografía de cráneo no confirma un síndrome genético.", "D": "El electroencefalograma evalúa las crisis, no la etiología."}}
+},
+"revalida_2023-2_q099": {
+ "pt": {"resumo": "Saída de líquido claro com grumos pelo colo no exame especular confirma a rotura de membranas. Quando a perda é evidente, o diagnóstico é clínico e não precisa de testes complementares.",
+  "alternativas": {"A": "Correta: quadro clínico e exame especular bastam.", "B": "Ultrassom não é necessário quando a perda é visualizada.", "C": "Testes de pH são para casos duvidosos.", "D": "Testes imunocromáticos ou cristalização ficam para dúvida diagnóstica."}},
+ "es": {"resumo": "La salida de líquido claro con grumos por el cuello en el examen con espéculo confirma la rotura de membranas. Cuando la pérdida es evidente, el diagnóstico es clínico y no necesita pruebas complementarias.",
+  "alternativas": {"A": "Correcta: el cuadro clínico y el examen con espéculo bastan.", "B": "La ecografía no es necesaria cuando se visualiza la pérdida.", "C": "Las pruebas de pH son para casos dudosos.", "D": "Las pruebas inmunocromatográficas o la cristalización quedan para la duda diagnóstica."}}
+},
+"revalida_2023-2_q100": {
+ "pt": {"resumo": "Teste rápido reagente com teste não reagente há 5 meses: sífilis recente (menos de 1 ano). Solicita-se VDRL para confirmar e seguir trimestralmente, trata-se com penicilina benzatina 2,4 milhões UI em dose única, repete-se o teste de HIV em 30 dias pela exposição recente, notifica-se e aconselha-se.",
+  "alternativas": {"A": "Sífilis recente não exige três doses.", "B": "O teste rápido treponêmico fica reagente e não serve para controle de cura.", "C": "Correta: VDRL, dose única, HIV em 30 dias e notificação.", "D": "Repetir o teste treponêmico não confirma atividade, e doxiciclina não se associa."}},
+ "es": {"resumo": "Prueba rápida reactiva con prueba no reactiva hace 5 meses: sífilis reciente (menos de 1 año). Se pide VDRL para confirmar y controlar cada 3 meses, se trata con penicilina benzatínica 2,4 millones UI en dosis única, se repite la prueba de VIH a los 30 días por la exposición reciente, se notifica y se aconseja.",
+  "alternativas": {"A": "La sífilis reciente no exige tres dosis.", "B": "La prueba rápida treponémica queda reactiva y no sirve para el control de curación.", "C": "Correcta: VDRL, dosis única, VIH a los 30 días y notificación.", "D": "Repetir la prueba treponémica no confirma actividad, y no se asocia doxiciclina."}}
+}
+}

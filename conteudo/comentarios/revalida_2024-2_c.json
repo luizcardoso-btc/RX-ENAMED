@@ -1,0 +1,582 @@
+{
+ "revalida_2024-2_q072": {
+  "pt": {
+   "resumo": "Corte na face volar do polegar com perda da flexão indica lesão de tendão flexor. A conduta na unidade é curativo e encaminhamento ao ortopedista ou cirurgião de mão para reparo tendíneo.",
+   "alternativas": {
+    "A": "Suturar só a pele deixa o tendão sem reparo.",
+    "B": "Imobilizar sem reparo também não trata a lesão.",
+    "C": "Correta: curativo e transferência para ortopedia.",
+    "D": "O déficit é de flexão (tendão), não vascular."
+   }
+  },
+  "es": {
+   "resumo": "Un corte en la cara palmar del pulgar con pérdida de flexión indica lesión de tendón flexor. La conducta en el centro de salud es curación y derivación al ortopedista o cirujano de mano para reparar el tendón.",
+   "alternativas": {
+    "A": "Suturar solo la piel deja el tendón sin reparar.",
+    "B": "Inmovilizar sin reparar tampoco trata la lesión.",
+    "C": "Correcta: curación y traslado a ortopedia.",
+    "D": "El déficit es de flexión (tendón), no vascular."
+   }
+  }
+ },
+ "revalida_2024-2_q073": {
+  "pt": {
+   "resumo": "Mãe Rh negativo e RN Rh positivo com icterícia precoce e bilirrubina acima do limite de exsanguineotransfusão apesar da fototerapia intensiva: indica-se a exsanguineotransfusão. Segundo o gabarito, com sangue Rh negativo do grupo do RN (B-); muitos serviços usam O Rh negativo para evitar o anti-B materno.",
+   "alternativas": {
+    "A": "Imunoglobulina pode ajudar, mas não contraindica a EST indicada.",
+    "B": "A bilirrubina já ultrapassou o limite; esperar arrisca kernicterus.",
+    "C": "Correta, segundo o gabarito: EST com sangue B-.",
+    "D": "A velocidade de aumento reforça a indicação, não a contraindica."
+   }
+  },
+  "es": {
+   "resumo": "Madre Rh negativo y RN Rh positivo con ictericia precoz y bilirrubina por encima del límite de exanguinotransfusión pese a fototerapia intensiva: se indica exanguinotransfusión. Según la clave, con sangre Rh negativo del grupo del RN (B-); muchos servicios usan O Rh negativo para evitar el anti-B materno.",
+   "alternativas": {
+    "A": "La inmunoglobulina puede ayudar, pero no contraindica la EST indicada.",
+    "B": "La bilirrubina ya superó el límite; esperar arriesga kernícterus.",
+    "C": "Correcta, según la clave: EST con sangre B-.",
+    "D": "La velocidad de aumento refuerza la indicación, no la contraindica."
+   }
+  }
+ },
+ "revalida_2024-2_q074": {
+  "pt": {
+   "resumo": "Amenorreia primária com mamas e pelos normais (função ovariana preservada) e genitália externa normal: suspeitar de anomalia mülleriana (agenesia, como Rokitansky, ou obstrução). Investiga-se com ultrassom ou ressonância pélvica.",
+   "alternativas": {
+    "A": "Turner tem baixa estatura e ausência de desenvolvimento mamário.",
+    "B": "Morris (insensibilidade androgênica) tem pelos pubianos e axilares escassos.",
+    "C": "Hormônio do crescimento não tem relação com o quadro.",
+    "D": "Correta: investigar anomalia mülleriana."
+   }
+  },
+  "es": {
+   "resumo": "Amenorrea primaria con mamas y vello normales (función ovárica preservada) y genitales externos normales: sospechar anomalía mülleriana (agenesia, como Rokitansky, u obstrucción). Se estudia con ecografía o resonancia pélvica.",
+   "alternativas": {
+    "A": "Turner tiene talla baja y falta de desarrollo mamario.",
+    "B": "Morris (insensibilidad androgénica) tiene vello púbico y axilar escaso.",
+    "C": "La hormona de crecimiento no tiene relación con el cuadro.",
+    "D": "Correcta: estudiar anomalía mülleriana."
+   }
+  }
+ },
+ "revalida_2024-2_q075": {
+  "pt": {
+   "resumo": "Sangramento retal com anemia aos 54 anos é sintoma, não rastreamento: a investigação é diagnóstica (diagnóstico precoce) e o exame é a colonoscopia.",
+   "alternativas": {
+    "A": "Sangue oculto é para assintomáticos; aqui o sangramento já é visível.",
+    "B": "Ultrassom não avalia a mucosa do cólon.",
+    "C": "Tomografia não substitui a colonoscopia.",
+    "D": "Correta: colonoscopia para diagnóstico precoce."
+   }
+  },
+  "es": {
+   "resumo": "Un sangrado rectal con anemia a los 54 años es un síntoma, no tamizaje: el estudio es diagnóstico (diagnóstico precoz) y el examen es la colonoscopia.",
+   "alternativas": {
+    "A": "La sangre oculta es para asintomáticos; aquí el sangrado ya es visible.",
+    "B": "La ecografía no evalúa la mucosa del colon.",
+    "C": "La tomografía no sustituye a la colonoscopia.",
+    "D": "Correcta: colonoscopia para diagnóstico precoz."
+   }
+  }
+ },
+ "revalida_2024-2_q076": {
+  "pt": {
+   "resumo": "Mulher jovem com crises de cefaleia, sudorese e taquicardia e hipertensão paroxística: feocromocitoma, confirmado por metanefrinas elevadas.",
+   "alternativas": {
+    "A": "Hipertireoidismo causa sintomas contínuos, não paroxísticos.",
+    "B": "Correta: feocromocitoma.",
+    "C": "Síndrome carcinoide causa rubor e diarreia.",
+    "D": "Hiperaldosteronismo causa hipertensão sustentada e hipocalemia."
+   }
+  },
+  "es": {
+   "resumo": "Mujer joven con crisis de cefalea, sudoración y taquicardia e hipertensión paroxística: feocromocitoma, confirmado por metanefrinas elevadas.",
+   "alternativas": {
+    "A": "El hipertiroidismo causa síntomas continuos, no paroxísticos.",
+    "B": "Correcta: feocromocitoma.",
+    "C": "El síndrome carcinoide causa rubor y diarrea.",
+    "D": "El hiperaldosteronismo causa hipertensión sostenida e hipopotasemia."
+   }
+  }
+ },
+ "revalida_2024-2_q077": {
+  "pt": {
+   "resumo": "Murmúrio abolido, hipertimpanismo, desvio de traqueia e hipoxemia: pneumotórax hipertensivo, diagnóstico clínico. Faz-se descompressão imediata no 5º espaço intercostal, entre as linhas axilares anterior e média (ATLS 10ª edição), sem esperar imagem.",
+   "alternativas": {
+    "A": "Exame de imagem atrasa o tratamento.",
+    "B": "Intubar sem descomprimir piora o pneumotórax.",
+    "C": "Correta: punção no 5º espaço intercostal.",
+    "D": "Radiografia não deve atrasar a descompressão."
+   }
+  },
+  "es": {
+   "resumo": "Murmullo abolido, hipertimpanismo, desviación traqueal e hipoxemia: neumotórax a tensión, diagnóstico clínico. Se hace descompresión inmediata en el 5.º espacio intercostal, entre las líneas axilares anterior y media (ATLS 10.ª edición), sin esperar imagen.",
+   "alternativas": {
+    "A": "La imagen retrasa el tratamiento.",
+    "B": "Intubar sin descomprimir empeora el neumotórax.",
+    "C": "Correcta: punción en el 5.º espacio intercostal.",
+    "D": "La radiografía no debe retrasar la descompresión."
+   }
+  }
+ },
+ "revalida_2024-2_q078": {
+  "pt": {
+   "resumo": "Genitália masculina com testículos não palpáveis bilateralmente sugere distúrbio de diferenciação sexual (incluindo menina virilizada por hiperplasia adrenal). Pede-se cariótipo e exames hormonais, com equipe multidisciplinar, e adia-se a definição do sexo e qualquer cirurgia.",
+   "alternativas": {
+    "A": "Correta: cariótipo, hormônios e equipe multidisciplinar.",
+    "B": "Imagem não define o sexo, e cirurgia precoce é contraindicada.",
+    "C": "A ausência de perda de sal nas primeiras 24 horas não afasta hiperplasia adrenal.",
+    "D": "O registro do sexo deve aguardar a investigação."
+   }
+  },
+  "es": {
+   "resumo": "Genitales masculinos con testículos no palpables bilateralmente sugieren trastorno de la diferenciación sexual (incluida una niña virilizada por hiperplasia suprarrenal). Se piden cariotipo y estudios hormonales, con equipo multidisciplinario, y se posponen la definición del sexo y toda cirugía.",
+   "alternativas": {
+    "A": "Correcta: cariotipo, hormonas y equipo multidisciplinario.",
+    "B": "La imagen no define el sexo, y la cirugía precoz está contraindicada.",
+    "C": "La ausencia de pérdida de sal en las primeras 24 horas no descarta hiperplasia suprarrenal.",
+    "D": "El registro del sexo debe esperar al estudio."
+   }
+  }
+ },
+ "revalida_2024-2_q079": {
+  "pt": {
+   "resumo": "Cervicite mucopurulenta com colo friável, disúria e dispareunia, com pH normal e Whiff negativo (sem vaginose ou tricomoníase): etiologia mais provável é Neisseria gonorrhoeae (ou clamídia).",
+   "alternativas": {
+    "A": "Cândida causa corrimento grumoso e prurido, sem cervicite.",
+    "B": "Gardnerella eleva o pH e dá Whiff positivo.",
+    "C": "Correta: Neisseria gonorrhoeae.",
+    "D": "Tricomonas eleva o pH e causa colo em framboesa."
+   }
+  },
+  "es": {
+   "resumo": "Cervicitis mucopurulenta con cuello friable, disuria y dispareunia, con pH normal y prueba de aminas negativa (sin vaginosis ni tricomoniasis): la etiología más probable es Neisseria gonorrhoeae (o clamidia).",
+   "alternativas": {
+    "A": "La cándida causa flujo grumoso y prurito, sin cervicitis.",
+    "B": "Gardnerella eleva el pH y da prueba de aminas positiva.",
+    "C": "Correcta: Neisseria gonorrhoeae.",
+    "D": "Trichomonas eleva el pH y causa cuello en fresa."
+   }
+  }
+ },
+ "revalida_2024-2_q080": {
+  "pt": {
+   "resumo": "Morte durante a gestação por doença agravada por ela (Covid) é morte materna obstétrica indireta e entra no cálculo. O bebê que nasceu com batimentos e respiração é nascido vivo, independentemente do peso: entra na natalidade e, por morrer antes de 7 dias, na mortalidade neonatal precoce.",
+   "alternativas": {
+    "A": "A morte materna é contabilizada.",
+    "B": "Nascido vivo conta para a natalidade.",
+    "C": "A morte materna conta, e o bebê conta na natalidade.",
+    "D": "Correta: mortalidade materna, natalidade e neonatal precoce."
+   }
+  },
+  "es": {
+   "resumo": "La muerte durante el embarazo por una enfermedad agravada por él (Covid) es muerte materna obstétrica indirecta y entra en el cálculo. El bebé que nació con latidos y respiración es nacido vivo, independientemente del peso: entra en la natalidad y, por morir antes de 7 días, en la mortalidad neonatal precoz.",
+   "alternativas": {
+    "A": "La muerte materna se contabiliza.",
+    "B": "El nacido vivo cuenta para la natalidad.",
+    "C": "La muerte materna cuenta, y el bebé cuenta en la natalidad.",
+    "D": "Correcta: mortalidad materna, natalidad y neonatal precoz."
+   }
+  }
+ },
+ "revalida_2024-2_q081": {
+  "pt": {
+   "resumo": "Mulher jovem com artrite, fenômeno de Raynaud, úlceras orais, anemia hemolítica (icterícia), leucopenia, linfopenia e plaquetopenia: lúpus eritematoso sistêmico. O exame de triagem é o FAN.",
+   "alternativas": {
+    "A": "HLA-B27 é das espondiloartrites.",
+    "B": "Fator reumatoide é da artrite reumatoide.",
+    "C": "ASLO é da febre reumática.",
+    "D": "Correta: FAN."
+   }
+  },
+  "es": {
+   "resumo": "Mujer joven con artritis, fenómeno de Raynaud, úlceras orales, anemia hemolítica (ictericia), leucopenia, linfopenia y plaquetopenia: lupus eritematoso sistémico. El examen de tamizaje son los ANA.",
+   "alternativas": {
+    "A": "El HLA-B27 es de las espondiloartritis.",
+    "B": "El factor reumatoide es de la artritis reumatoide.",
+    "C": "La ASLO es de la fiebre reumática.",
+    "D": "Correcta: ANA (anticuerpos antinucleares)."
+   }
+  }
+ },
+ "revalida_2024-2_q082": {
+  "pt": {
+   "resumo": "Ressangramento de úlcera após tratamento endoscópico, em paciente estável: a conduta é nova abordagem endoscópica. Cirurgia ou embolização ficam para falha da segunda tentativa ou instabilidade.",
+   "alternativas": {
+    "A": "Gastrectomia total é excessiva.",
+    "B": "Cirurgia é reservada à falha da segunda endoscopia.",
+    "C": "O IBP deve ser mantido, mas não basta para ressangramento.",
+    "D": "Correta: nova abordagem endoscópica."
+   }
+  },
+  "es": {
+   "resumo": "Resangrado de una úlcera tras tratamiento endoscópico, en un paciente estable: la conducta es un nuevo abordaje endoscópico. La cirugía o la embolización quedan para el fracaso del segundo intento o la inestabilidad.",
+   "alternativas": {
+    "A": "La gastrectomía total es excesiva.",
+    "B": "La cirugía se reserva al fracaso de la segunda endoscopia.",
+    "C": "El IBP debe mantenerse, pero no basta para un resangrado.",
+    "D": "Correcta: nuevo abordaje endoscópico."
+   }
+  }
+ },
+ "revalida_2024-2_q083": {
+  "pt": {
+   "resumo": "N-acetilcisteína é o antídoto da intoxicação por paracetamol: repõe glutationa e neutraliza o metabólito hepatotóxico.",
+   "alternativas": {
+    "A": "Salicilato se trata com alcalinização e hemodiálise.",
+    "B": "Correta: paracetamol.",
+    "C": "Ibuprofeno não tem antídoto específico.",
+    "D": "Dipirona não tem antídoto específico."
+   }
+  },
+  "es": {
+   "resumo": "La N-acetilcisteína es el antídoto de la intoxicación por paracetamol: repone glutatión y neutraliza el metabolito hepatotóxico.",
+   "alternativas": {
+    "A": "El salicilato se trata con alcalinización y hemodiálisis.",
+    "B": "Correcta: paracetamol.",
+    "C": "El ibuprofeno no tiene antídoto específico.",
+    "D": "La dipirona no tiene antídoto específico."
+   }
+  }
+ },
+ "revalida_2024-2_q084": {
+  "pt": {
+   "resumo": "Lesão anecoica, circunscrita, com reforço acústico posterior e sem septos ou fluxo é cisto simples (BI-RADS 2), benigno. Orienta-se a paciente, trata-se a dor se houver e estimula-se a cessação do tabagismo.",
+   "alternativas": {
+    "A": "Fibroadenoma é sólido, e ressonância não é indicada.",
+    "B": "Correta: cisto simples e orientação.",
+    "C": "Há uma lesão, e o autoexame não é método de rastreamento.",
+    "D": "Não é adensamento, e mamografia não é indicada para essa lesão aos 33 anos."
+   }
+  },
+  "es": {
+   "resumo": "Una lesión anecoica, circunscrita, con refuerzo acústico posterior y sin tabiques ni flujo es un quiste simple (BI-RADS 2), benigno. Se orienta a la paciente, se trata el dolor si lo hay y se estimula dejar de fumar.",
+   "alternativas": {
+    "A": "El fibroadenoma es sólido, y la resonancia no está indicada.",
+    "B": "Correcta: quiste simple y orientación.",
+    "C": "Hay una lesión, y el autoexamen no es método de tamizaje.",
+    "D": "No es densificación, y la mamografía no está indicada para esta lesión a los 33 años."
+   }
+  }
+ },
+ "revalida_2024-2_q085": {
+  "pt": {
+   "resumo": "No modelo tradicional, a agenda é toda pré-agendada. Reservar uma parte fixa (40%) para demanda do dia e o resto para agendamento é o modelo carve-out. O desafio é dimensionar a demanda: vagas reservadas podem sobrar.",
+   "alternativas": {
+    "A": "Correta: tradicional para carve-out, com risco de vagas ociosas.",
+    "B": "A equipe saiu do tradicional, não do carve-out.",
+    "C": "Acesso avançado deixa a maior parte da agenda para o mesmo dia.",
+    "D": "A origem era o modelo tradicional."
+   }
+  },
+  "es": {
+   "resumo": "En el modelo tradicional, la agenda está toda programada. Reservar una parte fija (40 %) para la demanda del día y el resto para turnos programados es el modelo carve-out. El desafío es dimensionar la demanda: los turnos reservados pueden sobrar.",
+   "alternativas": {
+    "A": "Correcta: tradicional a carve-out, con riesgo de turnos ociosos.",
+    "B": "El equipo salió del modelo tradicional, no del carve-out.",
+    "C": "El acceso avanzado deja la mayor parte de la agenda para el mismo día.",
+    "D": "El origen era el modelo tradicional."
+   }
+  }
+ },
+ "revalida_2024-2_q086": {
+  "pt": {
+   "resumo": "Lombalgia com fraqueza nas pernas, anestesia em sela e retenção urinária: síndrome da cauda equina. O exame é ressonância da coluna lombar com urgência.",
+   "alternativas": {
+    "A": "Radiografia não mostra compressão neural.",
+    "B": "Punção lombar não é o exame inicial.",
+    "C": "Correta: ressonância da coluna lombar.",
+    "D": "A retenção é neurogênica, não infecciosa."
+   }
+  },
+  "es": {
+   "resumo": "Lumbalgia con debilidad en las piernas, anestesia en silla de montar y retención urinaria: síndrome de cauda equina. El examen es la resonancia de columna lumbar con urgencia.",
+   "alternativas": {
+    "A": "La radiografía no muestra compresión neural.",
+    "B": "La punción lumbar no es el examen inicial.",
+    "C": "Correcta: resonancia de columna lumbar.",
+    "D": "La retención es neurogénica, no infecciosa."
+   }
+  }
+ },
+ "revalida_2024-2_q087": {
+  "pt": {
+   "resumo": "Dor abdominal súbita e desproporcional em cardiopata, com pneumatose intestinal e gás no sistema porta: isquemia mesentérica aguda com necrose. Abdome agudo vascular: angiotomografia e laparotomia exploradora.",
+   "alternativas": {
+    "A": "Não há quadro obstrutivo.",
+    "B": "Não é inflamatório.",
+    "C": "Correta: vascular, angiotomografia e laparotomia.",
+    "D": "Não é hemorrágico, e a cirurgia é de urgência."
+   }
+  },
+  "es": {
+   "resumo": "Dolor abdominal súbito y desproporcionado en un cardiópata, con neumatosis intestinal y gas portal: isquemia mesentérica aguda con necrosis. Abdomen agudo vascular: angiotomografía y laparotomía exploradora.",
+   "alternativas": {
+    "A": "No hay cuadro obstructivo.",
+    "B": "No es inflamatorio.",
+    "C": "Correcta: vascular, angiotomografía y laparotomía.",
+    "D": "No es hemorrágico, y la cirugía es urgente."
+   }
+  }
+ },
+ "revalida_2024-2_q088": {
+  "pt": {
+   "resumo": "Criança com diarreia aguda e sem sinais de desidratação: plano A, em casa. Inclui líquidos, manutenção da alimentação, sinais de alerta e zinco por 10 a 14 dias.",
+   "alternativas": {
+    "A": "Correta: zinco oral por 10 dias.",
+    "B": "O retorno é por sinais de alerta, não em data fixa.",
+    "C": "Soro na unidade é o plano B, para desidratação.",
+    "D": "Diarreia sem sangue não indica antibiótico."
+   }
+  },
+  "es": {
+   "resumo": "Niña con diarrea aguda y sin signos de deshidratación: plan A, en casa. Incluye líquidos, mantener la alimentación, signos de alarma y zinc por 10 a 14 días.",
+   "alternativas": {
+    "A": "Correcta: zinc oral por 10 días.",
+    "B": "El regreso es por signos de alarma, no en fecha fija.",
+    "C": "El suero en el centro de salud es el plan B, para deshidratación.",
+    "D": "La diarrea sin sangre no indica antibiótico."
+   }
+  }
+ },
+ "revalida_2024-2_q089": {
+  "pt": {
+   "resumo": "Lesão vulvar endurecida e indolor com adenopatia, que regrediu sozinha, e teste rápido (treponêmico) positivo. Segundo o gabarito, solicita-se imediatamente o VDRL (não treponêmico) para confirmar a infecção ativa, já que o teste rápido pode permanecer positivo por cicatriz sorológica. Atenção: em gestantes e em situações de risco, o Ministério da Saúde recomenda tratar logo após o teste rápido.",
+   "alternativas": {
+    "A": "Correta: solicitar VDRL para confirmar.",
+    "B": "FTA-ABS é treponêmico, como o teste rápido, e não acrescenta.",
+    "C": "A banca exigiu confirmação antes do tratamento nesse caso.",
+    "D": "Três doses são para sífilis tardia ou de duração desconhecida, e falta confirmar."
+   }
+  },
+  "es": {
+   "resumo": "Lesión vulvar indurada e indolora con adenopatía, que regresó sola, y prueba rápida (treponémica) positiva. Según la clave, se solicita de inmediato el VDRL (no treponémico) para confirmar infección activa, ya que la prueba rápida puede seguir positiva por cicatriz serológica. Atención: en gestantes y en situaciones de riesgo, el Ministerio de Salud brasileño recomienda tratar justo después de la prueba rápida.",
+   "alternativas": {
+    "A": "Correcta: solicitar VDRL para confirmar.",
+    "B": "El FTA-ABS es treponémico, como la prueba rápida, y no aporta.",
+    "C": "El examen exigió confirmación antes del tratamiento en este caso.",
+    "D": "Tres dosis son para sífilis tardía o de duración desconocida, y falta confirmar."
+   }
+  }
+ },
+ "revalida_2024-2_q090": {
+  "pt": {
+   "resumo": "Febre alta e abrupta por 3 dias com cefaleia, mialgia, dor retro-orbitária, artralgia leve e exantema, em capital do Sudeste: dengue.",
+   "alternativas": {
+    "A": "Zika tem febre baixa, prurido e conjuntivite.",
+    "B": "Correta: dengue.",
+    "C": "Chikungunya tem artralgia intensa.",
+    "D": "Febre amarela urbana não ocorre, e ele não viajou."
+   }
+  },
+  "es": {
+   "resumo": "Fiebre alta y brusca de 3 días con cefalea, mialgias, dolor retroocular, artralgia leve y exantema, en una capital del Sudeste brasileño: dengue.",
+   "alternativas": {
+    "A": "El Zika tiene fiebre baja, prurito y conjuntivitis.",
+    "B": "Correcta: dengue.",
+    "C": "La chikungunya tiene artralgia intensa.",
+    "D": "La fiebre amarilla urbana no ocurre, y no viajó."
+   }
+  }
+ },
+ "revalida_2024-2_q091": {
+  "pt": {
+   "resumo": "Hematúria dismórfica, hipertensão, edema e proteinúria abaixo da faixa nefrótica com albumina quase normal: síndrome nefrítica. Em adulto, a causa mais comum de glomerulonefrite é a nefropatia por IgA.",
+   "alternativas": {
+    "A": "Não é nefrótica (proteinúria menor que 3,5 g e albumina preservada).",
+    "B": "Correta: síndrome nefrítica e nefropatia por IgA.",
+    "C": "Não é nefrótica.",
+    "D": "Lesões mínimas causa síndrome nefrótica."
+   }
+  },
+  "es": {
+   "resumo": "Hematuria dismórfica, hipertensión, edema y proteinuria por debajo del rango nefrótico con albúmina casi normal: síndrome nefrítico. En el adulto, la causa más frecuente de glomerulonefritis es la nefropatía por IgA.",
+   "alternativas": {
+    "A": "No es nefrótico (proteinuria menor de 3,5 g y albúmina preservada).",
+    "B": "Correcta: síndrome nefrítico y nefropatía por IgA.",
+    "C": "No es nefrótico.",
+    "D": "La enfermedad de cambios mínimos causa síndrome nefrótico."
+   }
+  }
+ },
+ "revalida_2024-2_q092": {
+  "pt": {
+   "resumo": "Otite de repetição seguida de celulite retroauricular e hipoacusia: mastoidite aguda. Conduta: internação, antibiótico venoso e avaliação pelo otorrinolaringologista (imagem e eventual cirurgia).",
+   "alternativas": {
+    "A": "Antibiótico tópico não trata mastoidite, e cirurgia não é imediata sem abscesso.",
+    "B": "Não é caso eletivo.",
+    "C": "Correta: internação, antibiótico sistêmico e especialista.",
+    "D": "Tratamento domiciliar é inadequado."
+   }
+  },
+  "es": {
+   "resumo": "Otitis repetida seguida de celulitis retroauricular e hipoacusia: mastoiditis aguda. Conducta: internación, antibiótico intravenoso y evaluación por otorrinolaringólogo (imagen y eventual cirugía).",
+   "alternativas": {
+    "A": "El antibiótico tópico no trata la mastoiditis, y la cirugía no es inmediata sin absceso.",
+    "B": "No es un caso electivo.",
+    "C": "Correcta: internación, antibiótico sistémico y especialista.",
+    "D": "El tratamiento domiciliario es inadecuado."
+   }
+  }
+ },
+ "revalida_2024-2_q093": {
+  "pt": {
+   "resumo": "Na suspeita de síndrome de Down, o cariótipo é indicado sempre: confirma o diagnóstico, identifica mosaicismo e translocações, que exigem cariótipo dos pais pelo risco de recorrência.",
+   "alternativas": {
+    "A": "O fenótipo não dispensa o cariótipo.",
+    "B": "Correta: confirmação, mosaicismo e translocação.",
+    "C": "O resultado muda o aconselhamento genético.",
+    "D": "O cariótipo é indicado em todos os casos, e a alta não depende do resultado."
+   }
+  },
+  "es": {
+   "resumo": "Ante la sospecha de síndrome de Down, el cariotipo está siempre indicado: confirma el diagnóstico e identifica mosaicismo y translocaciones, que exigen cariotipo de los padres por el riesgo de recurrencia.",
+   "alternativas": {
+    "A": "El fenotipo no reemplaza al cariotipo.",
+    "B": "Correcta: confirmación, mosaicismo y translocación.",
+    "C": "El resultado cambia el consejo genético.",
+    "D": "El cariotipo está indicado en todos los casos, y el alta no depende del resultado."
+   }
+  }
+ },
+ "revalida_2024-2_q094": {
+  "pt": {
+   "resumo": "Sangramento com colo dilatado, mesmo com embrião vivo, é aborto inevitável. Na ameaça de aborto o colo está fechado.",
+   "alternativas": {
+    "A": "Aborto retido tem embrião sem batimentos.",
+    "B": "Correta: aborto inevitável.",
+    "C": "Ameaça tem colo fechado.",
+    "D": "Aborto incompleto já eliminou parte do conteúdo."
+   }
+  },
+  "es": {
+   "resumo": "Sangrado con cuello dilatado, aun con embrión vivo, es aborto inevitable. En la amenaza de aborto el cuello está cerrado.",
+   "alternativas": {
+    "A": "El aborto retenido tiene embrión sin latidos.",
+    "B": "Correcta: aborto inevitable.",
+    "C": "La amenaza tiene el cuello cerrado.",
+    "D": "El aborto incompleto ya eliminó parte del contenido."
+   }
+  }
+ },
+ "revalida_2024-2_q095": {
+  "pt": {
+   "resumo": "Sangramento pós-menopausa com suspeita de causa estrutural (pólipo, hiperplasia, câncer de endométrio): o exame inicial é ultrassom pélvico transvaginal para medir o endométrio.",
+   "alternativas": {
+    "A": "Coagulopatia não é causa estrutural.",
+    "B": "Prolactina não investiga sangramento pós-menopausa.",
+    "C": "Correta: ultrassonografia pélvica.",
+    "D": "Tireoide não é causa estrutural."
+   }
+  },
+  "es": {
+   "resumo": "Sangrado posmenopáusico con sospecha de causa estructural (pólipo, hiperplasia, cáncer de endometrio): el examen inicial es la ecografía pélvica transvaginal para medir el endometrio.",
+   "alternativas": {
+    "A": "La coagulopatía no es causa estructural.",
+    "B": "La prolactina no estudia el sangrado posmenopáusico.",
+    "C": "Correcta: ecografía pélvica.",
+    "D": "La tiroides no es causa estructural."
+   }
+  }
+ },
+ "revalida_2024-2_q096": {
+  "pt": {
+   "resumo": "Hiponatremia grave (108) com convulsões e edema cerebral por SIADH paraneoplásica (carcinoma de pequenas células): emergência. Trata-se com salina hipertônica a 3% e correção controlada, sem exceder 8 a 10 mEq/L em 24 horas.",
+   "alternativas": {
+    "A": "Correta: salina a 3%.",
+    "B": "Dexametasona não corrige a hiponatremia.",
+    "C": "Desmopressina piora a SIADH.",
+    "D": "Restrição hídrica é lenta demais para quadro com convulsões."
+   }
+  },
+  "es": {
+   "resumo": "Hiponatremia grave (108) con convulsiones y edema cerebral por SIADH paraneoplásico (carcinoma de células pequeñas): emergencia. Se trata con solución salina hipertónica al 3 % y corrección controlada, sin superar 8 a 10 mEq/L en 24 horas.",
+   "alternativas": {
+    "A": "Correcta: salina al 3 %.",
+    "B": "La dexametasona no corrige la hiponatremia.",
+    "C": "La desmopresina empeora el SIADH.",
+    "D": "La restricción hídrica es demasiado lenta para un cuadro con convulsiones."
+   }
+  }
+ },
+ "revalida_2024-2_q097": {
+  "pt": {
+   "resumo": "Adulto jovem com dor óssea progressiva, massa tibial palpável, febre e perda de peso: tumor ósseo maligno. Segundo o gabarito, osteossarcoma (febre e diáfise lembram também Ewing), investigado com ressonância e biópsia e tratado com quimioterapia e cirurgia.",
+   "alternativas": {
+    "A": "Calo ósseo não causa febre e emagrecimento.",
+    "B": "Osteopenia não forma massa.",
+    "C": "Correta: osteossarcoma, ressonância, biópsia e quimioterapia.",
+    "D": "Lesão por esforço não causa massa, febre e emagrecimento."
+   }
+  },
+  "es": {
+   "resumo": "Adulto joven con dolor óseo progresivo, masa tibial palpable, fiebre y pérdida de peso: tumor óseo maligno. Según la clave, osteosarcoma (la fiebre y la diáfisis también recuerdan a Ewing), estudiado con resonancia y biopsia y tratado con quimioterapia y cirugía.",
+   "alternativas": {
+    "A": "El callo óseo no causa fiebre ni adelgazamiento.",
+    "B": "La osteopenia no forma masa.",
+    "C": "Correcta: osteosarcoma, resonancia, biopsia y quimioterapia.",
+    "D": "La lesión por esfuerzo no causa masa, fiebre ni adelgazamiento."
+   }
+  }
+ },
+ "revalida_2024-2_q098": {
+  "pt": {
+   "resumo": "Perda de peso rápida após cirurgia bariátrica favorece cálculos biliares. Epigastralgia, náuseas e vômitos sugerem colelitíase; o exame é ultrassom abdominal.",
+   "alternativas": {
+    "A": "Correta: colelitíase e ultrassom.",
+    "B": "Não há abaulamento na parede.",
+    "C": "Dumping é mais típico do bypass e ocorre após refeições doces.",
+    "D": "Endoscopia não é o primeiro exame pela hipótese principal."
+   }
+  },
+  "es": {
+   "resumo": "La pérdida de peso rápida tras cirugía bariátrica favorece los cálculos biliares. Epigastralgia, náuseas y vómitos sugieren colelitiasis; el examen es la ecografía abdominal.",
+   "alternativas": {
+    "A": "Correcta: colelitiasis y ecografía.",
+    "B": "No hay abultamiento en la pared.",
+    "C": "El dumping es más típico del bypass y ocurre tras comidas dulces.",
+    "D": "La endoscopia no es el primer examen para la hipótesis principal."
+   }
+  }
+ },
+ "revalida_2024-2_q099": {
+  "pt": {
+   "resumo": "Gestante com parto prematuro prévio e colo curto (20 mm) no segundo trimestre: progesterona vaginal natural até 36 semanas reduz a prematuridade. Segundo o gabarito, é a conduta escolhida (a cerclagem é alternativa em casos selecionados).",
+   "alternativas": {
+    "A": "Cerclagem não é a conduta do gabarito para esse caso.",
+    "B": "Nifedipina é tocolítico para trabalho de parto, não prevenção.",
+    "C": "Corticoide é para risco de parto iminente.",
+    "D": "Correta: progesterona até 36 semanas."
+   }
+  },
+  "es": {
+   "resumo": "Gestante con parto prematuro previo y cuello corto (20 mm) en el segundo trimestre: la progesterona vaginal natural hasta las 36 semanas reduce la prematuridad. Según la clave, es la conducta elegida (el cerclaje es alternativa en casos seleccionados).",
+   "alternativas": {
+    "A": "El cerclaje no es la conducta de la clave para este caso.",
+    "B": "La nifedipina es tocolítico para el trabajo de parto, no prevención.",
+    "C": "El corticoide es para riesgo de parto inminente.",
+    "D": "Correcta: progesterona hasta las 36 semanas."
+   }
+  }
+ },
+ "revalida_2024-2_q100": {
+  "pt": {
+   "resumo": "No tratamento do tabagismo, as intervenções em grupo funcionam pela interação, apoio mútuo e participação ativa. Aconselhamento mais intenso é mais efetivo, e aconselhamento ou medicação isolados também funcionam, com melhor resultado juntos.",
+   "alternativas": {
+    "A": "Maior intensidade de aconselhamento é mais efetiva.",
+    "B": "Cada um é eficaz isolado; juntos são melhores.",
+    "C": "A associação não é obrigatória para todos os dependentes elevados.",
+    "D": "Correta: grupos promovem abstinência pelo apoio mútuo."
+   }
+  },
+  "es": {
+   "resumo": "En el tratamiento del tabaquismo, las intervenciones grupales funcionan por la interacción, el apoyo mutuo y la participación activa. La consejería más intensa es más efectiva, y la consejería o la medicación aisladas también funcionan, con mejor resultado juntas.",
+   "alternativas": {
+    "A": "La consejería más intensa es más efectiva.",
+    "B": "Cada una es eficaz sola; juntas son mejores.",
+    "C": "La asociación no es obligatoria para todos los dependientes elevados.",
+    "D": "Correcta: los grupos promueven la abstinencia por el apoyo mutuo."
+   }
+  }
+ }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "cm-intoxicacoes-exogenas",
+  "area": "Clínica Médica",
+  "especialidade": "Emergência clínica",
+  "mentor": "caio",
+  "duracaoMin": 15,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2023-2_q051",
+    "revalida_2024-2_q083",
+    "revalida_2022-2_q088",
+    "revalida_2022-2_q093",
+    "revalida_2023-1_q065",
+    "revalida_2024-1_q031"
+  ],
+  "referencias": [
+    "Ministério da Saúde. Guia de Vigilância em Saúde, 6ª edição, 2024 (intoxicação exógena).",
+    "Nelson LS et al. Goldfrank's Toxicologic Emergencies, 11ª edição.",
+    "Chyka PA et al. Position paper: single-dose activated charcoal. Clin Toxicol, 2005.",
+    "Disque-Intoxicação da Anvisa (0800 722 6001) e rede de Centros de Informação e Assistência Toxicológica (CIATox)."
+  ],
+  "pt": {
+    "titulo": "Intoxicações exógenas: toxíndromes, descontaminação e antídotos",
+    "resumo": "A banca descreve sinais (pupila, pele, secreções, frequência cardíaca, temperatura) e pede o agente e o antídoto. Reconheça a toxíndrome, estabilize primeiro e saiba quando dar carvão ativado.",
+    "secoes": [
+      {
+        "titulo": "Abordagem inicial",
+        "paragrafos": [
+          "Estabilize antes de identificar: ABCDE, monitorização, glicemia capilar e ECG. Pergunte o quê, quanto, quando e por qual via; procure embalagens."
+        ],
+        "itens": [
+          "Carvão ativado 1 g/kg (máximo de 50 g) por via oral, idealmente até 1 hora após a ingestão de substância adsorvível, com via aérea protegida.",
+          "Carvão não adsorve álcoois, lítio, ferro, metais, cáusticos e hidrocarbonetos.",
+          "Não induzir vômito. Lavagem gástrica é exceção. Na ingestão de cáusticos, não neutralizar nem provocar vômito; endoscopia nas primeiras 12–24 horas.",
+          "Intoxicação exógena é de notificação compulsória. O CIATox orienta o manejo por telefone."
+        ]
+      },
+      {
+        "titulo": "Toxíndromes",
+        "paragrafos": [
+          "Pupila, pele e secreções separam as síndromes."
+        ],
+        "itens": [
+          "Anticolinérgica (anti-histamínicos, tricíclicos, atropina, plantas como a trombeteira): midríase, pele seca, quente e ruborizada, mucosas secas, retenção urinária, ruídos diminuídos, taquicardia, hipertermia e delirium. Suporte e benzodiazepínico; fisostigmina em casos selecionados.",
+          "Colinérgica (organofosforados e carbamatos): miose, sialorreia, lacrimejamento, broncorreia e broncoespasmo, sudorese, vômitos, diarreia, bradicardia, fasciculações e fraqueza. Retirar roupas e lavar a pele (equipe protegida), atropina em doses repetidas até secar as secreções e pralidoxima no organofosforado.",
+          "Simpatomimética (cocaína, anfetaminas): midríase, sudorese (pele úmida, que a diferencia da anticolinérgica), taquicardia, hipertensão, hipertermia e agitação. Benzodiazepínico; evitar betabloqueador isolado.",
+          "Opioide: miose, depressão respiratória e rebaixamento. Ventilar e dar naloxona IV, repetindo conforme a resposta (efeito mais curto que o do opioide).",
+          "Sedativo-hipnótica (benzodiazepínicos): sonolência com sinais vitais pouco alterados. Suporte; flumazenil raramente, pelo risco de convulsão em usuários crônicos ou com tricíclico.",
+          "Extrapiramidal (haloperidol, metoclopramida): distonia aguda, rigidez e crise oculógira; biperideno ou difenidramina. Síndrome neuroléptica maligna: hipertermia, rigidez, instabilidade autonômica e CPK alta; suspender o fármaco, resfriar, benzodiazepínico, dantroleno ou bromocriptina."
+        ]
+      },
+      {
+        "titulo": "Intoxicações específicas",
+        "paragrafos": [],
+        "itens": [
+          "Paracetamol: pouco sintoma no início e hepatotoxicidade em 24–72 horas. Risco acima de 150 mg/kg. Nível sérico a partir de 4 horas no nomograma de Rumack-Matthew; N-acetilcisteína, idealmente em até 8–10 horas.",
+          "Tricíclicos: anticolinérgico com QRS alargado (acima de 100 ms), arritmias, hipotensão e convulsão. Bicarbonato de sódio.",
+          "Salicilatos: zumbido, vômitos, taquipneia, alcalose respiratória com acidose metabólica de ânion gap aumentado. Bicarbonato (alcalinizar urina) e hemodiálise nos graves.",
+          "Outros antídotos: monóxido de carbono, oxigênio a 100%; cianeto, hidroxocobalamina; metanol e etilenoglicol, fomepizol ou etanol e hemodiálise; betabloqueador, glucagon; bloqueador de canal de cálcio, cálcio e insulina em alta dose; digoxina, anticorpo antidigoxina; varfarina, vitamina K (complexo protrombínico se sangrar); heparina, protamina; metemoglobinemia, azul de metileno; ferro, desferroxamina."
+        ]
+      },
+      {
+        "titulo": "Metais e exposições ocupacionais",
+        "paragrafos": [],
+        "itens": [
+          "Chumbo (saturnismo: baterias, tintas, reciclagem): dor abdominal em cólica, anemia com pontilhado basófilo, neuropatia motora (punho caído), linha gengival de Burton e alteração cognitiva. Diagnóstico pelo chumbo sérico; afastar da exposição e quelar (EDTA cálcico, DMSA) quando indicado.",
+          "Mercúrio (garimpo, consumo de peixe de rio contaminado): tremor, alterações neuropsiquiátricas, parestesias, ataxia e déficit visual. Diagnóstico por mercúrio no sangue, urina ou cabelo; notificar e afastar da fonte."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Pele seca e quente com midríase: anticolinérgico; pele úmida com midríase: simpatomimético.",
+      "Miose com secreções e bradicardia: organofosforado, trate com atropina até secar.",
+      "Carvão ativado não serve para álcool, ferro, lítio e cáusticos.",
+      "Paracetamol pode parecer leve no início: dose o nível e dê N-acetilcisteína cedo.",
+      "Flumazenil de rotina é contraindicado."
+    ]
+  },
+  "es": {
+    "titulo": "Intoxicaciones exógenas: toxíndromes, descontaminación y antídotos",
+    "resumo": "La prueba describe signos (pupila, piel, secreciones, frecuencia cardíaca, temperatura) y pide el agente y el antídoto. Reconozca la toxíndrome, estabilice primero y sepa cuándo dar carbón activado.",
+    "secoes": [
+      {
+        "titulo": "Abordaje inicial",
+        "paragrafos": [
+          "Estabilice antes de identificar: ABCDE, monitorización, glucemia capilar y ECG. Pregunte qué, cuánto, cuándo y por qué vía; busque envases."
+        ],
+        "itens": [
+          "Carbón activado 1 g/kg (máximo 50 g) por vía oral, idealmente hasta 1 hora después de la ingestión de una sustancia adsorbible, con vía aérea protegida.",
+          "El carbón no adsorbe alcoholes, litio, hierro, metales, cáusticos ni hidrocarburos.",
+          "No inducir el vómito. El lavado gástrico es excepción. En la ingestión de cáusticos, no neutralizar ni provocar vómito; endoscopia en las primeras 12–24 horas.",
+          "La intoxicación exógena es de notificación obligatoria en Brasil. El CIATox orienta el manejo por teléfono."
+        ]
+      },
+      {
+        "titulo": "Toxíndromes",
+        "paragrafos": [
+          "Pupila, piel y secreciones separan los síndromes."
+        ],
+        "itens": [
+          "Anticolinérgico (antihistamínicos, tricíclicos, atropina, plantas como el floripondio): midriasis, piel seca, caliente y enrojecida, mucosas secas, retención urinaria, ruidos disminuidos, taquicardia, hipertermia y delirium. Soporte y benzodiacepina; fisostigmina en casos seleccionados.",
+          "Colinérgico (organofosforados y carbamatos): miosis, sialorrea, lagrimeo, broncorrea y broncoespasmo, sudoración, vómitos, diarrea, bradicardia, fasciculaciones y debilidad. Retirar la ropa y lavar la piel (equipo protegido), atropina en dosis repetidas hasta secar las secreciones y pralidoxima en el organofosforado.",
+          "Simpaticomimético (cocaína, anfetaminas): midriasis, sudoración (piel húmeda, que lo diferencia del anticolinérgico), taquicardia, hipertensión, hipertermia y agitación. Benzodiacepina; evitar betabloqueante aislado.",
+          "Opioide: miosis, depresión respiratoria y descenso de conciencia. Ventilar y dar naloxona IV, repitiendo según la respuesta (efecto más corto que el del opioide).",
+          "Sedante-hipnótico (benzodiacepinas): somnolencia con signos vitales poco alterados. Soporte; flumazenil raramente, por riesgo de convulsión en usuarios crónicos o con tricíclico.",
+          "Extrapiramidal (haloperidol, metoclopramida): distonía aguda, rigidez y crisis oculógira; biperideno o difenhidramina. Síndrome neuroléptico maligno: hipertermia, rigidez, inestabilidad autonómica y CPK alta; suspender el fármaco, enfriar, benzodiacepina, dantroleno o bromocriptina."
+        ]
+      },
+      {
+        "titulo": "Intoxicaciones específicas",
+        "paragrafos": [],
+        "itens": [
+          "Paracetamol: pocos síntomas al inicio y hepatotoxicidad en 24–72 horas. Riesgo por encima de 150 mg/kg. Nivel sérico desde las 4 horas en el nomograma de Rumack-Matthew; N-acetilcisteína, idealmente en hasta 8–10 horas.",
+          "Tricíclicos: anticolinérgico con QRS ensanchado (más de 100 ms), arritmias, hipotensión y convulsión. Bicarbonato de sodio.",
+          "Salicilatos: tinnitus, vómitos, taquipnea, alcalosis respiratoria con acidosis metabólica de anión gap aumentado. Bicarbonato (alcalinizar la orina) y hemodiálisis en los graves.",
+          "Otros antídotos: monóxido de carbono, oxígeno al 100 %; cianuro, hidroxocobalamina; metanol y etilenglicol, fomepizol o etanol y hemodiálisis; betabloqueante, glucagón; bloqueador de canales de calcio, calcio e insulina en dosis alta; digoxina, anticuerpo antidigoxina; warfarina, vitamina K (complejo protrombínico si sangra); heparina, protamina; metahemoglobinemia, azul de metileno; hierro, deferoxamina."
+        ]
+      },
+      {
+        "titulo": "Metales y exposiciones ocupacionales",
+        "paragrafos": [],
+        "itens": [
+          "Plomo (saturnismo: baterías, pinturas, reciclaje): dolor abdominal cólico, anemia con punteado basófilo, neuropatía motora (mano caída), línea gingival de Burton y alteración cognitiva. Diagnóstico por plomo sérico; alejar de la exposición y quelar (EDTA cálcico, DMSA) cuando esté indicado.",
+          "Mercurio (minería ilegal de oro, consumo de pescado de río contaminado): temblor, alteraciones neuropsiquiátricas, parestesias, ataxia y déficit visual. Diagnóstico por mercurio en sangre, orina o cabello; notificar y alejar de la fuente."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Piel seca y caliente con midriasis: anticolinérgico; piel húmeda con midriasis: simpaticomimético.",
+      "Miosis con secreciones y bradicardia: organofosforado, trate con atropina hasta secar.",
+      "El carbón activado no sirve para alcohol, hierro, litio ni cáusticos.",
+      "El paracetamol puede parecer leve al inicio: dose el nivel y dé N-acetilcisteína temprano.",
+      "El flumazenil de rutina está contraindicado."
+    ]
+  }
+}

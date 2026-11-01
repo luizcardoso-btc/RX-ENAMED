@@ -1,0 +1,143 @@
+{
+ "id": "sus-principios-diretrizes",
+ "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+ "especialidade": "SUS e políticas de saúde",
+ "modulo": "sus",
+ "mentor": "lia",
+ "duracaoMin": 10,
+ "revisao": "pendente",
+ "questoes": [
+  "revalida_2024-1_q005",
+  "revalida_2024-2_q010",
+  "revalida_2023-1_q090",
+  "revalida_2023-2_q005",
+  "revalida_2023-2_q075",
+  "revalida_2023-1_q100"
+ ],
+ "referencias": [
+  "Brasil. Constituição Federal de 1988, arts. 196 a 200.",
+  "Brasil. Lei nº 8.080, de 19 de setembro de 1990.",
+  "Brasil. Decreto nº 7.508, de 28 de junho de 2011.",
+  "Brasil. Ministério da Saúde. Portaria nº 2.436, de 21 de setembro de 2017 (Política Nacional de Atenção Básica)."
+ ],
+ "pt": {
+  "titulo": "Princípios e diretrizes do SUS, da Constituição à atenção básica",
+  "resumo": "Seis questões entre 2023 e 2024. A banca cobra a diferença entre princípios doutrinários e diretrizes organizativas, pede para reconhecer universalidade, equidade e integralidade em casos e gráficos, e testa a organização da atenção básica pela PNAB 2017.",
+  "secoes": [
+   {
+    "titulo": "Saúde como direito",
+    "paragrafos": [
+     "A Constituição de 1988 (art. 196) define a saúde como direito de todos e dever do Estado, garantido por políticas sociais e econômicas que reduzam o risco de doença e pelo acesso universal e igualitário às ações e serviços. A Lei 8.080/1990 organiza o SUS a partir daí."
+    ],
+    "itens": []
+   },
+   {
+    "titulo": "Princípios doutrinários",
+    "paragrafos": [
+     "São os valores do sistema. A prova costuma descrever uma situação e perguntar qual princípio ela expressa."
+    ],
+    "itens": [
+     "Universalidade: acesso a todos, sem exigência de contribuição ou vínculo.",
+     "Equidade: tratar desigualmente os desiguais, dando mais a quem precisa mais. Reduzir a diferença entre grupos é equidade.",
+     "Integralidade: ver a pessoa como um todo e articular promoção, prevenção, tratamento e reabilitação em todos os níveis."
+    ]
+   },
+   {
+    "titulo": "Diretrizes organizativas",
+    "paragrafos": [
+     "São a forma de organizar o sistema para cumprir os princípios."
+    ],
+    "itens": [
+     "Descentralização com direção única em cada esfera de governo, com ênfase na municipalização.",
+     "Regionalização e hierarquização: serviços organizados em níveis de complexidade, dentro de uma região de saúde (Decreto 7.508/2011).",
+     "Participação da comunidade: conselhos e conferências (Lei 8.142/1990).",
+     "Resolubilidade e complementaridade do setor privado, por contrato ou convênio, com preferência para entidades filantrópicas."
+    ]
+   },
+   {
+    "titulo": "Atenção básica pela PNAB 2017",
+    "paragrafos": [
+     "A atenção básica é a porta de entrada preferencial e a coordenadora do cuidado nas Redes de Atenção à Saúde."
+    ],
+    "itens": [
+     "Atributos essenciais (Starfield): acesso de primeiro contato, longitudinalidade, integralidade e coordenação do cuidado. Derivados: orientação familiar e comunitária e competência cultural.",
+     "Território adscrito dividido em microáreas, cada uma acompanhada por um agente comunitário de saúde.",
+     "A PNAB 2017 recomenda de 2.000 a 3.500 pessoas por equipe de Saúde da Família, conforme a vulnerabilidade do território.",
+     "O ACS cadastra as famílias, faz visitas domiciliares e identifica situações de risco. Não prescreve nem faz procedimentos privativos de outras profissões."
+    ]
+   },
+   {
+    "titulo": "Determinantes sociais",
+    "paragrafos": [
+     "O modelo de Dahlgren e Whitehead organiza os determinantes em camadas: características individuais no centro, depois estilo de vida, redes sociais e comunitárias, condições de vida e trabalho, e as condições socioeconômicas, culturais e ambientais gerais."
+    ],
+    "itens": []
+   }
+  ],
+  "pegadinhas": [
+   "Equidade não é igualdade: dar o mesmo a todos é igualdade; a banca considera equidade reduzir desigualdades.",
+   "Hierarquização é diretriz organizativa, não princípio doutrinário.",
+   "Participação social é diretriz da Lei 8.080 e regulamentada pela Lei 8.142; quem é paritário é o conselho, não a conferência."
+  ]
+ },
+ "es": {
+  "titulo": "Principios y directrices del SUS, de la Constitución a la atención básica",
+  "resumo": "Seis preguntas entre 2023 y 2024. El examen evalúa la diferencia entre principios doctrinarios y directrices organizativas, pide reconocer universalidad, equidad e integralidad en casos y gráficos, y prueba la organización de la atención básica según la PNAB 2017.",
+  "secoes": [
+   {
+    "titulo": "La salud como derecho",
+    "paragrafos": [
+     "La Constitución brasileña de 1988 (art. 196) define la salud como derecho de todos y deber del Estado, garantizado por políticas sociales y económicas que reduzcan el riesgo de enfermedad y por el acceso universal e igualitario a las acciones y servicios. La Ley 8.080/1990 organiza el SUS a partir de ahí."
+    ],
+    "itens": []
+   },
+   {
+    "titulo": "Principios doctrinarios",
+    "paragrafos": [
+     "Son los valores del sistema. El examen suele describir una situación y preguntar qué principio expresa."
+    ],
+    "itens": [
+     "Universalidad: acceso para todos, sin exigir contribución ni vínculo.",
+     "Equidad: tratar de forma desigual a los desiguales, dando más a quien más necesita. Reducir la diferencia entre grupos es equidad.",
+     "Integralidad: ver a la persona como un todo y articular promoción, prevención, tratamiento y rehabilitación en todos los niveles."
+    ]
+   },
+   {
+    "titulo": "Directrices organizativas",
+    "paragrafos": [
+     "Son la forma de organizar el sistema para cumplir los principios."
+    ],
+    "itens": [
+     "Descentralización con dirección única en cada esfera de gobierno, con énfasis en la municipalización.",
+     "Regionalización y jerarquización: servicios organizados en niveles de complejidad, dentro de una región de salud (Decreto 7.508/2011).",
+     "Participación de la comunidad: consejos y conferencias (Ley 8.142/1990).",
+     "Resolutividad y complementariedad del sector privado, por contrato o convenio, con preferencia para entidades filantrópicas."
+    ]
+   },
+   {
+    "titulo": "Atención básica según la PNAB 2017",
+    "paragrafos": [
+     "La atención básica es la puerta de entrada preferente y la coordinadora del cuidado en las Redes de Atención a la Salud."
+    ],
+    "itens": [
+     "Atributos esenciales (Starfield): acceso de primer contacto, longitudinalidad, integralidad y coordinación del cuidado. Derivados: orientación familiar y comunitaria y competencia cultural.",
+     "Territorio adscrito dividido en microáreas, cada una acompañada por un agente comunitario de salud.",
+     "La PNAB 2017 recomienda de 2.000 a 3.500 personas por equipo de Salud de la Familia, según la vulnerabilidad del territorio.",
+     "El ACS registra a las familias, hace visitas domiciliarias e identifica situaciones de riesgo. No prescribe ni realiza procedimientos exclusivos de otras profesiones."
+    ]
+   },
+   {
+    "titulo": "Determinantes sociales",
+    "paragrafos": [
+     "El modelo de Dahlgren y Whitehead organiza los determinantes en capas: características individuales en el centro, luego estilo de vida, redes sociales y comunitarias, condiciones de vida y trabajo, y las condiciones socioeconómicas, culturales y ambientales generales."
+    ],
+    "itens": []
+   }
+  ],
+  "pegadinhas": [
+   "Equidad no es igualdad: dar lo mismo a todos es igualdad; el examen considera equidad reducir desigualdades.",
+   "La jerarquización es una directriz organizativa, no un principio doctrinario.",
+   "La participación social es directriz de la Ley 8.080 y está regulada por la Ley 8.142; el que es paritario es el consejo, no la conferencia."
+  ]
+ }
+}

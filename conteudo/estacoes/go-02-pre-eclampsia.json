@@ -1,0 +1,78 @@
+{
+  "id": "go-02-pre-eclampsia",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "titulo": "Gestante com cefaleia na maternidade",
+  "tema": "Pré-eclâmpsia com sinais de gravidade",
+  "mentor": "marina",
+  "duracaoMin": 10,
+  "cenario": "Pronto atendimento obstétrico de maternidade de referência com UTI neonatal. Há sulfato de magnésio, hidralazina, nifedipina, cardiotocografia e laboratório.",
+  "tarefas": [
+    "Realize a anamnese dirigida.",
+    "Solicite o exame físico e os exames complementares.",
+    "Formule o diagnóstico.",
+    "Prescreva a conduta inicial com doses."
+  ],
+  "paciente": {
+    "nome": "Fernanda Oliveira",
+    "idade": 30,
+    "sexo": "feminino",
+    "ocupacao": "professora do ensino fundamental",
+    "perfil": "Com dor de cabeça forte, incomodada com a luz, assustada. Pede para não ser internada porque tem um filho de 4 anos em casa.",
+    "abertura": "Doutora, tô com uma dor de cabeça horrível desde a manhã e a vista tá com uns pontinhos brilhando.",
+    "roteiro": [
+      {"topico": "Idade gestacional", "resposta": "Estou com 32 semanas, pelo ultrassom de 10 semanas."},
+      {"topico": "Cefaleia", "resposta": "Começou hoje cedo, na frente da cabeça, latejando. Tomei paracetamol e não passou."},
+      {"topico": "Alterações visuais", "resposta": "Vejo uns pontinhos brilhantes e a vista meio embaçada."},
+      {"topico": "Dor abdominal", "resposta": "Tô com uma dor aqui em cima da barriga, do lado direito, desde a tarde."},
+      {"topico": "Edema e ganho de peso", "resposta": "Inchei muito o rosto e as mãos nesta semana. A aliança não entra mais."},
+      {"topico": "Movimentação fetal", "resposta": "O bebê está mexendo normal."},
+      {"topico": "Sangramento e perda de líquido", "resposta": "Não tive sangramento nem perdi líquido. Sem contração."},
+      {"topico": "Pré-natal", "resposta": "Fiz tudo certinho. Na última consulta, semana passada, a pressão deu 140 por 90 e pediram exame de urina de 24 horas."},
+      {"topico": "Gestação anterior", "resposta": "Tenho um filho de 4 anos, parto normal, sem problema de pressão."},
+      {"topico": "Doenças e medicamentos", "resposta": "Não tinha pressão alta antes da gravidez. Tomo sulfato ferroso. Sem alergias."}
+    ],
+    "perguntasDoPaciente": ["Preciso mesmo ficar internada?", "Meu bebê vai nascer agora? Ele é muito pequeno."],
+    "seNaoSouber": "Diga que não sabe."
+  },
+  "exameFisico": [
+    {"item": "Pressão arterial", "achado": "170 x 112 mmHg, confirmada após 15 minutos em repouso: 168 x 110 mmHg."},
+    {"item": "Sinais vitais", "achado": "FC 92 bpm, FR 18 irpm, SatO2 97%, temperatura 36,6 °C."},
+    {"item": "Exame geral", "achado": "Consciente, orientada, edema de face e de mãos, edema de membros inferiores 2+/4+."},
+    {"item": "Abdome e exame obstétrico", "achado": "Dor à palpação em epigástrio e hipocôndrio direito. Altura uterina 30 cm, útero sem contrações. BCF 140 bpm."},
+    {"item": "Neurológico", "achado": "Reflexos patelares vivos e simétricos, sem déficits focais."},
+    {"item": "Toque vaginal", "achado": "Colo grosso, posterior, impérvio."}
+  ],
+  "exames": [
+    {"item": "Proteinúria", "resultado": "Proteinúria de 24 horas da semana passada: 850 mg. Relação proteína/creatinina hoje: 0,9."},
+    {"item": "Hemograma", "resultado": "Hemoglobina 11,8 g/dL, plaquetas 128.000/mm³."},
+    {"item": "Função hepática e hemólise", "resultado": "TGO 62 U/L, TGP 58 U/L, LDH 480 U/L, bilirrubina total 0,9 mg/dL."},
+    {"item": "Função renal", "resultado": "Creatinina 0,9 mg/dL, ácido úrico 6,8 mg/dL."},
+    {"item": "Cardiotocografia", "resultado": "Categoria I: linha de base 140 bpm, variabilidade moderada, acelerações presentes, sem desacelerações."}
+  ],
+  "diagnostico": "Pré-eclâmpsia com sinais de gravidade (crise hipertensiva e sintomas de iminência de eclâmpsia: cefaleia, escotomas e dor epigástrica) em gestação de 32 semanas, sem HELLP completa.",
+  "condutaEsperada": [
+    "Internação, decúbito lateral, acesso venoso, sonda vesical para controle de diurese.",
+    "Sulfato de magnésio para prevenção de eclâmpsia: esquema de Zuspan (4 g IV em 10 a 20 minutos, depois 1 g/h em bomba de infusão) ou Pritchard.",
+    "Monitorar sinais de intoxicação: reflexo patelar presente, FR maior que 16 irpm, diurese maior que 25 mL/h; antídoto gluconato de cálcio 10% (1 g IV).",
+    "Anti-hipertensivo para PA maior ou igual a 160 x 110 mmHg: hidralazina 5 mg IV (repetir a cada 20 minutos) ou nifedipina 10 mg VO, com meta de PA entre 140-150 x 90-100 mmHg.",
+    "Corticoide para maturidade pulmonar fetal (betametasona 12 mg IM, duas doses com 24 horas de intervalo) por ser menor que 34 semanas.",
+    "Exames para HELLP, avaliação da vitalidade fetal e decisão sobre o momento e a via do parto após a estabilização materna, em centro com UTI neonatal."
+  ],
+  "pep": [
+    {"id": "apresentacao", "item": "Apresenta-se e acolhe a paciente.", "peso": 0.5},
+    {"id": "ig", "item": "Confirma a idade gestacional.", "peso": 0.5},
+    {"id": "sinais-gravidade", "item": "Pergunta sintomas de gravidade: cefaleia, alterações visuais, dor epigástrica ou em hipocôndrio direito.", "peso": 1.5},
+    {"id": "vitalidade", "item": "Pergunta movimentação fetal, perdas vaginais e contrações.", "peso": 0.5},
+    {"id": "pa", "item": "Solicita e confirma a aferição da pressão arterial e o exame físico com reflexos.", "peso": 1},
+    {"id": "exames", "item": "Solicita exames de gravidade (hemograma com plaquetas, TGO/TGP, LDH, bilirrubinas, creatinina, proteinúria) e avaliação fetal.", "peso": 1},
+    {"id": "diagnostico", "item": "Diagnostica pré-eclâmpsia com sinais de gravidade (iminência de eclâmpsia).", "peso": 1.5},
+    {"id": "sulfato", "item": "Prescreve sulfato de magnésio com dose de ataque e de manutenção corretas e cuidados de monitorização.", "peso": 1.5},
+    {"id": "anti-hipertensivo", "item": "Prescreve anti-hipertensivo de ação rápida com dose correta (hidralazina ou nifedipina).", "peso": 1},
+    {"id": "corticoide-parto", "item": "Indica corticoide antenatal e discute a resolução da gestação após estabilização.", "peso": 1}
+  ],
+  "referencias": [
+    "Manual de Gestação de Alto Risco, Ministério da Saúde, 2022",
+    "Protocolo da Rede Brasileira de Estudos sobre Hipertensão na Gravidez (RBEHG)"
+  ]
+}

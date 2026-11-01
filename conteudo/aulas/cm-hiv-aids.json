@@ -1,0 +1,160 @@
+{
+  "id": "cm-hiv-aids",
+  "area": "Clínica Médica",
+  "especialidade": "Infectologia",
+  "mentor": "caio",
+  "duracaoMin": 15,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2022-1_q055",
+    "revalida_2022-1_q064",
+    "revalida_2022-1_q049",
+    "revalida_2024-1_q071"
+  ],
+  "referencias": [
+    "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos, 2024.",
+    "Ministério da Saúde. PCDT para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais, 2022.",
+    "Ministério da Saúde. PCDT para Profilaxia Pré-Exposição (PrEP) e Pós-Exposição (PEP) ao HIV, 2022–2024.",
+    "Ministério da Saúde. Manual Técnico para o Diagnóstico da Infecção pelo HIV em Adultos e Crianças, 2018 (atualizações)."
+  ],
+  "pt": {
+    "titulo": "HIV/aids: diagnóstico, TARV, infecções oportunistas, gestante e profilaxias",
+    "resumo": "Cai em várias áreas: diagnóstico com dois testes, esquema inicial TDF + 3TC + DTG, coinfecção com tuberculose, infecções oportunistas pelo CD4, via de parto da gestante e PrEP e PEP.",
+    "secoes": [
+      {
+        "titulo": "Transmissão e diagnóstico",
+        "paragrafos": [
+          "O HIV infecta principalmente linfócitos T CD4+. Transmite-se por via sexual, sanguínea (agulhas, acidentes) e vertical (gestação, parto e amamentação). Carga viral alta e outras ISTs aumentam o risco."
+        ],
+        "itens": [
+          "Adulto: o diagnóstico exige dois testes diferentes reagentes, como dois testes rápidos de fabricantes distintos, ou imunoensaio seguido de teste complementar (carga viral, Western blot ou imunoblot).",
+          "Janela imunológica: um teste não reagente logo após exposição de risco deve ser repetido em 30 dias.",
+          "Criança exposta com menos de 18 meses: os anticorpos maternos atravessam a placenta, então a sorologia não serve. Usa-se carga viral (ou DNA pró-viral): duas cargas detectáveis confirmam a infecção. Aos 18 meses, a sorologia documenta a sororreversão."
+        ]
+      },
+      {
+        "titulo": "Tratamento antirretroviral (TARV)",
+        "paragrafos": [
+          "Todo diagnóstico tem indicação de TARV, idealmente em até 7 dias, até no mesmo dia, independentemente do CD4."
+        ],
+        "itens": [
+          "Esquema inicial de adultos e gestantes: tenofovir (TDF) + lamivudina (3TC) + dolutegravir (DTG).",
+          "CD4 mede a imunidade e o risco de oportunistas; carga viral mede a resposta à TARV. A meta é carga indetectável, o que torna a transmissão sexual nula (indetectável = intransmissível).",
+          "Coinfecção com tuberculose: iniciar o tratamento da TB primeiro e a TARV em até 2 semanas (na meningite tuberculosa, após 4 a 8 semanas). Com rifampicina, o dolutegravir passa a 50 mg de 12/12 horas.",
+          "Toda pessoa com tuberculose deve fazer teste de HIV, e toda pessoa com HIV deve ser rastreada para tuberculose em cada consulta."
+        ]
+      },
+      {
+        "titulo": "Infecções oportunistas pelo CD4",
+        "paragrafos": [
+          "Aids é definida por CD4 abaixo de 200 células/mm³ ou por doença definidora: pneumocistose, candidíase esofágica, neurotoxoplasmose, criptococose extrapulmonar, tuberculose extrapulmonar, sarcoma de Kaposi, linfoma não Hodgkin, retinite por CMV e câncer de colo invasivo, entre outras."
+        ],
+        "itens": [
+          "Tuberculose: ocorre com qualquer CD4, frequentemente com formas atípicas e extrapulmonares.",
+          "Pneumocistose (CD4 abaixo de 200): tosse seca, dispneia progressiva, hipoxemia aos esforços e infiltrado intersticial bilateral. Sulfametoxazol-trimetoprima por 21 dias, mais prednisona se PaO2 abaixo de 70 mmHg. Profilaxia com SMX-TMP quando CD4 abaixo de 200.",
+          "Neurotoxoplasmose (CD4 abaixo de 100): cefaleia, déficit focal, convulsão. Tomografia com contraste mostra lesões hipodensas com realce em anel e edema, geralmente múltiplas e nos núcleos da base. Tratamento empírico com sulfadiazina + pirimetamina + ácido folínico; sem melhora em 10 a 14 dias, pensar em linfoma.",
+          "Criptococose (CD4 abaixo de 100): meningite subaguda com hipertensão intracraniana. Tinta da China e antígeno criptocócico no líquor. Anfotericina B + flucitosina; punções de alívio; TARV adiada 4 a 6 semanas.",
+          "Retinite por CMV (CD4 abaixo de 50): perda visual, retina com hemorragias e exsudatos."
+        ]
+      },
+      {
+        "titulo": "Gestante e criança exposta",
+        "paragrafos": [],
+        "itens": [
+          "Testagem no 1º trimestre, no 3º trimestre e no parto. A TARV com TDF + 3TC + DTG serve em qualquer idade gestacional.",
+          "Via de parto pela carga viral a partir de 34 semanas: abaixo de 1.000 cópias/mL, via obstétrica; 1.000 ou mais, ou desconhecida, cesárea eletiva com 38 semanas.",
+          "AZT intravenoso no parto quando a carga viral é de 1.000 cópias/mL ou mais, ou desconhecida.",
+          "Amamentação contraindicada no Brasil: inibir a lactação com cabergolina e oferecer fórmula. O recém-nascido recebe profilaxia antirretroviral nas primeiras horas, e SMX-TMP a partir de 4 semanas até afastar a infecção.",
+          "Planejamento reprodutivo: dupla proteção, com preservativo associado a um método de alta eficácia."
+        ]
+      },
+      {
+        "titulo": "Prevenção: PrEP e PEP",
+        "paragrafos": [],
+        "itens": [
+          "PrEP: para pessoas a partir de 15 anos e 35 kg com risco aumentado (parceria sorodiferente sem carga indetectável, sexo sem preservativo, ISTs repetidas, uso repetido de PEP). Tenofovir + entricitabina (TDF/FTC 300/200 mg) diário e contínuo. Protege após 7 dias na exposição anal e 20 dias na vaginal. Existe esquema sob demanda (2 + 1 + 1) para quem tem exposição só anal.",
+          "PEP: exposição de risco a material biológico (sexual, acidente com perfurocortante, violência sexual). Iniciar o quanto antes, idealmente em 2 horas e no máximo em 72 horas. TDF + 3TC + DTG por 28 dias.",
+          "Se a pessoa-fonte tiver teste rápido não reagente (e sem risco de janela), a PEP não é necessária.",
+          "Acompanhamento: teste de HIV na exposição, aos 30 e aos 90 dias."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Um só teste reagente não fecha diagnóstico: são dois testes diferentes.",
+      "Abaixo de 18 meses, o diagnóstico é por carga viral, não por sorologia.",
+      "Na tuberculose, trate a TB primeiro e inicie a TARV em até 2 semanas; na meningite tuberculosa e na criptococose, espere mais.",
+      "PEP depois de 72 horas não é indicada.",
+      "Gestante com carga viral abaixo de 1.000 cópias pode ter parto vaginal."
+    ]
+  },
+  "es": {
+    "titulo": "VIH/sida: diagnóstico, TAR, infecciones oportunistas, gestante y profilaxis",
+    "resumo": "Aparece en varias áreas: diagnóstico con dos pruebas, esquema inicial TDF + 3TC + DTG, coinfección con tuberculosis, infecciones oportunistas según el CD4, vía de parto de la gestante y PrEP y PEP.",
+    "secoes": [
+      {
+        "titulo": "Transmisión y diagnóstico",
+        "paragrafos": [
+          "El VIH infecta principalmente linfocitos T CD4+. Se transmite por vía sexual, sanguínea (agujas, accidentes) y vertical (embarazo, parto y lactancia). La carga viral alta y otras ITS aumentan el riesgo."
+        ],
+        "itens": [
+          "Adulto: el diagnóstico exige dos pruebas diferentes reactivas, como dos pruebas rápidas de fabricantes distintos, o inmunoensayo seguido de prueba complementaria (carga viral, Western blot o inmunoblot).",
+          "Período de ventana: una prueba no reactiva poco después de una exposición de riesgo debe repetirse en 30 días.",
+          "Niño expuesto menor de 18 meses: los anticuerpos maternos atraviesan la placenta, así que la serología no sirve. Se usa carga viral (o ADN proviral): dos cargas detectables confirman la infección. A los 18 meses, la serología documenta la serorreversión."
+        ]
+      },
+      {
+        "titulo": "Tratamiento antirretroviral (TAR)",
+        "paragrafos": [
+          "Todo diagnóstico tiene indicación de TAR, idealmente en hasta 7 días, incluso el mismo día, independientemente del CD4."
+        ],
+        "itens": [
+          "Esquema inicial de adultos y gestantes: tenofovir (TDF) + lamivudina (3TC) + dolutegravir (DTG).",
+          "El CD4 mide la inmunidad y el riesgo de oportunistas; la carga viral mide la respuesta a la TAR. La meta es carga indetectable, lo que anula la transmisión sexual (indetectable = intransmisible).",
+          "Coinfección con tuberculosis: iniciar primero el tratamiento de la TB y la TAR en hasta 2 semanas (en la meningitis tuberculosa, después de 4 a 8 semanas). Con rifampicina, el dolutegravir pasa a 50 mg cada 12 horas.",
+          "Toda persona con tuberculosis debe hacerse la prueba de VIH, y toda persona con VIH debe ser tamizada para tuberculosis en cada consulta."
+        ]
+      },
+      {
+        "titulo": "Infecciones oportunistas según el CD4",
+        "paragrafos": [
+          "El sida se define por CD4 por debajo de 200 células/mm³ o por enfermedad definitoria: neumocistosis, candidiasis esofágica, neurotoxoplasmosis, criptococosis extrapulmonar, tuberculosis extrapulmonar, sarcoma de Kaposi, linfoma no Hodgkin, retinitis por CMV y cáncer de cuello uterino invasivo, entre otras."
+        ],
+        "itens": [
+          "Tuberculosis: ocurre con cualquier CD4, frecuentemente con formas atípicas y extrapulmonares.",
+          "Neumocistosis (CD4 menor de 200): tos seca, disnea progresiva, hipoxemia al esfuerzo e infiltrado intersticial bilateral. Sulfametoxazol-trimetoprima por 21 días, más prednisona si la PaO2 es menor de 70 mmHg. Profilaxis con SMX-TMP cuando el CD4 es menor de 200.",
+          "Neurotoxoplasmosis (CD4 menor de 100): cefalea, déficit focal, convulsión. La tomografía con contraste muestra lesiones hipodensas con realce en anillo y edema, generalmente múltiples y en los ganglios basales. Tratamiento empírico con sulfadiazina + pirimetamina + ácido folínico; sin mejoría en 10 a 14 días, pensar en linfoma.",
+          "Criptococosis (CD4 menor de 100): meningitis subaguda con hipertensión intracraneal. Tinta china y antígeno criptocócico en el líquido cefalorraquídeo. Anfotericina B + flucitosina; punciones de alivio; TAR diferida 4 a 6 semanas.",
+          "Retinitis por CMV (CD4 menor de 50): pérdida visual, retina con hemorragias y exudados."
+        ]
+      },
+      {
+        "titulo": "Gestante y niño expuesto",
+        "paragrafos": [],
+        "itens": [
+          "Prueba en el 1.er trimestre, en el 3.er trimestre y en el parto. La TAR con TDF + 3TC + DTG sirve en cualquier edad gestacional.",
+          "Vía de parto según la carga viral desde las 34 semanas: menos de 1000 copias/mL, vía obstétrica; 1000 o más, o desconocida, cesárea electiva a las 38 semanas.",
+          "AZT intravenoso en el parto cuando la carga viral es de 1000 copias/mL o más, o desconocida.",
+          "Lactancia contraindicada en Brasil: inhibir la lactancia con cabergolina y ofrecer fórmula. El recién nacido recibe profilaxis antirretroviral en las primeras horas, y SMX-TMP desde las 4 semanas hasta descartar la infección.",
+          "Planificación reproductiva: doble protección, con preservativo asociado a un método de alta eficacia."
+        ]
+      },
+      {
+        "titulo": "Prevención: PrEP y PEP",
+        "paragrafos": [],
+        "itens": [
+          "PrEP: para personas desde 15 años y 35 kg con riesgo aumentado (pareja serodiscordante sin carga indetectable, sexo sin preservativo, ITS repetidas, uso repetido de PEP). Tenofovir + emtricitabina (TDF/FTC 300/200 mg) diario y continuo. Protege después de 7 días en la exposición anal y 20 días en la vaginal. Existe un esquema a demanda (2 + 1 + 1) para quien tiene exposición solo anal.",
+          "PEP: exposición de riesgo a material biológico (sexual, accidente punzocortante, violencia sexual). Iniciar cuanto antes, idealmente en 2 horas y como máximo en 72 horas. TDF + 3TC + DTG por 28 días.",
+          "Si la persona fuente tiene prueba rápida no reactiva (y sin riesgo de ventana), la PEP no es necesaria.",
+          "Seguimiento: prueba de VIH en la exposición, a los 30 y a los 90 días."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Una sola prueba reactiva no cierra el diagnóstico: son dos pruebas diferentes.",
+      "Por debajo de 18 meses, el diagnóstico es por carga viral, no por serología.",
+      "En la tuberculosis, trate primero la TB e inicie la TAR en hasta 2 semanas; en la meningitis tuberculosa y en la criptococosis, espere más.",
+      "La PEP después de 72 horas no está indicada.",
+      "La gestante con carga viral menor de 1000 copias puede tener parto vaginal."
+    ]
+  }
+}

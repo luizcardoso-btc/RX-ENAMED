@@ -1,0 +1,701 @@
+id;especialidade;tema;tipo
+revalida_2024-1_q001;Infectologia;ITU baixa (cistite) não complicada;Diagnóstico + conduta
+revalida_2024-1_q002;Trauma;Trauma urológico – lesão de uretra na fratura de pelve;Exame complementar
+revalida_2024-1_q003;Oftalmologia;Nistagmo no lactente / teste do olhinho;Diagnóstico + conduta
+revalida_2024-1_q004;Obstetrícia;Abortamento em evolução;Diagnóstico + conduta
+revalida_2024-1_q005;SUS e políticas de saúde;Princípios do SUS – integralidade;Legislação/política
+revalida_2024-1_q006;Imunização;Vacinação do adulto e idoso;Conduta
+revalida_2024-1_q007;Pré e pós-operatório;Febre no pós-operatório;Diagnóstico
+revalida_2024-1_q008;Neurologia pediátrica;Convulsão febril;Diagnóstico + conduta
+revalida_2024-1_q009;Mastologia;BI-RADS 4 – microcalcificações;Conduta
+revalida_2024-1_q010;Cardiologia;Emergência hipertensiva na APS;Conduta
+revalida_2024-1_q011;Endocrinologia;Doença de Graves – diagnóstico laboratorial;Exame complementar
+revalida_2024-1_q012;Urologia;Tumor de testículo;Diagnóstico + conduta
+revalida_2024-1_q013;Cirurgia pediátrica;Doença de Hirschsprung;Conduta
+revalida_2024-1_q014;Obstetrícia;Pré-natal – análise da caderneta da gestante;Interpretação de dados
+revalida_2024-1_q015;Dermatologia;Tungíase;Diagnóstico + conduta
+revalida_2024-1_q016;Neurologia;Migrânea com aura;Diagnóstico + conduta
+revalida_2024-1_q017;Otorrinolaringologia;Otite média aguda;Diagnóstico + conduta
+revalida_2024-1_q018;Neonatologia;Desconforto respiratório neonatal;Conduta
+revalida_2024-1_q019;Obstetrícia;Gestação pós-termo e vitalidade fetal;Conduta
+revalida_2024-1_q020;Puericultura;Avaliação antropométrica – escore-z e obesidade infantil;Interpretação de dados
+revalida_2024-1_q021;Neurologia;Síndrome de Guillain-Barré;Diagnóstico
+revalida_2024-1_q022;Vascular;Pé diabético – úlcera neuropática;Conduta
+revalida_2024-1_q023;Cirurgia pediátrica;Estenose hipertrófica de piloro;Conduta
+revalida_2024-1_q024;Obstetrícia;Pré-eclâmpsia;Diagnóstico + conduta
+revalida_2024-1_q025;Vigilância em saúde;Cólera – manejo e notificação;Conduta
+revalida_2024-1_q026;Emergência clínica;PCR – suporte básico de vida;Conduta
+revalida_2024-1_q027;Trauma;Trauma torácico – hemotórax maciço;Conduta
+revalida_2024-1_q028;Imunização;Vacinação da criança imunossuprimida;Conduta
+revalida_2024-1_q029;Obstetrícia;Hipotireoidismo na gestação;Conceito/teoria
+revalida_2024-1_q030;Promoção da saúde;Tabagismo – estratégias populacionais em adolescentes;Legislação/política
+revalida_2024-1_q031;Hematologia;Anemia por intoxicação por chumbo (saturnismo);Exame complementar
+revalida_2024-1_q032;Queimaduras;Profilaxia do tétano no queimado;Conduta
+revalida_2024-1_q033;Neonatologia;Lesões de pele do RN – eritema tóxico;Diagnóstico
+revalida_2024-1_q034;Obstetrícia;Toxoplasmose na gestação;Conduta
+revalida_2024-1_q035;Infectologia;Esquistossomose mansônica;Exame complementar
+revalida_2024-1_q036;Infectologia;Leptospirose;Diagnóstico
+revalida_2024-1_q037;Trauma;Trauma pediátrico – acesso venoso e reposição volêmica;Conduta
+revalida_2024-1_q038;Infectologia pediátrica;Sífilis congênita;Diagnóstico + conduta
+revalida_2024-1_q039;Oncologia ginecológica;Sangramento pós-menopausa – câncer de endométrio;Conduta
+revalida_2024-1_q040;Obstetrícia;Pré-natal de baixo risco – sífilis, anemia e Rh;Conduta
+revalida_2024-1_q041;Gastroenterologia;Síndrome do intestino irritável;Diagnóstico
+revalida_2024-1_q042;Urologia;Câncer de pênis;Conduta
+revalida_2024-1_q043;Gastroenterologia pediátrica;Desidratação grave – plano C;Conduta
+revalida_2024-1_q044;Ginecologia;Doença inflamatória pélvica;Diagnóstico
+revalida_2024-1_q045;Pneumologia;Pneumonia adquirida na comunidade no idoso;Conduta
+revalida_2024-1_q046;Infectologia;Tuberculose pulmonar – tratamento empírico;Conduta
+revalida_2024-1_q047;Abdome agudo;Apendicite aguda;Conduta
+revalida_2024-1_q048;Reumatologia pediátrica;Doença de Kawasaki;Diagnóstico
+revalida_2024-1_q049;Obstetrícia;Estreptococo do grupo B – profilaxia intraparto;Conduta
+revalida_2024-1_q050;Ética e medicina legal;Declaração de óbito;Legislação/política
+revalida_2024-1_q051;Dermatologia;Hanseníase – reação tipo 2;Diagnóstico
+revalida_2024-1_q052;Urologia;Tumor de bexiga;Exame complementar
+revalida_2024-1_q053;Genética;Síndrome de Down – seguimento;Conduta
+revalida_2024-1_q054;Ética e medicina legal;Autonomia e sigilo da paciente idosa;Conduta
+revalida_2024-1_q055;Populações específicas;Saúde indígena – DSEI;Legislação/política
+revalida_2024-1_q056;Psiquiatria;Anorexia nervosa;Diagnóstico + conduta
+revalida_2024-1_q057;Ortopedia;Osteomielite;Exame complementar
+revalida_2024-1_q058;Endocrinologia pediátrica;Cetoacidose diabética;Conceito/teoria
+revalida_2024-1_q059;Climatério;Terapia hormonal da menopausa;Conduta
+revalida_2024-1_q060;Epidemiologia;Valor preditivo positivo;Cálculo
+revalida_2024-1_q061;Psiquiatria;Depressão com ataques de pânico;Diagnóstico
+revalida_2024-1_q062;Cirurgia torácica;Nódulo pulmonar solitário;Conduta
+revalida_2024-1_q063;Pneumologia pediátrica;Bronquiolite viral aguda;Conduta
+revalida_2024-1_q064;Ginecologia endócrina;Amenorreia secundária – SOP;Diagnóstico
+revalida_2024-1_q065;Populações específicas;Saúde indígena – interculturalidade;Conduta
+revalida_2024-1_q066;Cardiologia;Flutter atrial;Conduta
+revalida_2024-1_q067;Abdome agudo;Doença biliar – exame de imagem;Exame complementar
+revalida_2024-1_q068;Neonatologia;Triagem neonatal – traço falciforme;Conduta
+revalida_2024-1_q069;Obstetrícia;Cardiotocografia;Interpretação de dados
+revalida_2024-1_q070;Planejamento familiar;DIU;Conceito/teoria
+revalida_2024-1_q071;Neurologia;Hipertensão intracraniana – neuroimagem;Exame complementar
+revalida_2024-1_q072;Pré e pós-operatório;Antibioticoprofilaxia cirúrgica;Conduta
+revalida_2024-1_q073;Dermatologia pediátrica;Dermatite atópica;Diagnóstico
+revalida_2024-1_q074;Obstetrícia;Parto instrumentado – fórceps;Conduta
+revalida_2024-1_q075;Epidemiologia;Desenhos de estudo – estudo transversal;Conceito/teoria
+revalida_2024-1_q076;Dermatologia;Farmacodermia;Diagnóstico + conduta
+revalida_2024-1_q077;Gastroenterologia;Pancreatite crônica;Diagnóstico + conduta
+revalida_2024-1_q078;Reumatologia pediátrica;Vasculite por IgA (Henoch-Schönlein);Diagnóstico
+revalida_2024-1_q079;Obstetrícia;Mastite puerperal;Diagnóstico + conduta
+revalida_2024-1_q080;Imunização;Vacina meningocócica – calendário;Conceito/teoria
+revalida_2024-1_q081;Cardiologia;Comunicação interatrial;Diagnóstico
+revalida_2024-1_q082;Oftalmologia;Queimadura química ocular;Conduta
+revalida_2024-1_q083;Neonatologia;Conjuntivite neonatal gonocócica;Diagnóstico + conduta
+revalida_2024-1_q084;Oncologia ginecológica;Lesão vulvar – investigação;Exame complementar
+revalida_2024-1_q085;Infectologia;Tuberculose na população em situação de rua;Conduta
+revalida_2024-1_q086;Cardiologia;Encefalopatia hipertensiva;Diagnóstico
+revalida_2024-1_q087;Coloproctologia;Retocolite ulcerativa;Diagnóstico
+revalida_2024-1_q088;Pneumologia pediátrica;Laringotraqueíte viral (crupe);Conduta
+revalida_2024-1_q089;Oncologia ginecológica;Rastreamento do câncer de colo – LSIL;Conduta
+revalida_2024-1_q090;Ginecologia;Sangramento uterino anormal;Conceito/teoria
+revalida_2024-1_q091;Cardiologia;Tamponamento cardíaco;Conduta
+revalida_2024-1_q092;Abdome agudo;Diverticulite aguda complicada;Diagnóstico + conduta
+revalida_2024-1_q093;Desenvolvimento infantil;Transtornos de aprendizagem;Conduta
+revalida_2024-1_q094;Mastologia;Rastreamento do câncer de mama;Conduta
+revalida_2024-1_q095;Infectologia pediátrica;Dengue e otite – prova do laço;Conduta
+revalida_2024-1_q096;Gastroenterologia;Diarreia crônica sanguinolenta – DII;Exame complementar
+revalida_2024-1_q097;Trauma;Trauma raquimedular – nível de lesão;Diagnóstico
+revalida_2024-1_q098;Desenvolvimento infantil;Sinais de alerta para TEA;Conduta
+revalida_2024-1_q099;Oncologia ginecológica;Massa anexial – critérios de malignidade;Conceito/teoria
+revalida_2024-1_q100;Psiquiatria;Uso nocivo de álcool;Diagnóstico
+revalida_2024-2_q001;Urologia;Litíase renal – cólica nefrética;Diagnóstico + conduta
+revalida_2024-2_q002;Vascular;Insuficiência venosa crônica – úlcera venosa;Conduta
+revalida_2024-2_q003;Emergência pediátrica;PCR – suporte avançado de vida;Conduta
+revalida_2024-2_q004;Obstetrícia;Manobras de Leopold – estática fetal;Conceito/teoria
+revalida_2024-2_q005;SUS e políticas de saúde;Lei 8.142 – financiamento do SUS;Legislação/política
+revalida_2024-2_q006;Neurologia;Neuropatia periférica / lombociatalgia;Diagnóstico
+revalida_2024-2_q007;Urologia;Carcinoma de células renais;Diagnóstico
+revalida_2024-2_q008;Neonatologia;Hipoglicemia neonatal – filho de mãe diabética;Conduta
+revalida_2024-2_q009;Climatério;Terapia hormonal na histerectomizada;Conduta
+revalida_2024-2_q010;SUS e políticas de saúde;Princípios do SUS – universalidade e equidade;Interpretação de dados
+revalida_2024-2_q011;Cardiologia;Fibrilação atrial;Conduta
+revalida_2024-2_q012;Pré e pós-operatório;Antibioticoprofilaxia – cirurgia limpa;Conceito/teoria
+revalida_2024-2_q013;Infectologia pediátrica;Faringoamigdalite estreptocócica;Conduta
+revalida_2024-2_q014;Planejamento familiar;Laqueadura – lei do planejamento familiar;Legislação/política
+revalida_2024-2_q015;Dermatologia;Tungíase;Conduta
+revalida_2024-2_q016;Trauma;TCE – hipertensão intracraniana (tríade de Cushing);Diagnóstico
+revalida_2024-2_q017;Queimaduras;Classificação e reposição volêmica no queimado;Cálculo
+revalida_2024-2_q018;Infectologia pediátrica;Dengue – prova do laço;Conceito/teoria
+revalida_2024-2_q019;Obstetrícia;Fórceps – pré-requisitos;Conceito/teoria
+revalida_2024-2_q020;Vigilância em saúde;Cólera – notificação e controle;Conduta
+revalida_2024-2_q021;Gastroenterologia;Megaesôfago chagásico;Exame complementar
+revalida_2024-2_q022;Cirurgia do aparelho digestivo;Fístula enterocutânea pós-operatória;Conduta
+revalida_2024-2_q023;Hematologia pediátrica;Deficiência de G6PD;Diagnóstico
+revalida_2024-2_q024;Obstetrícia;Hipotireoidismo na gestação;Conduta
+revalida_2024-2_q025;Ética e medicina legal;Declaração de óbito;Legislação/política
+revalida_2024-2_q026;Neurologia;Fraqueza de membros inferiores no idoso – compressão medular;Exame complementar
+revalida_2024-2_q027;Ortopedia;Hérnia de disco lombar;Conduta
+revalida_2024-2_q028;Hematologia pediátrica;Reação transfusional febril não hemolítica;Diagnóstico
+revalida_2024-2_q029;Obstetrícia;Crescimento fetal – avaliação ultrassonográfica;Conceito/teoria
+revalida_2024-2_q030;SUS e políticas de saúde;Participação social – conselhos de saúde;Legislação/política
+revalida_2024-2_q031;Pneumologia;Nódulo pulmonar – investigação;Exame complementar
+revalida_2024-2_q032;Pré e pós-operatório;Febre no pós-operatório;Exame complementar
+revalida_2024-2_q033;Cirurgia pediátrica;Torção testicular;Conduta
+revalida_2024-2_q034;Oncologia ginecológica;Rastreamento do câncer de colo – AGC (células glandulares atípicas);Conduta
+revalida_2024-2_q035;Prevenção e rastreamento;Níveis de prevenção;Conceito/teoria
+revalida_2024-2_q036;Psiquiatria;Rastreamento de uso de álcool (AUDIT);Interpretação de dados
+revalida_2024-2_q037;Trauma;Via aérea no trauma;Conduta
+revalida_2024-2_q038;Infectologia pediátrica;Profilaxia de IST após violência sexual;Conduta
+revalida_2024-2_q039;Obstetrícia;Gestação de 40 semanas – conduta;Conduta
+revalida_2024-2_q040;Saúde do trabalhador;Asbestose;Diagnóstico
+revalida_2024-2_q041;Psiquiatria;Depressão – diagnóstico diferencial;Diagnóstico
+revalida_2024-2_q042;Cirurgia do aparelho digestivo;Fístula pancreática pós-operatória;Exame complementar
+revalida_2024-2_q043;Genética;Anemia falciforme – herança genética;Conceito/teoria
+revalida_2024-2_q044;Obstetrícia;Avaliação da dinâmica uterina;Conceito/teoria
+revalida_2024-2_q045;Populações específicas;Tuberculose na população em situação de rua;Exame complementar
+revalida_2024-2_q046;Cardiologia;IAM com supradesnivelamento de ST – reperfusão;Conduta
+revalida_2024-2_q047;Trauma;Trauma raquimedular – nível de lesão;Diagnóstico
+revalida_2024-2_q048;Dermatologia pediátrica;Larva migrans;Diagnóstico + conduta
+revalida_2024-2_q049;Ginecologia;Endometriose profunda;Exame complementar
+revalida_2024-2_q050;SUS e políticas de saúde;Conselho municipal de saúde;Legislação/política
+revalida_2024-2_q051;Emergência clínica;PCR – pneumotórax hipertensivo (causa reversível);Conduta
+revalida_2024-2_q052;Ortopedia;Infecção osteoarticular pós-trauma;Exame complementar
+revalida_2024-2_q053;Neonatologia;Sepse neonatal tardia / ITU no RN;Conduta
+revalida_2024-2_q054;Obstetrícia;Diabetes gestacional – rastreamento;Conduta
+revalida_2024-2_q055;Promoção da saúde;Tabagismo – abordagem em grupo na APS;Conduta
+revalida_2024-2_q056;Emergência clínica;Emergência hipertensiva;Conduta
+revalida_2024-2_q057;Abdome agudo;Diverticulite aguda;Diagnóstico
+revalida_2024-2_q058;Nutrição pediátrica;Hipovitaminose A;Diagnóstico
+revalida_2024-2_q059;Obstetrícia;Pré-eclâmpsia;Conduta
+revalida_2024-2_q060;Geriatria;Pneumonia aspirativa no idoso acamado;Conduta
+revalida_2024-2_q061;Reumatologia;Fibromialgia;Conduta
+revalida_2024-2_q062;Oftalmologia;Queimadura química ocular;Conduta
+revalida_2024-2_q063;Desenvolvimento infantil;TDAH x transtorno opositor-desafiador;Diagnóstico
+revalida_2024-2_q064;Ginecologia;Sangramento uterino anormal na adolescente;Diagnóstico
+revalida_2024-2_q065;Infectologia;Arboviroses na gestação – Zika;Exame complementar
+revalida_2024-2_q066;Endocrinologia;Diabetes tipo 2 – inibidor de SGLT2;Conduta
+revalida_2024-2_q067;Urologia;Fístula ureterovaginal / lesão ureteral;Conduta
+revalida_2024-2_q068;Imunização;Calendário vacinal atrasado;Conduta
+revalida_2024-2_q069;Violência sexual;Contracepção de emergência após violência sexual;Conduta
+revalida_2024-2_q070;Infectologia;Malária;Diagnóstico + conduta
+revalida_2024-2_q071;Infectologia;Mononucleose infecciosa;Diagnóstico
+revalida_2024-2_q072;Ortopedia;Lesão de tendão flexor da mão;Conduta
+revalida_2024-2_q073;Neonatologia;Icterícia neonatal – exsanguineotransfusão;Conduta
+revalida_2024-2_q074;Ginecologia endócrina;Amenorreia primária – agenesia mülleriana;Conceito/teoria
+revalida_2024-2_q075;Prevenção e rastreamento;Sangramento retal – investigação de câncer colorretal;Exame complementar
+revalida_2024-2_q076;Endocrinologia;Feocromocitoma;Diagnóstico
+revalida_2024-2_q077;Trauma;Pneumotórax hipertensivo;Conduta
+revalida_2024-2_q078;Genética;Distúrbio da diferenciação sexual;Conduta
+revalida_2024-2_q079;Ginecologia;Cervicite gonocócica;Diagnóstico
+revalida_2024-2_q080;Epidemiologia;Indicadores de mortalidade materna e natalidade;Conceito/teoria
+revalida_2024-2_q081;Reumatologia;Lúpus eritematoso sistêmico;Exame complementar
+revalida_2024-2_q082;Cirurgia do aparelho digestivo;Hemorragia digestiva alta – úlcera péptica;Conduta
+revalida_2024-2_q083;Emergência pediátrica;Intoxicação por paracetamol;Diagnóstico
+revalida_2024-2_q084;Mastologia;Nódulo mamário – fibroadenoma;Diagnóstico + conduta
+revalida_2024-2_q085;Atenção primária;Acesso avançado – modelos de agendamento;Conceito/teoria
+revalida_2024-2_q086;Neurologia;Lombalgia com sinais de alarme;Exame complementar
+revalida_2024-2_q087;Abdome agudo;Isquemia mesentérica aguda;Diagnóstico + conduta
+revalida_2024-2_q088;Gastroenterologia pediátrica;Diarreia aguda – planos de hidratação;Conduta
+revalida_2024-2_q089;Ginecologia;Sífilis primária;Conduta
+revalida_2024-2_q090;Infectologia;Arboviroses – diagnóstico diferencial;Diagnóstico
+revalida_2024-2_q091;Nefrologia;Síndrome nefrótica – nefropatia membranosa;Diagnóstico
+revalida_2024-2_q092;Otorrinolaringologia;Mastoidite aguda;Conduta
+revalida_2024-2_q093;Genética;Síndrome de Down – cariótipo;Conceito/teoria
+revalida_2024-2_q094;Obstetrícia;Ameaça de abortamento;Diagnóstico
+revalida_2024-2_q095;Ginecologia;Sangramento pós-menopausa – investigação;Exame complementar
+revalida_2024-2_q096;Emergência clínica;Hiponatremia grave (SIADH paraneoplásica);Conduta
+revalida_2024-2_q097;Ortopedia;Osteossarcoma;Diagnóstico + conduta
+revalida_2024-2_q098;Cirurgia do aparelho digestivo;Complicação pós-cirurgia bariátrica – colelitíase;Exame complementar
+revalida_2024-2_q099;Obstetrícia;Prevenção de parto prematuro – colo curto;Conduta
+revalida_2024-2_q100;Promoção da saúde;Tratamento do tabagismo;Conceito/teoria
+revalida_2023-1_q001;Cardiologia;Taquiarritmia instável – cardioversão elétrica;Conduta
+revalida_2023-1_q002;Prevenção e rastreamento;Rastreamento do câncer de próstata – decisão compartilhada;Conduta
+revalida_2023-1_q003;Nutrição pediátrica;Anemia megaloblástica por leite de cabra;Conduta
+revalida_2023-1_q004;Ginecologia endócrina;Hiperandrogenismo e amenorreia – investigação inicial;Exame complementar
+revalida_2023-1_q005;SUS e políticas de saúde;Sindemia – Covid-19 e desigualdades;Conceito/teoria
+revalida_2023-1_q006;Neurologia;Doença de Parkinson – manifestações não motoras;Diagnóstico
+revalida_2023-1_q007;Urologia;Tumor de bexiga não músculo-invasivo;Conduta
+revalida_2023-1_q008;Neonatologia;Icterícia neonatal por doença hemolítica;Diagnóstico + conduta
+revalida_2023-1_q009;Ginecologia;Vulvovaginites – diagnóstico etiológico;Conceito/teoria
+revalida_2023-1_q010;Obstetrícia;Sífilis na gestação – tratamento e seguimento;Conduta
+revalida_2023-1_q011;Hematologia;Púrpura trombocitopênica imunológica;Diagnóstico
+revalida_2023-1_q012;Urologia;Tumor de testículo;Exame complementar
+revalida_2023-1_q013;Neurologia pediátrica;Convulsão neonatal – manejo;Conduta
+revalida_2023-1_q014;Ginecologia;Hidradenite supurativa vulvar;Diagnóstico
+revalida_2023-1_q015;Saúde do trabalhador;Dermatose ocupacional por EPI;Conduta
+revalida_2023-1_q016;Hematologia;Trombofilia – investigação de TVP recorrente;Exame complementar
+revalida_2023-1_q017;Trauma;Trauma raquimedular – retirada da imobilização;Conduta
+revalida_2023-1_q018;Infectologia pediátrica;Toxoplasmose congênita;Conceito/teoria
+revalida_2023-1_q019;Ginecologia;Miomatose uterina assintomática;Conduta
+revalida_2023-1_q020;Violência sexual;Violência doméstica contra a mulher – notificação;Conduta
+revalida_2023-1_q021;Pneumologia;Pneumonia complicada com derrame pleural;Diagnóstico
+revalida_2023-1_q022;Oftalmologia;Calázio;Diagnóstico
+revalida_2023-1_q023;Genética;Síndrome de Turner e dermatite de contato;Diagnóstico
+revalida_2023-1_q024;Oncologia ginecológica;Rastreamento do câncer de colo – citologia normal;Conduta
+revalida_2023-1_q025;Desenvolvimento infantil;Abuso sexual infantil;Conceito/teoria
+revalida_2023-1_q026;Psiquiatria;Anorexia nervosa grave – internação;Conduta
+revalida_2023-1_q027;Cirurgia do aparelho digestivo;Nódulo de tireoide Bethesda V;Conduta
+revalida_2023-1_q028;Pneumologia pediátrica;Laringotraqueíte viral (crupe);Conduta
+revalida_2023-1_q029;Obstetrícia;Sífilis secundária na gestação;Diagnóstico + conduta
+revalida_2023-1_q030;Atenção primária;Saúde mental na APS – seguimento multiprofissional;Conduta
+revalida_2023-1_q031;Nefrologia;Peritonite associada à diálise peritoneal;Conceito/teoria
+revalida_2023-1_q032;Cirurgia torácica;Empiema pleural – critérios do líquido;Interpretação de dados
+revalida_2023-1_q033;Endocrinologia pediátrica;Diabetes tipo 1 na infância – seguimento;Conceito/teoria
+revalida_2023-1_q034;Obstetrícia;Mutação MTHFR na gestação;Conduta
+revalida_2023-1_q035;Cardiologia;Hipertensão arterial estágio 2 no idoso;Conduta
+revalida_2023-1_q036;Reumatologia;Fibromialgia;Diagnóstico
+revalida_2023-1_q037;Trauma;Tamponamento cardíaco traumático;Conduta
+revalida_2023-1_q038;Infectologia pediátrica;Infecção congênita – sífilis x citomegalovírus;Diagnóstico + conduta
+revalida_2023-1_q039;Obstetrícia;Prevenção de pré-eclâmpsia com AAS;Conduta
+revalida_2023-1_q040;Obstetrícia;Sorologia de hepatite B na gestação;Interpretação de dados
+revalida_2023-1_q041;Infectologia;Meningite – abordagem diagnóstica;Exame complementar
+revalida_2023-1_q042;Trauma;Trauma na gestante;Conduta
+revalida_2023-1_q043;Emergência pediátrica;Distúrbio ácido-base – acidose mista;Interpretação de dados
+revalida_2023-1_q044;Obstetrícia;Estreptococo do grupo B – rastreio no pré-natal;Conceito/teoria
+revalida_2023-1_q045;Populações específicas;Saúde da população LGBTQIA+;Legislação/política
+revalida_2023-1_q046;Emergência clínica;Sepse e choque séptico – ressuscitação volêmica;Conduta
+revalida_2023-1_q047;Cirurgia do aparelho digestivo;Lesão de via biliar pós-colecistectomia;Conceito/teoria
+revalida_2023-1_q048;Nutrição pediátrica;Alergia à proteína do leite de vaca – dieta;Conceito/teoria
+revalida_2023-1_q049;Obstetrícia;Restrição de crescimento fetal;Conceito/teoria
+revalida_2023-1_q050;Populações específicas;Saúde indígena – subsistema e DSEI;Legislação/política
+revalida_2023-1_q051;Infectologia;ITU baixa (cistite) não complicada;Conduta
+revalida_2023-1_q052;Abdome agudo;Diverticulite perfurada – cirurgia de Hartmann;Conduta
+revalida_2023-1_q053;Neonatologia;Reanimação neonatal – ventilação com pressão positiva;Conduta
+revalida_2023-1_q054;Obstetrícia;Prevenção de parto prematuro;Conceito/teoria
+revalida_2023-1_q055;Geriatria;Avaliação do idoso – IVCF-20;Conceito/teoria
+revalida_2023-1_q056;Gastroenterologia;Hemorragia digestiva alta por AINE;Conduta
+revalida_2023-1_q057;Cirurgia do aparelho digestivo;Câncer de esôfago avançado – paliação;Conduta
+revalida_2023-1_q058;Ortopedia;Epifisiólise femoral proximal;Diagnóstico
+revalida_2023-1_q059;Obstetrícia;Hemorragia pós-parto;Conduta
+revalida_2023-1_q060;SUS e políticas de saúde;Conselhos de saúde – composição paritária;Legislação/política
+revalida_2023-1_q061;Neurologia;Síndrome de Wernicke-Korsakoff;Diagnóstico + conduta
+revalida_2023-1_q062;Coloproctologia;Abscesso perianal;Conduta
+revalida_2023-1_q063;Emergência pediátrica;Ingestão de cáusticos;Conduta
+revalida_2023-1_q064;Obstetrícia;Apresentação de face;Interpretação de dados
+revalida_2023-1_q065;Saúde do trabalhador;Intoxicação por mercúrio;Diagnóstico
+revalida_2023-1_q066;Nefrologia;Rabdomiólise – indicação de diálise;Conceito/teoria
+revalida_2023-1_q067;Abdome agudo;Colecistite aguda na APS;Conduta
+revalida_2023-1_q068;Infectologia pediátrica;ITU na criança – diagnóstico pela urocultura;Exame complementar
+revalida_2023-1_q069;Obstetrícia;Diabetes gestacional – rastreamento;Conduta
+revalida_2023-1_q070;Vigilância em saúde;Febre maculosa;Conduta
+revalida_2023-1_q071;Infectologia;Meningite tuberculosa;Diagnóstico
+revalida_2023-1_q072;Pré e pós-operatório;Embolia gasosa por cateter venoso central;Conduta
+revalida_2023-1_q073;Cirurgia pediátrica;Invaginação intestinal;Diagnóstico
+revalida_2023-1_q074;Obstetrícia;Gravidez ectópica – metotrexato;Conduta
+revalida_2023-1_q075;Atenção primária;Práticas integrativas na APS;Conduta
+revalida_2023-1_q076;Endocrinologia;Doença de Graves – tratamento;Conduta
+revalida_2023-1_q077;Queimaduras;Pneumotórax após punção de subclávia;Interpretação de dados
+revalida_2023-1_q078;Dermatologia pediátrica;Dermatite seborreica do lactente;Diagnóstico
+revalida_2023-1_q079;Obstetrícia;Descolamento prematuro de placenta – amniotomia;Conduta
+revalida_2023-1_q080;Pneumologia pediátrica;Crise de asma na criança;Conduta
+revalida_2023-1_q081;Endocrinologia;Hiperparatireoidismo primário – indicação cirúrgica;Conceito/teoria
+revalida_2023-1_q082;Queimaduras;Queimadura elétrica – transferência para centro de queimados;Conceito/teoria
+revalida_2023-1_q083;Hematologia pediátrica;Linfoma de Hodgkin;Diagnóstico + conduta
+revalida_2023-1_q084;Ginecologia endócrina;Insuficiência ovariana prematura;Exame complementar
+revalida_2023-1_q085;Vigilância em saúde;Febre amarela – controle;Conduta
+revalida_2023-1_q086;Reumatologia;Esclerose sistêmica – dismotilidade esofágica;Diagnóstico + conduta
+revalida_2023-1_q087;Trauma;Via aérea no trauma – checar intubação;Conduta
+revalida_2023-1_q088;Desenvolvimento infantil;Prevenção de acidentes – negligência;Conceito/teoria
+revalida_2023-1_q089;Planejamento familiar;Critérios de elegibilidade da OMS;Conceito/teoria
+revalida_2023-1_q090;Atenção primária;PNAB 2017 – organização da APS;Legislação/política
+revalida_2023-1_q091;Neurologia;Cefaleia com sinais de alarme;Exame complementar
+revalida_2023-1_q092;Prevenção e rastreamento;Rastreamento do câncer colorretal;Conduta
+revalida_2023-1_q093;Emergência pediátrica;PCR – suporte avançado de vida;Conduta
+revalida_2023-1_q094;Obstetrícia;Gravidez ectópica – diagnóstico;Diagnóstico + conduta
+revalida_2023-1_q095;Ética e medicina legal;Ética médica no uso de aplicativos de mensagens;Legislação/política
+revalida_2023-1_q096;Emergência clínica;Ventilação mecânica – traqueostomia precoce;Conduta
+revalida_2023-1_q097;Abdome agudo;Pancreatite aguda;Diagnóstico
+revalida_2023-1_q098;Genética;Síndrome de Down – avaliação nutricional;Conceito/teoria
+revalida_2023-1_q099;Oncologia ginecológica;Lesão de alto grau (HSIL) – colposcopia;Conduta
+revalida_2023-1_q100;SUS e políticas de saúde;Determinantes sociais da saúde;Conceito/teoria
+revalida_2023-2_q001;Cardiologia;Encefalopatia hipertensiva;Conduta
+revalida_2023-2_q002;Pré e pós-operatório;Cirurgia segura – checklist da OMS;Conceito/teoria
+revalida_2023-2_q003;Puericultura;Transporte seguro de crianças no carro;Conduta
+revalida_2023-2_q004;Climatério;Prevenção primária da osteoporose;Conduta
+revalida_2023-2_q005;Atenção primária;Territorialização e microáreas;Conceito/teoria
+revalida_2023-2_q006;Dermatologia;Farmacodermia;Conduta
+revalida_2023-2_q007;Trauma;Trauma urológico – lesão de uretra na fratura de pelve;Exame complementar
+revalida_2023-2_q008;Cirurgia do aparelho digestivo;Síndrome de dumping pós-bariátrica;Diagnóstico
+revalida_2023-2_q009;Ginecologia endócrina;Desenvolvimento puberal normal;Diagnóstico
+revalida_2023-2_q010;Infectologia pediátrica;Febre sem sinais de localização no lactente;Conduta
+revalida_2023-2_q011;Emergência clínica;Hipocalcemia na pancreatite;Diagnóstico
+revalida_2023-2_q012;Abdome agudo;Isquemia mesentérica aguda;Exame complementar
+revalida_2023-2_q013;Emergência pediátrica;TCE leve na criança – indicação de tomografia;Conduta
+revalida_2023-2_q014;Climatério;Terapia hormonal da menopausa – via transdérmica;Conduta
+revalida_2023-2_q015;Ginecologia;Sangramento uterino anormal;Conduta
+revalida_2023-2_q016;Gastroenterologia;Síndrome do intestino irritável;Diagnóstico
+revalida_2023-2_q017;Cirurgia do aparelho digestivo;Doença do refluxo gastroesofágico;Exame complementar
+revalida_2023-2_q018;Cirurgia pediátrica;Fimose patológica;Conduta
+revalida_2023-2_q019;Mastologia;BI-RADS 0 – complementação;Conduta
+revalida_2023-2_q020;Atenção primária;Práticas integrativas e complementares (PICS);Legislação/política
+revalida_2023-2_q021;Endocrinologia;Doença de Graves – diagnóstico laboratorial;Exame complementar
+revalida_2023-2_q022;Abdome agudo;Colangite aguda;Diagnóstico + conduta
+revalida_2023-2_q023;Epidemiologia;Mortalidade infantil – causas evitáveis;Conceito/teoria
+revalida_2023-2_q024;Planejamento familiar;Contracepção em malformação uterina;Conduta
+revalida_2023-2_q025;Geriatria;Sobrecarga do cuidador;Conduta
+revalida_2023-2_q026;Dermatologia;Leishmaniose tegumentar;Diagnóstico + conduta
+revalida_2023-2_q027;Dermatologia;Melanoma;Diagnóstico
+revalida_2023-2_q028;Aleitamento e nutrição;Alimentação do lactente na volta ao trabalho;Conduta
+revalida_2023-2_q029;Ginecologia;Candidíase vulvovaginal;Diagnóstico
+revalida_2023-2_q030;Medicina de família - ferramentas;Ecomapa e abordagem familiar;Conduta
+revalida_2023-2_q031;Reumatologia;Artrite séptica;Diagnóstico
+revalida_2023-2_q032;Pré e pós-operatório;Infecção intra-abdominal pós-operatória;Diagnóstico + conduta
+revalida_2023-2_q033;Gastroenterologia pediátrica;Desidratação grave – plano C;Conduta
+revalida_2023-2_q034;Oncologia ginecológica;Rastreamento do câncer de colo – LSIL;Conduta
+revalida_2023-2_q035;Desenvolvimento infantil;Atraso do desenvolvimento – referenciamento;Conduta
+revalida_2023-2_q036;Psiquiatria;Transtorno de ansiedade generalizada;Diagnóstico
+revalida_2023-2_q037;Urologia;Tumor de bexiga;Diagnóstico + conduta
+revalida_2023-2_q038;Ética e medicina legal;Adolescente – sigilo e contracepção;Conduta
+revalida_2023-2_q039;Ginecologia;Cisto ovariano hemorrágico;Conduta
+revalida_2023-2_q040;SUS e políticas de saúde;Planejamento em saúde municipal;Conduta
+revalida_2023-2_q041;Nefrologia;Síndrome nefrótica por lúpus;Diagnóstico
+revalida_2023-2_q042;Urologia;Fístula ureterovaginal;Diagnóstico
+revalida_2023-2_q043;Reumatologia pediátrica;Vasculite por IgA (Henoch-Schönlein);Diagnóstico
+revalida_2023-2_q044;Climatério;Terapia hormonal – sangramento e risco;Conduta
+revalida_2023-2_q045;Saúde do trabalhador;Asbestose;Diagnóstico
+revalida_2023-2_q046;Neurologia;Migrânea com aura;Diagnóstico + conduta
+revalida_2023-2_q047;Oftalmologia;Queimadura química ocular;Conduta
+revalida_2023-2_q048;Endocrinologia pediátrica;Baixa estatura;Diagnóstico
+revalida_2023-2_q049;Mastologia;Rastreamento do câncer de mama;Conduta
+revalida_2023-2_q050;Endocrinologia;Cetoacidose diabética – abordagem inicial;Conduta
+revalida_2023-2_q051;Emergência clínica;Intoxicação por organofosforados;Diagnóstico + conduta
+revalida_2023-2_q052;Ortopedia;Metástase óssea vertebral;Diagnóstico
+revalida_2023-2_q053;Hematologia pediátrica;Neutropenia febril;Exame complementar
+revalida_2023-2_q054;Obstetrícia;Estreptococo do grupo B – profilaxia intraparto;Conduta
+revalida_2023-2_q055;SUS e políticas de saúde;Acesso e gestão na APS;Interpretação de dados
+revalida_2023-2_q056;Neurologia;Lombalgia com sinais de alarme;Exame complementar
+revalida_2023-2_q057;Cirurgia do aparelho digestivo;Hérnia incisional – preparo pré-operatório;Conduta
+revalida_2023-2_q058;Genética;Síndrome de Down no recém-nascido;Conduta
+revalida_2023-2_q059;Obstetrícia;Pré-eclâmpsia;Conduta
+revalida_2023-2_q060;Infectologia;Chikungunya;Conduta
+revalida_2023-2_q061;Infectologia;Mononucleose infecciosa;Exame complementar
+revalida_2023-2_q062;Trauma;Via aérea no trauma de face – cricotireoidostomia;Conduta
+revalida_2023-2_q063;Neonatologia;Taquipneia transitória do recém-nascido;Diagnóstico
+revalida_2023-2_q064;Obstetrícia;Hemorragia pós-parto – ácido tranexâmico;Conduta
+revalida_2023-2_q065;Populações específicas;Tuberculose na população em situação de rua;Conduta
+revalida_2023-2_q066;Infectologia;Leptospirose;Diagnóstico + conduta
+revalida_2023-2_q067;Trauma;Toracotomia de reanimação;Conduta
+revalida_2023-2_q068;Imunização;Recusa vacinal – ECA e Conselho Tutelar;Legislação/política
+revalida_2023-2_q069;Obstetrícia;Direito ao acompanhante no parto;Legislação/política
+revalida_2023-2_q070;Imunização;Calendário vacinal atrasado;Conduta
+revalida_2023-2_q071;Hematologia;Mieloma múltiplo;Diagnóstico + conduta
+revalida_2023-2_q072;Coloproctologia;Fissura anal;Diagnóstico
+revalida_2023-2_q073;Emergência pediátrica;PCR no trauma pediátrico;Conduta
+revalida_2023-2_q074;Obstetrícia;Pielonefrite na gestação;Conduta
+revalida_2023-2_q075;Atenção primária;Atribuições do agente comunitário de saúde;Conceito/teoria
+revalida_2023-2_q076;Cardiologia;Taquicardia ventricular instável;Conduta
+revalida_2023-2_q077;Vascular;Úlcera arterial;Diagnóstico
+revalida_2023-2_q078;Cirurgia pediátrica;Doença de Hirschsprung;Exame complementar
+revalida_2023-2_q079;Obstetrícia;Manobras de Leopold – estática fetal;Interpretação de dados
+revalida_2023-2_q080;Vigilância em saúde;Febre amarela – notificação e investigação;Conduta
+revalida_2023-2_q081;Gastroenterologia;Peritonite bacteriana espontânea;Conduta
+revalida_2023-2_q082;Trauma;Trauma raquimedular – nível de lesão;Diagnóstico
+revalida_2023-2_q083;Neonatologia;Icterícia neonatal – exsanguineotransfusão;Diagnóstico + conduta
+revalida_2023-2_q084;Obstetrícia;Cardiotocografia – idade gestacional;Conceito/teoria
+revalida_2023-2_q085;SUS e políticas de saúde;Conselho local de saúde;Legislação/política
+revalida_2023-2_q086;Endocrinologia;Nefropatia diabética – albuminúria;Exame complementar
+revalida_2023-2_q087;Oftalmologia;Glaucoma de ângulo fechado por medicamento;Conduta
+revalida_2023-2_q088;Ortopedia;Escoliose no adolescente;Exame complementar
+revalida_2023-2_q089;Obstetrícia;Datação da gestação;Conceito/teoria
+revalida_2023-2_q090;Reumatologia;Lombalgia mecânica;Diagnóstico + conduta
+revalida_2023-2_q091;Emergência clínica;Pielonefrite obstrutiva com sepse;Conduta
+revalida_2023-2_q092;Urologia;Tumor de testículo;Diagnóstico + conduta
+revalida_2023-2_q093;Emergência pediátrica;Intoxicação por benzodiazepínico;Conduta
+revalida_2023-2_q094;Obstetrícia;Trabalho de parto prematuro – fatores de risco;Conceito/teoria
+revalida_2023-2_q095;Atenção primária;Medicina de família na saúde suplementar;Conceito/teoria
+revalida_2023-2_q096;Pneumologia;Abscesso pulmonar;Diagnóstico + conduta
+revalida_2023-2_q097;Cirurgia do aparelho digestivo;Cirurgia bariátrica – encaminhamento;Conduta
+revalida_2023-2_q098;Genética;Deficiência intelectual – investigação genética;Exame complementar
+revalida_2023-2_q099;Obstetrícia;Rotura prematura de membranas – diagnóstico clínico;Diagnóstico
+revalida_2023-2_q100;Infectologia;Sífilis em profissional do sexo – manejo e prevenção;Conduta
+revalida_2022-1_q001;Infectologia;Actinomicose cervicofacial;Conduta
+revalida_2022-1_q002;Cirurgia do aparelho digestivo;Icterícia obstrutiva – câncer de cabeça de pâncreas;Diagnóstico
+revalida_2022-1_q003;Hematologia pediátrica;Púrpura trombocitopênica imune;Conduta
+revalida_2022-1_q004;Prevenção e rastreamento;Rastreamento do câncer de mama – INCA;Conceito/teoria
+revalida_2022-1_q005;Atenção primária;Projeto terapêutico singular;Conduta
+revalida_2022-1_q006;Emergência clínica;Emergência hipertensiva;Conduta
+revalida_2022-1_q007;Trauma;Trauma hepático – tratamento não operatório;Conduta
+revalida_2022-1_q008;Ortopedia;Artrite séptica na criança;Exame complementar
+revalida_2022-1_q009;Obstetrícia;Diabetes na gestação – rastreamento;Conduta
+revalida_2022-1_q010;Vigilância em saúde;Covid-19 – EPI em procedimentos com aerossol;Legislação/política
+revalida_2022-1_q011;Pneumologia;Asma grave – indicação de intubação;Interpretação de dados
+revalida_2022-1_q012;Cirurgia do aparelho digestivo;Colangite aguda;Diagnóstico + conduta
+revalida_2022-1_q013;Imunização;Vacina contra sarampo – dose zero;Conduta
+revalida_2022-1_q014;Obstetrícia;Pré-eclâmpsia grave a termo;Conduta
+revalida_2022-1_q015;Obstetrícia;Diabetes gestacional na APS;Diagnóstico + conduta
+revalida_2022-1_q016;Gastroenterologia;Hepatite aguda viral;Diagnóstico
+revalida_2022-1_q017;Cirurgia do aparelho digestivo;Hemorragia digestiva alta – úlcera péptica;Conduta
+revalida_2022-1_q018;Neonatologia;Sífilis congênita;Conduta
+revalida_2022-1_q019;Obstetrícia;Gestação ectópica rota;Diagnóstico + conduta
+revalida_2022-1_q020;SUS e políticas de saúde;Participação social na ESF;Legislação/política
+revalida_2022-1_q021;Hematologia;Anemia falciforme – crises dolorosas;Diagnóstico + conduta
+revalida_2022-1_q022;Trauma;Pneumotórax hipertensivo;Conduta
+revalida_2022-1_q023;Cirurgia pediátrica;Tumor de Wilms;Diagnóstico + conduta
+revalida_2022-1_q024;Ginecologia endócrina;Puberdade normal – desenvolvimento puberal;Conduta
+revalida_2022-1_q025;Atenção primária;Abordagem comunitária na Covid-19;Conduta
+revalida_2022-1_q026;Cardiologia;Infarto de ventrículo direito – nitrato;Interpretação de dados
+revalida_2022-1_q027;Trauma;Trauma renal grau III;Conduta
+revalida_2022-1_q028;Puericultura;Estado nutricional – curvas de crescimento;Interpretação de dados
+revalida_2022-1_q029;Obstetrícia;Herpes genital na gestação;Diagnóstico + conduta
+revalida_2022-1_q030;Obstetrícia;Calendário de consultas do pré-natal;Conduta
+revalida_2022-1_q031;Infectologia;Colonização por bactéria multirresistente – precauções;Conduta
+revalida_2022-1_q032;Pré e pós-operatório;Anestésicos locais;Conceito/teoria
+revalida_2022-1_q033;Pneumologia pediátrica;Pneumonia comunitária na criança;Conduta
+revalida_2022-1_q034;Oncologia ginecológica;Massa anexial com sinais de malignidade;Interpretação de dados
+revalida_2022-1_q035;Obstetrícia;Exames do pré-natal no 1º trimestre;Conceito/teoria
+revalida_2022-1_q036;Hematologia;Anemia hemolítica – reticulocitose (G6PD);Conceito/teoria
+revalida_2022-1_q037;Queimaduras;Queimadura elétrica – rabdomiólise;Conduta
+revalida_2022-1_q038;Neurologia pediátrica;Estado de mal epiléptico refratário;Conduta
+revalida_2022-1_q039;Ginecologia;Tricomoníase;Exame complementar
+revalida_2022-1_q040;Populações específicas;Comunidade ribeirinha – acidentes com arraia;Conceito/teoria
+revalida_2022-1_q041;Endocrinologia;Crise tireotóxica – doença de Graves;Conduta
+revalida_2022-1_q042;Pré e pós-operatório;Classificação da ferida e antibioticoprofilaxia;Conduta
+revalida_2022-1_q043;Pneumologia pediátrica;Asma na criança – classificação e tratamento;Diagnóstico + conduta
+revalida_2022-1_q044;Planejamento familiar;Interação anticoncepcional e anticonvulsivante;Conduta
+revalida_2022-1_q045;Infectologia;Tuberculose pulmonar – esquema básico;Conduta
+revalida_2022-1_q046;Infectologia;Infecção urinária não complicada;Diagnóstico
+revalida_2022-1_q047;Oftalmologia;Ceratite actínica (solda);Conduta
+revalida_2022-1_q048;Infectologia pediátrica;Síndrome inflamatória multissistêmica pediátrica;Diagnóstico
+revalida_2022-1_q049;Planejamento familiar;Contracepção em mulher com HIV – dupla proteção;Conduta
+revalida_2022-1_q050;Prevenção e rastreamento;Rastreamento do câncer de próstata – decisão compartilhada;Conduta
+revalida_2022-1_q051;Infectologia;Tuberculose pulmonar pós-primária;Diagnóstico
+revalida_2022-1_q052;Ortopedia;Entorse de tornozelo – regras de Ottawa;Conduta
+revalida_2022-1_q053;Neonatologia;Reanimação neonatal – prematuro;Conceito/teoria
+revalida_2022-1_q054;Ginecologia;Infertilidade após laqueadura;Conduta
+revalida_2022-1_q055;Infectologia;Tuberculose em pessoa com HIV;Diagnóstico + conduta
+revalida_2022-1_q056;Endocrinologia;Nódulo de tireoide – investigação;Exame complementar
+revalida_2022-1_q057;Urologia;Litíase ureteral – terapia expulsiva;Conduta
+revalida_2022-1_q058;Endocrinologia pediátrica;Cetoacidose diabética – edema cerebral;Conduta
+revalida_2022-1_q059;Ginecologia;Sangramento uterino anormal na adolescente – anovulação;Diagnóstico
+revalida_2022-1_q060;Atenção primária;Cantoplastia – unha encravada;Conceito/teoria
+revalida_2022-1_q061;Pneumologia;DPOC – espirometria;Interpretação de dados
+revalida_2022-1_q062;Cirurgia do aparelho digestivo;Icterícia obstrutiva – investigação inicial;Diagnóstico + conduta
+revalida_2022-1_q063;Neonatologia;Teste do coraçãozinho;Interpretação de dados
+revalida_2022-1_q064;Obstetrícia;HIV na gestação – via de parto;Conduta
+revalida_2022-1_q065;Atenção primária;Entrevista motivacional;Conduta
+revalida_2022-1_q066;Dermatologia;Tinea corporis;Conduta
+revalida_2022-1_q067;Cirurgia de cabeça e pescoço;Nódulo de tireoide – câncer;Diagnóstico + conduta
+revalida_2022-1_q068;Cirurgia pediátrica;Obstrução intestinal por áscaris;Conduta
+revalida_2022-1_q069;Obstetrícia;Vacinação na gestante;Conduta
+revalida_2022-1_q070;Imunização;Vacinas atrasadas aos 15 meses;Conduta
+revalida_2022-1_q071;Reumatologia;Lúpus eritematoso sistêmico – autoanticorpos;Diagnóstico
+revalida_2022-1_q072;Ética e medicina legal;Prontuário médico;Legislação/política
+revalida_2022-1_q073;Infectologia pediátrica;Doença de Kawasaki;Diagnóstico
+revalida_2022-1_q074;Oncologia ginecológica;Rastreamento do câncer de colo – LSIL;Conduta
+revalida_2022-1_q075;Saúde do trabalhador;Silicose – rastreamento de tuberculose;Conduta
+revalida_2022-1_q076;Infectologia;Sífilis – teste rápido reagente;Conduta
+revalida_2022-1_q077;Cirurgia pediátrica;Hérnia inguinal na criança;Diagnóstico + conduta
+revalida_2022-1_q078;Cirurgia pediátrica;Doença de Hirschsprung;Exame complementar
+revalida_2022-1_q079;Obstetrícia;Hipertensão crônica na gestação;Conduta
+revalida_2022-1_q080;Vigilância em saúde;Esquistossomose – tratamento coletivo;Conduta
+revalida_2022-1_q081;Pneumologia;Derrame pleural parapneumônico;Conduta
+revalida_2022-1_q082;Pré e pós-operatório;Classificação de ferida traumática;Conceito/teoria
+revalida_2022-1_q083;Infectologia pediátrica;Leishmaniose visceral – diagnóstico;Exame complementar
+revalida_2022-1_q084;Ginecologia;Doença inflamatória pélvica – tratamento hospitalar;Conduta
+revalida_2022-1_q085;Atenção primária;Cuidados paliativos no domicílio;Conduta
+revalida_2022-1_q086;Pneumologia;Exacerbação grave de asma;Conduta
+revalida_2022-1_q087;Coloproctologia;Câncer de cólon direito;Diagnóstico
+revalida_2022-1_q088;Gastroenterologia pediátrica;Pancreatite aguda na caxumba;Exame complementar
+revalida_2022-1_q089;Ginecologia;Sangramento uterino anormal – SIU de levonorgestrel;Conduta
+revalida_2022-1_q090;Psiquiatria;Transtorno de pânico na APS;Conduta
+revalida_2022-1_q091;Infectologia;Hepatite B aguda;Diagnóstico + conduta
+revalida_2022-1_q092;Trauma;Traumatismo cranioencefálico leve;Diagnóstico + conduta
+revalida_2022-1_q093;Neonatologia;Transposição das grandes artérias;Conduta
+revalida_2022-1_q094;Oncologia ginecológica;Lesão de alto grau – EZT;Conduta
+revalida_2022-1_q095;Promoção da saúde;Educação popular em saúde;Conduta
+revalida_2022-1_q096;Urologia;Câncer de próstata de alto risco – estadiamento;Conduta
+revalida_2022-1_q097;Pré e pós-operatório;Sutura de ferimento – escolha do fio;Conduta
+revalida_2022-1_q098;Nefrologia pediátrica;Lesão renal aguda pré-renal;Conduta
+revalida_2022-1_q099;Obstetrícia;Estática fetal;Conceito/teoria
+revalida_2022-1_q100;Oncologia ginecológica;Rastreamento do câncer de colo – AGC (células glandulares atípicas);Conduta
+revalida_2022-2_q001;Cardiologia;Bloqueio atrioventricular total – marca-passo;Conduta
+revalida_2022-2_q002;Urologia;Hematúria – câncer de bexiga;Diagnóstico + conduta
+revalida_2022-2_q003;Aleitamento e nutrição;Introdução da alimentação complementar;Conceito/teoria
+revalida_2022-2_q004;Obstetrícia;Hemorragia pós-parto – retenção placentária;Conduta
+revalida_2022-2_q005;Psiquiatria;Depressão com sintomas psicóticos – CAPS;Conduta
+revalida_2022-2_q006;Nefrologia;Doença renal crônica – proteinúria e IECA;Conduta
+revalida_2022-2_q007;Abdome agudo;Diverticulite complicada com abscesso;Conduta
+revalida_2022-2_q008;Endocrinologia pediátrica;Baixa estatura – atraso constitucional;Diagnóstico
+revalida_2022-2_q009;Ginecologia;Pólipo endometrial – histeroscopia;Diagnóstico + conduta
+revalida_2022-2_q010;Psiquiatria;Transtorno de ansiedade – ajuste do antidepressivo;Conduta
+revalida_2022-2_q011;Dermatologia;Eritema multiforme – diagnóstico clínico;Diagnóstico
+revalida_2022-2_q012;Cirurgia do aparelho digestivo;Colelitíase sintomática;Diagnóstico + conduta
+revalida_2022-2_q013;Pneumologia pediátrica;Bronquiolite viral aguda;Diagnóstico + conduta
+revalida_2022-2_q014;Ginecologia;Dispareunia;Conceito/teoria
+revalida_2022-2_q015;Promoção da saúde;Educação popular – hesitação vacinal;Conduta
+revalida_2022-2_q016;Endocrinologia;Miopatia por estatina e genfibrozila;Diagnóstico
+revalida_2022-2_q017;Coloproctologia;Abscesso anorretal;Conduta
+revalida_2022-2_q018;Neonatologia;Fatores de risco para desconforto respiratório;Conceito/teoria
+revalida_2022-2_q019;Obstetrícia;Gestação após cirurgia bariátrica;Conceito/teoria
+revalida_2022-2_q020;Saúde do trabalhador;Dor muscular por estatina – indicação do fármaco;Interpretação de dados
+revalida_2022-2_q021;Gastroenterologia;Helicobacter pylori – diagnóstico;Exame complementar
+revalida_2022-2_q022;Cirurgia do aparelho digestivo;Câncer de esôfago avançado – prótese;Conduta
+revalida_2022-2_q023;Ortopedia;Escoliose idiopática do adolescente;Diagnóstico + conduta
+revalida_2022-2_q024;Oncologia ginecológica;Rastreamento do câncer de colo – AGC (células glandulares atípicas);Conduta
+revalida_2022-2_q025;Obstetrícia;Sífilis na gestação – tratamento;Conduta
+revalida_2022-2_q026;Gastroenterologia;Retocolite ulcerativa;Diagnóstico + conduta
+revalida_2022-2_q027;Abdome agudo;Obstrução intestinal por bridas;Conduta
+revalida_2022-2_q028;Cirurgia pediátrica;Neuroblastoma;Diagnóstico
+revalida_2022-2_q029;Ginecologia;Torção de cisto ovariano;Diagnóstico
+revalida_2022-2_q030;Saúde do trabalhador;Dermatite de contato ocupacional;Diagnóstico
+revalida_2022-2_q031;Geriatria;Prevenção de quedas – hipotensão;Conduta
+revalida_2022-2_q032;Coloproctologia;Pólipos colônicos – vigilância;Conduta
+revalida_2022-2_q033;Dermatologia pediátrica;Eritema tóxico neonatal;Diagnóstico
+revalida_2022-2_q034;Oncologia ginecológica;Câncer de vulva e líquen escleroso;Diagnóstico + conduta
+revalida_2022-2_q035;Promoção da saúde;Educação popular em saúde – violência;Conduta
+revalida_2022-2_q036;Neurologia;Doença de Parkinson;Diagnóstico
+revalida_2022-2_q037;Trauma;Atendimento pré-hospitalar – retirada de capacete;Conduta
+revalida_2022-2_q038;Cirurgia pediátrica;Hérnia inguinal no prematuro;Conduta
+revalida_2022-2_q039;Obstetrícia;Trombofilia na gestação – profilaxia;Conduta
+revalida_2022-2_q040;Infectologia;Esporotricose;Diagnóstico
+revalida_2022-2_q041;Hematologia;Linfoma;Diagnóstico + conduta
+revalida_2022-2_q042;Oftalmologia;Blefaroconjuntivite;Diagnóstico
+revalida_2022-2_q043;Neurologia pediátrica;Convulsão febril – acompanhamento;Conduta
+revalida_2022-2_q044;Mastologia;Câncer de mama – fatores prognósticos;Conceito/teoria
+revalida_2022-2_q045;Epidemiologia;Covid-19 e desigualdades raciais;Interpretação de dados
+revalida_2022-2_q046;Vascular;Trombose venosa profunda;Exame complementar
+revalida_2022-2_q047;Gastroenterologia;Doença do refluxo refratária;Exame complementar
+revalida_2022-2_q048;Puericultura;Prevenção de acidentes no primeiro ano;Conceito/teoria
+revalida_2022-2_q049;Ética e medicina legal;Telemedicina e contracepção de emergência;Legislação/política
+revalida_2022-2_q050;Cardiologia;Hipertensão no idoso – meta pressórica;Conduta
+revalida_2022-2_q051;Pneumologia;Pneumonia pós-obstrutiva e neoplasia pulmonar;Diagnóstico
+revalida_2022-2_q052;Pneumologia;Derrame pleural parapneumônico – toracocentese;Conduta
+revalida_2022-2_q053;Imunização;BCG sem cicatriz;Conduta
+revalida_2022-2_q054;Obstetrícia;Insuficiência istmocervical – cerclagem;Conduta
+revalida_2022-2_q055;Populações específicas;Dengue na saúde indígena;Diagnóstico + conduta
+revalida_2022-2_q056;Pneumologia;Pneumonia com derrame – radiografia;Interpretação de dados
+revalida_2022-2_q057;Queimaduras;Queimadura elétrica;Conceito/teoria
+revalida_2022-2_q058;Neonatologia;Teste do coraçãozinho;Conduta
+revalida_2022-2_q059;Ginecologia endócrina;Síndrome dos ovários policísticos;Conceito/teoria
+revalida_2022-2_q060;Obstetrícia;Critérios de pré-natal de alto risco;Conceito/teoria
+revalida_2022-2_q061;Psiquiatria;Anorexia nervosa – farmacoterapia;Conduta
+revalida_2022-2_q062;Trauma;Trauma raquimedular – exame inicial;Exame complementar
+revalida_2022-2_q063;Neonatologia;Policitemia no filho de mãe diabética;Conduta
+revalida_2022-2_q064;Epidemiologia;Morte materna – classificação;Conceito/teoria
+revalida_2022-2_q065;Obstetrícia;Toxoplasmose na gestação – sorologia;Interpretação de dados
+revalida_2022-2_q066;Emergência clínica;Intoxicação por benzodiazepínico;Conduta
+revalida_2022-2_q067;Abdome agudo;Obstrução intestinal baixa – radiografia;Interpretação de dados
+revalida_2022-2_q068;Cirurgia pediátrica;Estenose hipertrófica de piloro;Exame complementar
+revalida_2022-2_q069;Ética e medicina legal;Sigilo em grupos de mensagens;Legislação/política
+revalida_2022-2_q070;Prevenção e rastreamento;Rastreamento do câncer de colo – periodicidade;Conceito/teoria
+revalida_2022-2_q071;Nefrologia;Síndrome nefrótica paraneoplásica;Diagnóstico
+revalida_2022-2_q072;Cirurgia de cabeça e pescoço;Nódulo de tireoide benigno;Conduta
+revalida_2022-2_q073;Aleitamento e nutrição;Amamentação na síndrome de Down;Conduta
+revalida_2022-2_q074;Obstetrícia;Pré-eclâmpsia – critérios de gravidade;Conceito/teoria
+revalida_2022-2_q075;Populações específicas;Saúde indígena – alcoolismo;Conduta
+revalida_2022-2_q076;Nefrologia;Reação na hemodiálise;Diagnóstico
+revalida_2022-2_q077;Urologia;Tumor de testículo;Diagnóstico
+revalida_2022-2_q078;Neonatologia;Sífilis materna no parto domiciliar;Conduta
+revalida_2022-2_q079;Obstetrícia;Antibioticoprofilaxia na cesárea em alérgica;Conduta
+revalida_2022-2_q080;Populações específicas;Saúde prisional – PNAISP;Legislação/política
+revalida_2022-2_q081;Neurologia;AVC isquêmico – trombólise;Conduta
+revalida_2022-2_q082;Prevenção e rastreamento;Rastreamento do câncer de próstata – não indicado;Conduta
+revalida_2022-2_q083;Ética e medicina legal;Sigilo médico do adolescente;Legislação/política
+revalida_2022-2_q084;Planejamento familiar;Escolha de método contraceptivo – DIU de cobre;Conduta
+revalida_2022-2_q085;SUS e políticas de saúde;Saúde suplementar – ANS;Legislação/política
+revalida_2022-2_q086;Infectologia;Chikungunya crônica;Diagnóstico + conduta
+revalida_2022-2_q087;Oftalmologia;Calázio;Diagnóstico
+revalida_2022-2_q088;Emergência pediátrica;Intoxicação por anti-histamínico;Diagnóstico
+revalida_2022-2_q089;Obstetrícia;Restrição de crescimento fetal – via de parto;Conduta
+revalida_2022-2_q090;Planejamento familiar;Direitos sexuais e reprodutivos na APS;Conceito/teoria
+revalida_2022-2_q091;Infectologia;Infecção de ferida operatória no idoso;Conduta
+revalida_2022-2_q092;Abdome agudo;Hérnia femoral encarcerada;Diagnóstico
+revalida_2022-2_q093;Emergência pediátrica;Intoxicação por haloperidol;Diagnóstico
+revalida_2022-2_q094;Obstetrícia;Candidíase recorrente na gestação;Conduta
+revalida_2022-2_q095;Violência sexual;Violência doméstica psicológica;Conduta
+revalida_2022-2_q096;Reumatologia;Fibromialgia;Diagnóstico
+revalida_2022-2_q097;Pré e pós-operatório;Punção arterial acidental;Conduta
+revalida_2022-2_q098;Nefrologia pediátrica;Síndrome nefrótica na criança;Conduta
+revalida_2022-2_q099;Obstetrícia;Sífilis na gestação – controle de cura;Exame complementar
+revalida_2022-2_q100;Infectologia pediátrica;Doença mão-pé-boca;Conduta
+revalida_2025-1_q001;Cardiologia;Bradiarritmia sintomática – BAV;Conduta
+revalida_2025-1_q002;Abdome agudo;Úlcera péptica perfurada;Diagnóstico
+revalida_2025-1_q003;Endocrinologia pediátrica;Telarca precoce isolada × puberdade precoce;Diagnóstico
+revalida_2025-1_q004;Obstetrícia;Gestação ectópica – beta-hCG;Diagnóstico + conduta
+revalida_2025-1_q005;Populações específicas;Escabiose no sistema prisional;Conduta
+revalida_2025-1_q006;Gastroenterologia;Helicobacter pylori – tratamento de resgate;Conduta
+revalida_2025-1_q007;Trauma;Via aérea cirúrgica no trauma de face;Conduta
+revalida_2025-1_q008;Cirurgia pediátrica;Apendicite aguda na criança;Diagnóstico
+revalida_2025-1_q009;Obstetrícia;Hipertensão crônica na gestação – losartana;Conduta
+revalida_2025-1_q010;Ética e medicina legal;Gestação indesejada – direito à informação;Conduta
+revalida_2025-1_q011;Promoção da saúde;Tratamento do tabagismo;Conduta
+revalida_2025-1_q012;Cirurgia pediátrica;Atresia de esôfago;Diagnóstico
+revalida_2025-1_q013;Neonatologia;Perda de peso fisiológica do recém-nascido;Interpretação de dados
+revalida_2025-1_q014;Climatério;Terapia hormonal após endometriose;Conduta
+revalida_2025-1_q015;Violência sexual;Suspeita de violência contra criança – registro;Conduta
+revalida_2025-1_q016;Emergência clínica;Delirium tremens;Diagnóstico + conduta
+revalida_2025-1_q017;Pré e pós-operatório;Jejum pré-operatório;Conceito/teoria
+revalida_2025-1_q018;Neonatologia;Triagem neonatal tardia (teste do pezinho);Conceito/teoria
+revalida_2025-1_q019;Obstetrícia;Desaceleração na ausculta intrapartos – reanimação intrauterina;Conduta
+revalida_2025-1_q020;Atenção primária;Estágios de motivação para mudança;Conceito/teoria
+revalida_2025-1_q021;Pneumologia;DPOC – classificação GOLD;Interpretação de dados
+revalida_2025-1_q022;Oftalmologia;Trauma ocular perfurante;Conduta
+revalida_2025-1_q023;Infectologia pediátrica;Infecções congênitas (TORCHS);Conceito/teoria
+revalida_2025-1_q024;Obstetrícia;Descolamento prematuro de placenta;Diagnóstico + conduta
+revalida_2025-1_q025;Populações específicas;Saúde dos povos ciganos;Conceito/teoria
+revalida_2025-1_q026;Pneumologia;Exacerbação de DPOC;Conduta
+revalida_2025-1_q027;Abdome agudo;Apendicite aguda – sinais clínicos;Diagnóstico
+revalida_2025-1_q028;Imunização;Prematuro – palivizumabe e influenza;Conduta
+revalida_2025-1_q029;Obstetrícia;Arboviroses na gestação;Diagnóstico + conduta
+revalida_2025-1_q030;Promoção da saúde;Mudanças climáticas e saúde;Conceito/teoria
+revalida_2025-1_q031;Infectologia;Tuberculose – teste rápido molecular;Conduta
+revalida_2025-1_q032;Ética e medicina legal;Negligência médica;Legislação/política
+revalida_2025-1_q033;Aleitamento e nutrição;Armazenamento de leite materno;Conceito/teoria
+revalida_2025-1_q034;Ginecologia endócrina;Puberdade normal – menarca;Conduta
+revalida_2025-1_q035;Populações específicas;Saúde ribeirinha e indígena;Conduta
+revalida_2025-1_q036;Infectologia;Influenza em comunidade indígena;Diagnóstico + conduta
+revalida_2025-1_q037;Ética e medicina legal;Doação de órgãos;Legislação/política
+revalida_2025-1_q038;Aleitamento e nutrição;Introdução da alimentação complementar;Conduta
+revalida_2025-1_q039;Ginecologia;Vaginose bacteriana;Diagnóstico + conduta
+revalida_2025-1_q040;Atenção primária;Lombalgia sem sinais de alarme;Conduta
+revalida_2025-1_q041;Infectologia;Sífilis primária;Exame complementar
+revalida_2025-1_q042;Pré e pós-operatório;Realimentação pós-operatória – ERAS/ACERTO;Conduta
+revalida_2025-1_q043;Pneumologia pediátrica;Fibrose cística – exacerbação;Conduta
+revalida_2025-1_q044;Obstetrícia;Aloimunização Rh;Conduta
+revalida_2025-1_q045;Epidemiologia;Desenhos de estudo – transversal;Conceito/teoria
+revalida_2025-1_q046;Reumatologia;Artrite reumatoide;Diagnóstico + conduta
+revalida_2025-1_q047;Trauma;Hemorragia externa grave – ATLS (X);Conduta
+revalida_2025-1_q048;Endocrinologia pediátrica;Obesidade infantil e acantose nigricans;Diagnóstico + conduta
+revalida_2025-1_q049;Climatério;Osteoporose pós-menopausa;Conduta
+revalida_2025-1_q050;Vigilância em saúde;Esquistossomose – diagnóstico e tratamento;Conduta
+revalida_2025-1_q051;Infectologia;Dengue com sinais de alarme;Conduta
+revalida_2025-1_q052;Cirurgia do aparelho digestivo;Coledocolitíase – CPRE;Conduta
+revalida_2025-1_q053;Desenvolvimento infantil;Atraso do desenvolvimento por deficiência de B12;Conduta
+revalida_2025-1_q054;Oncologia ginecológica;Sangramento pós-menopausa com instabilidade;Conduta
+revalida_2025-1_q055;Prevenção e rastreamento;Rastreamento do câncer colorretal;Conduta
+revalida_2025-1_q056;Vigilância em saúde;Profilaxia da raiva – mordedura de herbívoro;Conduta
+revalida_2025-1_q057;Trauma;Hemotórax – drenagem pleural;Conduta
+revalida_2025-1_q058;Pneumologia pediátrica;Asma na criança – tratamento de manutenção;Conduta
+revalida_2025-1_q059;Mastologia;Rastreamento do câncer de mama – alto risco;Conduta
+revalida_2025-1_q060;Desenvolvimento infantil;Sinais de alerta para TEA – M-CHAT;Conduta
+revalida_2025-1_q061;Infectologia;Endocardite infecciosa;Diagnóstico
+revalida_2025-1_q062;Ética e medicina legal;Declaração de óbito – morte violenta;Legislação/política
+revalida_2025-1_q063;Gastroenterologia pediátrica;Constipação funcional – fecaloma;Conduta
+revalida_2025-1_q064;Obstetrícia;Cesárea a pedido;Conduta
+revalida_2025-1_q065;Planejamento familiar;DIU de cobre no pós-parto;Conceito/teoria
+revalida_2025-1_q066;Endocrinologia;Hipertensão no diabético – IECA;Conduta
+revalida_2025-1_q067;Cirurgia pediátrica;Cisto tireoglosso;Diagnóstico
+revalida_2025-1_q068;Infectologia pediátrica;Tuberculose na criança – investigação;Conduta
+revalida_2025-1_q069;Obstetrícia;Prevenção de parto prematuro – progesterona;Conduta
+revalida_2025-1_q070;Neurologia;AVC agudo na atenção primária;Conduta
+revalida_2025-1_q071;Reumatologia;Lombalgia mecânica × inflamatória;Conduta
+revalida_2025-1_q072;Cirurgia pediátrica;Atresia de vias biliares;Diagnóstico + conduta
+revalida_2025-1_q073;Infectologia pediátrica;Exantema súbito (roséola);Diagnóstico
+revalida_2025-1_q074;Ginecologia;Cisto ovariano simples;Conduta
+revalida_2025-1_q075;Mastologia;Nódulo mamário na gestação;Conduta
+revalida_2025-1_q076;Dermatologia;Melanoma;Diagnóstico
+revalida_2025-1_q077;Trauma;Atendimento inicial – via aérea (ATLS);Conduta
+revalida_2025-1_q078;Reumatologia pediátrica;Vasculite por IgA (Henoch-Schönlein);Diagnóstico
+revalida_2025-1_q079;Mastologia;Abscesso mamário na lactação;Conduta
+revalida_2025-1_q080;Imunização;Vacina HPV – dose única;Conduta
+revalida_2025-1_q081;Gastroenterologia;Pancreatite crônica;Diagnóstico + conduta
+revalida_2025-1_q082;Trauma;Trauma de uretra;Conduta
+revalida_2025-1_q083;Hematologia pediátrica;Anemia ferropriva – resposta ao ferro;Interpretação de dados
+revalida_2025-1_q084;Obstetrícia;Gestação de localização desconhecida;Conduta
+revalida_2025-1_q085;Geriatria;Negligência contra a pessoa idosa;Legislação/política
+revalida_2025-1_q086;Ética e medicina legal;Cuidados paliativos – recusa de ventilação mecânica;Conduta
+revalida_2025-1_q087;Otorrinolaringologia;Corpo estranho nasal;Conduta
+revalida_2025-1_q088;Hematologia pediátrica;Transplante de medula óssea – encaminhamento;Conceito/teoria
+revalida_2025-1_q089;Oncologia ginecológica;NIC III – conização;Conduta
+revalida_2025-1_q090;Imunização;Vacina contra febre amarela – dose única;Conduta
+revalida_2025-1_q091;Pré e pós-operatório;Íleo pós-operatório por hipocalemia;Diagnóstico
+revalida_2025-1_q092;Urologia;Hiperplasia prostática refratária – RTU;Conduta
+revalida_2025-1_q093;Ética e medicina legal;Cuidados paliativos pediátricos;Conduta
+revalida_2025-1_q094;Ética e medicina legal;Recusa de exame – autonomia e informação;Conduta
+revalida_2025-1_q095;Promoção da saúde;Hesitação vacinal;Conceito/teoria
+revalida_2025-1_q096;Ética e medicina legal;Recusa de transfusão por adulto;Conduta
+revalida_2025-1_q097;Cirurgia do aparelho digestivo;Estenose péptica de esôfago;Conduta
+revalida_2025-1_q098;Ética e medicina legal;Recusa de transfusão em menor;Legislação/política
+revalida_2025-1_q099;Oncologia ginecológica;Tamoxifeno e espessamento endometrial;Conduta
+revalida_2025-1_q100;Epidemiologia;Validade de testes diagnósticos – sensibilidade;Cálculo

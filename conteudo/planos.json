@@ -1,0 +1,170 @@
+{
+  "_leia": "Preços em centavos de real. checkout: link de pagamento do gateway para cada plano (vazio = botão 'Pagamento abre em breve'). Com lancamento.ativo, o preço exibido é precoFundador e o preço cheio aparece riscado. limitesGratis: o que o plano gratuito libera. duracaoMeses: quanto tempo de acesso cada pagamento libera (o servidor usa para criar a matrícula).",
+  "lancamento": {
+    "ativo": false,
+    "vagas": 500,
+    "pt": {
+      "selo": "Turma fundadora",
+      "texto": "Preço de fundador para os primeiros 500 alunos, mantido enquanto a assinatura estiver ativa."
+    },
+    "es": {
+      "selo": "Grupo fundador",
+      "texto": "Precio de fundador para los primeros 500 alumnos, mantenido mientras la suscripción esté activa."
+    }
+  },
+  "planos": [
+    {
+      "id": "gratis",
+      "preco": 0,
+      "precoFundador": 0,
+      "cobranca": "gratis",
+      "parcelas": 1,
+      "checkout": "",
+      "pt": {
+        "nome": "Gratuito",
+        "para": "Para conhecer o RX",
+        "itens": [
+          "Raio-X da prova completo",
+          "25 questões oficiais por dia",
+          "1 simulado por mês",
+          "Uma estação da 2ª etapa por área"
+        ]
+      },
+      "es": {
+        "nome": "Gratuito",
+        "para": "Para conocer el RX",
+        "itens": [
+          "Rayos X completo del examen",
+          "25 preguntas oficiales por día",
+          "1 simulacro por mes",
+          "Una estación de la 2.ª etapa por área"
+        ]
+      }
+    },
+    {
+      "id": "mensal",
+      "preco": 14790,
+      "precoFundador": 14790,
+      "cobranca": "mensal",
+      "parcelas": 1,
+      "checkout": "",
+      "pt": {
+        "nome": "Mensal",
+        "para": "Para testar sem compromisso",
+        "itens": [
+          "Tudo do gratuito, sem limite de questões",
+          "Curso por módulos com aulas e flashcards",
+          "Questões comentadas pelo padrão Inep",
+          "Trilha diária e simulados ilimitados",
+          "Sem fidelidade nem cobrança automática"
+        ]
+      },
+      "es": {
+        "nome": "Mensual",
+        "para": "Para probar sin compromiso",
+        "itens": [
+          "Todo lo del gratuito, sin límite de preguntas",
+          "Curso por módulos con clases y flashcards",
+          "Preguntas comentadas según el estándar del Inep",
+          "Ruta diaria y simulacros ilimitados",
+          "Sin permanencia ni cobro automático"
+        ]
+      },
+      "duracaoMeses": 1
+    },
+    {
+      "id": "ciclo",
+      "preco": 49790,
+      "precoFundador": 49790,
+      "cobranca": "semestral",
+      "parcelas": 6,
+      "checkout": "",
+      "destaque": true,
+      "pt": {
+        "nome": "Ciclo de prova",
+        "para": "Até a prova do ENAMED, 6 meses",
+        "itens": [
+          "Tudo do mensal",
+          "Simulado de cada módulo",
+          "Treino em dupla com colega",
+          "Mentores por área",
+          "O menor preço por mês: R$ 82,98"
+        ]
+      },
+      "es": {
+        "nome": "Ciclo de examen",
+        "para": "Hasta el examen del ENAMED, 6 meses",
+        "itens": [
+          "Todo lo del mensual",
+          "Simulacro de cada módulo",
+          "Práctica en pareja con un colega",
+          "Mentores por área",
+          "El menor precio por mes: R$ 82,98"
+        ]
+      },
+      "duracaoMeses": 6
+    },
+    {
+      "id": "segunda-etapa",
+      "preco": 79700,
+      "precoFundador": 79700,
+      "cobranca": "unico",
+      "parcelas": 6,
+      "checkout": "",
+      "pt": {
+        "nome": "2ª etapa",
+        "para": "Para quem se formou no exterior e vai à 2ª etapa do Revalida",
+        "itens": [
+          "Todas as estações com paciente por IA",
+          "Correção pelo checklist do Inep (Revalida)",
+          "Treino em dupla cronometrado",
+          "Acesso até o resultado final"
+        ]
+      },
+      "es": {
+        "nome": "2.ª etapa",
+        "para": "Para quien se formó en el exterior y va a la 2.ª etapa del Revalida",
+        "itens": [
+          "Todas las estaciones con paciente por IA",
+          "Corrección con la lista de evaluación del Inep",
+          "Práctica en pareja cronometrada",
+          "Acceso hasta el resultado final"
+        ]
+      },
+      "duracaoMeses": 8
+    },
+    {
+      "id": "anual",
+      "preco": 149000,
+      "precoFundador": 149000,
+      "cobranca": "anual",
+      "parcelas": 12,
+      "checkout": "",
+      "pt": {
+        "nome": "Anual completo",
+        "para": "1ª e 2ª etapa, 12 meses",
+        "itens": [
+          "Tudo do ciclo de prova",
+          "Pacote da 2ª etapa incluído",
+          "Duas provas no período",
+          "Sai R$ 302,80 mais barato que dois ciclos e a 2ª etapa avulsa"
+        ]
+      },
+      "es": {
+        "nome": "Anual completo",
+        "para": "1.ª y 2.ª etapa, 12 meses",
+        "itens": [
+          "Todo lo del ciclo de examen",
+          "Paquete de la 2.ª etapa incluido",
+          "Dos exámenes en el periodo",
+          "Sale R$ 302,80 más barato que dos ciclos y la 2.ª etapa por separado"
+        ]
+      },
+      "duracaoMeses": 12
+    }
+  ],
+  "limitesGratis": {
+    "questoesDia": 25,
+    "simuladosMes": 1
+  }
+}

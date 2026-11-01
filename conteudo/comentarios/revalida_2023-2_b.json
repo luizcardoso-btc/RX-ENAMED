@@ -1,0 +1,602 @@
+{
+ "revalida_2023-2_q036": {
+  "pt": {
+   "resumo": "Preocupação excessiva e difícil de controlar por mais de 6 meses, com inquietação, tensão, irritabilidade, dificuldade de concentração e alteração do sono: transtorno de ansiedade generalizada.",
+   "alternativas": {
+    "A": "Não há humor deprimido nem anedonia.",
+    "B": "Não há episódios de mania ou hipomania.",
+    "C": "Correta: transtorno de ansiedade generalizada.",
+    "D": "TDAH começa na infância e não se explica por preocupação excessiva."
+   }
+  },
+  "es": {
+   "resumo": "Preocupación excesiva y difícil de controlar por más de 6 meses, con inquietud, tensión, irritabilidad, dificultad para concentrarse y alteración del sueño: trastorno de ansiedad generalizada.",
+   "alternativas": {
+    "A": "No hay ánimo deprimido ni anhedonia.",
+    "B": "No hay episodios de manía ni hipomanía.",
+    "C": "Correcta: trastorno de ansiedad generalizada.",
+    "D": "El TDAH empieza en la infancia y no se explica por preocupación excesiva."
+   }
+  }
+ },
+ "revalida_2023-2_q038": {
+  "pt": {
+   "resumo": "O adolescente tem direito a sigilo e a orientação em saúde sexual e reprodutiva. Procurar o médico indica decisão madura, e negar a prescrição pode levar à automedicação. O médico avalia a prescrição, orienta dupla proteção e incentiva o diálogo familiar, sem quebrar o sigilo.",
+   "alternativas": {
+    "A": "Não há risco iminente que obrigue a quebrar o sigilo, e recusar a contracepção aumenta o risco de gravidez.",
+    "B": "Correta: ponderar a prescrição, orientar sexo seguro e incentivar o diálogo familiar.",
+    "C": "O médico não deve negar o cuidado por medo de responsabilização.",
+    "D": "A incapacidade civil não autoriza quebrar o sigilo médico do adolescente."
+   }
+  },
+  "es": {
+   "resumo": "El adolescente tiene derecho a confidencialidad y a orientación en salud sexual y reproductiva. Buscar al médico indica una decisión madura, y negar la prescripción puede llevar a la automedicación. El médico evalúa la prescripción, orienta la doble protección y alienta el diálogo familiar, sin romper la confidencialidad.",
+   "alternativas": {
+    "A": "No hay riesgo inminente que obligue a romper la confidencialidad, y negar la anticoncepción aumenta el riesgo de embarazo.",
+    "B": "Correcta: evaluar la prescripción, orientar sexo seguro y alentar el diálogo familiar.",
+    "C": "El médico no debe negar la atención por miedo a ser responsabilizado.",
+    "D": "La incapacidad civil no autoriza a romper la confidencialidad médica del adolescente."
+   }
+  }
+ },
+ "revalida_2023-2_q039": {
+  "pt": {
+   "resumo": "Dor aguda no meio do ciclo, beta-hCG negativo, cisto heterogêneo com vascularização periférica e pouco líquido livre, com paciente estável: cisto ovariano hemorrágico. A conduta é analgesia e observação, pois a maioria se resolve sozinha.",
+   "alternativas": {
+    "A": "Laparotomia é para instabilidade ou hemoperitônio volumoso.",
+    "B": "Cirurgia não é necessária em paciente estável com pouco líquido livre.",
+    "C": "Correta: analgesia e observação.",
+    "D": "Retirar o ovário é excessivo em cisto funcional."
+   }
+  },
+  "es": {
+   "resumo": "Dolor agudo a mitad del ciclo, beta-hCG negativo, quiste heterogéneo con vascularización periférica y poco líquido libre, con paciente estable: quiste ovárico hemorrágico. La conducta es analgesia y observación, porque la mayoría se resuelve sola.",
+   "alternativas": {
+    "A": "La laparotomía es para inestabilidad o hemoperitoneo voluminoso.",
+    "B": "La cirugía no es necesaria en una paciente estable con poco líquido libre.",
+    "C": "Correcta: analgesia y observación.",
+    "D": "Extirpar el ovario es excesivo en un quiste funcional."
+   }
+  }
+ },
+ "revalida_2023-2_q040": {
+  "pt": {
+   "resumo": "Com 70% de cobertura e predomínio de doenças crônicas, a prioridade do plano é ampliar a Estratégia Saúde da Família e integrá-la à atenção especializada, melhorando o cuidado das condições crônicas e a resolubilidade do sistema.",
+   "alternativas": {
+    "A": "Correta: ampliar a atenção primária integrada à secundária.",
+    "B": "Um serviço de urgência não responde ao principal problema, que são as doenças crônicas.",
+    "C": "Ampliar o modelo tradicional vai contra a política de saúde da família.",
+    "D": "Ambulâncias não melhoram o cuidado das condições crônicas."
+   }
+  },
+  "es": {
+   "resumo": "Con 70 % de cobertura y predominio de enfermedades crónicas, la prioridad del plan es ampliar la Estrategia Salud de la Familia e integrarla a la atención especializada, mejorando el cuidado de las condiciones crónicas y la resolutividad del sistema.",
+   "alternativas": {
+    "A": "Correcta: ampliar la atención primaria integrada a la secundaria.",
+    "B": "Un servicio de urgencias no responde al problema principal, que son las enfermedades crónicas.",
+    "C": "Ampliar el modelo tradicional va en contra de la política de salud de la familia.",
+    "D": "Las ambulancias no mejoran el cuidado de las condiciones crónicas."
+   }
+  }
+ },
+ "revalida_2023-2_q041": {
+  "pt": {
+   "resumo": "Proteinúria de 4 g/24h, albumina de 1,8, edema e dislipidemia definem síndrome nefrótica. Mulher jovem com FAN 1:640 homogêneo aponta para nefrite lúpica (classe V, membranosa, costuma ser nefrótica).",
+   "alternativas": {
+    "A": "Diabetes de início recente não causa nefropatia nefrótica; a glicemia alta pode ser secundária.",
+    "B": "Não há hematúria, hipertensão e cilindros que definam síndrome nefrítica.",
+    "C": "Trombose de veia renal é complicação da síndrome nefrótica, não a síndrome nefrítica.",
+    "D": "Correta: síndrome nefrótica por lúpus."
+   }
+  },
+  "es": {
+   "resumo": "Proteinuria de 4 g/24h, albúmina de 1,8, edema y dislipidemia definen síndrome nefrótico. Una mujer joven con ANA 1:640 homogéneo apunta a nefritis lúpica (la clase V, membranosa, suele ser nefrótica).",
+   "alternativas": {
+    "A": "Una diabetes de inicio reciente no causa nefropatía nefrótica; la glucemia alta puede ser secundaria.",
+    "B": "No hay hematuria, hipertensión ni cilindros que definan síndrome nefrítico.",
+    "C": "La trombosis de la vena renal es una complicación del síndrome nefrótico, no un síndrome nefrítico.",
+    "D": "Correcta: síndrome nefrótico por lupus."
+   }
+  }
+ },
+ "revalida_2023-2_q042": {
+  "pt": {
+   "resumo": "Perda contínua de líquido pela vagina após histerectomia, com micções normais e coleção perivesical: fístula ureterovaginal. A micção normal indica que a bexiga continua recebendo urina do outro ureter.",
+   "alternativas": {
+    "A": "Incontinência por fraqueza do assoalho causa perda aos esforços, não contínua pela vagina.",
+    "B": "Abscesso cursaria com febre e dor, não perda contínua de líquido.",
+    "C": "Seroma não explica a perda vaginal contínua de urina.",
+    "D": "Correta: fístula ureterovaginal."
+   }
+  },
+  "es": {
+   "resumo": "Pérdida continua de líquido por la vagina tras una histerectomía, con micciones normales y colección perivesical: fístula ureterovaginal. La micción normal indica que la vejiga sigue recibiendo orina del otro uréter.",
+   "alternativas": {
+    "A": "La incontinencia por debilidad del piso pélvico causa pérdida con esfuerzos, no continua por la vagina.",
+    "B": "El absceso cursaría con fiebre y dolor, no con pérdida continua de líquido.",
+    "C": "El seroma no explica la pérdida vaginal continua de orina.",
+    "D": "Correcta: fístula ureterovaginal."
+   }
+  }
+ },
+ "revalida_2023-2_q043": {
+  "pt": {
+   "resumo": "Criança após infecção de vias aéreas com púrpura palpável em membros inferiores e nádegas, artralgia, dor abdominal e hematúria leve, com plaquetas e coagulograma normais: vasculite por IgA (púrpura de Henoch-Schönlein).",
+   "alternativas": {
+    "A": "Glomerulonefrite pós-estreptocócica não causa púrpura e tem ASLO positivo.",
+    "B": "SHU tem anemia hemolítica, plaquetopenia e insuficiência renal.",
+    "C": "Lúpus é raro aos 3 anos e o quadro é típico de vasculite por IgA.",
+    "D": "Correta: vasculite por IgA."
+   }
+  },
+  "es": {
+   "resumo": "Niño tras infección respiratoria con púrpura palpable en miembros inferiores y nalgas, artralgia, dolor abdominal y hematuria leve, con plaquetas y coagulograma normales: vasculitis por IgA (púrpura de Henoch-Schönlein).",
+   "alternativas": {
+    "A": "La glomerulonefritis postestreptocócica no causa púrpura y tiene ASLO positivo.",
+    "B": "El SHU tiene anemia hemolítica, plaquetopenia e insuficiencia renal.",
+    "C": "El lupus es raro a los 3 años y el cuadro es típico de vasculitis por IgA.",
+    "D": "Correcta: vasculitis por IgA."
+   }
+  }
+ },
+ "revalida_2023-2_q044": {
+  "pt": {
+   "resumo": "Mulher com trombose venosa profunda prévia em terapia hormonal oral: a via oral aumenta o risco trombótico. A conduta mais segura, se mantida a terapia, é trocar para estradiol transdérmico com progestagênio, que não tem efeito de primeira passagem hepática.",
+   "alternativas": {
+    "A": "Fitoterápicos não são terapia hormonal e têm eficácia limitada.",
+    "B": "Estrogênio oral mantém o risco de trombose.",
+    "C": "Manter a via oral mantém o risco; estrogênio isolado em mulher com útero exige progestagênio.",
+    "D": "Correta: suspender a via oral e usar estradiol transdérmico combinado."
+   }
+  },
+  "es": {
+   "resumo": "Mujer con trombosis venosa profunda previa en terapia hormonal oral: la vía oral aumenta el riesgo trombótico. La conducta más segura, si se mantiene la terapia, es cambiar a estradiol transdérmico con progestágeno, que no tiene efecto de primer paso hepático.",
+   "alternativas": {
+    "A": "Los fitoterápicos no son terapia hormonal y tienen eficacia limitada.",
+    "B": "El estrógeno oral mantiene el riesgo de trombosis.",
+    "C": "Mantener la vía oral mantiene el riesgo; el estrógeno solo en una mujer con útero exige progestágeno.",
+    "D": "Correcta: suspender la vía oral y usar estradiol transdérmico combinado."
+   }
+  }
+ },
+ "revalida_2023-2_q045": {
+  "pt": {
+   "resumo": "Placas pleurais, espessamento pleural e derrame, com dispneia e tosse progressivas, apontam para exposição ao amianto (asbesto), típica da construção civil e da indústria de telhas e caixas d'água. Perda de peso e febre levantam suspeita de mesotelioma.",
+   "alternativas": {
+    "A": "Agrotóxicos causam intoxicações e não placas pleurais.",
+    "B": "Correta: construção civil com amianto.",
+    "C": "Benzeno causa doenças hematológicas, como leucemia e aplasia.",
+    "D": "Poeira de carvão causa pneumoconiose do carvoeiro, sem placas pleurais típicas."
+   }
+  },
+  "es": {
+   "resumo": "Placas pleurales, engrosamiento pleural y derrame, con disnea y tos progresivas, apuntan a exposición al amianto (asbesto), típica de la construcción y de la industria de tejas y tanques de agua. La pérdida de peso y la fiebre hacen sospechar mesotelioma.",
+   "alternativas": {
+    "A": "Los agrotóxicos causan intoxicaciones y no placas pleurales.",
+    "B": "Correcta: construcción civil con amianto.",
+    "C": "El benceno causa enfermedades hematológicas, como leucemia y aplasia.",
+    "D": "El polvo de carbón causa neumoconiosis del minero, sin placas pleurales típicas."
+   }
+  }
+ },
+ "revalida_2023-2_q047": {
+  "pt": {
+   "resumo": "Na queimadura química ocular, a primeira e mais importante medida é a irrigação imediata e abundante com soro fisiológico ou outra solução cristaloide, por tempo prolongado.",
+   "alternativas": {
+    "A": "Ocluir o olho mantém o agente em contato com a superfície ocular.",
+    "B": "Corticoide não é a primeira conduta e pode ser usado depois, pelo oftalmologista.",
+    "C": "Anestésico pode ajudar a irrigar, mas não substitui a irrigação.",
+    "D": "Correta: irrigação abundante com cristaloide."
+   }
+  },
+  "es": {
+   "resumo": "En la quemadura química ocular, la primera y más importante medida es la irrigación inmediata y abundante con solución salina u otra solución cristaloide, durante un tiempo prolongado.",
+   "alternativas": {
+    "A": "Ocluir el ojo mantiene el agente en contacto con la superficie ocular.",
+    "B": "El corticoide no es la primera conducta y puede usarse después, por el oftalmólogo.",
+    "C": "El anestésico puede ayudar a irrigar, pero no sustituye la irrigación.",
+    "D": "Correcta: irrigación abundante con cristaloides."
+   }
+  }
+ },
+ "revalida_2023-2_q049": {
+  "pt": {
+   "resumo": "Mulher de 35 anos sem história de câncer de mama em parentes de 1º grau antes dos 50 anos não é de alto risco. O Ministério da Saúde recomenda mamografia de rastreio dos 50 aos 69 anos; aos 35 anos, faz-se exame clínico das mamas e acompanhamento periódico.",
+   "alternativas": {
+    "A": "Não há indicação de exames de imagem de rastreio aos 35 anos sem alto risco.",
+    "B": "Mamografia de rastreio não é indicada aos 35 anos sem alto risco.",
+    "C": "A história familiar (câncer de ovário aos 72 anos) não preenche critérios para teste de BRCA.",
+    "D": "Correta: exame clínico e controle periódico."
+   }
+  },
+  "es": {
+   "resumo": "Una mujer de 35 años sin antecedentes de cáncer de mama en familiares de 1.er grado antes de los 50 años no es de alto riesgo. El Ministerio de Salud de Brasil recomienda mamografía de tamizaje de los 50 a los 69 años; a los 35 años se hace examen clínico de las mamas y seguimiento periódico.",
+   "alternativas": {
+    "A": "No hay indicación de imágenes de tamizaje a los 35 años sin alto riesgo.",
+    "B": "La mamografía de tamizaje no se indica a los 35 años sin alto riesgo.",
+    "C": "La historia familiar (cáncer de ovario a los 72 años) no cumple criterios para prueba de BRCA.",
+    "D": "Correcta: examen clínico y control periódico."
+   }
+  }
+ },
+ "revalida_2023-2_q050": {
+  "pt": {
+   "resumo": "A primeira medida na cetoacidose diabética é a hidratação venosa com soro fisiológico, cerca de 1 litro na primeira hora, com cautela em cardiopatas. A insulina vem depois, com potássio conferido.",
+   "alternativas": {
+    "A": "Os exames são necessários, mas hemoglobina glicada não muda a conduta imediata e não substitui a hidratação.",
+    "B": "NPH não é usada na cetoacidose; usa-se insulina regular venosa contínua.",
+    "C": "Correta: 1 litro de soro fisiológico na primeira hora.",
+    "D": "A remoção para o hospital deve ser imediata, não após 24 horas."
+   }
+  },
+  "es": {
+   "resumo": "La primera medida en la cetoacidosis diabética es la hidratación intravenosa con solución salina, cerca de 1 litro en la primera hora, con cautela en cardiópatas. La insulina viene después, con el potasio verificado.",
+   "alternativas": {
+    "A": "Los exámenes son necesarios, pero la hemoglobina glicosilada no cambia la conducta inmediata ni sustituye la hidratación.",
+    "B": "La NPH no se usa en la cetoacidosis; se usa insulina regular intravenosa continua.",
+    "C": "Correcta: 1 litro de solución salina en la primera hora.",
+    "D": "El traslado al hospital debe ser inmediato, no después de 24 horas."
+   }
+  }
+ },
+ "revalida_2023-2_q051": {
+  "pt": {
+   "resumo": "Miose, sialorreia, lacrimejamento, vômitos, incontinência, fasciculações e bradicardia em visita à propriedade rural: síndrome colinérgica por organofosforado. O tratamento imediato é atropina até secar as secreções, mais pralidoxima quando disponível.",
+   "alternativas": {
+    "A": "Diltiazem causa bradicardia e hipotensão, mas não síndrome colinérgica; fisostigmina agravaria o quadro.",
+    "B": "Varfarina causa sangramentos, não sinais colinérgicos.",
+    "C": "Salbutamol causa taquicardia e tremor, o oposto do quadro.",
+    "D": "Correta: organofosforado e atropina."
+   }
+  },
+  "es": {
+   "resumo": "Miosis, sialorrea, lagrimeo, vómitos, incontinencia, fasciculaciones y bradicardia en una visita a una propiedad rural: síndrome colinérgico por organofosforado. El tratamiento inmediato es atropina hasta secar las secreciones, más pralidoxima cuando esté disponible.",
+   "alternativas": {
+    "A": "El diltiazem causa bradicardia e hipotensión, pero no síndrome colinérgico; la fisostigmina empeoraría el cuadro.",
+    "B": "La warfarina causa sangrados, no signos colinérgicos.",
+    "C": "El salbutamol causa taquicardia y temblor, lo opuesto al cuadro.",
+    "D": "Correcta: organofosforado y atropina."
+   }
+  }
+ },
+ "revalida_2023-2_q052": {
+  "pt": {
+   "resumo": "Dor lombar progressiva e refratária em paciente com câncer de mama prévio e lesões líticas na radiografia: metástase óssea vertebral até prova em contrário.",
+   "alternativas": {
+    "A": "Correta: metástase.",
+    "B": "Tuberculose vertebral é possível, mas o histórico oncológico torna a metástase mais provável.",
+    "C": "Hérnia discal não causa lesões líticas.",
+    "D": "A fratura pode ser consequência, mas as lesões líticas apontam para metástase."
+   }
+  },
+  "es": {
+   "resumo": "Dolor lumbar progresivo y refractario en una paciente con cáncer de mama previo y lesiones líticas en la radiografía: metástasis ósea vertebral hasta que se demuestre lo contrario.",
+   "alternativas": {
+    "A": "Correcta: metástasis.",
+    "B": "La tuberculosis vertebral es posible, pero la historia oncológica hace más probable la metástasis.",
+    "C": "La hernia discal no causa lesiones líticas.",
+    "D": "La fractura puede ser consecuencia, pero las lesiones líticas apuntan a metástasis."
+   }
+  }
+ },
+ "revalida_2023-2_q053": {
+  "pt": {
+   "resumo": "Criança com leucemia, quimioterapia há uma semana (nadir) e cateter central com febre: alto risco de neutropenia febril. Colhe-se hemograma, hemoculturas periférica e do cateter e provas inflamatórias, iniciando antibiótico empírico sem atraso.",
+   "alternativas": {
+    "A": "O cateter não é trocado de rotina sem sinais de infecção dele.",
+    "B": "Febre em paciente oncológico exige investigação mesmo sem foco.",
+    "C": "Correta: hemograma, hemoculturas periférica e do cateter e provas inflamatórias.",
+    "D": "Esperar o hemograma para colher culturas atrasa o cuidado; todas devem ser colhidas logo."
+   }
+  },
+  "es": {
+   "resumo": "Niña con leucemia, quimioterapia hace una semana (nadir) y catéter central con fiebre: alto riesgo de neutropenia febril. Se toman hemograma, hemocultivos periférico y del catéter y pruebas inflamatorias, iniciando antibiótico empírico sin demora.",
+   "alternativas": {
+    "A": "El catéter no se cambia de rutina sin signos de infección del mismo.",
+    "B": "La fiebre en un paciente oncológico exige estudio aun sin foco.",
+    "C": "Correcta: hemograma, hemocultivos periférico y del catéter y pruebas inflamatorias.",
+    "D": "Esperar el hemograma para tomar cultivos retrasa la atención; todos deben tomarse de inmediato."
+   }
+  }
+ },
+ "revalida_2023-2_q054": {
+  "pt": {
+   "resumo": "Profilaxia intraparto para estreptococo do grupo B é indicada quando a cultura é desconhecida e há fatores de risco, como prematuridade (menos de 37 semanas) ou bolsa rota por 18 horas ou mais. A paciente X preenche esse critério; a Y tem cultura negativa e cesárea eletiva sem trabalho de parto nem bolsa rota.",
+   "alternativas": {
+    "A": "Cultura negativa e cesárea eletiva sem trabalho de parto dispensam profilaxia.",
+    "B": "A paciente Y não tem indicação.",
+    "C": "Correta: apenas a paciente X.",
+    "D": "A paciente X tem indicação."
+   }
+  },
+  "es": {
+   "resumo": "La profilaxis intraparto para estreptococo del grupo B se indica cuando el cultivo es desconocido y hay factores de riesgo, como prematuridad (menos de 37 semanas) o rotura de membranas de 18 horas o más. La paciente X cumple ese criterio; la Y tiene cultivo negativo y cesárea electiva sin trabajo de parto ni rotura de membranas.",
+   "alternativas": {
+    "A": "El cultivo negativo y la cesárea electiva sin trabajo de parto eximen de profilaxis.",
+    "B": "La paciente Y no tiene indicación.",
+    "C": "Correcta: solo la paciente X.",
+    "D": "La paciente X sí tiene indicación."
+   }
+  }
+ },
+ "revalida_2023-2_q055": {
+  "pt": {
+   "resumo": "Filas longas para entrar no sistema expressam problemas de acesso e de gestão, explicados pelo subfinanciamento e pela gestão insuficiente dos serviços.",
+   "alternativas": {
+    "A": "A fila não demonstra falha de descentralização ou hierarquização.",
+    "B": "Correta: acessibilidade e gestão.",
+    "C": "Ser atendido primeiro não define resolubilidade ou integralidade.",
+    "D": "A fila não fala de universalidade ou coordenação do cuidado."
+   }
+  },
+  "es": {
+   "resumo": "Las filas largas para entrar al sistema expresan problemas de acceso y de gestión, explicados por el subfinanciamiento y la gestión insuficiente de los servicios.",
+   "alternativas": {
+    "A": "La fila no demuestra fallas de descentralización o jerarquización.",
+    "B": "Correcta: accesibilidad y gestión.",
+    "C": "Ser atendido primero no define resolutividad ni integralidad.",
+    "D": "La fila no habla de universalidad ni de coordinación del cuidado."
+   }
+  }
+ },
+ "revalida_2023-2_q056": {
+  "pt": {
+   "resumo": "Lombalgia em idoso com dor progressiva e noturna, dor à palpação das vértebras, anemia e incontinência urinária reúne sinais de alarme (possível neoplasia, infecção ou compressão neurológica). Exige exame de imagem.",
+   "alternativas": {
+    "A": "Sinais de alarme afastam a lombalgia mecânica simples.",
+    "B": "Não há sinais de radiculopatia; Lasègue negativo.",
+    "C": "Correta: dor lombar com comprometimento neurológico e sinais de alarme, solicitar imagem.",
+    "D": "Repouso e fisioterapia atrasam a investigação de causa grave."
+   }
+  },
+  "es": {
+   "resumo": "Lumbalgia en un adulto mayor con dolor progresivo y nocturno, dolor a la palpación de las vértebras, anemia e incontinencia urinaria reúne signos de alarma (posible neoplasia, infección o compresión neurológica). Exige examen de imagen.",
+   "alternativas": {
+    "A": "Los signos de alarma descartan la lumbalgia mecánica simple.",
+    "B": "No hay signos de radiculopatía; Lasègue negativo.",
+    "C": "Correcta: dolor lumbar con compromiso neurológico y signos de alarma, pedir imagen.",
+    "D": "El reposo y la fisioterapia retrasan el estudio de una causa grave."
+   }
+  }
+ },
+ "revalida_2023-2_q057": {
+  "pt": {
+   "resumo": "Hérnia incisional assintomática em paciente com IMC de 37: a obesidade aumenta muito a recidiva e as complicações. Antes de planejar a correção, deve-se buscar perda de peso com abordagem multidisciplinar.",
+   "alternativas": {
+    "A": "Cinta não trata a hérnia e não reduz o risco cirúrgico.",
+    "B": "Hérnia assintomática com colo largo não é urgência, e operar obesa aumenta recidiva.",
+    "C": "Correta: perda de peso antes da correção.",
+    "D": "O diagnóstico é clínico; o passo principal é otimizar o peso."
+   }
+  },
+  "es": {
+   "resumo": "Hernia incisional asintomática en una paciente con IMC de 37: la obesidad aumenta mucho la recidiva y las complicaciones. Antes de planificar la corrección, se debe buscar pérdida de peso con abordaje multidisciplinario.",
+   "alternativas": {
+    "A": "La faja no trata la hernia ni reduce el riesgo quirúrgico.",
+    "B": "Una hernia asintomática con cuello ancho no es urgencia, y operar a una paciente obesa aumenta la recidiva.",
+    "C": "Correcta: pérdida de peso antes de la corrección.",
+    "D": "El diagnóstico es clínico; el paso principal es optimizar el peso."
+   }
+  }
+ },
+ "revalida_2023-2_q059": {
+  "pt": {
+   "resumo": "Gestante de 35 semanas com PA de 140 × 90 e cefaleia intensa que não melhora: pré-eclâmpsia com sinal de gravidade (sintoma de iminência). A partir de 34 semanas, a conduta é internar, solicitar exames e programar a interrupção da gestação após estabilizar.",
+   "alternativas": {
+    "A": "Cefaleia persistente com hipertensão é sinal de gravidade; liberar é perigoso.",
+    "B": "Correta: exames, internação e interrupção da gestação.",
+    "C": "Com sinal de gravidade aos 35 semanas, não se libera para ambulatório.",
+    "D": "Apenas observar atrasa a conduta necessária."
+   }
+  },
+  "es": {
+   "resumo": "Gestante de 35 semanas con PA de 140 × 90 y cefalea intensa que no mejora: preeclampsia con signo de gravedad (síntoma de inminencia). Desde las 34 semanas, la conducta es internar, pedir exámenes y programar la interrupción del embarazo tras estabilizar.",
+   "alternativas": {
+    "A": "La cefalea persistente con hipertensión es signo de gravedad; dar el alta es peligroso.",
+    "B": "Correcta: exámenes, internación e interrupción del embarazo.",
+    "C": "Con signo de gravedad a las 35 semanas, no se da el alta a consultorio.",
+    "D": "Solo observar retrasa la conducta necesaria."
+   }
+  }
+ },
+ "revalida_2023-2_q060": {
+  "pt": {
+   "resumo": "Chikungunya suspeita: tratamento sintomático com analgésicos (paracetamol, dipirona), repouso e hidratação; notificação do caso suspeito; exames confirmatórios; busca ativa de casos e ações de controle do Aedes aegypti.",
+   "alternativas": {
+    "A": "A notificação é feita na suspeita, e não há indicação de internação.",
+    "B": "Corticoide não é usado na fase aguda, e a notificação é na suspeita.",
+    "C": "Correta: sintomáticos, notificação, exames e controle do vetor.",
+    "D": "A notificação é feita pela unidade que atende, sem esperar confirmação."
+   }
+  },
+  "es": {
+   "resumo": "Chikungunya sospechoso: tratamiento sintomático con analgésicos (paracetamol, dipirona), reposo e hidratación; notificación del caso sospechoso; exámenes confirmatorios; búsqueda activa de casos y acciones de control del Aedes aegypti.",
+   "alternativas": {
+    "A": "La notificación se hace ante la sospecha, y no hay indicación de internación.",
+    "B": "El corticoide no se usa en la fase aguda, y la notificación es ante la sospecha.",
+    "C": "Correcta: sintomáticos, notificación, exámenes y control del vector.",
+    "D": "La notificación la hace la unidad que atiende, sin esperar la confirmación."
+   }
+  }
+ },
+ "revalida_2023-2_q061": {
+  "pt": {
+   "resumo": "Adolescente com febre, dor de garganta, linfonodos cervicais e linfocitose com linfócitos atípicos: mononucleose infecciosa. Confirma-se com sorologia para Epstein-Barr (ou teste de anticorpos heterófilos).",
+   "alternativas": {
+    "A": "Correta: sorologia para Epstein-Barr.",
+    "B": "Biópsia não é necessária em quadro típico de mononucleose.",
+    "C": "Mielograma não tem indicação.",
+    "D": "Tomografia não confirma o diagnóstico."
+   }
+  },
+  "es": {
+   "resumo": "Adolescente con fiebre, dolor de garganta, ganglios cervicales y linfocitosis con linfocitos atípicos: mononucleosis infecciosa. Se confirma con serología para Epstein-Barr (o prueba de anticuerpos heterófilos).",
+   "alternativas": {
+    "A": "Correcta: serología para Epstein-Barr.",
+    "B": "La biopsia no es necesaria en un cuadro típico de mononucleosis.",
+    "C": "El mielograma no está indicado.",
+    "D": "La tomografía no confirma el diagnóstico."
+   }
+  }
+ },
+ "revalida_2023-2_q062": {
+  "pt": {
+   "resumo": "Glasgow de 6 exige via aérea definitiva, mas o trauma de face extenso com fratura de mandíbula e sangramento profuso torna a intubação orotraqueal inviável. A via indicada é a cricotireoidostomia cirúrgica.",
+   "alternativas": {
+    "A": "Cânula e máscara não garantem via aérea definitiva com Glasgow 6 e sangramento.",
+    "B": "Intubação é muito difícil e arriscada nesse trauma facial.",
+    "C": "Correta: cricotireoidostomia.",
+    "D": "Traqueostomia não é procedimento de emergência."
+   }
+  },
+  "es": {
+   "resumo": "Un Glasgow de 6 exige vía aérea definitiva, pero el trauma facial extenso con fractura de mandíbula y sangrado profuso hace inviable la intubación orotraqueal. La vía indicada es la cricotiroidotomía quirúrgica.",
+   "alternativas": {
+    "A": "La cánula y la mascarilla no garantizan vía aérea definitiva con Glasgow 6 y sangrado.",
+    "B": "La intubación es muy difícil y riesgosa en este trauma facial.",
+    "C": "Correcta: cricotiroidotomía.",
+    "D": "La traqueostomía no es un procedimiento de emergencia."
+   }
+  }
+ },
+ "revalida_2023-2_q063": {
+  "pt": {
+   "resumo": "Prematuro tardio nascido de cesárea sem trabalho de parto, com desconforto respiratório precoce e radiografias que melhoram em 24 horas: taquipneia transitória do recém-nascido, por retardo na reabsorção do líquido pulmonar.",
+   "alternativas": {
+    "A": "Pneumonia não melhora tão rápido sem tratamento e costuma ter fatores infecciosos.",
+    "B": "Doença da membrana hialina é de prematuros menores e piora nas primeiras horas.",
+    "C": "Aspiração meconial exige líquido meconial e é de termo ou pós-termo.",
+    "D": "Correta: taquipneia transitória."
+   }
+  },
+  "es": {
+   "resumo": "Prematuro tardío nacido por cesárea sin trabajo de parto, con dificultad respiratoria precoz y radiografías que mejoran en 24 horas: taquipnea transitoria del recién nacido, por retraso en la reabsorción del líquido pulmonar.",
+   "alternativas": {
+    "A": "La neumonía no mejora tan rápido sin tratamiento y suele tener factores infecciosos.",
+    "B": "La enfermedad de membrana hialina es de prematuros menores y empeora en las primeras horas.",
+    "C": "La aspiración meconial exige líquido meconial y es de recién nacidos a término o postérmino.",
+    "D": "Correcta: taquipnea transitoria."
+   }
+  }
+ },
+ "revalida_2023-2_q064": {
+  "pt": {
+   "resumo": "Hemorragia pós-parto por atonia com choque: ácido tranexâmico 1 g venoso o mais cedo possível (em até 3 horas do parto), junto com uterotônicos e massagem uterina, qualquer que seja a causa.",
+   "alternativas": {
+    "A": "Histerectomia é último recurso, após falha das medidas clínicas.",
+    "B": "Correta: ácido tranexâmico assim que possível com uterotônicos.",
+    "C": "O ácido tranexâmico é indicado em toda hemorragia pós-parto, não só em lacerações.",
+    "D": "Não se espera 1 hora: quanto antes, maior o benefício."
+   }
+  },
+  "es": {
+   "resumo": "Hemorragia posparto por atonía con shock: ácido tranexámico 1 g intravenoso lo antes posible (hasta 3 horas tras el parto), junto con uterotónicos y masaje uterino, cualquiera que sea la causa.",
+   "alternativas": {
+    "A": "La histerectomía es el último recurso, tras el fracaso de las medidas clínicas.",
+    "B": "Correcta: ácido tranexámico lo antes posible con uterotónicos.",
+    "C": "El ácido tranexámico se indica en toda hemorragia posparto, no solo en laceraciones.",
+    "D": "No se espera 1 hora: cuanto antes, mayor el beneficio."
+   }
+  }
+ },
+ "revalida_2023-2_q065": {
+  "pt": {
+   "resumo": "Pessoa em situação de rua com tosse e emagrecimento: suspeita de tuberculose sem fator de resistência conhecido. Inicia-se o esquema básico, com tratamento diretamente observado que pode ser feito por pessoas com vínculo com o paciente, supervisionadas semanalmente pela equipe.",
+   "alternativas": {
+    "A": "Não há indício de resistência, e o TDO é recomendado justamente nessa população.",
+    "B": "Não há indício de resistência que justifique encaminhar à referência terciária.",
+    "C": "Correta: esquema básico com TDO feito por pessoas de vínculo, com supervisão.",
+    "D": "O tratamento é feito pelo Consultório na Rua, com TDO possível."
+   }
+  },
+  "es": {
+   "resumo": "Persona en situación de calle con tos y adelgazamiento: sospecha de tuberculosis sin factor de resistencia conocido. Se inicia el esquema básico, con tratamiento directamente observado que puede hacer alguien con vínculo con el paciente, supervisado semanalmente por el equipo.",
+   "alternativas": {
+    "A": "No hay indicios de resistencia, y el TDO se recomienda justamente en esta población.",
+    "B": "No hay indicios de resistencia que justifiquen derivar a la referencia terciaria.",
+    "C": "Correcta: esquema básico con TDO hecho por personas de vínculo, con supervisión.",
+    "D": "El tratamiento lo hace el Consultorio en la Calle, con TDO posible."
+   }
+  }
+ },
+ "revalida_2023-2_q066": {
+  "pt": {
+   "resumo": "Febre, icterícia intensa com bilirrubina direta muito alta e transaminases pouco elevadas, sufusão conjuntival, mialgia em panturrilhas, lesão renal com potássio baixo e área sem saneamento: leptospirose. O exame confirmatório citado é a microaglutinação.",
+   "alternativas": {
+    "A": "Dengue não causa icterícia intensa com essa lesão renal.",
+    "B": "Hepatite B teria transaminases muito altas.",
+    "C": "Correta: leptospirose e microaglutinação.",
+    "D": "Febre amarela tem transaminases muito elevadas e exige exposição em área de risco."
+   }
+  },
+  "es": {
+   "resumo": "Fiebre, ictericia intensa con bilirrubina directa muy alta y transaminasas poco elevadas, sufusión conjuntival, mialgia en pantorrillas, lesión renal con potasio bajo y zona sin saneamiento: leptospirosis. El examen confirmatorio citado es la microaglutinación.",
+   "alternativas": {
+    "A": "El dengue no causa ictericia intensa con esa lesión renal.",
+    "B": "La hepatitis B tendría transaminasas muy altas.",
+    "C": "Correcta: leptospirosis y microaglutinación.",
+    "D": "La fiebre amarilla tiene transaminasas muy elevadas y exige exposición en zona de riesgo."
+   }
+  }
+ },
+ "revalida_2023-2_q068": {
+  "pt": {
+   "resumo": "Pelo ECA (art. 14), a vacinação das crianças é obrigatória nos casos recomendados pelas autoridades sanitárias. Segundo o gabarito, diante da recusa dos pais, a equipe aciona o Conselho Tutelar de imediato e vacina as crianças. O diálogo com a família continua importante, mas não substitui a proteção da criança.",
+   "alternativas": {
+    "A": "A convicção dos pais não se sobrepõe à obrigatoriedade prevista no ECA.",
+    "B": "Restringir o Conselho Tutelar a risco iminente não é o que o gabarito considerou.",
+    "C": "Correta: acionar o Conselho Tutelar e vacinar.",
+    "D": "Vacinar sem acionar a rede de proteção deixa de cumprir o fluxo do ECA."
+   }
+  },
+  "es": {
+   "resumo": "Según el Estatuto del Niño y del Adolescente de Brasil (art. 14), la vacunación de los niños es obligatoria en los casos recomendados por las autoridades sanitarias. Según la clave, ante la negativa de los padres, el equipo activa de inmediato el Consejo Tutelar y vacuna a los niños. El diálogo con la familia sigue siendo importante, pero no sustituye la protección del niño.",
+   "alternativas": {
+    "A": "La convicción de los padres no prevalece sobre la obligatoriedad del Estatuto.",
+    "B": "Limitar el Consejo Tutelar al riesgo inminente no es lo que consideró la clave.",
+    "C": "Correcta: activar el Consejo Tutelar y vacunar.",
+    "D": "Vacunar sin activar la red de protección no cumple el flujo del Estatuto."
+   }
+  }
+ },
+ "revalida_2023-2_q069": {
+  "pt": {
+   "resumo": "A Lei do Acompanhante garante à parturiente um acompanhante de sua escolha no trabalho de parto, parto e pós-parto imediato. Não há exigência de parentesco ou escolaridade, e a troca de acompanhante é permitida.",
+   "alternativas": {
+    "A": "Filmar depende das normas do serviço e de autorização.",
+    "B": "Não há exigência de escolaridade.",
+    "C": "O acompanhante é de livre escolha da mulher, não precisa ser parente.",
+    "D": "Correta: a troca de acompanhante é permitida."
+   }
+  },
+  "es": {
+   "resumo": "La Ley del Acompañante garantiza a la parturienta un acompañante de su elección en el trabajo de parto, el parto y el posparto inmediato. No se exige parentesco ni escolaridad, y se permite cambiar de acompañante.",
+   "alternativas": {
+    "A": "Filmar depende de las normas del servicio y de autorización.",
+    "B": "No se exige escolaridad.",
+    "C": "El acompañante es de libre elección de la mujer, no tiene que ser pariente.",
+    "D": "Correcta: se permite cambiar de acompañante."
+   }
+  }
+ },
+ "revalida_2023-2_q070": {
+  "pt": {
+   "resumo": "Criança de 11 anos sem comprovação vacinal deve ser considerada não vacinada: 3 doses de hepatite B, 3 de dT, febre amarela dose única, 2 doses de tríplice viral, HPV (2 doses nessa idade) e meningocócica ACWY dose única, conforme o calendário do adolescente.",
+   "alternativas": {
+    "A": "Correta: esquema completo para a idade.",
+    "B": "Tríplice viral são 2 doses, HPV são 2 doses nessa idade e a meningocócica do adolescente é a ACWY.",
+    "C": "Faltou a vacina HPV.",
+    "D": "Pentavalente é para menores de 7 anos."
+   }
+  },
+  "es": {
+   "resumo": "Un niño de 11 años sin comprobante de vacunación debe considerarse no vacunado: 3 dosis de hepatitis B, 3 de dT, fiebre amarilla dosis única, 2 dosis de triple viral, VPH (2 dosis a esa edad) y meningocócica ACWY dosis única, según el calendario del adolescente.",
+   "alternativas": {
+    "A": "Correcta: esquema completo para la edad.",
+    "B": "Triple viral son 2 dosis, VPH son 2 dosis a esa edad y la meningocócica del adolescente es la ACWY.",
+    "C": "Faltó la vacuna contra el VPH.",
+    "D": "La pentavalente es para menores de 7 años."
+   }
+  }
+ }
+}
