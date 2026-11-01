@@ -303,6 +303,18 @@ try {
   await foto(m, '28-celular-planos');
   await m.goto('http://app.local/#painel');
   await foto(m, '23-celular-painel-escuro');
+  // Menu lateral no celular: abre pelo ☰, navega e fecha sozinho.
+  await m.getByRole('button', { name: 'Abrir menu' }).click();
+  await m.locator('.casca.menu-aberto').waitFor();
+  await foto(m, '23b-celular-menu-aberto', false);
+  await m.getByRole('navigation', { name: 'Seções' }).getByRole('button', { name: 'Desafio', exact: true }).click();
+  await m.locator('.casca:not(.menu-aberto)').waitFor();
+  await m.locator('.tela-desafio').waitFor();
+  // Busca do menu lateral leva ao banco de questões filtrado.
+  await m.getByRole('button', { name: 'Abrir menu' }).click();
+  await m.locator('#busca-lateral').fill('dengue');
+  await m.locator('#busca-lateral').press('Enter');
+  await m.getByRole('heading', { name: /Questões oficiais/ }).waitFor();
   await m.goto('http://app.local/#simulado');
   await m.getByRole('button', { name: /Começar prova de 5 horas/ }).click();
   await m.locator('.paleta').waitFor();

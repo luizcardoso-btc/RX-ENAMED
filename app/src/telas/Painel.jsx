@@ -19,7 +19,7 @@ function treinoRapido(banco, progresso, n = 10) {
 }
 
 export default function Painel() {
-  const { banco, progresso, ir, iniciarSessao } = useApp();
+  const { banco, progresso, ir, iniciarSessao, conta } = useApp();
   const validas = banco.questoes.filter((q) => !q.anulada);
   const respondidas = validas.filter((q) => ultimaResposta(progresso, q.id));
   const certas = respondidas.filter((q) => ultimaResposta(progresso, q.id).certa).length;
@@ -67,6 +67,7 @@ export default function Painel() {
 
   return (
     <div className="tela-painel">
+      {conta?.usuario && <p className="saudacao">{t('Olá,')} <strong>{conta.usuario.nome.split(' ')[0]}</strong>. {t('Vamos continuar de onde você parou.')}</p>}
       <section className="destaque">
         <div className="destaque-texto">
           <span className="sobretitulo">{proximo.sobre}</span>

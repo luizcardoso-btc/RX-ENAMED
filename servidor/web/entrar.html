@@ -17,6 +17,7 @@
 <main class="envoltorio rx-pagina" style="max-width:440px">
   <section class="rx-cartao">
     <h1 style="font-family:var(--f-display);margin-top:0" id="titulo">Entrar</h1>
+    <p class="rx-mudo rx-oculto" id="subtitulo">A área do aluno é pessoal: crie sua conta grátis (25 questões por dia, desafio diário e Raio-X) ou entre com a sua.</p>
     <div class="rx-abas duas" role="group">
       <button type="button" class="rx-aba" data-modo="entrar" aria-pressed="true">Entrar</button>
       <button type="button" class="rx-aba" data-modo="cadastro" aria-pressed="false">Criar conta</button>
@@ -47,9 +48,11 @@
 </main>
 <script type="module">
 import { $, api, mostrarErro } from '/_rx/comum.js';
-const destino = new URLSearchParams(location.search).get('voltar');
-const seguro = destino && destino.startsWith('/') && !destino.startsWith('//') ? destino : '/minha-conta';
+const params = new URLSearchParams(location.search);
+const destino = params.get('voltar');
+const seguro = destino && destino.startsWith('/') && !destino.startsWith('//') && !destino.startsWith('/\\') ? destino : '/plataforma/index.html';
 let modo = 'entrar';
+
 for (const b of document.querySelectorAll('[data-modo]')) b.addEventListener('click', () => {
   modo = b.dataset.modo;
   for (const x of document.querySelectorAll('[data-modo]')) x.setAttribute('aria-pressed', String(x === b));
@@ -58,6 +61,9 @@ for (const b of document.querySelectorAll('[data-modo]')) b.addEventListener('cl
   $('#dica-senha').classList.toggle('rx-oculto', modo === 'entrar');
   $('#titulo').textContent = modo === 'entrar' ? 'Entrar' : 'Criar conta';
 });
+// Vindo da área do aluno sem conta: abre direto no cadastro.
+if (params.get('modo') === 'cadastro') document.querySelector('[data-modo=cadastro]').click();
+if (destino && destino.startsWith('/plataforma')) $('#subtitulo').classList.remove('rx-oculto');
 $('#form-2fa').addEventListener('submit', async (e) => {
   e.preventDefault();
   try { await api('/2fa/verificar', { metodo: 'POST', corpo: Object.fromEntries(new FormData(e.target)) }); location.href = seguro; }

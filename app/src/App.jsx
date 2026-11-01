@@ -19,23 +19,28 @@ import Curso from './telas/Curso.jsx';
 import Planos from './telas/Planos.jsx';
 import Cronograma from './telas/Cronograma.jsx';
 import Desafio, { VigiaDesafio } from './telas/Desafio.jsx';
+import Perfil from './telas/Perfil.jsx';
 
+// Rotas da área do aluno, agrupadas como aparecem no menu lateral.
 const ROTAS = {
-  painel: { titulo: 'Início', tela: Painel },
-  desafio: { titulo: 'Desafio', tela: Desafio },
-  cronograma: { titulo: 'Cronograma', tela: Cronograma },
-  curso: { titulo: 'Curso', tela: Curso },
-  trilha: { titulo: 'Trilha', tela: Trilha },
-  questoes: { titulo: 'Questões', tela: Banco },
-  flashcards: { titulo: 'Flashcards', tela: Flashcards },
-  simulado: { titulo: 'Simulado', tela: Simulado },
-  pratica: { titulo: 'Prática', tela: Pratica },
-  raiox: { titulo: 'Raio-X', tela: RaioX },
+  painel: { titulo: 'Início', tela: Painel, icone: 'casa', grupo: 'Estudar' },
+  desafio: { titulo: 'Desafio', tela: Desafio, icone: 'chama', grupo: 'Estudar' },
+  cronograma: { titulo: 'Cronograma', tela: Cronograma, icone: 'calendario', grupo: 'Estudar' },
+  curso: { titulo: 'Curso', tela: Curso, icone: 'livro', grupo: 'Estudar' },
+  trilha: { titulo: 'Trilha', tela: Trilha, icone: 'bandeira', grupo: 'Estudar' },
+  questoes: { titulo: 'Questões', tela: Banco, icone: 'lista', grupo: 'Praticar' },
+  flashcards: { titulo: 'Flashcards', tela: Flashcards, icone: 'cartas', grupo: 'Praticar' },
+  simulado: { titulo: 'Simulado', tela: Simulado, icone: 'relogio', grupo: 'Praticar' },
+  pratica: { titulo: 'Prática', tela: Pratica, icone: 'pessoas', grupo: 'Praticar' },
+  raiox: { titulo: 'Raio-X', tela: RaioX, icone: 'raiox', grupo: 'Acompanhar' },
+  desempenho: { titulo: 'Desempenho', tela: Desempenho, icone: 'grafico', grupo: 'Acompanhar' },
+  planos: { titulo: 'Planos', tela: Planos, icone: 'estrela', grupo: 'Conta' },
+  perfil: { titulo: 'Meu perfil', tela: Perfil, icone: 'usuario', grupo: 'Conta' },
   revisao: { titulo: 'Revisão', tela: Revisao, oculta: true },
-  desempenho: { titulo: 'Desempenho', tela: Desempenho },
-  planos: { titulo: 'Planos', tela: Planos },
   treino: { titulo: 'Resolvendo', tela: Treino, oculta: true },
 };
+const GRUPOS = ['Estudar', 'Praticar', 'Acompanhar', 'Conta'];
+const iniciais = (nome) => String(nome || '').split(/\s+/).filter(Boolean).slice(0, 2).map((x) => x[0]).join('').toUpperCase() || 'RX';
 
 // Endereço da página de venda (LP). No site, a área do aluno fica em /plataforma/; fora dele (artefato avulso), vai ao site publicado.
 const SITE_PUBLICADO = 'https://claude.ai/artifact/BUCcYf8hdLb1nNRS1bcEE6';
@@ -58,6 +63,8 @@ export default function App() {
   const [salvo, setSalvo] = useState(true);
   const [idioma, setIdioma] = useState(idiomaAtual);
   const [cursoVista, setCursoVista] = useState({}); // { modulo, aula, flashcards } aberto no curso
+  const [menuAberto, setMenuAberto] = useState(false);
+  const [busca, setBusca] = useState('');
   const principal = useRef(null);
 
   useEffect(() => {
@@ -98,6 +105,7 @@ export default function App() {
 
   const ir = useCallback((destino) => {
     setRota(destino);
+    setMenuAberto(false);
     if (destino !== 'treino') {
       try { window.history.replaceState(null, '', `#${destino}`); } catch { /* visualizador sem histórico */ }
     }
@@ -137,59 +145,115 @@ export default function App() {
     }, 3000);
     return () => clearTimeout(id);
   }, [progresso, conta.usuario, sincronizado]);
-  const contexto = { conta, acesso, banco, progresso, despachar, sessao, setSessao, ir, iniciarSessao, filtro, setFiltro, cursoVista, setCursoVista };
+  // Sair: no site com servidor encerra a sessão; na prévia, volta para a página do curso.
+  const sair = useCallback(async () => {
+    if (conta.servidor) {
+      try { await fetch('/api/sair', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: '{}' }); } catch { /* segue */ }
+      window.location.href = '/';
+      return;
+    }
+    window.location.href = enderecoLP(idioma);
+  }, [conta.servidor, idioma]);
+  // Fecha o menu do celular com Esc.
+  useEffect(() => {
+    if (!menuAberto) return undefined;
+    const tecla = (e) => e.key === 'Escape' && setMenuAberto(false);
+    window.addEventListener('keydown', tecla);
+    return () => window.removeEventListener('keydown', tecla);
+  }, [menuAberto]);
+  const contexto = { conta, acesso, banco, sair, progresso, despachar, sessao, setSessao, ir, iniciarSessao, filtro, setFiltro, cursoVista, setCursoVista };
   const Tela = ROTAS[rota].tela;
 
   return (
     <Contexto.Provider value={contexto}>
       <a className="pular" href="#conteudo">{t('Pular para o conteúdo')}</a>
-      <header className="topo">
-        <div className="topo-interno">
+      <div className={`casca${menuAberto ? ' menu-aberto' : ''}`}>
+        {/* Barra fina do celular: abre o menu lateral */}
+        <header className="topo-movel">
+          <button className="botao-menu" onClick={() => setMenuAberto(true)} aria-label={t('Abrir menu')} aria-expanded={menuAberto} aria-controls="menu-lateral">
+            <Icone nome="menu" tamanho={22} />
+          </button>
           <button className="marca" onClick={() => ir('painel')} aria-label={t('RX ENAMED, ir ao painel')}>
             <span className="marca-simbolo" aria-hidden="true">RX</span>
             <span className="marca-nome">RX <em>ENAMED</em></span>
           </button>
+          <button className="avatar-mini" onClick={() => ir('perfil')} aria-label={t('Meu perfil')}>{iniciais(conta.usuario?.nome)}</button>
+        </header>
+        <div className="menu-fundo" onClick={() => setMenuAberto(false)} aria-hidden="true" />
+
+        <aside id="menu-lateral" className="lateral" aria-label={t('Menu da área do aluno')}>
+          <div className="lateral-topo">
+            <button className="marca" onClick={() => ir('painel')} aria-label={t('RX ENAMED, ir ao painel')}>
+              <span className="marca-simbolo" aria-hidden="true">RX</span>
+              <span className="marca-nome">RX <em>ENAMED</em></span>
+            </button>
+            <button className="botao-fechar-menu" onClick={() => setMenuAberto(false)} aria-label={t('Fechar menu')}><Icone nome="x" /></button>
+          </div>
+
+          <button className={`perfil-mini${rota === 'perfil' ? ' ativo' : ''}`} onClick={() => ir('perfil')}>
+            <span className="avatar">{iniciais(conta.usuario?.nome)}</span>
+            <span className="perfil-mini-texto">
+              <strong>{conta.usuario?.nome?.split(' ')[0] || t('Visitante')}</strong>
+              <span className={`selo-plano${acesso.completo ? ' pago' : ''}`}>{acesso.completo ? t('Acesso completo') : t('Plano gratuito')}</span>
+            </span>
+          </button>
+
+          <form className="busca-lateral" role="search" onSubmit={(e) => {
+            e.preventDefault();
+            if (!busca.trim()) return;
+            setFiltro({ ...FILTRO_INICIAL, busca: busca.trim() });
+            ir('questoes');
+          }}>
+            <Icone nome="lupa" tamanho={16} />
+            <input id="busca-lateral" type="search" value={busca} onChange={(e) => setBusca(e.target.value)}
+              placeholder={t('Pesquisar tema ou questão')} aria-label={t('Pesquisar tema ou questão no banco')} />
+          </form>
+
           <nav className="navegacao" aria-label={t('Seções')}>
-            {Object.entries(ROTAS).filter(([, r]) => !r.oculta).map(([id, r]) => (
-              <button key={id} className={`nav-item ${rota === id ? 'ativo' : ''}`} aria-current={rota === id ? 'page' : undefined}
-                onClick={() => ir(id)}>
-                {t(r.titulo)}
-                {id === 'trilha' && pendentes > 0 && <span className="contagem" aria-label={t('{n} pendentes', { n: pendentes })}>{pendentes}</span>}
-                {id === 'simulado' && progresso.simuladoAtivo && <span className="contagem ponto-vivo" aria-label={t('em andamento')} />}
-              </button>
+            {GRUPOS.map((g) => (
+              <div key={g} className="grupo-nav">
+                <span className="grupo-nav-titulo">{t(g)}</span>
+                {Object.entries(ROTAS).filter(([, r]) => !r.oculta && r.grupo === g).map(([id, r]) => (
+                  <button key={id} className={`nav-item ${rota === id ? 'ativo' : ''}`} aria-current={rota === id ? 'page' : undefined} onClick={() => ir(id)}>
+                    <Icone nome={r.icone} tamanho={18} />
+                    <span className="nav-rotulo">{t(r.titulo)}</span>
+                    {id === 'trilha' && pendentes > 0 && <span className="contagem" aria-label={t('{n} pendentes', { n: pendentes })}>{pendentes}</span>}
+                    {id === 'simulado' && progresso.simuladoAtivo && <span className="contagem ponto-vivo" aria-label={t('em andamento')} />}
+                  </button>
+                ))}
+              </div>
             ))}
           </nav>
-          <div className="idioma" role="group" aria-label={t('Idioma')}>
-            {IDIOMAS.map((i) => (
-              <button key={i.id} className={idioma === i.id ? 'ativo' : ''} aria-pressed={idioma === i.id} lang={i.locale}
-                title={i.rotulo} onClick={() => trocarIdioma(i.id)}>{i.curto}</button>
-            ))}
+
+          <div className="lateral-rodape">
+            <div className="idioma" role="group" aria-label={t('Idioma')}>
+              {IDIOMAS.map((i) => (
+                <button key={i.id} className={idioma === i.id ? 'ativo' : ''} aria-pressed={idioma === i.id} lang={i.locale}
+                  title={i.rotulo} onClick={() => trocarIdioma(i.id)}>{i.curto}</button>
+              ))}
+            </div>
+            <button className="sair" onClick={sair} title={t('Sair da área do aluno')}>
+              <Icone nome="sair" tamanho={16} /> <span>{t('Sair')}</span>
+            </button>
           </div>
-          {conta.servidor && (
-            <a className="sair" href={conta.usuario ? '/minha-conta' : `/entrar?voltar=${encodeURIComponent('/plataforma/index.html')}`}>
-              <span>{conta.usuario ? t('Minha conta') : t('Entrar')}</span>
-            </a>
-          )}
-          <a className="sair" href={enderecoLP(idioma)} title={t('Sair da área do aluno e voltar ao site')}>
-            <Icone nome="sair" tamanho={16} /> <span>{t('Sair')}</span>
-          </a>
+        </aside>
+
+        <div className="principal">
+          <main id="conteudo" ref={principal} className="conteudo" key={idioma}>
+            {erro ? (
+              <div className="vazio"><h3>{t('O banco de questões não carregou')}</h3><p>{erro} {t('Recarregue a página para tentar de novo.')}</p></div>
+            ) : !banco ? (
+              <div className="carregando" role="status">{t('Carregando questões…')}</div>
+            ) : (
+              <><VigiaDesafio /><Tela /></>
+            )}
+          </main>
+          <footer className="rodape">
+            <p>{t('Questões e gabaritos oficiais do Inep (Revalida). Classificação por especialidade e tema feita para este curso.')}
+              {!salvo && ` ${t('Atenção: este navegador não está salvando o progresso (janela anônima ou armazenamento bloqueado).')}`}</p>
+          </footer>
         </div>
-      </header>
-
-      <main id="conteudo" ref={principal} className="conteudo" key={idioma}>
-        {erro ? (
-          <div className="vazio"><h3>{t('O banco de questões não carregou')}</h3><p>{erro} {t('Recarregue a página para tentar de novo.')}</p></div>
-        ) : !banco ? (
-          <div className="carregando" role="status">{t('Carregando questões…')}</div>
-        ) : (
-          <><VigiaDesafio /><Tela /></>
-        )}
-      </main>
-
-      <footer className="rodape">
-        <p>{t('Questões e gabaritos oficiais do Inep (Revalida). Classificação por especialidade e tema feita para este curso.')}
-          {!salvo && ` ${t('Atenção: este navegador não está salvando o progresso (janela anônima ou armazenamento bloqueado).')}`}</p>
-      </footer>
+      </div>
     </Contexto.Provider>
   );
 }

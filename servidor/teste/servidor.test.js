@@ -295,3 +295,15 @@ test('LGPD: exportar dados e excluir a conta', async () => {
   const u = await banco.um(`SELECT nome, cpf FROM usuarios WHERE excluido_em IS NOT NULL`);
   assert.equal(u.nome, 'Conta excluída');
 });
+
+test('área do aluno: sem login vai para o cadastro; dados da plataforma exigem conta', async () => {
+  const semLogin = await fetch(`${url}/plataforma/index.html`, { redirect: 'manual' });
+  assert.equal(semLogin.status, 302);
+  assert.match(semLogin.headers.get('location'), /^\/entrar\?modo=cadastro&voltar=%2Fplataforma%2Findex\.html/);
+  assert.equal((await fetch(`${url}/plataforma/data/comentarios.json`)).status, 401);
+  const c = cliente();
+  await c.post('/api/cadastro', { nome: 'Hugo Reis', email: 'hugo@rx.test', senha: 'senha-forte-1', aceite: true });
+  const comLogin = await fetch(`${url}/plataforma/data/comentarios.json`, { headers: { cookie: c.cookie() }, redirect: 'manual' });
+  assert.notEqual(comLogin.status, 401, 'logado passa pela restrição');
+  assert.notEqual(comLogin.status, 302);
+});

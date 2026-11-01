@@ -132,6 +132,17 @@ export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ b
   }
   app.get('/.well-known/security.txt', (_req, res) => res.type('text/plain').send(
     `Contact: mailto:${config.email.responderPara || 'contato@rxenamed.com.br'}\nExpires: ${new Date(Date.now() + 365 * 86400000).toISOString()}\nPreferred-Languages: pt, es, en\n`));
+  // Área do aluno restrita: a plataforma e os dados dela (questões, comentários, aulas) só abrem com a conta logada.
+  // Sem login, a página manda para o cadastro e volta para a plataforma depois.
+  app.use('/plataforma', carregarUsuario(banco, config), (req, res, next) => {
+    res.set('Cache-Control', 'private, no-store');
+    if (req.usuario) return next();
+    if (req.path === '/' || req.path.endsWith('.html')) {
+      const volta = encodeURIComponent(`/plataforma/index.html${req.originalUrl.includes('?') ? req.originalUrl.slice(req.originalUrl.indexOf('?')) : ''}`);
+      return res.redirect(302, `/entrar?modo=cadastro&voltar=${volta}`);
+    }
+    res.status(401).json({ erro: 'Entre na sua conta para acessar a área do aluno.' });
+  });
   // Site público e área do aluno (gerados por site/gerar.mjs).
   if (existsSync(config.pastaSite)) app.use(express.static(config.pastaSite, { extensions: ['html'], maxAge: config.producao ? '10m' : 0, dotfiles: 'ignore' }));
 
