@@ -1178,3 +1178,66 @@ a.botao { text-decoration: none; display: inline-flex; align-items: center; gap:
 .indique-numeros dt { font-size: .78rem; color: var(--tinta-3); }
 .indique-numeros dd { margin: 2px 0 0; font: 700 1.4rem var(--f-dado); }
 .passos-indique { display: grid; gap: 8px; padding-left: 20px; color: var(--tinta-2); }
+
+/* ---------- área de estudo clara: fundo branco com as caixas escuras em destaque ----------
+   O menu lateral continua escuro. Na área principal, o fundo é branco e o texto escuro; cada caixa
+   (desafio, números, módulos, sequência, cronograma, questões…) volta às cores escuras e ganha sombra. */
+.principal {
+  color-scheme: light;
+  --papel: #ffffff;
+  --folha: #ffffff;
+  --folha-2: #f2f5fa;
+  --tinta: #0b1730;
+  --tinta-2: #3a4a66;
+  --tinta-3: #66748c;
+  --linha: #e1e7f0;
+  --realce: #1d5fe0;
+  --acento-suave: #e8f0ff;
+  --brilho: rgb(37 99 235 / 0.16);
+  --certo: #047857;
+  --certo-suave: #e6f6ef;
+  --errado: #c81e1e;
+  --errado-suave: #fdecec;
+  --aviso: #a3530a;
+  --aviso-suave: #fff5e3;
+  --sombra: 0 1px 2px rgb(15 23 42 / 0.06), 0 8px 24px rgb(15 23 42 / 0.08);
+  background: #ffffff;
+  color: var(--tinta);
+}
+.principal :is(.cartao, .numero, .destaque, .filtros, .questao, .lista-questoes, .tabela-rolagem, .checklist, .conversa, .mentor-cartao,
+  .estacao-cartao, .atalho, .caixa, .prioridades li, .lista-repetidos, .trilha-config, .modulo-cartao, .plano, .dia, .fala-mentor,
+  .modulo, .materias-curso, .ranking-lista li, .dupla-pessoas li, .impresso, .amostra, .pausa) {
+  color-scheme: dark;
+  --papel: #05070c;
+  --folha: #0b111b;
+  --folha-2: #121a28;
+  --tinta: #e9eef8;
+  --tinta-2: #a8b4c9;
+  --tinta-3: #7f8ba2;
+  --linha: #1d2738;
+  --realce: #6aa8ff;
+  --acento-suave: #0f1f3d;
+  --brilho: rgb(37 99 235 / 0.22);
+  --certo: #34d399;
+  --certo-suave: #0c2a22;
+  --errado: #f87171;
+  --errado-suave: #321417;
+  --aviso: #fbbf24;
+  --aviso-suave: #2d230b;
+  color: var(--tinta);
+  border-color: #16213a;
+  box-shadow: 0 1px 2px rgb(15 23 42 / 0.10), 0 12px 32px rgb(15 23 42 / 0.16);
+}
+/* Caixas dentro de caixas não repetem a sombra. */
+.principal :is(.cartao, .dia, .destaque, .questao, .modulo-cartao, .plano) :is(.cartao, .numero, .caixa, .atalho, .lista-questoes, .tabela-rolagem, .checklist, .plano) { box-shadow: none; }
+.principal .destaque { box-shadow: 0 0 0 1px rgb(37 99 235 / 0.12), 0 18px 48px rgb(15 23 42 / 0.22); }
+.principal .modulo-cartao:hover:not(:disabled) { box-shadow: 0 16px 40px rgb(15 23 42 / 0.25); }
+.principal .dia-hoje { border-color: var(--acento); box-shadow: 0 0 0 2px var(--acento), 0 12px 32px rgb(37 99 235 / 0.25); }
+/* Texto direto no fundo branco: títulos, saudação, legendas e barras de gráfico. */
+.principal h1, .principal h2, .principal h3 { color: var(--tinta); }
+.principal .botao:hover:not(:disabled) { border-color: #9fb3d3; }
+.principal .segmentado { background: var(--folha-2); }
+.principal .rodape { color: var(--tinta-3); }
+.principal ::selection { background: rgb(37 99 235 / 0.22); color: inherit; }
+@media (min-width: 1001px) { .casca { background: linear-gradient(90deg, #0b111b 252px, #ffffff 252px); } }
+@media (max-width: 1000px) { .casca { background: #ffffff; } }
