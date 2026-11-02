@@ -17,6 +17,7 @@ export const ESTADO_INICIAL = {
   praticas: {}, // estacaoId -> [{ t, nota, modo, itens }]
   flashcards: {}, // cartaoId -> { intervalo, facilidade, proxima, vistos, ultima }
   aulas: {}, // aulaId -> momento em que a aula foi concluída
+  casosClinicos: [], // simulador clínico com IA: [{ em, area, diagnostico, nota }], mais recente primeiro
   desafios: {}, // 'AAAA-MM-DD' -> { concluido, feitas, acertos } (desafio diário)
   trilha: { dataProva: '', metaDiaria: 20, plano: null, rodada: 0 }, // plano: { dia, criadoEm, itens: [{ id, tipo, motivo }] }
 };
@@ -79,6 +80,8 @@ export function reducer(estado, acao) {
       return { ...estado, aulas: { ...estado.aulas, [acao.id]: acao.feita ? Date.now() : undefined } };
     case 'registrarPratica':
       return { ...estado, praticas: { ...estado.praticas, [acao.id]: [...(estado.praticas[acao.id] || []), acao.resultado] } };
+    case 'simulacaoClinica':
+      return { ...estado, casosClinicos: [acao.registro, ...(estado.casosClinicos || [])].slice(0, 100) };
     case 'concluirDesafio':
       if (estado.desafios?.[acao.dia]?.concluido) return estado;
       return { ...estado, desafios: { ...(estado.desafios || {}), [acao.dia]: { concluido: Date.now(), feitas: acao.feitas, acertos: acao.acertos } } };
@@ -162,6 +165,7 @@ export function mesclarProgresso(localBruto, remotoBruto) {
     praticas: porChave(a.praticas, b.praticas, (x, y) => uniao([...x, ...y], (r) => r.t).sort((p, q) => p.t - q.t)),
     flashcards: porChave(a.flashcards, b.flashcards, (x, y) => ((y?.ultima || 0) > (x?.ultima || 0) ? y : x)),
     aulas: porChave(a.aulas, b.aulas, (x, y) => (x && y ? Math.max(x, y) : x || y)),
+    casosClinicos: uniao([...(a.casosClinicos || []), ...(b.casosClinicos || [])], (c) => c.em).sort((p, q) => q.em - p.em).slice(0, 100),
     desafios: porChave(a.desafios, b.desafios, (x, y) => ((x?.concluido || Infinity) <= (y?.concluido || Infinity) ? x : y)),
     trilha: t(b.trilha.plano) > t(a.trilha.plano) ? b.trilha : a.trilha,
   };

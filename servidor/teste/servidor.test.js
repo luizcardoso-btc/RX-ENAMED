@@ -394,3 +394,51 @@ test('metas: progresso, ritmo, funil com visitas anônimas e edição pelo admin
   assert.ok(m2.diasRestantes > 300);
   assert.ok(m2.necessario.receitaDia > 0);
 });
+
+test('IA do simulador: login, streaming, recusa, limite do plano gratuito', async () => {
+  // Sem chave: a rota existe e avisa que a IA está desligada.
+  const a = cliente();
+  assert.equal((await a.post('/api/ia/mensagem', { entrada: 'oi' })).status, 401);
+  const cad = await a.post('/api/cadastro', { nome: 'Sofia Ramos', email: 'simulador@rx.test', senha: 'senha-forte-1', aceite: true });
+  assert.equal(cad.status, 201, JSON.stringify(cad.corpo));
+  assert.deepEqual((await a.get('/api/ia/estado')).corpo, { disponivel: false, limiteDia: 0 });
+  assert.equal((await a.post('/api/ia/mensagem', { entrada: 'oi' })).status, 503);
+
+  // Com um cliente falso da API: confere o pedido montado e o texto devolvido aos pedaços.
+  const pedidos = [];
+  const falso = { beta: { messages: { stream: (params) => {
+    pedidos.push(params);
+    const ouvintes = [];
+    const recusa = params.messages.at(-1).content === 'recuse';
+    queueMicrotask(() => ['Começou ', 'há uma hora.'].forEach((d) => ouvintes.forEach((f) => f(d))));
+    return { on: (ev, f) => { if (ev === 'text') ouvintes.push(f); }, finalMessage: async () => { await new Promise((r) => setTimeout(r, 5)); return { stop_reason: recusa ? 'refusal' : 'end_turn' }; } };
+  } } } };
+  const subir = (extra) => new Promise((ok) => {
+    const config = carregarConfig({ DATABASE_URL: BANCO, PASTA_SITE: '/nao-existe', ADMIN_EMAILS: 'admin@rx.test', ...extra });
+    const s = criarApp({ banco, config: { ...config, urlBase: 'http://localhost' }, planos: planosTeste, mp: criarMercadoPago(config.mercadoPago), correio, ia: falso }).listen(0, () => ok(s));
+  });
+  const s1 = await subir({ LIMITE_MULTIPLICADOR: '1000' });
+  const base = `http://127.0.0.1:${s1.address().port}`;
+  const post = (corpo) => fetch(`${base}/api/ia/mensagem`, { method: 'POST', headers: { 'Content-Type': 'application/json', origin: 'http://localhost', cookie: a.cookie() }, body: JSON.stringify(corpo) });
+  try {
+    const r = await post({ entrada: [{ role: 'user', content: 'Quando começou?' }], sistema: 'Você é o paciente.', nivel: 'quick' });
+    assert.equal(r.status, 200);
+    assert.equal(await r.text(), 'Começou há uma hora.');
+    const p = pedidos.at(-1);
+    assert.equal(p.model, 'claude-opus-5-5');
+    assert.equal(p.output_config.effort, 'low');
+    assert.equal(p.fallbacks, 'default');
+    assert.match(p.system, /RX ENAMED[\s\S]*Você é o paciente\./);
+    assert.ok((await (await post({ entrada: 'recuse' })).text()).endsWith('\n\u0000refused'));
+    assert.equal((await post({ entrada: [{ role: 'assistant', content: 'x' }] })).status, 400, 'última fala precisa ser do aluno');
+    assert.equal((await post({ entrada: 'x'.repeat(70_000) })).status, 400);
+  } finally { s1.close(); }
+
+  // Plano gratuito com limite zero: bloqueia e convida a assinar.
+  const s2 = await subir({ IA_LIMITE_DIA_GRATIS: '0' });
+  try {
+    const r = await fetch(`http://127.0.0.1:${s2.address().port}/api/ia/mensagem`, { method: 'POST', headers: { 'Content-Type': 'application/json', origin: 'http://localhost', cookie: a.cookie() }, body: JSON.stringify({ entrada: 'oi' }) });
+    assert.equal(r.status, 429);
+    assert.equal((await r.json()).codigo, 'quota');
+  } finally { s2.close(); }
+});

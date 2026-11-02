@@ -17,6 +17,7 @@ export function conferirProducao(config) {
   if (!mp.tokenAcesso || !mp.chavePublica) avisos.push('MP_ACCESS_TOKEN/MP_PUBLIC_KEY vazios: o checkout fica desligado (o site funciona).');
   else if (mp.tokenAcesso.startsWith('TEST-')) avisos.push('MP_ACCESS_TOKEN de TESTE em produção: nenhum pagamento real será cobrado.');
   if (mp.tokenAcesso && (!mp.segredoWebhook || mp.segredoWebhook.length < 16)) avisos.push('MP_WEBHOOK_SECRET vazio ou curto: a liberação automática não vai funcionar até preencher.');
+  if (!config.ia?.chave) avisos.push('ANTHROPIC_API_KEY vazia: simulador clínico, busca médica e correções com IA ficam desligados.');
   if (!config.emailsAdmin.length) avisos.push('ADMIN_EMAILS vazio: ninguém vira admin ao se cadastrar.');
   return { erros, avisos };
 }
@@ -53,6 +54,13 @@ export function carregarConfig(envBruto = process.env) {
       documento: env.LEGAL_DOCUMENTO || '', // CNPJ ou CPF do responsável, mostrado nos Termos e na Política de Privacidade
       email: env.LEGAL_EMAIL || env.EMAIL_RESPONDER_PARA || 'contato@rxenamed.com.br',
       data: env.LEGAL_DATA || '1º de novembro de 2026',
+    },
+    // IA do simulador clínico (Claude). Sem ANTHROPIC_API_KEY, a plataforma segue sem os recursos de IA.
+    ia: {
+      chave: env.ANTHROPIC_API_KEY || '',
+      modelo: env.IA_MODELO || 'claude-opus-5-5',
+      limiteDiaPago: Math.max(0, Number(env.IA_LIMITE_DIA_PAGO) || 300),
+      limiteDiaGratis: Math.max(0, Number(env.IA_LIMITE_DIA_GRATIS ?? 15) || 0),
     },
     // E-mails que viram admin ao se cadastrar (separados por vírgula). Também há o comando npm run criar-admin.
     emailsAdmin: (env.ADMIN_EMAILS || '').split(',').map((e) => e.trim().toLowerCase()).filter(Boolean),

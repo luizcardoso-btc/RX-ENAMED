@@ -40,6 +40,8 @@ Variáveis do serviço (aba **Variables**):
 | `MP_WEBHOOK_SECRET` | assinatura secreta do webhook (Mercado Pago > Webhooks) |
 | `MP_DESCRICAO_FATURA` | `RXENAMED` |
 | `RESEND_API_KEY`, `EMAIL_REMETENTE`, `EMAIL_RESPONDER_PARA` | e-mails automáticos (opcional no começo) |
+| `ANTHROPIC_API_KEY` | liga o simulador clínico com IA, a busca médica e as correções por IA (chave em console.anthropic.com) |
+| `IA_LIMITE_DIA_PAGO`, `IA_LIMITE_DIA_GRATIS`, `IA_MODELO` | interações com a IA por dia (padrão 300 e 15) e modelo (padrão `claude-opus-5-5`) |
 | `LEGAL_EMPRESA`, `LEGAL_DOCUMENTO`, `LEGAL_EMAIL` | nome, CNPJ (ou CPF) e e-mail mostrados nos Termos e na Política de Privacidade |
 
 Sem as chaves do Mercado Pago o site sobe normalmente e o checkout mostra "pagamentos em breve".

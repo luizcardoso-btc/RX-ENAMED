@@ -21,6 +21,7 @@ import Cronograma from './telas/Cronograma.jsx';
 import Desafio, { VigiaDesafio } from './telas/Desafio.jsx';
 import Perfil from './telas/Perfil.jsx';
 import Indique from './telas/Indique.jsx';
+import Simulador from './telas/Simulador.jsx';
 
 // Rotas da área do aluno, agrupadas como aparecem no menu lateral.
 const ROTAS = {
@@ -29,6 +30,7 @@ const ROTAS = {
   cronograma: { titulo: 'Cronograma', tela: Cronograma, icone: 'calendario', grupo: 'Estudar' },
   curso: { titulo: 'Curso', tela: Curso, icone: 'livro', grupo: 'Estudar' },
   trilha: { titulo: 'Trilha', tela: Trilha, icone: 'bandeira', grupo: 'Estudar' },
+  simulador: { titulo: 'Simulador clínico', tela: Simulador, icone: 'estetoscopio', grupo: 'Praticar' },
   questoes: { titulo: 'Questões', tela: Banco, icone: 'lista', grupo: 'Praticar' },
   flashcards: { titulo: 'Flashcards', tela: Flashcards, icone: 'cartas', grupo: 'Praticar' },
   simulado: { titulo: 'Simulado', tela: Simulado, icone: 'relogio', grupo: 'Praticar' },

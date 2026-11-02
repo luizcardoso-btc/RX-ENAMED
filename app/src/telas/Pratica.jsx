@@ -4,6 +4,7 @@ import { AREAS, infoArea } from '../data.js';
 import { formatarTempo, plural } from '../util.js';
 import { t, tc, idiomaAtual } from '../i18n.js';
 import Dupla from './Dupla.jsx';
+import { iaDoServidor } from '../ia.js';
 import Discursivas from './Discursivas.jsx';
 
 const NIVEIS = { adequado: { rotulo: 'Adequado', fator: 1 }, parcial: { rotulo: 'Parcial', fator: 0.5 }, inadequado: { rotulo: 'Inadequado', fator: 0 } };
@@ -14,8 +15,9 @@ export function useSample() {
   useEffect(() => {
     let vivo = true;
     (async () => {
-      let s = null;
-      try { s = window.claude?.use ? await window.claude.use('sample') : null; } catch { s = null; }
+      // No site próprio, a IA vem do servidor; no claude.ai, do visualizador.
+      let s = (await iaDoServidor())?.sample || null;
+      if (!s) { try { s = window.claude?.use ? await window.claude.use('sample') : null; } catch { s = null; } }
       // Função no estado: passar via atualizador, senão o React a executaria como atualizador.
       if (vivo) setSample(() => s || null);
     })();
@@ -30,6 +32,7 @@ const ERROS_SAMPLE = {
   rate_limited: 'Muitas mensagens em pouco tempo. Espere um pouco antes de enviar de novo.',
   session_expired: 'Sua sessão no Claude expirou. Entre de novo para usar a IA.',
   refused: 'A IA não respondeu a essa mensagem. Reformule a pergunta.',
+  quota: 'Você usou as interações com a IA de hoje. Assine um plano ou volte amanhã.',
 };
 const PERMANENTES = new Set(['not_granted', 'sampling_disabled', 'not_declared', 'capability_disabled', 'capability_removed']);
 const mensagemDeErro = (e) => t(ERROS_SAMPLE[e?.code] || 'A IA não respondeu agora. Tente enviar de novo.');
@@ -199,7 +202,7 @@ function Instrucoes({ e, modo, setModo, sample, iniciar, voltar }) {
               <span>
                 <strong>{t('Conversar com o paciente por IA')}</strong>
                 <span className="mudo pequeno">{t(sample === undefined ? 'Verificando se a IA está disponível…'
-                  : sample === null ? 'Indisponível aqui. Abra o app no claude.ai para conversar com o paciente.'
+                  : sample === null ? 'Indisponível agora. Entre na sua conta para conversar com o paciente por IA.'
                     : 'Você digita como falaria na estação. Na primeira mensagem o Claude pede sua autorização; usa o seu plano.')}</span>
               </span>
             </label>

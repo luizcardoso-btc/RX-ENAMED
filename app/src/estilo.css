@@ -1241,3 +1241,84 @@ a.botao { text-decoration: none; display: inline-flex; align-items: center; gap:
 .principal ::selection { background: rgb(37 99 235 / 0.22); color: inherit; }
 @media (min-width: 1001px) { .casca { background: linear-gradient(90deg, #0b111b 252px, #ffffff 252px); } }
 @media (max-width: 1000px) { .casca { background: #ffffff; } }
+
+/* ---------- simulador clínico com IA ---------- */
+.tela-simulador { display: flex; flex-direction: column; gap: 18px; }
+.tela-simulador input:not([type]), .tela-simulador input[type="text"] {
+  width: 100%; min-height: 40px; padding: 8px 12px; border: 1px solid var(--linha); border-radius: 8px; background: var(--folha-2); color: var(--tinta); font: inherit;
+}
+.tela-simulador .campo > span { font: 600 var(--t-1) var(--f-rotulo); letter-spacing: .03em; color: var(--tinta-2); margin-bottom: 6px; }
+.tela-simulador textarea, .tela-simulador select { background: var(--folha-2); }
+.sim-abas { align-self: flex-start; }
+.sim-abas button { display: inline-flex; align-items: center; gap: 6px; }
+.sim-config { display: flex; flex-direction: column; gap: 16px; padding: 22px; }
+.sim-config .segmentado { align-self: flex-start; }
+.sim-campos { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 14px; }
+.erro-texto { color: var(--errado); margin: 0; }
+.visualmente-oculto { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.aviso-ia { display: flex; gap: 10px; align-items: center; padding: 12px 16px; border-radius: 12px; background: var(--aviso-suave); color: var(--tinta); border: 1px solid var(--linha); }
+.aviso-ia p { margin: 0; }
+.sim-passos { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 14px; }
+.sim-passos li { display: flex; flex-direction: column; gap: 6px; padding: 18px; }
+.sim-passos li svg { color: var(--realce); }
+.sim-atendimento, .sim-correcao, .sim-busca, .sim-ecg-treino { display: flex; flex-direction: column; gap: 16px; }
+.sim-caso-topo { display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; gap: 16px; padding: 18px 20px; }
+.sim-caso-topo h2 { margin: 4px 0; }
+.sim-caso-topo p { margin: 0; }
+.sim-lado { gap: 12px; }
+.sim-lado .segmentado { width: 100%; }
+.sim-lado .segmentado button { flex: 1; }
+.sim-painel { display: flex; flex-direction: column; gap: 12px; padding: 16px; }
+.sim-ecg { padding: 16px; display: flex; flex-direction: column; gap: 10px; }
+.ecg-moldura { border-radius: 8px; overflow-x: auto; background: #fff7f5; }
+.ecg-moldura svg { display: block; width: 100%; min-width: 760px; height: auto; }
+.sim-ecg-topo { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.sim-ecg-resposta { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+.sim-ecg-resposta > .cartao { display: flex; flex-direction: column; gap: 14px; padding: 18px; }
+.sim-opcoes { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.sim-opcoes .alternativa-botao { width: 100%; font-family: var(--f-ui); }
+.sim-opcoes .alternativa-botao b { color: var(--realce); }
+.alternativa-botao.certa { border-color: var(--certo); background: var(--certo-suave); }
+.alternativa-botao.errada { border-color: var(--errado); background: var(--errado-suave); }
+.sim-gabarito h3 { margin-top: 0; }
+.sim-gabarito ul, .sim-resumo ul, .sim-alerta ul { margin: 0; padding-left: 1.2rem; display: flex; flex-direction: column; gap: 4px; }
+.sim-ia-texto { margin: 0; padding: 12px 14px; border-radius: 10px; background: var(--acento-suave); white-space: pre-wrap; }
+.sim-nota { display: flex; flex-direction: row; justify-content: space-between; align-items: center; gap: 20px; padding: 24px; border-radius: 16px; }
+.sim-nota h2 { margin: 4px 0 6px; }
+.sim-nota p { margin: 0; color: var(--tinta-2); }
+.sim-nota-valor { font: 700 3rem/1 var(--f-dado); color: var(--tinta); white-space: nowrap; }
+.sim-nota-valor small { font-size: 1.1rem; color: var(--tinta-3); }
+.sim-alerta { padding: 16px 18px; border-left: 3px solid var(--errado); }
+.sim-alerta h3 { margin: 0 0 8px; display: flex; align-items: center; gap: 6px; color: var(--errado); }
+.sim-partes { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 12px; }
+.sim-partes li { padding: 16px; display: flex; flex-direction: column; gap: 6px; }
+.sim-partes p { margin: 0; }
+.sim-parte-topo { display: flex; justify-content: space-between; gap: 8px; }
+.sim-parte-nota { font: 600 var(--t-1) var(--f-dado); color: var(--realce); }
+.sim-correcao > .cartao, .sim-resumo { padding: 20px; }
+.sim-modelo { display: grid; grid-template-columns: 9rem minmax(0, 1fr); gap: 8px 16px; margin: 0; }
+.sim-modelo dt { font-weight: 600; color: var(--tinta-2); }
+.sim-modelo dd { margin: 0; }
+.sim-modelo .pre { white-space: pre-wrap; }
+.sim-dica { display: flex; gap: 8px; align-items: flex-start; margin: 14px 0 0; padding: 12px 14px; border-radius: 10px; background: var(--aviso-suave); }
+.sim-dica svg { color: var(--aviso); flex: none; margin-top: 2px; }
+.sim-busca-form { display: flex; flex-direction: row; align-items: center; gap: 10px; padding: 10px 12px; }
+.sim-busca-form input { flex: 1; }
+.sim-banco { display: flex; flex-direction: row; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; padding: 16px 18px; }
+.sim-banco > div:first-child { display: flex; flex-direction: column; gap: 2px; }
+.sim-resumo h2 { margin: 4px 0 8px; }
+.sim-resumo h3 { margin: 16px 0 6px; font-size: 1rem; color: var(--realce); }
+.sim-quiz { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.sim-quiz > li { padding: 18px; display: flex; flex-direction: column; gap: 12px; }
+.sim-quiz-enunciado { margin: 0; line-height: 1.55; }
+.principal :is(.sim-nota) { color-scheme: dark; }
+@media (max-width: 1000px) {
+  .sim-ecg-resposta { grid-template-columns: minmax(0, 1fr); }
+  .sim-modelo { grid-template-columns: minmax(0, 1fr); }
+  .sim-caso-topo { flex-direction: column; }
+}
+@media (max-width: 640px) {
+  .sim-busca-form { flex-wrap: wrap; }
+  .sim-busca-form input { flex-basis: calc(100% - 40px); }
+  .sim-nota { flex-direction: column; align-items: flex-start; }
+}
