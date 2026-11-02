@@ -95,18 +95,18 @@ function Comentario({ q, escolha }) {
         {certa ? t('Você acertou. A resposta é {l}.', { l: q.gabarito }) : t('Você marcou {e}. A resposta é {l}.', { e: escolha || '–', l: q.gabarito })}
       </p>
       <p>{tx.resumo}</p>
-      {!certa && escolha && tx.alternativas[escolha] && (
+      {!certa && escolha && tx.alternativas?.[escolha] && (
         <p className="comentario-erro"><strong>{t('Por que {l} está errada:', { l: escolha })}</strong> {tx.alternativas[escolha]}</p>
       )}
-      <details className="comentario-alternativas">
+      {Object.keys(tx.alternativas || {}).length > 0 && <details className="comentario-alternativas">
         <summary>{t('Comentário de cada alternativa')}</summary>
         <ul>
           {letras.map((l) => (
             <li key={l} className={l === q.gabarito ? 'gabarito' : ''}><span className="bolha" aria-hidden="true">{l}</span><span>{tx.alternativas[l]}</span></li>
           ))}
         </ul>
-      </details>
-      <p className="mudo pequeno">{c.ia ? t('Comentário gerado por IA a partir do gabarito oficial. Confira nos protocolos.') : t('Comentário da equipe RX, em revisão médica, de acordo com o gabarito oficial do Inep.')}</p>
+      </details>}
+      <p className="mudo pequeno">{c.inedita ? t('Questão inédita do RX ENAMED, em revisão médica.') : c.ia ? t('Comentário gerado por IA a partir do gabarito oficial. Confira nos protocolos.') : t('Comentário da equipe RX, em revisão médica, de acordo com o gabarito oficial do Inep.')}</p>
     </section>
   );
 }

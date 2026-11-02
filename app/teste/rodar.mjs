@@ -274,6 +274,12 @@ try {
   await ia.getByText('Nota da estação').waitFor();
   await foto(ia, '45-estacao-ia-resultado');
 
+  // ---- residência é privada: sem conta de administrador, não aparece no menu e o endereço leva ao Início
+  const priv = await novaPagina(navegador);
+  await priv.goto('http://app.local/#residencia');
+  await priv.getByRole('heading', { name: /Desafio de hoje/ }).waitFor();
+  if (await priv.getByRole('navigation', { name: 'Seções' }).getByRole('button', { name: /Residência/ }).count()) erros.push('residência aparece no menu para quem não é admin');
+
   // ---- simulador clínico sem IA (caso escrito, exames, ECG, conduta, correção, busca e treino de ECG)
   const sim = await novaPagina(navegador);
   await sim.goto('http://app.local/#simulador');

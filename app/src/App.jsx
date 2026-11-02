@@ -22,6 +22,7 @@ import Desafio, { VigiaDesafio } from './telas/Desafio.jsx';
 import Perfil from './telas/Perfil.jsx';
 import Indique from './telas/Indique.jsx';
 import Simulador from './telas/Simulador.jsx';
+import Residencia from './telas/Residencia.jsx';
 
 // Rotas da área do aluno, agrupadas como aparecem no menu lateral.
 const ROTAS = {
@@ -31,6 +32,8 @@ const ROTAS = {
   curso: { titulo: 'Curso', tela: Curso, icone: 'livro', grupo: 'Estudar' },
   trilha: { titulo: 'Trilha', tela: Trilha, icone: 'bandeira', grupo: 'Estudar' },
   simulador: { titulo: 'Simulador clínico', tela: Simulador, icone: 'estetoscopio', grupo: 'Praticar' },
+  // Privada: só aparece para administradores (área em construção, ainda não liberada aos alunos).
+  residencia: { titulo: 'Residência', tela: Residencia, icone: 'cadeado', grupo: 'Praticar', admin: true },
   questoes: { titulo: 'Questões', tela: Banco, icone: 'lista', grupo: 'Praticar' },
   flashcards: { titulo: 'Flashcards', tela: Flashcards, icone: 'cartas', grupo: 'Praticar' },
   simulado: { titulo: 'Simulado', tela: Simulado, icone: 'relogio', grupo: 'Praticar' },
@@ -91,7 +94,7 @@ export default function App() {
           const dados = r.ok && (r.headers.get('content-type') || '').includes('json') ? await r.json() : null;
           if (vivo && dados) {
             setConta({ servidor: true, usuario: dados.usuario, acesso: dados.acesso });
-            if (dados.acesso?.ativo) setAcessoTotal(true);
+            if (dados.acesso?.ativo || dados.usuario?.papel === 'admin') setAcessoTotal(true);
           }
         } catch { /* site estático sem servidor */ }
       }
@@ -166,7 +169,8 @@ export default function App() {
     return () => window.removeEventListener('keydown', tecla);
   }, [menuAberto]);
   const contexto = { conta, acesso, banco, sair, progresso, despachar, sessao, setSessao, ir, iniciarSessao, filtro, setFiltro, cursoVista, setCursoVista };
-  const Tela = ROTAS[rota].tela;
+  const ehAdmin = conta.usuario?.papel === 'admin';
+  const Tela = ROTAS[rota].admin && !ehAdmin ? Painel : ROTAS[rota].tela;
 
   return (
     <Contexto.Provider value={contexto}>
@@ -217,10 +221,11 @@ export default function App() {
             {GRUPOS.map((g) => (
               <div key={g} className="grupo-nav">
                 <span className="grupo-nav-titulo">{t(g)}</span>
-                {Object.entries(ROTAS).filter(([, r]) => !r.oculta && r.grupo === g).map(([id, r]) => (
+                {Object.entries(ROTAS).filter(([, r]) => !r.oculta && r.grupo === g && (!r.admin || ehAdmin)).map(([id, r]) => (
                   <button key={id} className={`nav-item ${rota === id ? 'ativo' : ''}`} aria-current={rota === id ? 'page' : undefined} onClick={() => ir(id)}>
                     <Icone nome={r.icone} tamanho={18} />
                     <span className="nav-rotulo">{t(r.titulo)}</span>
+                    {r.admin && <span className="selo-privado">{t('Privado')}</span>}
                     {id === 'trilha' && pendentes > 0 && <span className="contagem" aria-label={t('{n} pendentes', { n: pendentes })}>{pendentes}</span>}
                     {id === 'simulado' && progresso.simuladoAtivo && <span className="contagem ponto-vivo" aria-label={t('em andamento')} />}
                   </button>

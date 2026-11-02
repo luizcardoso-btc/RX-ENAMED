@@ -442,3 +442,20 @@ test('IA do simulador: login, streaming, recusa, limite do plano gratuito', asyn
     assert.equal((await r.json()).codigo, 'quota');
   } finally { s2.close(); }
 });
+
+test('residência: banco privado, só administradores', async () => {
+  const aluno = cliente();
+  assert.equal((await aluno.get('/api/residencia/questoes')).status, 401);
+  await aluno.post('/api/cadastro', { nome: 'Rita Prado', email: 'residencia-aluno@rx.test', senha: 'senha-forte-1', aceite: true });
+  assert.equal((await aluno.get('/api/residencia/questoes')).status, 404, 'aluno não vê nem que a rota existe');
+  const adm = cliente();
+  assert.equal((await adm.post('/api/entrar', { email: 'admin@rx.test', senha: 'senha-forte-1' })).status, 200);
+  const r = await adm.get('/api/residencia/questoes');
+  assert.equal(r.status, 200);
+  assert.ok(r.corpo.questoes.length >= 50);
+  for (const q of r.corpo.questoes) {
+    assert.ok(q.id && q.enunciado && q.comentario && q.alternativas.length === 4, q.id);
+    assert.ok('ABCD'.includes(q.gabarito), q.id);
+  }
+  assert.equal(new Set(r.corpo.questoes.map((q) => q.id)).size, r.corpo.questoes.length, 'ids únicos');
+});

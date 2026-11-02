@@ -11,6 +11,7 @@ import { criarLimitador } from './limitador.js';
 import { contarVisitas } from './metas.js';
 import { rotasIndicacao, rotaLinkIndicacao } from './indicacao.js';
 import { rotasIa, criarClienteIa } from './ia.js';
+import { rotasResidencia } from './rotas/residencia.js';
 
 const MP_HOSTS = 'https://*.mercadopago.com https://*.mercadopago.com.br https://*.mercadolibre.com https://*.mercadolivre.com https://*.mlstatic.com';
 
@@ -113,6 +114,7 @@ export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ b
   app.use('/api', rotasProgresso({ banco }));
   app.use('/api', rotasIndicacao({ banco, config }));
   app.use('/api', rotasIa({ banco, config, limitar, cliente: ia }));
+  app.use('/api', rotasResidencia({ config }));
   app.use('/api/admin', rotasAdmin({ banco, planos, mp, correio, config }));
   app.use('/api', (_req, res) => res.status(404).json({ erro: 'Rota inexistente.' }));
 
