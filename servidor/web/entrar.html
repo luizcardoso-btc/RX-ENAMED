@@ -44,12 +44,6 @@
       <p class="rx-erro rx-oculto" id="erro" role="alert"></p>
       <button class="botao botao-primario rx-botao-largo" type="submit">Continuar</button>
     </form>
-    <form id="form-2fa" class="rx-oculto" novalidate>
-      <p>Digite o código de 6 dígitos do seu aplicativo autenticador (ou um código de recuperação).</p>
-      <label class="rx-campo"><span>Código</span><input name="codigo" inputmode="numeric" autocomplete="one-time-code" required></label>
-      <p class="rx-erro rx-oculto" id="erro-2fa" role="alert"></p>
-      <button class="botao botao-primario rx-botao-largo" type="submit">Confirmar</button>
-    </form>
     <p style="margin-top:14px"><a href="#" id="esqueci">Esqueci minha senha</a></p>
     <form id="form-esqueci" class="rx-oculto" novalidate>
       <p class="rx-mudo">Digite o e-mail da sua conta. Enviamos um link para você criar uma nova senha.</p>
@@ -88,11 +82,6 @@ $('#mostrar-senha').addEventListener('click', (e) => {
   e.currentTarget.setAttribute('aria-pressed', String(ver));
   e.currentTarget.setAttribute('aria-label', ver ? 'Ocultar senha' : 'Mostrar senha');
 });
-$('#form-2fa').addEventListener('submit', async (e) => {
-  e.preventDefault();
-  try { await api('/2fa/verificar', { metodo: 'POST', corpo: Object.fromEntries(new FormData(e.target)) }); location.href = seguro; }
-  catch (err) { mostrarErro($('#erro-2fa'), err.message); }
-});
 $('#esqueci').addEventListener('click', (e) => { e.preventDefault(); $('#form-esqueci').classList.toggle('rx-oculto'); });
 $('#form-esqueci').addEventListener('submit', async (e) => {
   e.preventDefault();
@@ -109,7 +98,6 @@ $('#form').addEventListener('submit', async (e) => {
     let origem = null;
     try { origem = sessionStorage.getItem('rx-origem'); } catch { /* sem armazenamento */ }
     const r = await api(modo === 'entrar' ? '/entrar' : '/cadastro', { metodo: 'POST', corpo: { ...f, aceite: f.aceite === 'on', ...(origem ? { origem } : {}) } });
-    if (r.precisa2fa) { $('#form').classList.add('rx-oculto'); $('#form-2fa').classList.remove('rx-oculto'); $('#form-2fa [name=codigo]').focus(); return; }
     location.href = seguro;
   } catch (err) { mostrarErro($('#erro'), err.message); }
 });

@@ -1356,3 +1356,14 @@ ol.sim-chave { list-style: decimal; }
 .sim-flashes { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: 12px; }
 .sim-flash { width: 100%; height: 100%; text-align: left; gap: 8px; padding: 16px; cursor: pointer; font: inherit; color: var(--tinta); }
 .sim-flash.virado { border-color: var(--realce); }
+
+/* Menu lateral no celular: itens em linha (ícone + texto), como no computador.
+   Sobrescreve a regra antiga da barra inferior (.nav-item em coluna). */
+.lateral .nav-item { flex-direction: row; flex: none; min-width: 0; letter-spacing: normal; position: relative; }
+.lateral .nav-item .contagem { position: static; margin-left: auto; }
+@media (max-width: 760px) {
+  .lateral .nav-item { padding: 10px 12px; font-size: 1rem; gap: 12px; }
+  .lateral .navegacao { gap: 2px; }
+}
+.lateral .grupo-nav + .grupo-nav { margin-top: 10px; }
+.lateral .grupo-nav-titulo { display: block; margin-bottom: 4px; }
