@@ -21,6 +21,12 @@
     <h2 style="margin-top:0">Pagamentos</h2>
     <div class="rx-rolagem"><table class="rx-tabela" id="pedidos"></table></div>
   </section>
+  <section class="rx-cartao" style="margin-top:16px" id="indique">
+    <h2 style="margin-top:0">Indique e ganhe</h2>
+    <p class="rx-mudo">Cada colega que assinar pelo seu link ganha 10% de desconto, e você ganha 30 dias de acesso completo.</p>
+    <div class="rx-copia rx-campo"><input readonly id="link-ind" aria-label="Seu link de indicação"><button class="botao" id="copiar-ind">Copiar</button></div>
+    <p class="rx-mudo" id="num-ind"></p>
+  </section>
   <section class="rx-cartao" style="margin-top:16px">
     <h2 style="margin-top:0">Privacidade e segurança</h2>
     <div class="rx-linha">
@@ -52,6 +58,11 @@ $('#acesso').innerHTML = acesso.ativo
      <div class="rx-linha"><a class="botao botao-primario" href="/plataforma/index.html">Estudar agora →</a><a class="botao" href="/planos.html">Renovar ou mudar de plano</a></div>`
   : `<span class="rx-etq">Plano gratuito</span><p>Olá, ${esc(usuario.nome.split(' ')[0])}. Você está no plano gratuito: 25 questões por dia e 1 simulado por mês.</p>
      <a class="botao botao-primario" href="/planos.html">Ver planos</a>`;
+api('/indicacao').then((ind) => {
+  $('#link-ind').value = ind.link;
+  $('#num-ind').textContent = `${ind.cadastros} colega(s) cadastrado(s) · ${ind.compraram} assinaram · ${ind.dias} dias ganhos`;
+  $('#copiar-ind').addEventListener('click', async (e) => { await navigator.clipboard.writeText(ind.link); e.target.textContent = 'Copiado!'; });
+}).catch(() => {});
 const { pedidos } = await api('/meus-pedidos');
 const STATUS = { aprovado: 'Aprovado', pendente: 'Aguardando pagamento', recusado: 'Recusado', reembolsado: 'Reembolsado', expirado: 'Expirado', cancelado: 'Cancelado', contestado: 'Em contestação' };
 $('#pedidos').innerHTML = pedidos.length

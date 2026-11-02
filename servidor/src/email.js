@@ -49,6 +49,11 @@ export const MODELOS = {
     html: moldura('Seu acesso completo terminou', `<p>${esc(nome.split(' ')[0])}, sua conta voltou ao plano gratuito (25 questões por dia e 1 simulado por mês). Seu progresso continua salvo.</p>`, { texto: 'Voltar ao plano completo', url: `${url}/planos.html` }),
     texto: `Seu acesso completo terminou. Renove em ${url}/planos.html`,
   }),
+  indicacaoRecompensa: ({ nome, dias, ate, url }) => ({
+    assunto: `Você ganhou ${dias} dias de acesso completo no RX ENAMED`,
+    html: moldura('Sua indicação comprou!', `<p>${esc(nome.split(' ')[0])}, um colega que você indicou acabou de assinar o RX ENAMED. Como agradecimento, você ganhou <strong>${dias} dias de acesso completo</strong>, válidos até <strong>${data(ate)}</strong>.</p><p>Continue indicando: cada colega que assinar vale mais ${dias} dias.</p>`, { texto: 'Estudar agora', url: `${url}/plataforma/index.html` }),
+    texto: `Você ganhou ${dias} dias de acesso completo até ${data(ate)}.`,
+  }),
   redefinirSenha: ({ nome, link }) => ({
     assunto: 'Redefina sua senha do RX ENAMED',
     html: moldura('Redefinir senha', `<p>${esc(nome.split(' ')[0])}, recebemos um pedido para trocar sua senha. O link vale por 1 hora. Se não foi você, ignore este e-mail.</p>`, { texto: 'Criar nova senha', url: link }),

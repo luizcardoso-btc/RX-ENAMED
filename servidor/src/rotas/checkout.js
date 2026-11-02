@@ -4,6 +4,7 @@ import { cpfValido } from '../seguranca.js';
 import { ErroMercadoPago } from '../mercadopago.js';
 import { aplicarPagamento } from '../pagamentos.js';
 import { calcularPreco, ErroCupom } from '../cupons.js';
+import { temDescontoDeIndicado, DESCONTO_INDICADO } from '../indicacao.js';
 
 const METODOS = ['pix', 'cartao', 'boleto'];
 const MINUTOS_PIX = 30;
@@ -34,8 +35,9 @@ export function rotasCheckout({ banco, config, planos, mp, correio, limitar }) {
   const limite = (chave, max, seg) => async (req, res, next) => ((await limitar(chave(req), max, seg)) ? res.status(429).json({ erro: 'Muitas tentativas. Espere alguns minutos.' }) : next());
   const ctx = { banco, planos, correio };
 
-  r.get('/checkout/config', (_req, res) => {
-    res.json({ chavePublica: config.mercadoPago.chavePublica, pagamentosAtivos, planos: planos.planos, limitesGratis: planos.limitesGratis });
+  r.get('/checkout/config', async (req, res) => {
+    const indicado = req.usuario ? await temDescontoDeIndicado(banco, req.usuario.id) : false;
+    res.json({ chavePublica: config.mercadoPago.chavePublica, pagamentosAtivos, planos: planos.planos, limitesGratis: planos.limitesGratis, descontoIndicacao: indicado ? DESCONTO_INDICADO : 0 });
   });
 
   // Confere um cupom e devolve o preço com desconto (o desconto de verdade é recalculado ao pagar).
@@ -43,8 +45,8 @@ export function rotasCheckout({ banco, config, planos, mp, correio, limitar }) {
     const plano = planos.porId[req.body?.plano];
     if (!plano) return res.status(400).json({ erro: 'Plano inválido.' });
     try {
-      const p = await calcularPreco(banco, plano, { cupom: req.body?.cupom });
-      res.json({ valorOriginalCentavos: p.valorOriginal, descontoCentavos: p.desconto, valorCentavos: p.valor, cupom: p.cupom.codigo.toUpperCase() });
+      const p = await calcularPreco(banco, plano, { cupom: req.body?.cupom, usuarioId: req.usuario?.id });
+      res.json({ valorOriginalCentavos: p.valorOriginal, descontoCentavos: p.desconto, valorCentavos: p.valor, cupom: p.cupom ? p.cupom.codigo.toUpperCase() : null, descontoIndicacao: p.descontoIndicacao });
     } catch (e) {
       if (e instanceof ErroCupom) return res.status(400).json({ erro: e.message });
       throw e;
@@ -69,7 +71,7 @@ export function rotasCheckout({ banco, config, planos, mp, correio, limitar }) {
     }
     let preco;
     try {
-      preco = await calcularPreco(banco, plano, { cupom: req.body?.cupom || null, ref: req.body?.ref || null });
+      preco = await calcularPreco(banco, plano, { cupom: req.body?.cupom || null, ref: req.body?.ref || null, usuarioId: req.usuario.id });
     } catch (e) {
       if (e instanceof ErroCupom) return res.status(400).json({ erro: e.message });
       throw e;
@@ -77,9 +79,9 @@ export function rotasCheckout({ banco, config, planos, mp, correio, limitar }) {
     if (!req.usuario.cpf) await banco.consulta('UPDATE usuarios SET cpf = $2 WHERE id = $1', [req.usuario.id, cpf]);
 
     const pedido = await banco.um(
-      `INSERT INTO pedidos (usuario_id, plano_id, valor_centavos, metodo, parcelas, valor_original_centavos, cupom_id, desconto_centavos, afiliado_id, comissao_centavos)
-       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING *`,
-      [req.usuario.id, plano.id, preco.valor, metodo, parcelas, preco.valorOriginal, preco.cupom?.id || null, preco.desconto, preco.afiliado?.id || null, preco.comissao]);
+      `INSERT INTO pedidos (usuario_id, plano_id, valor_centavos, metodo, parcelas, valor_original_centavos, cupom_id, desconto_centavos, afiliado_id, comissao_centavos, desconto_indicacao)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING *`,
+      [req.usuario.id, plano.id, preco.valor, metodo, parcelas, preco.valorOriginal, preco.cupom?.id || null, preco.desconto, preco.afiliado?.id || null, preco.comissao, preco.descontoIndicacao]);
     const [primeiro, ...resto] = req.usuario.nome.split(' ');
     const agora = Date.now();
     const dados = {

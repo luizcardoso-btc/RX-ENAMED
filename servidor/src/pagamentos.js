@@ -1,5 +1,6 @@
 import { statusDoPedido, resumoPagamento } from './mercadopago.js';
 import { liberarPorPedido, cancelarPorPedido } from './acesso.js';
+import { recompensarIndicacao, cancelarRecompensa, DIAS_INDICADOR } from './indicacao.js';
 
 /**
  * Aplica ao pedido o estado atual de um pagamento consultado no Mercado Pago, libera ou encerra o acesso
@@ -22,26 +23,34 @@ export async function aplicarPagamento({ banco, planos, correio }, pagamento) {
         WHERE id = $1`,
       [pedido.id, status, pagamento.status_detail || null, String(pagamento.id), JSON.stringify(resumoPagamento(pagamento)), pagoEm]);
     let novoAprovado = false;
+    let recompensa = null;
     if (status === 'aprovado') {
       const plano = planos.porId[pedido.plano_id];
       if (!plano) return { resultado: `plano ${pedido.plano_id} não existe mais` };
       const ja = await t.um('SELECT 1 FROM matriculas WHERE pedido_id = $1', [pedido.id]);
       await liberarPorPedido(t, pedido, plano);
       novoAprovado = !ja;
+      if (novoAprovado) recompensa = await recompensarIndicacao(t, pedido);
       if (pedido.cupom_id && !pedido.cupom_contado) {
         await t.consulta('UPDATE cupons SET usos = usos + 1 WHERE id = $1', [pedido.cupom_id]);
         await t.consulta('UPDATE pedidos SET cupom_contado = true WHERE id = $1', [pedido.id]);
       }
     } else if (status === 'reembolsado' || status === 'contestado' || status === 'cancelado') {
       await cancelarPorPedido(t, pedido.id);
+      await cancelarRecompensa(t, pedido.id);
     }
-    return { resultado: status, pedidoId: pedido.id, novoAprovado, pedido };
+    return { resultado: status, pedidoId: pedido.id, novoAprovado, pedido, recompensa };
   });
   if (r.novoAprovado && correio) {
     const u = await banco.um('SELECT id, nome, email FROM usuarios WHERE id = $1', [r.pedido.usuario_id]);
     const m = await banco.um('SELECT fim FROM matriculas WHERE pedido_id = $1', [r.pedido.id]);
     await correio({ modelo: 'pagamentoAprovado', para: u.email, usuarioId: u.id, chave: `aprovado:${r.pedido.id}`,
       dados: { nome: u.nome, plano: planos.porId[r.pedido.plano_id].nome, valor: r.pedido.valor_centavos, ate: m.fim } }).catch((e) => console.error('e-mail', e.message));
+  }
+  if (r.recompensa && correio) {
+    const { indicador, fim } = r.recompensa;
+    await correio({ modelo: 'indicacaoRecompensa', para: indicador.email, usuarioId: indicador.id, chave: `indicacao:${r.pedido.id}`,
+      dados: { nome: indicador.nome, dias: DIAS_INDICADOR, ate: fim } }).catch((e) => console.error('e-mail', e.message));
   }
   return r;
 }

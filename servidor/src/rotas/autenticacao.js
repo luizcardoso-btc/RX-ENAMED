@@ -4,6 +4,7 @@ import {
   novoSegredoTotp, conferirTotp, uriTotp, novosCodigosRecuperacao,
 } from '../seguranca.js';
 import { situacaoDoAluno } from '../acesso.js';
+import { COOKIE_INDICACAO, codigoDoAluno } from '../indicacao.js';
 
 const DIAS_SESSAO = 30;
 const MAX_FALHAS = 8;            // erros de senha seguidos antes de bloquear a conta
@@ -84,8 +85,14 @@ export function rotasAutenticacao({ banco, config, correio, limitar }) {
       return res.status(409).json({ erro: 'Já existe uma conta com este e-mail. Entre com sua senha.' });
     }
     const papel = config.emailsAdmin.includes(email) ? 'admin' : 'aluno';
-    const u = await banco.um('INSERT INTO usuarios (nome, email, senha_hash, papel, aceite_termos_em) VALUES ($1, $2, $3, $4, now()) RETURNING id',
-      [nome, email, await hashSenha(senha), papel]);
+    // Indicação: o link /i/CODIGO deixou um cookie com quem indicou.
+    const idIndicador = lerCookie(req, COOKIE_INDICACAO);
+    const indicador = /^[0-9a-f-]{36}$/i.test(idIndicador || '') ? await banco.um('SELECT id FROM usuarios WHERE id = $1 AND excluido_em IS NULL', [idIndicador]) : null;
+    const origem = indicador ? 'indicacao' : String(req.body?.origem || '').replace(/[^\w.:-]/g, '').slice(0, 60) || null;
+    const u = await banco.um('INSERT INTO usuarios (nome, email, senha_hash, papel, aceite_termos_em, indicado_por, origem) VALUES ($1, $2, $3, $4, now(), $5, $6) RETURNING id',
+      [nome, email, await hashSenha(senha), papel, indicador?.id || null, origem]);
+    if (indicador) res.clearCookie(COOKIE_INDICACAO, { path: '/' });
+    await codigoDoAluno(banco, { id: u.id, nome });
     await abrirSessao(req, res, u.id);
     correio?.({ modelo: 'boasVindas', para: email, usuarioId: u.id, chave: `boas-vindas:${u.id}`, dados: { nome } }).catch((e) => console.error('e-mail', e.message));
     res.status(201).json({ ok: true });

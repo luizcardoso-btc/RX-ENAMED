@@ -8,6 +8,8 @@ import { rotasAdmin } from './rotas/admin.js';
 import { rotasProgresso } from './rotas/progresso.js';
 import { criarCorreio } from './email.js';
 import { criarLimitador } from './limitador.js';
+import { contarVisitas } from './metas.js';
+import { rotasIndicacao, rotaLinkIndicacao } from './indicacao.js';
 
 const MP_HOSTS = 'https://*.mercadopago.com https://*.mercadopago.com.br https://*.mercadolibre.com https://*.mercadolivre.com https://*.mlstatic.com';
 
@@ -107,9 +109,13 @@ export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ b
   app.use('/api', rotasCheckout({ banco, config, planos, mp, correio, limitar }));
   app.use('/api', rotasAvisos({ banco, config, planos, mp, correio }));
   app.use('/api', rotasProgresso({ banco }));
+  app.use('/api', rotasIndicacao({ banco, config }));
   app.use('/api/admin', rotasAdmin({ banco, planos, mp, correio, config }));
   app.use('/api', (_req, res) => res.status(404).json({ erro: 'Rota inexistente.' }));
 
+  // Visitas anônimas (painel de metas) e link de indicação.
+  app.use(contarVisitas(banco));
+  app.get('/i/:codigo', rotaLinkIndicacao({ banco, config }));
   // Páginas próprias do servidor: entrar, checkout, conta, admin e documentos legais.
   app.use('/_rx', express.static(web, { maxAge: config.producao ? '1h' : 0 }));
   const paginas = [['/entrar', 'entrar.html'], ['/checkout', 'checkout.html'], ['/admin', 'admin.html'], ['/minha-conta', 'conta.html'],

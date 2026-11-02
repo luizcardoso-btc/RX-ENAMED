@@ -29,6 +29,7 @@
   </section>
   <section class="rx-cartao login-cartao">
     <h1 style="font-family:var(--f-display);margin-top:0" id="titulo">Entrar</h1>
+    <p class="aviso-indicacao rx-oculto" id="aviso-indicacao">🎁 Você foi indicado por um colega: ganha <strong>10% de desconto</strong> na primeira assinatura.</p>
     <p class="rx-mudo rx-oculto" id="subtitulo">A área do aluno é pessoal: crie sua conta grátis (25 questões por dia, desafio diário e Raio-X) ou entre com a sua.</p>
     <div class="rx-abas duas" role="group">
       <button type="button" class="rx-aba" data-modo="entrar" aria-pressed="true">Entrar</button>
@@ -73,6 +74,9 @@ for (const b of document.querySelectorAll('[data-modo]')) b.addEventListener('cl
   $('#dica-senha').classList.toggle('rx-oculto', modo === 'entrar');
   $('#titulo').textContent = modo === 'entrar' ? 'Entrar' : 'Criar conta';
 });
+// Indicação e origem da campanha (utm_source), guardadas para o cadastro.
+if (params.get('indicacao') === '1') $('#aviso-indicacao').classList.remove('rx-oculto');
+try { if (params.get('utm_source')) sessionStorage.setItem('rx-origem', params.get('utm_source').slice(0, 40)); } catch { /* sem armazenamento */ }
 // Vindo da área do aluno sem conta: abre direto no cadastro.
 if (params.get('modo') === 'cadastro') document.querySelector('[data-modo=cadastro]').click();
 if (destino && destino.startsWith('/plataforma')) $('#subtitulo').classList.remove('rx-oculto');
@@ -102,7 +106,9 @@ $('#form').addEventListener('submit', async (e) => {
   mostrarErro($('#erro'), '');
   try {
     const f = Object.fromEntries(new FormData(e.target));
-    const r = await api(modo === 'entrar' ? '/entrar' : '/cadastro', { metodo: 'POST', corpo: { ...f, aceite: f.aceite === 'on' } });
+    let origem = null;
+    try { origem = sessionStorage.getItem('rx-origem'); } catch { /* sem armazenamento */ }
+    const r = await api(modo === 'entrar' ? '/entrar' : '/cadastro', { metodo: 'POST', corpo: { ...f, aceite: f.aceite === 'on', ...(origem ? { origem } : {}) } });
     if (r.precisa2fa) { $('#form').classList.add('rx-oculto'); $('#form-2fa').classList.remove('rx-oculto'); $('#form-2fa [name=codigo]').focus(); return; }
     location.href = seguro;
   } catch (err) { mostrarErro($('#erro'), err.message); }

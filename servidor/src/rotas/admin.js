@@ -2,6 +2,7 @@ import { Router } from 'express';
 import { exigirLogin, exigirAdmin } from './autenticacao.js';
 import { aplicarPagamento } from '../pagamentos.js';
 import { somarMeses } from '../planos.js';
+import { resumoMetas, lerMetas } from '../metas.js';
 
 const POR_PAGINA = 50;
 // Situação do aluno calculada no banco: ativo (acesso vigente), vencendo (termina em até 7 dias), expirado (já teve) ou gratuito (nunca pagou).
@@ -240,6 +241,20 @@ export function rotasAdmin({ banco, planos, mp, correio, config }) {
     if (!r2) return res.status(404).json({ erro: 'Afiliado não encontrado.' });
     await auditar(req, 'pagar_comissao', req.params.id, r2);
     res.json(r2);
+  });
+
+  // ---- Metas do negócio
+  r.get('/metas', async (_req, res) => res.json(await resumoMetas(banco)));
+  r.put('/metas', async (req, res) => {
+    const usuarios = Math.round(Number(req.body?.usuarios));
+    const receitaCentavos = Math.round(Number(req.body?.receitaReais) * 100);
+    const prazo = req.body?.prazo && /^\d{4}-\d{2}-\d{2}$/.test(req.body.prazo) ? req.body.prazo : null;
+    if (!(usuarios > 0 && usuarios < 10_000_000) || !(receitaCentavos > 0 && receitaCentavos < 1e13)) return res.status(400).json({ erro: 'Metas inválidas.' });
+    const antes = await lerMetas(banco);
+    const valor = { usuarios, receitaCentavos, prazo };
+    await banco.consulta(`INSERT INTO configuracoes (chave, valor) VALUES ('metas', $1) ON CONFLICT (chave) DO UPDATE SET valor = EXCLUDED.valor, atualizado_em = now()`, [JSON.stringify(valor)]);
+    await auditar(req, 'alterar_metas', 'metas', { antes, depois: valor });
+    res.json({ metas: valor });
   });
 
   r.get('/auditoria', async (_req, res) => {

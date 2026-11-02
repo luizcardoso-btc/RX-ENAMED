@@ -1,3 +1,4 @@
+import { temDescontoDeIndicado, DESCONTO_INDICADO } from './indicacao.js';
 // Cupons de desconto e afiliados. O preço final é sempre calculado aqui, no servidor.
 export const VALOR_MINIMO_CENTAVOS = 500; // nenhum desconto deixa o pedido abaixo de R$ 5
 
@@ -20,13 +21,19 @@ export function aplicarDesconto(valor, cupom) {
 }
 
 /** Preço do pedido com cupom e afiliado (por cupom vinculado ou por link de indicação ?ref=CODIGO). */
-export async function calcularPreco(banco, plano, { cupom: codigoCupom, ref } = {}) {
-  const cupom = codigoCupom ? await buscarCupom(banco, codigoCupom, plano.id) : null;
-  const desconto = aplicarDesconto(plano.valorCentavos, cupom);
+export async function calcularPreco(banco, plano, { cupom: codigoCupom, ref, usuarioId } = {}) {
+  const cupomBuscado = codigoCupom ? await buscarCupom(banco, codigoCupom, plano.id) : null;
+  // Indicado na primeira compra: 10% de desconto. Com cupom também, vale o maior dos dois (não acumula).
+  const indicado = usuarioId ? await temDescontoDeIndicado(banco, usuarioId) : false;
+  const descontoCupom = aplicarDesconto(plano.valorCentavos, cupomBuscado);
+  const descontoInd = indicado ? aplicarDesconto(plano.valorCentavos, { tipo: 'percentual', valor: DESCONTO_INDICADO }) : 0;
+  const usarIndicacao = descontoInd > descontoCupom;
+  const cupom = usarIndicacao ? null : cupomBuscado;
+  const desconto = usarIndicacao ? descontoInd : descontoCupom;
   const valor = plano.valorCentavos - desconto;
   let afiliado = null;
   if (cupom?.afiliado_id) afiliado = await banco.um('SELECT * FROM afiliados WHERE id = $1 AND ativo', [cupom.afiliado_id]);
   else if (ref) afiliado = await banco.um('SELECT * FROM afiliados WHERE upper(codigo) = upper($1) AND ativo', [String(ref).trim().slice(0, 40)]);
   const comissao = afiliado ? Math.round((valor * Number(afiliado.comissao_percentual)) / 100) : 0;
-  return { valorOriginal: plano.valorCentavos, desconto, valor, cupom, afiliado, comissao };
+  return { valorOriginal: plano.valorCentavos, desconto, valor, cupom, afiliado, comissao, descontoIndicacao: usarIndicacao };
 }

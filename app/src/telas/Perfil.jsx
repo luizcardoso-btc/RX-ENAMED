@@ -7,6 +7,7 @@ import { configDoAluno } from '../cronograma.js';
 import { diasAte } from '../trilha.js';
 import { ultimaResposta } from '../progresso.js';
 import { t, idiomaAtual } from '../i18n.js';
+import { CartaoIndique } from './Indique.jsx';
 
 const NOMES_PLANO = { mensal: 'Mensal', ciclo: 'Ciclo de prova', 'segunda-etapa': '2ª etapa', anual: 'Anual completo' };
 const DIAS = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
@@ -75,6 +76,8 @@ export default function Perfil() {
           <button className="botao-texto" onClick={() => ir('cronograma')}>{t('Ajustar no cronograma')}</button>
         </section>
       </div>
+
+      {conta.servidor && <CartaoIndique compacto />}
 
       <section className="cartao perfil-acoes">
         <h2>{t('Conta e privacidade')}</h2>

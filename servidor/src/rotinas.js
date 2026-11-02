@@ -2,6 +2,7 @@
 export async function rodarRotinas({ banco, planos, correio }) {
   await banco.consulta('DELETE FROM sessoes WHERE expira_em < now()');
   await banco.consulta("DELETE FROM limites WHERE em < now() - interval '1 day'");
+  await banco.consulta("DELETE FROM visitantes_dia WHERE dia < current_date - 1");
   await banco.consulta('DELETE FROM redefinicoes_senha WHERE expira_em < now() - interval \'1 day\'');
   await banco.consulta(`UPDATE pedidos SET status = 'expirado', atualizado_em = now()
                          WHERE status = 'pendente' AND ((metodo = 'pix' AND criado_em < now() - interval '1 day')

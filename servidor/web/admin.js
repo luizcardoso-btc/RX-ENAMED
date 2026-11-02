@@ -60,10 +60,95 @@ async function telaAtivar() {
 }
 
 function abrir() {
-  const aba = location.hash.slice(1) || 'painel';
+  const aba = location.hash.slice(1) || 'metas';
   for (const b of document.querySelectorAll('[data-aba]')) b.style.color = b.dataset.aba === aba ? 'var(--tinta)' : '';
   fecharGaveta();
-  ({ painel, alunos, pedidos, cupons, afiliados, auditoria }[aba] || painel)();
+  ({ metas, painel, alunos, pedidos, cupons, afiliados, auditoria }[aba] || metas)();
+}
+
+// ---- Metas: progresso até as metas do negócio, ritmo, previsão, funil e indicações.
+const milhar = (n) => Math.round(n).toLocaleString('pt-BR');
+const reaisCurto = (c) => (c >= 100000000 ? `R$ ${(c / 100000000).toLocaleString('pt-BR', { maximumFractionDigits: 2 })} mi` : c >= 100000 ? `R$ ${(c / 100000).toLocaleString('pt-BR', { maximumFractionDigits: 1 })} mil` : reais(c));
+function barraMeta(titulo, atual, meta, formato, detalhe) {
+  const f = Math.min(1, meta ? atual / meta : 0);
+  return `<section class="rx-cartao meta-grande">
+    <div class="meta-topo"><span class="rx-mudo">${titulo}</span><strong>${(f * 100).toLocaleString('pt-BR', { maximumFractionDigits: f < 0.1 ? 2 : 1 })}%</strong></div>
+    <div class="meta-numeros"><strong>${formato(atual)}</strong><span class="rx-mudo"> de ${formato(meta)}</span></div>
+    <div class="meta-barra" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(f * 100)}"><span style="width:${Math.max(f * 100, f > 0 ? 1 : 0)}%"></span></div>
+    <p class="rx-mudo pequeno">${detalhe}</p></section>`;
+}
+function graficoAcumulado(serie, campo, meta, formato) {
+  const L = 640, A = 200, e = 78, d = 12, c = 14, b = 26;
+  const max = Math.max(meta * 0.05, ...serie.map((s) => s[campo]), 1) * 1.15;
+  const x = (i) => e + (i * (L - e - d)) / (serie.length - 1);
+  const y = (v) => c + (1 - v / max) * (A - c - b);
+  const linha = serie.map((s, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(s[campo]).toFixed(1)}`).join(' ');
+  const area = `${linha} L${x(serie.length - 1)},${y(0)} L${x(0)},${y(0)} Z`;
+  const metaVisivel = meta <= max;
+  return `<svg viewBox="0 0 ${L} ${A}" class="grafico-meta" role="img" aria-label="Evolução acumulada nos últimos 60 dias">
+    ${[0, 0.5, 1].map((f) => `<line x1="${e}" x2="${L - d}" y1="${y(max * f)}" y2="${y(max * f)}" class="g-grade"/><text x="${e - 6}" y="${y(max * f) + 4}" text-anchor="end" class="g-eixo">${formato(max * f)}</text>`).join('')}
+    ${metaVisivel ? `<line x1="${e}" x2="${L - d}" y1="${y(meta)}" y2="${y(meta)}" class="g-meta"/><text x="${L - d}" y="${y(meta) - 5}" text-anchor="end" class="g-rotulo">meta ${formato(meta)}</text>` : ''}
+    <path d="${area}" class="g-area"/><path d="${linha}" class="g-linha"/>
+    ${[0, 29, 59].map((i) => `<text x="${x(i)}" y="${A - 8}" text-anchor="${i === 0 ? 'start' : i === 59 ? 'end' : 'middle'}" class="g-eixo">${data(serie[i].dia + 'T12:00:00').slice(0, 5)}</text>`).join('')}
+    ${serie.map((s, i) => `<rect x="${x(i) - 5}" y="${c}" width="10" height="${A - c - b}" class="g-alvo"><title>${data(s.dia + 'T12:00:00')}: ${formato(s[campo])}</title></rect>`).join('')}
+  </svg>${metaVisivel ? '' : `<p class="rx-mudo pequeno">A meta (${formato(meta)}) está acima da escala do gráfico.</p>`}`;
+}
+async function metas() {
+  const m = await api('/admin/metas');
+  const dataPrev = (iso) => (iso ? data(iso) : 'sem ritmo ainda');
+  const f = m.funil;
+  const etapas = [['Visitantes únicos', f.visitantes], ['Cadastros', f.cadastros], ['Iniciaram checkout', f.checkout], ['Pagantes', f.pagantes]];
+  const maxF = Math.max(1, ...etapas.map((x) => x[1]));
+  conteudo.innerHTML = `
+    <div class="rx-filtros" style="justify-content:space-between"><h1 style="font-family:var(--f-display);margin:0">Metas</h1>
+      <button class="botao" id="editar-metas">Editar metas</button></div>
+    <form id="form-metas" class="rx-cartao rx-filtros rx-oculto">
+      <label class="rx-campo"><span>Meta de usuários</span><input name="usuarios" type="number" min="1" value="${m.metas.usuarios}"></label>
+      <label class="rx-campo"><span>Meta de receita (R$)</span><input name="receitaReais" type="number" min="1" step="1" value="${m.metas.receitaCentavos / 100}"></label>
+      <label class="rx-campo"><span>Prazo</span><input name="prazo" type="date" value="${m.metas.prazo || ''}"></label>
+      <button class="botao botao-primario">Salvar</button>
+    </form>
+    <div class="metas-duas">
+      ${barraMeta('Usuários cadastrados', m.atual.usuarios, m.metas.usuarios, milhar,
+        m.falta.usuarios ? `Faltam ${milhar(m.falta.usuarios)}. Ritmo: ${m.ritmo.usuariosDia.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}/dia${m.necessario ? `; necessário: ${m.necessario.usuariosDia.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}/dia` : ''}. Previsão: ${dataPrev(m.previsao.usuarios)}.` : 'Meta atingida!')}
+      ${barraMeta('Receita', m.atual.receita, m.metas.receitaCentavos, reaisCurto,
+        m.falta.receita ? `Faltam ${reaisCurto(m.falta.receita)}, cerca de ${milhar(m.vendasParaMeta)} vendas no ticket médio de ${reais(m.atual.ticket)}. Ritmo: ${reaisCurto(m.ritmo.receitaDia)}/dia${m.necessario ? `; necessário: ${reaisCurto(m.necessario.receitaDia)}/dia (${m.necessario.vendasDia.toLocaleString('pt-BR', { maximumFractionDigits: 1 })} vendas/dia)` : ''}. Previsão: ${dataPrev(m.previsao.receita)}.` : 'Meta atingida!')}
+    </div>
+    <div class="rx-kpis">
+      <div class="rx-kpi"><span>Pagantes</span><strong>${milhar(m.atual.pagantes)}</strong><small>${m.atual.usuarios ? ((m.atual.pagantes / m.atual.usuarios) * 100).toFixed(1).replace('.', ',') : 0}% dos cadastros</small></div>
+      <div class="rx-kpi"><span>Cadastros (7 / 30 dias)</span><strong>${milhar(m.ultimos.usuarios7)} / ${milhar(m.ultimos.usuarios30)}</strong></div>
+      <div class="rx-kpi"><span>Receita (7 / 30 dias)</span><strong>${reaisCurto(m.ultimos.receita7)}</strong><small>${reaisCurto(m.ultimos.receita30)} em 30 dias</small></div>
+      <div class="rx-kpi"><span>Ticket médio</span><strong>${reais(m.atual.ticket)}</strong><small>${m.atual.vendas ? `${milhar(m.atual.vendas)} vendas` : 'estimado até a 1ª venda'}</small></div>
+      <div class="rx-kpi"><span>Prazo</span><strong>${m.diasRestantes === null ? '—' : `${milhar(m.diasRestantes)} dias`}</strong><small>${m.metas.prazo ? `até ${data(m.metas.prazo + 'T12:00:00')}` : 'defina em "Editar metas"'}</small></div>
+    </div>
+    <div class="rx-duas">
+      <section class="rx-cartao"><h2 style="margin-top:0">Usuários acumulados (60 dias)</h2>${graficoAcumulado(m.serie, 'usuarios', m.metas.usuarios, milhar)}</section>
+      <section class="rx-cartao"><h2 style="margin-top:0">Receita acumulada (60 dias)</h2>${graficoAcumulado(m.serie, 'receita', m.metas.receitaCentavos, reaisCurto)}</section>
+    </div>
+    <div class="rx-duas">
+      <section class="rx-cartao"><h2 style="margin-top:0">Funil dos últimos 30 dias</h2>
+        <div class="funil">${etapas.map(([nome, v], i) => `<div class="funil-etapa"><span>${nome}</span><div class="funil-barra"><i style="width:${(v / maxF) * 100}%"></i></div><strong>${milhar(v)}</strong>
+          <small class="rx-mudo">${i ? (etapas[i - 1][1] ? `${((v / etapas[i - 1][1]) * 100).toFixed(1).replace('.', ',')}% da etapa anterior` : '—') : 'sem cookies, anônimo'}</small></div>`).join('')}</div></section>
+      <section class="rx-cartao"><h2 style="margin-top:0">De onde vêm os cadastros</h2>
+        <table class="rx-tabela"><tbody>${m.origens.map((o) => `<tr><td>${esc(o.origem === 'indicacao' ? 'Indicação de aluno' : o.origem)}</td><td>${milhar(o.n)}</td></tr>`).join('') || '<tr><td class="rx-mudo">Sem cadastros ainda.</td></tr>'}</tbody></table>
+        <p class="rx-mudo pequeno">Para medir campanhas, use links com ?utm_source=instagram (ou whatsapp, tiktok…) apontando para /entrar.</p></section>
+    </div>
+    <section class="rx-cartao" style="margin-top:16px"><h2 style="margin-top:0">Programa de indicação</h2>
+      <div class="rx-kpis">
+        <div class="rx-kpi"><span>Cadastros indicados</span><strong>${milhar(m.indicacao.cadastros)}</strong></div>
+        <div class="rx-kpi"><span>Indicados que compraram</span><strong>${milhar(m.indicacao.compraram)}</strong></div>
+        <div class="rx-kpi"><span>Receita de indicados</span><strong>${reaisCurto(m.indicacao.receita)}</strong></div>
+        <div class="rx-kpi"><span>Dias de acesso dados</span><strong>${milhar(m.indicacao.dias)}</strong></div>
+      </div>
+      <table class="rx-tabela"><thead><tr><th>Quem mais indica</th><th>Código</th><th>Cadastros</th><th>Compraram</th></tr></thead><tbody>
+        ${m.topIndicadores.map((i) => `<tr class="clicavel" data-aluno="${i.id}"><td><strong>${esc(i.nome)}</strong><br><span class="rx-mudo">${esc(i.email)}</span></td><td>${esc(i.codigo || '')}</td><td>${i.cadastros}</td><td>${i.compraram}</td></tr>`).join('') || '<tr><td colspan="4" class="rx-mudo">Nenhuma indicação ainda.</td></tr>'}
+      </tbody></table></section>`;
+  $('#editar-metas').addEventListener('click', () => $('#form-metas').classList.toggle('rx-oculto'));
+  $('#form-metas').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    try { await api('/admin/metas', { metodo: 'PUT', corpo: Object.fromEntries(new FormData(e.target)) }); metas(); } catch (err) { alert(err.message); }
+  });
+  for (const tr of conteudo.querySelectorAll('tr[data-aluno]')) tr.addEventListener('click', () => detalheAluno(tr.dataset.aluno));
 }
 
 async function painel() {
@@ -276,7 +361,7 @@ async function afiliados() {
 
 async function auditoria() {
   const { eventos } = await api('/admin/auditoria');
-  const ACOES = { conceder_acesso: 'Liberou acesso', revogar_acesso: 'Revogou acesso', reembolsar: 'Reembolsou pedido', criar_cupom: 'Criou cupom', ativar_cupom: 'Reativou cupom', desativar_cupom: 'Desativou cupom', criar_afiliado: 'Cadastrou afiliado', pagar_comissao: 'Pagou comissão' };
+  const ACOES = { conceder_acesso: 'Liberou acesso', revogar_acesso: 'Revogou acesso', reembolsar: 'Reembolsou pedido', criar_cupom: 'Criou cupom', ativar_cupom: 'Reativou cupom', desativar_cupom: 'Desativou cupom', criar_afiliado: 'Cadastrou afiliado', pagar_comissao: 'Pagou comissão', alterar_metas: 'Alterou as metas' };
   conteudo.innerHTML = `<h1 style="font-family:var(--f-display)">Auditoria</h1>
     <div class="rx-cartao rx-rolagem"><table class="rx-tabela"><thead><tr><th>Quando</th><th>Admin</th><th>Ação</th><th>Detalhes</th></tr></thead><tbody>
     ${eventos.map((e) => `<tr><td>${dataHora(e.em)}</td><td>${esc(e.admin || '—')}</td><td>${ACOES[e.acao] || esc(e.acao)}</td><td class="rx-mudo">${esc(JSON.stringify(e.detalhes))}</td></tr>`).join('') || '<tr><td colspan="4" class="rx-mudo">Nenhuma ação registrada.</td></tr>'}

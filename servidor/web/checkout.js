@@ -27,7 +27,8 @@ try {
   if (params.get('ref')) localStorage.setItem('rx-ref', JSON.stringify({ codigo: params.get('ref').slice(0, 40), ate: Date.now() + 30 * 86400000 }));
 } catch { /* navegador sem armazenamento */ }
 const refGuardado = () => { try { const r = JSON.parse(localStorage.getItem('rx-ref')); return r && r.ate > Date.now() ? r.codigo : null; } catch { return null; } };
-const valorAtual = () => cupomAplicado?.valorCentavos ?? plano.valorCentavos;
+const descontoIndicacao = () => (config?.descontoIndicacao && !cupomAplicado ? Math.min(Math.round(plano.valorCentavos * config.descontoIndicacao / 100), plano.valorCentavos - 500) : 0);
+const valorAtual = () => cupomAplicado?.valorCentavos ?? (plano.valorCentavos - descontoIndicacao());
 
 const formatarCpf = (v) => v.replace(/\D/g, '').slice(0, 11).replace(/(\d{3})(\d)/, '$1.$2').replace(/(\d{3})(\d)/, '$1.$2').replace(/(\d{3})(\d{1,2})$/, '$1-$2');
 $('#cpf').addEventListener('input', (e) => { e.target.value = formatarCpf(e.target.value); });
@@ -41,7 +42,8 @@ function desenharResumo() {
     <span class="sobretitulo">RX ENAMED</span>
     <h1>${esc(nome)}</h1>
     <p class="rx-mudo">${esc(idioma === 'es' ? plano.paraEs : plano.para)}</p>
-    ${cupomAplicado ? `<p class="rx-mudo" style="margin:12px 0 0"><s>${reais(plano.valorCentavos)}</s> · ${esc(cupomAplicado.cupom)} −${reais(cupomAplicado.descontoCentavos)}</p>` : ''}
+    ${cupomAplicado ? `<p class="rx-mudo" style="margin:12px 0 0"><s>${reais(plano.valorCentavos)}</s> · ${esc(cupomAplicado.cupom || (idioma === 'es' ? 'Recomendación' : 'Indicação'))} −${reais(cupomAplicado.descontoCentavos)}</p>` : ''}
+    ${!cupomAplicado && descontoIndicacao() ? `<p class="rx-mudo" style="margin:12px 0 0"><s>${reais(plano.valorCentavos)}</s> · 🎁 ${idioma === 'es' ? 'Descuento de recomendación' : 'Desconto de indicação'} −${reais(descontoIndicacao())}</p>` : ''}
     <p class="rx-preco">${reais(valor)}</p>
     <p class="rx-mudo">${esc(parcela)}</p>
     <ul>${itens.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>
@@ -81,6 +83,8 @@ $('#form-conta').addEventListener('submit', async (e) => {
   try {
     await api(modoConta === 'cadastro' ? '/cadastro' : '/entrar', { metodo: 'POST', corpo: { ...Object.fromEntries(f), aceite: f.get('aceite') === 'on' } });
     usuario = (await api('/eu')).usuario;
+    config = await api('/checkout/config');
+    desenharResumo();
     contaLogada();
   } catch (err) { mostrarErro($('#erro-conta'), err.message); }
 });

@@ -307,3 +307,90 @@ test('área do aluno: sem login vai para o cadastro; dados da plataforma exigem 
   assert.notEqual(comLogin.status, 401, 'logado passa pela restrição');
   assert.notEqual(comLogin.status, 302);
 });
+
+test('indicação: link, desconto de 10% para o indicado, 30 dias para quem indicou, sem autoindicação e cancelada no reembolso', async () => {
+  const ana = cliente();
+  await ana.post('/api/cadastro', { nome: 'Iara Nunes', email: 'iara@rx.test', senha: 'senha-forte-1', aceite: true });
+  const meu = (await ana.get('/api/indicacao')).corpo;
+  assert.match(meu.codigo, /^IARA[A-Z2-9]{4}$/);
+  assert.equal(meu.link, `http://localhost/i/${meu.codigo}`);
+
+  // O amigo abre o link (cookie de indicação) e se cadastra.
+  const link = await fetch(`${url}/i/${meu.codigo}`, { redirect: 'manual' });
+  assert.equal(link.status, 302);
+  const cookieInd = link.headers.get('set-cookie').split(';')[0];
+  const amigo = cliente();
+  const cad = await fetch(`${url}/api/cadastro`, { method: 'POST', headers: { 'Content-Type': 'application/json', origin: 'http://localhost', cookie: cookieInd },
+    body: JSON.stringify({ nome: 'João Pires', email: 'joao@rx.test', senha: 'senha-forte-1', aceite: true }) });
+  assert.equal(cad.status, 201);
+  await amigo.post('/api/entrar', { email: 'joao@rx.test', senha: 'senha-forte-1' });
+  assert.equal((await banco.um(`SELECT origem FROM usuarios WHERE email = 'joao@rx.test'`)).origem, 'indicacao');
+  assert.equal((await amigo.get('/api/checkout/config')).corpo.descontoIndicacao, 10);
+
+  const compra = (await amigo.post('/api/checkout/pagar', { plano: 'ciclo', metodo: 'cartao', cpf: '11144477735', cartao: { token: 'ind1', metodoPagamento: 'visa', parcelas: 1 } })).corpo.pedido;
+  assert.equal(compra.valorCentavos, 49790 - 4979, '10% de desconto na primeira compra');
+  const iara = (await ana.get('/api/indicacao')).corpo;
+  assert.equal(iara.cadastros, 1);
+  assert.equal(iara.compraram, 1);
+  assert.equal(iara.dias, 30);
+  assert.equal((await ana.get('/api/eu')).corpo.acesso.ativo, true, 'quem indicou ganhou acesso completo');
+  assert.ok(enviados.some((m) => m.modelo === 'indicacaoRecompensa'));
+
+  // Segunda compra do indicado: sem desconto e sem nova recompensa.
+  const segunda = (await amigo.post('/api/checkout/pagar', { plano: 'mensal', metodo: 'cartao', cpf: '11144477735', cartao: { token: 'ind2', metodoPagamento: 'visa', parcelas: 1 } })).corpo.pedido;
+  assert.equal(segunda.valorCentavos, 14790);
+  assert.equal((await ana.get('/api/indicacao')).corpo.compraram, 1);
+
+  // Reembolso da primeira compra cancela os 30 dias.
+  const adm = cliente();
+  await adm.post('/api/entrar', { email: 'admin@rx.test', senha: 'senha-forte-1' });
+  const { codigoTotp } = await import('../src/seguranca.js');
+  const seg = (await banco.um(`SELECT totp_segredo FROM usuarios WHERE email = 'admin@rx.test'`)).totp_segredo;
+  await adm.post('/api/2fa/verificar', { codigo: codigoTotp(seg) });
+  assert.equal((await adm.post(`/api/admin/pedidos/${compra.id}/reembolsar`, { motivo: 'teste' })).status, 200);
+  assert.equal((await ana.get('/api/indicacao')).corpo.compraram, 0);
+  assert.equal((await ana.get('/api/eu')).corpo.acesso.ativo, false, 'dias da indicação cancelados');
+
+  // Autoindicação pelo mesmo CPF não gera recompensa.
+  const meuLink = await fetch(`${url}/i/${meu.codigo}`, { redirect: 'manual' });
+  const ck = meuLink.headers.get('set-cookie').split(';')[0];
+  await fetch(`${url}/api/cadastro`, { method: 'POST', headers: { 'Content-Type': 'application/json', origin: 'http://localhost', cookie: ck },
+    body: JSON.stringify({ nome: 'Iara Segunda', email: 'iara2@rx.test', senha: 'senha-forte-1', aceite: true }) });
+  await banco.consulta(`UPDATE usuarios SET cpf = '52998224725' WHERE email IN ('iara@rx.test', 'iara2@rx.test')`);
+  const fake = cliente();
+  await fake.post('/api/entrar', { email: 'iara2@rx.test', senha: 'senha-forte-1' });
+  await fake.post('/api/checkout/pagar', { plano: 'mensal', metodo: 'cartao', cpf: CPF, cartao: { token: 'ind3', metodoPagamento: 'visa', parcelas: 1 } });
+  assert.equal((await ana.get('/api/indicacao')).corpo.compraram, 0, 'mesmo CPF não recompensa');
+});
+
+test('metas: progresso, ritmo, funil com visitas anônimas e edição pelo admin', async () => {
+  const antes = (await banco.um(`SELECT total, unicos FROM visitas WHERE pagina = 'planos'`)) || { total: 0, unicos: 0 };
+  await fetch(`${url}/planos.html`, { headers: { 'user-agent': 'Mozilla/5.0 teste' } });
+  await fetch(`${url}/planos.html`, { headers: { 'user-agent': 'Mozilla/5.0 teste' } });
+  await fetch(`${url}/planos.html`, { headers: { 'user-agent': 'Googlebot/2.1' } });
+  await new Promise((ok) => setTimeout(ok, 200));
+  const v = await banco.um(`SELECT total, unicos FROM visitas WHERE pagina = 'planos'`);
+  assert.equal(v.total - antes.total, 2, 'robôs não contam');
+  assert.equal(v.unicos - antes.unicos, 1, 'mesmo visitante conta uma vez por dia');
+
+  const adm = cliente();
+  await adm.post('/api/entrar', { email: 'admin@rx.test', senha: 'senha-forte-1' });
+  const { codigoTotp } = await import('../src/seguranca.js');
+  const seg = (await banco.um(`SELECT totp_segredo FROM usuarios WHERE email = 'admin@rx.test'`)).totp_segredo;
+  await adm.post('/api/2fa/verificar', { codigo: codigoTotp(seg) });
+  const m = (await adm.get('/api/admin/metas')).corpo;
+  assert.equal(m.metas.usuarios, 100);
+  assert.equal(m.metas.receitaCentavos, 100000000);
+  assert.ok(m.atual.usuarios > 5);
+  assert.ok(m.atual.receita > 0);
+  assert.equal(m.serie.length, 60);
+  assert.ok(m.funil.visitantes >= 1);
+  assert.equal(m.topIndicadores[0].codigo.slice(0, 4), 'IARA');
+  const put = await fetch(`${url}/api/admin/metas`, { method: 'PUT', headers: { 'Content-Type': 'application/json', origin: 'http://localhost', cookie: adm.cookie() },
+    body: JSON.stringify({ usuarios: 500, receitaReais: 1000000, prazo: '2027-12-31' }) });
+  assert.equal(put.status, 200);
+  const m2 = (await adm.get('/api/admin/metas')).corpo;
+  assert.equal(m2.metas.usuarios, 500);
+  assert.ok(m2.diasRestantes > 300);
+  assert.ok(m2.necessario.receitaDia > 0);
+});

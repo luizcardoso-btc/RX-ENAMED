@@ -20,6 +20,7 @@ import Planos from './telas/Planos.jsx';
 import Cronograma from './telas/Cronograma.jsx';
 import Desafio, { VigiaDesafio } from './telas/Desafio.jsx';
 import Perfil from './telas/Perfil.jsx';
+import Indique from './telas/Indique.jsx';
 
 // Rotas da área do aluno, agrupadas como aparecem no menu lateral.
 const ROTAS = {
@@ -35,6 +36,7 @@ const ROTAS = {
   raiox: { titulo: 'Raio-X', tela: RaioX, icone: 'raiox', grupo: 'Acompanhar' },
   desempenho: { titulo: 'Desempenho', tela: Desempenho, icone: 'grafico', grupo: 'Acompanhar' },
   planos: { titulo: 'Planos', tela: Planos, icone: 'estrela', grupo: 'Conta' },
+  indique: { titulo: 'Indique e ganhe', tela: Indique, icone: 'pessoas', grupo: 'Conta' },
   perfil: { titulo: 'Meu perfil', tela: Perfil, icone: 'usuario', grupo: 'Conta' },
   revisao: { titulo: 'Revisão', tela: Revisao, oculta: true },
   treino: { titulo: 'Resolvendo', tela: Treino, oculta: true },
