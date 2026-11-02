@@ -1265,4 +1265,11 @@ export default {
   "TC de abdome": "TC de abdomen",
   "AngioTC de tórax": "AngioTC de tórax",
   "Cada erro perigoso tirou 1 ponto da nota: na prova, um erro grave pode custar a estação.": "Cada error peligroso restó 1 punto de la nota: en el examen, un error grave puede costar la estación.",
+  "Dengue: NS1 ou sorologia": "Dengue: NS1 o serología",
+  "Testes rápidos para hepatites B e C": "Pruebas rápidas de hepatitis B y C",
+  "Perfil lipídico": "Perfil lipídico",
+  "Relação albumina/creatinina urinária": "Relación albúmina/creatinina urinaria",
+  "Endoscopia digestiva alta": "Endoscopia digestiva alta",
+  "Ultrassom transvaginal": "Ecografía transvaginal",
+  "Raio X de pelve": "Radiografía de pelvis",
 };

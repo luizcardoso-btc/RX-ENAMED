@@ -131,7 +131,7 @@ function Atendimento({ caso, encerrar, sair }) {
         <div>
           <span className="sobretitulo">{t(caso.area)} · {caso.cenario}</span>
           <h2>{caso.titulo}</h2>
-          <p className="mudo">{caso.paciente.nome}, {caso.paciente.idade} {t('anos')}, {caso.paciente.ocupacao}</p>
+          <p className="mudo">{caso.paciente.nome}, {caso.paciente.idade}{typeof caso.paciente.idade === 'number' ? ` ${t('anos')}` : ''}, {caso.paciente.ocupacao}</p>
         </div>
         <button className="botao" onClick={sair}>{t('Sair do caso')}</button>
       </header>

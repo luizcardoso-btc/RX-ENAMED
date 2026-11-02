@@ -2,6 +2,7 @@
 // o paciente responde por reconhecimento das perguntas, os exames têm resultado definido e a correção
 // segue um checklist com pesos (como o PEP da prova prática).
 import { normalizar } from './util.js';
+import { LOTE2, EXAMES_LOTE2 } from './casos-lote2.js';
 
 const temChave = (n, c) => {
   const k = normalizar(c);
@@ -56,6 +57,7 @@ export const EXAMES = [
   { id: 'tc_abdome', nome: 'TC de abdome', grupo: 'Imagem', chaves: ['tc de abdome', 'tomografia de abdome', 'tc abdome'], normal: 'Sem alterações.' },
   { id: 'angiotc_torax', nome: 'AngioTC de tórax', grupo: 'Imagem', chaves: ['angiotc de torax', 'angiotomografia de torax', 'angio tc de torax', 'angiotc torax'], normal: 'Sem falhas de enchimento nas artérias pulmonares.' },
 ];
+EXAMES.push(...EXAMES_LOTE2);
 export const EXAME_POR_ID = Object.fromEntries(EXAMES.map((e) => [e.id, e]));
 export const GRUPOS_EXAME = ['Laboratório', 'Imagem', 'Cardiologia'];
 
@@ -191,7 +193,7 @@ export function corrigir(caso, registro) {
 const op = (id, texto, certo, comentario = '', extra = {}) => ({ id, texto, certo, comentario, ...extra });
 const P = (id, rotulo, chaves, resposta, essencial = false) => ({ id, rotulo, chaves, resposta, essencial });
 
-export const CASOS = [
+const LOTE1 = [
   {
     id: 'iam-inferior', area: 'Clínica Médica', titulo: 'Dor torácica na UPA', cenario: 'UPA, 7h da manhã', ecg: 'iam_inferior', dificuldade: 'Intermediária',
     paciente: { nome: 'José Almeida', idade: 61, sexo: 'M', ocupacao: 'motorista' },
@@ -933,4 +935,5 @@ export const CASOS = [
   },
 ];
 
+export const CASOS = [...LOTE1, ...LOTE2];
 export const CASO_POR_ID = Object.fromEntries(CASOS.map((c) => [c.id, c]));
