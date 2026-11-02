@@ -8,6 +8,7 @@ Uso: python3 baixar_provas.py
 """
 
 import csv
+import ssl
 import sys
 import urllib.request
 from pathlib import Path
@@ -16,8 +17,17 @@ BASE = Path(__file__).parent
 PASTA = BASE / "provas"
 
 
+# O servidor do Inep não envia o certificado intermediário (RNP ICPEdu, emitido pela GlobalSign).
+# Se ele estiver salvo em provas/inep-intermediario.pem, é somado às autoridades confiáveis do sistema:
+# a verificação do certificado continua ligada.
+CONTEXTO = ssl.create_default_context()
+INTERMEDIARIO = PASTA / "inep-intermediario.pem"
+if INTERMEDIARIO.exists():
+    CONTEXTO.load_verify_locations(cafile=str(INTERMEDIARIO))
+
+
 def baixar(url, destino):
-    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "rx-revalida/1.0"}), timeout=60) as r:
+    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "rx-revalida/1.0"}), timeout=60, context=CONTEXTO) as r:
         dados = r.read()
     if not dados.startswith(b"%PDF"):
         raise ValueError("o link não devolveu um PDF")
