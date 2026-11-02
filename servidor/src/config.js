@@ -17,7 +17,7 @@ export function conferirProducao(config) {
   if (!mp.tokenAcesso || !mp.chavePublica) avisos.push('MP_ACCESS_TOKEN/MP_PUBLIC_KEY vazios: o checkout fica desligado (o site funciona).');
   else if (mp.tokenAcesso.startsWith('TEST-')) avisos.push('MP_ACCESS_TOKEN de TESTE em produção: nenhum pagamento real será cobrado.');
   if (mp.tokenAcesso && (!mp.segredoWebhook || mp.segredoWebhook.length < 16)) avisos.push('MP_WEBHOOK_SECRET vazio ou curto: a liberação automática não vai funcionar até preencher.');
-  if (!config.ia?.chave) avisos.push('ANTHROPIC_API_KEY vazia: simulador clínico, busca médica e correções com IA ficam desligados.');
+  if (!config.ia?.chave) avisos.push('ANTHROPIC_API_KEY vazia (opcional): as correções extras por IA ficam desligadas; o simulador clínico funciona sem IA.');
   if (!config.emailsAdmin.length) avisos.push('ADMIN_EMAILS vazio: ninguém vira admin ao se cadastrar.');
   return { erros, avisos };
 }

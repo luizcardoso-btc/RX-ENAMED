@@ -61,38 +61,6 @@ const SAMPLE_FALSO = () => {
   window.claude = { use: async (nome) => (nome === 'sample' ? sample : null) };
 };
 
-// IA falsa para o simulador clínico: responde conforme o pedido (caso, exames, correção, resumo, questões).
-const SAMPLE_SIMULADOR = () => {
-  const texto = (e) => (Array.isArray(e) ? e.map((m) => m.content).join('\n') : String(e));
-  const sample = async (entrada, opcoes = {}) => {
-    const text = /preceptor/i.test(texto(entrada)) ? 'Porque o tempo de dor e o ECG indicam angioplastia primária.' : 'Doutor, começou há uma hora, um aperto no peito que vai pro braço.';
-    await new Promise((r) => setTimeout(r, 100));
-    opcoes.onText?.({ text, delta: text });
-    return { text, truncated: false };
-  };
-  sample.json = async (entrada) => {
-    const p = texto(entrada);
-    if (/Crie um caso clínico/.test(p)) return {
-      titulo: 'Dor torácica no pronto-socorro', cenario: 'UPA, plantão noturno', queixa: 'Doutor, estou com uma dor forte no peito.',
-      paciente: { nome: 'José Almeida', idade: 61, sexo: 'masculino', ocupacao: 'motorista', perfil: 'ansioso' },
-      historia: 'Dor há 1 hora, hipertenso, tabagista.', sinaisVitais: { PA: '150 x 90 mmHg', FC: 70, FR: 20, Temp: '36,5 °C', SatO2: '95%' },
-      exameFisico: { geral: 'Sudoreico, ansioso.', cardio: 'Ritmo regular, sem sopros.', resp: 'MV presente.', abdome: 'Flácido.', neuro: 'Sem déficits.', cabeca: 'Sem alterações.', extremidades: 'Pulsos simétricos.', especifico: 'Sem alterações.' },
-      exames: [{ nome: 'Troponina', resultado: '2,1 ng/mL (ref < 0,04)' }], ecg: 'iam_inferior', diagnostico: 'IAM com supra de ST inferior',
-      diferenciais: ['Dissecção de aorta'], condutaEsperada: ['AAS 300 mg', 'Angioplastia primária'], prescricaoModelo: 'AAS 300 mg VO\nClopidogrel 600 mg VO', pontosChave: ['ECG em 10 minutos'],
-    };
-    if (/laboratório e o serviço de imagem/.test(p)) return { resultados: [{ nome: 'Troponina', resultado: '2,1 ng/mL (ref < 0,04)' }] };
-    if (/Corrija o atendimento/.test(p)) return {
-      nota: 7.5, resumo: 'Boa anamnese e diagnóstico certo; faltou dose de anticoagulante.',
-      partes: [{ nome: 'Anamnese', nota: 8, comentario: 'Caracterizou bem a dor.', faltou: ['Antecedentes familiares'] }, { nome: 'Prescrição', nota: 6, comentario: 'Faltou anticoagulação.', faltou: [] }],
-      errosPerigosos: ['Não citou contraindicações à fibrinólise'], respostaModelo: { diagnostico: 'IAMCSST inferior', conduta: 'Angioplastia primária', prescricao: 'AAS 300 mg VO' }, dica: 'Supra em DIII > DII sugere coronária direita.',
-    };
-    if (/resumo de estudo/.test(p)) return { titulo: 'Cetoacidose diabética', definicao: 'Complicação aguda do diabetes.', secoes: [{ nome: 'Tratamento', itens: ['Hidratação', 'Insulina regular', 'Potássio'] }], pegadinhas: ['Não iniciar insulina com K < 3,3'], comoCai: 'Conduta inicial no PS.' };
-    if (/Crie 5 questões/.test(p)) return { questoes: [{ enunciado: 'Paciente com glicemia de 500 e pH 7,1. Primeira conduta?', alternativas: ['Hidratação venosa', 'Bicarbonato', 'Insulina SC', 'Alta'], gabarito: 'A', comentario: 'Hidratar primeiro.' }] };
-    return {};
-  };
-  window.claude = { use: async (nome) => (nome === 'sample' ? sample : null) };
-};
-
 // Simula a capacidade `room` entre abas do mesmo contexto, para testar o treino em dupla.
 const ROOM_FALSO = () => {
   const eu = Math.random().toString(36).slice(2, 10);
@@ -139,14 +107,13 @@ const ROOM_FALSO = () => {
   window.claude = { use: async (n) => (n === 'room' ? (saguao ||= { ...(await join('__saguao')), join }) : null) };
 };
 
-async function novaPagina(navegador, { largura = 1280, altura = 900, escuro = false, comIA = false, simulador = false, gratis = false } = {}) {
+async function novaPagina(navegador, { largura = 1280, altura = 900, escuro = false, comIA = false, gratis = false } = {}) {
   const contexto = await navegador.newContext({ viewport: { width: largura, height: altura }, colorScheme: escuro ? 'dark' : 'light',
     deviceScaleFactor: 1 });
   await rotas(contexto);
   // Os roteiros gerais rodam com acesso completo; o plano gratuito tem um roteiro próprio.
   if (!gratis) await contexto.addInitScript(() => { window.__rxAcessoTotal = true; });
   if (comIA) await contexto.addInitScript(SAMPLE_FALSO);
-  if (simulador) await contexto.addInitScript(SAMPLE_SIMULADOR);
   const pagina = await contexto.newPage();
   pagina.on('console', (m) => m.type() === 'error' && erros.push(`console: ${m.text()}`));
   pagina.on('pageerror', (e) => erros.push(`pageerror: ${e.message}`));
@@ -307,49 +274,55 @@ try {
   await ia.getByText('Nota da estação').waitFor();
   await foto(ia, '45-estacao-ia-resultado');
 
-  // ---- simulador clínico com IA (caso, exames, ECG, conduta, correção, busca e treino de ECG)
-  const sim = await novaPagina(navegador, { simulador: true });
+  // ---- simulador clínico sem IA (caso escrito, exames, ECG, conduta, correção, busca e treino de ECG)
+  const sim = await novaPagina(navegador);
   await sim.goto('http://app.local/#simulador');
   await sim.getByRole('heading', { name: /Treine como se estivesse no plantão/ }).waitFor();
   await foto(sim, '90-simulador-inicio');
-  await sim.getByRole('button', { name: /Começar atendimento/ }).click();
-  await sim.getByText('Doutor, estou com uma dor forte no peito.').waitFor();
-  await sim.locator('#fala-sim').fill('Quando começou a dor?');
-  await sim.keyboard.press('Enter');
-  await sim.getByText('um aperto no peito que vai pro braço').waitFor();
-  await sim.getByRole('button', { name: 'Sinais vitais' }).click();
-  await sim.getByText(/PA: 150 x 90 mmHg/).waitFor();
+  await sim.getByRole('button', { name: /Dor torácica na UPA/ }).click();
+  await sim.getByText('tô com uma dor muito forte no peito desde cedo').waitFor();
+  for (const pergunta of ['Bom dia, sou o médico de plantão', 'Quando começou a dor?', 'Como é essa dor?', 'A dor vai para algum lugar?', 'Teve suor frio ou enjoo?', 'O senhor tem pressão alta ou diabetes?', 'O senhor fuma?', 'Já teve AVC ou sangramento?']) {
+    await sim.locator('#fala-sim').fill(pergunta);
+    await sim.keyboard.press('Enter');
+  }
+  await sim.getByText('vai pro braço esquerdo e pro queixo').waitFor();
+  await sim.getByText('Fumo um maço por dia').waitFor();
+  for (const s of ['Sinais vitais', 'Cardiovascular', 'Respiratório']) await sim.getByRole('button', { name: s, exact: true }).click();
+  await sim.getByText(/PA 150 x 90 mmHg · FC 70 bpm/).waitFor();
   await sim.getByRole('tab', { name: 'Exames' }).click();
-  await sim.locator('.sim-painel textarea').fill('troponina, ECG');
+  await sim.locator('.sim-painel input').fill('troponina e ECG');
   await sim.getByRole('button', { name: 'Solicitar' }).click();
-  await sim.getByText(/Troponina: 2,1 ng\/mL/).waitFor();
+  await sim.getByText(/Troponina: Troponina I ultrassensível: 1.850/).waitFor();
   await sim.locator('.sim-ecg svg').waitFor();
   await foto(sim, '91-simulador-atendimento');
   await sim.getByRole('tab', { name: 'Conduta' }).click();
-  await sim.getByLabel('Hipótese diagnóstica').fill('IAM com supra de ST inferior');
-  await sim.getByLabel('Seu laudo do ECG').fill('Supra de ST em DII, DIII e aVF');
-  await sim.getByLabel('Prescrição').fill('AAS 300 mg VO');
+  await sim.getByLabel('IAM com supradesnivelamento do ST de parede inferior').check();
+  for (const o of [/^Reperfusão: angioplastia/, /^Monitorização cardíaca/, /^ECG com derivações direitas/, /^Internar em unidade coronariana/,
+    /^AAS 300 mg/, /^Clopidogrel/, /^Anticoagulação \(enoxaparina/, /^Atorvastatina/, /^Nitrato sublingual/]) await sim.getByLabel(o).check();
   await sim.getByRole('button', { name: 'Encerrar e ver correção' }).click();
   await sim.getByText('Resultado do caso').waitFor();
-  await sim.getByText('Não citou contraindicações à fibrinólise').waitFor();
-  await sim.getByLabel('Pergunta ao preceptor').fill('Por que não trombolisar?');
-  await sim.getByRole('button', { name: 'Perguntar' }).click();
-  await sim.getByText('angioplastia primária.', { exact: false }).last().waitFor();
+  await sim.locator('.sim-alerta').getByText(/nitrato derruba a pré-carga/).waitFor();
+  const nota = Number((await sim.locator('.sim-nota-valor').innerText()).split('/')[0]);
+  if (!(nota >= 8 && nota < 10)) erros.push(`simulador: nota inesperada ${nota}`);
   await foto(sim, '92-simulador-correcao');
+  await sim.getByRole('button', { name: /Outro caso/ }).click();
+  await sim.getByText('Melhor nota:', { exact: false }).first().waitFor();
   await sim.getByRole('tab', { name: /ECG/ }).click();
   await sim.getByText('Qual é o diagnóstico deste ECG?').waitFor();
   await sim.locator('.sim-opcoes .alternativa-botao').first().click();
-  await sim.locator('.sim-gabarito').waitFor();
+  await sim.locator('.sim-gabarito h3').filter({ hasText: /Acertou|Resposta/ }).waitFor();
   await foto(sim, '93-simulador-ecg');
   await sim.getByRole('tab', { name: /Busca médica/ }).click();
-  await sim.getByLabel('Tema médico').fill('cetoacidose');
+  await sim.getByLabel('Tema médico').fill('apendicite');
   await sim.getByRole('button', { name: 'Buscar', exact: true }).click();
-  await sim.getByText('Não iniciar insulina com K < 3,3').waitFor();
-  await sim.getByRole('button', { name: 'Simular 5 questões novas' }).click();
-  await sim.getByRole('button', { name: /Hidratação venosa/ }).click();
-  await sim.getByText('Hidratar primeiro.').waitFor();
+  await sim.locator('.sim-aula summary').first().waitFor();
+  await sim.getByRole('button', { name: 'Simular 5 questões' }).click();
+  await sim.locator('.sim-quiz .alternativa-botao').first().click();
+  await sim.locator('.sim-quiz .sim-ia-texto').first().waitFor();
   await foto(sim, '94-simulador-busca');
-  const simCel = await novaPagina(navegador, { largura: 390, altura: 844, simulador: true });
+  await sim.getByRole('button', { name: /Atender este caso/ }).first().click();
+  await sim.getByText('tô com uma dor na barriga que não passa').waitFor();
+  const simCel = await novaPagina(navegador, { largura: 390, altura: 844 });
   await simCel.goto('http://app.local/#simulador');
   await simCel.getByRole('tab', { name: /ECG/ }).click();
   await simCel.locator('.sim-ecg svg').waitFor();

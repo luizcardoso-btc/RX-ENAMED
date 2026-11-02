@@ -1322,3 +1322,37 @@ a.botao { text-decoration: none; display: inline-flex; align-items: center; gap:
   .sim-busca-form input { flex-basis: calc(100% - 40px); }
   .sim-nota { flex-direction: column; align-items: flex-start; }
 }
+.sim-lista-topo { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; }
+.sim-lista-topo > div:first-child { display: flex; flex-direction: column; gap: 2px; }
+.sim-lista-topo select { width: auto; }
+.sim-casos { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 12px; }
+.sim-caso-cartao { width: 100%; height: 100%; text-align: left; gap: 6px; padding: 16px; cursor: pointer; font: inherit; color: var(--tinta); }
+.sim-caso-cartao:hover { border-color: var(--realce); }
+.sim-caso-nota { margin-top: auto; font: 600 var(--t-1) var(--f-rotulo); color: var(--tinta-3); }
+.sim-caso-nota.feito { color: var(--certo); }
+.sim-grupo-exames { display: flex; flex-direction: column; gap: 6px; }
+.sim-decisao fieldset { border: 0; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.sim-decisao legend { font: 600 var(--t-1) var(--f-rotulo); letter-spacing: .03em; color: var(--tinta-2); margin-bottom: 6px; }
+.sim-escolha { display: flex; gap: 10px; align-items: flex-start; padding: 8px 10px; border: 1px solid var(--linha); border-radius: 8px; cursor: pointer; font-size: var(--t-1); line-height: 1.4; }
+.sim-escolha:has(input:checked) { border-color: var(--realce); background: var(--acento-suave); }
+.sim-escolha input { margin-top: 3px; accent-color: var(--realce); flex: none; }
+.sim-gabarito-lista, .sim-chave { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.sim-chave { list-style: disc; padding-left: 1.2rem; }
+ol.sim-chave { list-style: decimal; }
+.sim-gab { display: flex; gap: 10px; align-items: flex-start; line-height: 1.45; }
+.sim-gab-selo { flex: none; min-width: 5.2rem; text-align: center; padding: 2px 8px; border-radius: 999px; font: 600 .72rem var(--f-rotulo); text-transform: uppercase; letter-spacing: .04em; }
+.sim-gab-acertou .sim-gab-selo, .sim-gab-evitou .sim-gab-selo { background: var(--certo-suave); color: var(--certo); }
+.sim-gab-faltou .sim-gab-selo { background: var(--aviso-suave); color: var(--aviso); }
+.sim-gab-errou .sim-gab-selo { background: var(--errado-suave); color: var(--errado); }
+.sim-gab-opcional .sim-gab-selo { background: var(--folha-2); color: var(--tinta-3); }
+.sim-gab-evitou > span:last-child { color: var(--tinta-3); }
+.sim-secao-busca { display: flex; flex-direction: column; gap: 10px; }
+.sim-secao-busca > h3 { margin: 6px 0 0; }
+.sim-aula { padding: 14px 18px; gap: 10px; }
+.sim-aula summary { cursor: pointer; display: flex; align-items: center; gap: 8px; }
+.sim-aula h4 { margin: 10px 0 4px; color: var(--realce); }
+.sim-aula p { margin: 0 0 6px; }
+.sim-aula ul { margin: 0; padding-left: 1.2rem; display: flex; flex-direction: column; gap: 4px; }
+.sim-flashes { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: 12px; }
+.sim-flash { width: 100%; height: 100%; text-align: left; gap: 8px; padding: 16px; cursor: pointer; font: inherit; color: var(--tinta); }
+.sim-flash.virado { border-color: var(--realce); }
