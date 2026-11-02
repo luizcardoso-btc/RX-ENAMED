@@ -447,8 +447,9 @@ try {
   await c.locator('.questao').waitFor();
   await c.getByRole('radio').nth(1).click();
   await c.getByRole('button', { name: 'Responder' }).click();
-  await c.locator('.comentario').waitFor();
-  await c.locator('.comentario-alternativas summary').click();
+  await c.locator('.comentario, .navegacao-questao').first().waitFor();
+  // Nem toda questão nova tem comentário escrito ainda: abre o detalhe só quando existe.
+  if (await c.locator('.comentario-alternativas summary').count()) await c.locator('.comentario-alternativas summary').click();
   await foto(c, '53-comentario');
   // Simula o módulo 1 completo: o simulado do módulo deve liberar.
   await c.evaluate(async () => {
@@ -620,7 +621,7 @@ try {
   await es.getByRole('button', { name: /^Responder \d+ preguntas/ }).click();
   await es.getByRole('radio').first().click();
   await es.getByRole('button', { name: 'Responder' }).click();
-  await es.locator('.comentario').waitFor();
+  await es.locator('.comentario, .navegacao-questao').first().waitFor();
   await foto(es, '63-es-questao');
   await es.getByRole('navigation', { name: 'Secciones' }).getByRole('button', { name: 'Flashcards' }).click();
   await es.getByRole('button', { name: /^Estudiar/ }).click();

@@ -58,9 +58,16 @@ CICLO_CONFERIDO = {"revalida_2022-1", "revalida_2022-2", "revalida_2023-1", "rev
 RE_QUESTAO = re.compile(r"^\s*QUEST[ÃA]O\s+(\d{1,3})\b", re.MULTILINE | re.IGNORECASE)
 RE_ALTERNATIVA = re.compile(r"^([A-E])\s+(?=\S)")
 # Cabeçalhos, rodapés e espaços em branco que se repetem em todas as páginas do caderno.
-RE_RUIDO = re.compile(r"^\s*(\d{1,4}|(PRIMEIRA|SEGUNDA) EDIÇÃO|ÁREA LIVRE|ESPAÇO LIVRE|RASCUNHO)\s*$", re.IGNORECASE)
+RE_RUIDO = re.compile(r"^\s*(\d{1,4}|(PRIMEIRA|SEGUNDA) EDIÇÃO|ÁREA LIVRE|ESPAÇO LIVRE|RASCUNHO"
+                      r"|(<<)?\s*\d+\.\s*ITEM[\s-]*\d+\s*-\s*V\.\s*\d+\s*(/>>)?)\s*$", re.IGNORECASE)
+# Cabeçalhos e rodapés das páginas (edições 2011–2015 e 2026), que caem no meio das questões.
+RE_CABECALHO = re.compile(r"^\s*(DE DIPLOMAS MÉDICOS|REVALIDA(\s*20\d\d)?(\s+\d+)?(\s+INEP.*)?|\d*\s*EXAM\s?E NACIONAL DE REVALIDAÇÃO.*"
+                          r"|\d*\s*INEP\d{4}\s*\|.*|question[áa]rio De Perc.*|Prova (Cinza|Vermelha)"
+                          r"|SUPERIOR ESTRANGEIRAS|R?\s*INSTITUIÇÕES DE EDUCAÇÃO SUPERIOR ESTRANGEIRAS(\s*\d+)?"
+                          r"|Revalida 20\d\d/\d|Enamed 20\d\d|CADERNO 0\d)\s*$", re.IGNORECASE)
 RE_ESPACO_LIVRE = re.compile(r"\s*(\b(espaço|área) livre\b|EDIÇÃO 20\d\d/\d)\s*", re.IGNORECASE)  # rodapé colado na última linha da coluna
-RE_FIM_PROVA = re.compile(r"^\s*QUESTIONÁRIO DE PERCEPÇÃO", re.MULTILINE)
+RE_FIM_PROVA = re.compile(r"^\s*(QUESTIONÁRIO DE PERCEPÇÃO|QUESTIONÁRIO\s*$|Pergunta\s+(I|1)\b|As (questões|perguntas) abaixo visam)",
+                          re.MULTILINE | re.IGNORECASE)
 RE_IDADE = re.compile(r"\b\d{1,3}\s+(anos|meses|dias)\b", re.IGNORECASE)
 RE_FIGURA = re.compile(r"\[FIG:(\d+)\]")
 
@@ -169,6 +176,16 @@ class LeitorCaderno:
                 continue
             if a - y > 1:
                 linhas += (pagina.crop((x0, y, x1, a)).extract_text() or "").splitlines()
+            # Caixa que só contém o título "QUESTÃO N" (ENAMED 2025 desenha o título numa caixa): é texto, não figura.
+            dentro = (pagina.crop((max(c, x0), a, min(d, x1), b)).extract_text() or "").strip()
+            titulo = re.fullmatch(r"(QUEST[ÃA]O\s+\d{1,3})(\s+ANULADA)?", dentro, re.I)
+            if titulo:
+                linhas.append(titulo.group(1))
+                y = b
+                continue
+            if RE_ESPACO_LIVRE.fullmatch(dentro) or (re.fullmatch(r"(ÁREA|ESPAÇO) LIVRE", dentro, re.I)):
+                y = b  # caixa de rascunho
+                continue
             linhas.append(self._registrar_figura(pagina, (max(c, x0), a, min(d, x1), b)))
             y = b
         if base - y > 1:
@@ -200,13 +217,20 @@ class LeitorCaderno:
         """Texto do caderno sem capa, cabeçalhos/rodapés e questionário final."""
         linhas = []
         mapas = None
+        por_glifo = None
         with pdfplumber.open(caminho) as pdf:
-            for pagina in pdf.pages[1:]:  # a página 1 é a capa com instruções
+            primeira = pdf.pages[0].extract_text() or ""
+            inicio = 0 if RE_QUESTAO.search(primeira) else 1  # a página 1 costuma ser a capa (em 2021 já tem questões)
+            for pagina in pdf.pages[inicio:]:
                 if mapas is None and any(c["text"].startswith("(cid:") for c in pagina.chars[:400]):
                     mapas = mapas_de_glifos(caminho)
+                    if not mapas:
+                        por_glifo = mapa_por_glifo(caminho)
                 if mapas:
                     decodificar_cids(pagina, mapas)
-                linhas += [l for l in self._linhas_da_pagina(pagina) if not RE_RUIDO.match(l)]
+                elif por_glifo:
+                    decodificar_por_glifo(pagina, por_glifo)
+                linhas += [l for l in self._linhas_da_pagina(pagina) if not RE_RUIDO.match(l) and not RE_CABECALHO.match(l)]
         texto = "\n".join(linhas)
         inicio = RE_QUESTAO.search(texto)
         texto = texto[inicio.start():] if inicio else texto
@@ -259,6 +283,47 @@ def mapas_de_glifos(caminho):
                 if mapa:
                     mapas[nome] = mapa
     return mapas
+
+
+def mapa_por_glifo(caminho):
+    """{número do glifo: texto} a partir das tabelas de caracteres das outras fontes do caderno.
+
+    Alguns cadernos (ENAMED 2025) usam uma fonte Calibri sem tabela de caracteres (Identity-H): o pdfplumber devolve
+    "(cid:N)" e N é o número do glifo na Calibri. As fontes Calibri comuns do mesmo PDF têm tabela e usam a mesma
+    numeração de glifos, então dá para montar o mapa inverso sem adivinhar nada.
+    """
+    import io
+    import pymupdf
+    from fontTools.ttLib import TTFont
+    mapa = {}
+    with pymupdf.open(caminho) as doc:
+        vistos = set()
+        for pagina in doc:
+            for xref, _, tipo, nome, *_ in pagina.get_fonts(full=True):
+                if xref in vistos or tipo != "TrueType":
+                    continue
+                vistos.add(xref)
+                try:
+                    fonte = TTFont(io.BytesIO(doc.extract_font(xref)[3]))
+                    for codigo, glifo in (fonte.getBestCmap() or {}).items():
+                        letra = chr(codigo)
+                        if letra != "\xa0":
+                            mapa.setdefault(fonte.getGlyphID(glifo), letra)
+                except Exception:  # fonte sem tabela legível
+                    continue
+    return mapa
+
+
+# Ligaduras da Calibri: o glifo não tem caractere próprio na tabela e cai num vizinho. Conferido no texto impresso.
+LIGADURAS_CALIBRI = {"ĕ": "ti", "ė": "tí", "ε": "fí", "Ĕ": "tf", "├": "ft"}
+
+
+def decodificar_por_glifo(pagina, mapa):
+    for c in pagina.chars:
+        m = RE_CID.fullmatch(c["text"])
+        if m:
+            letra = mapa.get(int(m.group(1)), "")
+            c["text"] = LIGADURAS_CALIBRI.get(letra, letra)
 
 
 def codigo_do_caractere(texto):
@@ -317,6 +382,43 @@ def separar_alternativas(linhas):
     return "\n".join(linhas[:ordem[0][1]]), [alternativas.get(l, "") for l in "ABCDE"]
 
 
+RE_ALT_PARENTESES = re.compile(r"^\(([A-E])\)\s*(.*)$")
+
+
+def normalizar_alternativas(linhas):
+    """Põe as alternativas no formato "A texto": aceita "(A) texto" (2025.2 em diante) e a letra sozinha numa linha
+    com o texto na linha seguinte (2014 a 2017)."""
+    saida, i = [], 0
+    while i < len(linhas):
+        l = linhas[i]
+        m = RE_ALT_PARENTESES.match(l)
+        if m:
+            if m.group(2):
+                saida.append(f"{m.group(1)} {m.group(2)}")
+            elif i + 1 < len(linhas):
+                saida.append(f"{m.group(1)} {linhas[i + 1]}")
+                i += 1
+        elif re.fullmatch(r"[A-E]", l) and i + 1 < len(linhas):
+            saida.append(f"{l} {linhas[i + 1]}")
+            i += 1
+        else:
+            saida.append(l)
+        i += 1
+    return saida
+
+
+# Rodapés e cabeçalhos que ficam colados no fim de uma linha de texto (2011, 2016, 2017).
+RE_LIXO_COLADO = re.compile(r"\s*(INEP\d{4}\s*\|.*|REVALIDA 20\d\d\s+\d+\b.*|question[áa]rio De Perc.*"
+                            r"|\d*\s*EXAME NACIONAL DE REVALIDAÇÃO DE DIPLOMAS MÉDICOS EXPEDIDOS POR INSTITUIÇÕES.*)$", re.IGNORECASE)
+
+
+RE_ITEM_INLINE = re.compile(r"(<<)?\s*\b\d*\.?\s*ITEM[\s-]*\d{5,}\s*-\s*V\.\s*\d{5,}\s*(/>>)?\s*")
+
+
+def limpar_colado(texto):
+    return RE_LIXO_COLADO.sub("", RE_ITEM_INLINE.sub(" ", texto)).strip()
+
+
 def juntar_paragrafos(texto):
     """Junta as linhas quebradas pela diagramação; mantém marcadores de figura em linha própria."""
     partes = re.split(r"(\[FIG:\d+\])", texto)
@@ -329,9 +431,13 @@ def separar_questoes(texto):
     questoes = {}
     for i, m in enumerate(marcas):
         fim = marcas[i + 1].start() if i + 1 < len(marcas) else len(texto)
-        linhas = [l for l in (RE_ESPACO_LIVRE.sub("", l).strip() for l in texto[m.end():fim].splitlines()) if l]
+        linhas = normalizar_alternativas([l for l in (RE_ESPACO_LIVRE.sub("", l).strip() for l in texto[m.end():fim].splitlines()) if l])
         enunciado, alternativas = separar_alternativas(linhas)
-        questoes[int(m.group(1))] = (juntar_paragrafos(enunciado), [" ".join(a.split()) for a in alternativas])
+        # Número repetido (título lido duas vezes no layout em colunas): fica a ocorrência com mais conteúdo.
+        anterior = questoes.get(int(m.group(1)))
+        if anterior and (sum(1 for a in anterior[1] if a), len(anterior[0])) >= (sum(1 for a in alternativas if a), len(enunciado)):
+            continue
+        questoes[int(m.group(1))] = (limpar_colado(juntar_paragrafos(enunciado)) if "[FIG" not in enunciado else juntar_paragrafos(RE_ITEM_INLINE.sub(" ", enunciado)), [limpar_colado(" ".join(a.split())) for a in alternativas])
     return questoes
 
 
@@ -358,7 +464,8 @@ def ler_gabarito(caminho):
     if not gabarito:
         # Formato de 2022: tabela em colunas "Questão  Gabarito", com pares número–resposta na mesma linha.
         for linha in texto.splitlines():
-            for num, resp in re.findall(r"\b(\d{1,3})\s+(Anulada|ANULADA|[A-E]|[-*—])(?=\s|$)", linha):
+            # Também "1B" (2012) e X ou N para anulada (2021, 2013, 2017).
+            for num, resp in re.findall(r"\b(\d{1,3})\s*-?\s*(Anulada|ANULADA|Exclu[ií]da\*?|Administrati-?|[A-E]|[XN]|[-*—])(?=\s|$)", linha):
                 gabarito[int(num)] = resp.upper() if resp.upper() in "ABCDE" and len(resp) == 1 else "ANULADA"
     return gabarito
 
@@ -414,7 +521,8 @@ def processar_edicoes():
     questoes, status = [], []
     for ident, exame, edicao, ano in EDICOES:
         prova = PASTA_PROVAS / f"{ident}_prova.pdf"
-        gab = next((p for p in (PASTA_PROVAS / f"{ident}_gabarito.pdf", PASTA_PROVAS / f"{ident}_gabarito.txt")
+        # O .txt tem prioridade: é o gabarito transcrito e conferido quando o PDF do Inep é só imagem.
+        gab = next((p for p in (PASTA_PROVAS / f"{ident}_gabarito.txt", PASTA_PROVAS / f"{ident}_gabarito.pdf")
                     if p.exists()), None)
         if not prova.exists():
             situacao = "Pendente: falta o caderno" + (" (gabarito recebido)" if gab else "")
@@ -443,13 +551,88 @@ def processar_edicoes():
                 caso_clinico=bool(RE_IDADE.search(enunciado)),
                 enunciado=enunciado,
                 alternativas=[a for a in alts if a],
+                sem_alternativas=sum(1 for a in alts if a) < 4,
                 figuras=[leitor.figuras[int(n) - 1] for n in RE_FIGURA.findall(enunciado)],
             ))
         situacao = "Processada" if gab else "Processada sem gabarito"
         status.append(dict(id=ident, exame=exame, edicao=edicao, ano=ano, situacao=situacao,
                            questoes=len(extraidas), gabarito=bool(gab)))
+    questoes = unir_repetidas(questoes, status)
+    classificar_por_semelhanca(questoes)
     qualificar_incidencia(questoes)
     return questoes, status
+
+
+PALAVRAS_VAZIAS = set("""para com sem pela pelo pelos pelas uma umas uns como mais menos esse essa esses essas este esta isso
+qual quais caso paciente anos idade dias meses semanas apresenta apresentou exame quadro conduta adequada correta
+correto seguir deve sobre entre ainda após desde quando onde foram está estava sendo seus suas tem teve mesmo muito
+nesse nessa neste nesta deste desta desse dessa assinale alternativa opção resposta hipótese diagnóstica diagnóstico""".split())
+
+
+def _termos(texto):
+    return [t for t in re.findall(r"[a-z]{4,}", normalizar(texto)) if t not in PALAVRAS_VAZIAS]
+
+
+def classificar_por_semelhanca(questoes, vizinhos=7):
+    """Área e especialidade das questões sem classificação revisada pelas questões revisadas mais parecidas
+    (TF-IDF com cosseno, voto ponderado dos vizinhos). Continua marcada como "automática"."""
+    import math
+    revisadas = [q for q in questoes if q["classificacao"] == "revisada"]
+    pendentes = [q for q in questoes if q["classificacao"] != "revisada"]
+    if not revisadas or not pendentes:
+        return
+    docs = {q["id"]: collections.Counter(_termos(q["enunciado"] + " " + " ".join(q["alternativas"]))) for q in questoes}
+    df = collections.Counter(t for c in docs.values() for t in c)
+    n = len(docs)
+
+    def vetor(qid):
+        v = {t: (1 + math.log(f)) * math.log(n / df[t]) for t, f in docs[qid].items()}
+        norma = math.sqrt(sum(x * x for x in v.values())) or 1
+        return {t: x / norma for t, x in v.items()}
+
+    base = [(q, vetor(q["id"])) for q in revisadas]
+    for q in pendentes:
+        v = vetor(q["id"])
+        notas = sorted(((sum(x * w.get(t, 0) for t, x in v.items()), r) for r, w in base), key=lambda x: -x[0])[:vizinhos]
+        if not notas or notas[0][0] < 0.05:
+            continue
+        votos_area = collections.Counter()
+        for nota, r in notas:
+            votos_area[r["area"]] += nota
+        area = votos_area.most_common(1)[0][0]
+        votos_esp = collections.Counter()
+        for nota, r in notas:
+            if r["area"] == area:
+                votos_esp[r["especialidade"]] += nota
+        q["area"] = area
+        q["especialidade"] = votos_esp.most_common(1)[0][0]
+
+
+def unir_repetidas(questoes, status):
+    """O ENAMED usa questões do Revalida do mesmo semestre. A questão fica uma vez só (a do Revalida, que traz a
+    resposta oficial mesmo quando o item foi excluído do cálculo do ENAMED) e ganha a marca "também no ENAMED"."""
+    import difflib
+    chave = lambda q: re.sub(r"\W+", " ", normalizar(q["enunciado"]))[:200]
+    revalida = [q for q in questoes if q["exame"] == "Revalida"]
+    removidas = collections.Counter()
+    saida = []
+    for q in questoes:
+        if q["exame"] != "ENAMED":
+            saida.append(q)
+            continue
+        candidatas = [r for r in revalida if r["ano"] == q["ano"]]
+        k = chave(q)
+        igual = next((r for r in candidatas if difflib.SequenceMatcher(None, k, chave(r)).ratio() > 0.85), None)
+        if igual:
+            igual["tambem"] = f"ENAMED {q['edicao']}"
+            removidas[q["id"].rsplit("_q", 1)[0]] += 1
+        else:
+            saida.append(q)
+    for st in status:
+        if removidas.get(st["id"]):
+            st["situacao"] += f" ({removidas[st['id']]} questões iguais às do Revalida, mostradas uma vez só)"
+            st["questoes"] -= removidas[st["id"]]
+    return saida
 
 
 # ---------------------------------------------------------------- planilha
@@ -537,7 +720,8 @@ def gerar_planilha(questoes, status):
 
 def exportar_json(questoes, status):
     SAIDA_JSON.parent.mkdir(parents=True, exist_ok=True)
-    oficiais = [{**q, "fonte": "inep"} for q in questoes]
+    # Questões cujas alternativas são imagem (sem texto para os botões) ficam só na planilha.
+    oficiais = [{**{k: v for k, v in q.items() if k != "sem_alternativas"}, "fonte": "inep"} for q in questoes if not q.get("sem_alternativas")]
     # Questões importadas (residência, ENAMED, inéditas) entram no app só depois da revisão médica.
     externas = []
     if BANCO_EXTERNO.exists():

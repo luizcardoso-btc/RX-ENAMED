@@ -19,12 +19,13 @@ export async function carregarBanco() {
   const dados = await resp.json();
   const questoes = dados.questoes.map((q) => ({
     ...q,
-    rotulo: `${q.exame} ${q.edicao}`,
+    rotulo: `${q.exame} ${q.edicao}${q.tambem ? ` · ${q.tambem}` : ''}`,
     busca: normalizar(`${q.enunciado} ${q.alternativas.join(' ')} ${q.especialidade} ${q.tema}`),
   }));
   const porId = Object.fromEntries(questoes.map((q) => [q.id, q]));
   const edicoes = dados.edicoes.filter((e) => e.questoes > 0).map((e) => ({ ...e, rotulo: `${e.exame} ${e.edicao}` }));
-  const pendentes = dados.edicoes.filter((e) => e.questoes === 0);
+  // Edição sem questões próprias porque todas são iguais às de outra prova não é pendência.
+  const pendentes = dados.edicoes.filter((e) => e.questoes === 0 && !/iguais/.test(e.situacao || ''));
   const especialidades = [...new Set(questoes.map((q) => q.especialidade))].sort((a, b) => a.localeCompare(b, 'pt-BR'));
   const tipos = [...new Set(questoes.map((q) => q.tipo).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'pt-BR'));
 

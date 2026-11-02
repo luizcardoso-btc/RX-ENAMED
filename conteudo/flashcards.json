@@ -2261,6 +2261,3466 @@
         "frente": "Plomo × mercurio: ¿cuadro y contexto?",
         "verso": "Plomo: cólico, anemia con punteado basófilo, mano caída, línea de Burton (baterías, pinturas). Mercurio: temblor, síntomas neuropsiquiátricos y parestesias (minería de oro, pescado de río)."
       }
+    },
+    {
+      "id": "ped-apgar",
+      "area": "Pediatria",
+      "especialidade": "Neonatologia",
+      "tema": "Escore de Apgar",
+      "frente": "Escore de Apgar: o que avalia e quando?",
+      "verso": "FC, esforço respiratório, tônus, irritabilidade reflexa e cor (0 a 2 cada), no 1º e 5º minuto. Não decide a reanimação: ela começa antes, pela respiração, tônus e FC.",
+      "questoes": [],
+      "es": {
+        "frente": "Puntuación de Apgar: ¿qué evalúa y cuándo?",
+        "verso": "FC, esfuerzo respiratorio, tono, irritabilidad refleja y color (0 a 2 cada uno), al 1.º y 5.º minuto. No decide la reanimación: esta empieza antes, por respiración, tono y FC."
+      }
+    },
+    {
+      "id": "ped-rn-reanimacao-vpp",
+      "area": "Pediatria",
+      "especialidade": "Neonatologia",
+      "tema": "Reanimação neonatal",
+      "frente": "RN que não respira após passos iniciais: qual a conduta no 1º minuto?",
+      "verso": "Ventilação com pressão positiva (balão e máscara) no \"minuto de ouro\", com ar ambiente no RN ≥ 34 semanas, monitorando FC e SpO₂.",
+      "questoes": [
+        "revalida_2011_q012",
+        "revalida_2022-1_q053",
+        "revalida_2023-1_q053"
+      ],
+      "es": {
+        "frente": "RN que no respira tras los pasos iniciales: ¿conducta en el 1.er minuto?",
+        "verso": "Ventilación con presión positiva (bolsa y máscara) en el \"minuto de oro\", con aire ambiente en RN ≥ 34 semanas, monitorizando FC y SpO₂."
+      }
+    },
+    {
+      "id": "ped-rn-massagem",
+      "area": "Pediatria",
+      "especialidade": "Neonatologia",
+      "tema": "Reanimação neonatal",
+      "frente": "Quando iniciar massagem cardíaca no RN?",
+      "verso": "FC < 60 bpm após 30 s de ventilação efetiva (já com intubação ou máscara laríngea). Relação 3 compressões : 1 ventilação, O₂ 100%.",
+      "questoes": [
+        "revalida_2011_q012",
+        "revalida_2022-1_q053",
+        "revalida_2023-1_q053"
+      ],
+      "es": {
+        "frente": "¿Cuándo iniciar masaje cardíaco en el RN?",
+        "verso": "FC < 60 lpm tras 30 s de ventilación efectiva (con intubación o máscara laríngea). Relación 3 compresiones : 1 ventilación, O₂ 100 %."
+      }
+    },
+    {
+      "id": "ped-ictericia-fisiologica",
+      "area": "Pediatria",
+      "especialidade": "Neonatologia",
+      "tema": "Icterícia neonatal",
+      "frente": "Icterícia neonatal patológica: sinais de alerta?",
+      "verso": "Início < 24 h, bilirrubina subindo > 0,2 mg/dL/h, BD > 1 mg/dL (ou > 20% da total), duração > 2 semanas, acolia/colúria.",
+      "questoes": [
+        "revalida_2023-1_q008",
+        "revalida_2023-2_q083",
+        "revalida_2024-1_q068"
+      ],
+      "es": {
+        "frente": "Ictericia neonatal patológica: ¿signos de alarma?",
+        "verso": "Inicio < 24 h, bilirrubina que sube > 0,2 mg/dL/h, BD > 1 mg/dL (o > 20 % de la total), duración > 2 semanas, acolia/coluria."
+      }
+    },
+    {
+      "id": "ped-atresia-biliar",
+      "area": "Pediatria",
+      "especialidade": "Neonatologia",
+      "tema": "Colestase neonatal",
+      "frente": "Lactente com icterícia prolongada, acolia e colúria: hipótese e urgência?",
+      "verso": "Atresia de vias biliares. Investigar já (USG, cintilografia/biópsia): a portoenterostomia de Kasai tem melhor resultado antes de 60 dias de vida.",
+      "questoes": [],
+      "es": {
+        "frente": "Lactante con ictericia prolongada, acolia y coluria: ¿hipótesis y urgencia?",
+        "verso": "Atresia de vías biliares. Investigar ya (ecografía, gammagrafía/biopsia): la portoenterostomía de Kasai rinde más antes de los 60 días de vida."
+      }
+    },
+    {
+      "id": "ped-taquipneia-transitoria",
+      "area": "Pediatria",
+      "especialidade": "Neonatologia",
+      "tema": "Desconforto respiratório neonatal",
+      "frente": "RN a termo de cesárea eletiva com taquipneia leve nas primeiras horas: hipótese?",
+      "verso": "Taquipneia transitória do RN (retenção de líquido pulmonar). RX com congestão peri-hilar e líquido em cisuras; melhora em 24–72 h com suporte.",
+      "questoes": [
+        "revalida_2024-1_q018"
+      ],
+      "es": {
+        "frente": "RN a término por cesárea electiva con taquipnea leve en las primeras horas: ¿hipótesis?",
+        "verso": "Taquipnea transitoria del RN (retención de líquido pulmonar). RX con congestión perihiliar y líquido en cisuras; mejora en 24–72 h con soporte."
+      }
+    },
+    {
+      "id": "ped-membrana-hialina",
+      "area": "Pediatria",
+      "especialidade": "Neonatologia",
+      "tema": "Desconforto respiratório neonatal",
+      "frente": "Prematuro com desconforto progressivo e RX em vidro moído com broncograma: diagnóstico e tratamento?",
+      "verso": "Síndrome do desconforto respiratório (deficiência de surfactante). CPAP precoce e surfactante; prevenção com corticoide antenatal.",
+      "questoes": [
+        "revalida_2024-1_q018"
+      ],
+      "es": {
+        "frente": "Prematuro con dificultad progresiva y RX en vidrio esmerilado con broncograma: ¿diagnóstico y tratamiento?",
+        "verso": "Síndrome de dificultad respiratoria (déficit de surfactante). CPAP precoz y surfactante; prevención con corticoide antenatal."
+      }
+    },
+    {
+      "id": "ped-sepse-neonatal",
+      "area": "Pediatria",
+      "especialidade": "Neonatologia",
+      "tema": "Sepse neonatal",
+      "frente": "Sepse neonatal precoce: agentes e antibiótico empírico?",
+      "verso": "Streptococcus do grupo B e E. coli (Listeria rara). Ampicilina + gentamicina.",
+      "questoes": [
+        "revalida_2012_q079",
+        "revalida_2013_q091",
+        "revalida_2016_q006"
+      ],
+      "es": {
+        "frente": "Sepsis neonatal precoz: ¿agentes y antibiótico empírico?",
+        "verso": "Streptococcus del grupo B y E. coli (Listeria rara). Ampicilina + gentamicina."
+      }
+    },
+    {
+      "id": "ped-teste-pezinho",
+      "area": "Pediatria",
+      "especialidade": "Neonatologia",
+      "tema": "Triagem neonatal",
+      "frente": "Teste do pezinho: quando coletar?",
+      "verso": "Entre o 3º e o 5º dia de vida (após 48 h de amamentação). Triagem de fenilcetonúria, hipotireoidismo congênito, hemoglobinopatias, fibrose cística, entre outras.",
+      "questoes": [
+        "revalida_2011_q028",
+        "revalida_2020_q075",
+        "revalida_2020_q085"
+      ],
+      "es": {
+        "frente": "Prueba del talón: ¿cuándo tomarla?",
+        "verso": "Entre el 3.er y el 5.º día de vida (tras 48 h de lactancia). Tamiza fenilcetonuria, hipotiroidismo congénito, hemoglobinopatías, fibrosis quística, entre otras."
+      }
+    },
+    {
+      "id": "ped-teste-coracaozinho",
+      "area": "Pediatria",
+      "especialidade": "Neonatologia",
+      "tema": "Triagem neonatal",
+      "frente": "Teste do coraçãozinho: como é e o que é alterado?",
+      "verso": "Oximetria no membro superior direito e em um membro inferior entre 24 e 48 h. Alterado: SpO₂ < 95% ou diferença ≥ 3% (repetir em 1 h; persistindo, ecocardiograma).",
+      "questoes": [
+        "revalida_2011_q028",
+        "revalida_2020_q075",
+        "revalida_2020_q085"
+      ],
+      "es": {
+        "frente": "Prueba del corazoncito: ¿cómo es y qué es alterado?",
+        "verso": "Oximetría en el miembro superior derecho y en un miembro inferior entre 24 y 48 h. Alterado: SpO₂ < 95 % o diferencia ≥ 3 % (repetir en 1 h; si persiste, ecocardiograma)."
+      }
+    },
+    {
+      "id": "ped-aleitamento-exclusivo",
+      "area": "Pediatria",
+      "especialidade": "Nutrição pediátrica",
+      "tema": "Aleitamento materno",
+      "frente": "Até quando aleitamento exclusivo e até quando manter?",
+      "verso": "Exclusivo até 6 meses; complementado até 2 anos ou mais. Não oferecer água, chás ou outros leites antes dos 6 meses.",
+      "questoes": [
+        "revalida_2011_q003",
+        "revalida_2011_q015",
+        "revalida_2011_q028"
+      ],
+      "es": {
+        "frente": "¿Hasta cuándo lactancia exclusiva y hasta cuándo mantenerla?",
+        "verso": "Exclusiva hasta los 6 meses; complementada hasta los 2 años o más. No ofrecer agua, tés u otras leches antes de los 6 meses."
+      }
+    },
+    {
+      "id": "ped-contraindicacao-aleitamento",
+      "area": "Pediatria",
+      "especialidade": "Nutrição pediátrica",
+      "tema": "Aleitamento materno",
+      "frente": "Quando o aleitamento materno é contraindicado no Brasil?",
+      "verso": "Mãe com HIV ou HTLV, galactosemia no lactente, uso materno de quimioterápicos/drogas de abuso. Hepatite B, mastite e tuberculose tratada não contraindicam.",
+      "questoes": [
+        "revalida_2011_q003",
+        "revalida_2011_q015",
+        "revalida_2011_q028"
+      ],
+      "es": {
+        "frente": "¿Cuándo está contraindicada la lactancia materna en Brasil?",
+        "verso": "Madre con VIH o HTLV, galactosemia en el lactante, uso materno de quimioterápicos/drogas de abuso. Hepatitis B, mastitis y tuberculosis tratada no la contraindican."
+      }
+    },
+    {
+      "id": "ped-ferro-profilatico",
+      "area": "Pediatria",
+      "especialidade": "Nutrição pediátrica",
+      "tema": "Suplementação",
+      "frente": "Suplementação de ferro profilático no lactente a termo (SBP)?",
+      "verso": "1 mg/kg/dia de ferro elementar dos 3 meses aos 2 anos (a termo, peso adequado). Prematuros e baixo peso começam aos 30 dias, com dose maior.",
+      "questoes": [
+        "revalida_2011_q041",
+        "revalida_2011_q043",
+        "revalida_2011_q095"
+      ],
+      "es": {
+        "frente": "Suplementación de hierro profiláctico en el lactante a término (SBP)?",
+        "verso": "1 mg/kg/día de hierro elemental de los 3 meses a los 2 años (a término, peso adecuado). Prematuros y bajo peso empiezan a los 30 días, con dosis mayor."
+      }
+    },
+    {
+      "id": "ped-vitamina-d",
+      "area": "Pediatria",
+      "especialidade": "Nutrição pediátrica",
+      "tema": "Suplementação",
+      "frente": "Vitamina D no 1º ano de vida?",
+      "verso": "400 UI/dia do nascimento (primeira semana) até 12 meses; 600 UI/dia de 12 a 24 meses (SBP).",
+      "questoes": [
+        "revalida_2011_q041",
+        "revalida_2011_q043",
+        "revalida_2011_q095"
+      ],
+      "es": {
+        "frente": "¿Vitamina D en el 1.er año de vida?",
+        "verso": "400 UI/día desde el nacimiento (primera semana) hasta los 12 meses; 600 UI/día de 12 a 24 meses (SBP)."
+      }
+    },
+    {
+      "id": "ped-marcos-desenvolvimento",
+      "area": "Pediatria",
+      "especialidade": "Desenvolvimento infantil",
+      "tema": "Marcos do desenvolvimento",
+      "frente": "Marcos motores: sustenta cabeça, senta sem apoio, anda?",
+      "verso": "Sustenta a cabeça ~3 meses; senta sem apoio ~6–7 meses; anda sozinho ~12 meses (até 18 meses é aceitável). Não andar aos 18 meses: investigar.",
+      "questoes": [
+        "enamed_2025_q052"
+      ],
+      "es": {
+        "frente": "Hitos motores: ¿sostiene la cabeza, se sienta sin apoyo, camina?",
+        "verso": "Sostiene la cabeza ~3 meses; se sienta sin apoyo ~6–7 meses; camina solo ~12 meses (hasta 18 meses es aceptable). No caminar a los 18 meses: investigar."
+      }
+    },
+    {
+      "id": "ped-sinais-autismo",
+      "area": "Pediatria",
+      "especialidade": "Desenvolvimento infantil",
+      "tema": "Transtorno do espectro autista",
+      "frente": "Sinais de alerta de TEA e instrumento de triagem?",
+      "verso": "Pouco contato visual, não atende pelo nome, ausência de apontar/gestos aos 12 meses, perda de habilidades. M-CHAT entre 16 e 30 meses.",
+      "questoes": [
+        "revalida_2017_q100",
+        "revalida_2023-2_q035",
+        "revalida_2024-1_q098"
+      ],
+      "es": {
+        "frente": "Señales de alerta de TEA e instrumento de tamizaje?",
+        "verso": "Poco contacto visual, no responde a su nombre, ausencia de señalar/gestos a los 12 meses, pérdida de habilidades. M-CHAT entre 16 y 30 meses."
+      }
+    },
+    {
+      "id": "ped-curva-crescimento",
+      "area": "Pediatria",
+      "especialidade": "Desenvolvimento infantil",
+      "tema": "Crescimento",
+      "frente": "Baixa estatura: como diferenciar familiar de constitucional?",
+      "verso": "Familiar: pais baixos, idade óssea = cronológica, velocidade normal. Constitucional: idade óssea atrasada, puberdade tardia, estatura final normal.",
+      "questoes": [
+        "revalida_2011_q054",
+        "revalida_2011_q065",
+        "revalida_2011_q089"
+      ],
+      "es": {
+        "frente": "Talla baja: ¿cómo diferenciar familiar de constitucional?",
+        "verso": "Familiar: padres bajos, edad ósea = cronológica, velocidad normal. Constitucional: edad ósea retrasada, pubertad tardía, talla final normal."
+      }
+    },
+    {
+      "id": "ped-puberdade-precoce",
+      "area": "Pediatria",
+      "especialidade": "Desenvolvimento infantil",
+      "tema": "Puberdade",
+      "frente": "Puberdade precoce: definição por sexo?",
+      "verso": "Meninas: telarca antes dos 8 anos. Meninos: aumento testicular antes dos 9 anos. Investigar com idade óssea e LH.",
+      "questoes": [
+        "revalida_2012_q098",
+        "revalida_2022-1_q024",
+        "revalida_2022-2_q008"
+      ],
+      "es": {
+        "frente": "Pubertad precoz: ¿definición por sexo?",
+        "verso": "Niñas: telarquia antes de los 8 años. Niños: aumento testicular antes de los 9 años. Investigar con edad ósea y LH."
+      }
+    },
+    {
+      "id": "ped-vacina-bcg",
+      "area": "Pediatria",
+      "especialidade": "Imunização",
+      "tema": "Calendário vacinal",
+      "frente": "BCG: quando aplicar e quando adiar?",
+      "verso": "Ao nascer (dose única). Adiar se peso < 2 kg. Contraindicada em imunodeficiência; filho de mãe com HIV: vacinar se assintomático e sem imunossupressão.",
+      "questoes": [
+        "revalida_2011_q028",
+        "revalida_2012_q103",
+        "revalida_2013_q003"
+      ],
+      "es": {
+        "frente": "BCG: ¿cuándo aplicar y cuándo postergar?",
+        "verso": "Al nacer (dosis única). Postergar si peso < 2 kg. Contraindicada en inmunodeficiencia; hijo de madre con VIH: vacunar si asintomático y sin inmunosupresión."
+      }
+    },
+    {
+      "id": "ped-vacina-hepb",
+      "area": "Pediatria",
+      "especialidade": "Imunização",
+      "tema": "Calendário vacinal",
+      "frente": "RN de mãe HBsAg positiva: conduta?",
+      "verso": "Vacina contra hepatite B e imunoglobulina (IGHAHB) nas primeiras 12 h de vida. Aleitamento liberado.",
+      "questoes": [
+        "revalida_2011_q028",
+        "revalida_2012_q103",
+        "revalida_2013_q003"
+      ],
+      "es": {
+        "frente": "RN de madre HBsAg positiva: ¿conducta?",
+        "verso": "Vacuna contra hepatitis B e inmunoglobulina (IGHB) en las primeras 12 h de vida. Lactancia permitida."
+      }
+    },
+    {
+      "id": "ped-vacinas-2meses",
+      "area": "Pediatria",
+      "especialidade": "Imunização",
+      "tema": "Calendário vacinal",
+      "frente": "Vacinas aos 2 meses (PNI)?",
+      "verso": "Penta (DTP-Hib-HepB), VIP (poliomielite inativada), pneumocócica 10-valente e rotavírus.",
+      "questoes": [
+        "revalida_2011_q028",
+        "revalida_2012_q103",
+        "revalida_2013_q003"
+      ],
+      "es": {
+        "frente": "¿Vacunas a los 2 meses (PNI)?",
+        "verso": "Penta (DTP-Hib-HepB), VIP (polio inactivada), neumocócica 10-valente y rotavirus."
+      }
+    },
+    {
+      "id": "ped-rotavirus-idade",
+      "area": "Pediatria",
+      "especialidade": "Imunização",
+      "tema": "Calendário vacinal",
+      "frente": "Vacina do rotavírus: limites de idade?",
+      "verso": "1ª dose até 11 meses e 29 dias; 2ª dose até 23 meses e 29 dias (PNI atual). Não reiniciar esquema.",
+      "questoes": [
+        "revalida_2011_q028",
+        "revalida_2012_q103",
+        "revalida_2013_q003"
+      ],
+      "es": {
+        "frente": "Vacuna del rotavirus: ¿límites de edad?",
+        "verso": "1.ª dosis hasta 11 meses y 29 días; 2.ª dosis hasta 23 meses y 29 días (PNI actual). No reiniciar el esquema."
+      }
+    },
+    {
+      "id": "ped-triplice-viral",
+      "area": "Pediatria",
+      "especialidade": "Imunização",
+      "tema": "Calendário vacinal",
+      "frente": "Tríplice viral e tetra viral: idades?",
+      "verso": "Tríplice viral aos 12 meses; tetra viral (ou tríplice + varicela) aos 15 meses. Bloqueio de sarampo: dose \"zero\" a partir de 6 meses.",
+      "questoes": [
+        "revalida_2011_q028",
+        "revalida_2012_q103",
+        "revalida_2013_q003"
+      ],
+      "es": {
+        "frente": "Triple viral y tetravalente viral: ¿edades?",
+        "verso": "Triple viral a los 12 meses; tetravalente viral (o triple + varicela) a los 15 meses. Bloqueo de sarampión: dosis \"cero\" desde los 6 meses."
+      }
+    },
+    {
+      "id": "ped-sarampo",
+      "area": "Pediatria",
+      "especialidade": "Infectologia pediátrica",
+      "tema": "Doenças exantemáticas",
+      "frente": "Sarampo: sinais característicos e conduta?",
+      "verso": "Febre, tosse, coriza e conjuntivite; manchas de Koplik; exantema maculopapular craniocaudal. Vitamina A, notificação imediata, isolamento e bloqueio vacinal.",
+      "questoes": [],
+      "es": {
+        "frente": "Sarampión: ¿signos característicos y conducta?",
+        "verso": "Fiebre, tos, coriza y conjuntivitis; manchas de Koplik; exantema maculopapular craneocaudal. Vitamina A, notificación inmediata, aislamiento y bloqueo vacunal."
+      }
+    },
+    {
+      "id": "ped-escarlatina",
+      "area": "Pediatria",
+      "especialidade": "Infectologia pediátrica",
+      "tema": "Doenças exantemáticas",
+      "frente": "Escarlatina: achados e tratamento?",
+      "verso": "Exantema áspero (lixa), sinal de Pastia, palidez perioral (Filatov), língua em framboesa, após faringite estreptocócica. Amoxicilina ou penicilina benzatina.",
+      "questoes": [],
+      "es": {
+        "frente": "Escarlatina: ¿hallazgos y tratamiento?",
+        "verso": "Exantema áspero (lija), signo de Pastia, palidez perioral (Filatov), lengua en frambuesa, tras faringitis estreptocócica. Amoxicilina o penicilina benzatina."
+      }
+    },
+    {
+      "id": "ped-exantema-subito",
+      "area": "Pediatria",
+      "especialidade": "Infectologia pediátrica",
+      "tema": "Doenças exantemáticas",
+      "frente": "Exantema súbito (roséola): padrão clássico?",
+      "verso": "Lactente com febre alta por 3 a 5 dias, bom estado geral; ao cair a febre surge exantema em tronco. HHV-6. Pode causar convulsão febril.",
+      "questoes": [],
+      "es": {
+        "frente": "Exantema súbito (roséola): ¿patrón clásico?",
+        "verso": "Lactante con fiebre alta 3 a 5 días, buen estado general; al bajar la fiebre aparece exantema en tronco. VHH-6. Puede causar convulsión febril."
+      }
+    },
+    {
+      "id": "ped-eritema-infeccioso",
+      "area": "Pediatria",
+      "especialidade": "Infectologia pediátrica",
+      "tema": "Doenças exantemáticas",
+      "frente": "Eritema infeccioso: agente e aspecto?",
+      "verso": "Parvovírus B19. Face \"esbofeteada\" e exantema rendilhado em membros. Risco de crise aplásica em doença falciforme e hidropisia fetal na gestante.",
+      "questoes": [],
+      "es": {
+        "frente": "Eritema infeccioso: ¿agente y aspecto?",
+        "verso": "Parvovirus B19. Cara \"abofeteada\" y exantema en encaje en miembros. Riesgo de crisis aplásica en drepanocitosis e hidropesía fetal en la gestante."
+      }
+    },
+    {
+      "id": "ped-kawasaki",
+      "area": "Pediatria",
+      "especialidade": "Reumatologia pediátrica",
+      "tema": "Doença de Kawasaki",
+      "frente": "Doença de Kawasaki: critérios e tratamento?",
+      "verso": "Febre ≥ 5 dias + 4 de 5: conjuntivite sem secreção, alterações de lábios/boca, exantema, alterações de extremidades, linfonodo cervical > 1,5 cm. Imunoglobulina IV + AAS; ecocardiograma (aneurisma coronariano).",
+      "questoes": [
+        "revalida_2014_q105",
+        "revalida_2017_q015",
+        "revalida_2021_q038"
+      ],
+      "es": {
+        "frente": "Enfermedad de Kawasaki: ¿criterios y tratamiento?",
+        "verso": "Fiebre ≥ 5 días + 4 de 5: conjuntivitis sin secreción, cambios en labios/boca, exantema, cambios en extremidades, ganglio cervical > 1,5 cm. Inmunoglobulina IV + AAS; ecocardiograma (aneurisma coronario)."
+      }
+    },
+    {
+      "id": "ped-febre-reumatica",
+      "area": "Pediatria",
+      "especialidade": "Reumatologia pediátrica",
+      "tema": "Febre reumática",
+      "frente": "Critérios maiores de Jones?",
+      "verso": "Cardite, poliartrite migratória, coreia de Sydenham, eritema marginado e nódulos subcutâneos. Exige evidência de infecção estreptocócica prévia.",
+      "questoes": [
+        "revalida_2011_q073",
+        "revalida_2012_q064",
+        "revalida_2013_q037"
+      ],
+      "es": {
+        "frente": "¿Criterios mayores de Jones?",
+        "verso": "Carditis, poliartritis migratoria, corea de Sydenham, eritema marginado y nódulos subcutáneos. Exige evidencia de infección estreptocócica previa."
+      }
+    },
+    {
+      "id": "ped-profilaxia-febre-reumatica",
+      "area": "Pediatria",
+      "especialidade": "Reumatologia pediátrica",
+      "tema": "Febre reumática",
+      "frente": "Profilaxia secundária da febre reumática?",
+      "verso": "Penicilina G benzatina a cada 21 dias. Duração conforme cardite: sem cardite até 21 anos (ou 5 anos após o surto); com sequela grave, até 40 anos ou por toda a vida.",
+      "questoes": [
+        "revalida_2011_q073",
+        "revalida_2012_q064",
+        "revalida_2013_q037"
+      ],
+      "es": {
+        "frente": "¿Profilaxis secundaria de la fiebre reumática?",
+        "verso": "Penicilina G benzatina cada 21 días. Duración según carditis: sin carditis hasta los 21 años (o 5 años tras el brote); con secuela grave, hasta los 40 años o de por vida."
+      }
+    },
+    {
+      "id": "ped-faringite-estrepto",
+      "area": "Pediatria",
+      "especialidade": "Infectologia pediátrica",
+      "tema": "Infecções de vias aéreas",
+      "frente": "Faringoamigdalite estreptocócica: tratamento de escolha?",
+      "verso": "Penicilina G benzatina IM dose única ou amoxicilina por 10 dias. Previne febre reumática.",
+      "questoes": [],
+      "es": {
+        "frente": "Faringoamigdalitis estreptocócica: ¿tratamiento de elección?",
+        "verso": "Penicilina G benzatina IM dosis única o amoxicilina por 10 días. Previene la fiebre reumática."
+      }
+    },
+    {
+      "id": "ped-otite-media",
+      "area": "Pediatria",
+      "especialidade": "Infectologia pediátrica",
+      "tema": "Infecções de vias aéreas",
+      "frente": "Otite média aguda: antibiótico de escolha?",
+      "verso": "Amoxicilina 50 mg/kg/dia (dose alta 80–90 mg/kg/dia em risco de pneumococo resistente) por 10 dias em < 2 anos. Observação possível em casos leves > 2 anos.",
+      "questoes": [],
+      "es": {
+        "frente": "Otitis media aguda: ¿antibiótico de elección?",
+        "verso": "Amoxicilina 50 mg/kg/día (dosis alta 80–90 mg/kg/día si riesgo de neumococo resistente) por 10 días en < 2 años. Observación posible en casos leves > 2 años."
+      }
+    },
+    {
+      "id": "ped-laringite",
+      "area": "Pediatria",
+      "especialidade": "Pneumologia pediátrica",
+      "tema": "Laringotraqueíte viral (crupe)",
+      "frente": "Crupe viral: quadro e tratamento?",
+      "verso": "Tosse ladrante, rouquidão e estridor inspiratório após pródromo viral. Dexametasona oral/IM em todos; adrenalina nebulizada se estridor em repouso.",
+      "questoes": [
+        "revalida_2023-1_q028",
+        "revalida_2024-1_q088"
+      ],
+      "es": {
+        "frente": "Crup viral: ¿cuadro y tratamiento?",
+        "verso": "Tos perruna, ronquera y estridor inspiratorio tras pródromo viral. Dexametasona oral/IM en todos; adrenalina nebulizada si estridor en reposo."
+      }
+    },
+    {
+      "id": "ped-epiglotite",
+      "area": "Pediatria",
+      "especialidade": "Pneumologia pediátrica",
+      "tema": "Epiglotite",
+      "frente": "Criança toxemiada, sialorreia, posição em tripé e estridor: conduta?",
+      "verso": "Epiglotite (Hib). Não examinar a orofaringe nem deitar a criança; via aérea em ambiente controlado e ceftriaxona.",
+      "questoes": [],
+      "es": {
+        "frente": "Niño tóxico, sialorrea, posición en trípode y estridor: ¿conducta?",
+        "verso": "Epiglotitis (Hib). No examinar la orofaringe ni acostar al niño; vía aérea en ambiente controlado y ceftriaxona."
+      }
+    },
+    {
+      "id": "ped-pneumonia-aidpi",
+      "area": "Pediatria",
+      "especialidade": "Pneumologia pediátrica",
+      "tema": "Pneumonia na criança",
+      "frente": "Taquipneia (AIDPI) por idade?",
+      "verso": "< 2 meses: FR ≥ 60; 2 a 11 meses: ≥ 50; 1 a 4 anos: ≥ 40 irpm.",
+      "questoes": [
+        "revalida_2011_q025",
+        "revalida_2011_q099",
+        "revalida_2012_q095"
+      ],
+      "es": {
+        "frente": "Taquipnea (AIEPI) por edad?",
+        "verso": "< 2 meses: FR ≥ 60; 2 a 11 meses: ≥ 50; 1 a 4 años: ≥ 40 rpm."
+      }
+    },
+    {
+      "id": "ped-pneumonia-tratamento",
+      "area": "Pediatria",
+      "especialidade": "Pneumologia pediátrica",
+      "tema": "Pneumonia na criança",
+      "frente": "Pneumonia comunitária na criança sem sinais de gravidade: tratamento?",
+      "verso": "Amoxicilina oral 50 mg/kg/dia por 7 dias (ambulatorial), com reavaliação em 48–72 h. Sinais de perigo (tiragem, SatO₂ < 92%, não bebe): internar.",
+      "questoes": [
+        "revalida_2011_q025",
+        "revalida_2011_q099",
+        "revalida_2012_q095"
+      ],
+      "es": {
+        "frente": "Neumonía comunitaria en el niño sin signos de gravedad: ¿tratamiento?",
+        "verso": "Amoxicilina oral 50 mg/kg/día por 7 días (ambulatorio), con reevaluación en 48–72 h. Signos de peligro (tiraje, SatO₂ < 92 %, no bebe): internar."
+      }
+    },
+    {
+      "id": "ped-coqueluche",
+      "area": "Pediatria",
+      "especialidade": "Infectologia pediátrica",
+      "tema": "Coqueluche",
+      "frente": "Coqueluche: quadro no lactente e tratamento?",
+      "verso": "Tosse em acessos com guincho, cianose, apneia (lactente pequeno), linfocitose. Azitromicina para o caso e para contatos; notificação.",
+      "questoes": [
+        "revalida_2011_q046",
+        "revalida_2016_q085",
+        "revalida_2022-1_q069"
+      ],
+      "es": {
+        "frente": "Tos ferina: ¿cuadro en el lactante y tratamiento?",
+        "verso": "Tos en accesos con estridor, cianosis, apnea (lactante pequeño), linfocitosis. Azitromicina para el caso y contactos; notificación."
+      }
+    },
+    {
+      "id": "ped-convulsao-febril",
+      "area": "Pediatria",
+      "especialidade": "Neurologia pediátrica",
+      "tema": "Convulsão febril",
+      "frente": "Convulsão febril simples: características e conduta?",
+      "verso": "6 meses a 5 anos, generalizada, < 15 min, única em 24 h, sem déficit. Tratar a febre e orientar; não precisa de EEG, imagem nem anticonvulsivante contínuo.",
+      "questoes": [
+        "revalida_2015_q073",
+        "revalida_2016_q019",
+        "revalida_2021_q054"
+      ],
+      "es": {
+        "frente": "Convulsión febril simple: ¿características y conducta?",
+        "verso": "6 meses a 5 años, generalizada, < 15 min, única en 24 h, sin déficit. Tratar la fiebre y orientar; no requiere EEG, imagen ni anticonvulsivante continuo."
+      }
+    },
+    {
+      "id": "ped-estado-mal",
+      "area": "Pediatria",
+      "especialidade": "Neurologia pediátrica",
+      "tema": "Estado de mal epiléptico",
+      "frente": "Criança em crise convulsiva há 5 minutos: primeira droga?",
+      "verso": "Benzodiazepínico: diazepam 0,3–0,5 mg/kg IV ou retal, ou midazolam IM/intranasal. Se persistir: fenitoína ou fenobarbital.",
+      "questoes": [
+        "revalida_2022-1_q038"
+      ],
+      "es": {
+        "frente": "Niño en crisis convulsiva hace 5 minutos: ¿primera droga?",
+        "verso": "Benzodiacepina: diazepam 0,3–0,5 mg/kg IV o rectal, o midazolam IM/intranasal. Si persiste: fenitoína o fenobarbital."
+      }
+    },
+    {
+      "id": "ped-invaginacao",
+      "area": "Pediatria",
+      "especialidade": "Cirurgia pediátrica",
+      "tema": "Invaginação intestinal",
+      "frente": "Lactente com cólica intermitente, vômitos e fezes em \"geleia de framboesa\": diagnóstico e tratamento?",
+      "verso": "Intussuscepção (íleo-cólica). USG (sinal do alvo). Redução por enema hidrostático ou pneumático; cirurgia se falha ou peritonite.",
+      "questoes": [
+        "revalida_2015_q082",
+        "revalida_2023-1_q073"
+      ],
+      "es": {
+        "frente": "Lactante con cólico intermitente, vómitos y heces en \"jalea de grosella\": ¿diagnóstico y tratamiento?",
+        "verso": "Invaginación (ileocólica). Ecografía (signo de la diana). Reducción por enema hidrostático o neumático; cirugía si falla o hay peritonitis."
+      }
+    },
+    {
+      "id": "ped-estenose-piloro",
+      "area": "Pediatria",
+      "especialidade": "Cirurgia pediátrica",
+      "tema": "Estenose hipertrófica do piloro",
+      "frente": "Lactente de 3–6 semanas com vômitos em jato não biliosos: diagnóstico e distúrbio?",
+      "verso": "Estenose hipertrófica do piloro (\"oliva\" palpável, USG). Alcalose metabólica hipoclorêmica e hipocalêmica; corrigir antes da piloromiotomia.",
+      "questoes": [
+        "revalida_2022-2_q068",
+        "revalida_2023-1_q008",
+        "revalida_2023-1_q073"
+      ],
+      "es": {
+        "frente": "Lactante de 3–6 semanas con vómitos en proyectil no biliosos: ¿diagnóstico y trastorno?",
+        "verso": "Estenosis hipertrófica del píloro (\"oliva\" palpable, ecografía). Alcalosis metabólica hipoclorémica e hipopotasémica; corregir antes de la piloromiotomía."
+      }
+    },
+    {
+      "id": "ped-vomito-bilioso",
+      "area": "Pediatria",
+      "especialidade": "Cirurgia pediátrica",
+      "tema": "Má rotação intestinal",
+      "frente": "RN com vômitos biliosos: qual diagnóstico excluir com urgência?",
+      "verso": "Má rotação com volvo do intestino médio. Vômito bilioso no RN é cirúrgico até prova em contrário: seriografia de urgência.",
+      "questoes": [
+        "revalida_2016_q050",
+        "revalida_2026-1_q023"
+      ],
+      "es": {
+        "frente": "RN con vómitos biliosos: ¿qué diagnóstico descartar con urgencia?",
+        "verso": "Malrotación con vólvulo del intestino medio. Vómito bilioso en el RN es quirúrgico hasta demostrar lo contrario: seriada urgente."
+      }
+    },
+    {
+      "id": "ped-criptorquidia",
+      "area": "Pediatria",
+      "especialidade": "Cirurgia pediátrica",
+      "tema": "Criptorquidia",
+      "frente": "Criptorquidia: até quando operar?",
+      "verso": "Orquidopexia entre 6 e 18 meses (ideal até 1 ano). Reduz risco de infertilidade e facilita o rastreio de neoplasia.",
+      "questoes": [
+        "revalida_2024-2_q078"
+      ],
+      "es": {
+        "frente": "Criptorquidia: ¿hasta cuándo operar?",
+        "verso": "Orquidopexia entre 6 y 18 meses (ideal hasta 1 año). Reduce el riesgo de infertilidad y facilita el control de neoplasia."
+      }
+    },
+    {
+      "id": "ped-hernia-inguinal",
+      "area": "Pediatria",
+      "especialidade": "Cirurgia pediátrica",
+      "tema": "Hérnia inguinal",
+      "frente": "Hérnia inguinal na criança: quando operar?",
+      "verso": "Assim que diagnosticada (eletiva precoce), pelo risco de encarceramento, maior no 1º ano. Hérnia umbilical costuma fechar até 4–5 anos.",
+      "questoes": [
+        "revalida_2011_q065",
+        "revalida_2011_q084",
+        "revalida_2013_q040"
+      ],
+      "es": {
+        "frente": "Hernia inguinal en el niño: ¿cuándo operar?",
+        "verso": "En cuanto se diagnostica (electiva precoz), por el riesgo de encarcelación, mayor en el 1.er año. La hernia umbilical suele cerrar a los 4–5 años."
+      }
+    },
+    {
+      "id": "ped-itu-crianca",
+      "area": "Pediatria",
+      "especialidade": "Nefrologia pediátrica",
+      "tema": "Infecção urinária na criança",
+      "frente": "ITU febril na criança: como coletar urina no lactente sem controle?",
+      "verso": "Sondagem vesical ou punção suprapúbica para urocultura. Saco coletor só serve se negativo (alto falso-positivo).",
+      "questoes": [
+        "revalida_2011_q049",
+        "revalida_2011_q085",
+        "revalida_2012_q001"
+      ],
+      "es": {
+        "frente": "ITU febril en el niño: ¿cómo recoger orina en el lactante sin control?",
+        "verso": "Sondaje vesical o punción suprapúbica para urocultivo. La bolsa colectora solo sirve si es negativa (alto falso positivo)."
+      }
+    },
+    {
+      "id": "ped-sindrome-nefrotica",
+      "area": "Pediatria",
+      "especialidade": "Nefrologia pediátrica",
+      "tema": "Síndrome nefrótica",
+      "frente": "Síndrome nefrótica na criança: causa mais comum e tratamento?",
+      "verso": "Lesão mínima. Edema, proteinúria maciça, hipoalbuminemia, dislipidemia. Prednisona 60 mg/m²/dia; biópsia se corticorresistente ou atípica.",
+      "questoes": [
+        "revalida_2020_q089",
+        "revalida_2022-2_q071",
+        "revalida_2022-2_q098"
+      ],
+      "es": {
+        "frente": "Síndrome nefrótico en el niño: ¿causa más común y tratamiento?",
+        "verso": "Cambios mínimos. Edema, proteinuria masiva, hipoalbuminemia, dislipidemia. Prednisona 60 mg/m²/día; biopsia si es corticorresistente o atípico."
+      }
+    },
+    {
+      "id": "ped-gnpe",
+      "area": "Pediatria",
+      "especialidade": "Nefrologia pediátrica",
+      "tema": "Glomerulonefrite pós-estreptocócica",
+      "frente": "GNPE: quadro e exame que confirma?",
+      "verso": "Hematúria, edema e hipertensão 1–3 semanas após faringite ou 3–6 semanas após impetigo. Complemento C3 baixo, normaliza em até 8 semanas.",
+      "questoes": [
+        "revalida_2023-2_q043"
+      ],
+      "es": {
+        "frente": "GNPE: ¿cuadro y examen que confirma?",
+        "verso": "Hematuria, edema e hipertensión 1–3 semanas tras faringitis o 3–6 semanas tras impétigo. Complemento C3 bajo, se normaliza en hasta 8 semanas."
+      }
+    },
+    {
+      "id": "ped-anemia-ferropriva",
+      "area": "Pediatria",
+      "especialidade": "Hematologia pediátrica",
+      "tema": "Anemia ferropriva",
+      "frente": "Anemia ferropriva na criança: tratamento?",
+      "verso": "Ferro elementar 3–5 mg/kg/dia, longe das refeições, por mais 2–3 meses após normalizar a Hb (repor estoques). Corrigir a dieta (excesso de leite de vaca).",
+      "questoes": [
+        "revalida_2011_q005",
+        "revalida_2013_q002",
+        "revalida_2014_q051"
+      ],
+      "es": {
+        "frente": "Anemia ferropénica en el niño: ¿tratamiento?",
+        "verso": "Hierro elemental 3–5 mg/kg/día, lejos de las comidas, 2–3 meses más tras normalizar la Hb (reponer depósitos). Corregir la dieta (exceso de leche de vaca)."
+      }
+    },
+    {
+      "id": "ped-falciforme-febre",
+      "area": "Pediatria",
+      "especialidade": "Hematologia pediátrica",
+      "tema": "Doença falciforme",
+      "frente": "Criança com doença falciforme e febre ≥ 38,5 °C: conduta?",
+      "verso": "Emergência: risco de sepse por germes encapsulados (asplenia funcional). Hemocultura e ceftriaxona imediata. Profilaxia com penicilina até 5 anos.",
+      "questoes": [
+        "revalida_2011_q005",
+        "revalida_2011_q086",
+        "revalida_2014_q051"
+      ],
+      "es": {
+        "frente": "Niño con drepanocitosis y fiebre ≥ 38,5 °C: ¿conducta?",
+        "verso": "Emergencia: riesgo de sepsis por gérmenes encapsulados (asplenia funcional). Hemocultivo y ceftriaxona inmediata. Profilaxis con penicilina hasta los 5 años."
+      }
+    },
+    {
+      "id": "ped-pti",
+      "area": "Pediatria",
+      "especialidade": "Hematologia pediátrica",
+      "tema": "Púrpura trombocitopênica imune",
+      "frente": "PTI na criança: quadro típico e conduta?",
+      "verso": "Criança saudável com petéquias após infecção viral; só plaquetopenia no hemograma. Maioria resolve sozinha; tratar (corticoide ou imunoglobulina) se sangramento.",
+      "questoes": [
+        "revalida_2022-1_q003",
+        "revalida_2026-1_q073"
+      ],
+      "es": {
+        "frente": "PTI en el niño: ¿cuadro típico y conducta?",
+        "verso": "Niño sano con petequias tras infección viral; solo plaquetopenia en el hemograma. La mayoría resuelve sola; tratar (corticoide o inmunoglobulina) si hay sangrado."
+      }
+    },
+    {
+      "id": "ped-leucemia",
+      "area": "Pediatria",
+      "especialidade": "Hematologia pediátrica",
+      "tema": "Leucemia linfoide aguda",
+      "frente": "Sinais que sugerem leucemia na criança?",
+      "verso": "Palidez, febre, sangramentos, dor óssea, hepatoesplenomegalia, linfonodomegalia e citopenias em mais de uma série. LLA é o câncer mais comum na infância.",
+      "questoes": [
+        "revalida_2011_q002",
+        "revalida_2017_q040",
+        "revalida_2023-2_q053"
+      ],
+      "es": {
+        "frente": "¿Signos que sugieren leucemia en el niño?",
+        "verso": "Palidez, fiebre, sangrados, dolor óseo, hepatoesplenomegalia, adenopatías y citopenias en más de una serie. La LLA es el cáncer más común en la infancia."
+      }
+    },
+    {
+      "id": "ped-tumor-wilms",
+      "area": "Pediatria",
+      "especialidade": "Oncologia pediátrica",
+      "tema": "Tumores abdominais",
+      "frente": "Massa abdominal na criança: Wilms × neuroblastoma?",
+      "verso": "Wilms: massa lisa que não cruza a linha média, criança em bom estado, hipertensão/hematúria. Neuroblastoma: cruza a linha média, calcificações, criança doente, catecolaminas urinárias.",
+      "questoes": [],
+      "es": {
+        "frente": "Masa abdominal en el niño: ¿Wilms × neuroblastoma?",
+        "verso": "Wilms: masa lisa que no cruza la línea media, niño en buen estado, hipertensión/hematuria. Neuroblastoma: cruza la línea media, calcificaciones, niño enfermo, catecolaminas urinarias."
+      }
+    },
+    {
+      "id": "ped-desidratacao-plano-c",
+      "area": "Pediatria",
+      "especialidade": "Gastroenterologia pediátrica",
+      "tema": "Desidratação",
+      "frente": "Plano C (desidratação grave): fase rápida?",
+      "verso": "SF 0,9% 20 mL/kg em 30 min, repetindo até melhora (ou esquema do MS por idade); depois manutenção e reposição. Reavaliar sempre.",
+      "questoes": [
+        "revalida_2011_q036",
+        "revalida_2011_q049",
+        "revalida_2011_q059"
+      ],
+      "es": {
+        "frente": "Plan C (deshidratación grave): ¿fase rápida?",
+        "verso": "SF 0,9 % 20 mL/kg en 30 min, repitiendo hasta mejorar (o esquema del MS por edad); luego mantenimiento y reposición. Reevaluar siempre."
+      }
+    },
+    {
+      "id": "ped-doenca-celiaca",
+      "area": "Pediatria",
+      "especialidade": "Gastroenterologia pediátrica",
+      "tema": "Doença celíaca",
+      "frente": "Doença celíaca: exame de triagem e confirmação?",
+      "verso": "Antitransglutaminase IgA (com IgA total), em dieta com glúten. Confirmação por biópsia duodenal (atrofia vilositária). Tratamento: dieta sem glúten por toda a vida.",
+      "questoes": [
+        "revalida_2013_q097",
+        "revalida_2014_q033",
+        "revalida_2014_q086"
+      ],
+      "es": {
+        "frente": "Enfermedad celíaca: ¿examen de tamizaje y confirmación?",
+        "verso": "Antitransglutaminasa IgA (con IgA total), con dieta con gluten. Confirmación por biopsia duodenal (atrofia vellositaria). Tratamiento: dieta sin gluten de por vida."
+      }
+    },
+    {
+      "id": "ped-aplv",
+      "area": "Pediatria",
+      "especialidade": "Gastroenterologia pediátrica",
+      "tema": "Alergia à proteína do leite de vaca",
+      "frente": "Lactente com sangue nas fezes, bom estado geral, em aleitamento: conduta?",
+      "verso": "Proctocolite alérgica (APLV). Manter o aleitamento com dieta materna sem leite de vaca e derivados; melhora em dias a semanas.",
+      "questoes": [
+        "revalida_2012_q011",
+        "revalida_2021_q077"
+      ],
+      "es": {
+        "frente": "Lactante con sangre en heces, buen estado general, con lactancia: ¿conducta?",
+        "verso": "Proctocolitis alérgica (APLV). Mantener la lactancia con dieta materna sin leche de vaca y derivados; mejora en días a semanas."
+      }
+    },
+    {
+      "id": "ped-maus-tratos",
+      "area": "Pediatria",
+      "especialidade": "Pediatria geral",
+      "tema": "Maus-tratos",
+      "frente": "Achados que sugerem maus-tratos na criança?",
+      "verso": "História incompatível ou que muda, demora na procura, fraturas em fases diferentes, fraturas de costela/metáfise, queimaduras em luva ou com bordas nítidas, hematomas em áreas protegidas. Notificar e acionar o Conselho Tutelar.",
+      "questoes": [
+        "revalida_2011_q040",
+        "revalida_2014_q045",
+        "revalida_2015_q081"
+      ],
+      "es": {
+        "frente": "¿Hallazgos que sugieren maltrato infantil?",
+        "verso": "Historia incompatible o cambiante, demora en consultar, fracturas en distintas fases, fracturas costales/metafisarias, quemaduras en guante o con bordes netos, hematomas en zonas protegidas. Notificar y activar el Consejo Tutelar."
+      }
+    },
+    {
+      "id": "ped-intoxicacao-paracetamol",
+      "area": "Pediatria",
+      "especialidade": "Pediatria geral",
+      "tema": "Intoxicações",
+      "frente": "Intoxicação por paracetamol: antídoto?",
+      "verso": "N-acetilcisteína, idealmente até 8 h da ingestão (guiado pelo nomograma de Rumack-Matthew). Risco de hepatite fulminante.",
+      "questoes": [],
+      "es": {
+        "frente": "Intoxicación por paracetamol: ¿antídoto?",
+        "verso": "N-acetilcisteína, idealmente hasta 8 h tras la ingesta (según nomograma de Rumack-Matthew). Riesgo de hepatitis fulminante."
+      }
+    },
+    {
+      "id": "ped-corpo-estranho",
+      "area": "Pediatria",
+      "especialidade": "Pneumologia pediátrica",
+      "tema": "Aspiração de corpo estranho",
+      "frente": "Criança com engasgo súbito e sibilância unilateral: conduta?",
+      "verso": "Suspeitar de corpo estranho brônquico. RX inspiração/expiração (aprisionamento aéreo) e broncoscopia rígida para retirada.",
+      "questoes": [
+        "revalida_2022-2_q048",
+        "revalida_2025-1_q087"
+      ],
+      "es": {
+        "frente": "Niño con atragantamiento súbito y sibilancias unilaterales: ¿conducta?",
+        "verso": "Sospechar cuerpo extraño bronquial. RX inspiración/espiración (atrapamiento aéreo) y broncoscopia rígida para extraerlo."
+      }
+    },
+    {
+      "id": "ped-tb-crianca",
+      "area": "Pediatria",
+      "especialidade": "Infectologia pediátrica",
+      "tema": "Tuberculose na criança",
+      "frente": "Como se diagnostica tuberculose pulmonar na criança (MS)?",
+      "verso": "Sistema de pontuação do MS (clínica, contato, RX, prova tuberculínica e estado nutricional), porque a criança costuma ser paucibacilar.",
+      "questoes": [
+        "revalida_2011_q004",
+        "revalida_2011_q038",
+        "revalida_2012_q026"
+      ],
+      "es": {
+        "frente": "¿Cómo se diagnostica la tuberculosis pulmonar en el niño (MS)?",
+        "verso": "Sistema de puntuación del MS (clínica, contacto, RX, prueba tuberculínica y estado nutricional), porque el niño suele ser paucibacilar."
+      }
+    },
+    {
+      "id": "ped-sifilis-congenita",
+      "area": "Pediatria",
+      "especialidade": "Neonatologia",
+      "tema": "Sífilis congênita",
+      "frente": "Sífilis congênita: quando tratar o RN com penicilina cristalina por 10 dias?",
+      "verso": "Mãe não tratada ou tratada inadequadamente, RN com alterações clínicas, de exames ou VDRL do RN maior que o materno em 2 diluições. Neurossífilis: obrigatório.",
+      "questoes": [
+        "revalida_2013_q090",
+        "revalida_2016_q014",
+        "revalida_2016_q052"
+      ],
+      "es": {
+        "frente": "Sífilis congénita: ¿cuándo tratar al RN con penicilina cristalina por 10 días?",
+        "verso": "Madre no tratada o mal tratada, RN con alteraciones clínicas, de exámenes o VDRL del RN mayor que el materno en 2 diluciones. Neurosífilis: obligatorio."
+      }
+    },
+    {
+      "id": "mfc-atributos-aps",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Atenção primária",
+      "tema": "Atributos da APS",
+      "frente": "Atributos essenciais da APS (Starfield)?",
+      "verso": "Primeiro contato (acesso), longitudinalidade, integralidade e coordenação do cuidado. Derivados: orientação familiar, comunitária e competência cultural.",
+      "questoes": [
+        "revalida_2022-2_q015",
+        "revalida_2022-2_q080",
+        "revalida_2023-2_q095"
+      ],
+      "es": {
+        "frente": "¿Atributos esenciales de la APS (Starfield)?",
+        "verso": "Primer contacto (acceso), longitudinalidad, integralidad y coordinación del cuidado. Derivados: orientación familiar, comunitaria y competencia cultural."
+      }
+    },
+    {
+      "id": "mfc-prevencao-quaternaria",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Prevenção e rastreamento",
+      "tema": "Níveis de prevenção",
+      "frente": "O que é prevenção quaternária?",
+      "verso": "Proteger o paciente do excesso de intervenção médica (exames e tratamentos desnecessários, sobrediagnóstico). Ex.: não pedir check-up sem indicação.",
+      "questoes": [
+        "revalida_2013_q096",
+        "revalida_2016_q094",
+        "revalida_2017_q059"
+      ],
+      "es": {
+        "frente": "¿Qué es la prevención cuaternaria?",
+        "verso": "Proteger al paciente del exceso de intervención médica (exámenes y tratamientos innecesarios, sobrediagnóstico). Ej.: no pedir chequeos sin indicación."
+      }
+    },
+    {
+      "id": "mfc-genograma",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Medicina de família - ferramentas",
+      "tema": "Ferramentas de abordagem familiar",
+      "frente": "Genograma × ecomapa: diferença?",
+      "verso": "Genograma: estrutura e relações familiares por pelo menos 3 gerações. Ecomapa: vínculos da família com a rede externa (escola, igreja, serviços).",
+      "questoes": [],
+      "es": {
+        "frente": "Genograma × ecomapa: ¿diferencia?",
+        "verso": "Genograma: estructura y relaciones familiares de al menos 3 generaciones. Ecomapa: vínculos de la familia con la red externa (escuela, iglesia, servicios)."
+      }
+    },
+    {
+      "id": "mfc-metodo-clinico",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Medicina de família - ferramentas",
+      "tema": "Método clínico centrado na pessoa",
+      "frente": "Componentes do método clínico centrado na pessoa?",
+      "verso": "Explorar a doença e a experiência da doença (SIFE: sentimentos, ideias, funcionalidade, expectativas), entender a pessoa como um todo, elaborar um plano conjunto e fortalecer a relação médico-pessoa.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Componentes del método clínico centrado en la persona?",
+        "verso": "Explorar la enfermedad y la vivencia de la enfermedad (sentimientos, ideas, funcionalidad, expectativas), comprender a la persona entera, elaborar un plan conjunto y fortalecer la relación médico-persona."
+      }
+    },
+    {
+      "id": "mfc-spikes",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Comunicação",
+      "tema": "Más notícias",
+      "frente": "Protocolo SPIKES para más notícias?",
+      "verso": "Setting (ambiente), Perception (o que sabe), Invitation (quanto quer saber), Knowledge (informar com clareza), Emotions (acolher), Strategy/Summary (plano).",
+      "questoes": [
+        "revalida_2014_q002",
+        "revalida_2025-2_q028"
+      ],
+      "es": {
+        "frente": "¿Protocolo SPIKES para malas noticias?",
+        "verso": "Setting (ambiente), Percepción (qué sabe), Invitación (cuánto quiere saber), Conocimiento (informar con claridad), Emociones (acoger), Estrategia/Resumen (plan)."
+      }
+    },
+    {
+      "id": "mfc-pnab-equipe",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "SUS e políticas de saúde",
+      "tema": "Estratégia Saúde da Família",
+      "frente": "Composição mínima da equipe de Saúde da Família (PNAB)?",
+      "verso": "Médico, enfermeiro, técnico/auxiliar de enfermagem e agentes comunitários de saúde. Saúde bucal pode compor a equipe.",
+      "questoes": [
+        "revalida_2012_q002",
+        "revalida_2012_q041",
+        "revalida_2012_q048"
+      ],
+      "es": {
+        "frente": "¿Composición mínima del equipo de Salud de la Familia (PNAB)?",
+        "verso": "Médico, enfermero, técnico/auxiliar de enfermería y agentes comunitarios de salud. Salud bucal puede formar parte del equipo."
+      }
+    },
+    {
+      "id": "mfc-principios-sus",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "SUS e políticas de saúde",
+      "tema": "Princípios do SUS",
+      "frente": "Princípios doutrinários × organizativos do SUS?",
+      "verso": "Doutrinários: universalidade, integralidade e equidade. Organizativos: descentralização, regionalização, hierarquização e participação popular.",
+      "questoes": [
+        "revalida_2011_q050",
+        "revalida_2012_q041",
+        "revalida_2012_q074"
+      ],
+      "es": {
+        "frente": "¿Principios doctrinarios × organizativos del SUS?",
+        "verso": "Doctrinarios: universalidad, integralidad y equidad. Organizativos: descentralización, regionalización, jerarquización y participación popular."
+      }
+    },
+    {
+      "id": "mfc-lei-8080",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "SUS e políticas de saúde",
+      "tema": "Legislação do SUS",
+      "frente": "Lei 8.080/1990 × Lei 8.142/1990?",
+      "verso": "8.080: organização e funcionamento do SUS (Lei Orgânica). 8.142: participação da comunidade (conselhos e conferências) e transferências financeiras.",
+      "questoes": [
+        "revalida_2014_q042",
+        "revalida_2015_q063",
+        "revalida_2015_q065"
+      ],
+      "es": {
+        "frente": "¿Ley 8.080/1990 × Ley 8.142/1990?",
+        "verso": "8.080: organización y funcionamiento del SUS (Ley Orgánica). 8.142: participación de la comunidad (consejos y conferencias) y transferencias financieras."
+      }
+    },
+    {
+      "id": "mfc-conferencia-saude",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "SUS e políticas de saúde",
+      "tema": "Controle social",
+      "frente": "Conferência de saúde: periodicidade e função?",
+      "verso": "A cada 4 anos, com representação dos segmentos sociais, para avaliar a situação de saúde e propor diretrizes. Conselho é permanente e deliberativo.",
+      "questoes": [
+        "revalida_2017_q063",
+        "revalida_2017_q074",
+        "revalida_2020_q082"
+      ],
+      "es": {
+        "frente": "Conferencia de salud: ¿periodicidad y función?",
+        "verso": "Cada 4 años, con representación de los sectores sociales, para evaluar la situación de salud y proponer directrices. El consejo es permanente y deliberativo."
+      }
+    },
+    {
+      "id": "mfc-sensibilidade",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Epidemiologia",
+      "tema": "Testes diagnósticos",
+      "frente": "Sensibilidade × especificidade: qual para rastrear e qual para confirmar?",
+      "verso": "Rastreamento pede teste sensível (poucos falsos-negativos; negativo afasta: SnNout). Confirmação pede teste específico (positivo confirma: SpPin).",
+      "questoes": [
+        "revalida_2023-1_q002",
+        "revalida_2023-2_q060",
+        "revalida_2025-1_q100"
+      ],
+      "es": {
+        "frente": "Sensibilidad × especificidad: ¿cuál para tamizar y cuál para confirmar?",
+        "verso": "El tamizaje pide prueba sensible (pocos falsos negativos; negativo descarta). La confirmación pide prueba específica (positivo confirma)."
+      }
+    },
+    {
+      "id": "mfc-vpp-prevalencia",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Epidemiologia",
+      "tema": "Testes diagnósticos",
+      "frente": "O que acontece com o VPP quando a prevalência cai?",
+      "verso": "O valor preditivo positivo diminui (mais falsos-positivos) e o VPN aumenta. Sensibilidade e especificidade não mudam com a prevalência.",
+      "questoes": [
+        "revalida_2023-1_q002",
+        "revalida_2023-2_q060",
+        "revalida_2025-1_q100"
+      ],
+      "es": {
+        "frente": "¿Qué pasa con el VPP cuando baja la prevalencia?",
+        "verso": "El valor predictivo positivo disminuye (más falsos positivos) y el VPN aumenta. Sensibilidad y especificidad no cambian con la prevalencia."
+      }
+    },
+    {
+      "id": "mfc-estudos",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Epidemiologia",
+      "tema": "Desenhos de estudo",
+      "frente": "Coorte × caso-controle: medida de associação?",
+      "verso": "Coorte (parte da exposição, acompanha no tempo): risco relativo e incidência. Caso-controle (parte do desfecho): odds ratio; bom para doenças raras.",
+      "questoes": [
+        "revalida_2024-1_q075",
+        "revalida_2025-1_q045"
+      ],
+      "es": {
+        "frente": "Cohorte × casos y controles: ¿medida de asociación?",
+        "verso": "Cohorte (parte de la exposición, sigue en el tiempo): riesgo relativo e incidencia. Casos y controles (parte del desenlace): odds ratio; útil en enfermedades raras."
+      }
+    },
+    {
+      "id": "mfc-nnt",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Epidemiologia",
+      "tema": "Medidas de efeito",
+      "frente": "Como calcular o NNT?",
+      "verso": "NNT = 1 / redução absoluta do risco (risco no controle − risco no tratado). Ex.: 10% → 6% = RAR 4% → NNT 25.",
+      "questoes": [
+        "revalida_2012_q091",
+        "revalida_2026-2_q100"
+      ],
+      "es": {
+        "frente": "¿Cómo calcular el NNT?",
+        "verso": "NNT = 1 / reducción absoluta del riesgo (riesgo en control − riesgo en tratado). Ej.: 10 % → 6 % = RAR 4 % → NNT 25."
+      }
+    },
+    {
+      "id": "mfc-prevalencia-incidencia",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Epidemiologia",
+      "tema": "Medidas de frequência",
+      "frente": "Prevalência × incidência?",
+      "verso": "Incidência: casos novos em um período. Prevalência: casos existentes (novos e antigos) num momento. Prevalência ≈ incidência × duração.",
+      "questoes": [
+        "revalida_2011_q024",
+        "revalida_2013_q010",
+        "revalida_2013_q039"
+      ],
+      "es": {
+        "frente": "Prevalencia × incidencia?",
+        "verso": "Incidencia: casos nuevos en un período. Prevalencia: casos existentes (nuevos y antiguos) en un momento. Prevalencia ≈ incidencia × duración."
+      }
+    },
+    {
+      "id": "mfc-vies-tempo-ganho",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Epidemiologia",
+      "tema": "Vieses",
+      "frente": "Vieses típicos do rastreamento?",
+      "verso": "Tempo de antecipação (lead time), duração (length bias: detecta mais os tumores lentos) e sobrediagnóstico. Só ensaio clínico mostra redução de mortalidade.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Sesgos típicos del tamizaje?",
+        "verso": "Tiempo de adelanto (lead time), duración (detecta más los tumores lentos) y sobrediagnóstico. Solo el ensayo clínico demuestra reducción de mortalidad."
+      }
+    },
+    {
+      "id": "mfc-rastreio-colo",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Prevenção e rastreamento",
+      "tema": "Câncer de colo do útero",
+      "frente": "Rastreamento do câncer de colo (MS): público e intervalo?",
+      "verso": "Mulheres de 25 a 64 anos que já tiveram atividade sexual. Citologia: 2 primeiras anuais e, se normais, a cada 3 anos. Com teste DNA-HPV: a cada 5 anos se negativo.",
+      "questoes": [
+        "revalida_2013_q066",
+        "revalida_2014_q029",
+        "revalida_2017_q059"
+      ],
+      "es": {
+        "frente": "Tamizaje de cáncer de cuello uterino (MS): ¿población e intervalo?",
+        "verso": "Mujeres de 25 a 64 años que ya iniciaron actividad sexual. Citología: 2 primeras anuales y, si normales, cada 3 años. Con prueba ADN-VPH: cada 5 años si es negativa."
+      }
+    },
+    {
+      "id": "mfc-rastreio-mama",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Prevenção e rastreamento",
+      "tema": "Câncer de mama",
+      "frente": "Rastreamento do câncer de mama (MS)?",
+      "verso": "Mamografia a cada 2 anos de 50 a 69 anos (com ampliação em discussão para 40–49 a pedido/decisão compartilhada). Sem autoexame como estratégia de rastreio.",
+      "questoes": [
+        "revalida_2011_q003",
+        "revalida_2011_q004",
+        "revalida_2011_q098"
+      ],
+      "es": {
+        "frente": "Tamizaje de cáncer de mama (MS)?",
+        "verso": "Mamografía cada 2 años de 50 a 69 años (con ampliación en discusión para 40–49 por decisión compartida). El autoexamen no es estrategia de tamizaje."
+      }
+    },
+    {
+      "id": "mfc-rastreio-colorretal",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Prevenção e rastreamento",
+      "tema": "Câncer colorretal",
+      "frente": "Rastreamento do câncer colorretal em risco habitual?",
+      "verso": "50 a 75 anos: pesquisa de sangue oculto nas fezes anual/bienal ou colonoscopia a cada 10 anos (algumas diretrizes começam aos 45).",
+      "questoes": [
+        "revalida_2021_q030",
+        "revalida_2022-2_q032",
+        "revalida_2023-1_q092"
+      ],
+      "es": {
+        "frente": "Tamizaje de cáncer colorrectal en riesgo habitual?",
+        "verso": "50 a 75 años: sangre oculta en heces anual/bienal o colonoscopia cada 10 años (algunas guías empiezan a los 45)."
+      }
+    },
+    {
+      "id": "mfc-psa",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Prevenção e rastreamento",
+      "tema": "Câncer de próstata",
+      "frente": "Rastreamento populacional de câncer de próstata com PSA?",
+      "verso": "O MS não recomenda rastreio populacional. Homem que pede: decisão compartilhada, explicando riscos (sobrediagnóstico, biópsias, impotência, incontinência).",
+      "questoes": [
+        "revalida_2017_q089",
+        "revalida_2020_q039",
+        "revalida_2020_q042"
+      ],
+      "es": {
+        "frente": "¿Tamizaje poblacional de cáncer de próstata con PSA?",
+        "verso": "El MS no recomienda tamizaje poblacional. Hombre que lo pide: decisión compartida, explicando riesgos (sobrediagnóstico, biopsias, impotencia, incontinencia)."
+      }
+    },
+    {
+      "id": "mfc-has-diagnostico",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Doenças crônicas na APS",
+      "tema": "Hipertensão arterial",
+      "frente": "Diagnóstico de hipertensão no consultório?",
+      "verso": "PA ≥ 140 x 90 mmHg em pelo menos duas consultas, ou MAPA (24 h ≥ 130 x 80) / MRPA (≥ 130 x 80). Investigar lesão de órgão-alvo.",
+      "questoes": [
+        "revalida_2011_q041",
+        "revalida_2011_q062",
+        "revalida_2011_q074"
+      ],
+      "es": {
+        "frente": "¿Diagnóstico de hipertensión en consultorio?",
+        "verso": "PA ≥ 140 x 90 mmHg en al menos dos consultas, o MAPA (24 h ≥ 130 x 80) / AMPA (≥ 130 x 80). Investigar daño de órgano blanco."
+      }
+    },
+    {
+      "id": "mfc-has-primeira-linha",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Doenças crônicas na APS",
+      "tema": "Hipertensão arterial",
+      "frente": "Anti-hipertensivos de primeira linha?",
+      "verso": "Tiazídico, IECA ou BRA e bloqueador de canal de cálcio di-hidropiridínico. Betabloqueador só com indicação específica (IC, pós-IAM, arritmia). Não associar IECA + BRA.",
+      "questoes": [
+        "revalida_2011_q041",
+        "revalida_2011_q062",
+        "revalida_2011_q074"
+      ],
+      "es": {
+        "frente": "¿Antihipertensivos de primera línea?",
+        "verso": "Tiazida, IECA o ARA II y bloqueador de canales de calcio dihidropiridínico. Betabloqueante solo con indicación específica (IC, post-IAM, arritmia). No asociar IECA + ARA II."
+      }
+    },
+    {
+      "id": "mfc-tabagismo",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Promoção da saúde",
+      "tema": "Tabagismo",
+      "frente": "Tratamento farmacológico do tabagismo no SUS?",
+      "verso": "Terapia de reposição de nicotina (adesivo + goma/pastilha) e bupropiona, associadas à abordagem cognitivo-comportamental. Teste de Fagerström avalia dependência.",
+      "questoes": [
+        "revalida_2011_q038",
+        "revalida_2011_q102",
+        "revalida_2012_q007"
+      ],
+      "es": {
+        "frente": "¿Tratamiento farmacológico del tabaquismo en el SUS?",
+        "verso": "Terapia de reemplazo de nicotina (parche + chicle/pastilla) y bupropión, asociados al abordaje cognitivo-conductual. El test de Fagerström evalúa dependencia."
+      }
+    },
+    {
+      "id": "mfc-estagios-mudanca",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Promoção da saúde",
+      "tema": "Mudança de comportamento",
+      "frente": "Estágios de mudança (Prochaska)?",
+      "verso": "Pré-contemplação, contemplação, preparação, ação, manutenção (e recaída). Entrevista motivacional ajusta a abordagem ao estágio.",
+      "questoes": [
+        "revalida_2012_q083",
+        "revalida_2016_q075",
+        "revalida_2022-1_q065"
+      ],
+      "es": {
+        "frente": "¿Etapas del cambio (Prochaska)?",
+        "verso": "Precontemplación, contemplación, preparación, acción, mantenimiento (y recaída). La entrevista motivacional ajusta el abordaje a la etapa."
+      }
+    },
+    {
+      "id": "mfc-cage",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Saúde mental na APS",
+      "tema": "Uso de álcool",
+      "frente": "Questionário CAGE: o que pergunta?",
+      "verso": "Cut down (diminuir), Annoyed (incomodado com críticas), Guilty (culpa), Eye-opener (beber ao acordar). ≥ 2 positivas sugerem dependência.",
+      "questoes": [
+        "revalida_2011_q070",
+        "revalida_2011_q097",
+        "revalida_2011_q102"
+      ],
+      "es": {
+        "frente": "Cuestionario CAGE: ¿qué pregunta?",
+        "verso": "Cut down (reducir), Annoyed (molestia por críticas), Guilty (culpa), Eye-opener (beber al despertar). ≥ 2 positivas sugieren dependencia."
+      }
+    },
+    {
+      "id": "mfc-depressao",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Saúde mental na APS",
+      "tema": "Depressão",
+      "frente": "Depressão na APS: tratamento farmacológico inicial?",
+      "verso": "ISRS (fluoxetina, sertralina, escitalopram) por pelo menos 6 a 12 meses após remissão; avaliar risco de suicídio em todas as consultas.",
+      "questoes": [
+        "revalida_2013_q091",
+        "revalida_2014_q057",
+        "revalida_2014_q068"
+      ],
+      "es": {
+        "frente": "Depresión en la APS: ¿tratamiento farmacológico inicial?",
+        "verso": "ISRS (fluoxetina, sertralina, escitalopram) por al menos 6 a 12 meses tras la remisión; evaluar riesgo de suicidio en cada consulta."
+      }
+    },
+    {
+      "id": "mfc-risco-suicidio",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Saúde mental na APS",
+      "tema": "Suicídio",
+      "frente": "Perguntar sobre ideação suicida aumenta o risco?",
+      "verso": "Não. Perguntar diretamente é recomendado; plano, meio disponível e tentativa prévia indicam alto risco e exigem cuidado imediato (CAPS/emergência).",
+      "questoes": [
+        "revalida_2011_q021",
+        "revalida_2012_q055",
+        "revalida_2016_q080"
+      ],
+      "es": {
+        "frente": "¿Preguntar sobre ideación suicida aumenta el riesgo?",
+        "verso": "No. Preguntar directamente es lo recomendado; plan, medio disponible e intento previo indican alto riesgo y requieren atención inmediata."
+      }
+    },
+    {
+      "id": "mfc-violencia-mulher",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Violência",
+      "tema": "Violência contra a mulher",
+      "frente": "Violência doméstica contra a mulher: o médico deve notificar?",
+      "verso": "Sim: notificação compulsória (ficha do SINAN), sem precisar do consentimento para a notificação epidemiológica. Acolher, avaliar risco e acionar a rede de proteção.",
+      "questoes": [
+        "revalida_2014_q024",
+        "revalida_2014_q037",
+        "revalida_2023-1_q020"
+      ],
+      "es": {
+        "frente": "Violencia doméstica contra la mujer: ¿el médico debe notificar?",
+        "verso": "Sí: notificación obligatoria (ficha del SINAN), sin necesidad de consentimiento para la notificación epidemiológica. Acoger, evaluar riesgo y activar la red de protección."
+      }
+    },
+    {
+      "id": "mfc-violencia-idoso",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Violência",
+      "tema": "Violência contra a pessoa idosa",
+      "frente": "Suspeita de violência contra idoso: conduta legal?",
+      "verso": "Notificação compulsória e comunicação a órgãos de proteção (Ministério Público, Conselho do Idoso, delegacia), conforme o Estatuto da Pessoa Idosa.",
+      "questoes": [
+        "revalida_2025-1_q085"
+      ],
+      "es": {
+        "frente": "Sospecha de violencia contra persona mayor: ¿conducta legal?",
+        "verso": "Notificación obligatoria y comunicación a órganos de protección (Ministerio Público, Consejo de la Persona Mayor, comisaría), según el Estatuto de la Persona Mayor."
+      }
+    },
+    {
+      "id": "mfc-notificacao-imediata",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Vigilância em saúde",
+      "tema": "Notificação compulsória",
+      "frente": "Exemplos de notificação imediata (até 24 h)?",
+      "verso": "Sarampo, rubéola, poliomielite, raiva humana, cólera, febre amarela, doença meningocócica, botulismo, dengue grave/óbito, acidente de trabalho grave/fatal, violência sexual e tentativa de suicídio.",
+      "questoes": [
+        "revalida_2012_q029",
+        "revalida_2012_q093",
+        "revalida_2012_q103"
+      ],
+      "es": {
+        "frente": "¿Ejemplos de notificación inmediata (hasta 24 h)?",
+        "verso": "Sarampión, rubéola, poliomielitis, rabia humana, cólera, fiebre amarilla, enfermedad meningocócica, botulismo, dengue grave/muerte, accidente laboral grave/fatal, violencia sexual e intento de suicidio."
+      }
+    },
+    {
+      "id": "mfc-acidente-trabalho",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Saúde do trabalhador",
+      "tema": "Acidente de trabalho",
+      "frente": "Acidente de trabalho: documentos e notificação?",
+      "verso": "CAT (Comunicação de Acidente de Trabalho, emitida pelo empregador ou outros, inclusive o médico) e notificação no SINAN quando grave, com material biológico ou em menor de idade.",
+      "questoes": [
+        "revalida_2013_q041",
+        "revalida_2014_q067",
+        "revalida_2016_q085"
+      ],
+      "es": {
+        "frente": "Accidente de trabajo: ¿documentos y notificación?",
+        "verso": "CAT (Comunicación de Accidente de Trabajo, emitida por el empleador u otros, incluido el médico) y notificación en el SINAN si es grave, con material biológico o en menor de edad."
+      }
+    },
+    {
+      "id": "mfc-pair",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Saúde do trabalhador",
+      "tema": "Perda auditiva induzida por ruído",
+      "frente": "PAIR: padrão audiométrico?",
+      "verso": "Perda neurossensorial bilateral e simétrica, com entalhe em 3, 4 e 6 kHz e recuperação em 8 kHz. Irreversível; prevenção com EPI e controle do ruído.",
+      "questoes": [],
+      "es": {
+        "frente": "Hipoacusia inducida por ruido: ¿patrón audiométrico?",
+        "verso": "Pérdida neurosensorial bilateral y simétrica, con muesca en 3, 4 y 6 kHz y recuperación en 8 kHz. Irreversible; prevención con EPP y control del ruido."
+      }
+    },
+    {
+      "id": "mfc-ler-dort",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Saúde do trabalhador",
+      "tema": "LER/DORT",
+      "frente": "Conduta inicial na LER/DORT?",
+      "verso": "Afastar ou reduzir a exposição, analgesia, fisioterapia, adequação ergonômica; emitir CAT e notificar (doença relacionada ao trabalho).",
+      "questoes": [],
+      "es": {
+        "frente": "¿Conducta inicial en lesiones por esfuerzo repetitivo?",
+        "verso": "Alejar o reducir la exposición, analgesia, fisioterapia, adecuación ergonómica; emitir CAT y notificar (enfermedad relacionada con el trabajo)."
+      }
+    },
+    {
+      "id": "mfc-atestado-obito",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Ética e medicina legal",
+      "tema": "Declaração de óbito",
+      "frente": "Morte natural sem assistência médica em local sem SVO: quem emite a DO?",
+      "verso": "Médico do serviço público de saúde mais próximo ou, na falta, qualquer médico da localidade. Morte violenta (ou suspeita): sempre IML.",
+      "questoes": [
+        "revalida_2012_q086",
+        "revalida_2013_q008",
+        "revalida_2013_q049"
+      ],
+      "es": {
+        "frente": "Muerte natural sin asistencia médica en lugar sin SVO: ¿quién emite el certificado?",
+        "verso": "El médico del servicio público de salud más cercano o, en su falta, cualquier médico de la localidad. Muerte violenta (o sospechosa): siempre el IML (medicina legal)."
+      }
+    },
+    {
+      "id": "mfc-do-causa-basica",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Ética e medicina legal",
+      "tema": "Declaração de óbito",
+      "frente": "Como preencher a parte I da declaração de óbito?",
+      "verso": "Da causa imediata (linha a) até a causa básica (última linha preenchida), em sequência causal. Evitar modos de morrer (\"parada cardiorrespiratória\").",
+      "questoes": [
+        "revalida_2012_q086",
+        "revalida_2013_q008",
+        "revalida_2013_q049"
+      ],
+      "es": {
+        "frente": "¿Cómo llenar la parte I del certificado de defunción?",
+        "verso": "Desde la causa inmediata (línea a) hasta la causa básica (última línea llenada), en secuencia causal. Evitar modos de morir (\"paro cardiorrespiratorio\")."
+      }
+    },
+    {
+      "id": "mfc-sigilo",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Ética e medicina legal",
+      "tema": "Sigilo médico",
+      "frente": "Quando o médico pode quebrar o sigilo?",
+      "verso": "Por justa causa (risco a terceiros), dever legal (notificação compulsória) ou autorização expressa do paciente. Adolescente: sigilo preservado, salvo risco à vida.",
+      "questoes": [
+        "revalida_2012_q081",
+        "revalida_2016_q024",
+        "revalida_2022-2_q069"
+      ],
+      "es": {
+        "frente": "¿Cuándo puede el médico romper el secreto?",
+        "verso": "Por justa causa (riesgo a terceros), deber legal (notificación obligatoria) o autorización expresa del paciente. Adolescente: secreto preservado, salvo riesgo vital."
+      }
+    },
+    {
+      "id": "mfc-adolescente-consulta",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Saúde do adolescente",
+      "tema": "Consulta do adolescente",
+      "frente": "Adolescente pode ser atendido sem os pais?",
+      "verso": "Sim: tem direito a consulta sozinho, privacidade e sigilo (ECA e CFM). Informar os pais em risco de vida, abuso ou recusa de tratamento necessário.",
+      "questoes": [
+        "revalida_2011_q057",
+        "revalida_2012_q016",
+        "revalida_2013_q098"
+      ],
+      "es": {
+        "frente": "¿El adolescente puede ser atendido sin los padres?",
+        "verso": "Sí: tiene derecho a consulta a solas, privacidad y secreto (ECA y CFM). Informar a los padres ante riesgo vital, abuso o rechazo de tratamiento necesario."
+      }
+    },
+    {
+      "id": "mfc-anticoncepcao-adolescente",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Saúde do adolescente",
+      "tema": "Contracepção",
+      "frente": "Contraceptivo de maior eficácia para adolescente?",
+      "verso": "LARC: DIU (cobre ou hormonal) e implante de etonogestrel. Associar preservativo para ISTs (dupla proteção).",
+      "questoes": [
+        "revalida_2013_q106",
+        "revalida_2014_q030",
+        "revalida_2015_q064"
+      ],
+      "es": {
+        "frente": "¿Anticonceptivo de mayor eficacia para adolescente?",
+        "verso": "LARC: DIU (cobre u hormonal) e implante de etonogestrel. Asociar preservativo para ITS (doble protección)."
+      }
+    },
+    {
+      "id": "mfc-dengue-grupo-b",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Doenças transmissíveis",
+      "tema": "Dengue",
+      "frente": "Dengue grupo B: o que define e conduta?",
+      "verso": "Sem sinais de alarme, mas com sangramento de pele espontâneo/prova do laço positiva ou condição especial (gestante, < 2 anos, > 65, comorbidades). Hemograma e hidratação oral supervisionada até o resultado.",
+      "questoes": [
+        "revalida_2011_q036",
+        "revalida_2011_q079",
+        "revalida_2011_q096"
+      ],
+      "es": {
+        "frente": "Dengue grupo B: ¿qué lo define y conducta?",
+        "verso": "Sin signos de alarma, pero con sangrado cutáneo espontáneo/prueba del lazo positiva o condición especial (gestante, < 2 años, > 65, comorbilidades). Hemograma e hidratación oral supervisada hasta el resultado."
+      }
+    },
+    {
+      "id": "mfc-hanseniase",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Doenças transmissíveis",
+      "tema": "Hanseníase",
+      "frente": "Hanseníase: classificação operacional e tratamento?",
+      "verso": "Paucibacilar (até 5 lesões) e multibacilar (> 5 lesões ou baciloscopia positiva). Atual PQT-U (rifampicina + dapsona + clofazimina): 6 doses (PB) ou 12 doses (MB).",
+      "questoes": [
+        "revalida_2011_q060",
+        "revalida_2012_q046",
+        "revalida_2012_q064"
+      ],
+      "es": {
+        "frente": "Lepra: ¿clasificación operativa y tratamiento?",
+        "verso": "Paucibacilar (hasta 5 lesiones) y multibacilar (> 5 lesiones o baciloscopia positiva). Actual PQT-U (rifampicina + dapsona + clofazimina): 6 dosis (PB) o 12 dosis (MB)."
+      }
+    },
+    {
+      "id": "mfc-ilt-tb",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Doenças transmissíveis",
+      "tema": "Tuberculose latente",
+      "frente": "Tratamento da infecção latente por TB (ILTB)?",
+      "verso": "Preferencial: 3HP (rifapentina + isoniazida semanal por 12 doses) ou 4R (rifampicina 4 meses); alternativa: isoniazida 6–9 meses. Excluir TB ativa antes.",
+      "questoes": [
+        "revalida_2012_q026",
+        "revalida_2017_q005",
+        "revalida_2022-1_q051"
+      ],
+      "es": {
+        "frente": "¿Tratamiento de la infección tuberculosa latente?",
+        "verso": "Preferente: 3HP (rifapentina + isoniazida semanal por 12 dosis) o 4R (rifampicina 4 meses); alternativa: isoniazida 6–9 meses. Descartar TB activa antes."
+      }
+    },
+    {
+      "id": "mfc-prep",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Doenças transmissíveis",
+      "tema": "Prevenção combinada do HIV",
+      "frente": "PrEP do HIV: quem e como?",
+      "verso": "Pessoas com risco aumentado (relações sem preservativo, parcerias soropositivas sem carga indetectável, populações-chave). Tenofovir + entricitabina diário (ou sob demanda em HSH), com testagem a cada 3 meses.",
+      "questoes": [
+        "revalida_2021_q085"
+      ],
+      "es": {
+        "frente": "PrEP del VIH: ¿quién y cómo?",
+        "verso": "Personas con mayor riesgo (relaciones sin preservativo, parejas seropositivas sin carga indetectable, poblaciones clave). Tenofovir + emtricitabina diario (o a demanda en HSH), con prueba cada 3 meses."
+      }
+    },
+    {
+      "id": "mfc-raiva-profilaxia",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Doenças transmissíveis",
+      "tema": "Raiva",
+      "frente": "Mordedura por cão observável e sadio: conduta?",
+      "verso": "Lavar com água e sabão e observar o animal por 10 dias. Se o animal adoecer, morrer ou sumir: vacina (e soro conforme gravidade). Morcego: sempre esquema completo + soro.",
+      "questoes": [
+        "revalida_2025-1_q056",
+        "revalida_2026-2_q028",
+        "enamed_2025_q090"
+      ],
+      "es": {
+        "frente": "Mordedura de perro observable y sano: ¿conducta?",
+        "verso": "Lavar con agua y jabón y observar al animal por 10 días. Si enferma, muere o desaparece: vacuna (y suero según gravedad). Murciélago: siempre esquema completo + suero."
+      }
+    },
+    {
+      "id": "mfc-escabiose",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Doenças transmissíveis",
+      "tema": "Escabiose",
+      "frente": "Escabiose: tratamento e cuidado com contatos?",
+      "verso": "Permetrina 5% loção (repetir em 7 dias) ou ivermectina oral (> 15 kg). Tratar todos os contatos ao mesmo tempo e lavar roupas de cama com água quente.",
+      "questoes": [
+        "revalida_2015_q104",
+        "revalida_2024-1_q073",
+        "revalida_2024-2_q048"
+      ],
+      "es": {
+        "frente": "Escabiosis: ¿tratamiento y cuidado con contactos?",
+        "verso": "Permetrina 5 % loción (repetir a los 7 días) o ivermectina oral (> 15 kg). Tratar a todos los contactos a la vez y lavar la ropa de cama con agua caliente."
+      }
+    },
+    {
+      "id": "mfc-pe-diabetico",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Doenças crônicas na APS",
+      "tema": "Pé diabético",
+      "frente": "Exame anual do pé diabético na APS?",
+      "verso": "Inspeção, pulsos, monofilamento de 10 g e mais um teste (diapasão 128 Hz, reflexo aquileu ou sensibilidade dolorosa). Classifica o risco e define a periodicidade.",
+      "questoes": [
+        "revalida_2012_q021",
+        "revalida_2012_q103",
+        "revalida_2013_q001"
+      ],
+      "es": {
+        "frente": "¿Examen anual del pie diabético en la APS?",
+        "verso": "Inspección, pulsos, monofilamento de 10 g y otra prueba (diapasón 128 Hz, reflejo aquíleo o sensibilidad dolorosa). Clasifica el riesgo y define la periodicidad."
+      }
+    },
+    {
+      "id": "mfc-idoso-polifarmacia",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Saúde do idoso",
+      "tema": "Polifarmácia",
+      "frente": "Instrumento para medicamentos potencialmente inapropiados no idoso?",
+      "verso": "Critérios de Beers (e STOPP/START). Exemplos a evitar: benzodiazepínicos, anticolinérgicos (amitriptilina, prometazina), AINEs de uso crônico.",
+      "questoes": [
+        "revalida_2025-2_q036",
+        "revalida_2026-1_q062"
+      ],
+      "es": {
+        "frente": "¿Instrumento para medicamentos potencialmente inapropiados en el anciano?",
+        "verso": "Criterios de Beers (y STOPP/START). Ejemplos a evitar: benzodiacepinas, anticolinérgicos (amitriptilina, prometazina), AINE de uso crónico."
+      }
+    },
+    {
+      "id": "mfc-quedas-idoso",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Saúde do idoso",
+      "tema": "Quedas",
+      "frente": "Teste rápido de risco de quedas na APS?",
+      "verso": "Timed Up and Go: levantar, andar 3 m, voltar e sentar. > 12–14 s indica risco aumentado. Revisar medicamentos, visão, casa e força muscular.",
+      "questoes": [
+        "revalida_2011_q043",
+        "revalida_2016_q023",
+        "revalida_2021_q040"
+      ],
+      "es": {
+        "frente": "¿Prueba rápida de riesgo de caídas en la APS?",
+        "verso": "Timed Up and Go: levantarse, caminar 3 m, volver y sentarse. > 12–14 s indica mayor riesgo. Revisar medicamentos, visión, hogar y fuerza muscular."
+      }
+    },
+    {
+      "id": "mfc-cuidados-paliativos",
+      "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+      "especialidade": "Cuidados paliativos",
+      "tema": "Cuidados paliativos",
+      "frente": "Escada analgésica da OMS?",
+      "verso": "Degrau 1: analgésico não opioide (dipirona, paracetamol) ± adjuvante. Degrau 2: opioide fraco (codeína, tramadol). Degrau 3: opioide forte (morfina). Associar laxante com opioides.",
+      "questoes": [
+        "revalida_2017_q059",
+        "revalida_2017_q078",
+        "revalida_2020_q042"
+      ],
+      "es": {
+        "frente": "¿Escalera analgésica de la OMS?",
+        "verso": "Escalón 1: analgésico no opioide (metamizol, paracetamol) ± adyuvante. Escalón 2: opioide débil (codeína, tramadol). Escalón 3: opioide fuerte (morfina). Asociar laxante con opioides."
+      }
+    },
+    {
+      "id": "cir-atls-abcde",
+      "area": "Cirurgia",
+      "especialidade": "Trauma",
+      "tema": "Atendimento inicial ao politraumatizado",
+      "frente": "Ordem do atendimento primário (ATLS 10ª ed.)?",
+      "verso": "X (hemorragia exsanguinante) — A (via aérea com proteção cervical) — B (respiração) — C (circulação) — D (neurológico) — E (exposição e controle da hipotermia).",
+      "questoes": [],
+      "es": {
+        "frente": "¿Orden de la evaluación primaria (ATLS 10.ª ed.)?",
+        "verso": "X (hemorragia exanguinante) — A (vía aérea con protección cervical) — B (respiración) — C (circulación) — D (neurológico) — E (exposición y control de la hipotermia)."
+      }
+    },
+    {
+      "id": "cir-choque-classes",
+      "area": "Cirurgia",
+      "especialidade": "Trauma",
+      "tema": "Choque hemorrágico",
+      "frente": "Choque hemorrágico classe III: perda e sinais?",
+      "verso": "Perda de 30–40% da volemia: FC > 120, hipotensão, FR 30–40, confusão, oligúria. Exige hemocomponentes.",
+      "questoes": [
+        "revalida_2014_q094",
+        "revalida_2017_q058",
+        "revalida_2025-1_q098"
+      ],
+      "es": {
+        "frente": "Shock hemorrágico clase III: ¿pérdida y signos?",
+        "verso": "Pérdida del 30–40 % de la volemia: FC > 120, hipotensión, FR 30–40, confusión, oliguria. Requiere hemocomponentes."
+      }
+    },
+    {
+      "id": "cir-glasgow",
+      "area": "Cirurgia",
+      "especialidade": "Trauma",
+      "tema": "Trauma cranioencefálico",
+      "frente": "Escala de Glasgow: componentes e quando intubar?",
+      "verso": "Abertura ocular (1–4), resposta verbal (1–5), motora (1–6) e reatividade pupilar (Glasgow-P). Glasgow ≤ 8: via aérea definitiva.",
+      "questoes": [
+        "revalida_2021_q017",
+        "revalida_2022-1_q092",
+        "revalida_2023-1_q061"
+      ],
+      "es": {
+        "frente": "Escala de Glasgow: ¿componentes y cuándo intubar?",
+        "verso": "Apertura ocular (1–4), respuesta verbal (1–5), motora (1–6) y reactividad pupilar (Glasgow-P). Glasgow ≤ 8: vía aérea definitiva."
+      }
+    },
+    {
+      "id": "cir-hematoma-extradural",
+      "area": "Cirurgia",
+      "especialidade": "Trauma",
+      "tema": "Trauma cranioencefálico",
+      "frente": "Hematoma extradural × subdural agudo na TC?",
+      "verso": "Extradural: lente biconvexa, intervalo lúcido, artéria meníngea média. Subdural: crescente côncavo-convexo, veias pontes, idosos e alcoolistas, pior prognóstico.",
+      "questoes": [
+        "revalida_2021_q017",
+        "revalida_2022-1_q092",
+        "revalida_2023-1_q061"
+      ],
+      "es": {
+        "frente": "Hematoma epidural × subdural agudo en la TC?",
+        "verso": "Epidural: lente biconvexa, intervalo lúcido, arteria meníngea media. Subdural: semiluna cóncavo-convexa, venas puente, ancianos y alcohólicos, peor pronóstico."
+      }
+    },
+    {
+      "id": "cir-tamponamento",
+      "area": "Cirurgia",
+      "especialidade": "Trauma",
+      "tema": "Trauma torácico",
+      "frente": "Tríade de Beck e conduta no tamponamento traumático?",
+      "verso": "Hipotensão, turgência jugular e bulhas abafadas. FAST confirma. Toracotomia/janela pericárdica; pericardiocentese só como ponte.",
+      "questoes": [
+        "revalida_2011_q099",
+        "revalida_2021_q083",
+        "revalida_2024-1_q027"
+      ],
+      "es": {
+        "frente": "Tríada de Beck y conducta en el taponamiento traumático?",
+        "verso": "Hipotensión, ingurgitación yugular y ruidos apagados. El FAST confirma. Toracotomía/ventana pericárdica; pericardiocentesis solo como puente."
+      }
+    },
+    {
+      "id": "cir-hemotorax-macico",
+      "area": "Cirurgia",
+      "especialidade": "Trauma",
+      "tema": "Trauma torácico",
+      "frente": "Quando o hemotórax indica toracotomia?",
+      "verso": "Drenagem inicial ≥ 1.500 mL ou débito ≥ 200 mL/h por 2–4 h, ou instabilidade persistente.",
+      "questoes": [
+        "revalida_2011_q099",
+        "revalida_2021_q083",
+        "revalida_2024-1_q027"
+      ],
+      "es": {
+        "frente": "¿Cuándo el hemotórax indica toracotomía?",
+        "verso": "Drenaje inicial ≥ 1.500 mL o débito ≥ 200 mL/h por 2–4 h, o inestabilidad persistente."
+      }
+    },
+    {
+      "id": "cir-torax-instavel",
+      "area": "Cirurgia",
+      "especialidade": "Trauma",
+      "tema": "Trauma torácico",
+      "frente": "Tórax instável: definição e principal problema?",
+      "verso": "Fratura de 2 ou mais costelas consecutivas em 2 ou mais pontos (movimento paradoxal). O problema é a contusão pulmonar subjacente: analgesia e suporte ventilatório.",
+      "questoes": [
+        "revalida_2011_q099",
+        "revalida_2021_q083",
+        "revalida_2024-1_q027"
+      ],
+      "es": {
+        "frente": "Tórax inestable: ¿definición y principal problema?",
+        "verso": "Fractura de 2 o más costillas consecutivas en 2 o más puntos (movimiento paradójico). El problema es la contusión pulmonar subyacente: analgesia y soporte ventilatorio."
+      }
+    },
+    {
+      "id": "cir-fratura-pelve",
+      "area": "Cirurgia",
+      "especialidade": "Trauma",
+      "tema": "Trauma pélvico",
+      "frente": "Fratura de pelve instável com choque: medida inicial?",
+      "verso": "Estabilização com cinta pélvica (ou lençol) na altura dos trocânteres, reposição com hemocomponentes; angioembolização ou tamponamento pré-peritoneal.",
+      "questoes": [
+        "revalida_2015_q055",
+        "revalida_2021_q083",
+        "revalida_2026-2_q067"
+      ],
+      "es": {
+        "frente": "Fractura de pelvis inestable con shock: ¿medida inicial?",
+        "verso": "Estabilización con faja pélvica (o sábana) a la altura de los trocánteres, reposición con hemocomponentes; angioembolización o empaquetamiento preperitoneal."
+      }
+    },
+    {
+      "id": "cir-uretra",
+      "area": "Cirurgia",
+      "especialidade": "Trauma",
+      "tema": "Trauma urológico",
+      "frente": "Sangue no meato uretral após trauma de pelve: o que não fazer?",
+      "verso": "Não passar sonda vesical. Fazer uretrografia retrógrada; se lesão, cistostomia suprapúbica.",
+      "questoes": [
+        "revalida_2012_q005",
+        "revalida_2023-1_q017",
+        "revalida_2023-2_q007"
+      ],
+      "es": {
+        "frente": "Sangre en el meato uretral tras trauma pélvico: ¿qué no hacer?",
+        "verso": "No colocar sonda vesical. Hacer uretrografía retrógrada; si hay lesión, cistostomía suprapúbica."
+      }
+    },
+    {
+      "id": "cir-pancreatite-ranson",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Pancreatite aguda",
+      "frente": "Pancreatite aguda: diagnóstico (2 de 3) e tratamento inicial?",
+      "verso": "Dor típica, amilase/lipase ≥ 3x o normal, imagem compatível. Hidratação com Ringer lactato, analgesia, dieta oral precoce quando tolerar; sem antibiótico profilático.",
+      "questoes": [
+        "revalida_2011_q051",
+        "revalida_2012_q007",
+        "revalida_2013_q019"
+      ],
+      "es": {
+        "frente": "Pancreatitis aguda: ¿diagnóstico (2 de 3) y tratamiento inicial?",
+        "verso": "Dolor típico, amilasa/lipasa ≥ 3 veces lo normal, imagen compatible. Hidratación con Ringer lactato, analgesia, dieta oral precoz cuando la tolere; sin antibiótico profiláctico."
+      }
+    },
+    {
+      "id": "cir-pancreatite-biliar",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Pancreatite aguda",
+      "frente": "Pancreatite biliar leve: quando operar a vesícula?",
+      "verso": "Colecistectomia na mesma internação, após a resolução do quadro. CPRE só se colangite ou obstrução persistente.",
+      "questoes": [
+        "revalida_2011_q051",
+        "revalida_2012_q007",
+        "revalida_2013_q019"
+      ],
+      "es": {
+        "frente": "Pancreatitis biliar leve: ¿cuándo operar la vesícula?",
+        "verso": "Colecistectomía en la misma internación, tras la resolución del cuadro. CPRE solo si hay colangitis u obstrucción persistente."
+      }
+    },
+    {
+      "id": "cir-obstrucao-intestinal",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Obstrução intestinal",
+      "frente": "Obstrução de delgado: causa mais comum e conduta inicial?",
+      "verso": "Bridas (aderências pós-operatórias). Jejum, SNG, hidratação e correção eletrolítica; cirurgia se sinais de estrangulamento ou falha do tratamento clínico.",
+      "questoes": [
+        "revalida_2012_q007",
+        "revalida_2013_q019",
+        "revalida_2015_q014"
+      ],
+      "es": {
+        "frente": "Obstrucción de delgado: ¿causa más común y conducta inicial?",
+        "verso": "Bridas (adherencias posoperatorias). Ayuno, SNG, hidratación y corrección electrolítica; cirugía si hay signos de estrangulación o falla del tratamiento clínico."
+      }
+    },
+    {
+      "id": "cir-volvo-sigmoide",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Obstrução intestinal",
+      "frente": "Volvo de sigmoide: imagem e tratamento inicial?",
+      "verso": "Idoso, distensão importante; RX com sinal do \"grão de café\". Descompressão por retossigmoidoscopia (se sem isquemia); cirurgia eletiva depois pelo risco de recidiva.",
+      "questoes": [
+        "revalida_2012_q007",
+        "revalida_2013_q019",
+        "revalida_2015_q014"
+      ],
+      "es": {
+        "frente": "Vólvulo de sigma: ¿imagen y tratamiento inicial?",
+        "verso": "Anciano, gran distensión; RX con signo del \"grano de café\". Descompresión por rectosigmoidoscopia (si no hay isquemia); cirugía electiva luego por riesgo de recidiva."
+      }
+    },
+    {
+      "id": "cir-diverticulite",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Diverticulite",
+      "frente": "Diverticulite: classificação de Hinchey e conduta?",
+      "verso": "I abscesso pericólico, II abscesso pélvico/distante (drenagem percutânea), III peritonite purulenta, IV fecal (cirurgia de urgência, ex.: Hartmann). Não complicada: antibiótico (ou observação em casos leves).",
+      "questoes": [
+        "revalida_2011_q022",
+        "revalida_2012_q015",
+        "revalida_2014_q040"
+      ],
+      "es": {
+        "frente": "Diverticulitis: ¿clasificación de Hinchey y conducta?",
+        "verso": "I absceso pericólico, II absceso pélvico/distante (drenaje percutáneo), III peritonitis purulenta, IV fecaloidea (cirugía urgente, ej.: Hartmann). No complicada: antibiótico (u observación en casos leves)."
+      }
+    },
+    {
+      "id": "cir-isquemia-mesenterica",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Isquemia mesentérica",
+      "frente": "Dor abdominal desproporcional ao exame em paciente com FA: hipótese?",
+      "verso": "Isquemia mesentérica aguda (embolia da artéria mesentérica superior). Lactato elevado, angioTC; revascularização e ressecção do segmento necrótico.",
+      "questoes": [
+        "revalida_2012_q007",
+        "revalida_2023-1_q097",
+        "revalida_2023-2_q012"
+      ],
+      "es": {
+        "frente": "Dolor abdominal desproporcionado al examen en paciente con FA: ¿hipótesis?",
+        "verso": "Isquemia mesentérica aguda (embolia de la arteria mesentérica superior). Lactato elevado, angioTC; revascularización y resección del segmento necrótico."
+      }
+    },
+    {
+      "id": "cir-ulcera-perfurada",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Úlcera perfurada",
+      "frente": "Dor epigástrica súbita em \"facada\" e pneumoperitônio: conduta?",
+      "verso": "Úlcera péptica perfurada. Cirurgia (rafia com patch de omento), antibiótico, IBP e erradicação do H. pylori.",
+      "questoes": [
+        "revalida_2012_q007",
+        "revalida_2013_q063",
+        "revalida_2016_q083"
+      ],
+      "es": {
+        "frente": "Dolor epigástrico súbito \"en puñalada\" y neumoperitoneo: ¿conducta?",
+        "verso": "Úlcera péptica perforada. Cirugía (rafia con parche de epiplón), antibiótico, IBP y erradicación de H. pylori."
+      }
+    },
+    {
+      "id": "cir-colangite",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Colangite aguda",
+      "frente": "Tríade de Charcot e pêntade de Reynolds?",
+      "verso": "Charcot: febre, icterícia e dor em hipocôndrio direito. Reynolds: + hipotensão e confusão mental. Antibiótico e drenagem biliar (CPRE).",
+      "questoes": [
+        "revalida_2012_q109",
+        "revalida_2015_q087",
+        "revalida_2020_q009"
+      ],
+      "es": {
+        "frente": "¿Tríada de Charcot y péntada de Reynolds?",
+        "verso": "Charcot: fiebre, ictericia y dolor en hipocondrio derecho. Reynolds: + hipotensión y confusión mental. Antibiótico y drenaje biliar (CPRE)."
+      }
+    },
+    {
+      "id": "cir-courvoisier",
+      "area": "Cirurgia",
+      "especialidade": "Cirurgia oncológica",
+      "tema": "Câncer de pâncreas",
+      "frente": "Sinal de Courvoisier-Terrier?",
+      "verso": "Vesícula palpável e indolor em paciente ictérico: sugere obstrução maligna distal ao cístico (adenocarcinoma de cabeça de pâncreas, colangiocarcinoma distal).",
+      "questoes": [
+        "revalida_2022-1_q002",
+        "revalida_2022-1_q062",
+        "revalida_2025-2_q084"
+      ],
+      "es": {
+        "frente": "¿Signo de Courvoisier-Terrier?",
+        "verso": "Vesícula palpable e indolora en paciente ictérico: sugiere obstrucción maligna distal al cístico (adenocarcinoma de cabeza de páncreas, colangiocarcinoma distal)."
+      }
+    },
+    {
+      "id": "cir-hernia-encarcerada",
+      "area": "Cirurgia",
+      "especialidade": "Hérnias",
+      "tema": "Hérnia inguinal",
+      "frente": "Hérnia encarcerada × estrangulada?",
+      "verso": "Encarcerada: não redutível, sem sofrimento vascular. Estrangulada: dor intensa, hiperemia, sinais sistêmicos/obstrução: cirurgia de urgência (não tentar reduzir).",
+      "questoes": [
+        "revalida_2011_q065",
+        "revalida_2011_q084",
+        "revalida_2013_q040"
+      ],
+      "es": {
+        "frente": "Hernia encarcelada × estrangulada?",
+        "verso": "Encarcelada: no reducible, sin compromiso vascular. Estrangulada: dolor intenso, hiperemia, signos sistémicos/obstrucción: cirugía urgente (no intentar reducir)."
+      }
+    },
+    {
+      "id": "cir-hernia-femoral",
+      "area": "Cirurgia",
+      "especialidade": "Hérnias",
+      "tema": "Hérnia femoral",
+      "frente": "Hérnia femoral: perfil e particularidade?",
+      "verso": "Mais comum em mulheres idosas, abaixo do ligamento inguinal, alto risco de encarceramento: sempre operar.",
+      "questoes": [
+        "revalida_2022-2_q092",
+        "revalida_2024-2_q027",
+        "revalida_2025-2_q010"
+      ],
+      "es": {
+        "frente": "Hernia femoral: ¿perfil y particularidad?",
+        "verso": "Más común en mujeres mayores, debajo del ligamento inguinal, alto riesgo de encarcelación: siempre operar."
+      }
+    },
+    {
+      "id": "cir-risco-cirurgico",
+      "area": "Cirurgia",
+      "especialidade": "Pré e pós-operatório",
+      "tema": "Avaliação pré-operatória",
+      "frente": "Paciente saudável < 40 anos para cirurgia de pequeno porte: exames obrigatórios?",
+      "verso": "Nenhum de rotina (ASA I). Exames só conforme idade, comorbidades e porte cirúrgico.",
+      "questoes": [
+        "revalida_2017_q002"
+      ],
+      "es": {
+        "frente": "Paciente sano < 40 años para cirugía menor: ¿exámenes obligatorios?",
+        "verso": "Ninguno de rutina (ASA I). Exámenes solo según edad, comorbilidades y magnitud quirúrgica."
+      }
+    },
+    {
+      "id": "cir-anticoag-preop",
+      "area": "Cirurgia",
+      "especialidade": "Pré e pós-operatório",
+      "tema": "Medicações no perioperatório",
+      "frente": "Quando suspender anticoagulantes antes de cirurgia eletiva?",
+      "verso": "Varfarina: 5 dias antes (INR < 1,5); ponte com heparina só em alto risco trombótico. Anticoagulantes diretos: 24–72 h conforme a droga, a função renal e o risco de sangramento.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Cuándo suspender anticoagulantes antes de cirugía electiva?",
+        "verso": "Warfarina: 5 días antes (INR < 1,5); puente con heparina solo en alto riesgo trombótico. Anticoagulantes directos: 24–72 h según la droga, la función renal y el riesgo de sangrado."
+      }
+    },
+    {
+      "id": "cir-febre-pos-op",
+      "area": "Cirurgia",
+      "especialidade": "Pré e pós-operatório",
+      "tema": "Febre no pós-operatório",
+      "frente": "Causas de febre no pós-operatório por tempo?",
+      "verso": "< 48 h: resposta inflamatória (atelectasia é controversa). 3º–5º dia: infecção urinária, pneumonia, flebite. 5º–7º dia: infecção de ferida, deiscência, abscesso. TEV pode surgir a qualquer momento.",
+      "questoes": [
+        "revalida_2011_q052",
+        "revalida_2012_q095",
+        "revalida_2012_q109"
+      ],
+      "es": {
+        "frente": "¿Causas de fiebre posoperatoria según el tiempo?",
+        "verso": "< 48 h: respuesta inflamatoria (atelectasia es controvertida). 3.º–5.º día: infección urinaria, neumonía, flebitis. 5.º–7.º día: infección de herida, dehiscencia, absceso. TEV puede aparecer en cualquier momento."
+      }
+    },
+    {
+      "id": "cir-queimadura-parkland",
+      "area": "Cirurgia",
+      "especialidade": "Queimaduras",
+      "tema": "Reposição volêmica",
+      "frente": "Fórmula de reposição no grande queimado (ATLS)?",
+      "verso": "Ringer lactato 2 mL × kg × % SCQ (2º e 3º graus) em adultos (3 mL em crianças): metade nas primeiras 8 h desde a queimadura, metade nas 16 h seguintes. Ajustar pela diurese (0,5 mL/kg/h).",
+      "questoes": [
+        "revalida_2011_q068",
+        "revalida_2012_q006",
+        "revalida_2012_q020"
+      ],
+      "es": {
+        "frente": "¿Fórmula de reposición en el gran quemado (ATLS)?",
+        "verso": "Ringer lactato 2 mL × kg × % SCQ (2.º y 3.er grado) en adultos (3 mL en niños): mitad en las primeras 8 h desde la quemadura, mitad en las 16 h siguientes. Ajustar por diuresis (0,5 mL/kg/h)."
+      }
+    },
+    {
+      "id": "cir-queimadura-via-aerea",
+      "area": "Cirurgia",
+      "especialidade": "Queimaduras",
+      "tema": "Lesão inalatória",
+      "frente": "Sinais de lesão inalatória que indicam via aérea precoce?",
+      "verso": "Queimadura em face, pelos nasais chamuscados, escarro carbonáceo, rouquidão/estridor, ambiente fechado, carboxi-hemoglobina elevada.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Signos de lesión inhalatoria que indican vía aérea precoz?",
+        "verso": "Quemadura facial, vibrisas chamuscadas, esputo carbonáceo, ronquera/estridor, ambiente cerrado, carboxihemoglobina elevada."
+      }
+    },
+    {
+      "id": "cir-nodulo-tireoide",
+      "area": "Cirurgia",
+      "especialidade": "Cirurgia de cabeça e pescoço",
+      "tema": "Nódulo de tireoide",
+      "frente": "Nódulo de tireoide: primeiro exame e quando puncionar?",
+      "verso": "TSH e ultrassonografia. PAAF conforme o tamanho e a classificação (TI-RADS/ATA); TSH baixo: cintilografia (nódulo quente raramente é maligno).",
+      "questoes": [
+        "revalida_2011_q103",
+        "revalida_2012_q025",
+        "revalida_2014_q015"
+      ],
+      "es": {
+        "frente": "Nódulo tiroideo: ¿primer examen y cuándo puncionar?",
+        "verso": "TSH y ecografía. PAAF según tamaño y clasificación (TI-RADS/ATA); TSH bajo: gammagrafía (el nódulo caliente rara vez es maligno)."
+      }
+    },
+    {
+      "id": "cir-claudicacao",
+      "area": "Cirurgia",
+      "especialidade": "Cirurgia vascular",
+      "tema": "Doença arterial periférica",
+      "frente": "Doença arterial periférica: exame inicial e conduta clínica?",
+      "verso": "Índice tornozelo-braquial < 0,9. AAS, estatina, cessar tabagismo, caminhada supervisionada; cilostazol para claudicação; revascularização se isquemia crítica.",
+      "questoes": [
+        "revalida_2011_q041",
+        "revalida_2011_q043",
+        "revalida_2012_q037"
+      ],
+      "es": {
+        "frente": "Enfermedad arterial periférica: ¿examen inicial y conducta clínica?",
+        "verso": "Índice tobillo-brazo < 0,9. AAS, estatina, dejar de fumar, caminata supervisada; cilostazol para la claudicación; revascularización si hay isquemia crítica."
+      }
+    },
+    {
+      "id": "cir-aneurisma-aorta",
+      "area": "Cirurgia",
+      "especialidade": "Cirurgia vascular",
+      "tema": "Aneurisma de aorta abdominal",
+      "frente": "Aneurisma de aorta abdominal: quando operar?",
+      "verso": "Diâmetro ≥ 5,5 cm (homens) ou ≥ 5,0 cm (mulheres), crescimento > 0,5 cm em 6 meses ou sintomático. Roto: cirurgia imediata.",
+      "questoes": [],
+      "es": {
+        "frente": "Aneurisma de aorta abdominal: ¿cuándo operar?",
+        "verso": "Diámetro ≥ 5,5 cm (hombres) o ≥ 5,0 cm (mujeres), crecimiento > 0,5 cm en 6 meses o sintomático. Roto: cirugía inmediata."
+      }
+    },
+    {
+      "id": "cir-litiase-renal",
+      "area": "Cirurgia",
+      "especialidade": "Urologia",
+      "tema": "Litíase urinária",
+      "frente": "Cólica renal: quando há urgência urológica?",
+      "verso": "Cálculo obstrutivo com infecção (febre/sepse): desobstrução imediata (duplo J ou nefrostomia). Também: rim único, insuficiência renal, dor refratária. Cálculo < 5–6 mm costuma eliminar com tansulosina.",
+      "questoes": [
+        "revalida_2024-2_q001"
+      ],
+      "es": {
+        "frente": "Cólico renal: ¿cuándo hay urgencia urológica?",
+        "verso": "Cálculo obstructivo con infección (fiebre/sepsis): desobstrucción inmediata (catéter doble J o nefrostomía). También: riñón único, insuficiencia renal, dolor refractario. Cálculo < 5–6 mm suele eliminarse con tamsulosina."
+      }
+    },
+    {
+      "id": "cir-torcao-testicular",
+      "area": "Cirurgia",
+      "especialidade": "Urologia",
+      "tema": "Escroto agudo",
+      "frente": "Dor testicular súbita em adolescente com reflexo cremastérico ausente: conduta?",
+      "verso": "Torção do testículo: exploração cirúrgica imediata (idealmente até 6 h), com orquidopexia bilateral. Não atrasar por exame se a clínica for típica.",
+      "questoes": [
+        "revalida_2012_q090",
+        "revalida_2012_q098",
+        "revalida_2013_q040"
+      ],
+      "es": {
+        "frente": "Dolor testicular súbito en adolescente con reflejo cremastérico ausente: ¿conducta?",
+        "verso": "Torsión testicular: exploración quirúrgica inmediata (idealmente hasta 6 h), con orquidopexia bilateral. No retrasar por estudios si la clínica es típica."
+      }
+    },
+    {
+      "id": "cir-hpb",
+      "area": "Cirurgia",
+      "especialidade": "Urologia",
+      "tema": "Hiperplasia prostática benigna",
+      "frente": "HPB sintomática: tratamento clínico?",
+      "verso": "Alfabloqueador (tansulosina, doxazosina) para alívio rápido; inibidor da 5-alfa-redutase (finasterida) se próstata > 30–40 g. Cirurgia se retenção, litíase, IRA, ITU de repetição.",
+      "questoes": [
+        "revalida_2020_q039",
+        "revalida_2022-2_q002",
+        "revalida_2023-2_q030"
+      ],
+      "es": {
+        "frente": "HPB sintomática: ¿tratamiento clínico?",
+        "verso": "Alfabloqueante (tamsulosina, doxazosina) para alivio rápido; inhibidor de la 5-alfa-reductasa (finasterida) si próstata > 30–40 g. Cirugía si retención, litiasis, IRA, ITU recurrente."
+      }
+    },
+    {
+      "id": "cm-sca-ecg-10min",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Síndrome coronariana aguda",
+      "frente": "SCA sem supra de ST: estratificação e anticoagulação?",
+      "verso": "Troponina seriada, escores (HEART, GRACE, TIMI). AAS + segundo antiagregante + anticoagulante (enoxaparina ou fondaparinux); cateterismo conforme o risco (imediato se instável).",
+      "questoes": [
+        "revalida_2012_q102",
+        "revalida_2013_q029",
+        "revalida_2013_q049"
+      ],
+      "es": {
+        "frente": "SCA sin supradesnivel del ST: ¿estratificación y anticoagulación?",
+        "verso": "Troponina seriada, escalas (HEART, GRACE, TIMI). AAS + segundo antiagregante + anticoagulante (enoxaparina o fondaparinux); cateterismo según riesgo (inmediato si inestable)."
+      }
+    },
+    {
+      "id": "cm-ic-fe-reduzida",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Insuficiência cardíaca",
+      "frente": "IC com fração de ejeção reduzida: quatro pilares que reduzem mortalidade?",
+      "verso": "IECA/BRA ou sacubitril-valsartana, betabloqueador (carvedilol, bisoprolol, metoprolol succinato), antagonista mineralocorticoide (espironolactona) e iSGLT2 (dapagliflozina/empagliflozina).",
+      "questoes": [
+        "revalida_2012_q027",
+        "revalida_2012_q030",
+        "revalida_2013_q011"
+      ],
+      "es": {
+        "frente": "IC con fracción de eyección reducida: ¿cuatro pilares que reducen mortalidad?",
+        "verso": "IECA/ARA II o sacubitrilo-valsartán, betabloqueante (carvedilol, bisoprolol, metoprolol succinato), antagonista mineralocorticoide (espironolactona) e iSGLT2 (dapagliflozina/empagliflozina)."
+      }
+    },
+    {
+      "id": "cm-emergencia-hipertensiva",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Crise hipertensiva",
+      "frente": "Urgência × emergência hipertensiva?",
+      "verso": "Emergência: PA muito elevada com lesão aguda de órgão-alvo (EAP, dissecção, encefalopatia, SCA, AVC): droga IV (nitroprussiato, nitroglicerina), redução gradual. Urgência: sem lesão aguda: anti-hipertensivo oral e ajuste ambulatorial.",
+      "questoes": [
+        "revalida_2011_q077",
+        "revalida_2015_q051",
+        "revalida_2026-2_q013"
+      ],
+      "es": {
+        "frente": "Urgencia × emergencia hipertensiva?",
+        "verso": "Emergencia: PA muy elevada con daño agudo de órgano blanco (EAP, disección, encefalopatía, SCA, ACV): droga IV (nitroprusiato, nitroglicerina), reducción gradual. Urgencia: sin daño agudo: antihipertensivo oral y ajuste ambulatorio."
+      }
+    },
+    {
+      "id": "cm-disseccao-aorta",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Dissecção de aorta",
+      "frente": "Dissecção aguda de aorta: tratamento conforme o tipo?",
+      "verso": "Stanford A (aorta ascendente): cirurgia de emergência. Stanford B: controle de FC (< 60) e PA (PAS 100–120) com betabloqueador IV; intervenção se complicada.",
+      "questoes": [
+        "revalida_2011_q051"
+      ],
+      "es": {
+        "frente": "Disección aguda de aorta: ¿tratamiento según el tipo?",
+        "verso": "Stanford A (aorta ascendente): cirugía de emergencia. Stanford B: control de FC (< 60) y PA (PAS 100–120) con betabloqueante IV; intervención si es complicada."
+      }
+    },
+    {
+      "id": "cm-endocardite-profilaxia",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Endocardite infecciosa",
+      "frente": "Quem recebe profilaxia de endocardite antes de procedimento dentário?",
+      "verso": "Só alto risco: prótese valvar, endocardite prévia, cardiopatia congênita cianótica não corrigida ou corrigida com material há < 6 meses. Amoxicilina 2 g VO 30–60 min antes.",
+      "questoes": [
+        "revalida_2011_q079",
+        "revalida_2021_q079",
+        "revalida_2025-1_q061"
+      ],
+      "es": {
+        "frente": "¿Quién recibe profilaxis de endocarditis antes de procedimiento dental?",
+        "verso": "Solo alto riesgo: prótesis valvular, endocarditis previa, cardiopatía congénita cianótica no corregida o corregida con material hace < 6 meses. Amoxicilina 2 g VO 30–60 min antes."
+      }
+    },
+    {
+      "id": "cm-tep-wells",
+      "area": "Clínica Médica",
+      "especialidade": "Pneumologia",
+      "tema": "Tromboembolismo pulmonar",
+      "frente": "Suspeita de TEP: como investigar?",
+      "verso": "Probabilidade clínica (Wells). Baixa/intermediária: D-dímero (normal afasta). Alta ou D-dímero elevado: angioTC de tórax. Instável: ecocardiograma à beira-leito e trombólise.",
+      "questoes": [
+        "revalida_2012_q073",
+        "revalida_2013_q025",
+        "revalida_2022-2_q051"
+      ],
+      "es": {
+        "frente": "Sospecha de TEP: ¿cómo investigar?",
+        "verso": "Probabilidad clínica (Wells). Baja/intermedia: dímero D (normal descarta). Alta o dímero D elevado: angioTC de tórax. Inestable: ecocardiograma a pie de cama y trombólisis."
+      }
+    },
+    {
+      "id": "cm-dpoc-exacerbacao",
+      "area": "Clínica Médica",
+      "especialidade": "Pneumologia",
+      "tema": "DPOC",
+      "frente": "Exacerbação de DPOC: tratamento?",
+      "verso": "Broncodilatador de curta (beta-2 + ipratrópio), corticoide sistêmico por 5 dias, antibiótico se escarro purulento, O₂ alvo 88–92%, VNI se acidose respiratória (pH < 7,35 com pCO₂ alta).",
+      "questoes": [],
+      "es": {
+        "frente": "Exacerbación de EPOC: ¿tratamiento?",
+        "verso": "Broncodilatador de acción corta (beta-2 + ipratropio), corticoide sistémico por 5 días, antibiótico si esputo purulento, O₂ objetivo 88–92 %, VNI si acidosis respiratoria (pH < 7,35 con pCO₂ alta)."
+      }
+    },
+    {
+      "id": "cm-asma-adulto-manutencao",
+      "area": "Clínica Médica",
+      "especialidade": "Pneumologia",
+      "tema": "Asma",
+      "frente": "Asma no adulto: tratamento preferencial (GINA) nos degraus iniciais?",
+      "verso": "Corticoide inalatório + formoterol (budesonida-formoterol) conforme necessidade ou como manutenção e resgate. SABA isolado não é mais recomendado.",
+      "questoes": [],
+      "es": {
+        "frente": "Asma en el adulto: ¿tratamiento preferente (GINA) en los escalones iniciales?",
+        "verso": "Corticoide inhalado + formoterol (budesonida-formoterol) a demanda o como mantenimiento y rescate. El SABA solo ya no se recomienda."
+      }
+    },
+    {
+      "id": "cm-derrame-light",
+      "area": "Clínica Médica",
+      "especialidade": "Pneumologia",
+      "tema": "Derrame pleural",
+      "frente": "Critérios de Light para exsudato?",
+      "verso": "Proteína pleural/sérica > 0,5, LDH pleural/sérica > 0,6 ou LDH pleural > 2/3 do limite superior sérico. Um critério basta.",
+      "questoes": [
+        "revalida_2013_q025",
+        "revalida_2015_q019",
+        "revalida_2016_q028"
+      ],
+      "es": {
+        "frente": "¿Criterios de Light para exudado?",
+        "verso": "Proteína pleural/sérica > 0,5, LDH pleural/sérica > 0,6 o LDH pleural > 2/3 del límite superior sérico. Un criterio basta."
+      }
+    },
+    {
+      "id": "cm-hipercalemia-tratamento",
+      "area": "Clínica Médica",
+      "especialidade": "Nefrologia",
+      "tema": "Distúrbios do potássio",
+      "frente": "Hipercalemia com alteração no ECG: ordem do tratamento?",
+      "verso": "1) Gluconato de cálcio IV (estabiliza a membrana). 2) Insulina + glicose e/ou beta-2 inalatório (desloca K para a célula). 3) Remover K: diurético, resina, diálise.",
+      "questoes": [],
+      "es": {
+        "frente": "Hiperpotasemia con alteración en el ECG: ¿orden del tratamiento?",
+        "verso": "1) Gluconato de calcio IV (estabiliza la membrana). 2) Insulina + glucosa y/o beta-2 inhalado (desplaza K a la célula). 3) Eliminar K: diurético, resina, diálisis."
+      }
+    },
+    {
+      "id": "cm-hiponatremia",
+      "area": "Clínica Médica",
+      "especialidade": "Nefrologia",
+      "tema": "Distúrbios do sódio",
+      "frente": "Correção da hiponatremia crônica: limite?",
+      "verso": "No máximo 8–10 mEq/L em 24 h (risco de mielinólise pontina). Sintomas graves: salina 3% em bolus para subir 4–6 mEq/L.",
+      "questoes": [
+        "revalida_2013_q026"
+      ],
+      "es": {
+        "frente": "Corrección de la hiponatremia crónica: ¿límite?",
+        "verso": "Como máximo 8–10 mEq/L en 24 h (riesgo de mielinólisis pontina). Síntomas graves: solución salina 3 % en bolo para subir 4–6 mEq/L."
+      }
+    },
+    {
+      "id": "cm-lra-causas",
+      "area": "Clínica Médica",
+      "especialidade": "Nefrologia",
+      "tema": "Lesão renal aguda",
+      "frente": "LRA pré-renal × necrose tubular aguda?",
+      "verso": "Pré-renal: FeNa < 1%, sódio urinário < 20, urina concentrada, melhora com volume. NTA: FeNa > 2%, sódio urinário > 40, cilindros granulosos (\"barro\").",
+      "questoes": [
+        "revalida_2011_q019",
+        "revalida_2016_q079",
+        "revalida_2020_q073"
+      ],
+      "es": {
+        "frente": "IRA prerrenal × necrosis tubular aguda?",
+        "verso": "Prerrenal: FeNa < 1 %, sodio urinario < 20, orina concentrada, mejora con volumen. NTA: FeNa > 2 %, sodio urinario > 40, cilindros granulosos."
+      }
+    },
+    {
+      "id": "cm-dialise-urgencia",
+      "area": "Clínica Médica",
+      "especialidade": "Nefrologia",
+      "tema": "Lesão renal aguda",
+      "frente": "Indicações de diálise de urgência?",
+      "verso": "AEIOU: Acidose grave refratária, Eletrólitos (hipercalemia refratária), Intoxicações dialisáveis, Overload (hipervolemia refratária), Uremia (encefalopatia, pericardite).",
+      "questoes": [
+        "revalida_2011_q019",
+        "revalida_2016_q079",
+        "revalida_2020_q073"
+      ],
+      "es": {
+        "frente": "¿Indicaciones de diálisis de urgencia?",
+        "verso": "AEIOU: Acidosis grave refractaria, Electrolitos (hiperpotasemia refractaria), Intoxicaciones dializables, sobrecarga de volumen refractaria, Uremia (encefalopatía, pericarditis)."
+      }
+    },
+    {
+      "id": "cm-hipotireoidismo",
+      "area": "Clínica Médica",
+      "especialidade": "Endocrinologia",
+      "tema": "Hipotireoidismo",
+      "frente": "Hipotireoidismo primário: tratamento e controle?",
+      "verso": "Levotiroxina em jejum, 1,6 mcg/kg/dia (doses menores em idosos e coronariopatas). Controle pelo TSH após 6 a 8 semanas.",
+      "questoes": [
+        "revalida_2011_q102",
+        "revalida_2012_q096",
+        "revalida_2013_q009"
+      ],
+      "es": {
+        "frente": "Hipotiroidismo primario: ¿tratamiento y control?",
+        "verso": "Levotiroxina en ayunas, 1,6 mcg/kg/día (dosis menores en ancianos y coronarios). Control con TSH a las 6 a 8 semanas."
+      }
+    },
+    {
+      "id": "cm-graves",
+      "area": "Clínica Médica",
+      "especialidade": "Endocrinologia",
+      "tema": "Hipertireoidismo",
+      "frente": "Doença de Graves: achados e tratamento?",
+      "verso": "Bócio difuso, oftalmopatia, mixedema pré-tibial, TRAb positivo, captação difusa elevada. Metimazol + betabloqueador; iodo radioativo ou cirurgia em casos selecionados.",
+      "questoes": [
+        "revalida_2011_q041",
+        "revalida_2012_q096",
+        "revalida_2014_q033"
+      ],
+      "es": {
+        "frente": "Enfermedad de Graves: ¿hallazgos y tratamiento?",
+        "verso": "Bocio difuso, oftalmopatía, mixedema pretibial, TRAb positivo, captación difusa elevada. Metimazol + betabloqueante; yodo radiactivo o cirugía en casos seleccionados."
+      }
+    },
+    {
+      "id": "cm-insuficiencia-adrenal",
+      "area": "Clínica Médica",
+      "especialidade": "Endocrinologia",
+      "tema": "Insuficiência adrenal",
+      "frente": "Crise adrenal: conduta?",
+      "verso": "Hidrocortisona 100 mg IV imediata (depois 50 mg 6/6 h), SF 0,9% e glicose. Não esperar exame confirmatório; colher cortisol antes se possível.",
+      "questoes": [
+        "revalida_2012_q096",
+        "revalida_2013_q082",
+        "revalida_2014_q058"
+      ],
+      "es": {
+        "frente": "Crisis adrenal: ¿conducta?",
+        "verso": "Hidrocortisona 100 mg IV inmediata (luego 50 mg cada 6 h), SF 0,9 % y glucosa. No esperar la confirmación; tomar cortisol antes si es posible."
+      }
+    },
+    {
+      "id": "cm-hipoglicemia",
+      "area": "Clínica Médica",
+      "especialidade": "Endocrinologia",
+      "tema": "Hipoglicemia",
+      "frente": "Hipoglicemia com rebaixamento de consciência: tratamento?",
+      "verso": "Glicose 50% 40–50 mL IV (ou glicose 25% em adultos conforme protocolo); sem acesso: glucagon 1 mg IM. Em etilista/desnutrido, tiamina antes ou junto da glicose.",
+      "questoes": [
+        "revalida_2012_q102",
+        "revalida_2017_q056",
+        "revalida_2017_q098"
+      ],
+      "es": {
+        "frente": "Hipoglucemia con compromiso de conciencia: ¿tratamiento?",
+        "verso": "Glucosa 50 % 40–50 mL IV (o glucosa 25 % según protocolo); sin acceso: glucagón 1 mg IM. En alcohólico/desnutrido, tiamina antes o junto con la glucosa."
+      }
+    },
+    {
+      "id": "cm-ehh",
+      "area": "Clínica Médica",
+      "especialidade": "Endocrinologia",
+      "tema": "Estado hiperglicêmico hiperosmolar",
+      "frente": "Estado hiperglicêmico hiperosmolar: critérios?",
+      "verso": "Glicemia > 600 mg/dL, osmolalidade efetiva > 320 mOsm/kg, pH > 7,3, cetose mínima, idoso com rebaixamento. Prioridade: hidratação vigorosa.",
+      "questoes": [
+        "revalida_2025-2_q041",
+        "revalida_2026-2_q022"
+      ],
+      "es": {
+        "frente": "Estado hiperglucémico hiperosmolar: ¿criterios?",
+        "verso": "Glucemia > 600 mg/dL, osmolalidad efectiva > 320 mOsm/kg, pH > 7,3, cetosis mínima, anciano con compromiso de conciencia. Prioridad: hidratación vigorosa."
+      }
+    },
+    {
+      "id": "cm-cirrose-pbe",
+      "area": "Clínica Médica",
+      "especialidade": "Gastroenterologia",
+      "tema": "Cirrose",
+      "frente": "Peritonite bacteriana espontânea: diagnóstico e tratamento?",
+      "verso": "Polimorfonucleares no líquido ascítico ≥ 250/mm³. Ceftriaxona (ou cefotaxima) + albumina (1,5 g/kg no 1º dia e 1 g/kg no 3º) para prevenir síndrome hepatorrenal.",
+      "questoes": [
+        "revalida_2013_q021",
+        "revalida_2013_q035",
+        "revalida_2013_q073"
+      ],
+      "es": {
+        "frente": "Peritonitis bacteriana espontánea: ¿diagnóstico y tratamiento?",
+        "verso": "Polimorfonucleares en líquido ascítico ≥ 250/mm³. Ceftriaxona (o cefotaxima) + albúmina (1,5 g/kg el 1.er día y 1 g/kg el 3.º) para prevenir síndrome hepatorrenal."
+      }
+    },
+    {
+      "id": "cm-hda-varicosa",
+      "area": "Clínica Médica",
+      "especialidade": "Gastroenterologia",
+      "tema": "Hemorragia digestiva alta varicosa",
+      "frente": "HDA em cirrótico: tratamento antes da endoscopia?",
+      "verso": "Vasoconstritor esplâncnico (terlipressina, octreotide), antibiótico profilático (ceftriaxona), transfusão restritiva; endoscopia em até 12 h com ligadura elástica.",
+      "questoes": [],
+      "es": {
+        "frente": "HDA en cirrótico: ¿tratamiento antes de la endoscopia?",
+        "verso": "Vasoconstrictor esplácnico (terlipresina, octreotida), antibiótico profiláctico (ceftriaxona), transfusión restrictiva; endoscopia en hasta 12 h con ligadura elástica."
+      }
+    },
+    {
+      "id": "cm-encefalopatia-hepatica",
+      "area": "Clínica Médica",
+      "especialidade": "Gastroenterologia",
+      "tema": "Encefalopatia hepática",
+      "frente": "Encefalopatia hepática: tratamento?",
+      "verso": "Corrigir o fator precipitante (infecção, HDA, constipação, distúrbios eletrolíticos, sedativos) + lactulose; rifaximina na recorrência.",
+      "questoes": [],
+      "es": {
+        "frente": "Encefalopatía hepática: ¿tratamiento?",
+        "verso": "Corregir el desencadenante (infección, HDA, estreñimiento, trastornos electrolíticos, sedantes) + lactulosa; rifaximina en la recurrencia."
+      }
+    },
+    {
+      "id": "cm-hepatite-b-sorologia",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Hepatite B",
+      "frente": "Como interpretar: HBsAg −, anti-HBc +, anti-HBs +?",
+      "verso": "Infecção passada curada (imunidade natural). Vacinado tem só anti-HBs +. HBsAg + por > 6 meses: hepatite B crônica.",
+      "questoes": [
+        "revalida_2011_q008",
+        "revalida_2011_q015",
+        "revalida_2011_q055"
+      ],
+      "es": {
+        "frente": "¿Cómo interpretar: HBsAg −, anti-HBc +, anti-HBs +?",
+        "verso": "Infección pasada curada (inmunidad natural). El vacunado solo tiene anti-HBs +. HBsAg + por > 6 meses: hepatitis B crónica."
+      }
+    },
+    {
+      "id": "cm-hiv-tarv-inicial",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "HIV",
+      "frente": "Esquema inicial de TARV no Brasil?",
+      "verso": "Tenofovir + lamivudina + dolutegravir (TDF/3TC + DTG), para todos, independentemente do CD4. Em TB, ajustar o dolutegravir (dose dobrada com rifampicina).",
+      "questoes": [],
+      "es": {
+        "frente": "¿Esquema inicial de TAR en Brasil?",
+        "verso": "Tenofovir + lamivudina + dolutegravir (TDF/3TC + DTG), para todos, sin importar el CD4. En TB, ajustar dolutegravir (dosis doble con rifampicina)."
+      }
+    },
+    {
+      "id": "cm-hiv-profilaxias",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "HIV",
+      "frente": "Profilaxia primária para pneumocistose no HIV?",
+      "verso": "Sulfametoxazol-trimetoprima quando CD4 < 200 (ou candidíase oral). Também protege contra toxoplasmose quando CD4 < 100 e IgG positiva.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Profilaxis primaria de neumocistosis en VIH?",
+        "verso": "Trimetoprima-sulfametoxazol cuando CD4 < 200 (o candidiasis oral). También protege contra toxoplasmosis con CD4 < 100 e IgG positiva."
+      }
+    },
+    {
+      "id": "cm-meningite-adulto",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Meningite bacteriana",
+      "frente": "Meningite bacteriana no adulto: tratamento empírico?",
+      "verso": "Ceftriaxona 2 g IV 12/12 h + dexametasona antes ou junto da 1ª dose; > 50 anos ou imunossuprimido: + ampicilina (Listeria). Não atrasar por TC.",
+      "questoes": [
+        "revalida_2012_q003",
+        "revalida_2013_q068",
+        "revalida_2015_q057"
+      ],
+      "es": {
+        "frente": "Meningitis bacteriana en el adulto: ¿tratamiento empírico?",
+        "verso": "Ceftriaxona 2 g IV cada 12 h + dexametasona antes o junto con la 1.ª dosis; > 50 años o inmunodeprimido: + ampicilina (Listeria). No retrasar por TC."
+      }
+    },
+    {
+      "id": "cm-leptospirose",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Leptospirose",
+      "frente": "Leptospirose grave (doença de Weil): tríade e tratamento?",
+      "verso": "Icterícia rubínica, insuficiência renal (com potássio normal ou baixo) e hemorragia (pulmonar). Penicilina cristalina ou ceftriaxona; suporte e diálise precoce.",
+      "questoes": [
+        "revalida_2013_q094",
+        "revalida_2014_q102",
+        "revalida_2015_q087"
+      ],
+      "es": {
+        "frente": "Leptospirosis grave (enfermedad de Weil): ¿tríada y tratamiento?",
+        "verso": "Ictericia rubínica, insuficiencia renal (con potasio normal o bajo) y hemorragia (pulmonar). Penicilina cristalina o ceftriaxona; soporte y diálisis precoz."
+      }
+    },
+    {
+      "id": "cm-malaria",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Malária",
+      "frente": "Malária por P. vivax: tratamento no Brasil?",
+      "verso": "Cloroquina por 3 dias + primaquina por 7 dias (cura radical dos hipnozoítos), ou tafenoquina dose única em quem tem G6PD normal. Gestante: sem primaquina.",
+      "questoes": [
+        "revalida_2014_q101",
+        "revalida_2024-1_q036",
+        "revalida_2024-2_q070"
+      ],
+      "es": {
+        "frente": "Malaria por P. vivax: ¿tratamiento en Brasil?",
+        "verso": "Cloroquina por 3 días + primaquina por 7 días (cura radical de los hipnozoítos), o tafenoquina dosis única con G6PD normal. Gestante: sin primaquina."
+      }
+    },
+    {
+      "id": "cm-avc-hemorragico",
+      "area": "Clínica Médica",
+      "especialidade": "Neurologia",
+      "tema": "AVC hemorrágico",
+      "frente": "AVC hemorrágico intraparenquimatoso: meta de PA?",
+      "verso": "PAS em torno de 140 mmHg (entre 130 e 150) nas primeiras horas, se PAS inicial 150–220; reverter anticoagulação; neurocirurgia em casos selecionados (cerebelo > 3 cm).",
+      "questoes": [
+        "revalida_2014_q094",
+        "revalida_2017_q058",
+        "revalida_2020_q066"
+      ],
+      "es": {
+        "frente": "ACV hemorrágico intraparenquimatoso: ¿meta de PA?",
+        "verso": "PAS cerca de 140 mmHg (entre 130 y 150) en las primeras horas, si la PAS inicial es 150–220; revertir anticoagulación; neurocirugía en casos seleccionados (cerebelo > 3 cm)."
+      }
+    },
+    {
+      "id": "cm-hsa",
+      "area": "Clínica Médica",
+      "especialidade": "Neurologia",
+      "tema": "Hemorragia subaracnóidea",
+      "frente": "Cefaleia súbita \"a pior da vida\": investigação?",
+      "verso": "Hemorragia subaracnóidea: TC sem contraste (alta sensibilidade nas primeiras 6 h); TC normal e suspeita: punção lombar (xantocromia). Nimodipino para prevenir vasoespasmo.",
+      "questoes": [
+        "revalida_2017_q049",
+        "revalida_2021_q002"
+      ],
+      "es": {
+        "frente": "Cefalea súbita \"la peor de la vida\": ¿investigación?",
+        "verso": "Hemorragia subaracnoidea: TC sin contraste (alta sensibilidad en las primeras 6 h); TC normal y sospecha: punción lumbar (xantocromía). Nimodipino para prevenir vasoespasmo."
+      }
+    },
+    {
+      "id": "cm-cefaleia-alarme",
+      "area": "Clínica Médica",
+      "especialidade": "Neurologia",
+      "tema": "Cefaleias",
+      "frente": "Sinais de alarme na cefaleia (que pedem imagem)?",
+      "verso": "Início súbito, primeira/pior cefaleia após 50 anos, déficit focal, febre e rigidez de nuca, papiledema, piora com Valsalva/posição, imunossupressão, câncer, mudança de padrão.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Signos de alarma en la cefalea (que piden imagen)?",
+        "verso": "Inicio súbito, primera/peor cefalea después de los 50 años, déficit focal, fiebre y rigidez de nuca, papiledema, empeora con Valsalva/posición, inmunosupresión, cáncer, cambio de patrón."
+      }
+    },
+    {
+      "id": "cm-sepse-qsofa",
+      "area": "Clínica Médica",
+      "especialidade": "Emergência clínica",
+      "tema": "Sepse",
+      "frente": "Choque séptico: definição?",
+      "verso": "Sepse com necessidade de vasopressor para manter PAM ≥ 65 mmHg e lactato > 2 mmol/L apesar de reposição volêmica adequada.",
+      "questoes": [
+        "revalida_2012_q022",
+        "revalida_2012_q079",
+        "revalida_2013_q061"
+      ],
+      "es": {
+        "frente": "Shock séptico: ¿definición?",
+        "verso": "Sepsis que requiere vasopresor para mantener PAM ≥ 65 mmHg y lactato > 2 mmol/L pese a reposición de volumen adecuada."
+      }
+    },
+    {
+      "id": "cm-anafilaxia",
+      "area": "Clínica Médica",
+      "especialidade": "Emergência clínica",
+      "tema": "Anafilaxia",
+      "frente": "Anafilaxia: primeira droga e dose?",
+      "verso": "Adrenalina 0,5 mg IM (0,01 mg/kg em crianças, máx. 0,5 mg) na face lateral da coxa, repetindo a cada 5–15 min. Anti-histamínico e corticoide são adjuvantes.",
+      "questoes": [
+        "revalida_2024-1_q076"
+      ],
+      "es": {
+        "frente": "Anafilaxia: ¿primera droga y dosis?",
+        "verso": "Adrenalina 0,5 mg IM (0,01 mg/kg en niños, máx. 0,5 mg) en la cara lateral del muslo, repitiendo cada 5–15 min. Antihistamínico y corticoide son adyuvantes."
+      }
+    },
+    {
+      "id": "cm-pcr-ritmos",
+      "area": "Clínica Médica",
+      "especialidade": "Emergência clínica",
+      "tema": "Parada cardiorrespiratória",
+      "frente": "PCR: ritmos chocáveis e droga de cada ciclo?",
+      "verso": "Chocáveis: FV e TV sem pulso (desfibrilar). Não chocáveis: AESP e assistolia. Adrenalina 1 mg a cada 3–5 min; amiodarona 300 mg (depois 150 mg) nos chocáveis refratários.",
+      "questoes": [
+        "revalida_2011_q021",
+        "revalida_2014_q087",
+        "revalida_2014_q096"
+      ],
+      "es": {
+        "frente": "PCR: ¿ritmos desfibrilables y droga de cada ciclo?",
+        "verso": "Desfibrilables: FV y TV sin pulso (desfibrilar). No desfibrilables: AESP y asistolia. Adrenalina 1 mg cada 3–5 min; amiodarona 300 mg (luego 150 mg) en los desfibrilables refractarios."
+      }
+    },
+    {
+      "id": "cm-intox-organofosforado",
+      "area": "Clínica Médica",
+      "especialidade": "Emergência clínica",
+      "tema": "Intoxicações",
+      "frente": "Intoxicação por organofosforado: síndrome e antídoto?",
+      "verso": "Síndrome colinérgica (miose, sialorreia, broncorreia, bradicardia, fasciculações). Atropina até secar secreções; pralidoxima precoce; descontaminação da pele.",
+      "questoes": [],
+      "es": {
+        "frente": "Intoxicación por organofosforados: ¿síndrome y antídoto?",
+        "verso": "Síndrome colinérgico (miosis, sialorrea, broncorrea, bradicardia, fasciculaciones). Atropina hasta secar secreciones; pralidoxima precoz; descontaminación de la piel."
+      }
+    },
+    {
+      "id": "cm-anemia-b12",
+      "area": "Clínica Médica",
+      "especialidade": "Hematologia",
+      "tema": "Anemias",
+      "frente": "Anemia megaloblástica com alteração neurológica: deficiência e tratamento?",
+      "verso": "Vitamina B12 (anemia perniciosa, metformina, vegetarianos, gastrectomia). Repor B12 (IM); não dar ácido fólico isolado, que corrige a anemia e piora o quadro neurológico.",
+      "questoes": [
+        "revalida_2023-2_q023"
+      ],
+      "es": {
+        "frente": "Anemia megaloblástica con alteración neurológica: ¿déficit y tratamiento?",
+        "verso": "Vitamina B12 (anemia perniciosa, metformina, vegetarianos, gastrectomía). Reponer B12 (IM); no dar ácido fólico solo, que corrige la anemia y empeora lo neurológico."
+      }
+    },
+    {
+      "id": "cm-lupus",
+      "area": "Clínica Médica",
+      "especialidade": "Reumatologia",
+      "tema": "Lúpus eritematoso sistêmico",
+      "frente": "LES: autoanticorpos mais específicos e quando suspeitar?",
+      "verso": "Anti-DNA dupla hélice e anti-Sm (FAN é sensível, pouco específico). Mulher jovem com artrite, fotossensibilidade, rash malar, citopenias, serosite, nefrite.",
+      "questoes": [
+        "revalida_2011_q062",
+        "revalida_2011_q073",
+        "revalida_2011_q079"
+      ],
+      "es": {
+        "frente": "LES: ¿autoanticuerpos más específicos y cuándo sospechar?",
+        "verso": "Anti-ADN doble cadena y anti-Sm (ANA es sensible, poco específico). Mujer joven con artritis, fotosensibilidad, rash malar, citopenias, serositis, nefritis."
+      }
+    },
+    {
+      "id": "cm-gota",
+      "area": "Clínica Médica",
+      "especialidade": "Reumatologia",
+      "tema": "Gota",
+      "frente": "Crise aguda de gota: tratamento e o que não fazer?",
+      "verso": "AINE, colchicina ou corticoide. Não iniciar alopurinol durante a crise (se já usa, manter). Diagnóstico: cristais de urato monossódico com birrefringência negativa.",
+      "questoes": [],
+      "es": {
+        "frente": "Crisis aguda de gota: ¿tratamiento y qué no hacer?",
+        "verso": "AINE, colchicina o corticoide. No iniciar alopurinol durante la crisis (si ya lo usa, mantener). Diagnóstico: cristales de urato monosódico con birrefringencia negativa."
+      }
+    },
+    {
+      "id": "cm-artrite-septica",
+      "area": "Clínica Médica",
+      "especialidade": "Reumatologia",
+      "tema": "Artrite séptica",
+      "frente": "Monoartrite aguda febril: exame obrigatório?",
+      "verso": "Artrocentese (citologia, Gram, cultura, cristais). Artrite séptica: drenagem + antibiótico; S. aureus é o principal agente (gonococo em jovens sexualmente ativos).",
+      "questoes": [
+        "revalida_2013_q001",
+        "revalida_2021_q095",
+        "revalida_2022-1_q008"
+      ],
+      "es": {
+        "frente": "Monoartritis aguda febril: ¿examen obligatorio?",
+        "verso": "Artrocentesis (citología, Gram, cultivo, cristales). Artritis séptica: drenaje + antibiótico; S. aureus es el agente principal (gonococo en jóvenes sexualmente activos)."
+      }
+    },
+    {
+      "id": "cm-delirium",
+      "area": "Clínica Médica",
+      "especialidade": "Geriatria",
+      "tema": "Delirium",
+      "frente": "Delirium no idoso internado: abordagem?",
+      "verso": "Início agudo, flutuação, desatenção (CAM). Tratar a causa (infecção, drogas, retenção urinária, distúrbio metabólico), medidas não farmacológicas; antipsicótico em baixa dose só se agitação com risco.",
+      "questoes": [
+        "revalida_2017_q028",
+        "revalida_2025-1_q016"
+      ],
+      "es": {
+        "frente": "Delirium en el anciano internado: ¿abordaje?",
+        "verso": "Inicio agudo, fluctuación, inatención (CAM). Tratar la causa (infección, drogas, retención urinaria, trastorno metabólico), medidas no farmacológicas; antipsicótico a dosis baja solo si agitación con riesgo."
+      }
+    },
+    {
+      "id": "go-pre-natal-exames",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Pré-natal",
+      "frente": "Exames da primeira consulta de pré-natal (MS)?",
+      "verso": "Tipagem e Rh, hemograma, glicemia de jejum, urina e urocultura, testes rápidos de sífilis, HIV e hepatites B e C, toxoplasmose IgG/IgM, ultrassom obstétrico.",
+      "questoes": [
+        "revalida_2011_q012",
+        "revalida_2011_q028",
+        "revalida_2011_q055"
+      ],
+      "es": {
+        "frente": "¿Exámenes de la primera consulta prenatal (MS)?",
+        "verso": "Grupo y Rh, hemograma, glucemia en ayunas, orina y urocultivo, pruebas rápidas de sífilis, VIH y hepatitis B y C, toxoplasmosis IgG/IgM, ecografía obstétrica."
+      }
+    },
+    {
+      "id": "go-dmg",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Diabetes gestacional",
+      "frente": "Diagnóstico de diabetes gestacional?",
+      "verso": "Glicemia de jejum 92–125 mg/dL na 1ª consulta, ou TOTG 75 g entre 24 e 28 semanas: jejum ≥ 92, 1 h ≥ 180 ou 2 h ≥ 153 (basta um valor).",
+      "questoes": [
+        "revalida_2011_q006",
+        "revalida_2012_q004",
+        "revalida_2013_q028"
+      ],
+      "es": {
+        "frente": "¿Diagnóstico de diabetes gestacional?",
+        "verso": "Glucemia en ayunas 92–125 mg/dL en la 1.ª consulta, o PTOG 75 g entre 24 y 28 semanas: ayunas ≥ 92, 1 h ≥ 180 o 2 h ≥ 153 (basta un valor)."
+      }
+    },
+    {
+      "id": "go-dmg-tratamento",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Diabetes gestacional",
+      "frente": "Diabetes gestacional sem controle com dieta: tratamento de escolha?",
+      "verso": "Insulina (NPH ± regular). Metformina é alternativa quando a insulina não é viável.",
+      "questoes": [
+        "revalida_2011_q006",
+        "revalida_2012_q004",
+        "revalida_2013_q028"
+      ],
+      "es": {
+        "frente": "Diabetes gestacional sin control con dieta: ¿tratamiento de elección?",
+        "verso": "Insulina (NPH ± regular). La metformina es alternativa cuando la insulina no es viable."
+      }
+    },
+    {
+      "id": "go-isoimunizacao",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Aloimunização Rh",
+      "frente": "Gestante Rh negativo com Coombs indireto negativo: conduta?",
+      "verso": "Repetir Coombs indireto (ex.: 28 semanas), imunoglobulina anti-D com 28 semanas e até 72 h após o parto (se RN Rh+) ou após sangramentos/procedimentos.",
+      "questoes": [
+        "revalida_2015_q106",
+        "revalida_2025-1_q044"
+      ],
+      "es": {
+        "frente": "Gestante Rh negativo con Coombs indirecto negativo: ¿conducta?",
+        "verso": "Repetir Coombs indirecto (ej.: 28 semanas), inmunoglobulina anti-D a las 28 semanas y hasta 72 h tras el parto (si RN Rh+) o tras sangrados/procedimientos."
+      }
+    },
+    {
+      "id": "go-dpp",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Descolamento prematuro de placenta",
+      "frente": "DPP × placenta prévia: como diferenciar?",
+      "verso": "DPP: dor, hipertonia uterina, sangue escuro, sofrimento fetal, associado a hipertensão/trauma/cocaína. Placenta prévia: sangramento vermelho vivo, indolor, útero relaxado, recorrente; não fazer toque.",
+      "questoes": [
+        "revalida_2011_q105",
+        "revalida_2012_q004",
+        "revalida_2012_q006"
+      ],
+      "es": {
+        "frente": "DPP × placenta previa: ¿cómo diferenciar?",
+        "verso": "DPP: dolor, hipertonía uterina, sangre oscura, sufrimiento fetal, asociado a hipertensión/trauma/cocaína. Placenta previa: sangrado rojo vivo, indoloro, útero relajado, recurrente; no hacer tacto."
+      }
+    },
+    {
+      "id": "go-abortamento-tipos",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Abortamento",
+      "frente": "Abortamento: ameaça × inevitável pelo colo?",
+      "verso": "Ameaça: colo fechado, embrião vivo, sangramento leve. Inevitável/incompleto: colo aberto. Retido: embrião sem BCF com colo fechado. Infectado: febre e secreção fétida (antibiótico + esvaziamento).",
+      "questoes": [
+        "revalida_2011_q045",
+        "revalida_2012_q081",
+        "revalida_2013_q061"
+      ],
+      "es": {
+        "frente": "Aborto: ¿amenaza × inevitable por el cuello?",
+        "verso": "Amenaza: cuello cerrado, embrión vivo, sangrado leve. Inevitable/incompleto: cuello abierto. Retenido: embrión sin latido con cuello cerrado. Infectado: fiebre y secreción fétida (antibiótico + evacuación)."
+      }
+    },
+    {
+      "id": "go-mola",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Doença trofoblástica gestacional",
+      "frente": "Mola hidatiforme: sinais e seguimento?",
+      "verso": "Sangramento, útero maior que a idade gestacional, hiperêmese, beta-hCG muito alto, \"flocos de neve\" no ultrassom. Esvaziamento por aspiração e beta-hCG seriado até negativar; contracepção no seguimento.",
+      "questoes": [
+        "revalida_2013_q051",
+        "revalida_2015_q002"
+      ],
+      "es": {
+        "frente": "Mola hidatiforme: ¿signos y seguimiento?",
+        "verso": "Sangrado, útero mayor que la edad gestacional, hiperémesis, beta-hCG muy alto, \"copos de nieve\" en la ecografía. Evacuación por aspiración y beta-hCG seriado hasta negativizar; anticoncepción en el seguimiento."
+      }
+    },
+    {
+      "id": "go-trabalho-parto-prematuro",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Trabalho de parto prematuro",
+      "frente": "Trabalho de parto prematuro entre 24 e 34 semanas: medidas?",
+      "verso": "Corticoide (betametasona 12 mg IM 2 doses), tocólise (nifedipina) para ganhar 48 h, sulfato de magnésio para neuroproteção < 32 semanas, profilaxia do estreptococo B.",
+      "questoes": [
+        "revalida_2015_q074",
+        "revalida_2023-1_q054",
+        "revalida_2023-2_q063"
+      ],
+      "es": {
+        "frente": "Trabajo de parto prematuro entre 24 y 34 semanas: ¿medidas?",
+        "verso": "Corticoide (betametasona 12 mg IM 2 dosis), tocólisis (nifedipina) para ganar 48 h, sulfato de magnesio para neuroprotección < 32 semanas, profilaxis del estreptococo B."
+      }
+    },
+    {
+      "id": "go-rpmo",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Rotura prematura de membranas",
+      "frente": "Rotura prematura de membranas pré-termo sem infecção: conduta?",
+      "verso": "Internação, corticoide, antibiótico para latência (ampicilina + azitromicina), vigilância de infecção; resolução com 34 semanas (ou antes se corioamnionite ou sofrimento fetal).",
+      "questoes": [
+        "revalida_2012_q099",
+        "revalida_2023-2_q054",
+        "revalida_2023-2_q099"
+      ],
+      "es": {
+        "frente": "Rotura prematura de membranas pretérmino sin infección: ¿conducta?",
+        "verso": "Internación, corticoide, antibiótico de latencia (ampicilina + azitromicina), vigilancia de infección; terminación a las 34 semanas (o antes si corioamnionitis o sufrimiento fetal)."
+      }
+    },
+    {
+      "id": "go-ctg-categoria",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Vitalidade fetal",
+      "frente": "Cardiotocografia categoria III: conduta?",
+      "verso": "Variabilidade ausente com desacelerações tardias/variáveis recorrentes ou bradicardia, ou padrão sinusoidal: medidas de reanimação intrauterina e parto imediato se não melhorar.",
+      "questoes": [
+        "revalida_2013_q038",
+        "revalida_2016_q006",
+        "revalida_2016_q058"
+      ],
+      "es": {
+        "frente": "Cardiotocografía categoría III: ¿conducta?",
+        "verso": "Variabilidad ausente con desaceleraciones tardías/variables recurrentes o bradicardia, o patrón sinusoidal: reanimación intrauterina y parto inmediato si no mejora."
+      }
+    },
+    {
+      "id": "go-gbs",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Estreptococo do grupo B",
+      "frente": "Profilaxia intraparto para estreptococo do grupo B: indicações?",
+      "verso": "Cultura positiva com 35–37 semanas, bacteriúria por GBS na gestação, filho anterior com doença por GBS ou, sem cultura, prematuridade, bolsa rota ≥ 18 h ou febre intraparto. Penicilina cristalina (ou ampicilina).",
+      "questoes": [
+        "revalida_2022-2_q054",
+        "revalida_2023-1_q044",
+        "revalida_2023-2_q054"
+      ],
+      "es": {
+        "frente": "Profilaxis intraparto para estreptococo del grupo B: ¿indicaciones?",
+        "verso": "Cultivo positivo a las 35–37 semanas, bacteriuria por EGB en la gestación, hijo anterior con enfermedad por EGB o, sin cultivo, prematurez, bolsa rota ≥ 18 h o fiebre intraparto. Penicilina cristalina (o ampicilina)."
+      }
+    },
+    {
+      "id": "go-hiv-gestante",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "HIV na gestação",
+      "frente": "Gestante com HIV: via de parto e cuidados?",
+      "verso": "TARV desde o diagnóstico. Carga viral < 1.000 cópias após 34 semanas: via obstétrica; ≥ 1.000 ou desconhecida: cesárea eletiva com 38 semanas. AZT IV no parto conforme a carga viral; RN recebe profilaxia; aleitamento contraindicado.",
+      "questoes": [],
+      "es": {
+        "frente": "Gestante con VIH: ¿vía de parto y cuidados?",
+        "verso": "TAR desde el diagnóstico. Carga viral < 1.000 copias después de las 34 semanas: vía obstétrica; ≥ 1.000 o desconocida: cesárea electiva a las 38 semanas. AZT IV en el parto según la carga viral; el RN recibe profilaxis; lactancia contraindicada."
+      }
+    },
+    {
+      "id": "go-toxoplasmose",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Toxoplasmose na gestação",
+      "frente": "Toxoplasmose aguda na gestação: tratamento?",
+      "verso": "Espiramicina até a confirmação de infecção fetal (ou até 16–18 semanas); infecção fetal confirmada ou após 18 semanas: sulfadiazina + pirimetamina + ácido folínico.",
+      "questoes": [
+        "revalida_2013_q033",
+        "revalida_2013_q090",
+        "revalida_2015_q083"
+      ],
+      "es": {
+        "frente": "Toxoplasmosis aguda en la gestación: ¿tratamiento?",
+        "verso": "Espiramicina hasta confirmar infección fetal (o hasta 16–18 semanas); infección fetal confirmada o después de 18 semanas: sulfadiazina + pirimetamina + ácido folínico."
+      }
+    },
+    {
+      "id": "go-itu-gestante",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Infecção urinária na gestação",
+      "frente": "Bacteriúria assintomática na gestante: tratar?",
+      "verso": "Sim, sempre (risco de pielonefrite e prematuridade). Antibiótico conforme urocultura (cefalexina, amoxicilina, nitrofurantoína fora do termo) e urocultura de controle.",
+      "questoes": [
+        "revalida_2011_q049",
+        "revalida_2011_q085",
+        "revalida_2012_q001"
+      ],
+      "es": {
+        "frente": "Bacteriuria asintomática en la gestante: ¿tratar?",
+        "verso": "Sí, siempre (riesgo de pielonefritis y prematurez). Antibiótico según urocultivo (cefalexina, amoxicilina, nitrofurantoína fuera del término) y urocultivo de control."
+      }
+    },
+    {
+      "id": "go-anticoncepcao-mec",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Planejamento reprodutivo",
+      "tema": "Contracepção",
+      "frente": "Contraindicações absolutas ao anticoncepcional combinado (categoria 4)?",
+      "verso": "Enxaqueca com aura, tabagista ≥ 35 anos (≥ 15 cigarros/dia), TEV atual ou prévio, trombofilia, HAS não controlada, cardiopatia isquêmica, AVC, câncer de mama atual, < 21 dias pós-parto.",
+      "questoes": [
+        "revalida_2013_q106",
+        "revalida_2014_q030",
+        "revalida_2015_q064"
+      ],
+      "es": {
+        "frente": "¿Contraindicaciones absolutas al anticonceptivo combinado (categoría 4)?",
+        "verso": "Migraña con aura, fumadora ≥ 35 años (≥ 15 cigarrillos/día), TEV actual o previo, trombofilia, HTA no controlada, cardiopatía isquémica, ACV, cáncer de mama actual, < 21 días posparto."
+      }
+    },
+    {
+      "id": "go-contracepcao-emergencia",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Planejamento reprodutivo",
+      "tema": "Contracepção de emergência",
+      "frente": "Contracepção de emergência: opções e prazo?",
+      "verso": "Levonorgestrel 1,5 mg dose única até 72 h (eficácia cai com o tempo; até 5 dias com menor eficácia) ou DIU de cobre até 5 dias. Não é abortiva.",
+      "questoes": [
+        "revalida_2022-2_q049",
+        "revalida_2024-2_q069",
+        "revalida_2025-2_q069"
+      ],
+      "es": {
+        "frente": "Anticoncepción de emergencia: ¿opciones y plazo?",
+        "verso": "Levonorgestrel 1,5 mg dosis única hasta 72 h (eficacia cae con el tiempo; hasta 5 días con menor eficacia) o DIU de cobre hasta 5 días. No es abortiva."
+      }
+    },
+    {
+      "id": "go-sop",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia endócrina",
+      "tema": "Síndrome dos ovários policísticos",
+      "frente": "Critérios de Rotterdam para SOP?",
+      "verso": "2 de 3: oligo/anovulação, hiperandrogenismo clínico ou laboratorial, ovários policísticos ao ultrassom, após excluir outras causas (tireoide, prolactina, hiperplasia adrenal).",
+      "questoes": [
+        "revalida_2011_q100",
+        "revalida_2012_q024",
+        "revalida_2016_q039"
+      ],
+      "es": {
+        "frente": "¿Criterios de Rotterdam para SOP?",
+        "verso": "2 de 3: oligo/anovulación, hiperandrogenismo clínico o de laboratorio, ovarios poliquísticos en ecografía, tras descartar otras causas (tiroides, prolactina, hiperplasia suprarrenal)."
+      }
+    },
+    {
+      "id": "go-sangramento-pos-menopausa",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia",
+      "tema": "Sangramento pós-menopausa",
+      "frente": "Sangramento pós-menopausa: investigação?",
+      "verso": "Ultrassom transvaginal: endométrio > 4 mm (sem terapia hormonal) indica biópsia (histeroscopia). Câncer de endométrio até prova em contrário.",
+      "questoes": [
+        "revalida_2013_q066",
+        "revalida_2014_q044",
+        "revalida_2016_q044"
+      ],
+      "es": {
+        "frente": "Sangrado posmenopáusico: ¿investigación?",
+        "verso": "Ecografía transvaginal: endometrio > 4 mm (sin terapia hormonal) indica biopsia (histeroscopia). Cáncer de endometrio hasta demostrar lo contrario."
+      }
+    },
+    {
+      "id": "go-dip",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia",
+      "tema": "Doença inflamatória pélvica",
+      "frente": "DIP: critérios mínimos e tratamento ambulatorial?",
+      "verso": "Dor à mobilização do colo, dor anexial ou uterina. Ceftriaxona 500 mg IM dose única + doxiciclina 100 mg 12/12 h por 14 dias + metronidazol 500 mg 12/12 h por 14 dias; tratar parceiro.",
+      "questoes": [
+        "revalida_2022-1_q019",
+        "revalida_2022-1_q084",
+        "revalida_2023-1_q094"
+      ],
+      "es": {
+        "frente": "EIP: ¿criterios mínimos y tratamiento ambulatorio?",
+        "verso": "Dolor a la movilización cervical, dolor anexial o uterino. Ceftriaxona 500 mg IM dosis única + doxiciclina 100 mg cada 12 h por 14 días + metronidazol 500 mg cada 12 h por 14 días; tratar a la pareja."
+      }
+    },
+    {
+      "id": "go-vaginose",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia",
+      "tema": "Vulvovaginites",
+      "frente": "Vaginose × candidíase × tricomoníase?",
+      "verso": "Vaginose: corrimento acinzentado, odor de peixe, pH > 4,5, clue cells (metronidazol). Candidíase: grumoso, prurido, pH < 4,5 (fluconazol/azol tópico). Tricomoníase: amarelo-esverdeado bolhoso, colo em framboesa (metronidazol e parceiro).",
+      "questoes": [
+        "revalida_2023-1_q009",
+        "revalida_2026-1_q061"
+      ],
+      "es": {
+        "frente": "Vaginosis × candidiasis × tricomoniasis?",
+        "verso": "Vaginosis: flujo grisáceo, olor a pescado, pH > 4,5, clue cells (metronidazol). Candidiasis: grumoso, prurito, pH < 4,5 (fluconazol/azol tópico). Tricomoniasis: amarillo-verdoso espumoso, cuello en frambuesa (metronidazol y pareja)."
+      }
+    },
+    {
+      "id": "go-nic",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Oncologia ginecológica",
+      "tema": "Lesões precursoras do colo",
+      "frente": "Citologia com HSIL (lesão de alto grau): conduta?",
+      "verso": "Colposcopia; lesão compatível: \"ver e tratar\" com exérese da zona de transformação (EZT/CAF) em mulheres ≥ 25 anos.",
+      "questoes": [],
+      "es": {
+        "frente": "Citología con HSIL (lesión de alto grado): ¿conducta?",
+        "verso": "Colposcopia; lesión compatible: \"ver y tratar\" con escisión de la zona de transformación (LEEP) en mujeres ≥ 25 años."
+      }
+    },
+    {
+      "id": "go-birads",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Mastologia",
+      "tema": "Mamografia",
+      "frente": "BI-RADS 3, 4 e 5: condutas?",
+      "verso": "3 (provavelmente benigno): controle em 6 meses. 4 (suspeito) e 5 (altamente sugestivo): biópsia (core biopsy).",
+      "questoes": [
+        "revalida_2012_q078",
+        "revalida_2013_q020",
+        "revalida_2014_q044"
+      ],
+      "es": {
+        "frente": "BI-RADS 3, 4 y 5: ¿conductas?",
+        "verso": "3 (probablemente benigno): control en 6 meses. 4 (sospechoso) y 5 (altamente sugestivo): biopsia (core biopsy)."
+      }
+    },
+    {
+      "id": "go-climaterio-th",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Climatério",
+      "tema": "Terapia hormonal",
+      "frente": "Terapia hormonal no climatério: indicação e contraindicações?",
+      "verso": "Sintomas vasomotores moderados a graves, idealmente < 60 anos ou < 10 anos da menopausa. Com útero: estrogênio + progestagênio. Contraindicada em câncer de mama/endométrio, TEV, doença hepática ativa, sangramento sem diagnóstico.",
+      "questoes": [
+        "revalida_2011_q102",
+        "revalida_2012_q025",
+        "revalida_2013_q001"
+      ],
+      "es": {
+        "frente": "Terapia hormonal en el climaterio: ¿indicación y contraindicaciones?",
+        "verso": "Síntomas vasomotores moderados a graves, idealmente < 60 años o < 10 años de la menopausia. Con útero: estrógeno + progestágeno. Contraindicada en cáncer de mama/endometrio, TEV, enfermedad hepática activa, sangrado sin diagnóstico."
+      }
+    },
+    {
+      "id": "go-hiperemese",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Hiperêmese gravídica",
+      "frente": "Hiperêmese gravídica: definição e conduta?",
+      "verso": "Vômitos persistentes com perda > 5% do peso, desidratação e cetonúria. Hidratação venosa, antieméticos, tiamina antes da glicose; investigar mola e gemelaridade.",
+      "questoes": [],
+      "es": {
+        "frente": "Hiperémesis gravídica: ¿definición y conducta?",
+        "verso": "Vómitos persistentes con pérdida > 5 % del peso, deshidratación y cetonuria. Hidratación IV, antieméticos, tiamina antes de la glucosa; investigar mola y gemelar."
+      }
+    },
+    {
+      "id": "go-gestacao-prolongada",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Gestação prolongada",
+      "frente": "Até quando aguardar o parto em gestação de baixo risco?",
+      "verso": "Indução a partir de 41 semanas (até 41 semanas e 6 dias), com avaliação da vitalidade fetal a partir de 40–41 semanas.",
+      "questoes": [
+        "revalida_2012_q088",
+        "revalida_2012_q110",
+        "revalida_2013_q062"
+      ],
+      "es": {
+        "frente": "¿Hasta cuándo esperar el parto en gestación de bajo riesgo?",
+        "verso": "Inducción a partir de las 41 semanas (hasta 41 semanas y 6 días), con evaluación de la vitalidad fetal desde las 40–41 semanas."
+      }
+    },
+    {
+      "id": "go-bishop",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Indução do parto",
+      "frente": "Índice de Bishop: para que serve?",
+      "verso": "Avalia o colo (dilatação, apagamento, consistência, posição e altura da apresentação). Bishop < 6: preparar o colo (misoprostol, sonda de Foley) antes da ocitocina.",
+      "questoes": [
+        "revalida_2011_q030",
+        "revalida_2012_q104",
+        "revalida_2013_q038"
+      ],
+      "es": {
+        "frente": "Índice de Bishop: ¿para qué sirve?",
+        "verso": "Evalúa el cuello (dilatación, borramiento, consistencia, posición y altura de la presentación). Bishop < 6: madurar el cuello (misoprostol, sonda Foley) antes de la oxitocina."
+      }
+    },
+    {
+      "id": "go-distocia-ombro",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Distocia de ombro",
+      "frente": "Distocia de ombro: primeira manobra?",
+      "verso": "Pedir ajuda e fazer a manobra de McRoberts (hiperflexão das coxas) com pressão suprapúbica. Não tracionar a cabeça nem fazer pressão no fundo uterino.",
+      "questoes": [],
+      "es": {
+        "frente": "Distocia de hombros: ¿primera maniobra?",
+        "verso": "Pedir ayuda y hacer la maniobra de McRoberts (hiperflexión de los muslos) con presión suprapúbica. No traccionar la cabeza ni presionar el fondo uterino."
+      }
+    },
+    {
+      "id": "go-endometriose",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia",
+      "tema": "Endometriose",
+      "frente": "Endometriose: quadro e tratamento clínico inicial?",
+      "verso": "Dismenorreia progressiva, dispareunia de profundidade, dor pélvica crônica e infertilidade. Progestagênio contínuo (dienogeste) ou anticoncepcional combinado contínuo; cirurgia se falha ou endometrioma/infertilidade.",
+      "questoes": [
+        "revalida_2013_q028",
+        "revalida_2014_q070",
+        "revalida_2020_q031"
+      ],
+      "es": {
+        "frente": "Endometriosis: ¿cuadro y tratamiento clínico inicial?",
+        "verso": "Dismenorrea progresiva, dispareunia profunda, dolor pélvico crónico e infertilidad. Progestágeno continuo (dienogest) o anticonceptivo combinado continuo; cirugía si falla o endometrioma/infertilidad."
+      }
+    },
+    {
+      "id": "go-miomatose",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia",
+      "tema": "Miomatose uterina",
+      "frente": "Mioma que mais causa sangramento e infertilidade?",
+      "verso": "Submucoso. Tratamento conforme sintomas e desejo reprodutivo: histeroscopia (submucoso), miomectomia, embolização ou histerectomia.",
+      "questoes": [
+        "revalida_2022-2_q009",
+        "revalida_2023-1_q019",
+        "revalida_2025-2_q004"
+      ],
+      "es": {
+        "frente": "¿Mioma que más causa sangrado e infertilidad?",
+        "verso": "Submucoso. Tratamiento según síntomas y deseo reproductivo: histeroscopia (submucoso), miomectomía, embolización o histerectomía."
+      }
+    },
+    {
+      "id": "go-hiperprolactinemia",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Ginecologia endócrina",
+      "tema": "Hiperprolactinemia",
+      "frente": "Amenorreia com galactorreia: causas a investigar?",
+      "verso": "Gravidez, medicamentos (antipsicóticos, metoclopramida), hipotireoidismo e prolactinoma. Prolactinoma: agonista dopaminérgico (cabergolina).",
+      "questoes": [],
+      "es": {
+        "frente": "Amenorrea con galactorrea: ¿causas a investigar?",
+        "verso": "Embarazo, medicamentos (antipsicóticos, metoclopramida), hipotiroidismo y prolactinoma. Prolactinoma: agonista dopaminérgico (cabergolina)."
+      }
+    },
+    {
+      "id": "cir-apendicite-gestante",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Apendicite na gestação",
+      "frente": "Apendicite na gestante: particularidades?",
+      "verso": "Dor pode subir (útero desloca o apêndice); USG é o primeiro exame, RM se inconclusivo. Cirurgia não deve ser adiada: a perfuração aumenta muito a perda fetal.",
+      "questoes": [
+        "revalida_2011_q052",
+        "revalida_2013_q083",
+        "revalida_2015_q065"
+      ],
+      "es": {
+        "frente": "Apendicitis en la gestante: ¿particularidades?",
+        "verso": "El dolor puede subir (el útero desplaza el apéndice); la ecografía es el primer examen, RM si no es concluyente. No retrasar la cirugía: la perforación aumenta mucho la pérdida fetal."
+      }
+    },
+    {
+      "id": "cir-colecistite-alitiasica",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Colecistite alitiásica",
+      "frente": "Colecistite alitiásica: perfil típico?",
+      "verso": "Paciente crítico (UTI, queimado, politrauma, nutrição parenteral, sepse). Alta mortalidade; antibiótico e colecistostomia percutânea se instável.",
+      "questoes": [
+        "revalida_2020_q009"
+      ],
+      "es": {
+        "frente": "Colecistitis alitiásica: ¿perfil típico?",
+        "verso": "Paciente crítico (UCI, quemado, politrauma, nutrición parenteral, sepsis). Alta mortalidad; antibiótico y colecistostomía percutánea si inestable."
+      }
+    },
+    {
+      "id": "cir-hemorroida",
+      "area": "Cirurgia",
+      "especialidade": "Coloproctologia",
+      "tema": "Doença hemorroidária",
+      "frente": "Hemorroidas internas: graus e tratamento?",
+      "verso": "I sangra sem prolapso; II prolapsa e volta sozinha; III precisa de redução manual; IV irredutível. I–II: fibras, banda elástica; III–IV ou falha: hemorroidectomia.",
+      "questoes": [
+        "revalida_2016_q087",
+        "revalida_2017_q082",
+        "revalida_2020_q098"
+      ],
+      "es": {
+        "frente": "Hemorroides internas: ¿grados y tratamiento?",
+        "verso": "I sangra sin prolapso; II prolapsa y vuelve sola; III requiere reducción manual; IV irreducible. I–II: fibra, ligadura con banda; III–IV o falla: hemorroidectomía."
+      }
+    },
+    {
+      "id": "cir-fissura-anal",
+      "area": "Cirurgia",
+      "especialidade": "Coloproctologia",
+      "tema": "Fissura anal",
+      "frente": "Fissura anal crônica: tratamento?",
+      "verso": "Fibras, banho de assento, analgesia e relaxante esfincteriano tópico (diltiazem ou nitrato); toxina botulínica ou esfincterotomia lateral interna se refratária.",
+      "questoes": [
+        "revalida_2012_q013",
+        "revalida_2012_q042",
+        "revalida_2014_q045"
+      ],
+      "es": {
+        "frente": "Fisura anal crónica: ¿tratamiento?",
+        "verso": "Fibra, baños de asiento, analgesia y relajante esfinteriano tópico (diltiazem o nitrato); toxina botulínica o esfinterotomía lateral interna si es refractaria."
+      }
+    },
+    {
+      "id": "cir-abscesso-perianal",
+      "area": "Cirurgia",
+      "especialidade": "Coloproctologia",
+      "tema": "Abscesso anorretal",
+      "frente": "Abscesso perianal: conduta?",
+      "verso": "Drenagem cirúrgica imediata (o antibiótico não substitui a drenagem). Cerca de um terço evolui com fístula anal.",
+      "questoes": [
+        "revalida_2022-2_q017",
+        "revalida_2023-2_q072"
+      ],
+      "es": {
+        "frente": "Absceso perianal: ¿conducta?",
+        "verso": "Drenaje quirúrgico inmediato (el antibiótico no reemplaza el drenaje). Cerca de un tercio evoluciona a fístula anal."
+      }
+    },
+    {
+      "id": "cir-tvp-profilaxia",
+      "area": "Cirurgia",
+      "especialidade": "Pré e pós-operatório",
+      "tema": "Tromboprofilaxia",
+      "frente": "Profilaxia de TEV em cirurgia de alto risco (ex.: artroplastia de quadril)?",
+      "verso": "Heparina de baixo peso (enoxaparina 40 mg SC 1x/dia) ou anticoagulante oral direto, mais medidas mecânicas e deambulação precoce, por até 35 dias em artroplastia de quadril.",
+      "questoes": [],
+      "es": {
+        "frente": "Profilaxis de TEV en cirugía de alto riesgo (ej.: artroplastia de cadera)?",
+        "verso": "Heparina de bajo peso (enoxaparina 40 mg SC 1 vez/día) o anticoagulante oral directo, más medidas mecánicas y deambulación precoz, hasta 35 días en artroplastia de cadera."
+      }
+    },
+    {
+      "id": "cir-sindrome-compartimental",
+      "area": "Cirurgia",
+      "especialidade": "Ortopedia e trauma",
+      "tema": "Síndrome compartimental",
+      "frente": "Síndrome compartimental: sinal mais precoce e tratamento?",
+      "verso": "Dor desproporcional, que piora com o estiramento passivo. Pulso ausente é tardio. Fasciotomia de urgência; retirar gesso e curativos compressivos.",
+      "questoes": [
+        "revalida_2011_q076"
+      ],
+      "es": {
+        "frente": "Síndrome compartimental: ¿signo más precoz y tratamiento?",
+        "verso": "Dolor desproporcionado, que empeora con el estiramiento pasivo. La ausencia de pulso es tardía. Fasciotomía urgente; retirar yeso y vendajes compresivos."
+      }
+    },
+    {
+      "id": "cir-fratura-exposta",
+      "area": "Cirurgia",
+      "especialidade": "Ortopedia e trauma",
+      "tema": "Fratura exposta",
+      "frente": "Fratura exposta: condutas iniciais?",
+      "verso": "Antibiótico precoce (cefazolina; acrescentar gentamicina nas lesões graves), profilaxia antitetânica, alinhamento, curativo estéril e desbridamento/limpeza cirúrgica nas primeiras horas.",
+      "questoes": [
+        "revalida_2024-1_q057"
+      ],
+      "es": {
+        "frente": "Fractura expuesta: ¿conductas iniciales?",
+        "verso": "Antibiótico precoz (cefazolina; añadir gentamicina en lesiones graves), profilaxis antitetánica, alineación, apósito estéril y desbridamiento/limpieza quirúrgica en las primeras horas."
+      }
     }
   ]
 }

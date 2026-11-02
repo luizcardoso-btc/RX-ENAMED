@@ -1367,3 +1367,5 @@ ol.sim-chave { list-style: decimal; }
 }
 .lateral .grupo-nav + .grupo-nav { margin-top: 10px; }
 .lateral .grupo-nav-titulo { display: block; margin-bottom: 4px; }
+/* Rótulos longos (ex.: "Revalida 2025.2 · ENAMED 2025") quebram linha no celular. */
+@media (max-width: 760px) { .plano-q { white-space: normal; min-width: 0; } }
