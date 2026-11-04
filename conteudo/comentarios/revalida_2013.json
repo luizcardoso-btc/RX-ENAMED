@@ -370,5 +370,905 @@
         "E": "A radiografia e a reavaliação atrasam o tratamento."
       }
     }
+  },
+  "revalida_2013_q032": {
+    "pt": {
+      "resumo": "Asmático com tosse noturna diária, limitação para esportes e crises mensais, sem tratamento: asma não controlada. O tratamento de manutenção é corticoide inalatório de uso contínuo, com beta-2 agonista de curta ação para o alívio, além dos cuidados ambientais.",
+      "alternativas": {
+        "A": "O beta-2 de longa ação não é medicação de alívio e não deve ser usado sem corticoide.",
+        "B": "O beta-2 de longa ação sem corticoide é contraindicado.",
+        "C": "O tratamento não é por apenas quatro semanas, e o primeiro degrau é o corticoide inalatório.",
+        "D": "Correta: corticoide inalatório contínuo e beta-2 de curta ação no alívio.",
+        "E": "O montelucaste associado e a fisioterapia não são a primeira linha."
+      }
+    }
+  },
+  "revalida_2013_q033": {
+    "pt": {
+      "resumo": "IgG e IgM positivas para toxoplasmose sem exames anteriores: a infecção pode ser recente ou antiga (a IgM pode durar meses). O passo imediato é o teste de avidez da IgG, de preferência na mesma amostra; com 18 semanas, também se costuma iniciar espiramicina até o resultado.",
+      "alternativas": {
+        "A": "Esperar o terceiro trimestre atrasa a decisão.",
+        "B": "A ultrassonografia não define quando foi a infecção.",
+        "C": "O PCR no líquido amniótico só se faz se a infecção aguda for provável.",
+        "D": "Pelo gabarito, o passo imediato é definir quando foi a infecção.",
+        "E": "Correta: teste de avidez da IgG."
+      }
+    }
+  },
+  "revalida_2013_q034": {
+    "pt": {
+      "resumo": "Idosa hipertensa e tabagista com dor lombar súbita, síncope, choque, equimoses nos flancos e massa abdominal pulsátil: aneurisma de aorta abdominal roto. Em paciente instável, a ultrassonografia na sala de emergência confirma rapidamente o aneurisma e o sangramento, sem tirar o paciente da sala, e indica cirurgia de urgência.",
+      "alternativas": {
+        "A": "Correta: ultrassonografia abdominal à beira do leito.",
+        "B": "O lavado não diagnostica sangramento retroperitoneal.",
+        "C": "A angiorressonância é demorada para um paciente instável.",
+        "D": "A tomografia é ótima em estáveis, mas arriscada em chocados.",
+        "E": "A angiografia é demorada e invasiva."
+      }
+    }
+  },
+  "revalida_2013_q035": {
+    "pt": {
+      "resumo": "Doença hepática grave (MELD de 32) em adolescente: o transplante intervivos com doador familiar saudável e capaz, que consente, é permitido pela lei de transplantes e pode antecipar o procedimento, sem passar pela fila de doador falecido.",
+      "alternativas": {
+        "A": "Ser menor de idade não impede o receptor, e o MELD de 32 indica alta gravidade.",
+        "B": "O transplante intervivos não depende de doador falecido.",
+        "C": "Correta: transplante intervivos pelo pai.",
+        "D": "A doação intervivos entre parentes é prevista na lei.",
+        "E": "O transplante de fígado não exige doador falecido com HLA idêntico."
+      }
+    }
+  },
+  "revalida_2013_q036": {
+    "pt": {
+      "resumo": "Criança com bom comportamento em casa e problemas na escola, que teve várias trocas de professora: antes de medicalizar e encaminhar, consideram-se fatores sociais e escolares. Seguindo a política de saúde mental, que evita a medicalização, orienta-se a mãe e a equipe de saúde da família faz contato com a escola.",
+      "alternativas": {
+        "A": "Diagnosticar TDAH e medicar sem avaliação adequada é medicalizar.",
+        "B": "Não há risco de internação psiquiátrica.",
+        "C": "O programa 'De Volta para Casa' é para egressos de longas internações psiquiátricas.",
+        "D": "Não há indícios de bullying ou assédio que justifiquem o Conselho Tutelar.",
+        "E": "Correta: orientar a mãe e articular com a escola."
+      }
+    }
+  },
+  "revalida_2013_q037": {
+    "pt": {
+      "resumo": "Febre reumática com cardite moderada a grave (sopro de insuficiência mitral, B3, taquicardia e insuficiência cardíaca): a cardite com insuficiência cardíaca é tratada com corticoide (prednisona), além de penicilina para erradicar o estreptococo. Os anti-inflamatórios são para a artrite sem cardite importante.",
+      "alternativas": {
+        "A": "O ibuprofeno não trata a cardite.",
+        "B": "O diclofenaco não trata a cardite.",
+        "C": "O naproxeno é opção para a artrite, não para cardite grave.",
+        "D": "Correta: prednisona.",
+        "E": "O AAS trata a artrite; na cardite com insuficiência cardíaca, o corticoide é o indicado."
+      }
+    }
+  },
+  "revalida_2013_q038": {
+    "pt": {
+      "resumo": "Gestação com 41 semanas e 2 dias confirmada por ultrassonografia precoce: pós-datismo. Encaminha-se à maternidade para avaliar a vitalidade fetal e planejar a indução do parto antes de 42 semanas.",
+      "alternativas": {
+        "A": "Não se dá alta do pré-natal no pós-datismo.",
+        "B": "Correta: avaliação da vitalidade e indução.",
+        "C": "Esperar o parto espontâneo além de 41 semanas sem vigilância aumenta o risco.",
+        "D": "Uma nova consulta em 7 dias passaria de 42 semanas.",
+        "E": "Esperar 7 dias passaria de 42 semanas."
+      }
+    }
+  },
+  "revalida_2013_q039": {
+    "pt": {
+      "resumo": "Idosa com quadro gripal grave (febre, mialgia, tosse), hipoxemia (SatO₂ 86%), taquipneia e infiltrado intersticial bilateral: síndrome respiratória aguda grave por provável influenza. A conduta é coletar secreção para PCR viral, oferecer oxigênio e iniciar oseltamivir mesmo após 48 horas de sintomas, porque nos casos graves o benefício se mantém.",
+      "alternativas": {
+        "A": "A azitromicina isolada não cobre a influenza, e faltam o antiviral e o isolamento.",
+        "B": "Correta: PCR viral, oxigênio e oseltamivir.",
+        "C": "A ventilação não invasiva aumenta a dispersão de aerossóis e não é a primeira medida.",
+        "D": "Ela está consciente; não há indicação de intubação imediata.",
+        "E": "Nos casos graves, o oseltamivir é indicado mesmo após 48 horas."
+      }
+    }
+  },
+  "revalida_2013_q040": {
+    "pt": {
+      "resumo": "Hérnia inguinoescrotal que deixou de reduzir há 2 dias, dolorosa e com náuseas e vômitos: hérnia encarcerada com possível obstrução ou estrangulamento. A conduta é encaminhar com urgência ao hospital para avaliação cirúrgica imediata, sem tentar redução após tanto tempo.",
+      "alternativas": {
+        "A": "Tentar reduzir após 2 dias pode devolver alça isquêmica para o abdome.",
+        "B": "Correta: encaminhar à urgência para avaliação cirúrgica.",
+        "C": "A redução manual após 2 dias é perigosa.",
+        "D": "A transiluminação não muda a conduta urgente.",
+        "E": "Atrasar com exames e antiemético é perigoso."
+      }
+    }
+  },
+  "revalida_2013_q041": {
+    "pt": {
+      "resumo": "Lombociatalgia com relação clara com a atividade de trabalho (movimentos repetitivos com o tronco flexionado): doença relacionada ao trabalho. Qualquer médico que atenda o trabalhador, inclusive o da UBS, pode e deve emitir a CAT.",
+      "alternativas": {
+        "A": "Correta: o médico da UBS deve emitir a CAT.",
+        "B": "Não é preciso esperar o médico da empresa.",
+        "C": "A omissão da empresa não impede a emissão pelo médico assistente.",
+        "D": "A emissão não depende de ressonância.",
+        "E": "O perito avalia o nexo, mas a CAT pode ser emitida pelo médico assistente."
+      }
+    }
+  },
+  "revalida_2013_q042": {
+    "pt": {
+      "resumo": "Insuficiência cardíaca com fração de ejeção reduzida (35%) descompensada por abandono do tratamento e excessos, com fibrilação atrial de alta resposta (ritmo irregular, pela figura), sem instabilidade grave. A conduta do gabarito é controlar a frequência com digoxina (adequada com FE reduzida e congestão) e anticoagular com heparina de baixo peso molecular, além de diurético e ajustes do tratamento.",
+      "alternativas": {
+        "A": "A fibrilação atrial precisa de controle da frequência e de anticoagulação.",
+        "B": "Sem instabilidade, não há indicação de cardioversão elétrica imediata.",
+        "C": "A reversão química imediata sem saber há quanto tempo dura a FA tem risco de embolia.",
+        "D": "Correta: digoxina e heparina de baixo peso molecular.",
+        "E": "A pressão está adequada; não há indicação de dobutamina."
+      }
+    }
+  },
+  "revalida_2013_q043": {
+    "pt": {
+      "resumo": "Criança com linfonodomegalia cervical, febre e linfocitose atípica (provável mononucleose), mas com um linfonodo supraclavicular: linfonodos supraclaviculares são sinal de alerta para neoplasia (linfoma) em qualquer idade e justificam avaliação especializada imediata, com possível biópsia.",
+      "alternativas": {
+        "A": "Febre e adenomegalia persistentes são comuns em quadros virais.",
+        "B": "Correta: o nódulo supraclavicular é sinal de alarme.",
+        "C": "A dor sugere processo inflamatório benigno.",
+        "D": "A linfocitose atípica é típica da mononucleose.",
+        "E": "A consistência elástica é sugestiva de benignidade."
+      }
+    }
+  },
+  "revalida_2013_q044": {
+    "pt": {
+      "resumo": "Lesão intraepitelial de baixo grau em mulher de 25 anos: pelas diretrizes brasileiras, repete-se a citologia em 6 meses, porque a maioria regride espontaneamente. Se persistir, encaminha-se para colposcopia.",
+      "alternativas": {
+        "A": "A conização não é indicada para lesão de baixo grau.",
+        "B": "Correta: repetir a citologia em 6 meses.",
+        "C": "A colposcopia é para a lesão que persiste.",
+        "D": "A cauterização não é tratamento da LSIL.",
+        "E": "O teste de HPV não é a conduta preconizada nesse cenário."
+      }
+    }
+  },
+  "revalida_2013_q045": {
+    "pt": {
+      "resumo": "Tabagista de 42 anos com tosse crônica e alteração na radiografia de tórax admissional (pela figura, lesão a esclarecer), com irmão tratado de tuberculose. O próximo passo é a tomografia de tórax, para caracterizar a lesão e orientar a investigação (neoplasia, tuberculose), em vez de tratamento empírico.",
+      "alternativas": {
+        "A": "O tratamento de prova para tuberculose sem confirmação não é recomendado.",
+        "B": "Correta: tomografia computadorizada.",
+        "C": "Uma alteração radiológica em tabagista exige investigação.",
+        "D": "Repetir a radiografia não acrescenta.",
+        "E": "Não há quadro de infecção aguda para tratar com macrolídeo."
+      }
+    }
+  },
+  "revalida_2013_q046": {
+    "pt": {
+      "resumo": "Gestante com 35 semanas, queixa de menos movimentos fetais e altura uterina abaixo do esperado, com antecedente de pré-eclâmpsia, mas pressão e vitalidade fetal normais no exame. Pelo gabarito, a conduta é vigilância clínico-obstétrica semanal, com medida da altura uterina, pressão, peso e registro diário dos movimentos fetais. Na prática, a suspeita de restrição de crescimento também indica ultrassonografia com Doppler.",
+      "alternativas": {
+        "A": "Avaliar a maturidade placentária não orienta a conduta.",
+        "B": "Não há sinais que justifiquem cesárea imediata.",
+        "C": "Correta (gabarito oficial): vigilância semanal e registro dos movimentos.",
+        "D": "O seguimento mensal é espaçado demais nesse contexto.",
+        "E": "Esperar até 38 semanas sem vigilância é inadequado."
+      }
+    }
+  },
+  "revalida_2013_q047": {
+    "pt": {
+      "resumo": "Úlcera duodenal com teste da urease positivo (H. pylori): tratamento de erradicação com terapia tripla, inibidor de bomba de prótons, claritromicina e amoxicilina por 14 dias. O gabarito mantém o IBP por mais tempo (28 dias) para completar a cicatrização da úlcera.",
+      "alternativas": {
+        "A": "A tetraciclina com metronidazol faz parte do esquema quádruplo com bismuto.",
+        "B": "Não é o esquema de primeira linha, e o tempo é excessivo.",
+        "C": "A levofloxacina é de resgate.",
+        "D": "Correta: omeprazol com claritromicina e amoxicilina.",
+        "E": "Levofloxacina com claritromicina não é esquema recomendado."
+      }
+    }
+  },
+  "revalida_2013_q048": {
+    "pt": {
+      "resumo": "Grande queimado (terceiro grau no membro superior e no tronco anterior, segundo grau no membro inferior e no couro cabeludo), sem sinais de lesão inalatória (satura 95%, sem queimadura de face descrita). A intervenção mais importante antes da transferência é garantir acesso venoso e iniciar a reposição volêmica (fórmula de Parkland), para evitar o choque do queimado.",
+      "alternativas": {
+        "A": "Sem sinais de lesão de via aérea, a intubação não é a prioridade.",
+        "B": "O antibiótico profilático não é indicado.",
+        "C": "Compressas úmidas em grandes áreas causam hipotermia.",
+        "D": "Correta: acesso venoso e reposição volêmica.",
+        "E": "A analgesia é necessária, mas a reposição volêmica é a prioridade."
+      }
+    }
+  },
+  "revalida_2013_q049": {
+    "pt": {
+      "resumo": "Morte natural, esperada, de paciente acompanhado pela equipe da saúde da família: o médico assistente deve constatar o óbito e emitir a declaração, registrando a causa básica (a doença que iniciou a cadeia), aqui a miocardiopatia isquêmica, e não a insuficiência cardíaca, que é a consequência.",
+      "alternativas": {
+        "A": "A insuficiência cardíaca é a consequência; a causa básica é a doença isquêmica.",
+        "B": "O IML é para mortes violentas.",
+        "C": "O SVO é para mortes sem assistência ou sem causa definida.",
+        "D": "Correta: constatar o óbito e declarar a miocardiopatia isquêmica.",
+        "E": "O SAMU não é a via adequada, e a causa é conhecida."
+      }
+    }
+  },
+  "revalida_2013_q050": {
+    "pt": {
+      "resumo": "Hipotonia, hiporresponsividade, palidez ou cianose nas horas seguintes à pentavalente: episódio hipotônico-hiporresponsivo, evento adverso associado ao componente pertussis de células inteiras. Nas doses seguintes, recomenda-se a vacina com componente pertussis acelular.",
+      "alternativas": {
+        "A": "O toxoide tetânico não causa esse evento.",
+        "B": "O toxoide diftérico não causa esse evento.",
+        "C": "Correta: componente pertussis.",
+        "D": "A hepatite B não causa esse quadro.",
+        "E": "O componente Hib não causa esse evento."
+      }
+    }
+  },
+  "revalida_2013_q051": {
+    "pt": {
+      "resumo": "Após esvaziamento de mola, o β-hCG subiu em três dosagens, com sangramento e miométrio heterogêneo e muito vascularizado: neoplasia trofoblástica gestacional, compatível com mola invasora (sem metástases na radiografia). O tratamento é quimioterapia (metotrexato ou actinomicina D).",
+      "alternativas": {
+        "A": "Não há indicação de cirurgia histeroscópica.",
+        "B": "Um novo esvaziamento não trata a invasão do miométrio.",
+        "C": "O tumor do sítio placentário tem β-hCG baixo e é raro.",
+        "D": "O coriocarcinoma é tratado com quimioterapia, não com radioterapia.",
+        "E": "Correta: mola invasora com quimioterapia."
+      }
+    }
+  },
+  "revalida_2013_q052": {
+    "pt": {
+      "resumo": "Mulher jovem com eritema malar fotossensível, artrite, derrame pleural (serosite) e leucopenia: lúpus eritematoso sistêmico. Os autoanticorpos mais específicos são o anti-DNA de dupla hélice (nativo) e o anti-Sm. O FAN é sensível, mas pouco específico.",
+      "alternativas": {
+        "A": "O anti-Ro é associado à síndrome de Sjögren e ao lúpus neonatal.",
+        "B": "O anti-RNP é marcador da doença mista do tecido conjuntivo.",
+        "C": "Correta: anti-DNA nativo.",
+        "D": "O FAN é sensível, mas não específico.",
+        "E": "O antifosfolípide é da síndrome antifosfolípide."
+      }
+    }
+  },
+  "revalida_2013_q053": {
+    "pt": {
+      "resumo": "Constipação com fecaloma e dieta pobre em fibras em homem de 65 anos, estável e sem obstrução: tratamento com laxativo e mudança na dieta. Pela idade e pela alteração do hábito intestinal, indica-se colonoscopia para excluir câncer colorretal, porque a pesquisa de sangue oculto negativa não o exclui.",
+      "alternativas": {
+        "A": "O enema opaco foi substituído pela colonoscopia.",
+        "B": "Correta: laxativo, dieta e colonoscopia.",
+        "C": "A ultrassonografia não avalia a luz do cólon.",
+        "D": "Repetir o sangue oculto não basta com sintomas.",
+        "E": "A retossigmoidoscopia não examina todo o cólon."
+      }
+    }
+  },
+  "revalida_2013_q054": {
+    "pt": {
+      "resumo": "Para aumentar o cadastro e a captação precoce de gestantes, o profissional-chave é o agente comunitário de saúde, que faz visitas domiciliares e identifica as gestantes no território. Uma oficina para os ACS tem maior impacto com recursos limitados.",
+      "alternativas": {
+        "A": "Os médicos atendem, mas não fazem a busca ativa no território.",
+        "B": "Os enfermeiros coordenam, mas a captação no território é dos ACS.",
+        "C": "Correta: agentes comunitários de saúde.",
+        "D": "Auxiliares e técnicos não fazem a busca no território.",
+        "E": "Os coordenadores não fazem a captação direta."
+      }
+    }
+  },
+  "revalida_2013_q055": {
+    "pt": {
+      "resumo": "Criança com distensão abdominal, palidez, geofagia (comer terra), anemia microcítica e hipocrômica com ferro baixo e eosinofilia: ancilostomíase, que causa perda crônica de sangue intestinal. Trata-se com albendazol ou mebendazol e reposição de ferro.",
+      "alternativas": {
+        "A": "A teníase raramente causa anemia ferropriva.",
+        "B": "A giardíase causa má absorção, mas sem eosinofilia.",
+        "C": "A amebíase não causa eosinofilia.",
+        "D": "A enterobíase causa prurido anal, sem anemia.",
+        "E": "Correta: ancilostomíase."
+      }
+    }
+  },
+  "revalida_2013_q056": {
+    "pt": {
+      "resumo": "Feto anencéfalo (ausência de calota craniana e de parênquima cerebral): desde a ADPF 54 (STF, 2012) e a resolução do CFM, a interrupção é permitida sem autorização judicial, com laudo ultrassonográfico assinado por dois médicos, com as imagens, e consentimento da gestante. O exame pode ser feito a partir de 12 semanas.",
+      "alternativas": {
+        "A": "A interrupção é permitida na anencefalia.",
+        "B": "Não é preciso autorização judicial.",
+        "C": "Não é preciso haver risco de vida para a gestante.",
+        "D": "O diagnóstico pode ser feito a partir de 12 semanas, sem esperar 20 a 24 semanas.",
+        "E": "Correta: laudo de dois médicos com as imagens e consentimento."
+      }
+    }
+  },
+  "revalida_2013_q057": {
+    "pt": {
+      "resumo": "Etilista com dor intensa no abdome superior, vômitos e descompressão dolorosa: diagnósticos diferenciais incluem pancreatite aguda e úlcera péptica perfurada. A radiografia de tórax em pé ajuda a detectar pneumoperitônio (ar sob as cúpulas), que indica perfuração.",
+      "alternativas": {
+        "A": "A amilase pode ser normal na pancreatite (dosagem tardia, pancreatite crônica, hipertrigliceridemia).",
+        "B": "Correta: a radiografia de tórax ajuda a detectar úlcera perfurada.",
+        "C": "A ultrassonografia busca cálculos, mas o exame de escolha para pancreatite, quando necessário, é a tomografia.",
+        "D": "A descompressão dolorosa não afasta hepatite alcoólica.",
+        "E": "Antes de operar, é preciso definir o diagnóstico, porque a pancreatite não é cirúrgica."
+      }
+    }
+  },
+  "revalida_2013_q060": {
+    "pt": {
+      "resumo": "Lactente com diarreia, olhos fundos, choro sem lágrimas, saliva espessa e prega que desaparece lentamente, mas que ainda bebe bem: desidratação (algum grau, plano B). O gabarito indica terapia de reidratação oral na unidade, com reavaliação. O pulso débil com taquicardia exige atenção: se piorar ou não conseguir beber, passa-se à hidratação venosa.",
+      "alternativas": {
+        "A": "Correta: terapia de reidratação oral na unidade.",
+        "B": "Com desidratação, a reidratação é feita na unidade, não em casa.",
+        "C": "A fase rápida venosa é para desidratação grave.",
+        "D": "A via venosa não é a primeira escolha se a criança bebe.",
+        "E": "A fase de manutenção vem após a reidratação."
+      }
+    }
+  },
+  "revalida_2013_q061": {
+    "pt": {
+      "resumo": "Morte por complicações de aborto provocado é morte materna de causa obstétrica direta. Mesmo ocorrendo após 42 dias (entre 43 dias e 1 ano), é classificada como morte materna tardia por causa obstétrica direta, e deve ser investigada pelo comitê.",
+      "alternativas": {
+        "A": "Não há elementos para atribuir erro médico; as perfurações vieram do aborto clandestino.",
+        "B": "Óbitos entre 42 dias e 1 ano por causa obstétrica são mortes maternas tardias.",
+        "C": "A causa indireta é uma doença prévia agravada pela gestação.",
+        "D": "Correta: morte materna de causa obstétrica direta.",
+        "E": "A morte por aborto inseguro é evitável."
+      }
+    }
+  },
+  "revalida_2013_q062": {
+    "pt": {
+      "resumo": "Na DPOC, a oxigenoterapia domiciliar prolongada é indicada quando, em repouso e fora de exacerbação, a PaO₂ é de 55 mmHg ou menos (ou SatO₂ de 88% ou menos), ou entre 56 e 59 mmHg com cor pulmonale ou policitemia.",
+      "alternativas": {
+        "A": "PaO₂ de 58 mmHg sem sinais de cor pulmonale ou policitemia não indica oxigenoterapia.",
+        "B": "PaO₂ de 57 mmHg exigiria cor pulmonale ou policitemia.",
+        "C": "PaO₂ de 60 mmHg não indica oxigenoterapia.",
+        "D": "PaO₂ de 62 mmHg não indica oxigenoterapia.",
+        "E": "Correta: PaO₂ de 55 mmHg."
+      }
+    }
+  },
+  "revalida_2013_q063": {
+    "pt": {
+      "resumo": "Pós-operatório de úlcera perfurada com vômitos, distensão, febre e choque (PA 80/40 mmHg, FC 132): provável complicação intra-abdominal (deiscência, peritonite, abscesso) com sepse. Pelo gabarito, a prioridade é chamar o cirurgião responsável, instituir reposição volêmica e reservar vaga em unidade de cuidados críticos.",
+      "alternativas": {
+        "A": "Exames e troca de antibiótico não podem atrasar a reposição e a avaliação cirúrgica.",
+        "B": "O acesso central não é a prioridade antes da reposição.",
+        "C": "Correta: cirurgião, reposição volêmica e vaga em cuidados críticos.",
+        "D": "A tomografia em paciente chocado atrasa a conduta.",
+        "E": "Trocar o antibiótico sem reavaliar o foco não é a prioridade do gabarito."
+      }
+    }
+  },
+  "revalida_2013_q064": {
+    "pt": {
+      "resumo": "Quem vai morar em área com recomendação de vacina contra febre amarela (como o Acre) deve ser vacinado pelo menos 10 dias antes da viagem e portar o cartão de vacinação. O gabarito segue a regra da época, de reforço a cada 10 anos. Desde 2017, o Ministério da Saúde adota dose única para quem foi vacinado após os 5 anos de idade.",
+      "alternativas": {
+        "A": "A vacina é indicada independentemente da duração da estadia.",
+        "B": "A orientação sobre malária é útil, mas a pergunta é sobre a vacina contra febre amarela.",
+        "C": "A vacina contra febre amarela é indicada, e a quimioprofilaxia para malária não é rotina.",
+        "D": "Correta (gabarito oficial): vacinar pelo menos 10 dias antes e portar o cartão.",
+        "E": "Não há indicação de reforço a cada cinco anos."
+      }
+    }
+  },
+  "revalida_2013_q065": {
+    "pt": {
+      "resumo": "Criança com bom comportamento em casa, sem atos indisciplinares além do esperado para a idade, com queda de rendimento num contexto de trocas de professores e luto pelo pai: não há elementos para diagnosticar transtorno. A conduta é acompanhar e avaliar melhor antes de decidir sobre encaminhamento, evitando medicalizar.",
+      "alternativas": {
+        "A": "Não há sinais de distúrbio de linguagem.",
+        "B": "Não há sintomas de TDAH em vários ambientes.",
+        "C": "Correta: comportamento aceitável, com seguimento.",
+        "D": "Não há comportamento antissocial descrito.",
+        "E": "Não há padrão desafiador em casa nem em outros ambientes."
+      }
+    }
+  },
+  "revalida_2013_q066": {
+    "pt": {
+      "resumo": "Sangramento pós-menopausa com endométrio fino (2 mm, igual ou menor que 4 mm) na ultrassonografia: a causa mais provável é atrofia endometrial, a mais frequente nessa situação. Se o sangramento persistir, ainda assim se investiga com histeroscopia.",
+      "alternativas": {
+        "A": "A adenomiose regride após a menopausa.",
+        "B": "O pólipo costuma aparecer como espessamento focal.",
+        "C": "Correta: atrofia do endométrio.",
+        "D": "Com endométrio de 2 mm, o câncer é improvável, embora não impossível.",
+        "E": "Na hiperplasia, o endométrio está espessado."
+      }
+    }
+  },
+  "revalida_2013_q067": {
+    "pt": {
+      "resumo": "Hanseníase com baciloscopia positiva é multibacilar, independentemente do número de lesões. O esquema multibacilar dura 12 doses mensais: rifampicina 600 mg, clofazimina 300 mg e dapsona 100 mg supervisionadas por mês, mais clofazimina 50 mg e dapsona 100 mg autoadministradas por dia.",
+      "alternativas": {
+        "A": "Seis meses é o esquema paucibacilar.",
+        "B": "A dapsona é de 100 mg por mês e por dia.",
+        "C": "A rifampicina é de 600 mg mensal supervisionada, sem dose diária.",
+        "D": "Correta: clofazimina 300 mg mensal e 50 mg diária.",
+        "E": "Na intolerância à rifampicina, usam-se outros esquemas substitutos, não essa dose de ofloxacina."
+      }
+    }
+  },
+  "revalida_2013_q068": {
+    "pt": {
+      "resumo": "Lactente com febre, irritabilidade, fontanela abaulada e líquor turvo com neutrófilos, glicose muito baixa e proteína alta, com diplococos Gram-negativos: meningite bacteriana meningocócica (Neisseria meningitidis).",
+      "alternativas": {
+        "A": "A meningite viral tem linfócitos e glicose normal.",
+        "B": "O pneumococo é diplococo Gram-positivo.",
+        "C": "Correta: meningocócica.",
+        "D": "A tuberculosa tem linfócitos e evolução subaguda.",
+        "E": "A bacterioscopia já sugere o agente."
+      }
+    }
+  },
+  "revalida_2013_q069": {
+    "pt": {
+      "resumo": "Lactente de 8 meses com febre, faringe e amígdalas hiperemiadas com pontos brancos, hiperemia timpânica e roncos de transmissão, sem sinais de gravidade: faringoamigdalite, provavelmente viral (o estreptococo é raro antes dos 3 anos), e hiperemia timpânica sem abaulamento não define otite média. O tratamento é sintomático com antipirético.",
+      "alternativas": {
+        "A": "Correta: antipirético por via oral.",
+        "B": "O analgésico em spray não é usado em lactentes.",
+        "C": "Não há indicação de antibiótico no quadro viral.",
+        "D": "O anti-inflamatório não é necessário, e o antipirético basta.",
+        "E": "Não há indicação de antibiótico."
+      }
+    }
+  },
+  "revalida_2013_q070": {
+    "pt": {
+      "resumo": "Lactente de 8 meses não vacinado com meningite bacteriana (líquor turvo, neutrófilos, glicose muito baixa) e bacilos Gram-negativos na bacterioscopia: Haemophilus influenzae tipo b (cocobacilo Gram-negativo), comum em crianças não vacinadas.",
+      "alternativas": {
+        "A": "A E. coli predomina no período neonatal.",
+        "B": "A Neisseria é diplococo, não bacilo.",
+        "C": "Correta: Haemophilus influenzae.",
+        "D": "O pneumococo é Gram-positivo.",
+        "E": "A tuberculose não aparece no Gram e tem linfócitos."
+      }
+    }
+  },
+  "revalida_2013_q071": {
+    "pt": {
+      "resumo": "Pelo Decreto 7.508/2011, a atenção primária é a porta de entrada preferencial do SUS e coordena o cuidado. Diabéticos sem complicações crônicas devem ser acompanhados na atenção primária.",
+      "alternativas": {
+        "A": "Correta: atenção primária.",
+        "B": "A atenção secundária é para complicações ou casos selecionados.",
+        "C": "A atenção domiciliar é para pacientes restritos ao domicílio.",
+        "D": "A vigilância não é porta de entrada assistencial.",
+        "E": "O ambulatório especializado é referência, não porta de entrada."
+      }
+    }
+  },
+  "revalida_2013_q072": {
+    "pt": {
+      "resumo": "Pelo calendário da época, gestante com esquema antitetânico completo e última dose há menos de 5 anos não precisava de nova dose de dT. Hoje, recomenda-se a dTpa em toda gestação (a partir de 20 semanas), para proteger o recém-nascido contra a coqueluche.",
+      "alternativas": {
+        "A": "Com esquema completo, não são necessárias duas doses.",
+        "B": "Pela regra da época, não havia reforço com dose há menos de 5 anos.",
+        "C": "Não havia indicação de doses adicionais.",
+        "D": "Correta (gabarito oficial): não aplicar, pela cobertura prévia.",
+        "E": "O feto estava protegido pelos anticorpos maternos com o esquema completo."
+      }
+    }
+  },
+  "revalida_2013_q073": {
+    "pt": {
+      "resumo": "Cirrose alcoólica em abstinência há 2 anos, após hemorragia varicosa tratada com ligadura e estável: pode receber alta com profilaxia secundária (betabloqueador não seletivo, como o propranolol, e programa de ligaduras), antibiótico profilático conforme indicado, diuréticos para a ascite, e manter a avaliação para transplante, de que a cirrose alcoólica com abstinência é indicação válida.",
+      "alternativas": {
+        "A": "Não é preciso manter internado até o transplante.",
+        "B": "Não há indício de recaída alcoólica, e o diazepam é inadequado na cirrose.",
+        "C": "Não há base para suspeitar de recaída e suspender a avaliação.",
+        "D": "A cirrose alcoólica com abstinência é indicação de transplante.",
+        "E": "Correta: alta com profilaxia e manutenção da avaliação para transplante."
+      }
+    }
+  },
+  "revalida_2013_q074": {
+    "pt": {
+      "resumo": "Diabética com celulite extensa, febre e taquicardia: deve-se avaliar sepse e possível infecção necrosante. O lactato sérico elevado indica hipoperfusão e gravidade do comprometimento tecidual, orientando a reposição volêmica e a avaliação cirúrgica.",
+      "alternativas": {
+        "A": "A leucometria é inespecífica.",
+        "B": "Correta: lactato sérico.",
+        "C": "A haptoglobina avalia hemólise.",
+        "D": "A ferritina é marcador inflamatório inespecífico.",
+        "E": "A PCR é inespecífica para a gravidade tecidual."
+      }
+    }
+  },
+  "revalida_2013_q075": {
+    "pt": {
+      "resumo": "Pessoa com HIV avançado (pneumocistose prévia, pancitopenia) com odinofagia grave, úlceras esofágicas extensas e alteração visual (provável retinite): infecção por citomegalovírus (esofagite e retinite). O tratamento é ganciclovir intravenoso. A candidíase oral pode coexistir, mas não explica as úlceras e a retinite.",
+      "alternativas": {
+        "A": "O fluconazol trata a candidíase, que não explica as úlceras e a retinite.",
+        "B": "Correta: ganciclovir.",
+        "C": "O IBP não trata a infecção.",
+        "D": "O sulfametoxazol-trimetoprima é profilaxia e tratamento da pneumocistose.",
+        "E": "A TARV é necessária, mas não trata a infecção oportunista aguda."
+      }
+    }
+  },
+  "revalida_2013_q076": {
+    "pt": {
+      "resumo": "Aos 7 meses, são marcos esperados: balbucio e repetição de sons (ecolalia), sentar sem apoio, passar objetos de uma mão para a outra e persistência do reflexo de preensão plantar (que dura até cerca de 15 meses).",
+      "alternativas": {
+        "A": "A sustentação cefálica é marco de 3 meses, e o Moro já deveria ter sumido.",
+        "B": "Sílabas com significado e engatinhar são esperados mais tarde.",
+        "C": "O Moro desaparece por volta dos 6 meses.",
+        "D": "Correta: ecolalia, sentar sem apoio, passar objetos e preensão plantar.",
+        "E": "Palavras-frase e andar com apoio são marcos de 1 ano ou mais."
+      }
+    }
+  },
+  "revalida_2013_q077": {
+    "pt": {
+      "resumo": "No ajuste de insulina, a glicemia de jejum reflete a NPH da noite. Se a glicemia de jejum estiver acima da meta na maioria dos dias, aumenta-se em 2 unidades a NPH noturna (antes do jantar ou ao deitar).",
+      "alternativas": {
+        "A": "A glicemia ao deitar reflete a insulina regular do jantar.",
+        "B": "A glicemia antes do almoço reflete a insulina regular do café.",
+        "C": "Acrescentar 8 unidades de NPH no almoço é ajuste excessivo e sem base.",
+        "D": "Correta: aumentar 2 unidades da NPH noturna.",
+        "E": "A glicemia de jejum é corrigida ajustando a NPH noturna."
+      }
+    }
+  },
+  "revalida_2013_q078": {
+    "pt": {
+      "resumo": "Puérpera com dor, hiperemia, calor e edema localizados na mama, febre, calafrios e adinamia, com mamilos íntegros: mastite lactacional. A conduta é esvaziar a mama (mantendo a amamentação e retirando manualmente o leite após as mamadas) e antibiótico (como cefalexina), com analgesia.",
+      "alternativas": {
+        "A": "A candidíase mamária causa dor em queimação nos mamilos, sem febre.",
+        "B": "O ducto bloqueado não causa febre alta e não se trata com punção.",
+        "C": "Não há flutuação que indique abscesso.",
+        "D": "O ingurgitamento é bilateral e sem sinais localizados de infecção.",
+        "E": "Correta: mastite com esvaziamento e antibiótico."
+      }
+    }
+  },
+  "revalida_2013_q079": {
+    "pt": {
+      "resumo": "Colelitíase sintomática (cólicas biliares) com indicação de colecistectomia. Diante da recusa, o médico deve esclarecer o diagnóstico, a indicação cirúrgica e os riscos de complicações (colecistite, coledocolitíase, pancreatite), respeitando a decisão informada do paciente.",
+      "alternativas": {
+        "A": "O tratamento clínico não resolve a colelitíase sintomática.",
+        "B": "Agendar a cirurgia contra a vontade do paciente desrespeita sua autonomia.",
+        "C": "Correta: esclarecer o diagnóstico, a indicação e os riscos.",
+        "D": "A ressonância não é necessária.",
+        "E": "Recusar uma cirurgia não é sinal de transtorno psiquiátrico."
+      }
+    }
+  },
+  "revalida_2013_q080": {
+    "pt": {
+      "resumo": "Gestante com fator de risco para diabetes gestacional (filho anterior com 4.200 g, idade acima de 35 anos) e glicemia de jejum normal no início: deve fazer o teste oral de tolerância à glicose com 75 g entre 24 e 28 semanas.",
+      "alternativas": {
+        "A": "A glicemia inicial normal não exclui diabetes gestacional.",
+        "B": "A glicemia de jejum isolada é menos sensível que o TOTG.",
+        "C": "A hemoglobina glicada não é usada para diagnosticar diabetes gestacional.",
+        "D": "Correta: TOTG com 75 g com 28 semanas.",
+        "E": "A glicemia pós-prandial não é o teste padronizado."
+      }
+    }
+  },
+  "revalida_2013_q081": {
+    "pt": {
+      "resumo": "Criança de 8 anos com edema, urina espumosa, proteinúria importante e sem hematúria ou hipertensão: síndrome nefrótica, provavelmente por lesão mínima (a mais comum nessa idade). O tratamento da doença de base é corticoide (prednisona), com boa resposta na maioria dos casos.",
+      "alternativas": {
+        "A": "O diurético alivia o edema, mas não trata a doença.",
+        "B": "Não há infecção a tratar.",
+        "C": "A pressão arterial está normal.",
+        "D": "Correta: corticoide.",
+        "E": "O anti-inflamatório pode piorar a função renal."
+      }
+    }
+  },
+  "revalida_2013_q082": {
+    "pt": {
+      "resumo": "Astenia, sonolência, ganho de peso, constipação, pele seca, bradicardia e mialgias: hipotireoidismo, mais comumente primário (tireoidite de Hashimoto). Solicitam-se TSH e T4 livre; espera-se TSH alto com T4 baixo.",
+      "alternativas": {
+        "A": "A fibromialgia não explica bradicardia, constipação e pele seca.",
+        "B": "Correta: TSH e T4 livre, hipotireoidismo primário.",
+        "C": "O hiperparatireoidismo causa outros sintomas (cálculos, dor óssea, alterações de humor).",
+        "D": "O hipotireoidismo secundário é raro e costuma ter outras deficiências hormonais.",
+        "E": "Na insuficiência adrenal há perda de peso e hipotensão."
+      }
+    }
+  },
+  "revalida_2013_q083": {
+    "pt": {
+      "resumo": "Infecção superficial da ferida operatória com secreção purulenta, sem febre nem sinais de infecção profunda: o tratamento principal é abrir a ferida (retirar os pontos), drenar e fazer curativos. O antibiótico já em uso para apendicite gangrenosa é mantido.",
+      "alternativas": {
+        "A": "Sem drenar a coleção, o antibiótico não resolve.",
+        "B": "Calor local não drena o pus.",
+        "C": "Correta: manter o antibiótico e retirar os pontos para drenar.",
+        "D": "Sem febre ou sinais sistêmicos, não há indicação imediata de imagem.",
+        "E": "Não há sinais de infecção intracavitária."
+      }
+    }
+  },
+  "revalida_2013_q084": {
+    "pt": {
+      "resumo": "O número de casos novos de uma doença em uma população num período (aqui, 1 ano) é a incidência.",
+      "alternativas": {
+        "A": "A letalidade é a proporção de óbitos entre os doentes.",
+        "B": "Correta: incidência.",
+        "C": "Morbidade é termo genérico para doença na população.",
+        "D": "A prevalência inclui casos novos e antigos.",
+        "E": "A mortalidade refere-se a óbitos."
+      }
+    }
+  },
+  "revalida_2013_q085": {
+    "pt": {
+      "resumo": "Estudos recentes mostram que a profilaxia antibiótica contínua em crianças com refluxo vesicoureteral de baixo grau (I a III) tem benefício pequeno ou nenhum na prevenção de novas infecções e seleciona germes resistentes. Para refluxo grau II, não está indicada de rotina.",
+      "alternativas": {
+        "A": "A eficácia no refluxo de baixo grau não foi demonstrada.",
+        "B": "Correta: a profilaxia não está indicada.",
+        "C": "Não há indicação precisa no refluxo grau II.",
+        "D": "O sexo não define a indicação.",
+        "E": "A profilaxia não é indicada em todos os casos de refluxo."
+      }
+    }
+  },
+  "revalida_2013_q086": {
+    "pt": {
+      "resumo": "Urocultura com mais de 100.000 UFC/mL em gestante assintomática: bacteriúria assintomática, que deve sempre ser tratada para prevenir pielonefrite e parto prematuro. Faz-se antibiótico guiado pelo antibiograma e urocultura de controle cerca de 7 dias após o tratamento.",
+      "alternativas": {
+        "A": "A profilaxia contínua não é a conduta inicial.",
+        "B": "Correta: tratar e repetir a urocultura após o tratamento.",
+        "C": "O resultado não sugere contaminação, que daria crescimento misto.",
+        "D": "A ultrassonografia não é necessária.",
+        "E": "A urocultura positiva já confirma; o nitrito não é necessário."
+      }
+    }
+  },
+  "revalida_2013_q087": {
+    "pt": {
+      "resumo": "Nas Redes de Atenção à Saúde (Portaria 4.279/2010), os pontos de atenção são igualmente importantes e se relacionam de forma horizontal, diferenciando-se pela densidade tecnológica, com a atenção primária no centro de comunicação e coordenação do cuidado.",
+      "alternativas": {
+        "A": "Os pontos de urgência não são só hospitais terciários.",
+        "B": "As relações são horizontais, não verticais.",
+        "C": "O centro de comunicação da rede é a atenção primária.",
+        "D": "As redes não são um modelo linear.",
+        "E": "Correta: relações horizontais, com diferentes densidades tecnológicas."
+      }
+    }
+  },
+  "revalida_2013_q088": {
+    "pt": {
+      "resumo": "Primigesta em fase ativa (6 cm) sem progressão da dilatação por 3 horas, com contrações enfraquecidas (hipoatividade uterina) e descida progressiva: distocia funcional, com fase ativa prolongada. A conduta é estimular a deambulação e, se necessário, ocitocina (com ou sem amniotomia).",
+      "alternativas": {
+        "A": "Correta: fase ativa prolongada por distocia funcional, com deambulação e ocitocina.",
+        "B": "Com 6 cm, ela já está na fase ativa.",
+        "C": "O período pélvico é o expulsivo, e ela ainda não tem dilatação completa.",
+        "D": "A descida é progressiva e o problema é a dinâmica uterina, não desproporção.",
+        "E": "A descida está progredindo."
+      }
+    }
+  },
+  "revalida_2013_q089": {
+    "pt": {
+      "resumo": "Trauma torácico com choque, dispneia, murmúrio abolido e macicez à direita: hemotórax maciço. A conduta é drenagem pleural no 5º espaço intercostal, entre as linhas axilares anterior e média, com material pronto para autotransfusão, além de reposição volêmica. Grande volume drenado (1.500 mL ou mais) indica toracotomia.",
+      "alternativas": {
+        "A": "Não há sinais de tamponamento.",
+        "B": "O 2º espaço é para punção de pneumotórax hipertensivo, não para drenar hemotórax.",
+        "C": "Esperar a radiografia atrasa a conduta em paciente chocado.",
+        "D": "A punção no 2º espaço é para pneumotórax, e aqui há macicez.",
+        "E": "Correta: drenagem no 5º espaço com preparo para autotransfusão."
+      }
+    }
+  },
+  "revalida_2013_q090": {
+    "pt": {
+      "resumo": "Recém-nascido com hepatoesplenomegalia, icterícia, plaquetopenia, microcefalia com calcificações periventriculares, coriorretinite e surdez: citomegalovírus congênito sintomático. O tratamento é ganciclovir intravenoso (ou valganciclovir oral), que melhora o prognóstico auditivo e do desenvolvimento.",
+      "alternativas": {
+        "A": "O herpes neonatal causa lesões de pele e encefalite, sem esse padrão de calcificações.",
+        "B": "Correta: citomegalovírus e ganciclovir.",
+        "C": "Na rubéola predominam catarata e cardiopatia.",
+        "D": "Na sífilis predominam lesões ósseas e rinite.",
+        "E": "Na toxoplasmose, as calcificações são difusas e há hidrocefalia."
+      }
+    }
+  },
+  "revalida_2013_q091": {
+    "pt": {
+      "resumo": "Primeira semana pós-parto com insônia, delírios, alucinações, agitação e confusão: psicose puerperal, emergência psiquiátrica pelo risco de suicídio e infanticídio. Exige avaliação psiquiátrica urgente e proteção da mãe e do bebê.",
+      "alternativas": {
+        "A": "A disforia (baby blues) é leve e sem sintomas psicóticos.",
+        "B": "Correta: psicose pós-parto.",
+        "C": "A depressão pós-parto não costuma ter alucinações e delírios.",
+        "D": "O transtorno de ansiedade não causa sintomas psicóticos.",
+        "E": "Pode estar relacionada ao transtorno bipolar, mas o diagnóstico apresentado é a psicose puerperal."
+      }
+    }
+  },
+  "revalida_2013_q092": {
+    "pt": {
+      "resumo": "Contatos de tuberculose pulmonar: os sintomáticos fazem investigação de doença ativa (escarro e radiografia) e os assintomáticos fazem prova tuberculínica (ou IGRA) para identificar infecção latente e indicar tratamento preventivo, especialmente em instituições como asilos.",
+      "alternativas": {
+        "A": "Não se trata quem não tem doença confirmada.",
+        "B": "A baciloscopia é para quem tem sintomas.",
+        "C": "Os assintomáticos também devem ser avaliados.",
+        "D": "Correta: prova tuberculínica nos contatos assintomáticos.",
+        "E": "A radiografia de todos não é a conduta padrão para assintomáticos."
+      }
+    }
+  },
+  "revalida_2013_q093": {
+    "pt": {
+      "resumo": "Pelo partograma do gabarito, a dilatação deixa de progredir por 2 horas ou mais na fase ativa, com contrações adequadas, cruzando a linha de ação: parada secundária da dilatação, geralmente por desproporção cefalopélvica, com indicação de cesárea.",
+      "alternativas": {
+        "A": "O padrão não é de fase ativa prolongada.",
+        "B": "O problema mostrado é a dilatação, não a descida.",
+        "C": "Correta: parada secundária da dilatação com cesárea.",
+        "D": "Com dinâmica adequada, a ocitocina não resolve a desproporção.",
+        "E": "O problema não é a descida, e a analgesia não resolve."
+      }
+    }
+  },
+  "revalida_2013_q094": {
+    "pt": {
+      "resumo": "Esforço físico extremo (maratona), mialgia, urina escura com hemoglobina na fita mas poucas hemácias (mioglobinúria), CPK muito elevada e lesão renal aguda: rabdomiólise. A conduta inicial é hidratação venosa vigorosa para manter débito urinário alto e proteger os rins, com controle de eletrólitos.",
+      "alternativas": {
+        "A": "Não há exposição de risco nem quadro febril típico de leptospirose, e a diálise não é a primeira medida.",
+        "B": "A polimiosite é crônica e não surge após esforço.",
+        "C": "Correta: rabdomiólise com hidratação venosa.",
+        "D": "A desidratação isolada não explica a CPK de 9.800.",
+        "E": "Não há doença hepática que sugira síndrome hepatorrenal."
+      }
+    }
+  },
+  "revalida_2013_q095": {
+    "pt": {
+      "resumo": "TCE grave (Glasgow 8) com hematoma subdural, desvio da linha média, anisocoria e postura de decorticação: hipertensão intracraniana com herniação. Pelo gabarito, faz-se hiperventilação para PaCO₂ de 25 a 30 mmHg e manitol em bolus como medidas temporárias, craniotomia imediata e monitorização da pressão intracraniana. Hoje se recomenda hiperventilação só breve e na herniação iminente, mantendo PaCO₂ de 30 a 35 mmHg.",
+      "alternativas": {
+        "A": "Faltam as medidas temporárias para reduzir a pressão intracraniana.",
+        "B": "A craniotomia não deve esperar a redução da pressão intracraniana; é imediata.",
+        "C": "A furosemida não é a escolha; usa-se manitol.",
+        "D": "O manitol deve ser dado em bolus, não em infusão lenta.",
+        "E": "Correta (gabarito oficial): hiperventilação, manitol em bolus e craniotomia imediata."
+      }
+    }
+  },
+  "revalida_2013_q096": {
+    "pt": {
+      "resumo": "Pela PNAB, a atenção básica é o centro de comunicação da rede e responsável pela coordenação do cuidado, oferecendo atenção integral à população. Por isso, é fundamental no enfrentamento de epidemias como a dengue (acolhimento, classificação de risco, tratamento e vigilância).",
+      "alternativas": {
+        "A": "O controle de vetores também envolve os agentes de endemias e a vigilância, não só os ACS.",
+        "B": "Correta: centralidade do cuidado e atenção integral.",
+        "C": "A atenção básica usa tecnologias de alta complexidade e baixa densidade.",
+        "D": "A atenção básica não é só triagem; ela trata e acompanha os casos.",
+        "E": "A atuação da atenção básica não é só individual."
+      }
+    }
+  },
+  "revalida_2013_q097": {
+    "pt": {
+      "resumo": "Lactente com diarreia aquosa prolongada (12 dias, após quadro agudo), fezes explosivas e dermatite perianal (fezes ácidas), em uso de leite de vaca: intolerância secundária à lactose. A conduta é dieta temporariamente sem lactose, mantendo a nutrição.",
+      "alternativas": {
+        "A": "A doença celíaca exige introdução prévia de glúten e causa perda de peso importante.",
+        "B": "Correta: intolerância à lactose com dieta sem lactose.",
+        "C": "A alergia ao leite costuma ter sangue nas fezes ou outros sinais alérgicos.",
+        "D": "A fibrose cística causa esteatorreia e déficit de crescimento desde cedo.",
+        "E": "A doença inflamatória é rara nessa idade e não se trata com antibiótico."
+      }
+    }
+  },
+  "revalida_2013_q098": {
+    "pt": {
+      "resumo": "A medida de maior impacto para prevenir lesões induzidas pelo HPV, inclusive o câncer de colo, é a vacinação, que é mais eficaz antes do início da vida sexual. O rastreamento citológico começa aos 25 anos.",
+      "alternativas": {
+        "A": "Correta: vacinação contra o HPV.",
+        "B": "A captura híbrida anual não é recomendada nessa idade.",
+        "C": "O contraceptivo oral não previne a infecção pelo HPV.",
+        "D": "O rastreamento começa aos 25 anos e não é anual.",
+        "E": "A peniscopia não é estratégia de prevenção."
+      }
+    }
+  },
+  "revalida_2013_q099": {
+    "pt": {
+      "resumo": "Pelo Código de Ética Médica, o paciente capaz tem direito a conhecer seu diagnóstico, prognóstico e riscos. O provável quadro demencial leve a moderado não retira a capacidade de entender. O médico deve informar o paciente de forma adequada e orientá-lo sobre a evolução, apesar do pedido da esposa.",
+      "alternativas": {
+        "A": "Correta: informar o paciente e orientá-lo sobre a progressão.",
+        "B": "O desejo da esposa não se sobrepõe ao direito do paciente.",
+        "C": "Encaminhar para outro médico informar é omissão.",
+        "D": "A comunicação do diagnóstico cabe ao médico, com o paciente.",
+        "E": "Adiar a informação até o agravamento tira do paciente a chance de decidir sobre sua vida."
+      }
+    }
+  },
+  "revalida_2013_q100": {
+    "pt": {
+      "resumo": "Pelo Guia para Uso de Hemocomponentes, a transfusão tem riscos imediatos e tardios (reações, infecções, aloimunização) e deve ser evitada sempre que possível. A colecistectomia raramente exige transfusão, e a hemoglobina de 11 g/dL não indica reserva de sangue.",
+      "alternativas": {
+        "A": "Correta: a transfusão tem riscos e deve ser evitada, se possível.",
+        "B": "A transfusão costuma ser considerada com perdas bem maiores (acima de 30% da volemia).",
+        "C": "A colecistectomia não exige reserva de sangue de rotina.",
+        "D": "Anemia leve não justifica reserva de sangue.",
+        "E": "A transfusão não deve ser usada para acelerar a recuperação."
+      }
+    }
+  },
+  "revalida_2013_q101": {
+    "pt": {
+      "resumo": "Idoso recém-saído do hospital após amputação por complicações do diabetes, com histórico de má adesão. Pelo gabarito, a prioridade imediata é realizar o curativo, acompanhar a ferida e supervisionar o uso dos medicamentos (insulina), com visitas diárias da enfermagem. A avaliação multidimensional também deve fazer parte do seguimento.",
+      "alternativas": {
+        "A": "Correta (gabarito oficial): curativo, avaliação da ferida e supervisão dos medicamentos com visitas diárias.",
+        "B": "A prevenção quaternária não substitui o cuidado necessário agora.",
+        "C": "A avaliação multidimensional é importante, mas o gabarito prioriza o cuidado imediato da ferida e da medicação.",
+        "D": "Levá-lo de ambulância todos os dias à unidade é desnecessário.",
+        "E": "Transportá-lo todos os dias para aplicar insulina é inviável e desnecessário."
+      }
+    }
+  },
+  "revalida_2013_q102": {
+    "pt": {
+      "resumo": "Lombalgia de uma semana relacionada ao esforço, sem limitação funcional e com Lasègue negativo, sem sinais de alerta (a queixa sensitiva isolada sem achados objetivos não muda a conduta inicial): lombalgia mecânica aguda. O tratamento é anti-inflamatório e fisioterapia ou atividade, sem exames de imagem.",
+      "alternativas": {
+        "A": "Correta: anti-inflamatório e fisioterapia.",
+        "B": "A ressonância não é indicada sem sinais de alerta ou déficit objetivo.",
+        "C": "A infiltração não é tratamento inicial.",
+        "D": "O afastamento prolongado piora a evolução.",
+        "E": "A cintilografia não está indicada."
+      }
+    }
+  },
+  "revalida_2013_q104": {
+    "pt": {
+      "resumo": "A avó tinha herpes-zóster na face (pela figura) e o lactente desenvolveu febre e lesões vesiculares: o contato com o zóster transmite o vírus varicela-zóster, causando varicela em quem não é imune. Em lactente saudável, sem complicações, o tratamento é ambulatorial com sintomáticos (evitar AAS) e observação dos sinais de complicação.",
+      "alternativas": {
+        "A": "O lactente tem varicela, não zóster, e não há indicação de corticoide.",
+        "B": "A transmissão foi do vírus varicela-zóster, não do herpes simples.",
+        "C": "A coxsackiose não se relaciona com o zóster da avó.",
+        "D": "Correta: varicela com sintomáticos.",
+        "E": "O exantema súbito não tem vesículas."
+      }
+    }
+  },
+  "revalida_2013_q105": {
+    "pt": {
+      "resumo": "Déficit neurológico transitório (AIT) em hipertensa com fibrilação atrial (ritmo irregular, confirmada no eletrocardiograma) e tomografia normal: risco alto de AVC cardioembólico (CHA₂DS₂-VASc de 3 ou mais). A medida de maior impacto é a anticoagulação oral (varfarina, ou hoje os anticoagulantes diretos).",
+      "alternativas": {
+        "A": "Correta: varfarina.",
+        "B": "O clopidogrel é menos eficaz na fibrilação atrial.",
+        "C": "A ticlopidina não é indicada.",
+        "D": "A estatina não é a principal medida para AVC cardioembólico.",
+        "E": "O AAS é muito menos eficaz que a anticoagulação na fibrilação atrial."
+      }
+    }
+  },
+  "revalida_2013_q106": {
+    "pt": {
+      "resumo": "Mulher com ciclos ovulatórios. Pela figura, o achado é muco cervical abundante, cristalino e elástico (filância), característico do período pré-ovulatório imediato, sob efeito do pico de estrogênio.",
+      "alternativas": {
+        "A": "O contraceptivo combinado deixa o muco espesso e escasso.",
+        "B": "Na cervicite, o muco é purulento.",
+        "C": "Com estrogênio baixo, o muco é escasso.",
+        "D": "Correta: período pré-ovulatório imediato.",
+        "E": "Na fase lútea, a progesterona deixa o muco espesso."
+      }
+    }
+  },
+  "revalida_2013_q108": {
+    "pt": {
+      "resumo": "Pancitopenia (anemia, leucopenia com neutropenia e plaquetopenia) com reticulócitos ausentes e macrocitose leve: falência medular, sugestiva de anemia aplásica. Confirma-se com biópsia de medula (hipocelular). A cimetidina pode, raramente, se associar a mielotoxicidade.",
+      "alternativas": {
+        "A": "A anemia perniciosa costuma ter macrocitose mais marcada e sinais de hemólise ineficaz; o gabarito aponta aplasia.",
+        "B": "Correta: anemia aplásica.",
+        "C": "Na hemólise, os reticulócitos estariam aumentados.",
+        "D": "A anemia de doença crônica não causa pancitopenia.",
+        "E": "Na deficiência de folato, a macrocitose é mais acentuada."
+      }
+    }
+  },
+  "revalida_2013_q109": {
+    "pt": {
+      "resumo": "Lactente com regurgitação frequente e baixo ganho de peso: doença do refluxo gastroesofágico. O gabarito, de acordo com a prática da época, indica manter a alimentação, medidas antirrefluxo e domperidona, com reavaliação. Hoje, os procinéticos não são recomendados; prefere-se espessar a dieta e otimizar a alimentação, considerando teste com dieta sem proteína do leite de vaca e IBP em casos selecionados.",
+      "alternativas": {
+        "A": "Correta (gabarito oficial): manter a alimentação, medidas antirrefluxo e domperidona.",
+        "B": "Não se suspende o aleitamento materno.",
+        "C": "A pHmetria não é exame inicial.",
+        "D": "Não se suspende o aleitamento, e a endoscopia não é a primeira medida.",
+        "E": "Apenas acrescentar fórmula não trata o refluxo."
+      }
+    }
+  },
+  "revalida_2013_q110": {
+    "pt": {
+      "resumo": "Febre, dor pélvica intensa com irritação peritoneal, corrimento purulento cervical e dor à mobilização do colo e anexos: doença inflamatória pélvica com sinais de gravidade (peritonite, febre alta, vômitos). Há indicação de tratamento hospitalar com antibiótico intravenoso.",
+      "alternativas": {
+        "A": "O diagnóstico é clínico; não depende de leucocitose ou VHS.",
+        "B": "O tratamento não deve esperar a identificação do agente.",
+        "C": "Correta: tratamento hospitalar.",
+        "D": "A cirurgia é para abscesso que não responde ou ruptura.",
+        "E": "Com peritonite e vômitos, não se trata em ambulatório."
+      }
+    }
   }
 }
