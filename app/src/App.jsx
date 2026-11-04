@@ -182,8 +182,8 @@ export default function App() {
             <Icone nome="menu" tamanho={22} />
           </button>
           <button className="marca" onClick={() => ir('painel')} aria-label={t('RX ENAMED, ir ao painel')}>
-            <span className="marca-simbolo" aria-hidden="true">RX</span>
-            <span className="marca-nome">RX <em>ENAMED</em></span>
+            <span className="marca-simbolo" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none" strokeWidth="8"><path d="M10 58V14H27A10 10 0 0 1 27 34H10" stroke="#FFFFFF" strokeMiterlimit="10" /><path d="M23 34L48 58" stroke="#FFFFFF" /><path d="M28 58L60 8" stroke="#19A987" /></svg></span>
+            <span className="marca-nome"><b>RX</b>ENAMED</span>
           </button>
           <button className="avatar-mini" onClick={() => ir('perfil')} aria-label={t('Meu perfil')}>{iniciais(conta.usuario?.nome)}</button>
         </header>
@@ -192,8 +192,8 @@ export default function App() {
         <aside id="menu-lateral" className="lateral" aria-label={t('Menu da área do aluno')}>
           <div className="lateral-topo">
             <button className="marca" onClick={() => ir('painel')} aria-label={t('RX ENAMED, ir ao painel')}>
-              <span className="marca-simbolo" aria-hidden="true">RX</span>
-              <span className="marca-nome">RX <em>ENAMED</em></span>
+              <span className="marca-simbolo" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none" strokeWidth="8"><path d="M10 58V14H27A10 10 0 0 1 27 34H10" stroke="#FFFFFF" strokeMiterlimit="10" /><path d="M23 34L48 58" stroke="#FFFFFF" /><path d="M28 58L60 8" stroke="#19A987" /></svg></span>
+              <span className="marca-nome"><b>RX</b>ENAMED</span>
             </button>
             <button className="botao-fechar-menu" onClick={() => setMenuAberto(false)} aria-label={t('Fechar menu')}><Icone nome="x" /></button>
           </div>

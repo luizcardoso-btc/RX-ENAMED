@@ -16,7 +16,7 @@ body { background: var(--papel); color: var(--tinta); font-family: var(--f-ui); 
 .rx-selos span::before { content: '✓ '; color: var(--certo); font-weight: 700; }
 .rx-passo { margin-bottom: 18px; }
 .rx-passo h2 { font-size: 1.05rem; margin: 0 0 12px; display: flex; gap: 10px; align-items: center; }
-.rx-num { width: 26px; height: 26px; border-radius: 50%; background: var(--acento); color: #fff; display: inline-grid; place-items: center; font-size: .85rem; font-weight: 700; }
+.rx-num { width: 26px; height: 26px; border-radius: 50%; background: var(--acento); color: #102B38; display: inline-grid; place-items: center; font-size: .85rem; font-weight: 700; }
 .rx-campo { display: grid; gap: 6px; margin-bottom: 12px; }
 .rx-campo span { font-size: .85rem; color: var(--tinta-2); }
 .rx-campo input, .rx-campo select { background: var(--folha-2); color: var(--tinta); border: 1px solid var(--linha); border-radius: 10px; padding: 11px 12px; font: inherit; width: 100%; box-sizing: border-box; }
@@ -75,26 +75,26 @@ button.botao { font: inherit; font-weight: 600; }
 .rx-legal { max-width: 760px; line-height: 1.7; }
 .rx-legal h2 { margin-top: 28px; }
 
-/* ---------- login: radiografia ao fundo, desfocada ---------- */
-.pagina-login { min-height: 100vh; position: relative; overflow-x: hidden; background: #04060b; }
+/* ---------- login: grafismo RX MED ao fundo (cruzamento do símbolo + padrão) ---------- */
+.pagina-login { min-height: 100vh; position: relative; overflow-x: hidden; background: #102B38; }
 .pagina-login::before {
   content: ''; position: fixed; inset: -40px; height: auto; z-index: 0; pointer-events: none;
-  background: url('/_rx/fundo-rx.svg') no-repeat 78% 50% / min(980px, 120vh) auto;
-  filter: blur(4px); opacity: .28;
+  background: url('/_rx/fundo-rx.svg') no-repeat 100% 50% / min(980px, 120vh) auto;
+  opacity: .9;
 }
 .pagina-login::after {
   content: ''; position: fixed; inset: 0; z-index: 0; pointer-events: none;
   background:
-    radial-gradient(60% 55% at 78% 45%, rgb(56 132 255 / .20), transparent 70%),
-    radial-gradient(45% 40% at 12% 85%, rgb(123 227 255 / .08), transparent 70%),
-    linear-gradient(180deg, rgb(4 6 11 / .05), rgb(4 6 11 / .6));
+    radial-gradient(60% 55% at 78% 45%, rgb(25 169 135 / .20), transparent 70%),
+    radial-gradient(45% 40% at 12% 85%, rgb(25 169 135 / .08), transparent 70%),
+    linear-gradient(180deg, rgb(6 20 27 / .05), rgb(6 20 27 / .6));
 }
 .pagina-login > * { position: relative; z-index: 1; }
 .login-topo { background: transparent; border-bottom-color: transparent; }
 .login-grade { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(320px, 440px); gap: 56px; align-items: center; min-height: calc(100vh - 60px); padding-block: 32px 56px; }
-.login-sobre { font: 600 .78rem var(--f-rotulo, inherit); letter-spacing: .1em; text-transform: uppercase; color: var(--luz, #7be3ff); }
+.login-sobre { font: 600 .78rem var(--f-rotulo, inherit); letter-spacing: .1em; text-transform: uppercase; color: var(--luz, #2CC79F); }
 .login-chamada { font-family: var(--f-display); font-weight: 800; font-size: clamp(2.2rem, 4.4vw, 3.4rem); line-height: 1.05; margin: 14px 0 16px; color: var(--tinta); }
-.login-chamada span { background: linear-gradient(90deg, #7be3ff, #6aa8ff 60%, #a5b4fc); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.login-chamada span { background: linear-gradient(90deg, #2CC79F, #2CC79F 60%, #8FE3CB); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .login-texto { color: var(--tinta-2); font-size: 1.05rem; max-width: 34rem; line-height: 1.6; }
 .login-beneficios { list-style: none; padding: 0; margin: 26px 0; display: grid; gap: 12px; max-width: 34rem; }
 .login-beneficios li { display: flex; gap: 12px; align-items: flex-start; color: var(--tinta-2); line-height: 1.45; }
@@ -103,16 +103,16 @@ button.botao { font: inherit; font-weight: 600; }
 .login-check::after { content: ''; position: absolute; left: 7px; top: 3px; width: 5px; height: 10px; border: solid var(--certo); border-width: 0 2px 2px 0; transform: rotate(45deg); }
 .login-seguro { color: var(--tinta-3); font-size: .85rem; }
 .login-cartao {
-  background: rgb(11 17 27 / .72); border-color: rgb(120 160 220 / .22); padding: 28px;
+  background: rgb(16 43 56 / .72); border-color: rgb(185 199 199 / .22); padding: 28px;
   backdrop-filter: blur(16px) saturate(130%); -webkit-backdrop-filter: blur(16px) saturate(130%);
   box-shadow: 0 30px 80px rgb(0 0 0 / .45), inset 0 1px 0 rgb(255 255 255 / .05);
 }
 .login-cartao h1 { font-size: 1.8rem; margin-bottom: 6px; }
-.login-cartao .rx-campo input { background: rgb(18 26 40 / .85); }
+.login-cartao .rx-campo input { background: rgb(22 56 74 / .85); }
 .campo-senha { position: relative; display: block; }
 .campo-senha input { padding-right: 78px !important; }
 .mostrar-senha { position: absolute; right: 6px; top: 50%; transform: translateY(-50%); background: none; border: 0; color: var(--realce); font: 600 .82rem var(--f-ui); padding: 6px 8px; border-radius: 6px; cursor: pointer; }
-.mostrar-senha:hover { background: rgb(106 168 255 / .12); }
+.mostrar-senha:hover { background: rgb(25 169 135 / .12); }
 @media (max-width: 900px) {
   .login-grade { grid-template-columns: minmax(0, 1fr); gap: 22px; min-height: 0; padding-block: 8px 40px; }
   .login-chamada { font-size: 2rem; margin: 8px 0 10px; }
@@ -136,9 +136,9 @@ button.botao { font: inherit; font-weight: 600; }
 .grafico-meta .g-meta { stroke: var(--aviso); stroke-dasharray: 5 4; stroke-width: 1.5; }
 .grafico-meta .g-rotulo { fill: var(--aviso); font: 600 11px var(--f-ui); }
 .grafico-meta .g-linha { fill: none; stroke: var(--realce); stroke-width: 2; }
-.grafico-meta .g-area { fill: rgb(106 168 255 / .12); }
+.grafico-meta .g-area { fill: rgb(25 169 135 / .12); }
 .grafico-meta .g-alvo { fill: transparent; }
-.grafico-meta .g-alvo:hover { fill: rgb(106 168 255 / .08); }
+.grafico-meta .g-alvo:hover { fill: rgb(25 169 135 / .08); }
 .funil { display: grid; gap: 12px; }
 .funil-etapa { display: grid; grid-template-columns: 9.5rem 1fr 4rem; gap: 4px 10px; align-items: center; }
 .funil-etapa small { grid-column: 2 / -1; }

@@ -161,16 +161,17 @@ ${SITE_URL ? `<meta property="og:url" content="${absoluto(lingua)}">` : ''}
 <meta name="twitter:title" content="${esc(titulo)}">
 <meta name="twitter:description" content="${esc(descricao)}">
 <meta name="robots" content="index, follow, max-snippet:-1">
-<meta name="theme-color" content="#2563eb">
+<meta name="theme-color" content="#102B38">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23102B38'/%3E%3Cg fill='none' stroke-width='8' transform='translate(6 6) scale(.81)'%3E%3Cpath d='M10 58V14H27A10 10 0 0 1 27 34H10' stroke='white'/%3E%3Cpath d='M23 34L48 58' stroke='white'/%3E%3Cpath d='M28 58L60 8' stroke='%2319A987'/%3E%3C/g%3E%3C/svg%3E">
 ${alternativos}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <link rel="stylesheet" href="${raizLingua('pt')}site.css">
 </head>
 <body>
 <header class="topo"><div class="envoltorio">
-  <a class="marca" href="${daRaiz(lingua, 'index.html')}"><span class="marca-simbolo" aria-hidden="true">RX</span><span>RX <em>ENAMED</em></span></a>
+  <a class="marca" href="${daRaiz(lingua, 'index.html')}"><span class="marca-simbolo" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none" stroke-width="8"><path d="M10 58V14H27A10 10 0 0 1 27 34H10" stroke="#FFFFFF" stroke-miterlimit="10"/><path d="M23 34L48 58" stroke="#FFFFFF"/><path d="M28 58L60 8" stroke="#19A987"/></svg></span><span class="marca-nome"><b>RX</b>ENAMED</span></a>
   <nav class="menu" aria-label="${lingua === 'es' ? 'Secciones' : 'Seções'}">
     <a href="${daRaiz(lingua, 'index.html')}"${atual === 'inicio' ? ' aria-current="page"' : ''}>${tx.menu.inicio}</a>
     <a href="${daRaiz(lingua, 'planos.html')}"${atual === 'planos' ? ' aria-current="page"' : ''}>${tx.menu.planos}</a>
@@ -405,7 +406,7 @@ ${lancamento?.ativo ? `<p class="faixa-oferta"><span class="envoltorio"><strong>
   <div class="recursos">
     <article class="recurso">
       <div class="recurso-texto"><h2 class="lp-h2">${lp.recursos[0][0]}</h2><p>${lp.recursos[0][1]}</p></div>
-      <div class="mock mock-modulos" aria-hidden="true">${lp.modulos.map((m, i) => `<div class="mod" style="--c:var(--serie-${i + 1});--f:${fracoes[i]}">
+      <div class="mock mock-modulos" aria-hidden="true">${lp.modulos.map((m, i) => `<div class="mod" style="--c:var(--acento);--f:${fracoes[i]}">
         <span class="mod-n">Módulo ${i + 1}</span>
         ${i < 2 ? `<span class="anel"><span>${Math.round(fracoes[i] * 100)}%</span></span>` : '<span class="cadeado-lp"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span>'}
         <strong>${m}</strong><span class="mod-st">${i < 2 ? lp.modLiberado : lp.modTrancado}</span></div>`).join('')}</div>
@@ -518,7 +519,7 @@ writeFileSync(`${saida}/plataforma/index.html`, `<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-${CHECKOUT_PROPRIO ? '<meta name="rx-servidor" content="1">\n' : ''}<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%232563eb'/%3E%3Ctext x='16' y='21' font-size='13' font-family='Arial' font-weight='700' fill='white' text-anchor='middle'%3ERX%3C/text%3E%3C/svg%3E">
+${CHECKOUT_PROPRIO ? '<meta name="rx-servidor" content="1">\n' : ''}<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23102B38'/%3E%3Cg fill='none' stroke-width='8' transform='translate(6 6) scale(.81)'%3E%3Cpath d='M10 58V14H27A10 10 0 0 1 27 34H10' stroke='white'/%3E%3Cpath d='M23 34L48 58' stroke='white'/%3E%3Cpath d='M28 58L60 8' stroke='%2319A987'/%3E%3C/g%3E%3C/svg%3E">
 </head>
 <body>
 ${app}
