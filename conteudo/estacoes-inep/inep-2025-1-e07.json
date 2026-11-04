@@ -1,0 +1,330 @@
+{
+ "id": "inep-2025-1-e07",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2025.1",
+  "estacao": 7,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2025_1_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2025_1_prova_habilidades_clinicas.pdf.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Cirurgia",
+ "especialidade": "Cirurgia geral",
+ "tema": "Você atenderá uma mulher de 24 anos que apresenta dor em abdome.",
+ "titulo": "Você atenderá uma mulher de 24 anos que apresenta dor em abdome.",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: terciária. Tipo de atendimento: urgência e emergência. A unidade apresenta a seguinte infraestrutura: ● setor de radiologia; ● laboratório de análises clínicas; ● centro cirúrgico.",
+ "instrucoes": [
+  "Você atenderá uma mulher de 24 anos que apresenta dor em abdome."
+ ],
+ "tarefas": [
+  "realizar anamnese",
+  "solicitar e interpretar exame físico",
+  "solicitar e interpretar exames complementares pertinentes ao caso",
+  "formular e verbalizar a hipótese diagnóstica definitiva",
+  "orientar o plano terapêutico mais indicado ao quadro clínico. A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "historia": "A Estação 7 de Cirurgia Geral aborda o caso de uma mulher de 24 anos, estudante, que procura o serviço de emergência com queixa de dor intensa e súbita em flanco direito. A dor teve início há cerca de 24 horas e irradia para a virilha e para a parte interna da coxa. Trata-se de paciente sem comorbidades que não pratica atividade física regular, tem alimentação saudável e ingere pouca água. OBJETIVOS DE AVALIAÇÃO",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": "24 anos",
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "seu nome é Mariana, tem 24 anos, é solteira e estudante"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "sente dor intensa (nota 9 de 10) no lado direito da barriga, que começou subitamente há cerca de 24 horas"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "a dor é como uma cólica que vai e volta, irradiando para a virilha e para a parte interna da coxa"
+   },
+   {
+    "topico": "Características do quadro (2)",
+    "resposta": "não consegue se mexer, nem ficar parada, devido à intensidade da dor"
+   },
+   {
+    "topico": "Fatores de melhora e piora",
+    "resposta": "fez uso de dipirona, mas isso não a fez melhorar"
+   },
+   {
+    "topico": "Início e evolução (2)",
+    "resposta": "notou sangue na urina quando a dor começou"
+   },
+   {
+    "topico": "Características do quadro (3)",
+    "resposta": "não sentiu dor ou ardência ao urinar, nem urgência para urinar, nem odor forte na urina"
+   },
+   {
+    "topico": "Características do quadro (4)",
+    "resposta": "não apresentou corrimento ou secreção vaginal, nem sentiu dor durante relação sexual"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "sente-se nauseada, mas não vomitou"
+   },
+   {
+    "topico": "Características do quadro (5)",
+    "resposta": "já sentiu uma dor parecida, mas muito mais branda"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "nunca teve episódios de infecção urinária"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "nunca sofreu trauma ou lesão, nem foi operada"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "não tem histórico de doenças prévias, nem histórico de doenças na família"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "tem parceiro fixo e usa preservativo"
+   },
+   {
+    "topico": "Início e evolução (3)",
+    "resposta": "nunca engravidou e sua menstruação terminou há 7 dias"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos",
+    "resposta": "não tem antecedentes de infecções sexualmente transmissíveis"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "não fuma, não bebe, não pratica atividade física regular, mas tem alimentação saudável"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "quase não ingere água."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "Paciente em regular estado geral, desidratada +/4+, normocorada, acianótica.\nFrequência cardíaca: 110 batimentos por minuto.\nPressão arterial: 110 mmHg x 70 mmHg.\nFrequência respiratória: 20 incursões respiratórias por minuto.\nTemperatura: 37,0 °C.\nIMC: 22 kg/m2.\nAbdome: abdome plano, flácido, indolor à palpação profunda em todos os quadrantes,\nsem tumorações palpáveis. Sinais de Blumberg, Rovsing e Giordano negativos.\nAparelhos respiratório, cardiovascular e ginecológico: sem alterações.",
+   "chaves": [
+    "exame físico"
+   ]
+  }
+ ],
+ "exames": [
+  {
+   "item": "Exames laboratoriais",
+   "resultado": "Valor de referência\nROTINA DE URINA\nValor de referência",
+   "imagem": "img/estacoes/inep-2025-1-c07-p29.jpg",
+   "chaves": [
+    "exames laboratoriais"
+   ]
+  },
+  {
+   "item": "Ultrassom de abdome",
+   "resultado": "Hidronefrose à direita, sem evidência de fator obstrutivo identificável pelo método de\nimagem.\nSem outros achados anormais.",
+   "chaves": [
+    "ultrassom/usg/ecografia de abdome total",
+    "ultrassom/usg/ecografia de rins e vias urinárias"
+   ]
+  },
+  {
+   "item": "Tomografia de abdome sem contraste",
+   "resultado": "Hidronefrose à direita, visualizando-se cálculo de 10 mm em junção ureterovesical.\nSem outros achados anormais.",
+   "chaves": [
+    "tomografia computadorizada / tomografia / tc de rins e vias urinárias",
+    "tomografia computadorizada / tomografia de abdome com/sem contraste"
+   ]
+  }
+ ],
+ "diagnostico": "Pergunta sobre manifestações associadas relevantes para o estabelecimento do diagnóstico: (1) náuseas e(ou) vômitos; (2) febre; (3) disúria; (4) polaciúria; (5) urgência urinária; (6) hematúria.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "apresentar-se adequadamente à paciente",
+  "realizar anamnese dirigida à queixa da paciente, perguntando sobre características da dor, sobre sintomas associados relevantes e sobre queixas e antecedentes ginecológicos",
+  "solicitar e interpretar o exame físico",
+  "solicitar exames laboratoriais (hemograma; PCR e(ou) VHS; creatinina e(ou) ureia; sódio e(ou) potássio; rotina de urina / sumário de urina / urina tipo 1; beta-HCG)",
+  "solicitar exames de imagem: (1) tomografia computadorizada / tomografia de abdome com/sem contraste OU tomografia computadorizada / tomografia / TC de rins e vias urinárias; (2) ultrassom/USG/ecografia de abdome total OU ultrassom/ USG/ecografia de rins e vias urinárias.",
+  "definir hipótese diagnóstica (ureterolitíase / litíase urinária)",
+  "indicar analgesia com anti-inflamatórios não esteroidais ou opioides",
+  "encaminhar a paciente para avaliação urgente de especialista em urologia",
+  "fornecer orientações para prevenção de novos episódios (aumento da ingesta hídrica; baixa ingesta de sódio; baixa ingesta de oxalato de cálcio; manutenção do índice de massa corporal em valores normais)."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)identifica-se; (2)pergunta o nome e cumprimenta a paciente simulada.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.2
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre características da dor: (1) tempo de início OU duração; (2) localização; (3) irradiação OU migração; (4) tipo; (5) intensidade; (6) fatores agravantes OU de piora; (7) fatores atenuantes OU de melhora.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "pergunta sobre cinco ou mais itens.",
+   "parcial": "pergunta sobre três ou quatro itens.",
+   "inadequado": "pergunta sobre dois ou menos itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre manifestações associadas relevantes para o estabelecimento do diagnóstico: (1) náuseas e(ou) vômitos; (2) febre; (3) disúria; (4) polaciúria; (5) urgência urinária; (6) hematúria.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "investiga cinco ou mais itens.",
+   "parcial": "investiga três ou quatro itens.",
+   "inadequado": "investiga dois ou menos itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre queixas e antecedentes ginecológicos: (1) corrimento vaginal; (2) histórico de IST; (3) atividade sexual desprotegida OU número de parceiros sexuais; (4) data da última menstruação.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "investiga três ou quatro itens.",
+   "parcial": "investiga dois itens.",
+   "inadequado": "investiga um item ou não investiga.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita os exames laboratoriais: (1) hemograma; (2) PCR e(ou) VHS; (3) creatinina e(ou) ureia; (4) sódio e(ou) potássio; (5) rotina de urina / sumário de urina / urina tipo 1 e/ou urocultura; (6) beta-HCG.",
+   "peso": 1.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.7,
+    "adequado": 1.4
+   },
+   "integral": "solicita cinco ou seis itens.",
+   "parcial": "solicita quatro itens.",
+   "inadequado": "solicita três ou menos itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita exames de imagem: (1) tomografia computadorizada / tomografia de abdome com/ sem contraste ou tomografia computadorizada / tomografia / TC de rins e vias urinárias; (2) ultrassom/USG/ecografia de abdome ou ultrassom/USG/ ecografia de rins e vias urinárias.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita ambos os itens ou solicita apenas o item 1.",
+   "parcial": "solicita apenas o item 2.",
+   "inadequado": "não solicita nenhum dos itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Define hipótese diagnóstica: ureterolitíase/ litíase urinária / urolitíase/ uropatia obstrutiva por cálculo.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 2.0
+   },
+   "integral": "define.",
+   "parcial": null,
+   "inadequado": "não define.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Indica analgesia com anti-inflamatórios não esteroidais, opioides ou dipirona (observação: serão considerados os nomes genéricos das medicações).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "indica analgesia e especifica a droga ou a classe medicamentosa.",
+   "parcial": "indica analgesia, sem especificar a droga ou a classe medicamentosa.",
+   "inadequado": "não indica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "(1) Encaminha para avaliação de especialista em urologia OU (2) prescreve terapia expulsiva medicamentosa.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "realiza os itens 1 e/ou 2",
+   "parcial": null,
+   "inadequado": "não realiza nenhum dos itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Fornece orientações para prevenção de novos episódios: (1) aumento da ingesta hídrica; (2) baixa ingesta de sódio (ultraprocessados; embutidos); (3) baixa ingesta de oxalato de cálcio (café; chá preto; chocolate; Coca-Cola etc.); (4) manutenção do índice de massa corporal em valores normais (dieta balanceada; atividade física).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "orienta três ou quatro itens.",
+   "parcial": "orienta apenas dois itens.",
+   "inadequado": "não orienta ou orienta apenas um item.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Urologia Brasil / [editores] Aguinaldo Cesar Nardi...[et al.]. São Paulo: PlanMark; Rio de Janeiro : SBU-Sociedade Brasileira de Urologia, 2013.",
+  "Outros editores: Archimedes Nardozza Jr., Carlos Alberto Bezerra, Carlos Eduardo CorradiFonseca, José Carlos Truzzi, Luis Augusto Seabra Rios, Marcus Vinicius Sadi.",
+  "Vários colaboradores. ISBN 978-85-60566-39-6 (PlanMark) O desempenho do participante ao longo da estação foi avaliado e pontuado a partir do seguinte PADRÃO ESPERADO DE PROCEDIMENTO (PEP)."
+ ],
+ "pendencias": []
+}

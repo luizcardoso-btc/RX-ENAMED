@@ -1,0 +1,267 @@
+{
+ "id": "inep-2022-1-r-e10",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.1 – Reaplicação",
+  "estacao": 10,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022.1_PEP_reaplicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022.1_PV_reaplicacao_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+ "especialidade": "Medicina de Família e Comunidade",
+ "tema": "Mãe comparece à Unidade Básica de Saúde buscando orientações sobre imunização do seu filho",
+ "titulo": "Mãe comparece à Unidade Básica de Saúde buscando orientações sobre imunização do seu filho",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Unidade de Atenção Primária. A unidade possui a seguinte infraestrutura:  consultórios para atendimento;  sala de vacina.",
+ "instrucoes": [
+  "Mãe comparece à Unidade Básica de Saúde buscando orientações sobre imunização do seu filho de 12 anos. A última consulta foi quando ele tinha nove anos, antes da pandemia de Covid-19. Nos próximos 10 minutos"
+ ],
+ "tarefas": [
+  "acolher a mãe, utilizando os princípios do Método Clínico Centrado na Pessoa.",
+  "realizar, com a mãe, abordagem integral à saúde do adolescente.",
+  "orientar a mãe adequadamente quanto à imunização do adolescente."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1) cumprimenta a paciente simulada; (2) identifica-se; (3) dirige-se à paciente simulada pelo nome, pelo menos uma vez; (4) faz perguntas; (5) e ouve com atenção o motivo da consulta.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as cinco ações.",
+   "parcial": "realiza duas a quatro ações.",
+   "inadequado": "realiza uma ação ou não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Postura: (1) estabelece contato visual e (2) mantém postura empática ao longo da consulta.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.25
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma das ações.",
+   "inadequado": "não realiza nenhuma das ações.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Escuta a fala da paciente simulada sem interrompê-la.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "realiza integralmente a ação.",
+   "parcial": null,
+   "inadequado": "não realiza a ação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Usa linguagem acessível com a paciente simulada, evitando termos técnicos de difícil compreensão.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "usa linguagem acessível.",
+   "parcial": null,
+   "inadequado": "não usa linguagem acessível.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Evita atitude paternalista (condescendente) e “alarmista.”",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "evita as duas atitudes.",
+   "parcial": null,
+   "inadequado": "assume qualquer uma das duas atitudes.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Investiga os antecedentes pessoais do adolescente: (1) doenças prévias; (2) internações; (3) cirurgias anteriores; (4) alergias; (5) uso de medicações.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga os cinco itens.",
+   "parcial": "investiga dois a quatro itens.",
+   "inadequado": "investiga um item ou não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Investiga o contexto familiar do adolescente: relações entre os pais e/ou existência de violência doméstica.",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.75
+   },
+   "integral": "investiga o contexto familiar.",
+   "parcial": null,
+   "inadequado": "não investiga o contexto familiar.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Investiga aspectos da maturidade sexual: pelos pubianos e/ou tamanho dos testículos.",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.75
+   },
+   "integral": "investiga pelo menos um dos aspectos citados.",
+   "parcial": null,
+   "inadequado": "não investiga os aspectos citados.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Investiga: (1) tabagismo; (2) uso de álcool; (3) uso de outras drogas; (4) aspectos da saúde mental; (5) alimentação; (6) atividade física.",
+   "peso": 1.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.25
+   },
+   "integral": "investiga pelo menos quatro itens.",
+   "parcial": "investiga dois ou três itens.",
+   "inadequado": "investiga um ou nenhum item.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Investiga o histórico de vacinação para COVID-19.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "investiga o histórico.",
+   "parcial": null,
+   "inadequado": "não investiga o histórico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Recomenda vacinação para HPV.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "recomenda aplicação da vacina para HPV e indica a idade correta de aplicação (dos 09 aos 14 anos).",
+   "parcial": "recomenda aplicação da vacina para HPV e não indica a idade da aplicação ou informa a idade incorreta.",
+   "inadequado": "não recomenda aplicação da vacina para HPV.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Recomenda dose de reforço da vacina para HPV.",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.75
+   },
+   "integral": "recomenda a dose de reforço 6 (seis) meses após a primeira dose.",
+   "parcial": "recomenda a dose de reforço, mas não indica o intervalo correto entre as doses ou indica o intervalo incorreto.",
+   "inadequado": "não recomenda a dose de reforço da vacina para HPV.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Recomenda atualização do cartão de vacina: (1) Meningococos ACWY: dose única para adolescentes não vacinados de 11 a 14 anos de idade; (2) dT (Difteria e Tétano): dose de reforço a cada 10 anos ou a cada 5 anos, em caso de ferimento grave.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "recomenda as duas vacinas com respectivos aprazamentos.",
+   "parcial": "recomenda as duas vacinas sem indicar o aprazamento OU recomenda uma vacina com aprazamento.",
+   "inadequado": "não recomenda nenhuma das duas vacinas ou recomenda só uma vacina sem indicar aprazamento.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c14",
+   "descricao": "Recomenda atualização do cartão de vacina: (1) Influenza/gripe: dose anual; (2) Febre Amarela: dose de reforço.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "recomenda as duas vacinas com respectivos aprazamentos.",
+   "parcial": "recomenda as duas vacinas sem indicar o aprazamento OU recomenda uma vacina com aprazamento.",
+   "inadequado": "não recomenda nenhuma das duas vacinas ou recomenda só uma vacina sem indicar aprazamento.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.1 – Reaplicação: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

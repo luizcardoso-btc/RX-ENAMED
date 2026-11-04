@@ -1,0 +1,230 @@
+{
+ "id": "inep-2022-1-e07",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.1",
+  "estacao": 7,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2022_1_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Cirurgia",
+ "especialidade": "Cirurgia geral",
+ "tema": "Paciente, previamente hígida, de 20 anos, trazida pelos bombeiros, vítima de queimaduras d",
+ "titulo": "Paciente, previamente hígida, de 20 anos, trazida pelos bombeiros, vítima de queimaduras d",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Secundária: ambulatorial e hospitalar. A unidade possui a seguinte infraestrutura: • setor de radiologia convencional e ultrassonografia; • laboratório de análises clínicas; • banco de sangue; • laringoscópio; • oxímetro; • unidade ventilatória manual autoinflável (ambu); • leitos de internação; e • centro cirúrgico.",
+ "instrucoes": [
+  "Paciente, previamente hígida, de 20 anos, trazida pelos bombeiros, vítima de queimaduras decorrentes de incêndio. Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:",
+  "realizar o atendimento da paciente, verbalizando-se os achados e as condutas",
+  "solicitar a realização de exames que julgar necessários",
+  "definir a extensão da superfície corporal queimada",
+  "adotar a conduta terapêutica necessária. A PACIENTE SIMULADA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar o atendimento da paciente, verbalizando-se os achados e as condutas",
+  "solicitar a realização de exames que julgar necessários",
+  "definir a extensão da superfície corporal queimada",
+  "adotar a conduta terapêutica necessária. A PACIENTE SIMULADA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [
+  {
+   "item": "Impresso com imagem",
+   "resultado": "ESTAÇÃO 7 Área: Cirurgia Geral IMPRESSO 3 – SUPERFÍCIE CORPORAL QUEIMADA – REGRA DOS 9 ATENÇÃO: DIRIJA-SE À CÂMERA! VERBALIZE, DE FORMA CLARA, OLHANDO PARA A CÂMERA, A RESPOSTA DA PERGUNTA A SEGUIR: • QUAL A SUPERFÍCIE CORPORAL QUEIMADA?\nESTAÇÃO 7 Área: Cirurgia Geral\nIMPRESSO 4 – CÁLCULO DA REPOSIÇÃO VOLÊMICA\n• Peso da paciente: 50 kg.\nATENÇÃO: DIRIJA-SE À CÂMERA!\nVERBALIZE, DE FORMA CLARA, OLHANDO PARA A CÂMERA,\nAS RESPOSTAS DAS PERGUNTAS A SEGUIR:\n• Qual o tipo de líquido a ser infundido?\n• Qual o volume indicado para reposição volêmica nas primeiras 8 h?\n• Qual o volume indicado para reposição volêmica nas 16 horas seguintes?\nESTAÇÃO 7 Área: Cirurgia Geral\nIMPRESSO 5 – QUESTIONAMENTO DO CHEFE DE EQUIPE\n• Considere que o Chefe de Equipe faz o seguinte questionamento:\nA PACIENTE DEVERÁ SER TRANSFERIDA?\nATENÇÃO: DIRIJA-SE À CÂMERA!\nVERBALIZE E JUSTIFIQUE, DE FORMA CLARA, OLHANDO PARA A CÂMERA,\nA RESPOSTA DA PERGUNTA.",
+   "imagem": "img/estacoes/inep-2022-1-c07-p37.jpg"
+  }
+ ],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Identifica-se e identifica adequadamente a paciente.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.2,
+    "adequado": 0.5
+   },
+   "integral": "realiza os dois comandos.",
+   "parcial": "realiza somente um comando.",
+   "inadequado": "não realiza nenhum dos comandos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre as características do acidente: (1) local; (2) tempo de exposição; (3) inalação de fumaça; e (4) agente.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta sobre todos os itens.",
+   "parcial": "pergunta sobre apenas dois ou três itens.",
+   "inadequado": "pergunta apenas sobre um item ou não pergunta nenhum dos itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Solicita a realização de exame dos sinais vitais, indicando: (1) PA; (2) FC; (3) FR; e (4) oximetria/saturação de O2.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita a necessidade de realização do exame dos sinais vitais, indicando todos os itens.",
+   "parcial": "solicita a necessidade de realização do exame, indicando apenas dois ou três itens.",
+   "inadequado": "solicita a necessidade de realização do exame, indicando apenas um item, ou não solicita a necessidade do exame.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Indica oxigenoterapia.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica a oxigenoterapia.",
+   "parcial": null,
+   "inadequado": "não indica oxigenoterapia.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita a realização do exame físico do aparelho respiratório, descrevendo pelo menos a inspeção ou ausculta pulmonar.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "solicita o exame adequadamente.",
+   "parcial": null,
+   "inadequado": "não solicita o exame.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Indica a entubação orotraqueal.",
+   "peso": 1.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.25
+   },
+   "integral": "faz a indicação.",
+   "parcial": null,
+   "inadequado": "não faz a indicação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Verbaliza a necessidade de realização do exame físico para avaliar a superfície corporal queimada.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "verbaliza a necessidade de realização do exame físico, citando a retirada de toda a vestimenta e acessórios.",
+   "parcial": "somente verbaliza a realização do exame, sem citar a retirada da vestimenta.",
+   "inadequado": "não verbaliza a necessidade do exame físico para avaliar a superfície corporal queimada.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Calcula corretamente a superfície corporal queimada, segundo a regra dos 9 (37%) e verbaliza esse resultado.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "calcula corretamente a área queimada, verbalizando o resultado.",
+   "parcial": null,
+   "inadequado": "não calcula corretamente a área queimada ou não verbaliza o resultado.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Prescreve corretamente a reposição volêmica de acordo com a fórmula de Parkland.",
+   "peso": 1.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.25
+   },
+   "integral": "1.850 mL nas primeiras 8 horas e 1.850 mL nas 16 horas seguintes.",
+   "parcial": null,
+   "inadequado": "não prescreve corretamente.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Indica cobertura da área queimada com curativo oclusivo.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "indica corretamente a cobertura da área queimada.",
+   "parcial": null,
+   "inadequado": "não indica a cobertura da área queimada.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Verbaliza a necessidade de transferência da paciente simulada para centro de referência.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "verbaliza a necessidade de transferência.",
+   "parcial": null,
+   "inadequado": "não verbaliza a necessidade de transferência.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

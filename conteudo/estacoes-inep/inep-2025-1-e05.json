@@ -1,0 +1,408 @@
+{
+ "id": "inep-2025-1-e05",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2025.1",
+  "estacao": 5,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2025_1_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2025_1_prova_habilidades_clinicas.pdf.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+ "especialidade": "Medicina de Família e Comunidade",
+ "tema": "Você é um médico atuando em uma unidade básica de saúde (UBS) e realizará atendimento, em ",
+ "titulo": "Você é um médico atuando em uma unidade básica de saúde (UBS) e realizará atendimento, em ",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: primária. Tipo de atendimento: ambulatorial — consultório médico em unidade básica de saúde (UBS). A unidade apresenta a seguinte infraestrutura: ● consultório médico.",
+ "instrucoes": [
+  "Você é um médico atuando em uma unidade básica de saúde (UBS) e realizará atendimento, em consulta agendada, de uma mulher de 66 anos, branca, que apresentará a você o resultado de exame de densitometria óssea realizado em mutirão de saúde da mulher.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar a avaliação clínica da paciente",
+  "interpretar e verbalizar o resultado da densitometria óssea, explicando à paciente o significado do(s) achado(s) densitométrico(s)",
+  "orientar o plano terapêutico e as condutas adequadas ao caso, com base no(s) achado(s) densitométrico(s)."
+ ],
+ "historia": "A Estação 5 de Medicina da Família e Comunidade aborda o caso de uma mulher de 66 anos que comparece a uma consulta agendada em uma unidade básica de saúde (UBS). Ela traz consigo o resultado de um exame de densitometria óssea que havia realizado em um mutirão de saúde da mulher e espera que o médico interprete o resultado do exame. OBJETIVOS DE AVALIAÇÃO",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "seu nome é Joana, tem 66 anos, é casada e dona de casa"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "fez um exame de densitometria óssea num mutirão de saúde da mulher há um mês e gostaria que o médico explicasse o resultado"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "não sente nenhum sintoma"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "não sente dor óssea"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "não teve febre, nem edema ou inchaço articular, nem palpitações ou taquicardia; MEDICINA DA FAMÍLIA E COMUNIDADE"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "fraturou seu punho direito há 1 ano, depois de um escorregão"
+   },
+   {
+    "topico": "Sintomas associados (2)",
+    "resposta": "não teve insônia nem perda de peso"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "não sofre quedas frequentes"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "não tem doenças prévias, nem faz uso de medicamentos"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "não faz uso de corticoide"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (2)",
+    "resposta": "não tem artrite reumatoide, hipertireoidismo, doença inflamatória intestinal, cushing, urolitíase ou hiperparatireoidismo"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos",
+    "resposta": "teve sua primeira menstruação aos 12 anos e sua última aos 55 anos"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "nunca fez terapia hormonal"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos (2)",
+    "resposta": "teve 4 gestações sem problemas"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "come muito, mas tem uma alimentação saudável"
+   },
+   {
+    "topico": "Início e evolução (2)",
+    "resposta": "não ingere leite, nem derivados do leite, desde os 50 anos"
+   },
+   {
+    "topico": "Medicamentos (2)",
+    "resposta": "ingere várias xícaras de café durante o dia, mas não toma chá"
+   },
+   {
+    "topico": "Outras informações (6)",
+    "resposta": "faz caminhadas de 40 minutos todos os dias, expondo-se ao sol durante o exercício"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "não fuma, nem bebe"
+   },
+   {
+    "topico": "Antecedentes familiares",
+    "resposta": "não há histórico familiar de osteopenia (ou osteoporose ou fraturas ou problemas ósseos)."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "Estatura: 150 cm.\nPeso: 67,5 kg.\nÍndice de massa corporal: 30 kg/m².\nPressão arterial: 125 mmHg x 72 mmHg.\nFrequência cardíaca: 72 batimentos por minuto.\nTemperatura axilar: 36 0C.\nExame físico sem outras alterações.",
+   "chaves": [
+    "o participante exame físico. medicina da família e comunidade",
+    "que será entregue pelo chefe de estação"
+   ]
+  }
+ ],
+ "exames": [
+  {
+   "item": "Densitometria óssea",
+   "resultado": "ATENÇÃO! OLHANDO PARA A CÂMERA, INTERPRETE E VERBALIZE O(S) ACHADO(S)\nDENSITOMÉTRICO(S).",
+   "imagem": "img/estacoes/inep-2025-1-c05-p21.jpg",
+   "chaves": [
+    "pergunte a ela o motivo da consulta",
+    "que será entregue pela paciente simulada"
+   ]
+  }
+ ],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "apresentar-se adequadamente à paciente",
+  "comunicar-se com a paciente de forma adequada, ouvindo-a com atenção, mantendo contato visual, escutando sua fala sem interrompê-la, usando linguagem acessível e respondendo às suas perguntas",
+  "perguntar à paciente sobre sua menarca e sua menopausa, bem como sobre o uso de terapia hormonal",
+  "perguntar sobre causas de osteoporose secundária; MEDICINA DA FAMÍLIA E COMUNIDADE",
+  "perguntar sobre história de fratura (pessoal e familiar)",
+  "perguntar sobre hábitos alimentares (ingestão de fontes de cálcio e de xantinas)",
+  "perguntar sobre hábitos de vida (atividade física, etilismo, tabagismo e exposição solar)",
+  "verbalizar os achados da densitometria óssea (osteoporose na coluna lombar; e osteopenia no fêmur)",
+  "explicar à paciente seus principais fatores de risco para osteoporose/osteopenia (branca; idosa; baixa estatura; pós-menopausa sem terapia hormonal; baixa ingestão de cálcio)",
+  "indicar tratamento medicamentoso (bifosfonatos ou alendronato ou rizendronato ou ibandronato; cálcio com ou sem vitamina D)",
+  "solicitar exames laboratoriais (hemograma; VHS; proteína C-reativa; cálcio sérico; albumina; creatinina; fósforo; fosfatase alcalina e transaminases hepáticas; cálcio urinário de 24 horas; vitamina D; PTH; TSH)",
+  "indicar medidas de educação em saúde (manutenção da atividade física; orientação da prevenção de quedas; orientação para evitar etilismo e(ou) tabagismo; aumento da ingesta de fontes de cálcio; redução do consumo de xantinas; manutenção da exposição solar)."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)cumprimenta a paciente simulada; (2)identifica-se; (3) dirige-se à paciente simulada pelo nome, pelo menos uma vez; (4)ouve a paciente com atenção.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as quatro ações.",
+   "parcial": "realiza apenas duas ou três ações.",
+   "inadequado": "realiza apenas uma ação ou não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Postura: (1)estabelece contato visual; e (2)mantém postura empática ao longo da consulta.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.2
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Escuta a fala da paciente simulada sem interrompê-la.",
+   "peso": 0.1,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.1
+   },
+   "integral": "realiza a ação.",
+   "parcial": null,
+   "inadequado": "não realiza a ação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Usa linguagem acessível à paciente simulada, evitando termos técnicos de difícil compreensão.",
+   "peso": 0.1,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.1
+   },
+   "integral": "utiliza linguagem acessível.",
+   "parcial": null,
+   "inadequado": "não utiliza linguagem acessível.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Responde às perguntas da paciente simulada.",
+   "peso": 0.1,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.1
+   },
+   "integral": "responde às perguntas.",
+   "parcial": null,
+   "inadequado": "não responde às perguntas.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Pergunta sobre: (1)menarca; (2)menopausa; (3)uso de terapia hormonal.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta sobre os três itens.",
+   "parcial": "pergunta sobre um ou dois itens.",
+   "inadequado": "não pergunta sobre nenhum item.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Investiga causas de osteoporose secundária: (1)uso de fármacos relacionados: crônico de glicocorticoide, inibidor da bomba de prótons, lítio, anticonvulsivantes, levotiroxina e outros; (2)doenças endócrinas: hiperparatireoidismo, hipertireoidismo e outros; (3)doenças intestinais: má absorção, doenças inflamatórias intestinais e outras; (4)doenças reumáticas: artrite reumatoide e outras; (5)outras doenças: doença pulmonar obstrutiva crônica, doença renal crônica, doenças hepáticas crônicas, urolitíase e outros; (6)neoplasias: mieloma, leucemias, linfomas, neoplasias produtoras de PTH e outras; (7)pós-transplante. Adequada: investiga quatro ou mais causas secundárias.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "",
+   "parcial": "investiga apenas duas ou três causas secundárias.",
+   "inadequado": "investiga apenas uma causa secundária ou não investiga nenhuma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Investiga história de fratura: (1)fratura pessoal por fragilidade; (2)história familiar de fratura de quadril ou história familiar de osteoporose.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga as duas situações.",
+   "parcial": "investiga apenas uma.",
+   "inadequado": "não investiga nenhuma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Pergunta sobre hábitos alimentares: (1) ingestão de fontes de cálcio (leite ou derivados ou outros alimentos correlacionados); (2) ingestão de xantinas (café, chá preto ou bebidas à base de cola).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "faz as duas perguntas.",
+   "parcial": "faz uma pergunta.",
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Pergunta sobre outros hábitos de vida: (1)atividade física; (2)etilismo; (3)tabagismo; e (4)exposição solar.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta sobre os quatro itens.",
+   "parcial": "pergunta apenas sobre dois ou três itens.",
+   "inadequado": "pergunta apenas sobre um item ou não pergunta sobre nenhum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Verbaliza os achados da densitometria: (1)osteoporose na coluna lombar; (2)osteopenia no fêmur.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "verbaliza os dois achados.",
+   "parcial": "verbaliza apenas um achado.",
+   "inadequado": "não verbaliza nenhum achado.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Cita os principais fatores de risco para osteoporose/ osteopenia na paciente simulada: (1)mulher; (2)branca; (3)idosa; (4)baixa estatura; (5)pós-menopausa sem terapia hormonal; (6)ingestão baixa de cálcio.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "cita cinco ou seis fatores de risco;",
+   "parcial": "cita apenas três ou quatro fatores de risco;",
+   "inadequado": "cita apenas um ou dois fatores de risco ou não cita nenhum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Indica tratamento medicamentoso: (1)bifosfonatos ou alendronato ou rizendronato ou ibandronato; (2)cálcio com ou sem vitamina D.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "indica (1) e (2).",
+   "parcial": "indica apenas (1).",
+   "inadequado": "indica apenas (2) ou indica outro tratamento.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c14",
+   "descricao": "Solicita exames laboratoriais: (1)hemograma; (2)velocidade de hemossedimentação (VHS); (3)proteína C-reativa; (4)cálcio sérico; (5)albumina; (6)creatinina; (7)fósforo; (8)fosfatase alcalina e transaminases hepáticas; (9)cálcio urinário de 24 horas; (10)vitamina D; (11)PTH; (12)TSH; (13)T4 livre.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "solicita 4 ou mais exames.",
+   "parcial": "solicita apenas 2 ou 3 exames.",
+   "inadequado": "solicita apenas um exame ou não solicita nenhum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c15",
+   "descricao": "Indica medidas de educação em saúde: (1)manutenção da atividade física; (2)orientação da prevenção de quedas; (3)evitar o etilismo e(ou) tabagismo; (4)aumento da ingesta de fontes de cálcio; (5) redução do consumo de xantinas (café ou chá ou bebidas à base de cola); (6)manutenção da exposição solar.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "indica quatro ou mais medidas.",
+   "parcial": "indica apenas duas ou três medidas.",
+   "inadequado": "indica apenas uma medida ou não indica nenhuma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Programáticas Estratégicas. Caderneta de Saúde da Pessoa Idosa. 5 Ed, Brasília – Df, 2018.",
+  "Disponível em: https://bvsms.saude.gov.br/bvs/publicacoes/caderneta_saude_pessoa_ idosa_5ed.pdf.",
+  "Tratado de Medicina de Família e Comunidade: Princípios, Formação e Prática [Recurso Eletrônico] / Organizadores, Gustavo Gusso, José Mauro Ceratti Lopes, Lêda Chaves Dias; [Coordenação Editorial: Lêda Chaves Dias]. – 2. Ed. – Porto Alegre: Artmed, 2019. 2 V.",
+  "PEDRO, AO; PLAPLER, PG; SZEJNFELD, VL.(Orgs) Manual Brasileiro de Osteoporose : Orientações Práticas para os Profissionais de Saúde. -- 1. Ed. -- São Paulo: Editora Clannad, 2021 (Febrasgo).",
+  "MEDICINA DA FAMÍLIA E COMUNIDADE O desempenho do participante ao longo da estação foi avaliado e pontuado a partir do seguinte PADRÃO ESPERADO DE PROCEDIMENTO (PEP)."
+ ],
+ "pendencias": []
+}

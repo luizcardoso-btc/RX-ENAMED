@@ -1,0 +1,218 @@
+{
+ "id": "inep-2022-1-r-e09",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.1 – Reaplicação",
+  "estacao": 9,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022.1_PEP_reaplicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022.1_PV_reaplicacao_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Ginecologia e Obstetrícia",
+ "especialidade": "Ginecologia e Obstetrícia",
+ "tema": "Mulher de 28 anos comparece à Unidade Básica de Saúde (UBS), com queixa ginecológica. ATEN",
+ "titulo": "Mulher de 28 anos comparece à Unidade Básica de Saúde (UBS), com queixa ginecológica. ATEN",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Unidade de Atenção Primária. A unidade possui a seguinte infraestrutura:  laboratório de análises clínicas;  sala de medicação.",
+ "instrucoes": [
+  "Mulher de 28 anos comparece à Unidade Básica de Saúde (UBS), com queixa ginecológica. ATENÇÃO! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO. Nos próximos 10 minutos",
+  "ATENÇÃO! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO. Nos próximos 10 minutos, você deverá executar as tarefas a seguir:"
+ ],
+ "tarefas": [
+  "realizar anamnese da paciente ("
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "Cita os principais diagnósticos diferenciais, como: (1) donovanose; (2) cancro mole; (3) herpes genital; (4) linfogranuloma venéreo; (5) doença de Behçet; (6) úlcera pós-infecciosa (Lipschutz).",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1) identifica-se e (2) cumprimenta a paciente simulada.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": null,
+   "inadequado": "realiza uma ação ou não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre as características da úlcera: (1) dor; (2) quantidade de lesões; (3) tempo da lesão; (4) prurido ou ardência; (5) secreção; (6) presença de linfonodos associados.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta sobre três ou mais itens.",
+   "parcial": "pergunta sobre dois itens.",
+   "inadequado": "não pergunta ou pergunta apenas sobre um item. Atenção: O(A) participante só pontuará se as perguntas forem feitas durante a anamnese inicial. O(A) participante não pontuará caso já tenha recebido os impressos relativos ao exame físico/ginecológico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Questiona sobre consultas ginecológicas anteriores. (realização de “preventivo”, “papanicolau”, colpocitologia oncótica ou USTV anterior).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "questiona.",
+   "parcial": null,
+   "inadequado": "não questiona.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Solicita exame físico/ginecológico.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita exame para sífilis (treponêmico ou não treponêmico).",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita outros exames para infecções sexualmente transmissíveis: (1) HIV; (2) clamídia; (3) hepatite B; (4) hepatite C; (5) herpes; (6) gonorreia; (7) HTLV.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita pelo menos quatro itens.",
+   "parcial": "solicita três itens.",
+   "inadequado": "solicita dois ou menos itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Cita os principais diagnósticos diferenciais, como: (1) donovanose; (2) cancro mole; (3) herpes genital; (4) linfogranuloma venéreo; (5) doença de Behçet; (6) úlcera pós-infecciosa (Lipschutz).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "cita dois ou mais itens.",
+   "parcial": "cita um item.",
+   "inadequado": "não cita item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Estabelece o diagnóstico de sífilis recente/ sífilis primária.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "estabelece o diagnóstico de sífilis recente/sífilis primária.",
+   "parcial": "estabelece apenas o diagnóstico de sífilis, sem especificar sífilis recente/sífilis primária.",
+   "inadequado": "não estabelece o diagnóstico ou cita fase incorreta da sífilis (tardia/latente/ secundária/terciária).",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Prescreve penicilina benzatina: 2,4 milhões UI em dose única via intramuscular (1,2 milhões UI em cada glúteo).",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "prescreve o medicamento com dose e via de administração corretas.",
+   "parcial": "prescreve o medicamento adequado, mas sem mencionar a dose adequada ou com a dose e/ou via de administração incorretas.",
+   "inadequado": "não prescreve o medicamento adequado.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Informa a necessidade de tratamento das parcerias sexuais.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "informa.",
+   "parcial": null,
+   "inadequado": "não informa.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Notifica o caso de sífilis.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "notifica.",
+   "parcial": null,
+   "inadequado": "não notifica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.1 – Reaplicação: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

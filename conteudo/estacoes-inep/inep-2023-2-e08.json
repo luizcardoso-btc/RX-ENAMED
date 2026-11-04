@@ -1,0 +1,285 @@
+{
+ "id": "inep-2023-2-e08",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.2",
+  "estacao": 8,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2023_2.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Pediatria",
+ "especialidade": "Pediatria",
+ "tema": "Você acabou de finalizar a anamnese e o exame físico de um lactente masculino de 1 ano de ",
+ "titulo": "Você acabou de finalizar a anamnese e o exame físico de um lactente masculino de 1 ano de ",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: atenção primária à saúde — unidade básica de saúde (UBS). A unidade possui a seguinte infraestrutura: • Consultório com recursos necessários à puericultura.",
+ "instrucoes": [
+  "Você acabou de finalizar a anamnese e o exame físico de um lactente masculino de 1 ano de idade em um consultório da UBS. Na anamnese, não foram identificadas queixas ou desconfortos e o exame físico apresenta-se sem alterações clínicas, demonstra suplementação adequada da criança e imunização completa e correta. NÃO É NECESSÁRIO REALIZAR ANAMNESE E EXAME FÍSICO. VOCÊ DEVE APENAS COMPLEMENTAR AS MEDIDAS ANTROPOMÉTRICAS DO CARTÃO DA CRIANÇA."
+ ],
+ "tarefas": [
+  "Medir o perímetro cefálico e verificar o comprimento e o peso da criança",
+  "Registrar os resultados obtidos nos gráficos de crescimento (perímetro cefálico, comprimento, peso e índice de massa corporal – IMC) e mostrar os gráficos, após o registro, para a câmera",
+  "Verbalizar, com base nos dados, desde o nascimento da criança, e na avaliação, o diagnóstico de crescimento, o estado nutricional atual da criança e o padrão da curva."
+ ],
+ "historia": "A Estação 8 de Pediatria abordou o caso de um lactente, de 1 ano de idade com anamnese e exame clínico normais, cujo atendimento, em um consultório de uma unidade básica de saúde (UBS), precisa ser complementado com o registo e interpretação de medidas de perímetro cefálico, comprimento e peso.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "Seu nome é Íris, tem 20 anos. Seu filho se chama Lucas, tem 1 ano"
+   },
+   {
+    "topico": "Antecedentes familiares",
+    "resposta": "Médico(a) e mãe do paciente já conversaram. Foram verificadas as vacinas e ele já sanou todas as dúvidas dela"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "O Lucas já foi examinado por completo. Falta apenas realizar as medidas dele"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "Está pronta para ajudar a segurar o Lucas e auxiliar na realização desse procedimento. Nessa estação, os seguintes"
+   }
+  ],
+  "perguntasDoPaciente": [
+   "Doutor(a), ele está crescendo direitinho?"
+  ]
+ },
+ "exameFisico": [],
+ "exames": [
+  {
+   "item": "Caderneta de saúde da criança — gráficos",
+   "resultado": "DE CRESCIMENTO (página 1 de 4)",
+   "imagem": "img/estacoes/inep-2023-2-c08-p22.jpg"
+  },
+  {
+   "item": "Caderneta de saúde da criança — gráficos",
+   "resultado": "DE CRESCIMENTO (página 2 de 4)",
+   "imagem": "img/estacoes/inep-2023-2-c08-p23.jpg"
+  },
+  {
+   "item": "Caderneta de saúde da criança — gráficos",
+   "resultado": "DE CRESCIMENTO (página 3 de 4)",
+   "imagem": "img/estacoes/inep-2023-2-c08-p24.jpg"
+  },
+  {
+   "item": "Caderneta de saúde da criança — gráficos",
+   "resultado": "DE CRESCIMENTO (página 4 de 4)",
+   "imagem": "img/estacoes/inep-2023-2-c08-p25.jpg"
+  }
+ ],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "Realizar as medidas antropométricas do paciente simulado de forma tecnicamente correta",
+  "Plotar corretamente no gráfico e analisar o estado nutricional e o crescimento do paciente simulado."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)Identifica-se; (2)Cumprimenta a mãe de maneira adequada/cordial; (3)Mantém contato visual; e (4)Pergunta o nome da mãe e o nome da criança.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "efetua as quatro ações.",
+   "parcial": "efetua duas ou três ações.",
+   "inadequado": "efetua apenas uma ação ou não efetua ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Mede o perímetro cefálico do paciente.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "posiciona a fita métrica da proeminência occipital à glabela, sem passar por cima dos olhos do boneco ou pela orelha.",
+   "parcial": null,
+   "inadequado": "mede de maneira diferente da adequada.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Mede o comprimento do paciente. (1) Posiciona o estadiômetro corretamente paralelo à linha da maca; (2)Posiciona com a parte fixa encostada no polo cefálico e com a parte móvel nas pernas; e (3)Solicita auxílio da mãe para retificação dos membros inferiores ou para segurar polo cefálico.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza as três ações.",
+   "parcial": "realiza as ações (1) e (2) e não realiza a (3).",
+   "inadequado": "não realiza a ação (1) OU não realiza a ação (2).",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Mede o peso do paciente. (1)Cobre a balança com lençol descartável; (2)Retira a fralda do paciente; e (3) Posiciona o bebê deitado OU sentado sobre o centro do prato da balança.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza corretamente os três itens.",
+   "parcial": "realiza corretamente dois itens.",
+   "inadequado": "realiza corretamente um item ou não realiza corretamente item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Identifica o perímetro cefálico (PC) do paciente. O perímetro cefálico deve ser igual a 46 cm, ou seja, estar entre Z 0 e +1, com margem de erro de 1 cm a mais ou a menos.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "mede corretamente o PC (46 cm) e plota corretamente no gráfico;",
+   "parcial": null,
+   "inadequado": "mede o valor incorretamente OU não plota no gráfico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Identifica o comprimento do paciente. O comprimento deve ser igual a 75 cm, ou seja, estar entre Z 0 e +2, com margem de erro de 1 cm a mais ou a menos.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "mede corretamente o comprimento (75 cm) e plota corretamente no gráfico.",
+   "parcial": null,
+   "inadequado": "mede o valor incorretamente OU não plota no gráfico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Pesa o paciente. O peso deve ser igual a 10.000 g, ou seja, entre Z 0 e +1, com margem de erro de 50g para menos (até 9950g).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "pesa corretamente o peso (10.000 g) e plota corretamente no gráfico.",
+   "parcial": null,
+   "inadequado": "pesa o valor incorretamente OU não plota no gráfico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Calcula o IMC do paciente. O IMC deve ser igual a 17,77 OU 17,31 OU 18,26 Kg/m², ou seja, estar entre Z 0 e +1.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "calcula corretamente o IMC e plota corretamente no gráfico.",
+   "parcial": null,
+   "inadequado": "calcula o valor incorretamente OU não plota no gráfico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Avalia o perímetro cefálico (PC) com base nos gráficos. (1)Cita o escore atual; e (2)Conclui que o padrão de curva foi mantido.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas a ação (2).",
+   "inadequado": "realiza apenas a ação (1) OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Avalia o comprimento com base nos gráficos. (1)Cita o escore atual; e (2)Conclui que o padrão de curva foi mantido.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas a ação (2).",
+   "inadequado": "realiza apenas a ação (1) OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Avalia o peso com base nos gráficos. (1)Cita o escore atual; e (2) Conclui que houve queda na curva, mas sem repercussões clínicas.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas a ação (2).",
+   "inadequado": "realiza apenas a ação (1) OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Avalia IMC com base nos gráficos. (1)Cita escore atual; e (2)Conclui que houve variação fisiológica, esperada para lactentes na transição alimentar, mas sem repercussões clínicas OU que a curva está normal, dentro do esperado OU eutrofia.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas a ação (2).",
+   "inadequado": "realiza apenas a ação (1) OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

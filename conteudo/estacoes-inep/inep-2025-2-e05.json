@@ -1,0 +1,358 @@
+{
+ "id": "inep-2025-2-e05",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2025.2",
+  "estacao": 5,
+  "documento": "Padrão Esperado de Procedimentos (preliminar)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2025_2_pep_premilminar.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2025_2_prova_habilidades_clinicas.pdf",
+  "situacao": "preliminar"
+ },
+ "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+ "especialidade": "Medicina de Família e Comunidade",
+ "tema": "Você está atuando em uma UBS e realizará o atendimento de uma mulher de 57 anos, negra, qu",
+ "titulo": "Você está atuando em uma UBS e realizará o atendimento de uma mulher de 57 anos, negra, qu",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: primária. Tipo de atendimento: consultório médico em uma Unidade Básica de Saúde (UBS). A unidade possui a seguinte infraestrutura: ● consultórios para atendimento médico.",
+ "instrucoes": [
+  "Você está atuando em uma UBS e realizará o atendimento de uma mulher de 57 anos, negra, que faz acompanhamento de rotina e que compareceu na Unidade para uma consulta agendada.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE. A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar a anamnese da paciente",
+  "investigar o acompanhamento e o monitoramento da paciente",
+  "orientar plano terapêutico e de educação em saúde."
+ ],
+ "historia": "A Estação 5 de Medicina de Família e Comunidade aborda o caso de uma mulher de 57 anos, negra, que compareceu à UBS para acompanhamento rotineiro de hipertensão arterial sistêmica, posto que o controle pressórico realizado em casa está fora da meta almejada. OBJETIVOS DE AVALIAÇÃO",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "tem 57 anos, é viúva, trabalha como diarista, mora sozinha e não tem filhos"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "veio à UBS para acompanhamento da pressão arterial"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "tem hipertensão há, aproximadamente, 2 anos"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (2)",
+    "resposta": "não possui outras doenças"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (3)",
+    "resposta": "sua família não possui histórico de doenças"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "não tem outros sintomas como dor de cabeça, visão borrada, estresse etc."
+   },
+   {
+    "topico": "Características do quadro (2)",
+    "resposta": "dorme bem"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "a única atividade física que pratica é caminhar até o ponto de ônibus todos os dias ao ir para o trabalho"
+   },
+   {
+    "topico": "Hábitos de vida (2)",
+    "resposta": "não fuma"
+   },
+   {
+    "topico": "Hábitos de vida (3)",
+    "resposta": "não bebe"
+   },
+   {
+    "topico": "Hábitos de vida (4)",
+    "resposta": "não usa drogas ilícitas"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "come verduras, frutas e ingere alimentos preparados com pouco sal"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "sua atividade de lazer é se reunir uma vez por semana com as vizinhas em um grupo de bordado"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "toma 1 comprimido de hidroclorotiazida de 25 mg todos os dias de maneira regular"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "realizou controle de pressão arterial em domicílio e trouxe os resultados para a consulta"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "também trouxe os resultados de outros exames prévios para avaliação do médico."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "Estatura: 170 cm.\nPeso: 85 kg.\nÍndice de Massa Corpórea (IMC): 29,41 kg/m2.\nCircunferência abdominal: 85 cm.\nÍndice tornozelo-braquial (ITB): 0,97 (VR: normal > 0,90).\nSINAIS VITAIS\nPressão arterial: 136 x 94 mmHg.\nFrequência cardíaca: 80 bpm.\nTemperatura axilar: 36 °C.\nDemais avaliações do exame físico apresentam-se sem alterações.",
+   "chaves": [
+    "afirmar que realizará o exame físico",
+    "que será entregue pelo chefe de estação se o participante verbalizar que deseja examinar a paciente"
+   ]
+  }
+ ],
+ "exames": [
+  {
+   "item": "Exames recentes",
+   "resultado": "Ver a imagem do impresso.",
+   "chaves": [
+    "que será entregue pelo chefe de estação se o participante perguntar se a paciente tem outros exames recentes"
+   ]
+  },
+  {
+   "item": "Exames recentes",
+   "resultado": "Nome: Lúcia Venâncio\nNascimento: 13/02/1969\nExame de sangue Valor de referência\nHemoglobina glicada ............................................. 5,4% 4,7 – 5,7%\nCreatinina .................................................... 0,70 mg/dL 0,5 – 1,0 mg/dL\nPotássio ........................................................ 4,0 mEq/L 3,5 – 5,0 mEq/L\nÁcido úrico ..................................................... 3,9 mg/dL 2,5 – 8,0 mg/fL\nColesterol total ............................................. 171 mg/dL 150 – 199 mg/dL\nLDL .................................................................. 92 mg/dL ≤ 130 mg/dL\nHDL ................................................................. 53 mg/dL ≥ 40 mg/dL\nTriglicerídeos ............................................... 130 mg/dL < 150 mg/dL\nMicroalbuminúria ............................................ 20 mg/g < 30 mg/g\nGlicemia de jejum .......................................... 95 mg/dL 70 a 105 mg/dL\nTaxa de filtração glomerular ...... 101 mL/min/1,73 m2 ≥ 90 mL/min/1,73 m2\nObservação: o hemograma está sem alterações.\nOUTROS EXAMES\nOUTROS EXAMES\nExame de urina: sem alterações.\nExame deurina: sem alterações.\nEletrocardiograma, ecocardiograma e ultrassonografia de carótidas: sem alterações.\nEletrocardiograma, ecocardiograma e ultrassonografia de carótidas: sem\nFunadltoe rdaeçõ oelsh.o: sem alterações.\nMaFmunodgora dfieao rlehaol:i zsaedma a hltáe r2a çmõeess.es: sem alterações.\nCitoMloagmiao gornacfioal óregaicliaza rdeaalhizáa 2d ma ehsáe 6s: mseems easlt:e sreamçõ easlt.erações.\nCitologia oncológica realizadahá 6 meses:sem alterações.",
+   "chaves": [
+    "que será entregue pelo chefe de estação se o participante perguntar se a paciente tem outros exames recentes"
+   ]
+  },
+  {
+   "item": "Medição de pressão arterial",
+   "resultado": "Ver a imagem do impresso."
+  },
+  {
+   "item": "Medição de pressão arterial realizada em casa",
+   "resultado": "REALIZADA EM CASA\nData Resultado da Pressão Arterial\nDia 1 122 x 66 mmHg\nDia 2 143 x 97 mmHg\nDia 3 152 x 102 mmHg\nDia 4 110 x 63 mmHg\nDia 5 157 x 89 mmHg\nDia 6 144 x 92 mmHg\nDia 7 107 x 59 mmHg\nDia 8 139 x 93 mmHg\nDia 9 120 x 72 mmHg\nDia 10 141 x 91 mmHg\nDia 11 155 x 76 mmHg\nDia 12 131 x 73 mmHg\nDia 13 112 x 78 mmHg",
+   "chaves": [
+    "após resposta afirmativa da paciente",
+    "que será entregue pelo chefe de estação se o participante perguntar se a paciente tem os resultados da medição de pressão arterial realizada em casa"
+   ]
+  }
+ ],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "apresentar-se",
+  "dirigir-se à paciente chamando-a pelo nome, pelo menos uma vez",
+  "conduzir adequadamente o atendimento de uma paciente com quadro de hipertensão",
+  "investigar como está o acompanhamento e o monitoramento da paciente",
+  "acolher e orientar a paciente quanto as suas dúvidas e demandas",
+  "orientar terapêutica não medicamentosa aplicável ao momento de vida da paciente",
+  "aconselhar ajuste de medicação diante do não controle pressórico."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)cumprimenta a paciente simulada; (2)identifica-se; (3)dirige-se à paciente simulada pelo nome, pelo menos uma vez; (4)pergunta o motivo da consulta.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.2,
+    "adequado": 0.4
+   },
+   "integral": "realiza as quatro ações.",
+   "parcial": "realiza apenas duas ou três ações.",
+   "inadequado": "realiza apenas uma ação ou não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Adota postura adequada durante o atendimento: (1)estabelece contato visual; (2)mantém linguagem acessível ao longo da consulta; (3)escuta a fala da paciente simulada sem interrompê-la.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.2
+   },
+   "integral": "realiza as três ações.",
+   "parcial": "realiza apenas uma ou duas ações.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Investiga sintomas para descartar crise hipertensiva: (1)cefaleia; (2)alterações visuais; (3)déficit neurológico focal; (4)dor precordial; (5)dispneia.",
+   "peso": 1.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.7,
+    "adequado": 1.4
+   },
+   "integral": "investiga quatro ou cinco itens.",
+   "parcial": "investiga apenas três ou dois itens.",
+   "inadequado": "investiga apenas um item ou não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Investiga sobre os seguintes itens relacionados a estilo de vida da paciente: (1)ingesta de sal; (2)tipo de dieta; (3)sedentarismo; (4)nível de estresse; (5)padrão do sono; (6)tabagismo; (7)uso de álcool; (8)uso de drogas ilícitas; (9)atividade de lazer.",
+   "peso": 1.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.7,
+    "adequado": 1.4
+   },
+   "integral": "investiga sete ou mais itens.",
+   "parcial": "investiga apenas quatro a seis itens.",
+   "inadequado": "investiga apenas três ou menos itens ou não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Investiga histórico familiar e pessoal de doenças: (1) pergunta sobre história de doenças cardiovasculares em familiares de primeiro grau (pai, mãe e irmãos antes dos 55 a 65 anos); (2)questiona sobre história pessoal de doenças cardiovasculares prévias (infarto, angina, acidente vascular cerebral).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga os dois itens.",
+   "parcial": "investiga apenas um item.",
+   "inadequado": "não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Informa que a paciente não possui critérios de lesão de órgãos-alvo. Adequada: informa.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "",
+   "parcial": null,
+   "inadequado": "não informa.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Informa que a paciente está fora da meta pressórica ou de controle de PA < 130 x 80 mmHg. Adequada: informa.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "",
+   "parcial": null,
+   "inadequado": "não informa.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Realiza ajuste no tratamento medicamentoso: (1) mantém o diurético tiazídico e associa um 2º anti-hipertensivo das classes IECA ou BRA ou BCC; (2)retira o diurético tiazídico e indica IECA ou BRA + BCC.",
+   "peso": 1.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.4
+   },
+   "integral": "realiza item (1) ou (2).",
+   "parcial": null,
+   "inadequado": "não realiza quaisquer itens, (1) ou (2), ou realiza esses itens com associação de classes diferentes das descritas.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Indica as seguintes ações como tratamento não medicamentoso: (1)evitar uso de tabaco; (2)adotar dieta saudável (DASH); (3)reduzir ingestão de sódio; (4)aumentar ingestão de alimentos ricos em potássio; (5)praticar atividade física regular; (6)evitar uso de álcool; (7) praticar atividades de espiritualidade e de controle de estresse.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "indica cinco ou mais medidas.",
+   "parcial": "indica apenas três ou quatro medidas.",
+   "inadequado": "indica apenas uma ou duas medidas ou não indica medida alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Para fins de acompanhamento, indica: (1) retorno para revisão do tratamento até alcançar a meta de pressão arterial; (2) continuidade do registro residencial de monitoramento de pressão arterial.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Responde a todas as dúvidas da paciente simulada.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.2
+   },
+   "integral": "verbaliza corretamente a vacinação.",
+   "parcial": null,
+   "inadequado": "não verbaliza ou verbaliza outro encaminhamento.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Orienta sobre cuidados para prevenção das hepatites: (1)relação sexual protegida; (2) não compartilhamento de materiais que possam conter sangue (alicates de unha, agulhas, lâminas etc.); (3)uso correto de EPI; (4) profilaxias adequadas em caso de novo acidente com material biológico.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 1.5
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza nenhuma das ações.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "1. BRANDÃO, A. A. et al. Diretriz Brasileira de Hipertensão Arterial – 2025. Arquivos Brasileiros de Cardiologia, v. 122, n. 9, e20250624, 2025. Disponível em: https:// abccardiol.org/article/diretriz-brasileira-de-hipertensao-arterial-2025/.",
+  "Econômico-Industrial da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hipertensão br/conitec/pt-br/midias/protocolos/pcdt-hipertensao-arterial-sistemica.pdf.",
+  "Básica. Estratégias para o cuidado da pessoa com doença crônica: hipertensão arterial Básica, n. 37).",
+  "4. GUSSO, Gustavo; LOPES, José M. C.; DIAS, Lêda C. (Orgs.). Tratado de medicina de família e comunidade: princípios, formação e prática. 2. ed. Porto Alegre: Artmed, 2019.",
+  "O desempenho do participante ao longo da estação foi avaliado e pontuado a partir do seguinte PADRÃO ESPERADO DE PROCEDIMENTO (PEP)."
+ ],
+ "pendencias": [
+  "critérios somam 11.5"
+ ]
+}

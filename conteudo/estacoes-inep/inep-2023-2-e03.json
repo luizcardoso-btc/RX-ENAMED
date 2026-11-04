@@ -1,0 +1,342 @@
+{
+ "id": "inep-2023-2-e03",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.2",
+  "estacao": 3,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2023_2.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Pediatria",
+ "especialidade": "Pediatria",
+ "tema": "Você está de plantão no pronto-socorro de um hospital secundário de uma grande cidade e at",
+ "titulo": "Você está de plantão no pronto-socorro de um hospital secundário de uma grande cidade e at",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: pronto-socorro de um hospital secundário — urgência e emergência. A unidade possui a seguinte infraestrutura: • Setor de radiologia; • Laboratório de análises clínicas; • Setor de internação de especialidades; e • Farmácia clínica com qualquer medicamento e/ou terapia necessários.",
+ "instrucoes": [
+  "Você está de plantão no pronto-socorro de um hospital secundário de uma grande cidade e atenderá um menino de 4 anos e 6 meses de idade, trazido pela mãe devido a dores em perna e choro inconsolável. ATENÇÃO! CONSIDERE QUE O PACIENTE ESTÁ DEITADO NA MACA DURANTE TODA A CONSULTA! A ANAMNESE SERÁ DIRIGIDA À ACOMPANHANTE DO PACIENTE. CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!",
+  "ATENÇÃO! CONSIDERE QUE O PACIENTE ESTÁ DEITADO NA MACA DURANTE TODA A CONSULTA! A ANAMNESE SERÁ DIRIGIDA À ACOMPANHANTE DO PACIENTE."
+ ],
+ "tarefas": [
+  "Realizar a anamnese dirigida à mãe",
+  "Verbalizar o exame físico",
+  "Solicitar todos os exames complementares que julgar necessário (obs.: serão considerados apenas os 8 primeiros exames solicitados)",
+  "Explicar à mãe a condição da criança",
+  "Definir o manejo inicial",
+  "Dar orientações quanto à prevenção do quadro."
+ ],
+ "historia": "A Estação 3 de Pediatria abordou o caso de uma criança do sexo masculino, pré-escolar de 4 anos e 6 meses de idade, que apresenta dor em perna, vômito e sialorreia há 2 horas e taquicardia, secundários à acidente escorpiônico de moderada gravidade.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": "4 anos",
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Início e evolução",
+    "resposta": "Há 2 horas, o filho dela começou a chorar e a se queixar de dor na perna"
+   },
+   {
+    "topico": "Antecedentes familiares",
+    "resposta": "A criança brincava com o irmão no quintal perto de alguns tijolos"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "A criança não sofreu quedas"
+   },
+   {
+    "topico": "Antecedentes familiares (2)",
+    "resposta": "O pai da criança encontrou um escorpião perto do local"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "A criança vomitou e está babando muito"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "A criança não tem antecedentes médicos e é a primeira vez dela em um pronto-socorro"
+   },
+   {
+    "topico": "Vacinação e desenvolvimento",
+    "resposta": "A vacinação da criança está em dia"
+   },
+   {
+    "topico": "Identificação",
+    "resposta": "A família mora em uma casa de alvenarias em uma região de chácaras, perto de um aterro sanitário, e é abastecida por água de poço"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "Desconhece problemas de saúde em moradores da região"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "Afirma que a criança não tem acesso a medicamentos, a produtos de limpeza ou a algum tipo de veneno. Diante das perguntas do(a) participante, ele(a) receberia os seguintes"
+   }
+  ],
+  "perguntasDoPaciente": [
+   "Se o escorpião que o marido dela viu pode representar algum risco",
+   "Quais são os achados do exame físico",
+   "Se a realização de exame complementar será necessária",
+   "Qual é o diagnóstico e a gravidade do caso",
+   "Qual é a propedêutica adequada",
+   "O que se pode fazer para prevenir acidentes desse tipo."
+  ]
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "Paciente: Marcus.\nIdade: 4 anos e 6 meses de idade.\nPeso: 18 Kg.\nTemperatura axilar: 36,5 °C.\nSaturação de oxigênio: 98% em ar ambiente.\nRegular estado geral, fácies de dor, choroso, corado, hidratado, acianótico,\nanictérico, afebril, sem desconforto respiratório, sem linfonodomegalias.\nAparelho cardiovascular: 150 batimentos por minuto. Sem alterações de ausculta.\nAparelho respiratório: 21 incursões respiratórias por minuto. Sem alterações de\nausculta.\nMembros inferiores: Sem edemas, boa perfusão periféricas, tempo de enchimento\ncapilar menor que 3 segundos. Presença de hiperemia com pequeno óstio único, não\nsangrante, em região de calcanhar direito.\nPele: sem manchas, petéquias ou outras alterações além da descrita no membro\ninferior direito.\nOroscopia: sialorreia, sem outras alterações.\nSem outras alterações em demais sistemas."
+  }
+ ],
+ "exames": [
+  {
+   "item": "Foto enviada pelo marido",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2023-2-c03-p09.jpg"
+  },
+  {
+   "item": "Exames laboratoriais",
+   "resultado": "Cliente: Marcus\nProtocolo: 001.2774113-5 Local: MATRIZ\nNascimento: 10/06/2019 CPF: 999.999.999-99\nSolicitante: REVALIDA Convênio: INEP BRASÍLIA\nEXAME DE SANGUE Valores de Referência\nHEMOGRAMA\nHEMOGLOBINA 11,2 g/dL 9,0 a 14,0 g/dL\nHEMATÓCRITO 38,5 % 35,0 a 45,0%\nLEUCÓCITOS 8.000 mm3 5.000 a 12.000 mm3\n(COM CONTAGEM DIFERENCIAL NORMAL)\nPLAQUETAS (contagem) 366.000 mm3 150.000 a 450.000 mm3\nCPK 222 200 a 400\nCKMB 2 mg/dL < 5 mg/dL\nPOTÁSSIO SÉRICO 4,1 mmol/L 3,5 a 5,0 mmol/L\nUREIA 22 mg/dL 19 a 35 mg/dL\nCREATININA 0,41 mg/dL 0,39 a 0,72 mg/dL\nURINA TIPO 1 Valores de Referência\nDENSIDADE 1.015 1.005 a 1.040\npH 6,5 4,5 a 8,5\nLEUCÓCITOS 2 a 5 / campo Até 5 / campo\nHEMÁCIAS 1 / campo Até 2 / campo\nPROTEÍNA INDETECTÁVEL INDETECTÁVEL\nNITRITO NEGATIVO NEGATIVO\nGLICOSE NEGATIVO NEGATIVO"
+  },
+  {
+   "item": "Ecg – eletrocardiograma",
+   "resultado": "Paciente: Marcus.\nIdade: 4 anos e 6 meses.",
+   "imagem": "img/estacoes/inep-2023-2-c03-p12.jpg"
+  }
+ ],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "Diagnosticar e manejar apropriadamente um acidente escorpiônico em um pré-escolar a partir da anamnese e da análise dos exames. Caso o(a) participante fizesse os questionamentos adequados, a mãe simulada poderia informar que:",
+  "Há 2 horas, o filho dela começou a chorar e a se queixar de dor na perna",
+  "A criança brincava com o irmão no quintal perto de alguns tijolos",
+  "A criança não sofreu quedas",
+  "O pai da criança encontrou um escorpião perto do local",
+  "A criança vomitou e está babando muito",
+  "A criança não tem antecedentes médicos e é a primeira vez dela em um pronto-socorro",
+  "A vacinação da criança está em dia",
+  "A família mora em uma casa de alvenarias em uma região de chácaras, perto de um aterro sanitário, e é abastecida por água de poço",
+  "Desconhece problemas de saúde em moradores da região",
+  "Afirma que a criança não tem acesso a medicamentos, a produtos de limpeza ou a algum tipo de veneno. Diante das perguntas do(a) participante, ele(a) receberia os seguintes"
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se. (1)Identifica-se; (2)Cumprimenta a mãe de maneira adequada/cordial; (3)Mantém contato visual; e (4)Pergunta o nome da mãe e o nome da criança.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as quatro ações.",
+   "parcial": "realiza duas ou três ações.",
+   "inadequado": "realiza uma ação ou não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Realiza questionamentos acerca do quadro agudo. Investiga os seguintes pontos: (1)Queixa principal: dor local em membro inferior direito; (2)Início / duração dos sintomas; e (3)Presença de sintomas associados (náusea, vômitos, sialorreia, sudorese, palpitação (taquicardia), agitação, parestesia, prostração, dispneia, sonolência, coma, convulsão).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga os três itens.",
+   "parcial": "investiga o item (2) e mais um item.",
+   "inadequado": "investiga apenas um item OU não investiga o item (2) OU não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Questiona quanto a antecedentes / contexto epidemiológico: (1)comorbidades; (2)histórico vacinal; (3)uso de medicamentos; (4)sintomas em vizinhos / outras pessoas da casa; (5)estrutura da casa; e (6)trauma; e (7)presença de insetos no domicílio.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "questiona quatro ou mais itens.",
+   "parcial": "questiona dois ou três itens.",
+   "inadequado": "questiona um item OU não questiona item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Identifica que o acidente foi causado por escorpião: “escorpião amarelo” ou Tytius serrulatius.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "identifica como escorpião amarelo.",
+   "parcial": "identifica como escorpião, sem especificar espécie.",
+   "inadequado": "não identifica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Verbaliza alterações do exame físico compatíveis com acidente escorpiônico: (1)Alteração cutânea em membro inferior direito; (2)Taquicardia; e (3)Sialorreia.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "descreve as três alterações.",
+   "parcial": "descreve o item (1) e mais um item OU descreve apenas o item (1).",
+   "inadequado": "não descreve o item (1).",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita exames laboratoriais. (1)Hemograma; (2) Função renal OU creatinina (Caso o participante cite apenas Ureia não ganhará o ponto); (3)CPK OU CKMB OU CK OU creatinoquinase; (4)Eletrólitos OU potássio sérico OU ionograma OU potássio; (5)Glicemia; (6)Amilase; e (7)Sódio sérico.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita quatro ou mais itens.",
+   "parcial": "solicita dois ou três itens.",
+   "inadequado": "solicita apenas um item ou não solicita item algum.",
+   "evidencia": "Observação: considere apenas os 8 primeiros exames citados.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Solicita eletrocardiograma ou ECG.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Classifica a gravidade do acidente escorpiônico e justifica: (1)Classifica como de gravidade moderada; e (2)Justifica pela presença de dor local intensa associada a uma ou mais manifestações (náuseas, vômitos, sudorese, sialorreia, agitação, taquipneia e taquicardia)",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "classifica o acidente como de gravidade moderada e justifica.",
+   "parcial": "classifica o acidente como de gravidade moderada e não justifica.",
+   "inadequado": "não classifica a gravidade OU classifica o acidente como grave ou leve.",
+   "evidencia": "Observação: Critérios clínicos: A) Leve: dor e parestesia local; B) Moderado: dor local intensa associada a uma ou mais manifestações (náuseas, vômitos, sudorese, sialorreia, agitação, taquipneia e taquicardia) C) Grave: além das manifestações clínicas citadas na forma moderada, há presença de uma ou mais das seguintes manifestações: vômitos profusos e incoercíveis, sudorese profusa, sialorreia intensa, prostração, convulsão, coma, bradicardia, insuficiência cardíaca, edema pulmonar agudo e choque.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Indica a necessidade de internação.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "indica internação.",
+   "parcial": null,
+   "inadequado": "não indica internação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Indica analgesia venosa ou bloqueio anestésico local.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica analgesia OU indica analgesia via oral.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Indica o uso de soro antiescorpiônico.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica uso do soro antiescorpiônico;",
+   "parcial": null,
+   "inadequado": "não indica uso do soro OU indica uso de soro antiaracnídico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Orienta a mãe quanto aos fatores de risco e às medidas preventivas: (1)Evitar acúmulo de lixo; (2)Evitar deixar a criança andar descalça ou com sapato aberto; (3) Sempre verificar toalhas, roupas de cama e sapatos antes do uso; (4)Evitar deixar crianças sozinhas em locais de risco; (5)Fazer a limpeza do terreno ao redor da casa; (6) Incentivar a presença de predadores naturais, como: galinha, sapo etc.; (7) Dedetizar o local com o intuito de eliminar baratas ou insetos (presas do escorpião); e (8)Evitar que lençóis, cortinas ou toalhas arrastem no chão. (9)Evitar colocar as mãos sem luvas em buracos, sob pedras, troncos podres e em dormentes da linha férrea (10)Vedar frestas e buracos em paredes, assoalhos e vãos entre oforro e a parede. (11)Manter quintais e jardins limpos. (12)Afastar as camas e berços das paredes. (13)Evitar folhagens densas e manter a grama aparada. (14)Não pendurar roupas nas paredes.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "cita quatro ou mais itens.",
+   "parcial": "cita dois ou três itens.",
+   "inadequado": "cita apenas um item OU não cita item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Notifica o caso.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "notifica.",
+   "parcial": null,
+   "inadequado": "não notifica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

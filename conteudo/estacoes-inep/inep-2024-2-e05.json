@@ -1,0 +1,305 @@
+{
+ "id": "inep-2024-2-e05",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.2",
+  "estacao": 5,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2024_2_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+ "especialidade": "Medicina de Família e Comunidade",
+ "tema": "Dor de cabeça, mal estar geral e dor intensa em queimação na pele do braço direito",
+ "titulo": "Dor de cabeça, mal estar geral e dor intensa em queimação na pele do braço direito",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: atenção primária à saúde. Tipo de atendimento: atendimento ambulatorial - unidade básica de saúde (UBS). A unidade apresenta a seguinte infraestrutura: ● consultório médico e salas de procedimentos e observação. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+ "instrucoes": [
+  "Você é médico(a) em uma UBS em uma cidade de médio porte localizada na região metropolitana de uma grande capital brasileira. Você atenderá uma mulher com 40 anos de idade com queixa de dor de cabeça, mal estar geral e dor intensa em queimação na pele do braço direito.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO. DESCRIÇÃO DO CASO Você é médico(a) em uma UBS em uma cidade de médio porte localizada na região"
+ ],
+ "tarefas": [
+  "Realizar a anamnese dirigida à queixa principal da paciente.",
+  "Solicitar exame físico do membro afetado.",
+  "Verbalizar e explicar o diagnóstico.",
+  "Pactuar plano de cuidado com a paciente usando método clínico centrado na pessoa.",
+  "Avaliar a necessidade de adoção de outras medidas sanitárias."
+ ],
+ "historia": "A Estação 5, da área de Medicina da Família e Comunidade, abordou o caso de uma mulher com 40 anos de idade que procurou atendimento na unidade básica de saúde com queixa de dor intensa em queimação na pele do braço direito. No atendimento,",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "chama-se Camila, tem 40 anos, é casada e trabalha como cuidadora de idosos"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "não tem problemas de saúde, não bebe, fuma ou usa drogas"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "pela manhã, enquanto estava podando árvores em seu quintal, sentiu dor forte e súbita no braço direito"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "a dor começou há, aproximadamente, cinco horas, está piorando com o tempo e é do tipo queimação"
+   },
+   {
+    "topico": "Características do quadro (2)",
+    "resposta": "é uma dor intensa, 8 na escala de dor, sendo mais forte no local da lesão, mas está se espalhando pelo braço, o local da lesão é sensível ao toque"
+   },
+   {
+    "topico": "Fatores de melhora e piora",
+    "resposta": "não identificou fatores agravantes ou de melhora"
+   },
+   {
+    "topico": "Características do quadro (3)",
+    "resposta": "sente mal-estar geral, dor de cabeça e enjoos; MEDICINA DA FAMÍLIA E COMUNIDADE"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "não apresenta outros sintomas"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "uma lagarta encostou em seu braço"
+   },
+   {
+    "topico": "Características do quadro (4)",
+    "resposta": "logo após o incidente, lavou o local lesionado e colocou gelo, mesmo assim a dor piorou"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "não ingeriu remédios. Após as adequadas solicitações de exames, o(a) participante poderia receber os seguintes"
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "Pressão Arterial: 128 × 95 mmHg.\nFrequência Cardíaca: 98 batimentos por minuto.\nFrequência Respiratória: 38 incursões respiratórias por minuto.\nAbdome normotenso e indolor à palpação.\nAusculta cardíaca e respiratória inalteradas."
+  },
+  {
+   "item": "Exame da lesão",
+   "achado": "Braço direito: lesões puntiformes, eritematosas, edemaciadas e dolorosas nos pontos\nde inoculação das cerdas e adenomegalia regional dolorosa. Bolhas e necrose cutânea\nsuperficial não visualizadas."
+  }
+ ],
+ "exames": [
+  {
+   "item": "Imagem da lagarta",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2024-2-c05-p23.jpg"
+  }
+ ],
+ "diagnostico": "Verbaliza o diagnóstico de acidente com lagarta:",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)cumprimenta a paciente simulada; (2)identifica-se; e, (3)dirige-se a ela pelo nome, pelo menos uma vez.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as três ações.",
+   "parcial": "realiza apenas duas ações.",
+   "inadequado": "realiza apenas uma ação ou não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Demonstra empatia com a paciente: (1)estabelece contato visual; e, (2)mantém postura atenta e interessada ao longo da consulta.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.25
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Escuta ativamente a fala da paciente, sem interrompê-la.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "realiza a ação.",
+   "parcial": null,
+   "inadequado": "não realiza a ação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Usa linguagem acessível com a paciente simulada, evitando termos técnicos de difícil compreensão.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "utiliza linguagem acessível.",
+   "parcial": null,
+   "inadequado": "não utiliza linguagem acessível.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Pergunta se a paciente teve contato direto com: (1) animais ou insetos; (2) produtos químicos; (3)plantas alergênicas.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta os três itens.",
+   "parcial": "pergunta um ou dois itens.",
+   "inadequado": "não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Pergunta sobre as características da dor: (1)tempo desde o início do quadro; (2)tipo de dor; (3)localização e irradiação; (4)intensidade ou graduação; (5)fatores de melhoria; (6)fatores de agravamento; e, (7)uso de medicamentos.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta cinco ou mais características.",
+   "parcial": "pergunta três ou quatro características.",
+   "inadequado": "pergunta uma ou duas características ou não pergunta característica alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Pergunta sobre as características das manifestações locais: (1)evolução da lesão cutânea desde o início do quadro; e, (2)linfoadenopatia. Adequada: pergunta sobre as duas manifestações locais.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "",
+   "parcial": "pergunta sobre uma manifestação local.",
+   "inadequado": "não pergunta manifestação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Pergunta sobre manifestações sistêmicas: (1)cefaleia; (2)mal-estar; (3)náuseas ou vômito ou dor abdominal; e, (4) gengivorragia ou equimoses espontâneas ou traumáticas ou epistaxe ou hematúria ou hematêmese ou hemoptise.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "pergunta quatro manifestações.",
+   "parcial": "pergunta três manifestações.",
+   "inadequado": "pergunta uma ou duas manifestações ou não pergunta sobre manifestação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Verbaliza o diagnóstico de acidente com lagarta:",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "verbaliza.",
+   "parcial": "verbaliza acidente com animal peçonhento.",
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Indica ou propõe a prescrição de: (1)analgésico; (2)anti-histamínico sistêmico; (3) infiltração local com anestésico do tipo lidocaína 2% sem vasoconstritor.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza duas ou mais ações.",
+   "parcial": "realiza uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Explica à paciente: (1) Sobre a necessidade de encaminhamento para serviço hospitalar de referência para soroterapia de acidentes por animais peçonhentos; (2) A potencial gravidade ou risco de morte pelo acidente lonômico.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "explica os dois itens.",
+   "parcial": "explica um item.",
+   "inadequado": "não explica item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Notifica o caso.",
+   "peso": 1.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.25
+   },
+   "integral": "notifica.",
+   "parcial": null,
+   "inadequado": "não notifica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

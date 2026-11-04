@@ -1,0 +1,318 @@
+{
+ "id": "inep-2023-1-e09",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.1",
+  "estacao": 9,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Ginecologia e Obstetrícia",
+ "especialidade": "Ginecologia e Obstetrícia",
+ "tema": "Mulher de 35 anos, casada, gestante, criadora de conteúdo digital, comparece à Unidade Bás",
+ "titulo": "Mulher de 35 anos, casada, gestante, criadora de conteúdo digital, comparece à Unidade Bás",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Primária. A unidade possui a seguinte infraestrutura:  laboratório de análises clínicas.",
+ "instrucoes": [
+  "Mulher de 35 anos, casada, gestante, criadora de conteúdo digital, comparece à Unidade Básica de Saúde (UBS), em sua avaliação pré-natal. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar o atendimento da paciente com anamnese e exame físico",
+  "solicitar, se necessário, exames complementares pertinentes ao caso",
+  "realizar o diagnóstico",
+  "responder e orientar a paciente de forma completa, justificando as orientações",
+  "comunicar possíveis complicações decorrentes do quadro",
+  "orientar, prescrever e manejar o caso da paciente em relação ao seguimento da sua gestação."
+ ],
+ "historia": "A Estação 9 de Ginecologia e Obstetrícia abordou o caso de uma mulher de 35 anos de idade, casada, gestante, criadora de conteúdo digital, apresentando resultado de glicemia de jejum, sem queixa alguma, e buscando ser informada com relação à propedêutica clínica.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "ela se chama Olívia, tem 35 anos, é casada e trabalha com um canal de comidas na internet"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "foi a consulta para mostrar o resultado de um exame que ficou faltando mostrar na consulta anterior, e que todos os outros exames estavam normais"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "não possui queixas"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos",
+    "resposta": "ela está com 14 semanas e 2 dias de gestação"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos (2)",
+    "resposta": "está casada há cinco anos e seu marido é sua única parceria sexual"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "não tem problemas de saúde ou alergias, e não ocorreram intercorrências no pré-natal"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos (3)",
+    "resposta": "é sua primeira gestação"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos (4)",
+    "resposta": "ela afirma ter esquecido o cartão da gestante"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "esta é a sua terceira consulta de pré-natal"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (2)",
+    "resposta": "não tem diagnóstico de diabetes e que não existem casos dessa doença em sua família"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "segue corretamente todas as orientações para a coleta do exame; A paciente simulada"
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico / ginecológico",
+   "achado": "FÍSICO\nAltura: 1,56 m.\nPeso: 65 kg.\nIMC: 26,71 kg/m².\nPressão Arterial: 100 × 80 mmHg.\nFrequência Cardíaca: 94 batimentos por minuto.\nFrequência Respiratória: 20 incursões respiratórias por minuto.\nTemperatura axilar: 36,5º C.\nÍndice de Saturação de Oxigênio: 98% em ar ambiente.\nMucosas coradas\nGINECOLÓGICO\nAltura do fundo uterino: 13 cm.\nBatimentos cardíacos fetais: 125 batimentos por minuto.\nRestante do exame físico e ginecológico sem alterações."
+  }
+ ],
+ "exames": [
+  {
+   "item": "Exame laboratorial",
+   "resultado": "Cliente: Olívia\nProtocolo: 001.9951013-6 Local: MATRIZ\nIdade: 35 anos CPF: 999.999.999-99\nSolicitante: REVALIDA\nGLICEMIA DE JEJUM:\nMaterial ...................................... SANGUE Valores de Referência\nGLICEMIA DE JEJUM ............... 114 mg/mL 60 a 100 mg/mL\nObs.: realizado com oito horas de jejum.\nNota(s):\n1.Valores de referência de acordo com idade e sexo, exceto para gestantes.\nRef.: BAIN, B.J. Blood Cells: a practical guide. 4 ed. Oxford: Blackwell Publishing, 2006. 476p. AUSHANSKY, K. et al. Williams\nHematology, 8 ed., MacGraw Hill Companies, Inc., 2010.\nObs.: exame realizado hoje.\nTODO TESTE LABORATORIAL DEVE SER CORRELACIONADO COM O QUADRO CLÍNICO DO PACIENTE, SEM O QUAL A\nINTERPRETAÇÃO DOS RESULTADOS É APENAS RELATIVA."
+  }
+ ],
+ "diagnostico": "Diagnóstico: formula o diagnóstico de diabetes mellitus gestacional ou diabetes na gravidez.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "ela se chama Olívia, tem 35 anos, é casada e trabalha com um canal de comidas na internet",
+  "foi a consulta para mostrar o resultado de um exame que ficou faltando mostrar na consulta anterior, e que todos os outros exames estavam normais",
+  "não possui queixas",
+  "ela está com 14 semanas e 2 dias de gestação",
+  "está casada há cinco anos e seu marido é sua única parceria sexual",
+  "não tem problemas de saúde ou alergias, e não ocorreram intercorrências no pré-natal",
+  "é sua primeira gestação",
+  "ela afirma ter esquecido o cartão da gestante",
+  "esta é a sua terceira consulta de pré-natal",
+  "não tem diagnóstico de diabetes e que não existem casos dessa doença em sua família",
+  "segue corretamente todas as orientações para a coleta do exame; A paciente simulada, caso o(a) participante fizesse a anamnese adequada, perguntaria ao(à) participante:",
+  "como está o seu exame, e se existe algo com que ela deveria se preocupar",
+  "o que levou ao (à) participante a chegar ao diagnóstico",
+  "se será necessário que ela tome algum remédio",
+  "se ela teria que fazer o teste de tolerância oral a glicose",
+  "quais complicações o diabetes gestacional poderia acarretar a ela ou a seu filho; Caso o(a) participante fizesse as seguintes perguntas / solicitações ele(a) receberia os"
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1) apresenta-se, cumprimentando a paciente e/ou falando seu nome e/ou questionando o nome dela; (2) pergunta o motivo da consulta/queixa principal da paciente.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta: (1) qual foi a data da última menstruação da paciente OU (2) pergunta a sua idade gestacional.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Informa que o cartão da gestante deve acompanhá-la em todas as consultas de pré-natal OU informa que a paciente deverá andar sempre com o seu cartão da gestante.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "informa sobre a importância de se levar sempre o cartão da gestante.",
+   "parcial": null,
+   "inadequado": "não informa.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Solicita o exame físico OU o exame ginecológico.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Menciona que a glicemia de jejum está alterada.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "menciona a alteração.",
+   "parcial": null,
+   "inadequado": "não menciona a alteração no exame.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Questiona se o exame foi adequadamente colhido –com o jejum. (ITEM ANULADO)",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "questiona adequação do exame.",
+   "parcial": null,
+   "inadequado": "não questiona.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Diagnóstico: formula o diagnóstico de diabetes mellitus gestacional ou diabetes na gravidez.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "formula o diagnóstico.",
+   "parcial": null,
+   "inadequado": "não formula o diagnóstico de diabetes gestacional OU fórmula diagnóstico errado OU diz que o diagnóstico é inconclusivo, que será necessária a realização de outro exame.",
+   "evidencia": "OBSERVAÇÃO: Caso o(a) participante diga que o diagnóstico de diabetes gestacional ainda não está estabelecido com o exame apresentado e que, para o diagnóstico, precisaria de outro exame, AVALIAR",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Teste de tolerância oral a glicose: (1) menciona que o teste de tolerância oral a glicose NÃO precisará ser feito no caso dessa paciente. (2) justifica afirmando que o diagnóstico já está estabelecido pelo resultado do exame apresentado, devido a dosagem da glicemia de jejum alterada acima de 92. Para pontuar, o(a) participante não precisa mencionar o valor de corte de 92.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "apenas menciona a dispensabilidade do teste, sem justificar.",
+   "inadequado": "não menciona a dispensabilidade do teste OU orienta que a paciente faça o teste de tolerância oral a glicose.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Informa que o tratamento envolve dieta e atividade física.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "orienta adequadamente o tratamento.",
+   "parcial": null,
+   "inadequado": "não orienta o tratamento correto OU orienta o tratamento errado OU indica o uso de hipoglicemiantes orais.",
+   "evidencia": "OBSERVAÇÃO: Caso o(a) participante oriente uso de hipoglicemiantes orais ou insulina já nesse primeiro momento, AVALIAR COMO INADEQUADO).",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Orienta a paciente a realizar (1) avaliações de glicemia capilar por glicosimetro (ou teste de glicemia capilar) (2) pelo menos três vezes na semana para avaliação de controle de glicemia.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "orienta a paciente quanto a avaliação e a periodicidade.",
+   "parcial": "só orienta que seja realizado o controle com glicosimetro sem falar a periodicidade (pelo menos três vezes na semana) OU propondo periodicidade diferente.",
+   "inadequado": "não orienta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Complicações do diabetes gestacional: (1) aumento de peso fetal para a idade gestacional; (2) trabalho de parto prematuro; (3) polidramnio; (4) ruptura prematura de membranas; (5) hipoglicemia neonatal; (6) sepse neonatal; (7) obesidade infantil; (8) abortamento; (9) óbito fetal intra-útero; (10)diabetes mellitus tipo 2 materno; (11)Desproporção cefalopelvica / tocotraumatismo; (12)parto cesariana / parto instrumental; (13)Sinais de sofrimento fetal; (14)Infecções urinarias.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "cita pelo menos quatro itens listados.",
+   "parcial": "cita pelo menos dois ou três itens listados.",
+   "inadequado": "não cita OU cita apenas um item listado.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Pergunta se a paciente tem mais alguma dúvida.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

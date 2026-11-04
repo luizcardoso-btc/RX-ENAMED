@@ -1,0 +1,301 @@
+{
+ "id": "inep-2024-1-e07",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.1",
+  "estacao": 7,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Cirurgia",
+ "especialidade": "Cirurgia geral",
+ "tema": "Paciente, previamente hígida, de 20 anos, trazida pelos Bombeiros, vítima de queimaduras d",
+ "titulo": "Paciente, previamente hígida, de 20 anos, trazida pelos Bombeiros, vítima de queimaduras d",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: urgência e emergência - pronto-socorro de hospital. A unidade hospitalar possui a seguinte infraestrutura: • setor de radiologia convencional; • laboratório de análises clínicas; • leitos de internação; e • centro cirúrgico.",
+ "instrucoes": [
+  "Paciente, previamente hígida, de 20 anos, trazida pelos Bombeiros, vítima de queimaduras decorrentes de incêndio."
+ ],
+ "tarefas": [
+  "realizar o atendimento da paciente",
+  "verbalizar os achados e condutas",
+  "calcular a extensão da superfície corporal queimada",
+  "adotar a(s) conduta(s) terapêutica(s) necessária(s) ao caso, conforme o Protocolo de Suporte Avançado de Vida no Trauma",
+  "verbalizar a realização de procedimentos médicos necessários ao caso. \" EDUCAÇÃO"
+ ],
+ "historia": "A Estação aborda o atendimento de uma mulher de 20 anos de idade vítima de queimaduras extensas em membros inferiores, tronco anterior, e suspeita de queimadura de vias aéreas por inalação de fumaça.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "chama-se Ana, é solteira, tem 20 anos e trabalha na indústria farmacêutica"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "estava em seu trabalho quando o incêndio aconteceu"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "não sabe dizer, ao certo, quanto tempo ficou no local até o seu resgate, mas acredita que tenha demorado"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "a sala, onde estava, estava repleta de fumaça"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "ouviu os bombeiros mencionarem que o incêndio começou devido a um curto-circuito, não ocorreram explosões"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "sente muita dor, está com dificuldade em respirar, como se o ar estivesse pesado, e sente muita sede."
+   }
+  ],
+  "perguntasDoPaciente": [
+   "se há necessidade de transferência da paciente a um centro terciário."
+  ]
+ },
+ "exameFisico": [
+  {
+   "item": "Sinais vitais",
+   "achado": "•\nPressão arterial: 90 x 60 mmHg.\n•\nFrequência cardíaca: 112 bpm.\n•\nFrequência respiratória: 40 irpm.\n•\nTemperatura: 36, 1 ºC.\n• Saturação de Oxigênio: 82°/o.\nVERBALIZE PARA A CÂMERA DE FORMA CLARA AS\nALTERAÇÕES DOS SINAIS VITAIS\n\" EDUCAÇÃO",
+   "imagem": "img/estacoes/inep-2024-1-c07-p29.jpg"
+  }
+ ],
+ "exames": [
+  {
+   "item": "Superfície corporal queimada­",
+   "resultado": "REGRA DOS 9\nJ\n\\1\n\" EDUCAÇÃO",
+   "imagem": "img/estacoes/inep-2024-1-c07-p31.jpg"
+  },
+  {
+   "item": "Cálculo da superfície corporal e",
+   "resultado": "REPOSIÇÃO VOLÊMICA\nAS RESPOSTAS PARA AS PERGUNTAS A SEGUIR DEVEM SER\nVERBALIZADAS PARA A CÂMERA, DE FORMA CLARA.\n• Qual o volume indicado para reposição volêmica nas\nprimeiras 8 horas?\n• Qual o volume indicado para reposição volêmica nas\n16 horas seguintes?\n• Qual a superfície corporal queimada?\n\" EDUCAÇÃO",
+   "imagem": "img/estacoes/inep-2024-1-c07-p32.jpg"
+  },
+  {
+   "item": "Impresso com imagem",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2024-1-c07-p33.jpg"
+  }
+ ],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "realizar o primeiro atendimento da paciente simulada vítima de queimadura utilizando as diretrizes preconizadas",
+  "identificar as alterações dos sinais vitais e solicitar a monitorização da paciente",
+  "calcular a superfície corporal queimada, calcular a reposição volêmica e indicar o tipo de acesso para a hidratação venosa",
+  "indicar analgesia e curativo oclusivo",
+  "avaliar a necessidade de transferência da paciente simulada para um centro de referência em queimados."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Identifica-se e identifica adequadamente a paciente.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.2
+   },
+   "integral": "Realiza os dois comandos.",
+   "parcial": "Realiza um dos comandos.",
+   "inadequado": "Não realiza nenhum dos comandos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre as características do acidente: (1)local, (2)tempo de exposição, (3)inalação de fumaça.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.2,
+    "adequado": 0.4
+   },
+   "integral": "Pergunta corretamente sobre todos os itens.",
+   "parcial": "Pergunta sobre dois itens OU se o incêndio ocorreu em local fechado.",
+   "inadequado": "Pergunta sobre um item ou não pergunta nenhum dos itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Verbaliza as alterações dos sinais vitais: (1)pressão arterial diminuída OU pressão arterial baixa; (2)taquicardia OU frequência cardíaca aumentada; (3)taquipneia OU frequência respiratória aumentada; e, (4)baixa saturação de oxigênio.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "Verbaliza todos os itens.",
+   "parcial": "Verbaliza dois ou três itens.",
+   "inadequado": "Verbaliza apenas um item ou não verbaliza item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Solicita monitorização da paciente indicando os seguintes parâmetros: 1.frequência cardíaca; 2.pressão arterial; 3.oximetria OU saturação de oxigênio; e, 4.diurese.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "solicita a monitorização indicando 3 ou mais itens.",
+   "parcial": "solicita a monitorização indicando apenas 2 itens.",
+   "inadequado": "não solicita a monitorização ou solicita a monitorização indicando apenas 1 item. Obs. A monitorização da paciente pode ser indicada a qualquer momento.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Identifica os sinais de queimadura de vias aéreas verbalizando que a paciente está com: 1.queimadura de vibrissas nasais ou de mucosas nasais; OU, 2.hiperemia ou edema de orofaringe; OU, .dificuldade respiratória ou dispneia ou dificuldade de respirar.",
+   "peso": 3.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.8,
+    "adequado": 3.0
+   },
+   "integral": "Identifica",
+   "parcial": null,
+   "inadequado": "Não identifica",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Indica suplementação de oxigênio sob máscara de Venturi (ou sob máscara não reinalante) ou entubação orotraqueal.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "Indica a suplementação de oxigênio sob uma das formas descritas no caput do item.",
+   "parcial": "Indica a suplementação por via aérea definitiva sem especificar a forma de fornecimento de oxigênio.",
+   "inadequado": "Não indica a suplementação de oxigênio OU indica a suplementação especificando outra forma de fornecimento de oxigênio.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Verbaliza a necessidade de avaliação da superfície corporal queimada, com retirada de toda vestimenta ou com a exposição completa da paciente.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "Verbaliza a necessidade de avaliação da superfície corporal queimada com a retirada de toda a vestimenta ou com exposição completa da paciente.",
+   "parcial": "verbaliza a necessidade de avaliação da superfície corporal queimada sem citar a retirada da vestimenta ou sem citar a exposição completa da paciente.",
+   "inadequado": "não verbaliza a necessidade de avaliação da superfície corporal queimada.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Calcula corretamente a superfície corporal queimada, segundo a regra dos 9 ( 36%).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "Calcula corretamente a área queimada.",
+   "parcial": null,
+   "inadequado": "Não calcula corretamente a área queimada.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Prescreve corretamente a reposição volêmica de acordo com oATLS.",
+   "peso": 1.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.2
+   },
+   "integral": "1.800 mL nas primeiras 8 horas e 1.800mL nas 16 horas seguintes.",
+   "parcial": null,
+   "inadequado": "Não prescreve corretamente.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Indica o tipo de acesso para a hidratação venosa: 1.cateter calibre n.º 14 ou n.º 16 ou n.º 18; 2.veia periférica; e 3.ringer lactato ou soro/solução fisiológico ou cristalóide.",
+   "peso": 0.6,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.3,
+    "adequado": 0.6
+   },
+   "integral": "solicita a realização de acesso venoso indicando corretamente os três parâmetros.",
+   "parcial": "solicita a realização de acesso venoso indicando corretamente dois parâmetros.",
+   "inadequado": "não solicita a realização de acesso venoso ou solicita a realização de acesso venoso indicando um ou nenhum parâmetro. Obs.: a verbalização de veia específica pertencente ao sistema venoso periférico será acatada como equivalente.",
+   "evidencia": "11. Indica a analgesia: Adequado: Indica. Inadequado: Não indica ou indica analgesia via oral. 0,5 Obs.: Será considerado adequado caso não indique a via de 0,0 administração ou oriente a administração por via endovenosa. Obs. 2: Será considerado adequado o participante que indicou ouso de analgésico durante a sequência rápida de intubação.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Indica o curativo oclusivo ou estéril (indicando ou não a utilização de pomada cicatrizante e/ou anti-infecciosa):",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "Indica.",
+   "parcial": null,
+   "inadequado": "Não indica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Verbaliza a necessidade de transferência da paciente simulada para centro de referência ou centro de queimados ou unidade de queimados.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "verbaliza a necessidade de transferência.",
+   "parcial": null,
+   "inadequado": "não verbaliza a necessidade de transferência.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "critérios somam 11.7"
+ ]
+}

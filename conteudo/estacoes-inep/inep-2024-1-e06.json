@@ -1,0 +1,271 @@
+{
+ "id": "inep-2024-1-e06",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.1",
+  "estacao": 6,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Clínica Médica",
+ "especialidade": "Clínica Médica",
+ "tema": "Falta de ar e tosse há 5 dias",
+ "titulo": "Falta de ar e tosse há 5 dias",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: atenção primária à saúde. A unidade possui a seguinte infraestrutura: ● laboratório de análises clínicas; ● unidade portátil para radiografia.",
+ "instrucoes": [
+  "Você é um médico atuante em uma unidade básica de saúde (UBS) e deverá atender a uma paciente de 32 anos que vai à consulta com queixa de falta de ar e tosse há 5 dias.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar anamnese da paciente",
+  "interpretar exames complementares, verbalizando as alterações relevantes para o caso",
+  "estabelecer e comunicar hipótese diagnóstica",
+  "orientar e demonstrar o uso de dispositivo inalatório na paciente",
+  "orientar medidas não farmacológicas para a prevenção de crises."
+ ],
+ "historia": "A Estação aborda o caso de uma mulher de 32 anos que vai à unidade básica de saúde (UBS) com queixa de falta de ar e de tosse há 5 dias.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "seu nome é Rita, tem 32 anos, é casada e é professora do ensino fundamental"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "que está com falta de ar e com muita tosse seca há 5 dias"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "nega outros sintomas"
+   },
+   {
+    "topico": "Fatores de melhora e piora",
+    "resposta": "sua tosse piora a noite e de madrugada e que acorda com dificuldade para respirar."
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "não identifica algo que melhore seus sintomas"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "não está em uso de medicação, mas, em sua infância, fez nebulizações"
+   },
+   {
+    "topico": "Início e evolução (2)",
+    "resposta": "apresentou, desde a infância e por diversas vezes, quadro semelhante, a última vez, há 6 meses, passou rapidamente"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "percebe um “chiado” no peito"
+   },
+   {
+    "topico": "Medicamentos (2)",
+    "resposta": "nega etilismo, tabagismo e uso de drogas"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "com relação a exposição ambiental:"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "nega ter animais de estimação e tapetes em sua casa"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "afirma limpar sua casa uma vez por semana, ter cortinas e dormir com um cobertor"
+   },
+   {
+    "topico": "Outras informações (6)",
+    "resposta": "nega manter objetos em sua cama"
+   },
+   {
+    "topico": "Identificação (2)",
+    "resposta": "afirma estar exposta a mofo e bolor na escola onde trabalha"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "nega doenças prévias, mas afirma que sua mãe tinha problemas respiratórios"
+   },
+   {
+    "topico": "Outras informações (7)",
+    "resposta": "trouxe consigo exame de sangue e espirometria, realizados em sua crise anterior, o chefe de estação entregaria os o IMPRESSO – HEMOGRAMA e o IMPRESSO – ESPIROMETRIA"
+   },
+   {
+    "topico": "Outras informações (8)",
+    "resposta": "em sua crise anterior, deram-lhe um dispositivo inalatório, mas não sabe como usar"
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "Temperatura axilar: 36,3 °C.\nAltura: 1,65 m.\nPeso: 56 kg.\nPaciente em bom estado geral, com fácies atípica, eupneica, acianótica, anictérica,\nafebril, normocorada e hidratada; com pele e fâneros normais; consciente e\norientada no tempo e no espaço.\nAparelho respiratório: tórax de conformação habitual, ausência de assimetrias,\nde abaulamentos ou de retrações; ausência de dor à palpação; expansibilidade\npreservada de forma simétrica, bilateralmente; frêmito toracovocal bem distribuído;\nsom claro pulmonar à percussão; murmúrio vesicular presente e bem distribuído\nem toda a extensão pulmonar; presença de sibilos expiratórios esparsos em ambos\nos hemitórax.\nRestante do exame sem alterações."
+  }
+ ],
+ "exames": [
+  {
+   "item": "Exames laboratoriais",
+   "resultado": "Cliente: Rita\nProtocolo: 001.2774113-5\nLocal: MATRIZ\nNascimento: 17/03/1992 CPF: 999.999.999-99\n(cid:3)\nSolicitante: REVALIDA Convênio INEP BRASÍLIA\n(cid:28)(cid:454)(cid:258)(cid:373)(cid:286)(cid:3) (cid:3) (cid:3) (cid:115)(cid:258)(cid:367)(cid:381)(cid:396)(cid:286)(cid:400)(cid:3)(cid:282)(cid:286)(cid:3)(cid:90)(cid:286)(cid:296)(cid:286)(cid:396)(cid:289)(cid:374)(cid:272)(cid:349)(cid:258)(cid:3)(cid:894)(cid:115)(cid:90)(cid:895)(cid:3)\n(cid:44)(cid:28)(cid:68)(cid:6)(cid:18)(cid:47)(cid:4)(cid:94)(cid:3)(cid:894)(cid:272)(cid:381)(cid:374)(cid:410)(cid:258)(cid:336)(cid:286)(cid:373)(cid:895)(cid:3) (cid:1009)(cid:853)(cid:1007)(cid:3) (cid:1087)(cid:3)(cid:1005)(cid:1004)(cid:1005)(cid:1006)(cid:876)(cid:62)(cid:3) (cid:1007)(cid:853)(cid:1012)(cid:3)(cid:258)(cid:3)(cid:1008)(cid:853)(cid:1012)(cid:3)(cid:1087)(cid:3)(cid:1005)(cid:1004)(cid:1005)(cid:1006)(cid:876)(cid:62)(cid:3)\n(cid:44)(cid:28)(cid:68)(cid:75)(cid:39)(cid:62)(cid:75)(cid:17)(cid:47)(cid:69)(cid:4)(cid:3) (cid:1005)(cid:1009)(cid:853)(cid:1010)(cid:3) (cid:336)(cid:876)(cid:282)(cid:62)(cid:3) (cid:1005)(cid:1006)(cid:853)(cid:1004)(cid:3)(cid:258)(cid:3)(cid:1005)(cid:1010)(cid:853)(cid:1004)(cid:3)(cid:336)(cid:876)(cid:282)(cid:62)(cid:3)\n(cid:44)(cid:28)(cid:68)(cid:4)(cid:100)(cid:77)(cid:18)(cid:90)(cid:47)(cid:100)(cid:75)(cid:3) (cid:1008)(cid:1008)(cid:853)(cid:1009)(cid:3) (cid:1081)(cid:3) (cid:1007)(cid:1010)(cid:853)(cid:1004)(cid:3)(cid:258)(cid:3)(cid:1008)(cid:1010)(cid:853)(cid:1004)(cid:1081)(cid:3)\n(cid:115)(cid:18)(cid:68)(cid:3) (cid:1013)(cid:1004)(cid:853)(cid:1012)(cid:3) (cid:296)(cid:367)(cid:3) (cid:1012)(cid:1004)(cid:853)(cid:1004)(cid:3)(cid:258)(cid:3)(cid:1005)(cid:1004)(cid:1004)(cid:3)(cid:296)(cid:367)(cid:3)\n(cid:44)(cid:18)(cid:68)(cid:3) (cid:1007)(cid:1006)(cid:853)(cid:1010)(cid:3) (cid:393)(cid:336)(cid:876)(cid:272)(cid:286)(cid:367)(cid:3) (cid:1006)(cid:1010)(cid:3)(cid:258)(cid:3)(cid:1007)(cid:1008)(cid:3)(cid:393)(cid:336)(cid:876)(cid:272)(cid:286)(cid:367)(cid:3)\n(cid:18)(cid:44)(cid:18)(cid:68)(cid:3) (cid:1007)(cid:1008)(cid:853)(cid:1012)(cid:3) (cid:336)(cid:876)(cid:282)(cid:62)(cid:3) (cid:1007)(cid:1005)(cid:853)(cid:1004)(cid:3)(cid:258)(cid:3)(cid:1007)(cid:1011)(cid:853)(cid:1004)(cid:3)(cid:336)(cid:876)(cid:282)(cid:62)(cid:3)\n(cid:90)(cid:24)(cid:116)(cid:3) (cid:1005)(cid:1008)(cid:853)(cid:1004)(cid:3) (cid:1081)(cid:3) (cid:1005)(cid:1004)(cid:853)(cid:1004)(cid:3)(cid:258)(cid:3)(cid:1005)(cid:1009)(cid:853)(cid:1004)(cid:3)(cid:1081)(cid:3)\n(cid:75)(cid:17)(cid:94)(cid:28)(cid:90)(cid:115)(cid:4)(cid:18)(cid:79)(cid:28)(cid:94)(cid:855)(cid:3)(cid:44)(cid:286)(cid:373)(cid:260)(cid:272)(cid:349)(cid:258)(cid:400)(cid:3)(cid:374)(cid:381)(cid:396)(cid:373)(cid:381)(cid:272)(cid:351)(cid:410)(cid:349)(cid:272)(cid:258)(cid:400)(cid:3)(cid:286)(cid:3)(cid:374)(cid:381)(cid:396)(cid:373)(cid:381)(cid:272)(cid:396)(cid:384)(cid:373)(cid:349)(cid:272)(cid:258)(cid:400)(cid:856)(cid:3)\n(cid:62)(cid:28)(cid:104)(cid:18)(cid:77)(cid:18)(cid:47)(cid:100)(cid:75)(cid:94)(cid:3) (cid:1012)(cid:856)(cid:1012)(cid:1011)(cid:1007)(cid:3) (cid:373)(cid:373)(cid:1007)(cid:3) (cid:1008)(cid:856)(cid:1009)(cid:1004)(cid:1004)(cid:3)(cid:258)(cid:3)(cid:1005)(cid:1005)(cid:856)(cid:1004)(cid:1004)(cid:1004)(cid:3)(cid:373)(cid:373)(cid:1007)(cid:3)\n(cid:17)(cid:4)(cid:94)(cid:100)(cid:79)(cid:28)(cid:94)(cid:3) (cid:1005)(cid:1010)(cid:1011)(cid:853)(cid:1008)(cid:3) (cid:373)(cid:373)(cid:1007)(cid:3) (cid:258)(cid:410)(cid:288)(cid:3)(cid:1012)(cid:1006)(cid:1013)(cid:3)(cid:373)(cid:373)(cid:1007)(cid:3)\n(cid:94)(cid:28)(cid:39)(cid:68)(cid:28)(cid:69)(cid:100)(cid:4)(cid:24)(cid:75)(cid:94)(cid:3) (cid:1009)(cid:856)(cid:1012)(cid:1009)(cid:1013)(cid:3) (cid:373)(cid:373)(cid:1007)(cid:3) (cid:1005)(cid:856)(cid:1011)(cid:1004)(cid:1004)(cid:3)(cid:258)(cid:3)(cid:1010)(cid:856)(cid:1005)(cid:1004)(cid:1004)(cid:3)(cid:373)(cid:373)(cid:1007)(cid:3)\n(cid:28)(cid:75)(cid:94)(cid:47)(cid:69)(cid:77)(cid:38)(cid:47)(cid:62)(cid:75)(cid:94)(cid:3) (cid:1010)(cid:1011)(cid:1004)(cid:853)(cid:1008)(cid:3) (cid:373)(cid:373)(cid:1007)(cid:3) (cid:1007)(cid:1004)(cid:3)(cid:258)(cid:3)(cid:1008)(cid:1010)(cid:1004)(cid:3)(cid:373)(cid:373)(cid:1007)(cid:3)\n(cid:17)(cid:4)(cid:94)(cid:77)(cid:38)(cid:47)(cid:62)(cid:75)(cid:94)(cid:3) (cid:1009)(cid:1004)(cid:853)(cid:1006)(cid:1006)(cid:3) (cid:373)(cid:373)(cid:1007)(cid:3) (cid:1004)(cid:1004)(cid:1004)(cid:3)(cid:258)(cid:3)(cid:1005)(cid:1007)(cid:1004)(cid:3)(cid:373)(cid:373)(cid:1007)(cid:3)\n(cid:62)(cid:47)(cid:69)(cid:38)(cid:77)(cid:18)(cid:47)(cid:100)(cid:75)(cid:94)(cid:3) (cid:1005)(cid:856)(cid:1010)(cid:1006)(cid:1007)(cid:853)(cid:1011)(cid:1012)(cid:3) (cid:373)(cid:373)(cid:1007)(cid:3) (cid:1005)(cid:856)(cid:1004)(cid:1004)(cid:1004)(cid:3)(cid:258)(cid:3)(cid:1007)(cid:856)(cid:1006)(cid:1004)(cid:1004)(cid:3)(cid:373)(cid:373)(cid:1007)(cid:3)\n(cid:68)(cid:75)(cid:69)(cid:77)(cid:18)(cid:47)(cid:100)(cid:75)(cid:94)(cid:3) (cid:1009)(cid:1004)(cid:1006)(cid:853)(cid:1006)(cid:3) (cid:373)(cid:373)(cid:1007)(cid:3) (cid:1006)(cid:1004)(cid:1004)(cid:3)(cid:258)(cid:3)(cid:1013)(cid:1006)(cid:1004)(cid:3)(cid:373)(cid:373)(cid:1007)(cid:3)\n(cid:87)(cid:62)(cid:4)(cid:89)(cid:104)(cid:28)(cid:100)(cid:4)(cid:94)(cid:853)(cid:3)\n(cid:3) (cid:3)(cid:3)(cid:3)(cid:3)(cid:3)(cid:3)(cid:3)(cid:3)(cid:3)(cid:1006)(cid:1006)(cid:1009)(cid:856)(cid:1004)(cid:1004)(cid:1004)(cid:3) (cid:373)(cid:373)(cid:1007)(cid:3) (cid:1005)(cid:1009)(cid:1004)(cid:856)(cid:1004)(cid:1004)(cid:1004)(cid:3)(cid:258)(cid:3)(cid:1008)(cid:1009)(cid:1004)(cid:856)(cid:1004)(cid:1004)(cid:1004)(cid:3)(cid:373)(cid:373)(cid:1007)(cid:3)\n(cid:18)(cid:75)(cid:69)(cid:100)(cid:4)(cid:39)(cid:28)(cid:68)(cid:3)"
+  },
+  {
+   "item": "Impresso com imagem",
+   "resultado": "A C D E F A B C D E F B C D E F A B C D E F",
+   "imagem": "img/estacoes/inep-2024-1-c06-p26.jpg"
+  }
+ ],
+ "diagnostico": "Pergunta sobre os sintomas associados relevantes para o estabelecimento de diagnósticos diferenciais: (1)febre OU calafrios; (2)dor torácica OU dor no peito OU dor ao respirar; (3)expectoração OU secreção OU purulência OU catarro; (4)cianose OU pele azulada OU pele arroxeada; (5)sintomas gripais (rinorreia, secreção nasal, espirros); (6)dispneia paroxística noturna OU despertar noturno por falta de ar; e, (7)edema de membros inferiores OU inchaço nas pernas.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "diagnosticar adequadamente quadro de exacerbação de asma",
+  "correlacionar os achados dos exames associando-os ao quadro",
+  "orientar e demonstrar a utilização correta do dispositivo inalatório",
+  "interpreta o achado da espirometria",
+  "orientar medidas não farmacológicas para prevenção de crises."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)identifica-se; e, (2)pergunta o nome e cumprimenta a paciente simulada.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre os sintomas associados relevantes para o estabelecimento de diagnósticos diferenciais: (1)febre OU calafrios; (2)dor torácica OU dor no peito OU dor ao respirar; (3)expectoração OU secreção OU purulência OU catarro; (4)cianose OU pele azulada OU pele arroxeada; (5)sintomas gripais (rinorreia, secreção nasal, espirros); (6)dispneia paroxística noturna OU despertar noturno por falta de ar; e, (7)edema de membros inferiores OU inchaço nas pernas.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga quatro itens ou mais.",
+   "parcial": "investiga dois ou três itens.",
+   "inadequado": "investiga um item OU não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre fatores desencadeantes, agravantes e atenuantes: (1)uso de medicamentos; (2)contato com animais domésticos OU com algum animal OU com pelos de animais; (3)ambiente com mofo ou com fungo ou poeira OU piora no local de trabalho; (4)tabagismo; (5)atividade física; e, (6)mudança climática OU certas estações do ano OU exposição a frio ou a calor.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "investiga três itens ou mais.",
+   "parcial": "investiga dois itens.",
+   "inadequado": "investiga um item OU não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Interpreta corretamente os achados do hemograma, identificando a eosinofilia, ou identificando o aumento dos eosinófilos, e a associa ao quadro.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "identifica.",
+   "parcial": null,
+   "inadequado": "não identifica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Interpreta o achado da espirometria: reversibilidade do distúrbio obstrutivo OU distúrbio obstrutivo com resposta ao broncodilatador/prova broncodilatadora.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "interpreta.",
+   "parcial": null,
+   "inadequado": "não interpreta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Comunica o diagnóstico de asma:",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "comunica o diagnóstico de asma (ou de “bronquite asmática” ou de “asma brônquica” ou de “crise de asma” ou de “crise asmática).",
+   "parcial": null,
+   "inadequado": "não comunica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Orienta e demonstra o uso do dispositivo inalatório corretamente: (1)agitar o dispositivo; (2)expirar completamente (esvaziar o pulmão OU soltar o ar do pulmão); (3) posicionar o dispositivo próximo ou diretamente na boca (entre os dentes); (4) disparar o dispositivo e inalar lenta e profundamente, de forma coordenada (disparar o dispositivo durante inspiração profunda OU disparar o dispositivo e inspirar profundamente); (5) prender a respiração (o fôlego) durante 5 a 10 segundos (pedir para contar até 10 mentalmente); e, (6)orientar a lavar a boca após o uso do dispositivo.",
+   "peso": 3.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 2.0,
+    "adequado": 3.0
+   },
+   "integral": "orienta e demonstra, na sequência correta, todas as etapas.",
+   "parcial": "orienta e demonstra, na sequência correta, da etapa 2 a etapa 5 OU apenas orienta, sem demonstrar, todas as etapas na sequência descrita OU apenas demonstra, sem orientar, todas as etapas na sequência descrita.",
+   "inadequado": "não demonstra e não orienta alguma das etapas de 2 a 5 ou fez a demonstração com o dispositivo tampado.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Orienta medidas não farmacológicas para a prevenção de crise, tais como evitar contato com: (1)mofo OU fungo; (2)poeira doméstica / pó / ácaros (em carpetes, cortinas, tapetes) OU orienta limpar a casa com pano úmido ao invés de varrer; (3) irritantes inespecíficos (tais como produtos de limpeza, perfume, tintas e solventes, fumaça, pólen, poluição do ar); (4) animais, pelo de animais domésticos, epitélio ou penas, objetos de pelúcia ou roupas com pelos quando há sensibilização; (5)fumaça de cigarros (eletrônicos e convencionais); e, (6)orienta manter ambientes arejados ou janelas abertas.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "orienta três itens ou mais.",
+   "parcial": "orienta um ou dois itens.",
+   "inadequado": "não orienta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

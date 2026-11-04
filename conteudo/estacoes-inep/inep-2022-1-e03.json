@@ -1,0 +1,212 @@
+{
+ "id": "inep-2022-1-e03",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.1",
+  "estacao": 3,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2022_1_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Pediatria",
+ "especialidade": "Pediatria",
+ "tema": "Dor abdominal",
+ "titulo": "Dor abdominal",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Secundária: ambulatorial e hospitalar. A unidade possui a seguinte infraestrutura: • laboratório; e • setor de radiologia convencional.",
+ "instrucoes": [
+  "Paciente de 11 anos, com queixa de dor abdominal.",
+  "Considere que a mãe da paciente está na sala durante toda a consulta, ouvindo todas as explicações. Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:",
+  "ler a ficha da paciente, apresentada a seguir",
+  "fazer a anamnese dirigida à paciente",
+  "solicitar qualquer exame físico e/ou complementar que deseje",
+  "comentar o exame físico (não será necessário examinar diretamente a paciente)",
+  "estabelecer o diagnóstico inicial e responder aos questionamentos da paciente",
+  "solicitar exames complementares de laboratório e de imagem, se necessário",
+  "interpretar os exames apresentados e verbalizar seus achados",
+  "confirmar a hipótese diagnóstica",
+  "encaminhar a paciente de acordo com a conduta terapêutica indicada. FICHA DA PACIENTE",
+  "Idade: 11 anos",
+  "Paciente eutrófica",
+  "Temperatura axilar: 38 °C",
+  "Pressão arterial: 130 × 70 mmHg",
+  "Peso atual: 52 kg",
+  "Altura: 1,55 m",
+  "Mãe presente na sala, acompanhando a paciente durante toda a consulta. A PACIENTE SIMULADA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "ler a ficha da paciente, apresentada a seguir",
+  "fazer a anamnese dirigida à paciente",
+  "solicitar qualquer exame físico e/ou complementar que deseje",
+  "comentar o exame físico (não será necessário examinar diretamente a paciente)",
+  "estabelecer o diagnóstico inicial e responder aos questionamentos da paciente",
+  "solicitar exames complementares de laboratório e de imagem, se necessário",
+  "interpretar os exames apresentados e verbalizar seus achados",
+  "confirmar a hipótese diagnóstica",
+  "encaminhar a paciente de acordo com a conduta terapêutica indicada. FICHA DA PACIENTE",
+  "Idade: 11 anos",
+  "Paciente eutrófica",
+  "Temperatura axilar: 38 °C",
+  "Pressão arterial: 130 × 70 mmHg",
+  "Peso atual: 52 kg",
+  "Altura: 1,55 m",
+  "Mãe presente na sala, acompanhando a paciente durante toda a consulta. A PACIENTE SIMULADA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [
+  {
+   "item": "Impresso com imagem",
+   "resultado": "IMPRESSO 2A – RADIOGRAFIA SIMPLES DE ABDOME EM PÉ ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS TÉCNICOS DA RADIOGRAFIA",
+   "imagem": "img/estacoes/inep-2022-1-c03-p15.jpg"
+  },
+  {
+   "item": "Impresso com imagem",
+   "resultado": "IMPRESSO 2B – RADIOGRAFIA SIMPLES DE ABDOME DEITADO ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS TÉCNICOS DA RADIOGRAFIA\nIMPRESSO 3 – HEMOGRAMA\nCliente : Graziela\nProtocol Local\nNascimento CPF\nSolicitante : REVALIDA Convênio: INEP BRASÍLIA\nHEMOGRAMA\nMaterial:...SANGUE Valores de Referência\nHEMÁCIAS:................... 4,85................ 4,32 a 5,66 milhões/mm3\nHEMOGLOBINA:................ 12,8................. 13,3 a 16,7 g/dL\nHEMATÓCRITO:................ 40,6................. 39,0 a 50,0%\nVCM:........................ 87,8................. 80 a 100 fl\nHCM:........................ 30,6................. 27,3 a 32,6 pg\nCHCM:....................... 34,8................. 31,0 a 37,0 g/dL\nRDW:........................ 13,0................. 10,0 a 15,0%\nOBSERVACÕES: Hemácias normocíticas e normocrômicas.\nLEUCÓCITOS:................. 19.370 3.700 a 9.500 mm3\n% mm3\n-BASTÕES:.................. 6,0 1.162 581 a 968 mm3\n-SEGMENTADOS:.............. 73,5 14.236 1.700 a 6.100 mm3\n-EOSINÓFILOS:.............. 1,3 251 30 a 460 mm3\n-BASÓFILOS:................ 0,6 116 000 a 130 mm3\n-LINFÓCITOS:............... 12,6 2.440 1.000 a 3.200 mm3\n-MONÓCITOS:................ 6,0 1.162 200 a 920 mm3\nPLAQUETAS, CONTAGEM:....... 234.000 150.000 a 450.000 mm3\n-MPV (fl):................. 8,8 7,0 a 12,0 fl\nNota(s):\n1.Valores de referência de acordo com idade e sexo, exceto para gestantes.\n2.Valores de referência para afrodescendentes adultos:\nLeucócitos: 3.200 a 10.600 mm3 - Neutrófilos: 1.200 a 7.100 mm3\nRef.:BAIN, B.J. Blood Cells: a practical guide. 4 ed. Oxford: Blackwell Publishing,\n2006. 476p.\nKAUSHANSKY, K. et al. Williams Hematology, 8 ed., MacGraw Hill Companies, Inc.,\n2010.\nTODO TESTE LABORATORIAL DEVE SER CORRELACIONADO COM O QUADRO CLÍNICO DO PACIENTE, SEM O QUAL A INTERPRETAÇÃO DOS\nRESULTADOS É APENAS RELATIVA.\nATENÇÃO:\nDIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS TÉCNICOS DO HEMOGRAMA\nIMPRESSO 4 – EXAME DE URINA\nCliente : Graziela\nProtocol : Local\nNascimento CPF\nSolicitante : REVALIDA ConvênioINEP BRASÍLIA\nMaterial: URINA Valores de Referência\nMétodo: físico-químico automatizado\ne análise do sedimento por imagens\ndigitalizadas e/ou microscopia de\ncontraste de fase.\nEXAME FÍSICO-QUÍMICO:\nCOR:...................... amarela amarela\nASPECTO:.................. límpido límpido/ligeiramente turvo\nDENSIDADE:................ 1025 1002 a 1030\npH:....................... 5,0 5,0 a 8,0\nPROTEÍNA:................. negativa negativa\nGLICOSE:.................. negativa negativa\nCETONAS:.................. negativa negativa\nBILIRRUBINAS:............. negativa negativa\nUROBILINOGÊNIO:........... negativo até 1 mg/dL (negativo)\nANÁLISE DO SEDIMENTO:\nLEUCÓCITOS:............... 660 até 20.000 p/mL\nHEMÁCIAS:................. 660 até 13.000 p/mL\nCÉLULAS EPITELIAIS:....... raras ausentes/raras\nNota(s): Não foram pesquisadas outras substâncias redutoras além da\nglicose.\nTODO TESTE LABORATORIAL DEVE SER CORRELACIONADO COM O QUADRO CLÍNICO DO\nPACIENTE, SEM O QUAL A INTERPRETAÇÃO DOS RESULTADOS É APENAS RELATIVA.\nATENÇÃO:\nDIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS TÉCNICOS DO EXAME DE URINA",
+   "imagem": "img/estacoes/inep-2022-1-c03-p16.jpg"
+  }
+ ],
+ "diagnostico": "Solicita exame físico geral e formula hipótese diagnóstica.",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se à paciente simulada e pergunta o seu nome.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma das ações.",
+   "inadequado": "não realiza nenhuma das ações.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Realiza anamnese, perguntando sobre: (1) motivo da consulta; (2) outros sinais e sintomas relacionados à queixa principal; (3) sintomas digestivos; (4) sintomas urinários; (5) menarca; (6) alimentação; (7) doenças anteriores; (8) histórico familiar.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "investiga 6 ou mais elementos, sendo a exploração da queixa principal obrigatória.",
+   "parcial": "investiga de 4 a 5 elementos apenas, sendo a exploração da queixa principal obrigatória.",
+   "inadequado": "investiga menos de 4 elementos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Solicita exame físico geral e formula hipótese diagnóstica.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "interpreta o exame físico e estabelece o diagnóstico etiológico de apendicite aguda.",
+   "parcial": null,
+   "inadequado": "não solicita o exame físico, ou não estabelece o diagnóstico etiológico de apendicite aguda.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Analisa a radiografia: (1) níveis líquidos em fossa ilíaca direita; (2) borramento da borda do músculo psoas; (3) distensão de alças intestinais; (4). escoliose antálgica; (5) presença de alças sentinelas.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "cita todos os itens.",
+   "parcial": "cita de 3 a 4 itens apenas.",
+   "inadequado": "cita até 2 itens apenas.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita e interpreta o hemograma.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita hemograma e o interpreta como de padrão infeccioso (leucocitose com desvio a esquerda ou as custas de segmentados ou formas jovens).",
+   "parcial": "solicita o hemograma, mas não o interpreta.",
+   "inadequado": "não solicita hemograma ou o solicita, mas interpreta que está tudo normal.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita e interpreta o exame de urina.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita e interpreta o exame de urina como normal.",
+   "parcial": "solicita o exame de urina, mas não o interpreta.",
+   "inadequado": "não solicita o exame de urina.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Após análise de exames complementares, confirma o diagnóstico.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "Confirma o diagnóstico de apendicite aguda.",
+   "parcial": null,
+   "inadequado": "Não confirma o diagnóstico ou formula outro diagnóstico qualquer.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Proposta terapêutica: (1) explica o que é a apendicite aguda e (2) que a paciente deve ser encaminhada para um cirurgião pediátrico, indicando cirurgia de urgência.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "realiza os dois itens corretamente.",
+   "parcial": "realiza apenas um dos itens corretamente.",
+   "inadequado": "não realiza nenhum dos itens corretamente.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

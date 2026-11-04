@@ -1,0 +1,312 @@
+{
+ "id": "inep-2024-1-e02",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.1",
+  "estacao": 2,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Cirurgia",
+ "especialidade": "Cirurgia geral",
+ "tema": "Você está de plantão na emergência de um hospital de médio porte e vai atender uma pacient",
+ "titulo": "Você está de plantão na emergência de um hospital de médio porte e vai atender uma pacient",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: urgência e emergência -pronto-socorro de hospital de médio porte. A unidade hospitalar possui a seguinte infraestrutura: • setor de radiologia convencional; • laboratório de análises clínicas; • leitos de internação; • centro cirúrgico e banco de sangue. Não há plantão de ortopedia nem de outras especialidades cirúrgicas no hospital.",
+ "instrucoes": [
+  "Você está de plantão na emergência de um hospital de médio porte e vai atender uma paciente de 25 anos de idade, vítima de trauma automobilístico do tipo colisão frontal contra um poste de concreto, sem cinto de segurança.",
+  "A paciente se apresenta sonolenta, gemente, desorientada em tempo e espaço. Escala de coma de Glasgow 13.",
+  "Ao exame físico, mostrou-se hipocorada (+/4+), taquipneica (27 irpm), taquicárdica (FC= 110 bpm), apresentando dor em tórax anterior. ■--- 1111:r\""
+ ],
+ "tarefas": [],
+ "historia": "A Estação aborda o atendimento de uma mulher de 25 anos de idade, vítima de trauma automobilístico. Ao dormir ao volante, colidiu frontalmente contra um poste de concreto. Estava sozinha no veículo e foi levada ao pronto-socorro pelos bombeiros, que relataram acidente carro–poste com paciente sem cinto de segurança, projetada sob o volante. A paciente se apresenta sonolenta, gemente, desorientada em tempo e espaço e com escala de coma de Glasgow 13. Ao exame físico, mostrou-se hipocorada (+/4+), taquipneica (27 irpm), taquicárdica (FC = 110bpm), apresentando dor em tórax anterior e abdome. Responde às perguntas de forma desconexa, está deitada em maca em prancha rígida e em uso de colar cervical.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": "25 anos",
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "chama-se Bianca, é solteira e tem 25 anos e trabalha como uma advogada"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "não se recorda direito do que aconteceu após a colisão do carro, lembra-se apenas de ver os bombeiros e de chegar ao hospital"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "sente-se um pouco tonta, com uma dor no lado direito do peito."
+   }
+  ],
+  "perguntasDoPaciente": [
+   "qual é o diagnóstico",
+   "se há necessidade de transferência da paciente a um centro terciário."
+  ]
+ },
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "Verbaliza o diagnóstico de pneumotórax hipertensivo.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "realizar o atendimento da paciente vítima de politrauma, de acordo com o Protocolo de Suporte Avançado de Vida no Trauma",
+  "identificar as alterações no exame físico",
+  "adotar a(s) conduta(s) terapêutica(s) necessária(s) ao caso, conforme o protocolo",
+  "verbalizar a realização de procedimentos médicos, preconizados necessários ao caso",
+  "utilizar habilidades profissionais para comunicação do diagnóstico à paciente."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Avalia as vias aéreas e verbaliza que as vias áreas estão pérvias.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.4
+   },
+   "integral": "verbaliza.",
+   "parcial": null,
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Verbaliza a necessidade de colocar a máscara de oxigênio.",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.3
+   },
+   "integral": "verbaliza.",
+   "parcial": "verbaliza a necessidade de iniciar fornecimento de oxigênio, mas não cita a máscara.",
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Verbaliza que o colar cervical não deve ser removido OU verbaliza manutenção do colar cervical OU verbaliza retirada do colar com estabilização manual da coluna, avaliação breve e posterior fechamento do colar",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.3
+   },
+   "integral": "verbaliza.",
+   "parcial": null,
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Realiza a avaliação clínica primária segundo o ABCDE, verbalizando: A: vias aéreas e coluna cervical; B: ventilação/respiração – Avaliação do aparelho respiratório; C: circulação – PA, FC e aparelho cardiovascular; nível consciência; D: exame neurológico – sonolenta, desorientada e glasgow 13; E: Exposição: a paciente está coberta e sem lesões externas.",
+   "peso": 0.9,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.45,
+    "adequado": 0.9
+   },
+   "integral": "verbaliza corretamente os dados do caso clínico na sequência correta",
+   "parcial": "verbaliza só os dados ou só a sequência.",
+   "inadequado": "não verbaliza corretamente ou não verbaliza na sequência.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Verbaliza o diagnóstico de pneumotórax hipertensivo.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "verbaliza.",
+   "parcial": null,
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Escolhe o cateter (jelco ou abocath) n.º 14 OU n.º 16 OU n.º 18 para realização da punção do tórax OU toracocentese de alívio.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.8
+   },
+   "integral": "escolhe.",
+   "parcial": null,
+   "inadequado": "não escolhe.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Verbaliza que a punção deve ser realizada no quinto, OU no quarto, espaço intercostal, linha axilar média OU anterior à linha axilar média.",
+   "peso": 1.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.4
+   },
+   "integral": "verbaliza.",
+   "parcial": null,
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Indica que deverá ser realizada drenagem torácica fechada (OU drenagem pleural fechada OU toracostomia fechada OU drenagem torácica em selo d’água OU drenagem pleural em selo d’água OU toracostomia em selo d’água) após a realização da punção de descompressão OU da toracocentese descompressiva.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.8
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Descreve a drenagem no quinto/quarto espaço intercostal, entre a linha anterior e a linha axilar média.",
+   "peso": 1.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.4
+   },
+   "integral": "descreve.",
+   "parcial": null,
+   "inadequado": "não descreve.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Solicita radiografia de tórax após a punção ou a drenagem.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Solicita monitorização da paciente indicando os seguintes parâmetros: 1.frequência cardíaca; 2.pressão arterial; 3.oximetria OU saturação de oxigênio; 4.diurese OU sondagem vesical; e, 5.Eletrocardiograma",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.3
+   },
+   "integral": "solicita a monitorização indicando 3 ou mais itens.",
+   "parcial": "solicita a monitorização indicando apenas 2 itens.",
+   "inadequado": "não solicita a monitorização ou solicita a monitorização indicando apenas 1 item. Obs. A monitorização da paciente pode ser indicada a qualquer momento.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Após os procedimentos de punção e/ou drenagem, verbaliza a reavaliação do aparelho respiratório OU verbaliza que será repetido o exame de “B” OU verbaliza que será repetido o",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "verbaliza.",
+   "parcial": null,
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Após os procedimentos de punção e/ou drenagem, verbaliza a reavaliação do exame do aparelho cardiovascular OU verbaliza que será repetido o exame de “C” OU verbaliza que será repetido o“ABCDE”.",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.3
+   },
+   "integral": "verbaliza.",
+   "parcial": null,
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c14",
+   "descricao": "Solicita acesso venoso indicando os seguintes parâmetros: 1.cateter calibre n.º 14 ou n.º 16 OU nº 18; 2.veia periférica OU acesso venoso em membro superior; 3.1 ou 2 litros; 4.ringuer lactato ou soro fisiológico ou cristalóide OU solução fisiológica.",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.3
+   },
+   "integral": "solicita a realização de acesso venoso indicando corretamente os quatro parâmetros.",
+   "parcial": "Solicita a realização de acesso venoso e indica corretamente 2 ou 3 parâmetros",
+   "inadequado": "não solicita a realização de acesso venoso ou solicita a realização de acesso venoso indicando três itens ou menos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c15",
+   "descricao": "Verbaliza a exposição e o controle do ambiente: 1.a necessidade de expor toda a paciente, OU retirando o lençol OU retirar roupa; 2. a necessidade de prevenção de hipotermia",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.3
+   },
+   "integral": "verbaliza os dois itens.",
+   "parcial": "verbaliza um item.",
+   "inadequado": "não verbaliza item algum",
+   "evidencia": "16. Verbaliza que, no momento, NÃO será necessária remoção da paciente. Conforme item 14.6 do Edital, a pontuação correspondente ao item será atribuída a todos os participantes, inclusive aos que não tenham Adequado: verbaliza. interposto recurso. Inadequado: não verbaliza.",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "critérios somam 9.5"
+ ]
+}

@@ -1,0 +1,382 @@
+{
+ "id": "inep-2024-2-e04",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.2",
+  "estacao": 4,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2024_2_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Ginecologia e Obstetrícia",
+ "especialidade": "Ginecologia e Obstetrícia",
+ "tema": "Sangramento vaginal",
+ "titulo": "Sangramento vaginal",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar. Tipo de atendimento: unidade de emergência de ginecologia e obstetrícia. A unidade apresenta a seguinte infraestrutura: ● laboratório de análises clínicas; ● setor de diagnóstico de imagem: aparelhos de ecografia e exames radiológicos convencionais (Raio X); ● unidade de internação hospitalar. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+ "instrucoes": [
+  "Mulher grávida comparece à Emergência de uma maternidade com queixa de sangramento vaginal.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO. DESCRIÇÃO DO CASO Mulher grávida comparece à Emergência de uma maternidade com queixa de sangramento"
+ ],
+ "tarefas": [
+  "Realizar anamnese da paciente.",
+  "Solicitar o exame físico e ginecológico da paciente verbalizando, de forma completa, os parâmetros, pertinentes à queixa da paciente, que deverão ser verificados.",
+  "Solicitar os exames complementares, de forma completa, pertinentes à queixa da paciente.",
+  "Verbalizar a hipótese diagnóstica principal e QUATRO diagnósticos diferenciais para o quadro clínico.",
+  "Orientar a conduta relativa ao caso clínico.",
+  "Responder às perguntas da paciente de forma completa, justificando os motivos das orientações."
+ ],
+ "historia": "A Estação 4, da área de Ginecologia e Obstetrícia, abordou o atendimento a uma gestante com 36 anos de idade, com um quadro de sangramento na segunda metade da gestação. No atendimento,",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "se chama Amanda, tem 36 anos de idade, é divorciada e trabalha na secretaria de uma escola"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "está com 30 semanas de gestação e apresenta sangramentos vaginais há, aproximadamente, 3 semanas"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "esta é sua terceira gravidez, sofreu um aborto há 3 anos e teve um parto cesáreo há 7 anos"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos",
+    "resposta": "sua primeira gestação transcorreu sem intercorrências e que o parto de sua filha foi a termo"
+   },
+   {
+    "topico": "Início e evolução (2)",
+    "resposta": "não está com parceiro fixo e desde que descobriu a gravidez não mantém relação sexual"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "fazia uso de método contraceptivo de barreira, mas às vezes esquecia de usar"
+   },
+   {
+    "topico": "Início e evolução (3)",
+    "resposta": "faz o pré-natal regularmente, tendo comparecido há cinco consultas regulares e realizado uma ecografia há 10 dias"
+   },
+   {
+    "topico": "Sintomas associados (2)",
+    "resposta": "a princípio sangrava em pequena quantidade apenas uma vez por semana, contudo o sangramento tem-se intensificado, na semana anterior sangrou em maior volume e por tempo maior, hoje o sangramento piorou muito"
+   },
+   {
+    "topico": "Sintomas associados (3)",
+    "resposta": "sangrou sangue vivo em fluxo contínuo por aproximadamente 3 horas, notou que expeliu alguns pedaços escuros, o sangramento parou há, aproximadamente, 7 horas, assim que ela saiu do trabalho foi imediatamente ao hospital"
+   },
+   {
+    "topico": "Fatores de melhora e piora",
+    "resposta": "não percebeu outros sintomas, fatores de melhora ou de piora"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "não tem problemas de saúde, está com todas as vacinas em dia, faz suplementação de sulfato ferroso, não possui alergias e a única cirurgia que sofreu foi a cesariana"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "seu tipo sanguíneo é B negativo. Após as adequadas solicitações de exames, o(a) participante deveria receber os seguintes"
+   }
+  ],
+  "perguntasDoPaciente": [
+   "O que eu tenho?",
+   "Preciso ficar internada?",
+   "Preciso tomar algum remédio?"
+  ]
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico / ginecológico",
+   "achado": "Altura: 1,66 m.\nPeso: 58 Kg.\nPressão arterial: 112 × 78 mmHg.\nFrequência cardíaca: 92 batimentos por minuto.\nFrequência respiratória: 16 incursões respiratórias por minuto.\nTemperatura axilar: 36,6 °C.\nÍndice de saturação de oxigênio: 98% em ar ambiente.\nMucosas: descoradas 2+/4+.\nFrequência cardíaca fetal (BCF): 150 batimentos por minuto.\nEstática fetal: feto em apresentação cefálica, dorso à direita.\nPalpação uterina: Tônus normal.\nDinâmica uterina: Ausência de contrações.\nExame especular: ausência de sangramento se exteriorizando pelo orifício externo do colo,\nporém com presença de pequena quantidade de coágulos escurecidos em fundo de saco\nvaginal. Orifício cervical aparentemente fechado.\nToque vaginal: não realizado.\nDemais parâmetros do exame físico-ginecológico sem alterações."
+  }
+ ],
+ "exames": [
+  {
+   "item": "Cartão de pré natal",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2024-2-c04-p16.jpg"
+  },
+  {
+   "item": "Ecografia obstétrica",
+   "resultado": "IG: 28 SEMANAS E 4 DIAS\nGestação tópica única, feto cefálico, com dorso anterior.\nLíquido amniótico em quantidade normal.\nPeso fetal no percentil 50 para a idade gestacional.\nBatimento cardíaco fetal (BCF): 145 batimentos por minuto.\nPresença de placenta de implantação centro-total, recobrindo totalmente o orifício interno\ndo colo uterino.\nAusência de sinais de acretismo placentário."
+  },
+  {
+   "item": "Exames laboratoriais",
+   "resultado": "Exame Resultado Valores de referência\nHemácias (contagem) 3,7 × 1012 /L 3,8 – 4,8 × 1012 /L\nHemoglobina (Hb) 10,0 g/dL 12,0 – 16,0 g/dL\nHematócrito (Hct) 32 % 36,0 – 46,0 %\nPlaquetas 180.000 mm3 150.000 – 450.000 /mm³\nCoagulograma sem alterações 11 – 14,5 segundos\nCreatinina 0,9 mg/dL 0,5 – 1,0 mg/dL\nUreia 20 mg/dL 17 – 42 mg/dL\nTipagem Sanguínea B Negativo 10 – 40 mg/dL\nCoombs Indireto Negativo 30 – 200 U/L"
+  }
+ ],
+ "diagnostico": "Define a hipótese diagnóstica como placenta prévia centro-total ou placenta prévia total.",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)Cumprimenta a paciente e/ou fala o seu nome; e, (2)Pergunta mais algum elemento de identificação da anamnese como idade, ou profissão.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.2
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre sinais e sintomas: (1)Tempo (início); (2)Evolução (ou frequência ao longo do tempo); (3)Quantidade; (4)Duração deste sangramento de hoje; (5)Associação a dor; (6)Associação a contrações; (7)Fatores desencadeantes; (8)Fatores amenizadores; e, (9)Presença de movimentos fetais.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta cinco ou mais sinais e sintomas.",
+   "parcial": "pergunta três ou quatro sinais e sintomas.",
+   "inadequado": "pergunta um ou dois, ou não pergunta sinal ou sintoma algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Solicita o cartão de pré-natal da paciente.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre histórico gestacional: (1)quantidade de gestações prévias; (2)quais foram os tipos de partos (cesarianos ou normais); e, (3)histórico de abortamentos.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta os três itens.",
+   "parcial": "pergunta dois itens.",
+   "inadequado": "pergunta um item ou não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita o exame físico / ginecológico da paciente informando os seguintes parâmetros: (1)Frequência cardíaca materna; (2)Pressão arterial.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.2,
+    "adequado": 0.4
+   },
+   "integral": "solicita um parâmetro.",
+   "parcial": null,
+   "inadequado": "não solicita parâmetro algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita o exame físico / ginecológico da paciente informando os seguintes parâmetros: (1)Coloração OU Ectoscopia de mucosas; (2)Estática fetal/ posição/ Leopold.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.2,
+    "adequado": 0.4
+   },
+   "integral": "solicita um parâmetro.",
+   "parcial": null,
+   "inadequado": "não solicita parâmetro algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Solicita o exame físico / ginecológico da paciente informando os seguintes parâmetros: (1)Frequência cardíaca fetal (BCF); (2)Exame especular – características do sangramento.",
+   "peso": 0.6,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.3,
+    "adequado": 0.6
+   },
+   "integral": "solicita um parâmetro.",
+   "parcial": null,
+   "inadequado": "não solicita parâmetro algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Solicita o exame físico / ginecológico da paciente informando os seguintes parâmetros: (1)Tônus uterino; (2)Contrações uterinas (dinâmica uterina).",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.2,
+    "adequado": 0.4
+   },
+   "integral": "solicita um parâmetro.",
+   "parcial": null,
+   "inadequado": "não solicita parâmetro algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Solicita a realização de exame de toque vaginal:",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "não solicita OU contraindica.",
+   "parcial": null,
+   "inadequado": "solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Define a hipótese diagnóstica como placenta prévia centro-total ou placenta prévia total.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "define o diagnóstico completo.",
+   "parcial": "menciona apenas o termo placenta prévia.",
+   "inadequado": "não define o diagnóstico de placenta prévia, ou específica incorretamente o diagnóstico de placenta prévia (como parcial, lateral ou outra forma diferente da correta) que é total ou centro-total.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Solicita exames complementares essenciais para decidir a conduta para o quadro: (1)Hemograma; (2)Função renal (Ureia e/ou Creatinina); (3)Coagulograma; (4)Tipagem sanguínea;",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "solicita os quatro exames.",
+   "parcial": "solicita três exames.",
+   "inadequado": "solicita um ou dois exames ou não solicita exame algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Formula diagnósticos diferenciais: (1)Vasa prévia; (2)Ruptura de seio marginal; (3)Pólipo cervical; (4)Cervicite; (5)Tumores de colo; (6)Ectropia cervical; (7)Descolamento prematuro da placenta.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "formula quatro ou mais diagnósticos diferenciais.",
+   "parcial": "formula dois ou três diagnósticos diferenciais.",
+   "inadequado": "formula um diagnóstico ou não formula diagnóstico algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Indica a internação da paciente.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c14",
+   "descricao": "Indica o uso de corticoide para a maturidade fetal.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c15",
+   "descricao": "Indica o uso de imunoglobulina anti-D.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c16",
+   "descricao": "Indica que a via de Parto (se mantendo a placenta centro total) deverá ser cesariana.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

@@ -1,0 +1,275 @@
+{
+ "id": "inep-2024-1-e04",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.1",
+  "estacao": 4,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Ginecologia e Obstetrícia",
+ "especialidade": "Ginecologia e Obstetrícia",
+ "tema": "Você está de plantão na emergência da maternidade e deverá atender a uma paciente chamada ",
+ "titulo": "Você está de plantão na emergência da maternidade e deverá atender a uma paciente chamada ",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: urgência e emergência - maternidade. A unidade possui a seguinte infraestrutura: • consultório ginecológico; • laboratório de análises clínicas. • centro obstétrico;",
+ "instrucoes": [
+  "Você está de plantão na emergência da maternidade e deverá atender a uma paciente chamada Paula, de 30 anos de idade, primigesta com idade gestacional de 32 semanas e 5 dias.",
+  "Ela faz pré-natal de alto risco por hipertensão arterial prévia, mantendo bons níveis pressóricos no pré-natal, até a última consulta.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO. ■--- 1111:r\""
+ ],
+ "tarefas": [
+  "atender à paciente realizando anamnese obstétrica durante a consulta",
+  "indicar investigação diagnóstica adequada",
+  "citar, de forma completa, a hipótese diagnóstica",
+  "correlacionar os critérios laboratoriais e clínicos encontrando as hipóteses diagnósticas",
+  "citar dois fatores de risco da paciente que podem tê-la levado a desenvolver o quadro clínico",
+  "indicar a conduta, farmacológica e não farmacológica, adequada levando em consideração a situação clínica da paciente no momento da consulta."
+ ],
+ "historia": "A Estação aborda o atendimento de uma gestante de 30 anos de idade, primigesta, com idade gestacional de 32 semanas e 5 dias, que busca a emergência de uma maternidade devido a cefaleia intensa, náuseas, vômitos e intensa epigastralgia. A paciente realiza pré-natal de alto risco por hipertensão arterial crônica. Ela está em uso regular de metildopa 2 g/dia, mantendo bons níveis pressóricos no pré-natal (pressão arterial variando entre 130 a 140 × 70 a 80 mmHg). Faz uso profilático de sulfato ferroso, carbonato de cálcio 1 g/dia e AAS 100 mg/dia.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "é casada e trabalha em um escritório"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "faz uso regular, desde o início da gestação, de metildopa 2 g/dia, de sulfato ferroso, de carbonato de cálcio 1 g/dia e de AAS 100 mg/dia"
+   },
+   {
+    "topico": "Início e evolução (2)",
+    "resposta": "sente-se nauseada, desde o dia anterior e vomitou uma vez, hoje pela manhã"
+   },
+   {
+    "topico": "Início e evolução (3)",
+    "resposta": "sente dor intensa e constante no estômago, desde o episódio de vômito, e está com turvação visual e fotopsia há uma hora"
+   },
+   {
+    "topico": "Fatores de melhora e piora",
+    "resposta": "fez uso de ondansetrona, de paracetamol e de omeprazol para aliviar os sintomas, mas a medicação não surtiu efeito."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "Pressão arterial: 180 x 120 mmHg.\nObs.: medição realizada em membro superior direito; a pressão foi aferida 2 vezes\nno intervalo de 30 minutos.\nBatimentos cardíacos fetais: 128 bpm.\nÍndice de massa corpórea: 35 Kg/m2\nPaciente consciente, orientada, corada e afebril;\nDinâmica uterina ausente; não foi realizado exame de toque.\n■---\n1111:r\"",
+   "imagem": "img/estacoes/inep-2024-1-c04-p19.jpg"
+  }
+ ],
+ "exames": [
+  {
+   "item": "Cartão de pré-natal",
+   "resultado": "C•artão da Gestante\ni\ne\nNome: Paula ) (_�G_e_st_a_9_o_es_:_G_1 _ PO _ Ao_ __ )\nIdade O.IQC:lonal li3 17 23\nflrffdo.trteriol (mmHg} noxso l20X70 1'40X?O 130XBO 120X80 130X80 130ll:70\n.IIJtvrawterfna (cm) 7 10 14 29\n•\n8Cf ♦ + +\n( _ Ex_-_a_m · ·_a,_:s_N_o_r_m_a_is_l _N_ão_ _re _a_ge_n_tr_es_.- ______, ) Antac,edente-s C::li. Obst: Hlpértensão Arterai l Sistêmica.\n( v_a_c_in_a_s:_A_t_u_a_zli_a_da_s_. Gesta.ç • o Atu.a 1: em uso de: metildopa - 2g: sulfato\n_ __________) ferroso• 150 mg: AAS-100 mg; e, carbonato de\ncálcio -1 grama.\n■---\n1111:r\"",
+   "imagem": "img/estacoes/inep-2024-1-c04-p20.jpg"
+  },
+  {
+   "item": "Exames laboratoriais",
+   "resultado": "Cliente: Paula\nProtocolo:Qül.2774113-5 Local: MATRIZ\nNascimento: 17/03/1994 CPF: 999. 999. 999-99\nSolicitante: REVALIDA\nMaterial: SANGUE\nExame Valores de Referência (VR)\nHEMÁCIAS (contagem) 3,2 X 1012/L 3,8 a 4,8 x 1012/L\nHEMOGLOBINA 9,0 g/dL 12,0 a 16,0 g/dL\nHEMATÓCRITO 27 % 36,0 a 46,0%\nPLAQUETAS (contagem) 98 X 109/L 150 a 450 x 109/ L\nBILIRRUBINA TOTAL 0,8 mg/dL 0,3 a 1,2 mg/dL\nBILIRRUBINA DIRETA 0,6 mg/dL 0,1 a 0,4 mg/dL\nBILIRRUBINA INDIRETA 0,2 mg/dL 0,2 a 0,8 mg/dL\nDESIDROGENASE LÁCTICA 780 U/L 135 a 735 U/L\nÁCIDO ÚRICO 6,8 mg/dL 0,5 a 5,0 mg/dL\nTGO (AST) 172 U/L 10 a 37 U/L\nTGP(ALT) 158 U/L 10 a 37 U/L\nCREATININA 1,2 mg/dL 0,5 a 1,0 mg/dL\nMaterial: URINA\nExame Valores de Referência (gestante)\nPROTEINÚRIA DE FITA 3+/4+. Negativo\nExame anterior\nValores de Referência (gestante)\n(realizado com 12 semanas de gestação)\nPROTEINÚRIA DE 24 HORAS 95 mg/24 horas até 100 mg/24 horas\n■---\n1111:r\"",
+   "imagem": "img/estacoes/inep-2024-1-c04-p21.jpg"
+  }
+ ],
+ "diagnostico": "Solicita exames essenciais para a definição do diagnóstico: (1)hemograma OU hemoglobina + hematócrito + plaquetas; (2)desidrogenase láctica OU bilirrubina indireta OU concentração de haptoglobina; (3)TGO e TGP (AST, ALT) OU enzimas hepáticas.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "fazer o diagnóstico de síndrome HELLP identificando os fatores de risco a partir do histórico da paciente e dos critérios laboratoriais e clínicos",
+  "solicitar a investigação adequada e interpretar corretamente o resultado dos exames laboratoriais",
+  "correlacionar o quadro clínico e laboratorial a hipótese diagnóstica",
+  "indicar os fatores de risco da paciente que estão relacionados ao diagnóstico",
+  "indicar a internação da paciente e prescrever a medicação adequada."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)cumprimenta a paciente e/ou fala o seu nome; (2) pergunta o motivo da consulta ou a queixa principal da paciente.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.2,
+    "adequado": 0.4
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre a presença de: (1)epigastralgia; (2)sintomas visuais (turvação visual OU fotopsia OU escotomas OU distúrbios visuais); (3)náuseas ou vômitos; (4)dor torácica; (5)dispneia.",
+   "peso": 1.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.6,
+    "adequado": 1.2
+   },
+   "integral": "pergunta dois ou mais itens.",
+   "parcial": "pergunta um item.",
+   "inadequado": "não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre medicações de uso contínuo na gestação.",
+   "peso": 0.6,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.6
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre uso de medicações para alívio dos sintomas atuais:",
+   "peso": 0.6,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.6
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita exames essenciais para a definição do diagnóstico: (1)hemograma OU hemoglobina + hematócrito + plaquetas; (2)desidrogenase láctica OU bilirrubina indireta OU concentração de haptoglobina; (3)TGO e TGP (AST, ALT) OU enzimas hepáticas.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "solicita os três itens.",
+   "parcial": null,
+   "inadequado": "solicita dois ou menos itens OU não solicita item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Define a correta hipótese diagnóstica:",
+   "peso": 1.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.6,
+    "adequado": 1.2
+   },
+   "integral": "define como síndrome HELLP.",
+   "parcial": "define como hipertensão arterial sistêmica com pré-eclâmpsia sobreposta OU pré-eclâmpsia com sinais de gravidade OU iminência e eclâmpsia.",
+   "inadequado": "não define uma hipótese OU não especifica a síndrome hipertensiva.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Associa o quadro clínico a hipótese diagnóstica: (1) hipertensão arterial sistêmica, em bom controle, com aumento súbito de pressão arterial após 20 semanas de gestação; (2)presença de cefaleia; (3)presença de epigastralgia; (4)presença de sintomas visuais.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "associa os quatro itens.",
+   "parcial": "associa dois ou três itens.",
+   "inadequado": "associa um item OU não associa item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Associa o quadro laboratorial a hipótese diagnóstica: (1)hemoglobina abaixo do valor de referência (VR); (2)plaquetas < 100.000; (3)desidrogenase láctica (LDH/DHL) > 600 ou 700; (4)TGO, TGP (AST, ALT) > 2,5 (VR); (5)elevação de ácido úrico ou hiperuricemia; (6)proteinúria em fita superior a +1/+4; (7)creatinina maior ou igual a 1,2.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "associa os sete itens.",
+   "parcial": "associa de três a seis itens.",
+   "inadequado": "associa um ou dois itens OU não associa item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Cita os fatores de risco da paciente que estão relacionados ao diagnóstico: (1)hipertensão crônica; (2)obesidade; (3)primigesta.",
+   "peso": 0.6,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.3,
+    "adequado": 0.6
+   },
+   "integral": "cita dois itens.",
+   "parcial": "cita um item.",
+   "inadequado": "não cita item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Orienta a internação da paciente: (1)indica a internação; (2)a internação deve ser imediata; (3)a paciente deve permanecer internada até o pós-parto.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "orienta os três itens",
+   "parcial": "orienta os itens (1) e (2).",
+   "inadequado": "não orienta o item (1) OU não orienta o item (2).",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Indica as seguintes medicações: (1) nifedipino ou hidralazina ou labetalol (para controle pressórico); (2) sulfato de magnésio (para neuroproteção materna ou para evitar crise convulsiva materna); (3) corticoterapia (para maturação pulmonar fetal) com betametasona ou com dexametasona.",
+   "peso": 1.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.7,
+    "adequado": 1.4
+   },
+   "integral": "indica os três medicamentos.",
+   "parcial": "indica os medicamentos (1) e (2).",
+   "inadequado": "não indica o medicamento (1) OU não indica o medicamento (2) OU não indica medicamento algum.",
+   "evidencia": "Observação: não é necessário que o participante justifique o porquê de cada item da prescrição para pontuar neste quesito.",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

@@ -1,0 +1,228 @@
+{
+ "id": "inep-2025-1-e08",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2025.1",
+  "estacao": 8,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2025_1_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2025_1_prova_habilidades_clinicas.pdf.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Pediatria",
+ "especialidade": "Pediatria",
+ "tema": "Você é um médico de plantão atuando na sala de emergência de uma unidade de pronto atendim",
+ "titulo": "Você é um médico de plantão atuando na sala de emergência de uma unidade de pronto atendim",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: secundária. Tipo de atendimento: urgência e emergência. A unidade apresenta a seguinte infraestrutura: • consultórios médicos; • sala de reanimação; • sala de observação; • unidade de internação pediátrica; • unidade de terapia intensiva pediátrica; • laboratório de patologia clínica; • imagenologia.",
+ "instrucoes": [
+  "Você é um médico de plantão atuando na sala de emergência de uma unidade de pronto atendimento (UPA) e dialogará com uma enfermeira. Ela pedirá a você que avalie Artur, uma criança de 3 anos e 11 meses que foi trazida ao hospital por seu avô, Sr. Álvaro, porque seus pais estão viajando. Ainda na recepção, o avô relatou à enfermeira que a criança brincava no jardim quando foi atacada por uma abelha, há cerca de 15 minutos.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "escutar o relato da enfermeira",
+  "solicitar exame físico relacionado à queixa principal",
+  "formular e verbalizar o diagnóstico do paciente, com base no relato clínico e no exame físico",
+  "definir e verbalizar a conduta medicamentosa inicial, com base no diagnóstico, indicando: (1) medicação de primeira escolha / primeira linha; (2) dose (mg ou mL/ kg); e (3) via de administração para o tratamento emergencial.",
+  "definir a conduta após a estabilização ou não do paciente."
+ ],
+ "historia": "A Estação 8 de Pediatria aborda um caso de um menino de 3 anos e 11 meses picado por uma abelha há 15 minutos, o qual foi levado por seu avô ao hospital para atendimento de urgência. O participante deve dialogar com a enfermeira que realizou o atendimento inicial da criança e depois proceder à formulação do diagnóstico e às intervenções adequadas.",
+ "paciente": null,
+ "exameFisico": [
+  {
+   "item": "Avaliação inicial / exame físico",
+   "achado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2025-1-c08-p33.jpg",
+   "chaves": [
+    "avaliar a criança. os demais impressos (impresso — monitor da sala de admissão e o impresso — bandeja de medicações disponíveis) encontram-se em cima da maca",
+    "exame físico",
+    "para examinar",
+    "sendo disponibilizados sem necessidade de pedido prévio por parte do participante"
+   ]
+  }
+ ],
+ "exames": [
+  {
+   "item": "Monitor da sala de admissão",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2025-1-c08-p34.jpg"
+  },
+  {
+   "item": "Bandeja de medicações disponíveis",
+   "resultado": "Medicações injetáveis disponíveis:\n• adrenalina;\n• noradrenalina;\n• dobutamina;\n• metilprednisolona;\n• midazolam;\n• difenidramina;\n• adenosina;\n• atropina.",
+   "imagem": "img/estacoes/inep-2025-1-c08-p35.jpg"
+  }
+ ],
+ "diagnostico": "Formula o diagnóstico de anafilaxia (reação alérgica OU reação alérgica tipo 1 OU hipersensibilidade tipo 1 OU alergia grave OU alergia mediada por liberação de histamina OU anafilaxia com reação grave OU reação anafilática OU reação alérgica grave).",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "escutar atentamente o relato da enfermeira",
+  "solicitar a realização de exame físico",
+  "verbalizar o diagnóstico de anafilaxia (reação alérgica tipo 1 OU hipersensibilidade tipo 1 OU alergia grave OU alergia mediada por liberação de histamina)",
+  "solicitar administração de adrenalina ou epinefrina como primeira opção medicamentosa",
+  "indicar a via de administração de adrenalina (intramuscular ou subcutânea)",
+  "indicar a dose de adrenalina (0,01 mg/kg/dose – 0,15 mg ou 0,1 mL/kg/dose – 0,15 mL ou 0,2 mL)",
+  "NÃO indicar corticoide como primeira escolha",
+  "NÃO indicar anti-histamínico como primeira escolha",
+  "indicar observação do paciente no mesmo serviço. INFORMAÇÕES ADICIONAIS No início da interação, a enfermeira informa que a criança:",
+  "tem 3 anos e 11 meses",
+  "foi picada por uma abelha há mais ou menos 15 minutos",
+  "desenvolveu urticária em face, tronco e membros, além de edema em lábios, olhos e orelhas, até ser levado ao hospital",
+  "chegou ao hospital choroso e evoluiu com vários episódios de vômitos, tosse seca, desconforto respiratório e palidez."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Escuta atentamente o relato da enfermeira",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "sim.",
+   "parcial": null,
+   "inadequado": "não.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pede para realizar exame físico ou solicita a realização de avaliação primária sistematizada ABCDE (ATENÇÃO: pontuar somente se o participante solicitar antes da pergunta ativa da enfermeira).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "pede.",
+   "parcial": null,
+   "inadequado": "não pede.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Formula o diagnóstico de anafilaxia (reação alérgica OU reação alérgica tipo 1 OU hipersensibilidade tipo 1 OU alergia grave OU alergia mediada por liberação de histamina OU anafilaxia com reação grave OU reação anafilática OU reação alérgica grave).",
+   "peso": 2.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 2.5
+   },
+   "integral": "formula.",
+   "parcial": null,
+   "inadequado": "não formula OU formula o diagnóstico de choque anafilático ou outro tipo de choque.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Solicita administração de adrenalina OU epinefrina como primeira opção medicamentosa.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 2.0
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Indica a via de administração da adrenalina OU epinefrina (intramuscular/no músculo vasto lateral da coxa OU subcutânea).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica a via correta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Indica a dose de adrenalina OU epinefrina: 0,01 mg/kg/dose — 0,15 mg ou 0,01 mL/kg/dose — 0,15 mL",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "indica",
+   "parcial": null,
+   "inadequado": "não indica Obs.: Aceitar 0,2 mL.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Indica corticoide (metilprednisolona; prednisona, prednisolona, hidrocortisona).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "não indica OU indica após adrenalina.",
+   "parcial": null,
+   "inadequado": "indica isoladamente ou indica antes da adrenalina.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Indica anti-histamínico ou prometazina ou difenidramina ou loratadina.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "não indica OU indica após adrenalina.",
+   "parcial": null,
+   "inadequado": "indica isoladamente ou indica antes da adrenalina.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Indica observação e/ou internação do paciente neste serviço.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica OU dá alta imediatamente após estabilização.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Roque. C.E.A.H. Anafilaxia: conceitos, quadro clínico, diagnóstico e tratamento. In Universidade Aberta do SUS. Universidade Federal da Maranhão. Cuidado nas queixas comuns no atendimento à demanda espontânea na atenção primária à saúde. Cuidado em reações anafiláticas. São Luis: UNA-SUS, 2-21.",
+  "O desempenho do participante ao longo da estação foi avaliado e pontuado a partir do seguinte PADRÃO ESPERADO DE PROCEDIMENTO (PEP)."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

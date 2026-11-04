@@ -1,0 +1,422 @@
+{
+ "id": "inep-2024-2-e06",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.2",
+  "estacao": 6,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2024_2_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Clínica Médica",
+ "especialidade": "Clínica Médica",
+ "tema": "Você atenderá um paciente com 58 anos de idade, histórico de arritmia cardíaca, diabetes m",
+ "titulo": "Você atenderá um paciente com 58 anos de idade, histórico de arritmia cardíaca, diabetes m",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: atenção secundária à saúde. Tipo de atendimento: urgência e emergência. A unidade possui a seguinte infraestrutura: ● consultórios; ● sala de estabilização; ● laboratório de análises clínicas; ● serviço de radiologia com aparelho de radiografia e tomografia computadorizada; ● leitos de internação – enfermaria e terapia intensiva.",
+ "instrucoes": [
+  "Você atenderá um paciente com 58 anos de idade, histórico de arritmia cardíaca, diabetes melito e dislipidemia, com suspeita de acidente vascular cerebral por apresentar déficit neurológico (hemiplegia E) e cefaleia, iniciados há cerca de 1 hora. Paciente encontra- se com respiração espontânea, via aérea pérvia, boa saturação de O em ar ambiente e parâmetros hemodinâmicos adequados."
+ ],
+ "tarefas": [
+  "Aplicar a escala NIHSS ao paciente.",
+  "Totalizar a pontuação da escala NIHSS e VERBALIZAR.",
+  "Solicitar exames complementares necessários à avaliação inicial do caso. CASO JULGUE NECESSÁRIO TOCAR O PACIENTE SIMULADO, O TOQUE É PERMITIDO APENAS NA PERNA, ABAIXO DOS JOELHOS, E NO BRAÇO, ABAIXO DOS COTOVELOS."
+ ],
+ "historia": "A Estação 6, da área de Clínica Médica, abordou o caso de um homem com 58 anos de idade, que procurou o pronto atendimento hospitalar com suspeita de Acidente Vascular Cerebral (AVC) por apresentar déficit neurológico (hemiplegia E) e cefaleia, iniciados há cerca de 1 hora. No atendimento,",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "chama-se Anderson, tem 58 anos e é motorista de ônibus"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "possui diabetes, arritmia e colesterol alto"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "os sintomas começaram há pouco mais de 1 hora; Durante a aplicação da escala NIHSS pelo(a) participante, o paciente deveria responder adequadamente todas as solicitações relacionadas à fala, com as seguintes respostas às perguntas realizadas:"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "estamos no mês de dezembro"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "tenho 58 anos"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "identificação da quantidade correta de dedos mostrada pelo(a) participante"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "identificação correta dos objetos apontados"
+   },
+   {
+    "topico": "Outras informações (6)",
+    "resposta": "leitura adequada das frases do impresso"
+   },
+   {
+    "topico": "Outras informações (7)",
+    "resposta": "identificação correta dos desenhos do impresso"
+   },
+   {
+    "topico": "Outras informações (8)",
+    "resposta": "descrição correta do que acontece no desenho do impresso. Durante a aplicação da escala NIHSS o(a) participante poderia solicitar movimentações ao paciente, que deveria agir da seguinte forma:"
+   },
+   {
+    "topico": "Outras informações (9)",
+    "resposta": "abrir e fechar os olhos"
+   },
+   {
+    "topico": "Outras informações (10)",
+    "resposta": "abrir e fechar a mão direita"
+   },
+   {
+    "topico": "Outras informações (11)",
+    "resposta": "não conseguir mover a mão esquerda"
+   },
+   {
+    "topico": "Outras informações (12)",
+    "resposta": "movimentar horizontalmente os olhos"
+   },
+   {
+    "topico": "Outras informações (13)",
+    "resposta": "acompanhar o movimento dos dedos do(a) participante com o olhar"
+   },
+   {
+    "topico": "Outras informações (14)",
+    "resposta": "enxergar os dedos do(a) participante"
+   },
+   {
+    "topico": "Outras informações (15)",
+    "resposta": "mostrar os dentes ou sorrir"
+   },
+   {
+    "topico": "Outras informações (16)",
+    "resposta": "fechar os olhos"
+   },
+   {
+    "topico": "Outras informações (17)",
+    "resposta": "não conseguir mover o braço esquerdo"
+   },
+   {
+    "topico": "Outras informações (18)",
+    "resposta": "sustentar o braço direito a 90° por 10s"
+   },
+   {
+    "topico": "Outras informações (19)",
+    "resposta": "não conseguir mover a perna esquerda"
+   },
+   {
+    "topico": "Outras informações (20)",
+    "resposta": "sustentar a perna direita a 30° por 5s. Durante a aplicação da escala NIHSS o(a) participante poderia tocar o paciente, que deveria agir da seguinte forma:"
+   },
+   {
+    "topico": "Outras informações (21)",
+    "resposta": "ficar inerte, ao ser tocado ou beliscado nos membros do lado esquerdo"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "demonstrar sensibilidade e dor ao ser tocado nos membros do lado direito. Após as adequadas solicitações de exames, o(a) participante poderia receber os seguintes"
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [],
+ "exames": [
+  {
+   "item": "Escala nihss",
+   "resultado": "1"
+  },
+  {
+   "item": "Escala nihss",
+   "resultado": "Ver a imagem do impresso."
+  },
+  {
+   "item": "Escala nihss",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2024-2-c06-p31.jpg"
+  },
+  {
+   "item": "Escala nihss",
+   "resultado": "4",
+   "imagem": "img/estacoes/inep-2024-2-c06-p32.jpg"
+  }
+ ],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)identifica-se; e, (2)cumprimenta o paciente simulado e pergunta seu nome.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Realiza a avaliação 1 a do NIHSS:",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "avalia se o paciente está alerta, falando com ele(a).",
+   "parcial": null,
+   "inadequado": "não avalia se o paciente está alerta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Realiza a avaliação 1 b do NIHSS. Pergunta: (1)idade do paciente; e (2)em que mês estamos.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta os dois itens.",
+   "parcial": "pergunta apenas um item.",
+   "inadequado": "não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Realiza a avaliação 1 c do NIHSS. Solicita que o paciente: (1)abra e feche os olhos e (2)abra e feche a mão.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as duas solicitações.",
+   "parcial": "realiza apenas uma solicitação.",
+   "inadequado": "não solicita nenhuma das duas ações.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Realiza a avaliação 2 do NIHSS. Pede que o paciente movimente os olhos horizontalmente para os dois lados (olhar para a direita e para a esquerda).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "avalia a movimentação para os dois lados.",
+   "parcial": "avalia a movimentação para um lado.",
+   "inadequado": "não avalia a movimentação ocular.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Realiza a avaliação 3 do NIHSS. Avalia os campos visuais (superiores e inferiores).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "avalia os quatro quadrantes.",
+   "parcial": null,
+   "inadequado": "não avalia os quatro quadrantes.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Realiza a avaliação 4 do NIHSS. Pede que o paciente sorria (ou mostre os dentes) e feche os olhos com força.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "faz as duas solicitações.",
+   "parcial": "faz apenas uma solicitação.",
+   "inadequado": "não faz nenhuma dessas solicitações.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Realiza a avaliação 5 do NIHSS. Solicita que o paciente sustente os braços a 90°, com as palmas das mãos para baixo.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza com ângulo E posicionamento das mãos adequados.",
+   "parcial": "realiza com ângulo OU posicionamento das mãos inadequados.",
+   "inadequado": "não realiza a pesquisa OU a faz com ângulo E posicionamento das mãos inadequados.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Realiza a avaliação 6 do NIHSS. Solicita que o paciente sustente as pernas a 30°, em extensão.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza com ângulo E extensão adequados.",
+   "parcial": "realiza com ângulo OU extensão inadequados.",
+   "inadequado": "não realiza a pesquisa OU a faz com ângulo E extensão inadequados.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Realiza a avaliação 7 do NIHSS. Solicita que o paciente faça o teste index-nariz OU calcanhar-joelho.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Realiza a avaliação 8 do NIHSS. Testa a sensibilidade do paciente.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "testa.",
+   "parcial": null,
+   "inadequado": "não testa.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Realiza a avaliação 9 do NIHSS. Solicita que o paciente descreva a imagem.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Realiza a avaliação 10 do NIHSS. Solicita que o paciente leia (ou repita) a lista de palavras.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c14",
+   "descricao": "Totaliza corretamente a escala NIHSS. Verbaliza total de 10 pontos.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "totaliza corretamente.",
+   "parcial": null,
+   "inadequado": "não totaliza ou totaliza com outro valor.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c15",
+   "descricao": "Solicita TC, ou tomografia, ou tomografia computadorizada, ou ressonância, ou ressonância magnética de crânio SEM",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita.",
+   "parcial": "solicita COM CONTRASTE.",
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c16",
+   "descricao": "Solicita outros exames complementares: (1)Eletrocardiograma; (2)Glicemia capilar; (3)Hemograma; (4)Coagulograma (TAP / INR e TTPA); (5)Potássio e sódio; (6)Ureia e creatinina; (7)Troponina.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "solicita ao menos cinco exames.",
+   "parcial": null,
+   "inadequado": "solicita menos que cinco exames.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

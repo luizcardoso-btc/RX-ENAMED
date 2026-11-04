@@ -1,0 +1,325 @@
+{
+ "id": "inep-2024-2-e02",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.2",
+  "estacao": 2,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2024_2_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Cirurgia",
+ "especialidade": "Cirurgia geral",
+ "tema": "Você vai atender um homem com 50 anos de idade que procura o serviço de emergência por apr",
+ "titulo": "Você vai atender um homem com 50 anos de idade que procura o serviço de emergência por apr",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: atenção terciária à saúde – hospitalar. Tipo de atendimento: urgência e emergência. A unidade apresenta a seguinte infraestrutura: ● ultrassonografia, eletrocardiograma; ● laboratório de análises clínicas; ● centro cirúrgico. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+ "instrucoes": [
+  "Você vai atender um homem com 50 anos de idade que procura o serviço de emergência por apresentar dor na perna esquerda.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO. DESCRIÇÃO DO CASO Você vai atender um homem com 50 anos de idade que procura o serviço de emergência"
+ ],
+ "tarefas": [
+  "Realizar a anamnese",
+  "Solicitar e interpretar os exames físicos geral e específico",
+  "Solicitar e interpretar os exames laboratoriais específicos",
+  "Solicitar e interpretar os exames complementares específicos",
+  "Identificar a causa do problema",
+  "Orientar a conduta inicial mais indicada ao quadro clínico."
+ ],
+ "historia": "A Estação 2, da área de Cirurgia Geral, abordou o caso de um homem com 50 anos de idade, que procurou o serviço de emergência hospitalar devido à queixa de dor intensa – súbita e constante – na perna esquerda, iniciada há cerca de 2 horas. No atendimento,",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "chama-se Antônio, tem 50 anos, é viúvo e trabalha como porteiro"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "está com uma dor muito forte na perna esquerda, a dor começou repentinamente, há cerca de 2 horas, é intensa e constante"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "é a pior dor que ele já sentiu na vida, tem a sensação de que algo aperta e queima sua pele ao mesmo tempo, tem dor ao tocá-la e classifica a dor em 10 na escala de dor"
+   },
+   {
+    "topico": "Características do quadro (2)",
+    "resposta": "sente dor na perna esquerda inteira, a dor piora quando ele levanta a perna, e não identificou fator de melhora"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "sente que sua perna esquerda está mais fria, pálida e que formiga um pouco"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "no momento, não tem outros sintomas além dos relatados, mas ontem teve algumas palpitações"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "consegue mexer seu pé"
+   },
+   {
+    "topico": "Características do quadro (3)",
+    "resposta": "nunca teve esses sintomas antes, nunca havia sentido dor ao caminhar"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "não machucou a sua perna, nem sofreu traumas ou lesões"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "nunca teve feridas, úlceras ou varizes na perna"
+   },
+   {
+    "topico": "Outras informações (6)",
+    "resposta": "sua perna direita está normal"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "tem pressão alta e fibrilação atrial há alguns anos, mas não toma nenhuma medicação"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "não fuma, não bebe e não pratica atividade física regularmente, tem uma alimentação saudável. Após as adequadas solicitações de exames, o(a) participante receberia os seguintes"
+   }
+  ],
+  "perguntasDoPaciente": [
+   "Após a análise do IMPRESSO – EXAME DE MEMBROS INFERIORES: “O que isso significa? O que eu tenho?”.",
+   "Após a análise do IMPRESSO — EXAME DE IMAGEM: “O que causou esse problema? O que precisa ser feito agora?”."
+  ]
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico geral",
+   "achado": "SINAIS VITAIS:\n● Pressão Arterial: 160 × 90 mmHg.\n● Frequência Cardíaca: 110 batimentos por minuto.\n● Frequência Respiratória: 20 incursões respiratórias por minuto.\n● Saturação de O2: 96% em ar ambiente.\n● Temperatura axilar: 37°C.\n● IMC: 24 kg/m².\nEXAME CLÍNICO:\n● Exame Geral: regular estado geral, corado, hidratado, afebril, anictérico, acianótico.\n● Exame de Tórax: murmúrio vesicular presente bilateralmente, sem ruídos adventícios.\nRitmo cardíaco irregular, sem sopros."
+  }
+ ],
+ "exames": [
+  {
+   "item": "Exame de membros inferiores",
+   "resultado": "● Membro inferior esquerdo: pálido, frio ao toque, com diminuição do turgor cutâneo.\nAusência de pulsos palpáveis nas artérias femoral, poplítea e pediosa. Sensibilidade\ntátil e dolorosa preservada. Força muscular diminuída no pé (4/5).\n● Membro inferior direito: sem alterações. Pulsos arteriais palpáveis."
+  },
+  {
+   "item": "Exames laboratoriais",
+   "resultado": "Exame Resultado Valores de referência\nHemoglobina (Hb) 13,5 g/dL 13,0 – 17,0 g/dL\nHematócrito (Hct) 40,2 % 40 – 50%\nLeucócitos 10.500 mm³ 4.000 – 11.000/mm³\nPlaquetas 240.000 mm³ 150.000 – 450.000/mm³\nTempo de Protrombina\n13,2 segundos 11 – 14,5 segundos\n(TP)\nINR (Razão Normalizada\n1,1 0,8 – 1,2\nInternacional)\nTempo de Tromboplastina\n32,5 segundos 25 – 35 segundos\nParcial Ativada (TTPA)\nFibrinogênio 450 mg/dL 200 – 400 mg/dL\nCreatinina 1,1 mg/dL 0,7 – 1,3 mg/dL\nUreia 38 mg/dL 10 – 40 mg/dL\nCPK\n230 U/L 30 – 200 U/L\n(Creatina Fosfoquinase)\nLDH\n280 U/L 100 – 190 U/L\n(Lactato Desidrogenase)\nGlicose 105 mg/mL 70 – 99 mg/dL\nDímero D 250 ng/mL <500 ng/mL"
+  },
+  {
+   "item": "Ecg",
+   "resultado": "LAUDO:\n● Ausência de ondas P. Complexos QRS normais, com intervalos R-R irregulares, sem\npadrão rítmico previsível.\n● Frequência ventricular de 120 batimentos por minuto.\n● Não há evidência de bloqueio de ramo ou outras anormalidades significativas nos\ncomplexos QRS.",
+   "imagem": "img/estacoes/inep-2024-2-c02-p10.jpg"
+  },
+  {
+   "item": "Exame de imagem",
+   "resultado": "ULTRASSOM DOPPLER DE MEMBROS INFERIORES:\n● Artéria Femoral Comum (Esquerda): artéria com paredes lisas e presença de\nobstrução no seu terço distal.\n● Artéria femoral Profunda (Esquerda): com fluxo lentificado.\n● Artéria Femoral Superficial, poplítea, tibial anterior e posterior (Esquerda): ausência\nde fluxo ao Doppler.\n● Artérias do Membro Inferior Direito: fluxo normal em todas as artérias examinadas.\nIMPRESSÃO DIAGNÓSTICA:\n● Ausência de fluxo distal na perna esquerda. Membro inferior direito sem alterações."
+  }
+ ],
+ "diagnostico": "Verbaliza hipótese diagnóstica de oclusão/obstrução ou interrupção arterial aguda.",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)identifica-se; e, (2)pergunta o nome e cumprimenta o paciente simulado.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.2
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta características da dor. (1)início e/ou duração; (2)tipo / característica; (3)localização e irradiação; (4)intensidade; (5)fatores agravantes / de piora; (6)fatores atenuantes /de melhora; (7)episódios prévios de dor no membro acometido.",
+   "peso": 0.7,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.35,
+    "adequado": 0.7
+   },
+   "integral": "pergunta as cinco ou mais características.",
+   "parcial": "pergunta três ou quatro características.",
+   "inadequado": "pergunta uma ou duas características OU não pergunta característica alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Questiona a presença dos seguintes sintomas associados no MIE: (1)palidez OU alteração da cor do membro; (2)frialdade (poiquilotermia) ou alteração de temperatura; (3)parestesia / formigamento/ alteração da sensibilidade; (4)alteração de mobilidade OU dificuldade para caminhar; (5)edema.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga quatro ou mais sintomas.",
+   "parcial": "investiga dois ou três sintomas.",
+   "inadequado": "investiga apenas um sintoma OU não investiga sintoma algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre antecedentes e queixas prévias: (1)palpitações OU doenças cardíacas; (2)histórico de trauma e/ou lesão em pele; (3)histórico de claudicação; (4)doenças prévias (comorbidades) e uso de medicamentos; (5) hábitos de vida (uso de drogas lícitas e ilícitas, atividade física).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga quatro ou mais antecedentes.",
+   "parcial": "investiga três antecedentes.",
+   "inadequado": "investiga dois ou menos OU não investiga antecedente algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Verbaliza hipótese diagnóstica de oclusão/obstrução ou interrupção arterial aguda.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "verbaliza.",
+   "parcial": null,
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita os exames laboratoriais: (1)hemograma completo; (2)coagulograma completo ou fatores de coagulação; (3)função renal (creatinina e ureia); (4)marcadores de lesão celular (CPK e/ou mioglobina).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita três exames ou mais.",
+   "parcial": "solicita dois exames.",
+   "inadequado": "solicita um exame OU não solicita exame algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Solicita ECG e/ou ecocardiograma.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Solicita algum dos seguintes exames de imagem de MI: (1)arteriografia; (2)angiotomografia; (3)USG Doppler; (4)angiorressonância magnética.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "solicita qualquer um dos exames listados.",
+   "parcial": null,
+   "inadequado": "não solicita nenhum dos exames citados.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Identifica corretamente a causa (etiologia) como sendo secundária a embolia de origem cardíaca (Fibrilação atrial).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "identifica como sendo secundária a embolia de origem cardíaca (Fibrilação atrial).",
+   "parcial": "identifica como sendo por uma embolia arterial (sem especificar o coração/Fibrilação atrial) OU devido Fibrilação atrial (sem especificar a embolia).",
+   "inadequado": "não identifica a causa (etiologia) ou identifica de forma incorreta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Indica o uso imediato de terapia anticoagulante / anticoagulação: (1)com heparina; (2)por via endovenosa; (3)com início imediato após o diagnóstico.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "indica os três itens.",
+   "parcial": "indica dois itens, obrigatoriamente incluindo o item 1.",
+   "inadequado": "indica somente 1 item ou não indica nenhum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Orienta o manejo adequado do membro afetado: (1)evitar a elevação do membro (manter em declive) OU manter repouso; (2) proteção térmica do membro (“aquecer” o membro com faixa e algodão ortopédico); e (3)controle da dor.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "orienta os três manejos.",
+   "parcial": "orienta dois manejos.",
+   "inadequado": "orienta apenas um manejo OU não orienta manejo algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Orienta encaminhamento imediato OU urgente para cirurgia vascular / angiologista ou para intervenção endovascular / hemodinâmica.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.8
+   },
+   "integral": "orienta o encaminhamento.",
+   "parcial": null,
+   "inadequado": "não orienta o encaminhamento.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

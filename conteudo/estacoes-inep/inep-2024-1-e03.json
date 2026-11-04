@@ -1,0 +1,273 @@
+{
+ "id": "inep-2024-1-e03",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.1",
+  "estacao": 3,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Pediatria",
+ "especialidade": "Pediatria",
+ "tema": "Você é um(a) médico(a) de plantão em um serviço de pronto-atendimento e deverá atender a u",
+ "titulo": "Você é um(a) médico(a) de plantão em um serviço de pronto-atendimento e deverá atender a u",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Secundária, Urgência e Emergência. O local possui a seguinte infraestrutura: ● setor de radiologia convencional; ● setor de ultrassonografia e de tomografia; ● laboratório de análise clínicas; ● leitos de internação.",
+ "instrucoes": [
+  "Você é um(a) médico(a) de plantão em um serviço de pronto-atendimento e deverá atender a um menino de 3 anos com olho esquerdo inchado, que vai à consulta acompanhado pela mãe."
+ ],
+ "tarefas": [
+  "realizar a anamnese dirigida à mãe",
+  "interpretar o exame físico da criança",
+  "solicitar, caso julgue necessário, até três exames laboratoriais e até um exame de imagem",
+  "explicar à mãe a indicação de exame(s) complementar(es)",
+  "explicar à mãe a condição de seu filho, o manejo inicial e possíveis complicações desse quadro."
+ ],
+ "historia": "A Estação aborda o atendimento de um lactente de 40 dias, do sexo masculino, que foi encaminhado pela unidade básica de saúde (UBS) para o pronto-socorro de um hospital secundário, por apresentar vômitos incoercíveis há 2 dias e desidratação leve.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Início e evolução",
+    "resposta": "há 2 dias seu filho passou a vomitar após as mamadas e que esse sintoma está mais frequente"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "o vomito ocorre em jatos e tem aspecto de leite talhado"
+   },
+   {
+    "topico": "Sintomas associados (2)",
+    "resposta": "a criança chora bastante, após os episódios de vômito, e aparenta estar com fome"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "percebe que o bebê está sonolento, com a língua seca e que ele apresentou depressão da fontanela mais cedo, contudo, na UBS, a moleira voltou ao normal"
+   },
+   {
+    "topico": "Sintomas associados (3)",
+    "resposta": "ele urina normalmente, mas a urina está com uma coloração amarelo mais escura"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "nega outros sintomas"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos",
+    "resposta": "ele é primogênito, nascido a termo, de parto normal hospitalar, havendo recebido alta após 2 dias"
+   },
+   {
+    "topico": "Vacinação e desenvolvimento",
+    "resposta": "na maternidade, ele foi submetido aos exames indicados pelo protocolo de atenção primária, aos quais negou alterações, e recebeu as vacinas de BCG e de hepatite"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "negou problemas anteriores de saúde"
+   },
+   {
+    "topico": "Antecedentes familiares",
+    "resposta": "desconhece antecedentes familiares similares."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "EXAME FÍSICO (FOLHA 1 de 2)",
+   "achado": "TRIAGEM DA ENFERMAGEM:\nPaciente: Marcos, 3 anos de idade.\nPeso: 12 Kg.\nEstatura: 90 cm.\nTemperatura axilar: 39,1 °C.\nFrequência cardíaca: 120 bpm.\nFrequência respiratória: 26 irpm.\nSaturação de O2: 99% em ar ambiente.\nDor: 6 (em uma escala visual de dor de 0 a 10).\n(CONTINUA...)",
+   "imagem": "img/estacoes/inep-2024-1-c08-p35.jpg"
+  },
+  {
+   "item": "EXAME FÍSICO (FOLHA 2 de 2)",
+   "achado": "Regular estado geral, corado, hidratado, acianótico, anictérico, febril, eupneico, sem\ndesconforto respiratório, sem linfonodomegalias; choroso e inquieto.\nFace: edema e hiperemia intensos e calor em região bipalpebral do olho esquerdo.\nAvaliação dos movimentos oculares dificultada pelo edema intenso.\nO restante do exame físico está normal."
+  }
+ ],
+ "exames": [
+  {
+   "item": "Exames laboratoriais",
+   "resultado": "Cliente: Marcos\nProtocolo: 001.2774113-5 Local: MATRIZ\nNascimento: 24/05/2021 RG: 999999 CPF: 999.999.999-01\nSolicitante:INEP Convênio: SUS\nHEMOGRAMA\nExame Resultados Unidades de medida Valores de Referência\nHEMÁCIAS 4,85 milhões/mm3 4,32 a 5,66 milhões/mm3\nHEMOGLOBINA 12,8 g/dL 11,5 a 15,5 g/dL\nHEMATÓCRITO 40,6 % 37,0 a 49,0%\nVCM 87,8 fl 77a95fl\nHCM 30,6 pg/cel 24 a 30pg/cel\nCHCM 34,8 g/dL 31a37g/dL\nRDW 13,0 % 10,0 a 15,0%\n(cid:3)\nResultados Resultado\nValores de referência\n(%) (mm3)\nLEUCÓCITOS 17.000 5.000 a 14.500 mm³\n4,0\nBASTÕES 680 300mm³\n70,6\nSEGMENTADOS 12.002 4000 mm³\n1,3\nEOSINOFILOS 221 20 a 650 mm³\n0,5\nBASOFILOS 85 0 a 200 mm³\n17,6\nLINFOCITOS 2.992 1500 a 7.000 mm³\n6,0\nMONOCITOS 1020 150 a 1.300 mm³\nPLAQUETAS, CONTAGEM 434.000 150.000 a 450.000 mm³\nProteína C Reativa\nValores dereferência\nProteína C Reativa: 24,85 < 8,00 mg/dL\nHemocultura aeróbia\nHemocultura aeróbia: Coletado"
+  }
+ ],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "comunicar-se adequadamente com a mãe do paciente realizando a anamnese adequada, orientada a queixa",
+  "verbalizar os fatores de risco para o quadro clínico",
+  "correlacionar os achados dos exames complementares ao caso clínico",
+  "manejar, pré-operatoriamente, o lactente."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)Identifica-se; (2)Cumprimenta a mãe de maneira adequada/cordial; (3)Mantém contato visual durante sua apresentação; (4)Pergunta o nome da mãe e o nome da criança.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as quatro ações.",
+   "parcial": "realiza duas ou três ações.",
+   "inadequado": "realiza uma ação OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre o quadro agudo: (1) características dos vômitos (resíduos alimentares E/OU vômitos não biliosos E/OU em jato); (2)início dos vômitos; (3) sinais associados — sonolência OU irritabilidade OU língua seca OU depressão da fontanela OU turgor da pele OU diminuição da diurese OU febre.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta os três itens.",
+   "parcial": "pergunta dois itens.",
+   "inadequado": "pergunta um item OU não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Verbaliza fatores de risco para estenose do piloro: (1)primogenitura; (2)antecedentes familiares de estenose de piloro; (3)sexo masculino.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "verbaliza os três fatores.",
+   "parcial": "verbaliza dois fatores.",
+   "inadequado": "verbaliza um fator OU não verbaliza fator algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Associa os achados do exame físico ao quadro clínico: (1)lactente hidratado (recebendo hidratação venosa); (2)presença massa epigástrica incaracterística ou de oliva pilórica.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "verbaliza os dois itens.",
+   "parcial": "verbaliza um item.",
+   "inadequado": "não verbaliza item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita exames laboratoriais pertinentes ao caso clínico: (1)hemograma; (2)gasometria arterial; (3)sódio; (4)potássio; (5)cloro.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita os cinco exames.",
+   "parcial": "solicita três ou quatro exames.",
+   "inadequado": "solicita um ou dois exames OU não solicita exame algum. Obs.: deverão ser considerados para pontuação apenas os cinco primeiros exames solicitados.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Associa os achados de exames laboratoriais ao caso clínico: (1)hemograma normal; (2)gasometria com alcalose metabólica; (3)hipocloremia; (4)hipocalemia.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "associa os quatro itens.",
+   "parcial": "associa dois ou três itens.",
+   "inadequado": "associa um item OU não associa item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Solicita ultrassonografia abdominal:",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita. Obs.: A ultrassonografia é altamente sensível e tem sido utilizada como método padrão para diagnóstico, uma vez que permite a visualização e as medidas do músculo e do canal pilórico. Nesse caso está indicada quando o exame físico não for conclusivo.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Diagnostica a estenose hipertrófica do piloro ou hipertrofia pilórica:",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "diagnostica.",
+   "parcial": null,
+   "inadequado": "não diagnostica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Indica a internação hospitalar:",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica. Obs.: caso o(a) participante apenas oriente que o paciente fique em observação até o término do soro, considerar como inadequado.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Indica a conduta adequada para o caso: (1) hidratação endovenosa para correção pré-operatória do distúrbio ácido-básico e hidroeletrolítico; (2) encaminhamento para avaliação cirúrgica e/ou tratamento cirúrgico.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "indica os dois itens.",
+   "parcial": "indica um item.",
+   "inadequado": "não indica item algum OU indica outra conduta. Obs.: caso o(a) participante oriente a hidratação VO, considerar como inadequado.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

@@ -1,0 +1,328 @@
+{
+ "id": "inep-2023-2-e02",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.2",
+  "estacao": 2,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2023_2.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Cirurgia",
+ "especialidade": "Cirurgia geral",
+ "tema": "Você está de plantão na emergência de uma unidade de atenção terciária e irá atender uma p",
+ "titulo": "Você está de plantão na emergência de uma unidade de atenção terciária e irá atender uma p",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: atenção terciária à saúde – emergência geral. A unidade possui a seguinte infraestrutura: • Setor de diagnóstico por imagem; • Laboratório de análises clínicas; • Banco de sangue; • Leitos de internação; e • Centro cirúrgico e unidade de tratamento intensivo.",
+ "instrucoes": [
+  "Você está de plantão na emergência de uma unidade de atenção terciária e irá atender uma paciente de 30 anos de idade, que apresenta dor abdominal. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "Realizar anamnese da paciente",
+  "Solicitar o exame físico",
+  "Solicitar e interpretar os exames laboratoriais e outros exames complementares pertinentes ao caso",
+  "Verbalizar a hipótese diagnóstica definitiva do caso, explicando como chegou a ela",
+  "Verbalizar a conduta terapêutica necessária."
+ ],
+ "historia": "A Estação 2 de Cirurgia Geral abordou o caso de uma mulher de 30 anos de idade com dor intensa e súbita, em faixa, no abdome superior, apresentando vômitos há 1 dia.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": "30 anos",
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "Chama-se Ana, tem 30 anos de idade, é casada e é professora."
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "Começou a sentir dor, de forma repentina, na noite do dia anterior e que essa dor é tão forte que a impossibilitou de dormir"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "A dor têm as seguintes características: é de intensidade 10 em 10, está localizada na boca do estômago, irradia para as costas, piora com a alimentação e não existem fatores de melhora"
+   },
+   {
+    "topico": "Características do quadro (2)",
+    "resposta": "A dor apresenta piora progressiva sem causa identificada"
+   },
+   {
+    "topico": "Características do quadro (3)",
+    "resposta": "Quando a dor piora, ela vomita; já vomitou três vezes e o vômito é amarelado, sem restos de comida"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "Percebeu que a sua barriga está um pouco mais inchada do que o normal"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "Está com pouco apetite"
+   },
+   {
+    "topico": "Sintomas associados (2)",
+    "resposta": "Costuma ir regularmente ao banheiro; que suas fezes não possuem características atípicas, ou sangue visível, e que, no dia da consulta, ainda não havia defecado"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "Nunca apresentou quadro similar antes"
+   },
+   {
+    "topico": "Sintomas associados (3)",
+    "resposta": "Não teve febre"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "Não percebeu uma coloração amarelada em sua pele ou olhos"
+   },
+   {
+    "topico": "Sintomas associados (4)",
+    "resposta": "Notou que sua urina está mais amarelada, mas não apresenta outros sintomas urinários"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "Não possui alergia medicamentosa ou doenças pré-existentes"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "Passou por duas cesarianas e esses foram os únicos eventos cirúrgicos a que foi submetida"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "Bebe socialmente aos finais de semana e não fuma nem usa drogas"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "Alimenta-se bem, com ingestão diária de frutas e verduras e com boa ingestão de água"
+   },
+   {
+    "topico": "Hábitos de vida (2)",
+    "resposta": "Não pratica atividade física"
+   },
+   {
+    "topico": "Antecedentes familiares",
+    "resposta": "Desconhece antecedentes mórbidos familiares."
+   }
+  ],
+  "perguntasDoPaciente": [
+   "Qual é o diagnóstico",
+   "Se a realização de exames é necessária",
+   "Qual é o tratamento",
+   "Se a internação é necessária",
+   "Se precisaria passar por uma cirurgia."
+  ]
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "SINAIS VITAIS:\nFrequência cardíaca: 104 batimentos por minuto.\nPressão arterial: 110 × 70 mmHg.\nFrequência respiratória: 20 incursões respiratórias por minuto.\nTemperatura axilar: 37,1 °C.\nSaturação de oxigênio: 97% em ar ambiente.\nÍndice de massa corpórea (IMC): 29 Kg/m2.\nRegular estado geral, afebril, acianótica, ictérica (+2/+4), desidratada (+2/+4), alerta\ne orientada no tempo e no espaço.\nAbdome: semigloboso, pouco distendido, dor à palpação superficial e profunda em\ntodo abdome superior, sem dor à descompressão brusca. Ruídos hidroaéreos\ndiminuídos.\nAparelhos respiratório e cardiovascular: sem anormalidades."
+  }
+ ],
+ "exames": [
+  {
+   "item": "Ultrassom de abdome total",
+   "resultado": "Fígado com textura e dimensões normais.\nVesícula biliar com paredes finas, contendo múltiplos cálculos em seu interior de,\naproximadamente, 4 mm, promovendo sombra acústica posterior.\nVias biliares intra-hepáticas com calibre normal; hepatocolédoco de 8 mm de\ndiâmetro.\nPâncreas não foi bem visualizado devido à interposição de gases."
+  },
+  {
+   "item": "Exames laboratoriais",
+   "resultado": "Cliente: Ana\nProtocolo: 001.2774113-5 Local: MATRIZ\nNascimento: 17/03/1993 CPF: 999.999.999-99\nSolicitante: REVALIDA Convênio: INEP BRASÍLIA\nExame Valores de Referência\nHEMOGLOBINA 13,2 g/dL 12,0 a 16,0 g/dL\nHEMATÓCRITO 45,5 % 35,0 a 45,0%\nLEUCÓCITOS 15.110 mm3 4.500 a 11.000 mm3\nPLAQUETAS (contagem) 180.000 mm3 150.000 a 450.000 mm3\nGLICEMIA (em jejum): 96 mg/dL 70 a 99 mg/dL\nVHS 30 mm/h 20 mm/h\nPROTEÍNA C REATIVA 15 mg/dL < 5 mg/dL\nBILIRRUBINA TOTAL 3,4 mg/dL 0,3 a 1,0 mg/dL\nBILIRRUBINA DIRETA 2,7 mg/dL 0,1 a 0,3 mg/dL\nBILIRRUBINA INDIRETA 0,7 mg/dL 0,2 a 0,7 mg/dL\nFOSFATASE ALCALINA 380 U/L 30 a 120 U/L\nGAMA-GT 197 U/L 1 a 94 U/L\nTGO (AST) 156 U/L 0 a 35 U/L\nTGP(ALT) 148 U/L 0 a 35 U/L\nAMILASE 645 U/L 60 a 180 U/L\nLIPASE 510 U/L 0 a 160 U/L\nUREIA 54 mg/dL 15 a 45 mg/dL\nCREATININA 1,1 mg/dL 0,6 a 1,1 mg/dL\nNota(s):\n1.Valores de referência de acordo com idade e sexo, exceto para gestantes.\nRef.:BAIN, B.J. Blood Cells: a practical guide. 4 ed. Oxford: Blackwell Publishing, 2006. 476p. AUSHANSKY, K. et al. Williams\nHematology, 8 ed., MacGraw Hill Companies, Inc., 2010."
+  }
+ ],
+ "diagnostico": "Realiza anamnese, perguntando por sintomas associados ao diagnóstico: (1)Eliminação de flatos e fezes/mudança do hábito intestinal/diarreia E constipação; (2)Febre; (3)Icterícia/pele amarelada; (4)Colúria/urina escura/alteração na cor; (5)Acolia/fezes brancas/claras/alteração na cor; e (6)Náuseas ou vômitos.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "Realizar a investigação de dor abdominal, direcionando seu raciocínio para as doenças do trato hepatobiliopancreático, solicitando os exames pertinentes",
+  "Dar o diagnóstico de pancreatite biliar aguda, com base na história clínica, no exame físico e nos exames complementares",
+  "Indicar a conduta adequada (internação, jejum, hidratação e analgesia)."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)Apresenta-se; e (2)Cumprimenta e identifica adequadamente a paciente.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.2
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre as características da dor: (1)Localização; (2)Tempo de Início; (3)Intensidade; (4)Tipo da dor (5)Progressão; (6)Irradiação; e (7)Fatores desencadeante, de melhora ou de piora da dor.",
+   "peso": 0.6,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.3,
+    "adequado": 0.6
+   },
+   "integral": "pergunta de cinco a sete características.",
+   "parcial": "pergunta três ou quatro características.",
+   "inadequado": "pergunta duas ou menos características OU não pergunta característica alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Realiza anamnese, perguntando por sintomas associados ao diagnóstico: (1)Eliminação de flatos e fezes/mudança do hábito intestinal/diarreia E constipação; (2)Febre; (3)Icterícia/pele amarelada; (4)Colúria/urina escura/alteração na cor; (5)Acolia/fezes brancas/claras/alteração na cor; e (6)Náuseas ou vômitos.",
+   "peso": 0.6,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.3,
+    "adequado": 0.6
+   },
+   "integral": "pergunta cinco ou seis itens.",
+   "parcial": "pergunta três ou quatro itens.",
+   "inadequado": "pergunta um ou dois itens OU não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta por sintomas: (1)Urinários; e (2)Ginecológicos.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.2
+   },
+   "integral": "pergunta os dois itens;",
+   "parcial": "pergunta um item;",
+   "inadequado": "não pergunta item algum.",
+   "evidencia": "5. Solicita os exames laboratoriais: (1)Hemograma; (2)PCR ou VHS; (3)Bilirrubina total e frações OU bilirrubina total e bilirrubinas direta e indireta (Obs.: se solicitar apenas bilirrubinas de forma genérica, não pontuar); (4)TGO e TGP (ou só TGO ou só TGP); (5)Fosfatase alcalina; (7)Ureia; (8)Creatinina; e (9)Glicemia. Adequado: solicita oito ou nove exames. Parcialmente adequado: solicita seis ou sete exames. Inadequado: solicita cinco ou menos exames OU não solicita exame algum.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita os exames laboratoriais: (1)Amilase; e (2)Lipase.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "solicita os dois exames.",
+   "parcial": "solicita somente um exame.",
+   "inadequado": "não solicita exame algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Solicita ultrassom de abdome (OU ultrassonografia de abdome OU ecografia de abdome).",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "solicita ultrassom de abdome como primeira opção de exame de imagem.",
+   "parcial": "solicita, mas não como primeira opção de exame de imagem",
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Realiza hipótese diagnóstica de pancreatite aguda biliar/litiásica/calculosa/por cálculos biliares/.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "verbaliza o diagnóstico completo.",
+   "parcial": "verbaliza o diagnóstico somente de pancreatite aguda, sem citar a etiologia biliar.",
+   "inadequado": "não verbaliza o diagnóstico de pancreatite aguda.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Verbalizou os critérios clínico-laboratoriais utilizados para elaborar o diagnóstico de pancreatite: (1)característica da dor em faixa/barra em abdome superior; e (2)aumento de amilase e lipase.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "verbaliza os dois itens",
+   "parcial": "verbaliza um item",
+   "inadequado": "não verbaliza item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Indica o tratamento clínico: (1)internação hospitalar/sinônimos para internação hospitalar; (2)dieta zero/jejum; (3)hidratação intravenosa/parenteral; (4)analgesia intravenosa/parenteral; e (5)terapia antiemética intravenosa/parenteral.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "indica o item (1) mais três ou quatro outros itens.",
+   "parcial": "indica o item (1) mais dois outros itens.",
+   "inadequado": "indica o item (1) e mais um item OU não indica o item (1).",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Orienta a necessidade da colecistectomia/retirada da vesícula.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "orienta.",
+   "parcial": null,
+   "inadequado": "não orienta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Explica que a colecistectomia deve ser realizada: (1)após a melhora clínica da pancreatite/sinônimos; e (2) durante a internação atual, caso não apresente complicações. OU antes da alta hospitalar, caso não apresente complicações.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "explica os dois itens.",
+   "parcial": "explica apenas um item.",
+   "inadequado": "não explica item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "critérios somam 8.8"
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "id": "inep-2024-2-e07",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.2",
+  "estacao": 7,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2024_2_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Cirurgia",
+ "especialidade": "Cirurgia geral",
+ "tema": "Você é o médico de plantão na emergência de um hospital terciário e irá atender um pacient",
+ "titulo": "Você é o médico de plantão na emergência de um hospital terciário e irá atender um pacient",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: terciária. Tipo de atendimento: urgência e emergência. A unidade apresenta a seguinte infraestrutura: ● Unidade de imagem (ultrassonografia/FAST). Tomografia está em manutenção. ● Laboratório de análises clínicas. ● Centro cirúrgico. ● Unidade de terapia intensiva.",
+ "instrucoes": [
+  "Você é o médico de plantão na emergência de um hospital terciário e irá atender um paciente com 22 anos de idade com dor abdominal, em quadrante superior esquerdo (QSE).",
+  "ATENÇÃO! VOCÊ PODERÁ TOCAR O PACIENTE SOMENTE PARA REALIZAR O EXAME FÍSICO DE ABDOME."
+ ],
+ "tarefas": [
+  "Realizar ANAMNESE e EXAME FÍSICO do paciente, verbalizando as alterações.",
+  "Estabelecer e comunicar hipótese diagnóstica inicial.",
+  "Solicitar e interpretar EXAMES LABORATORIAIS (no máximo QUATRO exames).",
+  "Solicitar e interpretar outros EXAMES COMPLEMENTARES disponíveis na unidade, pertinentes ao caso.",
+  "Estabelecer e comunicar a(s) hipótese(s) diagnóstica(s) definitiva(s) e propor tratamento inicial e definitivo."
+ ],
+ "historia": "A Estação 7, da área de Cirugia Geral, abordou o caso de um paciente com 22 anos de idade com quadro de ruptura esplênica em 2 tempos, dor e sinais de choque hipovolêmico (tontura, taquicardia, pulso fino, descorado e hipotensão ao chegar na emergência). O paciente sofreu um acidente com a queda de uma pia de concreto sobre o seu abdome há 2 dias. No atendimento,",
+ "paciente": null,
+ "exameFisico": [
+  {
+   "item": "Exame físico geral",
+   "achado": "Estado geral regular, orientado no tempo e espaço, palidez de mucosas, sem cianose,\nenchimento capilar lentificado, pulso rápido, mas pálpavel.\nSistema Cardiovascular: sem alterações.\nSistema Respiratório: murmúrio vesicular presente, pouco diminuído na base esquerda."
+  }
+ ],
+ "exames": [
+  {
+   "item": "Impresso com imagem",
+   "resultado": "4202 socidéM samolpiD ed oãçadilaveR ed lanoicaN emaxE ariegnartsE roirepuS oãçacudE ed oãçiutitsnI rop sodidepxE ROTINOM ED ALET OSSERPMI",
+   "imagem": "img/estacoes/inep-2024-2-c07-p35.jpg"
+  },
+  {
+   "item": "Exame abdominal",
+   "resultado": "Inspeção: leve distensão abdominal.\nPalpação: dor difusa em todo o abdome, mais intensa no QSE. Sem sinais de irritação\nperitoneal.\nPercussão: macicez em QSE.\nAusculta: ruídos intestinais presentes e normoativos."
+  },
+  {
+   "item": "Exames laboratoriais",
+   "resultado": "Exame Resultado Valores de referência\nHemoglobina (Hb) 8,7 g/dL 12,0 – 16,0 g/dL\nHematócrito (Hct) 25 % 36,0 – 46,0 %\nLeucograma sem alterações 4.000 – 11.000/mm³\nAmilase 76 60-180 U/L\nLipase 30 0-160 U/L\nGasometria arterial\npH arterial 7,36 7,35 – 7,45\nPaCO (pressão arterial\n2 30 mmHg 35 – 45 mmHg\nde dioxido de carbono)\nPaO (pressão arterial de\n2 80 mmHg 80 – 100 mmHg\noxigênio)\nHCO (bicarbonato) 19 mmol/L 22 – 26 mmol/L\nLactato 2 -3 – 3"
+  },
+  {
+   "item": "Exame de imagem",
+   "resultado": "LAUDO DE ULTRASSONOGRAFIA FAST\nQuadrante Superior Direito:\nLíquido livre na cavidade peritoneal, estendendo-se ao flanco. Não há evidência de\nhematoma hepático.\nQuadrante Superior Esquerdo:\nLíquido próximo à loja esplênica, com hematoma subcapsular visível. A cápsula esplênica\nestá espessada e irregular.\nQuadrante Inferior Direito e Inferior Esquerdo:\nGrande quantidade de líquido livre na cavidade pélvica."
+  }
+ ],
+ "diagnostico": "Formula o diagnóstico clínico como choque hipovolêmico/ abdome agudo hemorrágico secundário a trauma abdominal fechado OU contuso.",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)identifica-se e cumprimenta o paciente simulado; (2) pergunta algum dado de identificação (idade, estado civil, profissão).",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.3
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre características da dor: (1)início ou duração; (2)tipo; (3)irradiação; (4)intensidade; (5)fatores de piora e/ou melhora.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga quatro ou mais características.",
+   "parcial": "investiga três características.",
+   "inadequado": "investiga duas ou menos características ou não investiga nenhuma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre os sintomas associados ao quadro clínico (choque hipovolêmico): (1)tontura; (2)fraqueza; (3) alterações do nível de consciência (desmaio, confusão mental, agitação); (4)extremidades frias (pele úmida e fria); (5)sede; (6)oligúria (diminuição da diurese); (7)falta de ar ou dispneia.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga cinco ou mais achados.",
+   "parcial": "investiga quatro achados.",
+   "inadequado": "investiga três ou menos achados ou não investiga nenhum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Solicita exame físico",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.3
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Realiza o exame físico abdominal, testando e identificando as seguintes alterações: (1)dor à palpação difusa; (2)dor mais intensa em Quadrante Superior Esquerdo; (3) ausência de dor à descompressão brusca ou sem sinais de irritação peritoneal.",
+   "peso": 1.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.6,
+    "adequado": 1.2
+   },
+   "integral": "identifica as três alterações.",
+   "parcial": "identifica duas alterações.",
+   "inadequado": "identifica uma ou nenhuma das alterações.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Formula o diagnóstico clínico como choque hipovolêmico/ abdome agudo hemorrágico secundário a trauma abdominal fechado OU contuso.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "verbaliza que há choque hipovolêmico / abdome agudo hemorrágico secundário a trauma abdominal fechado OU contuso.",
+   "parcial": "verbaliza somente o choque hipovolêmico OU somente o trauma abdominal fechado OU contuso.",
+   "inadequado": "não verbaliza nenhum dos itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Baseado nos achados clínicos e de exame físico, inicia o tratamento do choque hipovolêmico.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "indica reposição volêmica com soro fisiológico ou ringer OU solução cristaloide.",
+   "parcial": "indica o tratamento, mas não especifica com deverá ser feita a reposição.",
+   "inadequado": "não indica o tratamento do choque hipovolêmico ou indica reposição de sangue e hemoderivados de imediato.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Solicita exames laboratoriais: (1)Hematócrito e hemoglobina OU hemograma completo OU hemograma; (2)Gasometria arterial; (3)Lactato; (4)Tipagem sanguínea.",
+   "peso": 0.7,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.35,
+    "adequado": 0.7
+   },
+   "integral": "solicita os três ou mais exames acima.",
+   "parcial": "solicita dois exames.",
+   "inadequado": "solicita um ou não solicita exame algum. Obs: o(a) participante só irá pontuar caso cite os exames listados ANTES de receber o impresso. Só serão considerados os seis primeiros exames citados pelo participante ANTES de receber o impresso.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Solicita a ultrassonografia de abdome ou FAST.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.8
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Formula diagnóstico final de trauma esplênico (de baço) ou lesão esplênica (do baço).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "formula.",
+   "parcial": null,
+   "inadequado": "não formula.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Solicita prova cruzada OU reserva de sangue OU transfusão sanguínea.",
+   "peso": 0.7,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.7
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Indica o tratamento cirúrgico de urgência OU laparotomia exploradora de urgência OU esplenectomia de urgência OU encaminhamento urgente para o cirurgião.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica ou indica o tratamento cirúrgico sem especificar sua urgência. Obs: só será considerado correto se for enfatizada a urgência do caso.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

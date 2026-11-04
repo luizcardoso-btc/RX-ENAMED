@@ -1,0 +1,175 @@
+{
+ "id": "inep-2022-2-e03",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.2",
+  "estacao": 3,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2022_2_.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Pediatria",
+ "especialidade": "Pediatria",
+ "tema": "Recém-nascido, com 25 dias, foi trazido pela mãe ao Pronto-Socorro. A mãe está preocupada,",
+ "titulo": "Recém-nascido, com 25 dias, foi trazido pela mãe ao Pronto-Socorro. A mãe está preocupada,",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Unidade de Atenção Secundária: Ambulatorial e Hospitalar. A unidade possui a seguinte infraestrutura:  setor de radiologia convencional e ultrassonografia;  laboratório de análises clínicas e banco de sangue;  leitos de internação e centro cirúrgico.",
+ "instrucoes": [
+  "Recém-nascido, com 25 dias, foi trazido pela mãe ao Pronto-Socorro. A mãe está preocupada, porque notou que seu bebê está com febre. ATENÇÃO: MÃE E BEBÊ SIMULADOS NÃO DEVERÃO SER TOCADOS DURANTE O ATENDIMENTO. Nos próximos 10 minutos",
+  "ATENÇÃO: MÃE E BEBÊ SIMULADOS NÃO DEVERÃO SER TOCADOS DURANTE O ATENDIMENTO. Nos próximos 10 minutos, você deverá executar as tarefas a seguir: 1. ler a ficha do recém-nascido afixada à mesa.",
+  "ATENÇÃO: VOCÊ DEVERÁ, OBRIGATORIAMENTE, REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA."
+ ],
+ "tarefas": [
+  "ler a ficha do recém-nascido afixada à mesa.",
+  "fazer a anamnese dirigida à mãe.",
+  "interpretar o exame físico (não será necessário examinar diretamente o bebê simulado).",
+  "solicitar e verbalizar exames complementares, se necessário.",
+  "explicar à mãe a condição do recém-nascido e o manejo inicial."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "Formula a hipótese diagnóstica de febre sem sinais localizatórios.",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1) identifica-se; (2) cumprimenta a mãe de maneira adequada/cordial; (3) mantém contato visual; (4) pergunta o nome da mãe e da criança.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza os quatro itens.",
+   "parcial": "realiza dois ou três itens.",
+   "inadequado": "realiza um ou nenhum item.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Realiza anamnese: (1) pergunta sinais e sintomas associados à queixa principal; (2) pergunta sobre os dados antenatais (gestação) ou dados perinatais (dados do RN) ou solicita a caderneta de saúde da criança/caderneta de vacinas/caderneta de imunização; (3) pergunta sobre antecedentes familiares; (4) pergunta sobre a situação epidemiológica.",
+   "peso": 3.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.5,
+    "adequado": 3.0
+   },
+   "integral": "realiza quatro itens.",
+   "parcial": "realiza dois a três itens, sendo o item (1) obrigatório.",
+   "inadequado": "realiza apenas um ou nenhum item.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Interpreta o exame físico: febre sem outras alterações.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "interpreta.",
+   "parcial": null,
+   "inadequado": "não interpreta ou interpreta com outros achados. 6",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Solicita exames complementares: (1) hemograma; (2) proteína C-Reativa ou procalcitonina; (3) hemocultura; (4) exame de urina (rotina de urina, urina tipo 1, parcial de urina, sumário de urina, EAS ou similares); (5) urocultura; (6) radiografia de tórax (Raio X de tórax); (7) coleta de líquido cefalorraquidiano (líquor/LCR); (8) pesquisa de vírus respiratórios em nasofaringe (Sars-Cov-2; influenza; VSR).",
+   "peso": 2.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.25,
+    "adequado": 2.5
+   },
+   "integral": "solicita sete a oito itens.",
+   "parcial": "solicita quatro a seis itens.",
+   "inadequado": "solicita três itens ou menos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Formula a hipótese diagnóstica de febre sem sinais localizatórios.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "formula.",
+   "parcial": null,
+   "inadequado": "não formula ou formula outras hipóteses, como: febre, febre a ser esclarecida, febre de origem obscura, febre de origem indeterminada, sepse, sepse neonatal tardia, bacteremia oculta, infecção do trato urinário oculta, pneumonia oculta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Indica necessidade de internação do recém- nascido.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Indica a proposta terapêutica (antibioticoterapia empírica, parenteral, endovenosa ou intramuscular, ampicilina + cefotaxima ou ampicilina + ceftriaxona).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica ou indica antibioticoterapia via oral ou indica outro esquema de antibióticos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Realiza adequadamente tarefas, conforme solicitado nas orientações ao (à) participante.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "realiza todas as tarefas propostas na ordem solicitada, podendo comunicar a decisão da internação a qualquer momento da consulta.",
+   "parcial": null,
+   "inadequado": "não realiza as tarefas propostas na ordem solicitada, independentemente do momento de comunicar a decisão da internação. 7",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

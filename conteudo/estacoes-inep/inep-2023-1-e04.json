@@ -1,0 +1,317 @@
+{
+ "id": "inep-2023-1-e04",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.1",
+  "estacao": 4,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Ginecologia e Obstetrícia",
+ "especialidade": "Ginecologia e Obstetrícia",
+ "tema": "Paciente de 27 anos de idade, sem queixas específicas, veio para avaliação ginecológica. A",
+ "titulo": "Paciente de 27 anos de idade, sem queixas específicas, veio para avaliação ginecológica. A",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Primária: Ambulatório. A unidade possui a seguinte infraestrutura:  aparelhos para exames radiológicos convencionais (Raio-x);  laboratório de análises clínicas.",
+ "instrucoes": [
+  "Paciente de 27 anos de idade, sem queixas específicas, veio para avaliação ginecológica. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar propedêutica ginecológica completa",
+  "responder as indagações da paciente",
+  "orientar sobre exames preventivos de câncer",
+  "proceder à coleta do exame citológico do colo do útero de forma completa. A coleta da citologia será realizada no manequim de pelve. APÓS A COLETA O(A) CHEFE DE ESTAÇÃO FORNECERÁ UM NOVO MATERIAL PARA REALIZAR O ESFREGAÇO NA LÂMINA. Você DEVE VERBALIZAR cada parte do exame que está realizando e DEMONSTRAR as partes desse exame que lhe forem solicitadas."
+ ],
+ "historia": "A Estação 4 de Ginecologia e Obstetrícia abordou o caso de uma paciente de 27 anos de idade, G1P1 (há 3 anos), está em uso de anticoncepcional oral. Após ter realizado consulta com clínico geral, este indicou-lhe realizar consulta ginecológica de rotina. Não apresenta queixas específicas. Refere nunca ter feito exames preventivos do câncer do colo uterino e quer saber se realmente tem necessidade de fazê-los.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "ela se chama Diane, tem 27 anos, é casada e trabalha como padeira"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos",
+    "resposta": "teve apenas uma gestação, parto normal, e tem um filho de 3 anos"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "ela faz uso de pílulas anticoncepcionais e tem relações apenas com o seu marido"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos (2)",
+    "resposta": "sua última menstruação terminou há uma semana"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "amamentou seu filho por seis meses"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "não percebeu nenhuma alteração na mama"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "não está com leucorreia, corrimento, muco ou secreção vaginal"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "não tem problemas de saúde"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "ela foi a consulta para fazer exames de prevenção do câncer"
+   },
+   {
+    "topico": "Antecedentes familiares",
+    "resposta": "ela não fez exames de preventivos anteriormente por não haver casos de câncer nas mulheres da família dela"
+   },
+   {
+    "topico": "Outras informações (6)",
+    "resposta": "ela afirma ter realizado recentemente o exame físico das mamas, e estava tudo bem. A paciente simulada"
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [],
+ "exames": [
+  {
+   "item": "Esquema do colo do útero",
+   "resultado": "ESQUEMA DO COLO UTERINO MOSTRANDO O ORIFÍCIO CERVICAL EXTERNO."
+  }
+ ],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "ela se chama Diane, tem 27 anos, é casada e trabalha como padeira",
+  "teve apenas uma gestação, parto normal, e tem um filho de 3 anos",
+  "ela faz uso de pílulas anticoncepcionais e tem relações apenas com o seu marido",
+  "sua última menstruação terminou há uma semana",
+  "amamentou seu filho por seis meses",
+  "não percebeu nenhuma alteração na mama",
+  "não está com leucorreia, corrimento, muco ou secreção vaginal",
+  "não tem problemas de saúde",
+  "ela foi a consulta para fazer exames de prevenção do câncer",
+  "ela não fez exames de preventivos anteriormente por não haver casos de câncer nas mulheres da família dela",
+  "ela afirma ter realizado recentemente o exame físico das mamas, e estava tudo bem. A paciente simulada, caso o(a) participante fizesse a anamnese adequada, perguntaria ao(à) participante:",
+  "quanto a necessidade de ela fazer o exame preventivo do câncer do colo do útero, pois tem medo de sentir dor",
+  "qual foi o resultado do exame",
+  "se a irmã dela, de 22 anos de idade, e que já possui vida sexual ativa há 4 anos, precisaria fazer esse exame.",
+  "Caso o(a) participante referisse a necessidade de realizar TOQUE VAGINAL, o(a) Chefe de Estação deveria dizer: “CONSIDERE REALIZADO.”",
+  "Caso o(a) participante solicitasse um ULTRASSOM ou ECOGRAFIA TRANSVAGINAL, o(a) Chefe de Estação deveria dizer: “CONSIDERE SOLICITADO.” Observações para a coleta da citologia oncótica de papanicolau:",
+  "O(A) Chefe de Estação deveria dizer ao(à) participante: “VOCÊ DEVE VERBALIZAR CADA PARTE DO EXAME QUE ESTÁ REALIZANDO.”",
+  "Caso o(a) participante não se dirigisse espontaneamente ao manequim, o(a) Chefe de Estação deveria direcioná-lo",
+  "Após a simulação da coleta no manequim, o(a) Chefe de Estação DEVERIA fornecer a espátula de Ayre e a Escova endocervical previamente embebidas em solução viscosa para o(a) participante realizar os esfregaços na lâmina.",
+  "Caso o(a) participante não usasse a espátula de Ayre ou a escova endocervical na coleta, o(a) Chefe de Estação deveria trocar apenas o instrumento utilizado.",
+  "Ao final da coleta e deposição do material na lâmina o(a) Chefe de Estação deveria falar: “CONSIDERE O PROCESSO TERMINADO” e recolher a lâmina.",
+  "Ao término do exame especular, o(a) Chefe de Estação deveria entregar o IMPRESSO e fazer a seguinte solicitação ao(à) participante: “O(A) SENHOR(A) PODERIA DEMONSTRAR AQUI NO IMPRESSO OS MOVIMENTOS QUE FEZ COM ESSE(S) INSTRUMENTO(S), MOSTRANDO PARA A CÂMERA?” PADRÃO ESPERADO DE PROCEDIMENTO - DEFINITIVO"
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1) apresenta-se adequadamente; (2) cumprimenta e identifica a paciente simulada, falando seu nome.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.25
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Realiza anamnese ginecológica, perguntando: (1)data da última menstruação; (2)antecedentes obstétricos; (3)antecedentes mamários; (4)métodos contraceptivos; (5)vida sexual; (6) presença de corrimento vaginal ou secreção vaginal alterada.",
+   "peso": 1.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.625,
+    "adequado": 1.25
+   },
+   "integral": "pergunta quatro ou mais itens.",
+   "parcial": "pergunta três ou dois itens.",
+   "inadequado": "pergunta apenas um item OU não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Indica os exames corretos, de acordo com a idade da paciente: (1)exame de coleta de citologia; (2)exame físico da mama.",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.375,
+    "adequado": 0.75
+   },
+   "integral": "indica os dois exames.",
+   "parcial": "indica apenas um dos exames.",
+   "inadequado": "não indica exame algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Preparativos para o exame, TRATO COM A PACIENTE: (1)verbaliza para a paciente que começará o exame ginecológico; (2)orienta sobre possíveis desconfortos durante o exame; (3)senta-se (ou verbaliza que irá se sentar) para realizar o exame.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza os três preparativos.",
+   "parcial": "realiza dois preparativos.",
+   "inadequado": "realiza apenas um preparativo OU não realiza preparativo algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Preparativos para o exame, MATERIAIS: (1)coloca, na lâmina de vidro, as iniciais da paciente com lápis preto no local adequado; (2)acende o foco e o posiciona para visualizar o colo uterino; (3)coloca luvas.",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.375,
+    "adequado": 0.75
+   },
+   "integral": "realiza as três ações.",
+   "parcial": "realiza duas ações.",
+   "inadequado": "realiza apenas uma ação OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Introdução adequada do espéculo no manequim: (1)realiza inclinação para a introdução do espéculo; (2)introduz completamente o espéculo; (3)abre o espéculo.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza as três ações e verbaliza.",
+   "parcial": "realiza duas ações e verbaliza.",
+   "inadequado": "realiza uma ação e verbaliza OU não realiza ação alguma OU não verbaliza as ações.",
+   "evidencia": "OBSERVAÇÃO: ESTES MOVIMENTOS DEVEM SER",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Realiza a coleta de material ECTOCERVICAL: (1)pega a espátula de Ayre do lado que não está chanfrado; (2)faz o movimento de rotação girando 360 graus; (3)deposita o material de forma linear no sentido vertical, ou horizontal, ao eixo da lâmina (não pontuará se fizer movimento rotatório, ou percutório). A avaliação do item (2) é complementada pela demonstração no IMPRESSO. A avaliação do item (3) é realizada pela deposição do material viscoso na lâmina.",
+   "peso": 1.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.25
+   },
+   "integral": "realiza as três ações.",
+   "parcial": "realiza duas ações.",
+   "inadequado": "realiza apenas uma ação OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Realiza a coleta de material da ENDOCÉRVICE: (1)pega a escova endocervical e a coloca na endocérvice; (2)faz o movimento rotatório girando pelo menos duas vezes; (3)deposita o material da escova ao lado do material depositado anteriormente, porém em sentido diverso do realizado para o material da ectocérvice, “NÃO A avaliação dos itens (1) e (2) é complementada pela demonstração no IMPRESSO. A avaliação do item (3) é realizada pela deposição do material viscoso na lâmina.",
+   "peso": 1.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.25
+   },
+   "integral": "realiza as três ações.",
+   "parcial": "realiza apenas duas ações.",
+   "inadequado": "realiza uma ação OU não realiza ação alguma.",
+   "evidencia": "OBSERVAÇÃO: caso o(a) participante colete primeiro a endocérvice – antes da ectocérvice, CONSIDERAR O ITEM",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Retirada adequada do espéculo no manequim: (1)comunica a retirada do espéculo; (2)fecha o espéculo antes de retirar; (3)realiza inclinação para a retirada.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as três ações e verbaliza.",
+   "parcial": "realiza duas ações e verbaliza.",
+   "inadequado": "realiza uma ação e verbaliza OU não realiza ação alguma OU não verbaliza.",
+   "evidencia": "OBSERVAÇÃO: ESTES MOVIMENTOS DEVEM SER",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Refere a necessidade de realizar toque vaginal:",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "refere.",
+   "parcial": null,
+   "inadequado": "não refere.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Explica que o resultado do exame deverá ser resgatado pela paciente após análise pelo patologista – na consulta de retorno.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "explica.",
+   "parcial": null,
+   "inadequado": "não explica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Fornece orientações, conforme o INCA-MS, sobre a coleta de citologia: (1)idade, a partir dos 25 anos; (2)periodicidade, após dois exames normais deve ser coletado a cada 3 anos.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.0
+   },
+   "integral": "realiza as duas orientações.",
+   "parcial": "realiza uma orientação.",
+   "inadequado": "não realiza orientação alguma",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

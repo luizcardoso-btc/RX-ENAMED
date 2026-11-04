@@ -1,0 +1,198 @@
+{
+ "id": "inep-2022-2-e01",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.2",
+  "estacao": 1,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2022_2_.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Clínica Médica",
+ "especialidade": "Clínica Médica",
+ "tema": "Homem de 19 anos, estudante universitário, procura atendimento na unidade após episódio de",
+ "titulo": "Homem de 19 anos, estudante universitário, procura atendimento na unidade após episódio de",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Secundária: Unidade de Pronto-Atendimento (UPA). A unidade possui a seguinte infraestrutura:  aparelhos para exames radiológicos convencionais (Rx);  eletrocardiografia (ECG);  laboratório de análises clínicas.",
+ "instrucoes": [
+  "Homem de 19 anos, estudante universitário, procura atendimento na unidade após episódio de desmaio ocorrido há aproximadamente 20 minutos. ATENÇÃO! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO. Nos próximos 10 minutos",
+  "ATENÇÃO! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO. Nos próximos 10 minutos, você deverá executar as tarefas a seguir: 1. realizar anamnese do paciente.",
+  "ATENÇÃO! VOCÊ DEVERÁ, OBRIGATORIAMENTE, REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA."
+ ],
+ "tarefas": [
+  "realizar anamnese do paciente.",
+  "solicitar e interpretar exame físico.",
+  "solicitar e interpretar exames laboratoriais (no máximo SEIS exames).",
+  "solicitar e interpretar outros exames complementares pertinentes ao caso (no máximo DOIS exames). Só serão pontuados os DOIS primeiros exames complementares citados.",
+  "estabelecer e comunicar hipótese diagnóstica inicial.",
+  "propor tratamento e/ou encaminhamento do paciente para seguimento adequado."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [
+  {
+   "item": "Impresso com imagem",
+   "resultado": "IMPRESSO 3 ELETROCARDIOGRAMA (ECG) Frequência cardíaca: 64 batimentos por minuto (Valor de Referência: 60 e 100 bpm). Ritmo sinusal. Intervalo PR: < 120 ms (Valor de Referência: 120 a 200 ms). Presença de “onda delta” (Valor de Referência: Ausência de onda delta). Duração do QRS: 120 ms (com onda delta) (Valor de Referência: 60 msa <120 ms). Eixo SÂQRS: -30° (Valor de Referência: entre -30º e +90º).",
+   "imagem": "img/estacoes/inep-2022-2-c01-p05.jpg"
+  }
+ ],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1) identifica-se e cumprimenta o paciente simulado; (2) pergunta algum dado de identificação (idade, estado civil, profissão e/ou naturalidade).",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.125,
+    "adequado": 0.25
+   },
+   "integral": "realiza todos os procedimentos.",
+   "parcial": "realiza um dos procedimentos.",
+   "inadequado": "não realiza procedimento algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre manifestações durante e após a crise: (1) movimentos involuntários (ou convulsão); (2) liberação esfincteriana; 3) lesões na língua; (4) lesões no crânio e na face (ou bateu com a cabeça); 5) padrão de recuperação.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga três ou mais achados clínicos.",
+   "parcial": "investiga dois achados clínicos.",
+   "inadequado": "investiga apenas um achado clínico ou não investiga achado clínico algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre manifestações que precedem a crise: 1) uso de medicamentos, drogas lícitas e ilícitas; 2) alimentação e jejum; 3) atividade física; 4) eventos similares anteriores; 5) doenças prévias e traumas.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "investiga três ou mais achados.",
+   "parcial": "investiga dois achados.",
+   "inadequado": "investiga apenas um achado ou não investiga achado algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Solicita exame físico (1) geral e (2) neurológico.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita exame físico especificando aspecto neurológico.",
+   "parcial": "solicita exame físico mas não especifica aspecto neurológico.",
+   "inadequado": "não solicita exame físico. Atenção: O(A) participante só irá pontuar caso solicite o exame físico ANTES de receber o impresso. 1",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita exames laboratoriais: (1) glicemia; (2) sódio; (3) potássio; (4) hematócrito/hemoglobina ou hemograma; (5) cálcio e (6) magnésio.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "solicita de quatro a seis dos exames listados.",
+   "parcial": "solicita de dois a três dos exames listados.",
+   "inadequado": "solicita um dos exames listados ou não solicita exame algum. Atenção: O candidato só irá pontuar caso ele cite os exames listados ANTES de receber o impresso. Só serão considerados os seis primeiros exames citados pelo participante ANTES de receber o impresso.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita e interpreta o eletrocardiograma (ECG).",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "solicita e relaciona os achados do ECG (PR- Curto ou Wolf-Parkinson-White ou presença de onda delta) a riscos de arritmia (ou alteração da atividade elétrica do coração).",
+   "parcial": "solicita, mas não interpreta corretamente o achado.",
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Formula hipóteses diagnósticas.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "identifica e explica o diagnóstico de síncope ou desmaio/perda de consciência de origem cardíaca, relacionando-o à arritmia ou alteração da atividade elétrica do coração (mencionando ou não taquicardia ou pré-excitação ventricular ou Wolff- Parkinson-White).",
+   "parcial": null,
+   "inadequado": "não identifica a síncope ou desmaio/perda de consciência de origem cardíaca.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Seguimento do paciente: encaminha para a cardiologia e/ou realização de Holter.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "encaminha.",
+   "parcial": null,
+   "inadequado": "não encaminha.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Realiza adequadamente a sequência das tarefas, conforme solicitado nas orientações ao participante.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "realiza.",
+   "parcial": null,
+   "inadequado": "não realiza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

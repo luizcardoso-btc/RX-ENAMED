@@ -1,0 +1,252 @@
+{
+ "id": "inep-2023-2-e01",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.2",
+  "estacao": 1,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2023_2.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Clínica Médica",
+ "especialidade": "Clínica Médica",
+ "tema": "“coceira na pele”",
+ "titulo": "“coceira na pele”",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: atenção primária à saúde – unidade básica de saúde (UBS). A unidade possui a seguinte infraestrutura: • Sala de coleta de exames.",
+ "instrucoes": [
+  "Você está em uma UBS e atenderá um homem de 20 anos de idade, estudante universitário, que procura atendimento na UBS com queixa de “coceira na pele”. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "Realizar anamnese do paciente",
+  "Solicitar exame físico com foco na queixa",
+  "Estabelecer e comunicar hipótese diagnóstica",
+  "Propor conduta para o paciente e fornecer orientações educacionais."
+ ],
+ "historia": "A Estação 1 de Clínica Médica abordou o caso de um homem de 20 anos de idade, com histórico de trauma em tornozelo direito adquirido durante prática esportiva. Esse homem procurou a unidade básica de saúde (UBS) pelo surgimento de lesões cutâneas, eritemato-papulares e pruriginosas em todo o corpo, após iniciar o uso de anti-inflamatório não hormonal contínuo (Nimesulida) e de analgésico intermitente (Dipirona).",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": "20 anos",
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "Chama-se João, tem 20 anos de idade, é solteiro e estudante universitário"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "Está com uma coceira insuportável no corpo todo há 4 dias"
+   },
+   {
+    "topico": "Fatores de melhora e piora",
+    "resposta": "Possui lesões avermelhadas e elevadas, que pioram quando ela coça"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "As lesões desaparecem após de 8 a 10 horas, mas outras surgem em seguida"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "O prurido que sente é igual em todos os períodos do dia"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "As lesões não deixam marcas ao desaparecer"
+   },
+   {
+    "topico": "Início e evolução (2)",
+    "resposta": "Sofreu uma contusão no tornozelo há 1 semana e, por isso, está tomando Nimesulida 2 vezes ao dia e, quando sente dor, toma dipirona, conforme orientação médica que recebeu"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "Tomou dipirona apenas poucas vezes, logo nos primeiros dias após o trauma"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "Não apresenta outros sintomas"
+   },
+   {
+    "topico": "Identificação (2)",
+    "resposta": "Apresentou lesões similares algum tempo atrás, após tomar um remédio para gripe, o qual não recorda o nome"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "Não teve doenças recentemente"
+   },
+   {
+    "topico": "Identificação (3)",
+    "resposta": "Tomou um comprimido para melhorar o prurido, o que aliviou um pouco a vontade de coçar as lesões, mas não se recorda do nome do medicamento"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (2)",
+    "resposta": "Não possui alergias ou doenças pré-existentes."
+   }
+  ],
+  "perguntasDoPaciente": [
+   "Qual é o diagnóstico",
+   "Qual é o tratamento",
+   "Se a realização de exames é necessária."
+  ]
+ },
+ "exameFisico": [
+  {
+   "item": "EXAME FÍSICO (página 1 de 2)",
+   "achado": "SINAIS VITAIS:\nFrequência cardíaca: 62 batimentos por minuto.\nPressão arterial: 120 × 60 mmHg.\nFrequência respiratória: 15 incursões respiratórias por minuto.\nTemperatura axilar: 36,0 °C.\nSaturação de oxigênio: 98% em ar ambiente.\nIMC: 22 Kg/m2.\nBom estado geral, afebril, acianótico, anictérico e hidratado; alerta, orientado no\ntempo e espaço; sem edemas.\nPele: presença de lesões eritemato-papulares, com limites precisos, bordas\nirregulares, de tamanhos variáveis, menores do que 0,5 cm, algumas coalescentes\nem placas, não descamativas, em todas as regiões do corpo.\nAusculta respiratória e cardíaca: sem alterações.\nAbdome: sem alterações.\nMembros inferiores: tornozelos sem edemas ou sinais flogísticos."
+  },
+  {
+   "item": "EXAME FÍSICO (página 2 de 2)",
+   "achado": "IMAGEM DA LESÃO:",
+   "imagem": "img/estacoes/inep-2023-2-c01-p03.jpg"
+  }
+ ],
+ "exames": [],
+ "diagnostico": "Formula hipótese diagnóstica da lesão de pele.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "Diagnosticar adequadamente caso de urticária aguda (menos do que seis semanas), secundária a uso de AINEs e analgésico",
+  "Identificar elementos que apontem para urticária aguda — é esperado que o(a) participante identifique o evento prévio e que o associe ao uso atual das medicações",
+  "Recomendar a suspensão das medicações em uso e orientar que o paciente evite usá-las posteriormente",
+  "Prescrever o tratamento medicamentoso, com anti-histamínico, e dar seguimento ambulatorial."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)Identifica-se; e (2)Cumprimenta o paciente simulado.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.125,
+    "adequado": 0.25
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza ação alguma de apresentação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre as manifestações e suas características: (1)Início ou duração do prurido; e (2)Lesões de pele/solicita ver a lesão.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga os dois itens.",
+   "parcial": "investiga apenas um item.",
+   "inadequado": "não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre as manifestações associadas: (1)Febre; (2)Linfadenopatias; (3)Tosse; (4)Dispneia; e (5) Manifestações digestivas (OU náuseas OU vômitos OU diarreia).",
+   "peso": 1.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.625,
+    "adequado": 1.25
+   },
+   "integral": "investiga quatro ou mais itens.",
+   "parcial": "investiga dois ou três itens.",
+   "inadequado": "investiga apenas um item OU não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre desencadeantes e agravantes: (1)Uso de medicamentos; (2)Alimentos; (3)Produtos de higiene/limpeza/cosméticos; (4)Picadas/ferroadas de insetos/plantas; e (5)Contatos com novas substâncias/joias. (6)Contatos com animais (pelo de gato e/ou de cão); e (7)Estímulos físicos (frio e/ou calor).",
+   "peso": 1.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.875,
+    "adequado": 1.75
+   },
+   "integral": "investiga quatro ou mais fatores.",
+   "parcial": "investiga dois ou três fatores.",
+   "inadequado": "investiga apenas um fator OU não investiga fator algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Pergunta sobre antecedentes pessoais: (1)Doenças prévias (autoimunes; alérgicas; infecciosas); e (2)Uso de drogas lícitas ou ilícitas.",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.75
+   },
+   "integral": "pergunta os dois itens.",
+   "parcial": "pergunta apenas um item.",
+   "inadequado": "não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Formula hipótese diagnóstica da lesão de pele.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "formula uma das hipóteses abaixo. (1)Urticária aguda relacionada ao uso de medicamentos (AINEs e analgésico); OU (2) Urticária relacionada ao uso de medicamentos (AINEs e analgésico); OU (3)Farmacodermia; OU (4)Dermatite alérgica medicamentosa; OU (5)Dermatite alérgica induzida por medicamento.",
+   "parcial": "formula uma das hipóteses abaixo. (1)“reação alérgica” relacionada ao uso de medicamentos. OU (2)alergia relacionada ao uso de medicamentos. OU (3)urticária,",
+   "inadequado": "não verbaliza o diagnóstico correto OU verbaliza de forma inespecífica: “reação alérgica” ou alergia, sem especificar o uso de medicamentos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Conduta médica relacionada a farmacodermia. (1)Suspende o uso das medicações (AINE e analgésico); e (2) Prescreve anti-histamínico oral (associado ou não a um corticoide oral) OBS: corticoide como conduta isolada deve ser considerado inadequado",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "indica as duas condutas.",
+   "parcial": "indica apenas uma das duas condutas.",
+   "inadequado": "não indica qualquer uma das duas condutas OU indica outros grupos de medicamentos (incluindo corticoide isolado).",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Recomenda. (1)Retorno se houver persistência ou piora dos sintomas; e (2)Evitar uso futuro de dipirona e AINEs.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "recomenda os dois itens.",
+   "parcial": "recomenda só um item.",
+   "inadequado": "não recomenda item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

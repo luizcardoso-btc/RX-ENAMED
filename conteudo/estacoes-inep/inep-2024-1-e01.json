@@ -1,0 +1,244 @@
+{
+ "id": "inep-2024-1-e01",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.1",
+  "estacao": 1,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Clínica Médica",
+ "especialidade": "Clínica Médica",
+ "tema": "Aumento do volume abdominal",
+ "titulo": "Aumento do volume abdominal",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: ambulatório de atenção primária à saúde - UBS. A unidade possui a seguinte infraestrutura: • Laboratório de Exames Clínicos e Unidade de Radiologia.",
+ "instrucoes": [
+  "Você é médico(a) de uma Unidade Básica de Saúde (UBS).",
+  "Vai atender a paciente Eliana, 26 anos de idade, costureira, com queixa de aumento do volume abdominal.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO. \" EDUCAÇÃO"
+ ],
+ "tarefas": [
+  "realizar a anamnese",
+  "solicitar o exame físico",
+  "realizar o exame do abdome no manequim {PALPAÇÃO E PERCUSSÃO), nomeando e descrevendo as manobras realizadas",
+  "interpretar os achados do exame físico do abdome",
+  "relacionar os resultados dos exames às hipóteses diagnósticas",
+  "estabelecer hipótese diagnóstica e definir plano de seguimento."
+ ],
+ "historia": "A Estação aborda o caso de uma mulher de 26 anos, casada e costureira, que vai a uma consulta ambulatorial em UBS com queixa de aumento progressivo do volume abdominal há 3 meses, e com leve desconforto em hipocôndrio direito que cede ao uso de dipirona, sem outros sintomas associados. A paciente nega comorbidades e está em uso de anticoncepcional oral. Traz ultrassonografia de abdome com alterações sugestivas de Síndrome de Budd-Chiari, com baço de tamanho limítrofe e ascite moderada.",
+ "paciente": {
+  "nome": "Eliana",
+  "idade": "26 anos",
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "é casada e trabalha em casa como costureira"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "há 3 meses, percebeu um inchaço em sua barriga que está aumentando progressivamente"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "a princípio atribuiu o inchaço a uma possível gravidez, mas, além de fazer uso de contraceptivo oral, realizou dois testes de gravidez que resultaram negativo"
+   },
+   {
+    "topico": "Fatores de melhora e piora",
+    "resposta": "apresenta, como único sintoma associado, leve desconforto em hipocôndrio direito, que cede mediante o uso de dipirona"
+   },
+   {
+    "topico": "Fatores de melhora e piora (2)",
+    "resposta": "nega fatores de piora dos sintomas"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "realizou uma ultrassonografia na semana anterior"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "nega comorbidades, gestações prévias, cirurgias, tabagismo, etilismo e uso de outras drogas"
+   },
+   {
+    "topico": "Medicamentos (2)",
+    "resposta": "o anticoncepcional oral é a única medicação de uso contínuo que utiliza"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (2)",
+    "resposta": "seu pai é hipertenso, mas desconhece outros antecedentes mórbidos familiares."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico geral",
+   "achado": "Frequência cardíaca: 68 bmp.\nPressão arterial: 115 x 65 mmHg.\nFrequência respiratória: 16 irpm.\nTemperatura axilar: 36,2 ºC.\nSaturação de oxigênio: 97% em ar ambiente.\nIMC: 24 kg/m2 .\nPaciente em bom estado geral, afebril, corada, acianótica, anictérica e hidratada;\nalerta, orientada no tempo e espaço.\nAusência de estase jugular (tronco entre 30º e 45º).\nAusculta respiratória com murmúrio vesicular presente bilateralmente, sem ruídos\nadventícios.\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas; ausência de\nsopros.\nExtremidades bem perfundidas, sem edemas.\nAbdome:\n1. REALIZE O EXAME DO ABDOME NO MANEQUIM UTILIZANDO TÉCNICAS\nDE PALPAÇÃO E DE PERCUSSÃO, NOMEANDO E DESCREVENDO AS\nMANOBRAS.\nNÃO É NECESSÁRIO REALIZAR AAUSCULTA.\n2. VOCÊ RECEBERÁ OS IMPRESSOS ESPECÍFICOS DO EXAME DO ABDOME\nAO NOMEAR E DESCREVER AS MANOBRAS UTILIZADAS.",
+   "imagem": "img/estacoes/inep-2024-1-c01-p02.jpg"
+  },
+  {
+   "item": "Exame físico do fígado",
+   "achado": "PERCUSSÃO: Fígado com bordo superior ao nível do 6° espaço intercostal direito\ne inferior 2 cm abaixo do rebordo costal direito.\nPALPAÇÃO: Fígado palpável 2 cm abaixo do rebordo costal direito, bordos regulares\ne lisos, levemente doloroso à palpação.\n\" EDUCAÇÃO",
+   "imagem": "img/estacoes/inep-2024-1-c01-p03.jpg"
+  }
+ ],
+ "exames": [
+  {
+   "item": "Ultrassonografia de abdome",
+   "resultado": "Fígado com padrão ecogênico levemente irregular, com aumento do lobo caudado.\nIrregularidade e difícil identificação das veias hepáticas. Impossibilidade de\nvisibilização da junção com a veia cava inferior. Baço medindo 15 cm com dilatação\nda veia esplênica, veia esplênica com calibre de 23 mm (valor normal de 3 a 21 mm).\nVisualização de varizes perigástricas.\nPresença de ascite.\n■---\n1111:r\"",
+   "imagem": "img/estacoes/inep-2024-1-c01-p06.jpg"
+  }
+ ],
+ "diagnostico": "Pergunta a existência de outros sinais, ou sintomas associados, que sejam relevantes para o estabelecimento de diagnósticos diferenciais: (1)dor; (2)náuseas; (3)vômitos; (4) diarreia OU alterações das fezes OU alterações do hábito intestinal OU mudança no cocô OU presença de sangue vivo ou escuro nas fezes; (5)disúria OU dor ao urinar OU ardência ao urinar OU oligúria; (6)febre OU sudorese OU calafrios; (7)icterícia OU pele amarela OU alterações da pele OU mudança da cor da pele OU prurido; (8) alteração na cor das fezes OU acolia OU fezes/cocô esbranquiçado; e, (9)alteração na cor do xixi OU colúria OU urina escurecida.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "comunicar-se adequadamente com a paciente realizando a anamnese adequada, direcionada a queixa da paciente",
+  "realizar as técnicas corretas de palpação e de percussão do fígado",
+  "realizar as técnicas corretas de palpação e de percussão do baço",
+  "realizar as manobras de pesquisa de ascite – semicírculo de Skoda e macicez móvel",
+  "correlacionar os achados da ultrassonografia de abdome como compatíveis de hipertensão portal",
+  "solicitar outros exames complementares para elucidação etiológica e/ou encaminhar a paciente para seguimento especializado com gastroenterologia."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)identifica-se; e, (2)cumprimenta a paciente simulado e pergunta seu nome.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta a existência de outros sinais, ou sintomas associados, que sejam relevantes para o estabelecimento de diagnósticos diferenciais: (1)dor; (2)náuseas; (3)vômitos; (4) diarreia OU alterações das fezes OU alterações do hábito intestinal OU mudança no cocô OU presença de sangue vivo ou escuro nas fezes; (5)disúria OU dor ao urinar OU ardência ao urinar OU oligúria; (6)febre OU sudorese OU calafrios; (7)icterícia OU pele amarela OU alterações da pele OU mudança da cor da pele OU prurido; (8) alteração na cor das fezes OU acolia OU fezes/cocô esbranquiçado; e, (9)alteração na cor do xixi OU colúria OU urina escurecida.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga seis ou mais itens.",
+   "parcial": "investiga de um a cinco itens.",
+   "inadequado": "não investiga item algum. (Referência a outros sinais ou sintomas não serão considerados para fins de pontuação).",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre: (1)fatores de melhora ou atenuantes; e, (2)fatores de piora ou agravantes.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta os dois itens.",
+   "parcial": "pergunta apenas um item.",
+   "inadequado": "não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Realiza o exame no fígado: (1)palpação; e, (2)percussão.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "realiza os dois itens.",
+   "parcial": "realiza apenas um item.",
+   "inadequado": "não realiza item algum.",
+   "evidencia": "CONSIDERAR TÉCNICA CORRETA DE PALPAÇÃO DO FÍGADO: (1) Paciente/modelo em decúbito dorsal. Participante no lado direito do paciente/modelo, de frente para o paciente/modelo ou voltado para a direção do tórax do paciente/modelo. Palpar o hipocôndrio direito, flanco direito e epigástrio, partindo do mesogastro até o rebordo costal. Em seguida, palpar junto ao rebordo costal direito coordenando com os movimentos respiratórios. Pode-se colocar a mão esquerda em loja renal direita do paciente, forçando-a para cima OU (2) Paciente/modelo em decúbito dorsal ou decúbito semi lateral esquerdo. Participante no lado direito do paciente/modelo, voltado para a direção da pelve do paciente/modelo. Com os dedos em garra, o participante palpa o flanco/hipocôndrio direito da altura da cicatriz umbilical até o rebordo costal direito - Manobra de Mathieu. CONSIDERAR TÉCNICA CORRETA DE PERCUSSÃO DO FÍGADO: (1) Com paciente/modelo em decúbito dorsal, participante do lado direito do paciente/modelo, posicionado de frente ao paciente/modelo ou em direção ao seu tórax. Percute-se hemitórax direito, na direção da linha hemiclavicular, desde a clavícula, passando pelos espaços intercostais inferiores, até identificar a borda superior do fígado pela mudança do som de claro pulmonar para maciço/submaciço. A partir daí, progride- se distal e medialmente até identificação do bordo inferior do fígado.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Realiza: (1)palpação esplênica; e, (2)percussão esplênica.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "realiza uma técnica de percussão esplênica e realiza uma técnica de palpação esplênica.",
+   "parcial": "realiza apenas a palpação esplênica OU realiza apenas a percussão esplênica.",
+   "inadequado": "não realiza a palpação nem realiza a percussão esplênica.",
+   "evidencia": "CONSIDERAR TÉCNICA CORRETA DE PALPAÇÃO DO BAÇO: (1) Paciente/modelo em decúbito dorsal. Participante no lado direito do paciente/modelo, voltado para o paciente/modelo ou para a direção do tórax do paciente/modelo. Palpar do hipocôndrio esquerdo e flanco esquerdo, partindo do umbigo até o rebordo costal. Em seguida, palpar junto ao rebordo costal esquerdo coordenando com os movimentos respiratórios. Pode-se colocar a mão esquerda em loja renal esquerda do paciente, forçando-a para cima. OU (2) Paciente/modelo em decúbito lateral direito, perna direita estendida, coxa esquerda fletida a 90 graus sobre o abdome e braço esquerdo sobre a cabeça, com o ombro esquerdo elevado. Participante do lado direito do paciente/modelo, posicionado de frente para o paciente/modelo. Posiciona-se a mão esquerda na área de projeção do baço, deslocando-o em direção à maca. Com a mão direita, palpa- se do mesogástrio em direção ao rebordo costal esquerdo, coordenando com a respiração. CONSIDERAR TÉCNICA CORRETA DE PERCUSSÃO DO BAÇO: (1) Percussão do espaço de Traube, localizado entre 5º e 6º espaço intercostal esquerdo e se estende até a linha axilar anterior, no nível do 9º espaço intercostal.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Realiza pesquisa de ascite por pelo menos duas técnicas:",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "realiza duas técnicas de pesquisa de ascite.",
+   "parcial": "realiza apenas uma técnica de pesquisa de ascite.",
+   "inadequado": "não realiza nenhuma técnica de pesquisa de ascite. -Considerar técnica correta: (1) macicez móvel - Paciente/modelo em decúbito dorsal, participante do lado direito do paciente/modelo, voltado para o paciente/modelo, realiza percussão a partir do mesogástrio em direção aos flancos direito e esquerdo. Após, posiciona o paciente em decúbito lateral (direito e/ou esquerdo) e percute do flanco oposto ao lado do decúbito (o que está posicionado sem contato com a maca), em direção ao flanco em contato com a maca. (2)semicirculo de Skoda – Paciente/modelo em decúbito dorsal, participante do lado direito do paciente/modelo, voltado para o paciente/modelo, realiza percussão a partir do mesogástrio em direção aos flancos direito e esquerdo, fossa ilíaca direita e esquerda, e hipogástrio (não precise manter essa sequência). (3)piparote – Paciente/modelo em decúbito dorsal, participante do lado direito do paciente/modelo, voltado para o paciente/modelo, solicita que paciente posicione a borda medial da sua mão em mesogástrio. Participante posiciona a palma sua mão no flanco esquerdo do paciente e, com a outra, mão golpea o flanco direito do paciente/modelo com dedo indicador ou médio. (4)sinal da poça – Paciente/modelo com o tronco fletido para frente (posição genupalmar), percute-se o abdome da região mais distal de hipogastro de forma ascendente, em direção à região umbilical.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Formula hipótese diagnóstica de: (1)ascite; (2)por hipertensão portal.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "formula o diagnóstico citando os dois itens.",
+   "parcial": "formula o diagnóstico citando um item.",
+   "inadequado": "não formula diagnóstico OU formula diagnóstico não citando item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Elabora plano de seguimento da paciente: (1) solicita pelo menos um exame complementar dentre os seguintes: ultrassonografia/ultrassom com Doppler, ultrassonografia/ultrassom, ultrassonografia/ultrassom de abdome, ressonância magnética, tomografia, provas de função hepática (proteínas/albumina, coagulograma/INR, bilirrubinas), sorologias para hepatites virais, autoanticorpos, AST, ALT, perfil de ferro, dosagem de cobre sérico ou urinário, ceruloplasmina, paracentese, cálculo do GASA; e (2) encaminhamento para seguimento em avaliação terciária com gastroenterologia ou com hepatologista.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "elabora plano de seguimento contendo o encaminhamento da paciente (2) e solicita pelo menos um dos exames relacionados (1).",
+   "parcial": "apenas solicita exame (1) OU apenas encaminha ao especialista (2)",
+   "inadequado": "não encaminha a paciente na forma do item (2) nem solicita algum dos exames listados no item (1).",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

@@ -1,0 +1,207 @@
+{
+ "id": "inep-2022-2-e07",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.2",
+  "estacao": 7,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2022_2_.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Cirurgia",
+ "especialidade": "Cirurgia geral",
+ "tema": "Mulher de 32 anos, previamente hígida, com dor abdominal há 1 dia. ATENÇÃO: A PACIENTE SIM",
+ "titulo": "Mulher de 32 anos, previamente hígida, com dor abdominal há 1 dia. ATENÇÃO: A PACIENTE SIM",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Unidade de Atenção Secundária: Ambulatorial e Hospitalar. A unidade possui a seguinte infraestrutura:  setor de radiologia convencional e ultrassonografia;  laboratório de análises clínicas e banco de sangue;  leitos de internação e centro cirúrgico.",
+ "instrucoes": [
+  "Mulher de 32 anos, previamente hígida, com dor abdominal há 1 dia. ATENÇÃO: A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO. Nos próximos 10 minutos",
+  "ATENÇÃO: A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO. Nos próximos 10 minutos, você deverá executar as tarefas a seguir: 1. realizar anamnese da paciente.",
+  "ATENÇÃO: VOCÊ DEVERÁ, OBRIGATORIAMENTE, REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA."
+ ],
+ "tarefas": [
+  "realizar anamnese da paciente.",
+  "solicitar e interpretar exames necessários ao caso.",
+  "estabelecer e comunicar a hipótese diagnóstica e diagnóstico(s) diferencial(is).",
+  "definir e verbalizar a conduta terapêutica necessária."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "Cita a hipótese diagnóstica de colecistite aguda litiásica/calculosa.",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1) identifica-se e (2) cumprimenta a paciente simulada.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.2
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": null,
+   "inadequado": "realiza uma ou não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre as características da dor: (1) localização; (2) irradiação; (3) tipo; (4) fatores agravantes/melhora; (5) intensidade.",
+   "peso": 0.6,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.3,
+    "adequado": 0.6
+   },
+   "integral": "pergunta quatro ou cinco itens.",
+   "parcial": "pergunta dois ou três itens.",
+   "inadequado": "pergurta apenas um item ou não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre sintomas associados: (1) vômito/náusea; (2) alteração de hábito intestinal; (3) acolia; (4) febre; (5) icterícia; e (6) colúria.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "pergunta cinco ou seis itens.",
+   "parcial": "pergunta três ou quatro itens.",
+   "inadequado": "pergunta dois itens ou menos.",
+   "evidencia": "4. Solicita o exame físico. Adequado: solicita. 0,4 0 Inadequado: não solicita.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita os exames complementares laboratoriais: (1) hemograma; (2) PCR; (3) bilirrubinas; (4) enzimas hepáticas; (5) amilase; (6) lipase; (7) fosfatase alcalina; e (8) gamaGT.",
+   "peso": 1.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.7,
+    "adequado": 1.4
+   },
+   "integral": "solicita sete ou oito itens.",
+   "parcial": "solicita de quatro a seis itens.",
+   "inadequado": "solicita três ou menos itens. Atenção: O(A) participante só irá pontuar caso cite os exames listados ANTES de receber os IMPRESSOS 2 e/ou 3.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Verbaliza as alterações dos exames laboratoriais: (1) HMG com leucocitose e (2) PCR aumentado.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "verbaliza os dois itens. 14",
+   "parcial": null,
+   "inadequado": "verbaliza um item ou não verbaliza item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Solicita ultrassom de abdome.",
+   "peso": 0.6,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.6
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Cita a hipótese diagnóstica de colecistite aguda litiásica/calculosa.",
+   "peso": 1.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.9,
+    "adequado": 1.8
+   },
+   "integral": "cita o diagnóstico completo.",
+   "parcial": "cita apenas o diagnóstico de colecistite aguda.",
+   "inadequado": "não cita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Cita os principais diagnósticos diferenciais: (1) pancreatite aguda; (2) cólica biliar/colecistolitíase; (3) cólica nefrética/litíase ou cálculo renal (4) Coledocolitiase/colangite.",
+   "peso": 1.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.65,
+    "adequado": 1.3
+   },
+   "integral": "cita três ou quatro itens.",
+   "parcial": "cita dois itens.",
+   "inadequado": "não cita item algum ou somente um .",
+   "evidencia": "10. Indica a antibioticoterapia e encaminha a paciente para a realização de colecistectomia em até 72 horas, idealmente. Adequado: indica o tratamento. 1,6 Inadequado: não indica o tratamento. 0 Atenção: deverá ser verbalizado que o procedimento deverá ser realizado idealmente em até 72h.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Cita as opções cirúrgicas: (1) videolaparoscopia; (2) cirurgia aberta.",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.3
+   },
+   "integral": "cita os dois itens.",
+   "parcial": "cita um item.",
+   "inadequado": "não cita item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Realiza a sequência das tarefas indicadas nas orientações ao(à) participante.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "realiza.",
+   "parcial": null,
+   "inadequado": "não realiza. 15",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "critérios somam 8.0",
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

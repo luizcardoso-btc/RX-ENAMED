@@ -1,0 +1,284 @@
+{
+ "id": "inep-2024-2-e08",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.2",
+  "estacao": 8,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2024_2_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Pediatria",
+ "especialidade": "Pediatria",
+ "tema": "Você é um médico que está atendendo no consultório de uma UBS e vai receber uma menina com",
+ "titulo": "Você é um médico que está atendendo no consultório de uma UBS e vai receber uma menina com",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: atenção primária à saúde. Tipo de atendimento: ambulatorial – unidade básica de saúde (UBS). A unidade apresenta a seguinte infraestrutura: ● Consultório médico.",
+ "instrucoes": [
+  "Você é um médico que está atendendo no consultório de uma UBS e vai receber uma menina com 3 anos e 4 meses de idade, numa consulta de rotina, acompanhada pela mãe."
+ ],
+ "tarefas": [
+  "Realizar anamnese voltada para o controle da pressão arterial da criança.",
+  "Realizar a técnica da aferição da pressão arterial em membro superior da criança e verbalizar cada um dos passos que você executar.",
+  "Analisar e interpretar valores obtidos de pressão arterial da criança.",
+  "Classificar a pressão arterial de acordo com valores obtidos.",
+  "Definir conduta clínica adequada a partir dos valores obtidos."
+ ],
+ "historia": "A Estação 8, da área de Pediatria, abordou o caso de uma criança do sexo feminino com 3 anos e 4 meses de idade, que foi com a sua mãe à unidade básica de saúde próxima a sua casa para fazer a consulta de rotina, cabendo ao(à) médico(a) nesta consulta realizar a aferição da pressão arterial, analisar os dados obtidos e dar orientações à paciente simulada (mãe). No atendimento,",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "chama-se Carla, é casada e tem 22 anos de idade"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "sua filha, Laura, com 3 anos e 4 meses de idade, veio para uma consulta de rotina"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "a enfermeira já mediu altura e peso de Laura, tem tudo anotado na Caderneta e, nesta consulta, falta apenas checar a pressão"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "a criança acabou de pegar no sono, por isso foi colocada na maca"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "a criança não tem qualquer sinal ou sintoma de problema de saúde (dor, febre, cansaço, vômito ou diarreia)"
+   },
+   {
+    "topico": "Sintomas associados (2)",
+    "resposta": "Laura não passou por qualquer intercorrência no nascimento (nasceu a termo, com peso normal, sem internação na UTI)"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "Laura urinou antes de entrar na consulta e depois manteve-se quietinha no colo, sem pular, nem correr"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "gostaria que fosse checada a pressão arterial da criança. Após fazer os questionamentos adequados, o(a) participante receberia os seguintes"
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "Laura, 3 anos 4 meses.\nExame físico geral e exame segmentar sem alterações."
+  }
+ ],
+ "exames": [
+  {
+   "item": "Caderneta de saúde da criança",
+   "resultado": "Laura, 3 anos e 4 meses / Peso: 14,5 Kg / Comprimento: 98 cm",
+   "imagem": "img/estacoes/inep-2024-2-c08-p40.jpg"
+  },
+  {
+   "item": "Caderneta de saúde da criança",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2024-2-c08-p41.jpg"
+  },
+  {
+   "item": "Circunferência do braço",
+   "resultado": "Considere a circunferência do braço: 18 centímetros."
+  },
+  {
+   "item": "Braçadeira e manguito",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2024-2-c08-p44.jpg"
+  },
+  {
+   "item": "Braçadeira e manguito",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2024-2-c08-p45.jpg"
+  },
+  {
+   "item": "Pressão arterial aferida",
+   "resultado": "Laura, 3 anos 4 meses.\nPressão arterial (membro superior direito):\nEm 1ª aferição, 110 x 68 mmHg.\nEm 2 ª aferição, 108 x 66 mmHg.\nEm 3 ª aferição, 110 x 68 mmHg.\nA pressão arterial média (3 aferições): 109 x 67 mmHg."
+  },
+  {
+   "item": "Tabela de pressões",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2024-2-c08-p47.jpg"
+  }
+ ],
+ "diagnostico": "Conduta final: (1)não fecha o diagnóstico de hipertensão ainda; (2) orienta medidas não farmacológicas (peso, dieta, atividade física); (3) solicita retorno para nova medida de pressões em 1 a 2 semanas.",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)identifica-se; (2)cumprimenta a mãe de maneira adequada/cordial; (3)mantém contato visual durante sua apresentação com a mãe; (4)pergunta o nome da mãe e o nome da criança.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as quatro ações.",
+   "parcial": "realiza duas ou três ações.",
+   "inadequado": "realiza uma ação OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre o motivo da consulta e as queixas principais como: (1)dor; (2)febre / calafrio/ sudorese; (3)diarreia; (4)vômito / náuseas; (5)cansaço / fadiga, astenia, fraqueza; (6) cefaleia; (7)convulsão; (8)manchas na pele; (9) alterações na urina (disuria, polaciuria, hematúria, nictúria, noctúria); (10)tontura; (11)alteração no crescimento; (12)irritabilidade; (13) sonolência; (14) palpitações; (15)edema.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta três queixas.",
+   "parcial": "pergunta duas queixas.",
+   "inadequado": "pergunta uma queixa OU não pergunta queixa alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Questiona sobre os fatores de risco para hipertensão na infância, como: (1)prematuridade / idade gestacional abaixo de 32 semanas; (2)baixo peso ao nascer; (3)internação na Unidade de Terapia Intensiva Neonatal (UTIN); (4)problema cardíaco / doença cardiovascular; (5) problema renal / alteração urinária / fatores relacionados a glomerulonefrite pós estreptocócica; (6)outras doença(s) crônica(s) / diabetes mellitus/ câncer; (7)doenças renais familiares; (8)hipertensão juvenil de algum membro da família; (9)uso de medicação atual e continuamente; (10)sobrepeso /obesidade; (11) doenças genéticas: neurofibromatose ou síndrome de Turner ou síndrome de Williams ou coarctação de aorta; (12)padrão de sono/ apneia do sono; (13)hábitos alimentares inadequados ou não saudáveis; (14)falta da realização de atividade física; sedentarismo.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "verbaliza quatro fatores.",
+   "parcial": "verbaliza dois ou três fatores.",
+   "inadequado": "verbaliza um fator OU não verbaliza fator algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre a condição da paciente antes de medição da PA: (1)ficou sentada e/ou tranquila antes do exame; (2)esvaziou a bexiga antes da consulta; (3)correu, pulou ou fez alguma atividade física na última hora.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "verbaliza duas condições.",
+   "parcial": "verbaliza uma condição.",
+   "inadequado": "não verbaliza sobre as condições ou verbaliza alguma outra condição.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Explica o exame para a mãe da criança simulada.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "Explica.",
+   "parcial": null,
+   "inadequado": "Não explica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Posicionamento / preparo da paciente: (1)verbaliza que o braço deve ficar ao nível do coração; (2)verbaliza que a palma da mão deverá ficar voltada para cima; (3) retira a camiseta ou solicita que a mãe retire a camiseta ou ergue a manga de modo que não garroteia o membro ou verbaliza que a camiseta deve ser retirada. (4)verbaliza que a medida é preferencialmente no braço direito; (5)verbaliza que o paciente deve estar deitado ou sentado, com pernas descruzadas, pés apoiados no chão, dorso recostado na cadeira e relaxado.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.5
+   },
+   "integral": "realiza três ações.",
+   "parcial": "realiza duas ações corretamente.",
+   "inadequado": "não realiza ação alguma ou realiza apenas uma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Escolha do tamanho do manguito: (1)Mede e/ou verbaliza a distância do acrômio ao olécrano; (2) Identifica e/ou descreve o ponto médio da distância entre o acrômio e o olécrano; (3) Mede e/ou verbaliza a circunferência do braço nesse ponto médio; (4) Seleciona o manguito correto (manguito n.º 2 - largura de 8 a 10 cm). Adequada: realiza quatro ações corretamente.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "",
+   "parcial": "realiza duas a três ações corretamente.",
+   "inadequado": "realiza uma ou nenhuma ação corretamente. Obs: não é necessário verbalizar os termos acrômio e olecrano. Pode ser verbalizado do ombro ao cotovelo.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Verbaliza e/ou faz o posicionamento inicial do esfigmomanômetro e do estetoscópio para aferição da pressão: (1) verbaliza e/ou coloca o esfigmomanômetro/manguito corretamente no braço (posição do velcro e direção do manguito) 2 a 3 cm acima da fossa cubital; (2) verbaliza e/ou posiciona a campanula ou o diafragma do estetoscópio sobre fossa anticubital / cubital ipsilateral; ou sobre a artéria braquial.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "realiza os dois procedimentos.",
+   "parcial": null,
+   "inadequado": "realiza um ou nenhum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Interpreta os valores pressóricos obtidos como alterados / elevados para a idade da criança.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "Interpreta como pressão alterada/elevada ou hipertensão estágio 1.",
+   "parcial": null,
+   "inadequado": "não interpreta ou interpreta incorretamente.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Conduta final: (1)não fecha o diagnóstico de hipertensão ainda; (2) orienta medidas não farmacológicas (peso, dieta, atividade física); (3) solicita retorno para nova medida de pressões em 1 a 2 semanas.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.5
+   },
+   "integral": "realiza as três ações.",
+   "parcial": "realiza duas ações.",
+   "inadequado": "realiza uma ou nenhuma ação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

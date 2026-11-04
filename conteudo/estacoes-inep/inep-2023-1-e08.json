@@ -1,0 +1,259 @@
+{
+ "id": "inep-2023-1-e08",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.1",
+  "estacao": 8,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Pediatria",
+ "especialidade": "Pediatria",
+ "tema": "Você está entrando no plantão noturno (19:00 horas) em um serviço de pronto atendimento ho",
+ "titulo": "Você está entrando no plantão noturno (19:00 horas) em um serviço de pronto atendimento ho",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Secundária: Urgência e Emergência. A unidade possui a seguinte infraestrutura:  setor de radiologia convencional e ultrassom;  laboratório de análises clínicas;  leitos de internação.",
+ "instrucoes": [
+  "Você está entrando no plantão noturno (19:00 horas) em um serviço de pronto atendimento hospitalar e vai reavaliar um pré-escolar (3 anos e 8 meses) acompanhado da mãe, que deu entrada no serviço às 18:15 horas e foi atendido inicialmente pelo(a) colega anterior, aguardando reavaliação e resultado do(s) exame(s) solicitado(s). ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! Nos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:"
+ ],
+ "tarefas": [
+  "realizar anamnese dirigida à mãe",
+  "interpretar os achados do exame físico",
+  "interpretar a radiografia de tórax",
+  "comunicar à mãe: a condição da criança, a conduta imediata a ser tomada e as possíveis complicações",
+  "orientar a mãe quanto a medidas preventivas. Obs: Considere que a criança está sentada na cadeira durante todo o período da consulta."
+ ],
+ "historia": "A Estação 8 de Pediatria abordou a reavaliação, no início do plantão noturno (19:00 horas) de um pré-escolar, masculino, de 3 anos e 8 meses de idade, que deu entrada no serviço às 18:15 horas e foi atendido inicialmente pelo(a) colega anterior e está aguardando reavaliação e resultado do(s) exame(s) solicitado(s). O paciente simulado está com queixa de choro e sialorreia há menos de 2 horas, com disfagia para líquidos. O paciente simulado teve ingesta de corpo estranho (bateria de eletrônico) cáustico, localizado em topografia de esfíncter esofagiano superior. Devido ao risco de perfuração esofágica, a situação é caracterizada como uma emergência médica.",
+ "paciente": null,
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "Paciente: Luiz Fernando, 3 anos e 8 meses de idade.\nPeso: 16 kg.\nFrequência Cardíaca: 110 batimentos por minuto.\nFrequência Respiratória: 22 incursões respiratórias por minuto.\nSaturação de O₂: 99% em ar ambiente.\nPressão Arterial: 88 × 58 mmHg.\nPaciente em bom estado geral, choroso durante o exame, corado, hidratado, acianótico,\nanictérico, afebril, eupneico, sem linfonodomegalia. Sialorreia intensa durante o exame\n(não consegue deglutir a própria saliva).\nAusculta respiratória: Murmúrios vesiculares presentes bilateralmente, com roncos de\ntransmissão. Sem sinais de esforço respiratório.\nAusculta cardíaca: Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem\nsopros.\nAbdome: plano, flácido, ruídos hidroaéreos presentes, sem massas ou visceromegalias\npalpáveis, indolor à palpação.\nExame neurológico: Sem alterações.\nOtoscopia: sem alterações.\nOroscopia: dentes em boas condições, gengivas e lábios sem lesões, orofaringe\ndiscretamente hiperemiada."
+  }
+ ],
+ "exames": [
+  {
+   "item": "Radiografia de tórax",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2023-1-c08-p39.jpg"
+  }
+ ],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "ela se chama Ana Maria e tem 31 anos",
+  "o menino se chama Luiz Fernando, tem 3 anos e 8 meses",
+  "por volta das 18 horas Luiz Fernando começou a chorar e babar muito, passou a recusar qualquer bebida ou comida, não conseguindo engolir a própria saliva",
+  "o primeiro médico pediu um Raio-X e que está aguardando a nova avaliação",
+  "Luiz Fernando passou bem o dia, e quando estava brincando com o irmão começou a chorar e se iniciaram os outros sintomas",
+  "Luiz Fernando nunca precisou ir em pronto-socorro, vai apenas em consultas de rotina",
+  "o brinquedo quebrou e ela acha que ele engoliu alguma peça",
+  "o brinquedo é um carrinho de bombeiros de plástico com luzes que acendem",
+  "ela não viu o que aconteceu, os meninos estavam brincando sozinhos na sala, o irmão disse que Luiz Fernando comeu uma balinha",
+  "ela ficou com medo de ser um pedaço, ou peça, do brinquedo",
+  "Luiz Fernando não possui alergias, não toma remédios regularmente, e não ingeriu acidentalmente nenhum remédio, pois todos ficam trancados em armário",
+  "Luiz Fernando passou bem nos dias anteriores",
+  "Luiz Fernando não frequenta a creche, brinca com o irmão mais velho a tarde, quando o irmão volta da escola",
+  "Luiz Fernando não teve nem resfriados nesse ano",
+  "ele come bem e gosta de beber água, mas após começar a chorar não aceitou nada oferecido",
+  "ele não tem problemas para evacuar, faz xixi bem clarinho, e defecou hoje",
+  "todas as vacinas estão em dia, mas ela esqueceu o cartão de vacinas. A mãe simulada, caso o(a) participante fizesse a anamnese adequada, perguntaria ao(à) participante:",
+  "se o(a) participante vai querer examinar o Luiz Fernando",
+  "se está tudo bem com o exame",
+  "se o(a) participante quer ver o Raio-X",
+  "se ele corre algum risco imediato",
+  "se ele pode ter complicações",
+  "como é o exame que precisa ser feito e se esse exame exige que seja realizado algum preparo prévio",
+  "se ela pode dar um pouco de água ao filho, e qual a razão do jejum total",
+  "o que pode ser feito para que isso não ocorra novamente. Caso o(a) participante fizesse as seguintes perguntas / solicitações ele(a) receberia os"
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1) Identifica-se; (2) cumprimenta a mãe de maneira adequada/cordial; (3) mantém contato visual; (4) pergunta o nome da mãe; (5) pergunta o nome da criança.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as cinco ações.",
+   "parcial": "realiza de duas a quatro ações.",
+   "inadequado": "realiza uma OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Questiona sobre a queixa principal.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.4
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre outras queixas.",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.3
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre a existência de comorbidades.",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.3
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Análise do exame físico: verbaliza que o paciente está clinicamente estável/bem (falando ou não que ele tem apenas um ronco de transmissão devido a saliva excessiva).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "verbaliza corretamente.",
+   "parcial": null,
+   "inadequado": "não verbaliza OU verbaliza que o exame físico está alterado.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Analisa o exame de imagem – Radiografia de tórax: Ao analisar a radiografia de tórax, o(a)participante deve comentar o achado.",
+   "peso": 2.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.75,
+    "adequado": 2.5
+   },
+   "integral": "verbaliza que tem um corpo estranho no esôfago, com aspecto de duplo halo, ou duplo contorno, ou bateria/pilha.",
+   "parcial": "verbaliza que tem um corpo estranho no esôfago, sem mencionar imagem duplo halo, ou duplo contorno, ou bateria/pilha.",
+   "inadequado": "não identifica corpo estranho ou não cita topografia correta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Sobre a condição / prognóstico da criança no momento.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "verbaliza que corre risco de complicações e/ou risco de morte se não adequadamente tratada.",
+   "parcial": null,
+   "inadequado": "não verbaliza sobre o risco de complicação OU que está grave / muito grave no momento da avaliação OU não verbaliza prognóstico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Conduta imediata. Encaminha a criança para serviço de endoscopia de EMERGÊNCIA OU urgência (a unidade não dispõe de endoscopia): a imagem é de duplo halo sugestiva de ingestão de bateria/pilha (do brinquedo) e corpo estranho no esfíncter esofagiano superior há menos de 2 horas.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 2.0
+   },
+   "integral": "indica endoscopia digestiva alta de EMERGÊNCIA OU urgência (ou a ser realizada no prazo máximo de 2 horas do evento ou a ser realizada imediatamente).",
+   "parcial": "indica endoscopia digestiva alta sem especificar que é um procedimento de EMERGÊNCIA OU urgência OU sem especificar que deverá ser realizada imediatamente OU sem especificar oprazo de realização.",
+   "inadequado": "não indica endoscopia digestiva alta.",
+   "evidencia": "OBSERVAÇÃO: em relação ao nome do exame indicado, poderá ser aceito como resposta: endoscopia, esofagogastroduodenoscopia e abreviação EDA.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Preparo para exame de urgência – Jejum.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "cita necessidade de jejum de água e alimento até ser encaminhado e justifica.",
+   "parcial": "cita necessidade de jejum de água e alimento até ser encaminhado e não justifica.",
+   "inadequado": "libera alimento e/ou água para a criança ou não menciona dieta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Cita as possíveis complicações: (1) perfuração esofágica; (2) mediastinite; (3) pneumonia por aspiração de secreção; (4) fístulas traqueoesofágica; (5) estenose esofágica (pós-cicatrização); (6) paralisia de prega vocal por lesão do nervo laríngeo recorrente; (7) pneumotórax; (8) fístula aortoentérica; (9) parada cardíaca; (10)Esofagite cáustica ou química; (11)Hemorragia digestiva; (12)óbito.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "cita pelo menos três complicações da lista.",
+   "parcial": "cita uma ou duas complicações da lista.",
+   "inadequado": "não cita complicação alguma ou cita complicação não listada.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Orienta atitudes da família para evitar novos acontecimentos: (1) respeitar faixa etária indicada de brinquedo para a idade da criança; (2) não deixar crianças pequenas sem supervisão na alimentação ou com brinquedos; (3) não deixar moedas, joias, agulhas e outros objetos pequenos ao alcance de crianças menores de 5 anos; (4) comprovar que os brinquedos não contenham peças que a criança possa destacar com as mãos ou dentes; (5) não deixar aparelhos elétricos ou que contenham pilhas ou baterias em forma de disco ao alcance de crianças pequenas; (6) ensinar às crianças que não devem colocar qualquer objeto na boca; (7) evitar que as crianças corram, riam ou chorem com alimento na boca.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "orienta pelo menos três atitudes da lista.",
+   "parcial": "orienta de uma a duas atitudes da lista.",
+   "inadequado": "não orienta atitude alguma listada.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

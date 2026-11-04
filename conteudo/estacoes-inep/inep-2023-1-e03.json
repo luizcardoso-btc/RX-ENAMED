@@ -1,0 +1,255 @@
+{
+ "id": "inep-2023-1-e03",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.1",
+  "estacao": 3,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Pediatria",
+ "especialidade": "Pediatria",
+ "tema": "Você se encontra em uma unidade básica de saúde e irá atender uma lactente de 3 meses e 20",
+ "titulo": "Você se encontra em uma unidade básica de saúde e irá atender uma lactente de 3 meses e 20",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Primária.",
+ "instrucoes": [
+  "Você se encontra em uma unidade básica de saúde e irá atender uma lactente de 3 meses e 20 dias de idade, trazida pelo pai para consulta de rotina.",
+  "A lactente não fazia o seguimento devido a problemas familiares e o pai deseja esclarecer dúvidas. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar a anamnese dirigida ao pai",
+  "verbalizar a interpretação do exame físico da criança (não será necessário examinar diretamente a bebê simulada), incluindo parâmetros antropométricos plotados nas curvas de crescimento e seus respectivos escores",
+  "explicar ao pai condição de saúde geral do bebê, quanto a crescimento, estado nutricional, alimentação, imunização e desenvolvimento neuropsicomotor",
+  "propor as condutas clínicas que julgar adequadas, como: ajustes de rotina, orientações vacinais e alimentares, entre outras."
+ ],
+ "historia": "A Estação 3 de Pediatria abordou o caso de um pai que leva Maria Clara, sua filha lactente de 3 meses e 20 dias de idade, para uma consulta de rotina em uma unidade básica de saúde. Devido a um câncer agressivo na mãe, a lactente ficou órfã há 15 dias e não fazia acompanhamento adequado.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": "3 meses",
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "ele se chama Francisco e tem 33 anos"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "a lactente se chama Maria Clara e tem 3 meses e 20 dias de vida"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "sua esposa, Lívia, faleceu há 15 dias devido a um câncer de mama agressivo descoberto após o início da gravidez"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos",
+    "resposta": "apesar do câncer, a gravidez transcorreu sem intercorrências, Lívia não teve infecções e tomou as vacinas e vitaminas adequadas"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "Maria Clara nasceu com 37 semanas por uma cesariana"
+   },
+   {
+    "topico": "Início e evolução (2)",
+    "resposta": "Maria Clara foi amamentada pela mãe até o 5º dia de vida, quando a mãe foi internada e iniciou a radioterapia na mama"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "após esse fato, uma vizinha passou a fornecer leite materno para a Maria Clara"
+   },
+   {
+    "topico": "Início e evolução (3)",
+    "resposta": "desde que a Maria Clara saiu do hospital ela não recebeu nenhuma vacina"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "ela dorme, urina e evacua muito bem, e nunca tomou remédio algum. O pai simulado"
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico da lactente",
+   "achado": " Peso: 6.900 g.\n Perímetro Cefálico: 40,5 cm.\n Comprimento: 61 cm.\n Bom estado geral, corada, hidratada, acianótica, anictérica, afebril.\n Aparelho respiratório: murmúrio vesicular presente bilateralmente sem ruídos\nadventícios e sem tiragens.\n Frequência Respiratória: 40 incursões respiratórias por minuto.\n Aparelho cardíaco: ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem\nsopros.\n Frequência Cardíaca: 118 batimentos por minuto; Pulsos cheios e simétricos.\n Abdome: globoso, ruídos hidroaéreos presentes, timpânico, normotenso, indolor à\npalpação, sem massas ou visceromegalias.\n Sistema nervoso: boa sustentação cefálica, fontanela anterior normotensa de\ntamanho adequado; movimentação ativa de membros superiores e inferiores;\nlateraliza, segura objetos levados até sua mão, leva objetos à boca, mantém contato\nvisual e apresenta sorriso social. Reflexos primitivos positivos adequados. Balbuciando\nregularmente.\n Pele: sem alterações.\n Genitália: típica feminina, sem alterações."
+  }
+ ],
+ "exames": [
+  {
+   "item": "Caderneta de saúde da criança",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2023-1-c03-p16.jpg"
+  },
+  {
+   "item": "Impresso com imagem",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2023-1-c03-p19.jpg"
+  },
+  {
+   "item": "Impresso com imagem",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2023-1-c03-p20.jpg"
+  }
+ ],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)identifica-se; (2)cumprimenta o pai de maneira adequada/cordial; (3)mantém contato visual; (4)pergunta o nome do pai; (5)pergunta o nome da criança.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza os cinco itens.",
+   "parcial": "realiza de dois a quatro itens.",
+   "inadequado": "realiza um item OU não realiza item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Questiona quanto à gestação / antecedentes gestacionais: (1)intercorrências no pré-natal; (2)idade gestacional; (3)condições perinatais; (4)via do parto.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "pergunta três OU quatro itens.",
+   "parcial": "pergunta pelo um ou dois itens.",
+   "inadequado": "não questiona item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Amamentação: (1)pergunta sobre amamentação; (2)contraindica aleitamento cruzado.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza os dois itens.",
+   "parcial": "realiza um item.",
+   "inadequado": "não realiza item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Confirma a contraindicação da amamentação durante radioterapia mamária.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "confirma a contraindicação.",
+   "parcial": null,
+   "inadequado": "não confirma a contraindicação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Plota nos gráficos de crescimento e verbaliza / responde perguntas do pai simulado: (1)crescimento adequado no escore Z 0; (2)perímetro cefálico adequado no escore Z 0; (3) estado nutricional adequado OU lactente eutrófica; OU peso adequado com escore no intervalo Z+1 e Z+2; OU índice de massa corpórea 18,5 kg/m2 - risco de sobrepeso - adequado.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "comunica corretamente os três itens, citando o escore Z para os três itens.",
+   "parcial": "comunica dois itens independentemente do escore Z OU comunica os três itens sem citar escore Z.",
+   "inadequado": "comunica apenas um item independentemente do escore Z OU não comunica item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Comenta o desenvolvimento neuropsicomotor.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "informa que está adequado para idade.",
+   "parcial": null,
+   "inadequado": "informa atraso no desenvolvimento.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Indica o uso de fórmula infantil (leite infantil até os 6 meses de idade).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "indica a fórmula infantil exclusiva OU indica a fórmula e água.",
+   "parcial": null,
+   "inadequado": "não indica fórmula OU indica a fórmula associada a outro alimento (ex. sucos, chás, frutas, papas, vitaminas etc).",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Vacinação: indica vacinações atrasadas. (1) Pentavalente. (2) VIP. (3) Pneumo 10. (4) Meningo C.",
+   "peso": 2.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.25,
+    "adequado": 2.5
+   },
+   "integral": "indica as quatro vacinas.",
+   "parcial": "indica duas OU três vacinas.",
+   "inadequado": "indica uma vacina OU indica vacina do rotavírus OU não indica vacina alguma.",
+   "evidencia": "OBSERVAÇÃO: Caso (o)a participante indique a vacina do rotavírus, AVALIAR COMO INADEQUADO.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Sugere ou indica: (1)apoio / acompanhamento psicológico ou em CAPS; (2)acompanhamento com assistência social ou em NASF.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "indica dois itens.",
+   "parcial": "indica um item.",
+   "inadequado": "não indica item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

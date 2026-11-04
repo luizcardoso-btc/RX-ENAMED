@@ -1,0 +1,237 @@
+{
+ "id": "inep-2023-1-e05",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.1",
+  "estacao": 5,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+ "especialidade": "Medicina de Família e Comunidade",
+ "tema": "Você recebe uma Agente Indígena de Saúde (AIS) que lhe informa a situação de fome e miséri",
+ "titulo": "Você recebe uma Agente Indígena de Saúde (AIS) que lhe informa a situação de fome e miséri",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Primária à Saúde. Sala de reunião de um Polo Base de um Distrito Sanitário Especial Indígena (DSEI).",
+ "instrucoes": [
+  "Você recebe uma Agente Indígena de Saúde (AIS) que lhe informa a situação de fome e miséria de uma população indígena residente no território adstrito ao Polo Base onde você atuará. A AIS atua, nesse Polo Base, há 15 anos, como liderança positiva e efetiva, desfrutando de ótima reputação perante a população indígena e a Equipe de Saúde da Família.",
+  "Você conduzirá a conversa com a AIS para compreender e diagnosticar o problema comunitário, focando na desnutrição grave nessa população indígena (veja foto afixada ao lado)."
+ ],
+ "tarefas": [
+  "demonstrar habilidades de comunicação e profissionalismo",
+  "identificar e citar QUATRO sinais físicos possíveis da desnutrição grave",
+  "identificar e citar CINCO impactos, a curto, médio ou longo prazos, da desnutrição grave dessa população indígena",
+  "associar e comentar CINCO Determinantes Sociais da Saúde relacionados ao problema da desnutrição grave nessa população indígena",
+  "explicar, brevemente, QUATRO ações, ferramentas ou estratégias do atributo de orientação comunitária na Atenção Primária à Saúde voltadas para a compreensão e/ou enfrentamento da desnutrição grave nessa população indígena."
+ ],
+ "historia": "● A Estação 5 de Medicina de Família e Comunidade abordou a orientação comunitária na Atenção Primária em Saúde (APS) com abordagem e ferramentas diversas é fundamental para o reconhecimento dos Determinantes Sociais de Saúde (DSS). Possibilita que as equipes trabalhem integralmente a saúde e realizem diagnósticos e planejamento de ações mais participativos e efetivos de abordagem voltadas a essa população.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "ela se chama Luana, tem 34 anos, e atua há 15 anos como Agente Indígena de Saúde no Polo Base, cobrindo uma pequena população indígena da área de abrangência"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "a população indígena da microárea está muito magra, fraca, triste e adoece com frequência, que estão sofrendo com a fome e com a miséria"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "ela aprendeu que os determinantes sociais da saúde (DSS) ajudam a explicar a razão dessa comunidade sofrer com desnutrição."
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "nos últimos anos aumentou a contaminação dos rios por mercúrio, que houve uma diminuição das árvores frutíferas, que a caça também piorou"
+   },
+   {
+    "topico": "Fatores de melhora e piora",
+    "resposta": "houve piora na violência contra mulheres e crianças indígenas; A agente indígena de saúde simulada"
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [],
+ "exames": [
+  {
+   "item": "Fotografia",
+   "resultado": "DIRIJA-SE À CÂMERA E CITE SOMENTE QUATRO SINAIS FÍSICOS\nPOSSÍVEIS DO QUADRO CLÍNICO DE DESNUTRIÇÃO GRAVE.\nATENÇÃO: SERÃO CONSIDERADOS APENAS OS QUATRO\nPRIMEIROS SINAIS FÍSICOS VERBALIZADOS.",
+   "imagem": "img/estacoes/inep-2023-1-c05-p26.jpg"
+  }
+ ],
+ "diagnostico": "Explica, brevemente, QUATRO (4) ações, ferramentas ou estratégias de abordagem comunitária visando-se compreender e/ou enfrentar a desnutrição grave nessa população indígena: 1) territorialização; 2) análise da situação; diagnóstico situacional (ex: entrevistas, rodas de conversa); 3) diagnóstico de saúde da comunidade; 4) planejamento de estratégias de abordagem comunitária; ações de intersetorialidade (ex: elaborar projetos para a secretaria municipal e instituições de ensino e pesquisa); 5) educação popular; educação em saúde; rodas de conversa; 6) abordagem comunitária em situações especiais; 7) visita e atenção domiciliar; 8) grupos operativos e educativos; 9) participação social/conselhos de saúde.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "ela se chama Luana, tem 34 anos, e atua há 15 anos como Agente Indígena de Saúde no Polo Base, cobrindo uma pequena população indígena da área de abrangência",
+  "a população indígena da microárea está muito magra, fraca, triste e adoece com frequência, que estão sofrendo com a fome e com a miséria",
+  "ela aprendeu que os determinantes sociais da saúde (DSS) ajudam a explicar a razão dessa comunidade sofrer com desnutrição.",
+  "nos últimos anos aumentou a contaminação dos rios por mercúrio, que houve uma diminuição das árvores frutíferas, que a caça também piorou",
+  "houve piora na violência contra mulheres e crianças indígenas; A agente indígena de saúde simulada, caso o(a) participante respondesse o questionamento de forma adequada, perguntaria ao(à) participante:",
+  "a partir de quantos sinais pode-se identificar a desnutrição",
+  "quais são os impactos da desnutrição grave, agora e no futuro de crianças, adolescentes, adultos e idosos",
+  "se os DSS ajudam a explicar a situação desse caso",
+  "quais DSS seriam associáveis a esse caso",
+  "como o(a) participante abordaria o problema que vem atingindo a comunidade",
+  "se o(a) participante pretenderia abordá-lo de forma individual, no consultório, ou a comunidade",
+  "quais ações, ferramentas ou estratégias podem ajudar a compreender e enfrentar a desnutrição grave nessa comunidade indígena. PADRÃO ESPERADO DE PROCEDIMENTO - DEFINITIVO"
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Primeiro contato: (1) cumprimenta a Agente Indígena de Saúde (AIS) simulada; (2) identifica-se; (3) dirige-se à AIS pelo nome, pelo menos uma vez; (4) pergunta sobre o motivo da reunião; (5) ouve com atenção, sem interromper o relato inicial.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as cinco ações.",
+   "parcial": "realiza três OU quatro ações.",
+   "inadequado": "realiza uma ou duas ações OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Postura: (1) mantém contato visual ao longo da reunião; (2) mantém postura ativa e interessada ao longo da reunião.",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.75
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": null,
+   "inadequado": "realiza uma ação OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Escuta ativa ao longo da consulta: (1) escuta a fala da AIS sem interrompê-la (sem interrompê-la recorrentemente OU sem interrompê-la mais de uma vez); (2) responde às perguntas usando linguagem acessível.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": null,
+   "inadequado": "realiza uma ação OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Competência Cultural: demonstra, por falas e gestos, atitudes culturalmente competentes (ex.: usa o termo “indígena”, e não, “índio”; respeita o estilo de vida, como vestimenta, hábito alimentar e de higiene pessoal/familiar/comunitário; evita termos que denotam preconceito ou condutas que aumentam as desigualdades étnico-raciais).",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.75
+   },
+   "integral": "demonstra.",
+   "parcial": null,
+   "inadequado": "não demonstra.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Trabalho em equipe: (1) demonstra respeito a AIS como profissional valiosa da equipe; (2) valoriza o convite dela para essa reunião; (3) coloca-se disponível para mais encontros com os demais profissionais da equipe.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.25
+   },
+   "integral": "realiza as três ações.",
+   "parcial": "realiza duas ações.",
+   "inadequado": "realiza uma ação OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Identifica e cita QUATRO sinais físicos possíveis da desnutrição grave. [tais como: magreza extrema, redução do panículo adiposo, hipotrofia muscular (especialmente em coxa e glúteos), redução da circunferência do braço, protrusão abdominal ou aumento de volume abdominal ou ascite ou hepatomegalia, fáscies apática, olhos encovados, sina da asa quebrada (atrofia bitemporal), perda da gordura de Bichat, aumento do pregueamento da pele, exposição do gradil costal, rarefação de cabelos e cílios, alterações de coloração do cabelo como sinal da bandeira pele ressecada, manchas na pele, icterícia, dermatoses, palidez cutânea e de mucosas, edema, manchas de Bitot (lesões de córnea indicativas de deficiência de vitamina A].",
+   "peso": 1.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.7,
+    "adequado": 1.25
+   },
+   "integral": "cita quatro sinais.",
+   "parcial": "cita três sinais.",
+   "inadequado": "cita dois sinais OU cita um sinal OU não cita sinal algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Identifica e cita CINCO impactos, a curto, médio ou longo prazos, da desnutrição grave nessa população indígena. (ex.: infecção, como otite, pneumonia, gripe, infecção urinária, de pele ou de repetição; diarreia; aumento da frequência de hospitalização; aumento do tempo de permanência hospitalar; aumento da taxa de readmissão hospitalar; aumento da mortalidade; baixa estatura; atraso na aprendizagem; atraso de desenvolvimento neuropsicomotor, hipovitaminoses, distúrbio hidroeletrolítico, hipotermia, hipoglicemia, anemia, parasito intestinal, piora no trabalho e na renda; êxodo; aumento do risco de extermínio ou genocídio dessa comunidade indígena).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "cita cinco impactos.",
+   "parcial": "cita quatro impactos.",
+   "inadequado": "cita três ou menos impactos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Associa CINCO Determinantes Sociais da Saúde (DSS) ao problema da desnutrição grave indígena: 1) falta de saneamento básico / falta de acesso à água potável / falta de sistema de esgoto e manejo de resíduos sólidos; 2) insegurança alimentar / alimentação inadequada ou insuficiente / fome / miséria; 3) baixo acesso a serviços de saúde; 4) choque cultural; 5) baixa renda / condições inadequadas de moradia; 6) insegurança e violência; 7) destruição ambiental com desmatamento, incêndios ou mineração ilegais/contaminação por mercúrio; 8) baixa escolarização formal; 9) racismo/desigualdade étnico-racial; 10)estilo de vida; 11)insuficiente implementação da política para os povos indígenas.",
+   "peso": 2.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.25,
+    "adequado": 2.5
+   },
+   "integral": "associa cinco ou mais DSS à desnutrição comunitária.",
+   "parcial": "associa quatro ou três DSS à desnutrição comunitária.",
+   "inadequado": "associa dois, um ou não associa os DSS à desnutrição comunitária.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Explica, brevemente, QUATRO (4) ações, ferramentas ou estratégias de abordagem comunitária visando-se compreender e/ou enfrentar a desnutrição grave nessa população indígena: 1) territorialização; 2) análise da situação; diagnóstico situacional (ex: entrevistas, rodas de conversa); 3) diagnóstico de saúde da comunidade; 4) planejamento de estratégias de abordagem comunitária; ações de intersetorialidade (ex: elaborar projetos para a secretaria municipal e instituições de ensino e pesquisa); 5) educação popular; educação em saúde; rodas de conversa; 6) abordagem comunitária em situações especiais; 7) visita e atenção domiciliar; 8) grupos operativos e educativos; 9) participação social/conselhos de saúde.",
+   "peso": 2.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.5,
+    "adequado": 2.5
+   },
+   "integral": "explica quatro ou mais ações, ferramentas ou estratégias de abordagem comunitária.",
+   "parcial": "explica três ações, ferramentas ou estratégias de abordagem comunitária.",
+   "inadequado": "explica duas, uma ou não explica ação, ferramenta ou estratégia de abordagem comunitária alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

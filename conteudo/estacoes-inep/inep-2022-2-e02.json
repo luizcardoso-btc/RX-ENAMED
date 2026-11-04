@@ -1,0 +1,261 @@
+{
+ "id": "inep-2022-2-e02",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.2",
+  "estacao": 2,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2022_2_.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Cirurgia",
+ "especialidade": "Cirurgia geral",
+ "tema": "Homem de 59 anos comparece à emergência abatido com quadro de sintomas urinários associado",
+ "titulo": "Homem de 59 anos comparece à emergência abatido com quadro de sintomas urinários associado",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Unidade de Atenção Secundária: Ambulatorial e Hospitalar. A unidade possui a seguinte infraestrutura:  setor de radiologia convencional e ultrassonografia;  laboratório de análises clínicas e banco de sangue;  leitos de internação e centro cirúrgico.",
+ "instrucoes": [
+  "Homem de 59 anos comparece à emergência abatido com quadro de sintomas urinários associados a febre. Informa que trouxe exames realizados há seis meses. ATENÇÃO: O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO. Nos próximos 10 minutos",
+  "ATENÇÃO: O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO. Nos próximos 10 minutos, você deverá executar as tarefas a seguir: 1. realizar anamnese do paciente.",
+  "ATENÇÃO: VOCÊ DEVERÁ, OBRIGATORIAMENTE, REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA."
+ ],
+ "tarefas": [
+  "realizar anamnese do paciente.",
+  "solicitar e interpretar os achados dos exames laboratoriais relacionados à hipótese diagnóstica (no máximo QUATRO exames).",
+  "solicitar e interpretar exame de imagem mais pertinente à hipótese diagnóstica.",
+  "orientar o paciente simulado sobre a conduta terapêutica indicada na fase inicial e no seguimento ambulatorial."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [
+  {
+   "item": "Impresso com imagem",
+   "resultado": "IMPRESSO 5 ULTRASSONOGRAFIA DE PRÓSTATA PRÓSTATA PESANDO 68 g, BEXIGA LEVEMENTE ESPESSADA. (Valor de Referência < 30 g) ATENÇÃO: DIRIJA-SE À CÂMERA E VERBALIZE OS ACHADOS TÉCNICOS DO EXAME",
+   "imagem": "img/estacoes/inep-2022-2-c02-p11.jpg"
+  }
+ ],
+ "diagnostico": "Formula a hipótese diagnóstica atual de prostatite aguda e/ou hiperplasia prostática benigna",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1) identifica-se e (2) cumprimenta o paciente simulado.",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.3
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": null,
+   "inadequado": "realiza uma ou não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre características da dor: (1) tempo de início, (2) localização, (3) progressão, (4) fatores de melhora ou piora.",
+   "peso": 0.6,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.3,
+    "adequado": 0.6
+   },
+   "integral": "pergunta sobre os quatro itens.",
+   "parcial": "pergunta sobre dois ou três itens.",
+   "inadequado": "pergunta sobre um ou nenhum item.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre sintomas urinários: (1) frequência, (2) urgência e/ou incontinência urinária, (3) hematúria, (4) noctúria, (5) jato fraco, (6) jato interrompido, (7) sensação de urina residual, (8) odor da urina, (9) Esforço/hesitação miccional inicial, (10) disúria, (11) Gotejamento terminal",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "pergunta pelo menos sobre seis itens.",
+   "parcial": "pergunta sobre quatro ou cinco itens.",
+   "inadequado": "pergunta sobre três itens ou menos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre: (1) histórico pessoal e (2) histórico familiar de doenças.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.2,
+    "adequado": 0.4
+   },
+   "integral": "pergunta sobre os dois itens.",
+   "parcial": "pergunta sobre um dos itens.",
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita: (1) exame físico; (2) toque retal.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "solicita os dois itens.",
+   "parcial": "solicita um item.",
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita exames laboratoriais: (1) hemograma, (2) PCR, (3) PSA, (4) exame de urina (ou urina 1 ou sumário de urina ou parcial de urina), (5) urocultura.",
+   "peso": 0.6,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.3,
+    "adequado": 0.6
+   },
+   "integral": "solicita os quatro itens.",
+   "parcial": "solicita, pelo menos, PSA e exame de urina.",
+   "inadequado": "não solicita exame de urina e/ou PSA. Atenção: O(A) participante só irá pontuar caso cite os quatro exames corretamente antes de receber o impresso.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Interpreta os exames laboratoriais: (1) HMG com leucocitose, (2) PCR aumentado, (3) hematopiúria, (4) PSA aumentado.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "interpreta os quatro itens.",
+   "parcial": "interpreta alteração nos itens (3) e (4).",
+   "inadequado": "não interpreta os itens (3) e/ou (4).",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Solicita exame de imagem: ultrassom OU ultrassonografia OU ecografia de aparelho urinário E/OU de próstata.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Formula a hipótese diagnóstica atual de prostatite aguda e/ou hiperplasia prostática benigna",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "formula a hipótese de prostatite aguda e/ou hiperplasia prostática benigna",
+   "parcial": "formula somente a hipótese de hiperplasia prostática benigna",
+   "inadequado": "não formula.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Correlaciona o aumento da próstata no USG com a prostatite e HPB.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "correlaciona os dois diagnósticos.",
+   "parcial": "correlaciona apenas um diagnóstico.",
+   "inadequado": "não correlaciona nenhum dos diagnósticos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Indica tratamento: antibiótico ciprofloxacino ou levofloxacino",
+   "peso": 0.7,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.7
+   },
+   "integral": "orienta o tratamento",
+   "parcial": null,
+   "inadequado": "não orienta o tratamento 4",
+   "evidencia": "12. Explica o comportamento do PSA: (1) na hiperplasia benigna, o crescimento do PSA é proporcional ao tamanho da próstata; (2) no câncer, o aumento é progressivo e lento; (3) na prostatite, o aumento é rápido e abaixa ANULADO (a pontuação correspondente será após o tratamento. atribuída a todos os participantes) Adequado: explica as três condições. Parcialmente adequado: explica uma ou duas das condições acima. Inadequado: não explica nenhuma das três condições.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Orienta o monitoramento do PSA após o tratamento inicial.",
+   "peso": 0.6,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.6
+   },
+   "integral": "orienta.",
+   "parcial": null,
+   "inadequado": "não orienta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c14",
+   "descricao": "Realiza a sequência das tarefas indicadas nas orientações ao(à) participante.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "realiza.",
+   "parcial": null,
+   "inadequado": "não realiza. 5",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "critérios somam 8.8",
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

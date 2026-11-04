@@ -1,0 +1,328 @@
+{
+ "id": "inep-2025-2-e09",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2025.2",
+  "estacao": 9,
+  "documento": "Padrão Esperado de Procedimentos (preliminar)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2025_2_pep_premilminar.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2025_2_prova_habilidades_clinicas.pdf",
+  "situacao": "preliminar"
+ },
+ "area": "Ginecologia e Obstetrícia",
+ "especialidade": "Ginecologia e Obstetrícia",
+ "tema": "Você está atuando em uma UBS e atenderá uma mulher jovem que comparece a uma consulta elet",
+ "titulo": "Você está atuando em uma UBS e atenderá uma mulher jovem que comparece a uma consulta elet",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: primária. Tipo de atendimento: ambulatorial na Unidade Básica de Saúde (UBS). A unidade possui a seguinte infraestrutura: ● consultório ginecológico.",
+ "instrucoes": [
+  "Você está atuando em uma UBS e atenderá uma mulher jovem que comparece a uma consulta eletiva na Unidade Básica de Saúde.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE. A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar anamnese",
+  "verbalizar, nominalmente, os dados que deseja obter do exame físico, caso solicite",
+  "solicitar exames complementares pertinentes ao caso",
+  "apresentar hipóteses diagnósticas à paciente."
+ ],
+ "historia": "A Estação 9 de Ginecologia e Obstetrícia aborda o caso de uma mulher de 32 anos, com queixa de atraso menstrual. Trata-se de paciente sem doenças prévias, com ciclo menstrual irregular, que apresenta aumento de pelos no corpo e que está em tentativa de engravidar há 2 anos.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "tem 32 anos, é casada e trabalha como vendedora"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos",
+    "resposta": "sua menstruação está muito atrasada e o teste de gravidez (BHCG) deu negativo"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "já faz 4 meses desde sua última menstruação"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos (2)",
+    "resposta": "o fluxo da última menstruação durou uns 6 dias"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "o fluxo foi intenso, pois precisou trocar vários absorventes por dia"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos (3)",
+    "resposta": "o intervalo entre as menstruações costuma ser de 1 mês e meio"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "a duração do fluxo antes era de 4 dias, mas tem aumentado, chegando a durar até 1 semana"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "o volume era normal, moderado, mas vem aumentando e, nas últimas vezes, foi exagerado"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos (4)",
+    "resposta": "não tem cólicas menstruais"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "teve a menarca aos 11 anos"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "nunca engravidou"
+   },
+   {
+    "topico": "Início e evolução (2)",
+    "resposta": "está tentando engravidar há 2 anos"
+   },
+   {
+    "topico": "Início e evolução (3)",
+    "resposta": "usou pílula desde os 16 anos, mas parou há 2 anos para tentar engravidar"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "nega doenças pregressas"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (2)",
+    "resposta": "sua mãe tem diabete e pressão alta"
+   },
+   {
+    "topico": "Fatores de melhora e piora",
+    "resposta": "revela que está com o corpo muito peludo e que isso está piorando no último ano."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "Altura: 1,58 m.\nPeso: 84 kg.\nIMC: 33,6 kg/m2.\nPressão arterial: 120 x 70 mmHg.\nCircunferência de cintura: 90 cm.\nÍndice de Ferrimann: 14.\nAusência de estrias abdominais.\nMamas simétricas, sem alterações à palpação. Ausência de galactorreia.\nInspeção da vulva sem alterações. Clitóris de tamanho normal.\nAo toque vaginal, útero em AVF com tamanho, consistência e mobilidade normais.\nAnexos livres.",
+   "imagem": "img/estacoes/inep-2025-2-c09-p35.jpg",
+   "chaves": [
+    "que será entregue pelo chefe de estação após o participante listar as informações que deseja obter do exame físico"
+   ]
+  }
+ ],
+ "exames": [],
+ "diagnostico": "Verbaliza a hipótese diagnóstica: Amenorreia secundária ou síndrome de anovulação crônica ou síndrome dos ovários policísticos ou tumores produtores de androgênios ou hiperandrogenismo.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "apresentar-se e perguntar o nome da paciente",
+  "realizar a anamnese detalhada",
+  "solicitar e interpretar corretamente informações do exame físico; 1",
+  "solicitar exames complementares pertinentes ao caso",
+  "com relação ao item 11 do PEP, no que tange aos exames complementares listados, deve- se solicitar b-hCG sérico porque a paciente não traz o exame de gravidez que realizou, então persiste a suspeita de gestação, uma vez que a paciente está tentando engravidar. TSH, prolactina, 17OH-progesterona e FSH estão incluídos no diagnóstico diferencial e são necessários para excluir outras causas de amenorreia e de hiperandrogenismo. Testosterona total e DHEA-S visam a excluir tumores produtores de androgênios, visto que a evolução do hirsutismo foi relativamente rápida. Ultrassonografia endovaginal não é necessária para o diagnóstico da síndrome dos ovários policísticos neste caso — posto que a paciente já tem oligo-amenorreia e hiperandrogenismo clínico — mas é necessária para avaliar o sangramento uterino anormal, assim como o hemograma. O teste de tolerância à glicose oral é indicado para o rastreamento de intolerância à glicose e diabetes, considerando que a paciente tem obesidade central, hiperandrogenismo, acantose nigricans e história familiar de diabetes",
+  "formular hipóteses diagnósticas condizentes com os achados (amenorreia secundária ou síndrome de anovulação crônica ou síndrome dos ovários policísticos ou tumores produtores de androgênios ou hiperandrogenismo)."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)identifica-se; (2)pergunta o nome da paciente.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.2
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta a idade da paciente:",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.2
+   },
+   "integral": "pergunta a idade.",
+   "parcial": null,
+   "inadequado": "não pergunta a idade.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta o motivo da consulta:",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.3
+   },
+   "integral": "pergunta o motivo.",
+   "parcial": null,
+   "inadequado": "não pergunta o motivo.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta a data da última menstruação:",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.3
+   },
+   "integral": "pergunta a data.",
+   "parcial": null,
+   "inadequado": "não pergunta a data.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Investiga características do ciclo menstrual da paciente: (1)intervalo entre as menstruações; (2)duração do fluxo; (3)intensidade do fluxo; (4)presença de cólicas; (5)presença de sintomas pré-menstruais; (6)idade da menarca; (7)alterações recentes no padrão do ciclo.",
+   "peso": 1.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.6,
+    "adequado": 1.2
+   },
+   "integral": "pergunta, ao menos, sobre cinco características.",
+   "parcial": "pergunta apenas sobre quatro características.",
+   "inadequado": "pergunta sobre três ou menos características.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Questiona sobre história reprodutiva (ex.: gestações, partos e abortos):",
+   "peso": 0.6,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.6
+   },
+   "integral": "questiona.",
+   "parcial": null,
+   "inadequado": "não questiona.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Pergunta sobre planejamento familiar: (1)método contraceptivo atual; (2)intenção de engravidar.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "faz as duas perguntas.",
+   "parcial": "faz apenas uma pergunta.",
+   "inadequado": "não faz pergunta alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Pergunta sobre doenças prévias da paciente: Adequada: pergunta.",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.3
+   },
+   "integral": "",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Pergunta sobre história familiar:",
+   "peso": 0.6,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.6
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Solicita as seguintes informações acerca do exame físico: (1)peso e altura ou IMC; (2)pressão arterial; (3)circunferência da cintura; (4)pelos corporais; (5)acantose nigricans; (6)exame das mamas; (7)inspeção da vulva e clitóris; (8)toque vaginal e exame pélvico.",
+   "peso": 1.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.9,
+    "adequado": 1.8
+   },
+   "integral": "solicita, ao menos, cinco itens.",
+   "parcial": "solicita apenas quatro itens.",
+   "inadequado": "solicita apenas três itens ou menos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Solicita os seguintes exames complementares: (1)beta-hCG sérico; (2)TSH; (3)prolactina; (4)FSH; (5)17-OH progesterona; (6)testosterona total; (7)ultrassonografia transvaginal; (8)sulfato de deidroepiandrosterona (DHEA-S); (9)hemograma; (10)teste de tolerância à glicose oral.",
+   "peso": 1.6,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.8,
+    "adequado": 1.6
+   },
+   "integral": "solicita, ao menos, cinco itens.",
+   "parcial": "solicita apenas quatro itens.",
+   "inadequado": "solicita apenas três ou menos itens. (Nota 1)",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Verbaliza a hipótese diagnóstica: Amenorreia secundária ou síndrome de anovulação crônica ou síndrome dos ovários policísticos ou tumores produtores de androgênios ou hiperandrogenismo.",
+   "peso": 2.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 2.4
+   },
+   "integral": "verbaliza.",
+   "parcial": null,
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "da Saúde, 2016. pp. 27-32.",
+  "2. Rosa-e-Silva AC, Damásio LC. Conceito, epidemiologia e fisiopatologia aplicada à prática clínica. In: Síndrome dos ovários policísticos. 3.a ed. São Paulo: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO); 2023. Cap. 1. p. 1-19. (Série Orientações e Recomendações FEBRASGO, n. 1, Comissão Nacional de Ginecologia Endócrina).",
+  "3. Silva-de-Sá MF. Amenorreia Secundária. In: Benetti-Pinto CL, Fernandes CE, Silva-Filho AL. Hormônios em Ginecologia. Barueri: Manole, 2024.",
+  "O desempenho do participante ao longo da estação foi avaliado e pontuado a partir do seguinte PADRÃO ESPERADO DE PROCEDIMENTO (PEP)."
+ ],
+ "pendencias": []
+}

@@ -1,0 +1,389 @@
+{
+ "id": "inep-2025-2-e04",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2025.2",
+  "estacao": 4,
+  "documento": "Padrão Esperado de Procedimentos (preliminar)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2025_2_pep_premilminar.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2025_2_prova_habilidades_clinicas.pdf",
+  "situacao": "preliminar"
+ },
+ "area": "Ginecologia e Obstetrícia",
+ "especialidade": "Ginecologia e Obstetrícia",
+ "tema": "Você está atuando em uma Unidade Básica de Saúde (UBS) e atenderá uma mulher de 26 anos, G",
+ "titulo": "Você está atuando em uma Unidade Básica de Saúde (UBS) e atenderá uma mulher de 26 anos, G",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: primária. Tipo de atendimento: ambulatorial. A unidade apresenta a seguinte infraestrutura: ● consultório.",
+ "instrucoes": [
+  "Você está atuando em uma Unidade Básica de Saúde (UBS) e atenderá uma mulher de 26 anos, G1P0, com 10 semanas de gestação, que comparece à consulta para mostrar o resultado de exames solicitados por outro médico há 3 dias.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE. A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar anamnese direcionada à queixa da paciente",
+  "solicitar exame físico direcionado à queixa da paciente",
+  "formular e verbalizar a principal hipótese diagnóstica",
+  "indicar conduta terapêutica inicial",
+  "preencher o documento adequado, quando pertinente ao caso",
+  "orientar a paciente quanto a riscos, tratamento e sinais de alerta",
+  "orientar acompanhamento clínico da paciente."
+ ],
+ "historia": "A Estação 4 de Ginecologia e Obstetrícia aborda o caso de uma paciente primigesta, com gestação de 10 semanas, que compareceu à consulta para mostrar o resultado de exames solicitados por outro médico há 3 dias. Na ocasião, a paciente havia procurado atendimento de urgência por dor abdominal baixa, e haviam sido solicitados exames de urina. OBJETIVOS DE AVALIAÇÃO",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": "26 anos",
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "seu nome é Isaura, tem 26 anos, é casada e trabalha como operadora de caixa de supermercado"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "compareceu à consulta para mostrar o resultado de um exame de urina solicitado por outro médico"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "está preocupada com o resultado do exame, pois está grávida de 10 semanas"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "sente dor na parte inferior da barriga há cerca de 4 dias — uma dor leve, sem irradiação, de frequência diária, sem fator de melhora, sem despertar noturno"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "sente dor ao urinar há 4 dias"
+   },
+   {
+    "topico": "Início e evolução (2)",
+    "resposta": "está com dificuldade para urinar há 4 dias"
+   },
+   {
+    "topico": "Início e evolução (3)",
+    "resposta": "sente ardência ao urinar há 4 dias"
+   },
+   {
+    "topico": "Início e evolução (4)",
+    "resposta": "notou aumento da frequência urinária há 3 três dias"
+   },
+   {
+    "topico": "Sintomas associados (2)",
+    "resposta": "está perdendo urina"
+   },
+   {
+    "topico": "Características do quadro (2)",
+    "resposta": "não teve dor nas costas"
+   },
+   {
+    "topico": "Sintomas associados (3)",
+    "resposta": "notou cheiro forte na urina"
+   },
+   {
+    "topico": "Sintomas associados (4)",
+    "resposta": "notou que a urina está um pouco turva"
+   },
+   {
+    "topico": "Sintomas associados (5)",
+    "resposta": "não tem febre há muito tempo"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "é muito saudável e nunca teve esses sintomas antes"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "quase não bebe água"
+   },
+   {
+    "topico": "Sintomas associados (6)",
+    "resposta": "tem o hábito de segurar urina por muito tempo"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "marcou consulta para pré-natal para a próxima semana"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "não tem alergia a nenhum medicamento."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico geral",
+   "achado": "Paciente em bom estado geral, consciente, orientada, comunicativa, corada, hidratada,\nafebril.\nSINAIS VITAIS\nPressão arterial: 110 mmHg x 70 mmHg.\nFrequência cardíaca: 80 batimentos por minuto.\nFrequência respiratória: 16 incursões respiratórias por minuto.\nTemperatura axilar: 36,6 °C.\nExtremidades: sem edemas; pulsos periféricos presentes.\nAbdome:\n• plano, flácido;\n• ruídos hidroaéreos presentes;\n• sensibilidade leve à palpação em região suprapúbica;\n• sem dor à descompressão brusca;\n• útero não palpável ao exame abdominal.\nPunho-percussão lombar (Giordano): negativa bilateralmente.\nAparelho geniturinário: sem corrimento vaginal ou sangramento ativo à inspeção externa.\nExame ginecológico: sem alterações.\nIMIMPPRREESSSSOO— –E XEAXMAESM DEE USR DINEA URINA\nNome: Isaura Martins\nIdade: 26 anos\nEXAME: SUMÁRIO DE URINA (EAS) Valor de referência\nAspecto .................................................................. turvo límpido\nCor ................................................................... amarelo amarelo ou amarelo citrino\nDensidade ............................................................ 1.020 1.002 – 1.030\npH ..............................................................................6,0 5 – 7\nELEMENTOS ANORMAIS\nLeucócitos ................................. 30 – 40 por campo (↑) < 5 leucócitos/campo\nHemácias ............................................. 5 – 8 por campo negativo\nCélulas epiteliais ................................................. poucas ausentes\nFlora bacteriana ........................................... aumentada ausentes\nMuco .......................................................... presente (+) ausente\nTestes químicos\nNitrito ................................................................ positivo negativo\nEsterase leucocitária ......................................... positiva negativo\nEXAME: GRAM DE GOTA (URINA)\n Presença de bacilos Gram-negativos em grande quantidade\n Leucócitos abundantes\n Ausência de cocos Gram-positivos\nEXAME: UROCULTURA\n Crescimento bacteriano: Positivo\n Micro-organismo isolado: Escherichia coli\n Contagem: > 100.000 UFC/mL\n Valor de referência: negativo (ausência de crescimento de bactérias)\nANTIBIOGRAMA\nAntibiótico Resultado\nNitrofurantoína sensível\nCefalexina sensível\nAmoxicilina + clavulanato sensível\nFosfomicina resistente\nCiprofloxacino sensível\nNorfloxacino resistente\nTrimetoprim-sulfametoxazol resistente",
+   "chaves": [
+    "exame físico geral",
+    "que será entregue pelo chefe de estação se o participante verbalizar que realizará exame físico"
+   ]
+  }
+ ],
+ "exames": [
+  {
+   "item": "Receituário",
+   "resultado": "Coordenação nº 999999 ESTAÇÃO 4 - MÓDULO\nLocal:Xxxxxxxxxxxx",
+   "chaves": [
+    "que será entregue pelo chefe de estação o participante indique um tratamento medicamentoso"
+   ]
+  },
+  {
+   "item": "Receituário a b c d",
+   "resultado": "Cidade/UF:Xxxxxxxxxxxx/XX E F G H\nPREENCHA O SEU NOME E CPF DE MODO LEGÍVEL, EM LETRA DE FORMA. PREENCHA ESTE DOCUMENTO COM\nLETRA LEGÍVEL, INFORMANDO NOME DA DROGA (MEDICAÇÃO), DOSE, POSOLOGIA E TEMPO DE TRATAMENTO.\nAO CONCLUIR, LEIA EM VOZ ALTA O QUE ESCREVEU. LEVANTE O DOCUMENTO NA VERTICAL E MOSTRE-O PARA\nO CÂMERA 1.\nAGUARDE O “OK” DO CÂMERA E DEVOLVA O IMPRESSO AO CHEFE DE ESTAÇÃO.\nNome do Participante: Número do CPF:\nRECEITUÁRIO\nNOME DA PACIENTE: ISAURA MARTINS\nIDADE: 26 ANOS\n________________________________________________ _____________ mg ,\nTomar 1 comprimido via oral de __________ em __________ horas por _________ dias.\nObservação: tomar sempre nos mesmos horários.\nAssinado e carimbado digitalmente.\nData: 16 de maio de 2026.\nEndereço da paciente: Rua das Gaivotas, nº 3.\nEndereço do consultório: Rua Azul, nº 7.\nAPÓS DEVOLVER O RECEITUÁRIO, CASO NECESSÁRIO, RETOME A INTERAÇÃO COM A PACIENTE.\n2012000001234567"
+  }
+ ],
+ "diagnostico": "Formula a hipótese diagnóstica: cistite ou infecção urinária ou infecção urinária baixa.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "apresentar-se adequadamente à paciente, perguntando seus dados pessoais",
+  "realizar anamnese direcionada à queixa da paciente, perguntando sobre sintomas específicos (dor ao urinar; ardência ao urinar; dificuldade para urinar; dor em baixo ventre; aumento da frequência urinária; febre; dor lombar ou dor nas costas; sensação de perda de urina; alteração do cheiro da urina; mudança na cor da urina)",
+  "investigar antecedentes de infecção do trato urinário (ITU)",
+  "perguntar se a paciente possui alergias medicamentosas",
+  "investigar fatores comportamentais associados à infecção urinária (hidratação e hábito miccional)",
+  "solicitar exame físico",
+  "verbalizar a hipótese diagnóstica adequada (cistite ou infecção urinária ou infecção urinária baixa)",
+  "indicar conduta terapêutica medicamentosa (cefalexina ou amoxicilina + clavulanato ou nitrofurantoína)",
+  "preencher adequadamente o receituário impresso, indicando nome da medicação, dose da medicação, posologia e tempo de tratamento",
+  "mencionar complicações associadas às cistites (pielonefrite; nascimento prematuro; rotura prematura de membranas; pré-eclâmpsia; baixo peso ao nascer; aumento da mortalidade perinatal)",
+  "abordar a segurança do tratamento (explicar que a infecção deve ser tratada na gestação e que o antibiótico é seguro durante o período gestacional)",
+  "orientar adequadamente a paciente sobre medidas preventivas e para evitar recidivas (fazer ingestão adequada de líquidos; não reter urina)",
+  "abordar o reconhecimento de sinais de alerta (febre; dor lombar; náuseas e/ou vômitos; piora dos sintomas urinários)",
+  "fornecer orientações sobre acompanhamento no pré-natal após infecção urinária (controle pós-tratamento; adesão ao pré-natal)."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)identifica-se; (2)cumprimenta a paciente simulada, perguntando dados pessoais.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.2
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza nenhuma das ações.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Realiza anamnese, perguntando sobre os seguintes sintomas: (1)dor ao urinar; (2)ardência ao urinar; (3)dificuldade para urinar; (4)dor em baixo ventre; (5)aumento da frequência urinária; (6)febre; (7)dor lombar ou dor nas costas; (8)sensação de perda de urina; (9)alteração do cheiro da urina; (10)mudança na cor da urina.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "pergunta sobre cinco ou mais sintomas, incluindo (6) e (7).",
+   "parcial": "pergunta sobre até cinco sintomas, mas não pergunta sobre (6) e (7).",
+   "inadequado": "não pergunta sobre nenhum sintoma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Investiga antecedentes de ITU:",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.8
+   },
+   "integral": "investiga.",
+   "parcial": null,
+   "inadequado": "não investiga.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre alergias medicamentosas:",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.8
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Investiga fatores comportamentais associados à infecção urinária: (1)ingestão diária de líquidos; (2)frequência de micção / retenção urinária.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "investiga ambos os itens.",
+   "parcial": "investiga apenas um dos itens.",
+   "inadequado": "não investiga nenhum dos itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita exame físico:",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.3
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Formula a hipótese diagnóstica: cistite ou infecção urinária ou infecção urinária baixa.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "formula corretamente a hipótese diagnóstica.",
+   "parcial": null,
+   "inadequado": "não formula corretamente a hipótese diagnóstica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Indica conduta terapêutica medicamentosa: cefalexina ou amoxicilina + clavulanato ou nitrofurantoína.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica cefalexina ou amoxicilina + clavulanato ou nitrofurantoína.",
+   "parcial": null,
+   "inadequado": "não indica nenhuma dessas opções.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Preenche adequadamente, em língua portuguesa, receituário impresso, indicando corretamente os seguintes itens: (1)nome da medicação; (2)dose da medicação; (3)posologia; (4)tempo de tratamento (quantos dias).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "preenche com os quatro itens.",
+   "parcial": "preenche apenas com três itens.",
+   "inadequado": "não preenche ou preenche apenas com dois ou menos itens. GABARITOS: Opção 1: Cefalexina 500mg Tomar 1 comprimido, via oral, 6/6h por 7 dias. Opção 2: Amoxicilina 500mg + Clavulanato 125mg Tomar 1 comprimido, via oral, 8/8h por 7 dias. Opção 3: Nitrofurantoína 100mg Tomar 1 comprimido, via oral, 6/6h por 7 dias.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Verbaliza o que escreveu no IMPRESSO — RECEITUÁRIO:",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.2
+   },
+   "integral": "verbaliza com clareza.",
+   "parcial": null,
+   "inadequado": "não verbaliza ou verbaliza sem clareza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Menciona complicações associadas às cistites e aborda a segurança do tratamento: (1)importância do tratamento: explica que a infecção deve ser tratada na gestação; (2) riscos da não adesão: menciona pelo menos duas complicações — (a) pielonefrite; (b) nascimento prematuro; (c) rotura prematura de membranas; (d) pré-eclâmpsia; (e) baixo peso ao nascer; (f) aumento da mortalidade perinatal. (3) segurança do medicamento: informa que o antibiótico é seguro na gestação.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "atende ao descrito nos itens (1), (2) e (3).",
+   "parcial": "atende ao descrito em apenas um ou dois itens.",
+   "inadequado": "não atende ao descrito em nenhum dos itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Orienta adequadamente a paciente sobre medidas preventivas e para evitar recidivas: (1)fazer ingestão adequada de líquidos; (2)não reter urina.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "fornece as duas orientações.",
+   "parcial": "fornece apenas uma orientação.",
+   "inadequado": "não fornece orientação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Aborda o reconhecimento de sinais de alerta: (1)febre; (2)dor lombar; (3)náuseas e/ou vômitos; (4)piora dos sintomas urinários.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "aborda três ou quatro sinais de alerta.",
+   "parcial": "aborda apenas um ou dois sinais de alerta.",
+   "inadequado": "não aborda nenhum sinal de alerta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c14",
+   "descricao": "Fornece orientações sobre acompanhamento no pré-natal após infecção urinária: (1)urocultura de controle após o término do tratamento; (2)importância do comparecimento regular às consultas de pré- natal.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "aborda os dois itens.",
+   "parcial": "aborda apenas um item.",
+   "inadequado": "não aborda item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "2. Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Infecções do trato urinário durante a gravidez. São Paulo: FEBRASGO; 2021. (Protocolo FEBRASGO Obstetrícia, n. 43/ Comissão Nacional Especializada em Gestação de Alto Risco).",
+  "Programáticas. Manual de gestação de alto risco [recurso eletrônico]. Brasília (DF): 4. Souza RT. Infecção urinária [¬owchart]. São Paulo: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO); 2023. [Comissão Nacional Especializada em Gestação de Alto Risco] - https://www.febrasgo.org.br/fluxopdf/assets/pdf/Infeccao- urinaria.pdf O desempenho do participante ao longo da estação foi avaliado e pontuado a partir do seguinte PADRÃO ESPERADO DE PROCEDIMENTO (PEP)."
+ ],
+ "pendencias": []
+}

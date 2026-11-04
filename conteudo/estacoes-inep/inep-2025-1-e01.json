@@ -1,0 +1,301 @@
+{
+ "id": "inep-2025-1-e01",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2025.1",
+  "estacao": 1,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2025_1_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2025_1_prova_habilidades_clinicas.pdf.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Clínica Médica",
+ "especialidade": "Clínica Médica",
+ "tema": "Dor lombar",
+ "titulo": "Dor lombar",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: primária. Tipo de atendimento: ambulatorial. A unidade possui a seguinte infraestrutura: ● consultório (sala de atendimento simulado); ● laboratório de análises clínicas; ● setor de radiologia com aparelho de radiografia.",
+ "instrucoes": [
+  "Você é um médico atuando em uma unidade básica de saúde da família (UBSF) e atenderá um paciente de 36 anos com queixa de dor lombar.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar anamnese direcionada à queixa principal do paciente",
+  "solicitar exame físico direcionado à queixa principal do paciente",
+  "solicitar exames complementares pertinentes ao caso",
+  "formular e verbalizar a principal hipótese diagnóstica, correlacionando-a aos resultados dos exames complementares",
+  "orientar medidas terapêuticas iniciais (farmacológicas e não farmacológicas) e acompanhamento clínico."
+ ],
+ "historia": "A Estação 1 de Clínica Médica aborda o caso de um homem de 36 anos com queixa de dor lombar de média intensidade, sem irradiação para os membros inferiores. Trata-se de indivíduo sem história prévia de trauma ou prática de atividade física extenuante. A dor teve início insidioso há 5 meses, caracterizando-se como crônica. Tem frequência diária e se intensifica com o repouso, especialmente à noite, sendo acompanhada de rigidez matinal. A dor melhora ao longo do dia com movimentação ou prática de atividade física.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": "36 anos",
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "tem 36 anos, é casado e trabalha como segurança de shopping center"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "sente dor na lombar de intensidade média, todos os dias, sem irradiação, sem inchaço nem alteração de cor ou temperatura na região, com início lento e gradual há 5 meses"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "sente piora da dor ao repouso, especialmente à noite, o que o faz acordar de madrugada"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "sente dificuldade de se movimentar pela manhã (sensação de coluna travada)"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "tem sentido cansaço/fadiga, mas não teve febre"
+   },
+   {
+    "topico": "Características do quadro (2)",
+    "resposta": "tem sentido dor nos joelhos e nas solas dos pés"
+   },
+   {
+    "topico": "Características do quadro (3)",
+    "resposta": "sente melhora da dor ao longo do dia, com movimentação e atividade física"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "não pratica atividade física regularmente"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "não tem histórico de queda ou lesões"
+   },
+   {
+    "topico": "Características do quadro (4)",
+    "resposta": "faz uso de dipiriona com frequência para alívio da dor."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico geral",
+   "achado": "Paciente em bom estado geral, afebril, acianótico, anictérico e hidratado; alerta, orientado\nno tempo e espaço. Em posição antálgica durante a maior parte do exame, apoiando a mão\nna região lombar.\nSINAIS VITAIS\nFrequência cardíaca: 95 batimentos por minuto.\nPressão arterial: 130 mmHg x 85 mmHg.\nFrequência respiratória: 16 incursões respiratórias por minuto.\nTemperatura axilar: 36,3 °C.\nSaturação de O₂: 99% de oxigênio em ar ambiente.\nIMC: 22 kg/m2.\nAparelhos respiratório, cardiovascular e digestório: sem alterações.",
+   "chaves": [
+    "exame físico geral"
+   ]
+  },
+  {
+   "item": "Exame físico do aparelho locomotor",
+   "achado": "Teste de Schober: positivo (variação de 3 cm na flexão máxima).\nTeste de Patrick (Faber): dentro da normalidade.\nÀ compressão das espinhas ilíacas: refere dor.\nDor à digitopressão das regiões plantares.",
+   "chaves": [
+    "teste de patrick (faber",
+    "teste de schober",
+    "exame do quadril",
+    "exame físico da coluna",
+    "exame físico da região lombar",
+    "exame físico do aparelho locomotor",
+    "exame físico específico",
+    "manobra de lasègue"
+   ]
+  }
+ ],
+ "exames": [
+  {
+   "item": "Exames laboratoriais",
+   "resultado": "Nome: Pedro Rodrigues\nData de nascimento: 12 de julho 1989\nHEMOGRAMA\nMaterial — Sangue Valor de Referência\nHemácias...........................................................4,85 milhões/mm³ 4,32 – 5,66 milhões/mm³\nHemoglobina...................................................................12,8 g/dL 13,3 – 16,7 g/dL\nHematócrito.........................................................................37,6% 39,0 – 50,0%\nVCM.....................................................................................87,8 fL 80,0 – 100 fL\nHCM....................................................................................30,6 pg 27,3 – 32,6 pg\nCHCM................................................................................34,8 g/dL 31,0 – 37,0 g/dL\nRDW.......................................................................................13,0% 10,0 – 15,0%\nObservação: hemácias normocíticas e normocrômicas.\nLeucócitos.......................................................................8.370/mm³ 3.700 – 9.500/mm³\nBastões................................................2,0% 167,4/mm³ 581 – 968/mm³\nSegmentados........................................70% 5.859/mm³ 1.700 – 6.100/mm³\nEosinófilos............................................2,0% 167,4/mm³ 30 – 460/mm³\nBasófilos.............................................. 0,6% 50,22/mm³ 0 – 130/mm³\nLinfócitos............................................19,4% 1.623,78/mm³ 1.000 – 3.200/mm³\nMonócitos............................................6,0% 502,2/mm³ 200 – 920/mm³\nPlaquetas, contagem...........................................234.000/mm³ 150.000 a 450.000/mm³\nVHS......................................................................................30 mm/h < 15 mm/h\nPCR......................................................................................10 mg/L < 3 mg/L\nGlicemia de jejum...............................................................96 mg/dL 70 – 99 g/dL\nSódio.................................................................................140 mEq/L 135 – 145 mEq/L\nPotássio.............................................................................4,2 mEq/L 3,5 – 5,0 mEq/L\nCálcio iônico......................................................................5,0 mg/dL 4,5 – 5,3 mg/dL\nMagnésio...........................................................................1,8 mEq/L 1,5 – 2,0 mEq/L",
+   "chaves": [
+    "pcr e vhs",
+    "contagem sanguínea completa",
+    "exame de contagem global de células sanguinárias",
+    "exame hematológico completo",
+    "exame laboratorial específico",
+    "hematócrito completo",
+    "hemograma",
+    "perfil/painel hematológico"
+   ]
+  },
+  {
+   "item": "Radiografia",
+   "resultado": "Presença de erosões nas articulações sacroilíacas compatíveis com sacroileíte.",
+   "imagem": "img/estacoes/inep-2025-1-c01-p05.jpg",
+   "chaves": [
+    "de coluna lombar",
+    "lombossacra",
+    "radiografia de pelve"
+   ]
+  }
+ ],
+ "diagnostico": "Formula a hipótese diagnóstica: lombalgia inflamatória ou espondiloartropatia inflamatória ou espondiloartrite axial ou espondilite anquilosante ou espondiloartropatia soronegativa.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "apresentar-se adequadamente ao paciente",
+  "realizar anamnese, perguntando sobre as características da dor",
+  "perguntar sobre manifestações clínicas associadas ao quadro",
+  "solicitar exame físico específico do aparelho locomotor",
+  "solicitar exames laboratoriais: hemograma, PCR e VHS",
+  "solicitar radiografia de coluna lombar, ou lombossacra, ou pelve",
+  "verbalizar hipótese diagnóstica provável (lombalgia inflamatória OU espondiloartropatia inflamatória OU espondiloartrite axial OU espondilite anquilosante)",
+  "prescrever tratamento com anti-inflamatório não esteroidal",
+  "orientar prática de atividade física, fisioterapia ou alongamento",
+  "encaminhar o paciente para acompanhamento pelo especialista."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)identifica-se; (2)cumprimenta o paciente simulado.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza nenhuma das ações.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Realiza anamnese, perguntando sobre as características da dor: (1) início; (2) frequência / intervalo entre episódios; (3) fatores desencadeantes / gatilhos; (4) agravantes / fatores de piora; (5) atenuantes / fatores de melhora; (6) intensidade; (7) irradiação; (8) despertar noturno; (9) rigidez matinal; (10)tipo da dor (queimação, choque, pontada, fisgada, contínua etc.)",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "pergunta sobre cinco ou mais características.",
+   "parcial": "pergunta apenas sobre três ou quatro características.",
+   "inadequado": "não pergunta ou pergunta apenas sobre duas ou menos características.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre manifestações clínicas associadas ao quadro: (1) febre; (2) alterações sensitivas: parestesias ou alodinia; (3) acometimento de outras articulações/regiões; (4) fadiga/astenia; (5) sinais flogísticos — vermelhidão (rubor), alteração da temperatura (calor), inchaço (edema); (6) alterações esfincterianas (fecal ou urinária). (7) perda de peso.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta sobre quatro ou mais manifestações.",
+   "parcial": "pergunta sobre até 3 manifestações.",
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Solicita exame físico específico do aparelho locomotor.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita exames laboratoriais (1)hemograma; (2)PCR e/ou VHS; (3)HLA-B27; (4)TGO/TGP (AST/ALT); (5)Ureia/creatinina.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita quatro ou cinco itens.",
+   "parcial": "solicita apenas dois ou três dos itens.",
+   "inadequado": "solicita um dos itens ou nenhum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita radiografia da coluna lombar, ou lombossacra, ou pelve, ou sacroilíaca.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 2.0
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Formula a hipótese diagnóstica: lombalgia inflamatória ou espondiloartropatia inflamatória ou espondiloartrite axial ou espondilite anquilosante ou espondiloartropatia soronegativa.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 2.0
+   },
+   "integral": "formula a hipótese.",
+   "parcial": null,
+   "inadequado": "não formula a hipótese.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Prescreve tratamento com anti-inflamatório não esteroidal.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "prescreve.",
+   "parcial": null,
+   "inadequado": "não prescreve ou prescreve apenas outras classes de medicamentos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Orienta: (1)prática de atividade física / fisioterapia / alongamento; (2)encaminhamento para especialista.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "orienta as duas condutas.",
+   "parcial": "orienta apenas uma delas.",
+   "inadequado": "não orienta qualquer uma das duas.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Resende et al. Advances in Rheumatology (2020) 60:19. The Brazilian Society of Rheumatology guidelines for axial spondyloarthritis – 2019. Disponível em: https://doi. org/10.1186/s42358-020-0116-2.",
+  "Proft, Fabian and Poddubnyy, Denis. Ankylosing spondylitis and axial spondyloarthritis: recent insights and impact of new classification criteria. Therapeutic Advances in Musculoskeletal Disease 2018, Vol. 10 (5-6) 129–139.",
+  "Protocolo Clínico e Diretrizes Terapêuticas da Espondiloartrite. Disponível em: https:// www.gov.br/conitec/pt-br/midias/consultas/relatorios/2018/relatrio_pcdt-espondilite- anquilosante_final-xxx_2018-20-02-19.pdf.",
+  "Espondilite Ancilosante. PCDT. Protocolo 2018. Disponível em: https://www.gov.br/conitec/ pt-br/midias/protocolos/20210428_pcdt-espondilite-ancilosante-1.pdf.",
+  "J Sieper, M Rudwaleit, X Baraliakos, J Brandt, J Braun, R Burgos-Vargas, M, Dougados, K-G Hermann, R Landewé, W Maksymowych and D van der Heijde. The Assessment of SpondyloArthritis international Society (ASAS) handbook: a guide to assess spondyloarthritis.",
+  "Ann Rheum Dis 2009;68;ii1-ii44. doi:10.1136/ard.2008.104018. O desempenho do participante ao longo da estação foi avaliado e pontuado a partir do seguinte PADRÃO ESPERADO DE PROCEDIMENTO (PEP)."
+ ],
+ "pendencias": []
+}

@@ -1,0 +1,277 @@
+{
+ "id": "inep-2024-1-e08",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.1",
+  "estacao": 8,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Pediatria",
+ "especialidade": "Pediatria",
+ "tema": "Estação 8",
+ "titulo": "Estação 8",
+ "duracaoMin": 10,
+ "cenario": "",
+ "instrucoes": [],
+ "tarefas": [],
+ "historia": "A Estação aborda o caso de um menino de 3 anos com inchaço e dor no olho esquerdo, atendido em companhia de sua mãe em um plantão em um pronto- socorro de um hospital terciário.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "percebeu pela manhã que seu filho estava com o olho esquerdo inchado, esse quadro piorou durante a tarde"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "o olho da criança está lacrimejando, quando ele acordou ele mal conseguiu abrir o seu olho"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "a criança queixa-se de muita dor e de senti incômodo com a luminosidade"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "ele se queixa de coceira no olho esquerdo desde a noite anterior"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "o menino aparentava estar com febre, pouco tempo antes da consulta, e queixava-se de sentir muito frio, mas a temperatura não foi mensurada"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "ele demonstra sentir fraqueza"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "como único antecedente pessoal, o menino sofre de rinite alérgica"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "nega traumas, medicação de uso contínuo, outros sintomas e alergias"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "a pele de seu filho é sensível e que ele tem sensibilidade à picada de insetos"
+   },
+   {
+    "topico": "Outras informações (6)",
+    "resposta": "levou seu filho a praia dois dias atrás, que o menino tomou banho de mar pela manhã, ficando a sombra, na areia, o resto do tempo, que na ocasião ele sofreu muitas picadas de insetos, que ocasionaram coceiras na pele"
+   },
+   {
+    "topico": "Outras informações (7)",
+    "resposta": "os olhos de seu filho ficaram um pouco vermelhos e coçando após a ida a praia, mas que atribuiu esses sintomas ao sal da água do mar"
+   },
+   {
+    "topico": "Características do quadro (2)",
+    "resposta": "ontem à noite deu um xarope para rinite a Marcus, isso o ajudou a dormir, mas hoje esse xarope não está fazendo mais efeito"
+   },
+   {
+    "topico": "Identificação",
+    "resposta": "não se recorda o nome da medicação"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "normalmente, ele come bem e toma muita água, mas recusou alimentos, aceitando apenas água"
+   },
+   {
+    "topico": "Sintomas associados (2)",
+    "resposta": "ele, em geral, urina em grande quantidade, a urina tem a cor bem clara, ele defecou no dia de hoje"
+   },
+   {
+    "topico": "Antecedentes familiares",
+    "resposta": "ele nasceu de parto normal, após uma gestação tranquila, tomou todas as vacinas adequadas a sua idade, não possuí antecedentes mórbidos familiares e sua família possui condição razoável de vida."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "Verbaliza corretamente a hipótese diagnóstica: (1)presença de processo inflamatório (sinais flogísticos) e/ou infeccioso; (2) hipótese da celulite periorbitária/ orbitária ou celulite em região de órbita ou celulite pré-septal/celulite pós-septal.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "investigar as possíveis complicações relacionadas ao quadro principal",
+  "solicitar exames complementares pertinentes ao quadro",
+  "orientar a internação hospitalar do paciente",
+  "indicar antibioticoterapia por via parenteral ou endovenosa ou intramuscular.",
+  "explicar a mãe do paciente as possíveis complicações da patologia."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)Identifica-se; (2)Cumprimenta a mãe de maneira adequada/cordial; (3)Mantém contato visual durante sua apresentação; (4)Pergunta o nome da mãe e o nome da criança.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as quatro ações.",
+   "parcial": "realiza duas ou três ações.",
+   "inadequado": "realiza uma ação OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre as queixas principais relevantes para o estabelecimento da condição do caso: (1)inchaço ou edema; (2)febre, (3)dor, (4)tempo da evolução destes sintomas.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta o três ou quatro itens.",
+   "parcial": "pergunta dois itens.",
+   "inadequado": "pergunta um item OU não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre os fatores associados e potencialmente desencadeantes do quadro atual: (1)viagens, traumas ou contatos com insetos; (2)medicação utilizada ou medicação de uso contínuo ou sobre tratamento prévio; (3)alergias; (4)doença(s) de base do paciente (antecedente pessoal).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta os quatro itens.",
+   "parcial": "pergunta dois ou três itens.",
+   "inadequado": "pergunta um item OU não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Verbaliza corretamente a hipótese diagnóstica: (1)presença de processo inflamatório (sinais flogísticos) e/ou infeccioso; (2) hipótese da celulite periorbitária/ orbitária ou celulite em região de órbita ou celulite pré-septal/celulite pós-septal.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "verbaliza os dois itens.",
+   "parcial": "verbaliza apenas um item OU verbaliza corretamente o item (1) e verbaliza o item (2) apenas como “celulite”.",
+   "inadequado": "não verbaliza item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita exames laboratoriais: (1)hemograma; (2)proteína C reativa ou VHS ou procalcitonina. (3)Hemocultura.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita os três exames.",
+   "parcial": "solicita o exame (1).",
+   "inadequado": "não solicita o item (1) OU não solicita exame algum. Obs.: serão considerados apenas os três primeiros exames citados pelo(a) participante.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita tomografia das órbitas ou do crânio ou da cabeça:",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita OU solicita Raio X OU ultrassonografia OU solicita algum outro exame complementar OU solicita a tomografia sem especificar o local (órbitas/crânio/cabeça). Obs.: será pontuado apenas se a tomografia for o primeiro exame de imagem solicitado pelo(a) participante.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Indica a internação da criança:",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Explica a importância da tomografia para diferenciar duas condições clínicas: (1)lesões/alterações pré e pós-septais; (2) celulite orbitaria como sinal inicial de neoplasias ou de gravidade maior.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "explica uma ou mais condições clínicas.",
+   "parcial": null,
+   "inadequado": "não explica condição clínica alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Indica antibioticoterapia parenteral (endovenosa, intramuscular):",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica",
+   "parcial": null,
+   "inadequado": "não indica OU indica a antibioticoterapia por via oral.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Explica as possíveis complicações da doença: (1)abscesso cerebral, ou epidural, ou subdural, ou subperiostal; (2) acometimento do nervo óptico ou neuropatia óptica ou neurite óptica; (3)acometimento do nervo trigeminal; (4)ceratite; (5)endoftalmite; (6)meningite; (7)osteomielite; (8)perda visual ou acometimento visual ou cegueira; (9)sepse; (10)trombose de seio cavernoso; (11)uveíte; (12)morte ou óbito; (13)abcesso de face; (14)cefaleia secundária; (15)abcesso orbitário.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "cita três ou mais complicações.",
+   "parcial": "cita duas complicações.",
+   "inadequado": "cita uma complicação OU não cita complicação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "caderno da prova não encontrado para esta estação"
+ ]
+}

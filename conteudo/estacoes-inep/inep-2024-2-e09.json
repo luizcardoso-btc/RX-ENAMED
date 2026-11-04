@@ -1,0 +1,335 @@
+{
+ "id": "inep-2024-2-e09",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.2",
+  "estacao": 9,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2024_2_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Ginecologia e Obstetrícia",
+ "especialidade": "Ginecologia e Obstetrícia",
+ "tema": "Uma mulher procura o serviço de emergência ginecológica após sofrer violência sexual. Está",
+ "titulo": "Uma mulher procura o serviço de emergência ginecológica após sofrer violência sexual. Está",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: secundária. Tipo de atendimento: unidade de emergência de Ginecologia e Obstetrícia. A unidade apresenta a seguinte infraestrutura: ● laboratório de análises clínicas; ● farmácia para fornecimento de medicações; ● equipe de enfermagem e equipe médica; ● equipe de psicologia; ● equipe de segurança. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+ "instrucoes": [
+  "Uma mulher procura o serviço de emergência ginecológica após sofrer violência sexual. Está com medo e muito aflita com o acontecido.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO. DESCRIÇÃO DO CASO Uma mulher procura o serviço de emergência ginecológica após sofrer violência sexual."
+ ],
+ "tarefas": [
+  "Realizar anamnese da paciente.",
+  "Solicitar, se necessário, exames complementares pertinentes à situação clínica (serão pontuados apenas os 10 primeiros exames complementares mencionados).",
+  "Indicar, se necessário, medicações a serem prescritas.",
+  "Responder às perguntas da paciente de forma completa, justificando os motivos das orientações.",
+  "Encaminhar a paciente, se necessário, para avaliação de outros profissionais.",
+  "Orientar e indicar condutas relativas ao caso clínico de violência sexual."
+ ],
+ "historia": "A Estação 9, da área de Ginecologia e Obstetrícia, abordou o caso de uma mulher que procura o serviço de emergência ginecológica após sofrer violência sexual. No atendimento,",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "se chama Vanessa, tem 28 anos, trabalha como camareira em um hotel e foi estuprada por um homem desconhecido, hóspede do hotel, há cerca de 30 horas, no local em que trabalha"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos",
+    "resposta": "não foi utilizado preservativo durante a relação sexual e o agressor ejaculou em sua vagina; 1"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "ele a segurou e ameaçou, mas não bateu nela, não tem sintoma ou queixa ginecológica específica, não percebeu lesões genitais ou em outra parte do corpo e não sente dor"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "afirma não sentir nada fisicamente, estando traumatizada e com medo de retornar ao trabalho"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "afirma não querer ser submetida a exame físico e nem a exame ginecológico"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "nunca engravidou, seu ciclo menstrual é regular, ocorrendo a cada 28 dias, sua última menstruação foi há 10 dias"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "é solteira, não faz uso de método contraceptivo e não havia mantido relações sexuais nos últimos 3 meses"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "não possui problemas de saúde nem faz uso de medicamentos, nunca passou por cirurgias e não possui alergias"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "não bebe, não fuma e não usa drogas"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "não registrou boletim de ocorrência, afirma não saber se quer fazer o registro. Após as adequadas solicitações de exames, o(a) participante poderia receber os seguintes"
+   }
+  ],
+  "perguntasDoPaciente": [
+   "Se precisa tomar alguma vacina",
+   "Se é obrigatório registrar B.O. para receber atendimento médico",
+   "Se ela precisará usar algum medicamento."
+  ]
+ },
+ "exameFisico": [],
+ "exames": [
+  {
+   "item": "Cartão de vacinas",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2024-2-c09-p49.jpg"
+  },
+  {
+   "item": "Exames laboratoriais",
+   "resultado": "Exame Resultado Valores de referência\nEritrograma sem alterações\nLeucograma sem alterações\nPlaquetograma sem alterações\nNão reagente: menor que 0,90\nAnticorpos Anti-HCV 0,05 Indeterminado: 0,90 a 1,00\nReagente: maior ou igual a 1,00\nAnticorpos Anti HIV 1 e 2 Não reagente Não reagente\nAnticorpos Não reagente: menor que 1,00\n0,08\nAnti-Treponema Pallidum Reagente: maior ou igual a 1,00\nNão reagente: menor que 0,90\nAntígeno de Superfície do\n0,45 Indeterminado: 0,90 a 1,00\nHBV (HBsAg)\nReagente: maior ou igual a 1,00\nNão reagente: < 1,00\nAnticorpo anti-HBs 15,25 Indeterminado: 1,00-9,99\nReagente: maior ou igual a 10,00\nNegativo: menor que 4,9\nHCG – Gonadotrofina\n< 0,2 Inconclusivo: 5,0 a 49,9\nCorionica\nPositivo: maior que 50,0\nTransaminase Oxalacética\n20 U/L menor que 34 U/L\nTGO (AST)\nTransaminase Pirúvica TGP\n23 U/L 10 – 49 U/L\n(ALT)"
+  }
+ ],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)cumprimenta a paciente com empatia e/ou fala o seu nome; (2) pergunta mais algum elemento de identificação como idade ou profissão.",
+   "peso": 0.1,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.1
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": null,
+   "inadequado": "realiza uma ação ou não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre a violência sexual: (1)tempo transcorrido desde a violência sofrida; (2)local onde ocorreu; (3)se conhecia o agressor; (4)de que maneira foi o abuso (penetração vaginal, oral ou anal ou outra OU uso de preservativo); e, (5)se houve algum ferimento ou agressão física.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta os cinco itens.",
+   "parcial": "pergunta três ou quatro itens.",
+   "inadequado": "pergunta um ou dois itens ou não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre história clínica/ginecológica/obstétrica: (1)quantidade de gestações prévias; (2)data da última menstruação; (3)uso de método contraceptivo; (4)alergia a medicações; (5)medicação de uso contínuo OU comorbidades; e, (6)tempo desde a última relação sexual.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta cinco ou mais itens.",
+   "parcial": "pergunta três ou quatro itens.",
+   "inadequado": "pergunta um ou dois itens ou não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Orienta que o Boletim de Ocorrência (BO): (1)não é necessário para o atendimento médico. (2)é um direito da paciente realizar BO.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "orienta os dois itens.",
+   "parcial": "orienta um item.",
+   "inadequado": "não orienta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Orienta sobre a importância de coleta de material vaginal para fins legais.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "orienta.",
+   "parcial": null,
+   "inadequado": "não orienta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita o cartão OU caderneta de vacinas.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Solicita exames laboratoriais para acompanhamento do caso: (1)Hemograma; (2)Transaminases (TGO/TGP); e, (3)Teste de Gravidez ou Beta HCG. Adequada: solicita os três exames. Parcialmente",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "solicita dois exames.",
+   "parcial": null,
+   "inadequado": "solicita um exame ou não solicita exame algum.",
+   "evidencia": "8. Orienta vacinação de HPV, pois paciente é vitima de violência Conforme item 14.6 do Edital, a pontuação sexual com menos de 45 anos. correspondente ao item será atribuída a todos os participantes, inclusive aos que não Adequado: orienta vacinação de HPV. tenham interposto recurso. Inadequado: não orienta.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Solicita exames séricos: (1)HIV (Teste rápido ou Sorologia); (2)Sífilis (VDRL ou Teste rápido); (3)Anti-HCV; e, (4)HBS Ag / Anti-Hbs.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita os quatro exames.",
+   "parcial": "solicita dois ou três exames.",
+   "inadequado": "solicita um exame ou não solicita exame algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Orienta a contracepção de emergência: (1)Levonorgestrel 1,5mg ou 2 comprimidos de 0,75mg – via oral. (2) Método Yuzpe (anticoncepcional oral com Etinilestradiol 30μg/150μg de levonorgestrel: 4 comprimidos de 12/12h ou 8 comprimidos em dose única). (3)inserção de DIU de cobre.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "orienta um dos itens.",
+   "parcial": "orienta a contracepção de emergência de forma incompleta (pílula do dia seguinte ou pílula de progesterona ou pílula de estrogênio e progesterona, sem definição de dosagens).",
+   "inadequado": "não orienta contracepção de emergência. Obs.: caso o(a) participante mencione apenas contracepção de forma geral, considerar inadequado (já que existem opções de contraceptivos que seriam prescritas neste caso).",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Indica a profilaxia contra ISTs Não Virais: (1)Ceftriaxona; (2)Azitromicina; e, (3)Penicilina Benzatina ou Benzetacil.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "indica as três medicações.",
+   "parcial": "indica duas medicações.",
+   "inadequado": "indica uma medicação ou não indica medicação alguma. Obs.: considerar inadequado se o(a) participante mencionar Metronidazol para início de imediato. Caso o participante mencione o metronidazol e deixe claro que deveria ser feito posteriormente, não haverá invalidação do item.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Indica profilaxia contra HIV: (1)Tenofovir [TDF]; (2)Lamivudina [3TC]; e, (3)Dolutegravir [DTG].",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.0
+   },
+   "integral": "indica os três medicamentos.",
+   "parcial": "indica um ou dois medicamentos ou indica de forma incompleta (antiretroviral ou profilaxia contra HIV, sem especificar medicações).",
+   "inadequado": "não indica medicamento algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Oferece atendimento psicológico.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "oferece.",
+   "parcial": null,
+   "inadequado": "não oferece.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c14",
+   "descricao": "Orienta o seguimento médico.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "oferece.",
+   "parcial": null,
+   "inadequado": "não oferece.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c15",
+   "descricao": "Verbaliza a necessidade de notificação do caso ao SINAN.",
+   "peso": 0.9,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.9
+   },
+   "integral": "verbaliza.",
+   "parcial": null,
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "critérios somam 9.5"
+ ]
+}

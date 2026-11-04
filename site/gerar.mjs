@@ -512,6 +512,8 @@ for (const lingua of ['pt', 'es']) {
 }
 cpSync(`${raiz}site/site.css`, `${saida}/site.css`);
 cpSync(`${raiz}app/dist`, `${saida}/plataforma`, { recursive: true });
+// Com servidor próprio, as estações completas (roteiro do paciente e PEP) nunca ficam em arquivo público.
+if (CHECKOUT_PROPRIO) rmSync(`${saida}/plataforma/data/estacoes-local.json`, { force: true });
 // No site a área do aluno é uma página completa (no visualizador de artefatos o esqueleto vem de fora).
 const app = readFileSync(`${raiz}app/dist/index.html`, 'utf8');
 writeFileSync(`${saida}/plataforma/index.html`, `<!doctype html>

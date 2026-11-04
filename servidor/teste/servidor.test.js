@@ -459,3 +459,129 @@ test('residência: banco privado, só administradores', async () => {
   }
   assert.equal(new Set(r.corpo.questoes.map((q) => q.id)).size, r.corpo.questoes.length, 'ids únicos');
 });
+
+// ---------------------------------------------------------------- 2ª etapa: estações, motor gratuito, simulados e dupla
+
+async function alunoNovo(nome) {
+  const c = cliente();
+  const email = `${nome.toLowerCase()}-${Date.now()}@rx.test`;
+  assert.equal((await c.post('/api/cadastro', { nome, email, senha: 'senha-forte-1', aceite: true })).status, 201);
+  return c;
+}
+
+test('2ª etapa: candidato só recebe o impresso da porta; PEP e roteiro só depois de encerrar', async () => {
+  const anon = cliente();
+  assert.equal((await anon.get('/api/pratica/estacoes')).status, 401);
+  const a = await alunoNovo('Carla');
+  const lista = (await a.get('/api/pratica/estacoes')).corpo;
+  assert.ok(lista.estacoes.length >= 50, 'autorais e oficiais publicadas');
+  assert.ok(lista.estacoes.some((e) => e.origem === 'oficial') && lista.estacoes.some((e) => e.origem === 'autoral'));
+  const textoLista = JSON.stringify(lista.estacoes);
+  for (const reservado of ['"pep"', '"achado"', '"resultado"', '"diagnostico"', '"resposta"']) assert.ok(!textoLista.includes(reservado), `lista sem ${reservado}`);
+
+  const cand = (await a.get('/api/pratica/estacoes/cm-01-dor-toracica')).corpo.estacao;
+  assert.ok(cand.cenario && cand.tarefas.length);
+  assert.equal(cand.pep, undefined);
+  assert.ok(!JSON.stringify(cand).includes('Supradesnivelamento'), 'resultado do ECG não vai para o candidato');
+  assert.equal((await a.get('/api/pratica/estacoes/inep-2022-1-e01')).status, 404, 'estação em revisão não aparece para aluno');
+
+  const t = (await a.post('/api/pratica/tentativas', { estacaoId: 'cm-01-dor-toracica', modo: 'gratuito' })).corpo;
+  assert.ok(t.id);
+  const r1 = (await a.post(`/api/pratica/tentativas/${t.id}/fala`, { texto: 'Quando começou a dor?' })).corpo;
+  assert.equal(r1.de, 'paciente');
+  assert.match(r1.texto, /hora/);
+  const r2 = (await a.post(`/api/pratica/tentativas/${t.id}/fala`, { texto: 'Solicito um ECG de 12 derivações' })).corpo;
+  assert.equal(r2.de, 'examinador');
+  assert.match(r2.texto, /Supradesnivelamento/);
+  const r3 = (await a.post(`/api/pratica/tentativas/${t.id}/revelar`, { chave: 'a5' })).corpo;
+  assert.ok(r3.texto && r3.pergunta);
+  assert.equal((await a.post(`/api/pratica/tentativas/${t.id}/resultado`, { niveis: {} })).status, 409, 'nota só depois de encerrar');
+  assert.equal((await a.post(`/api/pratica/tentativas/${t.id}/ia/avaliar`, {})).status, 503, 'sem chave, IA desligada');
+
+  const fim = (await a.post(`/api/pratica/tentativas/${t.id}/encerrar`, { conclusao: 'IAM com supra de ST anterior; AAS, clopidogrel e angioplastia primária.' })).corpo;
+  assert.equal(fim.correcao.pep.length, 10);
+  assert.ok(fim.correcao.pacienteCompleto.roteiro.length);
+  assert.equal((await a.post(`/api/pratica/tentativas/${t.id}/fala`, { texto: 'mais uma' })).status, 409, 'não conversa depois de encerrar');
+
+  const niveis = Object.fromEntries(fim.correcao.pep.map((c, i) => [c.id, i < 6 ? 'adequado' : i < 8 ? 'parcial' : 'inadequado']));
+  const res = (await a.post(`/api/pratica/tentativas/${t.id}/resultado`, { niveis, avaliadoPor: 'autoavaliacao' })).corpo;
+  assert.ok(res.nota > 0 && res.nota < 10);
+  assert.equal(res.cumpridos.length, 6);
+  assert.equal((await a.post(`/api/pratica/tentativas/${t.id}/resultado`, { niveis })).status, 409, 'uma nota por tentativa');
+  const hist = (await a.get('/api/pratica/resultados')).corpo.resultados;
+  assert.equal(hist[0].estacao_id, 'cm-01-dor-toracica');
+
+  // Outro aluno não mexe na tentativa alheia.
+  const b = await alunoNovo('Bruno');
+  assert.equal((await b.post(`/api/pratica/tentativas/${t.id}/encerrar`, {})).status, 404);
+});
+
+test('2ª etapa: simulado de 10 estações segue o edital (duas por área) e fecha a nota média', async () => {
+  const a = await alunoNovo('Dora');
+  const s = (await a.post('/api/pratica/simulados', { quantidade: 10, edital: 'revalida-padrao' })).corpo;
+  assert.equal(s.estacoes.length, 10);
+  assert.deepEqual(s.blocos, [5, 5]);
+  const porArea = {};
+  for (const e of s.estacoes) porArea[e.area] = (porArea[e.area] || 0) + 1;
+  assert.deepEqual(Object.values(porArea), [2, 2, 2, 2, 2]);
+  const primeira = s.estacoes[0];
+  const t = (await a.post('/api/pratica/tentativas', { estacaoId: primeira.id, modo: 'roteiro', simuladoId: s.id })).corpo;
+  const fim = (await a.post(`/api/pratica/tentativas/${t.id}/encerrar`, { conclusao: '' })).corpo;
+  const tudo = Object.fromEntries(fim.correcao.pep.map((c) => [c.id, 'adequado']));
+  await a.post(`/api/pratica/tentativas/${t.id}/resultado`, { niveis: tudo });
+  const fecha = (await a.post(`/api/pratica/simulados/${s.id}/concluir`, {})).corpo;
+  assert.equal(fecha.feitas, 1);
+  assert.equal(fecha.nota, 1, '10 numa estação e zero nas outras nove: média 1');
+});
+
+test('2ª etapa: dupla com médico e ator, Meet, impresso liberado, avaliação e nota no histórico do médico', async () => {
+  const ator = await alunoNovo('Ator');
+  const medico = await alunoNovo('Medico');
+  assert.equal((await ator.post('/api/dupla/salas', { papel: 'ator', meetUrl: 'https://golpe.test/x' })).status, 400, 'só link do Meet');
+  const sala = (await ator.post('/api/dupla/salas', { papel: 'ator', meetUrl: 'https://meet.google.com/abc-defg-hij', estacaoId: 'cm-01-dor-toracica' })).corpo;
+  assert.equal(sala.papel, 'ator');
+  assert.ok(sala.reservado.pep.length, 'ator recebe o PEP');
+  const entrou = (await medico.post(`/api/dupla/salas/${sala.codigo}/entrar`, {})).corpo;
+  assert.equal(entrou.papel, 'medico');
+  assert.equal(entrou.meetUrl, 'https://meet.google.com/abc-defg-hij');
+  assert.equal(entrou.reservado, undefined, 'médico sem roteiro');
+  assert.equal(entrou.estacao.titulo, 'Estação sorteada', 'em modo prova o médico não vê o tema antes de começar');
+  assert.equal((await medico.post(`/api/dupla/salas/${sala.codigo}/acao`, { tipo: 'iniciar' })).status, 403, 'quem inicia é o ator');
+  assert.equal((await ator.post(`/api/dupla/salas/${sala.codigo}/acao`, { tipo: 'iniciar' })).corpo.estado, 'em_andamento');
+  let vm = (await medico.get(`/api/dupla/salas/${sala.codigo}`)).corpo;
+  assert.ok(vm.estacao.tarefas.length, 'médico recebe o impresso da porta ao iniciar');
+  assert.equal(vm.estacao.pedidos, undefined, 'sem lista de impressos para o médico');
+  assert.equal(vm.avaliacao, undefined);
+  assert.equal(vm.liberados.length, 0);
+  await ator.post(`/api/dupla/salas/${sala.codigo}/acao`, { tipo: 'liberar', chave: 'x0' });
+  vm = (await medico.get(`/api/dupla/salas/${sala.codigo}`)).corpo;
+  assert.match(vm.liberados[0].texto, /Supradesnivelamento/);
+  assert.equal((await medico.post(`/api/dupla/salas/${sala.codigo}/acao`, { tipo: 'avaliar', criterioId: 'ecg', nivel: 'adequado' })).status, 403, 'médico não avalia');
+  for (const c of sala.reservado.pep) await ator.post(`/api/dupla/salas/${sala.codigo}/acao`, { tipo: 'avaliar', criterioId: c.id, nivel: 'adequado' });
+  assert.equal((await medico.post(`/api/dupla/salas/${sala.codigo}/acao`, { tipo: 'encerrar' })).status, 403, 'médico não encerra antes do tempo');
+  const fim = (await ator.post(`/api/dupla/salas/${sala.codigo}/acao`, { tipo: 'encerrar' })).corpo;
+  assert.equal(fim.resultado.nota, 10);
+  vm = (await medico.get(`/api/dupla/salas/${sala.codigo}`)).corpo;
+  assert.equal(vm.correcao.pep.length, 10, 'médico vê o PEP depois de encerrar');
+  const hist = (await medico.get('/api/pratica/resultados')).corpo.resultados;
+  assert.equal(hist[0].modo, 'dupla');
+  assert.equal(hist[0].avaliado_por, 'ator');
+  const intruso = await alunoNovo('Intruso');
+  assert.equal((await intruso.get(`/api/dupla/salas/${sala.codigo}`)).status, 403);
+  assert.equal((await intruso.post(`/api/dupla/salas/${sala.codigo}/entrar`, {})).status, 409, 'sala cheia');
+  const nova = (await ator.post(`/api/dupla/salas/${sala.codigo}/acao`, { tipo: 'nova_rodada', trocarPapeis: true })).corpo;
+  assert.equal(nova.papel, 'medico', 'papéis trocados na nova rodada');
+});
+
+test('2ª etapa: admin vê o acervo inteiro com origem, pendências e validação', async () => {
+  // Admin próprio do teste (o admin principal já tem duas etapas ativadas pelo teste de segurança).
+  const adm = await alunoNovo('Gestor');
+  await banco.consulta("UPDATE usuarios SET papel = 'admin' WHERE nome = 'Gestor'");
+  const r = (await adm.get('/api/admin/estacoes')).corpo;
+  assert.ok(r.estacoes.length > 52);
+  const revisao = r.estacoes.filter((e) => e.status === 'revisao');
+  assert.ok(revisao.length && revisao.every((e) => e.pendencias.length), 'estação em revisão sempre diz o motivo');
+  assert.ok(r.estacoes.filter((e) => e.status === 'publicada').every((e) => e.problemas.length === 0 && e.somaPep === 10));
+  const aluno = await alunoNovo('Eva');
+  assert.equal((await aluno.get('/api/admin/estacoes')).status, 403);
+});

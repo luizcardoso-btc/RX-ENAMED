@@ -1,0 +1,246 @@
+{
+ "id": "inep-2022-1-e10",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.1",
+  "estacao": 10,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2022_1_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+ "especialidade": "Medicina de Família e Comunidade",
+ "tema": "Você atenderá uma paciente de 46 anos, com consulta agendada, que manifesta desejo de para",
+ "titulo": "Você atenderá uma paciente de 46 anos, com consulta agendada, que manifesta desejo de para",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Primária. A unidade possui a seguinte infraestrutura: • Consultório de unidade básica de saúde.",
+ "instrucoes": [
+  "Você atenderá uma paciente de 46 anos, com consulta agendada, que manifesta desejo de parar de fumar. Dados do acolhimento coletados pela técnica de enfermagem:",
+  "Motivo da consulta: desejo de parar de fumar.",
+  "Temperatura axilar: 36 °C.",
+  "Peso: 53 kg.",
+  "Índice de massa corporal: 22 kg/m².",
+  "Pressão arterial: 120 × 75 mmHg.",
+  "Frequência cardíaca: 75 bpm. Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:",
+  "abordar adequadamente a pessoa em uso de tabaco",
+  "avaliar o grau de dependência nicotínica da paciente",
+  "orientar adequadamente a paciente quanto às intervenções comportamentais com base em sua fase de prontidão à mudança",
+  "indicar tratamento medicamentoso e/ou não medicamentoso adequado. A PACIENTE SIMULADA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "abordar adequadamente a pessoa em uso de tabaco",
+  "avaliar o grau de dependência nicotínica da paciente",
+  "orientar adequadamente a paciente quanto às intervenções comportamentais com base em sua fase de prontidão à mudança",
+  "indicar tratamento medicamentoso e/ou não medicamentoso adequado. A PACIENTE SIMULADA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "(1) Cumprimenta a paciente simulada; (2) identifica-se; (3) dirige-se à paciente simulada pelo nome, pelo menos uma vez; (4) pergunta e (5) ouve com atenção o motivo da consulta.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as cinco ações.",
+   "parcial": "realiza duas a quatro ações.",
+   "inadequado": "realiza apenas uma ação ou não realiza nenhuma ação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Estabelece contato visual e mantém postura empática ao longo da consulta.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.25
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma das ações.",
+   "inadequado": "não realiza nenhuma das ações.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Escuta a fala da paciente simulada, sem interrompê-la.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "realiza integralmente a ação.",
+   "parcial": null,
+   "inadequado": "não realiza integralmente a ação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Usa linguagem acessível para com a paciente simulada, evitando termos técnicos de difícil compreensão.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "usa linguagem acessível.",
+   "parcial": null,
+   "inadequado": "não utiliza linguagem acessível.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Evita atitude paternalista (condescendente) e “alarmista”.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "evita as duas atitudes.",
+   "parcial": null,
+   "inadequado": "assume qualquer uma das duas atitudes.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Investiga o histórico de saúde da paciente simulada: (1) antecedentes de ansiedade e depressão; (2) uso de outras drogas; (3) uso de medicamentos; (4) presença de sintomas respiratórios; (5) realização de atividades físicas; (6) uso de métodos anticonceptivos; (7) presença de comorbidades.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga quatro ou mais características.",
+   "parcial": "investiga duas a três características apenas.",
+   "inadequado": "investiga apenas uma ou nenhuma das características mencionadas.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Investiga a motivação para a cessação do tabagismo e verbaliza o grau de motivação (contemplação/preparação para ação) da paciente simulada.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "realiza os dois procedimentos.",
+   "parcial": "realiza apenas um procedimento.",
+   "inadequado": "não realiza nenhum dos procedimentos mencionados.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Avalia o grau de dependência nicotínica: (1) aplica o teste de Fagerström; (2) identifica e (3) interpreta o grau de dependência da paciente simulada.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "realiza os três procedimentos.",
+   "parcial": "aplica o teste, mas não cumpre ou cumpre parcialmente os demais procedimentos mencionados.",
+   "inadequado": "não realiza nenhum dos procedimentos mencionados.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Informa os benefícios para a cessação do tabagismo: (1) melhora do hálito e/ou do odor corporal; (2) redução da pressão arterial; (3) melhora do olfato; (4) melhora do paladar; (5) diminuição do risco de infarto; (6) diminuição do risco de câncer; (7) diminuição do risco de desenvolvimento de doenças cerebrovasculares (AVE); (8) diminuição do risco de desenvolvimento de doenças respiratórias (Enfisema, DPOC); (9)diminuição de risco de adoecimento respiratório ou desenvolvimento do tabagismo pela filha.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "informa quatro ou mais benefícios.",
+   "parcial": "informa de dois a três benefícios apenas.",
+   "inadequado": "informa apenas um ou nenhum dos benefícios.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Convida a paciente simulada para participar de atividade em grupo de cessação de tabagismo na UBS.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "faz o convite",
+   "parcial": null,
+   "inadequado": "não faz o convite.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Recomenda medidas não farmacológicas à paciente simulada: (1) fazer atividade física; (2) ter alimentação saudável; (3) fazer atividades que evitem o ganho de peso nesta fase; e (4) evitar situações estressantes; (5) mudanças comportamentais (como por exemplo: eliminar cinzeiros, isqueiros, adiar o primeiro cigarro do dia).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "recomenda três ou mais ações.",
+   "parcial": "recomenda uma ou duas ações.",
+   "inadequado": "não faz nenhuma das recomendações mencionadas.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "(1) Indica o tratamento medicamentoso disponível no SUS (Bupropiona, adesivos de nicotina ou goma de nicotina) e (2) orienta sobre possíveis efeitos adversos da medicação, como, por exemplo: 1. boca seca; 2. insônia; 3. tontura; 4. cefaleia; 5. aumento da PA; 6. dispepsia; 7. náuseas e vômitos; 8. enxaqueca; 9. dor abdominal; 10. constipação; 11. irritação na pele; 12. manchas nos dentes; e",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "",
+   "parcial": null,
+   "inadequado": "",
+   "evidencia": "13. perda de peso. Observação: para pontuar no primeiro item basta indicar um dos medicamentos; para pontuar no segundo item (efeitos adversos), o(a) participante deve mencionar pelo menos 2 dos efeitos adversos mencionados. Adequado: faz as duas indicações. Parcialmente adequado: faz uma das indicações apenas. Inadequado: não faz nenhuma das indicações.",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

@@ -1,0 +1,415 @@
+{
+ "id": "inep-2023-1-e02",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.1",
+  "estacao": 2,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Cirurgia",
+ "especialidade": "Cirurgia geral",
+ "tema": "Homem de 30 anos de idade, servente, procura atendimento devido a febre no sétimo dia de p",
+ "titulo": "Homem de 30 anos de idade, servente, procura atendimento devido a febre no sétimo dia de p",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Terciária: Emergência Geral. A unidade possui a seguinte infraestrutura:  aparelho para radiografias;  ultrassonografia e tomografia;  ecocardiografia;  laboratório de análises clínicas;  leitos de enfermaria;  bloco cirúrgico;  unidade de terapia intensiva.",
+ "instrucoes": [
+  "Homem de 30 anos de idade, servente, procura atendimento devido a febre no sétimo dia de pós-operatório de apendicectomia realizada em hospital de cidade no interior de Minas Gerais. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [],
+ "historia": "A Estação 2 de Cirurgia Geral abordou o caso de um homem de 30 anos de idade, no pós-operatório de apendicite aguda supurada, operado por videolaparoscopia há 7 dias, evoluindo com febre, sudorese noturna e dor em local de sítio cirúrgico umbilical.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "ele se chama Paulo, tem 30 anos, é casado e trabalha como servente de pedreiro"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "a febre iniciou há dois dias, melhora com o uso de medicação, mas logo volta"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "ele não aferiu a temperatura, mas acha que a febre era alta"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "não sentiu calafrios"
+   },
+   {
+    "topico": "Início e evolução (2)",
+    "resposta": "tem acordado, desde o início da febre, molhado de suor"
+   },
+   {
+    "topico": "Sintomas associados (2)",
+    "resposta": "seu apetite está normal"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "ele percebeu que a ferida do umbigo está quente e vermelha"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "sente dor na ferida no local do umbigo e na barriga do lado direito"
+   },
+   {
+    "topico": "Sintomas associados (3)",
+    "resposta": "não teve náuseas, vômitos, ou parou de evacuar ou de eliminar gases"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "percebe que saia um pouco de secreção amarelada da ferida"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "não está com sintomas respiratórios"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "não está com sintomas urinários"
+   },
+   {
+    "topico": "Características do quadro (2)",
+    "resposta": "não está com dor na lombar"
+   },
+   {
+    "topico": "Outras informações (6)",
+    "resposta": "ele já teve aceleração no coração outras vezes, mas não recentemente"
+   },
+   {
+    "topico": "Outras informações (7)",
+    "resposta": "a apendicectomia foi realizada via laparoscopia"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "ele usou sonda vesical/urinária até o dia posterior a cirurgia"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (2)",
+    "resposta": "ele fez uso de antibiótico após a cirurgia, até o dia de hoje, pela manhã, esquecendo de tomar alguns dias"
+   },
+   {
+    "topico": "Outras informações (8)",
+    "resposta": "ele tem um estreitamento em uma válvula do coração há vários anos e é diabético"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "o único medicamento que toma atualmente é a metformina"
+   },
+   {
+    "topico": "Medicamentos (2)",
+    "resposta": "não faz uso de bebida alcóolicas ou drogas ilícitas"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (3)",
+    "resposta": "não possui alergias"
+   },
+   {
+    "topico": "Início e evolução (3)",
+    "resposta": "fuma 10 cigarros por dia há 10 anos"
+   },
+   {
+    "topico": "Antecedentes familiares",
+    "resposta": "sua mãe é diabética"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (4)",
+    "resposta": "essa foi a sua primeira cirurgia. O paciente simulado"
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico – (página 1 de 2)",
+   "achado": "SINAIS VITAIS:\nFrequência cardíaca: 100 batimentos por minuto.\nPressão arterial: 130 × 70 mmHg.\nFrequência respiratória: 16 incursões respiratórias por minuto.\nTemperatura axilar: 38,2 °C.\nSaturação de oxigênio: 97% em ar ambiente.\nÍndice de massa corpórea (IMC): 35 Kg/m2.\nPaciente em estado geral regular, febril, acianótico, anictérico e desidratado; alerta e\norientado no tempo e espaço.\nAusculta respiratória com murmúrio vesicular presente bilateralmente, sem ruídos\nadventícios.\nRitmo cardíaco regular em dois tempos, estalido de abertura da valva mitral e sopro\ndiastólico em ruflar mitral, com formato em decrescendo, com início logo após o estalido."
+  },
+  {
+   "item": "Exame físico – (página 2 de 2)",
+   "achado": "EXAME ABDOMINAL DA REGIÃO UMBILICAL:\nDIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS\nDO EXAME FÍSICO REGIÃO UMBILICAL\nDemais feridas operatórias sem alterações.\nAbdome flácido, doloroso à palpação profunda em fossa ilíaca direita, sem dor à\ndescompressão brusca, ruídos hidroaéreos hipoativos; sem visceromegalias.",
+   "imagem": "img/estacoes/inep-2023-1-c02-p09.jpg"
+  }
+ ],
+ "exames": [
+  {
+   "item": "Exames laboratoriais (página 1 de 2)",
+   "resultado": "Cliente: Paulo\nProtocolo: 001.2774113-5 Local: MATRIZ\nNascimento: 17/03/1993 CPF: 999.999.999-99\nSolicitante: REVALIDA Convênio: INEP BRASÍLIA\nHEMOGRAMA\nMaterial ...................................... SANGUE Valores de Referência\nHEMÁCIAS ................................ 4,85 4,32 a 5,66 milhões/mm3\nHEMOGLOBINA ........................ 13,5 13,3 a 16,7 g/dl\nHEMATÓCRITO ........................ 42,7 39,0 a 50,0 %\nVCM .......................................... 87,8 80,0 a 100 fl\nHCM .......................................... 30,6 27,3 a 32,6 pg\nCHCM ........................................ 34,8 31,0 a 37,0 g/dl\nRDW .......................................... 13,0 10,0 a 15,0 %\nOBSERVAÇÕES: Hemácias normocíticas e normocrômicas.\nLEUCÓCITOS ........................... 15,556 3.700 a 9.500 mm3\n- BASTÕES ............................... 2.179 (14,0 %) 581 a 968 mm3\n- SEGMENTADOS .................... 9.806 (63,0 %) 1.700 a 6.100 mm3\n- EOSINÓFILOS ........................ 0 (0,0 %) 30 a 460 mm3\n- BASÓFILOS ............................ 156 (1,0 %) 000 a 130 mm3\n- LINFÓCITOS ........................... 2.491 (16,0 %) 1.000 a 3.200 mm3\n- MONÓCITOS .......................... 934 (6,0 %) 200 a 920 mm3\nPLAQUETAS CONTAGEM ...... 234.000 150.000 a 450.000 mm3\nGLICEMIA (sem jejum) ............... 210 g/dL Glicemia em jejum: 70 a 99 g/dL\nPós-prandial (após 2h) <120 g/dL\nSÓDIO ........................................ 140 mEq/L 135 a 145 mEq/L\nPOTÁSSIO ................................. 4,5 mEq/L 3,5 a 5,0 mEq/L\nUREIA ......................................... 40 mg/dL 15 a 45 mg/dL\nCREATININA .............................. 1,2 mg/dL 0,7 a 1,3 mg/dL\nPROTEÍNA C REATIVA ............. 30 mg/dL >8mg/dL\nNota(s):\n1.Valores de referência de acordo com idade e sexo, exceto para gestantes.\nRef.: BAIN, B.J. Blood Cells: a practical guide. 4 ed. Oxford: Blackwell Publishing, 2006. 476p. AUSHANSKY, K. et al. Williams\nHematology, 8 ed., MacGraw Hill Companies, Inc., 2010."
+  },
+  {
+   "item": "Exames laboratoriais – (página 2 de 2)",
+   "resultado": "Cliente: Paulo\nProtocolo: 001.2774113-5 Local: MATRIZ\nNascimento: 17/03/1993 CPF: 999.999.999-99\nSolicitante: REVALIDA Convênio: INEP BRASÍLIA\nSUMÁRIO DE URINA:\nMaterial: URINA\nMétodo: físico químico automatizado e análise do sedimento por imagens digitalizadas e/ou microscopia de\ncontraste de fase.\nValores de Referência\nEXAME FÍSICO-QUÍMICO:\nCOR ........................................ amarela amarela\nASPECTO .............................. límpido límpidio/ligeiramente turvo\nDENSIDADE ........................... 1025 1002 a 1030\npH ........................................... 5,0 5,0 a 8,0\nPROTEÍNA ............................. negativa negativa\nGLICOSE ................................ negativa negativa\nCETONAS ............................ negativa negativa\nBILIRRUBINAS ....................... negativa negativa\nUROBILINOGÊNIO .............. negativo Até 1 mg/dl (negativo)\nANALISE DO SEDIMENTO:\nLEUCÓCITOS ........................ 2 até 4 p/ml\nHEMÁCIAS ............................. 1 até 4 p/ml\nCÉLULAS EPITELIAIS ........... raras ausentes/raras\nNota(s): Não foram pesquisadas outras substancias redutoras além da Glicose.\nTODO TESTE LABORATORIAL DEVE SER CORRELACIONADO COM O QUADRO CLÍNICO DO PACIENTE, SEM O QUAL A\nINTERPRETAÇÃO DOS RESULTADOS É APENAS RELATIVA.\nUROCULTURA: exame em andamento.\nHEMOCULTURA: exame em andamento."
+  },
+  {
+   "item": "Radiografia de tórax",
+   "resultado": "Laudo: Radiografia de tórax dentro dos padrões de normalidade.",
+   "imagem": "img/estacoes/inep-2023-1-c02-p12.jpg"
+  },
+  {
+   "item": "Exames de imagem – abdome total",
+   "resultado": "ULTRASSONOGRAFIA DE ABDOME TOTAL\nFígado de tamanho levemente aumentado, com sinais de esteatose moderada. Em fossa\nilíaca direita, nota-se discreto borramento de gordura em região cecal compatível com\nmanipulação cirúrgica recente. Ausência de coleções líquidas evidenciadas ao método.\nDemais aspectos normais.\nTOMOGRAFIA DE ABDOME TOTAL\nFígado com sinais de esteatose moderada. Pequena quantidade de líquido livre, sem\nseptação, localizado em fossa ilíaca direita, sugerindo manipulação cirúrgica recente.\nAusência de coleções em pelve, nos espaços subfrênicos e sub-hepático. Demais\naspectos normais."
+  },
+  {
+   "item": "Ecocardiograma transtorácico",
+   "resultado": " Valva mitral com folhetos espessados, abertura reduzida em cúpula. Presença de\nimagem algodonosa, móvel, aderida a face atrial do folheto anterior, medindo cerca de\n8×4 mm com aspecto sugestivo de vegetação.\n Ao Doppler colorido, evidencia-se estenose da valva mitral leve.\n Não há evidências de outras lesões valvares.\n Função ventricular esquerda preservada. Não foram observadas outras anormalidades\nestruturais cardíacas ou vasculares.\nConclusão: Estenose mitral e presença de vegetação em valva mitral.",
+   "imagem": "img/estacoes/inep-2023-1-c02-p14.jpg"
+  }
+ ],
+ "diagnostico": "Verbaliza os diagnósticos diferenciais para esse caso. (1) infecção de sítio cirúrgico superficial / infecção de ferida cirúrgica / celulite local / abscesso na ferida operatória; (2) abscesso intra-abdominal / infecção de sítio cirúrgico profundo) / deiscência do coto apendicular / fístula entero-peritoneal; (3) infecção pulmonar / infecção respiratória / pneumonia; (4) endocardite infecciosa; (5)infecção do trato urinário.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "ele se chama Paulo, tem 30 anos, é casado e trabalha como servente de pedreiro",
+  "a febre iniciou há dois dias, melhora com o uso de medicação, mas logo volta",
+  "ele não aferiu a temperatura, mas acha que a febre era alta",
+  "não sentiu calafrios",
+  "tem acordado, desde o início da febre, molhado de suor",
+  "seu apetite está normal",
+  "ele percebeu que a ferida do umbigo está quente e vermelha",
+  "sente dor na ferida no local do umbigo e na barriga do lado direito",
+  "não teve náuseas, vômitos, ou parou de evacuar ou de eliminar gases",
+  "percebe que saia um pouco de secreção amarelada da ferida",
+  "não está com sintomas respiratórios",
+  "não está com sintomas urinários",
+  "não está com dor na lombar",
+  "ele já teve aceleração no coração outras vezes, mas não recentemente",
+  "a apendicectomia foi realizada via laparoscopia",
+  "ele usou sonda vesical/urinária até o dia posterior a cirurgia",
+  "ele fez uso de antibiótico após a cirurgia, até o dia de hoje, pela manhã, esquecendo de tomar alguns dias",
+  "ele tem um estreitamento em uma válvula do coração há vários anos e é diabético",
+  "o único medicamento que toma atualmente é a metformina",
+  "não faz uso de bebida alcóolicas ou drogas ilícitas",
+  "não possui alergias",
+  "fuma 10 cigarros por dia há 10 anos",
+  "sua mãe é diabética",
+  "essa foi a sua primeira cirurgia. O paciente simulado, caso o(a) participante fizesse a anamnese adequada, perguntaria ao(à) participante:",
+  "se tem algo errado com a cirurgia dele",
+  "o que ele tem e se existe algum outro diagnóstico possível",
+  "se ele precisará fazer outros exames. Caso o(a) participante fizesse as seguintes perguntas / solicitações ele(a) receberia os"
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)apresenta-se; (2)cumprimenta e identifica o paciente simulado.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.2
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Realiza anamnese, perguntando sobre as características da febre e sintomas associados: (1)tempo de início de febre; (2)temperatura; (3)persistência ou intermitência; (4)período específico do dia; (5)fatores de melhora.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.2,
+    "adequado": 0.4
+   },
+   "integral": "pergunta três características.",
+   "parcial": "pergunta duas características.",
+   "inadequado": "pergunta uma característica OU não pergunta característica alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre as PRINCIPAIS manifestações clínicas associadas ao quadro: (1)dor abdominal ou dor no local da cirurgia; (2)sudorese noturna; (3)náuseas E/OU vômitos; (4)parada de eliminação de gases E/OU evacuações E/OU mudança do hábito intestinal; (5)Alterações na ferida operatória (hiperemia, edema, saída de secreção, calor local, dor).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta quatro itens OU cinco itens.",
+   "parcial": "pergunta dois OU três itens.",
+   "inadequado": "pergunta um item OU não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre OUTRAS manifestações clínicas associadas ao quadro: (1) calafrios; (2) sintomas urinários: disúria OU polaciúria OU hematúria OU urina fétida; (3) dor lombar; (4) sintomas cardíacos: palpitações OU dispneia OU desmaio; (5) sintomas respiratórios: tosse OU secreção OU falta de ar.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "pergunta quatro OU cinco itens.",
+   "parcial": "pergunta dois OU três itens.",
+   "inadequado": "pergunta apenas um item OU não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Exame Físico interpreta os achados da infecção de sítio cirúrgico da região umbilical: (1)hiperemia / eritema / vermelhidão / rubor; (2)saída de secreção seropurulenta / sero-hemática; (3)edema / abaulamento / enduramento.",
+   "peso": 1.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.6,
+    "adequado": 1.2
+   },
+   "integral": "interpreta três achados.",
+   "parcial": "interpreta dois achados.",
+   "inadequado": "interpreta um achado OU não interpreta achado algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Verbaliza os diagnósticos diferenciais para esse caso. (1) infecção de sítio cirúrgico superficial / infecção de ferida cirúrgica / celulite local / abscesso na ferida operatória; (2) abscesso intra-abdominal / infecção de sítio cirúrgico profundo) / deiscência do coto apendicular / fístula entero-peritoneal; (3) infecção pulmonar / infecção respiratória / pneumonia; (4) endocardite infecciosa; (5)infecção do trato urinário.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "verbaliza o diagnóstico diferencial para quatro OU cinco itens.",
+   "parcial": "verbaliza o diagnóstico diferencial para três itens.",
+   "inadequado": "verbaliza o diagnóstico diferencial para dois OU um item OU não verbaliza diagnóstico diferencial para item algum.",
+   "evidencia": "OBSERVAÇÃO: só serão pontuados os diagnósticos diferenciais verbalizados antes da solicitação dos exames complementares.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Solicita os PRINCIPAIS exames laboratoriais. (1)Hemograma com ou sem VHS; (2)Proteína C Reativa (PCR); (3)Sumário de Urina / EAS / Urina tipo I / Urina simples; (4)Glicemia.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita os quatro exames.",
+   "parcial": "solicita dois OU três exames.",
+   "inadequado": "não solicita exame algum OU solicita apenas um exame.",
+   "evidencia": "OBSERVAÇÃO: Só serão pontuados os DEZ primeiros exames laboratoriais citados.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Solicita OUTROS exames laboratoriais. (1)Hemocultura; (2)Urocultura; (3)Sódio E potássio; (4)Creatinina somente OU ureia e creatinina; (5)LDH / DHL.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "solicita três OU quatro exames.",
+   "parcial": "solicita dois exames.",
+   "inadequado": "solicita um exame OU não solicita exame algum.",
+   "evidencia": "OBSERVAÇÃO: só serão pontuados os DEZ primeiros exames laboratoriais citados.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Solicita uma Radiografia (Raio x) de Tórax PA.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.4
+   },
+   "integral": "solicita o exame.",
+   "parcial": null,
+   "inadequado": "não solicita o exame.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Solicita uma Ultrassom / Ultrassonografia / USG / Ecografia de abdome total OU Tomografia / Tomografia computadorizada de abdome total.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.4
+   },
+   "integral": "solicita um dos exames.",
+   "parcial": null,
+   "inadequado": "não solicita exame algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Solicita Ecocardiograma.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.4
+   },
+   "integral": "solicita o exame.",
+   "parcial": null,
+   "inadequado": "não solicita o exame.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Verbaliza o diagnóstico definitivo: (1)infecção de sítio cirúrgico superficial / infecção de ferida operatória / ferida infectada; (2)provável endocardite infecciosa.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "cita os dois diagnósticos.",
+   "parcial": "cita apenas um dos diagnósticos.",
+   "inadequado": "não cita diagnóstico algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Execução das tarefas na ordem determinada.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.2
+   },
+   "integral": "executa as etapas na ordem determinada.",
+   "parcial": null,
+   "inadequado": "não executa as etapas na ordem determinada.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "tarefas do participante não encontradas no caderno"
+ ]
+}

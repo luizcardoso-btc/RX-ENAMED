@@ -1,0 +1,244 @@
+{
+ "id": "inep-2022-1-e02",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.1",
+  "estacao": 2,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2022_1_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Cirurgia",
+ "especialidade": "Cirurgia geral",
+ "tema": "Sangramento retal vivo há 6 meses",
+ "titulo": "Sangramento retal vivo há 6 meses",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Terciária: ambulatorial e hospitalar. A unidade possui a seguinte infraestrutura: • setor de radiologia com radiologia convencional, tomografia computadorizada e ressonância magnética; • setor de endoscopia; • laboratório de análises clínicas; • leitos de internação de alta complexidade; • centro cirúrgico; e • Unidade de Terapia Intensiva (UTI).",
+ "instrucoes": [
+  "Paciente de 55 anos encaminhado de uma cidade pequena do interior, com queixa de sangramento retal vivo há 6 meses. Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:",
+  "realizar anamnese do paciente",
+  "solicitar e interpretar o exame físico",
+  "solicitar e interpretar exames complementares que considere pertinentes ao caso clínico",
+  "definir a(s) hipótese(s) diagnóstica(s) e sua(s) etiologia(s)",
+  "solicitar os exames para complementação diagnóstica",
+  "verbalizar a conduta terapêutica necessária. O PACIENTE SIMULADO NÃO DEVE SER TOCADO DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar anamnese do paciente",
+  "solicitar e interpretar o exame físico",
+  "solicitar e interpretar exames complementares que considere pertinentes ao caso clínico",
+  "definir a(s) hipótese(s) diagnóstica(s) e sua(s) etiologia(s)",
+  "solicitar os exames para complementação diagnóstica",
+  "verbalizar a conduta terapêutica necessária. O PACIENTE SIMULADO NÃO DEVE SER TOCADO DURANTE O ATENDIMENTO."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "Solicita exames complementares laboratoriais como plano diagnóstico (especifica pelo menos o hemograma).",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Identifica-se e identifica adequadamente o paciente.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza todos os comandos.",
+   "parcial": "realiza somente um comando.",
+   "inadequado": "não realiza nenhum dos comandos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre as características do sangramento: (1) aspecto; (2) intensidade; (3) frequência; (4) duração.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta sobre todas as características.",
+   "parcial": "pergunta apenas duas ou três características.",
+   "inadequado": "pergunta apenas uma ou não pergunta nenhuma das características.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Realiza anamnese, perguntando sobre sintomas associados – digestivos: (1) ritmo intestinal OU diarreia E constipação; (2) dor tipo cólica; (3) distensão abdominal; (4) tenesmo; e consumptivos: (5) perda de peso; (6) astenia; (7) anorexia.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta sobre todas as possibilidades (4 sintomas digestivos e 3 sintomas consumptivos).",
+   "parcial": "pergunta apenas dois ou três sintomas digestivos e apenas dois sintomas consumptivos.",
+   "inadequado": "não pergunta nenhum dos itens ou somente um dos sintomas consumptivos e/ou um dos sintomas digestivos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Solicita a realização do exame físico: (1) exame físico geral; e (2) exame proctológico.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "solicita a realização dos dois exames.",
+   "parcial": "solicita a realização de apenas um dos exames.",
+   "inadequado": "não solicita a realização de nenhum dos exames físicos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita exames complementares laboratoriais como plano diagnóstico (especifica pelo menos o hemograma).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita a colonoscopia ou a retossigmoidoscopia.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "solicita a colonoscopia.",
+   "parcial": "solicita a retossigmoidoscopia.",
+   "inadequado": "não solicita colonoscopia nem retossigmoidoscopia.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Solicita o resultado da biópsia.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Interpreta de maneira adequada o caso, fazendo o diagnóstico do sangramento retal: (1) câncer colorretal/ adenocarcinoma de cólon se solicitou biópsia; e (2) doença hemorroidária.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "identifica as duas causas de sangramento retal.",
+   "parcial": "dá somente o diagnóstico de câncer.",
+   "inadequado": "não dá o diagnóstico de câncer ou dá somente o diagnóstico de hemorroida.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Solicita os exames de estadiamento/imagem: (1) TC de tórax; (2) TC de abdome total, ou TC de abdome superior e TC de pelve, ou TC de abdome superior e RM de pelve; (3) CEA.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "solicita os três itens corretamente.",
+   "parcial": "solicita apenas 1 exame de imagem, com ou sem o CEA.",
+   "inadequado": "não solicita nenhum item de imagem, ou só solicita o CEA, ou solicita apenas o PET TC. *PET TC não faz parte de exames de rotina para estadiamento.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Explica sobre a potencial gravidade do quadro.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "explica.",
+   "parcial": null,
+   "inadequado": "não explica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Indica tratamento do câncer colorretal.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "informa possibilidade de cirurgia/encaminhamento do paciente ao cirurgião",
+   "parcial": null,
+   "inadequado": "não indica nenhum tratamento adequado ou somente indica tratamento para a doença hemorroidária.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Explica que, após a cirurgia, o paciente poderá precisar de tratamento complementar (adjuvante).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "fala sobre a possibilidade de quimioterapia.",
+   "parcial": null,
+   "inadequado": "não fala sobre o assunto.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

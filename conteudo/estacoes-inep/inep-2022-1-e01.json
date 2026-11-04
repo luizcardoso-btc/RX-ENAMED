@@ -1,0 +1,178 @@
+{
+ "id": "inep-2022-1-e01",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.1",
+  "estacao": 1,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2022_1_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Clínica Médica",
+ "especialidade": "Clínica Médica",
+ "tema": "Diarreia há três meses e dor abdominal",
+ "titulo": "Diarreia há três meses e dor abdominal",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Terciária: ambulatorial e hospitalar. A unidade possui a seguinte infraestrutura: • consultórios; • setor de endoscopia; e • laboratório de análise clínica.",
+ "instrucoes": [
+  "Paciente de 60 anos com queixa de diarreia há três meses e dor abdominal. Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:",
+  "realizar anamnese da paciente",
+  "solicitar qualquer exame físico e/ou complementar que seja pertinente ao caso",
+  "decidir sobre investigação complementar",
+  "formular hipóteses diagnósticas",
+  "elaborar plano terapêutico. A PACIENTE SIMULADA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar anamnese da paciente",
+  "solicitar qualquer exame físico e/ou complementar que seja pertinente ao caso",
+  "decidir sobre investigação complementar",
+  "formular hipóteses diagnósticas",
+  "elaborar plano terapêutico. A PACIENTE SIMULADA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "Estabelece o diagnóstico de retocolite ulcerativa (RCUI).",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "(1) Apresenta-se e (2) cumprimenta a paciente simulada.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza nenhuma das ações.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Realiza anamnese, perguntando sobre as características da diarreia: (1) frequência da diarreia; (2) número de evacuações por dia; (3) consistência das fezes; (4) presença de muco; (5) presença de sangue; (6) despertar noturno; (7) presença de alimentos não digeridos.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "pergunta cinco ou mais características.",
+   "parcial": "pergunta apenas três ou quatro características.",
+   "inadequado": "não pergunta ou pergunta apenas duas ou menos características.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta manifestações clínicas associadas ao quadro: (1) febre; (2) perda de peso; (3) anorexia (perda de apetite); (4) artralgia; (5) dor abdominal; (6) distensão abdominal; (7) fadiga (fraqueza, cansaço ou indisposição); (8) sinais sugestivos de anemia.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta cinco ou mais características.",
+   "parcial": "pergunta apenas três ou quatro características.",
+   "inadequado": "não pergunta ou pergunta apenas duas ou menos características.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Solicita exame físico.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita exames laboratoriais.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita colonoscopia (endoscopia digestiva baixa) e o resultado da biópsia.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.5,
+    "adequado": 2.0
+   },
+   "integral": "solicita a colonoscopia (endoscopia digestiva baixa) e a biópsia.",
+   "parcial": "solicita apenas a colonoscopia (endoscopia digestiva baixa).",
+   "inadequado": "não solicita nenhum dos dois.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Estabelece o diagnóstico de retocolite ulcerativa (RCUI).",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 2.0
+   },
+   "integral": "estabelece o diagnóstico de RCUI.",
+   "parcial": "não estabelece o diagnóstico de RCUI, mas estabelece o diagnóstico de doença de Crohn ou doença inflamatória intestinal.",
+   "inadequado": "lista qualquer outro diagnóstico que não seja RCUI, doença de Crohn, nem doença inflamatória intestinal.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Prescreve tratamento específico para retocolite ulcerativa de intensidade leve a moderada.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 2.0
+   },
+   "integral": "propõe somente derivados do 5-ASA (mesalazina ou sulfasalazina) OU propõe derivados do 5-ASA (mesalazina ou sulfasalazina) com corticoide via oral.",
+   "parcial": null,
+   "inadequado": "não propõe o tratamento adequado conforme os esquemas mencionados ou propõe só o corticoide via oral.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

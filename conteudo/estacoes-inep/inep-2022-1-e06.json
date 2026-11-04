@@ -1,0 +1,180 @@
+{
+ "id": "inep-2022-1-e06",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.1",
+  "estacao": 6,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2022_1_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Clínica Médica",
+ "especialidade": "Clínica Médica",
+ "tema": "Dor no tornozelo esquerdo há 1 dia",
+ "titulo": "Dor no tornozelo esquerdo há 1 dia",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Secundária: ambulatorial e hospitalar. A unidade possui a seguinte infraestrutura: • laboratório de análise clínica; e • laboratório de imagem (radiologia e ecografia).",
+ "instrucoes": [
+  "Paciente de 56 anos com queixa de dor no tornozelo esquerdo há 1 dia. Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:",
+  "realizar anamnese",
+  "solicitar e interpretar o exame físico",
+  "solicitar e interpretar exames complementares",
+  "indicar hipóteses diagnósticas",
+  "indicar terapêutica inicial",
+  "orientar mudanças de hábitos de vida. O PACIENTE SIMULADO NÃO DEVE SER TOCADO DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar anamnese",
+  "solicitar e interpretar o exame físico",
+  "solicitar e interpretar exames complementares",
+  "indicar hipóteses diagnósticas",
+  "indicar terapêutica inicial",
+  "orientar mudanças de hábitos de vida. O PACIENTE SIMULADO NÃO DEVE SER TOCADO DURANTE O ATENDIMENTO."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "Hipótese diagnóstica.",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Cumprimenta o paciente, (1) apresentando-se e (2) perguntando os dados do paciente.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza os dois itens.",
+   "parcial": "realiza apenas um item.",
+   "inadequado": "não realiza nenhum item.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Realiza anamnese. Questiona sobre: (1) características da dor e (2) Febre ou calafrios.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "Questiona os dois itens.",
+   "parcial": "Questiona apenas um item.",
+   "inadequado": "Não questiona nenhum dos itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre antecedentes pessoais e familiares: (1) ingesta de bebida alcoólica, (2) medicamentos, (3) dieta hiperproteica (ou dieta rica em proteínas), (4) trauma, (5) episódio prévio semelhante de artrite em articulação ou articulações MMII, (6) síndrome metabólica ou comorbidades associadas (diabetes, hipertensão, dislipidemia), (7) história familiar de doença ou comorbidade semelhante.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "pergunta 5 ou mais itens.",
+   "parcial": "pergunta apenas 3 ou 4 itens.",
+   "inadequado": "pergunta apenas 2 ou menos itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Interpreta exames laboratoriais.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "identifica hiperuricemia (ou ácido úrico elevado ou aumento do ácido úrico).",
+   "parcial": null,
+   "inadequado": "não identifica hiperuricemia.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita exames de imagem: radiografia de tornozelo e/ou pé, ou ecografia do tornozelo esquerdo.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "solicita um dos exames.",
+   "parcial": null,
+   "inadequado": "não solicita nenhum dos exames.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Hipótese diagnóstica.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "cita o diagnóstico de artrite por gota (gota, artrite gotosa, monoartrite gotosa ou crise gotosa).",
+   "parcial": "cita um dos diagnósticos diferenciais (artrite séptica, celulite ou erisipela), sem citar gota.",
+   "inadequado": "não cita nenhum dos diagnósticos mencionados.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Proposta medicamentosa para tratamento inicial: uso de anti- inflamatórios não esteroidais e/ou corticoide e/ou colchicina.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "cita pelo menos uma das opções.",
+   "parcial": null,
+   "inadequado": "não cita nenhuma das opções.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Proposta terapêutica para estilo de vida após a crise aguda: (1) orientação dietética (restringir sódio, carne vermelha, embutidos, frutos do mar e bebida alcoólica); e (2) recomendação de atividade física regular.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "propõe as duas orientações.",
+   "parcial": "propõe uma das orientações apenas.",
+   "inadequado": "não propõe orientações.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

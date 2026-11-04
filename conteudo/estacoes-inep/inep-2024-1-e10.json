@@ -1,0 +1,259 @@
+{
+ "id": "inep-2024-1-e10",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.1",
+  "estacao": 10,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+ "especialidade": "Medicina de Família e Comunidade",
+ "tema": "Estação 10",
+ "titulo": "Estação 10",
+ "duracaoMin": 10,
+ "cenario": "",
+ "instrucoes": [],
+ "tarefas": [],
+ "historia": "A Estação abordou o atendimento de um paciente chamado Manoel, de 65 anos, diabético há 15 anos, em uso, desde a última consulta, de metformina e gliclazida em dose máxima. Ele comparece a consulta de retorno, com resultado de hemoglobina glicada de 10%, para receber orientações sobre o início do uso de insulina. O paciente é eutrófico, ativo fisicamente e segue seu plano alimentar regularmente.",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "homogeneizar a insulina, inserir a agulha no frasco, aspirar o conteúdo equivalente a, aproximadamente, 10 unidades, aplicá-la no molde, anotar na figura do corpo humano os possíveis locais de aplicação e orientar o paciente sobre o rodízio nessas aplicações",
+  "orientar o paciente de que frasco de insulina que está sendo utilizado poderá se mantido fora da geladeira e que os frascos de insulina que não estão sendo utilizados devem ser armazenados na geladeira, longe das paredes, na embalagem original e acondicionada em recipiente plástico ou de metal com tampa",
+  "explicar que o descarte da seringa com agulha acoplada deve ser realizado em recipiente para material perfuro cortante (fornecido pela UBS) ou em recipiente rígido resistente (ex.: frasco de amaciante) e que se deve entregar o recipiente cheio na UBS ou na farmácia para descarte adequado",
+  "informar o paciente sobre, ao menos, seis sinais (ou sintomas) de hipoglicemia, tais como fome, tontura, fraqueza, cefaleia, confusão, coma, convulsão, cansaço, visão turva, sudorese, taquicardia ou palpitação, sensação desagradável de apreensão, mudança de humor e de comportamento, tremor, dormência ou formigamento nos lábios e na língua",
+  "orientar o paciente, com relação ao tratamento da hipoglicemia, a ingerir carboidrato de absorção rápida, como duas colheres de chá de açúcar, ou água com uma colher de sopa de açúcar, ou 100 mL de suco de fruta ou de refrigerante, ou duas balas, ou uma colher de sopa de mel",
+  "orientar o paciente que, caso ele não consiga engolir, ele deve solicitar auxílio, a um familiar ou a um acompanhante, para que essa pessoa coloque açúcar ou mel embaixo da língua do paciente ou entre a gengiva e a bochecha, ou o acompanhante/paciente pode optar por glucagon injetável. No decorrer do atendimento, caso a anamnese fosse feita de maneira adequada pelo(a) participante, o paciente simulado poderia perguntar:",
+  "o modo de preparo, armazenagem e aplicação a insulina",
+  "as partes do seu corpo em que ele poderá aplicar a injeção",
+  "os cuidados que ele deverá ter com a seringa e com a agulha após o uso e se elas podem ser reaproveitadas",
+  "como a seringa e a agulha deverão ser descartadas",
+  "os sintomas da hipoglicemia",
+  "a conduta que ele deverá tomar quando sentir os sintomas de hipoglicemia. Não foram utilizados"
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)cumprimenta o paciente simulado; (2)identifica-se; (3)dirige-se a ele pelo nome, pelo menos uma vez.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.125,
+    "adequado": 0.25
+   },
+   "integral": "realiza as três ações.",
+   "parcial": "realiza apenas duas ações.",
+   "inadequado": "realiza apenas uma ação ou não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Estabelece contato empático com o paciente: (1)mantém contato visual ao longo da consulta; (2)mantém postura ativa e interessada ao longo da consulta; (3)acolhe e tranquiliza o paciente quanto aos medos dele.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.125,
+    "adequado": 0.25
+   },
+   "integral": "realiza as três ações.",
+   "parcial": "realiza duas ações.",
+   "inadequado": "realiza uma ação OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Mantém o diálogo respeitoso com o paciente. (1)escuta a fala do paciente sem interrompê-lo; (2)responde às perguntas do paciente.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.125,
+    "adequado": 0.25
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Utiliza linguagem acessível com o paciente simulado, evitando termos técnicos de difícil compreensão:",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "utiliza linguagem acessível.",
+   "parcial": null,
+   "inadequado": "não utiliza linguagem acessível.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Demonstra e verbaliza o passo a passo do preparo da insulina: (1)higienizar as mãos com água e sabão, ou com álcool; (2)limpar a tampa do frasco usando algodão com álcool; (3) rolar, gentilmente, o frasco de insulina entre as mãos para misturá-la (não agitar o frasco); (4)puxar o êmbolo da seringa; (5)inserir a agulha no frasco e injetar o ar da seringa dentro do frasco; (6) sem retirar a agulha, posicionar o frasco com a tampa para baixo; (7)puxar o êmbolo lentamente aspirando a insulina; (8)verificar se existem bolhas de ar; (9)retirar seringa/agulha do frasco.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "demonstra e verbaliza as nove ações.",
+   "parcial": "demonstra e verbaliza seis a oito ações.",
+   "inadequado": "demonstra e verbaliza cinco ações ou menos OU apenas verbaliza, e não demonstra as ações OU não demonstra nem realiza ação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Demonstra a técnica de aplicação da insulina: (1)pinça levemente o local a ser injetado entre dois dedos; (2)introduz a agulha completamente no molde; (3)introduz a agulha em ângulo de 90°; (4)injeta toda a insulina no molde; (5) espera alguns segundos após a aplicação antes de retirar a agulha do molde.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "demonstra as cinco ações.",
+   "parcial": "demonstra três ou quatro ações.",
+   "inadequado": "demonstra um ou duas ações OU não demonstra ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Informa sobre o armazenamento da insulina: (1)deve-se manter refrigerada a insulina sobressalente que não está em uso (o frasco fechado, lacrado ou ainda sem uso); (2) após aberto, o frasco pode ser mantido em temperatura ambiente ou em refrigeração; (3)a insulina não deve ser congelada; (4) a insulina armazenada na geladeira deve ser colocada nas prateleiras do meio, ou nas prateleiras da parte inferior, ou na gaveta de verduras — longe das paredes; (5) deve-se armazenar a insulina em sua embalagem original, acondicionada em recipiente plástico ou de metal com tampa.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "informa três ou mais itens.",
+   "parcial": "informa um ou dois itens.",
+   "inadequado": "não informa item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Informa os cuidados com a seringa e com a agulha: (1) a seringa e a agulha podem ser reaproveitadas pela mesma pessoa, desde que não tenham sido contaminadas; (2) após o uso, a seringa deve ser “recapada” pela própria pessoa; (3)não se deve higienizar a agulha com álcool.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "informa dois ou três itens.",
+   "parcial": "informa um item.",
+   "inadequado": "não informa item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Informa sobre o descarte de seringa e de agulhas: (1)o descarte deve ser realizado em um recipiente próprio para material perfurocortante (fornecido pela unidade básica de saúde — UBS), ou em um recipiente rígido resistente (ex.: frasco de amaciante); (2) o recipiente cheio deve ser entregue em locais destinados para recolher esse tipo de material (ex.: UBS ou farmácia).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "informa os dois itens.",
+   "parcial": "informa um item.",
+   "inadequado": "não informa item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Assinala, na figura, os locais de aplicação da insulina: (1)braços (parte externa e superior); (2)coxas (parte anterior e lateral); (3)região abdominal; (4)região glútea.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "assinala três ou quatro locais.",
+   "parcial": "assinala dois locais.",
+   "inadequado": "assinala um local OU não assinala local algum. Obs. CAB 36, Min. Saúde.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Informa sobre a importância da alternância de local de aplicação da insulina (para prevenção de lipodistrofia/ lipohipotrofia).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "informa.",
+   "parcial": null,
+   "inadequado": "não informa.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Informa sobre os sinais ou sintomas de hipoglicemia: (1)fome; (2)tontura ou vertigem; (3)fraqueza ou mal-estar; (4)cefaleia; (5)confusão; (6)coma ou inconsciência; (7)convulsão; (8)cansaço; (9)visão turva ou dilatação pupilar; (10)sudorese ou pele úmida e fria; (11)taquicardia ou palpitação; (12)sensação desagradável de apreensão ou ansiedade ou irritabilidade; (13)mudança de humor e de comportamento; (14)tremor; (15)dormência ou formigamento nos lábios e na língua; (16)calafrios; (17)náuseas ou vômitos; (18)postura de decorticação; (19)desmaio ou lipotimia; (20)sensação de morte iminente; (21)hipotensão; (22)sonolência.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "informa seis ou mais itens.",
+   "parcial": "informa quatro ou cinco itens.",
+   "inadequado": "informa três ou menos itens OU não informa item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Informa sobre o tratamento de hipoglicemia: (1) ingerir carboidratos de absorção rápida, tais como duas colheres de chá de açúcar, ou 100 mL de suco de fruta ou refrigerante, ou um copo de água com uma colher de sopa de açúcar, ou duas balas, ou uma colher de sopa de mel; (2)caso o paciente não consiga engolir, orientar acompanhante a colocar açúcar ou mel embaixo da língua do paciente ou entre a gengiva e a bochecha, ou aplicar glucagon (injetável).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "informa as duas ações.",
+   "parcial": "informa uma ação.",
+   "inadequado": "não informa ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "caderno da prova não encontrado para esta estação",
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

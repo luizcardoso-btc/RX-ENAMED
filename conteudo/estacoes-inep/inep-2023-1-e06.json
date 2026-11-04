@@ -1,0 +1,385 @@
+{
+ "id": "inep-2023-1-e06",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.1",
+  "estacao": 6,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Clínica Médica",
+ "especialidade": "Clínica Médica",
+ "tema": "Pressão elevada",
+ "titulo": "Pressão elevada",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Primária: Unidade Básica de Saúde. A unidade possui a seguinte infraestrutura:  laboratório de análises clínicas;  eletrocardiograma.",
+ "instrucoes": [
+  "Homem, preto, hipertenso, em tratamento com enalapril 20 mg/dia e hidroclorotiazida 25 mg/dia, retorna com queixa de pressão elevada.",
+  "Na consulta anterior, foram solicitados exames complementares, mas o paciente não retornou na data agendada. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "ATENÇÃO! VOCÊ DEVERÁ REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA."
+ ],
+ "tarefas": [
+  "realizar anamnese do paciente",
+  "solicitar e interpretar exame físico e aferir a pressão arterial do paciente",
+  "solicitar e interpretar os exames pertinentes ao caso",
+  "estabelecer e comunicar hipóteses diagnósticas",
+  "propor conduta para o paciente."
+ ],
+ "historia": "A Estação 6 de Clínica Médica abordou o caso de um homem de 47 anos, preto, com diagnóstico de Hipertensão Arterial Sistêmica (HAS) estágio 2. O diagnóstico foi realizado na primeira consulta na UBS, há 6 meses, quando foram prescritos enalapril 20 mg/dia e hidroclorotiazida 25 mg/dia. Apresentou reação adversa (tosse seca persistente) com o uso de enalapril. Trouxe o exame de Medida Residencial de Pressão Arterial (MRPA), realizado uma semana antes da consulta, confirmando a falta de controle da HAS, exames bioquímicos alterados, demonstrando critérios para síndrome metabólica (obesidade central, elevação da pressão arterial, elevação dos triglicerídeos, resistência insulínica).",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "ele se chama João, tem 47 anos e trabalha como operador de caixa de supermercado"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "ele tem pressão alta há 6 meses e está em uso de enalapril e hidroclorotiazida"
+   },
+   {
+    "topico": "Início e evolução (2)",
+    "resposta": "começou a ter muita tosse, pensou que poderia ser uma virose, mas a tosse não passou"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "a tosse é seca"
+   },
+   {
+    "topico": "Sintomas associados (2)",
+    "resposta": "não teve febre"
+   },
+   {
+    "topico": "Sintomas associados (3)",
+    "resposta": "as crises de tosse não estão acompanhadas de falta de ar"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "não apresentou sintomas de pirose, azia, queimação retroesternal, ou sintomas de IVAS (coriza, secreção pós nasal, dor de garganta, espirros)"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "não tem outras queixas ou sintomas"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "tem medido a pressão em casa e tem dado 17 × 10"
+   },
+   {
+    "topico": "Características do quadro (2)",
+    "resposta": "tem sentido dor na nuca"
+   },
+   {
+    "topico": "Sintomas associados (4)",
+    "resposta": "não apresenta náuseas ou insônia ou irritabilidade"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "está em uso de enalapril e hidroclorotiazida"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "nunca fumou ou usou drogas"
+   },
+   {
+    "topico": "Hábitos de vida (2)",
+    "resposta": "bebe cerveja aos finais de semana"
+   },
+   {
+    "topico": "Sintomas associados (5)",
+    "resposta": "que está acima do peso e não faz atividades físicas por falta de tempo"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "ele come muito salgadinho, doces e refrigerantes"
+   },
+   {
+    "topico": "Características do quadro (3)",
+    "resposta": "dorme cinco horas por noite"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "não tem diabetes, colesterol alto, alergias, problemas cardíacos ou outras doenças"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (2)",
+    "resposta": "nunca passou por uma cirurgia"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (3)",
+    "resposta": "ele dirá que a mãe dele é diabética e hipertensa, que seu pai é hipertenso e teve um infarto do coração e que sua irmã mais velha também é diabética e hipertensa. O paciente simulado"
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico – (página 1 de 2)",
+   "achado": "SINAIS VITAIS:\n1ª Aferição Pressão arterial (MSD): 176 × 108 mmHg.\n2ª Aferição Pressão arterial (MSE): 174 × 100 mmHg.\n3ª Aferição Pressão arterial (MSD): 170 × 100 mmHg.\nFrequência cardíaca: 88 batimentos por minuto.\nFrequência respiratória: 19 incursões respiratórias por minuto.\nTemperatura axilar: 36,3 °C.\nSaturação de oxigênio: 98% em ar ambiente.\nIMC: 29,40 kg/m2.\nCircunferência abdominal: 117 cm.\nPeso: 88 kg.\nAltura: 1,73 m.\nPaciente em bom estado geral, afebril, acianótico, anictérico e hidratado; alerta, orientado\nno tempo e no espaço. Sem edemas.\nAparelho respiratório: sem alterações.\nAparelho cardiovascular: sem alterações.\nAbdome: sem alterações.\nExtremidades: ausência de edemas."
+  },
+  {
+   "item": "Exame físico – (página 2 de 2)",
+   "achado": "ATENÇÃO: NESSE MOMENTO, VOCÊ DEVE DEMONSTRAR A TÉCNICA DE\nAFERIR PRESSÃO ARTERIAL DO PACIENTE COM ESFIGMOMANÔMETRO E\nESTETOSCÓPIO NO MEMBRO SUPERIOR DO PACIENTE SIMULADO.\nO MANGUITO É ADEQUADO A CIRCUNFERÊNCIA DO BRAÇO DO PACIENTE.\nREALIZE A AFERIÇÃO EM UM ÚNICO MEMBRO SUPERIOR.\nO OBJETIVO É AVALIAR A EXECUÇÃO DA TÉCNICA DE AFERIÇÃO. VOCÊ\nNÃO DEVE CONSIDERAR O RESULTADO DA MEDIDA DE PRESSÃO ARTERIAL\nAFERIDA NESSE MOMENTO, E SIM A DO IMPRESSO DO PACIENTE."
+  }
+ ],
+ "exames": [
+  {
+   "item": "Exames laboratoriais– (página 1 de 2)",
+   "resultado": "Cliente: João\nProtocolo: 001.2774113-5 Local: MATRIZ\nNascimento: 21/03/1976 CPF: 999.999.999-99\nSolicitante: REVALIDA Convênio: INEP BRASÍLIA\nHEMOGRAMA\nMaterial ...................................... SANGUE Valores de Referência\nHEMÁCIAS ................................ 5,32 4,32 a 5,66 milhões/mm3\nHEMOGLOBINA ........................ 14,4 13,3 a 16,7 g/dl\nHEMATÓCRITO ........................ 41,5 39,0 a 50,0 %\nVCM .......................................... 90,6 80,0 a 100 fl\nHCM .......................................... 31,44 27,3 a 32,6 pg\nCHCM ........................................ 34,7 31,0 a 37,0 g/dl\nRDW .......................................... 13,4 10,0 a 15,0 %\nOBSERVACÕES: Hemácias normocíticas e normocrômicas.\nLEUCÓCITOS ........................... 8.110 3.700 a 9.500 mm3\n- BASTÕES ............................... 167,4 (2%) 581 a 968 mm3\n- SEGMENTADOS .................... 5.000 (59%) 1.700 a 6.100 mm3\n- EOSINÓFILOS ........................ 320 (3%) 30 a 460 mm3\n- BASÓFILOS ............................ 50,22 (0,6%) 000 a 130 mm3\n- LINFÓCITOS ........................... 2.000 (28%) 1.000 a 3.200 mm3\n- MONÓCITOS .......................... 550 (8%) 200 a 920 mm3\nPLAQUETAS CONTAGEM ....... 225.000 150.000 a 450.000 mm3\nGLICEMIA (sem jejum) ............... 120 g/dL Glicemia em jejum: 70 a 99 g/dL\nHemoglobina Glicada .................. 6 %\nPós-prandial (após 2h) <120 g/dL\nSÓDIO ........................................ 143 mEq/L 135 a 145 mEq/L\nPOTÁSSIO ................................. 4,5 mEq/L 3,5 a 5,0 mEq/L\nUREIA ......................................... 37 mg/dL 15 a 45 mg/dL\nCREATININA .............................. 0,88 mg/dL 0,7 a 1,3 mg/dL\nNota(s):\n1.Valores de referência de acordo com idade e sexo, exceto para gestantes.\nRef.: BAIN, B.J. Blood Cells: a practical guide. 4 ed. Oxford: Blackwell Publishing, 2006. 476p. AUSHANSKY, K. et al. Williams\nHematology, 8 ed., MacGraw Hill Companies, Inc., 2010."
+  },
+  {
+   "item": "Exames laboratoriais – (página 2 de 2)",
+   "resultado": "COLESTEROL TOTAL ................. 241 mg/dL\nTriglicerídeos ................................. 166 mg/dL\nColesterol LDL .............................. 162,8 mg/dL\nColesterol HDL .............................. 45 mg/dL\nTabela I. valores referenciais e de alvo terapêutico (conforme avaliação de risco cardiovascular estimado pelo\nmédico solicitante do perfil lipídico) para adultos > 20 anos.\nLipídes Com jejum (mg/dL) Sem jejum (mg/dL) Categoria de referência\nColesterol total * <190 <190 Desejável\nHDL-C >40 >40 Desejável\nTriglicerídeos <150 <175 Desejável\nAlvo terapêutico (mg/dL) com e sem jejum\nCategoria de Risco (estimado pelo\nmédico solicitante)\nLDL-C Não HDL-C\nBaixo <130 <160\nIntermediário <100 <130\nAlto <70 <100\nMuito Alto <50 <80\nNota(s): a interpretação clínica do resultado deverá levar em consideração o motivo da indicação do exame, o estado metabólico\ndo paciente e a estratificação do risco para estabelecimento das metas terapêuticas.\n*pesquisar a possibilidade de hipercolesterolemia familiar quando CT> 310 mg/dL (adultos > 20 anos).\n** quando os níveis de triglicérides estiverem acima de 440 mg/dL (sem jejum), fica a critério médico repetir o teste\ncom jejum de 12 horas.\nFonte: consenso brasileiro para normatização da determinação laboratorial do perfil lipídico (ABRAMED, SBAC, SBS,\nSBEM, SBPG/ML)."
+  },
+  {
+   "item": "Eletrocardiograma",
+   "resultado": "Ritmo Sinusal.\nFrequência Cardíaca: 75 batimentos por minuto.\nAlterações da repolarização ventricular secundárias à sobrecarga ventricular esquerda.",
+   "imagem": "img/estacoes/inep-2023-1-c06-p32.jpg"
+  },
+  {
+   "item": "Medida residencial de pressão arterial",
+   "resultado": "(MRPA)\n1º Dia\n Manhã (em jejum): 178 × 104 mmHg, 172 × 100 mmHg, 170 × 102 mmHg.\n Antes do jantar: 168 × 110 mmHg, 170 × 100 mmHg, 166 × 104 mmHg.\n2º Dia\n Manhã (em jejum): 182 × 110 mmHg, 180 × 108 mmHg, 180 × 104 mmHg.\n Antes do jantar: 178 × 94 mmHg, 176 × 92 mmHg, 174 × 90 mmHg.\n3º Dia\n Manhã (em jejum): 166 × 98 mmHg, 168 × 96 mmHg, 164 × 94 mmHg.\n Antes do jantar: 176 × 102 mmHg, 172 × 98 mmHg, 168 × 96 mmHg.\n4º Dia\n Manhã (em jejum): 174 × 108 mmHg, 174 × 106 mmHg, 172 × 106mmHg.\n Antes do jantar: 170 × 100 mmHg, 168 × 102 mmHg, 166 × 98 mmHg.\n5º Dia\n Manhã (em jejum): 180 × 100 mmHg, 178 × 100 mmHg, 176 × 98 mmHg.\n Antes do jantar: 172 × 98 mmHg, 174 × 96 mmHg, 174 × 94 mmHg."
+  }
+ ],
+ "diagnostico": "Formula hipóteses diagnósticas: (1) tosse associada ao uso de Enalapril; (2) confirma o diagnóstico de hipertensão arterial descompensada (ou hipertensão arterial estágio / grau 2 ou hipertensão arterial não controlada ou sem controle).",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "posicionamento apropriado do paciente (sentado, pernas descruzadas e pés apoiados no chão)",
+  "posicionamento apropriado do manguito",
+  "mensuração da pressão arterial sistólica pelo método palpatório",
+  "mensuração da pressão arterial pelo método auscultatório (sistólica e diastólica). O paciente simulado, caso o(a) participante fizesse os questionamentos adequados, poderia informar ao(à) participante que:",
+  "ele se chama João, tem 47 anos e trabalha como operador de caixa de supermercado",
+  "ele tem pressão alta há 6 meses e está em uso de enalapril e hidroclorotiazida",
+  "começou a ter muita tosse, pensou que poderia ser uma virose, mas a tosse não passou",
+  "a tosse é seca",
+  "não teve febre",
+  "as crises de tosse não estão acompanhadas de falta de ar",
+  "não apresentou sintomas de pirose, azia, queimação retroesternal, ou sintomas de IVAS (coriza, secreção pós nasal, dor de garganta, espirros)",
+  "não tem outras queixas ou sintomas",
+  "tem medido a pressão em casa e tem dado 17 × 10",
+  "tem sentido dor na nuca",
+  "não apresenta náuseas ou insônia ou irritabilidade",
+  "está em uso de enalapril e hidroclorotiazida",
+  "nunca fumou ou usou drogas",
+  "bebe cerveja aos finais de semana",
+  "que está acima do peso e não faz atividades físicas por falta de tempo",
+  "ele come muito salgadinho, doces e refrigerantes",
+  "dorme cinco horas por noite",
+  "não tem diabetes, colesterol alto, alergias, problemas cardíacos ou outras doenças",
+  "nunca passou por uma cirurgia",
+  "ele dirá que a mãe dele é diabética e hipertensa, que seu pai é hipertenso e teve um infarto do coração e que sua irmã mais velha também é diabética e hipertensa. O paciente simulado, caso o(a) participante fizesse a anamnese adequada, perguntaria ao(à) participante:",
+  "se o(a) participante quer olhar um exame que ele trouxe",
+  "se ele(a) pode explicar o MRPA para ele",
+  "o significado da alteração em seu eletro",
+  "o que ele tem",
+  "se existe algo mais que ele possa fazer. Caso o(a) participante fizesse as seguintes perguntas / solicitações ele(a) receberia os"
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1) identifica-se e cumprimenta o paciente simulado; (2) pergunta algum dado de identificação (nome, idade, estado civil, profissão e/ou naturalidade).",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.125,
+    "adequado": 0.25
+   },
+   "integral": "realiza os dois procedimentos.",
+   "parcial": "realiza um dos procedimentos.",
+   "inadequado": "não realiza procedimento algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sintomas relacionados a queixa principal: (1) dor torácica; (2) febre; (3) expectoração; (4) dispneia; (5) sintomas relacionados a DRGE (pirose, epigastralgia); (6) manifestações de vias aéreas superiores (coriza, secreção pós-nasal).",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.375,
+    "adequado": 0.75
+   },
+   "integral": "investiga de cinco a seis itens listados.",
+   "parcial": "investiga de três a quatro itens listados.",
+   "inadequado": "investiga um ou dois itens OU não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre desencadeantes, agravantes e atenuantes da HAS e síndrome metabólica: (1)consumo de bebida alcoólica; (2)tabagismo; (3)qualidade do sono; (4)atividade física; (5)alimentação.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "investiga quatro ou cinco dos itens listados.",
+   "parcial": "investiga até três itens.",
+   "inadequado": "investiga um ou dois itens OU não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Solicita exame físico geral.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "solicita exame físico.",
+   "parcial": null,
+   "inadequado": "não solicita exame físico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Realiza adequadamente aferição da pressão arterial: (1) posicionamento apropriado do paciente (sentado, pernas descruzadas e pés apoiados no chão); (2) posicionamento apropriado do manguito; (3) mensuração da pressão arterial sistólica pelo método palpatório; (4) mensuração da pressão arterial pelo método auscultatório (sistólica e diastólica).",
+   "peso": 1.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.625,
+    "adequado": 1.25
+   },
+   "integral": "realiza adequadamente as quatro ações.",
+   "parcial": "realiza duas ou três ações.",
+   "inadequado": "realiza um item ou não realiza item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita exames laboratoriais: (1)hemograma; (2) lipidograma (ou colesterol total e frações, LDL, HDL e triglicérides); (3)glicose; (4)creatinina; (4)Na; (6)K; (7)EAS ou sumário de urina ou urina tipo 1.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "solicita quatro ou mais dos exames listados.",
+   "parcial": "solicita dois ou três dos exames listados.",
+   "inadequado": "solicita um exame OU não solicita exame algum.",
+   "evidencia": "OBSERVAÇÃO: O candidato só irá pontuar caso ele cite os exames listados ANTES de receber o impresso.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Solicita e analisa o eletrocardiograma.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita e associa as alterações do ECG à hipertensão.",
+   "parcial": "solicita, mas não associa corretamente os achados.",
+   "inadequado": "não solicita o exame.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Interpreta o exame MRPA, identificando HAS sem controle.",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.75
+   },
+   "integral": "interpreta os achados identificando HAS sem controle.",
+   "parcial": null,
+   "inadequado": "não interpreta os achados.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Formula hipóteses diagnósticas: (1) tosse associada ao uso de Enalapril; (2) confirma o diagnóstico de hipertensão arterial descompensada (ou hipertensão arterial estágio / grau 2 ou hipertensão arterial não controlada ou sem controle).",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "formula as duas hipóteses.",
+   "parcial": "formula uma das hipóteses.",
+   "inadequado": "não formula hipótese alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Orientação sobre mudanças de estilo de vida (MEV): (1)redução do peso; (2)redução do sódio na dieta; (3)redução da ingesta de álcool; (4)atividade física regular; (5)dieta saudável (rica em frutas, vegetais, grãos e baixo teor de gordura).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "orienta as quatro medidas listadas.",
+   "parcial": "orienta duas ou três das medidas listadas.",
+   "inadequado": "orienta uma medida listada OU não orienta medida alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Conduta medicamentosa: (1) prescreve combinação de anti-hipertensivos, preferencialmente bloqueador receptor (Losartana, Valsartana, Irbesartana, Candesartana, Olmesartana, Telmisartana, angiotensina) + bloqueador canal de cálcio (Anlodipino, Felodipino, Nifedipino, Nitrendipino, Manidipino, Lacidipino, Lercanidipino, Levanlodipino); (2) suspende enalapril.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "executa as duas condutas listadas.",
+   "parcial": "executa uma conduta listada.",
+   "inadequado": "não executa conduta listada alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Execução das tarefas na ordem determinada.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "executa as etapas na ordem determinada.",
+   "parcial": null,
+   "inadequado": "não executa as etapas na ordem determinada.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

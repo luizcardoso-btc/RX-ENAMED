@@ -1,0 +1,341 @@
+{
+ "id": "inep-2025-1-e04",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2025.1",
+  "estacao": 4,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2025_1_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2025_1_prova_habilidades_clinicas.pdf.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Ginecologia e Obstetrícia",
+ "especialidade": "Ginecologia e Obstetrícia",
+ "tema": "Você é um médico atuando em uma unidade básica de saúde (UBS) e atenderá uma paciente cham",
+ "titulo": "Você é um médico atuando em uma unidade básica de saúde (UBS) e atenderá uma paciente cham",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: primária. Tipo de atendimento: ambulatorial — unidade básica de saúde (UBS). A unidade apresenta a seguinte infraestrutura: ● consultório ginecológico.",
+ "instrucoes": [
+  "Você é um médico atuando em uma unidade básica de saúde (UBS) e atenderá uma paciente chamada Vera, de 25 anos, secundigesta, com idade gestacional de 15 semanas e 2 dias. Ela comparece à consulta com relato de febre há cerca de 5 dias e dor no corpo todo.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar anamnese relacionada à queixa principal da paciente",
+  "solicitar os exames pertinentes ao caso",
+  "formular e verbalizar a hipótese diagnóstica",
+  "classificar o quadro quanto à gravidade",
+  "indicar a conduta adequada."
+ ],
+ "historia": "A Estação 4 de Ginecologia e Obstetrícia aborda o caso de uma mulher de 25 anos, casada, balconista e secundigesta, com idade gestacional de 15 semanas e 2 dias. Ela comparece à consulta com relato de febre há cerca de 5 dias e dor no corpo todo. OBJETIVOS DE AVALIAÇÃO",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "seu nome é Vera, é casada, trabalha em uma loja como balconista e está grávida de seu segundo filho"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos",
+    "resposta": "sua idade gestacional é de 15 semanas e 2 dias"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "teve febre recorrente, manchas na pele desde o dia anterior, dor atrás do olho, dor no corpo todo e dor de cabeça"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "nunca se sentiu assim antes"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "sente-se muito cansada"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "sente dor nas juntas"
+   },
+   {
+    "topico": "Características do quadro (2)",
+    "resposta": "não teve nenhum dos seguintes sintomas/sinais: olho vermelho ou com secreção (conjuntivite); sensação de desmaio; sangramento da gengiva; dor abdominal forte; episódio de vômito; coriza; tosse; dor de garganta"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "tem sentido fraqueza"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "não tomou nenhum remédio para tratar desses sintomas, por medo de prejudicar a gravidez"
+   },
+   {
+    "topico": "Medicamentos (2)",
+    "resposta": "é bem saudável e não usa nenhum medicamento diariamente além de sulfato ferroso"
+   },
+   {
+    "topico": "Identificação (2)",
+    "resposta": "mora perto de pessoas com sintomas parecidos."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "Paciente: Vera\nPaciente normocorada, hidratada, anictérica e acianótica.\nTemperatura axilar: 39,2 °C.\nPressão arterial: 110 mmHg x 70 mmHg.\nFrequência cardíaca: 98 batimentos por minuto.\nSaturação de O2: 98% de oxigênio em ar ambiente.\nAbdome: altura uterina de 15 cm; BCF de 154 BPM.\nExame ginecológico: sem alterações.",
+   "chaves": [
+    "entregue pelo chefe de estação o participante exame físico",
+    "exame físico geral",
+    "exame ginecológico",
+    "exame obstétrico"
+   ]
+  }
+ ],
+ "exames": [
+  {
+   "item": "Cartão de pré natal",
+   "resultado": "MEDICAÇÃO EM USO:\nSULFATO FERROSO",
+   "imagem": "img/estacoes/inep-2025-1-c04-p16.jpg",
+   "chaves": [
+    "entregue pela paciente o participante pergunte o motivo da consulta"
+   ]
+  },
+  {
+   "item": "Prova do laço",
+   "resultado": "Paciente: Vera\nPresença de 25 petéquias.",
+   "imagem": "img/estacoes/inep-2025-1-c04-p18.jpg",
+   "chaves": [
+    "entregue pelo chefe de estação o participante a prova do laço"
+   ]
+  },
+  {
+   "item": "Teste do antígeno ns1",
+   "resultado": "Paciente: Vera\nResultado do teste do antígeno NS1: POSITIVO.",
+   "chaves": [
+    "entregue pelo chefe de estação o participante teste do antígeno ns1 para dengue",
+    "teste ns1",
+    "teste de antígeno",
+    "teste do antígeno ns",
+    "teste rápido ns1. referência bibliográfica de doenças transmissíveis. dengue: diagnóstico e manejo clínico: adulto e criança [recurso p.: il. disponível em: http://bvsms.saude.gov.br/bvs/publicacoes/dengue_ diagnostico_ manejo_clinico_6ed.pdf. acesso em: 01/06/2025"
+   ]
+  }
+ ],
+ "diagnostico": "Formula o diagnóstico: dengue",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "apresentar-se adequadamente à paciente",
+  "perguntar sobre sintomas/sinais relevantes ao quadro",
+  "perguntar sobre medicações em uso",
+  "solicitar exame físico",
+  "solicitar teste de antígeno NS1 para dengue",
+  "verbalizar o diagnóstico (dengue)",
+  "classificar corretamente a doença, conforme sua gravidade (dengue — grupo B)",
+  "indicar as condutas terapêuticas adequadas (paracetamol ou dipirona; reidratação oral)",
+  "indicar a realização de hemograma diariamente, até 48 horas após o fim da febre",
+  "orientar quanto aos sintomas/sinais de alarme: dor abdominal intensa (referida ou à palpação) contínua; vômitos persistentes; acúmulo de líquidos (ascite, derrame pleural, derrame pericárdico); hipotensão postural e(ou) lipotimia; hepatomegalia > 2 cm abaixo do rebordo costal; sangramento de mucosa; letargia e(ou) irritabilidade; aumento progressivo do hematócrito",
+  "mencionar que fará a notificação do caso ao SINAN."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)cumprimenta a paciente e(ou) fala o seu nome; (2) pergunta o motivo da consulta ou a queixa principal da paciente.",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.3
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre os seguintes sintomas e sinais: (1)dores articulares; (2)hiperemia ocular; (3)olho com secreção (conjuntivite); (4)cefaleia; (5)adinamia; (6)mialgias; (7)dor retro-orbitária; (8)anorexia; (9)sensação de desmaio; (10)sangramento da gengiva; (11)dor abdominal forte; (12)diarreia; (13)vômitos; (14)sintomas gripais (coriza, tosse, dor de garganta).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta sobre sete ou mais itens.",
+   "parcial": "pergunta sobre quatro a seis itens.",
+   "inadequado": "pergunta sobre três ou menos itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre medicações em uso.",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.3
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Solicita exame físico.",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.3
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita hemograma.",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.3
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita teste de antígeno NS1 para dengue.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.2,
+    "adequado": 0.4
+   },
+   "integral": "solicita teste do antígeno NS1 para dengue, teste NS1 ou teste do antígeno NS1 ou teste rápido NS1.",
+   "parcial": "solicita apenas teste de antígeno.",
+   "inadequado": "não solicita ou solicita teste rápido, sorologia, IgM ou outros testes.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Formula o diagnóstico: dengue",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "formula o diagnóstico de dengue.",
+   "parcial": "formula o diagnóstico de arbovirose.",
+   "inadequado": "não define dengue nem arbovirose.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Classifica como dengue – grupo B.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.4
+   },
+   "integral": "classifica.",
+   "parcial": null,
+   "inadequado": "não classifica corretamente.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Indica as seguintes condutas terapêuticas: (1)paracetamol ou dipirona; (2)reidratação oral ou hidratação oral.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "indica os dois itens.",
+   "parcial": "indica apenas o item (2).",
+   "inadequado": "não indica o item (2) OU não indica medicamento algum OU indica uso de AINE/AAS.",
+   "evidencia": "Observação: não é necessário que o participante justifique o porquê de cada item da prescrição para pontuar neste quesito.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Indica realização de hemograma diariamente, até 48 h após fim da febre.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "indica realização de hemograma diariamente, até 48 h após fim da febre.",
+   "parcial": "indica realização de hemograma sem especificar a frequência OU indica a realização de hematócrito e plaquetas diariamente até 48h após o fim da febre (sem citar o termo hemograma).",
+   "inadequado": "não indica realização de hemograma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Orienta os sinais de alarme: (1)dor abdominal intensa (referida ou à palpação) contínua; (2)vômitos persistentes; (3) acúmulo de líquidos (ascite, derrame pleural, derrame pericárdico); (4)hipotensão postural e(ou) lipotimia; (5)hepatomegalia > 2 cm abaixo do rebordo costal; (6)sangramento de mucosa; (7)letargia e(ou) irritabilidade; (8)aumento progressivo do hematócrito.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "cita 4 ou mais sinais de alarme.",
+   "parcial": "cita apenas 2 ou 3 sinais de alarme.",
+   "inadequado": "cita apenas 2 1 ou nenhum sinal menos sinais de alarme.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Menciona que fará a notificação do caso ao SINAN.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "menciona.",
+   "parcial": null,
+   "inadequado": "não menciona ou menciona que notificará para outro que não seja o SINAN.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2025.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

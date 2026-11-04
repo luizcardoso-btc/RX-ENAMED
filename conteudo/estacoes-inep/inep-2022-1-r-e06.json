@@ -1,0 +1,207 @@
+{
+ "id": "inep-2022-1-r-e06",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.1 – Reaplicação",
+  "estacao": 6,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022.1_PEP_reaplicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022.1_PV_reaplicacao_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Clínica Médica",
+ "especialidade": "Clínica Médica",
+ "tema": "Mulher de 26 anos, com queixas de fadiga, cefaleia e dormência nas mãos há seis meses. ATE",
+ "titulo": "Mulher de 26 anos, com queixas de fadiga, cefaleia e dormência nas mãos há seis meses. ATE",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Unidade de Atenção Terciária: Ambulatorial e Hospitalar.  A unidade possui infraestrutura compatível com a complexidade hospitalar.",
+ "instrucoes": [
+  "Mulher de 26 anos, com queixas de fadiga, cefaleia e dormência nas mãos há seis meses. ATENÇÃO: A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO. Nos próximos 10 minutos",
+  "ATENÇÃO: A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO. Nos próximos 10 minutos, você deverá executar as tarefas a seguir: 1. realizar anamnese da paciente.",
+  "ATENÇÃO: VOCÊ DEVERÁ, OBRIGATORIAMENTE, REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA."
+ ],
+ "tarefas": [
+  "realizar anamnese da paciente.",
+  "solicitar e interpretar exame físico.",
+  "solicitar e interpretar exames complementares do caso clínico, se necessário.",
+  "definir a(s) hipótese(s) diagnóstica(s) e sua(s) etiologia(s).",
+  "propor a conduta terapêutica necessária."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "Estabelece o diagnóstico de anemia megaloblástica secundária à deficiência de vitamina B12 (ou anemia por deficiência de vitamina B12 ou anemia perniciosa) decorrente da gastroplastia (bypass gástrico ou cirurgia bariátrica).",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1) identifica-se e (2) cumprimenta a paciente simulada.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": null,
+   "inadequado": "realiza uma ação ou não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre sinais e sintomas relacionados à anemia: (1)TGI (perda sanguínea como melena (ou sangue nas fezes), hematêmese); (2) ginecológica (alterações menstruais); (3) nutricional (alteração de apetite ou perguntar se estar se alimentando bem); (4) neoplásica (perda de peso não intencional recente).",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "pergunta quatro itens.",
+   "parcial": "pergunta dois ou três itens.",
+   "inadequado": "pergunta um item ou não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre manifestações neurológicas: (1) alterações marcha; (2) perda de força (ou fraqueza); (3) alterações de equilíbrio (quedas ou tontura).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "pergunta qualquer um dos itens.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "Observação: não pontuará o(a) participante que mencionar o(s) sintoma(s) após a leitura do IMPRESSO 2.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Solicita: (1) exame físico geral; (2) exame neurológico.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita ambos.",
+   "parcial": "solicita apenas um exame.",
+   "inadequado": "não solicita exame algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita: (1) hemograma; (2) vitamina B12 (cianocobalamina); (3) qualquer exame da cinética do ferro (ferro sérico, ferritina sérica, índice de saturação de transferrina);",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "solicita todos os três exames.",
+   "parcial": "solicita pelo menos hemograma e nível sérico de vitamina B12.",
+   "inadequado": "solicita um ou nenhum dos exames listados. Atenção: o (a) participante só irá pontuar caso ele(a) cite os exames listados ANTES de receber o impresso",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Identification achados laboratoriais: (1) hemograma com VCM aumentado; (2) vitamina B12 baixa; (3) ferro sérico normal.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "identifica as três alterações.",
+   "parcial": "identifica duas alterações.",
+   "inadequado": "identifica uma alteração ou não identifica alteração alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Estabelece o diagnóstico de anemia megaloblástica secundária à deficiência de vitamina B12 (ou anemia por deficiência de vitamina B12 ou anemia perniciosa) decorrente da gastroplastia (bypass gástrico ou cirurgia bariátrica).",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "estabelece o diagnóstico da anemia megaloblástica (ou anemia por deficiência de vitamina B12 ou anemia perniciosa).",
+   "parcial": "estabelece somente o diagnóstico de anemia, sem especificá-la.",
+   "inadequado": "não estabelece o diagnóstico de anemia.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Indica tratamento da anemia megaloblástica parenteral ou sublingual de manutenção com vitamina B12.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "indica vitamina B12 e o tempo de tratamento.",
+   "parcial": "indica vitamina B12, mas não refere o tempo de tratamento.",
+   "inadequado": "não indica o tempo ou indica o tempo incorretamente.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Indica a necessidade de monitoramento dos níveis séricos de vitamina B12.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica monitoramento.",
+   "parcial": null,
+   "inadequado": "não indica monitoramento.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Realiza adequadamente a sequência das tarefas, conforme solicitado nas orientações ao (à) participante.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "realiza.",
+   "parcial": null,
+   "inadequado": "não realiza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.1 – Reaplicação: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

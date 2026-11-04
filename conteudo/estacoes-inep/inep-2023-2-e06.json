@@ -1,0 +1,281 @@
+{
+ "id": "inep-2023-2-e06",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.2",
+  "estacao": 6,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2023_2.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Clínica Médica",
+ "especialidade": "Clínica Médica",
+ "tema": "Você está de plantão no pronto-socorro de um hospital terciário e atenderá um homem de 55 ",
+ "titulo": "Você está de plantão no pronto-socorro de um hospital terciário e atenderá um homem de 55 ",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: atenção terciaria à saúde — hospital de referência. A unidade possui a seguinte infraestrutura: • Pronto-socorro; • Laboratório de análises clínicas; • Exames de imagem; e • Terapia intensiva e leitos de enfermaria.",
+ "instrucoes": [
+  "Você está de plantão no pronto-socorro de um hospital terciário e atenderá um homem de 55 anos de idade, tabagista e hipertenso, que vem da sua casa, onde aguardava transporte para hospital há 8 horas. Ele chega ao hospital através da urgência. Encontra-se acompanhado pela esposa que refere que ele está com a fala “embolada” e com “perda de movimentos no braço esquerdo”. ATENÇÃO! CONSIDERE QUE O PACIENTE ESTÁ DEITADO NA MACA DURANTE TODA A CONSULTA. A ANAMNESE SERÁ DIRIGIDA À ACOMPANHANTE DO PACIENTE. CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!",
+  "ATENÇÃO! CONSIDERE QUE O PACIENTE ESTÁ DEITADO NA MACA DURANTE TODA A CONSULTA. A ANAMNESE SERÁ DIRIGIDA À ACOMPANHANTE DO PACIENTE."
+ ],
+ "tarefas": [
+  "Realizar anamnese do paciente",
+  "Solicitar e interpretar exame físico",
+  "Solicitar e interpretar o(s) exame(s) complementares pertinente(s)",
+  "Estabelecer e comunicar hipótese diagnóstica",
+  "Propor conduta para o paciente."
+ ],
+ "historia": "A Estação 6 de Clínica Médica aborda o caso de um AVC isquêmico há mais de 12 horas em paciente previamente hígido, porém hipertenso e tabagista. O paciente encontra-se afásico e hemiparético à esquerda, consciente e orientado. A esposa, acompanhante, será a informante da condição de saúde do marido para o(a) participante. Deverão ser feitos anamnese e exame físico com achados de alteração neurológica e de hipertensão. Os exames laboratoriais estão normais e a tomografia computadorizada de crânio confirma AVC isquêmico à direita.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": "55 anos",
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "Chama-se Ivonete e que é esposa do Roberto"
+   },
+   {
+    "topico": "Identificação (2)",
+    "resposta": "Roberto tem 55 anos de idade e trabalha como pedreiro"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "Roberto está com a fala ininteligível e lado esquerdo paralisado"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "Ambos passaram as últimas 12 horas na UPA aguardando transporte para o hospital de referência"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "Roberto está consciente e esforça-se para falar, mas consegue apenas produzir sons desconexos"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "Roberto consegue andar, está orientado e bastante angustiado com a situação na qual se encontra"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "Roberto não teve episódios similares anteriormente"
+   },
+   {
+    "topico": "Outras informações (6)",
+    "resposta": "Roberto não sofreu episódios traumáticos, como quedas, acidentes ou casos de violência nos últimos meses"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "Roberto não teve febre, cefaleia, vômitos ou alterações visuais"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "Roberto faz uso de metformina e de enalapril"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "Roberto não bebe ou usa drogas ilícitas, mas fuma 10 cigarros por dia"
+   },
+   {
+    "topico": "Outras informações (7)",
+    "resposta": "Roberto não faz exercícios físicos e tem alimentação desregrada à base de frituras, gorduras, açúcares e alimentos ultraprocessados"
+   },
+   {
+    "topico": "Antecedentes familiares",
+    "resposta": "O pai de Roberto morreu de derrame"
+   },
+   {
+    "topico": "Outras informações (8)",
+    "resposta": "Roberto não adoeceu recentemente"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "Roberto não possui alergias nem sofreu cirurgias. Diante das perguntas do(a) participante, ele(a) poderia receber os seguintes"
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "SINAIS VITAIS:\nFrequência cardíaca: 100 batimentos por minuto.\nPressão arterial: 220 × 140 mmHg.\nFrequência respiratória: 24 incursões respiratórias por minuto.\nTemperatura axilar: 36,7°C.\nSaturação de oxigênio: 96% em ar ambiente.\nIMC: 30 Kg/m2.\nPaciente em regular estado geral, afebril, acianótico, anictérico e hidratado; alerta,\norientado no tempo e espaço, pupilas isocóricas e fotorreagentes.\nAusculta respiratória: murmúrio vesicular audível em ambos hemitórax, sem ruídos\nadventícios.\nAusculta cardíaca: ritmo cardíaco regular em dois tempos, com bulhas\nnormofonéticas; ausência de sopros.\nAbdome: flácido, normotenso, ruídos hidroaéreos normoativos; indolor à palpação e\nsem visceromegalias.\nExtremidades bem perfundidas e sem edemas.\nEXAME NEUROLÓGICO:\nNível de consciência preservado;\nParalisia completa do andar inferior da face à esquerda;\nMotricidade ocular extrínseca sem alterações;\nForça grau (+2/+5) em Membro superior esquerdo e grau (+4/+5) em membro inferior\nesquerdo;\nForça normal nos demais segmentos;\nHipostesia tátil e dolorosa em dimídio esquerdo."
+  }
+ ],
+ "exames": [
+  {
+   "item": "EXAMES LABORATORIAIS (página 1 de 2)",
+   "resultado": "Cliente: Roberto\nProtocolo: 001.2774113-5 Local: MATRIZ\nNascimento: 10/08/1968 CPF: 999.999.999-99\nSolicitante: REVALIDA Convênio: INEP BRASÍLIA\nExame Valores de Referência\nHEMÁCIAS 5,32 milhões/mm3 4,32 a 5,66 milhões/mm3\nHEMOGLOBINA 14,2 g/dL 13,0 a 17,0 g/dL\nHEMATÓCRITO 43,0 % 38,0 a 50,0 %\nVCM 90,8 fl 80,0 a 100 fl\nHCM 32,6 pg 27,3 a 32,6 pg\nCHCM 34,8 g/dL 31,0 a 37,0 g/dL\nRDW 14,0 % 10,0 a 15,0 %\nOBSERVACÕES: Hemácias normocíticas e normocrômicas.\nLEUCÓCITOS 9.000 mm3 4.500 a 11.00 mm3\n–BASTÕES 85,0 (3%) mm3 581 a 968 mm3\n–SEGMENTADOS 5.100,0 (60%) mm3 1.700 a 6.100 mm3\n–EOSINÓFILOS 595,0 (7,0%) mm3 30 a 460 mm3\n–BASÓFILOS 42,5 (0,5%) mm3 000 a 130 mm3\n–LINFÓCITOS 2.167,5 (25,5%) mm3 1.000 a 3.200 mm3\n–MONÓCITOS 510,0 (6,0%) mm3 200 a 920 mm3\nPLAQUETAS (contagem) 160.000 mm3 150.000 a 450.000 mm3\nGLICEMIA (em jejum): 100 mg/dL 70 a 110 mg/dL\nSÓDIO (Na) 137 mmol/L 135 a 145 mmol/L\nPOTÁSSIO (K) 4,0 mmol/L 3,5 a 5,5 mmol/L\nUREIA 30 mg/dL < 50 mg/dL\nCREATININA 0,8 mg/dL < 1,5 mg/dL"
+  },
+  {
+   "item": "EXAMES LABORATORIAIS (página 2 de 2)",
+   "resultado": "Cliente: Roberto\nProtocolo: 001.2774113-5 Local: MATRIZ\nNascimento: 10/08/1968 CPF: 999.999.999-99\nSolicitante: REVALIDA Convênio: INEP BRASÍLIA\nGASOMETRIA ARTERIAL\nExame Valores de Referência\npH 7,35 7,35 a 7,45\nPO2 84 mmHg 83 a 108 mmHg\nPCO2 45 mmHg 35 a 45 mmHg\nHCO₃⁻ 3 22 mmol/L 22 a 26 mmol/L\nSATURAÇÃO DE O2 96 % >90 %"
+  },
+  {
+   "item": "Tomografia computadorizada (tc) de crânio",
+   "resultado": "TC de crânio: sinais de hipodensidade maior do que 1/3 do território de artéria\ncerebral média direita.",
+   "imagem": "img/estacoes/inep-2023-2-c06-p19.jpg"
+  }
+ ],
+ "diagnostico": "Formula hipótese diagnóstica de acidente vascular cerebral (OU encefálico) isquêmico (AVCi, AVC isquêmico, AVE, AVEi).",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "Diagnosticar adequadamente caso de acidente vascular cerebral isquêmico agudo",
+  "Identificar os fatores de risco que levaram ao evento, realizar exame físico e identificar HAS, solicitar exame de imagem (tomografia de crânio) e traçar as condutas imediatas no cenário de emergência clínica em hospital de referência",
+  "Cuidar adequadamente de controle pressórico (10 a 25% de redução da pressão arterial em 24 horas) e saber da contraindicação para o uso de trombolíticos devido ao tempo do início dos sintomas ser maior do que 4,5 a 6 horas, além de a pressão sistólica ser > 180 mmHg e a diastólica > 110 mmHg."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)Identifica-se; e (2)Cumprimenta a acompanhante.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza uma ação apenas.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre afasia e perda de força em membro superior esquerdo (MSE): (1)Afasia (tempo OU disartria OU nível de consciência); (2)Perda de força MSE (tempo OU se notou perda de força em membro inferior esquerdo (MIE) concomitante OU tremores OU dormência OU sensibilidade a dor no local OU alterações na coordenação motora); e (3)Manifestações associadas (queda, convulsão, febre, vômitos, cefaleia, alterações visuais, alterações do equilíbrio).",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "investiga dois ou mais itens.",
+   "parcial": "investiga apenas um item.",
+   "inadequado": "não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Questiona sobre antecedentes pessoais e familiares: (1)Hipertensão; (2)Diabetes; (3)Tabagismo; (4)Uso de drogas (cocaína, anfetamina); e (5)História familiar de AVC. (6)Doenças cardíacas; (7)Distúrbios lipídicos (colesterol alto, dislipidemias); (8)Sedentarismo; e (9)Consumo de álcool.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "questiona quatro ou mais itens.",
+   "parcial": "questiona dois ou três itens.",
+   "inadequado": "questiona apenas um item OU não questiona item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Solicita exame físico.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita exame físico.",
+   "parcial": null,
+   "inadequado": "não solicita exame físico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita exames laboratoriais: (1)Hemograma; (2)Glicemia; ((3) Creatinina e Ureia OU função renal; (4)Eletrólitos (Na, K); (5)Tempo de protrombina/RNI (ou INR); (6)Tempo parcial de tromboplastina ativada; e (7)Troponina.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "solicita cinco ou mais exames.",
+   "parcial": "solicita três ou quatro exames.",
+   "inadequado": "solicita um ou dois exames OU não solicita exame algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita a tomografia computadorizada de crânio ou ressonância magnética de crânio.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Formula hipótese diagnóstica de acidente vascular cerebral (OU encefálico) isquêmico (AVCi, AVC isquêmico, AVE, AVEi).",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 2.0
+   },
+   "integral": "formula a hipótese.",
+   "parcial": null,
+   "inadequado": "não formula a hipótese OU formula hipótese de AVCh OU formula hipótese de derrame cerebral OU formula hipótese verbalizando apenas acidente vascular cerebral OU formula hipótese verbalizando acidente vascular cerebral hemorrágico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Conduta médica inicial: (1)Monitorização; (2)Hidratação venosa; e (3)Internação em box de emergência OU terapia intensiva OU sala vermelha; (4)Oxigenoterapia; (5)Suspensão da dieta oral; (6)Cabeceira a 0º (ou 30º, se vômitos).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "orienta três condutas ou mais condutas.",
+   "parcial": "orienta duas condutas.",
+   "inadequado": "orienta apenas uma conduta OU orienta conduta incorreta, diferente listadas, OU não orienta conduta alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Conduta terapêutica especifica: Controle pressórico (redução parcimoniosa de PA: 10 a 25 % em 24 horas OU < 185 × 110 mmHg). Obs.: caso o candidato cite nitroprussiato venoso não pontuar esse item.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "orientou.",
+   "parcial": null,
+   "inadequado": "não orientou OU orientou redução drástica da PA OU orientou a administração de trombolítico. Obs.: A administração de trombolítico resultará em rebaixamento brusco do nível de consciência, resultando em coma (transformação hemorrágica) - nesse caso considerar inadequado toda a conduta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

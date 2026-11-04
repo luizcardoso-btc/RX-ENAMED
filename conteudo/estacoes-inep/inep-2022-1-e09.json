@@ -1,0 +1,227 @@
+{
+ "id": "inep-2022-1-e09",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.1",
+  "estacao": 9,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2022_1_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Ginecologia e Obstetrícia",
+ "especialidade": "Ginecologia e Obstetrícia",
+ "tema": "Realizar anamnese",
+ "titulo": "Realizar anamnese",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Secundária Hospitalar. A unidade possui a seguinte infraestrutura: • consultórios para atendimento; e • laboratório de análises clínicas.",
+ "instrucoes": [
+  "realizar anamnese",
+  "solicitar os exames que julgar necessários",
+  "responder aos questionamentos da paciente simulada",
+  "citar hipótese diagnóstica",
+  "realizar as condutas necessárias",
+  "estabelecer a orientação final à paciente simulada. A PACIENTE SIMULADA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar anamnese",
+  "solicitar os exames que julgar necessários",
+  "responder aos questionamentos da paciente simulada",
+  "citar hipótese diagnóstica",
+  "realizar as condutas necessárias",
+  "estabelecer a orientação final à paciente simulada. A PACIENTE SIMULADA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "Cita descolamento prematuro de placenta (ou desprendimento prematuro da placenta) e sofrimento fetal agudo (ou sofrimento fetal) como diagnósticos.",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: cumprimenta e se apresenta à paciente simulada.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "cumprimenta a paciente simulada e se apresenta.",
+   "parcial": "realiza apenas uma das atividades.",
+   "inadequado": "não realiza nenhuma das duas atividades.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre os sintomas de dor e sangramento, como: (1) início e duração; (2) características da dor; e (3) aspecto do sangramento.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta sobre dois ou mais sintomas.",
+   "parcial": "pergunta sobre apenas um dos sintomas.",
+   "inadequado": "não pergunta sobre as características dos sintomas de dor e sangramento.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre os movimentos fetais.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "pergunta sobre os movimentos fetais.",
+   "parcial": null,
+   "inadequado": "não pergunta sobre os movimentos fetais.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre o tempo de gestação (ou data da última menstruação ou idade gestacional).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita o cartão de pré-natal ou cartão da gestante.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita o cartão de pré-natal ou cartão da gestante.",
+   "parcial": null,
+   "inadequado": "não solicita o cartão de pré-natal ou cartão da gestante.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Indica a necessidade de realizar o exame obstétrico abdominal.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "indica a necessidade de exame obstétrico abdominal.",
+   "parcial": null,
+   "inadequado": "não indica o exame obstétrico abdominal.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Indica a necessidade de realizar exame ginecológico (ou toque vaginal ou exame especular).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "indica a necessidade de realizar o exame.",
+   "parcial": null,
+   "inadequado": "não indica a realização do exame.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Cita descolamento prematuro de placenta (ou desprendimento prematuro da placenta) e sofrimento fetal agudo (ou sofrimento fetal) como diagnósticos.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "cita os dois diagnósticos.",
+   "parcial": "cita apenas um dos diagnósticos.",
+   "inadequado": "não cita nenhum dos diagnósticos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Cita diagnósticos diferenciais, como: (1) placenta prévia; (2) ruptura de seio marginal; (3) rotura de vasa prévia; e (4) ruptura uterina.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "cita dois ou mais diagnósticos diferenciais.",
+   "parcial": "cita até um diagnóstico diferencial.",
+   "inadequado": "não cita nenhum dos diagnósticos diferenciais.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Indica a necessidade imediata de interrupção da gravidez (cesariana de urgência).",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 2.0
+   },
+   "integral": "indica a interrupção da gravidez (cesariana de urgência).",
+   "parcial": null,
+   "inadequado": "não indica interrupção da gravidez (cesariana de urgência).",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Orienta a mãe sobre o (1) risco fetal e (2) a necessidade de internação na UTI neonatal.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza as duas orientações.",
+   "parcial": "realiza apenas uma orientação.",
+   "inadequado": "não orienta a paciente ou a orienta incorretamente.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

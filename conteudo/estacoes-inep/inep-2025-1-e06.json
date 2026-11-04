@@ -1,0 +1,341 @@
+{
+ "id": "inep-2025-1-e06",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2025.1",
+  "estacao": 6,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2025_1_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2025_1_prova_habilidades_clinicas.pdf.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Clínica Médica",
+ "especialidade": "Clínica Médica",
+ "tema": "Sentir o rosto diferente e não conseguir fechar o olho direito completamente, há cerca de ",
+ "titulo": "Sentir o rosto diferente e não conseguir fechar o olho direito completamente, há cerca de ",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: primária. Tipo de atendimento: demanda espontânea – unidade básica de saúde da família (UBSF). A unidade possui a seguinte infraestrutura: ● consultórios.",
+ "instrucoes": [
+  "Você é um médico atuando em uma UBSF e atenderá um paciente que se queixa de sentir o rosto diferente e não conseguir fechar o olho direito completamente, há cerca de 4 horas.",
+  "ATENÇÃO! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO. NO CASO DO EXAME FÍSICO, VOCÊ DEVERÁ DESCREVER PARA O PACIENTE AS MANOBRAS A SEREM EXECUTADAS. O PACIENTE SIMULADO NÃO REAGIRÁ E, AO"
+ ],
+ "tarefas": [
+  "realizar anamnese direcionada à queixa do paciente",
+  "realizar exame físico direcionado à queixa do paciente",
+  "solicitar demais exames pertinentes ao caso",
+  "formular o diagnóstico específico mais provável",
+  "estabelecer a conduta adequada",
+  "explicar o prognóstico ao paciente."
+ ],
+ "historia": "A Estação 6 de Clínica Médica aborda o caso de um homem de 30 anos que comparece à UBSF queixando-se de sentir o rosto diferente e não conseguir fechar o olho direito completamente desde que acordou, há cerca de 4 horas. OBJETIVOS DE AVALIAÇÃO",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "seu nome é Carlos, tem 30 anos, é solteiro e trabalha como administrador em uma empresa de consultoria"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "compareceu à consulta por ter acordado sentindo que seu rosto estava estranho, sem conseguir fechar o olho direito completamente"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "notou que sua boca estava torta para um lado, quando se olhou no espelho"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "percebeu que o olho direito estava mais seco e teve dificuldade de falar algumas palavras com “P” e “B”"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "seu quadro começou há 4 horas, quando acordou, e vem piorando"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "não sentiu nenhum outro sinal ou sintoma além desses"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "nunca sentiu isso antes"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "não tem doenças prévias, pois sempre foi saudável, mas recentemente anda um pouco mais preocupado com o trabalho"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "pratica atividade física (joga futebol com os amigos uma ou duas vezes por semana)"
+   },
+   {
+    "topico": "Outras informações (6)",
+    "resposta": "não comete excessos na alimentação e sempre foi magro"
+   },
+   {
+    "topico": "Hábitos de vida (2)",
+    "resposta": "não fuma e nunca fumou"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "não faz uso de bebida alcoólica e nunca bebeu"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "neste último mês, tem dormido um pouco mais tarde, possivelmente pela preocupação com trabalho"
+   },
+   {
+    "topico": "Outras informações (7)",
+    "resposta": "sempre foi tranquilo, mas, no último mês, está um pouco mais preocupado com o trabalho"
+   },
+   {
+    "topico": "Outras informações (8)",
+    "resposta": "o motivo de sua preocupação com o trabalho é o fato de estar em época de fechar o orçamento anual"
+   },
+   {
+    "topico": "Outras informações (9)",
+    "resposta": "não se lesionou nem sofreu nenhum trauma físico"
+   },
+   {
+    "topico": "Outras informações (10)",
+    "resposta": "não teve infecções recentes"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (2)",
+    "resposta": "não há histórico de doenças na família"
+   },
+   {
+    "topico": "Medicamentos (2)",
+    "resposta": "não faz uso de medicamentos, vitaminas ou suplementos."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame da face",
+   "achado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2025-1-c06-p24.jpg",
+   "chaves": [
+    "após indicar as manobras a serem realizadas",
+    "da face",
+    "da mímica facial",
+    "dos movimentos da face",
+    "dos pares cranianos",
+    "o exame neurológico do nervo facial"
+   ]
+  },
+  {
+   "item": "Exame neurológico geral",
+   "achado": "Pupilas isocóricas e fotorreagentes.\nMovimentação livre dos quatro membros. Força muscular 5/5 nos membros superiores\n(bíceps, tríceps) e membros inferiores (quadríceps, posterior da coxa, panturilha e tibial\nanterior).\nReflexos tendinosos 2/2 (bíceps, tríceps, patelar e aquileu).\nSem alterações à manobra de Romberg.\nMarcha normal.\nObservação: essa avaliação não contempla o exame dos pares cranianos.",
+   "chaves": [
+    "exame neurológico"
+   ]
+  }
+ ],
+ "exames": [
+  {
+   "item": "Otoscopia",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2025-1-c06-p26.jpg",
+   "chaves": [
+    "2018",
+    "castilhos",
+    "dias",
+    "j. m. c",
+    "l. c. tratado de medicina de família e comunidade: princípios",
+    "lopes",
+    "m. v. r",
+    "r. m. paralisia facial. in: gusso",
+    "formação e prática. 2. ed. porto alegre: artmed",
+    "otoscopia. referência bibliográfica ropke"
+   ]
+  }
+ ],
+ "diagnostico": "Formula a hipótese diagnóstica específica mais provável.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "apresentar-se adequadamente ao paciente, perguntando seu nome e o motivo da consulta",
+  "investigar a existência de outros sinais ou sintomas relacionados à queixa principal (perda de força, parestesias, alterações auditivas, cefaleia, febre)",
+  "perguntar sobre antecedentes (lesão ou trauma recente, eventos similares prévios, infecção recente)",
+  "perguntar sobre os hábitos de vida do paciente (atividade física, hábitos alimentares, tabagismo, etilismo, estresse, sono)",
+  "realizar exame neurológico do VII par craniano, solicitando ao paciente (1) fechar os olhos OU franzir a testa OU realizar manobras que avaliem a motricidade da porção superior da face; (2) soprar OU sorrir OU mostrar os dentes OU assoviar OU realizar manobras que avaliem a motricidade da porção inferior da face",
+  "solicitar a realização de exame neurológico geral",
+  "solicitar a realização de otoscopia",
+  "verbalizar hipótese diagnóstica específica mais provável (paralisia facial periférica OU paralisia do VII par OU paralisia de Bell)",
+  "orientar o paciente a respeito da conduta terapêutica (corticoide oral, colírio lubrificante, oclusão ocular noturna e necessidade de reavaliação)",
+  "orientar o paciente sobre o prognóstico (probabilidade maior de reversão do quadro)."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)cumprimenta o paciente; (2)identifica-se e pergunta o nome do paciente; (3) pergunta o motivo da consulta ou a queixa principal do paciente.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as três ações.",
+   "parcial": "realiza apenas uma ou duas ações.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pesquisa a existência de outros sinais ou sintomas relacionados à queixa principal: (1)perda de força em outros segmentos; (2)parestesias; (3)alterações auditivas; (4)cefaleia; (5)febre/náuseas/vômitos; (6)alterações visuais/oculares; (7)sialorreia.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga a existência de quatro ou mais itens.",
+   "parcial": "investiga a existência de apenas dois ou três itens.",
+   "inadequado": "investiga a existência de apenas um item ou não investiga a existência de item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pesquisa sobre antecedentes: (1)lesão ou trauma recente; (2)eventos similares prévios; (3)infecção recente.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pesquisa a existência dos três itens.",
+   "parcial": "pesquisa a existência de apenas dois itens.",
+   "inadequado": "pesquisa a existência de apenas um item ou não pesquisa a existência de item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre os hábitos de vida: (1)atividade física; (2)hábitos alimentares; (3)tabagismo; (4)etilismo; (5)estresse; (6)sono; (7)drogas ilícitas.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta sobre três ou mais itens.",
+   "parcial": "pergunta sobre apenas dois itens.",
+   "inadequado": "pergunta sobre apenas um item ou não pergunta sobre item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Realiza o exame neurológico do VII par craniano. Solicita ao paciente: (1) fechar os olhos ou franzir a testa ou realizar manobras que avaliem a motricidade da porção superior da face; (2)soprar ou sorrir ou mostrar os dentes ou assoviar ou realizar manobras que avaliem a motricidade da porção inferior da face.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "solicita a realização dos dois itens.",
+   "parcial": "solicita a realização de apenas um dos itens.",
+   "inadequado": "não solicita a realização de item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita a realização do exame neurológico / exame do sistema nervoso / exame neurológico geral.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Solicita a realização da otoscopia. Adequada: solicita.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Formula a hipótese diagnóstica específica mais provável.",
+   "peso": 2.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.25,
+    "adequado": 2.5
+   },
+   "integral": "paralisia facial periférica (ou paralisia do VII par ou paralisia de Bell).",
+   "parcial": "paralisia facial (sem especificação).",
+   "inadequado": "paralisia facial central ou diagnóstico diferente de paralisia facial.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Orienta o paciente a respeito da conduta terapêutica: (1)prescreve corticoide oral; (2)prescreve colírio lubrificante; (3)orienta oclusão ocular noturna; (4)orienta necessidade de reavaliação.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "orienta todos os itens.",
+   "parcial": "orienta dois ou três itens.",
+   "inadequado": "orienta um ou nenhum item.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Orienta o paciente sobre o prognóstico.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "informa que a maior probabilidade é de reversão do quadro.",
+   "parcial": null,
+   "inadequado": "informa a certeza de reversibilidade ou de irreversibilidade total do quadro ou não informa sobre o prognóstico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2025.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

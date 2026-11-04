@@ -1,0 +1,238 @@
+{
+ "id": "inep-2022-1-r-e04",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.1 – Reaplicação",
+  "estacao": 4,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022.1_PEP_reaplicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022.1_PV_reaplicacao_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Ginecologia e Obstetrícia",
+ "especialidade": "Ginecologia e Obstetrícia",
+ "tema": "Mulher de 26 anos comparece à Unidade Básica de Saúde aflita com resultado de exame de gra",
+ "titulo": "Mulher de 26 anos comparece à Unidade Básica de Saúde aflita com resultado de exame de gra",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Unidade de Atenção Primária. A unidade possui a seguinte infraestrutura:  laboratório de análises clínicas;  setor de diagnóstico de imagem: aparelhos de ecografia e exames radiológicos convencionais (Rx).",
+ "instrucoes": [
+  "Mulher de 26 anos comparece à Unidade Básica de Saúde aflita com resultado de exame de gravidez. ATENÇÃO: A PACIENTE SIMULADA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO. Nos próximos 10 minutos",
+  "ATENÇÃO: A PACIENTE SIMULADA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO. Nos próximos 10 minutos, você deverá executar as tarefas a seguir:"
+ ],
+ "tarefas": [
+  "realizar anamnese da paciente.",
+  "solicitar, se necessário, exames complementares pertinentes à queixa da paciente.",
+  "responder às perguntas da paciente de forma completa, justificando os motivos das orientações.",
+  "correlacionar a idade gestacional com os dados de ausculta fetal e de ecografia.",
+  "orientar e manejar os anseios da paciente sobre o seguimento da sua gestação."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1) pede à paciente que se sente. (2) tenta acalmar a paciente (com palavras ou gestos, como oferta de lenço de papel/copo de água).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza os dois procedimentos.",
+   "parcial": "realiza apenas um dos procedimentos.",
+   "inadequado": "não realiza nenhum dos procedimentos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta se a paciente tem parcerias sexuais ou parceria fixa.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta qual foi a data da última menstruação da paciente.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre a utilização de método anticoncepcional.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Pergunta se a gravidez foi planejada e/ou desejada.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Pergunta quando foi realizado o último exame preventivo (citologia OU colpocitologia OU papanicolau).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Indica a realização de teste sanguíneo de gravidez/ beta hCG.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Informa à paciente que: (1) a imagem no ultrassom só pode ser vista após determinado valor de beta hCG; (2) os batimentos cardíacos fetais só podem ser auscultados no ultrassom após cinco ou seis semanas de gestação.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "fornece as duas informações.",
+   "parcial": "fornece apenas uma informação.",
+   "inadequado": "não fornece nenhuma das duas informações indicadas.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Menciona: (1) oferta de apoio psicológico e assistência social; (2) possibilidade de doação legal do bebê; (3) necessidade de apoio social específico (parceria e/ou familiares e/ou amizades).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "cita pelo menos um item.",
+   "parcial": null,
+   "inadequado": "não cita item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Informa que o arcabouço normativo brasileiro não permite, nas circunstâncias da paciente, a realização de aborto.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "informa.",
+   "parcial": null,
+   "inadequado": "não informa.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Cita as situações em que o aborto é permitido no Brasil: (1) estupro; (2) risco materno; (3) feto anencéfalo.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "cita integralmente as três situações.",
+   "parcial": "cita apenas duas situações.",
+   "inadequado": "cita uma situação ou não cita situação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Tranquiliza a paciente, explicando que ela terá a assistência necessária ao acompanhamento de sua gravidez.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "explica.",
+   "parcial": null,
+   "inadequado": "não explica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.1 – Reaplicação: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

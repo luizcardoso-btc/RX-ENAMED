@@ -1,0 +1,259 @@
+{
+ "id": "inep-2025-2-e03",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2025.2",
+  "estacao": 3,
+  "documento": "Padrão Esperado de Procedimentos (preliminar)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2025_2_pep_premilminar.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2025_2_prova_habilidades_clinicas.pdf",
+  "situacao": "preliminar"
+ },
+ "area": "Pediatria",
+ "especialidade": "Pediatria",
+ "tema": "Você está atuando em uma unidade de pronto-atendimento de um hospital regional e atenderá ",
+ "titulo": "Você está atuando em uma unidade de pronto-atendimento de um hospital regional e atenderá ",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: secundária. Tipo de atendimento: urgência e emergência em um hospital regional. A unidade possui a seguinte infraestrutura: • consultórios médicos; • salas de observação (amarela e vermelha); • alas de internação; • laboratório para processamento de exames de sangue; • aparelhos de radiologia básica (radiografia, ultrassonografia e tomografia).",
+ "instrucoes": [
+  "Você está atuando em uma unidade de pronto-atendimento de um hospital regional e atenderá um menino de 2 anos que foi trazido pelo SAMU para avaliação acompanhado de sua mãe.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE. A MÃE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar propedêutica clínica focada na queixa principal relatada pela mãe do paciente",
+  "formular e verbalizar a(s) hipótese(s) diagnóstica(s)",
+  "solicitar exame(s) complementar(es), se necessário(s)",
+  "formular e verbalizar a conduta após a estabilização do paciente",
+  "dar orientações à mãe."
+ ],
+ "historia": "A Estação 3 de Pediatria aborda o caso de um menino de 2 anos e 9 meses que é levado a um hospital regional pelo SAMU por apresentar uma crise convulsiva simples com duração de, aproximadamente, 5 minutos, em vigência de febre (convulsão febril), secundária ao quadro de otite média aguda.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": "2 anos",
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "ela e seu filho foram trazidos ao pronto-socorro pelo SAMU devido aos tremores que a criança apresentou em casa"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "o menino está com o nariz escorrendo há 2 dias, acordou um pouco irritado e passou a manhã coçando o ouvido direito, até que, no início da tarde, estava assistindo à televisão quando começou a se tremer e a ficar duro e caiu no chão"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "a criança desmaiou durante a crise"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "os tremores duraram por volta de 5 minutos"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "o menino é saudável, sem problemas de saúde, recebeu todas as vacinas, não realizou cirurgias, não é prematuro, não tem alergias, não tem irmãos"
+   },
+   {
+    "topico": "Antecedentes familiares",
+    "resposta": "o pai teve uma crise convulsiva semelhante aos 4 anos de idade."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "Paciente: João da Silva, 2 anos e 9 meses.\nPaciente em bom estado geral, corado, hidratado, acianótico, anictérico, febril, eupneico, sem\ndesconforto respiratório, ativo, reativo, calmo e colaborativo, com escala de coma de Glasgow 15.\nSINAIS VITAIS\nPeso: 14 kg.\nEstatura: 94 cm.\nFrequência cardíaca: 112 bpm.\nPressão arterial: 90 x 60 mmHg.\nFrequência respiratória: 22 irpm.\nTemperatura axilar: 38,9 °C.\nAparelho cardiovascular: bulhas rítmicas normofonéticas em dois tempos, sem sopros,\ncom pulsos cheios e simétricos.\nAparelho respiratório: murmúrios vesiculares presentes bilateralmente, sem ruídos adventícios.\nAbdome: plano, flácido, ruídos hidroaéreos presentes, indolor a toque e palpação, sem\nvisceromegalias, Bloomberg negativo, Giordano negativo.\nGenitália: sem fimose, testículos tópicos.\nMembros: sem edemas, boa perfusão periférica, tempo de enchimento capilar < 2\nsegundos.\nSistema nervoso: sem alterações, sem déficit neurológico, com nuca livre, Kernig negativo,\nBrudzinski negativo.\nPele e anexos: sem alterações.\nOtoscopia: hiperemia intensa do canal auditivo à direita, com membrana timpânica\navermelhada e abaulada. Canal auditivo esquerdo sem alterações.\nOroscopia: sem alterações, exceto coriza hialina e hiperemia de cornetos nasais.",
+   "chaves": [
+    "que será entregue pelo chefe de estação se o participante verbalizar que realizará exame físico geral"
+   ]
+  }
+ ],
+ "exames": [
+  {
+   "item": "Exames laboratoriais",
+   "resultado": "Ver a imagem do impresso.",
+   "chaves": [
+    "de análise clínica",
+    "que será entregue pelo chefe de estação o participante exames laboratoriais"
+   ]
+  },
+  {
+   "item": "Exames laboratoriais",
+   "resultado": "Nome: João da Silva\nIdade: 2 anos e 9 meses\nHEMOGRAMA\nExame Valor de referência\nEritrócitos ..................................... 5,09 milhões/µL 3,70 – 5,30 milhões/µL\nHemoglobina ........................................... 12,4 g/dL 10,50 – 13,50 g/dL\nHematócrito .................................................. 42,8% 33 – 39%\nVCM ............................................................. 70,3 fL 70 – 86 fL\nHCM ............................................................20,4 pg 23 – 31 pg\nCHCM ...................................................... 29,0 g/dL 30 – 36 g/dL\nRDW .............................................................. 21,2% 12,20 – 17,70%\nObservação série vermelha: hipocromia; microcitose; aniso.\nLEUCÓCITOS ................................... 13,40 mil/mm3 6 – 17 mil/mm3\nBastonete neutrófilo ......................................... 0,0 0,0% 0 – 0%\nObservação sobre bastonete neutrófilo: adultos até 10% dos neutro. RN até 10 – 15% leuco.\nSegmentado neutrófilo ................................... 4,56 34,0% 15,80 – 71,40%\nLinfócito .......................................................... 7,64 57,0% 17,60 – 73,00%\nMonócito ......................................................... 1,21 9,0% 4,60 – 12,10%\nEosinófilo........................................................... 0,0 0,0% 0,20 – 8,50%\nBasófilo.............................................................. 0,0 0,0% 0,40 – 1,30%",
+   "chaves": [
+    "de análise clínica",
+    "que será entregue pelo chefe de estação o participante exames laboratoriais"
+   ]
+  }
+ ],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "apresentar-se à mãe e à criança",
+  "realizar anamnese",
+  "analisar exame físico",
+  "formular hipóteses diagnósticas com base nas informações obtidas da mãe e do exame físico realizado: (1) convulsão febril simples ou convulsão febril; (2) otite média aguda ou infecção de vias aéreas superiores (IVAS) ou resfriado comum",
+  "iniciar o manejo do quadro da criança",
+  "solicitar, analisar e interpretar os resultados dos exames laboratoriais disponíveis",
+  "formular o plano terapêutico imediato",
+  "formular o plano de seguimento, as orientações pós-alta e as medidas de prevenção."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)identifica-se; (2)cumprimenta a mãe de maneira adequada e cordial; (3)mantém contato visual com a mãe durante a consulta; (4)pergunta o nome da mãe e o nome da criança.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.2
+   },
+   "integral": "realiza todas as ações.",
+   "parcial": "realiza apenas duas ou três ações.",
+   "inadequado": "realiza apenas uma ação ou não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre o motivo da consulta ou sobre as queixas principais, como: (1)dor; (2)febre; (3)diarreia; (4)vômito; (5)tosse e/ou coriza; (6)desmaio; (7)tontura.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta, ao menos, sobre quatro itens, sendo (1) dor e (2) febre perguntas obrigatórias.",
+   "parcial": "pergunta apenas sobre dois ou três itens.",
+   "inadequado": "pergunta apenas sobre um item ou não pergunta sobre item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Questiona sobre as circunstâncias da crise do paciente: (1)se essa foi a primeira crise convulsiva; (2)o tempo de duração da crise; (3)se estava febril no momento da crise; (4)se estava doente nos últimos dias; (5)se perdeu a consciência; (6)se apresentou movimentos anômalos; (7)se houve eliminação de fezes e urina durante a crise; (8)se apresentou sonolência ou irritabilidade ou outro sintoma depois da crise.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "questiona sobre seis ou mais itens.",
+   "parcial": "questiona sobre três a cinco itens.",
+   "inadequado": "questiona sobre dois ou menos itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Questiona sobre antecedentes pessoais: (1)doenças ou problemas de saúde; (2)medicações de uso contínuo; (3)alergias; (4)internações; (5)dados perinatais; (6)desenvolvimento neuropsicomotor; (7)sono.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "questiona sobre quatro ou mais itens.",
+   "parcial": "questiona apenas sobre dois ou três itens.",
+   "inadequado": "questiona apenas sobre um item ou não questiona sobre item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Questiona se mais alguém na família teve crise convulsiva ou epilepsia na infância.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "questiona sobre ocorrência de crise convulsiva ou epilepsia na família durante a infância.",
+   "parcial": "questiona sobre crises convulsivas ou epilepsia na família sem especificar a faixa etária ou o início (fator de hereditariedade).",
+   "inadequado": "realiza questionamentos inespecíficos ou não questiona sobre antecedentes familiares.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita exame físico (descritos no Impresso) ou pede para examinar o paciente.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.8
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita, ou seja, a mãe simulada é quem solicita que a criança seja examinada.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Formula hipóteses diagnósticas: (1)convulsão febril simples ou convulsão febril; (2) otite média aguda ou infecção de vias aéreas superiores (IVAS) ou resfriado comum.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "formula ambas as hipóteses.",
+   "parcial": "formula apenas a hipótese (1).",
+   "inadequado": "formula apenas a hipótese (2), não formula hipótese alguma ou formula outras hipóteses.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Indica a conduta imediata: (1)admissão hospitalar para observação; (2)antitérmico; (3)anticonvulsivante parenteral ou via retal, se necessário; (4)solicita exames pertinentes para o caso: laboratorial e/ou de imagem, justificando corretamente a solicitação; (5) não solicita exames complementares, justificando a não solicitação; (6) orientações gerais para IVAS, podendo prescrever antimicrobiano para a otite (amoxicilina).",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "indica obrigatoriamente itens (1) e (2), e mais um dos itens (total de três itens).",
+   "parcial": "indica apenas duas ações corretamente.",
+   "inadequado": "indica apenas uma ação ou não indica as ações conforme estão descritas.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Apresenta os passos do seguimento pós-crise (após a alta médica), explicando que: (1) o monitoramento da febre em casa deve ocorrer, sendo necessário administrar antitérmico assim que ela for constatada; (2) o quadro possui natureza benigna – resolução esperada até 4 a 5 anos de vida; (3)o risco de recorrência devido à herança paterna existe; (4) o uso contínuo de anticonvulsivante é desnecessário no momento, pois não há benefícios constatados pela ciência; (5) por ora, não há indicação de prosseguir com investigação complementar; (6)a forma de proceder diante de nova crise consiste em mover a criança para a posição de decúbito lateral, não impedir as contrações e aguardar que a crise cesse enquanto busca ajuda profissional.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "explica quatro ou mais ações.",
+   "parcial": "explica apenas três ações.",
+   "inadequado": "explica apenas uma ou duas ações ou nenhuma ação corretamente.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "1. GRASSIOTTO CQ. Cap. 9 — Crise epiléptica In: SCHVARTZMAN, C. et. al. (org.). Pronto- Socorro. 4. ed. Santana de Parnaíba (SP): Manole, 2023.",
+  "2. SILVA EJS. Capítulo1. Crise Febril. In: SOCIEDADE BRASILEIRA DE PEDIATRIA (org.).",
+  "Tratado de pediatria. Vol 2. 6. ed. Barueri (SP): Manole, 2025.",
+  "O desempenho do participante ao longo da estação foi avaliado e pontuado a partir do seguinte PADRÃO ESPERADO DE PROCEDIMENTO (PEP)."
+ ],
+ "pendencias": []
+}

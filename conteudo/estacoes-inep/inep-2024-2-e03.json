@@ -1,0 +1,236 @@
+{
+ "id": "inep-2024-2-e03",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.2",
+  "estacao": 3,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2024_2_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Pediatria",
+ "especialidade": "Pediatria",
+ "tema": "Você está no consultório de unidade básica de saúde e vai atender um menino com 6 meses de",
+ "titulo": "Você está no consultório de unidade básica de saúde e vai atender um menino com 6 meses de",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: atenção primária à saúde. Tipo de atendimento: ambulatorial – unidade básica de saúde. A unidade possui consultórios. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+ "instrucoes": [
+  "Você está no consultório de unidade básica de saúde e vai atender um menino com 6 meses de idade, levado pela mãe à consulta de rotina.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO. DESCRIÇÃO DO CASO Você está no consultório de unidade básica de saúde e vai atender um menino com"
+ ],
+ "tarefas": [
+  "Realizar a anamnese direcionada ao relato da mãe do paciente.",
+  "Interpretar o exame físico e explicar à mãe os diagnósticos e as diferentes formas de apresentação anatomopatológicas relativos ao relato materno.",
+  "Interpretar o exame físico e explicar à mãe o diagnóstico e conduta quanto à fimose.",
+  "Elencar as possíveis complicações para a(s) condição(ões) encontrada(s) no paciente.",
+  "Estabelecer a conduta adequada para o caso e justificar seu encaminhamento."
+ ],
+ "historia": "A Estação 3, da área de Pediatria, abordou o caso de um lactente com 6 meses de idade, do sexo masculino, atendido em uma unidade básica de saúde por apresentar a bolsa escrotal vazia desde o nascimento. No atendimento,",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "se chama Maria, tem 22 anos de idade, é casada, e que é mãe de Eduardo com 6 meses de idade"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "Eduardo nasceu a termo, com peso adequado ao nascimento e que o parto transcorreu sem intercorrências"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "leva seu filho a uma consulta de rotina e que a criança se encontra em bom estado geral"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "em consultas anteriores, foi informada que deveria aguardar, até os seis meses de idade, a descida dos testículos de seu filho, pois eles desceriam sozinhos não sendo necessário tomar outra atitude"
+   },
+   {
+    "topico": "Vacinação e desenvolvimento",
+    "resposta": "não tem nenhuma queixa quanto a saúde de seu filho, que ele come bem e se desenvolve bem"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos",
+    "resposta": "sua gestação foi tranquila, Eduardo nasceu a termo, de parto normal"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos (2)",
+    "resposta": "permaneceu, após o parto, por dois dias na maternidade, ocasião na qual Eduardo fez os exames de rotina e recebeu as primeiras vacinas"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "amamentou de maneira exclusiva por seis meses"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "Eduardo ficou levemente gripado em dois momentos desde o seu nascimento, curou-se rapidamente e não houveram complicações"
+   },
+   {
+    "topico": "Vacinação e desenvolvimento (2)",
+    "resposta": "ele recebeu todas as vacinas adequadas a sua idade"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "em consultas anteriores, informaram a ela que a fimose era normal e que, com o tempo, isto solucionaria naturalmente. Após as adequadas solicitações de exames, o(a) participante poderia receber os seguintes"
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "● Nome: Eduardo Mateus.\n● Idade: 6 meses.\nDados antropométricos adequados para a idade e sexo.\nBom estado geral, eupneico, hidratado e afebril.\nExame Físico segmentar sem alterações, exceto bolsa escrotal vazia e testículos impalpáveis.\nPrepúcio recobrindo a glande, não redutível, sem estenose prepucial."
+  }
+ ],
+ "exames": [
+  {
+   "item": "Caderneta de saúde da criança",
+   "resultado": "● Nome: Eduardo Mateus.\n● Sexo: Masculino.\n● Via de Parto: vaginal / Idade Gestacional: 37 semanas e 5 dias.\n● Peso de nascimento: 3.000 gramas.\n● Comprimento ao nascer: 49 centímetros.\n● Perímetro cefálico ao nascer: 34,5centímetros.\n● Apgar: 9/10.\n● Tipo Sanguíneo mãe: A+ / Tipo Sanguíneo recém-nascido: A+\n● Vacinação: atualizada até os 6 meses segundo Programa Nacional de Vacinação.\n● Suplementação: uso regular de vitamina D e Sulfato Ferroso."
+  }
+ ],
+ "diagnostico": "Sobre o diagnóstico da distopia testicular e/ou criptorquidia:",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se: (1)Identifica-se; (2)Cumprimenta a mãe de maneira adequada/cordial; (3)Mantém contato visual durante sua apresentação; (4)Pergunta o nome da mãe e o nome da criança.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza as quatro ações.",
+   "parcial": "realiza duas ou três ações.",
+   "inadequado": "realiza uma ação OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Sobre o diagnóstico da distopia testicular e/ou criptorquidia:",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "Dá o diagnóstico de testículo não palpável ou criptorquidia ou ausência testicular na bolsa escrotal, não descenso E explica a possível posição intra abdominal ou inguinal.",
+   "parcial": "Dá o diagnóstico de testículo não palpável ou criptorquidia ou ausência testicular na bolsa escrotal, não descenso testicular, MAS não explica a posição do testículo.",
+   "inadequado": "Não dá o diagnóstico de testículo não palpável ou criptorquidia ou ausência testicular na bolsa escrotal, não descenso testicular ou apenas cita que a bolsa escrotal está vazia.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Cita possíveis complicações da criptorquidia: (1)infertilidade; (2)torção testicular; (3)atrofia testicular / diminuição do volume testicular; (4)malignidade (câncer)/ tu mor / neoplasia; (5) persistência do conduto peritoneovaginal que pode gerar hidrocele, hidrocele comunicante, hérnia inguinal, hérnia inguinal indireta; (6) insuficiência de produção de andrógenos, déficit na produção de testosterona, atraso puberal, disfunção hormonal e necessidade de reposição hormonal.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "cita duas ou mais complicações.",
+   "parcial": "cita uma complicação.",
+   "inadequado": "não cita complicação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Indicação de exame de imagem: ultrassonografia abdominal /ultrassonografia de região inguino-escrotal/tomografia de abdome/ressonância magnética de abdome:",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "não indica.",
+   "parcial": null,
+   "inadequado": "indica. Obs.: não é indicada a realização de exames de imagem do tipo ultrassonografia, tomografia ou ressonância magnética antes do encaminhamento para avaliação com cirurgião pediatra.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Elenca possíveis complicações / fatores de risco que possam indicar tratamento intervencionista para Fimose: (1)infecção do trato urinário / pielonefrite; (2)balanite / balanopostite / inflamação peniana; (3)malformação do trato urinário associada. (4)parafimose/ estrangulamento de glande, (5) obstrução ao fluxo urinário causada pela presença de um prepúcio punctiforme e obstrutivo/ balonamento; (6)não resolução espontânea da fimose após os 3 anos de idade.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "elenca 3 complicações.",
+   "parcial": "elenca 1 ou 2 complicações.",
+   "inadequado": "não elenca complicações.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Sobre a conduta para fimose fisiológica e a impossibilidade de exposição da glande:",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "orienta apenas sobre cuidados locais de higiene.",
+   "parcial": null,
+   "inadequado": "orienta a realização de “massagens” ou uso de pomada ou redução do prepúcio ou ainda o tratamento cirúrgico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Sobre a conduta a ser adotada para criptorquidia: (1)Explica a mãe sobre o diagnóstico. (2) Encaminha para atendimento especializado (cirurgia pediátrica, endocrinologia pediátrica ou geneticista ou urologia pediátrica). Adequada: executa duas condutas. Parcialmente adequada: executa apenas uma conduta.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "",
+   "parcial": null,
+   "inadequado": "não executa conduta alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Indica manutenção do seguimento na UBS: marcação de retorno, retornar com o médico na unidade, segue com consultas de puericultura.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

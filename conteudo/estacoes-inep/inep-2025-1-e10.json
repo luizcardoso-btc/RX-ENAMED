@@ -1,0 +1,312 @@
+{
+ "id": "inep-2025-1-e10",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2025.1",
+  "estacao": 10,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2025_1_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2025_1_prova_habilidades_clinicas.pdf.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+ "especialidade": "Medicina de Família e Comunidade",
+ "tema": "Dificuldade para dormir",
+ "titulo": "Dificuldade para dormir",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: primária. Tipo de atendimento: ambulatorial — consultório médico em unidade básica de saúde da família (UBSF). A unidade possui a seguinte infraestrutura: ● consultório médico.",
+ "instrucoes": [
+  "Você é um médico atuando em uma unidade básica de saúde da família (UBSF) e realizará atendimento, em consulta agendada, de um homem de 62 anos, pardo, com queixa de dificuldade para dormir.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar anamnese relacionada à queixa do paciente",
+  "formular e verbalizar a principal hipótese diagnóstica",
+  "verbalizar o plano terapêutico adequado ao caso."
+ ],
+ "historia": "A Estação 10 de Medicina da Família e Comunidade aborda o caso de um homem de 62 anos, pardo, que comparece a uma consulta agendada em uma unidade básica de saúde da família (UBSF) com queixa de dificuldade para dormir há 2 meses.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "seu nome é Antônio, tem 62 anos de idade, é casado e mora com sua esposa e seus dois filhos"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "era motorista de ônibus, mas se aposentou há 4 meses"
+   },
+   {
+    "topico": "Início e evolução (2)",
+    "resposta": "comparece à consulta com queixa de dificuldade para dormir há 2 meses"
+   },
+   {
+    "topico": "Antecedentes familiares",
+    "resposta": "não tem problema de convivência com a família"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "tem pressão alta, mas não tem nenhuma outra doença"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "faz uso de 1 comprimido de enalapril 10 mg por dia"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "sente-se feliz, com tempo para assistir a partidas de futebol, mas sente que sobra muito tempo em seu dia"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "não sente sintomas físicos"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "tem dificuldade para começar a dormir, mas, assim que adormece, dorme sem interrupções até amanhecer"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "seu quarto é escuro e agradável para assistir a partidas de futebol na televisão"
+   },
+   {
+    "topico": "Antecedentes familiares (2)",
+    "resposta": "usa telas à noite; MEDICINA DA FAMÍLIA E COMUNIDADE"
+   },
+   {
+    "topico": "Características do quadro (2)",
+    "resposta": "não percebeu nada que tenha provocado a dificuldade para dormir, mas a aposentadoria mudou sua rotina"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "sente um pouco de cansaço durante o dia"
+   },
+   {
+    "topico": "Características do quadro (3)",
+    "resposta": "sente sono durante o dia, de forma mais intensa no almoço, quando dorme por 1 hora"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "tem uma alimentação saudável, mas come em excesso à noite"
+   },
+   {
+    "topico": "Medicamentos (2)",
+    "resposta": "não ingere chá, mas toma muito café durante o dia"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "não pratica atividade física, não fuma, não bebe, nem usa drogas"
+   },
+   {
+    "topico": "Outras informações (6)",
+    "resposta": "sua atividade de lazer consiste em assistir à televisão e usar redes sociais no celular durante todo o dia, inclusive à noite"
+   },
+   {
+    "topico": "Características do quadro (4)",
+    "resposta": "não ronca, não sente falta de ar, nem sente dificuldade para respirar ao dormir"
+   },
+   {
+    "topico": "Antecedentes familiares (3)",
+    "resposta": "desconhece histórico familiar de transtorno mental ou de alterações do sono."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "Estatura: 178 cm.\nPeso: 85 kg.\nPressão arterial: 120 mmHg x 80 mmHg.\nFrequência cardíaca: 80 batimentos por minuto.\nTemperatura axilar: 36 0C.\nExame físico: sem alteração.",
+   "chaves": [
+    "o exame físico",
+    "verbalize que vai o exame físico"
+   ]
+  }
+ ],
+ "exames": [],
+ "diagnostico": "Verbaliza a principal hipótese diagnóstica.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "apresentar-se adequadamente ao paciente",
+  "comunicar-se com o paciente de forma adequada, estabelecendo contato visual, mantendo uma postura empática ao longo da consulta, escutando a fala do paciente sem interrompê-lo e respondendo às suas perguntas",
+  "investigar o padrão de sono do paciente",
+  "perguntar sobre histórico familiar de alterações do sono e de transtorno mental; MEDICINA DA FAMÍLIA E COMUNIDADE",
+  "perguntar sobre a presença de doenças (transtorno mental; doença do refluxo gastroesofágico; doença da tireoide; doença cardiovascular; dor crônica; asma e(ou) doença pulmonar obstrutiva crônica)",
+  "perguntar sobre os hábitos de vida (ingestão de xantinas; alimentação noturna; uso de álcool ou outras drogas; tabagismo; uso de tela à noite)",
+  "verbalizar a principal hipótese diagnóstica (insônia primária/inicial)",
+  "não indicar tratamento medicamentoso",
+  "indicar medidas gerais e de higiene do sono."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)cumprimenta o paciente simulado; (2)identifica-se; (3) dirige-se ao paciente simulado pelo nome, pelo menos uma vez; (4)pergunta o motivo da consulta.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as quatro ações.",
+   "parcial": "realiza duas ou três ações.",
+   "inadequado": "realiza apenas uma ação ou não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Postura: (1)estabelece contato visual; (2)mantém postura empática ao longo da consulta; (3)escuta a fala do paciente simulado sem interrompê-lo.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.25
+   },
+   "integral": "realiza as três ações.",
+   "parcial": "realiza apenas uma ou duas ações.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Responde às perguntas/dúvidas do paciente simulado.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "responde às perguntas/dúvidas.",
+   "parcial": null,
+   "inadequado": "não responde às perguntas/dúvidas.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Investiga sintomas e padrão de sono: (1) rotinas ao deitar (temperaturas extremas, ruído, luminosidade, uso de telas); (2) quantidade de horas de sono ou hora de dormir/acordar; (3) presença de sonolência diurna; (4) sonecas diurnas; (5) presença de roncos; (6) dificuldade em iniciar ou manter o sono; (7) sono não repousante ou não reparador; (8) falta de atenção diurna; (9) fadiga ou cansaço diurno.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "investiga seis ou mais itens.",
+   "parcial": "investiga apenas cinco ou quatro itens.",
+   "inadequado": "investiga apenas três, dois ou um itens ou não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Pergunta sobre: (1)história familiar de alterações do sono; (2)história familiar de transtorno mental;",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "investiga os dois itens.",
+   "parcial": "investiga apenas um dos itens.",
+   "inadequado": "não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Pergunta sobre a presença de doenças: (1)transtorno mental; (2)doença do refluxo gastroesofágico; (3)doença da tireoide; (4)doença cardiovascular; (5)dor crônica; (6)asma e(ou) doença pulmonar obstrutiva crônica.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga o item 1 e três ou quatro outros itens.",
+   "parcial": "investiga apenas um ou dois itens.",
+   "inadequado": "não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Pergunta sobre os hábitos de vida: (1)ingestão de xantinas (café ou chá ou energético); (2)alimentação noturna em excesso; (3)atividade física; (4)uso de álcool ou outras drogas; (5)tabagismo; (6)uso de tela à noite.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta sobre quatro ou mais itens.",
+   "parcial": "pergunta apenas sobre dois ou três itens.",
+   "inadequado": "pergunta sobre apenas um item ou não pergunta sobre item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Verbaliza a principal hipótese diagnóstica.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "verbaliza o diagnóstico de insônia primária/inicial.",
+   "parcial": "verbaliza o diagnóstico de insônia, apenas.",
+   "inadequado": "não verbaliza ou verbaliza outro diagnóstico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Não indica tratamento medicamentoso.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "não indica.",
+   "parcial": null,
+   "inadequado": "indica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Indica medidas gerais e de higiene do sono: (1)dormir em quarto escuro e silencioso; (2)ter horário regular para deitar e levantar; (3)restringir o tempo de cama ou usar a cama apenas para sono e relação sexual; (4)evitar cochilos durante o dia; (5)não consumir cafeína ou álcool antes da hora de dormir; (6)evitar tabagismo; (7)praticar atividade física regular; (8)evitar uso prolongado de telas antes de dormir.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "indica seis ou mais medidas.",
+   "parcial": "indica apenas três a cinco medidas.",
+   "inadequado": "indica apenas duas medidas ou menos.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Tratado de medicina de família e comunidade: princípios, formação e prática [recurso eletrônico] / Organizadores, Gustavo Gusso, José Mauro Ceratti Lopes, Lêda Chaves Dias; [coordenação editorial: Lêda Chaves Dias]. – 2. ed. – Porto Alegre: Artmed, 2019. 2 v.",
+  "MEDICINA DA FAMÍLIA E COMUNIDADE O desempenho do participante ao longo da estação foi avaliado e pontuado a partir do seguinte PADRÃO ESPERADO DE PROCEDIMENTO (PEP)."
+ ],
+ "pendencias": []
+}

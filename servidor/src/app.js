@@ -12,6 +12,8 @@ import { contarVisitas } from './metas.js';
 import { rotasIndicacao, rotaLinkIndicacao } from './indicacao.js';
 import { rotasIa, criarClienteIa } from './ia.js';
 import { rotasResidencia } from './rotas/residencia.js';
+import { rotasPratica, carregarAcervo } from './rotas/pratica.js';
+import { rotasDupla } from './rotas/dupla.js';
 
 const MP_HOSTS = 'https://*.mercadopago.com https://*.mercadopago.com.br https://*.mercadolibre.com https://*.mercadolivre.com https://*.mlstatic.com';
 
@@ -69,6 +71,8 @@ function limiteGeral(max = 600, janelaMs = 5 * 60 * 1000) {
 export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ banco, config }), limitar: limitarBase = criarLimitador(banco), ia = criarClienteIa(config) }) {
   const limitar = (chave, max, seg) => limitarBase(chave, max * (config.multiplicadorLimites || 1), seg);
   const app = express();
+  // Estações da 2ª etapa (autorais e oficiais do Inep), lidas uma vez: a parte reservada só sai pela API, por papel.
+  const acervo = carregarAcervo(config.pastaConteudo);
   const web = new URL('../web/', import.meta.url).pathname;
   const csp = politica(hashesDeScripts([web, config.pastaSite]));
   app.disable('x-powered-by');
@@ -95,6 +99,7 @@ export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ b
   app.use('/api', limiteGeral(600 * (config.multiplicadorLimites || 1)), (_req, res, next) => { res.set('Cache-Control', 'no-store'); next(); });
   app.use('/api/progresso', express.json({ limit: '4mb' }));
   app.use('/api/ia', express.json({ limit: '300kb' }));
+  app.use('/api/pratica', express.json({ limit: '400kb' }));
   app.use(express.json({ limit: '100kb' }));
 
   // Proteção contra requisições forjadas por outros sites (CSRF): quem altera dados precisa vir do próprio site.
@@ -115,6 +120,8 @@ export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ b
   app.use('/api', rotasIndicacao({ banco, config }));
   app.use('/api', rotasIa({ banco, config, limitar, cliente: ia }));
   app.use('/api', rotasResidencia({ config }));
+  app.use('/api', rotasPratica({ banco, config, limitar, cliente: ia, acervo }));
+  app.use('/api', rotasDupla({ banco, limitar, acervo }));
   app.use('/api/admin', rotasAdmin({ banco, planos, mp, correio, config }));
   app.use('/api', (_req, res) => res.status(404).json({ erro: 'Rota inexistente.' }));
 

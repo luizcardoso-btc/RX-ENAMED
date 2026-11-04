@@ -1,0 +1,259 @@
+{
+ "id": "inep-2023-2-e07",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.2",
+  "estacao": 7,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2023_2.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Cirurgia",
+ "especialidade": "Cirurgia geral",
+ "tema": "Você trabalha em uma UPA e atenderá um homem de 20 anos de idade, mecânico, que procura at",
+ "titulo": "Você trabalha em uma UPA e atenderá um homem de 20 anos de idade, mecânico, que procura at",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: unidade de pronto atendimento (UPA) — sala para pequenos procedimentos. A unidade possui a seguinte infraestrutura: • Urgência clínica e cirúrgica de baixa complexidade.",
+ "instrucoes": [
+  "Você trabalha em uma UPA e atenderá um homem de 20 anos de idade, mecânico, que procura atendimento devido a um ferimento provocado por caco de vidro em antebraço direito. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "Realizar o atendimento do paciente",
+  "Descrever as características da lesão",
+  "Utilizar o material apropriado para a sutura",
+  "Realizar a sutura da lesão (3 pontos no mínimo)",
+  "Orientar o paciente sobre os cuidados após o procedimento."
+ ],
+ "historia": "A Estação 7 de Cirurgia Geral abordou o atendimento, na sala para pequenos procedimentos de uma unidade de pronto atendimento (UPA), de um homem de 20 anos de idade, vítima de agressão, há 40 minutos, por garrafa de vidro quebrada; o ferimento, no antebraço, não possui contaminação grosseira.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": "20 anos",
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "Chama-se Paulo, tem 20 anos de idade, é casado e trabalha como mecânico de montadora"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "Foi agredido, há 40 minutos, por um homem com uma garrafa de vidro quebrada em um bar"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "Não fuma, nem bebe, nem usa drogas ilícitas"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "Não possui alergias"
+   },
+   {
+    "topico": "Início e evolução (2)",
+    "resposta": "Tomou vacina antitetânica há 2 anos, quando se furou com um prego"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (2)",
+    "resposta": "Não possui doenças prévias, nem faz uso de medicamentos de uso contínuo, nem tem alergias"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (3)",
+    "resposta": "Não foi submetido a cirurgias prévias. Nessa estação o(a) participante receberia instruções explícitas pelo chefe de estação para:"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "que a antissepsia, anestesia e curativo deveriam ser apenas descritos"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "que somente os seguintes procedimentos deveriam ser realizados: calçar as luvas, aspirar o anestésico e fazer a sutura."
+   }
+  ],
+  "perguntasDoPaciente": [
+   "Se precisará receber pontos",
+   "Qual é o estado da lesão",
+   "Se a anestesia será necessária",
+   "Quais são os cuidados que ele deve ter com a ferida em casa."
+  ]
+ },
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "Realizar o diagnóstico e classificar a ferida",
+  "Realizar o procedimento com o material e a técnica adequados, explicando o procedimento ao paciente",
+  "Realizar as orientações sobre os cuidados com o curativo, sobre a retirada dos pontos e sobre a vacinação antitetânica."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se. (1)Identifica-se; e (2)Cumprimenta e identifica o paciente simulado.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.2
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Realiza anamnese dirigida. (1)Há quanto tempo foi a lesão; e (2)Se o instrumento cortante era sujo/contaminado.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.2,
+    "adequado": 0.4
+   },
+   "integral": "pergunta os dois itens.",
+   "parcial": "pergunta apenas um item.",
+   "inadequado": "não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre antecedentes. (1)Doenças; (2)Alergias; e (3)Uso de medicações.",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.3
+   },
+   "integral": "pergunta dois ou mais itens.",
+   "parcial": "pergunta apenas um item.",
+   "inadequado": "não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre o estado vacinal para tétano.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Descreve as características da ferida. (1)Aguda OU recente OU há 40 minutos; (2)Cortante OU cortocontusa OU incisa; (3)Limpa-contaminada; (4)Aproximadamente de 2 a 5 cm; (5)Superficial; e (6)Sem sangramento.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.0
+   },
+   "integral": "descreve quatro ou mais itens.",
+   "parcial": "descreve dois ou três itens.",
+   "inadequado": "descreve apenas um item OU não descreve item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Explica o procedimento ao paciente. (1)Necessidade de anestesia local; e (2)Necessidade de sutura.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.2,
+    "adequado": 0.4
+   },
+   "integral": "explica os dois itens.",
+   "parcial": "explica apenas um item. Inadequado não explica item algum.",
+   "inadequado": "",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Realiza apropriadamente a etapa inicial de preparo do material. (1)Descreve/Verbaliza a lavagem das mãos/higienização das mãos ou antissepsia com álcool; (2)Escolha da luva adequada (estéril); (3) Utilização da técnica correta para calçar as luvas estéreis; (4)Aspiração adequada do anestésico na seringa; e (5) Seleção do fio adequado para sutura da pele (nylon 4.0 ou 3.0).",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 1.5
+   },
+   "integral": "realiza quatro ou mais itens.",
+   "parcial": "realiza três itens.",
+   "inadequado": "realiza dois ou menos itens OU não realiza item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Realiza adequadamente as etapas do procedimento. (1)Descrever a antissepsia da ferida; (2) Descrever a infiltração local utilizando a técnica adequada; e (3)Descrever curativo oclusivo com gaze e esparadrapo.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.2,
+    "adequado": 2.0
+   },
+   "integral": "realiza os três itens.",
+   "parcial": "realiza dois itens.",
+   "inadequado": "realiza apenas um item OU não realiza item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Realizar a sutura obedecendo a técnica cirúrgica preconizada. (1)Utilizar a pinça de dente de rato; (2)Utilizar o porta-agulhas para dar o ponto; (3)Utilizar pontos simples ou tipo Donati; (4)Distância uniforme entre os pontos; (5)Bordas da ferida bem coaptadas; e (6)Nó adequadamente apertado.",
+   "peso": 2.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.1,
+    "adequado": 2.2
+   },
+   "integral": "realiza cinco itens ou mais.",
+   "parcial": "realiza três ou quatro itens.",
+   "inadequado": "realiza dois ou menos itens",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Orienta o paciente sobre os cuidados com a ferida. (1)Retirada de curativo após 24-48 horas; (2) Lavagem com soro fisiológico OU com água limpa e com sabão neutro e enxugá-la com toalha limpa; (3)Retirada de pontos em um período de 7 a 10 dias; (4)Orientar sinais de infecção de ferida (hiperemia, calor, rubor e secreção purulenta); e (5)Manter ferida limpa e seca.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "orienta três ou mais itens.",
+   "parcial": "orienta dois itens.",
+   "inadequado": "orienta apenas um item OU não orienta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

@@ -1,0 +1,243 @@
+{
+ "id": "inep-2022-2-e05",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.2",
+  "estacao": 5,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2022_2_.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+ "especialidade": "Medicina de Família e Comunidade",
+ "tema": "Homem de 35 anos comparece à Unidade Básica de Saúde (UBS) queixando-se de dor nas costas.",
+ "titulo": "Homem de 35 anos comparece à Unidade Básica de Saúde (UBS) queixando-se de dor nas costas.",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Unidade de Atenção Primária A unidade possui a seguinte infraestrutura:  Apoio laboratorial diagnóstico de urgência.",
+ "instrucoes": [
+  "Homem de 35 anos comparece à Unidade Básica de Saúde (UBS) queixando-se de dor nas costas. Nos próximos 10 minutos",
+  "ATENÇÃO: O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar anamnese do paciente.",
+  "solicitar investigação laboratorial, se necessário.",
+  "definir o diagnóstico clínico-laboratorial.",
+  "orientar o plano terapêutico e as medidas de controle."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [
+  {
+   "item": "Impresso com imagem",
+   "resultado": "IMPRESSO 1 IMAGEM DA LESÃO ATENÇÃO! DIRIJA-SE À CÂMERA E DESCREVA AS CARACTERÍSTICAS DA LESÃO\nIMPRESSO 2\nEXAME FÍSICO\nPeso: 70 Kg.\nÍndice de Massa Corporal: 28 Kg/m².\nPressão arterial: 125/72 mmHg.\nFrequência cardíaca: 98 batimentos por minuto.\nTemperatura axilar: 38º C.\nBom estado geral, acianótico e anictérico.\nAparelho cardiovascular: ritmo cardíaco regular em 2 tempos, bulhas\nnormofonéticas, sem sopros ou turgência jugular.\nAparelho respiratório: murmúrio vesicular bem distribuído. Sem ruídos\nadventícios.\nAbdome: normotenso, normotimpânico, indolor à palpação superficial e\nprofunda. Ruídos hidroaéreos presentes. Sem visceromegalias.",
+   "imagem": "img/estacoes/inep-2022-2-c05-p22.jpg"
+  }
+ ],
+ "diagnostico": "Realiza diagnóstico de Herpes Zoster.",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1) cumprimenta o paciente simulado; (2) identifica-se; (3) dirige-se ao paciente simulado pelo nome, pelo menos uma vez; (4) pergunta o motivo da consulta; (5) ouve o paciente com atenção.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as cinco ações.",
+   "parcial": "realiza de duas a quatro ações.",
+   "inadequado": "realiza uma ação ou não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Postura: (1) estabelece contato visual e (2) mantém postura empática ao longo da consulta.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.25
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma das ações.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Escuta a fala do paciente simulado sem interrompê-lo.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "realiza integralmente a ação.",
+   "parcial": null,
+   "inadequado": "não realiza a ação ou não realiza a ação integralmente.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Usa linguagem acessível ao paciente simulado, evitando termos técnicos de difícil compreensão.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "utiliza linguagem acessível.",
+   "parcial": null,
+   "inadequado": "não utiliza linguagem acessível.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Responde às perguntas do paciente simulado.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "responde às perguntas.",
+   "parcial": null,
+   "inadequado": "não responde às perguntas.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Explora as características da dor: (1) tempo de início e duração; (2) localização e irradiação; (3) qualidade/tipo; (4) intensidade e evolução; (5) fatores desencadeantes e atenuantes, e (6) manifestações concomitantes.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 1.5
+   },
+   "integral": "pergunta sobre as dez características da dor.",
+   "parcial": "pergunta quatro a seis características da dor. 10",
+   "inadequado": "pergunta sobre uma a três características da dor ou não pergunta sobre característica alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Investiga sintomas associados: (1) respiratórios; (2) geniturinários; (3) gastrintestinais (4) sistêmicos (febre, mal-estar).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga os quatro grupos de sintomas associados.",
+   "parcial": "investiga dois a três grupos de sintomas associados.",
+   "inadequado": "investiga um grupo de sintomas associados ou não investiga grupo de sintomas associados algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Pergunta sobre a existência de lesões em mucosas (boca, genitália ou ânus).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "pergunta se há lesões em mucosas.",
+   "parcial": null,
+   "inadequado": "não pergunta sobre lesões em mucosas.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Descreve as características da lesão: (1) placa eritematosa; (2) associação com lesões vesiculares; (3) obedece ao trajeto de um dermátomo.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "descreve as três características da lesão.",
+   "parcial": "descreve duas características da lesão.",
+   "inadequado": "descreve uma característica da lesão ou não descreve característica alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Realiza diagnóstico de Herpes Zoster.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 2.0
+   },
+   "integral": "realiza o diagnóstico.",
+   "parcial": null,
+   "inadequado": "não realiza o diagnóstico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Cita os principais diagnósticos diferenciais para o caso: (1) pielonefrite; (2) nova varíola ou monkeypox; (3) varicela; (4) lombalgia mecânica/DORT; (5) urolitíase.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "cita os cinco principais diagnósticos diferenciais.",
+   "parcial": "cita dois a quatro principais diagnósticos diferenciais.",
+   "inadequado": "cita um dos principais diagnósticos diferenciais ou não cita diagnóstico diferencial algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Indica tratamento: (1) medicações sintomáticas (analgésico/antitérmico e/ou anti-inflamatório); (2) antiviral oral (Aciclovir, Fanciclovir, Valaciclovir).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 1.0
+   },
+   "integral": "indica ambos os tratamentos.",
+   "parcial": "indica um dos tratamentos.",
+   "inadequado": "não indica tratamento algum. Atenção: A indicação de anti-histamínicos e/ou posologia do antiviral não afeta a pontuação nesta questão. 11",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

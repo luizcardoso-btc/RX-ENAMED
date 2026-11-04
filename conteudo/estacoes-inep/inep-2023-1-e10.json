@@ -1,0 +1,479 @@
+{
+ "id": "inep-2023-1-e10",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.1",
+  "estacao": 10,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+ "especialidade": "Medicina de Família e Comunidade",
+ "tema": "Você trabalha em uma Unidade Básica de Saúde (UBS) e realizará o atendimento, em consulta ",
+ "titulo": "Você trabalha em uma Unidade Básica de Saúde (UBS) e realizará o atendimento, em consulta ",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Primária à Saúde. Consultório médico em uma Unidade Básica de Saúde.",
+ "instrucoes": [
+  "Você trabalha em uma Unidade Básica de Saúde (UBS) e realizará o atendimento, em consulta agendada, de uma mulher de 32 anos de idade, queixando-se de cansaço intenso e falta de energia. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "demonstrar habilidades de comunicação e profissionalismo",
+  "acolher adequadamente a demanda da paciente",
+  "realizar a abordagem integral da pessoa em seu contexto",
+  "estabelecer o diagnóstico explicando as características do quadro clínico",
+  "pactuar com a paciente o plano de cuidados",
+  "verificar a necessidade de registrar e/ou notificar órgão competente."
+ ],
+ "historia": "A Estação 10 de Medicina da Família e Comunidade abordou o caso de uma mulher de 32 anos de idade que sente cansaço intenso e falta de energia. A paciente simulada, com olhar cabisbaixo, demonstra apatia e veio sozinha à consulta agendada na unidade básica de saúde.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "ela se chama Fernanda, tem 32 anos, é solteira"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "ela é professora de escola infantil pública há dez anos"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "está se sentindo com um cansaço sem fim, falta de energia e sensação de que está acabada"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "desde o início da pandemia ela passou por uma sobrecarga no trabalho, pela necessidade de aprender uma nova tecnologia, e que o fato de algumas crianças não conseguirem acompanhar as aulas por falta de acesso à internet gerou um sentimento de culpa"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "houve uma mudança na sua chefia, a chefe atual é muito rígida e crítica com todos"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "a sua relação com as colegas de trabalho se deteriorou após a pandemia, elas se distanciaram e o trabalho aumentou após parte da equipe ser mandada embora"
+   },
+   {
+    "topico": "Identificação (2)",
+    "resposta": "ela trabalha de segunda à sexta, leva uma hora e meia para ir e uma hora e meia para voltar para a casa"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "ela leva marmita e almoça na escola, fica lá o dia inteiro"
+   },
+   {
+    "topico": "Outras informações (6)",
+    "resposta": "antes ela tinha esperança nas crianças, hoje não tem paciência e nem se importa com elas como antes"
+   },
+   {
+    "topico": "Outras informações (7)",
+    "resposta": "antes ela gostava do seu trabalho, hoje faz suas atividades de qualquer jeito"
+   },
+   {
+    "topico": "Outras informações (8)",
+    "resposta": "não tem nenhum prazer em ir trabalhar, está desmotivada"
+   },
+   {
+    "topico": "Outras informações (9)",
+    "resposta": "ela está se sentindo muito fracassada, não percebe um resultado em nada do que faz na escola, sente-se muito incompetente e não consegue se concentrar nas aulas"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "de vez em quando sente um peso no pescoço e uma dorzinha na coluna"
+   },
+   {
+    "topico": "Outras informações (10)",
+    "resposta": "ela afirma que quando chega em casa tem mais tarefas a desempenhar, com a casa e com a filha, e que aos finais de semana está com tão pouca energia que só pensa em ficar em casa"
+   },
+   {
+    "topico": "Outras informações (11)",
+    "resposta": "não realiza atividades físicas e sempre leva trabalho para casa"
+   },
+   {
+    "topico": "Características do quadro (2)",
+    "resposta": "ela dorme bem, de vez em quando tem pesadelos com o trabalho"
+   },
+   {
+    "topico": "Outras informações (12)",
+    "resposta": "não sente palpitações, coração acelerado ou taquicardia"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "não tem sensações de falta de ar"
+   },
+   {
+    "topico": "Outras informações (13)",
+    "resposta": "não possui sintomas digestivos"
+   },
+   {
+    "topico": "Sintomas associados (2)",
+    "resposta": "às vezes sente um aperto na cabeça, sente um peso e anda muito esquecida"
+   },
+   {
+    "topico": "Outras informações (14)",
+    "resposta": "não teve sintomas psicóticos (alucinações auditivas e/ou visuais, ideias de perseguição, delírios)"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "não ingere bebidas alcóolicas, não fuma ou usa outra droga"
+   },
+   {
+    "topico": "Outras informações (15)",
+    "resposta": "engordou entre 2 e 3 quilos nos últimos meses"
+   },
+   {
+    "topico": "Outras informações (16)",
+    "resposta": "tem comido muito lanche na rua, devido a correria do dia a dia"
+   },
+   {
+    "topico": "Outras informações (17)",
+    "resposta": "não tem mais contato com as suas amigas"
+   },
+   {
+    "topico": "Outras informações (18)",
+    "resposta": "anda com pouca fé"
+   },
+   {
+    "topico": "Outras informações (19)",
+    "resposta": "está cansada e desanimada, mas que não pensa em automutilação ou autoextermínio, gosta de viver e pensa muito em sua filha"
+   },
+   {
+    "topico": "Outras informações (20)",
+    "resposta": "pegou uma folga para ir à consulta, mas está com medo de não dar conta de realizar o seu trabalho; A paciente simulada"
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "Peso: 64 kg.\nFrequência cardíaca: 90 batimentos por minuto.\nPressão arterial: 119 × 68 mmHg.\nTemperatura axilar: 36,9 °C.\nÍndice de massa corpórea (IMC): 26 Kg/m2.\nBom estado geral, corada, acianótica, anictérica e afebril. Pele hidratada.\nAparelho Cardiovascular: ritmo cardíaco regular em 02 tempos, bulhas normofonéticas,\nsopros não audíveis, sem turgência jugular.\nAparelho Respiratório: murmúrio vesicular bem distribuído. Sem ruídos adventícios.\nAbdome: normotenso, normotimpânico, indolor à palpação superficial e profunda. Ruídos\nhidroaéreos presentes. Sem visceromegalias.\nRegião cervical: palpação sem nodulações ou tumefações; tireoide de tamanho e\nconsistência normais.\nAparelho musculoesquelético: ausência de deformidades articulares e ausência de dor à\npalpação."
+  }
+ ],
+ "exames": [],
+ "diagnostico": "Estabelece o diagnóstico de esgotamento mental relacionado ao trabalho. (OU esgotamento físico e mental relacionado ao trabalho OU Síndrome de Burnout OU Síndrome de Esgotamento Profissional).",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "ela se chama Fernanda, tem 32 anos, é solteira",
+  "ela é professora de escola infantil pública há dez anos",
+  "está se sentindo com um cansaço sem fim, falta de energia e sensação de que está acabada",
+  "desde o início da pandemia ela passou por uma sobrecarga no trabalho, pela necessidade de aprender uma nova tecnologia, e que o fato de algumas crianças não conseguirem acompanhar as aulas por falta de acesso à internet gerou um sentimento de culpa",
+  "houve uma mudança na sua chefia, a chefe atual é muito rígida e crítica com todos",
+  "a sua relação com as colegas de trabalho se deteriorou após a pandemia, elas se distanciaram e o trabalho aumentou após parte da equipe ser mandada embora",
+  "ela trabalha de segunda à sexta, leva uma hora e meia para ir e uma hora e meia para voltar para a casa",
+  "ela leva marmita e almoça na escola, fica lá o dia inteiro",
+  "antes ela tinha esperança nas crianças, hoje não tem paciência e nem se importa com elas como antes",
+  "antes ela gostava do seu trabalho, hoje faz suas atividades de qualquer jeito",
+  "não tem nenhum prazer em ir trabalhar, está desmotivada",
+  "ela está se sentindo muito fracassada, não percebe um resultado em nada do que faz na escola, sente-se muito incompetente e não consegue se concentrar nas aulas",
+  "de vez em quando sente um peso no pescoço e uma dorzinha na coluna",
+  "ela afirma que quando chega em casa tem mais tarefas a desempenhar, com a casa e com a filha, e que aos finais de semana está com tão pouca energia que só pensa em ficar em casa",
+  "não realiza atividades físicas e sempre leva trabalho para casa",
+  "ela dorme bem, de vez em quando tem pesadelos com o trabalho",
+  "não sente palpitações, coração acelerado ou taquicardia",
+  "não tem sensações de falta de ar",
+  "não possui sintomas digestivos",
+  "às vezes sente um aperto na cabeça, sente um peso e anda muito esquecida",
+  "não teve sintomas psicóticos (alucinações auditivas e/ou visuais, ideias de perseguição, delírios)",
+  "não ingere bebidas alcóolicas, não fuma ou usa outra droga",
+  "engordou entre 2 e 3 quilos nos últimos meses",
+  "tem comido muito lanche na rua, devido a correria do dia a dia",
+  "não tem mais contato com as suas amigas",
+  "anda com pouca fé",
+  "está cansada e desanimada, mas que não pensa em automutilação ou autoextermínio, gosta de viver e pensa muito em sua filha",
+  "pegou uma folga para ir à consulta, mas está com medo de não dar conta de realizar o seu trabalho; A paciente simulada, caso o(a) participante fizesse a anamnese adequada, perguntaria ao(à) participante:",
+  "se ela tem algo grave, o que ela tem",
+  "por qual razão foi traçado o diagnóstico e se será necessário algum exame para confirmá-lo",
+  "o que ela pode fazer para melhorar",
+  "se a equipe da UBS pode ajudá-la",
+  "se ela precisará mesmo pegar um atestado, ser afastada do trabalho",
+  "se existe alguma lei que possa ajudar ela quanto ao afastamento ou permanência no trabalho. Caso o(a) participante fizesse as seguintes perguntas / solicitações adequadas ele(a) receberia os"
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1) cumprimenta a paciente simulada; (2) identifica-se; (3) dirige-se à paciente simulada pelo nome, pelo menos uma vez; (4) pergunta sobre o motivo da consulta; (5) ouve com atenção o relato inicial da paciente.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as cinco ações.",
+   "parcial": "realiza quatro, três ou duas ações.",
+   "inadequado": "realiza uma ação OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Contato visual e linguagem não verbal: (1) estabelece contato visual; (2) mantém linguagem não verbal adequada.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.25
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma das ações.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Escuta, ao longo da consulta, a fala da paciente simulada sem interrompê-la.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "realiza a ação.",
+   "parcial": null,
+   "inadequado": "não realiza a ação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Usa linguagem acessível com a paciente simulada, evitando termos técnicos de difícil compreensão.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "usa linguagem acessível.",
+   "parcial": null,
+   "inadequado": "não usa linguagem acessível.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Age com postura empática (1) compartilha confiança com a paciente simulada; (2) não banaliza / naturaliza / desacredita / miniminiza o adoecimento / sofrimento da paciente simulada; (3) não julga a paciente simulada.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza os três itens.",
+   "parcial": "realiza dois itens.",
+   "inadequado": "realiza um item OU não realiza item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Investiga a relação laboral como origem dos sintomas relatados: (ex: longas jornadas de trabalho, com poucas pausas; aumento da carga de trabalho; modos de gerenciamento rígidos, desrespeitosos, pouco flexíveis e/ ou excessivamente normatizados; tarefas fragmentadas, ritmo de trabalho acelerado, falta de controle sobre a execução da tarefa; assédio moral; violência; assédio sexual).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "investiga.",
+   "parcial": null,
+   "inadequado": "não investiga.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Verbaliza a possível associação entre as queixas da paciente e o trabalho.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "verbaliza.",
+   "parcial": null,
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Pergunta sobre a existência de rede de apoio social (familiar ou espiritual ou religiosa ou vizinhança ou amizades).",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.75
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Identifica as três características da Síndrome de Burnout: (1) exaustão emocional (Ex.: cansaço extremo; sensação de não ter energia para o trabalho; sensação de que o trabalho exige demais; fadiga; labilidade; agressividade; dores musculares); (2) despersonalização (atitude de insensibilidade ou hostilidade; atitudes e comportamentos mecanizados e burocratizados; ironia / cinismo; incapacidade de relaxar, tendência ao isolamento); (3) autodepreciação (sentimentos negativos referentes ao trabalho e às realizações pessoais; perda de interesse pelo trabalho e até pelo lazer).",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "identifica as três características.",
+   "parcial": "identifica duas características.",
+   "inadequado": "identifica uma característica ou não identifica característica alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Aborda ideação suicida OU de autoexterminio.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "aborda.",
+   "parcial": null,
+   "inadequado": "não aborda.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Estabelece o diagnóstico de esgotamento mental relacionado ao trabalho. (OU esgotamento físico e mental relacionado ao trabalho OU Síndrome de Burnout OU Síndrome de Esgotamento Profissional).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 1.0
+   },
+   "integral": "estabelece o diagnóstico correto relacionando ao trabalho.",
+   "parcial": "estabelece o diagnóstico de esgotamento mental OU esgotamento físico e mental sem especificar a relação com o trabalho.",
+   "inadequado": "não estabelece o diagnóstico correto.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Aconselha hábitos saudáveis de vida: (1) atividades de lazer com família e amigos; (2) atividade física regular; (3) cultivar hobbies; (4) manter bom padrão de sono; (5) alimentação saudável.",
+   "peso": 1.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.6,
+    "adequado": 1.2
+   },
+   "integral": "aconselha quatro ou cinco hábitos.",
+   "parcial": "aconselha dois ou três hábitos.",
+   "inadequado": "aconselha um hábito OU não aconselha hábito algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Indica acompanhamento nos dispositivos da rede de atenção à saúde: Núcleo de Atenção em Saúde da Família (NASF) OU Centro de Atenção Psicossocial (CAPS) OU Centro de Referência em Saúde do Trabalhador (CEREST) OU Equipes Multidisciplinares (eMulti).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c14",
+   "descricao": "Aconselha acompanhamento psicológico OU encaminhamento para psicólogo da UBS.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "aconselha.",
+   "parcial": null,
+   "inadequado": "não aconselha.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c15",
+   "descricao": "Informa sobre o direito a afastamento do trabalho/ atestado médico/auxílio doença.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "informa.",
+   "parcial": null,
+   "inadequado": "não Informa.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c16",
+   "descricao": "Informa a necessidade ou realiza emissão da Comunicação de Acidente de Trabalho (CAT) ou Comunicação Interna de Acidente de Trabalho (CIAT).",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.4
+   },
+   "integral": "informa.",
+   "parcial": null,
+   "inadequado": "não informa.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c17",
+   "descricao": "Notifica ao SINAN.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.2,
+    "adequado": 0.4
+   },
+   "integral": "notifica ao SINAN.",
+   "parcial": "notifica sem especificar o órgão.",
+   "inadequado": "não notifica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

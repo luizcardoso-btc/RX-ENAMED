@@ -1,0 +1,421 @@
+{
+ "id": "inep-2023-2-e05",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.2",
+  "estacao": 5,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2023_2.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+ "especialidade": "Medicina de Família e Comunidade",
+ "tema": "Você atenderá uma mulher de 25 anos de idade, acolhida na UBS por um técnico de enfermagem",
+ "titulo": "Você atenderá uma mulher de 25 anos de idade, acolhida na UBS por um técnico de enfermagem",
+ "duracaoMin": 10,
+ "cenario": "• Local de atuação: atenção primária à saúde – unidade básica de saúde (UBS).",
+ "instrucoes": [
+  "Você atenderá uma mulher de 25 anos de idade, acolhida na UBS por um técnico de enfermagem, com dúvidas sobre a indicação de exame preventivo de câncer de colo uterino (Papanicolau). Antes da consulta, você é abordado(a) pela agente comunitária de saúde, que relata a você dois fatos sobre essa paciente: (i) é a primeira vez que ela vem à UBS; (ii) ela sofre discriminação na vizinhança, inclusive por funcionários da UBS. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "Conduzir a consulta centrada na pessoa e utilizar os atributos nucleares da atenção primária à saúde",
+  "Verbalizar a indicação ou não do exame preventivo para câncer de colo uterino",
+  "Explicar sua resposta considerando as evidências clínicas do caso",
+  "Abordar questões da sexualidade no processo saúde-doença",
+  "Orientar o plano de cuidados da paciente e família."
+ ],
+ "historia": "A Estação 5 de Medicina da Família e Comunidade abordou o caso de uma mulher de 25 anos de idade que vai à unidade básica de saúde (UBS) pela primeira vez com dúvida sobre indicação de exame preventivo de câncer de colo uterino (papanicolau). Ao ser atendida pela recepcionista e pelo técnico em enfermagem, sofre discriminação por sua orientação sexual, pois é lésbica e veste-se como homem. Em consulta, ela transmite sua insatisfação com o atendimento na UBS e conversa com o(a) médico(a) sobre suas dúvidas.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": "25 anos",
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "Chama-se Valentina"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "Esta é sua primeira consulta"
+   },
+   {
+    "topico": "Identificação (2)",
+    "resposta": "Tem 25 anos de idade, ensino médio completo, está desempregada e vive com sua companheira de 28 anos de idade"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "Deseja saber se deve, ou não, se submeter ao exame citopatológico/preventivo/papanicolau"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "Foi desrespeitada pelos atendentes da UBS e está indignada, com raiva e deseja saber se existe algo que o(a) participante possa fazer com relação a discriminação"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "Nunca fez o exame papanicolau e não se recorda da última vez em que foi a uma consulta médica"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "Sua última menstruação ocorreu há 2 semanas"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "Não usa medicamentos"
+   },
+   {
+    "topico": "Vacinação e desenvolvimento",
+    "resposta": "Está com todas as vacinas em dia"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "Nunca engravidou, nem teve corrimentos, nem infecções genitais ou urinárias"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "Não possui doenças pré-existentes ou história de cirurgia"
+   },
+   {
+    "topico": "Outras informações (6)",
+    "resposta": "Faz uso eventual de brinquedos sexuais com sua parceira e as duas compartilham os brinquedos uma com a outra"
+   },
+   {
+    "topico": "Medicamentos (2)",
+    "resposta": "Não faz uso de preservativos ou de métodos de barreira durante suas práticas sexuais"
+   },
+   {
+    "topico": "Medicamentos (3)",
+    "resposta": "Não fez uso, nas últimas 48 horas, de lubrificantes, espermicidas ou medicamentos vaginais, assim como não realizou interações sexuais com preservativo no mesmo período"
+   },
+   {
+    "topico": "Início e evolução (2)",
+    "resposta": "Há 7 anos, teve relações sexuais com um homem, sem preservativo"
+   },
+   {
+    "topico": "Outras informações (7)",
+    "resposta": "Relata que tem um relacionamento estável, amoroso e respeitoso com sua companheira, sem quaisquer traços de violência"
+   },
+   {
+    "topico": "Outras informações (8)",
+    "resposta": "Não considera ter filhos."
+   }
+  ],
+  "perguntasDoPaciente": [
+   "Qual é a importância do exame papanicolau",
+   "Por que ele está indicado",
+   "Quando ela deverá fazer o exame",
+   "Como será o seu acompanhamento."
+  ]
+ },
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "Ofertar uma consulta — orientada pelos atributos nucleares da atenção primária à saúde e centrada na pessoa — a uma mulher cisgênero lésbica com dúvida sobre indicação de exame preventivo de câncer de colo uterino (papanicolau)",
+  "Demonstrar empatia, compaixão e solidariedade perante o sentimento da paciente frente à atitude lesbofóbica de funcionários da UBS (quais sejam: estranhamento e frieza da recepcionista, o uso de termo ofensivo e preconceituoso para se referir à opção sexual da mulher e o desconhecimento da abordagem adequada com relação às demandas da paciente pelo técnico de enfermagem)",
+  "Demonstrar conhecimento sobre a importância do papanicolau e sobre os critérios específicos de indicação de realização do exame para mulheres que fazem sexo com mulheres",
+  "Realizar abordagem familiar e orientar a vinda da parceira da pessoa atendida para receber acompanhamento de saúde, além de identificar questões sobre planejamento reprodutivo e a possibilidade de existência de violência no relacionamento íntimo entre o(a) paciente e sua parceira",
+  "Construir um plano de cuidado compartilhado com a paciente."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresenta-se. (1)Cumprimenta a paciente simulada; (2)Identifica-se; (3)Pergunta como é seu nome e dirige-se a ela pelo nome, pelo menos uma vez; (4)Pergunta o motivo do encontro; e (5)Ouve com atenção o motivo do encontro.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as cinco ações.",
+   "parcial": "realiza de três a quatro ações apenas.",
+   "inadequado": "realiza até duas ações OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Conecta-se à paciente. (1)Mantém contato visual ao longo da consulta; (2)Mantém postura ativa e interessada ao longo da consulta; e (3) Valida empaticamente os sentimentos da paciente simulada (ex.: frustação, raiva e indignação).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as três ações.",
+   "parcial": "realiza duas ações apenas.",
+   "inadequado": "realiza uma ação OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Interage com a paciente. (1)Escuta a fala da paciente simulada sem interrompê-la; e (2)Responde às perguntas dela.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as duas ações integralmente.",
+   "parcial": "realiza apenas uma das ações integralmente.",
+   "inadequado": "interrompe a fala da paciente simulada mais de uma vez e não responde às perguntas dela.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Usa linguagem acessível com a paciente simulada, evitando termos técnicos de difícil compreensão.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "utiliza linguagem acessível.",
+   "parcial": null,
+   "inadequado": "não utiliza linguagem acessível.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Comporta-se profissionalmente. (1)Competência atitudinal; (2)Falas não discriminatórias; (3)Responsabilidade, desculpando-se em nome da equipe; e (4)Compromisso em conversar com a gerência da UBS e/ou com os responsáveis por comportamento discriminatório, em reunião de equipe, se for o caso, advogando em defesa de ambiente respeitoso e ético, fomentando tratamento digno, profissional e seguro a todas as pessoas que busquem cuidados na UBS.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "apresenta os quatro comportamentos.",
+   "parcial": "apresenta dois OU três comportamentos.",
+   "inadequado": "não apresenta comportamento algum OU apresenta somente um comportamento OU usa termos pejorativos e lesbofóbicos em sua fala.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Conduz a consulta utilizando os atributos nucleares da APS. (1)Acesso; (2)Integralidade; (3)Longitudinalidade; e (4)Coordenação do cuidado.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "utiliza os quatro atributos.",
+   "parcial": "utiliza dois OU três atributos.",
+   "inadequado": "utiliza apenas um atributo da APS OU não utiliza atributo algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Realiza avaliação global por meio das seguintes ações: (1)Verifica a realização prévia de exame citopatológico; (2) Questiona se houve realização de exames intravaginais OU se há a utilização de lubrificantes OU de espermicidas OU de medicamentos vaginais OU qual é a história de relações sexuais com preservativo nas últimas 48 horas; (3) Investiga antecedentes pessoais obstétricos OU cirurgias pélvicas; (4)Investiga ISTs OU infecção por HPV; (5)Identifica a data da última menstruação; e (6) Identifica presença de queixas relacionadas a corrimentos vaginais OU sangramentos vaginais OU dor na relação sexual.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza de cinco a seis ações.",
+   "parcial": "realiza três OU quatro ações.",
+   "inadequado": "realiza duas ações OU realiza apenas uma ação OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Explica a importância da realização do exame de Papanicolau. (1) O câncer de colo de útero tem evidência para rastreamento OU para prevenção; e (2) O câncer de colo de útero é curável se detectado ou diagnosticado precocemente.",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 0.75
+   },
+   "integral": "verbaliza os dois itens.",
+   "parcial": "verbaliza apenas um item.",
+   "inadequado": "não verbaliza item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Explica em linhas gerais para a paciente como o exame será realizado citando, no mínimo: (1) Posição da paciente: deitada; e (2) Via de coleta: vaginal.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.25
+   },
+   "integral": "explica os dois itens.",
+   "parcial": "explica apenas um item.",
+   "inadequado": "não explica item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Indica a realização do exame citopatológico.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Explica os critérios de indicação nesse caso: (1)Idade a partir de 25 anos; e (2)Já teve ou tem atividade sexual.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "explica os dois critérios.",
+   "parcial": "explica um critério.",
+   "inadequado": "não explica critério algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Utiliza o princípio da captação oportunística indicando a realização do exame citopatológico no momento da consulta.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "coleta o exame OU encaminha a paciente para a sala de coleta (com médico(a) ou enfermeiro(a)) no momento da consulta.",
+   "parcial": null,
+   "inadequado": "encaminha a paciente para outro serviço OU para outro nível de atenção (ex.: consulta com ginecologista) OU a encaminha para agendamento.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Orienta a paciente sobre a periodicidade de realização do exame citopatológico. Os dois primeiros exames devem ser feitos com intervalo de um ano e, se os resultados forem normais, os próximos exames devem ser realizados a cada três anos.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "orienta a paciente.",
+   "parcial": null,
+   "inadequado": "não orienta paciente OU orienta a periodicidade incorreta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c14",
+   "descricao": "Oferta teste rápidos. (1)HIV; (2)Hepatite B; (3)Hepatite C; e (4)Sífilis.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "oferta os quatro testes rápidos.",
+   "parcial": "oferta dois ou três testes rápidos OU oferta teste rápido sem especificar qual é.",
+   "inadequado": "não oferta qualquer teste rápido.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c15",
+   "descricao": "Orienta sobre práticas de sexo seguro: (1)Manter unhas curtas E/OU as mãos limpas; (2) Usar métodos de barreira (preservativo vaginal/interno, preservativo peniano/externo, folha de látex/dental dam, luvas cirúrgicas, dedeiras de látex); (3) Usar preservativo nos acessórios sexuais e trocá-lo (ou higienizar o objeto) sempre que cada pessoa for utilizá-lo ou quando houver alternância de uso entre vagina e ânus; (4)Evitar contato com lesões ou com sangue menstrual; e (5)Utilizar lubrificante para diminuir atrito e chance de lesões.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "orienta quatro ou cinco práticas.",
+   "parcial": "orienta duas ou três práticas apenas.",
+   "inadequado": "orienta apenas uma prática OU não orienta prática alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c16",
+   "descricao": "Utiliza o atributo de abordagem familiar ao aconselhar que a parceria busque cuidados de saúde na UBS.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "aconselha a paciente.",
+   "parcial": null,
+   "inadequado": "não aconselha a paciente.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c17",
+   "descricao": "Investiga a presença de violências por parcerias íntimas.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "investiga.",
+   "parcial": null,
+   "inadequado": "não investiga.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c18",
+   "descricao": "Aborda planejamento reprodutivo.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "aborda.",
+   "parcial": null,
+   "inadequado": "não aborda OU indica contraceptivo.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

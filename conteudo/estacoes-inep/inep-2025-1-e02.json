@@ -1,0 +1,321 @@
+{
+ "id": "inep-2025-1-e02",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2025.1",
+  "estacao": 2,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2025_1_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2025_1_prova_habilidades_clinicas.pdf.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Cirurgia",
+ "especialidade": "Cirurgia geral",
+ "tema": "Dor abdominal",
+ "titulo": "Dor abdominal",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: secundária. Tipo de atendimento: urgência e emergência. A unidade possui: ● setor de radiologia com aparelho de radiografia; ● laboratório de análises clínicas; ● centro cirúrgico.",
+ "instrucoes": [
+  "Você é um médico de plantão na emergência de uma unidade de pronto atendimento (UPA) e atenderá um paciente de 31 anos com queixa de dor abdominal.",
+  "ATENÇÃO: O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar anamnese",
+  "solicitar exame físico do paciente",
+  "realizar o exame físico específico no manequim",
+  "solicitar e interpretar exames laboratoriais",
+  "solicitar e interpretar exames complementares pertinentes ao caso",
+  "formular e verbalizar a hipótese diagnóstica definitiva",
+  "orientar tratamento inicial e tratamento definitivo."
+ ],
+ "historia": "A Estação 2 de Cirurgia Geral aborda o caso de um homem de 31 anos, educador físico, com queixa de dor intensa, profunda e contínua em epigástrio. A dor teve início súbito e se mantém há cerca de 6 horas. Trata-se de paciente sem comorbidades que pratica atividade física e está treinando para uma competição há três meses, e em uso de anti-inflamatório diariamente no período. Desde o início da dor, sente-se nauseado, mas nega episódios de vômito. DESCRIÇÃO DO CASO",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": "31 anos",
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "tem 31 anos, é casado e trabalha como profissional de educação física"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "sente dor intensa no epigástrio, de início súbito, há cerca de 6 horas"
+   },
+   {
+    "topico": "Fatores de melhora e piora",
+    "resposta": "fez uso de anti-inflamatório, sem melhora"
+   },
+   {
+    "topico": "Início e evolução (2)",
+    "resposta": "pratica atividade física regularmente, está treinando há 3 meses para uma competição de crossfit e não possui comorbidades"
+   },
+   {
+    "topico": "Início e evolução (3)",
+    "resposta": "faz uso de 1 comprimido de nimesulida toda noite há 3 meses, para alívio de dores musculares"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "nega tabagismo, etilismo e uso de hormônios"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "tem alimentação saudável e faz suplementação com whey"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "nega febre"
+   },
+   {
+    "topico": "Início e evolução (4)",
+    "resposta": "sente-se nauseado desde o início da dor, mas nega episódios de vômito"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "costuma ingerir bastante líquido."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico geral",
+   "achado": "Paciente em regular estado geral, hidratado, normocorado, acianótico.\nSINAIS VITAIS\nFrequência cardíaca: 100 batimentos por minuto.\nPressão arterial: 100 mmHg x 70 mmHg.\nFrequência respiratória: 24 incursões respiratórias por minuto.\nTemperatura axilar: 37,8 °C.\nIMC: 22,5 kg/m2.\nAparelhos respiratório e cardiovascular: sem anormalidades.",
+   "chaves": [
+    "exame físico geral"
+   ]
+  },
+  {
+   "item": "Exame físico abdominal",
+   "achado": "Inspeção: levemente distendido.\nAusculta: ruídos hidroaéreos diminuídos.\nPercussão: timpânico difusamente, sem macicez; sinal de Jobert presente.\nPalpação: tenso, resistente e doloroso à palpação superficial e profunda em todo o abdome.\nDescompressão brusca dolorosa em todo o abdome.",
+   "chaves": [
+    "após a palpação do abdome no manequim"
+   ]
+  }
+ ],
+ "exames": [
+  {
+   "item": "Exames laboratoriais",
+   "resultado": "Nome: Rafael Silva\nData de nascimento: 5 de março de 1994\nExame Valor de Referência\nHemoglobina (Hb)..............................................................14,8 g/dL 13,0 – 17,0 g/dL\nHematócrito (Hct)....................................................................44,2% 40 – 50%\nLeucócitos......................................................................16.500/mm³ 4.000 – 11.000/mm³\nPlaquetas.....................................................................240.000/mm³ 150.000 – 450.000/mm³\nProteína C reativa..............................................................50 mg/dL ≤ 8 mg/dL\nCreatinina.........................................................................1,1 mg/dL 0,7 – 1,3 mg/dL\nUreia..................................................................................36 mg/dL 10 – 40 mg/dL\nSódio................................................................................140 mEq/L 135 – 145 mEq/L\nPotássio.............................................................................4,5 mEq/L 3,5 – 5,0 mEq/L\nAmilase..................................................................................140 U/L 60 – 180 U/L\nLipase......................................................................................34 U/L 0 – 160 U/L",
+   "chaves": [
+    "de análise clínica",
+    "exames laboratoriais"
+   ]
+  },
+  {
+   "item": "Exame de imagem",
+   "resultado": "OLHE PARA A CÂMERA E DESCREVA O ACHADO DESTE EXAME DE IMAGEM.",
+   "imagem": "img/estacoes/inep-2025-1-c02-p10.jpg",
+   "chaves": [
+    "2024",
+    "bonds",
+    "c. m. et al. (org.). sabiston tratado de cirurgia: a base biológica da prática cirúrgica moderna. v. 2. 21. ed. rio de janeiro: gen-guanabara koogan",
+    "postier",
+    "r. abdome agudo. in: townsend",
+    "radiografia de tórax",
+    "raio-x de tórax pa em posição ortostática",
+    "rotina radiológica para abdome agudo. referência bibliográfica landmann"
+   ]
+  }
+ ],
+ "diagnostico": "Pergunta sobre fatores relevantes para o estabelecimento do diagnóstico: (1) náuseas e(ou) vômitos; (2) febre; (3) antecedente de dispepsia OU antecedente de dor epigástrica; (4) uso crônico de anti-inflamatório OU uso frequente de medicação; (5) etilismo e tabagismo; (6) episódios prévios semelhantes.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "apresentar-se adequadamente ao paciente",
+  "realizar anamnese dirigida à queixa do paciente, perguntando sobre características da dor e sobre fatores relevantes para o estabelecimento do diagnóstico",
+  "realizar exame físico abdominal no manequim segundo a semiotécnica adequada (inspeção; ausculta; percussão; palpação superficial e profunda)",
+  "solicitar exames laboratoriais (PCR e(ou) VHS; hemograma; amilase e(ou) lipase; ureia e creatinina; sódio e potássio)",
+  "solicitar radiografia de tórax PA em posição ortostática ou rotina radiológica de abdome agudo, interpretando os achados do exame radiológico disponível e entregue ao participante (pneumoperitônio)",
+  "definir hipótese diagnóstica (úlcera péptica perfurada e(ou) abdome agudo perfurativo)",
+  "correlacionar o quadro atual ao uso indiscriminado de anti-inflamatório",
+  "indicar conduta inicial, com analgesia",
+  "orientar o paciente sobre a necessidade de internação e cirurgia urgente."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)identifica-se; (2)pergunta o nome e cumprimenta o paciente simulado.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.2
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza nenhuma das ações.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre as características da dor: (1) tempo de início OU duração; (2) irradiação OU migração da dor; (3) tipo; (4) intensidade; (5) fatores agravantes OU fatores de piora; (6) fatores atenuantes OU fatores de melhora.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "pergunta sobre cinco ou mais características.",
+   "parcial": "pergunta sobre quatro características.",
+   "inadequado": "não pergunta ou pergunta sobre três ou menos características.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre fatores relevantes para o estabelecimento do diagnóstico: (1) náuseas e(ou) vômitos; (2) febre; (3) antecedente de dispepsia OU antecedente de dor epigástrica; (4) uso crônico de anti-inflamatório OU uso frequente de medicação; (5) etilismo e tabagismo; (6) episódios prévios semelhantes.",
+   "peso": 0.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.8
+   },
+   "integral": "investiga quatro ou mais itens.",
+   "parcial": "investiga dois ou três itens.",
+   "inadequado": "não investiga ou investiga apenas um item.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Realiza o exame físico abdominal, no manequim, utilizando a técnica adequada e verbalizando cada ação: (1)sequência: inspeção, ausculta, percussão e palpação; (2)palpação superficial e profunda (bimanual); (3)pesquisa de dor à descompressão brusca.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "realiza os três itens.",
+   "parcial": "realiza dois itens.",
+   "inadequado": "realiza um ou nenhum item.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita os exames laboratoriais: (1)PCR e(ou) VHS; (2)hemograma; (3)amilase e(ou) lipase; (4)ureia e creatinina; (5)sódio e potássio.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita quatro ou cinco itens (e obrigatoriamente PCR e hemograma).",
+   "parcial": "solicita três itens (e obrigatoriamente PCR e hemograma).",
+   "inadequado": "não solicita ou solicita apenas um ou dois ou três itens (sem PCR e hemograma).",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita radiografia de tórax em incidência póstero-anterior (PA) e em posição ortostática OU rotina radiológica de abdome agudo.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Interpreta corretamente os achados do exame de imagem, descrevendo o pneumoperitônio.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "interpreta.",
+   "parcial": null,
+   "inadequado": "não interpreta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Define hipótese diagnóstica: úlcera péptica perfurada e(ou) abdome agudo perfurativo.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "define.",
+   "parcial": null,
+   "inadequado": "não define.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Correlaciona o uso de anti-inflamatório OU nimesulida ao quadro atual.",
+   "peso": 1.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.2
+   },
+   "integral": "correlaciona.",
+   "parcial": null,
+   "inadequado": "não correlaciona.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Indica analgesia endovenosa ou intravenosa (IV ou EV)",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Indica a necessidade de avaliação cirúrgica imediata/ urgente OU indica a necessidade de laparotomia/laparoscopia exploradora imediata/urgente.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica.",
+   "parcial": null,
+   "inadequado": "não indica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2025.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

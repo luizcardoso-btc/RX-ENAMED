@@ -1,0 +1,387 @@
+{
+ "id": "inep-2025-1-e09",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2025.1",
+  "estacao": 9,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2025_1_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2025_1_prova_habilidades_clinicas.pdf.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Ginecologia e Obstetrícia",
+ "especialidade": "Ginecologia e Obstetrícia",
+ "tema": "Menstruações com sangramento aumentado",
+ "titulo": "Menstruações com sangramento aumentado",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: primária. Tipo de atendimento: ambulatorial — unidade básica de saúde (UBS). A unidade apresenta a seguinte infraestrutura: ● consultório.",
+ "instrucoes": [
+  "Você é um médico atuando em uma unidade básica de saúde (UBS) e atenderá uma paciente de 35 anos com queixa de menstruações com sangramento aumentado.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "realizar anamnese direcionada à queixa principal da paciente",
+  "solicitar os exames necessários para a investigação inicial",
+  "verbalizar o(s) provável(eis) diagnóstico(s)",
+  "estabelecer a conduta, justificando-a e orientando a paciente."
+ ],
+ "historia": "A Estação 9 de Ginecologia e Obstetrícia aborda o caso de uma mulher de 35 anos com queixa de menstruações com sangramento aumentado. Trata-se de paciente hígida, com três cesáreas anteriores.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": "35 anos",
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "seu nome é Marina, tem 35 anos e é casada há 15 anos"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "é advogada, mas não está trabalhando no momento"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos",
+    "resposta": "compareceu à consulta porque está preocupada com o aumento da menstruação"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos (2)",
+    "resposta": "menstrua todo mês"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "notou aumento no volume de sangramento, tendo passado a utilizar absorventes noturnos nos últimos 6 meses e tendo observado bolas de sangue"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "seu fluxo durava 5 dias até 6 meses atrás, mas agora passou a ser de 9 dias"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos (3)",
+    "resposta": "sente cólicas nos primeiros 2 dias de menstruação"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "faz uso de anti-inflamatório para tratar das cólicas, o que alivia a dor"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "sua última menstruação terminou há 1 semana"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "tem 3 filhos"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos (4)",
+    "resposta": "teve 3 cesáreas, sem problemas durante ou após nenhuma gravidez"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos (5)",
+    "resposta": "tem vida sexual ativa"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "faz uso de pílula para evitar gravidez (Ciclo 21)"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "não tem histórico de problemas de saúde"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "não se submeteu a cirurgias, com exceção das cesáreas"
+   },
+   {
+    "topico": "Antecedentes familiares",
+    "resposta": "não tem irmãos e seus pais são saudáveis"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "fez uma consulta ginecológica há um mês, quando coletaram seu preventivo, cujo resultado foi normal."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [],
+ "exames": [
+  {
+   "item": "Físico e ginecológico",
+   "resultado": "Paciente normocorada, hidratada, afebril.\nPressão arterial: 120 mmHg x 70 mmHg.\nFrequência cardíaca: 88 batimentos por minuto.\nIMC: 23 kg/m2.\nExame físico: sem anormalidades, com exceção da palpação de massa de consistência\nfibroelástica em região suprapúbica, indolor.\nMamas sem alterações, órgãos genitais externos normais, secreção vaginal com muco\nnormal, colo epitelizado, sem lesões aparentes.\nToque vaginal: útero em médio versão, consistência fibroelástica, superfície irregular com\nnodulações, palpável na altura da cicatriz umbilical, ovários não palpáveis, anexos livres.",
+   "chaves": [
+    "exame físico e",
+    "ginecológico"
+   ]
+  },
+  {
+   "item": "Ultrassonografia transvaginal",
+   "resultado": "• Útero com volume total de 560 cm3 (normal: de 80 a 100 cm3), com os seguintes\nachados:\nnódulo intramural com componente submucoso de 6,0 cm x 6,0 cm em parede\nanterior/fúndica;\nnódulo intramural de 7,5 cm x 5,0 cm em parede lateral esquerda; e\nnódulo subseroso em parede posterior lateral direita de 4 cm x 4 cm.\n• Endométrio de espessura normal e aspecto homogêneo.\n• Ovários de aspecto e volume normais.\n• Dopplervelocimetria normal.",
+   "chaves": [
+    "ginecológica",
+    "pélvica",
+    "ultrassonografia/ ecografia/us/usg transvaginal",
+    "vaginal"
+   ]
+  },
+  {
+   "item": "Exames complementares",
+   "resultado": "Hemograma normal.\nBeta-HCG: negativo.\nDemais exames: resultados em andamento.",
+   "chaves": [
+    "exames laboratoriais",
+    "hemograma e beta-hcg"
+   ]
+  }
+ ],
+ "diagnostico": "Verbaliza o diagnóstico: miomatose uterina ou útero miomatoso ou miomas uterinos.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "apresentar-se adequadamente à paciente, identificando-se e perguntando seu nome",
+  "realizar anamnese, perguntando sobre as características da menstruação (frequência, volume de sangramento, duração do fluxo, presença de cólicas)",
+  "perguntar se a paciente tem atividade sexual",
+  "perguntar se a paciente usa algum método contraceptivo; 1",
+  "investigar a história obstétrica da paciente",
+  "perguntar se a paciente usa medicação para tratar das cólicas",
+  "perguntar sobre consultas ginecológicas anteriores ou preventivo ou citologia ou Papanicolaou",
+  "solicitar exame físico e(ou) ginecológico",
+  "solicitar exames complementares (hemograma e beta-HCG)",
+  "solicitar ultrassonografia/ecografia/US/USG transvaginal ou vaginal ou pélvica ou ginecológica",
+  "verbalizar o diagnóstico (miomatose uterina ou útero miomatoso ou miomas uterinos)",
+  "informar que se trata de patologia benigna",
+  "orientar a necessidade de tratamento cirúrgico (histerectomia ou histerectomia total ou histerectomia subtotal ou miomectomia)",
+  "informar que, após a intervenção cirúrgica, não deve haver alteração em relação aos seguintes aspectos: percepção física, hormônios (menopausa) e vida sexual."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)identifica-se; (2)pergunta o nome da paciente.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.2
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": null,
+   "inadequado": "realiza apenas uma ação ou nenhuma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre as características da menstruação: (1)frequência OU regularidade OU intervalo; (2)volume de sangramento OU quantidade OU uso de absorvente; (3)duração do fluxo; (4)presença de cólicas.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta sobre os quatro itens.",
+   "parcial": "pergunta apenas sobre dois ou três itens.",
+   "inadequado": "pergunta apenas sobre um item ou não pergunta sobre nenhum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta se a paciente tem atividade sexual.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.2
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta se a paciente usa método contraceptivo.",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.3
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Investiga a história obstétrica, perguntando sobre: (1)gestações anteriores; (2)paridade; (3)vias de parto.",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.15,
+    "adequado": 0.3
+   },
+   "integral": "pergunta sobre os três itens.",
+   "parcial": "pergunta apenas sobre dois itens.",
+   "inadequado": "pergunta apenas sobre um item ou não pergunta sobre nenhum item.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Pergunta se a paciente usa medicação para tratar das cólicas.",
+   "peso": 0.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.3
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Pergunta sobre consultas ginecológicas OU preventivo OU citologia OU Papanicolau.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.2
+   },
+   "integral": "pergunta.",
+   "parcial": null,
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Solicita exame físico e(ou) ginecológico. Adequada: solicita.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Solicita exames complementares: (1)hemograma; (2)beta-HCG.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "solicita os dois itens.",
+   "parcial": "solicita apenas um item.",
+   "inadequado": "não solicita nenhum item.",
+   "evidencia": "Observação: outros exames não serão considerados.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Solicita ultrassonografia transvaginal (OU US/USG/ecografia transvaginal OU vaginal OU pélvica OU ginecológica OU endovaginal).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita ou solicita apenas “tomografia computadorizada” ou solicita apenas “ultrassom e tomografia computadorizada”.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Verbaliza o diagnóstico: miomatose uterina ou útero miomatoso ou miomas uterinos.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "verbaliza.",
+   "parcial": null,
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Orienta quanto ao fato de a patologia ser benigna.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "orienta.",
+   "parcial": null,
+   "inadequado": "não orienta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Orienta a necessidade de tratamento cirúrgico (histerectomia OU histerectomia total OU histerectomia subtotal OU miomectomia).",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "orienta apenas histerectomia.",
+   "parcial": "orienta apenas cirurgia, de forma geral, ou orienta miomectomia.",
+   "inadequado": "não orienta cirurgia ou orienta apenas tratamento clínico ou orienta histerectomia + ooforectomia.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c14",
+   "descricao": "Orienta que, após a intervenção cirúrgica, não deve haver alteração em relação a: (1)percepção física (sensação de vazio); (2)hormônios (menopausa); (3)vida sexual.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "abordou os três itens.",
+   "parcial": "abordou apenas dois itens.",
+   "inadequado": "abordou apenas um item ou não abordou nenhum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Tratado de Ginecologia da Febrasgo O desempenho do participante ao longo da estação foi avaliado e pontuado a partir do seguinte PADRÃO ESPERADO DE PROCEDIMENTO (PEP)."
+ ],
+ "pendencias": []
+}

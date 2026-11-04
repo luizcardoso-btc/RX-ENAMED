@@ -1,0 +1,275 @@
+{
+ "id": "inep-2024-2-e10",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.2",
+  "estacao": 10,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2024_2_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+ "especialidade": "Medicina de Família e Comunidade",
+ "tema": "Você recebe uma paciente de 21 anos de idade para uma consulta de acolhimento devido à dor",
+ "titulo": "Você recebe uma paciente de 21 anos de idade para uma consulta de acolhimento devido à dor",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: atenção primária à saúde. Tipo de atendimento: ambulatorial – unidade básica de saúde. A unidade apresenta a seguinte infraestrutura: ● ambulatórios para atendimento de consultas marcadas e de acolhimento do dia; ● sala para observação, coleta de exames e administração de medicamentos orais ou parenterais. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+ "instrucoes": [
+  "Você recebe uma paciente de 21 anos de idade para uma consulta de acolhimento devido à dor no hipogastro há uma semana.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO. DESCRIÇÃO DO CASO Você recebe uma paciente de 21 anos de idade para uma consulta de acolhimento devido"
+ ],
+ "tarefas": [
+  "Realizar a anamnese direcionada a queixa principal da paciente.",
+  "Interpretar os dados do exame físico.",
+  "Relacionar os achados clínicos às hipóteses diagnósticas.",
+  "Explicar o diagnóstico e responder às perguntas da paciente.",
+  "Indicar o tratamento incluindo medicamentos, orientar coleta de exames e medidas preventivas cabíveis. A prescrição, pedidos de exames e orientações devem ser feitas apenas de forma verbal. Fale de maneira clara, audível e olhando para a câmera."
+ ],
+ "historia": "A Estação 10, da área de Medicina da Família e Comunidade (MFC), abordou o caso de uma paciente de 21 anos que comparece à consulta devido a queixa de dor abdominal em hipogastro, há 1 semana, relatos de corrimento vaginal fétido com aspecto esverdeado e dores durante a relação sexual. Foi disponibilizado apenas um impresso, o Exame Físico. No atendimento,",
+ "paciente": null,
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "Pressão Arterial: 120 × 70 mmHg.\nTemperatura Axilar: 36,7 OC.\nPaciente em bom estado geral. Mucosas coradas e úmidas.\nAbdome flácido sem defesa, mas com dor a palpação na fossa ilíaca esquerda.\nExame pélvico: exame especular com secreção vaginal abundante e esverdeada e colo\nfriável eritema com secreção no orifício cervical.\nToque vaginal: dor a palpação do anexo esquerdo e dor à mobilização do colo.\nDemais aspectos do exame físico estão normais."
+  }
+ ],
+ "exames": [],
+ "diagnostico": "Verbaliza o diagnóstico de doença inflamatória pélvica:",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Posturas gerais com a paciente: (1)apresenta-se; (2) cumprimenta a paciente (dirige-se a ela pelo nome, pelo menos 1 vez); (3)mantém postura empática e interessada (escuta ativamente a fala da paciente, sem interrompê-la); e, (4) comunica-se adequadamente (usa linguagem clara e acessível, evitando termos de difícil compreensão).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as quatro ações descritas.",
+   "parcial": "realiza pelo menos duas ações.",
+   "inadequado": "realiza menos de duas ou não realiza nenhuma das ações descritas.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre sintomas gerais: (1)febre; (2)mal-estar; (3)dores no corpo; (4)dor lombar; (5)náuseas ou vômitos.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.12,
+    "adequado": 0.25
+   },
+   "integral": "pergunta pelo menos dois sintomas.",
+   "parcial": "pergunta pelo menos um sintoma geral.",
+   "inadequado": "não pergunta sobre sintomas gerais.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre sintomas urinários. (1)disúria; (2)polaciúria; (3)noctúria; (4)mal odor na urina; (5)hematúria.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.12,
+    "adequado": 0.25
+   },
+   "integral": "pergunta sobre pelo menos três sintomas.",
+   "parcial": "pergunta sobre pelo menos dois sintomas.",
+   "inadequado": "pergunta sobre apenas um ou não pergunta sobre nenhum desses sintomas.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre características da dor: (1)intensidade; (2)local; (3)característica da dor (tipo); (4)irradiação; (5)tempo de instalação dos sintomas; (6)progressão dos sintomas; (7)fatores de melhora; (8)fatores de piora.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta sobre pelo menos seis dessas características.",
+   "parcial": "pergunta sobre pelo menos quatro dessas características.",
+   "inadequado": "pergunta apenas três ou menos do que três dentre essas características.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Questiona sobre a vida sexual e ciclo menstrual: (1)início das relações sexuais; (2)dor nas relações sexuais; (3)uso de preservativo durante a atividade sexual; (4)uso de anticoncepcionais; (5)data da última menstruação; (6) comportamento sexual (parcerias múltiplas e/ou novas parcerias); (7)histórico de infecções sexualmente transmissíveis (ISTs).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "questiona sobre pelo menos seis desses itens.",
+   "parcial": "questiona sobre apenas cinco desses itens.",
+   "inadequado": "questiona apenas quatro ou menos itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Questiona sobre a presença de: (1)leucorreia; (2)sangramento vaginal; (3)aspecto da secreção vaginal; (4)odor da secreção vaginal.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "questiona sobre os quatro itens.",
+   "parcial": "questiona apenas sobre três desses itens.",
+   "inadequado": "questiona sobre até dois ou não questiona nenhum desses itens.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Verbaliza o diagnóstico de doença inflamatória pélvica:",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "verbaliza o diagnóstico completo.",
+   "parcial": null,
+   "inadequado": "verbaliza o diagnóstico incompleto ou não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Responde/Explica a paciente sobre o contágio sexual: (1) responde/explica que a infecção pode ou não ser uma doença sexualmente transmissível; (2) explica que o momento da contaminação para algumas bactérias não pode ser precisado; (3) acolhe as dúvidas da paciente e estimula o diálogo entre a paciente e o companheiro, sem julgamentos.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza as três ações.",
+   "parcial": "realiza apenas duas dessas ações.",
+   "inadequado": "realiza uma ou não realiza nenhuma dessas ações.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Indicações/recomendações: (1)tratamento ambulatorial; (2)recomenda repouso; (3)recomenda abstinência sexual; (4)fornece atestado; (5)marca retorno.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza pelo menos três ações. Parcialmente inadequado: realiza pelo menos duas ações.",
+   "parcial": null,
+   "inadequado": "realiza uma ou menos ações.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Orienta o tratamento indicando as medicações: (1)Ceftriaxone ou cefotaxima ou levofloxacino; (2)Metronidazol; (3)Doxaciclina ou Azitromicina.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "indica os três medicamentos (um de cada grupo).",
+   "parcial": "indica apenas duas medicações corretas.",
+   "inadequado": "indica apenas uma medicação ou esquemas inadequados.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Recomenda analgésicos ou anti-inflamatórios via oral.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "realiza a ação.",
+   "parcial": null,
+   "inadequado": "não realiza a ação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Recomenda o tratamento do parceiro com antibióticos.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "recomenda.",
+   "parcial": null,
+   "inadequado": "não recomenda.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Solicita exames para IST, ou teste rápido, para: (1)HIV; (2)Sifilis; (3)Hepatite B; (4)Hepatite C.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita os quatro exames.",
+   "parcial": "solicita pelo menos três exames.",
+   "inadequado": "não solicita exames para IST, ou teste rápido.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c14",
+   "descricao": "Recomenda o uso de preservativos nas relações sexuais.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "recomenda.",
+   "parcial": null,
+   "inadequado": "não recomenda.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

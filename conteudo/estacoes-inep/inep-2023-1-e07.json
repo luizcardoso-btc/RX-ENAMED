@@ -1,0 +1,313 @@
+{
+ "id": "inep-2023-1-e07",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.1",
+  "estacao": 7,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Cirurgia",
+ "especialidade": "Cirurgia geral",
+ "tema": "Homem, 21 anos, estudante, procura atendimento na unidade queixando-se de dor testicular à",
+ "titulo": "Homem, 21 anos, estudante, procura atendimento na unidade queixando-se de dor testicular à",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Secundária: Unidade de Pronto Atendimento A unidade possui a seguinte infraestrutura:  aparelho de Raio-x;  ultrassonografia;  laboratório de análises clínicas.",
+ "instrucoes": [
+  "Homem, 21 anos, estudante, procura atendimento na unidade queixando-se de dor testicular à direita. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "ATENÇÃO! VOCÊ DEVERÁ, REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA."
+ ],
+ "tarefas": [
+  "realizar anamnese do paciente",
+  "solicitar e interpretar exame físico",
+  "estabelecer e comunicar as principais hipóteses diagnósticas (NO MÍNIMO TRÊS)",
+  "solicitar exame(s) complementar(es), se necessário, descrevendo os achados",
+  "estabelecer e comunicar o diagnóstico definitivo",
+  "propor a terapêutica definitiva para o caso."
+ ],
+ "historia": "A Estação 7 de Cirurgia Geral abordou o caso de um homem de 21 anos de idade, estudante, referindo dor testicular à direita.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "ele se chama João, tem 21 anos, é solteiro e é estudante"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "acordou com dor forte no saco escrotal do lado direito"
+   },
+   {
+    "topico": "Características do quadro (2)",
+    "resposta": "a dor que sente é muito forte, na escala 8"
+   },
+   {
+    "topico": "Características do quadro (3)",
+    "resposta": "a dor irradia indo um pouco para cima"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "a dor iniciou há 2 horas, e ele acordou por causa da dor"
+   },
+   {
+    "topico": "Características do quadro (4)",
+    "resposta": "a dor piora quando ele anda"
+   },
+   {
+    "topico": "Características do quadro (5)",
+    "resposta": "não tomou medicamento para dor hoje"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "o testículo direito está inchado"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "está com vontade de vomitar"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "não percebeu secreção uretral, nem pus ou sangue"
+   },
+   {
+    "topico": "Características do quadro (6)",
+    "resposta": "nunca teve sintomas urinários (dor ou ardor à micção / a urinar, urina avermelhada, vontade constante de urinar ou urina com mau cheiro)"
+   },
+   {
+    "topico": "Características do quadro (7)",
+    "resposta": "não teve febre e não tem dor lombar"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "está há um mês sem relações sexuais"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "não faz uso de medicações"
+   },
+   {
+    "topico": "Medicamentos (2)",
+    "resposta": "não faz uso de bebida alcóolicas, drogas ilícitas ou fuma"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "não teve caxumba, não tem alergias ou algum outro problema de saúde"
+   },
+   {
+    "topico": "Início e evolução (2)",
+    "resposta": "fuma 10 cigarros por dia há 10 anos"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "que nunca foi submetido a procedimento cirúrgico"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (2)",
+    "resposta": "seu pai é hipertenso e usa medicação. O paciente simulado"
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "SINAIS VITAIS:\nFrequência cardíaca: 76 batimentos por minuto.\nPressão arterial: 130 × 80 mmHg.\nFrequência respiratória: 14 incursões respiratórias por minuto.\nTemperatura axilar: 36,2 °C.\nSaturação de oxigênio: 99% em ar ambiente.\nÍndice de massa corpórea (IMC): 25 kg/m2.\nPaciente em estado geral bom, afebril, acianótico, anictérico e hidratado; alerta e\norientado no tempo e espaço.\nExame físico dos aparelhos cardiovascular, respiratório e abdominal sem alterações.\nSegue, abaixo, visualização da bolsa escrotal.\nDIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS DO EXAME FÍSICO\nDA BOLSA ESCROTAL",
+   "imagem": "img/estacoes/inep-2023-1-c07-p35.jpg"
+  }
+ ],
+ "exames": [
+  {
+   "item": "Ultrassonografia com doppler colorido de",
+   "resultado": "BOLSA ESCROTAL\nLaudo: Testículo esquerdo sem alterações. Testículo direito aumentado de tamanho com\nausência de fluxo sanguíneo ao Doppler. Espessamento de cordão espermático à direita.",
+   "imagem": "img/estacoes/inep-2023-1-c07-p36.jpg"
+  }
+ ],
+ "diagnostico": "Questiona sobre as manifestações associadas à dor e/ou relevantes para o diagnóstico diferencial: (1) náuseas e/ou vômitos; (2)sintomas urinários (disúria, polaciúria, urina fétida); (3)dor lombar OU dor abdominal OU dor inguinal; (4)febre; (5)secreção uretral.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "ele se chama João, tem 21 anos, é solteiro e é estudante",
+  "acordou com dor forte no saco escrotal do lado direito",
+  "a dor que sente é muito forte, na escala 8",
+  "a dor irradia indo um pouco para cima",
+  "a dor iniciou há 2 horas, e ele acordou por causa da dor",
+  "a dor piora quando ele anda",
+  "não tomou medicamento para dor hoje",
+  "o testículo direito está inchado",
+  "está com vontade de vomitar",
+  "não percebeu secreção uretral, nem pus ou sangue",
+  "nunca teve sintomas urinários (dor ou ardor à micção / a urinar, urina avermelhada, vontade constante de urinar ou urina com mau cheiro)",
+  "não teve febre e não tem dor lombar",
+  "está há um mês sem relações sexuais",
+  "não faz uso de medicações",
+  "não faz uso de bebida alcóolicas, drogas ilícitas ou fuma",
+  "não teve caxumba, não tem alergias ou algum outro problema de saúde",
+  "fuma 10 cigarros por dia há 10 anos",
+  "que nunca foi submetido a procedimento cirúrgico",
+  "seu pai é hipertenso e usa medicação. O paciente simulado, caso o(a) participante fizesse a anamnese adequada, perguntaria ao(à) participante:",
+  "quais doenças podem gerar esses sintomas",
+  "se será necessário fazer algum exame para confirmar o diagnóstico",
+  "qual o diagnóstico e quais são os próximos passos",
+  "qual é o tratamento",
+  "qual é o prazo que ele tem para operar, pois ele queria fazer a operação na cidade da mãe dele que fica a 8 horas daqui. Caso o(a) participante fizesse as seguintes perguntas / solicitações ele(a) receberia os"
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1) apresenta-se; (2) cumprimenta e identifica o paciente simulado.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.2
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Realiza anamnese, perguntando sobre as características da dor: (1) tempo de início; (2) intensidade; (3) fatores de alívio ou de piora.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta três características.",
+   "parcial": "pergunta duas características.",
+   "inadequado": "pergunta apenas uma característica OU não pergunta característica alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Questiona sobre as manifestações associadas à dor e/ou relevantes para o diagnóstico diferencial: (1) náuseas e/ou vômitos; (2)sintomas urinários (disúria, polaciúria, urina fétida); (3)dor lombar OU dor abdominal OU dor inguinal; (4)febre; (5)secreção uretral.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta quatro ou mais itens.",
+   "parcial": "pergunta dois ou três itens.",
+   "inadequado": "pergunta somente um item OU não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Solicita o exame físico e interpreta os achados do exame da bolsa escrotal: (1) testículo direito em posição elevada (Sinal de Brunzel) OU pouco horizontalizado (Sinal de Angell); (2) testículo direito aumentado de volume; (3) hiperemia de hemibolsa-escrotal direita.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "solicita e interpreta os achados descrevendo os três itens.",
+   "parcial": "solicita e interpreta, descrevendo dois itens.",
+   "inadequado": "solicita e não verbaliza achado algum OU solicita e descreve um item OU não solicita o exame físico interpretando ou não os achados.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Verbaliza as principais hipóteses diagnósticas de escroto agudo, aplicáveis ao caso: (1)torção testicular torção do cordão espermático; (2) orquite aguda / orquiepididimite aguda / epididimite aguda; (3)Torção do Apêndice testicular / epididimário.",
+   "peso": 1.8,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 1.8
+   },
+   "integral": "verbaliza os três itens.",
+   "parcial": "verbaliza dois itens.",
+   "inadequado": "verbaliza apenas um item OU não verbaliza item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita: (1) ultrassonografia (OU ultrassom, OU ecografia, OU US OU USG); (2) com doppler (OU doppler colorido); (3) de bolsa escrotal (OU região testicular OU escroto OU testicular).",
+   "peso": 1.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.65,
+    "adequado": 1.3
+   },
+   "integral": "solicita o exame verbalizando os três itens.",
+   "parcial": "solicita o exame verbalizando apenas os itens 1 e 3.",
+   "inadequado": "solicita o exame verbalizando apenas o item 1 e 2 OU solicita o exame verbalizando apenas o item 1 OU solicita qualquer outro exame OU não solicita exame algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Verbaliza o diagnóstico de torção testicular / torção do cordão espermático.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "verbaliza.",
+   "parcial": null,
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Tratamento do paciente com torção testicular: indica a necessidade da cirurgia de emergência, que deverá acontecer antes de seis horas do início da dor ou cirurgia imediata.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "indica a cirurgia de emergência sem especificar o prazo de 6 horas.",
+   "parcial": null,
+   "inadequado": "não indica cirurgia OU indica a cirurgia sem destacar a emergência (antes das 6 h do início dos sintomas) OU indica qualquer outro tipo de tratamento.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Execução das tarefas na ordem determinada.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.2
+   },
+   "integral": "executa as etapas na ordem determinada.",
+   "parcial": null,
+   "inadequado": "não executa as etapas na ordem determinada.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

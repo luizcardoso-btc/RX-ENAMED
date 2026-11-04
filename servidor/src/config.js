@@ -65,6 +65,7 @@ export function carregarConfig(envBruto = process.env) {
     // E-mails que viram admin ao se cadastrar (separados por vírgula). Também há o comando npm run criar-admin.
     emailsAdmin: (env.ADMIN_EMAILS || '').split(',').map((e) => e.trim().toLowerCase()).filter(Boolean),
     pastaSite: env.PASTA_SITE || new URL('../../site/dist', import.meta.url).pathname,
+    pastaConteudo: env.PASTA_CONTEUDO || new URL('../../conteudo', import.meta.url).pathname,
     arquivoResidencia: env.ARQUIVO_RESIDENCIA || new URL('../../conteudo/residencia/ineditas.json', import.meta.url).pathname,
     arquivoPlanos: env.ARQUIVO_PLANOS || new URL('../../conteudo/planos.json', import.meta.url).pathname,
   };

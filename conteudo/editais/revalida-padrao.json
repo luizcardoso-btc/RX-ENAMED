@@ -1,0 +1,15 @@
+{
+  "id": "revalida-padrao",
+  "nome": "Revalida – modelo das últimas edições",
+  "observacao": "Dez estações em dois dias (dois blocos de cinco), duas por grande área, 10 minutos cada. Confira o edital da sua edição: a distribuição e o tempo podem mudar.",
+  "minutosPorEstacao": 10,
+  "minutosLeitura": 1,
+  "blocos": [5, 5],
+  "distribuicao": {
+    "Clínica Médica": 2,
+    "Cirurgia": 2,
+    "Pediatria": 2,
+    "Ginecologia e Obstetrícia": 2,
+    "Medicina de Família e Comunidade / Saúde Coletiva": 2
+  }
+}

@@ -1,0 +1,197 @@
+{
+ "id": "inep-2022-2-e08",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.2",
+  "estacao": 8,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2022_2_.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Pediatria",
+ "especialidade": "Pediatria",
+ "tema": "Lactente, do sexo masculino, com 6 meses, trazido para consulta de rotina de puericultura ",
+ "titulo": "Lactente, do sexo masculino, com 6 meses, trazido para consulta de rotina de puericultura ",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Unidade de Atenção Secundária: Ambulatorial e Hospitalar. A unidade possui a seguinte infraestrutura:  setor de radiologia convencional, ultrassonografia;  laboratório de análises clínicas.",
+ "instrucoes": [
+  "Lactente, do sexo masculino, com 6 meses, trazido para consulta de rotina de puericultura por sua mãe. ATENÇÃO: MÃE E BEBÊ SIMULADOS NÃO DEVERÃO SER TOCADOS DURANTE O ATENDIMENTO. Nos próximos 10 minutos",
+  "ATENÇÃO: MÃE E BEBÊ SIMULADOS NÃO DEVERÃO SER TOCADOS DURANTE O ATENDIMENTO. Nos próximos 10 minutos, você deverá executar as tarefas a seguir: 1. ler a ficha do lactente afixada sobre a mesa.",
+  "ATENÇÃO: VOCÊ DEVERÁ, OBRIGATORIAMENTE, REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA."
+ ],
+ "tarefas": [
+  "ler a ficha do lactente afixada sobre a mesa.",
+  "fazer a anamnese dirigida à mãe, em relação à queixa principal.",
+  "interpretar os achados do exame físico.",
+  "estabelecer e explicar à mãe a hipótese diagnóstica e o diagnóstico diferencial.",
+  "orientar quanto à conduta adequada."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [
+  {
+   "item": "Impresso com imagem",
+   "resultado": "IMPRESSO 3 TRANSILUMINAÇÃO",
+   "imagem": "img/estacoes/inep-2022-2-c08-p36.jpg"
+  }
+ ],
+ "diagnostico": "Realiza o diagnóstico de hidrocele comunicante.",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1) identifica-se; (2) cumprimenta a mãe de maneira adequada/cordial; (3) mantém contato visual; (4) pergunta o nome da mãe e da criança.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza os quatro itens.",
+   "parcial": "realiza dois ou três itens.",
+   "inadequado": "realiza um item ou não realiza item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Realiza anamnese. Pergunta sobre: (1) alteração do volume da bolsa escrotal; (2) se o aumento é intermitente (aumenta e diminui); (3) se notou aumento de volume também de região inguinal; e (4) se o bebê tem dor ou choro durante a manipulação da região inguinoescrotal; e (5) se existem fatores de melhora e piora para alteração do volume da bolsa escrotal.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "pergunta os cinco itens.",
+   "parcial": "pergunta três ou quatro itens.",
+   "inadequado": "pergunta um, dois ou não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Interpreta o achado do exame físico: aumento de volume cístico da bolsa escrotal, sem alterações na região inguinal.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "interpreta.",
+   "parcial": null,
+   "inadequado": "não interpreta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Indica e interpreta a transiluminação da bolsa escrotal positiva com presença de líquido na bolsa escrotal.",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "indica e interpreta.",
+   "parcial": null,
+   "inadequado": "não indica e/ou interpreta de forma errada.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Realiza o diagnóstico de hidrocele comunicante.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza o diagnóstico de hidrocele comunicante.",
+   "parcial": "realiza o diagnóstico de hidrocele, sem especificar o tipo (comunicante ou septada).",
+   "inadequado": "não realiza o diagnóstico de hidrocele, ou diagnostica incorretamente como hidrocele septada. 16",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Exames complementares.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "não solicita exames complementares para definir o diagnóstico de hidrocele.",
+   "parcial": null,
+   "inadequado": "solicita qualquer tipo de exame laboratorial ou de imagem para definir o diagnóstico de hidrocele.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Explica para a mãe a fisiopatologia do conduto peritônio vaginal permeável.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "explica corretamente o mecanismo de persistência e de passagem de líquido para a bolsa.",
+   "parcial": null,
+   "inadequado": "não explica corretamente a fisiopatologia da persistência ou simplesmente diz que a bolsa está cheia de líquido.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Proposta terapêutica.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "encaminha o bebê ao cirurgião ou urologista pediátrico para definir a melhor conduta e momento cirúrgico.",
+   "parcial": null,
+   "inadequado": "não encaminha o bebê ao cirurgião e/ou indica cirurgia de urgência.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Realiza adequadamente a sequência das tarefas, conforme solicitado nas orientações ao (à) participante.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "realiza.",
+   "parcial": null,
+   "inadequado": "não realiza. 17",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

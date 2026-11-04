@@ -1,0 +1,366 @@
+{
+ "id": "inep-2023-1-e01",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.1",
+  "estacao": 1,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Clínica Médica",
+ "especialidade": "Clínica Médica",
+ "tema": "Episódios frequentes de falta de ar",
+ "titulo": "Episódios frequentes de falta de ar",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Secundária: Ambulatório. A unidade possui a seguinte infraestrutura:  aparelhos para exames radiológicos convencionais (Raio-x);  laboratório de análises clínicas.",
+ "instrucoes": [
+  "Homem de 34 anos de idade, operário da indústria têxtil, procura atendimento na unidade com queixa de episódios frequentes de falta de ar. ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "ATENÇÃO! VOCÊ DEVERÁ REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA."
+ ],
+ "tarefas": [
+  "realizar anamnese do paciente",
+  "solicitar e interpretar exame físico",
+  "solicitar e interpretar os exames pertinentes",
+  "estabelecer e comunicar hipótese diagnóstica",
+  "propor conduta para o paciente e fornecer orientações."
+ ],
+ "historia": "A Estação 1 de Clínica Médica abordou o caso de um homem de 34 anos de idade, operário da indústria têxtil, que procura atendimento na unidade com queixa de episódios frequentes de falta de ar.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "ele se chama Pedro, tem 34 anos, é casado e trabalha na indústria têxtil"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "ele tem sentido muita tosse e falta de ar há cerca de 5 meses"
+   },
+   {
+    "topico": "Fatores de melhora e piora",
+    "resposta": "os sintomas pioram depois de ele chegar ao trabalho, melhoram quando ele está em casa"
+   },
+   {
+    "topico": "Sintomas associados (2)",
+    "resposta": "ele não acorda a noite com falta de ar"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "os sintomas aparecem de duas a três vezes por semana"
+   },
+   {
+    "topico": "Fatores de melhora e piora (2)",
+    "resposta": "ele acha que quando está em seu local de trabalho os sintomas pioram"
+   },
+   {
+    "topico": "Fatores de melhora e piora (3)",
+    "resposta": "os sintomas pioram quando ele faz atividades físicas, como jogar futebol"
+   },
+   {
+    "topico": "Fatores de melhora e piora (4)",
+    "resposta": "os sintomas melhoram aos poucos, espontaneamente, e nos finais de semana nãos ente nada"
+   },
+   {
+    "topico": "Sintomas associados (3)",
+    "resposta": "a tosse é seca"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "apresenta sibilância, e nunca havia tido esse tipo de sintoma antes desses 5 meses"
+   },
+   {
+    "topico": "Sintomas associados (4)",
+    "resposta": "não tem febre"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "não teve gripe, resfriado, Covid-19 ou outras doenças respiratórias, como sinusite e rinite, nesse período"
+   },
+   {
+    "topico": "Vacinação e desenvolvimento",
+    "resposta": "recebeu as vacinas para Covid e Gripe"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "não fuma e não está exposto a alguém que fuma ou a fumaça ou a fogão a lenha"
+   },
+   {
+    "topico": "Identificação (2)",
+    "resposta": "ele trabalha no preparo de tintas e tingimento de tecidos há 1 ano, antes trabalhava na segurança da empresa"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "não faz uso regular de medicações, assim como, não faz uso quando apresenta os sintomas"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (2)",
+    "resposta": "não possui alergias conhecidas, mas, quando foi trabalhar no setor de tingimento, seus olhos e nariz passaram a coçar muito"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "na sua infância ele espirrava muito quando brincava com o gato, mas que não tem animais em casa"
+   },
+   {
+    "topico": "Sintomas associados (5)",
+    "resposta": "na infância, ele apresentava falta de ar e chiado no peito quando gripava"
+   },
+   {
+    "topico": "Antecedentes e comorbidades (3)",
+    "resposta": "o pai dele tinha muitas alergias e um chiado constante no peito"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "ele foi ao médico da empresa que pediu alguns exames, mas ele não retornou ao médico para apresentar o resultado dos exames"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "fez um exame e que o trouxe para que o(a) participante lhe diga se está normal. O paciente simulado"
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "SINAIS VITAIS:\nFrequência cardíaca: 72 batimentos por minuto.\nPressão arterial: 125 × 65 mmHg.\nFrequência respiratória: 15 incursões respiratórias por minuto.\nTemperatura axilar: 36,4 °C.\nSaturação de oxigênio: 98% em ar ambiente.\nIMC: 20 kg/m2.\nPaciente em bom estado geral, afebril, acianótico, anictérico e hidratado; alerta, orientado\nno tempo e espaço. Sem edemas.\nAusência de estase jugular (tronco entre 30° e 45°).\nAusculta respiratória com leve sibilância em ambos os hemotóraces, sem outros ruídos\nadventícios. Sem uso de musculatura acessória.\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas; ausência de sopros.\nAbdome flácido, normotenso, ruídos hidroaéreos normoativos; indolor à palpação e sem\nvisceromegalias."
+  }
+ ],
+ "exames": [
+  {
+   "item": "Exames laboratoriais",
+   "resultado": "Cliente: Pedro\nProtocolo: 001.2774113-5 Local: MATRIZ\nNascimento: 15/12/1988 CPF:999.999.999-99\nSolicitante: REVALIDA Convênio: INEP BRASÍLIA\nHEMOGRAMA\nMaterial ...................................... SANGUE Valores de Referência\nHEMÁCIAS ................................ 5,32 4,32 a 5,66 milhões/mm3\nHEMOGLOBINA ........................ 15,6 13,3 a 16,7 g/dl\nHEMATÓCRITO ........................ 44,5 39,0 a 50,0 %\nVCM .......................................... 90,8 80,0 a 100 fl\nHCM .......................................... 32,6 27,3 a 32,6 pg\nCHCM ........................................ 34,8 31,0 a 37,0 g/dl\nRDW .......................................... 14,0 10,0 a 15,0 %\nOBSERVACÕES: Hemácias normocíticas e normocrômicas.\nLEUCÓCITOS ........................... 8.873 3.700 a 9.500 mm3\n- BASTÕES ............................... 167,4 (1,9%) 581 a 968 mm3\n- SEGMENTADOS .................... 5.859 (66%) 1.700 a 6.100 mm3\n- EOSINÓFILOS ........................ 670,4 (7,5%) 30 a 460 mm3\n- BASÓFILOS ............................ 50,22 (0,6%) 000 a 130 mm3\n- LINFÓCITOS ........................... 1.623,78 (18,4%) 1.000 a 3.200 mm3\n- MONÓCITOS .......................... 502,2 (5,6%) 200 a 920 mm3\nPLAQUETAS CONTAGEM ...... 225.000 150.000 a 450.000 mm3\nGASOMETRIA ARTERIAL:\nNormal\nPPD (derivado de proteína purificado) – Tuberculina:\n4 mm - não reator.\nValor de Referência:\n 0 a 4 mm: não reator – indivíduo não infectado pelo M. tuberculosis ou anérgico.\n 5 a 9 mm: reator fraco – indivíduo infectado pelo M. tuberculosis ou por outras micobactérias ou vacinado com BCG.\n ≥ 10 mm: reator forte – indivíduos infectado pelo M. tuberculosis, doente ou não, ou vacinado com BCG.\nTODO TESTE LABORATORIAL DEVE SER CORRELACIONADO COM O QUADRO CLÍNICO DO PACIENTE, SEM O QUAL A\nINTERPRETAÇÃO DOS RESULTADOS É APENAS RELATIVA.\nNota(s):\n1.Valores de referência de acordo com idade e sexo, exceto para gestantes.\nRef.: BAIN, B.J. Blood Cells: a practical guide. 4 ed. Oxford: Blackwell Publishing, 2006. 476p. AUSHANSKY, K. et al. Williams\nHematology, 8 ed., MacGraw Hill Companies, Inc., 2010."
+  },
+  {
+   "item": "Radiografia de tórax",
+   "resultado": "Laudo: radiografia de tórax dentro dos padrões de normalidade.",
+   "imagem": "img/estacoes/inep-2023-1-c01-p04.jpg"
+  },
+  {
+   "item": "Espirometria",
+   "resultado": "Pré–Broncodilatador Pós–Broncodilatador\nEspirometria Previsto LIN (LLN) Obtido % do Predito Obtido % do Previsto % Variação\nCVF 5,2 4,34 5,18 100 5,2 100 0\nVEF1 4,37 3,64 3,25 74 4,25 97 31\nVEF1/CVF (%) 84 75 63 75 77 92 23\nFEF 25%-75% 4,74 3,11 2,9 61 3,84 81 32\nDistúrbio obstrutivo leve.\nPresença de reversibilidade após o uso de broncodilatador."
+  }
+ ],
+ "diagnostico": "Relaciona os achados da Espirometria ao diagnóstico de asma. (verbalizar que distúrbio obstrutivo leve é relacionado com a asma)",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "ele se chama Pedro, tem 34 anos, é casado e trabalha na indústria têxtil",
+  "ele tem sentido muita tosse e falta de ar há cerca de 5 meses",
+  "os sintomas pioram depois de ele chegar ao trabalho, melhoram quando ele está em casa",
+  "ele não acorda a noite com falta de ar",
+  "os sintomas aparecem de duas a três vezes por semana",
+  "ele acha que quando está em seu local de trabalho os sintomas pioram",
+  "os sintomas pioram quando ele faz atividades físicas, como jogar futebol",
+  "os sintomas melhoram aos poucos, espontaneamente, e nos finais de semana nãos ente nada",
+  "a tosse é seca",
+  "apresenta sibilância, e nunca havia tido esse tipo de sintoma antes desses 5 meses",
+  "não tem febre",
+  "não teve gripe, resfriado, Covid-19 ou outras doenças respiratórias, como sinusite e rinite, nesse período",
+  "recebeu as vacinas para Covid e Gripe",
+  "não fuma e não está exposto a alguém que fuma ou a fumaça ou a fogão a lenha",
+  "ele trabalha no preparo de tintas e tingimento de tecidos há 1 ano, antes trabalhava na segurança da empresa",
+  "não faz uso regular de medicações, assim como, não faz uso quando apresenta os sintomas",
+  "não possui alergias conhecidas, mas, quando foi trabalhar no setor de tingimento, seus olhos e nariz passaram a coçar muito",
+  "na sua infância ele espirrava muito quando brincava com o gato, mas que não tem animais em casa",
+  "na infância, ele apresentava falta de ar e chiado no peito quando gripava",
+  "o pai dele tinha muitas alergias e um chiado constante no peito",
+  "ele foi ao médico da empresa que pediu alguns exames, mas ele não retornou ao médico para apresentar o resultado dos exames",
+  "fez um exame e que o trouxe para que o(a) participante lhe diga se está normal. O paciente simulado, caso o(a) participante fizesse a anamnese adequada, perguntaria ao(à) participante:",
+  "se o resultado do exame que ele trouxe está normal",
+  "o que ele tem",
+  "qual é o tratamento",
+  "quanto tempo ele ficará afastado do trabalho",
+  "se existe algo mais que possa ser feito. Caso o(a) participante fizesse as seguintes perguntas/solicitações ele(a) receberia os"
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)identifica-se; (2)cumprimenta o paciente simulado.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.125,
+    "adequado": 0.25
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre os sintomas e suas características nas crises: (1)pergunta sobre a presença de sibilância (ou chiado no peito); (2) caracteriza a tosse (produtiva OU não produtiva OU com expectoração); (3)caracteriza a dispneia.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "investiga dois ou mais achados clínicos listados.",
+   "parcial": "investiga um achado clínico.",
+   "inadequado": "não investiga achado clínico algum entre os listados.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre desencadeantes, agravantes e atenuantes: (1) uso de medicamentos que causam tosse ou se relacionam à piora de broncoespasmo; (2)uso de medicamentos para alívio dos sintomas; (3)relação dos sintomas com o trabalho ou agentes ambientais; (4)relação com a atividade física; (5)cronologia das crises (início, duração, períodos intercríticos).",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.75,
+    "adequado": 1.5
+   },
+   "integral": "investiga três ou mais achados, incluindo obrigatoriamente o item 3.",
+   "parcial": "investiga o item 3 e mais um achado.",
+   "inadequado": "não investiga o item 3 OU investiga apenas o item 3 OU não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Solicita exame físico.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita exame físico.",
+   "parcial": null,
+   "inadequado": "não solicita exame físico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Solicita exames complementares: (1)hemograma; (2)radiografia (ou Raio x) de tórax.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "solicita os dois exames.",
+   "parcial": "solicita apenas um dos exames.",
+   "inadequado": "não solicita exame algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Relaciona os achados da Espirometria ao diagnóstico de asma. (verbalizar que distúrbio obstrutivo leve é relacionado com a asma)",
+   "peso": 1.3,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.3
+   },
+   "integral": "relaciona.",
+   "parcial": null,
+   "inadequado": "não relaciona.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Formula hipótese diagnóstica de asma brônquica (OU asma; OU bronquite asmática; OU hiper-reatividade brônquica; OU asma ocupacional; OU asma laboral).",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 2.0
+   },
+   "integral": "formula o diagnóstico.",
+   "parcial": null,
+   "inadequado": "não formula o diagnóstico.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Conduta: Orienta medidas de redução de exposição ambiental domiciliar e no ambiente de trabalho. (ambientes arejados e secos, evitar contato com animais, não usar tapetes, usar panos úmidos na casa, não ter cortinas, evitar bichinhos de pelúcia, não varrer, passar pano úmido, mudança de setor na empresa ou afastamento do trabalho)",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "orienta.",
+   "parcial": null,
+   "inadequado": "não orienta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Conduta: Prescreve corticoide inalatório associado ou não a beta-agonista (corticoides inalatórios: dipropionato de beclometasona, budesonida, propionato de fluticasona, furoato de fluticasona, furoato de mometasona, ciclesonida; beta-agonistas: salbutamol, formoterol, salmeterol, indacaterol, olodaterol).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "prescreve.",
+   "parcial": null,
+   "inadequado": "não prescreve.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Seguimento do paciente. Orienta que o paciente mantenha o acompanhamento ambulatorial, ou ressalta a importância de manter o acompanhamento ambulatorial.",
+   "peso": 0.25,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.25
+   },
+   "integral": "orienta.",
+   "parcial": null,
+   "inadequado": "não orienta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Execução das tarefas na ordem determinada.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.2
+   },
+   "integral": "executa as etapas na ordem determinada.",
+   "parcial": null,
+   "inadequado": "não executa as etapas na ordem determinada.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

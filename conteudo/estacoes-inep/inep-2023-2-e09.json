@@ -1,0 +1,301 @@
+{
+ "id": "inep-2023-2-e09",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2023.2",
+  "estacao": 9,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2023_2.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2023_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Ginecologia e Obstetrícia",
+ "especialidade": "Ginecologia e Obstetrícia",
+ "tema": "Uma mulher de 33 anos de idade, gestante, comparece à UBS para uma consulta de pré- natal ",
+ "titulo": "Uma mulher de 33 anos de idade, gestante, comparece à UBS para uma consulta de pré- natal ",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: atenção primária à saúde - unidade básica de saúde (UBS). A unidade possui a seguinte infraestrutura: • Consultório com os recursos necessários ao atendimento ginecológico e obstétrico. Não dispõem de ultrassonografia. • Não há paciente simulada nesta estação.",
+ "instrucoes": [
+  "Uma mulher de 33 anos de idade, gestante, comparece à UBS para uma consulta de pré- natal sem nenhuma queixa. Ela está com 34 semanas + 3 dias de gestação e sua consulta anterior havia sido com 30 semanas + 2 dias gestacionais. Neste momento, a paciente já foi entrevistada clinicamente e, em sua anamnese, não há nada digno de nota, exceto que essa é a primeira gestação, planejada, e que ela não possui morbidades. A paciente fez todas as consultas de pré-natal e realizou todos os exames solicitados até o momento, com resultados normais. ATENÇÃO!",
+  "ATENÇÃO! VOCÊ DEVERÁ USAR O MANEQUIM PARA FAZER TODAS AS SIMULAÇÕES E TAMBÉM DEVERÁ DESCREVER, VERBALIZAR, DA FORMA MAIS COMPLETA POSSÍVEL,"
+ ],
+ "tarefas": [
+  "Realizar o exame físico obstétrico completo desta paciente. Obs.: O exame físico geral já foi feito e o resultado está sem alterações.",
+  "Verbalizar e explicar, de forma nítida, completa e técnica, todos os movimentos, etapas, finalidades e achados do exame obstétrico-ginecológico."
+ ],
+ "historia": "A Estação 9 de Ginecologia e Obstetrícia abordou o caso de uma mulher de 33 anos de idade, com 34 semanas + 3 dias de gestação, que comparece à Unidade Básica de Saúde para uma consulta de pré-natal sem nenhuma queixa. Sua última consulta havia sido com 30 semanas + 2 dias gestacionais. No momento da estação, a paciente já foi entrevistada clinicamente e, na anamnese, não há nada digno de nota, exceto que essa é a primeira gestação dela, a qual foi planejada, que ela não possui morbidades e que fez todas as consultas de pré-natal e todos os exames solicitados, os quais apresentam resultados normais.",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "Realizar exame físico obstétrico no manequim e indicar para que serve cada etapa do exame. Não foram utilizados"
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Realiza palpação obstétrica. O(a) participante inicia o exame físico obstétrico, obrigatoriamente, pela palpação do abdome ( ou seja, o começo do exame físico não é com asculta, toque vaginal ou outro parâmetro que não seja palpação de abdome)",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "inicia o exame físico pela palpação do abdome.",
+   "parcial": null,
+   "inadequado": "não inicia pela palpação do abdome ou não faz a palpação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Realiza o primeiro tempo da manobra de Leopold, O(a) participante usa as duas mãos e posiciona-as no fundo uterino.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "faz a manobra conforme descrita.",
+   "parcial": null,
+   "inadequado": "não faz a manobra conforme descrita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Explica o primeiro tempo da manobra de Leopold. (1) Verbaliza que a palpação do fundo uterino corresponde ao primeiro tempo da manobra; e (2)Explica que a primeira manobra serve para avaliar a situação fetal.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza somente uma das duas ações.",
+   "inadequado": "não realiza ação alguma. Obs: é importante nomear as manobras na ordem correta, mas é opcional citar Leopold.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Verbaliza que a situação do feto é longitudinal",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "verbaliza.",
+   "parcial": null,
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Realiza o segundo tempo da manobra de Leopold. O(a) participante desliza as mãos pelo abdome do fundo uterino até o polo fetal inferior.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "realiza a ação",
+   "parcial": null,
+   "inadequado": "não realiza a ação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Explica o segundo tempo da manobra de Leopold. (1) Verbaliza que o deslizar das mãos em direção ao polo inferior do útero corresponde à segunda manobra Ou verbaliza que deslizar as mãos no abdome materno procurando sentir o dorso fetal e as pequenas partes fetais corresponde à segunda manobra.; e (2) Indica que a segunda manobra serve para a avaliação da posição fetal.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza somente uma das duas ações.",
+   "inadequado": "não realiza ação alguma. Obs.: é importante nomear as manobras na ordem correta, mas é opcional citar Leopold.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Verbaliza a posição fetal: dorso à esquerda.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "verbaliza dorso à esquerda.",
+   "parcial": null,
+   "inadequado": "não verbaliza dorso à esquerda.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Realiza o terceiro tempo da manobra de Leopold. O(a) participante usa uma das mãos e a coloca em formato de C no polo inferior do útero utilizando a ponta do indicador e o polegar.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "realiza a ação.",
+   "parcial": null,
+   "inadequado": "não realiza a ação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Explica o terceiro tempo da manobra de Leopold. (1) Verbaliza que a avaliação do polo cefálico (ou pélvico) corresponde à terceira manobra de Leopold; e (2) Verbaliza que a terceira manobra de Leopold serve para avaliar a apresentação fetal.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "verbaliza os dois pontos.",
+   "parcial": "verbaliza apenas um ponto.",
+   "inadequado": "não verbaliza ponto algum. Obs.: é importante nomear as manobras na ordem correta, mas é opcional citar Leopold.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "verbaliza a apresentação fetal: cefálica",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "verbaliza a apresentação fetal cefálica.",
+   "parcial": null,
+   "inadequado": "não verbaliza a apresentação fetal cefálica.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Realiza o quarto tempo da manobra de Leopold. (1)Usa as duas mãos; (2)Posiciona as mãos no polo uterino inferior; e (3) Posiciona-se com a cabeça virada para o polo uterino inferior — ficando de costas para a o rosto da paciente.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "realiza as três ações.",
+   "parcial": null,
+   "inadequado": "realiza duas OU realiza uma OU não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Explica o quarto tempo da manobra de Leopold. O(a) participante reconhece a altura ou a mobilidade do polo cefálico (ou pélvico) e realiza as seguintes ações: (1) Verbaliza que a colocação das mãos sobre o polo cefálico inferior, tracionando-o para cima e em posição contrária à paciente, corresponde ao quarto tempo da manobra de Leopold; e (2) Verbaliza que o quarto tempo da manobra de Leopold serve para avaliar a altura ou insinuação fetal.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "verbaliza os dois pontos.",
+   "parcial": "verbaliza apenas um ponto.",
+   "inadequado": "não verbaliza qualquer ponto. Obs.: é importante nomear as manobras na ordem correta, mas é opcional citar Leopold.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Mede a altura uterina: O(a) participante reconhece a altura ou a mobilidade do polo cefálico (ou pélvico) e realiza as seguintes ações: (1) fixa a extremidade inicial da fita métrica, flexível e não extensível, na borda superior da sínfise púbica com uma das mãos. (2)Posiciona a fita métrica no fundo do útero, delimitado pela margem cubital da outra mão.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": null,
+   "inadequado": "realiza uma ação OU não realiza ação alguma OU mede incorretamente a altura uterina.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c14",
+   "descricao": "Ausculta dos batimentos cardiacos fetais: O(a) participante posiciona a ponta de ausculta do sonar sobre o dorso fetal (no quadrante inferior à esquerda do abdome da mãe).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "realiza a manobra corretamente.",
+   "parcial": "posiciona o sonar à esquerda do abdome da mãe, mas não no quadrante inferior.",
+   "inadequado": "Não realiza a manobra corretamente.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c15",
+   "descricao": "Explica a ausculta dos batimentos cardíacos fetais. (1) Verbaliza que usará o sonar para auscultar os batimentos cardíacos fetais; e (2)Explica que irá posicionar o sonar sobre o dorso fetal (OU sobre o quadrante inferior esquerdo do abdome materno).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza apenas uma das ações.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c16",
+   "descricao": "Verbaliza a necessidade de fazer o toque vaginal",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "verbaliza.",
+   "parcial": null,
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2023.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

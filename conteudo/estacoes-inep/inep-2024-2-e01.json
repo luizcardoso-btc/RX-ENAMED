@@ -1,0 +1,340 @@
+{
+ "id": "inep-2024-2-e01",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.2",
+  "estacao": 1,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2024_2_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_2_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Clínica Médica",
+ "especialidade": "Clínica Médica",
+ "tema": "Febre e cefaleia há 4 dias",
+ "titulo": "Febre e cefaleia há 4 dias",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: atenção primária à saúde. Tipo de atendimento: ambulatorial. A unidade apresenta a seguinte infraestrutura: ● consultórios; ● laboratório de análises clínicas; ● leito de observação; ● ambulância para transporte do paciente.",
+ "instrucoes": [
+  "Paciente com 21 anos procura atendimento com queixa de febre e cefaleia há 4 dias."
+ ],
+ "tarefas": [
+  "Realizar a anamnese direcionada à queixa principal do paciente.",
+  "Solicitar / realizar exames físicos necessários à avaliação do caso.",
+  "Solicitar exames complementares pertinentes ao caso.",
+  "Relacionar os resultados dos exames às hipóteses diagnósticas.",
+  "Verbalizar o diagnóstico, sua classificação de gravidade e elaborar a conduta terapêutica. O TOQUE NO PACIENTE SIMULADO É PERMITIDO APENAS PARA A UTILIZAÇÃO DO ESFIGMOMANÔMETRO, SEM INSUFLÁ-LO."
+ ],
+ "historia": "A Estação 1, da área de Clínica Médica, abordou o caso de um homem de 21 anos com queixa de febre e cefaleia há 4 dias, em um quadro de dengue sem sinais de alarme e sem condições especiais (grupo A). No atendimento,",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "se chama Marcos, tem 21 anos, é solteiro e estudante universitário"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "está com febre há 4 dias, aferida em casa em até 39,5 °C"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "sente dor de cabeça intensa no fundo dos olhos, sente dor no corpo, fraqueza, cansaço e falta de apetite"
+   },
+   {
+    "topico": "Características do quadro (2)",
+    "resposta": "ingeriu paracetamol para alívio da dor e febre, mas os efeitos foram passageiros"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "não tem outros sintomas, nem doenças prévias ou alergias e nunca foi operado"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "não faz uso de medicamentos de uso contínuo nem de vitaminas"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "não fuma ou usa drogas, e que costuma, apenas, beber duas latas de cerveja aos domingos"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "não viajou recentemente e nem teve contato com água de enchente, rato, capivara ou carrapato"
+   },
+   {
+    "topico": "Identificação (2)",
+    "resposta": "no local em que trabalha, há muitos mosquitos (pernilongos)"
+   },
+   {
+    "topico": "Antecedentes familiares",
+    "resposta": "sua mãe tem pressão alta sendo este o único histórico mórbido familiar"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "desconhece se outra pessoa de seu convívio apresenta os mesmos sintomas; Após as adequadas solicitações de exames, o(a) participante poderia receber os seguintes"
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "SINAIS VITAIS:\nFrequência Cardíaca: 101 batimentos por minuto.\nFrequência Respiratória: 19 incursões respiratórias por minuto.\nPressão Arterial: 120 × 80 mmHg.\nSaturação de Oxigênio em ar ambiente: 97%.\nTemperatura Axilar: 38ºC.\nEXAME CLÍNICO:\nRegular estado geral, corado, hidratado, febril, sem alterações cutâneas.\nExames físicos cardiovascular, respiratório, abdominal, neurológico e exame físico de\nextremidades: Sem alterações."
+  }
+ ],
+ "exames": [
+  {
+   "item": "Sorologias",
+   "resultado": "DENGUE:\nNS1: positivo.\nIgM: positivo.\nIgG: negativo."
+  },
+  {
+   "item": "Exames laboratoriais",
+   "resultado": "Exame Resultado Valores de referência\nHemoglobina (Hb) 13,5 g/dL 13,0 – 17,0 g/dL\nHematócrito (Hct) 40,5 % 38 – 50%\nLeucócitos 8.500 mm³ 5.000 – 10.000/mm³\nPlaquetas 320.000 mm³ 150.000 – 400.000/mm³\nCreatinina 1,1 mg/dL 0,7 – 1,3 mg/dL\nUreia 40 mg/dL 10 – 50 mg/dL"
+  },
+  {
+   "item": "Prova do laço",
+   "resultado": "Ver a imagem do impresso.",
+   "imagem": "img/estacoes/inep-2024-2-c01-p05.jpg"
+  }
+ ],
+ "diagnostico": "Pergunta a existência de outros sinais, ou sintomas associados, que sejam relevantes para o estabelecimento de diagnósticos diferenciais: (1) sintomas gripais (tosse, expectoração, coriza, obstrução nasal); (2)mialgia (OU dor muscular OU dor nos músculos); (3)artralgia (OU dor articular); (4)diarreia (OU alteração no aspecto das fezes); (5)náuseas; (6) queixas oftalmológicas (hiperemia OU conjuntivite OU olho vermelho); e, (7)icterícia (OU olho amarelo OU pele amarela).",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)identifica-se; e, (2)cumprimenta o paciente simulado e pergunta seu nome.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta a existência de outros sinais, ou sintomas associados, que sejam relevantes para o estabelecimento de diagnósticos diferenciais: (1) sintomas gripais (tosse, expectoração, coriza, obstrução nasal); (2)mialgia (OU dor muscular OU dor nos músculos); (3)artralgia (OU dor articular); (4)diarreia (OU alteração no aspecto das fezes); (5)náuseas; (6) queixas oftalmológicas (hiperemia OU conjuntivite OU olho vermelho); e, (7)icterícia (OU olho amarelo OU pele amarela).",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.75
+   },
+   "integral": "investiga quatro ou mais itens.",
+   "parcial": "investiga de um a três itens.",
+   "inadequado": "não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre: (1)fatores de melhora; e, (2)fatores de piora.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta os dois itens.",
+   "parcial": "pergunta apenas um item.",
+   "inadequado": "não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre a história patológica pregressa: (1) comorbidades; (2) medicações; e, (3)alergias.",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.75
+   },
+   "integral": "pergunta os três itens.",
+   "parcial": "pergunta um ou dois itens.",
+   "inadequado": "não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Investiga sinais de alarme ou choque: (1)dor abdominal; (2)vômitos; (3)rebaixamento de sensório; (4)lipotimia; (5)irritabilidade; (6)acúmulo de líquido em cavidades; (7)sangramentos ou manchas na pele; e, (8)hipotensão.",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.75
+   },
+   "integral": "pergunta quatro ou mais sintomas.",
+   "parcial": "pergunta dois ou três sintomas.",
+   "inadequado": "pergunta um sintoma ou não pergunta sintoma algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Investiga história epidemiológica: (1)viagens recentes; (2)contato com água de enchente (OU água parada OU foco de água parada); (3)contato com rato OU capivara OU carrapato; (4)mosquitos nos ambientes que frequenta; (5)familiares e ou vizinhos com os mesmos sintomas.",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.4,
+    "adequado": 0.75
+   },
+   "integral": "investiga três ou mais itens.",
+   "parcial": "investiga um ou dois itens.",
+   "inadequado": "não investiga item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Solicita hemograma.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Realiza a prova do laço, obedecendo as etapas a seguir: (1)coloca o manguito do tensiômetro no braço do ator; (2) descreve a insuflação do manguito até o valor médio da PA (PAS+PAD)/2; (3)descreve que deixará o manguito insuflado por 5 minutos; e, (4) descreve que desenha um quadrado de 2,5 cm de lado no antebraço e conta o número de petéquias na área.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "realiza a prova, seguindo todas as etapas.",
+   "parcial": null,
+   "inadequado": "não realiza ou não segue todas as etapas.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Verbaliza o diagnóstico de dengue sem sinais de alarme (OU Grupo A).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "verbaliza o diagnóstico e a gravidade.",
+   "parcial": "verbaliza o diagnóstico de dengue, sem especificar gravidade.",
+   "inadequado": "não verbaliza o diagnóstico de dengue ou verbaliza, mas com gravidade diferente do grupo A.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Orienta repouso e hidratação oral (com ou sem menção ao volume e composição adequados dos líquidos para reposição).",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "orienta as duas condutas.",
+   "parcial": "orienta apenas uma conduta.",
+   "inadequado": "não orienta conduta alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Orienta uso de paracetamol e/ou dipirona para dor e febre.",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.75
+   },
+   "integral": "orienta.",
+   "parcial": null,
+   "inadequado": "não orienta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Orienta a não utilizar anti-inflamatórios não esteroidais (AINEs) ou AAS.",
+   "peso": 0.75,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.75
+   },
+   "integral": "orienta ao menos uma medicação.",
+   "parcial": null,
+   "inadequado": "não orienta nenhuma medicação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Orienta sobre sinais de alarme: (1)dor abdominal; (2)vômitos; (3)alteração de consciência; e, (4)sangramentos",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "orienta os quatro sinais.",
+   "parcial": "orienta dois ou três sinais.",
+   "inadequado": "orienta um sinal ou não orienta sinal algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c14",
+   "descricao": "Verbaliza a necessidade de notificação do caso no SINAN.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "verbaliza.",
+   "parcial": null,
+   "inadequado": "não verbaliza.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.2: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

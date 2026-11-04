@@ -1,0 +1,315 @@
+{
+ "id": "inep-2024-1-e09",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2024.1",
+  "estacao": 9,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_PEP_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2024_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Ginecologia e Obstetrícia",
+ "especialidade": "Ginecologia e Obstetrícia",
+ "tema": "Você é médico de uma UBS e deverá atender, no ambulatório, a uma paciente chamada Maria, d",
+ "titulo": "Você é médico de uma UBS e deverá atender, no ambulatório, a uma paciente chamada Maria, d",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: atenção primária à saúde. A unidade básica de saúde (UBS) possui a seguinte infraestrutura: • consultório ginecológico.",
+ "instrucoes": [
+  "Você é médico de uma UBS e deverá atender, no ambulatório, a uma paciente chamada Maria, de 50 anos, G3 P3 AO.",
+  "A data da última menstruação (DUM) dessa paciente foi há cerca de 1 ano."
+ ],
+ "tarefas": [
+  "realizar o atendimento da paciente com anamnese completa",
+  "verbalizar o diagnóstico do quadro",
+  "informar a paciente sobre os possíveis planos diagnósticos",
+  "informar a paciente sobre os possíveis planos terapêuticos respondendo-a e orientando-a de forma completa. CONSIDERE O EXAME FÍSICO REALIZADO DE FORMA COMPLETA E QUE ESTÁ SEM ALTERAÇÕES."
+ ],
+ "historia": "A Estação aborda o atendimento ambulatorial em uma UBS de uma mulher, chamada Maria, de 50 anos, casada, G3 PV3, DUM aos 49 anos.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "é casada e trabalha em um escritório de contabilidade"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "sofre de fogachos, que atrapalham seu sono, de ressecamento vaginal, de dispareunia, de queda de cabelo e de ressecamento de pele"
+   },
+   {
+    "topico": "Antecedentes gineco-obstétricos",
+    "resposta": "não menstrua há um ano, antes disso sua menstruação estava desregulada, com atrasos"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "realizou exames ginecológicos de rotina há 3 anos e que estavam normais"
+   },
+   {
+    "topico": "Sintomas associados",
+    "resposta": "é sedentária, tem uma dieta regular, percebeu pequeno ganho de peso nos últimos anos"
+   },
+   {
+    "topico": "Hábitos de vida",
+    "resposta": "nega tabagismo e aumento no nível de estresse"
+   },
+   {
+    "topico": "Hábitos de vida (2)",
+    "resposta": "afirma beber pouco e socialmente e que tem vivenciado noites de insônia"
+   },
+   {
+    "topico": "Antecedentes e comorbidades",
+    "resposta": "nega doenças pré-existentes, eventos tromboembólicos, alergias e cirurgias prévias"
+   },
+   {
+    "topico": "Antecedentes familiares",
+    "resposta": "nega antecedentes mórbidos familiares"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "nega uso de medicamentos, de vitaminas ou de suplementos."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [],
+ "exames": [
+  {
+   "item": "Figura do corpo humano",
+   "resultado": "Após o término da atividade relacionada a este impresso, dirija-se à câmera e\nmostre a figura.\n1\nI\nJ\nCOSTAS\n\" EDUCAÇÃO",
+   "imagem": "img/estacoes/inep-2024-1-c09-p40.jpg"
+  }
+ ],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "comunicar-se adequadamente com a paciente realizando a anamnese adequada, direcionada a queixa da paciente",
+  "questionar sobre a realização dos exames ginecológicos de rotina",
+  "questionar a paciente sobre a existência de prováveis contraindicações à terapia hormonal",
+  "comunicar-se adequadamente com a paciente, explicando-lhe sua condição e orientando-a sobre mudanças de estilo de vida e possíveis tratamentos",
+  "orientar sobre os possíveis benefícios e possíveis efeitos adversos da terapia de reposição hormonal",
+  "orientar sobre os exames que deverão ser realizados anualmente para acompanhamento adequado da terapia de reposição hormonal",
+  "indicar a terapêutica adequada."
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)cumprimenta a paciente e/ou fala o seu nome; (2) pergunta o motivo da consulta ou a queixa principal da paciente.",
+   "peso": 0.2,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.1,
+    "adequado": 0.2
+   },
+   "integral": "realiza as duas ações.",
+   "parcial": "realiza uma ação.",
+   "inadequado": "não realiza ação alguma.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre outros sinais ou sintomas: (1)ressecamento vaginal; (2)dispareunia (dor ou desconforto na relação sexual) OU mudança no desejo sexual; (3)ressecamento de pele; (4)queda de cabelo; (5)sintomas emocionais, alterações cognitivas e depressão",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta três ou mais itens.",
+   "parcial": "pergunta dois itens.",
+   "inadequado": "pergunta um item OU não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Indica exames ginecológicos e/ou questiona se a paciente os fez recentemente: (1)mamografia; (2)citologia oncótica cervical (ou papanicolaou ou preventivo); (3)ecografia endovaginal (USG sinônimos).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "indica ou questiona os três itens.",
+   "parcial": null,
+   "inadequado": "indica ou questiona um ou dois itens OU não indica ou questiona item algum. Obs.: a referência a exames de forma genérica não será considerada para fins de pontuação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre os hábitos de vida: (1)atividade física; (2)alimentação; (3)tabagismo; (4)etilismo; (5)estresse.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta três ou mais itens.",
+   "parcial": "pergunta um ou dois itens.",
+   "inadequado": "não pergunta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Pergunta sobre possíveis comorbidades e doenças pré- existentes que podem influenciar o tipo de prescrição médica: (1)fenômenos tromboembólicos (ou fenômenos cardiovasculares ou enxaqueca com aura); (2)câncer de mama (ou câncer de endométrio); (3)hipertensão arterial sistêmica; (4)diabetes; (5)doenças hepáticas (qualquer doença hepática); (6)câncer de ovário.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "pergunta três ou mais itens.",
+   "parcial": "pergunta um ou dois itens.",
+   "inadequado": "não pergunta sobre item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Define a condição clínica de climatério (OU menopausa OU síndrome climatérica OU sintomas vasomotores do estado menopausal):",
+   "peso": 1.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.5
+   },
+   "integral": "define.",
+   "parcial": null,
+   "inadequado": "não define.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Solicita exames hormonais para a confirmação de síndrome climatérica:",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "não solicita.",
+   "parcial": null,
+   "inadequado": "solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Orienta a paciente sobre: (1)alimentação equilibrada; (2)prática de atividade física;",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.4
+   },
+   "integral": "orienta os dois itens.",
+   "parcial": null,
+   "inadequado": "orienta um item OU não orienta item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c09",
+   "descricao": "Informa sobre os possíveis benefícios da TH, que pode ajudar a melhorar os seguintes pontos: (1)fogachos; (2)síndrome urogenital; (3)labilidade emocional; (4)padrão de sono; (5)perfil lipídico; (6)prevenção da osteoporose.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "informa quatro ou mais itens.",
+   "parcial": "informa três itens.",
+   "inadequado": "informa dois ou menos itens OU não informa item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Informa a paciente sobre os principais efeitos adversos da TH: (1)mastalgia; (2)sangramento uterino irregular; (3)cefaleia.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "informa dois ou mais itens.",
+   "parcial": null,
+   "inadequado": "informa um item OU não informa item algum.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c11",
+   "descricao": "Informa a paciente sobre a necessidade de realização de controle ginecológico anual com realização de mamografia e de ultrassonografia endovaginal:",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "informa.",
+   "parcial": null,
+   "inadequado": "não informa.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c12",
+   "descricao": "Indica terapêutica da seguinte maneira: Estrogênio e progesterona (progestágeno contínuo ou cíclico), sendo aceita prescrição que oriente administração por via oral ou por via transdérmica para estrogênio e por via oral para progesterona.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 2.0
+   },
+   "integral": "indica o uso de (1) estrogênio + progesterona OU (2) Tibolona.",
+   "parcial": null,
+   "inadequado": "não indica progesterona associada ao estrogênio.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Orienta que, caso ela não deseje usar TH, existe a possibilidade de uso de neuromoduladores ou de fitoterápicos para alívio dos sintomas.",
+   "peso": 0.4,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.4
+   },
+   "integral": "orienta.",
+   "parcial": null,
+   "inadequado": "não orienta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2024.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": []
+}

@@ -1,0 +1,281 @@
+{
+ "id": "inep-2025-1-e03",
+ "versao": 1,
+ "status": "publicada",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2025.1",
+  "estacao": 3,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/revalida_2025_1_pep_definitivo.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2025_1_prova_habilidades_clinicas.pdf.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Pediatria",
+ "especialidade": "Pediatria",
+ "tema": "Você é um médico atuando no consultório de uma unidade básica de saúde (UBS) e atenderá a ",
+ "titulo": "Você é um médico atuando no consultório de uma unidade básica de saúde (UBS) e atenderá a ",
+ "duracaoMin": 10,
+ "cenario": "Nível de atenção: primária. Tipo de atendimento: ambulatorial – unidade básica de saúde. A unidade possui a seguinte infraestrutura: • consultórios; • sala de emergência; • farmácia; • sala de vacinação.",
+ "instrucoes": [
+  "Você é um médico atuando no consultório de uma unidade básica de saúde (UBS) e atenderá a mãe de um menino de 3 anos e 3 meses. A mãe traz consigo um encaminhamento da escola do filho e procura obter ajuda. A criança se encontra fora do consultório, com o pai.",
+  "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A MÃE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO"
+ ],
+ "tarefas": [
+  "ler a carta da escola sobre o comportamento da criança",
+  "realizar anamnese direcionada à queixa da mãe",
+  "solicitar exame físico relacionado à queixa principal da mãe",
+  "formular e verbalizar a principal hipótese diagnóstica, com base na história clínica e no exame físico",
+  "indicar a conduta adequada, conforme a hipótese diagnóstica."
+ ],
+ "historia": "A Estação 3 de Pediatria aborda o caso de um menino de 3 anos e 3 meses levado por sua mãe para consulta. A mãe leva consigo uma carta da escola, em que se sugere que a criança seja levada ao médico devido ao seu comportamento no ambiente escolar.",
+ "paciente": {
+  "nome": "Paciente",
+  "idade": null,
+  "sexo": "",
+  "ocupacao": "",
+  "perfil": "Paciente simulado do Revalida: responde só ao que for perguntado, com as informações do roteiro oficial.",
+  "abertura": "Bom dia, doutor(a).",
+  "roteiro": [
+   {
+    "topico": "Identificação",
+    "resposta": "ela se chama Suely, tem 42 anos, é casada e é dona de casa"
+   },
+   {
+    "topico": "Outras informações (1)",
+    "resposta": "ela levou o filho, Gabriel, para consulta por ter recebido uma carta da escola a respeito do comportamento da criança no ambiente escolar"
+   },
+   {
+    "topico": "Identificação (2)",
+    "resposta": "Gabriel tem 3 anos e 3 meses e tem dois irmãos (um de 14 anos e um de 16 anos), que são de outro pai"
+   },
+   {
+    "topico": "Antecedentes familiares",
+    "resposta": "ela já tinha percebido algumas diferenças entre o comportamento do filho e o de seus irmãos, quando estes tinham a idade de Gabriel"
+   },
+   {
+    "topico": "Outras informações (2)",
+    "resposta": "Gabriel sempre foi saudável, tendo tido apenas alguns resfriados"
+   },
+   {
+    "topico": "Medicamentos",
+    "resposta": "Gabriel nunca teve problemas neurológicos e não faz uso de medicamentos"
+   },
+   {
+    "topico": "Início e evolução",
+    "resposta": "Gabriel mamou até os 9 meses e começou a comer a partir dos 6 meses, mas não aceita alimentos pastosos, preferindo comer comida branca e crocante"
+   },
+   {
+    "topico": "Características do quadro",
+    "resposta": "Gabriel firmou a cabeça com 4 meses; sentou-se sozinho com 9 meses; engatinhou com 1 ano; andou com 1 ano e 6 meses; demorou para falar e agora está falando algumas palavras soltas; ainda usa fralda de dia e para dormir, mas faz cocô e xixi normalmente"
+   },
+   {
+    "topico": "Outras informações (3)",
+    "resposta": "Gabriel não gosta de barulhos, grita quando ouve o som de aspirador ou liquidificador e não gosta de abraços"
+   },
+   {
+    "topico": "Outras informações (4)",
+    "resposta": "Gabriel gosta de brincar sozinho, sempre fazendo a mesma coisa, e também fica se balançando demoradamente (fazendo movimento de “vai e vem”)"
+   },
+   {
+    "topico": "Outras informações (5)",
+    "resposta": "Gabriel, quando sai da rotina, sempre grita muito e bate nas outras pessoas, tendo apresentado agressividade também na escola"
+   },
+   {
+    "topico": "Outras informações (6)",
+    "resposta": "Gabriel só consegue ficar mais calmo quando assiste aos mesmos desenhos no celular, quase o dia todo"
+   },
+   {
+    "topico": "Características do quadro (2)",
+    "resposta": "Gabriel dorme pouco e muito mal, acorda muitas vezes durante a noite, adormece muito tarde e dorme com os pais na mesma cama"
+   },
+   {
+    "topico": "Outras informações (7)",
+    "resposta": "Gabriel apresenta estereotipias (anda na ponta dos pés ou abana as mãos), principalmente quando corre"
+   },
+   {
+    "topico": "Antecedentes familiares (2)",
+    "resposta": "moram 5 pessoas em sua casa; o pai de Gabriel é amoroso e todos se dão bem em casa; os outros irmãos de Gabriel não incomodam e são saudáveis"
+   },
+   {
+    "topico": "Outras informações (8)",
+    "resposta": "Gabriel tem um primo que apresenta os mesmos comportamentos."
+   }
+  ],
+  "perguntasDoPaciente": []
+ },
+ "exameFisico": [
+  {
+   "item": "Exame físico",
+   "achado": "Nome: Gabriel da Silva\nIdade: 3 anos e 3 meses\nResultado do exame físico\nObservada marcha na ponta dos pés. Agitação ao toque. Não responde a perguntas\nquando chamado pelo nome. Demais aparelhos e sistemas sem alterações.",
+   "chaves": [
+    "a qualquer momento durante a consulta",
+    "exame físico",
+    "para ela entrar no consultório",
+    "que será entregue pelo chefe de estação o participante para ver a criança"
+   ]
+  }
+ ],
+ "exames": [
+  {
+   "item": "Carta da escola",
+   "resultado": "Prezados pais,\nTemos observado que o Gabriel tem tido um comportamento que\ntem nos chamado a atenção. Ele não gosta de participar de atividades e\nbrincadeiras realizadas em grupo. Já ficou agressivo algumas vezes com os\ncolegas.\nSugerimos, portanto, que vocês o levem para uma consulta com o\nmédico, para que ele seja avaliado.\nEstamos à disposição para qualquer esclarecimento.\nAtenciosamente,\nA Direção",
+   "chaves": [
+    "pergunte à mãe simulada o motivo da consulta"
+   ]
+  },
+  {
+   "item": "Caderneta de saúde da criança",
+   "resultado": "● Tipo de parto: normal.\n● Idade gestacional: 33 semanas.\n● Peso ao nascer: 1 kg e 700 gramas.\n● Complicações ao nascer: ficou 2 semanas internado para ganhar peso.\n● Aleitamento materno ao nascer: sim, e mamou no peito quando recebeu alta\ntambém.\n● Icterícia (ficou amarelo) ao nascimento: não.\n● Número de consultas de pré-natal: 7 consultas.\n● Complicações como hipertensão na gestação ou diabetes na gestação: não.\n● Medicação na gestação: vitaminas (ácido fólico e ferro).\n● Uso de substâncias como álcool, tabagismo, drogas: não.\n● Vacinação: completa para a idade.\n● Escalas e gráficos de desenvolvimento: não preenchidos.",
+   "chaves": [
+    "quando o participante perguntar o motivo da consulta",
+    "que será entregue pela mãe simulada junto com o impresso – carta da escola"
+   ]
+  }
+ ],
+ "diagnostico": "Formula a hipótese diagnóstica: transtorno do espectro autista (TEA) ou autismo ou Espectro Autista.",
+ "condutaEsperada": [],
+ "procedimentos": [
+  "apresentar-se adequadamente à mãe, identificando-se, cumprimentando-a, mantendo contato visual com ela e perguntando o nome da mãe e da criança",
+  "realizar anamnese, perguntando sobre: queixa principal; outras doenças, problemas de saúde e uso de medicamentos; marcos de desenvolvimento psicomotor; hábitos e comportamentos sociais",
+  "solicitar exame físico da criança ou pedir para ela entrar no consultório",
+  "verbalizar a hipótese diagnóstica (transtorno de espectro de autista (TEA) ou autismo), com base na história clínica, nos"
+ ],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Apresentação: (1)Identifica-se; (2)Cumprimenta a mãe de maneira adequada/cordial; (3)Mantém contato visual durante sua apresentação; (4)Pergunta o nome da mãe e o nome da criança.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "realiza as quatro ações.",
+   "parcial": "realiza duas ou três ações.",
+   "inadequado": "realiza uma ação ou não realiza nenhuma ação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Pergunta sobre a queixa principal: (1) pergunta o motivo da consulta/ o que trouxe o paciente à consulta/ como pode ajudar o paciente; (2) deixa a mãe explicar sem interrompê-la.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "realiza duas ações.",
+   "parcial": null,
+   "inadequado": "realiza uma ou nenhuma ação.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c03",
+   "descricao": "Pergunta sobre outras doenças, problemas de saúde e uso de medicamentos: (1) outras doenças / doenças preexistentes/ comorbidades/ doenças de base/ patologias/ intercorrências no pré-natal ou no parto, prematuridade, baixo peso ao nascer e exposição a certas medicações durante o pré-natal; (2) medicação de uso contínuo e/ou suplementos ou vitaminas.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.25,
+    "adequado": 0.5
+   },
+   "integral": "pergunta sobre os dois itens.",
+   "parcial": "pergunta apenas sobre um item.",
+   "inadequado": "não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c04",
+   "descricao": "Pergunta sobre os marcos de desenvolvimento psicomotor: (1) idade em que firmou a cabeça; (2) idade em que sentou; (3) idade em que andou; (4) idade em que falou e(ou) dificuldades da fala atual.",
+   "peso": 2.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.25,
+    "adequado": 2.5
+   },
+   "integral": "pergunta sobre os quatro itens.",
+   "parcial": "pergunta sobre três itens.",
+   "inadequado": "pergunta sobre dois ou menos itens ou não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c05",
+   "descricao": "Pergunta sobre hábitos e comportamentos sociais: (1) interação ou relacionamento com os pais/irmãos/colegas/amigos/ crianças/ outras pessoas; dificuldade de olhar nos olhos/ retraimento social/introspecção/ dificuldade de comunicação não verbal; (2) utilização dos brinquedos; (3) estereotipias (abana as mãos, anda na ponta dos pés)/ flapping, presença de movimentos repetitivos, atípicos ou diferentes/ hiperfoco/ necessidade de rotinas ou padrões ritualizados de comportamento verbal ou não verbal/ comportamento restritivo/ hiperatividade; (4) sensibilidades excessivas sonoras e táteis/ irritabilidade com osom/ irritabilidade ao toque ou ao ser abraçado e/ou beijado; (5) agressividade ou agitação/ irritabilidade excessiva; (6) padrão de sono/ presença de sono reparador; (7) exposição às telas/ tempo de telas; (8) alimentação / seletividade alimentar.",
+   "peso": 2.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.25,
+    "adequado": 2.5
+   },
+   "integral": "pergunta sobre quatro ou mais itens.",
+   "parcial": "pergunta sobre dois ou três itens.",
+   "inadequado": "pergunta apenas sobre um item ou não pergunta.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c06",
+   "descricao": "Solicita exame físico da criança ou pede para a criança entrar no consultório (a qualquer momento) ou solicita permissão para examinar a criança.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c07",
+   "descricao": "Formula a hipótese diagnóstica: transtorno do espectro autista (TEA) ou autismo ou Espectro Autista.",
+   "peso": 2.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 1.0,
+    "adequado": 2.0
+   },
+   "integral": "formula a hipótese de TEA ou autismo.",
+   "parcial": "formula a hipótese de transtorno do neurodesenvolvimento.",
+   "inadequado": "não formula nenhuma hipótese ou formula outras.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c08",
+   "descricao": "Encaminha para especialista ou para centro especializado: neurologista, neuropediatra, psiquiatra, fonoaudiólogo, psicólogo/terapeuta, terapeuta ocupacional, fisioterapeuta, assistente social, psicopedagogo, ou nutricionista (especialistas); E-multi/NASF; CAPS; centros especializados de reabilitação; instituições não governamentais especializadas, como AACD, APAE (centros especializados).",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "encaminha para especialista ou centro especializado.",
+   "parcial": null,
+   "inadequado": "não encaminha.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "GADIA, C.; ARANTES DE ARAÚJO, L.; VASCONCELOS, M. M. In: Tratado de Pediatria: Transtorno do Espectro do Autismo. 6. ed. Barueri: 2024. Cap. 3.",
+  "BRIDGEMOHAN, C. F. In: Nelson. Tratado de Pediatria: Transtorno do Espectro Autista. 21.",
+  "ed. Guanabara Koogan: 2022. Cap. 54. p. 985-996.",
+  "O desempenho do participante ao longo da estação foi avaliado e pontuado a partir do seguinte PADRÃO ESPERADO DE PROCEDIMENTO (PEP)."
+ ],
+ "pendencias": []
+}

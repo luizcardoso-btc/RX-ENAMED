@@ -5,6 +5,8 @@ import { cpSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } f
 import { chavesDoCodigo, chavesDosDados } from './i18n-chaves.mjs';
 import ES from './src/es.js';
 import { validarPlanos } from './src/planos.js';
+import { carregarEstacoes } from '../compartilhado/carregar-estacoes.js';
+import { validarEstacao, partePublica } from '../compartilhado/estacoes.js';
 
 const raiz = new URL('.', import.meta.url).pathname;
 const dist = `${raiz}dist`;
@@ -38,20 +40,16 @@ const conteudo = `${raiz}../conteudo`;
 const { mentores } = JSON.parse(readFileSync(`${conteudo}/mentores.json`, 'utf8'));
 const idsMentores = new Set(mentores.map((m) => m.id));
 const AREAS = ['Clínica Médica', 'Cirurgia', 'Pediatria', 'Ginecologia e Obstetrícia', 'Medicina de Família e Comunidade / Saúde Coletiva'];
-const OBRIGATORIOS = ['id', 'area', 'especialidade', 'titulo', 'tema', 'mentor', 'duracaoMin', 'cenario', 'tarefas', 'paciente',
-  'exameFisico', 'exames', 'diagnostico', 'condutaEsperada', 'pep', 'referencias'];
-const estacoes = readdirSync(`${conteudo}/estacoes`).filter((f) => f.endsWith('.json')).sort().map((arquivo) => {
-  const e = JSON.parse(readFileSync(`${conteudo}/estacoes/${arquivo}`, 'utf8'));
-  const problemas = OBRIGATORIOS.filter((c) => e[c] === undefined).map((c) => `falta "${c}"`);
-  if (`${e.id}.json` !== arquivo) problemas.push('id diferente do nome do arquivo');
-  if (!AREAS.includes(e.area)) problemas.push(`área desconhecida "${e.area}"`);
+// Estações da 2ª etapa: autorais (conteudo/estacoes) e oficiais do Inep (conteudo/estacoes-inep), no formato v2.
+// Só as publicadas entram no app; a parte reservada (roteiro, impressos, PEP) fica fora do arquivo público.
+const todasEstacoes = carregarEstacoes(conteudo);
+for (const e of todasEstacoes) {
+  const problemas = validarEstacao(e);
   if (!idsMentores.has(e.mentor)) problemas.push(`mentor desconhecido "${e.mentor}"`);
-  const soma = e.pep?.reduce((s, i) => s + i.peso, 0);
-  if (Math.abs(soma - 10) > 0.001) problemas.push(`pesos do checklist somam ${soma}, e não 10`);
-  if (new Set(e.pep?.map((i) => i.id)).size !== e.pep?.length) problemas.push('ids repetidos no checklist');
-  if (problemas.length) throw new Error(`conteudo/estacoes/${arquivo}: ${problemas.join('; ')}`);
-  return e;
-});
+  if (e.status === 'publicada' && problemas.length) throw new Error(`estação ${e.id}: ${problemas.join('; ')}`);
+}
+const estacoesPublicadas = todasEstacoes.filter((e) => e.status === 'publicada');
+const estacoes = estacoesPublicadas.map(partePublica);
 // Flashcards de conceito: cada questão citada precisa existir no banco.
 const idsQuestoes = new Set(JSON.parse(readFileSync(`${raiz}public/data/questoes.json`, 'utf8')).questoes.map((q) => q.id));
 const { cartoes } = JSON.parse(readFileSync(`${conteudo}/flashcards.json`, 'utf8'));
@@ -114,6 +112,12 @@ const discursivas = readdirSync(`${conteudo}/discursivas`).filter((f) => f.endsW
 });
 
 writeFileSync(`${dist}/data/conteudo.json`, JSON.stringify({ mentores, estacoes, cartoes, aulas, planos, discursivas }));
+// Estações completas só para o modo sem servidor (testes e visualização no claude.ai). O site com servidor
+// (site/gerar.mjs com CHECKOUT_PROPRIO=1) apaga este arquivo: lá o roteiro e o PEP vêm da API, por papel.
+writeFileSync(`${dist}/data/estacoes-local.json`, JSON.stringify(estacoesPublicadas));
+const editais = readdirSync(`${conteudo}/editais`).filter((f) => f.endsWith('.json')).sort()
+  .map((f) => JSON.parse(readFileSync(`${conteudo}/editais/${f}`, 'utf8')));
+writeFileSync(`${dist}/data/editais.json`, JSON.stringify(editais));
 
 // Comentários das questões: um arquivo por edição, com explicação geral e de cada alternativa, em pt e es.
 const porIdQuestao = Object.fromEntries(questoesBanco.map((q) => [q.id, q]));
@@ -141,4 +145,4 @@ for (const arquivo of readdirSync(`${conteudo}/comentarios`).filter((f) => f.end
   }
 }
 writeFileSync(`${dist}/data/comentarios.json`, JSON.stringify(comentarios));
-console.log(`dist/index.html: ${(html.length / 1024).toFixed(0)} KB · ${estacoes.length} estações · ${mentores.length} mentores · ${cartoes.length} cartões · ${aulas.length} aulas · ${planos.planos.length} planos · ${discursivas.length} discursivas · ${Object.keys(comentarios).length} comentários`);
+console.log(`dist/index.html: ${(html.length / 1024).toFixed(0)} KB · ${estacoes.length} estações (${estacoes.filter((e) => e.origem === 'oficial').length} oficiais do Inep) · ${mentores.length} mentores · ${cartoes.length} cartões · ${aulas.length} aulas · ${planos.planos.length} planos · ${discursivas.length} discursivas · ${Object.keys(comentarios).length} comentários`);

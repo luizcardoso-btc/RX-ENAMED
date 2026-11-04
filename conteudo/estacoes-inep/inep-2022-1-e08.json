@@ -1,0 +1,152 @@
+{
+ "id": "inep-2022-1-e08",
+ "versao": 1,
+ "status": "revisao",
+ "origem": "oficial",
+ "fonte": {
+  "edicao": "Revalida 2022.1",
+  "estacao": 8,
+  "documento": "Padrão Esperado de Procedimentos (definitivo)",
+  "url": "https://download.inep.gov.br/revalida/provas_e_gabaritos/PEP_2022_1_publicacao.pdf",
+  "prova": "https://download.inep.gov.br/revalida/provas_e_gabaritos/2022_1_prova_habilidades_clinicas.pdf",
+  "situacao": "definitivo"
+ },
+ "area": "Pediatria",
+ "especialidade": "Pediatria",
+ "tema": "Mãe leva sua filha de 4 meses e 14 dias para consulta eletiva de puericultura. Nos próximo",
+ "titulo": "Mãe leva sua filha de 4 meses e 14 dias para consulta eletiva de puericultura. Nos próximo",
+ "duracaoMin": 10,
+ "cenario": "Local de atuação: Atenção Primária. A unidade possui a seguinte infraestrutura: • consultórios para atendimento; • sala de pequenas cirurgias; • laboratório de análises clínicas; e • sala para observação clínica.",
+ "instrucoes": [
+  "Mãe leva sua filha de 4 meses e 14 dias para consulta eletiva de puericultura. Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:",
+  "ler a ficha da paciente, apresentada a seguir",
+  "realizar a anamnese dirigida à mãe",
+  "solicitar qualquer exame físico e/ou complementar que considere pertinente ao caso clínico",
+  "explicar os achados do exame físico",
+  "analisar o desenvolvimento da criança",
+  "explicar à mãe o diagnóstico clínico da criança",
+  "explicar à mãe se há a necessidade de terapêutica. FICHA DA PACIENTE",
+  "Nome: Alícia.",
+  "Idade: 4 meses e 14 dias.",
+  "Peso: 6.800 gramas.",
+  "Comprimento: 63,5 cm.",
+  "Perímetro cefálico: 41 cm.",
+  "Temperatura: 36,3 °C. A CRIANÇA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "tarefas": [
+  "ler a ficha da paciente, apresentada a seguir",
+  "realizar a anamnese dirigida à mãe",
+  "solicitar qualquer exame físico e/ou complementar que considere pertinente ao caso clínico",
+  "explicar os achados do exame físico",
+  "analisar o desenvolvimento da criança",
+  "explicar à mãe o diagnóstico clínico da criança",
+  "explicar à mãe se há a necessidade de terapêutica. FICHA DA PACIENTE",
+  "Nome: Alícia.",
+  "Idade: 4 meses e 14 dias.",
+  "Peso: 6.800 gramas.",
+  "Comprimento: 63,5 cm.",
+  "Perímetro cefálico: 41 cm.",
+  "Temperatura: 36,3 °C. A CRIANÇA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO."
+ ],
+ "historia": "",
+ "paciente": null,
+ "exameFisico": [],
+ "exames": [
+  {
+   "item": "Impresso com imagem",
+   "resultado": "ESTAÇÃO 8 Área: Pediatria IMPRESSO 1 – CADERNETA DA CRIANÇA Nome: Alícia Idade Peso (gramas) Comprimento (cm) Perímetro cefálico (cm) Nascimento 3.100 49 34 1 mês 4.000 54 36,5 2 meses 5.100 58 38 3 meses 5.900 60 39,5 Vacinas Testes do Pezinho, do Coraçãozinho, da PNI — Programa Nacional Orelhinha e do Olhinho Imunização ADEQUADO NORMAIS",
+   "imagem": "img/estacoes/inep-2022-1-c08-p41.jpg"
+  },
+  {
+   "item": "Impresso com imagem",
+   "resultado": "ESTAÇÃO 8 Área: Pediatria Gráfico de Perímetro Cefálico para Idade de 0 a 2 Anos PC para Idade 0 a 2 anos PC acima do esperado para a idade >+ 2 escores z PC adequado para idade ≤ +2 escores z e ≥ -2 escores PC abaixo do esperado para a idade < -2 escores z ATENÇÃO: DIRIJA-SE À CÂMERA! A PARTIR DA ANÁLISE DO GRÁFICO, VERBALIZE, DE FORMA CLARA, OLHANDO PARA A CÂMERA, O SEGUINTE DADO DE ALÍCIA: Escore Z do Perímetro Cefálico Atenção: Este impresso será descartado ao final da aplicação. Só será pontuado o que for verbalizado para a câmera.",
+   "imagem": "img/estacoes/inep-2022-1-c08-p42.jpg"
+  },
+  {
+   "item": "Impresso com imagem",
+   "resultado": "ESTAÇÃO 8 Área: Pediatria Gráfico de Peso para Idade de 0 a 2 Anos Peso para idade 0 a 2 anos Peso elevado para idade > escore-z +2 | Peso adequado para idade ≥ escore-z -2 e ≤ escore-z +2 Baixo peso para idade ≥ escore-z -3 e < escore-z -2 | Muito baixo peso para idade < escore-z -3 ATENÇÃO: DIRIJA-SE À CÂMERA! A PARTIR DA ANÁLISE DO GRÁFICO, VERBALIZE, DE FORMA CLARA, OLHANDO PARA A CÂMERA, O SEGUINTE DADO DE ALÍCIA: Escore Z do Peso Atenção: Este impresso será descartado ao final da aplicação. Só será pontuado o que for verbalizado para a câmera.",
+   "imagem": "img/estacoes/inep-2022-1-c08-p43.jpg"
+  },
+  {
+   "item": "Impresso com imagem",
+   "resultado": "ESTAÇÃO 8 Área: Pediatria Gráfico de Comprimento para Idade de 0 a 2 Anos Comprimento para idade 0 a 2 anos Comprimento adequado para idade ≥ escore-z -2 | Baixo comprimento para idade ≥ escore-z -3 e < escore-z -2 Muito baixo comprimento para idade < escore-z -3 ATENÇÃO: DIRIJA-SE À CÂMERA! A PARTIR DA ANÁLISE DO GRÁFICO, VERBALIZE, DE FORMA CLARA, OLHANDO PARA A CÂMERA, O SEGUINTE DADO DE ALÍCIA: Escore Z do Comprimento Atenção: Este impresso será descartado ao final da aplicação. Só será pontuado o que for verbalizado para a câmera.\nESTAÇÃO 8 Área: Pediatria\nIMPRESSO 2 – EXAME FÍSICO\n• Paciente em bom estado geral, sorrindo durante o exame, corada, hidratada,\nacianótica, anictérica, afebril, eupneica, sem linfonodomegalia.\n• Ausculta respiratória: murmúrios vesiculares presentes bilateralmente, sem ruídos\nadventícios.\n• Frequência respiratória: 24 irpm.\n• Ausculta cardíaca: bulhas rítmicas, normofonéticas, em dois tempos, sem sopros.\n• Frequência cardíaca: 98 bpm.\n• Abdome: plano, flácido, inocente, sem visceromegalias; ruídos hidroaéreos\npresentes.\n• Otoscopia: sem alterações.\n• Oroscopia: sem alterações.\n• Genitália: sem alterações.\n• Sistema neurológico: fontanela anterior de 2 cm, plana e normotensa.\n• Boa atividade ao exame. No colo da mãe, já firma o pescoço e se interessa pelo\nambiente.",
+   "imagem": "img/estacoes/inep-2022-1-c08-p44.jpg"
+  }
+ ],
+ "diagnostico": "",
+ "condutaEsperada": [],
+ "procedimentos": [],
+ "pep": [
+  {
+   "id": "c01",
+   "descricao": "Identifica-se e cumprimenta a mãe, de maneira adequada e cordial.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "demonstra cordialidade, faz contato visual.",
+   "parcial": null,
+   "inadequado": "identifica-se, mas não cumprimenta a mãe, ou vice- versa; evita contato visual com a mãe; não demonstra empatia.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c02",
+   "descricao": "Solicita a Caderneta de Saúde da Criança.",
+   "peso": 0.5,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 0.5
+   },
+   "integral": "solicita.",
+   "parcial": null,
+   "inadequado": "não solicita.",
+   "evidencia": "3. Realiza anamnese. 1. Pergunta detalhes sobre a queixa principal. 2. Pergunta sobre outras queixas. 3. Pergunta sobre antecedentes perinatais. 4. Pergunta sobre a alimentação. 5. Pergunta sobre o desenvolvimento neuromotor. 6. Pergunta sobre o sono. 7. Pergunta sobre evacuações e urina. 8. Pergunta sobre medicações ou vitaminas. 9. Pergunta sobre imunização.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c10",
+   "descricao": "Pergunta sobre os Testes do Pezinho e do Coraçãozinho, e/ou da Orelhinha e/ou do Olhinho.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": 0.5,
+    "adequado": 1.0
+   },
+   "integral": "",
+   "parcial": null,
+   "inadequado": "",
+   "evidencia": "11. Pergunta sobre antecedentes familiares. 12. Investiga condições sociais/moradia.",
+   "origem": "oficial",
+   "critico": false
+  },
+  {
+   "id": "c13",
+   "descricao": "Pergunta sobre prevenção de acidentes.",
+   "peso": 1.0,
+   "pontos": {
+    "inadequado": 0,
+    "parcial": null,
+    "adequado": 1.0
+   },
+   "integral": "orienta os dois itens.",
+   "parcial": null,
+   "inadequado": "orienta apenas o item 2 ou orienta errado.",
+   "evidencia": "",
+   "origem": "oficial",
+   "critico": false
+  }
+ ],
+ "referencias": [
+  "Inep. Revalida – Revalida 2022.1: caderno da prova de habilidades clínicas e Padrão Esperado de Procedimentos."
+ ],
+ "pendencias": [
+  "critérios somam 3.0",
+  "o documento não traz o roteiro do paciente simulado"
+ ]
+}

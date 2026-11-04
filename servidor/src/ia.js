@@ -43,6 +43,57 @@ function lerPedido(corpo) {
   };
 }
 
+/** Limites de uso da IA (por minuto e por dia, conforme o plano). Devolve null ou o erro a responder. */
+export async function cotaDaIa({ banco, config, limitar, usuario }) {
+  let limite = config.ia.limiteDiaGratis;
+  if (usuario.papel === 'admin') limite = config.ia.limiteDiaPago;
+  else if ((await situacaoDoAluno(banco, usuario.id)).ativo) limite = config.ia.limiteDiaPago;
+  if (await limitar(`ia-min:${usuario.id}`, 20, 60)) return { status: 429, corpo: { erro: 'Muitas mensagens em pouco tempo. Espere um minuto.', codigo: 'rate_limited' } };
+  if (limite === 0 || await limitar(`ia-dia:${usuario.id}`, limite, 86_400)) {
+    return {
+      status: 429,
+      corpo: {
+        erro: limite > config.ia.limiteDiaGratis ? 'Você usou todas as interações com a IA de hoje. Volte amanhã.'
+          : 'Você usou as interações gratuitas com a IA de hoje. Assine um plano para treinar sem parar.',
+        codigo: 'quota', limite,
+      },
+    };
+  }
+  return null;
+}
+
+/** Chama a IA com a moldura fixa da plataforma e transmite a resposta em texto corrido. */
+export async function transmitirIa({ cliente, config, res, sistema, mensagens, json = false, esforco = 'medium' }) {
+  const instrucoes = [MOLDURA, sistema, json ? 'Responda somente com um objeto JSON válido, sem texto antes ou depois e sem cercas de código.' : '']
+    .filter(Boolean).join('\n\n');
+  const controle = new AbortController();
+  res.on('close', () => { if (!res.writableEnded) controle.abort(); });
+  try {
+    const stream = cliente.beta.messages.stream({
+      model: config.ia.modelo,
+      max_tokens: json ? 16_000 : 4_000,
+      system: instrucoes,
+      messages: mensagens,
+      output_config: { effort: esforco },
+      betas: ['server-side-fallback-2026-07-01'],
+      fallbacks: 'default',
+    }, { signal: controle.signal });
+    res.status(200).set({ 'Content-Type': 'text/plain; charset=utf-8', 'X-Accel-Buffering': 'no' });
+    res.flushHeaders();
+    stream.on('text', (delta) => res.write(delta));
+    const final = await stream.finalMessage();
+    if (final.stop_reason === 'refusal') res.write('\n\u0000refused');
+    res.end();
+  } catch (e) {
+    if (controle.signal.aborted) return;
+    const status = e instanceof Anthropic.RateLimitError ? 429 : e instanceof Anthropic.APIError && e.status >= 500 ? 503 : 502;
+    console.error('IA:', e?.status || '', e?.message || e);
+    if (!res.headersSent) return res.status(status).json({ erro: 'A IA não respondeu agora. Tente de novo.', codigo: status === 429 ? 'rate_limited' : 'erro' });
+    res.write('\n\u0000erro');
+    res.end();
+  }
+}
+
 export function criarClienteIa(config) {
   return config.ia?.chave ? new Anthropic({ apiKey: config.ia.chave, maxRetries: 2, timeout: 120_000 }) : null;
 }
@@ -65,45 +116,9 @@ export function rotasIa({ banco, config, limitar, cliente = criarClienteIa(confi
     if (!cliente) return res.status(503).json({ erro: 'A IA ainda não foi ativada nesta plataforma.', codigo: 'sampling_disabled' });
     const p = lerPedido(req.body);
     if (p.erro) return res.status(400).json({ erro: p.erro });
-    const limite = await limiteDoDia(req.usuario);
-    if (await limitar(`ia-min:${req.usuario.id}`, 20, 60)) return res.status(429).json({ erro: 'Muitas mensagens em pouco tempo. Espere um minuto.', codigo: 'rate_limited' });
-    if (limite === 0 || await limitar(`ia-dia:${req.usuario.id}`, limite, 86_400)) {
-      return res.status(429).json({
-        erro: limite > config.ia.limiteDiaGratis ? 'Você usou todas as interações com a IA de hoje. Volte amanhã.'
-          : 'Você usou as interações gratuitas com a IA de hoje. Assine um plano para treinar sem parar.',
-        codigo: 'quota', limite,
-      });
-    }
-
-    const sistema = [MOLDURA, p.sistema, p.json ? 'Responda somente com um objeto JSON válido, sem texto antes ou depois e sem cercas de código.' : '']
-      .filter(Boolean).join('\n\n');
-    const controle = new AbortController();
-    res.on('close', () => { if (!res.writableEnded) controle.abort(); });
-
-    try {
-      const stream = cliente.beta.messages.stream({
-        model: config.ia.modelo,
-        max_tokens: p.json ? 16_000 : 4_000,
-        system: sistema,
-        messages: p.mensagens,
-        output_config: { effort: p.esforco },
-        betas: ['server-side-fallback-2026-07-01'],
-        fallbacks: 'default',
-      }, { signal: controle.signal });
-      res.status(200).set({ 'Content-Type': 'text/plain; charset=utf-8', 'X-Accel-Buffering': 'no' });
-      res.flushHeaders();
-      stream.on('text', (delta) => res.write(delta));
-      const final = await stream.finalMessage();
-      if (final.stop_reason === 'refusal') res.write('\n\u0000refused');
-      res.end();
-    } catch (e) {
-      if (controle.signal.aborted) return;
-      const status = e instanceof Anthropic.RateLimitError ? 429 : e instanceof Anthropic.APIError && e.status >= 500 ? 503 : 502;
-      console.error('IA:', e?.status || '', e?.message || e);
-      if (!res.headersSent) return res.status(status).json({ erro: 'A IA não respondeu agora. Tente de novo.', codigo: status === 429 ? 'rate_limited' : 'erro' });
-      res.write('\n\u0000erro');
-      res.end();
-    }
+    const bloqueio = await cotaDaIa({ banco, config, limitar, usuario: req.usuario });
+    if (bloqueio) return res.status(bloqueio.status).json(bloqueio.corpo);
+    await transmitirIa({ cliente, config, res, sistema: p.sistema, mensagens: p.mensagens, json: p.json, esforco: p.esforco });
   });
 
   return r;
