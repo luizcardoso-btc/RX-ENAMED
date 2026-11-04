@@ -8,7 +8,7 @@ const raiz = new URL('..', import.meta.url).pathname;
 const dist = `${raiz}site/dist`;
 const saida = process.argv[2] || `${raiz}site/capturas`;
 mkdirSync(saida, { recursive: true });
-const TIPOS = { html: 'text/html', css: 'text/css', json: 'application/json', png: 'image/png', js: 'text/javascript' };
+const TIPOS = { html: 'text/html', css: 'text/css', json: 'application/json', png: 'image/png', webp: 'image/webp', js: 'text/javascript' };
 const erros = [];
 
 const navegador = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell' });
@@ -31,7 +31,7 @@ async function nova(largura, altura) {
   return p;
 }
 
-const PAGINAS = ['index.html', 'planos.html', 'es/index.html', 'es/planos.html'];
+const PAGINAS = ['index.html', 'enamed.html', 'revalida.html', 'planos.html', 'es/index.html', 'es/enamed.html', 'es/revalida.html', 'es/planos.html'];
 try {
   for (const [largura, altura, sufixo] of [[1280, 900, ''], [375, 812, '-celular']]) {
     const p = await nova(largura, altura);
@@ -46,7 +46,7 @@ try {
         const u = new URL(l);
         if (u.hostname === 'site.local' && !existsSync(`${dist}${decodeURIComponent(u.pathname)}`)) erros.push(`${pag}: link quebrado ${u.pathname}`);
       }
-      if (pag.endsWith('index.html') || pag.endsWith('planos.html')) await p.screenshot({ path: `${saida}/${pag.replace(/\//g, '_')}${sufixo}.png`, fullPage: true });
+      await p.screenshot({ path: `${saida}/${pag.replace(/\//g, '_')}${sufixo}.png`, fullPage: true });
     }
   }
   // Do site para a área do aluno, em espanhol.

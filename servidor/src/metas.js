@@ -5,6 +5,8 @@ import { createHash, randomBytes } from 'node:crypto';
 const segredos = new Map();
 const segredoDoDia = (dia) => { if (!segredos.has(dia)) { segredos.clear(); segredos.set(dia, randomBytes(16).toString('hex')); } return segredos.get(dia); };
 const PAGINAS = new Map([['/', 'inicio'], ['/index.html', 'inicio'], ['/es/', 'inicio'], ['/es/index.html', 'inicio'], ['/planos.html', 'planos'], ['/es/planos.html', 'planos'],
+  ['/enamed', 'enamed'], ['/enamed.html', 'enamed'], ['/es/enamed', 'enamed'], ['/es/enamed.html', 'enamed'],
+  ['/revalida', 'revalida'], ['/revalida.html', 'revalida'], ['/es/revalida', 'revalida'], ['/es/revalida.html', 'revalida'],
   ['/entrar', 'entrar'], ['/checkout', 'checkout']]);
 const ROBO = /bot|crawl|spider|slurp|preview|monitor|curl|wget|python|headless|lighthouse/i;
 
