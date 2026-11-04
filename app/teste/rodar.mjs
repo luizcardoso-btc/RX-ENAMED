@@ -235,7 +235,7 @@ try {
 
   // ---- prática no modo roteiro, com autoavaliação
   await p.goto('http://app.local/#pratica');
-  await p.getByRole('heading', { name: /paciente simulado/ }).waitFor();
+  await p.getByRole('heading', { name: /Prova de habilidades clínicas/ }).waitFor();
   await foto(p, '40-pratica-lista');
   await p.locator('.estacao-cartao').first().click();
   await p.getByRole('button', { name: /Iniciar estação/ }).waitFor();
@@ -250,29 +250,33 @@ try {
   await foto(p, '42-estacao-roteiro', false);
   await p.getByRole('button', { name: 'Encerrar estação' }).click();
   await p.getByRole('button', { name: 'Encerrar e corrigir' }).click();
-  for (const grupo of await p.locator('.checklist li .segmentado').all()) await grupo.getByRole('button').nth(1).click();
+  for (const grupo of await p.locator('.checklist.pep li .segmentado').all()) await grupo.getByRole('button').nth(1).click();
   await p.getByRole('button', { name: 'Ver minha nota' }).click();
   await p.getByText('Nota da estação').waitFor();
   await foto(p, '43-estacao-resultado');
 
-  // ---- prática com paciente por IA (sample simulado)
-  const ia = await novaPagina(navegador, { comIA: true });
+  // ---- prática com o paciente simulado gratuito (perguntas livres, sem IA)
+  const ia = await novaPagina(navegador);
   await ia.goto('http://app.local/#pratica');
   await ia.locator('.estacao-cartao').first().click();
-  await ia.getByText('Você digita como falaria').waitFor();
+  await ia.locator('#modo-gratuito').waitFor();
   await ia.getByRole('button', { name: /Iniciar estação/ }).click();
   await ia.locator('#fala').fill('Bom dia, sou o médico de plantão. Quando começou a dor?');
   await ia.keyboard.press('Enter');
-  await ia.getByText('É um aperto no peito.').waitFor();
-  await ia.getByText('Pedir exame físico ou exames').click();
-  await ia.locator('.pedidos').getByRole('button', { name: 'sinais vitais' }).click();
-  await ia.getByText('PA 150 x 90 mmHg, FC 98 bpm').waitFor();
-  await foto(ia, '44-estacao-ia-conversa', false);
+  await ia.getByText('Começou faz uma hora').waitFor();
+  await ia.locator('#fala').fill('Solicito os sinais vitais');
+  await ia.keyboard.press('Enter');
+  await ia.getByText(/PA 150 x 90 mmHg/).first().waitFor();
+  await foto(ia, '44-estacao-gratuito-conversa', false);
   await ia.getByRole('button', { name: 'Encerrar estação' }).click();
   await ia.getByRole('button', { name: 'Encerrar e corrigir' }).click();
-  await ia.getByRole('button', { name: /Corrigir com Dr. Caio/ }).click();
+  await ia.locator('.checklist.pep').waitFor();
+  for (const item of await ia.locator('.checklist.pep > li').all()) {
+    if (!(await item.locator('.segmentado button.ativo').count())) await item.getByRole('button', { name: 'Adequado', exact: true }).click();
+  }
+  await ia.getByRole('button', { name: 'Ver minha nota' }).click();
   await ia.getByText('Nota da estação').waitFor();
-  await foto(ia, '45-estacao-ia-resultado');
+  await foto(ia, '45-estacao-gratuito-resultado');
 
   // ---- residência é privada: sem conta de administrador, não aparece no menu e o endereço leva ao Início
   const priv = await novaPagina(navegador);
@@ -352,7 +356,7 @@ try {
   await m.getByRole('heading', { name: /Sua trilha/ }).waitFor();
   await foto(m, '25-celular-trilha-escuro');
   await m.goto('http://app.local/#pratica');
-  await m.getByRole('heading', { name: /paciente simulado/ }).waitFor();
+  await m.getByRole('heading', { name: /Prova de habilidades clínicas/ }).waitFor();
   await foto(m, '26-celular-pratica-escuro');
   await m.goto('http://app.local/#flashcards');
   await m.getByRole('heading', { name: /Memorize o que mais cai/ }).waitFor();
@@ -493,7 +497,7 @@ try {
   // ---- discursivas da 2ª etapa: escrever, ver o padrão do Inep e se autoavaliar
   await c.goto('http://app.local/#pratica');
   await c.reload();
-  await c.getByRole('button', { name: 'Treinar discursivas' }).click();
+  await c.getByRole('button', { name: /Questões discursivas/ }).click();
   await c.getByRole('heading', { name: 'Questões discursivas' }).waitFor();
   if ((await c.locator('.lista-discursivas li').count()) !== 5) erros.push('discursivas: deveriam ser 5 casos');
   await c.locator('.lista-discursivas button').first().click();
@@ -604,7 +608,7 @@ try {
   await foto(es, '60-es-painel');
   for (const [rota, titulo] of [['curso', 'Curso completo del ENAMED'], ['trilha', 'Su ruta hasta el ENAMED'],
     ['questoes', 'Preguntas oficiales del Inep'], ['flashcards', 'Memorice lo que más aparece'], ['simulado', 'Practique con tiempo de examen'],
-    ['pratica', 'Estaciones con paciente simulado'], ['cronograma', 'Su semana de estudio'], ['raiox', 'Lo que evalúa el Inep, pregunta por pregunta'], ['desempenho', 'Su rendimiento']]) {
+    ['pratica', 'Prueba de habilidades clínicas'], ['cronograma', 'Su semana de estudio'], ['raiox', 'Lo que evalúa el Inep, pregunta por pregunta'], ['desempenho', 'Su rendimiento']]) {
     await es.getByRole('navigation', { name: 'Secciones' }).getByRole('button').nth(['painel', 'desafio', 'cronograma', 'curso', 'trilha', 'simulador', 'questoes', 'flashcards', 'simulado', 'pratica', 'raiox', 'desempenho'].indexOf(rota)).click();
     await es.getByRole('heading', { name: titulo }).waitFor();
     await verificarLargura(es, `es-${rota}`);
@@ -644,7 +648,7 @@ try {
   await es.getByRole('button', { name: /Iniciar estación/ }).click();
   await es.getByRole('button', { name: 'Terminar estación' }).click();
   await es.getByRole('button', { name: 'Terminar y corregir' }).click();
-  await es.getByRole('heading', { name: 'Autoevaluación' }).waitFor();
+  await es.locator('.checklist.pep').waitFor();
   await es.getByRole('group', { name: 'Idioma' }).getByRole('button', { name: 'PT' }).click();
   await es.getByRole('heading', { name: 'Autoavaliação' }).waitFor().catch(() => {});
   await es.getByRole('navigation', { name: 'Seções' }).waitFor();

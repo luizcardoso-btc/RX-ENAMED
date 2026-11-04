@@ -63,7 +63,7 @@ function abrir() {
   const aba = location.hash.slice(1) || 'metas';
   for (const b of document.querySelectorAll('[data-aba]')) b.style.color = b.dataset.aba === aba ? 'var(--tinta)' : '';
   fecharGaveta();
-  ({ metas, painel, alunos, pedidos, cupons, afiliados, auditoria }[aba] || metas)();
+  ({ metas, painel, alunos, pedidos, cupons, afiliados, estacoes, auditoria }[aba] || metas)();
 }
 
 // ---- Metas: progresso até as metas do negócio, ritmo, previsão, funil e indicações.
@@ -357,6 +357,64 @@ async function afiliados() {
     await api(`/admin/afiliados/${b.dataset.pagar}/pagar`, { metodo: 'POST', corpo: {} });
     afiliados();
   });
+}
+
+// Acervo da 2ª etapa: estações autorais e oficiais do Inep, com status, origem, validação do PEP e pendências.
+// O cadastro é feito em arquivos versionados (conteudo/estacoes e conteudo/estacoes-inep), validados no build.
+const ORIGEM = { oficial: 'Oficial Inep', adaptado: 'Adaptado', autoral: 'Autoral RX MED' };
+const STATUS_EST = { publicada: 'Publicada', revisao: 'Em revisão', rascunho: 'Rascunho' };
+let filtroEst = { status: '', origem: '', area: '', busca: '' };
+async function estacoes() {
+  const { estacoes: todas } = await api('/admin/estacoes');
+  const areas = [...new Set(todas.map((e) => e.area))].sort();
+  const lista = todas.filter((e) => (!filtroEst.status || e.status === filtroEst.status) && (!filtroEst.origem || e.origem === filtroEst.origem)
+    && (!filtroEst.area || e.area === filtroEst.area) && (!filtroEst.busca || `${e.titulo} ${e.id} ${e.edicao || ''}`.toLowerCase().includes(filtroEst.busca.toLowerCase())));
+  const n = (f) => todas.filter(f).length;
+  const opc = (v, r, atual) => `<option value="${v}" ${v === atual ? 'selected' : ''}>${esc(r)}</option>`;
+  conteudo.innerHTML = `<h1 style="font-family:var(--f-display)">Estações da 2ª etapa</h1>
+    <div class="rx-grade-numeros">
+      <div class="rx-cartao"><span class="rx-mudo">Publicadas</span><strong class="rx-preco">${n((e) => e.status === 'publicada')}</strong></div>
+      <div class="rx-cartao"><span class="rx-mudo">Em revisão</span><strong class="rx-preco">${n((e) => e.status === 'revisao')}</strong></div>
+      <div class="rx-cartao"><span class="rx-mudo">Oficiais do Inep</span><strong class="rx-preco">${n((e) => e.origem === 'oficial')}</strong></div>
+      <div class="rx-cartao"><span class="rx-mudo">Autorais RX MED</span><strong class="rx-preco">${n((e) => e.origem === 'autoral')}</strong></div>
+    </div>
+    <p class="rx-mudo">Só estações publicadas aparecem para os alunos. Para cadastrar ou corrigir, edite o arquivo da estação (conteudo/estacoes ou conteudo/estacoes-inep): o build recusa PEP que não some 10 pontos. As oficiais são reimportadas com ferramentas/importar_pep_inep.py.</p>
+    <div class="rx-linha" style="margin:12px 0;flex-wrap:wrap;gap:8px">
+      <select id="f-status">${opc('', 'Todos os status', filtroEst.status)}${Object.entries(STATUS_EST).map(([v, r]) => opc(v, r, filtroEst.status)).join('')}</select>
+      <select id="f-origem">${opc('', 'Todas as origens', filtroEst.origem)}${Object.entries(ORIGEM).map(([v, r]) => opc(v, r, filtroEst.origem)).join('')}</select>
+      <select id="f-area">${opc('', 'Todas as áreas', filtroEst.area)}${areas.map((a) => opc(a, a, filtroEst.area)).join('')}</select>
+      <input id="f-busca" placeholder="Buscar título, id ou edição" value="${esc(filtroEst.busca)}">
+    </div>
+    <div class="rx-cartao rx-rolagem"><table class="rx-tabela"><thead><tr><th>Estação</th><th>Área</th><th>Origem</th><th>Status</th><th>PEP</th><th>Modos</th><th>Pendências</th></tr></thead><tbody>
+    ${lista.map((e) => `<tr data-estacao="${esc(e.id)}" style="cursor:pointer">
+      <td><strong>${esc(e.titulo)}</strong><br><span class="rx-mudo">${esc(e.id)}${e.edicao ? ` · ${esc(e.edicao)}` : ''}</span></td>
+      <td>${esc(e.area)}</td><td>${ORIGEM[e.origem] || esc(e.origem)}</td><td>${STATUS_EST[e.status] || esc(e.status)}</td>
+      <td>${e.criterios} critérios · ${String(e.somaPep).replace('.', ',')} pts${e.somaPep === 10 ? '' : ' ⚠'}</td>
+      <td class="rx-mudo">${[e.modos.gratuito && 'gratuito', e.modos.roteiro && 'roteiro', 'dupla'].filter(Boolean).join(', ')}</td>
+      <td class="rx-mudo">${esc([...e.pendencias, ...e.problemas].join('; ') || '—')}</td></tr>`).join('') || '<tr><td colspan="7" class="rx-mudo">Nenhuma estação com esse filtro.</td></tr>'}
+    </tbody></table></div>`;
+  for (const [id, campo] of [['#f-status', 'status'], ['#f-origem', 'origem'], ['#f-area', 'area']]) $(id).addEventListener('change', (ev) => { filtroEst[campo] = ev.target.value; estacoes(); });
+  $('#f-busca').addEventListener('change', (ev) => { filtroEst.busca = ev.target.value; estacoes(); });
+  for (const tr of conteudo.querySelectorAll('[data-estacao]')) tr.addEventListener('click', () => detalheEstacao(tr.dataset.estacao));
+}
+
+async function detalheEstacao(id) {
+  const { estacao: e, problemas } = await api(`/admin/estacoes/${encodeURIComponent(id)}`);
+  const lista = (itens) => `<ul>${itens.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>`;
+  $('#gaveta').innerHTML = `<div class="rx-gaveta"><div class="rx-cartao">
+    <button class="botao" id="fechar-gaveta" style="float:right">Fechar</button>
+    <h2 style="font-family:var(--f-display)">${esc(e.titulo)}</h2>
+    <p class="rx-mudo">${esc(e.id)} · ${esc(e.area)} · ${ORIGEM[e.origem]} · ${STATUS_EST[e.status]}${e.fonte?.url ? ` · <a href="${esc(e.fonte.url)}" target="_blank" rel="noopener">PEP original</a>` : ''}</p>
+    ${[...e.pendencias, ...problemas].length ? `<p class="rx-aviso">${esc([...e.pendencias, ...problemas].join('; '))}</p>` : ''}
+    <h3>Candidato (impresso da porta)</h3><p>${esc(e.cenario)}</p>${lista(e.instrucoes)}${lista(e.tarefas)}
+    <h3>Roteiro do paciente (${e.paciente?.roteiro?.length || 0} itens)</h3>${lista((e.paciente?.roteiro || []).map((r) => `${r.topico}: ${r.resposta}`))}
+    <h3>Impressos</h3>${lista([...e.exameFisico.map((x) => `${x.item}${x.imagem ? ' (imagem)' : ''}`), ...e.exames.map((x) => `${x.item}${x.imagem ? ' (imagem)' : ''}`)])}
+    <h3>PEP</h3><table class="rx-tabela"><thead><tr><th>Critério</th><th>Peso</th><th>Parcial</th><th>Origem</th></tr></thead><tbody>
+    ${e.pep.map((c) => `<tr><td>${esc(c.descricao)}<br><span class="rx-mudo">Adequado: ${esc(c.integral)}</span></td><td>${c.peso}</td><td>${c.pontos.parcial ?? '—'}</td><td>${ORIGEM[c.origem]}${c.critico ? ' · crítico' : ''}</td></tr>`).join('')}
+    </tbody></table>
+    <h3>Referências</h3>${lista(e.referencias)}
+  </div></div>`;
+  $('#fechar-gaveta').addEventListener('click', fecharGaveta);
 }
 
 async function auditoria() {

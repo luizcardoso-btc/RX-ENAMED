@@ -147,3 +147,7 @@ button.botao { font: inherit; font-weight: 600; }
 .funil-etapa strong { font-family: var(--f-dado); text-align: right; }
 @media (max-width: 600px) { .funil-etapa { grid-template-columns: 1fr 3.5rem; } .funil-barra { grid-column: 1 / -1; grid-row: 2; } .funil-etapa small { grid-column: 1 / -1; } }
 .aviso-indicacao { background: rgb(52 211 153 / .1); border: 1px solid rgb(52 211 153 / .5); border-radius: 10px; padding: 10px 12px; margin: 4px 0 12px; font-size: .92rem; }
+.rx-grade-numeros { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 12px 0; }
+.rx-grade-numeros .rx-cartao { display: flex; flex-direction: column; gap: 4px; }
+.rx-aviso { padding: 10px 12px; border-radius: 8px; background: rgb(251 191 36 / .12); border: 1px solid rgb(251 191 36 / .35); }
+#conteudo select, #conteudo input#f-busca { min-height: 36px; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--linha); background: var(--folha); color: var(--tinta); font: inherit; }

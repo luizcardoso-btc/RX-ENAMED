@@ -23,6 +23,13 @@ COPY --from=build --chown=node:node /rx/servidor/web ./servidor/web
 COPY --from=build --chown=node:node /rx/site/dist ./site/dist
 COPY --from=build --chown=node:node /rx/conteudo/planos.json ./conteudo/planos.json
 COPY --from=build --chown=node:node /rx/conteudo/residencia ./conteudo/residencia
+# 2ª etapa: estações (autorais e oficiais do Inep), editais e mentores ficam só no servidor; o módulo compartilhado
+# monta, por papel, o que cada pessoa pode ver (o roteiro e o PEP nunca vão para arquivo público).
+COPY --from=build --chown=node:node /rx/compartilhado ./compartilhado
+COPY --from=build --chown=node:node /rx/conteudo/estacoes ./conteudo/estacoes
+COPY --from=build --chown=node:node /rx/conteudo/estacoes-inep ./conteudo/estacoes-inep
+COPY --from=build --chown=node:node /rx/conteudo/editais ./conteudo/editais
+COPY --from=build --chown=node:node /rx/conteudo/mentores.json ./conteudo/mentores.json
 USER node
 EXPOSE 3000
 HEALTHCHECK --interval=30s --timeout=5s --start-period=30s CMD node -e "fetch('http://127.0.0.1:'+(process.env.PORT||3000)+'/api/saude').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"

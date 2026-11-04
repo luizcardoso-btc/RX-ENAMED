@@ -123,7 +123,7 @@ function Lobby({ room, entrar, voltar }) {
   );
 }
 
-function Sala({ sala, codigo, nome, sair, anunciar }) {
+function Sala({ sala, codigo, nome, sair, anunciar, estacoes }) {
   const { banco, despachar } = useApp();
   const [peers, setPeers] = useState(sala.peers());
   const [eu, setEu] = useState({ nome, papel: '' });
@@ -156,7 +156,7 @@ function Sala({ sala, codigo, nome, sair, anunciar }) {
   useEffect(() => { anunciar(outros.length === 0); }, [outros.length]);
   const ator = eu.papel === 'ator' ? eu : outros.find((p) => p.presence?.papel === 'ator')?.presence;
   const candidato = eu.papel === 'candidato' ? eu : outros.find((p) => p.presence?.papel === 'candidato')?.presence;
-  const e = banco.estacoes.find((x) => x.id === ator?.estacao);
+  const e = estacoes.find((x) => x.id === ator?.estacao);
   const achados = e ? achadosDe(e) : [];
   const revelados = new Set(Array.isArray(ator?.revelados) ? ator.revelados : []);
   const restante = e && ator?.inicio ? e.duracaoMin * 60 - (agora - ator.inicio) / 1000 : null;
@@ -212,7 +212,7 @@ function Sala({ sala, codigo, nome, sair, anunciar }) {
           <h2>{t('Qual é o seu papel?')}</h2>
           <div className="linha-botoes">
             <button className="botao botao-primario" disabled={candidato && eu.papel !== 'candidato'} onClick={() => atualizar({ papel: 'candidato' })}>{t('Serei o candidato')}</button>
-            <button className="botao" disabled={!!ator} onClick={() => atualizar({ papel: 'ator', estacao: banco.estacoes[0]?.id, revelados: [], avaliacao: {}, inicio: null, encerrada: false })}>
+            <button className="botao" disabled={!!ator} onClick={() => atualizar({ papel: 'ator', estacao: estacoes[0]?.id, revelados: [], avaliacao: {}, inicio: null, encerrada: false })}>
               {t('Serei o paciente e examinador')}
             </button>
           </div>
@@ -224,7 +224,7 @@ function Sala({ sala, codigo, nome, sair, anunciar }) {
           <label className="campo">
             <span className="rotulo-campo">{t('Estação')}</span>
             <select id="dupla-estacao" value={eu.estacao || ''} onChange={(ev) => atualizar({ estacao: ev.target.value })}>
-              {banco.estacoes.map((x) => <option key={x.id} value={x.id}>{t(x.especialidade)} · {x.titulo}</option>)}
+              {estacoes.map((x) => <option key={x.id} value={x.id}>{t(x.especialidade)} · {x.titulo}</option>)}
             </select>
           </label>
           <button className="botao botao-primario" disabled={!candidato} onClick={() => atualizar({ inicio: Date.now(), revelados: [], avaliacao: {}, encerrada: false })}>
@@ -257,7 +257,7 @@ function Sala({ sala, codigo, nome, sair, anunciar }) {
               <ol className="checklist resultado">
                 {e.pep.map((i) => (
                   <li key={i.id} className={`nivel-${avaliacao[i.id] || 'inadequado'}`}>
-                    <div className="checklist-item"><span>{i.item}</span></div>
+                    <div className="checklist-item"><span>{i.descricao || i.item}</span></div>
                     <span className="checklist-pontos">{t(NIVEIS[avaliacao[i.id]]?.rotulo || 'Inadequado')}</span>
                   </li>
                 ))}
@@ -326,8 +326,8 @@ function Sala({ sala, codigo, nome, sair, anunciar }) {
                     <ol className="checklist">
                       {e.pep.map((i) => (
                         <li key={i.id}>
-                          <div className="checklist-item"><span>{i.item}</span><span className="mudo pequeno">{t('peso')} {String(i.peso).replace('.', ',')}</span></div>
-                          <div className="segmentado" role="group" aria-label={`${t('Avaliação')}: ${i.item}`}>
+                          <div className="checklist-item"><span>{i.descricao || i.item}</span><span className="mudo pequeno">{t('peso')} {String(i.peso).replace('.', ',')}</span></div>
+                          <div className="segmentado" role="group" aria-label={`${t('Avaliação')}: ${i.descricao || i.item}`}>
                             {Object.entries(NIVEIS).map(([nivel, n]) => (
                               <button key={nivel} className={avaliacao[i.id] === nivel ? 'ativo' : ''} aria-pressed={avaliacao[i.id] === nivel}
                                 onClick={() => atualizar({ avaliacao: { ...avaliacao, [i.id]: nivel } })}>{t(n.rotulo)}</button>
@@ -394,7 +394,7 @@ const MENSAGEM_ERRO = {
   revoked: 'O seu acesso a este link mudou. Recarregue a página.',
 };
 
-export default function Dupla({ voltar }) {
+export default function Dupla({ voltar, estacoes = [] }) {
   const room = useRoom();
   const [sala, setSala] = useState(null);
   const [erro, setErro] = useState('');
@@ -432,7 +432,7 @@ export default function Dupla({ voltar }) {
     setSala(null);
   };
   useEffect(() => () => { sala?.s.leave().catch(() => {}); room?.presence({ aberta: null }).catch(() => {}); }, [sala]);
-  if (sala) return <Sala sala={sala.s} codigo={sala.codigo} nome={sala.nome} sair={sair} anunciar={anunciar} />;
+  if (sala) return <Sala sala={sala.s} codigo={sala.codigo} nome={sala.nome} sair={sair} anunciar={anunciar} estacoes={estacoes} />;
   return (
     <>
       {erro && <p className="aviso" role="status">{erro}</p>}

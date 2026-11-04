@@ -168,3 +168,6 @@ const local = {
 
 export function api() { return comServidor() ? servidor : local; }
 export const duplaNoServidor = () => comServidor();
+
+/** Estações completas do arquivo local (só sem servidor), para o treino em dupla pelo claude.ai. */
+export async function estacoesLocais() { return comServidor() ? [] : (await acervo()).estacoes; }

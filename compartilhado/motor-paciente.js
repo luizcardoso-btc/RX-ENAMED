@@ -244,6 +244,23 @@ export function sugerirAvaliacao(e, { falas = [], conclusao = '', revelados = []
   for (const c of e.pep) {
     if (/manequim|manobra|demonstr|tecnica/.test(normalizar(c.descricao))) continue;
     const subs = subitens(c.descricao);
+    // Uma só lista de alternativas ("hipótese: A ou B ou C"): basta uma delas.
+    if (subs.length === 1 && subs[0].length >= 2) {
+      const ok = subs[0].some(presente);
+      sugestoes[c.id] = { nivel: ok ? 'adequado' : 'inadequado', cobertos: ok ? 1 : 0, total: 1, minimo: 1 };
+      continue;
+    }
+    // "Solicita radiografia de tórax": conta se o impresso correspondente foi pedido.
+    if (subs.length < 2 && /^(solicita|pede|requisita|realiza a solicita)/.test(normalizar(c.descricao))) {
+      const alvo = [...radicais(c.descricao)].filter((x) => !['solic', 'pede', 'requi', 'exame', 'exames', 'reali', 'fisic', 'compl'].includes(x));
+      const pedidos = revelados.filter((k) => /^[fx]\d+$/.test(k)).map((k) => impressoPorChave(e, k)).filter(Boolean);
+      const ok = pedidos.some((p) => {
+        const rp = radicais(`${p.rotulo} ${(p.chaves || []).join(' ')}`);
+        return alvo.length ? alvo.some((x) => rp.has(x)) : true;
+      });
+      sugestoes[c.id] = { nivel: ok ? 'adequado' : 'inadequado', cobertos: ok ? 1 : 0, total: 1, minimo: 1 };
+      continue;
+    }
     if (subs.length < 2) continue;
     const cobertos = subs.filter((alts) => alts.some(presente)).length;
     const minimo = minimoAdequado(c, subs.length);
