@@ -685,9 +685,9 @@
     "pt": {
       "resumo": "Pelas diretrizes do Ministério da Saúde, em mulheres com menos de 25 anos e ASC-US, a conduta é repetir a citologia em 3 anos, porque a maioria das alterações regride espontaneamente nessa idade.",
       "alternativas": {
-        "A": "Repetir em 6 meses é a conduta para mulheres de 25 a 29 anos com ASC-US.",
+        "A": "Repetir em 6 meses é a conduta a partir dos 30 anos.",
         "B": "Correta: abaixo de 25 anos, repetir a citologia em 3 anos.",
-        "C": "Repetir em 12 meses é a conduta a partir dos 30 anos.",
+        "C": "Repetir em 12 meses é a conduta para mulheres de 25 a 29 anos.",
         "D": "A colposcopia imediata não é indicada para ASC-US nessa idade."
       }
     }
