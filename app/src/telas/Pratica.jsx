@@ -102,6 +102,7 @@ function Lista({ abrir, abrirDupla, abrirDiscursivas }) {
         </div>
       </header>
 
+      <div className="pratica-atalhos">
       <section className="cartao dupla-chamada">
         <div>
           <span className="sobretitulo">{t('Novo')}</span>
@@ -121,6 +122,7 @@ function Lista({ abrir, abrirDupla, abrirDiscursivas }) {
           <button className="botao botao-grande" onClick={abrirDiscursivas}>{t('Treinar discursivas')}</button>
         </section>
       )}
+      </div>
 
       <section className="secao">
         <h2>{t('Seus mentores')}</h2>

@@ -874,9 +874,14 @@ button.linha-questao:hover { background: var(--folha-2); }
 
 /* ---------- treino em dupla ---------- */
 .dupla { display: grid; gap: 16px; }
-.dupla-chamada { display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; margin-bottom: 18px;
+/* Treino em dupla e discursivas: dois cartões compactos lado a lado (empilhados no celular). */
+.pratica-atalhos { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: 16px; margin-bottom: 18px; }
+.dupla-chamada { display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between; gap: 14px; padding: 18px 20px;
   background: linear-gradient(120deg, rgb(25 169 135 / 0.16), transparent 60%), var(--folha); }
-.dupla-chamada > div { flex: 1 1 22rem; min-width: 0; display: grid; gap: 6px; }
+.dupla-chamada > div { flex: none; min-width: 0; display: grid; gap: 6px; }
+.dupla-chamada h2 { font-size: var(--t-4); }
+.dupla-chamada p { font-size: var(--t-2); }
+.dupla-chamada .botao-grande { min-height: 42px; padding: 8px 18px; font-size: var(--t-2); }
 .dupla-topo { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
 .dupla-topo h1 { font-family: var(--f-dado); letter-spacing: 0.04em; }
 a.botao { text-decoration: none; display: inline-flex; align-items: center; gap: 8px; }
