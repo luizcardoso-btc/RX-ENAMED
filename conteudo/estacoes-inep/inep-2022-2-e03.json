@@ -119,7 +119,7 @@
   },
   {
    "id": "c06",
-   "descricao": "Indica necessidade de internação do recém- nascido.",
+   "descricao": "Indica necessidade de internação do recém-nascido.",
    "peso": 1.0,
    "pontos": {
     "inadequado": 0,

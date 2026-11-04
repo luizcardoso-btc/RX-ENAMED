@@ -130,7 +130,8 @@ for (const arquivo of readdirSync(`${conteudo}/comentarios`).filter((f) => f.end
     else if (!q.gabarito) problemas.push('questão anulada não leva comentário');
     else {
       const letras = 'ABCDE'.slice(0, q.alternativas.length).split('');
-      for (const lingua of ['pt', 'es']) {
+      // Português é obrigatório; espanhol é opcional (sem ele, o app mostra o comentário em português).
+      for (const lingua of ['pt', 'es'].filter((l) => l === 'pt' || c[l])) {
         if (!c[lingua]?.resumo) problemas.push(`falta ${lingua}.resumo`);
         const faltam = letras.filter((l) => !c[lingua]?.alternativas?.[l]);
         if (faltam.length) problemas.push(`${lingua}: faltam alternativas ${faltam.join(', ')}`);

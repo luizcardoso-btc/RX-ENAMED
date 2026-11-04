@@ -19,7 +19,7 @@
  "cenario": "",
  "instrucoes": [],
  "tarefas": [],
- "historia": "A Estação aborda o caso de um menino de 3 anos com inchaço e dor no olho esquerdo, atendido em companhia de sua mãe em um plantão em um pronto- socorro de um hospital terciário.",
+ "historia": "A Estação aborda o caso de um menino de 3 anos com inchaço e dor no olho esquerdo, atendido em companhia de sua mãe em um plantão em um pronto-socorro de um hospital terciário.",
  "paciente": {
   "nome": "Paciente",
   "idade": null,

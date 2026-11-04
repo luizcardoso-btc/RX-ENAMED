@@ -133,7 +133,7 @@
     "parcial": 0.75,
     "adequado": 1.5
    },
-   "integral": "solicita e relaciona os achados do ECG (PR- Curto ou Wolf-Parkinson-White ou presença de onda delta) a riscos de arritmia (ou alteração da atividade elétrica do coração).",
+   "integral": "solicita e relaciona os achados do ECG (PR-Curto ou Wolf-Parkinson-White ou presença de onda delta) a riscos de arritmia (ou alteração da atividade elétrica do coração).",
    "parcial": "solicita, mas não interpreta corretamente o achado.",
    "inadequado": "não solicita.",
    "evidencia": "",
@@ -149,7 +149,7 @@
     "parcial": null,
     "adequado": 1.5
    },
-   "integral": "identifica e explica o diagnóstico de síncope ou desmaio/perda de consciência de origem cardíaca, relacionando-o à arritmia ou alteração da atividade elétrica do coração (mencionando ou não taquicardia ou pré-excitação ventricular ou Wolff- Parkinson-White).",
+   "integral": "identifica e explica o diagnóstico de síncope ou desmaio/perda de consciência de origem cardíaca, relacionando-o à arritmia ou alteração da atividade elétrica do coração (mencionando ou não taquicardia ou pré-excitação ventricular ou Wolff-Parkinson-White).",
    "parcial": null,
    "inadequado": "não identifica a síncope ou desmaio/perda de consciência de origem cardíaca.",
    "evidencia": "",

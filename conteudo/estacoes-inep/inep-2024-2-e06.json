@@ -18,7 +18,7 @@
  "duracaoMin": 10,
  "cenario": "Nível de atenção: atenção secundária à saúde. Tipo de atendimento: urgência e emergência. A unidade possui a seguinte infraestrutura: ● consultórios; ● sala de estabilização; ● laboratório de análises clínicas; ● serviço de radiologia com aparelho de radiografia e tomografia computadorizada; ● leitos de internação – enfermaria e terapia intensiva.",
  "instrucoes": [
-  "Você atenderá um paciente com 58 anos de idade, histórico de arritmia cardíaca, diabetes melito e dislipidemia, com suspeita de acidente vascular cerebral por apresentar déficit neurológico (hemiplegia E) e cefaleia, iniciados há cerca de 1 hora. Paciente encontra- se com respiração espontânea, via aérea pérvia, boa saturação de O em ar ambiente e parâmetros hemodinâmicos adequados."
+  "Você atenderá um paciente com 58 anos de idade, histórico de arritmia cardíaca, diabetes melito e dislipidemia, com suspeita de acidente vascular cerebral por apresentar déficit neurológico (hemiplegia E) e cefaleia, iniciados há cerca de 1 hora. Paciente encontra-se com respiração espontânea, via aérea pérvia, boa saturação de O em ar ambiente e parâmetros hemodinâmicos adequados."
  ],
  "tarefas": [
   "Aplicar a escala NIHSS ao paciente.",

@@ -165,7 +165,7 @@
   },
   {
    "id": "c05",
-   "descricao": "Pergunta sobre possíveis comorbidades e doenças pré- existentes que podem influenciar o tipo de prescrição médica: (1)fenômenos tromboembólicos (ou fenômenos cardiovasculares ou enxaqueca com aura); (2)câncer de mama (ou câncer de endométrio); (3)hipertensão arterial sistêmica; (4)diabetes; (5)doenças hepáticas (qualquer doença hepática); (6)câncer de ovário.",
+   "descricao": "Pergunta sobre possíveis comorbidades e doenças pré-existentes que podem influenciar o tipo de prescrição médica: (1)fenômenos tromboembólicos (ou fenômenos cardiovasculares ou enxaqueca com aura); (2)câncer de mama (ou câncer de endométrio); (3)hipertensão arterial sistêmica; (4)diabetes; (5)doenças hepáticas (qualquer doença hepática); (6)câncer de ovário.",
    "peso": 1.0,
    "pontos": {
     "inadequado": 0,
