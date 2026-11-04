@@ -46,7 +46,14 @@ EDICOES = [
     *[(f"revalida_{a}-{s}", "Revalida", f"{a}.{s}", a) for a in (2022, 2023, 2024, 2025, 2026) for s in (1, 2)],
     ("enamed_2025", "ENAMED", "2025", 2025),
     ("enamed_2026", "ENAMED", "2026", 2026),
+    ("enamed_2026-r", "ENAMED", "2026 Reaplicação", 2026),
 ]
+# Gabarito ainda preliminar no portal do Inep: a edição avisa no texto da situação (sem mudar o formato das questões).
+GABARITO_PRELIMINAR = {"revalida_2026-2", "enamed_2026", "enamed_2026-r"}
+FONTES = BASE / "fontes_provas.csv"
+RASTREABILIDADE = BASE / "importar" / "rastreabilidade.csv"  # id;edicao;documento;url;pagina
+# Importação piloto: RX_PILOTO="enamed_2026-r:10" processa só as 10 primeiras questões dessa edição.
+PILOTO = dict(p.split(":") for p in __import__("os").environ.get("RX_PILOTO", "").split(",") if ":" in p)
 
 GRANDES_AREAS = ["Clínica Médica", "Cirurgia", "Pediatria", "Ginecologia e Obstetrícia",
                  "Medicina de Família e Comunidade / Saúde Coletiva"]
@@ -64,7 +71,8 @@ RE_RUIDO = re.compile(r"^\s*(\d{1,4}|(PRIMEIRA|SEGUNDA) EDIÇÃO|ÁREA LIVRE|ESP
 RE_CABECALHO = re.compile(r"^\s*(DE DIPLOMAS MÉDICOS|REVALIDA(\s*20\d\d)?(\s+\d+)?(\s+INEP.*)?|\d*\s*EXAM\s?E NACIONAL DE REVALIDAÇÃO.*"
                           r"|\d*\s*INEP\d{4}\s*\|.*|question[áa]rio De Perc.*|Prova (Cinza|Vermelha)"
                           r"|SUPERIOR ESTRANGEIRAS|R?\s*INSTITUIÇÕES DE EDUCAÇÃO SUPERIOR ESTRANGEIRAS(\s*\d+)?"
-                          r"|Revalida 20\d\d/\d|Enamed 20\d\d|CADERNO 0\d)\s*$", re.IGNORECASE)
+                          r"|Revalida 20\d\d/\d|Enamed 20\d\d|CADERNO 0\d"
+                          r"|(Enamed\s+)?20\d\d\s*[–-]\s*Reaplicação(\s+CADERNO 0\d)?)\s*$", re.IGNORECASE)
 RE_ESPACO_LIVRE = re.compile(r"\s*(\b(espaço|área) livre\b|EDIÇÃO 20\d\d/\d)\s*", re.IGNORECASE)  # rodapé colado na última linha da coluna
 RE_FIM_PROVA = re.compile(r"^\s*(QUESTIONÁRIO DE PERCEPÇÃO|QUESTIONÁRIO\s*$|Pergunta\s+(I|1)\b|As (questões|perguntas) abaixo visam)",
                           re.MULTILINE | re.IGNORECASE)
@@ -360,6 +368,22 @@ def decodificar_cids(pagina, mapas):
         c["text"] = texto or ""
 
 
+RE_SUBSCRITO_2 = re.compile(r"\b(SatO|SpO|FiO|PaO|PaCO|PvO|PACO|EtCO|ETCO)(?![\w₂])")
+RE_BICARBONATO = re.compile(r"\bHC[O0](?:\s*[–-](?:\s(?=\)))?|(?![\w₃⁻]))")
+# Subscritos que o caderno imprime numa linha à parte ("moído. 2 2 Qual", "mmol/L. 2 3"): só saem quando a
+# fórmula já foi corrigida no mesmo texto, para não apagar números de verdade.
+RE_SUBSCRITO_SOLTO = re.compile(r"(?<=[.:;)])\s+[23](?:\s+[23])+(?=\s+[A-ZÁÉÍÓÚ(]|\s*$)")
+RE_RESTO_DE_QUADRO = re.compile(r"^I\s+(?=[A-ZÁÉÍÓÚ][a-záéíóúãõç])")
+
+
+def corrigir_subscritos(texto):
+    """O subscrito some na extração do PDF ("SatO 98%"); devolve a grafia correta (SatO₂, FiO₂, HCO₃⁻)."""
+    novo = RE_BICARBONATO.sub("HCO₃⁻", RE_SUBSCRITO_2.sub(r"\1₂", texto))
+    if novo != texto or "₂" in novo or "₃" in novo:
+        novo = RE_SUBSCRITO_SOLTO.sub("", novo)
+    return RE_RESTO_DE_QUADRO.sub("", novo)
+
+
 def separar_alternativas(linhas):
     """Acha a última sequência A, B, C, D[, E] no início de linha; o que vem antes é o enunciado.
 
@@ -518,7 +542,7 @@ def qualificar_incidencia(questoes):
 def processar_edicoes():
     revisadas = ler_csv(CLASSIFICACAO)
     dificuldades = ler_csv(QUALIFICACAO)
-    questoes, status = [], []
+    questoes, status, paginas = [], [], {}
     for ident, exame, edicao, ano in EDICOES:
         prova = PASTA_PROVAS / f"{ident}_prova.pdf"
         # O .txt tem prioridade: é o gabarito transcrito e conferido quando o PDF do Inep é só imagem.
@@ -532,8 +556,12 @@ def processar_edicoes():
         leitor = LeitorCaderno(ident)
         extraidas = separar_questoes(leitor.ler(prova))
         gabarito = ler_gabarito(gab) if gab else {}
+        if ident in PILOTO:
+            extraidas = {n: extraidas[n] for n in sorted(extraidas)[:int(PILOTO[ident])]}
+        paginas.update({f"{ident}_q{n:03d}": (prova.name, p) for n, p in paginas_das_questoes(prova).items()})
         for num in sorted(extraidas):
             enunciado, alts = extraidas[num]
+            enunciado, alts = corrigir_subscritos(enunciado), [corrigir_subscritos(x) for x in alts]
             qid = f"{ident}_q{num:03d}"
             area_auto, esp_auto = classificar_automatico(enunciado + " " + " ".join(alts))
             rev = revisadas.get(qid)
@@ -555,12 +583,54 @@ def processar_edicoes():
                 figuras=[leitor.figuras[int(n) - 1] for n in RE_FIGURA.findall(enunciado)],
             ))
         situacao = "Processada" if gab else "Processada sem gabarito"
+        if ident in GABARITO_PRELIMINAR:
+            situacao += " · gabarito preliminar do Inep"
         status.append(dict(id=ident, exame=exame, edicao=edicao, ano=ano, situacao=situacao,
                            questoes=len(extraidas), gabarito=bool(gab)))
     questoes = unir_repetidas(questoes, status)
     classificar_por_semelhanca(questoes)
+    aplicar_classificacao_proposta(questoes)
     qualificar_incidencia(questoes)
+    gravar_rastreabilidade(questoes, paginas)
     return questoes, status
+
+
+CLASSIFICACAO_PROPOSTA = BASE / "importar" / "classificacao_proposta.csv"  # id;area;especialidade;tema;tipo
+
+
+def aplicar_classificacao_proposta(questoes):
+    """Classificação feita na importação, lendo cada questão. Melhor que a automática por semelhança, mas ainda
+    sem revisão médica: a questão continua marcada como "automática" até entrar em classificacao.csv."""
+    if not CLASSIFICACAO_PROPOSTA.exists():
+        return
+    propostas = ler_csv(CLASSIFICACAO_PROPOSTA)
+    for q in questoes:
+        p = propostas.get(q["id"])
+        if p and q["classificacao"] != "revisada":
+            q.update(area=p["area"], especialidade=p["especialidade"], tema=p["tema"], tipo=p["tipo"])
+
+
+def paginas_das_questoes(prova):
+    """Página do caderno (1 = primeira) em que começa cada questão."""
+    achadas = {}
+    with pdfplumber.open(prova) as pdf:
+        for i, pagina in enumerate(pdf.pages, start=1):
+            for m in RE_QUESTAO.finditer(pagina.extract_text() or ""):
+                achadas.setdefault(int(m.group(1)), i)
+    return achadas
+
+
+def gravar_rastreabilidade(questoes, paginas):
+    """Origem de cada questão (documento oficial, URL do Inep e página), fora do JSON do app."""
+    urls = {l["id"]: l["url_caderno"] for l in csv.DictReader(FONTES.open(encoding="utf-8"), delimiter=";")} if FONTES.exists() else {}
+    RASTREABILIDADE.parent.mkdir(parents=True, exist_ok=True)
+    with RASTREABILIDADE.open("w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f, delimiter=";")
+        w.writerow(["id", "edicao", "documento", "url", "pagina", "tambem"])
+        for q in questoes:
+            ident = q["id"].rsplit("_q", 1)[0]
+            doc, pag = paginas.get(q["id"], ("", ""))
+            w.writerow([q["id"], ident, doc, urls.get(ident, ""), pag, q.get("tambem", "")])
 
 
 PALAVRAS_VAZIAS = set("""para com sem pela pelo pelos pelas uma umas uns como mais menos esse essa esses essas este esta isso
@@ -727,6 +797,14 @@ def exportar_json(questoes, status):
     if BANCO_EXTERNO.exists():
         externas = [{k: v for k, v in q.items() if k != "impressao"}
                     for q in json.loads(BANCO_EXTERNO.read_text(encoding="utf-8"))["questoes"] if q["revisao"] == "revisada"]
+    # Registros já publicados não são sobrescritos: uma questão que já existe no app sai exatamente como estava
+    # (classificação, incidência, gabarito). Só questões novas entram. RX_RECALCULAR=1 recalcula tudo de propósito.
+    if SAIDA_JSON.exists() and not __import__("os").environ.get("RX_RECALCULAR"):
+        publicadas = {q["id"]: q for q in json.loads(SAIDA_JSON.read_text(encoding="utf-8"))["questoes"]}
+        oficiais = [publicadas.get(q["id"], q) for q in oficiais]
+        perdidas = set(publicadas) - {q["id"] for q in oficiais + externas}
+        if perdidas:
+            raise SystemExit(f"Parado: {len(perdidas)} questões publicadas sumiriam (ex.: {sorted(perdidas)[:5]}). Nada foi gravado.")
     dados = {"areas": GRANDES_AREAS, "edicoes": status, "questoes": oficiais + externas}
     SAIDA_JSON.write_text(json.dumps(dados, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 

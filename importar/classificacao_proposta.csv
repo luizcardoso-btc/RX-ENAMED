@@ -1,0 +1,101 @@
+id;area;especialidade;tema;tipo
+enamed_2026-r_q001;Clínica Médica;Cardiologia;Taquiarritmia instável – cardioversão elétrica;Conduta
+enamed_2026-r_q002;Pediatria;Neonatologia;Síndrome do desconforto respiratório do prematuro – surfactante;Conduta
+enamed_2026-r_q003;Cirurgia;Pré e pós-operatório;Íleo pós-operatório com vômitos – alcalose metabólica hipocalêmica;Interpretação de dados
+enamed_2026-r_q004;Ginecologia e Obstetrícia;Climatério;Terapia hormonal da menopausa;Conduta
+enamed_2026-r_q005;Pediatria;Infectologia pediátrica;Dengue com sinais de alarme – hidratação venosa;Conduta
+enamed_2026-r_q006;Medicina de Família e Comunidade / Saúde Coletiva;Populações específicas;Saúde da mulher e interseccionalidade na APS;Legislação/política
+enamed_2026-r_q007;Clínica Médica;Psiquiatria;Transtorno de compulsão alimentar – tratamento;Conduta
+enamed_2026-r_q008;Clínica Médica;Nefrologia;iSGLT2 na lesão renal aguda e cetoacidose euglicêmica – suspensão temporária;Conduta
+enamed_2026-r_q009;Pediatria;Infectologia pediátrica;Exantema súbito (roséola);Conduta
+enamed_2026-r_q010;Cirurgia;Trauma;Trauma urológico – lesão de uretra na fratura de pelve;Conduta
+enamed_2026-r_q011;Ginecologia e Obstetrícia;Obstetrícia;Gravidez ectópica;Diagnóstico
+enamed_2026-r_q012;Clínica Médica;Endocrinologia;Diabetes tipo 2 – associação de iSGLT2 à metformina;Conduta
+enamed_2026-r_q013;Medicina de Família e Comunidade / Saúde Coletiva;Atenção primária;Gestação na adolescência – pré-natal na ESF;Conduta
+enamed_2026-r_q014;Medicina de Família e Comunidade / Saúde Coletiva;SUS e políticas de saúde;Rede de Atenção Psicossocial – CAPS;Legislação/política
+enamed_2026-r_q015;Medicina de Família e Comunidade / Saúde Coletiva;Atenção primária;Cuidados paliativos – constipação induzida por opioide;Conduta
+enamed_2026-r_q016;Pediatria;Cardiologia pediátrica;Cardiopatia congênita cianótica – tetralogia de Fallot;Diagnóstico
+enamed_2026-r_q017;Cirurgia;Trauma;Hemotórax/pneumotórax por arma branca – drenagem torácica;Conduta
+enamed_2026-r_q018;Ginecologia e Obstetrícia;Mastologia;BI-RADS 0 – ultrassonografia complementar;Exame complementar
+enamed_2026-r_q019;Clínica Médica;Infectologia;Leishmaniose visceral;Diagnóstico
+enamed_2026-r_q020;Medicina de Família e Comunidade / Saúde Coletiva;Epidemiologia;Ponto de corte e sensibilidade de teste diagnóstico;Conceito/teoria
+enamed_2026-r_q021;Medicina de Família e Comunidade / Saúde Coletiva;Violência sexual;Violência sexual – notificação e profilaxias;Conduta
+enamed_2026-r_q022;Clínica Médica;Cardiologia;Angina estável – teste funcional (cintilografia);Exame complementar
+enamed_2026-r_q023;Medicina de Família e Comunidade / Saúde Coletiva;Promoção da saúde;Prevenção de diarreia – aleitamento materno exclusivo;Conduta
+enamed_2026-r_q024;Cirurgia;Ortopedia;Fratura supracondiliana com síndrome compartimental – fasciotomia;Conduta
+enamed_2026-r_q025;Medicina de Família e Comunidade / Saúde Coletiva;Infectologia;Sífilis primária – penicilina benzatina;Conduta
+enamed_2026-r_q026;Clínica Médica;Infectologia;Chikungunya;Diagnóstico
+enamed_2026-r_q027;Medicina de Família e Comunidade / Saúde Coletiva;Epidemiologia;Valor preditivo negativo e prevalência;Interpretação de dados
+enamed_2026-r_q028;Clínica Médica;Psiquiatria;Transtorno afetivo bipolar;Diagnóstico
+enamed_2026-r_q029;Clínica Médica;Gastroenterologia;Doença inflamatória intestinal – doença de Crohn;Diagnóstico
+enamed_2026-r_q030;Pediatria;Gastroenterologia pediátrica;Diarreia aguda sem desidratação – reidratação oral;Conduta
+enamed_2026-r_q031;Cirurgia;Trauma;TCE – hematoma extradural;Conduta
+enamed_2026-r_q032;Ginecologia e Obstetrícia;Obstetrícia;Abortamento inevitável;Diagnóstico
+enamed_2026-r_q033;Medicina de Família e Comunidade / Saúde Coletiva;Vigilância em saúde;Profilaxia da raiva humana após mordedura;Conduta
+enamed_2026-r_q034;Medicina de Família e Comunidade / Saúde Coletiva;Vigilância em saúde;Doenças de transmissão hídrica e alimentar – articulação intergestores;Legislação/política
+enamed_2026-r_q035;Medicina de Família e Comunidade / Saúde Coletiva;Ética e medicina legal;Comunicação de óbito à família (más notícias);Conduta
+enamed_2026-r_q036;Clínica Médica;Nefrologia;Síndrome nefrótica;Diagnóstico
+enamed_2026-r_q037;Pediatria;Puericultura;Síndrome da morte súbita do lactente;Conceito/teoria
+enamed_2026-r_q038;Cirurgia;Queimaduras;Reposição volêmica no grande queimado (Parkland);Cálculo
+enamed_2026-r_q039;Ginecologia e Obstetrícia;Obstetrícia;Gestação pós-termo – maturação cervical;Conduta
+enamed_2026-r_q040;Clínica Médica;Endocrinologia;Hipotireoidismo subclínico – seguimento;Conduta
+enamed_2026-r_q041;Clínica Médica;Reumatologia;Doença mista do tecido conjuntivo;Diagnóstico
+enamed_2026-r_q042;Pediatria;Hematologia pediátrica;Anemia microcítica – diagnóstico diferencial;Diagnóstico
+enamed_2026-r_q043;Cirurgia;Trauma;Trauma torácico contuso – lesão cardíaca;Diagnóstico
+enamed_2026-r_q044;Ginecologia e Obstetrícia;Ginecologia;HPV – condiloma tratado, seguimento;Conduta
+enamed_2026-r_q045;Ginecologia e Obstetrícia;Obstetrícia;Síndrome gripal na gestante – oseltamivir;Conduta
+enamed_2026-r_q046;Clínica Médica;Gastroenterologia;Doença do refluxo gastroesofágico – pHmetria;Exame complementar
+enamed_2026-r_q047;Pediatria;Gastroenterologia pediátrica;Constipação funcional – polietilenoglicol;Conduta
+enamed_2026-r_q048;Cirurgia;Trauma;Via aérea cirúrgica – cricotireoidostomia por punção;Conduta
+enamed_2026-r_q049;Ginecologia e Obstetrícia;Ginecologia;Torção anexial – laparoscopia;Conduta
+enamed_2026-r_q050;Medicina de Família e Comunidade / Saúde Coletiva;Vigilância em saúde;Surto de diarreia em creche – investigação e notificação;Conduta
+enamed_2026-r_q051;Clínica Médica;Psiquiatria;Bulimia nervosa – hipocalemia;Interpretação de dados
+enamed_2026-r_q052;Pediatria;Cardiologia pediátrica;Sopro inocente em criança febril;Conduta
+enamed_2026-r_q053;Clínica Médica;Pneumologia;Derrame pleural parapneumônico – toracocentese;Conduta
+enamed_2026-r_q054;Ginecologia e Obstetrícia;Obstetrícia;Abscesso mamário puerperal – punção;Conduta
+enamed_2026-r_q055;Medicina de Família e Comunidade / Saúde Coletiva;Imunização;Vacina contra varicela – atualização do esquema;Conduta
+enamed_2026-r_q056;Medicina de Família e Comunidade / Saúde Coletiva;Imunização;Vacina HPV em dose única – evidência;Conceito/teoria
+enamed_2026-r_q057;Pediatria;Ética e medicina legal;Transtorno factício imposto a outro (Münchausen por procuração);Diagnóstico
+enamed_2026-r_q058;Clínica Médica;Neurologia;Mal de Pott – compressão medular;Diagnóstico
+enamed_2026-r_q059;Pediatria;Dermatologia pediátrica;Molusco contagioso em creche;Conduta
+enamed_2026-r_q060;Cirurgia;Urologia;Torção testicular tardia – orquiectomia;Conduta
+enamed_2026-r_q061;Ginecologia e Obstetrícia;Mastologia;Descarga papilar sanguinolenta uniductal;Exame complementar
+enamed_2026-r_q062;Medicina de Família e Comunidade / Saúde Coletiva;Populações específicas;Saúde indígena – intoxicação por mercúrio (garimpo);Diagnóstico
+enamed_2026-r_q063;Medicina de Família e Comunidade / Saúde Coletiva;Vigilância em saúde;Vigilância ambiental – poluição do ar e doença respiratória;Conduta
+enamed_2026-r_q064;Clínica Médica;Psiquiatria;Transtorno de pânico;Diagnóstico
+enamed_2026-r_q065;Medicina de Família e Comunidade / Saúde Coletiva;Ética e medicina legal;Sigilo médico;Legislação/política
+enamed_2026-r_q066;Pediatria;Gastroenterologia pediátrica;Refluxo fisiológico do lactente – orientação;Conduta
+enamed_2026-r_q067;Clínica Médica;Gastroenterologia;Hemorragia digestiva varicosa – ligadura elástica;Conduta
+enamed_2026-r_q068;Ginecologia e Obstetrícia;Obstetrícia;Toxoplasmose na gestação – espiramicina e avidez de IgG;Conduta
+enamed_2026-r_q069;Clínica Médica;Infectologia;Malária – gota espessa;Exame complementar
+enamed_2026-r_q070;Medicina de Família e Comunidade / Saúde Coletiva;Saúde do trabalhador;Perda auditiva induzida por ruído – CEREST;Legislação/política
+enamed_2026-r_q071;Clínica Médica;Geriatria;Delirium no idoso;Diagnóstico
+enamed_2026-r_q072;Clínica Médica;Hematologia;Anemia perniciosa;Diagnóstico
+enamed_2026-r_q073;Pediatria;Infectologia pediátrica;Sarampo;Diagnóstico
+enamed_2026-r_q074;Cirurgia;Abdome agudo;Diverticulite perfurada – pneumoperitônio;Diagnóstico
+enamed_2026-r_q075;Ginecologia e Obstetrícia;Obstetrícia;Descolamento prematuro de placenta;Diagnóstico
+enamed_2026-r_q076;Medicina de Família e Comunidade / Saúde Coletiva;Atenção primária;Estimativa rápida participativa do território;Conceito/teoria
+enamed_2026-r_q077;Medicina de Família e Comunidade / Saúde Coletiva;Epidemiologia;Taxa de letalidade;Cálculo
+enamed_2026-r_q078;Clínica Médica;Psiquiatria;Disfunção sexual por antidepressivo tricíclico;Interpretação de dados
+enamed_2026-r_q079;Clínica Médica;Endocrinologia;Cetoacidose diabética – gasometria;Interpretação de dados
+enamed_2026-r_q080;Pediatria;Cardiologia pediátrica;Coarctação da aorta – hipertensão na criança;Exame complementar
+enamed_2026-r_q081;Cirurgia;Trauma;Amputação digital – conservação do segmento;Conduta
+enamed_2026-r_q082;Ginecologia e Obstetrícia;Ginecologia endócrina;Infertilidade conjugal após os 35 anos;Conduta
+enamed_2026-r_q083;Ginecologia e Obstetrícia;Obstetrícia;Diabetes gestacional – mudança de estilo de vida;Conduta
+enamed_2026-r_q084;Medicina de Família e Comunidade / Saúde Coletiva;SUS e políticas de saúde;Ressarcimento ao SUS pela saúde suplementar (ANS);Legislação/política
+enamed_2026-r_q085;Clínica Médica;Psiquiatria;Transtorno de estresse agudo/pós-traumático – ISRS;Conduta
+enamed_2026-r_q086;Clínica Médica;Pneumologia;Exacerbação de DPOC – broncodilatador nebulizado;Conduta
+enamed_2026-r_q087;Pediatria;Nefrologia pediátrica;Litíase urinária na infância – hipercalciúria idiopática;Conceito/teoria
+enamed_2026-r_q088;Cirurgia;Trauma;Trauma cervical – lesão de artéria vertebral;Diagnóstico
+enamed_2026-r_q089;Ginecologia e Obstetrícia;Obstetrícia;Período expulsivo prolongado – parto instrumentalizado;Conduta
+enamed_2026-r_q090;Medicina de Família e Comunidade / Saúde Coletiva;Atenção primária;Atributos da APS – longitudinalidade;Conceito/teoria
+enamed_2026-r_q091;Clínica Médica;Cardiologia;Síndrome de Wolff-Parkinson-White;Diagnóstico
+enamed_2026-r_q092;Medicina de Família e Comunidade / Saúde Coletiva;Psiquiatria;Depressão na adolescência sem risco atual – acompanhamento na APS;Conduta
+enamed_2026-r_q093;Cirurgia;Trauma;Choque hemorrágico – indicação de transfusão;Conduta
+enamed_2026-r_q094;Ginecologia e Obstetrícia;Ginecologia endócrina;Síndrome dos ovários policísticos – amenorreia;Diagnóstico
+enamed_2026-r_q095;Pediatria;Dermatologia pediátrica;Escabiose – permetrina;Conduta
+enamed_2026-r_q096;Clínica Médica;Neurologia;Encefalopatia de Wernicke;Diagnóstico
+enamed_2026-r_q097;Pediatria;Infectologia pediátrica;Contato de tuberculose – tratamento da infecção latente;Conduta
+enamed_2026-r_q098;Cirurgia;Pré e pós-operatório;Segurança do paciente – evento adverso;Conceito/teoria
+enamed_2026-r_q099;Medicina de Família e Comunidade / Saúde Coletiva;Violência sexual;Violência sexual na adolescência – notificação compulsória;Legislação/política
+enamed_2026-r_q100;Medicina de Família e Comunidade / Saúde Coletiva;Prevenção e rastreamento;Cessação do tabagismo – bupropiona;Conduta

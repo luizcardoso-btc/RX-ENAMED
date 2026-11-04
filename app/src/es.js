@@ -681,6 +681,7 @@ export default {
   'Queimaduras': 'Quemaduras',
   'Dermatologia pediátrica': 'Dermatología pediátrica',
   'Hematologia pediátrica': 'Hematología pediátrica',
+  'Cardiologia pediátrica': 'Cardiología pediátrica',
   'Planejamento familiar': 'Planificación familiar',
   'Ética e medicina legal': 'Ética y medicina legal',
   'Puericultura': 'Puericultura',
