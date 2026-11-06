@@ -20,6 +20,9 @@ const banco = JSON.parse(readFileSync(`${raiz}app/public/data/questoes.json`, 'u
 const conteudo = JSON.parse(readFileSync(`${raiz}app/dist/data/conteudo.json`, 'utf8'));
 const comentarios = JSON.parse(readFileSync(`${raiz}app/dist/data/comentarios.json`, 'utf8'));
 const { textosPreco } = await import(`${raiz}app/src/planos.js`);
+const { ECGS, CHAVES_ECG } = await import(`${raiz}app/src/ecg.js`);
+const { CASOS } = await import(`${raiz}app/src/casos.js`);
+const ES = (await import(`${raiz}app/src/es.js`)).default;
 const { lancamento, planos } = conteudo.planos;
 
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -35,8 +38,14 @@ const N = {
   oficiais: conteudo.estacoes.filter((e) => e.origem === 'oficial').length,
   flashcards: conteudo.cartoes.length,
   aulas: conteudo.aulas.length,
+  ecgs: CHAVES_ECG.length,
+  casos: CASOS.length,
+  casosEcg: CASOS.filter((c) => c.ecg).length,
+  estacoesArea: conteudo.estacoes.reduce((m, e) => ({ ...m, [e.area]: (m[e.area] || 0) + 1 }), {}),
   anos: (() => { const a = banco.edicoes.filter((e) => e.questoes > 0).map((e) => e.ano); return [Math.min(...a), Math.max(...a)]; })(),
 };
+// Valores que os textos podem citar entre chaves.
+const VALORES = (lingua) => ({ a: N.anos[0], b: N.anos[1], c: fmt(N.comentadas, lingua), n: N.ecgs, k: N.casosEcg, s: N.casos, e: N.estacoes, o: N.oficiais, f: fmt(N.flashcards, lingua) });
 const plano = (id) => planos.find((p) => p.id === id);
 const valorMes = (p) => {
   const v = lancamento?.ativo ? p.precoFundador : p.preco;
@@ -69,6 +78,33 @@ const TX = {
       porCurso: [['ENAMED', ['gratis', 'mensal', 'ciclo']], ['Revalida', ['gratis', 'mensal', 'ciclo', 'segunda-etapa', 'anual']]],
     },
     faqTitulo: 'Perguntas frequentes',
+    // destaque de ECG (início, ENAMED e Revalida)
+    ecg: {
+      olho: 'Destaque · Interpretação de ECG', titulo: 'Leia o ECG do dia a dia com segurança',
+      texto: 'O eletrocardiograma aparece no plantão, na enfermaria e nas provas do Inep. Na Rx Med você treina a leitura com traçados de 12 derivações e recebe o laudo comentado a cada resposta.',
+      itens: ['{n} padrões: arritmias, bloqueios, IAM com supra de ST e distúrbios eletrolíticos', 'Traçado novo a cada rodada, em papel padrão de 25 mm/s e 10 mm/mV', 'Gabarito com os achados do traçado e o laudo escrito', 'Placar de acertos para acompanhar a sua evolução'],
+      etiqueta: 'Nos cursos ENAMED e Revalida', rota: 'simulador · ECG', alt: 'Treino de ECG: traçado de 12 derivações, alternativas e laudo comentado',
+      blocos: [['Roteiro de leitura', 'Ritmo, frequência, intervalo PR e QRS, eixo, ST e onda T: os cinco passos ficam na tela enquanto você lê o traçado.'],
+        ['ECG dentro do caso clínico', 'No simulador clínico, {k} dos {s} casos trazem um ECG para laudar antes de decidir a conduta.'],
+        ['Do traçado à questão', 'Arritmias, IAM e distúrbios eletrolíticos também caem nas questões oficiais de clínica e emergência, comentadas alternativa por alternativa.']],
+      padroes: 'Os {n} padrões do treino',
+    },
+    recursos: {
+      olho: 'Tudo o que vem na plataforma', titulo: 'Doze ferramentas, uma conta só', texto: 'O que você usa em cada curso. Os recursos marcados como Revalida fazem parte da 2ª etapa.',
+      ambos: 'ENAMED · Revalida', revalida: 'Revalida · 2ª etapa',
+      itens: [['Banco de questões oficiais', '{c} questões do Inep comentadas, com filtros por prova, área, tema e palavra.'],
+        ['Curso por módulos', '6 módulos com aulas em texto, flashcards e as questões oficiais do tema.'],
+        ['Interpretação de ECG', '{n} padrões em traçados de 12 derivações, com laudo comentado.'],
+        ['Simulador clínico', '{s} casos para atender: anamnese, exame físico, exames, conduta e correção.'],
+        ['Flashcards', '{f} cartões com revisão espaçada: cada um volta no dia certo.'],
+        ['Simulados', 'Prova inteira no tempo real, por edição ou por módulo, com relatório por área.'],
+        ['Raio-X da prova', 'Como o Inep monta o caderno e quais temas mais caem. Grátis para todos.'],
+        ['Cronograma e desafio diário', 'A semana montada com as suas horas, a data da prova e os seus erros.'],
+        ['Desempenho e metas', 'Acerto por área, evolução semanal e projeção de nota.'],
+        ['Mentores virtuais', 'Um mentor por grande área comenta os seus erros e as estações.'],
+        ['Estações da 2ª etapa', '{e} estações com paciente simulado e nota pelo checklist do Inep.', 'r'],
+        ['Treino em dupla', 'Um colega faz o papel de ator, com roteiro separado e cronômetro.', 'r']],
+    },
     // página inicial
     inicio: {
       titulo: 'Rx Med: preparatório para o ENAMED e o Revalida',
@@ -110,7 +146,20 @@ const TX = {
       faq: [['As questões são mesmo oficiais?', 'Sim. São os cadernos e os gabaritos definitivos publicados pelo Inep, do Revalida de {a} a {b} e do ENAMED. Questões anuladas aparecem marcadas e não contam no desempenho.'],
         ['Posso estudar pelo celular?', 'Sim. A plataforma funciona no navegador do celular, do tablet e do computador, sem instalar nada, e o progresso fica salvo na sua conta.'],
         ['O plano gratuito tem prazo?', 'Não. Ele continua liberado: Raio-X completo, 25 questões oficiais por dia, 1 simulado por mês e 1 estação da 2ª etapa por área.'],
-        ['A plataforma tem versão em espanhol?', 'Sim. Interface, aulas, flashcards e mentores têm versão em espanhol. As questões ficam em português, como na prova do Inep.']],
+        ['A plataforma tem versão em espanhol?', 'Sim. Interface, aulas, flashcards e mentores têm versão em espanhol. As questões ficam em português, como na prova do Inep.'],
+        ['Qual a diferença entre o curso ENAMED e o Revalida?', 'O ENAMED é a prova do Inep para os concluintes de Medicina no Brasil. O Revalida é a prova para quem se formou no exterior e tem duas etapas, a teórica e a prática. Os dois cursos usam a mesma plataforma; o Revalida acrescenta as estações da 2ª etapa.'],
+        ['A plataforma tem treino de ECG?', 'Sim. O treino de ECG traz {n} padrões em traçados de 12 derivações, com os achados e o laudo comentado em cada resposta. O simulador clínico também tem casos com ECG para laudar.'],
+        ['Os simulados seguem o tempo da prova?', 'Sim. O simulado reproduz o caderno de uma edição ou de um módulo, com cronômetro, e no fim mostra o acerto por área e as questões para revisar.'],
+        ['Quem prepara o conteúdo?', 'As questões e os gabaritos são os oficiais do Inep. Comentários, aulas, flashcards e estações são da equipe Rx Med e passam por revisão médica.'],
+        ['Como funciona o pagamento?', 'Por PIX, cartão em até 12× ou boleto, processado pelo Mercado Pago. Cada pagamento libera o período do plano, sem cobrança automática: antes de vencer, você renova se quiser.'],
+        ['Posso desistir depois de assinar?', 'Sim. Você tem 7 dias depois do pagamento para desistir e receber o valor de volta.']],
+      escolhaOlho: 'Qual curso é o seu?', escolhaTitulo: 'ENAMED ou Revalida: compare', escolhaCols: ['Rx Med ENAMED', 'Rx Med Revalida'],
+      escolha: [['Para quem', 'Estudantes do 5º e 6º ano e recém-formados no Brasil', 'Médicos formados no exterior, brasileiros ou estrangeiros'],
+        ['Prova', 'ENAMED, aplicado pelo Inep', 'Revalida, aplicado pelo Inep'],
+        ['Etapas', 'Prova teórica', '1ª etapa teórica e 2ª etapa prática'],
+        ['Conteúdo', '6 módulos, banco oficial comentado, simulados e treino de ECG', 'Tudo isso e mais as estações com paciente simulado'],
+        ['Idioma', 'Português e espanhol', 'Português e espanhol'],
+        ['Planos', 'Gratuito, mensal e ciclo de prova', 'Gratuito, mensal, ciclo, 2ª etapa e anual completo']],
       chamadaTitulo: 'Comece hoje pelo Raio-X da sua prova.', chamadaTexto: 'Crie a conta grátis em um minuto. Sem cartão de crédito.', chamadaBotao: 'Criar conta grátis',
     },
     tour: {
@@ -139,7 +188,19 @@ const TX = {
       faq: [['O que é o ENAMED?', 'O Exame Nacional de Avaliação da Formação Médica, aplicado pelo Inep aos concluintes de Medicina no Brasil desde 2025. A nota também é usada no acesso à residência pelo Enare.'],
         ['Por que há questões do Revalida no curso do ENAMED?', 'As duas provas são do Inep, com o mesmo estilo de caso clínico e as mesmas cinco grandes áreas. As edições do Revalida ampliam o treino; cada questão mostra de que prova veio.'],
         ['Preciso seguir os módulos em ordem?', 'Não. Todos estão abertos. O cronograma sugere começar pela área em que você está mais fraco.'],
-        ['Quanto tempo por dia preciso?', 'Você escolhe. O cronograma se ajusta às horas e aos dias que você informar.']],
+        ['Quanto tempo por dia preciso?', 'Você escolhe. O cronograma se ajusta às horas e aos dias que você informar.'],
+        ['O curso tem interpretação de ECG?', 'Sim. O treino de ECG tem {n} padrões com laudo comentado, e o simulador clínico traz casos com ECG para laudar.'],
+        ['Estou no 5º ano. Já vale começar?', 'Sim. Começar cedo dá tempo para passar pelos seis módulos e fazer vários simulados. O cronograma distribui o estudo até a data da prova.'],
+        ['Dá para estudar no internato, com plantões?', 'Sim. O cronograma aceita poucos minutos por dia e dias variados, e o que ficou para trás volta para a semana seguinte.'],
+        ['O que acontece depois dos 6 meses do ciclo?', 'O acesso vai até o fim do período. Para continuar, você renova o plano; não há cobrança automática.']],
+      provaOlho: 'A prova', provaTitulo: 'O que você precisa saber sobre o ENAMED',
+      prova: [['Quem faz', 'Os concluintes dos cursos de Medicina no Brasil. Médicos já formados também podem fazer a prova para usar a nota no Enare.'],
+        ['Como é a prova', 'Questões objetivas com casos clínicos nas cinco grandes áreas e em saúde coletiva, no mesmo estilo do Revalida.'],
+        ['Para que serve', 'Avalia a formação médica no país, e a nota pode ser usada no acesso à residência pelo Enare.']],
+      rotinaOlho: 'Rotina de estudo', rotinaTitulo: 'Uma rotina que cabe na sua semana',
+      rotina: [['Todo dia', 'O desafio do dia, com questões escolhidas pelos seus erros, e as revisões de flashcards que vencem hoje.'],
+        ['Toda semana', 'As aulas do módulo da vez, um bloco de questões por área e uma rodada do treino de ECG.'],
+        ['Todo mês', 'Um simulado no tempo da prova para medir a evolução e ajustar o cronograma.']],
       chamadaTitulo: 'Comece pelo Raio-X do ENAMED.', chamadaTexto: 'Conta grátis, sem cartão de crédito.',
     },
     revalida: {
@@ -158,7 +219,20 @@ const TX = {
       faq: [['A plataforma tem versão em espanhol?', 'Sim: interface, aulas, flashcards e mentores. As questões e as estações ficam em português, como na prova.'],
         ['Como funciona o paciente simulado?', 'Você escreve as perguntas e os pedidos como faria na prova. O paciente responde pelo caso da estação, e o examinador entrega os resultados de exame físico e exames.'],
         ['Posso treinar a 2ª etapa com um colega?', 'Sim. No treino em dupla, um faz o papel de médico e o outro de ator, com o roteiro separado, cronômetro e nota no fim.'],
-        ['O curso cobre a prova discursiva?', 'Sim. A 1ª etapa inclui questões discursivas com o padrão de resposta do Inep.']],
+        ['O curso cobre a prova discursiva?', 'Sim. A 1ª etapa inclui questões discursivas com o padrão de resposta do Inep.'],
+        ['O Rx Med Revalida cobre as cinco grandes áreas?', 'Sim. São seis módulos: Clínica Médica, Cirurgia, Pediatria, Ginecologia e Obstetrícia, Medicina de Família e um módulo de SUS e diretrizes.'],
+        ['O curso tem interpretação de ECG?', 'Sim. O treino de ECG tem {n} padrões em traçados de 12 derivações, com laudo comentado. No simulador clínico, casos com ECG pedem o laudo antes da conduta.'],
+        ['Posso assinar só a 2ª etapa?', 'Sim. O plano 2ª etapa libera todas as estações, a correção pelo checklist e o treino em dupla até o resultado final. O anual completo junta a 1ª e a 2ª etapa.'],
+        ['Há simulados da 2ª etapa?', 'Sim. Você escolhe 1 estação, 5 estações (um dia de prova) ou 10 estações (a prova completa), e recebe o relatório por área no fim.'],
+        ['As estações oficiais são as do Inep?', 'Sim. {o} das {e} estações vêm das provas práticas já aplicadas pelo Inep, com o checklist publicado. As demais são autorais, no mesmo formato.'],
+        ['Estudei em espanhol. Vou conseguir acompanhar?', 'Sim. Interface, aulas e flashcards têm versão em espanhol, e as questões e estações ficam em português, como na prova. Assim você aprende o conteúdo e o vocabulário médico em português juntos.']],
+      modOlho: 'O curso', modTitulo: 'Seis módulos: as cinco grandes áreas e SUS',
+      modTexto: 'As duas etapas do Revalida cobram as cinco grandes áreas da Medicina. Cada módulo junta aulas, flashcards e as questões oficiais do tema, e as estações da 2ª etapa seguem as mesmas áreas.',
+      estacoesArea: '{n} estações da 2ª etapa',
+      provaOlho: 'A prova', provaTitulo: 'Como é o Revalida',
+      prova: [['Quem faz', 'Médicos formados em instituições de fora do Brasil, brasileiros ou estrangeiros, que precisam revalidar o diploma.'],
+        ['1ª etapa · teórica', 'Prova objetiva com casos clínicos e questões discursivas, nas cinco grandes áreas.'],
+        ['2ª etapa · prática', 'Estações de atendimento com paciente simulado e examinador, cada uma com tempo marcado e checklist de avaliação.']],
       chamadaTitulo: 'Treine uma estação da 2ª etapa grátis.', chamadaTexto: 'Uma estação por área no plano gratuito.',
     },
   },
@@ -183,6 +257,32 @@ const TX = {
       porCurso: [['ENAMED', ['gratis', 'mensal', 'ciclo']], ['Revalida', ['gratis', 'mensal', 'ciclo', 'segunda-etapa', 'anual']]],
     },
     faqTitulo: 'Preguntas frecuentes',
+    ecg: {
+      olho: 'Destacado · Interpretación de ECG', titulo: 'Lea el ECG del día a día con seguridad',
+      texto: 'El electrocardiograma aparece en la guardia, en la sala y en los exámenes del Inep. En Rx Med practica la lectura con trazados de 12 derivaciones y recibe el informe comentado en cada respuesta.',
+      itens: ['{n} patrones: arritmias, bloqueos, IAM con supradesnivel del ST y trastornos electrolíticos', 'Trazado nuevo en cada ronda, en papel estándar de 25 mm/s y 10 mm/mV', 'Clave con los hallazgos del trazado y el informe escrito', 'Marcador de aciertos para seguir su evolución'],
+      etiqueta: 'En los cursos ENAMED y Revalida', rota: 'simulador · ECG', alt: 'Práctica de ECG: trazado de 12 derivaciones, alternativas e informe comentado',
+      blocos: [['Guía de lectura', 'Ritmo, frecuencia, intervalo PR y QRS, eje, ST y onda T: los cinco pasos quedan en pantalla mientras lee el trazado.'],
+        ['ECG dentro del caso clínico', 'En el simulador clínico, {k} de los {s} casos traen un ECG para informar antes de decidir la conducta.'],
+        ['Del trazado a la pregunta', 'Arritmias, IAM y trastornos electrolíticos también aparecen en las preguntas oficiales de clínica y emergencias, comentadas alternativa por alternativa.']],
+      padroes: 'Los {n} patrones de la práctica',
+    },
+    recursos: {
+      olho: 'Todo lo que trae la plataforma', titulo: 'Doce herramientas, una sola cuenta', texto: 'Lo que usa en cada curso. Los recursos marcados como Revalida son parte de la 2.ª etapa.',
+      ambos: 'ENAMED · Revalida', revalida: 'Revalida · 2.ª etapa',
+      itens: [['Banco de preguntas oficiales', '{c} preguntas del Inep comentadas, con filtros por examen, área, tema y palabra.'],
+        ['Curso por módulos', '6 módulos con clases en texto, flashcards y las preguntas oficiales del tema.'],
+        ['Interpretación de ECG', '{n} patrones en trazados de 12 derivaciones, con informe comentado.'],
+        ['Simulador clínico', '{s} casos para atender: anamnesis, examen físico, exámenes, conducta y corrección.'],
+        ['Flashcards', '{f} tarjetas con repaso espaciado: cada una vuelve en el día justo.'],
+        ['Simulacros', 'Examen completo con el tiempo real, por edición o por módulo, con informe por área.'],
+        ['Rayos X del examen', 'Cómo arma el Inep el cuadernillo y qué temas aparecen más. Gratis para todos.'],
+        ['Cronograma y desafío diario', 'La semana armada con sus horas, la fecha del examen y sus errores.'],
+        ['Rendimiento y metas', 'Acierto por área, evolución semanal y proyección de nota.'],
+        ['Mentores virtuales', 'Un mentor por gran área comenta sus errores y las estaciones.'],
+        ['Estaciones de la 2.ª etapa', '{e} estaciones con paciente simulado y nota con la lista de evaluación del Inep.', 'r'],
+        ['Práctica en pareja', 'Un colega hace de actor, con guion separado y cronómetro.', 'r']],
+    },
     inicio: {
       titulo: 'Rx Med: preparatorio para el ENAMED y el Revalida',
       descricao: 'Cursos en línea para el ENAMED y las dos etapas del Revalida de Brasil: preguntas oficiales del Inep comentadas, curso por módulos, cronograma, simulacros y estaciones de la 2.ª etapa con paciente simulado. Empiece gratis.',
@@ -223,7 +323,20 @@ const TX = {
       faq: [['¿Las preguntas son realmente oficiales?', 'Sí. Son los cuadernillos y las claves definitivas publicados por el Inep, del Revalida de {a} a {b} y del ENAMED. Las preguntas anuladas aparecen marcadas y no cuentan en el rendimiento.'],
         ['¿Puedo estudiar desde el celular?', 'Sí. La plataforma funciona en el navegador del celular, la tableta y la computadora, sin instalar nada, y el progreso queda guardado en su cuenta.'],
         ['¿El plan gratuito tiene plazo?', 'No. Sigue liberado: Rayos X completo, 25 preguntas oficiales por día, 1 simulacro por mes y 1 estación de la 2.ª etapa por área.'],
-        ['¿La plataforma está en español?', 'Sí. Interfaz, clases, flashcards y mentores están en español. Las preguntas quedan en portugués, como en el examen del Inep.']],
+        ['¿La plataforma está en español?', 'Sí. Interfaz, clases, flashcards y mentores están en español. Las preguntas quedan en portugués, como en el examen del Inep.'],
+        ['¿Qué diferencia hay entre el curso ENAMED y el Revalida?', 'El ENAMED es el examen del Inep para los estudiantes de último año de Medicina en Brasil. El Revalida es el examen para quien se graduó en el exterior y tiene dos etapas, la teórica y la práctica. Los dos cursos usan la misma plataforma; el Revalida suma las estaciones de la 2.ª etapa.'],
+        ['¿La plataforma tiene práctica de ECG?', 'Sí. La práctica de ECG trae {n} patrones en trazados de 12 derivaciones, con los hallazgos y el informe comentado en cada respuesta. El simulador clínico también tiene casos con ECG para informar.'],
+        ['¿Los simulacros siguen el tiempo del examen?', 'Sí. El simulacro reproduce el cuadernillo de una edición o de un módulo, con cronómetro, y al final muestra el acierto por área y las preguntas para repasar.'],
+        ['¿Quién prepara el contenido?', 'Las preguntas y las claves son las oficiales del Inep. Comentarios, clases, flashcards y estaciones son del equipo Rx Med y pasan por revisión médica.'],
+        ['¿Cómo funciona el pago?', 'Con PIX, tarjeta en hasta 12 cuotas o boleto, procesado por Mercado Pago. Cada pago libera el periodo del plan, sin cobro automático: antes de vencer, renueva si quiere.'],
+        ['¿Puedo desistir después de suscribirme?', 'Sí. Tiene 7 días después del pago para desistir y recibir el dinero de vuelta.']],
+      escolhaOlho: '¿Cuál es su curso?', escolhaTitulo: 'ENAMED o Revalida: compare', escolhaCols: ['Rx Med ENAMED', 'Rx Med Revalida'],
+      escolha: [['Para quién', 'Estudiantes de 5.º y 6.º año y recién graduados en Brasil', 'Médicos formados en el exterior, brasileños o extranjeros'],
+        ['Examen', 'ENAMED, aplicado por el Inep', 'Revalida, aplicado por el Inep'],
+        ['Etapas', 'Examen teórico', '1.ª etapa teórica y 2.ª etapa práctica'],
+        ['Contenido', '6 módulos, banco oficial comentado, simulacros y práctica de ECG', 'Todo eso y además las estaciones con paciente simulado'],
+        ['Idioma', 'Portugués y español', 'Portugués y español'],
+        ['Planes', 'Gratuito, mensual y ciclo de examen', 'Gratuito, mensual, ciclo, 2.ª etapa y anual completo']],
       chamadaTitulo: 'Empiece hoy por los Rayos X de su examen.', chamadaTexto: 'Cree la cuenta gratis en un minuto. Sin tarjeta de crédito.', chamadaBotao: 'Crear cuenta gratis',
     },
     tour: {
@@ -252,7 +365,19 @@ const TX = {
       faq: [['¿Qué es el ENAMED?', 'El Examen Nacional de Evaluación de la Formación Médica, aplicado por el Inep a los estudiantes de último año de Medicina en Brasil desde 2025. La nota también se usa para el acceso a la residencia por el Enare.'],
         ['¿Por qué hay preguntas del Revalida en el curso del ENAMED?', 'Los dos exámenes son del Inep, con el mismo estilo de caso clínico y las mismas cinco grandes áreas. Las ediciones del Revalida amplían la práctica; cada pregunta muestra de qué examen viene.'],
         ['¿Tengo que seguir los módulos en orden?', 'No. Todos están abiertos. El cronograma sugiere empezar por el área en la que está más débil.'],
-        ['¿Cuánto tiempo por día necesito?', 'Usted elige. El cronograma se ajusta a las horas y días que indique.']],
+        ['¿Cuánto tiempo por día necesito?', 'Usted elige. El cronograma se ajusta a las horas y días que indique.'],
+        ['¿El curso tiene interpretación de ECG?', 'Sí. La práctica de ECG tiene {n} patrones con informe comentado, y el simulador clínico trae casos con ECG para informar.'],
+        ['Estoy en 5.º año. ¿Ya vale la pena empezar?', 'Sí. Empezar temprano da tiempo para pasar por los seis módulos y hacer varios simulacros. El cronograma reparte el estudio hasta la fecha del examen.'],
+        ['¿Puedo estudiar en el internado, con guardias?', 'Sí. El cronograma acepta pocos minutos por día y días variados, y lo que quedó pendiente pasa a la semana siguiente.'],
+        ['¿Qué pasa después de los 6 meses del ciclo?', 'El acceso dura hasta el final del periodo. Para seguir, renueva el plan; no hay cobro automático.']],
+      provaOlho: 'El examen', provaTitulo: 'Lo que necesita saber sobre el ENAMED',
+      prova: [['Quién lo rinde', 'Los estudiantes de último año de Medicina en Brasil. Médicos ya graduados también pueden rendirlo para usar la nota en el Enare.'],
+        ['Cómo es el examen', 'Preguntas objetivas con casos clínicos en las cinco grandes áreas y en salud colectiva, con el mismo estilo del Revalida.'],
+        ['Para qué sirve', 'Evalúa la formación médica en el país, y la nota puede usarse para el acceso a la residencia por el Enare.']],
+      rotinaOlho: 'Rutina de estudio', rotinaTitulo: 'Una rutina que cabe en su semana',
+      rotina: [['Todos los días', 'El desafío del día, con preguntas elegidas por sus errores, y los repasos de flashcards que vencen hoy.'],
+        ['Cada semana', 'Las clases del módulo del momento, un bloque de preguntas por área y una ronda de la práctica de ECG.'],
+        ['Cada mes', 'Un simulacro con el tiempo del examen para medir la evolución y ajustar el cronograma.']],
       chamadaTitulo: 'Empiece por los Rayos X del ENAMED.', chamadaTexto: 'Cuenta gratis, sin tarjeta de crédito.',
     },
     revalida: {
@@ -271,7 +396,20 @@ const TX = {
       faq: [['¿La plataforma está en español?', 'Sí: interfaz, clases, flashcards y mentores. Las preguntas y las estaciones quedan en portugués, como en el examen.'],
         ['¿Cómo funciona el paciente simulado?', 'Escribe las preguntas y los pedidos como lo haría en el examen. El paciente responde según el caso de la estación, y el examinador entrega los resultados del examen físico y de los exámenes.'],
         ['¿Puedo practicar la 2.ª etapa con un colega?', 'Sí. En la práctica en pareja, uno hace de médico y el otro de actor, con el guion separado, cronómetro y nota al final.'],
-        ['¿El curso cubre el examen discursivo?', 'Sí. La 1.ª etapa incluye preguntas discursivas con el estándar de respuesta del Inep.']],
+        ['¿El curso cubre el examen discursivo?', 'Sí. La 1.ª etapa incluye preguntas discursivas con el estándar de respuesta del Inep.'],
+        ['¿Rx Med Revalida cubre las cinco grandes áreas?', 'Sí. Son seis módulos: Clínica Médica, Cirugía, Pediatría, Ginecología y Obstetricia, Medicina Familiar y un módulo de SUS y directrices.'],
+        ['¿El curso tiene interpretación de ECG?', 'Sí. La práctica de ECG tiene {n} patrones en trazados de 12 derivaciones, con informe comentado. En el simulador clínico, los casos con ECG piden el informe antes de la conducta.'],
+        ['¿Puedo contratar solo la 2.ª etapa?', 'Sí. El plan 2.ª etapa libera todas las estaciones, la corrección con la lista de evaluación y la práctica en pareja hasta el resultado final. El anual completo une la 1.ª y la 2.ª etapa.'],
+        ['¿Hay simulacros de la 2.ª etapa?', 'Sí. Elige 1 estación, 5 estaciones (un día de examen) o 10 estaciones (el examen completo), y recibe el informe por área al final.'],
+        ['¿Las estaciones oficiales son las del Inep?', 'Sí. {o} de las {e} estaciones vienen de los exámenes prácticos ya aplicados por el Inep, con la lista de evaluación publicada. Las demás son propias, en el mismo formato.'],
+        ['Estudié en español. ¿Podré seguir el curso?', 'Sí. La interfaz, las clases y los flashcards están en español, y las preguntas y estaciones quedan en portugués, como en el examen. Así aprende el contenido y el vocabulario médico en portugués al mismo tiempo.']],
+      modOlho: 'El curso', modTitulo: 'Seis módulos: las cinco grandes áreas y SUS',
+      modTexto: 'Las dos etapas del Revalida evalúan las cinco grandes áreas de la Medicina. Cada módulo reúne clases, flashcards y las preguntas oficiales del tema, y las estaciones de la 2.ª etapa siguen las mismas áreas.',
+      estacoesArea: '{n} estaciones de la 2.ª etapa',
+      provaOlho: 'El examen', provaTitulo: 'Cómo es el Revalida',
+      prova: [['Quién lo rinde', 'Médicos formados en instituciones fuera de Brasil, brasileños o extranjeros, que necesitan revalidar el título.'],
+        ['1.ª etapa · teórica', 'Examen objetivo con casos clínicos y preguntas discursivas, en las cinco grandes áreas.'],
+        ['2.ª etapa · práctica', 'Estaciones de atención con paciente simulado y examinador, cada una con tiempo marcado y lista de evaluación.']],
       chamadaTitulo: 'Practique una estación de la 2.ª etapa gratis.', chamadaTexto: 'Una estación por área en el plan gratuito.',
     },
   },
@@ -371,9 +509,9 @@ function tour(ctx, lingua, id, inverso = false, etiqueta = '') {
   const [olho, titulo, texto, itens, rota] = tx.tour[id];
   return `<div class="tour${inverso ? ' inverso' : ''}"><div class="tour-texto"><span class="olho">${olho}</span><h3>${titulo}</h3><p>${texto}</p>${lista(itens.map((i) => preencher(i, { c: fmt(N.comentadas, lingua) })))}${etiqueta ? `<span class="etiqueta">${etiqueta}</span>` : ''}</div>${janela(ctx, tx, id, rota, `${olho}: ${titulo}`)}</div>`;
 }
-const faq = (itens, lingua) => `<div class="faq">${itens.map(([q, a], i) => `<details class="cartao"${i === 0 ? ' open' : ''}><summary>${q}</summary><p>${preencher(a, { a: N.anos[0], b: N.anos[1] })}</p></details>`).join('')}</div>`;
+const faq = (itens, lingua) => `<div class="faq">${itens.map(([q, a], i) => `<details class="cartao"${i === 0 ? ' open' : ''}><summary>${q}</summary><p>${preencher(a, VALORES(lingua))}</p></details>`).join('')}</div>`;
 const chamada = (titulo, texto, botao, ctx) => `<section class="chamada"><div><h2>${titulo}</h2><p class="mudo" style="margin-top:8px">${texto}</p></div><a class="botao botao-primario" href="${ctx.plataforma}">${botao}</a></section>`;
-const faqDados = (itens, lingua) => ({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: itens.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: preencher(a, { a: N.anos[0], b: N.anos[1] }) } })) });
+const faqDados = (itens, lingua) => ({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: itens.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: preencher(a, VALORES(lingua)) } })) });
 
 function cartaoPlano(p, lingua, ctx, { comCurso = false, destaque = p.destaque, curso = '' } = {}) {
   const tx = TX[lingua].planos;
@@ -398,6 +536,28 @@ function cartaoPlano(p, lingua, ctx, { comCurso = false, destaque = p.destaque, 
 }
 const avisoLancamento = (lingua) => (lancamento?.ativo ? `<p class="aviso-lancamento"><strong>${esc(lancamento[lingua].selo)}</strong> ${esc(lancamento[lingua].texto)}</p>` : '');
 const gradePlanos = (ids, lingua, ctx, opcoes = {}) => `${avisoLancamento(lingua)}<div class="grade-planos" style="--colunas:${ids.length}">${ids.map((id) => cartaoPlano(plano(id), lingua, ctx, { ...opcoes, destaque: (opcoes.destaques || []).includes(id) || (!opcoes.destaques && plano(id).destaque) })).join('')}</div>`;
+
+// Destaque do treino de ECG: tela real, o que o aluno faz e os padrões que o treino sorteia.
+function secaoEcg(ctx, lingua) {
+  const tx = TX[lingua];
+  const E = tx.ecg;
+  const v = VALORES(lingua);
+  const nomes = Object.values(ECGS).map((e) => (lingua === 'es' ? ES[e.nome] || e.nome : e.nome));
+  return `<section class="secao faixa" id="ecg">
+  <div class="secao-cab"><span class="olho">${E.olho}</span><h2>${E.titulo}</h2><p>${E.texto}</p></div>
+  <div class="tour"><div class="tour-texto">${lista(E.itens.map((i) => preencher(i, v)))}<span class="etiqueta">${E.etiqueta}</span></div>${janela(ctx, tx, 'ecg', E.rota, E.alt)}</div>
+  <div class="grade">${E.blocos.map(([t, d]) => `<div class="cartao bloco"><h3>${t}</h3><p>${preencher(d, v)}</p></div>`).join('')}</div>
+  <h3 class="fichas-titulo">${preencher(E.padroes, v)}</h3><ul class="fichas">${nomes.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>
+</section>`;
+}
+// Grade com os recursos da plataforma e o curso de cada um.
+function secaoRecursos(lingua) {
+  const R = TX[lingua].recursos;
+  const v = VALORES(lingua);
+  return `<section class="secao" id="recursos">${cab(R.olho, R.titulo, R.texto)}
+  <div class="grade grade-4">${R.itens.map(([t, d, so]) => `<div class="cartao bloco recurso${so ? ' so-revalida' : ''}"><span class="n">${so ? R.revalida : R.ambos}</span><h3>${t}</h3><p>${preencher(d, v)}</p></div>`).join('')}</div></section>`;
+}
+const blocos = (itens) => `<div class="grade">${itens.map(([t, d]) => `<div class="cartao bloco"><h3>${t}</h3><p>${d}</p></div>`).join('')}</div>`;
 
 // ------------------------------------------------------------------ páginas
 
@@ -430,9 +590,15 @@ function paginaInicial(lingua) {
       <div class="curso-rodape"><span class="mono">${L.aPartir}<b>${precoRevalida}${L.mes}</b></span><a class="botao" href="${ctx.link('revalida.html')}">${L.revalida.botao}</a></div></article>
   </div>
 </section>
+${secaoEcg(ctx, lingua)}
 <section class="secao" id="plataforma">${cab(L.tourOlho, L.tourTitulo, L.tourTexto)}
   ${tour(ctx, lingua, 'questao', false, 'Revalida 2011 · 58')}${tour(ctx, lingua, 'estacao', true)}
 </section>
+${secaoRecursos(lingua)}
+<section class="secao">${cab(L.escolhaOlho, L.escolhaTitulo)}
+  <table class="tabela tabela-escolha"><thead><tr><th scope="col"></th><th scope="col">${L.escolhaCols[0]}</th><th scope="col" class="col-revalida">${L.escolhaCols[1]}</th></tr></thead>
+  <tbody>${L.escolha.map(([a, b, c]) => `<tr><td>${a}</td><td>${b}</td><td>${c}</td></tr>`).join('')}</tbody></table>
+  <div class="linha-botoes"><a class="botao botao-primario" href="${ctx.link('enamed.html')}">${L.enamed.botao}</a><a class="botao" href="${ctx.link('revalida.html')}">${L.revalida.botao}</a></div></section>
 <section class="secao">${cab(L.passosOlho, L.passosTitulo)}
   <div class="grade grade-5">${L.passos.map(([t, d], i) => `<div class="cartao bloco"><span class="n">0${i + 1}</span><h3>${t}</h3><p>${d}</p></div>`).join('')}</div></section>
 <section class="secao">${cab(L.difOlho, L.difTitulo)}
@@ -466,7 +632,11 @@ function paginaEnamed(lingua) {
   ${janela(ctx, tx, 'curso', lingua === 'es' ? 'curso' : 'curso', L.selo).replace(' loading="lazy"', '')}</section>
 <section class="secao">${cab(L.modOlho, L.modTitulo, L.modTexto)}
   <div class="grade">${L.modulos.map(([t, d], i) => `<div class="cartao bloco"><span class="n">${L.modulo} ${i + 1}</span><h3>${t}</h3><p>${d}</p></div>`).join('')}</div></section>
-<section class="secao">${cab(L.tourOlho, L.tourTitulo)}${tour(ctx, lingua, 'questao')}</section>
+<section class="secao">${cab(L.provaOlho, L.provaTitulo)}${blocos(L.prova)}</section>
+${secaoEcg(ctx, lingua)}
+<section class="secao">${cab(L.tourOlho, L.tourTitulo)}${tour(ctx, lingua, 'questao')}${tour(ctx, lingua, 'painel', true)}</section>
+<section class="secao">${cab(L.rotinaOlho, L.rotinaTitulo)}
+  <div class="grade">${L.rotina.map(([t, d], i) => `<div class="cartao bloco"><span class="n">0${i + 1}</span><h3>${t}</h3><p>${d}</p></div>`).join('')}</div></section>
 <section class="secao" id="planos">${cab(TX[lingua].inicio.planosOlho, L.planosTitulo)}${gradePlanos(['gratis', 'mensal', 'ciclo'], lingua, ctx)}<p class="mudo pequeno" style="margin-top:20px">${tx.planos.rodape}</p></section>
 <section class="secao">${cab(tx.faqTitulo, L.faqTitulo)}${faq(L.faq, lingua)}</section>
 ${chamada(L.chamadaTitulo, L.chamadaTexto, tx.inicio.chamadaBotao, ctx)}`,
@@ -479,7 +649,7 @@ function paginaRevalida(lingua) {
   const anos = { a: N.anos[0], b: N.anos[1], e: N.estacoes, o: N.oficiais };
   const etapa = ([selo, titulo, texto, itens], id) => `<div class="cartao etapa"${id ? ` id="${id}"` : ''}><span class="selo">${selo}</span><h3>${titulo}</h3><p class="mudo">${preencher(texto, anos)}</p>${lista(itens)}</div>`;
   return pagina({
-    lingua, caminho: 'revalida.html', titulo: L.titulo, descricao: L.descricao, atual: 'revalida', classe: 'curso-revalida',
+    lingua, caminho: 'revalida.html', titulo: L.titulo, descricao: L.descricao, atual: 'revalida', classe: 'curso-revalida tema-claro',
     dados: [{ '@context': 'https://schema.org', '@type': 'Course', name: 'Rx Med Revalida', description: L.descricao, inLanguage: ['pt-BR', 'es'], provider: { '@type': 'Organization', name: 'Rx Med' } }, faqDados(L.faq, lingua)],
     corpo: (ctx) => `
 <p class="migalhas"><a href="${ctx.link('index.html')}">Rx Med</a> › Revalida</p>
@@ -488,6 +658,15 @@ function paginaRevalida(lingua) {
   <div class="fatos">${[N.edicoes, fmt(N.comentadas, lingua), N.estacoes, 'PT · ES'].map((v, i) => `<div><strong>${v}</strong><span>${L.fatos[i]}</span></div>`).join('')}</div></div>
   ${janela(ctx, tx, 'estacao', tx.tour.estacao[4], tx.tour.estacao[1]).replace(' loading="lazy"', '')}</section>
 <section class="secao"><div class="grade grade-2">${etapa(L.etapa1)}${etapa(L.etapa2)}</div></section>
+<section class="secao">${cab(L.provaOlho, L.provaTitulo)}${blocos(L.prova)}</section>
+<section class="secao faixa" id="modulos">${cab(L.modOlho, L.modTitulo, L.modTexto)}
+  <div class="grade">${tx.enamed.modulos.map(([t, d], i) => {
+    const area = ['Clínica Médica', 'Cirurgia', 'Pediatria', 'Ginecologia e Obstetrícia', 'Medicina de Família e Comunidade / Saúde Coletiva'][i];
+    const n = area && N.estacoesArea[area];
+    return `<div class="cartao bloco"><span class="n">${tx.enamed.modulo} ${i + 1}</span><h3>${t}</h3><p>${d}</p>${n ? `<span class="etiqueta">${preencher(L.estacoesArea, { n })}</span>` : ''}</div>`;
+  }).join('')}</div></section>
+<section class="secao" id="primeira-etapa">${cab(L.t1Olho, L.t1Titulo)}${tour(ctx, lingua, 'questao')}</section>
+${secaoEcg(ctx, lingua)}
 <section class="secao" id="segunda-etapa">${cab(L.t2Olho, L.t2Titulo)}
   <div class="grade">${L.passos.map(([n, t, d]) => `<div class="cartao bloco"><span class="n">${n}</span><h3>${t}</h3><p>${d}</p></div>`).join('')}</div>
   ${tour(ctx, lingua, 'estacao-nota', true)}</section>

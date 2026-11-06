@@ -226,3 +226,66 @@ img { max-width: 100%; height: auto; display: block; }
 /* páginas do servidor (entrar, conta, checkout) usam o símbolo dentro de um span */
 span.marca-simbolo { display: grid; place-items: center; border-radius: 10px; background: #102B38; border: 1px solid var(--linha); padding: 5px; }
 span.marca-simbolo svg { width: 100%; height: 100%; }
+
+/* recursos, faixa de destaque e fichas do ECG */
+.grade-4 { grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.recurso .n { color: var(--tinta-3); }
+.recurso.so-revalida .n { color: var(--azul); }
+.faixa { padding: 48px; border-radius: 22px; border: 1px solid var(--cb); background: linear-gradient(160deg, var(--cs), rgb(16 43 56 / 0.4) 60%); }
+.faixa .tour { margin-top: 40px; }
+.fichas-titulo { margin-top: 40px; font-size: 1.05rem; }
+.fichas { list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.fichas li { padding: 6px 12px; border-radius: 999px; border: 1px solid var(--cb); background: var(--folha); color: var(--tinta-2); font-size: 0.85rem; }
+.tabela-escolha th.col-revalida { color: var(--azul); }
+.tabela-escolha td { vertical-align: top; }
+.bloco .etiqueta { margin-top: 14px; }
+@media (max-width: 1000px) { .grade-4 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px) { .faixa { padding: 24px 18px; } .grade-4 { grid-template-columns: 1fr; } }
+
+/* ------------------------------------------------------------------ página do Revalida: fundo branco e blocos em azul */
+.tema-claro {
+  --papel: #F4F8FC; --folha: #FFFFFF; --folha-2: #FFFFFF;
+  --tinta: #0E2233; --tinta-2: #3E5568; --tinta-3: #5C7184; --linha: #D7E3EF;
+  --azul-forte: #1F6CC9; --azul-escuro: #0F3E73;
+  --c: var(--azul-forte); --cs: #E9F2FD; --cb: #B8D3F4;
+  color-scheme: light;
+  background: radial-gradient(60rem 30rem at 10% -10rem, rgb(106 168 240 / 0.28), transparent 70%),
+    radial-gradient(50rem 26rem at 100% 0, rgb(106 168 240 / 0.14), transparent 70%), var(--papel);
+}
+.tema-claro::before { background: #fff; }
+.tema-claro a { color: var(--azul-forte); }
+.tema-claro :focus-visible { outline-color: var(--azul-forte); }
+.tema-claro .topo { background: rgb(255 255 255 / 0.9); }
+.tema-claro .marca { color: var(--tinta); }
+.tema-claro .marca em { color: var(--azul-forte); }
+.tema-claro .menu a { color: var(--tinta-2); }
+.tema-claro .menu a:hover, .tema-claro .menu a[aria-current="page"] { color: var(--azul-forte); background: var(--cs); }
+.tema-claro .idioma a[aria-current="true"] { background: var(--azul-forte); color: #fff; }
+.tema-claro .botao { background: #fff; color: var(--tinta); border-color: var(--cb); }
+.tema-claro .botao-primario { background: linear-gradient(180deg, #4C93E6, var(--azul-forte)); border-color: #4C93E6; color: #fff; box-shadow: 0 8px 24px rgb(31 108 201 / 0.3); }
+.tema-claro .cartao { background: #fff; border-color: var(--linha); box-shadow: 0 1px 2px rgb(14 34 51 / 0.05), 0 8px 24px rgb(14 34 51 / 0.06); }
+.tema-claro .bloco, .tema-claro .etapa { border-top: 4px solid var(--azul); }
+.tema-claro .lista-check li::before { color: var(--azul-forte); }
+.tema-claro .janela { border-color: #c9d9ea; box-shadow: 0 30px 70px rgb(15 62 115 / 0.22); }
+.tema-claro .etiqueta { color: var(--azul-escuro); border-color: var(--cb); background: var(--cs); }
+.tema-claro .aviso-lancamento { background: var(--cs); border-color: var(--cb); color: var(--tinta-2); }
+.tema-claro .plano.destaque { border-color: var(--azul-forte); box-shadow: 0 0 0 6px rgb(31 108 201 / 0.1); }
+.tema-claro .plano-selo { color: var(--azul-escuro); background: var(--cs); border-color: var(--cb); }
+.tema-claro .plano li::before { color: var(--azul-forte); }
+.tema-claro .faq summary::after { color: var(--azul-forte); }
+.tema-claro .fichas li { background: #fff; color: var(--azul-escuro); }
+/* blocos em destaque: faixa azul cheia com cartões brancos por cima */
+.tema-claro .faixa { background: linear-gradient(150deg, var(--azul-escuro), var(--azul-forte) 55%, var(--azul)); border: 0; color: #fff; box-shadow: 0 30px 70px rgb(15 62 115 / 0.25); }
+.tema-claro .faixa > .secao-cab h2, .tema-claro .faixa .tour h3, .tema-claro .faixa .fichas-titulo { color: #fff; }
+.tema-claro .faixa .olho, .tema-claro .faixa > .secao-cab p, .tema-claro .faixa .tour-texto .lista-check, .tema-claro .faixa .tour-texto p { color: #E3EEFC; }
+.tema-claro .faixa .tour-texto .lista-check li::before { color: #fff; }
+.tema-claro .faixa .tour-texto .etiqueta { color: #fff; background: rgb(255 255 255 / 0.14); border-color: rgb(255 255 255 / 0.35); }
+.tema-claro .faixa .cartao { border-top-color: var(--azul); box-shadow: none; color: var(--tinta); }
+.tema-claro .faixa .fichas li { background: rgb(255 255 255 / 0.14); border-color: rgb(255 255 255 / 0.35); color: #fff; }
+.tema-claro .faixa .janela { border-color: rgb(255 255 255 / 0.3); }
+.tema-claro .chamada { background: linear-gradient(120deg, var(--azul-escuro), var(--azul-forte)); border: 0; color: #fff; }
+.tema-claro .chamada .mudo { color: #E3EEFC; }
+.tema-claro .chamada .botao-primario { background: #fff; color: var(--azul-escuro); border-color: #fff; box-shadow: none; }
+.tema-claro .rodape { background: #fff; }
+.tema-claro .rodape-colunas a:hover { color: var(--azul-forte); }
+.tema-claro .migalhas a { color: var(--tinta-2); }
