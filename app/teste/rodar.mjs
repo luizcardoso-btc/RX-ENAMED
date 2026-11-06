@@ -363,7 +363,7 @@ try {
   await foto(m, '27-celular-flashcards');
   await m.goto('http://app.local/#planos');
   await m.getByRole('heading', { name: 'Escolha o seu plano' }).waitFor();
-  for (const valor of ['R$ 147,90', 'R$ 497,90', 'R$ 1.490']) await m.getByText(valor, { exact: true }).first().waitFor();
+  for (const valor of ['R$ 197,90', 'R$ 997', 'R$ 1.997']) await m.getByText(valor, { exact: true }).first().waitFor();
   await verificarLargura(m, 'celular-planos');
   await foto(m, '28-celular-planos');
   await m.goto('http://app.local/#painel');

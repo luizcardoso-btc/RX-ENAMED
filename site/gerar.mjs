@@ -355,8 +355,8 @@ ${dados ? `<script type="application/ld+json">${JSON.stringify(dados).replace(/<
 const TEXTO_CURSO = {
   revalida: {
     ciclo: {
-      pt: { nome: 'Ciclo de prova', para: 'Até a prova do Revalida, 6 meses', itens: ['Tudo do mensal', 'Simulados por edição do Revalida', 'Treino em dupla com colega', 'Mentores por área', `O menor preço por mês: ${reais(valorMes(plano('ciclo')), 'pt')}`] },
-      es: { nome: 'Ciclo de examen', para: 'Hasta el examen del Revalida, 6 meses', itens: ['Todo lo del mensual', 'Simulacros por edición del Revalida', 'Práctica en pareja con un colega', 'Mentores por área', `El menor precio por mes: ${reais(valorMes(plano('ciclo')), 'es')}`] },
+      pt: { nome: 'Ciclo de prova', para: 'Até a prova do Revalida, 6 meses', itens: ['Tudo do mensal', 'Simulados por edição do Revalida', 'Treino em dupla com colega', 'Mentores por área', `Sai ${reais(6 * plano('mensal').preco - plano('ciclo').preco, 'pt')} mais barato que 6 meses no mensal`] },
+      es: { nome: 'Ciclo de examen', para: 'Hasta el examen del Revalida, 6 meses', itens: ['Todo lo del mensual', 'Simulacros por edición del Revalida', 'Práctica en pareja con un colega', 'Mentores por área', `Sale ${reais(6 * plano('mensal').preco - plano('ciclo').preco, 'es')} más barato que 6 meses en el mensual`] },
     },
   },
 };

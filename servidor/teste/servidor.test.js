@@ -110,7 +110,7 @@ test('PIX: pedido pendente, aviso com assinatura falsa é recusado, aviso válid
   assert.equal(r.status, 201);
   const { pedido } = r.corpo;
   assert.equal(pedido.status, 'pendente');
-  assert.equal(pedido.valorCentavos, 14790, 'o preço vem do servidor, não do navegador');
+  assert.equal(pedido.valorCentavos, 19790, 'o preço vem do servidor, não do navegador');
   assert.equal(pedido.pagamento.pixCopiaECola, '00020126PIXFALSO');
   const mpId = [...mpFalso.pagamentos.values()].find((p) => p.external_reference === pedido.id).id;
 
@@ -152,14 +152,14 @@ test('boleto: devolve link e código de barras', async () => {
   const r = await a.post('/api/checkout/pagar', { plano: 'segunda-etapa', metodo: 'boleto', cpf: CPF });
   assert.equal(r.status, 201);
   assert.equal(r.corpo.pedido.pagamento.boletoUrl, 'https://mp.test/boleto');
-  assert.equal(r.corpo.pedido.valorCentavos, 79790);
+  assert.equal(r.corpo.pedido.valorCentavos, 129700);
 });
 
 test('admin: resumo de vendas, lista de alunos, liberação manual, revogação, reembolso e CSV', async () => {
   const adm = cliente();
   await adm.post('/api/cadastro', { nome: 'Admin RX', email: 'admin@rx.test', senha: 'senha-forte-1' , aceite: true, ...FICHA });
   const resumo = (await adm.get('/api/admin/resumo?dias=30')).corpo;
-  assert.equal(resumo.receita.total, 14790 + 49790 + 14790);
+  assert.equal(resumo.receita.total, 19790 + 99700 + 19790);
   assert.equal(resumo.alunos.ativos, 2);
   assert.equal(resumo.serie.length, 30);
   assert.ok(resumo.conversao > 0 && resumo.conversao < 1);
@@ -217,20 +217,20 @@ test('cupons e afiliados: desconto calculado no servidor, comissão, limite de u
   await a.post('/api/cadastro', { nome: 'Elisa Melo', email: 'elisa@rx.test', senha: 'senha-forte-1' , aceite: true, ...FICHA });
   assert.equal((await a.post('/api/checkout/cupom', { plano: 'mensal', cupom: 'RX20' })).status, 400, 'cupom só do ciclo');
   const previa = (await a.post('/api/checkout/cupom', { plano: 'ciclo', cupom: 'rx20' })).corpo;
-  assert.equal(previa.valorCentavos, 49790 - 9958);
+  assert.equal(previa.valorCentavos, 99700 - 19940);
   const p1 = (await a.post('/api/checkout/pagar', { plano: 'ciclo', metodo: 'cartao', cpf: CPF, cupom: 'RX20', cartao: { token: 'ok', metodoPagamento: 'visa', parcelas: 1 } })).corpo.pedido;
-  assert.equal(p1.valorCentavos, 39832);
-  assert.equal(p1.descontoCentavos, 9958);
+  assert.equal(p1.valorCentavos, 99700 - 19940);
+  assert.equal(p1.descontoCentavos, 19940);
   assert.equal((await banco.um(`SELECT usos FROM cupons WHERE codigo = 'RX20'`)).usos, 1);
   assert.equal((await a.post('/api/checkout/cupom', { plano: 'ciclo', cupom: 'RX20' })).status, 400, 'limite de 1 uso atingido');
 
   const p2 = (await a.post('/api/checkout/pagar', { plano: 'mensal', metodo: 'cartao', cpf: CPF, cupom: 'PAULA50', cartao: { token: 'ok3', metodoPagamento: 'visa', parcelas: 1 } })).corpo.pedido;
-  assert.equal(p2.valorCentavos, 14790 - 5000);
+  assert.equal(p2.valorCentavos, 19790 - 5000);
   const p3 = (await a.post('/api/checkout/pagar', { plano: 'mensal', metodo: 'cartao', cpf: CPF, ref: 'PAULA', cartao: { token: 'ok4', metodoPagamento: 'visa', parcelas: 1 } })).corpo.pedido;
-  assert.equal(p3.valorCentavos, 14790, 'link de indicação não dá desconto, só atribui a venda');
+  assert.equal(p3.valorCentavos, 19790, 'link de indicação não dá desconto, só atribui a venda');
   const lista = (await adm.get('/api/admin/afiliados')).corpo.afiliados.find((x) => x.codigo === 'PAULA');
   assert.equal(lista.vendas, 2);
-  assert.equal(lista.comissao_em_garantia, Math.round(9790 * 0.3) + Math.round(14790 * 0.3));
+  assert.equal(lista.comissao_em_garantia, Math.round(14790 * 0.3) + Math.round(19790 * 0.3));
   assert.equal(lista.comissao_liberada, 0, 'comissão só libera depois dos 7 dias de garantia');
   const resumo = (await adm.get('/api/admin/resumo')).corpo;
   assert.equal(resumo.porAfiliado[0].codigo, 'PAULA');
@@ -338,7 +338,7 @@ test('indicação: link, desconto de 10% para o indicado, 30 dias para quem indi
   assert.equal((await amigo.get('/api/checkout/config')).corpo.descontoIndicacao, 10);
 
   const compra = (await amigo.post('/api/checkout/pagar', { plano: 'ciclo', metodo: 'cartao', cpf: '11144477735', cartao: { token: 'ind1', metodoPagamento: 'visa', parcelas: 1 } })).corpo.pedido;
-  assert.equal(compra.valorCentavos, 49790 - 4979, '10% de desconto na primeira compra');
+  assert.equal(compra.valorCentavos, 99700 - 9970, '10% de desconto na primeira compra');
   const iara = (await ana.get('/api/indicacao')).corpo;
   assert.equal(iara.cadastros, 1);
   assert.equal(iara.compraram, 1);
@@ -348,7 +348,7 @@ test('indicação: link, desconto de 10% para o indicado, 30 dias para quem indi
 
   // Segunda compra do indicado: sem desconto e sem nova recompensa.
   const segunda = (await amigo.post('/api/checkout/pagar', { plano: 'mensal', metodo: 'cartao', cpf: '11144477735', cartao: { token: 'ind2', metodoPagamento: 'visa', parcelas: 1 } })).corpo.pedido;
-  assert.equal(segunda.valorCentavos, 14790);
+  assert.equal(segunda.valorCentavos, 19790);
   assert.equal((await ana.get('/api/indicacao')).corpo.compraram, 1);
 
   // Reembolso da primeira compra cancela os 30 dias.

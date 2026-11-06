@@ -43,8 +43,8 @@
     },
     {
       "id": "mensal",
-      "preco": 14790,
-      "precoFundador": 14790,
+      "preco": 19790,
+      "precoFundador": 19790,
       "cobranca": "mensal",
       "parcelas": 1,
       "checkout": "",
@@ -74,8 +74,8 @@
     },
     {
       "id": "ciclo",
-      "preco": 49790,
-      "precoFundador": 49790,
+      "preco": 99700,
+      "precoFundador": 99700,
       "cobranca": "semestral",
       "parcelas": 6,
       "checkout": "",
@@ -88,7 +88,7 @@
           "Simulado de cada módulo",
           "Treino em dupla com colega",
           "Mentores por área",
-          "O menor preço por mês: R$ 82,98"
+          "Sai R$ 190,40 mais barato que 6 meses no mensal"
         ]
       },
       "es": {
@@ -99,15 +99,15 @@
           "Simulacro de cada módulo",
           "Práctica en pareja con un colega",
           "Mentores por área",
-          "El menor precio por mes: R$ 82,98"
+          "Sale R$ 190,40 más barato que 6 meses en el mensual"
         ]
       },
       "duracaoMeses": 6
     },
     {
       "id": "segunda-etapa",
-      "preco": 79790,
-      "precoFundador": 79790,
+      "preco": 129700,
+      "precoFundador": 129700,
       "cobranca": "unico",
       "parcelas": 6,
       "checkout": "",
@@ -135,8 +135,8 @@
     },
     {
       "id": "anual",
-      "preco": 149000,
-      "precoFundador": 149000,
+      "preco": 199700,
+      "precoFundador": 199700,
       "cobranca": "anual",
       "parcelas": 12,
       "checkout": "",
@@ -147,7 +147,7 @@
           "Tudo do ciclo de prova",
           "Pacote da 2ª etapa incluído",
           "Duas provas no período",
-          "Sai R$ 303,70 mais barato que dois ciclos e a 2ª etapa avulsa"
+          "Sai R$ 1.294 mais barato que dois ciclos e a 2ª etapa avulsa"
         ]
       },
       "es": {
@@ -157,7 +157,7 @@
           "Todo lo del ciclo de examen",
           "Paquete de la 2.ª etapa incluido",
           "Dos exámenes en el periodo",
-          "Sale R$ 303,70 más barato que dos ciclos y la 2.ª etapa por separado"
+          "Sale R$ 1.294 más barato que dos ciclos y la 2.ª etapa por separado"
         ]
       },
       "duracaoMeses": 12
