@@ -3,8 +3,18 @@ import { exigirLogin, exigirAdmin } from './autenticacao.js';
 import { aplicarPagamento } from '../pagamentos.js';
 import { somarMeses } from '../planos.js';
 import { resumoMetas, lerMetas } from '../metas.js';
+import { existsSync, readFileSync } from 'node:fs';
 
 const ETAPAS = { 1: '1º ano', 2: '2º ano', 3: '3º ano', 4: '4º ano', 5: '5º ano (internato)', 6: '6º ano (internato)', formado: 'Formado no Brasil', exterior: 'Formado no exterior' };
+
+// Escolas médicas do Brasil (INEP, Censo da Educação Superior) para a prospecção de parcerias.
+const ARQ_FACULDADES = new URL('../../../conteudo/faculdades/escolas-medicas.json', import.meta.url).pathname;
+const FACULDADES = existsSync(ARQ_FACULDADES) ? JSON.parse(readFileSync(ARQ_FACULDADES, 'utf8')) : { escolas: [] };
+const POR_CURSO = new Map(FACULDADES.escolas.map((e) => [e.curso, e]));
+const STATUS_FACULDADE = ['nao_contatado', 'pesquisada', 'contato_feito', 'reuniao_agendada', 'visitada', 'proposta_enviada', 'parceria', 'sem_interesse'];
+const TIPOS_INTERACAO = ['email', 'ligacao', 'whatsapp', 'reuniao', 'visita', 'proposta', 'outro'];
+const CAMPOS_CRM = ['status', 'prioridade', 'contato_nome', 'contato_cargo', 'contato_email', 'contato_telefone', 'proxima_acao', 'proxima_data', 'visita_data', 'cupom', 'notas'];
+const dataISO = (d) => (d ? new Date(d).toISOString().slice(0, 10) : '');
 
 const POR_PAGINA = 50;
 // Situação do aluno calculada no banco: ativo (acesso vigente), vencendo (termina em até 7 dias), expirado (já teve) ou gratuito (nunca pagou).
@@ -257,6 +267,69 @@ export function rotasAdmin({ banco, planos, mp, correio, config }) {
     await banco.consulta(`INSERT INTO configuracoes (chave, valor) VALUES ('metas', $1) ON CONFLICT (chave) DO UPDATE SET valor = EXCLUDED.valor, atualizado_em = now()`, [JSON.stringify(valor)]);
     await auditar(req, 'alterar_metas', 'metas', { antes, depois: valor });
     res.json({ metas: valor });
+  });
+
+  // ---- Prospecção de escolas médicas: lista oficial + acompanhamento de cada escola.
+  r.get('/faculdades', async (req, res) => {
+    const crm = new Map((await banco.varios(`SELECT c.*, u.nome AS atualizado_por_nome,
+        (SELECT count(*) FROM faculdades_interacoes i WHERE i.curso_id = c.curso_id)::int AS interacoes
+      FROM faculdades_crm c LEFT JOIN usuarios u ON u.id = c.atualizado_por`)).map((c) => [c.curso_id, c]));
+    const escolas = FACULDADES.escolas.map((e) => ({ ...e, crm: crm.get(e.curso) || null }));
+    if (req.query.formato === 'csv') {
+      res.type('text/csv; charset=utf-8').attachment('escolas-medicas-prospeccao.csv');
+      return res.send('﻿' + csv([['Curso (INEP)', 'Instituição', 'Sigla', 'Categoria', 'Município', 'UF', 'Região', 'Matrículas', 'Concluintes', 'Vagas', 'Status', 'Prioridade', 'Contato', 'Cargo', 'E-mail', 'Telefone', 'Próxima ação', 'Data da próxima ação', 'Visita', 'Cupom', 'Notas'],
+        ...escolas.map((e) => [e.curso, e.nome, e.sigla, e.categoria, e.municipio, e.uf, e.regiao, e.matriculas, e.concluintes, e.vagas,
+          e.crm?.status || 'nao_contatado', e.crm?.prioridade || 'media', e.crm?.contato_nome, e.crm?.contato_cargo, e.crm?.contato_email, e.crm?.contato_telefone,
+          e.crm?.proxima_acao, dataISO(e.crm?.proxima_data), dataISO(e.crm?.visita_data), e.crm?.cupom, e.crm?.notas])]));
+    }
+    res.json({ fonte: FACULDADES._fonte, ano: FACULDADES.ano, escolas });
+  });
+
+  r.get('/faculdades/:curso', async (req, res) => {
+    const escola = POR_CURSO.get(Number(req.params.curso));
+    if (!escola) return res.status(404).json({ erro: 'Escola não encontrada.' });
+    const crm = await banco.um('SELECT * FROM faculdades_crm WHERE curso_id = $1', [escola.curso]);
+    const interacoes = await banco.varios(`SELECT i.id, i.tipo, i.texto, i.em, u.nome AS admin FROM faculdades_interacoes i
+      LEFT JOIN usuarios u ON u.id = i.admin_id WHERE i.curso_id = $1 ORDER BY i.em DESC LIMIT 100`, [escola.curso]);
+    // Outros cursos da mesma instituição (campi em outras cidades).
+    const campi = FACULDADES.escolas.filter((e) => e.ies === escola.ies && e.curso !== escola.curso).map((e) => ({ curso: e.curso, municipio: e.municipio, uf: e.uf }));
+    res.json({ escola, crm, interacoes, campi });
+  });
+
+  r.put('/faculdades/:curso', async (req, res) => {
+    const escola = POR_CURSO.get(Number(req.params.curso));
+    if (!escola) return res.status(404).json({ erro: 'Escola não encontrada.' });
+    const b = req.body || {};
+    const v = {};
+    for (const c of CAMPOS_CRM) {
+      const x = b[c] === undefined || b[c] === null ? null : String(b[c]).trim().slice(0, c === 'notas' ? 4000 : 300);
+      v[c] = x === '' ? null : x;
+    }
+    v.status = v.status || 'nao_contatado';
+    v.prioridade = v.prioridade || 'media';
+    if (!STATUS_FACULDADE.includes(v.status)) return res.status(400).json({ erro: 'Status inválido.' });
+    if (!['alta', 'media', 'baixa'].includes(v.prioridade)) return res.status(400).json({ erro: 'Prioridade inválida.' });
+    for (const c of ['proxima_data', 'visita_data']) if (v[c] && !/^\d{4}-\d{2}-\d{2}$/.test(v[c])) return res.status(400).json({ erro: 'Data inválida.' });
+    if (v.contato_email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.contato_email)) return res.status(400).json({ erro: 'E-mail do contato inválido.' });
+    const antes = await banco.um('SELECT status FROM faculdades_crm WHERE curso_id = $1', [escola.curso]);
+    const crm = await banco.um(`INSERT INTO faculdades_crm (curso_id, ${CAMPOS_CRM.join(', ')}, atualizado_em, atualizado_por)
+      VALUES ($1, ${CAMPOS_CRM.map((_, i) => `$${i + 2}`).join(', ')}, now(), $${CAMPOS_CRM.length + 2})
+      ON CONFLICT (curso_id) DO UPDATE SET ${CAMPOS_CRM.map((c) => `${c} = EXCLUDED.${c}`).join(', ')}, atualizado_em = now(), atualizado_por = EXCLUDED.atualizado_por
+      RETURNING *`, [escola.curso, ...CAMPOS_CRM.map((c) => v[c]), req.usuario.id]);
+    if ((antes?.status || 'nao_contatado') !== v.status) await auditar(req, 'faculdade_status', String(escola.curso), { escola: escola.nome, municipio: escola.municipio, de: antes?.status || 'nao_contatado', para: v.status });
+    res.json({ crm });
+  });
+
+  r.post('/faculdades/:curso/interacoes', async (req, res) => {
+    const escola = POR_CURSO.get(Number(req.params.curso));
+    if (!escola) return res.status(404).json({ erro: 'Escola não encontrada.' });
+    const tipo = String(req.body?.tipo || '');
+    const texto = String(req.body?.texto || '').trim().slice(0, 2000);
+    if (!TIPOS_INTERACAO.includes(tipo)) return res.status(400).json({ erro: 'Tipo de contato inválido.' });
+    if (texto.length < 2) return res.status(400).json({ erro: 'Descreva o contato.' });
+    const i = await banco.um('INSERT INTO faculdades_interacoes (curso_id, tipo, texto, admin_id) VALUES ($1, $2, $3, $4) RETURNING id, tipo, texto, em',
+      [escola.curso, tipo, texto, req.usuario.id]);
+    res.status(201).json({ interacao: i });
   });
 
   r.get('/auditoria', async (_req, res) => {

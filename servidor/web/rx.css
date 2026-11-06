@@ -57,7 +57,7 @@ body { background: var(--papel); color: var(--tinta); font-family: var(--f-ui); 
 .rx-grafico i { flex: 1; background: var(--acento); border-radius: 3px 3px 0 0; min-height: 2px; position: relative; }
 .rx-grafico i:hover { background: var(--realce); }
 .rx-duas { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin-top: 16px; }
-.rx-gaveta { position: fixed; inset: 0 0 0 auto; width: min(560px, 100%); background: var(--folha); border-left: 1px solid var(--linha); padding: 22px; overflow-y: auto; z-index: 20; box-shadow: -20px 0 40px #0008; }
+.rx-gaveta { position: fixed; inset: 0 0 0 auto; width: min(560px, 100%); background: var(--folha); border-left: 1px solid var(--linha); padding: 22px; overflow-y: auto; z-index: 2000; box-shadow: -20px 0 40px #0008; }
 .rx-gaveta h2 { margin-top: 0; }
 .rx-linha { display: flex; gap: 8px; flex-wrap: wrap; align-items: end; }
 button.botao { font: inherit; font-weight: 600; }
@@ -160,3 +160,25 @@ button.botao { font: inherit; font-weight: 600; }
 .rx-escolha label:focus-within { outline: 2px solid var(--acento); outline-offset: 1px; }
 .dica-campo { font-size: .8rem; margin: -6px 0 12px; }
 .rx-campo optgroup { color: var(--tinta-3); }
+/* aba Faculdades: mapa e prospecção */
+.fac-cabecalho { display: flex; justify-content: space-between; align-items: end; gap: 16px; flex-wrap: wrap; margin-bottom: 16px; }
+.fac-mapa-caixa { padding: 0; overflow: hidden; margin-bottom: 10px; }
+#fac-mapa { height: 520px; background: #0d2430; }
+.fac-legenda { display: flex; flex-wrap: wrap; gap: 6px 14px; padding: 10px 14px; font-size: .8rem; border-top: 1px solid var(--linha); }
+.fac-legenda i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+.fac-status { display: inline-flex; align-items: center; gap: 6px; font-size: .8rem; font-weight: 600; white-space: nowrap; }
+.fac-status::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--c); }
+.fac-atrasada { color: var(--aviso); font-weight: 600; }
+.fac-form { display: grid; grid-template-columns: 1fr 1fr; gap: 0 12px; }
+.fac-form .fac-largo { grid-column: 1 / -1; }
+.fac-form textarea { background: var(--folha-2); color: var(--tinta); border: 1px solid var(--linha); border-radius: 10px; padding: 11px 12px; font: inherit; width: 100%; box-sizing: border-box; }
+.fac-dicas { padding-left: 18px; color: var(--tinta-2); display: grid; gap: 6px; }
+.fac-historico { list-style: none; padding: 0; display: grid; gap: 10px; }
+.fac-historico li { border-left: 2px solid var(--linha); padding-left: 10px; }
+.fac-guia { margin-bottom: 18px; }
+.fac-guia-grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 4px 22px; }
+.fac-guia ul, .fac-guia ol { padding-left: 18px; color: var(--tinta-2); display: grid; gap: 6px; }
+.fac-modelo { white-space: pre-wrap; background: var(--folha-2); border: 1px solid var(--linha); border-radius: 10px; padding: 14px; font: .88rem/1.55 var(--f-ui); color: var(--tinta-2); }
+.leaflet-container { font-family: var(--f-ui); }
+.leaflet-tooltip { background: var(--folha); color: var(--tinta); border: 1px solid var(--linha); }
+@media (max-width: 760px) { #fac-mapa { height: 380px; } .fac-form { grid-template-columns: 1fr; } }

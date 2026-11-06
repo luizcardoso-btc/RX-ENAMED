@@ -52,7 +52,7 @@ function cliente() {
     const tipo = r.headers.get('content-type') || '';
     return { status: r.status, corpo: tipo.includes('json') ? await r.json() : await r.text() };
   };
-  return { get: (c) => req('GET', c), post: (c, b, e) => req('POST', c, b, e), cookie: () => cookie };
+  return { get: (c) => req('GET', c), post: (c, b, e) => req('POST', c, b, e), put: (c, b) => req('PUT', c, b), cookie: () => cookie };
 }
 const assinar = (idDado, idReq = 'req-1', ts = Math.floor(Date.now() / 1000)) =>
   `ts=${ts},v1=${createHmac('sha256', SEGREDO).update(`id:${idDado};request-id:${idReq};ts:${ts};`).digest('hex')}`;
@@ -594,4 +594,41 @@ test('2ª etapa: admin vê o acervo inteiro com origem, pendências e validaçã
   assert.ok(r.estacoes.filter((e) => e.status === 'publicada').every((e) => e.problemas.length === 0 && e.somaPep === 10));
   const aluno = await alunoNovo('Eva');
   assert.equal((await aluno.get('/api/admin/estacoes')).status, 403);
+});
+
+test('admin: mapa das escolas médicas e acompanhamento da prospecção', async () => {
+  const adm = cliente();
+  await adm.post('/api/entrar', { email: 'admin@rx.test', senha: 'senha-forte-1' });
+  const { codigoTotp } = await import('../src/seguranca.js');
+  const seg = (await banco.um(`SELECT totp_segredo FROM usuarios WHERE email = 'admin@rx.test'`)).totp_segredo;
+  await adm.post('/api/2fa/verificar', { codigo: codigoTotp(seg) });
+  const resp = await adm.get('/api/admin/faculdades');
+  assert.equal(resp.status, 200, JSON.stringify(resp.corpo).slice(0, 200));
+  const { escolas, fonte } = resp.corpo;
+  assert.equal(escolas.length, 467, 'todos os cursos de Medicina do censo');
+  assert.match(fonte, /INEP/);
+  assert.ok(escolas.every((e) => Number.isFinite(e.lat) && Number.isFinite(e.lng) && e.uf && e.municipio), 'toda escola tem coordenadas, cidade e UF');
+  assert.ok(escolas.some((e) => e.rede === 'Pública') && escolas.some((e) => e.rede === 'Privada'));
+  const unb = escolas.find((e) => e.sigla === 'UNB');
+  assert.equal(unb.crm, null);
+
+  assert.equal((await adm.put(`/api/admin/faculdades/${unb.curso}`, { status: 'inventado' })).status, 400);
+  assert.equal((await adm.put(`/api/admin/faculdades/${unb.curso}`, { status: 'contato_feito', contato_email: 'sem-arroba' })).status, 400);
+  const salvo = (await adm.put(`/api/admin/faculdades/${unb.curso}`, { status: 'reuniao_agendada', prioridade: 'alta', contato_nome: 'Profa. Ana', contato_email: 'coord@unb.test', proxima_acao: 'Reunião com a coordenação', proxima_data: '2026-12-01' })).corpo.crm;
+  assert.equal(salvo.status, 'reuniao_agendada');
+  assert.equal((await adm.post(`/api/admin/faculdades/${unb.curso}/interacoes`, { tipo: 'ligacao', texto: 'Coordenação pediu apresentação online' })).status, 201);
+  assert.equal((await adm.post(`/api/admin/faculdades/${unb.curso}/interacoes`, { tipo: 'pombo', texto: 'x' })).status, 400);
+  const det = (await adm.get(`/api/admin/faculdades/${unb.curso}`)).corpo;
+  assert.equal(det.crm.contato_nome, 'Profa. Ana');
+  assert.equal(det.interacoes.length, 1);
+  const lista = (await adm.get('/api/admin/faculdades')).corpo.escolas;
+  assert.equal(lista.find((e) => e.curso === unb.curso).crm.interacoes, 1);
+  const planilha = await adm.get('/api/admin/faculdades?formato=csv');
+  assert.match(planilha.corpo, /Reunião com a coordenação/);
+  assert.ok((await adm.get('/api/admin/auditoria')).corpo.eventos.some((e) => e.acao === 'faculdade_status'));
+  assert.equal((await adm.get('/api/admin/faculdades/999999999')).status, 404);
+
+  const aluno = cliente();
+  await aluno.post('/api/cadastro', { nome: 'Leo Prospect', email: 'leo@rx.test', senha: 'senha-forte-1', aceite: true, ...FICHA });
+  assert.equal((await aluno.get('/api/admin/faculdades')).status, 403, 'aluno não vê a prospecção');
 });
