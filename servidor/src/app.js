@@ -74,6 +74,10 @@ export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ b
   // Estações da 2ª etapa (autorais e oficiais do Inep), lidas uma vez: a parte reservada só sai pela API, por papel.
   const acervo = carregarAcervo(config.pastaConteudo);
   const web = new URL('../web/', import.meta.url).pathname;
+  // Versão dos scripts e estilos: hash do conteúdo de servidor/web. As páginas pedem /_rx/arquivo.js?v=VERSAO e os
+  // imports entre módulos levam a mesma versão, então um deploy sempre baixa o código novo, mesmo com cache antigo.
+  const VERSAO = createHash('sha1').update(readdirSync(web).filter((n) => /\.(js|css|html)$/.test(n)).sort()
+    .map((n) => n + readFileSync(web + n, 'utf8')).join('\n')).digest('hex').slice(0, 10);
   const csp = politica(hashesDeScripts([web, config.pastaSite]));
   app.disable('x-powered-by');
   app.set('trust proxy', 1); // um proxy na frente (Railway/Render): req.ip é o IP real do visitante
@@ -94,7 +98,7 @@ export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ b
   });
   app.get('/api/saude', async (_req, res) => {
     await banco.consulta('SELECT 1');
-    res.set('Cache-Control', 'no-store').json({ ok: true });
+    res.set('Cache-Control', 'no-store').json({ ok: true, versao: VERSAO });
   });
   app.use('/api', limiteGeral(600 * (config.multiplicadorLimites || 1)), (_req, res, next) => { res.set('Cache-Control', 'no-store'); next(); });
   app.use('/api/progresso', express.json({ limit: '4mb' }));
@@ -131,6 +135,15 @@ export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ b
   // Páginas próprias do servidor: entrar, checkout, conta, admin e documentos legais.
   // Scripts e estilos das páginas do servidor são revalidados a cada visita (304 quando não mudaram), para que um deploy
   // nunca misture a página nova com um script antigo do cache. O mapa (Leaflet) e as imagens podem ficar em cache.
+  const comVersao = (texto) => texto.replace(/(["'])(\/_rx\/[\w-]+\.(?:js|css))\1/g, `$1$2?v=${VERSAO}$1`)
+    .replace(/(from\s+|import\s*\(\s*)(["'])(\.\/[\w-]+\.js)\2/g, `$1$2$3?v=${VERSAO}$2`);
+  const jsVersionado = new Map();
+  app.get(/^\/_rx\/[\w-]+\.js$/, (req, res, next) => {
+    const nome = req.path.slice(5);
+    if (!existsSync(web + nome)) return next();
+    if (!jsVersionado.has(nome)) jsVersionado.set(nome, comVersao(readFileSync(web + nome, 'utf8')));
+    res.set('Cache-Control', req.query.v === VERSAO ? 'public, max-age=31536000, immutable' : 'no-cache').type('text/javascript').send(jsVersionado.get(nome));
+  });
   app.use('/_rx', express.static(web, {
     maxAge: 0,
     setHeaders: (res, caminho) => res.set('Cache-Control', config.producao && /[\\/]leaflet[\\/]|\.(png|svg|jpg|webp|woff2?)$/.test(caminho) ? 'public, max-age=86400' : 'no-cache'),
@@ -140,17 +153,22 @@ export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ b
   // Documentos legais com os dados da empresa vindos da configuração.
   const esc = (x) => String(x).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   for (const [rota, arquivo] of [['/privacidade', 'privacidade.html'], ['/termos', 'termos.html']]) {
-    const html = readFileSync(web + arquivo, 'utf8')
+    const html = comVersao(readFileSync(web + arquivo, 'utf8'))
       .replaceAll('{{EMPRESA}}', esc(config.legal.empresa))
       .replaceAll('{{DOCUMENTO}}', config.legal.documento ? ` (${esc(config.legal.documento)})` : '')
       .replaceAll('{{EMAIL}}', esc(config.legal.email))
       .replaceAll('{{DATA}}', esc(config.legal.data));
     app.get(rota, (_req, res) => res.type('html').send(html));
   }
+  const htmlVersionado = new Map();
+  const paginaVersionada = (arquivo) => {
+    if (!htmlVersionado.has(arquivo)) htmlVersionado.set(arquivo, comVersao(readFileSync(web + arquivo, 'utf8')).replaceAll('{{VERSAO}}', VERSAO));
+    return htmlVersionado.get(arquivo);
+  };
   for (const [rota, arquivo] of paginas.filter(([r]) => !['/privacidade', '/termos'].includes(r))) {
     app.get(rota, (_req, res) => {
       if (['/admin', '/minha-conta', '/redefinir-senha', '/checkout'].includes(rota)) res.set({ 'Cache-Control': 'no-store', 'X-Robots-Tag': 'noindex' });
-      res.sendFile(web + arquivo);
+      res.type('html').send(paginaVersionada(arquivo));
     });
   }
   app.get('/.well-known/security.txt', (_req, res) => res.type('text/plain').send(
