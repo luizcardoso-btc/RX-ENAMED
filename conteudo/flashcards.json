@@ -5721,6 +5721,427 @@
         "frente": "Fractura expuesta: ¿conductas iniciales?",
         "verso": "Antibiótico precoz (cefazolina; añadir gentamicina en lesiones graves), profilaxis antitetánica, alineación, apósito estéril y desbridamiento/limpieza quirúrgica en las primeras horas."
       }
+    },
+    {
+      "id": "cm-bav-mobitz",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Bradiarritmias",
+      "frente": "BAV de 2º grau: como diferenciar Mobitz I de Mobitz II?",
+      "verso": "Mobitz I: PR aumenta até uma P bloquear; nodal, em geral benigno. Mobitz II: PR fixo e P bloqueada de repente; infranodal, indica marca-passo.",
+      "questoes": [
+        "revalida_2011_q024"
+      ],
+      "es": {
+        "frente": "BAV de 2.º grado: ¿cómo diferenciar Mobitz I de Mobitz II?",
+        "verso": "Mobitz I: el PR aumenta hasta que una P se bloquea; nodal, en general benigno. Mobitz II: PR fijo y P bloqueada de repente; infranodal, indica marcapasos."
+      }
+    },
+    {
+      "id": "cm-bavt-ecg",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Bradiarritmias",
+      "frente": "BAV total: achado no ECG?",
+      "verso": "Dissociação atrioventricular: ondas P e QRS sem relação, com ritmo de escape (QRS largo indica escape ventricular).",
+      "questoes": [],
+      "es": {
+        "frente": "BAV completo: ¿hallazgo en el ECG?",
+        "verso": "Disociación auriculoventricular: ondas P y QRS sin relación, con ritmo de escape (QRS ancho indica escape ventricular)."
+      }
+    },
+    {
+      "id": "cm-bradi-instavel",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Bradiarritmias",
+      "frente": "Bradicardia instável: sequência de tratamento?",
+      "verso": "Atropina 1 mg IV a cada 3 a 5 min até 3 mg; sem resposta, marca-passo transcutâneo ou dopamina 5 a 20 mcg/kg/min ou adrenalina 2 a 10 mcg/min.",
+      "questoes": [],
+      "es": {
+        "frente": "Bradicardia inestable: ¿secuencia de tratamiento?",
+        "verso": "Atropina 1 mg IV cada 3 a 5 min hasta 3 mg; sin respuesta, marcapasos transcutáneo o dopamina 5 a 20 mcg/kg/min o adrenalina 2 a 10 mcg/min."
+      }
+    },
+    {
+      "id": "cm-mp-definitivo",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Bradiarritmias",
+      "frente": "Marca-passo definitivo: principais indicações?",
+      "verso": "BAV total, Mobitz II e BAV avançado (mesmo sem sintomas), doença do nó sinusal sintomática e bradicardia sintomática por droga indispensável.",
+      "questoes": [
+        "revalida_2016_q007"
+      ],
+      "es": {
+        "frente": "Marcapasos definitivo: ¿principales indicaciones?",
+        "verso": "BAV completo, Mobitz II y BAV avanzado (aun sin síntomas), enfermedad del nódulo sinusal sintomática y bradicardia sintomática por fármaco indispensable."
+      }
+    },
+    {
+      "id": "cm-bradi-reversiveis",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Bradiarritmias",
+      "frente": "Bradicardia: causas reversíveis a afastar antes do marca-passo?",
+      "verso": "Betabloqueador, verapamil, diltiazem, digoxina, hipercalemia, hipotireoidismo, hipotermia, hipóxia e IAM inferior (bloqueio nodal transitório).",
+      "questoes": [],
+      "es": {
+        "frente": "Bradicardia: ¿causas reversibles a descartar antes del marcapasos?",
+        "verso": "Betabloqueante, verapamilo, diltiazem, digoxina, hiperpotasemia, hipotiroidismo, hipotermia, hipoxia e IAM inferior (bloqueo nodal transitorio)."
+      }
+    },
+    {
+      "id": "cm-chagas-ecg",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Bradiarritmias",
+      "frente": "ECG típico da cardiopatia chagásica?",
+      "verso": "Bloqueio de ramo direito com bloqueio divisional anterossuperior esquerdo; também BAV, extrassístoles e taquicardia ventricular.",
+      "questoes": [],
+      "es": {
+        "frente": "¿ECG típico de la cardiopatía chagásica?",
+        "verso": "Bloqueo de rama derecha con hemibloqueo anterior izquierdo; también BAV, extrasístoles y taquicardia ventricular."
+      }
+    },
+    {
+      "id": "cm-tsv-adenosina",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Taquiarritmias",
+      "frente": "Taquicardia de QRS estreito regular e estável: conduta?",
+      "verso": "Manobra vagal (Valsalva modificada); se falhar, adenosina 6 mg em bolus rápido com flush, depois 12 mg; alternativa: verapamil, diltiazem ou betabloqueador.",
+      "questoes": [],
+      "es": {
+        "frente": "Taquicardia de QRS estrecho regular y estable: ¿conducta?",
+        "verso": "Maniobra vagal (Valsalva modificada); si falla, adenosina 6 mg en bolo rápido con flush, después 12 mg; alternativa: verapamilo, diltiazem o betabloqueante."
+      }
+    },
+    {
+      "id": "cm-qrs-largo",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Taquiarritmias",
+      "frente": "Taquicardia de QRS largo estável de origem incerta: como tratar?",
+      "verso": "Como taquicardia ventricular: amiodarona 150 mg em 10 min ou procainamida. Nunca verapamil.",
+      "questoes": [],
+      "es": {
+        "frente": "Taquicardia de QRS ancho estable de origen incierto: ¿cómo tratarla?",
+        "verso": "Como taquicardia ventricular: amiodarona 150 mg en 10 min o procainamida. Nunca verapamilo."
+      }
+    },
+    {
+      "id": "cm-torsades",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Taquiarritmias",
+      "frente": "Torsades de pointes: tratamento?",
+      "verso": "Sulfato de magnésio 2 g IV, correção de potássio e magnésio, suspensão de drogas que alongam o QT; instável, desfibrilação.",
+      "questoes": [],
+      "es": {
+        "frente": "Torsades de pointes: ¿tratamiento?",
+        "verso": "Sulfato de magnesio 2 g IV, corrección de potasio y magnesio, suspensión de fármacos que prolongan el QT; inestable, desfibrilación."
+      }
+    },
+    {
+      "id": "cm-wpw-ecg",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Taquiarritmias",
+      "frente": "Wolff-Parkinson-White: ECG em ritmo sinusal?",
+      "verso": "PR curto (menos de 120 ms), onda delta e QRS alargado.",
+      "questoes": [],
+      "es": {
+        "frente": "Wolff-Parkinson-White: ¿ECG en ritmo sinusal?",
+        "verso": "PR corto (menos de 120 ms), onda delta y QRS ensanchado."
+      }
+    },
+    {
+      "id": "cm-fa-preexcitada",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Taquiarritmias",
+      "frente": "Fibrilação atrial pré-excitada: o que não usar e o que usar?",
+      "verso": "Não usar bloqueadores do nó (adenosina, betabloqueador, verapamil, diltiazem, digoxina). Usar procainamida ou cardioversão elétrica.",
+      "questoes": [],
+      "es": {
+        "frente": "Fibrilación auricular preexcitada: ¿qué no usar y qué usar?",
+        "verso": "No usar bloqueadores del nódulo (adenosina, betabloqueante, verapamilo, diltiazem, digoxina). Usar procainamida o cardioversión eléctrica."
+      }
+    },
+    {
+      "id": "cm-cardioversao-desfibrilacao",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Taquiarritmias",
+      "frente": "Cardioversão sincronizada ou desfibrilação?",
+      "verso": "Sincronizada: taquiarritmia instável com pulso. Desfibrilação (não sincronizada): fibrilação ventricular, taquicardia ventricular sem pulso e TV polimórfica instável.",
+      "questoes": [
+        "revalida_2023-1_q001",
+        "revalida_2011_q021"
+      ],
+      "es": {
+        "frente": "¿Cardioversión sincronizada o desfibrilación?",
+        "verso": "Sincronizada: taquiarritmia inestable con pulso. Desfibrilación (no sincronizada): fibrilación ventricular, taquicardia ventricular sin pulso y TV polimorfa inestable."
+      }
+    },
+    {
+      "id": "cm-fa-ecg",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Fibrilação e flutter atrial",
+      "frente": "Fibrilação atrial: ECG e exame físico?",
+      "verso": "RR irregularmente irregular, sem onda P, ondas f na linha de base; pulso irregular, déficit de pulso e ausência de B4.",
+      "questoes": [
+        "revalida_2021_q079"
+      ],
+      "es": {
+        "frente": "Fibrilación auricular: ¿ECG y examen físico?",
+        "verso": "RR irregularmente irregular, sin onda P, ondas f en la línea de base; pulso irregular, déficit de pulso y ausencia de R4."
+      }
+    },
+    {
+      "id": "cm-fa-48h",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Fibrilação e flutter atrial",
+      "frente": "Fibrilação atrial estável: regra das 48 horas?",
+      "verso": "Menos de 48 h: pode cardioverter com anticoagulação. 48 h ou mais ou tempo desconhecido: 3 semanas de anticoagulação ou ecocardiograma transesofágico sem trombo; depois, 4 semanas de anticoagulação.",
+      "questoes": [],
+      "es": {
+        "frente": "Fibrilación auricular estable: ¿regla de las 48 horas?",
+        "verso": "Menos de 48 h: se puede cardiovertir con anticoagulación. 48 h o más o tiempo desconocido: 3 semanas de anticoagulación o ecocardiograma transesofágico sin trombo; después, 4 semanas de anticoagulación."
+      }
+    },
+    {
+      "id": "cm-chadsvasc",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Fibrilação e flutter atrial",
+      "frente": "CHA2DS2-VASc: componentes e quando anticoagular?",
+      "verso": "IC 1, HAS 1, idade 75 ou mais 2, diabetes 1, AVC/AIT 2, doença vascular 1, 65 a 74 anos 1, sexo feminino 1. Anticoagular com 2 ou mais no homem e 3 ou mais na mulher.",
+      "questoes": [
+        "revalida_2020_q029"
+      ],
+      "es": {
+        "frente": "CHA2DS2-VASc: ¿componentes y cuándo anticoagular?",
+        "verso": "IC 1, HTA 1, edad 75 o más 2, diabetes 1, ACV/AIT 2, enfermedad vascular 1, 65 a 74 años 1, sexo femenino 1. Anticoagular con 2 o más en el hombre y 3 o más en la mujer."
+      }
+    },
+    {
+      "id": "cm-fa-varfarina",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Fibrilação e flutter atrial",
+      "frente": "Fibrilação atrial: quando a varfarina é obrigatória?",
+      "verso": "Estenose mitral moderada a grave e prótese valvar mecânica (INR entre 2 e 3). Nos demais, preferir anticoagulantes diretos.",
+      "questoes": [],
+      "es": {
+        "frente": "Fibrilación auricular: ¿cuándo es obligatoria la warfarina?",
+        "verso": "Estenosis mitral moderada a grave y prótesis valvular mecánica (INR entre 2 y 3). En los demás, preferir anticoagulantes directos."
+      }
+    },
+    {
+      "id": "cm-fa-frequencia",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Fibrilação e flutter atrial",
+      "frente": "Fibrilação atrial estável com resposta rápida: controle de frequência?",
+      "verso": "Betabloqueador ou diltiazem/verapamil; com IC de fração reduzida, evitar diltiazem e verapamil e usar betabloqueador com cautela, digoxina ou amiodarona.",
+      "questoes": [
+        "revalida_2011_q041"
+      ],
+      "es": {
+        "frente": "Fibrilación auricular estable con respuesta rápida: ¿control de frecuencia?",
+        "verso": "Betabloqueante o diltiazem/verapamilo; con IC de fracción reducida, evitar diltiazem y verapamilo y usar betabloqueante con cautela, digoxina o amiodarona."
+      }
+    },
+    {
+      "id": "cm-flutter-ecg",
+      "area": "Clínica Médica",
+      "especialidade": "Cardiologia",
+      "tema": "Fibrilação e flutter atrial",
+      "frente": "Flutter atrial: ECG e tratamento definitivo?",
+      "verso": "Ondas F em dente de serra em DII, DIII e aVF, frequência atrial perto de 300; condução 2:1 dá FC regular perto de 150. Ablação do istmo cavotricuspídeo.",
+      "questoes": [],
+      "es": {
+        "frente": "Flutter auricular: ¿ECG y tratamiento definitivo?",
+        "verso": "Ondas F en dientes de sierra en DII, DIII y aVF, frecuencia auricular cerca de 300; la conducción 2:1 da FC regular cerca de 150. Ablación del istmo cavotricuspídeo."
+      }
+    },
+    {
+      "id": "cir-divert-exame",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Diverticulite aguda",
+      "frente": "Diverticulite aguda: exame de escolha e o que é contraindicado na fase aguda?",
+      "verso": "Tomografia de abdome e pelve com contraste. Colonoscopia e enema opaco são contraindicados na fase aguda; colonoscopia depois de 6 a 8 semanas.",
+      "questoes": [
+        "revalida_2024-1_q092"
+      ],
+      "es": {
+        "frente": "Diverticulitis aguda: ¿examen de elección y qué está contraindicado en la fase aguda?",
+        "verso": "Tomografía de abdomen y pelvis con contraste. La colonoscopia y el enema opaco están contraindicados en la fase aguda; colonoscopia después de 6 a 8 semanas."
+      }
+    },
+    {
+      "id": "cir-hinchey",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Diverticulite aguda",
+      "frente": "Classificação de Hinchey?",
+      "verso": "I abscesso pericólico; II abscesso pélvico ou à distância; III peritonite purulenta; IV peritonite fecal.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Clasificación de Hinchey?",
+        "verso": "I absceso pericólico; II absceso pélvico o a distancia; III peritonitis purulenta; IV peritonitis fecal."
+      }
+    },
+    {
+      "id": "cir-divert-abscesso",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Diverticulite aguda",
+      "frente": "Diverticulite com abscesso: conduta pelo tamanho?",
+      "verso": "Menor que 3 a 4 cm: antibiótico intravenoso. Maior: antibiótico e drenagem percutânea guiada por tomografia.",
+      "questoes": [
+        "revalida_2017_q007"
+      ],
+      "es": {
+        "frente": "Diverticulitis con absceso: ¿conducta según el tamaño?",
+        "verso": "Menor de 3 a 4 cm: antibiótico intravenoso. Mayor: antibiótico y drenaje percutáneo guiado por tomografía."
+      }
+    },
+    {
+      "id": "cir-hartmann",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Diverticulite aguda",
+      "frente": "Diverticulite com peritonite fecal ou paciente instável: cirurgia?",
+      "verso": "Operação de Hartmann: sigmoidectomia com colostomia terminal e fechamento do coto retal.",
+      "questoes": [
+        "revalida_2012_q015"
+      ],
+      "es": {
+        "frente": "Diverticulitis con peritonitis fecal o paciente inestable: ¿cirugía?",
+        "verso": "Operación de Hartmann: sigmoidectomía con colostomía terminal y cierre del muñón rectal."
+      }
+    },
+    {
+      "id": "cir-divert-ambulatorial",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Diverticulite aguda",
+      "frente": "Diverticulite não complicada: quem pode tratar em casa?",
+      "verso": "Imunocompetente, sem sinais sistêmicos, tolerando dieta e com seguimento garantido; dieta líquida, analgesia e antibiótico oral quando indicado.",
+      "questoes": [
+        "revalida_2011_q022"
+      ],
+      "es": {
+        "frente": "Diverticulitis no complicada: ¿quién puede tratarse en casa?",
+        "verso": "Inmunocompetente, sin signos sistémicos, que tolera la dieta y con seguimiento asegurado; dieta líquida, analgesia y antibiótico oral cuando esté indicado."
+      }
+    },
+    {
+      "id": "cir-fistula-colovesical",
+      "area": "Cirurgia",
+      "especialidade": "Abdome agudo",
+      "tema": "Diverticulite aguda",
+      "frente": "Pneumatúria e fecalúria em paciente com doença diverticular?",
+      "verso": "Fístula colovesical, a fístula mais comum da diverticulite; tratamento cirúrgico eletivo.",
+      "questoes": [],
+      "es": {
+        "frente": "¿Neumaturia y fecaluria en paciente con enfermedad diverticular?",
+        "verso": "Fístula colovesical, la fístula más común de la diverticulitis; tratamiento quirúrgico electivo."
+      }
+    },
+    {
+      "id": "cir-colecistite-us",
+      "area": "Cirurgia",
+      "especialidade": "Cirurgia do aparelho digestivo",
+      "tema": "Colecistite e colangite aguda",
+      "frente": "Colecistite aguda: quadro e exame inicial?",
+      "verso": "Dor em hipocôndrio direito por mais de 6 horas, febre, Murphy positivo e leucocitose. Ultrassonografia: cálculos, parede acima de 4 mm, líquido perivesicular.",
+      "questoes": [
+        "revalida_2023-1_q067"
+      ],
+      "es": {
+        "frente": "Colecistitis aguda: ¿cuadro y examen inicial?",
+        "verso": "Dolor en hipocondrio derecho por más de 6 horas, fiebre, Murphy positivo y leucocitosis. Ecografía: cálculos, pared mayor de 4 mm, líquido perivesicular."
+      }
+    },
+    {
+      "id": "cir-colecistectomia-precoce",
+      "area": "Cirurgia",
+      "especialidade": "Cirurgia do aparelho digestivo",
+      "tema": "Colecistite e colangite aguda",
+      "frente": "Colecistite aguda: momento da colecistectomia?",
+      "verso": "Videolaparoscópica precoce, na mesma internação, de preferência nas primeiras 72 horas; colecistostomia percutânea como ponte no paciente grave.",
+      "questoes": [],
+      "es": {
+        "frente": "Colecistitis aguda: ¿momento de la colecistectomía?",
+        "verso": "Laparoscópica precoz, en la misma internación, de preferencia en las primeras 72 horas; colecistostomía percutánea como puente en el paciente grave."
+      }
+    },
+    {
+      "id": "cir-charcot-reynolds",
+      "area": "Cirurgia",
+      "especialidade": "Cirurgia do aparelho digestivo",
+      "tema": "Colecistite e colangite aguda",
+      "frente": "Tríade de Charcot e pêntade de Reynolds?",
+      "verso": "Charcot: febre com calafrios, icterícia e dor em hipocôndrio direito. Reynolds: Charcot mais hipotensão e confusão mental (colangite grave).",
+      "questoes": [
+        "revalida_2012_q085"
+      ],
+      "es": {
+        "frente": "¿Tríada de Charcot y péntada de Reynolds?",
+        "verso": "Charcot: fiebre con escalofríos, ictericia y dolor en hipocondrio derecho. Reynolds: Charcot más hipotensión y confusión mental (colangitis grave)."
+      }
+    },
+    {
+      "id": "cir-colangite-conduta",
+      "area": "Cirurgia",
+      "especialidade": "Cirurgia do aparelho digestivo",
+      "tema": "Colecistite e colangite aguda",
+      "frente": "Colangite aguda grave: conduta?",
+      "verso": "Hidratação, hemoculturas, antibiótico intravenoso imediato e drenagem biliar urgente, de preferência por CPRE (percutânea como alternativa).",
+      "questoes": [
+        "revalida_2017_q044"
+      ],
+      "es": {
+        "frente": "Colangitis aguda grave: ¿conducta?",
+        "verso": "Hidratación, hemocultivos, antibiótico intravenoso inmediato y drenaje biliar urgente, de preferencia por CPRE (percutáneo como alternativa)."
+      }
+    },
+    {
+      "id": "cir-coledocolitiase",
+      "area": "Cirurgia",
+      "especialidade": "Cirurgia do aparelho digestivo",
+      "tema": "Colecistite e colangite aguda",
+      "frente": "Coledocolitíase de alta probabilidade: conduta?",
+      "verso": "Cálculo no colédoco ao ultrassom, colangite ou bilirrubina acima de 4 com colédoco dilatado: CPRE com papilotomia e depois colecistectomia.",
+      "questoes": [
+        "revalida_2014_q060"
+      ],
+      "es": {
+        "frente": "Coledocolitiasis de alta probabilidad: ¿conducta?",
+        "verso": "Cálculo en el colédoco en la ecografía, colangitis o bilirrubina mayor de 4 con colédoco dilatado: CPRE con papilotomía y después colecistectomía."
+      }
+    },
+    {
+      "id": "cir-colelitiase-cirurgia",
+      "area": "Cirurgia",
+      "especialidade": "Cirurgia do aparelho digestivo",
+      "tema": "Colecistite e colangite aguda",
+      "frente": "Colelitíase assintomática: quando operar?",
+      "verso": "Vesícula em porcelana, cálculo maior que 2,5 a 3 cm, pólipo de 1 cm ou mais e anemia hemolítica crônica.",
+      "questoes": [
+        "revalida_2012_q045"
+      ],
+      "es": {
+        "frente": "Colelitiasis asintomática: ¿cuándo operar?",
+        "verso": "Vesícula en porcelana, cálculo mayor de 2,5 a 3 cm, pólipo de 1 cm o más y anemia hemolítica crónica."
+      }
     }
   ]
 }

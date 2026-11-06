@@ -1,0 +1,151 @@
+{
+  "id": "cir-colecistite-colangite-aguda",
+  "area": "Cirurgia",
+  "especialidade": "Cirurgia do aparelho digestivo",
+  "mentor": "helena",
+  "duracaoMin": 16,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2023-1_q067",
+    "revalida_2012_q085",
+    "revalida_2017_q044",
+    "revalida_2023-1_q047",
+    "revalida_2014_q060",
+    "revalida_2022-1_q012"
+  ],
+  "referencias": [
+    "Okamoto K et al. Tokyo Guidelines 2018: flowchart for the management of acute cholecystitis. J Hepatobiliary Pancreat Sci, 2018.",
+    "Miura F et al. Tokyo Guidelines 2018: initial management of acute biliary infection and flowchart for acute cholangitis. J Hepatobiliary Pancreat Sci, 2018.",
+    "Buxbaum JL et al. ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis. Gastrointest Endosc, 2019."
+  ],
+  "pt": {
+    "titulo": "Colecistite e colangite aguda: Murphy, Charcot, critérios de Tóquio e quando drenar",
+    "resumo": "Duas complicações da litíase biliar com condutas diferentes. Na colecistite, o tratamento é a colecistectomia precoce; na colangite, a prioridade é antibiótico e desobstrução da via biliar. A prova cobra a diferença clínica, o exame certo e o momento da intervenção.",
+    "secoes": [
+      {
+        "titulo": "Da cólica à colecistite",
+        "paragrafos": [
+          "A cólica biliar é a dor em hipocôndrio direito ou epigástrio após refeição gordurosa, que passa em algumas horas. Quando a obstrução do ducto cístico persiste, a vesícula inflama."
+        ],
+        "itens": [
+          "Colecistite aguda: dor contínua por mais de 6 horas, febre, sinal de Murphy (parada da inspiração à palpação do hipocôndrio direito) e leucocitose.",
+          "Exame inicial: ultrassonografia, que mostra cálculos, parede espessada (acima de 4 mm), líquido perivesicular e Murphy ultrassonográfico.",
+          "Icterícia importante não é típica da colecistite: sugere coledocolitíase, colangite ou síndrome de Mirizzi (compressão do ducto hepático por cálculo impactado no infundíbulo).",
+          "Colecistite alitiásica: paciente crítico (UTI, queimado, nutrição parenteral, pós-operatório), com alta mortalidade.",
+          "Colecistite enfisematosa: gás na parede da vesícula, mais em diabéticos idosos; risco de perfuração."
+        ]
+      },
+      {
+        "titulo": "Tratamento da colecistite",
+        "paragrafos": [
+          "A gravidade pelos critérios de Tóquio orienta a conduta: grau I leve, grau II moderado (leucocitose acima de 18 mil, massa palpável, mais de 72 horas de sintomas ou inflamação local importante) e grau III com disfunção orgânica."
+        ],
+        "itens": [
+          "Jejum, hidratação, analgesia e antibiótico intravenoso que cubra Gram-negativos e anaeróbios.",
+          "Colecistectomia videolaparoscópica precoce, de preferência na mesma internação e nas primeiras 72 horas (até 7 a 10 dias do início, em centros experientes).",
+          "Paciente grave ou sem condição cirúrgica: colecistostomia percutânea como ponte, com cirurgia depois.",
+          "Colelitíase assintomática em geral não precisa de cirurgia; exceções: vesícula em porcelana, cálculo maior que 2,5 a 3 cm, pólipo de 1 cm ou mais e anemia hemolítica crônica."
+        ]
+      },
+      {
+        "titulo": "Coledocolitíase",
+        "paragrafos": [
+          "Cálculo no colédoco, em geral vindo da vesícula. Pode ser assintomático, causar icterícia flutuante, colangite ou pancreatite."
+        ],
+        "itens": [
+          "Laboratório colestático: bilirrubina direta e fosfatase alcalina elevadas, gama-GT alta.",
+          "Alta probabilidade (cálculo visto no colédoco ao ultrassom, colangite ou bilirrubina acima de 4 mg/dL com colédoco dilatado): CPRE com papilotomia e retirada do cálculo, seguida de colecistectomia.",
+          "Probabilidade intermediária: colangiorressonância ou ultrassom endoscópico antes de decidir pela CPRE, ou colangiografia intraoperatória.",
+          "Icterícia indolor com vesícula palpável (sinal de Courvoisier) aponta para neoplasia periampular, não para cálculo."
+        ]
+      },
+      {
+        "titulo": "Colangite aguda",
+        "paragrafos": [
+          "Infecção da via biliar obstruída. É urgência: sem drenagem, evolui rápido para sepse."
+        ],
+        "itens": [
+          "Tríade de Charcot: febre com calafrios, icterícia e dor em hipocôndrio direito.",
+          "Pêntade de Reynolds: tríade mais hipotensão e confusão mental, indicando colangite grave.",
+          "Causas: coledocolitíase (a mais comum), estenoses benignas ou malignas e manipulação prévia da via biliar.",
+          "Tratamento: hidratação, hemoculturas e antibiótico intravenoso imediato.",
+          "Drenagem biliar: urgente na forma grave (Reynolds ou disfunção orgânica); nas primeiras 24 a 48 horas na moderada; na leve, se não melhorar com antibiótico. A CPRE é o método de escolha; a drenagem percutânea trans-hepática é a alternativa.",
+          "Depois da colangite por cálculo, colecistectomia para evitar recorrência."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Ultrassonografia é o primeiro exame na suspeita de colecistite.",
+      "Colecistectomia precoce, na mesma internação, é melhor que esperar esfriar.",
+      "Charcot: febre, icterícia e dor. Reynolds: mais hipotensão e confusão.",
+      "Colangite grave: antibiótico e drenagem biliar urgente, de preferência por CPRE.",
+      "Icterícia indolor com vesícula palpável sugere tumor periampular.",
+      "Vesícula em porcelana é indicação de cirurgia mesmo sem sintomas."
+    ]
+  },
+  "es": {
+    "titulo": "Colecistitis y colangitis aguda: Murphy, Charcot, criterios de Tokio y cuándo drenar",
+    "resumo": "Dos complicaciones de la litiasis biliar con conductas distintas. En la colecistitis, el tratamiento es la colecistectomía precoz; en la colangitis, la prioridad es el antibiótico y la desobstrucción de la vía biliar. El examen evalúa la diferencia clínica, el examen correcto y el momento de la intervención.",
+    "secoes": [
+      {
+        "titulo": "Del cólico a la colecistitis",
+        "paragrafos": [
+          "El cólico biliar es el dolor en hipocondrio derecho o epigastrio después de una comida grasa, que cede en algunas horas. Cuando la obstrucción del conducto cístico persiste, la vesícula se inflama."
+        ],
+        "itens": [
+          "Colecistitis aguda: dolor continuo por más de 6 horas, fiebre, signo de Murphy (detención de la inspiración a la palpación del hipocondrio derecho) y leucocitosis.",
+          "Examen inicial: ecografía, que muestra cálculos, pared engrosada (más de 4 mm), líquido perivesicular y Murphy ecográfico.",
+          "La ictericia importante no es típica de la colecistitis: sugiere coledocolitiasis, colangitis o síndrome de Mirizzi (compresión del conducto hepático por un cálculo impactado en el infundíbulo).",
+          "Colecistitis alitiásica: paciente crítico (UCI, quemado, nutrición parenteral, posoperatorio), con alta mortalidad.",
+          "Colecistitis enfisematosa: gas en la pared de la vesícula, más en adultos mayores diabéticos; riesgo de perforación."
+        ]
+      },
+      {
+        "titulo": "Tratamiento de la colecistitis",
+        "paragrafos": [
+          "La gravedad según los criterios de Tokio orienta la conducta: grado I leve, grado II moderado (leucocitosis mayor de 18 mil, masa palpable, más de 72 horas de síntomas o inflamación local importante) y grado III con disfunción orgánica."
+        ],
+        "itens": [
+          "Ayuno, hidratación, analgesia y antibiótico intravenoso que cubra gramnegativos y anaerobios.",
+          "Colecistectomía laparoscópica precoz, de preferencia en la misma internación y en las primeras 72 horas (hasta 7 a 10 días del inicio, en centros con experiencia).",
+          "Paciente grave o sin condición quirúrgica: colecistostomía percutánea como puente, con cirugía después.",
+          "La colelitiasis asintomática en general no necesita cirugía; excepciones: vesícula en porcelana, cálculo mayor de 2,5 a 3 cm, pólipo de 1 cm o más y anemia hemolítica crónica."
+        ]
+      },
+      {
+        "titulo": "Coledocolitiasis",
+        "paragrafos": [
+          "Cálculo en el colédoco, en general procedente de la vesícula. Puede ser asintomático, causar ictericia fluctuante, colangitis o pancreatitis."
+        ],
+        "itens": [
+          "Laboratorio colestásico: bilirrubina directa y fosfatasa alcalina elevadas, gamma-GT alta.",
+          "Alta probabilidad (cálculo visto en el colédoco en la ecografía, colangitis o bilirrubina mayor de 4 mg/dL con colédoco dilatado): CPRE con papilotomía y extracción del cálculo, seguida de colecistectomía.",
+          "Probabilidad intermedia: colangiorresonancia o ecoendoscopia antes de decidir la CPRE, o colangiografía intraoperatoria.",
+          "Ictericia indolora con vesícula palpable (signo de Courvoisier) apunta a neoplasia periampular, no a cálculo."
+        ]
+      },
+      {
+        "titulo": "Colangitis aguda",
+        "paragrafos": [
+          "Infección de la vía biliar obstruida. Es urgencia: sin drenaje, evoluciona rápido a sepsis."
+        ],
+        "itens": [
+          "Tríada de Charcot: fiebre con escalofríos, ictericia y dolor en hipocondrio derecho.",
+          "Péntada de Reynolds: tríada más hipotensión y confusión mental, que indica colangitis grave.",
+          "Causas: coledocolitiasis (la más común), estenosis benignas o malignas y manipulación previa de la vía biliar.",
+          "Tratamiento: hidratación, hemocultivos y antibiótico intravenoso inmediato.",
+          "Drenaje biliar: urgente en la forma grave (Reynolds o disfunción orgánica); en las primeras 24 a 48 horas en la moderada; en la leve, si no mejora con antibiótico. La CPRE es el método de elección; el drenaje percutáneo transhepático es la alternativa.",
+          "Después de la colangitis por cálculo, colecistectomía para evitar la recurrencia."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "La ecografía es el primer examen ante la sospecha de colecistitis.",
+      "La colecistectomía precoz, en la misma internación, es mejor que esperar que se enfríe.",
+      "Charcot: fiebre, ictericia y dolor. Reynolds: además hipotensión y confusión.",
+      "Colangitis grave: antibiótico y drenaje biliar urgente, de preferencia por CPRE.",
+      "Ictericia indolora con vesícula palpable sugiere tumor periampular.",
+      "La vesícula en porcelana es indicación de cirugía aun sin síntomas."
+    ]
+  }
+}

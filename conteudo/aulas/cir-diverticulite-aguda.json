@@ -1,0 +1,149 @@
+{
+  "id": "cir-diverticulite-aguda",
+  "area": "Cirurgia",
+  "especialidade": "Abdome agudo",
+  "mentor": "helena",
+  "duracaoMin": 14,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2011_q022",
+    "revalida_2012_q015",
+    "revalida_2017_q007",
+    "revalida_2024-1_q092"
+  ],
+  "referencias": [
+    "Hall J et al. The American Society of Colon and Rectal Surgeons Clinical Practice Guidelines for the Management of Left-Sided Colonic Diverticulitis. Dis Colon Rectum, 2020.",
+    "Sartelli M et al. 2020 update of the WSES guidelines for the management of acute colonic diverticulitis in the emergency setting. World J Emerg Surg, 2020.",
+    "Hinchey EJ, Schaal PG, Richards GK. Treatment of perforated diverticular disease of the colon. Adv Surg, 1978."
+  ],
+  "pt": {
+    "titulo": "Diverticulite aguda: tomografia, classificação de Hinchey e conduta por gravidade",
+    "resumo": "A \"apendicite do lado esquerdo\" do idoso. A prova cobra o exame de escolha, a classificação da gravidade e o que fazer em cada grau: antibiótico em casa, internação, drenagem do abscesso ou cirurgia de urgência.",
+    "secoes": [
+      {
+        "titulo": "Doença diverticular e quadro clínico",
+        "paragrafos": [
+          "Divertículos são herniações da mucosa por pontos frágeis da parede do cólon, sobretudo no sigmoide no Ocidente. Diverticulose é a presença deles; diverticulite é a inflamação, com microperfuração."
+        ],
+        "itens": [
+          "Fatores de risco: idade, dieta pobre em fibras, obesidade, sedentarismo, tabagismo e uso de anti-inflamatórios e opioides.",
+          "Quadro típico: dor na fossa ilíaca esquerda há alguns dias, febre, alteração do hábito intestinal e leucocitose.",
+          "Massa palpável sugere abscesso ou flegmão; peritonite difusa sugere perfuração livre.",
+          "Sangramento volumoso e indolor é típico da diverticulose (hemorragia diverticular), não da diverticulite.",
+          "Complicações: abscesso, perfuração, fístula (a colovesical, com pneumatúria e fecalúria, é a mais comum) e obstrução por estenose."
+        ]
+      },
+      {
+        "titulo": "Diagnóstico",
+        "paragrafos": [
+          "O exame de escolha é a tomografia de abdome e pelve com contraste: confirma o diagnóstico, mostra complicações e orienta a conduta."
+        ],
+        "itens": [
+          "Achados: espessamento da parede do cólon, densificação da gordura pericólica, abscesso, gás extraluminal.",
+          "Colonoscopia e enema opaco são contraindicados na fase aguda pelo risco de perfuração.",
+          "Colonoscopia cerca de 6 a 8 semanas após o episódio, para afastar câncer, sobretudo na forma complicada ou se não houver exame recente.",
+          "Na mulher, considerar doenças ginecológicas; no idoso, câncer de cólon perfurado é diferencial importante."
+        ]
+      },
+      {
+        "titulo": "Classificação de Hinchey",
+        "paragrafos": [
+          "Classifica a diverticulite complicada pela extensão da contaminação."
+        ],
+        "itens": [
+          "I: abscesso pericólico ou flegmão.",
+          "II: abscesso pélvico, intra-abdominal ou retroperitoneal à distância.",
+          "III: peritonite purulenta generalizada.",
+          "IV: peritonite fecal generalizada."
+        ]
+      },
+      {
+        "titulo": "Tratamento por gravidade",
+        "paragrafos": [
+          "A conduta depende de a diverticulite ser não complicada ou complicada e do estado do paciente."
+        ],
+        "itens": [
+          "Não complicada, paciente imunocompetente, sem sinais sistêmicos, que tolera dieta: tratamento ambulatorial com dieta líquida e analgesia; o antibiótico pode ser omitido em casos selecionados, mas ainda é usado com frequência (amoxicilina com clavulanato, ou ciprofloxacino com metronidazol).",
+          "Não complicada com comorbidades, imunossupressão, febre alta ou intolerância oral: internar para antibiótico intravenoso.",
+          "Abscesso pequeno (menos de 3 a 4 cm): antibiótico intravenoso.",
+          "Abscesso grande: antibiótico e drenagem percutânea guiada por tomografia.",
+          "Hinchey III e IV: cirurgia de urgência. Na peritonite fecal ou no paciente instável, a operação de Hartmann (sigmoidectomia com colostomia terminal) é a mais usada; em casos selecionados, ressecção com anastomose primária e ileostomia de proteção.",
+          "Sigmoidectomia eletiva: após episódio complicado e em imunossuprimidos; após episódios não complicados, a decisão é individual, sem contagem fixa de crises."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Colonoscopia é contraindicada na fase aguda; faça depois de 6 a 8 semanas.",
+      "Tomografia com contraste é o exame de escolha.",
+      "Abscesso grande: drenagem percutânea; pequeno: só antibiótico.",
+      "Peritonite fecal ou instável: Hartmann.",
+      "Pneumatúria e fecalúria: fístula colovesical.",
+      "Sangramento volumoso indolor é da diverticulose, não da diverticulite."
+    ]
+  },
+  "es": {
+    "titulo": "Diverticulitis aguda: tomografía, clasificación de Hinchey y conducta según la gravedad",
+    "resumo": "La \"apendicitis del lado izquierdo\" del adulto mayor. El examen evalúa el examen de elección, la clasificación de la gravedad y qué hacer en cada grado: antibiótico en casa, internación, drenaje del absceso o cirugía de urgencia.",
+    "secoes": [
+      {
+        "titulo": "Enfermedad diverticular y cuadro clínico",
+        "paragrafos": [
+          "Los divertículos son herniaciones de la mucosa por puntos débiles de la pared del colon, sobre todo en el sigmoides en Occidente. Diverticulosis es su presencia; diverticulitis es la inflamación, con microperforación."
+        ],
+        "itens": [
+          "Factores de riesgo: edad, dieta pobre en fibra, obesidad, sedentarismo, tabaquismo y uso de antiinflamatorios y opioides.",
+          "Cuadro típico: dolor en la fosa ilíaca izquierda desde hace algunos días, fiebre, alteración del hábito intestinal y leucocitosis.",
+          "Una masa palpable sugiere absceso o flemón; la peritonitis difusa sugiere perforación libre.",
+          "El sangrado abundante e indoloro es típico de la diverticulosis (hemorragia diverticular), no de la diverticulitis.",
+          "Complicaciones: absceso, perforación, fístula (la colovesical, con neumaturia y fecaluria, es la más común) y obstrucción por estenosis."
+        ]
+      },
+      {
+        "titulo": "Diagnóstico",
+        "paragrafos": [
+          "El examen de elección es la tomografía de abdomen y pelvis con contraste: confirma el diagnóstico, muestra complicaciones y orienta la conducta."
+        ],
+        "itens": [
+          "Hallazgos: engrosamiento de la pared del colon, densificación de la grasa pericólica, absceso, gas extraluminal.",
+          "La colonoscopia y el enema opaco están contraindicados en la fase aguda por el riesgo de perforación.",
+          "Colonoscopia cerca de 6 a 8 semanas después del episodio, para descartar cáncer, sobre todo en la forma complicada o si no hay examen reciente.",
+          "En la mujer, considerar enfermedades ginecológicas; en el adulto mayor, el cáncer de colon perforado es un diferencial importante."
+        ]
+      },
+      {
+        "titulo": "Clasificación de Hinchey",
+        "paragrafos": [
+          "Clasifica la diverticulitis complicada por la extensión de la contaminación."
+        ],
+        "itens": [
+          "I: absceso pericólico o flemón.",
+          "II: absceso pélvico, intraabdominal o retroperitoneal a distancia.",
+          "III: peritonitis purulenta generalizada.",
+          "IV: peritonitis fecal generalizada."
+        ]
+      },
+      {
+        "titulo": "Tratamiento según la gravedad",
+        "paragrafos": [
+          "La conducta depende de que la diverticulitis sea no complicada o complicada y del estado del paciente."
+        ],
+        "itens": [
+          "No complicada, paciente inmunocompetente, sin signos sistémicos, que tolera la dieta: tratamiento ambulatorio con dieta líquida y analgesia; el antibiótico puede omitirse en casos seleccionados, pero todavía se usa con frecuencia (amoxicilina con clavulanato, o ciprofloxacino con metronidazol).",
+          "No complicada con comorbilidades, inmunosupresión, fiebre alta o intolerancia oral: internar para antibiótico intravenoso.",
+          "Absceso pequeño (menos de 3 a 4 cm): antibiótico intravenoso.",
+          "Absceso grande: antibiótico y drenaje percutáneo guiado por tomografía.",
+          "Hinchey III y IV: cirugía de urgencia. En la peritonitis fecal o en el paciente inestable, la operación de Hartmann (sigmoidectomía con colostomía terminal) es la más usada; en casos seleccionados, resección con anastomosis primaria e ileostomía de protección.",
+          "Sigmoidectomía electiva: después de un episodio complicado y en inmunosuprimidos; después de episodios no complicados, la decisión es individual, sin un número fijo de crisis."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "La colonoscopia está contraindicada en la fase aguda; hágala después de 6 a 8 semanas.",
+      "La tomografía con contraste es el examen de elección.",
+      "Absceso grande: drenaje percutáneo; pequeño: solo antibiótico.",
+      "Peritonitis fecal o inestable: Hartmann.",
+      "Neumaturia y fecaluria: fístula colovesical.",
+      "El sangrado abundante indoloro es de la diverticulosis, no de la diverticulitis."
+    ]
+  }
+}

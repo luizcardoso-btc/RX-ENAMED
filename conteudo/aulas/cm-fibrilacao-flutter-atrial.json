@@ -1,0 +1,177 @@
+{
+  "id": "cm-fibrilacao-flutter-atrial",
+  "area": "Clínica Médica",
+  "especialidade": "Cardiologia",
+  "mentor": "caio",
+  "duracaoMin": 16,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2021_q079",
+    "revalida_2011_q041",
+    "revalida_2020_q029",
+    "revalida_2022-2_q081"
+  ],
+  "referencias": [
+    "Joglar JA et al. 2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation. Circulation, 2024.",
+    "Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J, 2024.",
+    "Sociedade Brasileira de Cardiologia. II Diretrizes Brasileiras de Fibrilação Atrial, 2016."
+  ],
+  "pt": {
+    "titulo": "Fibrilação e flutter atrial: diagnóstico, controle de frequência, cardioversão e anticoagulação",
+    "resumo": "A arritmia sustentada mais comum. A banca cobra o ECG, a decisão entre controlar a frequência ou o ritmo, a regra das 48 horas antes de cardioverter e quem precisa de anticoagulação pelo CHA2DS2-VASc.",
+    "secoes": [
+      {
+        "titulo": "Diagnóstico e causas",
+        "paragrafos": [
+          "Na fibrilação atrial, múltiplos circuitos de reentrada desorganizam a atividade dos átrios, que deixam de contrair de forma eficaz."
+        ],
+        "itens": [
+          "ECG: ritmo irregularmente irregular, ausência de onda P e linha de base com ondas f finas.",
+          "Exame físico: pulso irregular, déficit de pulso e ausência de B4 (não há contração atrial).",
+          "Causas e fatores: hipertensão, valvopatia mitral, insuficiência cardíaca, idade, apneia do sono, obesidade, álcool (inclusive após bebedeira), hipertireoidismo, pós-operatório e embolia pulmonar.",
+          "Na primeira fibrilação atrial, dosar TSH e fazer ecocardiograma.",
+          "Classificação pelo tempo: paroxística (termina sozinha em até 7 dias), persistente (mais de 7 dias), persistente de longa duração (mais de 1 ano) e permanente (quando se desiste de restaurar o ritmo)."
+        ]
+      },
+      {
+        "titulo": "Conduta aguda",
+        "paragrafos": [
+          "Como em toda taquiarritmia, a primeira pergunta é se há instabilidade."
+        ],
+        "itens": [
+          "Instável: cardioversão elétrica sincronizada imediata, sem esperar anticoagulação.",
+          "Estável com resposta ventricular alta: controlar a frequência com betabloqueador ou bloqueador de canal de cálcio não di-hidropiridínico (diltiazem, verapamil).",
+          "Com insuficiência cardíaca e fração de ejeção reduzida: evitar diltiazem e verapamil; usar betabloqueador com cautela, digoxina ou amiodarona.",
+          "Meta de frequência em repouso: abaixo de 110 bpm na estratégia tolerante, menor se ainda houver sintomas.",
+          "Controle do ritmo ganha espaço em pacientes jovens, sintomáticos e com diagnóstico recente; ablação por cateter é opção eficaz."
+        ]
+      },
+      {
+        "titulo": "Cardioversão e a regra das 48 horas",
+        "paragrafos": [
+          "O risco de trombo no átrio cresce com o tempo de arritmia."
+        ],
+        "itens": [
+          "Menos de 48 horas, estável: pode cardioverter (elétrica ou química, com amiodarona ou propafenona se não houver cardiopatia estrutural), iniciando anticoagulação.",
+          "48 horas ou mais, ou tempo desconhecido: anticoagular por pelo menos 3 semanas antes, ou fazer ecocardiograma transesofágico e cardioverter se não houver trombo.",
+          "Depois de qualquer cardioversão, manter anticoagulação por pelo menos 4 semanas; a continuação depende do CHA2DS2-VASc."
+        ]
+      },
+      {
+        "titulo": "Anticoagulação crônica",
+        "paragrafos": [
+          "O escore CHA2DS2-VASc estima o risco de AVC e define quem anticoagula."
+        ],
+        "itens": [
+          "Pontos: insuficiência cardíaca 1, hipertensão 1, idade de 75 anos ou mais 2, diabetes 1, AVC ou ataque isquêmico transitório prévio 2, doença vascular 1, idade de 65 a 74 anos 1 e sexo feminino 1.",
+          "Anticoagular com 2 ou mais pontos no homem e 3 ou mais na mulher; considerar com 1 ponto no homem e 2 na mulher.",
+          "Anticoagulantes diretos (apixabana, rivaroxabana, dabigatrana, edoxabana) são preferidos à varfarina na maioria dos casos.",
+          "Varfarina, com INR entre 2 e 3, é obrigatória na estenose mitral moderada a grave e na prótese valvar mecânica.",
+          "O HAS-BLED estima o risco de sangramento para corrigir fatores modificáveis; escore alto não contraindica a anticoagulação.",
+          "AAS não substitui a anticoagulação na prevenção de AVC."
+        ]
+      },
+      {
+        "titulo": "Flutter atrial",
+        "paragrafos": [
+          "Um único circuito grande de reentrada, em geral no átrio direito, passando pelo istmo cavotricuspídeo."
+        ],
+        "itens": [
+          "ECG: ondas F em dente de serra, melhor vistas em DII, DIII e aVF, com frequência atrial em torno de 300 bpm.",
+          "Condução 2:1 é a mais comum: frequência ventricular regular perto de 150 bpm. Taquicardia regular de 150 deve lembrar flutter.",
+          "A adenosina aumenta o bloqueio e deixa ver as ondas F, mas não reverte o ritmo.",
+          "Anticoagulação segue as mesmas regras da fibrilação atrial.",
+          "Ablação do istmo cavotricuspídeo é o tratamento de escolha, com taxa de sucesso muito alta."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Fibrilação atrial não tem B4.",
+      "Fibrilação atrial instável: choque sincronizado já, sem esperar anticoagular.",
+      "Mais de 48 horas ou tempo desconhecido: 3 semanas de anticoagulação ou transesofágico antes de cardioverter.",
+      "Estenose mitral ou prótese mecânica: varfarina, não anticoagulante direto.",
+      "HAS-BLED alto não contraindica anticoagulação.",
+      "Taquicardia regular a 150 bpm: pense em flutter 2:1.",
+      "Primeira fibrilação atrial: peça TSH."
+    ]
+  },
+  "es": {
+    "titulo": "Fibrilación y flutter auricular: diagnóstico, control de frecuencia, cardioversión y anticoagulación",
+    "resumo": "La arritmia sostenida más común. El examen evalúa el ECG, la decisión entre controlar la frecuencia o el ritmo, la regla de las 48 horas antes de cardiovertir y quién necesita anticoagulación según el CHA2DS2-VASc.",
+    "secoes": [
+      {
+        "titulo": "Diagnóstico y causas",
+        "paragrafos": [
+          "En la fibrilación auricular, múltiples circuitos de reentrada desorganizan la actividad de las aurículas, que dejan de contraerse de forma eficaz."
+        ],
+        "itens": [
+          "ECG: ritmo irregularmente irregular, ausencia de onda P y línea de base con ondas f finas.",
+          "Examen físico: pulso irregular, déficit de pulso y ausencia de R4 (no hay contracción auricular).",
+          "Causas y factores: hipertensión, valvulopatía mitral, insuficiencia cardíaca, edad, apnea del sueño, obesidad, alcohol (incluso tras un exceso), hipertiroidismo, posoperatorio y embolia pulmonar.",
+          "En la primera fibrilación auricular, medir TSH y hacer ecocardiograma.",
+          "Clasificación por el tiempo: paroxística (termina sola en hasta 7 días), persistente (más de 7 días), persistente de larga duración (más de 1 año) y permanente (cuando se desiste de restaurar el ritmo)."
+        ]
+      },
+      {
+        "titulo": "Conducta aguda",
+        "paragrafos": [
+          "Como en toda taquiarritmia, la primera pregunta es si hay inestabilidad."
+        ],
+        "itens": [
+          "Inestable: cardioversión eléctrica sincronizada inmediata, sin esperar la anticoagulación.",
+          "Estable con respuesta ventricular alta: controlar la frecuencia con betabloqueante o bloqueador de canales de calcio no dihidropiridínico (diltiazem, verapamilo).",
+          "Con insuficiencia cardíaca y fracción de eyección reducida: evitar diltiazem y verapamilo; usar betabloqueante con cautela, digoxina o amiodarona.",
+          "Meta de frecuencia en reposo: menor de 110 lpm en la estrategia tolerante, menor si persisten síntomas.",
+          "El control del ritmo gana espacio en pacientes jóvenes, sintomáticos y con diagnóstico reciente; la ablación por catéter es una opción eficaz."
+        ]
+      },
+      {
+        "titulo": "Cardioversión y la regla de las 48 horas",
+        "paragrafos": [
+          "El riesgo de trombo en la aurícula crece con el tiempo de arritmia."
+        ],
+        "itens": [
+          "Menos de 48 horas, estable: se puede cardiovertir (eléctrica o farmacológica, con amiodarona o propafenona si no hay cardiopatía estructural), iniciando anticoagulación.",
+          "48 horas o más, o tiempo desconocido: anticoagular al menos 3 semanas antes, o hacer ecocardiograma transesofágico y cardiovertir si no hay trombo.",
+          "Después de cualquier cardioversión, mantener la anticoagulación al menos 4 semanas; la continuación depende del CHA2DS2-VASc."
+        ]
+      },
+      {
+        "titulo": "Anticoagulación crónica",
+        "paragrafos": [
+          "El puntaje CHA2DS2-VASc estima el riesgo de ACV y define quién se anticoagula."
+        ],
+        "itens": [
+          "Puntos: insuficiencia cardíaca 1, hipertensión 1, edad de 75 años o más 2, diabetes 1, ACV o accidente isquémico transitorio previo 2, enfermedad vascular 1, edad de 65 a 74 años 1 y sexo femenino 1.",
+          "Anticoagular con 2 o más puntos en el hombre y 3 o más en la mujer; considerar con 1 punto en el hombre y 2 en la mujer.",
+          "Los anticoagulantes directos (apixabán, rivaroxabán, dabigatrán, edoxabán) son preferidos sobre la warfarina en la mayoría de los casos.",
+          "La warfarina, con INR entre 2 y 3, es obligatoria en la estenosis mitral moderada a grave y en la prótesis valvular mecánica.",
+          "El HAS-BLED estima el riesgo de sangrado para corregir factores modificables; un puntaje alto no contraindica la anticoagulación.",
+          "La aspirina no reemplaza la anticoagulación en la prevención del ACV."
+        ]
+      },
+      {
+        "titulo": "Flutter auricular",
+        "paragrafos": [
+          "Un único circuito grande de reentrada, en general en la aurícula derecha, que pasa por el istmo cavotricuspídeo."
+        ],
+        "itens": [
+          "ECG: ondas F en dientes de sierra, mejor vistas en DII, DIII y aVF, con frecuencia auricular cerca de 300 lpm.",
+          "La conducción 2:1 es la más común: frecuencia ventricular regular cercana a 150 lpm. Una taquicardia regular de 150 debe recordar el flutter.",
+          "La adenosina aumenta el bloqueo y deja ver las ondas F, pero no revierte el ritmo.",
+          "La anticoagulación sigue las mismas reglas de la fibrilación auricular.",
+          "La ablación del istmo cavotricuspídeo es el tratamiento de elección, con una tasa de éxito muy alta."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "La fibrilación auricular no tiene R4.",
+      "Fibrilación auricular inestable: choque sincronizado ya, sin esperar anticoagular.",
+      "Más de 48 horas o tiempo desconocido: 3 semanas de anticoagulación o transesofágico antes de cardiovertir.",
+      "Estenosis mitral o prótesis mecánica: warfarina, no anticoagulante directo.",
+      "HAS-BLED alto no contraindica la anticoagulación.",
+      "Taquicardia regular a 150 lpm: piense en flutter 2:1.",
+      "Primera fibrilación auricular: pida TSH."
+    ]
+  }
+}

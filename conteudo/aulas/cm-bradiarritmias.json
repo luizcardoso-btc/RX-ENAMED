@@ -1,0 +1,147 @@
+{
+  "id": "cm-bradiarritmias",
+  "area": "Clínica Médica",
+  "especialidade": "Cardiologia",
+  "mentor": "caio",
+  "duracaoMin": 14,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2016_q007",
+    "revalida_2011_q024"
+  ],
+  "referencias": [
+    "Panchal AR et al. 2020 American Heart Association Guidelines for CPR and Emergency Cardiovascular Care, Part 3: Adult Basic and Advanced Life Support. Circulation, 2020.",
+    "Kusumoto FM et al. 2018 ACC/AHA/HRS Guideline on the Evaluation and Management of Patients With Bradycardia and Cardiac Conduction Delay. Circulation, 2019.",
+    "Sociedade Brasileira de Cardiologia. Diretriz Brasileira de Dispositivos Cardíacos Eletrônicos Implantáveis, 2023."
+  ],
+  "pt": {
+    "titulo": "Bradiarritmias: bloqueios atrioventriculares, doença do nó sinusal e conduta na emergência",
+    "resumo": "Frequência abaixo de 50 bpm só importa quando causa sintomas ou vem de um bloqueio de risco. A prova cobra o reconhecimento de cada bloqueio no ECG, as causas reversíveis e a sequência de tratamento da bradicardia instável.",
+    "secoes": [
+      {
+        "titulo": "Causas",
+        "paragrafos": [
+          "Antes de pensar em marca-passo, procure o que pode ser revertido."
+        ],
+        "itens": [
+          "Intrínsecas: degeneração do sistema de condução com a idade, doença isquêmica, doença de Chagas (muito cobrada no Brasil: bloqueio de ramo direito com bloqueio divisional anterossuperior esquerdo), doenças infiltrativas e pós-operatório de cirurgia cardíaca.",
+          "Extrínsecas e reversíveis: medicamentos (betabloqueador, verapamil, diltiazem, digoxina, amiodarona), hipercalemia, hipotireoidismo, hipotermia, hipóxia, aumento do tônus vagal e hipertensão intracraniana (reflexo de Cushing).",
+          "Infarto de parede inferior pode causar bloqueio no nó atrioventricular, em geral transitório.",
+          "Atletas podem ter bradicardia sinusal e até bloqueio de primeiro grau sem doença."
+        ]
+      },
+      {
+        "titulo": "Reconhecendo no ECG",
+        "paragrafos": [
+          "A pergunta-chave é se todas as ondas P conduzem e como o intervalo PR se comporta."
+        ],
+        "itens": [
+          "Bradicardia sinusal: ritmo sinusal com frequência baixa.",
+          "Doença do nó sinusal: bradicardia, pausas e paradas sinusais, às vezes alternando com taquiarritmias atriais (síndrome bradi-taqui).",
+          "BAV de 1º grau: PR acima de 200 ms, toda P conduz. Benigno.",
+          "BAV de 2º grau Mobitz I (Wenckebach): PR aumenta progressivamente até uma P não conduzir. Em geral nodal e benigno.",
+          "BAV de 2º grau Mobitz II: PR constante e, de repente, uma P bloqueada. Abaixo do nó, com risco de evoluir para bloqueio total.",
+          "BAV de 3º grau (total): ondas P e QRS sem relação entre si (dissociação atrioventricular), com ritmo de escape; QRS largo sugere escape ventricular, mais instável."
+        ]
+      },
+      {
+        "titulo": "Bradicardia instável",
+        "paragrafos": [
+          "Instabilidade é bradicardia com hipotensão, alteração aguda da consciência, dor torácica isquêmica, insuficiência cardíaca aguda ou choque."
+        ],
+        "itens": [
+          "Monitorar, oxigênio se hipoxêmico, acesso venoso e ECG de 12 derivações; procurar e tratar causa reversível.",
+          "Atropina 1 mg intravenosa, repetida a cada 3 a 5 minutos, até 3 mg.",
+          "Sem resposta: marca-passo transcutâneo ou infusão de dopamina (5 a 20 mcg/kg/min) ou adrenalina (2 a 10 mcg/min).",
+          "Atropina costuma falhar nos bloqueios abaixo do nó (Mobitz II e BAV total com QRS largo) e no coração transplantado: não atrase o marca-passo.",
+          "Depois de estabilizar: marca-passo transvenoso provisório e avaliação para marca-passo definitivo."
+        ]
+      },
+      {
+        "titulo": "Indicações de marca-passo definitivo",
+        "paragrafos": [
+          "A indicação depende do tipo de bloqueio e dos sintomas, depois de afastadas as causas reversíveis."
+        ],
+        "itens": [
+          "BAV total e BAV de 2º grau Mobitz II, mesmo sem sintomas.",
+          "BAV de 2º grau avançado (duas ou mais P seguidas bloqueadas).",
+          "Doença do nó sinusal com sintomas relacionados à bradicardia.",
+          "Bradicardia sintomática causada por medicamento indispensável.",
+          "BAV de 1º grau e Mobitz I sem sintomas não precisam de marca-passo."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Mobitz I: PR que cresce. Mobitz II: PR fixo e P bloqueada de repente.",
+      "Mobitz II e BAV total vão para marca-passo mesmo sem sintomas.",
+      "Atropina pode falhar em bloqueio infranodal: tenha o marca-passo transcutâneo pronto.",
+      "Antes do marca-passo, afaste hipercalemia, medicamentos e hipotireoidismo.",
+      "Bloqueio de ramo direito com bloqueio anterossuperior em paciente de área endêmica: pense em Chagas."
+    ]
+  },
+  "es": {
+    "titulo": "Bradiarritmias: bloqueos auriculoventriculares, enfermedad del nódulo sinusal y conducta en la emergencia",
+    "resumo": "Una frecuencia menor de 50 lpm solo importa cuando causa síntomas o viene de un bloqueo de riesgo. El examen evalúa el reconocimiento de cada bloqueo en el ECG, las causas reversibles y la secuencia de tratamiento de la bradicardia inestable.",
+    "secoes": [
+      {
+        "titulo": "Causas",
+        "paragrafos": [
+          "Antes de pensar en marcapasos, busque lo que puede revertirse."
+        ],
+        "itens": [
+          "Intrínsecas: degeneración del sistema de conducción con la edad, enfermedad isquémica, enfermedad de Chagas (muy evaluada en Brasil: bloqueo de rama derecha con hemibloqueo anterior izquierdo), enfermedades infiltrativas y posoperatorio de cirugía cardíaca.",
+          "Extrínsecas y reversibles: fármacos (betabloqueante, verapamilo, diltiazem, digoxina, amiodarona), hiperpotasemia, hipotiroidismo, hipotermia, hipoxia, aumento del tono vagal e hipertensión intracraneal (reflejo de Cushing).",
+          "El infarto de cara inferior puede causar bloqueo en el nódulo auriculoventricular, en general transitorio.",
+          "Los atletas pueden tener bradicardia sinusal e incluso bloqueo de primer grado sin enfermedad."
+        ]
+      },
+      {
+        "titulo": "Reconociendo en el ECG",
+        "paragrafos": [
+          "La pregunta clave es si todas las ondas P conducen y cómo se comporta el intervalo PR."
+        ],
+        "itens": [
+          "Bradicardia sinusal: ritmo sinusal con frecuencia baja.",
+          "Enfermedad del nódulo sinusal: bradicardia, pausas y paros sinusales, a veces alternando con taquiarritmias auriculares (síndrome bradi-taqui).",
+          "BAV de 1.er grado: PR mayor de 200 ms, toda P conduce. Benigno.",
+          "BAV de 2.º grado Mobitz I (Wenckebach): el PR aumenta progresivamente hasta que una P no conduce. En general nodal y benigno.",
+          "BAV de 2.º grado Mobitz II: PR constante y, de repente, una P bloqueada. Debajo del nódulo, con riesgo de evolucionar a bloqueo completo.",
+          "BAV de 3.er grado (completo): ondas P y QRS sin relación entre sí (disociación auriculoventricular), con ritmo de escape; QRS ancho sugiere escape ventricular, más inestable."
+        ]
+      },
+      {
+        "titulo": "Bradicardia inestable",
+        "paragrafos": [
+          "Inestabilidad es bradicardia con hipotensión, alteración aguda de la conciencia, dolor torácico isquémico, insuficiencia cardíaca aguda o shock."
+        ],
+        "itens": [
+          "Monitorizar, oxígeno si hay hipoxemia, acceso venoso y ECG de 12 derivaciones; buscar y tratar causa reversible.",
+          "Atropina 1 mg intravenosa, repetida cada 3 a 5 minutos, hasta 3 mg.",
+          "Sin respuesta: marcapasos transcutáneo o infusión de dopamina (5 a 20 mcg/kg/min) o adrenalina (2 a 10 mcg/min).",
+          "La atropina suele fallar en los bloqueos debajo del nódulo (Mobitz II y BAV completo con QRS ancho) y en el corazón trasplantado: no retrase el marcapasos.",
+          "Después de estabilizar: marcapasos transvenoso provisorio y evaluación para marcapasos definitivo."
+        ]
+      },
+      {
+        "titulo": "Indicaciones de marcapasos definitivo",
+        "paragrafos": [
+          "La indicación depende del tipo de bloqueo y de los síntomas, después de descartar las causas reversibles."
+        ],
+        "itens": [
+          "BAV completo y BAV de 2.º grado Mobitz II, aun sin síntomas.",
+          "BAV de 2.º grado avanzado (dos o más P seguidas bloqueadas).",
+          "Enfermedad del nódulo sinusal con síntomas relacionados con la bradicardia.",
+          "Bradicardia sintomática causada por un fármaco indispensable.",
+          "BAV de 1.er grado y Mobitz I sin síntomas no necesitan marcapasos."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Mobitz I: PR que crece. Mobitz II: PR fijo y P bloqueada de repente.",
+      "Mobitz II y BAV completo van a marcapasos aun sin síntomas.",
+      "La atropina puede fallar en bloqueo infranodal: tenga listo el marcapasos transcutáneo.",
+      "Antes del marcapasos, descarte hiperpotasemia, fármacos e hipotiroidismo.",
+      "Bloqueo de rama derecha con hemibloqueo anterior en paciente de zona endémica: piense en Chagas."
+    ]
+  }
+}

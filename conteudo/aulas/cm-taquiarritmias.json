@@ -1,0 +1,148 @@
+{
+  "id": "cm-taquiarritmias",
+  "area": "Clínica Médica",
+  "especialidade": "Cardiologia",
+  "mentor": "caio",
+  "duracaoMin": 16,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2023-1_q001",
+    "revalida_2011_q021",
+    "revalida_2024-2_q051"
+  ],
+  "referencias": [
+    "Panchal AR et al. 2020 American Heart Association Guidelines for CPR and Emergency Cardiovascular Care, Part 3: Adult Basic and Advanced Life Support. Circulation, 2020.",
+    "Page RL et al. 2015 ACC/AHA/HRS Guideline for the Management of Adult Patients With Supraventricular Tachycardia. Circulation, 2016.",
+    "Appelboam A et al. Postural modification to the standard Valsalva manoeuvre for emergency treatment of supraventricular tachycardias (REVERT). Lancet, 2015."
+  ],
+  "pt": {
+    "titulo": "Taquiarritmias: estável ou instável, QRS estreito ou largo, e a conduta de cada uma",
+    "resumo": "A primeira pergunta é sempre a mesma: o paciente está instável? Se sim, cardioversão elétrica. Se não, o ECG decide: QRS estreito ou largo, ritmo regular ou irregular. A prova cobra essa sequência, as doses e as armadilhas, como a pré-excitação.",
+    "secoes": [
+      {
+        "titulo": "Primeiro: há instabilidade?",
+        "paragrafos": [
+          "Taquicardia acima de 150 bpm com sinais de baixo débito é emergência. Abaixo de 150, a taquicardia costuma ser consequência de outra doença (febre, dor, hipovolemia, sepse), e não a causa."
+        ],
+        "itens": [
+          "Sinais de instabilidade: hipotensão, rebaixamento agudo da consciência, dor torácica isquêmica, insuficiência cardíaca aguda e choque.",
+          "Instável com pulso: cardioversão elétrica sincronizada, com sedação se possível.",
+          "Sem pulso (taquicardia ventricular sem pulso ou fibrilação ventricular): desfibrilação não sincronizada e protocolo de parada cardíaca.",
+          "Taquicardia sinusal não se cardioverte: trate a causa."
+        ]
+      },
+      {
+        "titulo": "QRS estreito e regular",
+        "paragrafos": [
+          "Quase sempre supraventricular: reentrada nodal (a mais comum), reentrada por via acessória, taquicardia atrial ou flutter com condução fixa."
+        ],
+        "itens": [
+          "Manobra vagal primeiro: Valsalva modificada (soprar com força por 15 segundos sentado e depois deitar com as pernas elevadas) ou massagem do seio carotídeo, se não houver sopro carotídeo nem AVC prévio.",
+          "Adenosina 6 mg em bolus rápido, seguido de 20 mL de soro em flush, em veia calibrosa; se não reverter, 12 mg.",
+          "A adenosina causa sensação de morte iminente e pausa breve: avisar o paciente. Cuidado na asma grave.",
+          "Alternativas: verapamil ou diltiazem intravenosos, ou betabloqueador.",
+          "Se a adenosina revelar ondas F em dente de serra, era flutter: a frequência cai, mas o ritmo não reverte.",
+          "Recorrência frequente: ablação por cateter, com alta taxa de cura."
+        ]
+      },
+      {
+        "titulo": "QRS largo",
+        "paragrafos": [
+          "QRS de 120 ms ou mais: trate como taquicardia ventricular até prova em contrário, sobretudo em quem tem cardiopatia ou infarto prévio."
+        ],
+        "itens": [
+          "Regular e estável: amiodarona 150 mg em 10 minutos (repetível), ou procainamida; adenosina só se for regular e monomórfica, como teste.",
+          "Irregular e polimórfica com QT longo (torsades de pointes): sulfato de magnésio 2 g intravenoso e correção de potássio e magnésio; suspender drogas que alongam o QT.",
+          "Instável: cardioversão sincronizada; polimórfica instável é tratada com desfibrilação.",
+          "Verapamil é proibido na taquicardia de QRS largo de origem incerta: pode causar colapso hemodinâmico."
+        ]
+      },
+      {
+        "titulo": "Pré-excitação (Wolff-Parkinson-White)",
+        "paragrafos": [
+          "Uma via acessória conduz o estímulo dos átrios aos ventrículos sem passar pelo nó atrioventricular."
+        ],
+        "itens": [
+          "ECG em ritmo sinusal: PR curto (menos de 120 ms), onda delta e QRS alargado.",
+          "Taquicardia ortodrômica (desce pelo nó, sobe pela via): QRS estreito, tratada como as outras supraventriculares.",
+          "Fibrilação atrial pré-excitada: QRS largos, irregulares e de formas diferentes, com frequência muito alta; risco de degenerar em fibrilação ventricular.",
+          "Na fibrilação atrial pré-excitada, não usar bloqueadores do nó (adenosina, betabloqueador, verapamil, diltiazem, digoxina): favorecem a condução pela via. Usar procainamida ou cardioversão elétrica.",
+          "Tratamento definitivo: ablação da via acessória."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Instável com pulso: cardioversão sincronizada. Sem pulso: desfibrilação.",
+      "Taquicardia sinusal não se cardioverte; trate a causa.",
+      "Adenosina em bolus rápido com flush; 6 mg e depois 12 mg.",
+      "QRS largo de origem incerta: trate como taquicardia ventricular e nunca dê verapamil.",
+      "Torsades de pointes: magnésio.",
+      "Fibrilação atrial pré-excitada: nada de bloqueador do nó; procainamida ou choque."
+    ]
+  },
+  "es": {
+    "titulo": "Taquiarritmias: estable o inestable, QRS estrecho o ancho, y la conducta de cada una",
+    "resumo": "La primera pregunta es siempre la misma: ¿el paciente está inestable? Si lo está, cardioversión eléctrica. Si no, el ECG decide: QRS estrecho o ancho, ritmo regular o irregular. El examen evalúa esta secuencia, las dosis y las trampas, como la preexcitación.",
+    "secoes": [
+      {
+        "titulo": "Primero: ¿hay inestabilidad?",
+        "paragrafos": [
+          "Una taquicardia de más de 150 lpm con signos de bajo gasto es una emergencia. Por debajo de 150, la taquicardia suele ser consecuencia de otra enfermedad (fiebre, dolor, hipovolemia, sepsis), y no la causa."
+        ],
+        "itens": [
+          "Signos de inestabilidad: hipotensión, compromiso agudo de la conciencia, dolor torácico isquémico, insuficiencia cardíaca aguda y shock.",
+          "Inestable con pulso: cardioversión eléctrica sincronizada, con sedación si es posible.",
+          "Sin pulso (taquicardia ventricular sin pulso o fibrilación ventricular): desfibrilación no sincronizada y protocolo de paro cardíaco.",
+          "La taquicardia sinusal no se cardiovierte: trate la causa."
+        ]
+      },
+      {
+        "titulo": "QRS estrecho y regular",
+        "paragrafos": [
+          "Casi siempre supraventricular: reentrada nodal (la más común), reentrada por vía accesoria, taquicardia auricular o flutter con conducción fija."
+        ],
+        "itens": [
+          "Primero maniobra vagal: Valsalva modificada (soplar con fuerza 15 segundos sentado y después acostarse con las piernas elevadas) o masaje del seno carotídeo, si no hay soplo carotídeo ni ACV previo.",
+          "Adenosina 6 mg en bolo rápido, seguido de 20 mL de suero en flush, por vena gruesa; si no revierte, 12 mg.",
+          "La adenosina causa sensación de muerte inminente y una pausa breve: avisar al paciente. Cuidado en el asma grave.",
+          "Alternativas: verapamilo o diltiazem intravenosos, o betabloqueante.",
+          "Si la adenosina revela ondas F en dientes de sierra, era flutter: la frecuencia baja, pero el ritmo no revierte.",
+          "Recurrencia frecuente: ablación por catéter, con alta tasa de curación."
+        ]
+      },
+      {
+        "titulo": "QRS ancho",
+        "paragrafos": [
+          "QRS de 120 ms o más: trátelo como taquicardia ventricular hasta que se demuestre lo contrario, sobre todo en quien tiene cardiopatía o infarto previo."
+        ],
+        "itens": [
+          "Regular y estable: amiodarona 150 mg en 10 minutos (repetible), o procainamida; adenosina solo si es regular y monomorfa, como prueba.",
+          "Irregular y polimorfa con QT largo (torsades de pointes): sulfato de magnesio 2 g intravenoso y corrección de potasio y magnesio; suspender fármacos que prolongan el QT.",
+          "Inestable: cardioversión sincronizada; la polimorfa inestable se trata con desfibrilación.",
+          "El verapamilo está prohibido en la taquicardia de QRS ancho de origen incierto: puede causar colapso hemodinámico."
+        ]
+      },
+      {
+        "titulo": "Preexcitación (Wolff-Parkinson-White)",
+        "paragrafos": [
+          "Una vía accesoria conduce el estímulo de las aurículas a los ventrículos sin pasar por el nódulo auriculoventricular."
+        ],
+        "itens": [
+          "ECG en ritmo sinusal: PR corto (menos de 120 ms), onda delta y QRS ensanchado.",
+          "Taquicardia ortodrómica (baja por el nódulo, sube por la vía): QRS estrecho, tratada como las demás supraventriculares.",
+          "Fibrilación auricular preexcitada: QRS anchos, irregulares y de formas distintas, con frecuencia muy alta; riesgo de degenerar en fibrilación ventricular.",
+          "En la fibrilación auricular preexcitada, no usar bloqueadores del nódulo (adenosina, betabloqueante, verapamilo, diltiazem, digoxina): favorecen la conducción por la vía. Usar procainamida o cardioversión eléctrica.",
+          "Tratamiento definitivo: ablación de la vía accesoria."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Inestable con pulso: cardioversión sincronizada. Sin pulso: desfibrilación.",
+      "La taquicardia sinusal no se cardiovierte; trate la causa.",
+      "Adenosina en bolo rápido con flush; 6 mg y después 12 mg.",
+      "QRS ancho de origen incierto: trátelo como taquicardia ventricular y nunca dé verapamilo.",
+      "Torsades de pointes: magnesio.",
+      "Fibrilación auricular preexcitada: nada de bloqueadores del nódulo; procainamida o choque."
+    ]
+  }
+}
