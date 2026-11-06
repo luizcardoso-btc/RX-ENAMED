@@ -72,11 +72,11 @@ const TX = {
     // planos
     planos: {
       recomendado: 'Mais escolhido', completo: 'Mais completo', assinar: 'Assinar', emBreve: 'Pagamento abre em breve', gratis: 'Criar conta grátis',
-      curso: { gratis: 'Todos os cursos', mensal: 'ENAMED · Revalida 1ª etapa', ciclo: 'ENAMED · Revalida', 'segunda-etapa': 'Revalida 2ª etapa', anual: 'Revalida 1ª e 2ª etapa' },
+      curso: { gratis: 'Todos os cursos', mensal: 'ENAMED · Revalida 1ª etapa', ciclo: 'ENAMED · Revalida', 'anual-enamed': 'ENAMED · 12 meses', 'segunda-etapa': 'Revalida 2ª etapa', anual: 'Revalida 1ª e 2ª etapa' },
       rodape: 'Preços em reais. Pagamento por PIX, cartão em até 12× ou boleto, processado pelo Mercado Pago. Cada pagamento libera o período do plano, sem cobrança automática: antes de vencer, você renova se quiser. Você tem 7 dias para desistir e receber o valor de volta.',
       titulo: 'Planos e preços', descricao: 'Planos da Rx Med para o ENAMED e o Revalida: gratuito, mensal, ciclo de prova, 2ª etapa e anual completo.',
       intro: 'Comece grátis. Quando quiser o curso completo, escolha o plano que acompanha a sua prova.',
-      porCurso: [['ENAMED', ['gratis', 'mensal', 'ciclo']], ['Revalida', ['gratis', 'mensal', 'ciclo', 'segunda-etapa', 'anual']]],
+      porCurso: [['ENAMED', ['gratis', 'mensal', 'ciclo', 'anual-enamed']], ['Revalida', ['gratis', 'mensal', 'ciclo', 'segunda-etapa', 'anual']]],
     },
     faqTitulo: 'Perguntas frequentes',
     // destaque de ECG (início, ENAMED e Revalida)
@@ -159,7 +159,7 @@ const TX = {
         ['Etapas', 'Prova teórica', '1ª etapa teórica e 2ª etapa prática'],
         ['Conteúdo', '6 módulos, banco oficial comentado, simulados e treino de ECG', 'Tudo isso e mais as estações com paciente simulado'],
         ['Idioma', 'Português e espanhol', 'Português e espanhol'],
-        ['Planos', 'Gratuito, mensal e ciclo de prova', 'Gratuito, mensal, ciclo, 2ª etapa e anual completo']],
+        ['Planos', 'Gratuito, mensal, ciclo de prova e ciclo anual', 'Gratuito, mensal, ciclo, 2ª etapa e anual completo']],
       chamadaTitulo: 'Comece hoje pelo Raio-X da sua prova.', chamadaTexto: 'Crie a conta grátis em um minuto. Sem cartão de crédito.', chamadaBotao: 'Criar conta grátis',
     },
     tour: {
@@ -250,11 +250,11 @@ const TX = {
     janela: 'Plataforma Rx Med',
     planos: {
       recomendado: 'El más elegido', completo: 'El más completo', assinar: 'Suscribirse', emBreve: 'El pago abre pronto', gratis: 'Crear cuenta gratis',
-      curso: { gratis: 'Todos los cursos', mensal: 'ENAMED · Revalida 1.ª etapa', ciclo: 'ENAMED · Revalida', 'segunda-etapa': 'Revalida 2.ª etapa', anual: 'Revalida 1.ª y 2.ª etapa' },
+      curso: { gratis: 'Todos los cursos', mensal: 'ENAMED · Revalida 1.ª etapa', ciclo: 'ENAMED · Revalida', 'anual-enamed': 'ENAMED · 12 meses', 'segunda-etapa': 'Revalida 2.ª etapa', anual: 'Revalida 1.ª y 2.ª etapa' },
       rodape: 'Precios en reales brasileños. Pago con PIX, tarjeta en hasta 12 cuotas o boleto, procesado por Mercado Pago. Cada pago libera el periodo del plan, sin cobro automático: antes de vencer, renueva si quiere. Tiene 7 días para desistir y recibir el dinero de vuelta.',
       titulo: 'Planes y precios', descricao: 'Planes de Rx Med para el ENAMED y el Revalida: gratuito, mensual, ciclo de examen, 2.ª etapa y anual completo.',
       intro: 'Empiece gratis. Cuando quiera el curso completo, elija el plan que acompaña su examen.',
-      porCurso: [['ENAMED', ['gratis', 'mensal', 'ciclo']], ['Revalida', ['gratis', 'mensal', 'ciclo', 'segunda-etapa', 'anual']]],
+      porCurso: [['ENAMED', ['gratis', 'mensal', 'ciclo', 'anual-enamed']], ['Revalida', ['gratis', 'mensal', 'ciclo', 'segunda-etapa', 'anual']]],
     },
     faqTitulo: 'Preguntas frecuentes',
     ecg: {
@@ -335,7 +335,7 @@ const TX = {
         ['Etapas', 'Examen teórico', '1.ª etapa teórica y 2.ª etapa práctica'],
         ['Contenido', '6 módulos, banco oficial comentado, simulacros y práctica de ECG', 'Todo eso y además las estaciones con paciente simulado'],
         ['Idioma', 'Portugués y español', 'Portugués y español'],
-        ['Planes', 'Gratuito, mensual y ciclo de examen', 'Gratuito, mensual, ciclo, 2.ª etapa y anual completo']],
+        ['Planes', 'Gratuito, mensual, ciclo de examen y ciclo anual', 'Gratuito, mensual, ciclo, 2.ª etapa y anual completo']],
       chamadaTitulo: 'Empiece hoy por los Rayos X de su examen.', chamadaTexto: 'Cree la cuenta gratis en un minuto. Sin tarjeta de crédito.', chamadaBotao: 'Crear cuenta gratis',
     },
     tour: {
@@ -524,7 +524,7 @@ function cartaoPlano(p, lingua, ctx, { comCurso = false, destaque = p.destaque, 
       : p.checkout
         ? `<a class="botao${destaque ? ' botao-primario' : ''}" href="${esc(p.checkout)}" rel="noopener">${tx.assinar}</a>`
         : `<span class="botao botao-inativo" aria-disabled="true">${tx.emBreve}</span>`;
-  const selo = destaque ? `<span class="plano-selo">${p.id === 'anual' ? tx.completo : tx.recomendado}</span>` : '';
+  const selo = destaque ? `<span class="plano-selo">${p.id.startsWith('anual') ? tx.completo : tx.recomendado}</span>` : '';
   return `<article class="cartao plano${destaque ? ' destaque' : ''}" id="plano-${p.id}">${selo}
     ${comCurso ? `<span class="plano-curso">${tx.curso[p.id] || ''}</span>` : ''}
     <h3>${esc(t.nome)}</h3><p class="mudo pequeno">${esc(t.para)}</p>
@@ -534,7 +534,7 @@ function cartaoPlano(p, lingua, ctx, { comCurso = false, destaque = p.destaque, 
     <p class="plano-acao">${botao}</p></article>`;
 }
 const avisoLancamento = (lingua) => (lancamento?.ativo ? `<p class="aviso-lancamento"><strong>${esc(lancamento[lingua].selo)}</strong> ${esc(lancamento[lingua].texto)}</p>` : '');
-const gradePlanos = (ids, lingua, ctx, opcoes = {}) => `${avisoLancamento(lingua)}<div class="grade-planos" style="--colunas:${ids.length}">${ids.map((id) => cartaoPlano(plano(id), lingua, ctx, { ...opcoes, destaque: (opcoes.destaques || []).includes(id) || (!opcoes.destaques && plano(id).destaque) })).join('')}</div>`;
+const gradePlanos = (ids, lingua, ctx, opcoes = {}) => `${avisoLancamento(lingua)}<div class="grade-planos" style="--colunas:${opcoes.colunas || ids.length}">${ids.map((id) => cartaoPlano(plano(id), lingua, ctx, { ...opcoes, destaque: (opcoes.destaques || []).includes(id) || (!opcoes.destaques && plano(id).destaque) })).join('')}</div>`;
 
 // Destaque do treino de ECG: tela real, o que o aluno faz e os padrões que o treino sorteia.
 function secaoEcg(ctx, lingua) {
@@ -608,7 +608,7 @@ ${secaoRecursos(lingua)}
     return `<div class="cartao mentor"><b style="background:${cores[i]}">${esc(iniciais)}</b><strong>${esc(`${t1} ${resto[0]}`)}</strong><span>${esc(lingua === 'es' ? (m.es?.titulo || m.titulo) : m.titulo)}</span></div>`;
   }).join('')}</div></section>
 <section class="secao">${cab(L.planosOlho, L.planosTitulo)}
-  ${gradePlanos(['gratis', 'mensal', 'ciclo', 'segunda-etapa', 'anual'], lingua, ctx, { comCurso: true })}
+  ${gradePlanos(['gratis', 'mensal', 'ciclo', 'anual-enamed', 'segunda-etapa', 'anual'], lingua, ctx, { comCurso: true, colunas: 3, destaques: ['ciclo', 'anual'] })}
   <p style="margin-top:20px"><a href="${ctx.link('planos.html')}">${L.verPlanos} →</a></p></section>
 <section class="secao">${cab(tx.faqTitulo, '')}${faq(L.faq, lingua)}</section>
 ${chamada(L.chamadaTitulo, L.chamadaTexto, L.chamadaBotao, ctx)}`,
@@ -634,7 +634,7 @@ ${secaoEcg(ctx, lingua)}
 <section class="secao">${cab(L.tourOlho, L.tourTitulo)}${tour(ctx, lingua, 'questao')}${tour(ctx, lingua, 'painel', true)}</section>
 <section class="secao">${cab(L.rotinaOlho, L.rotinaTitulo)}
   <div class="grade">${L.rotina.map(([t, d], i) => `<div class="cartao bloco"><span class="n">0${i + 1}</span><h3>${t}</h3><p>${d}</p></div>`).join('')}</div></section>
-<section class="secao" id="planos">${cab(TX[lingua].inicio.planosOlho, L.planosTitulo)}${gradePlanos(['gratis', 'mensal', 'ciclo'], lingua, ctx)}<p class="mudo pequeno" style="margin-top:20px">${tx.planos.rodape}</p></section>
+<section class="secao" id="planos">${cab(TX[lingua].inicio.planosOlho, L.planosTitulo)}${gradePlanos(['gratis', 'mensal', 'ciclo', 'anual-enamed'], lingua, ctx, { destaques: ['ciclo', 'anual-enamed'] })}<p class="mudo pequeno" style="margin-top:20px">${tx.planos.rodape}</p></section>
 <section class="secao">${cab(tx.faqTitulo, L.faqTitulo)}${faq(L.faq, lingua)}</section>
 ${chamada(L.chamadaTitulo, L.chamadaTexto, tx.inicio.chamadaBotao, ctx)}`,
   });
@@ -683,7 +683,7 @@ function paginaPlanos(lingua) {
     corpo: (ctx) => `
 <p class="migalhas"><a href="${ctx.link('index.html')}">Rx Med</a> › ${tx.menu.planos}</p>
 <div class="secao-cab" style="margin-top:20px"><h1 style="font-size:clamp(1.9rem,4.5vw,2.8rem)">${P.titulo}</h1><p>${P.intro}</p></div>
-${P.porCurso.map(([curso, ids]) => `<section class="secao${curso === 'Revalida' ? ' curso-revalida' : ''}" style="margin-top:56px">${cab('Rx Med', curso)}${gradePlanos(ids, lingua, ctx, curso === 'Revalida' ? { destaques: ['anual'], curso: 'revalida' } : {})}</section>`).join('')}
+${P.porCurso.map(([curso, ids]) => `<section class="secao${curso === 'Revalida' ? ' curso-revalida' : ''}" style="margin-top:56px">${cab('Rx Med', curso)}${gradePlanos(ids, lingua, ctx, curso === 'Revalida' ? { destaques: ['anual'], curso: 'revalida' } : { destaques: ['ciclo', 'anual-enamed'] })}</section>`).join('')}
 <p class="mudo pequeno" style="margin-top:24px">${P.rodape}</p>`,
   });
 }

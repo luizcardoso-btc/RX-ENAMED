@@ -105,6 +105,35 @@
       "duracaoMeses": 6
     },
     {
+      "id": "anual-enamed",
+      "preco": 149700,
+      "precoFundador": 149700,
+      "cobranca": "anual",
+      "parcelas": 12,
+      "checkout": "",
+      "pt": {
+        "nome": "Ciclo anual completo",
+        "para": "ENAMED, 12 meses de acesso",
+        "itens": [
+          "Tudo do ciclo de prova",
+          "12 meses para cobrir os seis módulos com calma",
+          "Simulados e revisões até a prova",
+          "Sai R$ 497 mais barato que dois ciclos de prova"
+        ]
+      },
+      "es": {
+        "nome": "Ciclo anual completo",
+        "para": "ENAMED, 12 meses de acceso",
+        "itens": [
+          "Todo lo del ciclo de examen",
+          "12 meses para cubrir los seis módulos con calma",
+          "Simulacros y repasos hasta el examen",
+          "Sale R$ 497 más barato que dos ciclos de examen"
+        ]
+      },
+      "duracaoMeses": 12
+    },
+    {
       "id": "segunda-etapa",
       "preco": 129700,
       "precoFundador": 129700,

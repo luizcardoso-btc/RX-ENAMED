@@ -4,7 +4,7 @@ import { faculdades } from './faculdades.js';
 const ETAPAS = { 1: '1º ano', 2: '2º ano', 3: '3º ano', 4: '4º ano', 5: '5º ano (internato)', 6: '6º ano (internato)', formado: 'Formado no Brasil', exterior: 'Formado no exterior' };
 const SEXO = { masculino: 'Masculino', feminino: 'Feminino' };
 
-const NOMES = { mensal: 'Mensal', ciclo: 'Ciclo de prova', 'segunda-etapa': '2ª etapa', anual: 'Anual completo' };
+const NOMES = { mensal: 'Mensal', ciclo: 'Ciclo de prova', 'anual-enamed': 'Ciclo anual completo (ENAMED)', 'segunda-etapa': '2ª etapa', anual: 'Anual completo' };
 const SIT = { ativo: 'Ativo', vencendo: 'Vencendo', expirado: 'Inativo', gratuito: 'Gratuito' };
 const STATUS = { aprovado: 'Aprovado', pendente: 'Pendente', recusado: 'Recusado', reembolsado: 'Reembolsado', expirado: 'Expirado', cancelado: 'Cancelado', contestado: 'Contestado' };
 const metodo = (m, n) => (m === 'cartao' ? `Cartão${n > 1 ? ` ${n}×` : ''}` : m.toUpperCase());
