@@ -7,6 +7,7 @@
 //   plataforma/              área do aluno (o app de estudo, copiado de app/dist)
 //   sitemap.xml, robots.txt  só com SITE_URL definido (endereço final do site)
 // Uso: node app/build.mjs && node site/gerar.mjs        (SITE_URL=https://seu-dominio node site/gerar.mjs)
+import { createHash } from 'node:crypto';
 import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
 
 const raiz = new URL('..', import.meta.url).pathname;
@@ -20,11 +21,11 @@ const banco = JSON.parse(readFileSync(`${raiz}app/public/data/questoes.json`, 'u
 const conteudo = JSON.parse(readFileSync(`${raiz}app/dist/data/conteudo.json`, 'utf8'));
 const comentarios = JSON.parse(readFileSync(`${raiz}app/dist/data/comentarios.json`, 'utf8'));
 const { textosPreco } = await import(`${raiz}app/src/planos.js`);
-const { ECGS, CHAVES_ECG } = await import(`${raiz}app/src/ecg.js`);
+const { CHAVES_ECG } = await import(`${raiz}app/src/ecg.js`);
 const { CASOS } = await import(`${raiz}app/src/casos.js`);
-const ES = (await import(`${raiz}app/src/es.js`)).default;
 const { lancamento, planos } = conteudo.planos;
 
+const VERSAO_CSS = createHash('sha1').update(readFileSync(`${raiz}site/site.css`)).digest('hex').slice(0, 10);
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const fmt = (n, lingua) => n.toLocaleString(lingua === 'es' ? 'es' : 'pt-BR');
 const preencher = (s, v) => s.replace(/\{(\w+)\}/g, (m, k) => (k in v ? v[k] : m));
@@ -87,7 +88,6 @@ const TX = {
       blocos: [['Roteiro de leitura', 'Ritmo, frequência, intervalo PR e QRS, eixo, ST e onda T: os cinco passos ficam na tela enquanto você lê o traçado.'],
         ['ECG dentro do caso clínico', 'No simulador clínico, {k} dos {s} casos trazem um ECG para laudar antes de decidir a conduta.'],
         ['Do traçado à questão', 'Arritmias, IAM e distúrbios eletrolíticos também caem nas questões oficiais de clínica e emergência, comentadas alternativa por alternativa.']],
-      padroes: 'Os {n} padrões do treino',
     },
     recursos: {
       olho: 'Tudo o que vem na plataforma', titulo: 'Doze ferramentas, uma conta só', texto: 'O que você usa em cada curso. Os recursos marcados como Revalida fazem parte da 2ª etapa.',
@@ -265,7 +265,6 @@ const TX = {
       blocos: [['Guía de lectura', 'Ritmo, frecuencia, intervalo PR y QRS, eje, ST y onda T: los cinco pasos quedan en pantalla mientras lee el trazado.'],
         ['ECG dentro del caso clínico', 'En el simulador clínico, {k} de los {s} casos traen un ECG para informar antes de decidir la conducta.'],
         ['Del trazado a la pregunta', 'Arritmias, IAM y trastornos electrolíticos también aparecen en las preguntas oficiales de clínica y emergencias, comentadas alternativa por alternativa.']],
-      padroes: 'Los {n} patrones de la práctica',
     },
     recursos: {
       olho: 'Todo lo que trae la plataforma', titulo: 'Doce herramientas, una sola cuenta', texto: 'Lo que usa en cada curso. Los recursos marcados como Revalida son parte de la 2.ª etapa.',
@@ -458,7 +457,7 @@ ${alternativos}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap">
-<link rel="stylesheet" href="${base}site.css">
+<link rel="stylesheet" href="${base}site.css?v=${VERSAO_CSS}">
 </head>
 <body${classe ? ` class="${classe}"` : ''}>
 <a class="pular" href="#conteudo">${tx.pular}</a>
@@ -542,12 +541,10 @@ function secaoEcg(ctx, lingua) {
   const tx = TX[lingua];
   const E = tx.ecg;
   const v = VALORES(lingua);
-  const nomes = Object.values(ECGS).map((e) => (lingua === 'es' ? ES[e.nome] || e.nome : e.nome));
   return `<section class="secao faixa" id="ecg">
   <div class="secao-cab"><span class="olho">${E.olho}</span><h2>${E.titulo}</h2><p>${E.texto}</p></div>
   <div class="tour"><div class="tour-texto">${lista(E.itens.map((i) => preencher(i, v)))}<span class="etiqueta">${E.etiqueta}</span></div>${janela(ctx, tx, 'ecg', E.rota, E.alt)}</div>
   <div class="grade">${E.blocos.map(([t, d]) => `<div class="cartao bloco"><h3>${t}</h3><p>${preencher(d, v)}</p></div>`).join('')}</div>
-  <h3 class="fichas-titulo">${preencher(E.padroes, v)}</h3><ul class="fichas">${nomes.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>
 </section>`;
 }
 // Grade com os recursos da plataforma e o curso de cada um.
