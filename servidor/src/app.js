@@ -129,7 +129,12 @@ export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ b
   app.use(contarVisitas(banco));
   app.get('/i/:codigo', rotaLinkIndicacao({ banco, config }));
   // Páginas próprias do servidor: entrar, checkout, conta, admin e documentos legais.
-  app.use('/_rx', express.static(web, { maxAge: config.producao ? '1h' : 0 }));
+  // Scripts e estilos das páginas do servidor são revalidados a cada visita (304 quando não mudaram), para que um deploy
+  // nunca misture a página nova com um script antigo do cache. O mapa (Leaflet) e as imagens podem ficar em cache.
+  app.use('/_rx', express.static(web, {
+    maxAge: 0,
+    setHeaders: (res, caminho) => res.set('Cache-Control', config.producao && /[\\/]leaflet[\\/]|\.(png|svg|jpg|webp|woff2?)$/.test(caminho) ? 'public, max-age=86400' : 'no-cache'),
+  }));
   const paginas = [['/entrar', 'entrar.html'], ['/checkout', 'checkout.html'], ['/admin', 'admin.html'], ['/minha-conta', 'conta.html'],
     ['/redefinir-senha', 'redefinir.html'], ['/privacidade', 'privacidade.html'], ['/termos', 'termos.html']];
   // Documentos legais com os dados da empresa vindos da configuração.
