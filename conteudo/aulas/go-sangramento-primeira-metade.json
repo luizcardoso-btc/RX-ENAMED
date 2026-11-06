@@ -1,0 +1,180 @@
+{
+  "id": "go-sangramento-primeira-metade",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "mentor": "marina",
+  "duracaoMin": 18,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2013_q051",
+    "revalida_2024-1_q029",
+    "revalida_2023-1_q034",
+    "enamed_2025_q082"
+  ],
+  "referencias": [
+    "Ministério da Saúde. Atenção humanizada ao abortamento: norma técnica, 2ª edição. Brasília, 2011.",
+    "Ministério da Saúde. Manual de gestação de alto risco. Brasília, 2022.",
+    "American College of Obstetricians and Gynecologists. Practice Bulletin 193: Tubal Ectopic Pregnancy, 2018.",
+    "Ngan HYS et al. FIGO cancer report 2021: Gestational trophoblastic disease. Int J Gynaecol Obstet, 2021."
+  ],
+  "pt": {
+    "titulo": "Sangramentos da primeira metade da gestação: abortamento, gravidez ectópica e doença trofoblástica",
+    "resumo": "Sangramento antes de 20 semanas tem três grandes causas. O raciocínio da prova começa pelo estado hemodinâmico, segue pelo beta-hCG e pela ultrassonografia transvaginal e termina na conduta específica de cada uma.",
+    "secoes": [
+      {
+        "titulo": "Abortamento: definição e formas clínicas",
+        "paragrafos": [
+          "Abortamento é a interrupção da gestação antes de 20 a 22 semanas ou com feto abaixo de 500 g. A forma clínica sai do exame especular, do toque e da ultrassonografia."
+        ],
+        "itens": [
+          "Ameaça de abortamento: sangramento pequeno, colo fechado, embrião vivo. Conduta expectante, sem repouso absoluto obrigatório.",
+          "Abortamento inevitável: colo aberto, sangramento e cólicas; a gestação não vai continuar.",
+          "Abortamento incompleto: saíram partes da gestação, colo aberto e restos no útero; esvaziamento uterino.",
+          "Abortamento completo: tudo foi eliminado, colo fechado, útero vazio ao ultrassom (espessura endometrial fina); conduta expectante.",
+          "Abortamento retido: embrião sem batimentos ou saco gestacional vazio, colo fechado; conduta expectante, misoprostol ou esvaziamento.",
+          "Abortamento infectado: febre, dor e secreção fétida; antibiótico de amplo espectro (por exemplo, clindamicina com gentamicina) e esvaziamento uterino após o início do antibiótico."
+        ]
+      },
+      {
+        "titulo": "Esvaziamento uterino e cuidados",
+        "paragrafos": [
+          "A técnica depende da idade gestacional e dos recursos do serviço."
+        ],
+        "itens": [
+          "Até 12 semanas: aspiração manual intrauterina (AMIU), preferível à curetagem por menor risco de perfuração e sinéquias.",
+          "Acima de 12 semanas: misoprostol para expulsão do feto e, depois, curetagem se houver restos.",
+          "Gestante Rh negativo não sensibilizada: imunoglobulina anti-D após o abortamento.",
+          "Oferecer contracepção e acolhimento; abortamento legal no Brasil: risco de vida da gestante, gravidez por estupro (sem exigir boletim de ocorrência) e anencefalia."
+        ]
+      },
+      {
+        "titulo": "Abortamento de repetição e insuficiência istmocervical",
+        "paragrafos": [
+          "Considera-se abortamento de repetição a perda de 3 ou mais gestações seguidas (alguns protocolos já investigam a partir de 2)."
+        ],
+        "itens": [
+          "Investigar: síndrome antifosfolípide (anticoagulante lúpico, anticardiolipina e anti-beta-2-glicoproteína), malformações uterinas (septo), alterações cromossômicas do casal (cariótipo), diabetes e tireoide descompensados.",
+          "Síndrome antifosfolípide na gestação: AAS em dose baixa com heparina de baixo peso molecular profilática.",
+          "Mutação isolada da MTHFR e trombofilias hereditárias, sem história de trombose, em geral não indicam anticoagulação.",
+          "Insuficiência istmocervical: perdas no segundo trimestre, indolores, com dilatação do colo e saída do feto; cerclagem entre 12 e 16 semanas.",
+          "Colo curto (25 mm ou menos) no ultrassom do segundo trimestre: progesterona vaginal; cerclagem se houver história de perda ou parto prematuro."
+        ]
+      },
+      {
+        "titulo": "Gravidez ectópica",
+        "paragrafos": [
+          "Implantação fora da cavidade uterina, quase sempre na tuba (região ampular). É a principal causa de morte materna no primeiro trimestre."
+        ],
+        "itens": [
+          "Fatores de risco: ectópica prévia, cirurgia tubária, doença inflamatória pélvica, DIU em uso (se engravidar), reprodução assistida e tabagismo.",
+          "Quadro: atraso menstrual, dor pélvica e sangramento discreto; rota, dor intensa, sinais de irritação peritoneal (grito de Douglas) e choque.",
+          "Beta-hCG acima da zona discriminatória (em geral 1.500 a 3.500 mUI/mL) sem saco gestacional intrauterino ao ultrassom transvaginal sugere ectópica.",
+          "Instável ou rota: cirurgia imediata (salpingectomia).",
+          "Estável, massa pequena (até 3,5 cm), sem batimentos, beta-hCG abaixo de 5.000 e seguimento possível: metotrexato, com dosagens seriadas de beta-hCG.",
+          "Cirurgia laparoscópica no estável que não preenche critérios: salpingostomia se a outra tuba estiver doente e houver desejo reprodutivo; salpingectomia nos demais."
+        ]
+      },
+      {
+        "titulo": "Doença trofoblástica gestacional",
+        "paragrafos": [
+          "Proliferação anormal do trofoblasto. Mola completa (diploide, só material paterno, sem embrião) tem maior risco de evoluir para neoplasia que a parcial (triploide, com partes fetais)."
+        ],
+        "itens": [
+          "Quadro: sangramento, útero maior que o esperado, hiperêmese, pré-eclâmpsia antes de 20 semanas, hipertireoidismo e cistos tecaluteínicos.",
+          "Ultrassom: imagem em flocos de neve ou cachos de uva; beta-hCG muito elevado.",
+          "Tratamento: esvaziamento por vácuo-aspiração; histerectomia é opção para quem tem prole completa.",
+          "Seguimento: beta-hCG semanal até 3 dosagens negativas seguidas e depois mensal por alguns meses, com contracepção hormonal eficaz.",
+          "Neoplasia trofoblástica gestacional: platô do beta-hCG (4 valores em 3 semanas) ou elevação (3 valores em 2 semanas), ou diagnóstico histológico de coriocarcinoma; estadiar e tratar com quimioterapia (metotrexato no baixo risco), com altíssima taxa de cura."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Instável com suspeita de ectópica: cirurgia, sem esperar exames.",
+      "Beta-hCG acima da zona discriminatória e útero vazio: pense em ectópica.",
+      "Abortamento infectado: antibiótico antes, esvaziamento depois.",
+      "Até 12 semanas, AMIU é preferível à curetagem.",
+      "Mola: seguimento com beta-hCG e contracepção; platô ou elevação indica neoplasia.",
+      "Rh negativo não sensibilizada recebe anti-D após abortamento e ectópica."
+    ]
+  },
+  "es": {
+    "titulo": "Sangrados de la primera mitad del embarazo: aborto, embarazo ectópico y enfermedad trofoblástica",
+    "resumo": "El sangrado antes de las 20 semanas tiene tres grandes causas. El razonamiento del examen empieza por el estado hemodinámico, sigue con la beta-hCG y la ecografía transvaginal y termina en la conducta específica de cada una.",
+    "secoes": [
+      {
+        "titulo": "Aborto: definición y formas clínicas",
+        "paragrafos": [
+          "Aborto es la interrupción del embarazo antes de las 20 a 22 semanas o con feto menor de 500 g. La forma clínica surge del examen con espéculo, el tacto y la ecografía."
+        ],
+        "itens": [
+          "Amenaza de aborto: sangrado pequeño, cuello cerrado, embrión vivo. Conducta expectante, sin reposo absoluto obligatorio.",
+          "Aborto inevitable: cuello abierto, sangrado y cólicos; el embarazo no va a continuar.",
+          "Aborto incompleto: salieron partes del embarazo, cuello abierto y restos en el útero; evacuación uterina.",
+          "Aborto completo: todo fue eliminado, cuello cerrado, útero vacío en la ecografía (endometrio fino); conducta expectante.",
+          "Aborto retenido: embrión sin latidos o saco gestacional vacío, cuello cerrado; conducta expectante, misoprostol o evacuación.",
+          "Aborto infectado: fiebre, dolor y secreción fétida; antibiótico de amplio espectro (por ejemplo, clindamicina con gentamicina) y evacuación uterina después de iniciar el antibiótico."
+        ]
+      },
+      {
+        "titulo": "Evacuación uterina y cuidados",
+        "paragrafos": [
+          "La técnica depende de la edad gestacional y de los recursos del servicio."
+        ],
+        "itens": [
+          "Hasta las 12 semanas: aspiración manual endouterina (AMEU), preferible al legrado por menor riesgo de perforación y sinequias.",
+          "Más de 12 semanas: misoprostol para la expulsión del feto y, después, legrado si quedan restos.",
+          "Embarazada Rh negativo no sensibilizada: inmunoglobulina anti-D después del aborto.",
+          "Ofrecer anticoncepción y acompañamiento; aborto legal en Brasil: riesgo de vida de la embarazada, embarazo por violación (sin exigir denuncia policial) y anencefalia."
+        ]
+      },
+      {
+        "titulo": "Aborto recurrente e insuficiencia cervical",
+        "paragrafos": [
+          "Se considera aborto recurrente la pérdida de 3 o más embarazos seguidos (algunos protocolos investigan desde 2)."
+        ],
+        "itens": [
+          "Investigar: síndrome antifosfolípido (anticoagulante lúpico, anticardiolipina y anti-beta-2-glicoproteína), malformaciones uterinas (tabique), alteraciones cromosómicas de la pareja (cariotipo), diabetes y tiroides descompensadas.",
+          "Síndrome antifosfolípido en el embarazo: aspirina en dosis baja con heparina de bajo peso molecular profiláctica.",
+          "La mutación aislada de la MTHFR y las trombofilias hereditarias, sin antecedente de trombosis, en general no indican anticoagulación.",
+          "Insuficiencia cervical: pérdidas en el segundo trimestre, indoloras, con dilatación del cuello y salida del feto; cerclaje entre las 12 y 16 semanas.",
+          "Cuello corto (25 mm o menos) en la ecografía del segundo trimestre: progesterona vaginal; cerclaje si hay antecedente de pérdida o parto prematuro."
+        ]
+      },
+      {
+        "titulo": "Embarazo ectópico",
+        "paragrafos": [
+          "Implantación fuera de la cavidad uterina, casi siempre en la trompa (región ampular). Es la principal causa de muerte materna en el primer trimestre."
+        ],
+        "itens": [
+          "Factores de riesgo: ectópico previo, cirugía tubaria, enfermedad inflamatoria pélvica, DIU en uso (si se embaraza), reproducción asistida y tabaquismo.",
+          "Cuadro: atraso menstrual, dolor pélvico y sangrado discreto; roto, dolor intenso, signos de irritación peritoneal (grito de Douglas) y shock.",
+          "Beta-hCG por encima de la zona discriminatoria (en general 1.500 a 3.500 mUI/mL) sin saco gestacional intrauterino en la ecografía transvaginal sugiere ectópico.",
+          "Inestable o roto: cirugía inmediata (salpingectomía).",
+          "Estable, masa pequeña (hasta 3,5 cm), sin latidos, beta-hCG menor de 5.000 y seguimiento posible: metotrexato, con mediciones seriadas de beta-hCG.",
+          "Cirugía laparoscópica en la estable que no cumple criterios: salpingostomía si la otra trompa está enferma y hay deseo reproductivo; salpingectomía en las demás."
+        ]
+      },
+      {
+        "titulo": "Enfermedad trofoblástica gestacional",
+        "paragrafos": [
+          "Proliferación anormal del trofoblasto. La mola completa (diploide, solo material paterno, sin embrión) tiene mayor riesgo de evolucionar a neoplasia que la parcial (triploide, con partes fetales)."
+        ],
+        "itens": [
+          "Cuadro: sangrado, útero mayor de lo esperado, hiperémesis, preeclampsia antes de las 20 semanas, hipertiroidismo y quistes tecaluteínicos.",
+          "Ecografía: imagen en copos de nieve o racimo de uvas; beta-hCG muy elevada.",
+          "Tratamiento: evacuación por aspiración al vacío; la histerectomía es opción para quien tiene la paridad cumplida.",
+          "Seguimiento: beta-hCG semanal hasta 3 mediciones negativas seguidas y después mensual por algunos meses, con anticoncepción hormonal eficaz.",
+          "Neoplasia trofoblástica gestacional: meseta de la beta-hCG (4 valores en 3 semanas) o aumento (3 valores en 2 semanas), o diagnóstico histológico de coriocarcinoma; estadificar y tratar con quimioterapia (metotrexato en bajo riesgo), con altísima tasa de curación."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Inestable con sospecha de ectópico: cirugía, sin esperar exámenes.",
+      "Beta-hCG por encima de la zona discriminatoria y útero vacío: piense en ectópico.",
+      "Aborto infectado: antibiótico antes, evacuación después.",
+      "Hasta las 12 semanas, la AMEU es preferible al legrado.",
+      "Mola: seguimiento con beta-hCG y anticoncepción; meseta o aumento indica neoplasia.",
+      "Rh negativo no sensibilizada recibe anti-D después del aborto y del ectópico."
+    ]
+  }
+}

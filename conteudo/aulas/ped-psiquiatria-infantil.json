@@ -1,0 +1,178 @@
+{
+  "id": "ped-psiquiatria-infantil",
+  "area": "Pediatria",
+  "especialidade": "Psiquiatria",
+  "mentor": "tomas",
+  "duracaoMin": 16,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2024-1_q098",
+    "revalida_2023-2_q098",
+    "revalida_2026-2_q014",
+    "revalida_2026-2_q047"
+  ],
+  "referencias": [
+    "American Psychiatric Association. Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM-5-TR), 2022.",
+    "Sociedade Brasileira de Pediatria. Manual de Orientação: Transtorno do Espectro do Autismo, 2019.",
+    "Ministério da Saúde. Caderneta da Criança (marcos do desenvolvimento e sinais de alerta), edição vigente.",
+    "Wolraich ML et al. Clinical Practice Guideline for the Diagnosis, Evaluation, and Treatment of ADHD in Children and Adolescents. Pediatrics, 2019."
+  ],
+  "pt": {
+    "titulo": "Psiquiatria da infância e da adolescência: autismo, TDAH, comportamento, transtornos alimentares e enurese",
+    "resumo": "O pediatra e o médico de família são os primeiros a perceber. A prova cobra os sinais de alerta do autismo, os critérios do TDAH, quando tratar com medicamento, os sinais de gravidade nos transtornos alimentares e a conduta na enurese.",
+    "secoes": [
+      {
+        "titulo": "Transtorno do espectro autista (TEA)",
+        "paragrafos": [
+          "Prejuízo persistente na comunicação e na interação social, com padrões restritos e repetitivos de comportamento, presentes desde o início do desenvolvimento."
+        ],
+        "itens": [
+          "Sinais de alerta: pouco contato visual, não responde ao nome, não aponta para mostrar interesse por volta de 12 meses, ausência de palavras aos 16 meses ou de frases de duas palavras aos 24 meses e qualquer perda de habilidades já adquiridas.",
+          "Rastreamento com o M-CHAT entre 16 e 30 meses; teste positivo pede avaliação especializada.",
+          "Sempre avaliar a audição: perda auditiva pode imitar o quadro.",
+          "Encaminhar para intervenção precoce já na suspeita, sem esperar o diagnóstico fechado: o resultado é melhor quanto mais cedo começa.",
+          "Medicamentos não tratam o núcleo do autismo; risperidona ou aripiprazol podem ser usados para irritabilidade e agressividade graves."
+        ]
+      },
+      {
+        "titulo": "Transtorno de déficit de atenção e hiperatividade (TDAH)",
+        "paragrafos": [
+          "Padrão persistente de desatenção e/ou hiperatividade-impulsividade que prejudica a vida da criança."
+        ],
+        "itens": [
+          "Critérios: sintomas por pelo menos 6 meses, início antes dos 12 anos, presentes em dois ou mais ambientes (casa e escola, por exemplo) e com prejuízo funcional.",
+          "Apresentações: predominantemente desatenta, predominantemente hiperativa-impulsiva ou combinada.",
+          "Ouvir pais e professores; escalas como a SNAP-IV ajudam; afastar déficit visual ou auditivo, problemas de sono, ansiedade, depressão e situações de violência.",
+          "Pré-escolar (até 5 anos): primeiro, treinamento comportamental dos pais.",
+          "A partir de 6 anos: psicoeducação, intervenção escolar e medicamento; o metilfenidato é a primeira escolha.",
+          "Efeitos do estimulante: perda de apetite, insônia, cefaleia e taquicardia; acompanhar peso, altura e pressão arterial."
+        ]
+      },
+      {
+        "titulo": "Transtornos de comportamento",
+        "paragrafos": [
+          "A diferença entre o opositor e o de conduta é a gravidade das violações."
+        ],
+        "itens": [
+          "Transtorno opositor desafiador: humor raivoso e irritável, comportamento desafiador e vingativo com figuras de autoridade, sem violações graves.",
+          "Transtorno de conduta: violação persistente de direitos dos outros e de regras sociais (agressão a pessoas e animais, destruição, furtos, fugas).",
+          "Tratamento: treinamento de pais e intervenções psicossociais; tratar comorbidades como TDAH.",
+          "Sempre investigar violência doméstica e abuso."
+        ]
+      },
+      {
+        "titulo": "Transtornos alimentares",
+        "paragrafos": [
+          "Começam com frequência na adolescência e têm a maior mortalidade entre os transtornos psiquiátricos."
+        ],
+        "itens": [
+          "Anorexia nervosa: restrição alimentar, medo intenso de ganhar peso e distorção da imagem corporal, com peso significativamente baixo.",
+          "Bulimia nervosa: compulsão alimentar seguida de comportamentos compensatórios (vômitos, laxantes, jejum, exercício), com peso em geral normal; sinal de Russell, aumento de parótidas e erosão dentária.",
+          "Critérios de internação: bradicardia abaixo de 50 bpm de dia, hipotensão, hipotermia, distúrbio eletrolítico (hipocalemia, hipofosfatemia), desidratação, peso muito baixo, recusa alimentar total e risco de suicídio.",
+          "Síndrome de realimentação: queda de fósforo, potássio e magnésio ao reiniciar a dieta; realimentar com monitorização e reposição.",
+          "Tratamento: equipe multiprofissional, terapia familiar na anorexia do adolescente, terapia cognitivo-comportamental; fluoxetina ajuda na bulimia."
+        ]
+      },
+      {
+        "titulo": "Enurese, depressão e risco de suicídio",
+        "paragrafos": [
+          "Perguntar sobre sono, humor e ideação faz parte da consulta do adolescente."
+        ],
+        "itens": [
+          "Enurese noturna: perda de urina durante o sono a partir dos 5 anos; monossintomática na maioria. Afastar infecção urinária, diabetes e constipação.",
+          "Tratamento da enurese: orientação e reforço positivo, sem punição; alarme noturno é o mais eficaz a longo prazo; desmopressina para resposta rápida (viagens, acampamentos).",
+          "Depressão na criança e no adolescente pode aparecer como irritabilidade, queda no rendimento escolar e isolamento.",
+          "Tratamento: psicoterapia; nos casos moderados a graves, fluoxetina, com vigilância de ideação suicida nas primeiras semanas.",
+          "Perguntar diretamente sobre suicídio não aumenta o risco; ideação com plano é urgência."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Na suspeita de autismo, encaminhe para estimulação precoce sem esperar o diagnóstico.",
+      "Perda de habilidades em qualquer idade é sinal de alerta.",
+      "TDAH exige sintomas em pelo menos dois ambientes e início antes dos 12 anos.",
+      "Pré-escolar com TDAH: treinamento de pais antes do remédio.",
+      "Bradicardia e hipofosfatemia na anorexia indicam internação.",
+      "Enurese só é diagnóstico a partir dos 5 anos; o alarme é o tratamento mais eficaz."
+    ]
+  },
+  "es": {
+    "titulo": "Psiquiatría de la infancia y la adolescencia: autismo, TDAH, conducta, trastornos alimentarios y enuresis",
+    "resumo": "El pediatra y el médico de familia son los primeros en notarlo. El examen evalúa los signos de alerta del autismo, los criterios del TDAH, cuándo tratar con fármacos, los signos de gravedad en los trastornos alimentarios y la conducta en la enuresis.",
+    "secoes": [
+      {
+        "titulo": "Trastorno del espectro autista (TEA)",
+        "paragrafos": [
+          "Compromiso persistente de la comunicación y de la interacción social, con patrones restringidos y repetitivos de conducta, presentes desde el inicio del desarrollo."
+        ],
+        "itens": [
+          "Signos de alerta: poco contacto visual, no responde a su nombre, no señala para mostrar interés hacia los 12 meses, ausencia de palabras a los 16 meses o de frases de dos palabras a los 24 meses y cualquier pérdida de habilidades ya adquiridas.",
+          "Tamizaje con el M-CHAT entre los 16 y 30 meses; una prueba positiva pide evaluación especializada.",
+          "Siempre evaluar la audición: la hipoacusia puede imitar el cuadro.",
+          "Derivar a intervención temprana ya con la sospecha, sin esperar el diagnóstico cerrado: el resultado es mejor cuanto antes empieza.",
+          "Los fármacos no tratan el núcleo del autismo; risperidona o aripiprazol pueden usarse para irritabilidad y agresividad graves."
+        ]
+      },
+      {
+        "titulo": "Trastorno por déficit de atención e hiperactividad (TDAH)",
+        "paragrafos": [
+          "Patrón persistente de inatención y/o hiperactividad-impulsividad que perjudica la vida del niño."
+        ],
+        "itens": [
+          "Criterios: síntomas durante al menos 6 meses, inicio antes de los 12 años, presentes en dos o más ambientes (casa y escuela, por ejemplo) y con perjuicio funcional.",
+          "Presentaciones: predominantemente inatenta, predominantemente hiperactiva-impulsiva o combinada.",
+          "Escuchar a padres y maestros; escalas como la SNAP-IV ayudan; descartar déficit visual o auditivo, problemas de sueño, ansiedad, depresión y situaciones de violencia.",
+          "Preescolar (hasta 5 años): primero, entrenamiento conductual de los padres.",
+          "Desde los 6 años: psicoeducación, intervención escolar y fármaco; el metilfenidato es la primera elección.",
+          "Efectos del estimulante: pérdida de apetito, insomnio, cefalea y taquicardia; controlar peso, talla y presión arterial."
+        ]
+      },
+      {
+        "titulo": "Trastornos de conducta",
+        "paragrafos": [
+          "La diferencia entre el negativista desafiante y el disocial es la gravedad de las transgresiones."
+        ],
+        "itens": [
+          "Trastorno negativista desafiante: humor enojado e irritable, conducta desafiante y vengativa con figuras de autoridad, sin transgresiones graves.",
+          "Trastorno de conducta (disocial): violación persistente de los derechos de otros y de reglas sociales (agresión a personas y animales, destrucción, robos, fugas).",
+          "Tratamiento: entrenamiento de padres e intervenciones psicosociales; tratar comorbilidades como el TDAH.",
+          "Siempre investigar violencia doméstica y abuso."
+        ]
+      },
+      {
+        "titulo": "Trastornos alimentarios",
+        "paragrafos": [
+          "Comienzan con frecuencia en la adolescencia y tienen la mayor mortalidad entre los trastornos psiquiátricos."
+        ],
+        "itens": [
+          "Anorexia nerviosa: restricción alimentaria, miedo intenso a ganar peso y distorsión de la imagen corporal, con peso significativamente bajo.",
+          "Bulimia nerviosa: atracones seguidos de conductas compensatorias (vómitos, laxantes, ayuno, ejercicio), con peso en general normal; signo de Russell, aumento de parótidas y erosión dental.",
+          "Criterios de internación: bradicardia menor de 50 lpm de día, hipotensión, hipotermia, trastorno electrolítico (hipopotasemia, hipofosfatemia), deshidratación, peso muy bajo, rechazo alimentario total y riesgo de suicidio.",
+          "Síndrome de realimentación: caída de fósforo, potasio y magnesio al reiniciar la dieta; realimentar con monitorización y reposición.",
+          "Tratamiento: equipo multiprofesional, terapia familiar en la anorexia del adolescente, terapia cognitivo-conductual; la fluoxetina ayuda en la bulimia."
+        ]
+      },
+      {
+        "titulo": "Enuresis, depresión y riesgo de suicidio",
+        "paragrafos": [
+          "Preguntar sobre sueño, ánimo e ideación es parte de la consulta del adolescente."
+        ],
+        "itens": [
+          "Enuresis nocturna: pérdida de orina durante el sueño desde los 5 años; monosintomática en la mayoría. Descartar infección urinaria, diabetes y estreñimiento.",
+          "Tratamiento de la enuresis: orientación y refuerzo positivo, sin castigo; la alarma nocturna es lo más eficaz a largo plazo; desmopresina para respuesta rápida (viajes, campamentos).",
+          "La depresión en el niño y el adolescente puede aparecer como irritabilidad, caída del rendimiento escolar y aislamiento.",
+          "Tratamiento: psicoterapia; en los casos moderados a graves, fluoxetina, con vigilancia de ideación suicida en las primeras semanas.",
+          "Preguntar directamente por el suicidio no aumenta el riesgo; la ideación con plan es una urgencia."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Ante la sospecha de autismo, derive a estimulación temprana sin esperar el diagnóstico.",
+      "La pérdida de habilidades a cualquier edad es signo de alerta.",
+      "El TDAH exige síntomas en al menos dos ambientes e inicio antes de los 12 años.",
+      "Preescolar con TDAH: entrenamiento de padres antes del fármaco.",
+      "Bradicardia e hipofosfatemia en la anorexia indican internación.",
+      "La enuresis solo es diagnóstico desde los 5 años; la alarma es el tratamiento más eficaz."
+    ]
+  }
+}

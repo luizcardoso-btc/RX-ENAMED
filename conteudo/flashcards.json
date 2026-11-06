@@ -6142,6 +6142,266 @@
         "frente": "Colelitiasis asintomática: ¿cuándo operar?",
         "verso": "Vesícula en porcelana, cálculo mayor de 2,5 a 3 cm, pólipo de 1 cm o más y anemia hemolítica crónica."
       }
+    },
+    {
+      "id": "go-aborto-formas",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Sangramento da primeira metade",
+      "frente": "Abortamento: como diferenciar ameaça, incompleto, completo e retido?",
+      "verso": "Ameaça: colo fechado, embrião vivo. Incompleto: colo aberto, restos. Completo: colo fechado, útero vazio. Retido: colo fechado, embrião sem batimentos.",
+      "questoes": [],
+      "es": {
+        "frente": "Aborto: ¿cómo diferenciar amenaza, incompleto, completo y retenido?",
+        "verso": "Amenaza: cuello cerrado, embrión vivo. Incompleto: cuello abierto, restos. Completo: cuello cerrado, útero vacío. Retenido: cuello cerrado, embrión sin latidos."
+      }
+    },
+    {
+      "id": "go-amiu",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Sangramento da primeira metade",
+      "frente": "Esvaziamento uterino até 12 semanas: técnica preferida?",
+      "verso": "Aspiração manual intrauterina (AMIU): menos perfuração e sinéquias que a curetagem. Acima de 12 semanas: misoprostol e curetagem se houver restos.",
+      "questoes": [],
+      "es": {
+        "frente": "Evacuación uterina hasta las 12 semanas: ¿técnica preferida?",
+        "verso": "Aspiración manual endouterina (AMEU): menos perforación y sinequias que el legrado. Más de 12 semanas: misoprostol y legrado si quedan restos."
+      }
+    },
+    {
+      "id": "go-ectopica-mtx",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Sangramento da primeira metade",
+      "frente": "Gravidez ectópica: critérios para metotrexato?",
+      "verso": "Estável, massa até 3,5 cm, sem batimentos embrionários, beta-hCG abaixo de 5.000 e seguimento possível. Instável ou rota: cirurgia.",
+      "questoes": [],
+      "es": {
+        "frente": "Embarazo ectópico: ¿criterios para metotrexato?",
+        "verso": "Estable, masa hasta 3,5 cm, sin latidos embrionarios, beta-hCG menor de 5.000 y seguimiento posible. Inestable o roto: cirugía."
+      }
+    },
+    {
+      "id": "go-mola-quadro",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Sangramento da primeira metade",
+      "frente": "Mola hidatiforme: quadro e ultrassom?",
+      "verso": "Sangramento, útero maior que a idade gestacional, hiperêmese, pré-eclâmpsia precoce, hipertireoidismo e cistos tecaluteínicos; ultrassom em flocos de neve; beta-hCG muito alto.",
+      "questoes": [
+        "revalida_2013_q051"
+      ],
+      "es": {
+        "frente": "Mola hidatiforme: ¿cuadro y ecografía?",
+        "verso": "Sangrado, útero mayor que la edad gestacional, hiperémesis, preeclampsia precoz, hipertiroidismo y quistes tecaluteínicos; ecografía en copos de nieve; beta-hCG muy alta."
+      }
+    },
+    {
+      "id": "go-ntg",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Sangramento da primeira metade",
+      "frente": "Seguimento pós-molar: quando suspeitar de neoplasia trofoblástica?",
+      "verso": "Platô do beta-hCG em 4 dosagens em 3 semanas, elevação em 3 dosagens em 2 semanas ou coriocarcinoma na histologia.",
+      "questoes": [
+        "revalida_2013_q051"
+      ],
+      "es": {
+        "frente": "Seguimiento posmolar: ¿cuándo sospechar neoplasia trofoblástica?",
+        "verso": "Meseta de la beta-hCG en 4 mediciones en 3 semanas, aumento en 3 mediciones en 2 semanas o coriocarcinoma en la histología."
+      }
+    },
+    {
+      "id": "go-iic",
+      "area": "Ginecologia e Obstetrícia",
+      "especialidade": "Obstetrícia",
+      "tema": "Sangramento da primeira metade",
+      "frente": "Insuficiência istmocervical: quadro e conduta?",
+      "verso": "Perdas indolores no segundo trimestre com dilatação do colo; cerclagem entre 12 e 16 semanas. Colo curto no ultrassom: progesterona vaginal.",
+      "questoes": [
+        "enamed_2025_q082"
+      ],
+      "es": {
+        "frente": "Insuficiencia cervical: ¿cuadro y conducta?",
+        "verso": "Pérdidas indoloras en el segundo trimestre con dilatación del cuello; cerclaje entre las 12 y 16 semanas. Cuello corto en la ecografía: progesterona vaginal."
+      }
+    },
+    {
+      "id": "ped-tea-alerta",
+      "area": "Pediatria",
+      "especialidade": "Psiquiatria",
+      "tema": "Psiquiatria infantil",
+      "frente": "Autismo: sinais de alerta e rastreamento?",
+      "verso": "Pouco contato visual, não responde ao nome, não aponta aos 12 meses, sem palavras aos 16 meses, perda de habilidades. M-CHAT entre 16 e 30 meses; avaliar audição.",
+      "questoes": [
+        "revalida_2024-1_q098"
+      ],
+      "es": {
+        "frente": "Autismo: ¿signos de alerta y tamizaje?",
+        "verso": "Poco contacto visual, no responde a su nombre, no señala a los 12 meses, sin palabras a los 16 meses, pérdida de habilidades. M-CHAT entre 16 y 30 meses; evaluar la audición."
+      }
+    },
+    {
+      "id": "ped-tea-conduta",
+      "area": "Pediatria",
+      "especialidade": "Psiquiatria",
+      "tema": "Psiquiatria infantil",
+      "frente": "Suspeita de autismo: conduta?",
+      "verso": "Encaminhar para intervenção precoce e avaliação especializada já na suspeita, sem esperar o diagnóstico fechado.",
+      "questoes": [
+        "revalida_2024-1_q098"
+      ],
+      "es": {
+        "frente": "Sospecha de autismo: ¿conducta?",
+        "verso": "Derivar a intervención temprana y evaluación especializada ya con la sospecha, sin esperar el diagnóstico cerrado."
+      }
+    },
+    {
+      "id": "ped-tdah-criterios",
+      "area": "Pediatria",
+      "especialidade": "Psiquiatria",
+      "tema": "Psiquiatria infantil",
+      "frente": "TDAH: critérios diagnósticos?",
+      "verso": "Desatenção e/ou hiperatividade-impulsividade por 6 meses ou mais, início antes dos 12 anos, em 2 ou mais ambientes e com prejuízo funcional.",
+      "questoes": [
+        "revalida_2023-2_q098"
+      ],
+      "es": {
+        "frente": "TDAH: ¿criterios diagnósticos?",
+        "verso": "Inatención y/o hiperactividad-impulsividad durante 6 meses o más, inicio antes de los 12 años, en 2 o más ambientes y con perjuicio funcional."
+      }
+    },
+    {
+      "id": "ped-tdah-tratamento",
+      "area": "Pediatria",
+      "especialidade": "Psiquiatria",
+      "tema": "Psiquiatria infantil",
+      "frente": "TDAH: tratamento por idade?",
+      "verso": "Até 5 anos: treinamento comportamental dos pais. A partir de 6 anos: psicoeducação, intervenção escolar e metilfenidato.",
+      "questoes": [],
+      "es": {
+        "frente": "TDAH: ¿tratamiento según la edad?",
+        "verso": "Hasta 5 años: entrenamiento conductual de los padres. Desde los 6 años: psicoeducación, intervención escolar y metilfenidato."
+      }
+    },
+    {
+      "id": "ped-anorexia-internacao",
+      "area": "Pediatria",
+      "especialidade": "Psiquiatria",
+      "tema": "Psiquiatria infantil",
+      "frente": "Anorexia nervosa: critérios de internação?",
+      "verso": "Bradicardia abaixo de 50 bpm, hipotensão, hipotermia, hipocalemia ou hipofosfatemia, desidratação, peso muito baixo, recusa alimentar total ou risco de suicídio.",
+      "questoes": [
+        "revalida_2026-2_q014",
+        "revalida_2026-2_q047"
+      ],
+      "es": {
+        "frente": "Anorexia nerviosa: ¿criterios de internación?",
+        "verso": "Bradicardia menor de 50 lpm, hipotensión, hipotermia, hipopotasemia o hipofosfatemia, deshidratación, peso muy bajo, rechazo alimentario total o riesgo de suicidio."
+      }
+    },
+    {
+      "id": "ped-enurese",
+      "area": "Pediatria",
+      "especialidade": "Psiquiatria",
+      "tema": "Psiquiatria infantil",
+      "frente": "Enurese noturna: a partir de quando e como tratar?",
+      "verso": "Perda de urina no sono a partir dos 5 anos. Orientação e reforço positivo; alarme é o mais eficaz a longo prazo; desmopressina para resposta rápida.",
+      "questoes": [],
+      "es": {
+        "frente": "Enuresis nocturna: ¿desde cuándo y cómo tratarla?",
+        "verso": "Pérdida de orina durante el sueño desde los 5 años. Orientación y refuerzo positivo; la alarma es lo más eficaz a largo plazo; desmopresina para respuesta rápida."
+      }
+    },
+    {
+      "id": "cm-dengue-alarme",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Arboviroses",
+      "frente": "Dengue: sinais de alarme?",
+      "verso": "Dor abdominal intensa e contínua, vômitos persistentes, acúmulo de líquidos, hipotensão postural, hepatomegalia acima de 2 cm, sangramento de mucosa, letargia e hematócrito em ascensão.",
+      "questoes": [
+        "revalida_2011_q036"
+      ],
+      "es": {
+        "frente": "Dengue: ¿signos de alarma?",
+        "verso": "Dolor abdominal intenso y continuo, vómitos persistentes, acumulación de líquidos, hipotensión postural, hepatomegalia mayor de 2 cm, sangrado de mucosas, letargo y hematocrito en ascenso."
+      }
+    },
+    {
+      "id": "cm-dengue-grupos",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Arboviroses",
+      "frente": "Dengue: o que define os grupos A, B, C e D?",
+      "verso": "A: sem alarme, sem sangramento, sem condição especial. B: sangramento de pele, prova do laço positiva ou condição especial. C: sinal de alarme. D: choque ou disfunção grave.",
+      "questoes": [
+        "revalida_2021_q072",
+        "revalida_2023-2_q010"
+      ],
+      "es": {
+        "frente": "Dengue: ¿qué define los grupos A, B, C y D?",
+        "verso": "A: sin alarma, sin sangrado, sin condición especial. B: sangrado de piel, prueba del lazo positiva o condición especial. C: signo de alarma. D: shock o disfunción grave."
+      }
+    },
+    {
+      "id": "cm-dengue-hidratacao",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Arboviroses",
+      "frente": "Dengue: hidratação nos grupos A, C e D?",
+      "verso": "A: oral 60 mL/kg/dia (um terço de SRO). C: soro fisiológico 10 mL/kg na primeira hora, até 3 vezes. D: 20 mL/kg em 20 minutos, até 3 vezes.",
+      "questoes": [
+        "revalida_2012_q068"
+      ],
+      "es": {
+        "frente": "Dengue: ¿hidratación en los grupos A, C y D?",
+        "verso": "A: oral 60 mL/kg/día (un tercio de SRO). C: solución salina 10 mL/kg en la primera hora, hasta 3 veces. D: 20 mL/kg en 20 minutos, hasta 3 veces."
+      }
+    },
+    {
+      "id": "cm-dengue-exames",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Arboviroses",
+      "frente": "Dengue: qual exame em cada momento?",
+      "verso": "NS1 ou RT-PCR até o 5º dia; sorologia IgM a partir do 6º dia. A conduta não depende do resultado.",
+      "questoes": [],
+      "es": {
+        "frente": "Dengue: ¿qué examen en cada momento?",
+        "verso": "NS1 o RT-PCR hasta el 5.º día; serología IgM desde el 6.º día. La conducta no depende del resultado."
+      }
+    },
+    {
+      "id": "cm-chikungunya",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Arboviroses",
+      "frente": "Chikungunya: quadro e tratamento por fase?",
+      "verso": "Febre alta e poliartralgia intensa e simétrica. Aguda: paracetamol e dipirona (sem anti-inflamatório até afastar dengue). Pós-aguda: anti-inflamatório ou corticoide. Crônica: hidroxicloroquina ou metotrexato.",
+      "questoes": [
+        "revalida_2023-2_q060"
+      ],
+      "es": {
+        "frente": "Chikungunya: ¿cuadro y tratamiento por fase?",
+        "verso": "Fiebre alta y poliartralgia intensa y simétrica. Aguda: paracetamol y dipirona (sin antiinflamatorio hasta descartar dengue). Posaguda: antiinflamatorio o corticoide. Crónica: hidroxicloroquina o metotrexato."
+      }
+    },
+    {
+      "id": "cm-zika",
+      "area": "Clínica Médica",
+      "especialidade": "Infectologia",
+      "tema": "Arboviroses",
+      "frente": "Zika: quadro e complicações?",
+      "verso": "Exantema pruriginoso precoce, conjuntivite não purulenta e febre baixa. Síndrome congênita (microcefalia) e Guillain-Barré; transmissão sexual e vertical.",
+      "questoes": [
+        "revalida_2016_q085"
+      ],
+      "es": {
+        "frente": "Zika: ¿cuadro y complicaciones?",
+        "verso": "Exantema pruriginoso precoz, conjuntivitis no purulenta y fiebre baja. Síndrome congénito (microcefalia) y Guillain-Barré; transmisión sexual y vertical."
+      }
     }
   ]
 }

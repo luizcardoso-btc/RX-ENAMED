@@ -1,0 +1,179 @@
+{
+  "id": "cm-arboviroses",
+  "area": "Clínica Médica",
+  "especialidade": "Infectologia",
+  "mentor": "caio",
+  "duracaoMin": 18,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2021_q072",
+    "revalida_2023-2_q010",
+    "revalida_2023-2_q060",
+    "revalida_2016_q085",
+    "revalida_2012_q068",
+    "revalida_2011_q036"
+  ],
+  "referencias": [
+    "Ministério da Saúde. Dengue: diagnóstico e manejo clínico, adulto e criança, 6ª edição. Brasília, 2024.",
+    "Ministério da Saúde. Chikungunya: manejo clínico. Brasília, 2017.",
+    "Ministério da Saúde. Guia de Vigilância em Saúde, 6ª edição, 2024 (arboviroses urbanas)."
+  ],
+  "pt": {
+    "titulo": "Arboviroses: dengue, chikungunya e zika",
+    "resumo": "As três são transmitidas pelo Aedes aegypti e começam parecidas. Na dengue, a prova cobra a classificação em grupos A a D e a hidratação de cada um; na chikungunya, a artralgia e as fases; na zika, o exantema pruriginoso e o risco na gestação.",
+    "secoes": [
+      {
+        "titulo": "Dengue: fases e sinais de alarme",
+        "paragrafos": [
+          "Febre alta de início súbito por 2 a 7 dias, com cefaleia, dor retro-orbitária, mialgia, artralgia e exantema. O momento mais perigoso é a queda da febre, entre o 3º e o 7º dia, quando aumenta a permeabilidade capilar."
+        ],
+        "itens": [
+          "Fase febril, fase crítica (na defervescência) e fase de recuperação.",
+          "Sinais de alarme: dor abdominal intensa e contínua, vômitos persistentes, acúmulo de líquidos (ascite, derrame pleural ou pericárdico), hipotensão postural ou lipotimia, hepatomegalia acima de 2 cm, sangramento de mucosa, letargia ou irritabilidade e aumento progressivo do hematócrito.",
+          "Sinais de choque (dengue grave): pulso rápido e fino, extremidades frias, enchimento capilar lento, pressão convergente (diferencial de 20 mmHg ou menos) e hipotensão.",
+          "Prova do laço: positiva com 20 ou mais petéquias no adulto (10 ou mais na criança) num quadrado de 2,5 cm; faz parte da avaliação dos pacientes sem sangramento espontâneo.",
+          "Diagnóstico: NS1 ou RT-PCR até o 5º dia; sorologia IgM a partir do 6º dia. A conduta não depende do exame."
+        ]
+      },
+      {
+        "titulo": "Dengue: grupos e hidratação",
+        "paragrafos": [
+          "A classificação define onde tratar e como hidratar."
+        ],
+        "itens": [
+          "Grupo A: sem sinais de alarme, sem sangramento espontâneo nem prova do laço positiva, sem condição especial. Tratamento em casa com hidratação oral de 60 mL/kg/dia (um terço com soro de reidratação oral) e retorno na queda da febre ou se aparecer sinal de alarme.",
+          "Grupo B: sangramento espontâneo de pele ou prova do laço positiva, ou condição especial (gestante, menor de 2 anos, maior de 65 anos, comorbidades) ou risco social. Hidratação oral, hemograma e observação até o resultado.",
+          "Grupo C: algum sinal de alarme. Internação e soro fisiológico 10 mL/kg na primeira hora, reavaliando; repetir até 3 vezes.",
+          "Grupo D: choque ou disfunção grave de órgão. Soro fisiológico 20 mL/kg em 20 minutos, até 3 vezes, em leito de UTI.",
+          "Sintomáticos: paracetamol ou dipirona. AAS e anti-inflamatórios são contraindicados.",
+          "Notificação compulsória; óbito e casos graves com notificação imediata."
+        ]
+      },
+      {
+        "titulo": "Chikungunya",
+        "paragrafos": [
+          "O que domina é a dor articular: intensa, incapacitante, em geral poliarticular, simétrica e em mãos, punhos e tornozelos."
+        ],
+        "itens": [
+          "Fase aguda (até cerca de 14 dias): febre alta e artralgia intensa, às vezes com edema articular.",
+          "Fase pós-aguda (até 3 meses) e fase crônica (sintomas por mais de 3 meses), mais frequente em idosos e em quem tem doença articular prévia.",
+          "Na fase aguda, analgesia com paracetamol e dipirona (opioide se necessário); evitar anti-inflamatórios até afastar dengue.",
+          "Fase pós-aguda: anti-inflamatórios e, se necessário, corticoide em dose baixa.",
+          "Fase crônica: hidroxicloroquina, metotrexato ou sulfassalazina, com fisioterapia.",
+          "Grupos de risco para formas graves: recém-nascidos (transmissão perinatal), idosos e pessoas com comorbidades."
+        ]
+      },
+      {
+        "titulo": "Zika",
+        "paragrafos": [
+          "Em geral é a mais branda das três, mas tem as complicações mais temidas."
+        ],
+        "itens": [
+          "Quadro: exantema maculopapular pruriginoso precoce (nos primeiros dias), conjuntivite não purulenta, febre baixa ou ausente e artralgia leve.",
+          "Transmissão também sexual e vertical.",
+          "Síndrome congênita do zika: microcefalia, calcificações cerebrais, alterações oculares e auditivas e artrogripose.",
+          "Associação com síndrome de Guillain-Barré no adulto.",
+          "Gestante com suspeita: notificação e investigação; acompanhamento do recém-nascido exposto."
+        ]
+      },
+      {
+        "titulo": "Como diferenciar e prevenir",
+        "paragrafos": [
+          "Febre muito alta e plaquetopenia lembram dengue; artralgia incapacitante lembra chikungunya; exantema pruriginoso com conjuntivite lembra zika."
+        ],
+        "itens": [
+          "Na dúvida, maneje como dengue: é a que mata mais rápido e a que contraindica anti-inflamatórios.",
+          "Prevenção: eliminar criadouros de água parada, repelentes e telas; o controle do vetor é ação conjunta da vigilância e da atenção primária.",
+          "Vacina contra a dengue disponível no SUS para as faixas etárias e regiões definidas pelo Ministério da Saúde, conforme o calendário vigente."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "O perigo da dengue começa quando a febre cai.",
+      "Dengue com sinal de alarme é grupo C: soro fisiológico 10 mL/kg na primeira hora.",
+      "AAS e anti-inflamatórios são proibidos na suspeita de dengue.",
+      "NS1 até o 5º dia; IgM a partir do 6º.",
+      "Artralgia incapacitante simétrica: chikungunya; pode cronificar.",
+      "Exantema pruriginoso precoce com conjuntivite não purulenta: zika; atenção à gestante."
+    ]
+  },
+  "es": {
+    "titulo": "Arbovirosis: dengue, chikungunya y zika",
+    "resumo": "Las tres se transmiten por el Aedes aegypti y empiezan parecidas. En el dengue, el examen evalúa la clasificación en grupos A a D y la hidratación de cada uno; en el chikungunya, la artralgia y las fases; en el zika, el exantema pruriginoso y el riesgo en el embarazo.",
+    "secoes": [
+      {
+        "titulo": "Dengue: fases y signos de alarma",
+        "paragrafos": [
+          "Fiebre alta de inicio súbito durante 2 a 7 días, con cefalea, dolor retroocular, mialgia, artralgia y exantema. El momento más peligroso es la caída de la fiebre, entre el 3.er y el 7.º día, cuando aumenta la permeabilidad capilar."
+        ],
+        "itens": [
+          "Fase febril, fase crítica (en la defervescencia) y fase de recuperación.",
+          "Signos de alarma: dolor abdominal intenso y continuo, vómitos persistentes, acumulación de líquidos (ascitis, derrame pleural o pericárdico), hipotensión postural o lipotimia, hepatomegalia mayor de 2 cm, sangrado de mucosas, letargo o irritabilidad y aumento progresivo del hematocrito.",
+          "Signos de shock (dengue grave): pulso rápido y débil, extremidades frías, llenado capilar lento, presión convergente (diferencial de 20 mmHg o menos) e hipotensión.",
+          "Prueba del lazo: positiva con 20 o más petequias en el adulto (10 o más en el niño) en un cuadrado de 2,5 cm; forma parte de la evaluación de los pacientes sin sangrado espontáneo.",
+          "Diagnóstico: NS1 o RT-PCR hasta el 5.º día; serología IgM desde el 6.º día. La conducta no depende del examen."
+        ]
+      },
+      {
+        "titulo": "Dengue: grupos e hidratación",
+        "paragrafos": [
+          "La clasificación define dónde tratar y cómo hidratar."
+        ],
+        "itens": [
+          "Grupo A: sin signos de alarma, sin sangrado espontáneo ni prueba del lazo positiva, sin condición especial. Tratamiento en casa con hidratación oral de 60 mL/kg/día (un tercio con sales de rehidratación oral) y regreso con la caída de la fiebre o si aparece un signo de alarma.",
+          "Grupo B: sangrado espontáneo de piel o prueba del lazo positiva, o condición especial (embarazada, menor de 2 años, mayor de 65 años, comorbilidades) o riesgo social. Hidratación oral, hemograma y observación hasta el resultado.",
+          "Grupo C: algún signo de alarma. Internación y solución salina 10 mL/kg en la primera hora, reevaluando; repetir hasta 3 veces.",
+          "Grupo D: shock o disfunción grave de órgano. Solución salina 20 mL/kg en 20 minutos, hasta 3 veces, en cama de UCI.",
+          "Sintomáticos: paracetamol o dipirona. La aspirina y los antiinflamatorios están contraindicados.",
+          "Notificación obligatoria; muertes y casos graves con notificación inmediata."
+        ]
+      },
+      {
+        "titulo": "Chikungunya",
+        "paragrafos": [
+          "Lo que domina es el dolor articular: intenso, incapacitante, en general poliarticular, simétrico y en manos, muñecas y tobillos."
+        ],
+        "itens": [
+          "Fase aguda (hasta cerca de 14 días): fiebre alta y artralgia intensa, a veces con edema articular.",
+          "Fase posaguda (hasta 3 meses) y fase crónica (síntomas por más de 3 meses), más frecuente en adultos mayores y en quien tiene enfermedad articular previa.",
+          "En la fase aguda, analgesia con paracetamol y dipirona (opioide si es necesario); evitar antiinflamatorios hasta descartar dengue.",
+          "Fase posaguda: antiinflamatorios y, si es necesario, corticoide en dosis baja.",
+          "Fase crónica: hidroxicloroquina, metotrexato o sulfasalazina, con fisioterapia.",
+          "Grupos de riesgo de formas graves: recién nacidos (transmisión perinatal), adultos mayores y personas con comorbilidades."
+        ]
+      },
+      {
+        "titulo": "Zika",
+        "paragrafos": [
+          "En general es la más leve de las tres, pero tiene las complicaciones más temidas."
+        ],
+        "itens": [
+          "Cuadro: exantema maculopapular pruriginoso precoz (en los primeros días), conjuntivitis no purulenta, fiebre baja o ausente y artralgia leve.",
+          "Transmisión también sexual y vertical.",
+          "Síndrome congénito por zika: microcefalia, calcificaciones cerebrales, alteraciones oculares y auditivas y artrogriposis.",
+          "Asociación con síndrome de Guillain-Barré en el adulto.",
+          "Embarazada con sospecha: notificación e investigación; seguimiento del recién nacido expuesto."
+        ]
+      },
+      {
+        "titulo": "Cómo diferenciar y prevenir",
+        "paragrafos": [
+          "Fiebre muy alta y plaquetopenia recuerdan el dengue; artralgia incapacitante recuerda el chikungunya; exantema pruriginoso con conjuntivitis recuerda el zika."
+        ],
+        "itens": [
+          "Ante la duda, maneje como dengue: es la que mata más rápido y la que contraindica los antiinflamatorios.",
+          "Prevención: eliminar criaderos de agua estancada, repelentes y mosquiteros; el control del vector es una acción conjunta de la vigilancia y la atención primaria.",
+          "Vacuna contra el dengue disponible en el SUS para las franjas de edad y regiones definidas por el Ministerio de Salud, según el calendario vigente."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "El peligro del dengue empieza cuando baja la fiebre.",
+      "Dengue con signo de alarma es grupo C: solución salina 10 mL/kg en la primera hora.",
+      "La aspirina y los antiinflamatorios están prohibidos ante la sospecha de dengue.",
+      "NS1 hasta el 5.º día; IgM desde el 6.º.",
+      "Artralgia incapacitante simétrica: chikungunya; puede volverse crónica.",
+      "Exantema pruriginoso precoz con conjuntivitis no purulenta: zika; atención a la embarazada."
+    ]
+  }
+}
