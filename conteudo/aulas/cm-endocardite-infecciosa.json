@@ -3,10 +3,11 @@
   "area": "Clínica Médica",
   "especialidade": "Infectologia",
   "mentor": "caio",
-  "duracaoMin": 12,
+  "duracaoMin": 18,
   "revisao": "pendente",
   "questoes": [
-    "revalida_2025-1_q061"
+    "revalida_2025-1_q061",
+    "revalida_2016_q081"
   ],
   "referencias": [
     "Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J, 2023.",
@@ -72,6 +73,32 @@
           "Esquema: amoxicilina 2 g VO 30 a 60 minutos antes; alergia à penicilina, azitromicina 500 mg (ou doxiciclina).",
           "Higiene bucal adequada é a principal medida de prevenção."
         ]
+      },
+      {
+        "titulo": "Exames de imagem",
+        "paragrafos": [
+          "O ecocardiograma é o segundo pilar do diagnóstico, ao lado das hemoculturas."
+        ],
+        "itens": [
+          "Ecocardiograma transtorácico primeiro, em todos os casos suspeitos.",
+          "Transesofágico quando o transtorácico é negativo com suspeita mantida, em prótese valvar, em dispositivos intracardíacos e para procurar abscesso perivalvar.",
+          "Achados que contam como critério maior: vegetação, abscesso, pseudoaneurisma e deiscência nova de prótese.",
+          "PET-CT com FDG ajuda na endocardite de prótese com ecocardiograma inconclusivo (critério das diretrizes mais recentes).",
+          "Hemocultura negativa com quadro típico: antibiótico prévio ou agentes de difícil cultivo (grupo HACEK, Coxiella, Bartonella); pedir sorologias."
+        ]
+      },
+      {
+        "titulo": "Febre reumática e prevenção das valvopatias",
+        "paragrafos": [
+          "A febre reumática ainda é a principal causa de valvopatia em jovens no Brasil, e é prevenível."
+        ],
+        "itens": [
+          "Profilaxia primária: tratar a faringoamigdalite estreptocócica com penicilina benzatina em dose única ou amoxicilina por 10 dias.",
+          "Profilaxia secundária com penicilina benzatina a cada 21 dias (a cada 15 dias em alguns protocolos), por tempo que depende do acometimento cardíaco.",
+          "Sem cardite: até 21 anos ou 5 anos após o último surto, o que for mais longo.",
+          "Cardite sem lesão residual: até 25 anos ou 10 anos após o surto. Lesão valvar residual moderada a grave: até 40 anos ou por toda a vida.",
+          "Profilaxia secundária da febre reumática não substitui a profilaxia da endocardite antes de procedimentos dentários de alto risco."
+        ]
       }
     ],
     "pegadinhas": [
@@ -79,7 +106,9 @@
       "Osler dói; Janeway não.",
       "S. gallolyticus pede colonoscopia.",
       "Usuário de drogas injetáveis: S. aureus na tricúspide, com êmbolos pulmonares.",
-      "Prolapso mitral sem regurgitação e sopro inocente não recebem profilaxia."
+      "Prolapso mitral sem regurgitação e sopro inocente não recebem profilaxia.",
+      "Transtorácico negativo não afasta endocardite: com suspeita alta, faça o transesofágico.",
+      "Penicilina benzatina a cada 21 dias é profilaxia da febre reumática, não da endocardite."
     ]
   },
   "es": {
@@ -140,6 +169,32 @@
           "Esquema: amoxicilina 2 g VO 30 a 60 minutos antes; alergia a la penicilina, azitromicina 500 mg (o doxiciclina).",
           "La higiene bucal adecuada es la principal medida de prevención."
         ]
+      },
+      {
+        "titulo": "Exámenes de imagen",
+        "paragrafos": [
+          "El ecocardiograma es el segundo pilar del diagnóstico, junto con los hemocultivos."
+        ],
+        "itens": [
+          "Ecocardiograma transtorácico primero, en todos los casos sospechosos.",
+          "Transesofágico cuando el transtorácico es negativo con sospecha mantenida, en prótesis valvular, en dispositivos intracardíacos y para buscar absceso perivalvular.",
+          "Hallazgos que cuentan como criterio mayor: vegetación, absceso, seudoaneurisma y dehiscencia nueva de prótesis.",
+          "PET-TC con FDG ayuda en la endocarditis de prótesis con ecocardiograma no concluyente (criterio de las guías más recientes).",
+          "Hemocultivo negativo con cuadro típico: antibiótico previo o agentes de difícil cultivo (grupo HACEK, Coxiella, Bartonella); pedir serologías."
+        ]
+      },
+      {
+        "titulo": "Fiebre reumática y prevención de las valvulopatías",
+        "paragrafos": [
+          "La fiebre reumática sigue siendo la principal causa de valvulopatía en jóvenes en Brasil, y es prevenible."
+        ],
+        "itens": [
+          "Profilaxis primaria: tratar la faringoamigdalitis estreptocócica con penicilina benzatínica en dosis única o amoxicilina por 10 días.",
+          "Profilaxis secundaria con penicilina benzatínica cada 21 días (cada 15 días en algunos protocolos), por un tiempo que depende del compromiso cardíaco.",
+          "Sin carditis: hasta los 21 años o 5 años después del último brote, lo que sea más largo.",
+          "Carditis sin lesión residual: hasta los 25 años o 10 años después del brote. Lesión valvular residual moderada a grave: hasta los 40 años o de por vida.",
+          "La profilaxis secundaria de la fiebre reumática no reemplaza la profilaxis de la endocarditis antes de procedimientos dentales de alto riesgo."
+        ]
       }
     ],
     "pegadinhas": [
@@ -147,7 +202,9 @@
       "Osler duele; Janeway no.",
       "S. gallolyticus pide colonoscopia.",
       "Usuario de drogas inyectables: S. aureus en la tricúspide, con émbolos pulmonares.",
-      "Prolapso mitral sin regurgitación y soplo inocente no reciben profilaxis."
+      "Prolapso mitral sin regurgitación y soplo inocente no reciben profilaxis.",
+      "Transtorácico negativo no descarta endocarditis: con sospecha alta, haga el transesofágico.",
+      "Penicilina benzatínica cada 21 días es profilaxis de la fiebre reumática, no de la endocarditis."
     ]
   }
 }

@@ -3,7 +3,7 @@
   "area": "Clínica Médica",
   "especialidade": "Emergência clínica",
   "mentor": "caio",
-  "duracaoMin": 15,
+  "duracaoMin": 20,
   "revisao": "pendente",
   "questoes": [
     "revalida_2023-2_q051",
@@ -11,7 +11,10 @@
     "revalida_2022-2_q088",
     "revalida_2022-2_q093",
     "revalida_2023-1_q065",
-    "revalida_2024-1_q031"
+    "revalida_2024-1_q031",
+    "revalida_2011_q021",
+    "revalida_2015_q035",
+    "revalida_2016_q057"
   ],
   "referencias": [
     "Ministério da Saúde. Guia de Vigilância em Saúde, 6ª edição, 2024 (intoxicação exógena).",
@@ -66,6 +69,34 @@
           "Chumbo (saturnismo: baterias, tintas, reciclagem): dor abdominal em cólica, anemia com pontilhado basófilo, neuropatia motora (punho caído), linha gengival de Burton e alteração cognitiva. Diagnóstico pelo chumbo sérico; afastar da exposição e quelar (EDTA cálcico, DMSA) quando indicado.",
           "Mercúrio (garimpo, consumo de peixe de rio contaminado): tremor, alterações neuropsiquiátricas, parestesias, ataxia e déficit visual. Diagnóstico por mercúrio no sangue, urina ou cabelo; notificar e afastar da fonte."
         ]
+      },
+      {
+        "titulo": "Organofosforados e carbamatos em detalhe",
+        "paragrafos": [
+          "São a intoxicação ocupacional mais cobrada, sobretudo em trabalhadores rurais. Inibem a acetilcolinesterase e acumulam acetilcolina nas sinapses."
+        ],
+        "itens": [
+          "Efeitos muscarínicos: miose, broncorreia e broncoespasmo, bradicardia, sialorreia, lacrimejamento, vômitos, diarreia e incontinência urinária.",
+          "Efeitos nicotínicos: fasciculações, fraqueza e paralisia muscular, inclusive respiratória; taquicardia e hipertensão podem aparecer.",
+          "Conduta: retirar a roupa e lavar a pele com água e sabão (equipe protegida), garantir via aérea e oxigênio.",
+          "Atropina em doses repetidas e crescentes até secar as secreções brônquicas; o alvo é a ausculta limpa, não a midríase nem a frequência cardíaca.",
+          "Pralidoxima reativa a enzima nos organofosforados, se dada cedo; nos carbamatos a inibição é reversível e ela em geral não é necessária.",
+          "Síndrome intermediária: fraqueza proximal e respiratória 1 a 4 dias depois da fase aguda; observar por pelo menos 48 a 72 horas."
+        ]
+      },
+      {
+        "titulo": "Paracetamol passo a passo",
+        "paragrafos": [
+          "A dose tóxica é a partir de cerca de 150 mg/kg na ingestão única (ou 7,5 a 10 g no adulto). O metabólito tóxico se acumula quando o glutation acaba."
+        ],
+        "itens": [
+          "Fase 1 (até 24 h): náuseas, vômitos ou nenhum sintoma.",
+          "Fase 2 (24 a 72 h): dor no hipocôndrio direito e elevação de transaminases.",
+          "Fase 3 (72 a 96 h): pico da hepatite, com icterícia, coagulopatia, encefalopatia e risco de insuficiência hepática.",
+          "Dosar o nível sérico a partir de 4 horas da ingestão e aplicar no nomograma de Rumack-Matthew para decidir o antídoto.",
+          "N-acetilcisteína é mais eficaz até 8 a 10 horas, mas deve ser dada mesmo depois, se houver lesão hepática.",
+          "Insuficiência hepática grave (pH abaixo de 7,3, INR acima de 6,5, creatinina alta e encefalopatia): avaliar transplante hepático (critérios do King’s College)."
+        ]
       }
     ],
     "pegadinhas": [
@@ -73,7 +104,9 @@
       "Miose com secreções e bradicardia: organofosforado, trate com atropina até secar.",
       "Carvão ativado não serve para álcool, ferro, lítio e cáusticos.",
       "Paracetamol pode parecer leve no início: dose o nível e dê N-acetilcisteína cedo.",
-      "Flumazenil de rotina é contraindicado."
+      "Flumazenil de rotina é contraindicado.",
+      "Atropina no organofosforado: dose até secar o pulmão, não até a pupila dilatar.",
+      "Nível de paracetamol antes de 4 horas não serve para o nomograma."
     ]
   },
   "es": {
@@ -123,6 +156,34 @@
           "Plomo (saturnismo: baterías, pinturas, reciclaje): dolor abdominal cólico, anemia con punteado basófilo, neuropatía motora (mano caída), línea gingival de Burton y alteración cognitiva. Diagnóstico por plomo sérico; alejar de la exposición y quelar (EDTA cálcico, DMSA) cuando esté indicado.",
           "Mercurio (minería ilegal de oro, consumo de pescado de río contaminado): temblor, alteraciones neuropsiquiátricas, parestesias, ataxia y déficit visual. Diagnóstico por mercurio en sangre, orina o cabello; notificar y alejar de la fuente."
         ]
+      },
+      {
+        "titulo": "Organofosforados y carbamatos en detalle",
+        "paragrafos": [
+          "Son la intoxicación ocupacional más evaluada, sobre todo en trabajadores rurales. Inhiben la acetilcolinesterasa y acumulan acetilcolina en las sinapsis."
+        ],
+        "itens": [
+          "Efectos muscarínicos: miosis, broncorrea y broncoespasmo, bradicardia, sialorrea, lagrimeo, vómitos, diarrea e incontinencia urinaria.",
+          "Efectos nicotínicos: fasciculaciones, debilidad y parálisis muscular, incluso respiratoria; pueden aparecer taquicardia e hipertensión.",
+          "Conducta: retirar la ropa y lavar la piel con agua y jabón (equipo protegido), asegurar vía aérea y oxígeno.",
+          "Atropina en dosis repetidas y crecientes hasta secar las secreciones bronquiales; el objetivo es la auscultación limpia, no la midriasis ni la frecuencia cardíaca.",
+          "La pralidoxima reactiva la enzima en los organofosforados, si se da temprano; en los carbamatos la inhibición es reversible y en general no es necesaria.",
+          "Síndrome intermedio: debilidad proximal y respiratoria 1 a 4 días después de la fase aguda; observar al menos 48 a 72 horas."
+        ]
+      },
+      {
+        "titulo": "Paracetamol paso a paso",
+        "paragrafos": [
+          "La dosis tóxica empieza en cerca de 150 mg/kg en ingestión única (o 7,5 a 10 g en el adulto). El metabolito tóxico se acumula cuando se agota el glutatión."
+        ],
+        "itens": [
+          "Fase 1 (hasta 24 h): náuseas, vómitos o ningún síntoma.",
+          "Fase 2 (24 a 72 h): dolor en el hipocondrio derecho y elevación de transaminasas.",
+          "Fase 3 (72 a 96 h): pico de la hepatitis, con ictericia, coagulopatía, encefalopatía y riesgo de insuficiencia hepática.",
+          "Medir el nivel sérico a partir de 4 horas de la ingestión y aplicarlo en el nomograma de Rumack-Matthew para decidir el antídoto.",
+          "La N-acetilcisteína es más eficaz hasta 8 a 10 horas, pero debe darse aun después, si hay lesión hepática.",
+          "Insuficiencia hepática grave (pH menor de 7,3, INR mayor de 6,5, creatinina alta y encefalopatía): evaluar trasplante hepático (criterios del King’s College)."
+        ]
       }
     ],
     "pegadinhas": [
@@ -130,7 +191,9 @@
       "Miosis con secreciones y bradicardia: organofosforado, trate con atropina hasta secar.",
       "El carbón activado no sirve para alcohol, hierro, litio ni cáusticos.",
       "El paracetamol puede parecer leve al inicio: dose el nivel y dé N-acetilcisteína temprano.",
-      "El flumazenil de rutina está contraindicado."
+      "El flumazenil de rutina está contraindicado.",
+      "Atropina en el organofosforado: dosis hasta secar el pulmón, no hasta dilatar la pupila.",
+      "Nivel de paracetamol antes de 4 horas no sirve para el nomograma."
     ]
   }
 }

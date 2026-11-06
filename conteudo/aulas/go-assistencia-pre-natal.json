@@ -1,0 +1,183 @@
+{
+  "id": "go-assistencia-pre-natal",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "mentor": "marina",
+  "duracaoMin": 16,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2011_q055",
+    "revalida_2011_q104",
+    "revalida_2013_q033",
+    "revalida_2012_q004",
+    "revalida_2011_q093"
+  ],
+  "referencias": [
+    "Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília, 2012.",
+    "Ministério da Saúde. Manual de gestação de alto risco. Brasília, 2022.",
+    "Ministério da Saúde. Calendário Nacional de Vacinação da gestante (versão vigente).",
+    "Febrasgo, OPAS, Ministério da Saúde e SBD. Rastreamento e diagnóstico de diabetes mellitus gestacional no Brasil, 2017."
+  ],
+  "pt": {
+    "titulo": "Assistência pré-natal: consultas, exames por trimestre, vacinas e suplementos",
+    "resumo": "Pré-natal é cobrado em quase toda prova de Obstetrícia e de Medicina de Família. A banca quer saber quantas consultas, quais exames pedir em cada trimestre, quais vacinas dar e quando, e o que fazer com cada resultado alterado.",
+    "secoes": [
+      {
+        "titulo": "Calendário de consultas",
+        "paragrafos": [
+          "O ideal é começar no primeiro trimestre, até 12 semanas. A captação precoce permite datar a gestação e tratar infecções a tempo."
+        ],
+        "itens": [
+          "Mínimo de 6 consultas no baixo risco; a OMS recomenda pelo menos 8 contatos.",
+          "Mensais até 28 semanas, quinzenais de 28 a 36 semanas e semanais de 36 semanas até o parto.",
+          "Não existe alta do pré-natal: depois de 41 semanas, encaminhar para avaliação da vitalidade fetal e planejamento do parto.",
+          "Consultas podem ser intercaladas entre médico e enfermeiro na atenção primária.",
+          "Em cada consulta: pressão arterial, peso, altura uterina, batimentos cardíacos fetais (sonar a partir de 10 a 12 semanas), edema e queixas."
+        ]
+      },
+      {
+        "titulo": "Idade gestacional e data provável do parto",
+        "paragrafos": [
+          "A ultrassonografia do primeiro trimestre é o método mais preciso para datar a gestação."
+        ],
+        "itens": [
+          "Regra de Naegele: somar 7 dias ao primeiro dia da última menstruação e subtrair 3 meses (ou somar 9 meses).",
+          "Discordância entre a data da menstruação e o ultrassom: até 13 semanas, vale o ultrassom se a diferença for maior que 7 dias.",
+          "Altura uterina: útero na sínfise com 12 semanas, na cicatriz umbilical com cerca de 20 semanas; depois, a altura em centímetros se aproxima da idade gestacional até cerca de 32 semanas.",
+          "Altura uterina abaixo do esperado sugere restrição de crescimento ou oligoâmnio; acima, gemelaridade, macrossomia ou polidrâmnio."
+        ]
+      },
+      {
+        "titulo": "Exames por trimestre",
+        "paragrafos": [
+          "A rotina da primeira consulta é a mais cobrada."
+        ],
+        "itens": [
+          "Primeira consulta: tipagem sanguínea e fator Rh, hemograma, glicemia de jejum, urina tipo 1 e urocultura, testes rápidos ou sorologias para HIV, sífilis e hepatite B (e hepatite C), toxoplasmose IgG e IgM, citopatológico se estiver em atraso e ultrassonografia obstétrica.",
+          "Glicemia de jejum de 92 a 125 mg/dL em qualquer momento já é diabetes gestacional; 126 ou mais é diabetes prévio.",
+          "Com jejum normal, TOTG com 75 g entre 24 e 28 semanas: jejum 92 ou mais, 1 hora 180 ou mais, 2 horas 153 ou mais (um valor alterado basta).",
+          "Terceiro trimestre: repetir hemograma, HIV, sífilis, hepatite B quando indicado, toxoplasmose nas suscetíveis e urocultura.",
+          "Coombs indireto mensal a partir de 24 a 28 semanas nas gestantes Rh negativo com parceiro Rh positivo ou desconhecido.",
+          "Bacteriúria assintomática na gestante sempre é tratada e controlada com nova urocultura."
+        ]
+      },
+      {
+        "titulo": "Vacinas e suplementos",
+        "paragrafos": [
+          "Vacinas de vírus vivo atenuado são contraindicadas na gestação; as inativadas são seguras."
+        ],
+        "itens": [
+          "dTpa a partir de 20 semanas em toda gestação, para proteger o recém-nascido contra coqueluche; completar o esquema de dT se necessário.",
+          "Hepatite B: três doses se não houver esquema completo comprovado.",
+          "Influenza na campanha anual e covid-19 conforme o calendário vigente; vacina contra o vírus sincicial respiratório para gestantes conforme o calendário vigente.",
+          "Contraindicadas: tríplice viral, varicela e febre amarela (esta pode ser avaliada em surto, pesando o risco).",
+          "Ácido fólico 0,4 mg ao dia desde pelo menos 30 dias antes da concepção até o fim do primeiro trimestre; 4 a 5 mg ao dia se houver história de defeito do tubo neural ou uso de anticonvulsivante.",
+          "Sulfato ferroso profilático (em torno de 40 mg de ferro elementar ao dia) durante a gestação."
+        ]
+      },
+      {
+        "titulo": "Resultados alterados mais cobrados",
+        "paragrafos": [
+          "Saber o próximo passo vale mais que decorar a lista de exames."
+        ],
+        "itens": [
+          "Sífilis com teste rápido reagente: tratar já com penicilina benzatina, colher VDRL e tratar a parceria; o esquema depende da fase.",
+          "Toxoplasmose IgM e IgG reagentes no início: pedir teste de avidez de IgG se estiver antes de 16 semanas e iniciar espiramicina enquanto aguarda; avidez alta indica infecção há mais de 3 a 4 meses.",
+          "IgG e IgM negativos (suscetível): orientar higiene dos alimentos, evitar carne crua e repetir a sorologia a cada trimestre.",
+          "HIV reagente: confirmar, iniciar terapia antirretroviral o quanto antes e planejar o parto conforme a carga viral.",
+          "Hemoglobina abaixo de 11 g/dL: anemia; tratar com dose terapêutica de ferro e investigar se não responder.",
+          "Rh negativo com Coombs indireto negativo: imunoglobulina anti-D com 28 semanas e até 72 horas após o parto de recém-nascido Rh positivo, além de sangramentos e procedimentos invasivos."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Não há alta do pré-natal: depois de 41 semanas, encaminhar.",
+      "Glicemia de jejum de 92 já é diabetes gestacional; não precisa de TOTG.",
+      "Bacteriúria assintomática na gestante sempre é tratada.",
+      "Vacina de vírus vivo é contraindicada na gestação: tríplice viral e varicela.",
+      "dTpa em toda gestação, a partir de 20 semanas.",
+      "Sífilis na gestante: trate com o teste rápido, sem esperar o VDRL."
+    ]
+  },
+  "es": {
+    "titulo": "Atención prenatal: consultas, exámenes por trimestre, vacunas y suplementos",
+    "resumo": "El control prenatal se evalúa en casi todo examen de Obstetricia y de Medicina Familiar. El examen quiere saber cuántas consultas, qué exámenes pedir en cada trimestre, qué vacunas dar y cuándo, y qué hacer con cada resultado alterado.",
+    "secoes": [
+      {
+        "titulo": "Calendario de consultas",
+        "paragrafos": [
+          "Lo ideal es empezar en el primer trimestre, hasta las 12 semanas. La captación precoz permite datar el embarazo y tratar infecciones a tiempo."
+        ],
+        "itens": [
+          "Mínimo de 6 consultas en el bajo riesgo; la OMS recomienda al menos 8 contactos.",
+          "Mensuales hasta las 28 semanas, quincenales de 28 a 36 semanas y semanales desde las 36 semanas hasta el parto.",
+          "No existe alta del control prenatal: después de las 41 semanas, derivar para evaluar la vitalidad fetal y planificar el parto.",
+          "Las consultas pueden alternarse entre médico y enfermero en la atención primaria.",
+          "En cada consulta: presión arterial, peso, altura uterina, latidos cardíacos fetales (doppler a partir de 10 a 12 semanas), edema y molestias."
+        ]
+      },
+      {
+        "titulo": "Edad gestacional y fecha probable de parto",
+        "paragrafos": [
+          "La ecografía del primer trimestre es el método más preciso para datar el embarazo."
+        ],
+        "itens": [
+          "Regla de Naegele: sumar 7 días al primer día de la última menstruación y restar 3 meses (o sumar 9 meses).",
+          "Discordancia entre la fecha de la menstruación y la ecografía: hasta las 13 semanas, vale la ecografía si la diferencia es mayor de 7 días.",
+          "Altura uterina: útero en la sínfisis a las 12 semanas, en el ombligo cerca de las 20 semanas; después, la altura en centímetros se aproxima a la edad gestacional hasta cerca de las 32 semanas.",
+          "Altura uterina menor de lo esperado sugiere restricción del crecimiento u oligohidramnios; mayor, embarazo gemelar, macrosomía o polihidramnios."
+        ]
+      },
+      {
+        "titulo": "Exámenes por trimestre",
+        "paragrafos": [
+          "La rutina de la primera consulta es la más evaluada."
+        ],
+        "itens": [
+          "Primera consulta: grupo sanguíneo y factor Rh, hemograma, glucemia en ayunas, orina completa y urocultivo, pruebas rápidas o serologías para VIH, sífilis y hepatitis B (y hepatitis C), toxoplasmosis IgG e IgM, citología si está atrasada y ecografía obstétrica.",
+          "Glucemia en ayunas de 92 a 125 mg/dL en cualquier momento ya es diabetes gestacional; 126 o más es diabetes previa.",
+          "Con ayunas normal, PTOG con 75 g entre 24 y 28 semanas: ayunas 92 o más, 1 hora 180 o más, 2 horas 153 o más (un valor alterado basta).",
+          "Tercer trimestre: repetir hemograma, VIH, sífilis, hepatitis B cuando esté indicado, toxoplasmosis en las susceptibles y urocultivo.",
+          "Coombs indirecto mensual a partir de 24 a 28 semanas en las embarazadas Rh negativo con pareja Rh positivo o desconocido.",
+          "La bacteriuria asintomática en la embarazada siempre se trata y se controla con nuevo urocultivo."
+        ]
+      },
+      {
+        "titulo": "Vacunas y suplementos",
+        "paragrafos": [
+          "Las vacunas de virus vivo atenuado están contraindicadas en el embarazo; las inactivadas son seguras."
+        ],
+        "itens": [
+          "dTpa a partir de las 20 semanas en todo embarazo, para proteger al recién nacido contra la tos ferina; completar el esquema de dT si es necesario.",
+          "Hepatitis B: tres dosis si no hay esquema completo comprobado.",
+          "Influenza en la campaña anual y covid-19 según el calendario vigente; vacuna contra el virus sincicial respiratorio para embarazadas según el calendario vigente.",
+          "Contraindicadas: triple viral, varicela y fiebre amarilla (esta puede evaluarse en brote, sopesando el riesgo).",
+          "Ácido fólico 0,4 mg por día desde al menos 30 días antes de la concepción hasta el final del primer trimestre; 4 a 5 mg por día si hay antecedente de defecto del tubo neural o uso de anticonvulsivantes.",
+          "Sulfato ferroso profiláctico (cerca de 40 mg de hierro elemental por día) durante el embarazo."
+        ]
+      },
+      {
+        "titulo": "Resultados alterados más evaluados",
+        "paragrafos": [
+          "Saber el próximo paso vale más que memorizar la lista de exámenes."
+        ],
+        "itens": [
+          "Sífilis con prueba rápida reactiva: tratar ya con penicilina benzatínica, tomar VDRL y tratar a la pareja; el esquema depende de la fase.",
+          "Toxoplasmosis IgM e IgG reactivas al inicio: pedir prueba de avidez de IgG si es antes de las 16 semanas e iniciar espiramicina mientras se espera; avidez alta indica infección de más de 3 a 4 meses.",
+          "IgG e IgM negativas (susceptible): orientar higiene de los alimentos, evitar carne cruda y repetir la serología cada trimestre.",
+          "VIH reactivo: confirmar, iniciar terapia antirretroviral lo antes posible y planificar el parto según la carga viral.",
+          "Hemoglobina menor de 11 g/dL: anemia; tratar con dosis terapéutica de hierro e investigar si no responde.",
+          "Rh negativo con Coombs indirecto negativo: inmunoglobulina anti-D a las 28 semanas y hasta 72 horas después del parto de un recién nacido Rh positivo, además de sangrados y procedimientos invasivos."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "No hay alta del control prenatal: después de las 41 semanas, derivar.",
+      "Glucemia en ayunas de 92 ya es diabetes gestacional; no necesita PTOG.",
+      "La bacteriuria asintomática en la embarazada siempre se trata.",
+      "Las vacunas de virus vivo están contraindicadas en el embarazo: triple viral y varicela.",
+      "dTpa en todo embarazo, a partir de las 20 semanas.",
+      "Sífilis en la embarazada: trate con la prueba rápida, sin esperar el VDRL."
+    ]
+  }
+}

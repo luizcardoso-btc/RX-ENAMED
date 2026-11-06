@@ -1,0 +1,170 @@
+{
+  "id": "ped-triagem-neonatal",
+  "area": "Pediatria",
+  "especialidade": "Neonatologia",
+  "mentor": "tomas",
+  "duracaoMin": 14,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2020_q085",
+    "revalida_2021_q068",
+    "revalida_2025-1_q018",
+    "revalida_2024-1_q003"
+  ],
+  "referencias": [
+    "Ministério da Saúde. Triagem neonatal biológica: manual técnico. Brasília, 2016.",
+    "Brasil. Lei nº 14.154, de 26 de maio de 2021 (ampliação do teste do pezinho no SUS).",
+    "Sociedade Brasileira de Pediatria. Diagnóstico precoce de cardiopatia congênita crítica: oximetria de pulso como ferramenta de triagem neonatal, 2022.",
+    "Ministério da Saúde. Diretrizes de atenção da triagem auditiva neonatal, 2012."
+  ],
+  "pt": {
+    "titulo": "Triagem neonatal: teste do pezinho, coraçãozinho, olhinho, orelhinha e linguinha",
+    "resumo": "Cinco testes feitos no recém-nascido, cada um com momento, técnica e conduta próprios. A banca cobra a idade certa da coleta, o que fazer com o resultado alterado e as situações que podem dar falso resultado.",
+    "secoes": [
+      {
+        "titulo": "Teste do pezinho (triagem biológica)",
+        "paragrafos": [
+          "Gotas de sangue do calcanhar em papel-filtro. A coleta ideal é entre o 3º e o 5º dia de vida: antes de 48 horas de amamentação, a fenilcetonúria pode dar falso-negativo."
+        ],
+        "itens": [
+          "Painel do SUS: fenilcetonúria, hipotireoidismo congênito, doença falciforme e outras hemoglobinopatias, fibrose cística, hiperplasia adrenal congênita e deficiência de biotinidase. Toxoplasmose congênita entrou na ampliação da Lei 14.154/2021, implantada por etapas.",
+          "Hipotireoidismo congênito: TSH alto; iniciar levotiroxina o quanto antes, idealmente antes de 2 semanas de vida, para evitar deficiência intelectual.",
+          "Fenilcetonúria: fenilalanina alta; dieta restrita em fenilalanina, com fórmula especial e acompanhamento por toda a vida.",
+          "Doença falciforme: hemoglobina FS no recém-nascido; penicilina profilática a partir de 2 a 3 meses, vacinas especiais e orientação sobre febre e sequestro esplênico.",
+          "Hiperplasia adrenal congênita (deficiência de 21-hidroxilase): 17-hidroxiprogesterona alta; risco de crise perdedora de sal na 2ª semana; genitália ambígua na menina.",
+          "Fibrose cística: tripsinogênio imunorreativo alto em duas dosagens; confirmar com teste do suor.",
+          "Prematuros, transfundidos e recém-nascidos em nutrição parenteral precisam de nova coleta: a transfusão altera a eletroforese de hemoglobina."
+        ]
+      },
+      {
+        "titulo": "Teste do coraçãozinho (oximetria de pulso)",
+        "paragrafos": [
+          "Rastreia cardiopatia congênita crítica, dependente do canal arterial. Feito entre 24 e 48 horas de vida, antes da alta, no recém-nascido com 35 semanas ou mais."
+        ],
+        "itens": [
+          "Medir a saturação no membro superior direito (pré-ductal) e em um dos membros inferiores (pós-ductal).",
+          "Normal: saturação de 95% ou mais em ambos e diferença menor que 3 pontos.",
+          "Alterado: saturação abaixo de 95% em qualquer membro ou diferença de 3 pontos ou mais; repetir em 1 hora.",
+          "Se continuar alterado: não dar alta e fazer ecocardiograma em até 24 horas.",
+          "Teste normal não afasta todas as cardiopatias: o exame físico continua essencial."
+        ]
+      },
+      {
+        "titulo": "Teste do olhinho (reflexo vermelho)",
+        "paragrafos": [
+          "Feito com oftalmoscópio direto na maternidade e repetido nas consultas de puericultura, pelo menos 2 a 3 vezes por ano nos primeiros 3 anos."
+        ],
+        "itens": [
+          "Normal: reflexo vermelho simétrico nos dois olhos.",
+          "Ausente, opaco, assimétrico ou branco (leucocoria): encaminhar com urgência ao oftalmologista.",
+          "Principais causas a afastar: catarata congênita, retinoblastoma, glaucoma congênito, retinopatia da prematuridade e opacidades de córnea."
+        ]
+      },
+      {
+        "titulo": "Teste da orelhinha (triagem auditiva)",
+        "paragrafos": [
+          "Deve ser feito de preferência nas primeiras 48 horas e, no máximo, até 30 dias de vida."
+        ],
+        "itens": [
+          "Sem fatores de risco: emissões otoacústicas evocadas.",
+          "Com indicador de risco para deficiência auditiva (UTI neonatal por mais de 5 dias, hiperbilirrubinemia com exsanguineotransfusão, infecções congênitas, ototóxicos, malformações craniofaciais, história familiar): potencial evocado auditivo de tronco encefálico (PEATE), que avalia a via auditiva até o tronco.",
+          "Falha: reteste em até 30 dias; falha no reteste, avaliação diagnóstica completa até 3 meses e intervenção até 6 meses de vida."
+        ]
+      },
+      {
+        "titulo": "Teste da linguinha",
+        "paragrafos": [
+          "Avalia o frênulo lingual com protocolo padronizado, nas primeiras horas ou dias de vida."
+        ],
+        "itens": [
+          "Anquiloglossia com prejuízo da amamentação pode ter indicação de frenotomia.",
+          "Frênulo curto sem dificuldade de pega ou de sucção não exige cirurgia.",
+          "Dificuldade na amamentação deve ser avaliada também quanto à pega e à posição."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Teste do pezinho antes de 48 horas pode dar falso-negativo para fenilcetonúria.",
+      "Recém-nascido transfundido precisa repetir a coleta para hemoglobinopatias.",
+      "No coraçãozinho, membro superior direito e um inferior; diferença de 3 pontos ou mais é alterado.",
+      "Leucocoria é encaminhamento urgente: pode ser retinoblastoma.",
+      "Com fator de risco auditivo, o exame é o PEATE, não as emissões otoacústicas.",
+      "Hipotireoidismo congênito: tratar logo, sem esperar repetir exames."
+    ]
+  },
+  "es": {
+    "titulo": "Tamizaje neonatal: prueba del talón, del corazón, de los ojos, de la audición y de la lengua",
+    "resumo": "Cinco pruebas hechas en el recién nacido, cada una con momento, técnica y conducta propios. El examen evalúa la edad correcta de la toma, qué hacer con el resultado alterado y las situaciones que pueden dar resultados falsos.",
+    "secoes": [
+      {
+        "titulo": "Prueba del talón (tamizaje biológico)",
+        "paragrafos": [
+          "Gotas de sangre del talón en papel filtro. La toma ideal es entre el 3.er y el 5.º día de vida: antes de 48 horas de lactancia, la fenilcetonuria puede dar falso negativo."
+        ],
+        "itens": [
+          "Panel del SUS: fenilcetonuria, hipotiroidismo congénito, enfermedad falciforme y otras hemoglobinopatías, fibrosis quística, hiperplasia suprarrenal congénita y deficiencia de biotinidasa. La toxoplasmosis congénita entró en la ampliación de la Ley 14.154/2021, implantada por etapas.",
+          "Hipotiroidismo congénito: TSH alta; iniciar levotiroxina lo antes posible, idealmente antes de 2 semanas de vida, para evitar discapacidad intelectual.",
+          "Fenilcetonuria: fenilalanina alta; dieta restringida en fenilalanina, con fórmula especial y seguimiento de por vida.",
+          "Enfermedad falciforme: hemoglobina FS en el recién nacido; penicilina profiláctica desde los 2 a 3 meses, vacunas especiales y orientación sobre fiebre y secuestro esplénico.",
+          "Hiperplasia suprarrenal congénita (deficiencia de 21-hidroxilasa): 17-hidroxiprogesterona alta; riesgo de crisis perdedora de sal en la 2.ª semana; genitales ambiguos en la niña.",
+          "Fibrosis quística: tripsinógeno inmunorreactivo alto en dos mediciones; confirmar con prueba del sudor.",
+          "Prematuros, transfundidos y recién nacidos en nutrición parenteral necesitan nueva toma: la transfusión altera la electroforesis de hemoglobina."
+        ]
+      },
+      {
+        "titulo": "Prueba del corazón (oximetría de pulso)",
+        "paragrafos": [
+          "Tamiza cardiopatía congénita crítica, dependiente del conducto arterioso. Se hace entre 24 y 48 horas de vida, antes del alta, en el recién nacido de 35 semanas o más."
+        ],
+        "itens": [
+          "Medir la saturación en el miembro superior derecho (preductal) y en uno de los miembros inferiores (posductal).",
+          "Normal: saturación del 95 % o más en ambos y diferencia menor de 3 puntos.",
+          "Alterado: saturación menor del 95 % en cualquier miembro o diferencia de 3 puntos o más; repetir en 1 hora.",
+          "Si sigue alterado: no dar el alta y hacer ecocardiograma en hasta 24 horas.",
+          "Una prueba normal no descarta todas las cardiopatías: el examen físico sigue siendo esencial."
+        ]
+      },
+      {
+        "titulo": "Prueba de los ojos (reflejo rojo)",
+        "paragrafos": [
+          "Se hace con oftalmoscopio directo en la maternidad y se repite en las consultas de control, al menos 2 a 3 veces por año en los primeros 3 años."
+        ],
+        "itens": [
+          "Normal: reflejo rojo simétrico en los dos ojos.",
+          "Ausente, opaco, asimétrico o blanco (leucocoria): derivar con urgencia al oftalmólogo.",
+          "Principales causas a descartar: catarata congénita, retinoblastoma, glaucoma congénito, retinopatía del prematuro y opacidades de córnea."
+        ]
+      },
+      {
+        "titulo": "Prueba de la audición (tamizaje auditivo)",
+        "paragrafos": [
+          "Debe hacerse de preferencia en las primeras 48 horas y, como máximo, hasta los 30 días de vida."
+        ],
+        "itens": [
+          "Sin factores de riesgo: otoemisiones acústicas evocadas.",
+          "Con indicador de riesgo de hipoacusia (UCI neonatal por más de 5 días, hiperbilirrubinemia con exanguinotransfusión, infecciones congénitas, ototóxicos, malformaciones craneofaciales, antecedentes familiares): potencial evocado auditivo de tronco encefálico (PEATC), que evalúa la vía auditiva hasta el tronco.",
+          "Falla: nueva prueba en hasta 30 días; falla en la nueva prueba, evaluación diagnóstica completa hasta los 3 meses e intervención hasta los 6 meses de vida."
+        ]
+      },
+      {
+        "titulo": "Prueba de la lengua",
+        "paragrafos": [
+          "Evalúa el frenillo lingual con protocolo estandarizado, en las primeras horas o días de vida."
+        ],
+        "itens": [
+          "La anquiloglosia con perjuicio de la lactancia puede tener indicación de frenotomía.",
+          "Frenillo corto sin dificultad de agarre o de succión no exige cirugía.",
+          "La dificultad en la lactancia debe evaluarse también en cuanto al agarre y la posición."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Prueba del talón antes de 48 horas puede dar falso negativo para fenilcetonuria.",
+      "Recién nacido transfundido necesita repetir la toma para hemoglobinopatías.",
+      "En la prueba del corazón, miembro superior derecho y uno inferior; diferencia de 3 puntos o más es alterada.",
+      "La leucocoria es derivación urgente: puede ser retinoblastoma.",
+      "Con factor de riesgo auditivo, el examen es el PEATC, no las otoemisiones.",
+      "Hipotiroidismo congénito: tratar de inmediato, sin esperar repetir exámenes."
+    ]
+  }
+}

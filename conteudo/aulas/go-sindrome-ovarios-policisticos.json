@@ -1,0 +1,147 @@
+{
+  "id": "go-sindrome-ovarios-policisticos",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Ginecologia endócrina",
+  "mentor": "marina",
+  "duracaoMin": 15,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2022-2_q059",
+    "revalida_2011_q100"
+  ],
+  "referencias": [
+    "Teede HJ et al. Recommendations from the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome. Fertil Steril, 2023.",
+    "Rotterdam ESHRE/ASRM-Sponsored PCOS Consensus Workshop Group. Revised 2003 consensus on diagnostic criteria. Hum Reprod, 2004.",
+    "Febrasgo. Síndrome dos ovários policísticos. Protocolo Febrasgo de Ginecologia, 2018."
+  ],
+  "pt": {
+    "titulo": "Síndrome dos ovários policísticos: critérios, riscos e tratamento por objetivo",
+    "resumo": "A endocrinopatia mais comum da mulher em idade reprodutiva. A prova cobra os critérios de Rotterdam, o que precisa ser excluído antes do diagnóstico, os riscos metabólicos e endometriais e o tratamento conforme o desejo da paciente: regular o ciclo, tratar o hiperandrogenismo ou engravidar.",
+    "secoes": [
+      {
+        "titulo": "Fisiopatologia em uma frase",
+        "paragrafos": [
+          "Resistência à insulina e excesso de LH estimulam a teca ovariana a produzir androgênios; o folículo não amadurece, a ovulação falha e os pequenos folículos se acumulam na periferia do ovário."
+        ],
+        "itens": [
+          "A hiperinsulinemia reduz a SHBG hepática e aumenta a testosterona livre.",
+          "A relação LH/FSH costuma estar elevada, mas não é critério diagnóstico.",
+          "Sem ovulação, não há progesterona: o endométrio fica exposto só ao estrogênio, cresce e sangra de forma irregular.",
+          "Obesidade piora todos os componentes, mas a síndrome também ocorre em mulheres magras."
+        ]
+      },
+      {
+        "titulo": "Diagnóstico: critérios de Rotterdam",
+        "paragrafos": [
+          "São necessários 2 de 3 critérios, depois de excluir outras causas de hiperandrogenismo e anovulação."
+        ],
+        "itens": [
+          "Oligo ou anovulação: ciclos acima de 35 dias, menos de 8 ciclos por ano ou amenorreia.",
+          "Hiperandrogenismo clínico (hirsutismo pela escala de Ferriman-Gallwey, acne, alopecia de padrão androgênico) ou laboratorial (testosterona total ou livre elevada).",
+          "Morfologia ovariana policística ao ultrassom: 20 ou mais folículos por ovário ou volume ovariano acima de 10 mL. O hormônio antimülleriano elevado pode substituir o ultrassom no adulto.",
+          "Na adolescente, até 8 anos após a menarca, o ultrassom não deve ser usado: o diagnóstico exige irregularidade menstrual persistente e hiperandrogenismo.",
+          "Excluir: gravidez, disfunção da tireoide (TSH), hiperprolactinemia (prolactina), hiperplasia adrenal congênita não clássica (17-hidroxiprogesterona) e tumores virilizantes (testosterona muito alta, virilização rápida)."
+        ]
+      },
+      {
+        "titulo": "Riscos a longo prazo",
+        "paragrafos": [
+          "A síndrome não é só ginecológica: é um fator de risco metabólico e oncológico que acompanha a mulher por toda a vida."
+        ],
+        "itens": [
+          "Resistência à insulina, intolerância à glicose e diabetes tipo 2: rastrear com TOTG 75 g ou hemoglobina glicada.",
+          "Dislipidemia, hipertensão, esteatose hepática e apneia do sono.",
+          "Hiperplasia e câncer de endométrio pela anovulação crônica sem oposição da progesterona.",
+          "Na gestação: mais diabetes gestacional, pré-eclâmpsia e parto prematuro.",
+          "Ansiedade, depressão e transtornos alimentares são mais frequentes e devem ser perguntados."
+        ]
+      },
+      {
+        "titulo": "Tratamento conforme o objetivo",
+        "paragrafos": [
+          "A primeira medida para todas é mudar o estilo de vida: perda de 5 a 10% do peso já pode restaurar a ovulação."
+        ],
+        "itens": [
+          "Sem desejo de gestar: anticoncepcional hormonal combinado é a primeira linha; regula o ciclo, protege o endométrio e reduz o hiperandrogenismo.",
+          "Contraindicação ao estrogênio: progestagênio cíclico ou contínuo (oral, implante ou DIU hormonal) para proteger o endométrio.",
+          "Hirsutismo: anticoncepcional por pelo menos 6 meses; associar antiandrogênio (espironolactona, ciproterona) se a resposta for insuficiente, sempre com contracepção eficaz; métodos estéticos ajudam.",
+          "Metformina: melhora o perfil metabólico, sobretudo com IMC elevado ou intolerância à glicose; pode ajudar na regularização do ciclo.",
+          "Desejo de gestar: letrozol é a primeira escolha para induzir a ovulação; citrato de clomifeno é a alternativa. Gonadotrofinas e fertilização in vitro ficam para falha. Monitorar com ultrassom pelo risco de gestação múltipla e hiperestímulo."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Ovário com aspecto policístico sozinho não fecha o diagnóstico: são 2 de 3 critérios.",
+      "Antes de chamar de SOP, dose TSH, prolactina e 17-hidroxiprogesterona.",
+      "Na adolescente, não use o ultrassom para diagnosticar.",
+      "Para engravidar, o indutor de primeira escolha hoje é o letrozol.",
+      "Antiandrogênio sempre com contracepção: risco de feminização do feto masculino.",
+      "Anovulação crônica é fator de risco para câncer de endométrio."
+    ]
+  },
+  "es": {
+    "titulo": "Síndrome de ovario poliquístico: criterios, riesgos y tratamiento según el objetivo",
+    "resumo": "La endocrinopatía más común de la mujer en edad reproductiva. El examen evalúa los criterios de Rotterdam, qué excluir antes del diagnóstico, los riesgos metabólicos y endometriales y el tratamiento según el deseo de la paciente: regular el ciclo, tratar el hiperandrogenismo o embarazarse.",
+    "secoes": [
+      {
+        "titulo": "Fisiopatología en una frase",
+        "paragrafos": [
+          "La resistencia a la insulina y el exceso de LH estimulan la teca ovárica a producir andrógenos; el folículo no madura, la ovulación falla y los pequeños folículos se acumulan en la periferia del ovario."
+        ],
+        "itens": [
+          "La hiperinsulinemia reduce la SHBG hepática y aumenta la testosterona libre.",
+          "La relación LH/FSH suele estar elevada, pero no es criterio diagnóstico.",
+          "Sin ovulación no hay progesterona: el endometrio queda expuesto solo al estrógeno, crece y sangra de forma irregular.",
+          "La obesidad empeora todos los componentes, pero el síndrome también ocurre en mujeres delgadas."
+        ]
+      },
+      {
+        "titulo": "Diagnóstico: criterios de Rotterdam",
+        "paragrafos": [
+          "Se necesitan 2 de 3 criterios, después de excluir otras causas de hiperandrogenismo y anovulación."
+        ],
+        "itens": [
+          "Oligo o anovulación: ciclos de más de 35 días, menos de 8 ciclos por año o amenorrea.",
+          "Hiperandrogenismo clínico (hirsutismo por la escala de Ferriman-Gallwey, acné, alopecia de patrón androgénico) o de laboratorio (testosterona total o libre elevada).",
+          "Morfología ovárica poliquística en la ecografía: 20 o más folículos por ovario o volumen ovárico mayor de 10 mL. La hormona antimülleriana elevada puede reemplazar la ecografía en la adulta.",
+          "En la adolescente, hasta 8 años después de la menarquia, no debe usarse la ecografía: el diagnóstico exige irregularidad menstrual persistente e hiperandrogenismo.",
+          "Excluir: embarazo, disfunción tiroidea (TSH), hiperprolactinemia (prolactina), hiperplasia suprarrenal congénita no clásica (17-hidroxiprogesterona) y tumores virilizantes (testosterona muy alta, virilización rápida)."
+        ]
+      },
+      {
+        "titulo": "Riesgos a largo plazo",
+        "paragrafos": [
+          "El síndrome no es solo ginecológico: es un factor de riesgo metabólico y oncológico que acompaña a la mujer toda la vida."
+        ],
+        "itens": [
+          "Resistencia a la insulina, intolerancia a la glucosa y diabetes tipo 2: tamizar con PTOG 75 g o hemoglobina glicada.",
+          "Dislipidemia, hipertensión, esteatosis hepática y apnea del sueño.",
+          "Hiperplasia y cáncer de endometrio por la anovulación crónica sin oposición de la progesterona.",
+          "En el embarazo: más diabetes gestacional, preeclampsia y parto prematuro.",
+          "Ansiedad, depresión y trastornos alimentarios son más frecuentes y deben preguntarse."
+        ]
+      },
+      {
+        "titulo": "Tratamiento según el objetivo",
+        "paragrafos": [
+          "La primera medida para todas es cambiar el estilo de vida: una pérdida del 5 al 10 % del peso ya puede restablecer la ovulación."
+        ],
+        "itens": [
+          "Sin deseo de embarazo: el anticonceptivo hormonal combinado es la primera línea; regula el ciclo, protege el endometrio y reduce el hiperandrogenismo.",
+          "Contraindicación al estrógeno: progestágeno cíclico o continuo (oral, implante o DIU hormonal) para proteger el endometrio.",
+          "Hirsutismo: anticonceptivo por al menos 6 meses; asociar antiandrógeno (espironolactona, ciproterona) si la respuesta es insuficiente, siempre con anticoncepción eficaz; los métodos estéticos ayudan.",
+          "Metformina: mejora el perfil metabólico, sobre todo con IMC elevado o intolerancia a la glucosa; puede ayudar a regularizar el ciclo.",
+          "Deseo de embarazo: el letrozol es la primera elección para inducir la ovulación; el citrato de clomifeno es la alternativa. Gonadotropinas y fecundación in vitro quedan para el fracaso. Monitorear con ecografía por el riesgo de embarazo múltiple e hiperestimulación."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Ovario de aspecto poliquístico solo no cierra el diagnóstico: son 2 de 3 criterios.",
+      "Antes de llamarlo SOP, mida TSH, prolactina y 17-hidroxiprogesterona.",
+      "En la adolescente, no use la ecografía para diagnosticar.",
+      "Para embarazarse, el inductor de primera elección hoy es el letrozol.",
+      "Antiandrógeno siempre con anticoncepción: riesgo de feminización del feto masculino.",
+      "La anovulación crónica es factor de riesgo de cáncer de endometrio."
+    ]
+  }
+}

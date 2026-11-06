@@ -1,0 +1,186 @@
+{
+  "id": "cir-atendimento-inicial-trauma",
+  "area": "Cirurgia",
+  "especialidade": "Trauma",
+  "mentor": "helena",
+  "duracaoMin": 16,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2014_q094",
+    "revalida_2014_q104",
+    "revalida_2020_q048",
+    "revalida_2020_q053",
+    "revalida_2011_q026"
+  ],
+  "referencias": [
+    "American College of Surgeons. Advanced Trauma Life Support (ATLS), 10ª edição, 2018.",
+    "Spahn DR et al. The European guideline on management of major bleeding and coagulopathy following trauma, 6ª edição. Crit Care, 2023.",
+    "CRASH-2 Collaborators. Effects of tranexamic acid on death, vascular occlusive events, and blood transfusion in trauma patients. Lancet, 2010."
+  ],
+  "pt": {
+    "titulo": "Atendimento inicial ao politraumatizado: ABCDE, choque e lesões que matam primeiro",
+    "resumo": "A prova cobra a ordem das prioridades. Primeiro o que mata mais rápido: via aérea com proteção da coluna, depois respiração, circulação com controle da hemorragia, neurológico e exposição. Cada problema é tratado assim que é encontrado, antes de seguir para a próxima letra.",
+    "secoes": [
+      {
+        "titulo": "Avaliação primária",
+        "paragrafos": [
+          "O exame primário identifica e trata ameaças imediatas à vida. A hemorragia externa grave pode ser controlada antes mesmo da via aérea (o X do XABCDE do atendimento pré-hospitalar)."
+        ],
+        "itens": [
+          "A: via aérea com restrição de movimento da coluna cervical. Paciente que fala com voz normal tem via aérea pérvia. Via aérea definitiva se Glasgow até 8, apneia, risco de obstrução (queimadura de face, hematoma cervical expansivo) ou falha em oxigenar.",
+          "B: respiração e ventilação. Inspecionar, palpar, percutir e auscultar o tórax; tratar pneumotórax hipertensivo, hemotórax maciço e tórax instável aqui.",
+          "C: circulação com controle da hemorragia. Compressão direta, torniquete em membro, dois acessos venosos calibrosos, coleta de tipagem e investigação das 5 fontes de sangramento: tórax, abdome, pelve, ossos longos e externa.",
+          "D: neurológico. Escala de coma de Glasgow, pupilas e sinais de lateralização.",
+          "E: exposição completa do paciente e prevenção de hipotermia (cobertores e fluidos aquecidos).",
+          "Adjuntos da avaliação primária: monitorização, sonda gástrica e vesical (se não houver contraindicação), radiografia de tórax e de pelve e FAST."
+        ]
+      },
+      {
+        "titulo": "Choque hemorrágico",
+        "paragrafos": [
+          "No trauma, todo choque é hemorrágico até prova em contrário. A taquicardia é o primeiro sinal; a hipotensão aparece só depois de grande perda."
+        ],
+        "itens": [
+          "Classe I: perda até 15%, sinais quase normais.",
+          "Classe II: 15 a 30%, taquicardia e pressão de pulso diminuída, pressão sistólica normal.",
+          "Classe III: 30 a 40%, hipotensão, confusão e oligúria; transfusão necessária.",
+          "Classe IV: acima de 40%, hipotensão grave, letargia, diurese desprezível; risco de morte iminente.",
+          "Reposição balanceada: até 1 litro de cristaloide aquecido no adulto; se não houver resposta, transfusão precoce com concentrado de hemácias, plasma e plaquetas em proporção próxima de 1:1:1.",
+          "Ácido tranexâmico nas primeiras 3 horas do trauma com sangramento importante.",
+          "Hipotensão permissiva (pressão sistólica em torno de 80 a 90 mmHg) até o controle cirúrgico, exceto no trauma cranioencefálico."
+        ]
+      },
+      {
+        "titulo": "Lesões torácicas que matam na avaliação primária",
+        "paragrafos": [
+          "O diagnóstico é clínico; a radiografia não deve atrasar a descompressão de um pneumotórax hipertensivo."
+        ],
+        "itens": [
+          "Pneumotórax hipertensivo: dispneia, desvio de traqueia, murmúrio abolido, hipertimpanismo, turgência jugular e choque; descompressão imediata com agulha (5º espaço intercostal entre as linhas axilares anterior e média no adulto) e depois drenagem.",
+          "Pneumotórax aberto: curativo de três pontas e drenagem torácica longe da ferida.",
+          "Hemotórax maciço: mais de 1.500 mL na drenagem inicial ou mais de 200 mL por hora por 2 a 4 horas indicam toracotomia.",
+          "Tamponamento cardíaco: tríade de Beck (hipotensão, abafamento de bulhas e turgência jugular); FAST confirma; pericardiocentese é ponte para a cirurgia.",
+          "Tórax instável: dois ou mais arcos fraturados em dois ou mais pontos, com movimento paradoxal; o problema principal é a contusão pulmonar."
+        ]
+      },
+      {
+        "titulo": "Trauma abdominal e pélvico",
+        "paragrafos": [
+          "A decisão depende da estabilidade hemodinâmica, não do tipo de lesão isoladamente."
+        ],
+        "itens": [
+          "Instável com FAST positivo: laparotomia.",
+          "Estável: tomografia de abdome com contraste para definir a lesão; lesões de baço e fígado em paciente estável podem ser tratadas sem cirurgia, com observação e, se necessário, embolização.",
+          "Ferimento por arma de fogo no abdome: em geral, laparotomia. Ferimento por arma branca no paciente estável: pode ser explorado localmente e observado.",
+          "Peritonite, evisceração ou pneumoperitônio: cirurgia.",
+          "Fratura de pelve com instabilidade: fechar a pelve com lençol ou cinta pélvica na altura dos trocânteres; depois fixação, angioembolização ou tamponamento pré-peritoneal.",
+          "Sangue no meato uretral, hematoma perineal ou próstata alta ao toque: suspeitar de lesão de uretra e não passar sonda vesical antes da uretrografia."
+        ]
+      },
+      {
+        "titulo": "Trauma cranioencefálico",
+        "paragrafos": [
+          "O objetivo é evitar a lesão secundária: hipóxia e hipotensão aumentam muito a mortalidade."
+        ],
+        "itens": [
+          "Classificação pelo Glasgow: leve de 13 a 15, moderado de 9 a 12 e grave de 3 a 8.",
+          "Manter saturação acima de 94% e pressão sistólica de 100 mmHg ou mais (110 mmHg ou mais entre 15 e 49 anos ou acima de 70 anos).",
+          "Hematoma extradural: trauma temporal, intervalo lúcido e lente biconvexa na tomografia; drenagem cirúrgica.",
+          "Hematoma subdural: idosos e etilistas, imagem em crescente; cirurgia conforme espessura, desvio de linha média e quadro neurológico.",
+          "Sinais de herniação (anisocoria, postura de descerebração, piora do Glasgow): elevar cabeceira, sedação, salina hipertônica ou manitol e avaliação neurocirúrgica imediata."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Pneumotórax hipertensivo é diagnóstico clínico: descomprima antes da radiografia.",
+      "Glasgow até 8 é indicação de via aérea definitiva.",
+      "No trauma, choque é hemorrágico até prova em contrário.",
+      "Sangue no meato uretral: não passe sonda vesical antes da uretrografia.",
+      "Instável com FAST positivo vai para a laparotomia, não para a tomografia.",
+      "Ácido tranexâmico só ajuda nas primeiras 3 horas."
+    ]
+  },
+  "es": {
+    "titulo": "Atención inicial del politraumatizado: ABCDE, shock y lesiones que matan primero",
+    "resumo": "El examen evalúa el orden de las prioridades. Primero lo que mata más rápido: vía aérea con protección de la columna, después respiración, circulación con control de la hemorragia, neurológico y exposición. Cada problema se trata en cuanto se encuentra, antes de pasar a la siguiente letra.",
+    "secoes": [
+      {
+        "titulo": "Evaluación primaria",
+        "paragrafos": [
+          "La evaluación primaria identifica y trata amenazas inmediatas para la vida. La hemorragia externa grave puede controlarse incluso antes de la vía aérea (la X del XABCDE de la atención prehospitalaria)."
+        ],
+        "itens": [
+          "A: vía aérea con restricción de movimiento de la columna cervical. El paciente que habla con voz normal tiene vía aérea permeable. Vía aérea definitiva si Glasgow hasta 8, apnea, riesgo de obstrucción (quemadura de cara, hematoma cervical expansivo) o falla en oxigenar.",
+          "B: respiración y ventilación. Inspeccionar, palpar, percutir y auscultar el tórax; tratar aquí el neumotórax a tensión, el hemotórax masivo y el tórax inestable.",
+          "C: circulación con control de la hemorragia. Compresión directa, torniquete en miembro, dos accesos venosos de gran calibre, toma de tipificación e investigación de las 5 fuentes de sangrado: tórax, abdomen, pelvis, huesos largos y externa.",
+          "D: neurológico. Escala de coma de Glasgow, pupilas y signos de lateralización.",
+          "E: exposición completa del paciente y prevención de la hipotermia (mantas y fluidos calentados).",
+          "Complementos de la evaluación primaria: monitorización, sonda gástrica y vesical (si no hay contraindicación), radiografía de tórax y de pelvis y FAST."
+        ]
+      },
+      {
+        "titulo": "Shock hemorrágico",
+        "paragrafos": [
+          "En el trauma, todo shock es hemorrágico hasta que se demuestre lo contrario. La taquicardia es el primer signo; la hipotensión aparece solo después de una gran pérdida."
+        ],
+        "itens": [
+          "Clase I: pérdida hasta el 15 %, signos casi normales.",
+          "Clase II: 15 a 30 %, taquicardia y presión de pulso disminuida, presión sistólica normal.",
+          "Clase III: 30 a 40 %, hipotensión, confusión y oliguria; transfusión necesaria.",
+          "Clase IV: más del 40 %, hipotensión grave, letargo, diuresis despreciable; riesgo de muerte inminente.",
+          "Reposición balanceada: hasta 1 litro de cristaloide calentado en el adulto; si no hay respuesta, transfusión precoz con glóbulos rojos, plasma y plaquetas en proporción cercana a 1:1:1.",
+          "Ácido tranexámico en las primeras 3 horas del trauma con sangrado importante.",
+          "Hipotensión permisiva (presión sistólica cerca de 80 a 90 mmHg) hasta el control quirúrgico, salvo en el traumatismo craneoencefálico."
+        ]
+      },
+      {
+        "titulo": "Lesiones torácicas que matan en la evaluación primaria",
+        "paragrafos": [
+          "El diagnóstico es clínico; la radiografía no debe retrasar la descompresión de un neumotórax a tensión."
+        ],
+        "itens": [
+          "Neumotórax a tensión: disnea, desviación de la tráquea, murmullo abolido, hipertimpanismo, ingurgitación yugular y shock; descompresión inmediata con aguja (5.º espacio intercostal entre las líneas axilares anterior y media en el adulto) y después drenaje.",
+          "Neumotórax abierto: apósito de tres puntas y drenaje torácico lejos de la herida.",
+          "Hemotórax masivo: más de 1.500 mL en el drenaje inicial o más de 200 mL por hora durante 2 a 4 horas indican toracotomía.",
+          "Taponamiento cardíaco: tríada de Beck (hipotensión, ruidos cardíacos apagados e ingurgitación yugular); el FAST confirma; la pericardiocentesis es puente hacia la cirugía.",
+          "Tórax inestable: dos o más costillas fracturadas en dos o más puntos, con movimiento paradójico; el problema principal es la contusión pulmonar."
+        ]
+      },
+      {
+        "titulo": "Trauma abdominal y pélvico",
+        "paragrafos": [
+          "La decisión depende de la estabilidad hemodinámica, no del tipo de lesión por sí solo."
+        ],
+        "itens": [
+          "Inestable con FAST positivo: laparotomía.",
+          "Estable: tomografía de abdomen con contraste para definir la lesión; las lesiones de bazo e hígado en paciente estable pueden tratarse sin cirugía, con observación y, si es necesario, embolización.",
+          "Herida por arma de fuego en el abdomen: en general, laparotomía. Herida por arma blanca en el paciente estable: puede explorarse localmente y observarse.",
+          "Peritonitis, evisceración o neumoperitoneo: cirugía.",
+          "Fractura de pelvis con inestabilidad: cerrar la pelvis con sábana o faja pélvica a la altura de los trocánteres; después fijación, angioembolización o taponamiento preperitoneal.",
+          "Sangre en el meato uretral, hematoma perineal o próstata alta al tacto: sospechar lesión de uretra y no pasar sonda vesical antes de la uretrografía."
+        ]
+      },
+      {
+        "titulo": "Traumatismo craneoencefálico",
+        "paragrafos": [
+          "El objetivo es evitar la lesión secundaria: la hipoxia y la hipotensión aumentan mucho la mortalidad."
+        ],
+        "itens": [
+          "Clasificación por Glasgow: leve de 13 a 15, moderado de 9 a 12 y grave de 3 a 8.",
+          "Mantener saturación mayor del 94 % y presión sistólica de 100 mmHg o más (110 mmHg o más entre 15 y 49 años o mayores de 70 años).",
+          "Hematoma epidural: trauma temporal, intervalo lúcido y lente biconvexa en la tomografía; drenaje quirúrgico.",
+          "Hematoma subdural: adultos mayores y alcohólicos, imagen en semiluna; cirugía según espesor, desviación de la línea media y cuadro neurológico.",
+          "Signos de herniación (anisocoria, postura de descerebración, caída del Glasgow): elevar la cabecera, sedación, solución salina hipertónica o manitol y evaluación neuroquirúrgica inmediata."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "El neumotórax a tensión es diagnóstico clínico: descomprima antes de la radiografía.",
+      "Glasgow hasta 8 es indicación de vía aérea definitiva.",
+      "En el trauma, el shock es hemorrágico hasta que se demuestre lo contrario.",
+      "Sangre en el meato uretral: no pase sonda vesical antes de la uretrografía.",
+      "Inestable con FAST positivo va a laparotomía, no a tomografía.",
+      "El ácido tranexámico solo ayuda en las primeras 3 horas."
+    ]
+  }
+}

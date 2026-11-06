@@ -3,11 +3,12 @@
   "area": "Clínica Médica",
   "especialidade": "Gastroenterologia",
   "mentor": "caio",
-  "duracaoMin": 12,
+  "duracaoMin": 18,
   "revisao": "pendente",
   "questoes": [
     "revalida_2024-1_q041",
-    "revalida_2023-2_q016"
+    "revalida_2023-2_q016",
+    "revalida_2013_q016"
   ],
   "referencias": [
     "Lacy BE et al. Bowel disorders (Rome IV). Gastroenterology, 2016.",
@@ -64,6 +65,33 @@
           "Sem sinais de alarme, investigação mínima: hemograma, PCR, sorologia para doença celíaca e, se diarreia, calprotectina fecal. Colonoscopia só com sinal de alarme ou idade de rastreamento.",
           "Tratamento: explicar a doença e firmar vínculo; dieta pobre em FODMAPs; fibra solúvel (psyllium); antiespasmódicos para dor; loperamida na diarreia; polietilenoglicol ou linaclotida na constipação; antidepressivo tricíclico em dose baixa para dor refratária; terapia cognitivo-comportamental."
         ]
+      },
+      {
+        "titulo": "Doença inflamatória intestinal: quando a diarreia é inflamatória",
+        "paragrafos": [
+          "Diarreia com sangue, muco, dor, febre ou despertar noturno, com calprotectina fecal ou PCR elevadas, aponta para doença orgânica e afasta intestino irritável."
+        ],
+        "itens": [
+          "Retocolite ulcerativa: começa no reto e sobe de forma contínua; diarreia com sangue e tenesmo; acomete só a mucosa; tabagismo é fator de proteção.",
+          "Doença de Crohn: da boca ao ânus, com lesões salteadas e transmurais; dor na fossa ilíaca direita, fístulas, estenoses e doença perianal; tabagismo piora.",
+          "Manifestações extraintestinais: artrite, eritema nodoso, pioderma gangrenoso, uveíte e colangite esclerosante primária (mais ligada à retocolite).",
+          "Diagnóstico: colonoscopia com biópsias de vários segmentos; afastar infecção (coprocultura, pesquisa de Clostridioides difficile).",
+          "Tratamento: aminossalicilatos na retocolite leve a moderada; corticoide para indução, nunca para manutenção; imunossupressores e biológicos nas formas moderadas a graves e no Crohn."
+        ]
+      },
+      {
+        "titulo": "Exames na investigação",
+        "paragrafos": [
+          "A escolha do exame segue a pergunta: há inflamação, há má absorção, há infecção?"
+        ],
+        "itens": [
+          "Calprotectina fecal: separa inflamação intestinal (alta) de intestino irritável (normal).",
+          "Sudam III e gordura fecal de 72 horas: confirmam esteatorreia.",
+          "Teste da D-xilose: alterado na doença da mucosa do intestino delgado e normal na insuficiência pancreática.",
+          "Elastase fecal baixa: insuficiência pancreática exócrina.",
+          "Teste respiratório do hidrogênio: intolerância à lactose e supercrescimento bacteriano.",
+          "Endoscopia com biópsia duodenal: confirma doença celíaca (atrofia de vilosidades, linfócitos intraepiteliais) e Whipple (macrófagos PAS-positivos)."
+        ]
       }
     ],
     "pegadinhas": [
@@ -71,7 +99,9 @@
       "Sorologia celíaca só vale com o paciente comendo glúten, e sempre com IgA total.",
       "Anemia ferropriva que não responde ao ferro oral: pense em doença celíaca.",
       "Intestino irritável não acorda o paciente à noite nem causa perda de peso.",
-      "Repetir antiparasitários sem melhora não é investigação."
+      "Repetir antiparasitários sem melhora não é investigação.",
+      "Corticoide induz remissão na doença inflamatória, mas não serve para manutenção.",
+      "D-xilose normal com esteatorreia aponta para o pâncreas, não para a mucosa."
     ]
   },
   "es": {
@@ -123,6 +153,33 @@
           "Sin signos de alarma, investigación mínima: hemograma, PCR, serología para enfermedad celíaca y, si hay diarrea, calprotectina fecal. Colonoscopia solo con signo de alarma o edad de tamizaje.",
           "Tratamiento: explicar la enfermedad y construir vínculo; dieta baja en FODMAP; fibra soluble (psyllium); antiespasmódicos para el dolor; loperamida en la diarrea; polietilenglicol o linaclotida en el estreñimiento; antidepresivo tricíclico en dosis baja para dolor refractario; terapia cognitivo-conductual."
         ]
+      },
+      {
+        "titulo": "Enfermedad inflamatoria intestinal: cuando la diarrea es inflamatoria",
+        "paragrafos": [
+          "Diarrea con sangre, moco, dolor, fiebre o despertar nocturno, con calprotectina fecal o PCR elevadas, apunta a enfermedad orgánica y descarta intestino irritable."
+        ],
+        "itens": [
+          "Colitis ulcerosa: empieza en el recto y sube de forma continua; diarrea con sangre y tenesmo; afecta solo la mucosa; el tabaquismo es factor protector.",
+          "Enfermedad de Crohn: de la boca al ano, con lesiones salteadas y transmurales; dolor en la fosa ilíaca derecha, fístulas, estenosis y enfermedad perianal; el tabaquismo empeora.",
+          "Manifestaciones extraintestinales: artritis, eritema nudoso, pioderma gangrenoso, uveítis y colangitis esclerosante primaria (más ligada a la colitis ulcerosa).",
+          "Diagnóstico: colonoscopia con biopsias de varios segmentos; descartar infección (coprocultivo, búsqueda de Clostridioides difficile).",
+          "Tratamiento: aminosalicilatos en la colitis leve a moderada; corticoide para inducción, nunca para mantenimiento; inmunosupresores y biológicos en las formas moderadas a graves y en el Crohn."
+        ]
+      },
+      {
+        "titulo": "Exámenes en la investigación",
+        "paragrafos": [
+          "La elección del examen sigue la pregunta: ¿hay inflamación, hay malabsorción, hay infección?"
+        ],
+        "itens": [
+          "Calprotectina fecal: separa inflamación intestinal (alta) de intestino irritable (normal).",
+          "Sudán III y grasa fecal de 72 horas: confirman esteatorrea.",
+          "Prueba de la D-xilosa: alterada en la enfermedad de la mucosa del intestino delgado y normal en la insuficiencia pancreática.",
+          "Elastasa fecal baja: insuficiencia pancreática exocrina.",
+          "Prueba de hidrógeno espirado: intolerancia a la lactosa y sobrecrecimiento bacteriano.",
+          "Endoscopia con biopsia duodenal: confirma enfermedad celíaca (atrofia de vellosidades, linfocitos intraepiteliales) y Whipple (macrófagos PAS positivos)."
+        ]
       }
     ],
     "pegadinhas": [
@@ -130,7 +187,9 @@
       "La serología celíaca solo vale con el paciente comiendo gluten, y siempre con IgA total.",
       "Anemia ferropénica que no responde al hierro oral: piense en enfermedad celíaca.",
       "El intestino irritable no despierta al paciente de noche ni causa pérdida de peso.",
-      "Repetir antiparasitarios sin mejoría no es investigar."
+      "Repetir antiparasitarios sin mejoría no es investigar.",
+      "El corticoide induce remisión en la enfermedad inflamatoria, pero no sirve para mantenimiento.",
+      "D-xilosa normal con esteatorrea apunta al páncreas, no a la mucosa."
     ]
   }
 }

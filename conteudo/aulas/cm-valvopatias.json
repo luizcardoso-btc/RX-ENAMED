@@ -1,0 +1,180 @@
+{
+  "id": "cm-valvopatias",
+  "area": "Clínica Médica",
+  "especialidade": "Cardiologia",
+  "mentor": "caio",
+  "duracaoMin": 16,
+  "revisao": "pendente",
+  "questoes": [
+    "revalida_2012_q073",
+    "revalida_2021_q079",
+    "revalida_2016_q081"
+  ],
+  "referencias": [
+    "Tarasoutchi F et al. Atualização das Diretrizes Brasileiras de Valvopatias. Arq Bras Cardiol, 2020.",
+    "Otto CM et al. 2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease. Circulation, 2021.",
+    "Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J, 2022."
+  ],
+  "pt": {
+    "titulo": "Valvopatias: estenose e insuficiência mitral e aórtica",
+    "resumo": "Quatro valvopatias concentram as questões. A prova dá o sopro, o pulso e os sintomas e pede o diagnóstico, a causa mais provável e quando a intervenção está indicada. A regra geral: valvopatia grave com sintomas ou com disfunção ventricular vai para intervenção.",
+    "secoes": [
+      {
+        "titulo": "Estenose mitral",
+        "paragrafos": [
+          "No Brasil, a causa é quase sempre reumática, em mulheres jovens. O átrio esquerdo dilata, a pressão sobe para os pulmões e a fibrilação atrial é frequente."
+        ],
+        "itens": [
+          "Sintomas: dispneia que piora com taquicardia (esforço, gestação, febre, fibrilação atrial), hemoptise, rouquidão por compressão do laríngeo recorrente pelo átrio aumentado (síndrome de Ortner) e embolias.",
+          "Ausculta: B1 hiperfonética, estalido de abertura e ruflar diastólico no foco mitral com reforço pré-sistólico (ausente se houver fibrilação atrial).",
+          "Radiografia: aumento do átrio esquerdo (duplo contorno, elevação do brônquio fonte esquerdo) e congestão pulmonar.",
+          "Grave: área valvar até 1,5 cm².",
+          "Tratamento: betabloqueador para controlar a frequência, diurético para congestão e anticoagulação com varfarina se houver fibrilação atrial (os anticoagulantes diretos não são indicados na estenose mitral moderada a grave).",
+          "Intervenção: valvoplastia mitral percutânea por balão é a escolha quando a anatomia é favorável (escore de Wilkins até 8, sem trombo atrial e sem insuficiência mitral importante); senão, troca valvar."
+        ]
+      },
+      {
+        "titulo": "Insuficiência mitral",
+        "paragrafos": [
+          "Pode ser primária (degeneração mixomatosa, prolapso, febre reumática, endocardite) ou secundária, por dilatação do ventrículo esquerdo. A forma aguda (ruptura de cordoalha, infarto) causa edema agudo de pulmão."
+        ],
+        "itens": [
+          "Ausculta: sopro holossistólico no foco mitral, irradiado para a axila; B1 hipofonética; B3 nas formas graves.",
+          "Prolapso da valva mitral: clique mesossistólico seguido de sopro telessistólico.",
+          "Intervenção na primária grave: sintomas, ou fração de ejeção até 60%, ou diâmetro sistólico do VE de 40 mm ou mais.",
+          "Plastia mitral é preferível à troca quando possível.",
+          "Na secundária, o foco é tratar a insuficiência cardíaca com as medicações que reduzem mortalidade."
+        ]
+      },
+      {
+        "titulo": "Estenose aórtica",
+        "paragrafos": [
+          "A causa mais comum hoje é a calcificação degenerativa no idoso; em jovens, valva bicúspide; a reumática quase sempre vem com lesão mitral."
+        ],
+        "itens": [
+          "Tríade de sintomas: angina, síncope ao esforço e dispneia; o aparecimento de sintomas reduz muito a sobrevida sem tratamento.",
+          "Ausculta: sopro sistólico ejetivo, em diamante, no foco aórtico, irradiado para as carótidas; B2 hipofonética ou única nas formas graves.",
+          "Pulso parvus et tardus: amplitude baixa e subida lenta.",
+          "Grave: área valvar até 1,0 cm², gradiente médio de 40 mmHg ou mais ou velocidade de pico de 4 m/s ou mais.",
+          "Intervenção: grave com sintomas, ou grave com fração de ejeção abaixo de 50%. Troca cirúrgica ou implante transcateter (TAVI), conforme idade, risco cirúrgico e anatomia.",
+          "Cuidado com vasodilatadores e nitratos: o débito depende da pré-carga e podem causar hipotensão grave."
+        ]
+      },
+      {
+        "titulo": "Insuficiência aórtica",
+        "paragrafos": [
+          "O ventrículo recebe volume extra a cada diástole; a pressão de pulso alarga e surgem os sinais periféricos de hiperdinamismo."
+        ],
+        "itens": [
+          "Causas: valva bicúspide, dilatação da raiz aórtica (hipertensão, Marfan, aortite sifilítica), febre reumática e endocardite; dissecção de aorta e endocardite causam a forma aguda.",
+          "Ausculta: sopro diastólico aspirativo, decrescente, na borda esternal esquerda; pode haver ruflar mesodiastólico de Austin Flint no foco mitral.",
+          "Sinais periféricos: pulso em martelo d’água (Corrigan), pulsação das unhas (Quincke), balanço da cabeça (Musset), sopro duplo na femoral (Duroziez) e pressão arterial com diferencial muito alargada, como 160 x 40 mmHg.",
+          "Intervenção na crônica grave: sintomas, ou fração de ejeção até 55%, ou diâmetro sistólico do VE acima de 50 mm.",
+          "Forma aguda grave: cirurgia de urgência; balão intra-aórtico é contraindicado."
+        ]
+      },
+      {
+        "titulo": "Como diferenciar na prova",
+        "paragrafos": [
+          "Primeiro, saiba se o sopro é sistólico ou diastólico; depois, o foco e a irradiação."
+        ],
+        "itens": [
+          "Sistólico no foco aórtico, irradiado para o pescoço: estenose aórtica.",
+          "Sistólico no foco mitral, irradiado para a axila: insuficiência mitral.",
+          "Diastólico em ruflar no foco mitral, com estalido de abertura: estenose mitral.",
+          "Diastólico aspirativo na borda esternal esquerda, com pulso amplo: insuficiência aórtica.",
+          "Manobras: o agachamento aumenta a maioria dos sopros; Valsalva e ortostatismo diminuem, exceto na cardiomiopatia hipertrófica e no prolapso, que aumentam ou adiantam o clique."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Estenose mitral com fibrilação atrial: anticoagular com varfarina, não com anticoagulante direto.",
+      "Ruflar com reforço pré-sistólico some quando entra fibrilação atrial.",
+      "Estenose aórtica grave sintomática é indicação de intervenção, mesmo com fração de ejeção normal.",
+      "Pressão arterial 160 x 40 com pulso em martelo d’água: insuficiência aórtica.",
+      "Insuficiência aórtica aguda grave: balão intra-aórtico é contraindicado.",
+      "Rouquidão em mulher jovem com estenose mitral: compressão do laríngeo recorrente pelo átrio esquerdo."
+    ]
+  },
+  "es": {
+    "titulo": "Valvulopatías: estenosis e insuficiencia mitral y aórtica",
+    "resumo": "Cuatro valvulopatías concentran las preguntas. El examen da el soplo, el pulso y los síntomas y pide el diagnóstico, la causa más probable y cuándo está indicada la intervención. La regla general: valvulopatía grave con síntomas o con disfunción ventricular va a intervención.",
+    "secoes": [
+      {
+        "titulo": "Estenosis mitral",
+        "paragrafos": [
+          "En Brasil, la causa es casi siempre reumática, en mujeres jóvenes. La aurícula izquierda se dilata, la presión sube hacia los pulmones y la fibrilación auricular es frecuente."
+        ],
+        "itens": [
+          "Síntomas: disnea que empeora con taquicardia (esfuerzo, embarazo, fiebre, fibrilación auricular), hemoptisis, disfonía por compresión del laríngeo recurrente por la aurícula aumentada (síndrome de Ortner) y embolias.",
+          "Auscultación: R1 aumentado, chasquido de apertura y retumbo diastólico en el foco mitral con refuerzo presistólico (ausente si hay fibrilación auricular).",
+          "Radiografía: aumento de la aurícula izquierda (doble contorno, elevación del bronquio fuente izquierdo) y congestión pulmonar.",
+          "Grave: área valvular hasta 1,5 cm².",
+          "Tratamiento: betabloqueante para controlar la frecuencia, diurético para la congestión y anticoagulación con warfarina si hay fibrilación auricular (los anticoagulantes directos no están indicados en la estenosis mitral moderada a grave).",
+          "Intervención: la valvuloplastia mitral percutánea con balón es la elección cuando la anatomía es favorable (puntaje de Wilkins hasta 8, sin trombo auricular y sin insuficiencia mitral importante); si no, recambio valvular."
+        ]
+      },
+      {
+        "titulo": "Insuficiencia mitral",
+        "paragrafos": [
+          "Puede ser primaria (degeneración mixomatosa, prolapso, fiebre reumática, endocarditis) o secundaria, por dilatación del ventrículo izquierdo. La forma aguda (rotura de cuerdas, infarto) causa edema agudo de pulmón."
+        ],
+        "itens": [
+          "Auscultación: soplo holosistólico en el foco mitral, irradiado a la axila; R1 disminuido; R3 en las formas graves.",
+          "Prolapso de la válvula mitral: clic mesosistólico seguido de soplo telesistólico.",
+          "Intervención en la primaria grave: síntomas, o fracción de eyección hasta 60 %, o diámetro sistólico del VI de 40 mm o más.",
+          "La plastia mitral es preferible al recambio cuando es posible.",
+          "En la secundaria, el foco es tratar la insuficiencia cardíaca con los fármacos que reducen la mortalidad."
+        ]
+      },
+      {
+        "titulo": "Estenosis aórtica",
+        "paragrafos": [
+          "La causa más común hoy es la calcificación degenerativa en el adulto mayor; en jóvenes, la válvula bicúspide; la reumática casi siempre viene con lesión mitral."
+        ],
+        "itens": [
+          "Tríada de síntomas: angina, síncope de esfuerzo y disnea; la aparición de síntomas reduce mucho la supervivencia sin tratamiento.",
+          "Auscultación: soplo sistólico eyectivo, en diamante, en el foco aórtico, irradiado a las carótidas; R2 disminuido o único en las formas graves.",
+          "Pulso parvus et tardus: amplitud baja y ascenso lento.",
+          "Grave: área valvular hasta 1,0 cm², gradiente medio de 40 mmHg o más o velocidad pico de 4 m/s o más.",
+          "Intervención: grave con síntomas, o grave con fracción de eyección menor del 50 %. Recambio quirúrgico o implante transcatéter (TAVI), según edad, riesgo quirúrgico y anatomía.",
+          "Cuidado con vasodilatadores y nitratos: el gasto depende de la precarga y pueden causar hipotensión grave."
+        ]
+      },
+      {
+        "titulo": "Insuficiencia aórtica",
+        "paragrafos": [
+          "El ventrículo recibe volumen extra en cada diástole; la presión de pulso se ensancha y aparecen los signos periféricos de hiperdinamismo."
+        ],
+        "itens": [
+          "Causas: válvula bicúspide, dilatación de la raíz aórtica (hipertensión, Marfan, aortitis sifilítica), fiebre reumática y endocarditis; la disección de aorta y la endocarditis causan la forma aguda.",
+          "Auscultación: soplo diastólico aspirativo, decreciente, en el borde esternal izquierdo; puede haber retumbo mesodiastólico de Austin Flint en el foco mitral.",
+          "Signos periféricos: pulso en martillo de agua (Corrigan), pulsación de las uñas (Quincke), balanceo de la cabeza (Musset), doble soplo femoral (Duroziez) y presión arterial con diferencial muy ensanchada, como 160 x 40 mmHg.",
+          "Intervención en la crónica grave: síntomas, o fracción de eyección hasta 55 %, o diámetro sistólico del VI mayor de 50 mm.",
+          "Forma aguda grave: cirugía de urgencia; el balón intraaórtico está contraindicado."
+        ]
+      },
+      {
+        "titulo": "Cómo diferenciar en el examen",
+        "paragrafos": [
+          "Primero, sepa si el soplo es sistólico o diastólico; después, el foco y la irradiación."
+        ],
+        "itens": [
+          "Sistólico en el foco aórtico, irradiado al cuello: estenosis aórtica.",
+          "Sistólico en el foco mitral, irradiado a la axila: insuficiencia mitral.",
+          "Diastólico en retumbo en el foco mitral, con chasquido de apertura: estenosis mitral.",
+          "Diastólico aspirativo en el borde esternal izquierdo, con pulso amplio: insuficiencia aórtica.",
+          "Maniobras: la posición en cuclillas aumenta la mayoría de los soplos; Valsalva y la bipedestación los disminuyen, salvo en la miocardiopatía hipertrófica y el prolapso, que aumentan o adelantan el clic."
+        ]
+      }
+    ],
+    "pegadinhas": [
+      "Estenosis mitral con fibrilación auricular: anticoagular con warfarina, no con anticoagulante directo.",
+      "El retumbo con refuerzo presistólico desaparece cuando entra la fibrilación auricular.",
+      "La estenosis aórtica grave sintomática es indicación de intervención, aun con fracción de eyección normal.",
+      "Presión arterial 160 x 40 con pulso en martillo de agua: insuficiencia aórtica.",
+      "Insuficiencia aórtica aguda grave: el balón intraaórtico está contraindicado.",
+      "Disfonía en mujer joven con estenosis mitral: compresión del laríngeo recurrente por la aurícula izquierda."
+    ]
+  }
+}

@@ -3,12 +3,15 @@
   "area": "Cirurgia",
   "especialidade": "Abdome agudo",
   "mentor": "helena",
-  "duracaoMin": 12,
+  "duracaoMin": 18,
   "revisao": "pendente",
   "questoes": [
     "revalida_2025-1_q027",
     "revalida_2024-1_q047",
-    "revalida_2025-1_q008"
+    "revalida_2025-1_q008",
+    "revalida_2017_q012",
+    "revalida_2021_q022",
+    "revalida_2020_q023"
   ],
   "referencias": [
     "Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg, 2020.",
@@ -63,6 +66,32 @@
           "Abscesso: antibiótico e drenagem percutânea guiada por imagem; cirurgia imediata aumenta complicações.",
           "Depois, apendicectomia de intervalo é opcional; acima de 40 anos, colonoscopia para afastar neoplasia de ceco."
         ]
+      },
+      {
+        "titulo": "Diagnóstico diferencial",
+        "paragrafos": [
+          "Na fossa ilíaca direita, a lista muda com a idade e o sexo. Na mulher em idade fértil, toda dor nessa região pede beta-hCG antes de qualquer decisão."
+        ],
+        "itens": [
+          "Mulher: gravidez ectópica (beta-hCG positivo, atraso menstrual), torção de ovário (dor súbita, náuseas, massa anexial ao ultrassom com Doppler), cisto roto e doença inflamatória pélvica (dor bilateral, corrimento, mobilização do colo dolorosa).",
+          "Criança: adenite mesentérica após quadro viral, invaginação intestinal no lactente e diverticulite de Meckel.",
+          "Idoso: diverticulite à direita, neoplasia de ceco perfurada e isquemia mesentérica.",
+          "Urológico: cólica renal (dor lombar irradiada para a virilha, hematúria) e pielonefrite (febre alta, punho-percussão positiva).",
+          "Doença de Crohn ileal: diarreia crônica, perda de peso e episódios anteriores semelhantes."
+        ]
+      },
+      {
+        "titulo": "Achado intraoperatório e complicações",
+        "paragrafos": [
+          "Quando o apêndice parece normal na cirurgia, a conduta é procurar a causa e, em geral, retirar o apêndice para evitar dúvida futura."
+        ],
+        "itens": [
+          "Apêndice normal na laparoscopia: inspecionar íleo terminal (Meckel, Crohn), anexos e pelve; a apendicectomia costuma ser feita mesmo assim.",
+          "Base do apêndice comprometida (necrose do ceco junto à base): pode exigir ressecção de parte do ceco ou colectomia direita.",
+          "Tumor carcinoide no apêndice: menor que 2 cm na ponta, apendicectomia basta; 2 cm ou mais, ou na base, colectomia direita.",
+          "Infecção de sítio cirúrgico superficial: abrir a ferida e drenar; antibiótico só se houver celulite ou sinais sistêmicos.",
+          "Abscesso pélvico no pós-operatório: febre persistente e diarreia ou tenesmo após o 5º dia; confirmar com tomografia e drenar."
+        ]
       }
     ],
     "pegadinhas": [
@@ -70,7 +99,9 @@
       "Alguns piócitos na urina não afastam apendicite.",
       "Não complicada: antibiótico só profilático, dose única.",
       "Massa com mais de 5 dias de evolução: imagem e drenagem, não cirurgia imediata.",
-      "Dor que piora com a tosse e descompressão dolorosa indicam irritação peritoneal."
+      "Dor que piora com a tosse e descompressão dolorosa indicam irritação peritoneal.",
+      "Mulher em idade fértil com dor na fossa ilíaca direita: beta-hCG primeiro.",
+      "Febre e diarreia depois do 5º dia de pós-operatório sugerem abscesso pélvico, não gastroenterite."
     ]
   },
   "es": {
@@ -121,6 +152,32 @@
           "Absceso: antibiótico y drenaje percutáneo guiado por imagen; la cirugía inmediata aumenta las complicaciones.",
           "Después, la apendicectomía de intervalo es opcional; por encima de 40 años, colonoscopia para descartar neoplasia de ciego."
         ]
+      },
+      {
+        "titulo": "Diagnóstico diferencial",
+        "paragrafos": [
+          "En la fosa ilíaca derecha, la lista cambia con la edad y el sexo. En la mujer en edad fértil, todo dolor en esta región pide beta-hCG antes de cualquier decisión."
+        ],
+        "itens": [
+          "Mujer: embarazo ectópico (beta-hCG positiva, atraso menstrual), torsión de ovario (dolor súbito, náuseas, masa anexial en la ecografía con Doppler), quiste roto y enfermedad inflamatoria pélvica (dolor bilateral, flujo, movilización del cuello dolorosa).",
+          "Niño: adenitis mesentérica después de un cuadro viral, invaginación intestinal en el lactante y diverticulitis de Meckel.",
+          "Adulto mayor: diverticulitis derecha, neoplasia de ciego perforada e isquemia mesentérica.",
+          "Urológico: cólico renal (dolor lumbar irradiado a la ingle, hematuria) y pielonefritis (fiebre alta, puñopercusión positiva).",
+          "Enfermedad de Crohn ileal: diarrea crónica, pérdida de peso y episodios previos semejantes."
+        ]
+      },
+      {
+        "titulo": "Hallazgo intraoperatorio y complicaciones",
+        "paragrafos": [
+          "Cuando el apéndice parece normal en la cirugía, la conducta es buscar la causa y, en general, retirar el apéndice para evitar dudas futuras."
+        ],
+        "itens": [
+          "Apéndice normal en la laparoscopia: inspeccionar íleon terminal (Meckel, Crohn), anexos y pelvis; la apendicectomía suele hacerse igual.",
+          "Base del apéndice comprometida (necrosis del ciego junto a la base): puede exigir resección de parte del ciego o colectomía derecha.",
+          "Tumor carcinoide en el apéndice: menor de 2 cm en la punta, basta la apendicectomía; 2 cm o más, o en la base, colectomía derecha.",
+          "Infección de sitio quirúrgico superficial: abrir la herida y drenar; antibiótico solo si hay celulitis o signos sistémicos.",
+          "Absceso pélvico en el posoperatorio: fiebre persistente y diarrea o tenesmo después del 5.º día; confirmar con tomografía y drenar."
+        ]
       }
     ],
     "pegadinhas": [
@@ -128,7 +185,9 @@
       "Algunos piocitos en la orina no descartan apendicitis.",
       "No complicada: antibiótico solo profiláctico, dosis única.",
       "Masa con más de 5 días de evolución: imagen y drenaje, no cirugía inmediata.",
-      "Dolor que empeora con la tos y dolor a la descompresión indican irritación peritoneal."
+      "Dolor que empeora con la tos y dolor a la descompresión indican irritación peritoneal.",
+      "Mujer en edad fértil con dolor en la fosa ilíaca derecha: primero beta-hCG.",
+      "Fiebre y diarrea después del 5.º día posoperatorio sugieren absceso pélvico, no gastroenteritis."
     ]
   }
 }
