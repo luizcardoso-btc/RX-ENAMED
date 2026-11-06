@@ -152,7 +152,7 @@ test('boleto: devolve link e código de barras', async () => {
   const r = await a.post('/api/checkout/pagar', { plano: 'segunda-etapa', metodo: 'boleto', cpf: CPF });
   assert.equal(r.status, 201);
   assert.equal(r.corpo.pedido.pagamento.boletoUrl, 'https://mp.test/boleto');
-  assert.equal(r.corpo.pedido.valorCentavos, 79700);
+  assert.equal(r.corpo.pedido.valorCentavos, 79790);
 });
 
 test('admin: resumo de vendas, lista de alunos, liberação manual, revogação, reembolso e CSV', async () => {

@@ -106,8 +106,8 @@
     },
     {
       "id": "segunda-etapa",
-      "preco": 79700,
-      "precoFundador": 79700,
+      "preco": 79790,
+      "precoFundador": 79790,
       "cobranca": "unico",
       "parcelas": 6,
       "checkout": "",
@@ -147,7 +147,7 @@
           "Tudo do ciclo de prova",
           "Pacote da 2ª etapa incluído",
           "Duas provas no período",
-          "Sai R$ 302,80 mais barato que dois ciclos e a 2ª etapa avulsa"
+          "Sai R$ 303,70 mais barato que dois ciclos e a 2ª etapa avulsa"
         ]
       },
       "es": {
@@ -157,7 +157,7 @@
           "Todo lo del ciclo de examen",
           "Paquete de la 2.ª etapa incluido",
           "Dos exámenes en el periodo",
-          "Sale R$ 302,80 más barato que dos ciclos y la 2.ª etapa por separado"
+          "Sale R$ 303,70 más barato que dos ciclos y la 2.ª etapa por separado"
         ]
       },
       "duracaoMeses": 12

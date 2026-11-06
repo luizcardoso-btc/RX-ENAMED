@@ -62,7 +62,7 @@ try {
   if (existsSync(`${dist}/provas`)) erros.push('site: a pasta provas/ não deveria existir');
   // Preços do site iguais aos do arquivo de planos.
   await p.goto('http://site.local/planos.html');
-  for (const valor of ['R$ 147,90', 'R$ 497,90', 'R$ 797', 'R$ 1.490']) if (!(await p.getByText(valor, { exact: true }).count())) erros.push(`planos.html: falta o preço ${valor}`);
+  for (const valor of ['R$ 147,90', 'R$ 497,90', 'R$ 797,90', 'R$ 1.490']) if (!(await p.getByText(valor, { exact: true }).count())) erros.push(`planos.html: falta o preço ${valor}`);
 } catch (err) {
   erros.push(`falha: ${err.message.split('\n')[0]}`);
 } finally {

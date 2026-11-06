@@ -12,7 +12,7 @@ const uuid = () => 'xxxxxxxx-xxxx-4xxx-8xxx-xxxxxxxxxxxx'.replace(/x/g, () => Ma
 const PLANOS = [
   { id: 'mensal', nome: 'Mensal', valorCentavos: 14790, duracaoMeses: 1, parcelasMax: 1 },
   { id: 'ciclo', nome: 'Ciclo de prova', valorCentavos: 49790, duracaoMeses: 6, parcelasMax: 6 },
-  { id: 'segunda-etapa', nome: '2ª etapa', valorCentavos: 79700, duracaoMeses: 8, parcelasMax: 6 },
+  { id: 'segunda-etapa', nome: '2ª etapa', valorCentavos: 79790, duracaoMeses: 8, parcelasMax: 6 },
   { id: 'anual', nome: 'Anual completo', valorCentavos: 149000, duracaoMeses: 12, parcelasMax: 12 },
 ];
 const porPlano = Object.fromEntries(PLANOS.map((p) => [p.id, p]));
