@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Entrar | RX ENAMED</title>
+<title>Entrar | Rx Med</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23102B38'/%3E%3Cg fill='none' stroke-width='8' transform='translate(6 6) scale(.81)'%3E%3Cpath d='M10 58V14H27A10 10 0 0 1 27 34H10' stroke='white'/%3E%3Cpath d='M23 34L48 58' stroke='white'/%3E%3Cpath d='M28 58L60 8' stroke='%2319A987'/%3E%3C/g%3E%3C/svg%3E">
 <meta name="robots" content="noindex">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap">
@@ -12,8 +12,8 @@
 </head>
 <body class="pagina-login">
 <header class="rx-topo login-topo"><div class="envoltorio">
-  <a class="marca" href="/"><span class="marca-simbolo" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none" stroke-width="8"><path d="M10 58V14H27A10 10 0 0 1 27 34H10" stroke="#FFFFFF" stroke-miterlimit="10"/><path d="M23 34L48 58" stroke="#FFFFFF"/><path d="M28 58L60 8" stroke="#19A987"/></svg></span><span class="marca-nome"><b>RX</b>ENAMED</span></a>
-  <nav id="nav"><a href="/">O curso</a><a href="/planos.html">Planos</a></nav>
+  <a class="marca" href="/"><span class="marca-simbolo" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none" stroke-width="8"><path d="M10 58V14H27A10 10 0 0 1 27 34H10" stroke="#FFFFFF" stroke-miterlimit="10"/><path d="M23 34L48 58" stroke="#FFFFFF"/><path d="M28 58L60 8" stroke="#19A987"/></svg></span><span>Rx <em>Med</em></span></a>
+  <nav id="nav"><a href="/">Início</a><a href="/enamed.html">ENAMED</a><a href="/revalida.html">Revalida</a><a href="/planos.html">Planos</a></nav>
 </div></header>
 <main class="envoltorio login-grade">
   <section class="login-apresentacao" aria-hidden="false">
@@ -21,7 +21,7 @@
     <p class="login-chamada">Sua preparação, <span>no raio-x.</span></p>
     <p class="login-texto">Entre para continuar seu desafio diário, ver seu cronograma da semana e acompanhar sua evolução até a prova.</p>
     <ul class="login-beneficios">
-      <li><span class="login-check" aria-hidden="true"></span><span><strong>2.096 questões oficiais do Inep</strong>, 646 comentadas alternativa por alternativa</span></li>
+      <li><span class="login-check" aria-hidden="true"></span><span><strong>2.099 questões oficiais do Inep</strong>, 1.995 comentadas alternativa por alternativa</span></li>
       <li><span class="login-check" aria-hidden="true"></span><span><strong>Desafio diário</strong> com sequência e bônus de XP</span></li>
       <li><span class="login-check" aria-hidden="true"></span><span><strong>Cronograma que se adapta</strong> ao seu desempenho e ao seu tempo</span></li>
       <li><span class="login-check" aria-hidden="true"></span><span><strong>2ª etapa</strong> com paciente simulado por IA</span></li>
@@ -37,13 +37,25 @@
       <button type="button" class="rx-aba" data-modo="cadastro" aria-pressed="false">Criar conta</button>
     </div>
     <form id="form" novalidate>
-      <label class="rx-campo rx-oculto" id="campo-nome"><span>Nome completo</span><input name="nome" autocomplete="name"></label>
-      <label class="rx-campo"><span>E-mail</span><input name="email" type="email" autocomplete="email" required></label>
-      <label class="rx-campo"><span>Senha</span><span class="campo-senha"><input name="senha" type="password" autocomplete="current-password" required><button type="button" class="mostrar-senha" id="mostrar-senha" aria-label="Mostrar senha" aria-pressed="false">Mostrar</button></span></label>
-      <p class="rx-mudo rx-oculto" id="dica-senha">Mínimo de 10 caracteres, com letras e pelo menos um número ou símbolo.</p>
-      <label class="rx-aceite rx-oculto" id="campo-aceite"><input type="checkbox" name="aceite"> <span>Li e aceito os <a href="/termos" target="_blank">Termos de Uso</a> e a <a href="/privacidade" target="_blank">Política de Privacidade</a>.</span></label>
+      <label class="rx-campo so-cadastro rx-oculto"><span>Nome completo*</span><input name="nome" autocomplete="name" placeholder="Nome e sobrenome"></label>
+      <label class="rx-campo"><span id="rotulo-email">E-mail</span><input name="email" type="email" autocomplete="email" placeholder="seu@email.com" required></label>
+      <label class="rx-campo"><span id="rotulo-senha">Senha</span><span class="campo-senha"><input name="senha" type="password" autocomplete="current-password" required><button type="button" class="mostrar-senha" data-alvo="senha" aria-label="Mostrar senha" aria-pressed="false">Mostrar</button></span></label>
+      <p class="rx-mudo so-cadastro rx-oculto dica-campo">Mínimo de 10 caracteres, com letras e pelo menos um número ou símbolo.</p>
+      <label class="rx-campo so-cadastro rx-oculto"><span>Confirmar senha*</span><span class="campo-senha"><input name="confirmacao" type="password" autocomplete="new-password" placeholder="Repita a senha"><button type="button" class="mostrar-senha" data-alvo="confirmacao" aria-label="Mostrar senha" aria-pressed="false">Mostrar</button></span></label>
+      <label class="rx-campo so-cadastro rx-oculto"><span>Celular*</span><input name="telefone" type="tel" inputmode="tel" autocomplete="tel" placeholder="(00) 00000-0000" maxlength="20"></label>
+      <fieldset class="rx-escolha so-cadastro rx-oculto"><legend>Sexo*</legend>
+        <label><input type="radio" name="sexo" value="masculino"><span>Masculino</span></label>
+        <label><input type="radio" name="sexo" value="feminino"><span>Feminino</span></label>
+      </fieldset>
+      <label class="rx-campo so-cadastro rx-oculto"><span>Em que ano da faculdade ou do internato você está?*</span>
+        <select name="etapa"><option value="">Selecione</option>
+          <optgroup label="Faculdade"><option value="1">1º ano</option><option value="2">2º ano</option><option value="3">3º ano</option><option value="4">4º ano</option></optgroup>
+          <optgroup label="Internato"><option value="5">5º ano (internato)</option><option value="6">6º ano (internato)</option></optgroup>
+          <optgroup label="Já formado"><option value="formado">Formado no Brasil</option><option value="exterior">Formado no exterior (Revalida)</option></optgroup>
+        </select></label>
+      <label class="rx-aceite so-cadastro rx-oculto"><input type="checkbox" name="aceite"> <span>Li e aceito os <a href="/termos" target="_blank">Termos de Uso</a> e a <a href="/privacidade" target="_blank">Política de Privacidade</a>.</span></label>
       <p class="rx-erro rx-oculto" id="erro" role="alert"></p>
-      <button class="botao botao-primario rx-botao-largo" type="submit">Continuar</button>
+      <button class="botao botao-primario rx-botao-largo" type="submit" id="enviar">Continuar</button>
     </form>
     <p style="margin-top:14px"><a href="#" id="esqueci">Esqueci minha senha</a></p>
     <form id="form-esqueci" class="rx-oculto" novalidate>
@@ -64,10 +76,13 @@ let modo = 'entrar';
 for (const b of document.querySelectorAll('[data-modo]')) b.addEventListener('click', () => {
   modo = b.dataset.modo;
   for (const x of document.querySelectorAll('[data-modo]')) x.setAttribute('aria-pressed', String(x === b));
-  $('#campo-nome').classList.toggle('rx-oculto', modo === 'entrar');
-  $('#campo-aceite').classList.toggle('rx-oculto', modo === 'entrar');
-  $('#dica-senha').classList.toggle('rx-oculto', modo === 'entrar');
+  for (const el of document.querySelectorAll('.so-cadastro')) el.classList.toggle('rx-oculto', modo === 'entrar');
   $('#titulo').textContent = modo === 'entrar' ? 'Entrar' : 'Criar conta';
+  $('#rotulo-email').textContent = modo === 'entrar' ? 'E-mail' : 'E-mail*';
+  $('#rotulo-senha').textContent = modo === 'entrar' ? 'Senha' : 'Senha*';
+  $('#form [name=senha]').autocomplete = modo === 'entrar' ? 'current-password' : 'new-password';
+  $('#form [name=senha]').placeholder = modo === 'entrar' ? '' : 'Mínimo de 10 caracteres';
+  $('#enviar').textContent = modo === 'entrar' ? 'Entrar' : 'Criar conta';
 });
 // Indicação e origem da campanha (utm_source), guardadas para o cadastro.
 if (params.get('indicacao') === '1') $('#aviso-indicacao').classList.remove('rx-oculto');
@@ -75,13 +90,21 @@ try { if (params.get('utm_source')) sessionStorage.setItem('rx-origem', params.g
 // Vindo da área do aluno sem conta: abre direto no cadastro.
 if (params.get('modo') === 'cadastro') document.querySelector('[data-modo=cadastro]').click();
 if (destino && destino.startsWith('/plataforma')) $('#subtitulo').classList.remove('rx-oculto');
-$('#mostrar-senha').addEventListener('click', (e) => {
-  const campo = $('#form [name=senha]');
+for (const botao of document.querySelectorAll('.mostrar-senha')) botao.addEventListener('click', () => {
+  const campo = $(`#form [name=${botao.dataset.alvo}]`);
   const ver = campo.type === 'password';
   campo.type = ver ? 'text' : 'password';
-  e.currentTarget.textContent = ver ? 'Ocultar' : 'Mostrar';
-  e.currentTarget.setAttribute('aria-pressed', String(ver));
-  e.currentTarget.setAttribute('aria-label', ver ? 'Ocultar senha' : 'Mostrar senha');
+  botao.textContent = ver ? 'Ocultar' : 'Mostrar';
+  botao.setAttribute('aria-pressed', String(ver));
+  botao.setAttribute('aria-label', ver ? 'Ocultar senha' : 'Mostrar senha');
+});
+// Máscara do celular brasileiro: (00) 00000-0000. Números com + (de fora do Brasil) ficam como digitados.
+$('#form [name=telefone]').addEventListener('input', (e) => {
+  const v = e.target.value;
+  if (v.trim().startsWith('+')) return;
+  const d = v.replace(/\D/g, '').slice(0, 11);
+  e.target.value = d.length > 10 ? `(${d.slice(0, 2)}) ${d.slice(2, 7)}-${d.slice(7)}`
+    : d.length > 6 ? `(${d.slice(0, 2)}) ${d.slice(2, 6)}-${d.slice(6)}` : d.length > 2 ? `(${d.slice(0, 2)}) ${d.slice(2)}` : d;
 });
 $('#esqueci').addEventListener('click', (e) => { e.preventDefault(); $('#form-esqueci').classList.toggle('rx-oculto'); });
 $('#form-esqueci').addEventListener('submit', async (e) => {
@@ -96,9 +119,17 @@ $('#form').addEventListener('submit', async (e) => {
   mostrarErro($('#erro'), '');
   try {
     const f = Object.fromEntries(new FormData(e.target));
+    if (modo === 'cadastro') {
+      if (!f.nome?.trim()) throw new Error('Informe seu nome completo.');
+      if (f.senha !== f.confirmacao) throw new Error('As senhas não conferem.');
+      if ((f.telefone || '').replace(/\D/g, '').length < 10) throw new Error('Informe um celular válido, com DDD.');
+      if (!f.sexo) throw new Error('Informe o sexo.');
+      if (!f.etapa) throw new Error('Informe em que ano da faculdade ou do internato você está.');
+    }
     let origem = null;
     try { origem = sessionStorage.getItem('rx-origem'); } catch { /* sem armazenamento */ }
-    const r = await api(modo === 'entrar' ? '/entrar' : '/cadastro', { metodo: 'POST', corpo: { ...f, aceite: f.aceite === 'on', ...(origem ? { origem } : {}) } });
+    const corpo = modo === 'entrar' ? { email: f.email, senha: f.senha } : { ...f, aceite: f.aceite === 'on', ...(origem ? { origem } : {}) };
+    const r = await api(modo === 'entrar' ? '/entrar' : '/cadastro', { metodo: 'POST', corpo });
     location.href = seguro;
   } catch (err) { mostrarErro($('#erro'), err.message); }
 });

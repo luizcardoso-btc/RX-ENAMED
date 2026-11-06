@@ -16,6 +16,8 @@ import { rodarRotinas } from '../src/rotinas.js';
 const BANCO = process.env.TEST_DATABASE_URL || 'postgres://postgres@localhost:5433/rx_teste?host=/tmp';
 const SEGREDO = 'segredo-de-teste';
 const CPF = '52998224725';
+// Ficha obrigatória do cadastro: celular, sexo e etapa da formação.
+const FICHA = { telefone: '(11) 98765-4321', sexo: 'feminino', etapa: '6' };
 let mpFalso; let banco; let servidor; let url; let planosTeste; let correio;
 const enviados = [];
 
@@ -73,12 +75,20 @@ test('utilitários: CPF, assinatura e soma de meses', () => {
 test('cadastro, sessão e proteção das rotas', async () => {
   const a = cliente();
   assert.equal((await a.get('/api/eu')).corpo.usuario, null);
-  assert.equal((await a.post('/api/cadastro', { nome: 'Ana', email: 'ana@rx.test', senha: '123' , aceite: true })).status, 400);
+  assert.equal((await a.post('/api/cadastro', { nome: 'Ana', email: 'ana@rx.test', senha: '123' , aceite: true, ...FICHA })).status, 400);
   assert.equal((await a.post('/api/cadastro', { nome: 'Ana', email: 'ana@rx.test', senha: 'senha-forte-1' })).status, 400, 'sem aceite dos termos');
-  assert.equal((await a.post('/api/cadastro', { nome: 'Ana', email: 'ana@rx.test', senha: '12345678901' , aceite: true })).status, 400, 'senha comum/sem letras');
-  assert.equal((await a.post('/api/cadastro', { nome: 'Ana', email: 'ana@rx.test', senha: 'senha-forte-1' , aceite: true }, { origin: 'https://golpe.test' })).status, 403);
-  assert.equal((await a.post('/api/cadastro', { nome: 'Ana Souza', email: 'ana@rx.test', senha: 'senha-forte-1' , aceite: true })).status, 201);
-  assert.equal((await cliente().post('/api/cadastro', { nome: 'Ana', email: 'ANA@rx.test', senha: 'senha-forte-1' , aceite: true })).status, 409);
+  assert.equal((await a.post('/api/cadastro', { nome: 'Ana', email: 'ana@rx.test', senha: '12345678901' , aceite: true, ...FICHA })).status, 400, 'senha comum/sem letras');
+  assert.equal((await a.post('/api/cadastro', { nome: 'Ana', email: 'ana@rx.test', senha: 'senha-forte-1' , aceite: true, ...FICHA }, { origin: 'https://golpe.test' })).status, 403);
+  // Ficha completa: sem celular, sexo ou etapa, ou com a confirmação diferente, o cadastro é recusado.
+  const base = { nome: 'Ana Souza', email: 'ana@rx.test', senha: 'senha-forte-1', aceite: true };
+  assert.equal((await a.post('/api/cadastro', { ...base, ...FICHA, telefone: '1234' })).status, 400, 'celular curto');
+  assert.equal((await a.post('/api/cadastro', { ...base, ...FICHA, sexo: '' })).status, 400, 'sem sexo');
+  assert.equal((await a.post('/api/cadastro', { ...base, ...FICHA, etapa: '9' })).status, 400, 'etapa inválida');
+  assert.equal((await a.post('/api/cadastro', { ...base, ...FICHA, confirmacao: 'outra-senha-9' })).status, 400, 'senhas diferentes');
+  assert.equal((await a.post('/api/cadastro', { ...base, ...FICHA, confirmacao: 'senha-forte-1' })).status, 201);
+  const ficha = await banco.um(`SELECT telefone, sexo, etapa FROM usuarios WHERE email = 'ana@rx.test'`);
+  assert.deepEqual(ficha, { telefone: '11987654321', sexo: 'feminino', etapa: '6' });
+  assert.equal((await cliente().post('/api/cadastro', { nome: 'Ana', email: 'ANA@rx.test', senha: 'senha-forte-1' , aceite: true, ...FICHA })).status, 409);
   const eu = (await a.get('/api/eu')).corpo;
   assert.equal(eu.usuario.email, 'ana@rx.test');
   assert.deepEqual(eu.acesso, { ativo: false, plano: 'gratis', ate: null });
@@ -94,7 +104,7 @@ test('cadastro, sessão e proteção das rotas', async () => {
 
 test('PIX: pedido pendente, aviso com assinatura falsa é recusado, aviso válido libera o acesso uma vez só', async () => {
   const a = cliente();
-  await a.post('/api/cadastro', { nome: 'Bruno Lima', email: 'bruno@rx.test', senha: 'senha-forte-1' , aceite: true });
+  await a.post('/api/cadastro', { nome: 'Bruno Lima', email: 'bruno@rx.test', senha: 'senha-forte-1' , aceite: true, ...FICHA });
   assert.equal((await a.post('/api/checkout/pagar', { plano: 'mensal', metodo: 'pix', cpf: '123' })).status, 400);
   const r = await a.post('/api/checkout/pagar', { plano: 'mensal', metodo: 'pix', cpf: CPF, valor: 1 });
   assert.equal(r.status, 201);
@@ -120,7 +130,7 @@ test('PIX: pedido pendente, aviso com assinatura falsa é recusado, aviso válid
 
 test('cartão: aprovado na hora, recusado com mensagem, parcelas acima do limite bloqueadas; renovação soma ao período atual', async () => {
   const a = cliente();
-  await a.post('/api/cadastro', { nome: 'Carla Dias', email: 'carla@rx.test', senha: 'senha-forte-1' , aceite: true });
+  await a.post('/api/cadastro', { nome: 'Carla Dias', email: 'carla@rx.test', senha: 'senha-forte-1' , aceite: true, ...FICHA });
   const recusado = await a.post('/api/checkout/pagar', { plano: 'ciclo', metodo: 'cartao', cpf: CPF, cartao: { token: 'cartao-recusado', metodoPagamento: 'visa', parcelas: 1 } });
   assert.equal(recusado.status, 402);
   assert.match(recusado.corpo.erro, /limite/);
@@ -138,7 +148,7 @@ test('cartão: aprovado na hora, recusado com mensagem, parcelas acima do limite
 
 test('boleto: devolve link e código de barras', async () => {
   const a = cliente();
-  await a.post('/api/cadastro', { nome: 'Davi Reis', email: 'davi@rx.test', senha: 'senha-forte-1' , aceite: true });
+  await a.post('/api/cadastro', { nome: 'Davi Reis', email: 'davi@rx.test', senha: 'senha-forte-1' , aceite: true, ...FICHA });
   const r = await a.post('/api/checkout/pagar', { plano: 'segunda-etapa', metodo: 'boleto', cpf: CPF });
   assert.equal(r.status, 201);
   assert.equal(r.corpo.pedido.pagamento.boletoUrl, 'https://mp.test/boleto');
@@ -147,7 +157,7 @@ test('boleto: devolve link e código de barras', async () => {
 
 test('admin: resumo de vendas, lista de alunos, liberação manual, revogação, reembolso e CSV', async () => {
   const adm = cliente();
-  await adm.post('/api/cadastro', { nome: 'Admin RX', email: 'admin@rx.test', senha: 'senha-forte-1' , aceite: true });
+  await adm.post('/api/cadastro', { nome: 'Admin RX', email: 'admin@rx.test', senha: 'senha-forte-1' , aceite: true, ...FICHA });
   const resumo = (await adm.get('/api/admin/resumo?dias=30')).corpo;
   assert.equal(resumo.receita.total, 14790 + 49790 + 14790);
   assert.equal(resumo.alunos.ativos, 2);
@@ -204,7 +214,7 @@ test('cupons e afiliados: desconto calculado no servidor, comissão, limite de u
   assert.equal((await adm.post('/api/admin/cupons', { codigo: 'PAULA50', tipo: 'fixo', valor: 50, afiliadoId: af.id })).status, 201);
 
   const a = cliente();
-  await a.post('/api/cadastro', { nome: 'Elisa Melo', email: 'elisa@rx.test', senha: 'senha-forte-1' , aceite: true });
+  await a.post('/api/cadastro', { nome: 'Elisa Melo', email: 'elisa@rx.test', senha: 'senha-forte-1' , aceite: true, ...FICHA });
   assert.equal((await a.post('/api/checkout/cupom', { plano: 'mensal', cupom: 'RX20' })).status, 400, 'cupom só do ciclo');
   const previa = (await a.post('/api/checkout/cupom', { plano: 'ciclo', cupom: 'rx20' })).corpo;
   assert.equal(previa.valorCentavos, 49790 - 9958);
@@ -258,7 +268,7 @@ test('segurança: bloqueio por tentativas, sem origem é recusado, cabeçalhos e
   assert.equal(h.get('x-frame-options'), 'DENY');
 
   const c = cliente();
-  await c.post('/api/cadastro', { nome: 'Fábio Prado', email: 'fabio@rx.test', senha: 'senha-forte-1', aceite: true });
+  await c.post('/api/cadastro', { nome: 'Fábio Prado', email: 'fabio@rx.test', senha: 'senha-forte-1', aceite: true, ...FICHA });
   for (let i = 0; i < 8; i += 1) assert.equal((await cliente().post('/api/entrar', { email: 'fabio@rx.test', senha: 'errada-' + i })).status, 401);
   assert.equal((await cliente().post('/api/entrar', { email: 'fabio@rx.test', senha: 'senha-forte-1' })).status, 429, 'conta bloqueada após 8 erros');
   await banco.consulta(`UPDATE usuarios SET bloqueado_ate = NULL WHERE email = 'fabio@rx.test'`);
@@ -284,7 +294,7 @@ test('segurança: bloqueio por tentativas, sem origem é recusado, cabeçalhos e
 
 test('LGPD: exportar dados e excluir a conta', async () => {
   const c = cliente();
-  await c.post('/api/cadastro', { nome: 'Gina Luz', email: 'gina@rx.test', senha: 'senha-forte-1', aceite: true });
+  await c.post('/api/cadastro', { nome: 'Gina Luz', email: 'gina@rx.test', senha: 'senha-forte-1', aceite: true, ...FICHA });
   const dados = await c.get('/api/eu/dados');
   assert.equal(dados.corpo.conta.email, 'gina@rx.test');
   assert.ok(dados.corpo.conta.aceite_termos_em);
@@ -302,7 +312,7 @@ test('área do aluno: sem login vai para o cadastro; dados da plataforma exigem 
   assert.match(semLogin.headers.get('location'), /^\/entrar\?modo=cadastro&voltar=%2Fplataforma%2Findex\.html/);
   assert.equal((await fetch(`${url}/plataforma/data/comentarios.json`)).status, 401);
   const c = cliente();
-  await c.post('/api/cadastro', { nome: 'Hugo Reis', email: 'hugo@rx.test', senha: 'senha-forte-1', aceite: true });
+  await c.post('/api/cadastro', { nome: 'Hugo Reis', email: 'hugo@rx.test', senha: 'senha-forte-1', aceite: true, ...FICHA });
   const comLogin = await fetch(`${url}/plataforma/data/comentarios.json`, { headers: { cookie: c.cookie() }, redirect: 'manual' });
   assert.notEqual(comLogin.status, 401, 'logado passa pela restrição');
   assert.notEqual(comLogin.status, 302);
@@ -310,7 +320,7 @@ test('área do aluno: sem login vai para o cadastro; dados da plataforma exigem 
 
 test('indicação: link, desconto de 10% para o indicado, 30 dias para quem indicou, sem autoindicação e cancelada no reembolso', async () => {
   const ana = cliente();
-  await ana.post('/api/cadastro', { nome: 'Iara Nunes', email: 'iara@rx.test', senha: 'senha-forte-1', aceite: true });
+  await ana.post('/api/cadastro', { nome: 'Iara Nunes', email: 'iara@rx.test', senha: 'senha-forte-1', aceite: true, ...FICHA });
   const meu = (await ana.get('/api/indicacao')).corpo;
   assert.match(meu.codigo, /^IARA[A-Z2-9]{4}$/);
   assert.equal(meu.link, `http://localhost/i/${meu.codigo}`);
@@ -321,7 +331,7 @@ test('indicação: link, desconto de 10% para o indicado, 30 dias para quem indi
   const cookieInd = link.headers.get('set-cookie').split(';')[0];
   const amigo = cliente();
   const cad = await fetch(`${url}/api/cadastro`, { method: 'POST', headers: { 'Content-Type': 'application/json', origin: 'http://localhost', cookie: cookieInd },
-    body: JSON.stringify({ nome: 'João Pires', email: 'joao@rx.test', senha: 'senha-forte-1', aceite: true }) });
+    body: JSON.stringify({ nome: 'João Pires', email: 'joao@rx.test', senha: 'senha-forte-1', aceite: true, ...FICHA }) });
   assert.equal(cad.status, 201);
   await amigo.post('/api/entrar', { email: 'joao@rx.test', senha: 'senha-forte-1' });
   assert.equal((await banco.um(`SELECT origem FROM usuarios WHERE email = 'joao@rx.test'`)).origem, 'indicacao');
@@ -399,7 +409,7 @@ test('IA do simulador: login, streaming, recusa, limite do plano gratuito', asyn
   // Sem chave: a rota existe e avisa que a IA está desligada.
   const a = cliente();
   assert.equal((await a.post('/api/ia/mensagem', { entrada: 'oi' })).status, 401);
-  const cad = await a.post('/api/cadastro', { nome: 'Sofia Ramos', email: 'simulador@rx.test', senha: 'senha-forte-1', aceite: true });
+  const cad = await a.post('/api/cadastro', { nome: 'Sofia Ramos', email: 'simulador@rx.test', senha: 'senha-forte-1', aceite: true, ...FICHA });
   assert.equal(cad.status, 201, JSON.stringify(cad.corpo));
   assert.deepEqual((await a.get('/api/ia/estado')).corpo, { disponivel: false, limiteDia: 0 });
   assert.equal((await a.post('/api/ia/mensagem', { entrada: 'oi' })).status, 503);
@@ -446,7 +456,7 @@ test('IA do simulador: login, streaming, recusa, limite do plano gratuito', asyn
 test('residência: banco privado, só administradores', async () => {
   const aluno = cliente();
   assert.equal((await aluno.get('/api/residencia/questoes')).status, 401);
-  await aluno.post('/api/cadastro', { nome: 'Rita Prado', email: 'residencia-aluno@rx.test', senha: 'senha-forte-1', aceite: true });
+  await aluno.post('/api/cadastro', { nome: 'Rita Prado', email: 'residencia-aluno@rx.test', senha: 'senha-forte-1', aceite: true, ...FICHA });
   assert.equal((await aluno.get('/api/residencia/questoes')).status, 404, 'aluno não vê nem que a rota existe');
   const adm = cliente();
   assert.equal((await adm.post('/api/entrar', { email: 'admin@rx.test', senha: 'senha-forte-1' })).status, 200);
@@ -465,7 +475,7 @@ test('residência: banco privado, só administradores', async () => {
 async function alunoNovo(nome) {
   const c = cliente();
   const email = `${nome.toLowerCase()}-${Date.now()}@rx.test`;
-  assert.equal((await c.post('/api/cadastro', { nome, email, senha: 'senha-forte-1', aceite: true })).status, 201);
+  assert.equal((await c.post('/api/cadastro', { nome, email, senha: 'senha-forte-1', aceite: true, ...FICHA })).status, 201);
   return c;
 }
 

@@ -420,7 +420,7 @@ function paginaInicial(lingua) {
   </div>
 </section>
 <section class="secao" id="plataforma">${cab(L.tourOlho, L.tourTitulo, L.tourTexto)}
-  ${tour(ctx, lingua, 'painel')}${tour(ctx, lingua, 'questao', true, 'Revalida 2011 · 58')}${tour(ctx, lingua, 'modulo')}${tour(ctx, lingua, 'desempenho', true)}${tour(ctx, lingua, 'cronograma')}${tour(ctx, lingua, 'raiox', true)}${tour(ctx, lingua, 'estacao')}
+  ${tour(ctx, lingua, 'questao', false, 'Revalida 2011 · 58')}${tour(ctx, lingua, 'estacao', true)}
 </section>
 <section class="secao">${cab(L.passosOlho, L.passosTitulo)}
   <div class="grade grade-5">${L.passos.map(([t, d], i) => `<div class="cartao bloco"><span class="n">0${i + 1}</span><h3>${t}</h3><p>${d}</p></div>`).join('')}</div></section>
@@ -455,7 +455,7 @@ function paginaEnamed(lingua) {
   ${janela(ctx, tx, 'curso', lingua === 'es' ? 'curso' : 'curso', L.selo).replace(' loading="lazy"', '')}</section>
 <section class="secao">${cab(L.modOlho, L.modTitulo, L.modTexto)}
   <div class="grade">${L.modulos.map(([t, d], i) => `<div class="cartao bloco"><span class="n">${L.modulo} ${i + 1}</span><h3>${t}</h3><p>${d}</p></div>`).join('')}</div></section>
-<section class="secao">${cab(L.tourOlho, L.tourTitulo)}${tour(ctx, lingua, 'modulo')}${tour(ctx, lingua, 'questao', true)}${tour(ctx, lingua, 'cronograma')}${tour(ctx, lingua, 'desempenho', true)}</section>
+<section class="secao">${cab(L.tourOlho, L.tourTitulo)}${tour(ctx, lingua, 'questao')}</section>
 <section class="secao" id="planos">${cab(TX[lingua].inicio.planosOlho, L.planosTitulo)}${gradePlanos(['gratis', 'mensal', 'ciclo'], lingua, ctx)}<p class="mudo pequeno" style="margin-top:20px">${tx.planos.rodape}</p></section>
 <section class="secao">${cab(tx.faqTitulo, L.faqTitulo)}${faq(L.faq, lingua)}</section>
 ${chamada(L.chamadaTitulo, L.chamadaTexto, tx.inicio.chamadaBotao, ctx)}`,
@@ -477,7 +477,6 @@ function paginaRevalida(lingua) {
   <div class="fatos">${[N.edicoes, fmt(N.comentadas, lingua), N.estacoes, 'PT · ES'].map((v, i) => `<div><strong>${v}</strong><span>${L.fatos[i]}</span></div>`).join('')}</div></div>
   ${janela(ctx, tx, 'estacao', tx.tour.estacao[4], tx.tour.estacao[1]).replace(' loading="lazy"', '')}</section>
 <section class="secao"><div class="grade grade-2">${etapa(L.etapa1)}${etapa(L.etapa2)}</div></section>
-<section class="secao">${cab(L.t1Olho, L.t1Titulo)}${tour(ctx, lingua, 'questao')}${tour(ctx, lingua, 'raiox', true)}</section>
 <section class="secao" id="segunda-etapa">${cab(L.t2Olho, L.t2Titulo)}
   <div class="grade">${L.passos.map(([n, t, d]) => `<div class="cartao bloco"><span class="n">${n}</span><h3>${t}</h3><p>${d}</p></div>`).join('')}</div>
   ${tour(ctx, lingua, 'estacao-nota', true)}</section>

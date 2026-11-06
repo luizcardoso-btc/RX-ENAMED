@@ -223,3 +223,6 @@ img { max-width: 100%; height: auto; display: block; }
 }
 @media (max-width: 420px) { .topo-acoes .botao { padding: 9px 12px; font-size: 0.85rem; } .marca { font-size: 1rem; } }
 #conteudo { overflow-x: clip; }
+/* páginas do servidor (entrar, conta, checkout) usam o símbolo dentro de um span */
+span.marca-simbolo { display: grid; place-items: center; border-radius: 10px; background: #102B38; border: 1px solid var(--linha); padding: 5px; }
+span.marca-simbolo svg { width: 100%; height: 100%; }

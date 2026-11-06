@@ -151,3 +151,12 @@ button.botao { font: inherit; font-weight: 600; }
 .rx-grade-numeros .rx-cartao { display: flex; flex-direction: column; gap: 4px; }
 .rx-aviso { padding: 10px 12px; border-radius: 8px; background: rgb(251 191 36 / .12); border: 1px solid rgb(251 191 36 / .35); }
 #conteudo select, #conteudo input#f-busca { min-height: 36px; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--linha); background: var(--folha); color: var(--tinta); font: inherit; }
+/* ficha de cadastro: escolha em cartões (sexo) */
+.rx-escolha { border: 0; padding: 0; margin: 0 0 12px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.rx-escolha legend { font-size: .85rem; color: var(--tinta-2); margin-bottom: 6px; padding: 0; }
+.rx-escolha label { display: flex; align-items: center; gap: 10px; padding: 12px 14px; border: 1px solid var(--linha); border-radius: 10px; background: rgb(22 56 74 / .85); cursor: pointer; }
+.rx-escolha label:has(input:checked) { border-color: var(--acento); background: rgb(25 169 135 / .14); }
+.rx-escolha input { accent-color: var(--acento); width: 18px; height: 18px; margin: 0; }
+.rx-escolha label:focus-within { outline: 2px solid var(--acento); outline-offset: 1px; }
+.dica-campo { font-size: .8rem; margin: -6px 0 12px; }
+.rx-campo optgroup { color: var(--tinta-3); }

@@ -6,6 +6,9 @@ import {
 import { situacaoDoAluno } from '../acesso.js';
 import { COOKIE_INDICACAO, codigoDoAluno } from '../indicacao.js';
 
+const SEXOS = ['masculino', 'feminino'];
+const ETAPAS = ['1', '2', '3', '4', '5', '6', 'formado', 'exterior'];
+
 const DIAS_SESSAO = 30;
 const MAX_FALHAS = 8;            // erros de senha seguidos antes de bloquear a conta
 const BLOQUEIO_MIN = 15;         // primeiro bloqueio; dobra a cada novo bloqueio, até 24 h
@@ -80,6 +83,15 @@ export function rotasAutenticacao({ banco, config, correio, limitar }) {
     if (!emailValido(email)) return res.status(400).json({ erro: 'E-mail inválido.' });
     const problema = problemaDaSenha(senha, email);
     if (problema) return res.status(400).json({ erro: problema });
+    if (req.body?.confirmacao !== undefined && req.body.confirmacao !== senha) return res.status(400).json({ erro: 'As senhas não conferem.' });
+    // Ficha do aluno: celular (DDD + número, ou internacional com +), sexo e etapa da formação.
+    const digitos = String(req.body?.telefone || '').replace(/\D/g, '');
+    const telefone = String(req.body?.telefone || '').trim().startsWith('+') ? `+${digitos}` : digitos;
+    if (digitos.length < 10 || digitos.length > 15) return res.status(400).json({ erro: 'Informe um celular válido, com DDD.' });
+    const sexo = String(req.body?.sexo || '');
+    if (!SEXOS.includes(sexo)) return res.status(400).json({ erro: 'Informe o sexo.' });
+    const etapa = String(req.body?.etapa || '');
+    if (!ETAPAS.includes(etapa)) return res.status(400).json({ erro: 'Informe em que ano da faculdade ou do internato você está.' });
     if (req.body?.aceite !== true) return res.status(400).json({ erro: 'Para criar a conta, aceite os Termos de Uso e a Política de Privacidade.' });
     if (await banco.um('SELECT 1 FROM usuarios WHERE lower(email) = $1', [email])) {
       return res.status(409).json({ erro: 'Já existe uma conta com este e-mail. Entre com sua senha.' });
@@ -89,8 +101,9 @@ export function rotasAutenticacao({ banco, config, correio, limitar }) {
     const idIndicador = lerCookie(req, COOKIE_INDICACAO);
     const indicador = /^[0-9a-f-]{36}$/i.test(idIndicador || '') ? await banco.um('SELECT id FROM usuarios WHERE id = $1 AND excluido_em IS NULL', [idIndicador]) : null;
     const origem = indicador ? 'indicacao' : String(req.body?.origem || '').replace(/[^\w.:-]/g, '').slice(0, 60) || null;
-    const u = await banco.um('INSERT INTO usuarios (nome, email, senha_hash, papel, aceite_termos_em, indicado_por, origem) VALUES ($1, $2, $3, $4, now(), $5, $6) RETURNING id',
-      [nome, email, await hashSenha(senha), papel, indicador?.id || null, origem]);
+    const u = await banco.um(`INSERT INTO usuarios (nome, email, senha_hash, papel, aceite_termos_em, indicado_por, origem, telefone, sexo, etapa)
+      VALUES ($1, $2, $3, $4, now(), $5, $6, $7, $8, $9) RETURNING id`,
+      [nome, email, await hashSenha(senha), papel, indicador?.id || null, origem, telefone, sexo, etapa]);
     if (indicador) res.clearCookie(COOKIE_INDICACAO, { path: '/' });
     await codigoDoAluno(banco, { id: u.id, nome });
     await abrirSessao(req, res, u.id);
@@ -207,7 +220,7 @@ export function rotasAutenticacao({ banco, config, correio, limitar }) {
   r.get('/eu/dados', exigirLogin, async (req, res) => {
     const id = req.usuario.id;
     const dados = {
-      conta: await banco.um('SELECT nome, email, cpf, telefone, pais, criado_em, ultimo_acesso, aceite_termos_em FROM usuarios WHERE id = $1', [id]),
+      conta: await banco.um('SELECT nome, email, cpf, telefone, sexo, etapa, pais, criado_em, ultimo_acesso, aceite_termos_em FROM usuarios WHERE id = $1', [id]),
       acessos: await banco.varios('SELECT plano_id, inicio, fim, status, origem FROM matriculas WHERE usuario_id = $1', [id]),
       pagamentos: await banco.varios('SELECT plano_id, valor_centavos, desconto_centavos, metodo, parcelas, status, criado_em, pago_em FROM pedidos WHERE usuario_id = $1', [id]),
       emails: await banco.varios('SELECT modelo, assunto, criado_em FROM emails WHERE usuario_id = $1', [id]),
@@ -226,7 +239,7 @@ export function rotasAutenticacao({ banco, config, correio, limitar }) {
       await t.consulta('DELETE FROM progresso WHERE usuario_id = $1', [req.usuario.id]);
       await t.consulta('DELETE FROM redefinicoes_senha WHERE usuario_id = $1', [req.usuario.id]);
       await t.consulta('UPDATE emails SET para = \'excluido\', usuario_id = NULL WHERE usuario_id = $1', [req.usuario.id]);
-      await t.consulta(`UPDATE usuarios SET nome = 'Conta excluída', email = 'excluido+' || id || '@rx.invalid', cpf = NULL, telefone = NULL,
+      await t.consulta(`UPDATE usuarios SET nome = 'Conta excluída', email = 'excluido+' || id || '@rx.invalid', cpf = NULL, telefone = NULL, sexo = NULL, etapa = NULL,
                           senha_hash = 'excluido', totp_segredo = NULL, totp_ativo = false, totp_recuperacao = '{}', excluido_em = now() WHERE id = $1`, [req.usuario.id]);
     });
     res.clearCookie(cookie, opcoesCookie);

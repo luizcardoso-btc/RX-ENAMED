@@ -4,6 +4,8 @@ import { aplicarPagamento } from '../pagamentos.js';
 import { somarMeses } from '../planos.js';
 import { resumoMetas, lerMetas } from '../metas.js';
 
+const ETAPAS = { 1: '1º ano', 2: '2º ano', 3: '3º ano', 4: '4º ano', 5: '5º ano (internato)', 6: '6º ano (internato)', formado: 'Formado no Brasil', exterior: 'Formado no exterior' };
+
 const POR_PAGINA = 50;
 // Situação do aluno calculada no banco: ativo (acesso vigente), vencendo (termina em até 7 dias), expirado (já teve) ou gratuito (nunca pagou).
 const SITUACAO = `
@@ -89,14 +91,14 @@ export function rotasAdmin({ banco, planos, mp, correio, config }) {
     const params = [];
     const filtros = ["u.papel = 'aluno'"];
     if (busca) { params.push(`%${busca.toLowerCase()}%`); filtros.push(`(lower(u.nome) LIKE $${params.length} OR lower(u.email) LIKE $${params.length} OR u.cpf LIKE $${params.length})`); }
-    const sql = `SELECT * FROM (SELECT u.id, u.nome, u.email, u.cpf, u.criado_em, u.ultimo_acesso, m.plano_id AS plano, m.fim AS acesso_ate,
+    const sql = `SELECT * FROM (SELECT u.id, u.nome, u.email, u.cpf, u.etapa, u.criado_em, u.ultimo_acesso, m.plano_id AS plano, m.fim AS acesso_ate,
                         g.total AS total_pago, ${SITUACAO} AS situacao ${BASE_ALUNOS} WHERE ${filtros.join(' AND ')}) x
                   ${situacao ? `WHERE situacao = '${situacao}'` : ''}`;
     if (req.query.formato === 'csv') {
       const todos = await banco.varios(`${sql} ORDER BY criado_em DESC`, params);
       res.type('text/csv; charset=utf-8').attachment('alunos-rx-enamed.csv');
-      return res.send('﻿' + csv([['Nome', 'E-mail', 'CPF', 'Situação', 'Plano', 'Acesso até', 'Total pago (R$)', 'Cadastro', 'Último acesso'],
-        ...todos.map((a) => [a.nome, a.email, a.cpf, a.situacao, a.plano, a.acesso_ate?.toISOString().slice(0, 10), (a.total_pago / 100).toFixed(2).replace('.', ','),
+      return res.send('﻿' + csv([['Nome', 'E-mail', 'CPF', 'Etapa', 'Situação', 'Plano', 'Acesso até', 'Total pago (R$)', 'Cadastro', 'Último acesso'],
+        ...todos.map((a) => [a.nome, a.email, a.cpf, ETAPAS[a.etapa] || '', a.situacao, a.plano, a.acesso_ate?.toISOString().slice(0, 10), (a.total_pago / 100).toFixed(2).replace('.', ','),
           a.criado_em.toISOString().slice(0, 10), a.ultimo_acesso?.toISOString().slice(0, 10)])]));
     }
     const total = (await banco.um(`SELECT count(*) AS n FROM (${sql}) y`, params)).n;
@@ -106,7 +108,7 @@ export function rotasAdmin({ banco, planos, mp, correio, config }) {
   });
 
   r.get('/alunos/:id', async (req, res) => {
-    const aluno = await banco.um('SELECT id, nome, email, cpf, telefone, papel, criado_em, ultimo_acesso FROM usuarios WHERE id = $1', [req.params.id]).catch(() => null);
+    const aluno = await banco.um('SELECT id, nome, email, cpf, telefone, sexo, etapa, papel, criado_em, ultimo_acesso FROM usuarios WHERE id = $1', [req.params.id]).catch(() => null);
     if (!aluno) return res.status(404).json({ erro: 'Aluno não encontrado.' });
     const matriculas = await banco.varios('SELECT * FROM matriculas WHERE usuario_id = $1 ORDER BY inicio DESC', [aluno.id]);
     const pedidos = await banco.varios('SELECT * FROM pedidos WHERE usuario_id = $1 ORDER BY criado_em DESC', [aluno.id]);

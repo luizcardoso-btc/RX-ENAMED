@@ -1,5 +1,8 @@
 import { $, api, reais, data, dataHora, esc } from './comum.js';
 
+const ETAPAS = { 1: '1º ano', 2: '2º ano', 3: '3º ano', 4: '4º ano', 5: '5º ano (internato)', 6: '6º ano (internato)', formado: 'Formado no Brasil', exterior: 'Formado no exterior' };
+const SEXO = { masculino: 'Masculino', feminino: 'Feminino' };
+
 const NOMES = { mensal: 'Mensal', ciclo: 'Ciclo de prova', 'segunda-etapa': '2ª etapa', anual: 'Anual completo' };
 const SIT = { ativo: 'Ativo', vencendo: 'Vencendo', expirado: 'Inativo', gratuito: 'Gratuito' };
 const STATUS = { aprovado: 'Aprovado', pendente: 'Pendente', recusado: 'Recusado', reembolsado: 'Reembolsado', expirado: 'Expirado', cancelado: 'Cancelado', contestado: 'Contestado' };
@@ -210,10 +213,10 @@ async function alunos(pagina = 1) {
       <button class="botao">Filtrar</button>
       <a class="botao" href="/api/admin/alunos?${new URLSearchParams({ formato: 'csv', ...(busca ? { busca } : {}), ...(situacao ? { situacao } : {}) })}">Exportar planilha</a>
     </form>
-    <div class="rx-cartao rx-rolagem"><table class="rx-tabela"><thead><tr><th>Aluno</th><th>Situação</th><th>Plano</th><th>Acesso até</th><th>Total pago</th><th>Cadastro</th><th>Último acesso</th></tr></thead><tbody>
-      ${r.alunos.map((a) => `<tr class="clicavel" data-id="${a.id}"><td><strong>${esc(a.nome)}</strong><br><span class="rx-mudo">${esc(a.email)}</span></td>
+    <div class="rx-cartao rx-rolagem"><table class="rx-tabela"><thead><tr><th>Aluno</th><th>Etapa</th><th>Situação</th><th>Plano</th><th>Acesso até</th><th>Total pago</th><th>Cadastro</th><th>Último acesso</th></tr></thead><tbody>
+      ${r.alunos.map((a) => `<tr class="clicavel" data-id="${a.id}"><td><strong>${esc(a.nome)}</strong><br><span class="rx-mudo">${esc(a.email)}</span></td><td>${esc(ETAPAS[a.etapa] || '—')}</td>
         <td><span class="rx-etq ${a.situacao}">${SIT[a.situacao]}</span></td><td>${esc(NOMES[a.plano] || '—')}</td><td>${data(a.acesso_ate)}</td>
-        <td>${reais(a.total_pago)}</td><td>${data(a.criado_em)}</td><td>${data(a.ultimo_acesso)}</td></tr>`).join('') || '<tr><td colspan="7" class="rx-mudo">Nenhum aluno encontrado.</td></tr>'}
+        <td>${reais(a.total_pago)}</td><td>${data(a.criado_em)}</td><td>${data(a.ultimo_acesso)}</td></tr>`).join('') || '<tr><td colspan="8" class="rx-mudo">Nenhum aluno encontrado.</td></tr>'}
     </tbody></table></div>
     ${paginacao(r, 'alunos')}`;
   $('#filtro').addEventListener('submit', (e) => {
@@ -234,7 +237,7 @@ async function detalheAluno(id) {
   g.innerHTML = `<aside class="rx-gaveta" role="dialog" aria-label="Aluno">
     <button class="botao" id="fechar" style="float:right">Fechar</button>
     <h2>${esc(aluno.nome)}</h2>
-    <p class="rx-mudo">${esc(aluno.email)} · CPF ${esc(aluno.cpf || '—')}<br>Cadastro ${dataHora(aluno.criado_em)} · último acesso ${dataHora(aluno.ultimo_acesso)}<br>
+    <p class="rx-mudo">${esc(aluno.email)} · CPF ${esc(aluno.cpf || '—')}<br>Celular ${esc(aluno.telefone || '—')} · ${esc(SEXO[aluno.sexo] || 'Sexo não informado')} · ${esc(ETAPAS[aluno.etapa] || 'Etapa não informada')}<br>Cadastro ${dataHora(aluno.criado_em)} · último acesso ${dataHora(aluno.ultimo_acesso)}<br>
       ${progresso ? `Progresso salvo na conta: ${progresso.questoes} questões respondidas, atualizado em ${dataHora(progresso.atualizado_em)}` : 'Ainda não salvou progresso na conta.'}</p>
     <h3>Liberar acesso manualmente</h3>
     <form class="rx-linha" id="conceder">
