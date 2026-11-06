@@ -181,4 +181,14 @@ button.botao { font: inherit; font-weight: 600; }
 .fac-modelo { white-space: pre-wrap; background: var(--folha-2); border: 1px solid var(--linha); border-radius: 10px; padding: 14px; font: .88rem/1.55 var(--f-ui); color: var(--tinta-2); }
 .leaflet-container { font-family: var(--f-ui); }
 .leaflet-tooltip { background: var(--folha); color: var(--tinta); border: 1px solid var(--linha); }
+#ev-mapa { height: 520px; background: #0d2430; }
+.fac-legenda label { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; }
+.ev-numeros { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; }
+.ev-numeros > div { display: grid; gap: 4px; align-content: start; }
+.ev-numeros strong { font: 700 1.35rem var(--f-display); }
+.ev-selo { display: inline-block; font-size: .72rem; font-weight: 700; color: #1b1300; background: #f5b942; border-radius: 999px; padding: 1px 8px; }
+.ev-confirmar { display: inline-block; font-size: .72rem; color: var(--tinta-3); border: 1px dashed var(--linha); border-radius: 999px; padding: 0 7px; }
+tr.ev-porta td { background: rgb(245 185 66 / .08); }
+.ev-nota { border-left: 3px solid #f5b942; padding: 8px 12px; background: var(--folha-2); border-radius: 0 10px 10px 0; color: var(--tinta-2); }
+@media (max-width: 760px) { #ev-mapa { height: 380px; } }
 @media (max-width: 760px) { #fac-mapa { height: 380px; } .fac-form { grid-template-columns: 1fr; } }

@@ -16,6 +16,54 @@ const TIPOS_INTERACAO = ['email', 'ligacao', 'whatsapp', 'reuniao', 'visita', 'p
 const CAMPOS_CRM = ['status', 'prioridade', 'contato_nome', 'contato_cargo', 'contato_email', 'contato_telefone', 'proxima_acao', 'proxima_data', 'visita_data', 'cupom', 'notas'];
 const dataISO = (d) => (d ? new Date(d).toISOString().slice(0, 10) : '');
 
+// Faculdades de Medicina do Paraguai (lista editável em conteudo/paraguai/paraguai.json) e eventos para estande.
+const ARQ_PARAGUAI = new URL('../../../conteudo/paraguai/paraguai.json', import.meta.url).pathname;
+const PARAGUAI = existsSync(ARQ_PARAGUAI) ? JSON.parse(readFileSync(ARQ_PARAGUAI, 'utf8')) : { universidades: [], cidades: {}, estatisticas: [] };
+const UNI_POR_ID = new Map(PARAGUAI.universidades.map((u) => [u.id, u]));
+const CAMPOS_PARAGUAI = ['status', 'prioridade', 'alunos_brasileiros', 'contato_nome', 'contato_cargo', 'contato_email', 'contato_telefone', 'proxima_acao', 'proxima_data', 'visita_data', 'cupom', 'notas'];
+const TIPOS_EVENTO = ['congresso', 'feira', 'academico', 'apresentacao', 'outro'];
+const PUBLICOS_EVENTO = ['enamed', 'revalida', 'ambos', 'faculdades'];
+const STATUS_EVENTO = ['ideia', 'pesquisado', 'pedido_proposta', 'proposta_recebida', 'fechado', 'realizado', 'descartado'];
+const CAMPOS_EVENTO = ['nome', 'tipo', 'publico', 'inicio', 'fim', 'data_texto', 'cidade', 'pais', 'local', 'lat', 'lng', 'site', 'status', 'prioridade', 'custo_centavos', 'publico_estimado',
+  'contato_nome', 'contato_email', 'contato_telefone', 'proxima_acao', 'proxima_data', 'notas', 'fonte'];
+const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+
+// Valida e normaliza o corpo de um evento; devolve { erro } ou { v }.
+function lerEvento(b = {}) {
+  const v = {};
+  for (const c of CAMPOS_EVENTO) {
+    const x = b[c] === undefined || b[c] === null ? '' : String(b[c]).trim().slice(0, c === 'notas' ? 4000 : 400);
+    v[c] = x === '' ? null : x;
+  }
+  if (!v.nome || v.nome.length < 3) return { erro: 'Dê um nome ao evento.' };
+  v.tipo ||= 'congresso'; v.publico ||= 'ambos'; v.status ||= 'ideia'; v.prioridade ||= 'media'; v.pais ||= 'Brasil';
+  if (!TIPOS_EVENTO.includes(v.tipo)) return { erro: 'Tipo de evento inválido.' };
+  if (!PUBLICOS_EVENTO.includes(v.publico)) return { erro: 'Público inválido.' };
+  if (!STATUS_EVENTO.includes(v.status)) return { erro: 'Status inválido.' };
+  if (!['alta', 'media', 'baixa'].includes(v.prioridade)) return { erro: 'Prioridade inválida.' };
+  for (const c of ['inicio', 'fim', 'proxima_data']) {
+    if (v[c] && /^\d{4}-\d{2}-\d{2}T/.test(v[c])) v[c] = v[c].slice(0, 10);
+    if (v[c] && !/^\d{4}-\d{2}-\d{2}$/.test(v[c])) return { erro: 'Data inválida.' };
+  }
+  if (v.inicio && v.fim && v.fim < v.inicio) return { erro: 'O fim vem antes do início.' };
+  for (const c of ['lat', 'lng']) {
+    if (v[c] === null) continue;
+    const n = Number(v[c].replace(',', '.'));
+    if (!Number.isFinite(n) || Math.abs(n) > (c === 'lat' ? 90 : 180)) return { erro: 'Coordenada inválida.' };
+    v[c] = n;
+  }
+  if ((v.lat === null) !== (v.lng === null)) return { erro: 'Informe latitude e longitude juntas.' };
+  for (const c of ['custo_centavos', 'publico_estimado']) {
+    if (v[c] === null) continue;
+    const n = Number(v[c]);
+    if (!Number.isInteger(n) || n < 0) return { erro: c === 'custo_centavos' ? 'Custo inválido.' : 'Público estimado inválido.' };
+    v[c] = n;
+  }
+  if (v.site && !/^https?:\/\//i.test(v.site)) return { erro: 'O site deve começar com http:// ou https://.' };
+  if (v.contato_email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.contato_email)) return { erro: 'E-mail do contato inválido.' };
+  return { v };
+}
+
 const POR_PAGINA = 50;
 // Situação do aluno calculada no banco: ativo (acesso vigente), vencendo (termina em até 7 dias), expirado (já teve) ou gratuito (nunca pagou).
 const SITUACAO = `
@@ -330,6 +378,109 @@ export function rotasAdmin({ banco, planos, mp, correio, config }) {
     const i = await banco.um('INSERT INTO faculdades_interacoes (curso_id, tipo, texto, admin_id) VALUES ($1, $2, $3, $4) RETURNING id, tipo, texto, em',
       [escola.curso, tipo, texto, req.usuario.id]);
     res.status(201).json({ interacao: i });
+  });
+
+  // ---- Eventos para estande e prospecção no Paraguai.
+  const interacoesDe = (tipo, id) => banco.varios(`SELECT i.id, i.tipo, i.texto, i.em, u.nome AS admin FROM prospeccao_interacoes i
+    LEFT JOIN usuarios u ON u.id = i.admin_id WHERE i.alvo_tipo = $1 AND i.alvo_id = $2 ORDER BY i.em DESC LIMIT 100`, [tipo, id]);
+  const registrarInteracao = async (req, res, alvo, id) => {
+    const tipo = String(req.body?.tipo || '');
+    const texto = String(req.body?.texto || '').trim().slice(0, 2000);
+    if (!TIPOS_INTERACAO.includes(tipo)) return res.status(400).json({ erro: 'Tipo de contato inválido.' });
+    if (texto.length < 2) return res.status(400).json({ erro: 'Descreva o contato.' });
+    const i = await banco.um('INSERT INTO prospeccao_interacoes (alvo_tipo, alvo_id, tipo, texto, admin_id) VALUES ($1, $2, $3, $4, $5) RETURNING id, tipo, texto, em',
+      [alvo, id, tipo, texto, req.usuario.id]);
+    res.status(201).json({ interacao: i });
+  };
+
+  r.get('/eventos', async (_req, res) => {
+    const eventos = await banco.varios(`SELECT e.*, (SELECT count(*) FROM prospeccao_interacoes i WHERE i.alvo_tipo = 'evento' AND i.alvo_id = e.id::text)::int AS interacoes
+      FROM eventos e ORDER BY e.inicio NULLS LAST, e.nome`);
+    const crm = new Map((await banco.varios('SELECT * FROM paraguai_crm')).map((c) => [c.universidade_id, c]));
+    const universidades = PARAGUAI.universidades.map((u) => ({ ...u, crm: crm.get(u.id) || null }));
+    res.json({ eventos, paraguai: { universidades, cidades: PARAGUAI.cidades, estatisticas: PARAGUAI.estatisticas, atualizado: PARAGUAI.atualizado } });
+  });
+
+  r.post('/eventos', async (req, res) => {
+    const { erro, v } = lerEvento(req.body);
+    if (erro) return res.status(400).json({ erro });
+    const evento = await banco.um(`INSERT INTO eventos (${CAMPOS_EVENTO.join(', ')}, atualizado_por) VALUES (${CAMPOS_EVENTO.map((_, i) => `$${i + 1}`).join(', ')}, $${CAMPOS_EVENTO.length + 1}) RETURNING *`,
+      [...CAMPOS_EVENTO.map((c) => v[c]), req.usuario.id]);
+    await auditar(req, 'evento_criado', evento.id, { nome: evento.nome });
+    res.status(201).json({ evento });
+  });
+
+  r.get('/eventos/:id', async (req, res) => {
+    if (!UUID.test(req.params.id)) return res.status(404).json({ erro: 'Evento não encontrado.' });
+    const evento = await banco.um('SELECT * FROM eventos WHERE id = $1', [req.params.id]);
+    if (!evento) return res.status(404).json({ erro: 'Evento não encontrado.' });
+    res.json({ evento, interacoes: await interacoesDe('evento', evento.id) });
+  });
+
+  r.put('/eventos/:id', async (req, res) => {
+    if (!UUID.test(req.params.id)) return res.status(404).json({ erro: 'Evento não encontrado.' });
+    const { erro, v } = lerEvento(req.body);
+    if (erro) return res.status(400).json({ erro });
+    const antes = await banco.um('SELECT status FROM eventos WHERE id = $1', [req.params.id]);
+    if (!antes) return res.status(404).json({ erro: 'Evento não encontrado.' });
+    const evento = await banco.um(`UPDATE eventos SET ${CAMPOS_EVENTO.map((c, i) => `${c} = $${i + 2}`).join(', ')}, atualizado_em = now(), atualizado_por = $${CAMPOS_EVENTO.length + 2}
+      WHERE id = $1 RETURNING *`, [req.params.id, ...CAMPOS_EVENTO.map((c) => v[c]), req.usuario.id]);
+    if (antes.status !== evento.status) await auditar(req, 'evento_status', evento.id, { nome: evento.nome, de: antes.status, para: evento.status });
+    res.json({ evento });
+  });
+
+  r.delete('/eventos/:id', async (req, res) => {
+    if (!UUID.test(req.params.id)) return res.status(404).json({ erro: 'Evento não encontrado.' });
+    const evento = await banco.um('DELETE FROM eventos WHERE id = $1 RETURNING id, nome', [req.params.id]);
+    if (!evento) return res.status(404).json({ erro: 'Evento não encontrado.' });
+    await banco.varios("DELETE FROM prospeccao_interacoes WHERE alvo_tipo = 'evento' AND alvo_id = $1", [evento.id]);
+    await auditar(req, 'evento_removido', evento.id, { nome: evento.nome });
+    res.json({ ok: true });
+  });
+
+  r.post('/eventos/:id/interacoes', async (req, res) => {
+    if (!UUID.test(req.params.id) || !(await banco.um('SELECT 1 FROM eventos WHERE id = $1', [req.params.id]))) return res.status(404).json({ erro: 'Evento não encontrado.' });
+    return registrarInteracao(req, res, 'evento', req.params.id);
+  });
+
+  r.get('/paraguai/:id', async (req, res) => {
+    const universidade = UNI_POR_ID.get(req.params.id);
+    if (!universidade) return res.status(404).json({ erro: 'Universidade não encontrada.' });
+    const crm = await banco.um('SELECT * FROM paraguai_crm WHERE universidade_id = $1', [universidade.id]);
+    res.json({ universidade, crm, interacoes: await interacoesDe('paraguai', universidade.id) });
+  });
+
+  r.put('/paraguai/:id', async (req, res) => {
+    const universidade = UNI_POR_ID.get(req.params.id);
+    if (!universidade) return res.status(404).json({ erro: 'Universidade não encontrada.' });
+    const b = req.body || {};
+    const v = {};
+    for (const c of CAMPOS_PARAGUAI) {
+      const x = b[c] === undefined || b[c] === null ? '' : String(b[c]).trim().slice(0, c === 'notas' ? 4000 : 300);
+      v[c] = x === '' ? null : x;
+    }
+    v.status ||= 'nao_contatado'; v.prioridade ||= 'media';
+    if (!STATUS_FACULDADE.includes(v.status)) return res.status(400).json({ erro: 'Status inválido.' });
+    if (!['alta', 'media', 'baixa'].includes(v.prioridade)) return res.status(400).json({ erro: 'Prioridade inválida.' });
+    for (const c of ['proxima_data', 'visita_data']) if (v[c] && !/^\d{4}-\d{2}-\d{2}$/.test(v[c])) return res.status(400).json({ erro: 'Data inválida.' });
+    if (v.contato_email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.contato_email)) return res.status(400).json({ erro: 'E-mail do contato inválido.' });
+    if (v.alunos_brasileiros !== null) {
+      const n = Number(v.alunos_brasileiros);
+      if (!Number.isInteger(n) || n < 0) return res.status(400).json({ erro: 'Número de alunos inválido.' });
+      v.alunos_brasileiros = n;
+    }
+    const antes = await banco.um('SELECT status FROM paraguai_crm WHERE universidade_id = $1', [universidade.id]);
+    const crm = await banco.um(`INSERT INTO paraguai_crm (universidade_id, ${CAMPOS_PARAGUAI.join(', ')}, atualizado_em, atualizado_por)
+      VALUES ($1, ${CAMPOS_PARAGUAI.map((_, i) => `$${i + 2}`).join(', ')}, now(), $${CAMPOS_PARAGUAI.length + 2})
+      ON CONFLICT (universidade_id) DO UPDATE SET ${CAMPOS_PARAGUAI.map((c) => `${c} = EXCLUDED.${c}`).join(', ')}, atualizado_em = now(), atualizado_por = EXCLUDED.atualizado_por
+      RETURNING *`, [universidade.id, ...CAMPOS_PARAGUAI.map((c) => v[c]), req.usuario.id]);
+    if ((antes?.status || 'nao_contatado') !== v.status) await auditar(req, 'paraguai_status', universidade.id, { universidade: universidade.nome, de: antes?.status || 'nao_contatado', para: v.status });
+    res.json({ crm });
+  });
+
+  r.post('/paraguai/:id/interacoes', async (req, res) => {
+    if (!UNI_POR_ID.has(req.params.id)) return res.status(404).json({ erro: 'Universidade não encontrada.' });
+    return registrarInteracao(req, res, 'paraguai', req.params.id);
   });
 
   r.get('/auditoria', async (_req, res) => {

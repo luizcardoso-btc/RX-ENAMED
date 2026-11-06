@@ -32,6 +32,7 @@ COPY --from=build --chown=node:node /rx/conteudo/editais ./conteudo/editais
 COPY --from=build --chown=node:node /rx/conteudo/mentores.json ./conteudo/mentores.json
 # Escolas médicas do Brasil (INEP) para a aba Faculdades do admin.
 COPY --from=build --chown=node:node /rx/conteudo/faculdades ./conteudo/faculdades
+COPY --from=build --chown=node:node /rx/conteudo/paraguai ./conteudo/paraguai
 USER node
 EXPOSE 3000
 HEALTHCHECK --interval=30s --timeout=5s --start-period=30s CMD node -e "fetch('http://127.0.0.1:'+(process.env.PORT||3000)+'/api/saude').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"

@@ -1,0 +1,103 @@
+{
+  "_leia": "Faculdades de Medicina do Paraguai para a prospecção do Rx Med Revalida. Lista montada a partir de reportagens e páginas das universidades (o portal do CONES e o relatório da ANEAES não puderam ser baixados). Cada item traz a fonte e o campo confirmar=true quando o dado precisa ser checado. Coordenadas: centro da cidade. Edite aqui para corrigir ou acrescentar faculdades.",
+  "atualizado": "2026-11-06",
+  "cidades": {
+    "Asunción": { "lat": -25.2637, "lng": -57.5759, "departamento": "Capital" },
+    "Ciudad del Este": { "lat": -25.5097, "lng": -54.6111, "departamento": "Alto Paraná" },
+    "Pedro Juan Caballero": { "lat": -22.5472, "lng": -55.7333, "departamento": "Amambay" },
+    "Salto del Guairá": { "lat": -24.0603, "lng": -54.3086, "departamento": "Canindeyú" },
+    "Pilar": { "lat": -26.8569, "lng": -58.3000, "departamento": "Ñeembucú" },
+    "San Lorenzo": { "lat": -25.3397, "lng": -57.5089, "departamento": "Central" }
+  },
+  "universidades": [
+    {
+      "id": "ums", "sigla": "UMS", "nome": "Universidad Privada María Serrana", "gestao": "Privada",
+      "sedes": ["Asunción", "Ciudad del Este"], "portaDeEntrada": true,
+      "nota": "Sua faculdade: porta de entrada para a primeira apresentação. Histórico: a carreira de Medicina (sede central e filial de Ciudad del Este) foi clausurada pelo CONES em 2022 e a clausura foi levantada em 2023; em julho de 2026 houve notícias de reabertura por decisão judicial e de suspensão das práticas hospitalares durante uma intervenção. Confirme a situação atual antes de anunciar parceria.",
+      "fontes": ["https://www.hoy.com.py/nacionales/clausuran-carreras-de-medicina-de-maria-serrana-por-irregularidades-en-titulos", "https://www.abc.com.py/nacionales/2023/10/06/cones-levanta-clausura-de-carrera-de-medicina-de-maria-serrana/", "https://www.ultimahora.com/jueza-ordena-reapertura-sedes-clausuradas-universidad-maria-serrana-n2997253"],
+      "confirmar": true
+    },
+    {
+      "id": "uninter", "sigla": "UNINTER", "nome": "Universidad Internacional Tres Fronteras", "gestao": "Privada",
+      "sedes": ["Ciudad del Este", "Pedro Juan Caballero"],
+      "revalida": { "edicao": "2025/1", "aprovados": 457, "fonte": "Estratégia MED, tabela de aprovados por instituição (a confirmar na fonte)" },
+      "fontes": ["https://www.facebook.com/FACIESA/", "https://med.estrategia.com/portal/revalida/aprovados-no-revalida-inep-confira-os-dados/"],
+      "confirmar": true
+    },
+    {
+      "id": "upe", "sigla": "UPE", "nome": "Universidad Privada del Este", "gestao": "Privada",
+      "sedes": ["Ciudad del Este"],
+      "revalida": { "edicao": "2025/1", "aprovados": 424, "fonte": "Estratégia MED, tabela de aprovados por instituição (a confirmar na fonte)" },
+      "fontes": ["https://web.upecde.edu.py/medicina/", "https://med.estrategia.com/portal/revalida/aprovados-no-revalida-inep-confira-os-dados/"],
+      "confirmar": true
+    },
+    {
+      "id": "upap", "sigla": "UPAP", "nome": "Universidad Politécnica y Artística del Paraguay", "gestao": "Privada",
+      "sedes": ["Pedro Juan Caballero", "Ciudad del Este"],
+      "revalida": { "edicao": "2025/1", "aprovados": 282, "fonte": "Estratégia MED, tabela de aprovados por instituição (a confirmar na fonte)" },
+      "fontes": ["https://www.soulmedicina.com.br/medicina-exterior/5/upap/pedro-juan-caballero/paraguai/"],
+      "confirmar": true
+    },
+    {
+      "id": "une", "sigla": "UNE", "nome": "Universidad Nacional del Este", "gestao": "Pública",
+      "sedes": ["Ciudad del Este"],
+      "fontes": ["http://www.une.edu.py/web/index.php/carreras/356-medicina"]
+    },
+    {
+      "id": "ucp", "sigla": "UCP", "nome": "Universidad Central del Paraguay", "gestao": "Privada",
+      "sedes": ["Pedro Juan Caballero", "Ciudad del Este", "Asunción"],
+      "nota": "Filiais de Pedro Juan Caballero (Res. 001/2019) e Ciudad del Este (Res. 999/2019). Em 2026 o CONES aprovou levar as carreiras da sede de Pedro Juan Caballero para Asunción.",
+      "fontes": ["https://central.edu.py/universidad/habilitacion-acreditacion", "https://www.abc.com.py/nacionales/2026/06/23/medicina-cones-aprueba-mudar-carreras-de-pedro-juan-a-asuncion/"]
+    },
+    {
+      "id": "interamericana", "sigla": "UI", "nome": "Universidad Interamericana", "gestao": "Privada",
+      "sedes": ["Pedro Juan Caballero"],
+      "nota": "Medicina na sede central, Res. CONES 178/2026. Tem parceria anunciada com o MedCof para o Revalida (concorrente).",
+      "fontes": ["https://www.pontaporainforma.com.br/universidad-interamericana-reafirma-legalidade-e-qualidade-do-curso-de-medicina-em-pedro-juan-caballero/", "https://www.grupomedcof.com.br/blog/parceria-ucp/"]
+    },
+    {
+      "id": "unisud", "sigla": "UNISUD", "nome": "Universidad Sudamericana", "gestao": "Privada",
+      "sedes": ["Pedro Juan Caballero", "Salto del Guairá"],
+      "nota": "Sede de Pedro Juan Caballero acreditada pela ANEAES; sede de Salto del Guairá habilitada pelo CONES.",
+      "fontes": ["https://www.unisud.edu.py/"]
+    },
+    {
+      "id": "upacifico", "sigla": "UP", "nome": "Universidad del Pacífico", "gestao": "Privada",
+      "sedes": ["Asunción", "Pedro Juan Caballero"],
+      "fontes": ["https://revistascientificas.upacifico.edu.py/index.php/Rev_MUP"],
+      "confirmar": true
+    },
+    {
+      "id": "unida", "sigla": "UNIDA", "nome": "Universidad de la Integración de las Américas", "gestao": "Privada",
+      "sedes": ["Asunción", "Ciudad del Este"],
+      "fontes": ["https://estudarmedicina.com.br/faculdade-de-medicina-no-paraguai-em-ciudad-del-este/"],
+      "confirmar": true
+    },
+    {
+      "id": "usol", "sigla": "UNASOL", "nome": "Universidad del Sol", "gestao": "Privada",
+      "sedes": ["Ciudad del Este"],
+      "fontes": ["https://www.aneaes.gov.py/wp-content/uploads/2025/05/Informe__Medicina_Universidades_Para_publicar_UV.pdf"],
+      "confirmar": true
+    },
+    {
+      "id": "una", "sigla": "UNA", "nome": "Universidad Nacional de Asunción (FCM)", "gestao": "Pública",
+      "sedes": ["San Lorenzo"],
+      "nota": "Faculdade pública e tradicional; poucos brasileiros. Baixa prioridade para o Revalida.",
+      "fontes": ["https://sites.google.com/fcmuna.edu.py/congresosaludpublica-fcm-una/inicio"]
+    },
+    {
+      "id": "unp", "sigla": "UNP", "nome": "Universidad Nacional de Pilar", "gestao": "Pública",
+      "sedes": ["Pilar"],
+      "nota": "Carreira de Medicina habilitada em março de 2026.",
+      "fontes": ["https://www.abc.com.py/nacionales/2026/03/30/el-nuevo-cones-aprobo-31-carreras-en-dos-meses-tres-son-de-medicina/"]
+    }
+  ],
+  "estatisticas": [
+    { "titulo": "Brasileiros estudando Medicina no Paraguai", "valor": "35 a 45 mil", "detalhe": "Estimativas de imprensa; não há número oficial.", "fonte": "https://www.correiobraziliense.com.br/euestudante/2026/04/7406572-a-rota-de-brasileiros-para-faculdades-de-medicina-em-paises-vizinhos.html" },
+    { "titulo": "Programas de Medicina", "valor": "46 em 28 universidades", "detalhe": "Contagem do ABC Color em 2026. A ANEAES contava 43 carreiras em 25 universidades (5 públicas e 20 privadas) em maio de 2025.", "fonte": "https://www.abc.com.py/nacionales/2026/03/23/medicina-de-frontera-estas-son-las-carreras-habilitadas-por-el-cones-en-pedro-juan-caballero/" },
+    { "titulo": "Pedro Juan Caballero", "valor": "10 programas", "detalhe": "Todos privados; reportagens falam em 6 mil a 12 mil brasileiros na cidade.", "fonte": "https://www.abc.com.py/nacionales/2026/03/23/medicina-de-frontera-estas-son-las-carreras-habilitadas-por-el-cones-en-pedro-juan-caballero/" },
+    { "titulo": "Ciudad del Este", "valor": "8 faculdades", "detalhe": "Levantamento do ABC Color (2023).", "fonte": "https://www.abc.com.py/politica/2023/11/07/un-verdadero-carnaval-con-las-facultades-de-medicina/" },
+    { "titulo": "Aprovados no Revalida 2025/1 com diploma paraguaio", "valor": "2.336", "detalhe": "O Paraguai foi o país com mais diplomas revalidados na edição.", "fonte": "https://med.estrategia.com/portal/revalida/aprovados-no-revalida-inep-confira-os-dados/" },
+    { "titulo": "Aprovados no Revalida 2024/1 por país", "valor": "PY 921 · BO 396 · AR 327", "detalhe": "Paraguai à frente de Bolívia e Argentina.", "fonte": "https://www.universidadedointercambio.com/medicina-no-paraguai/" }
+  ]
+}

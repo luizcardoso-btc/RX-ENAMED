@@ -52,7 +52,7 @@ function cliente() {
     const tipo = r.headers.get('content-type') || '';
     return { status: r.status, corpo: tipo.includes('json') ? await r.json() : await r.text() };
   };
-  return { get: (c) => req('GET', c), post: (c, b, e) => req('POST', c, b, e), put: (c, b) => req('PUT', c, b), cookie: () => cookie };
+  return { get: (c) => req('GET', c), post: (c, b, e) => req('POST', c, b, e), put: (c, b) => req('PUT', c, b), del: (c) => req('DELETE', c, {}), cookie: () => cookie };
 }
 const assinar = (idDado, idReq = 'req-1', ts = Math.floor(Date.now() / 1000)) =>
   `ts=${ts},v1=${createHmac('sha256', SEGREDO).update(`id:${idDado};request-id:${idReq};ts:${ts};`).digest('hex')}`;
@@ -631,4 +631,51 @@ test('admin: mapa das escolas médicas e acompanhamento da prospecção', async 
   const aluno = cliente();
   await aluno.post('/api/cadastro', { nome: 'Leo Prospect', email: 'leo@rx.test', senha: 'senha-forte-1', aceite: true, ...FICHA });
   assert.equal((await aluno.get('/api/admin/faculdades')).status, 403, 'aluno não vê a prospecção');
+});
+
+test('admin: eventos para estande e prospecção das faculdades do Paraguai', async () => {
+  const adm = cliente();
+  await adm.post('/api/entrar', { email: 'admin@rx.test', senha: 'senha-forte-1' });
+  const { codigoTotp } = await import('../src/seguranca.js');
+  const seg = (await banco.um(`SELECT totp_segredo FROM usuarios WHERE email = 'admin@rx.test'`)).totp_segredo;
+  await adm.post('/api/2fa/verificar', { codigo: codigoTotp(seg) });
+  const r = await adm.get('/api/admin/eventos');
+  assert.equal(r.status, 200, JSON.stringify(r.corpo).slice(0, 200));
+  const { eventos, paraguai } = r.corpo;
+  assert.ok(eventos.some((e) => /CBMFC/.test(e.nome) && String(e.inicio).startsWith('2027-04')), 'eventos levantados já vêm cadastrados');
+  assert.ok(eventos.some((e) => e.pais === 'Paraguai' && e.publico === 'revalida'), 'apresentação no Paraguai');
+  const ums = paraguai.universidades.find((u) => u.id === 'ums');
+  assert.ok(ums.portaDeEntrada && ums.crm.prioridade === 'alta', 'UMS como porta de entrada');
+  assert.ok(paraguai.universidades.every((u) => u.sedes.every((s) => paraguai.cidades[s])), 'toda sede tem coordenadas');
+  assert.ok(paraguai.estatisticas.length >= 4 && paraguai.estatisticas.every((s) => s.fonte));
+
+  assert.equal((await adm.post('/api/admin/eventos', { nome: 'X' })).status, 400);
+  assert.equal((await adm.post('/api/admin/eventos', { nome: 'Feira teste', inicio: '2027-05-10', fim: '2027-05-01' })).status, 400);
+  assert.equal((await adm.post('/api/admin/eventos', { nome: 'Feira teste', lat: '-25' })).status, 400, 'latitude sem longitude');
+  assert.equal((await adm.post('/api/admin/eventos', { nome: 'Feira teste', site: 'javascript:alert(1)' })).status, 400);
+  const novo = await adm.post('/api/admin/eventos', { nome: 'Congreso de estudiantes PJC', tipo: 'academico', publico: 'revalida', inicio: '2027-08-12', cidade: 'Pedro Juan Caballero', pais: 'Paraguai', lat: '-22,5472', lng: '-55.7333', custo_centavos: '150000', status: 'pedido_proposta' });
+  assert.equal(novo.status, 201, JSON.stringify(novo.corpo));
+  const id = novo.corpo.evento.id;
+  assert.equal(novo.corpo.evento.lat, -22.5472);
+  const editado = await adm.put(`/api/admin/eventos/${id}`, { ...novo.corpo.evento, status: 'fechado', proxima_acao: 'Enviar arte do estande' });
+  assert.equal(editado.corpo.evento.status, 'fechado');
+  assert.equal((await adm.post(`/api/admin/eventos/${id}/interacoes`, { tipo: 'whatsapp', texto: 'Organização confirmou o espaço' })).status, 201);
+  const det = (await adm.get(`/api/admin/eventos/${id}`)).corpo;
+  assert.equal(det.interacoes.length, 1);
+  assert.equal((await adm.get('/api/admin/eventos/nao-existe')).status, 404);
+  assert.ok((await adm.get('/api/admin/auditoria')).corpo.eventos.some((e) => e.acao === 'evento_status'));
+  assert.equal((await adm.del(`/api/admin/eventos/${id}`)).status, 200);
+  assert.equal((await adm.get(`/api/admin/eventos/${id}`)).status, 404);
+
+  assert.equal((await adm.put('/api/admin/paraguai/ums', { status: 'inventado' })).status, 400);
+  assert.equal((await adm.put('/api/admin/paraguai/ums', { status: 'reuniao_agendada', alunos_brasileiros: '-3' })).status, 400);
+  const crm = (await adm.put('/api/admin/paraguai/ums', { status: 'reuniao_agendada', prioridade: 'alta', alunos_brasileiros: '1200', contato_nome: 'Coordinación', proxima_data: '2026-12-02' })).corpo.crm;
+  assert.equal(crm.alunos_brasileiros, 1200);
+  assert.equal((await adm.post('/api/admin/paraguai/ums/interacoes', { tipo: 'reuniao', texto: 'Data da palestra combinada' })).status, 201);
+  assert.equal((await adm.get('/api/admin/paraguai/ums')).corpo.interacoes.length, 1);
+  assert.equal((await adm.get('/api/admin/paraguai/inexistente')).status, 404);
+
+  const aluno = cliente();
+  await aluno.post('/api/cadastro', { nome: 'Rui Evento', email: 'rui-evento@rx.test', senha: 'senha-forte-1', aceite: true, ...FICHA });
+  assert.equal((await aluno.get('/api/admin/eventos')).status, 403, 'aluno não vê eventos');
 });
