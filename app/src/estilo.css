@@ -1481,3 +1481,15 @@ h1, h2, h3 { font-family: var(--f-display); }
   .atalho-pratica strong { font-size: var(--t-2); }
   .atalho-pratica .mudo { display: none; }
 }
+
+/* Rota ENAMED 4º ano (cronograma) */
+.rota-4ano { margin-bottom: 18px; }
+.rota-4ano h2 { margin: 4px 0 6px; font-size: 1.25rem; }
+.rota-fases { list-style: none; margin: 16px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.rota-fases li { display: flex; gap: 12px; padding: 14px; border: 1px solid var(--linha); border-radius: 12px; }
+.rota-fases li.atual { border-color: var(--acento); background: var(--acento-suave); }
+.rota-fases li.feita { opacity: .75; }
+.rota-num { flex: none; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--folha-2); border: 1px solid var(--linha); font-weight: 700; font-size: .85rem; }
+.rota-fases li.atual .rota-num { background: var(--acento); color: #06141B; border-color: var(--acento); }
+.rota-meta { display: grid; gap: 4px; margin-top: 8px; }
+@media (max-width: 860px) { .rota-fases { grid-template-columns: 1fr; } }

@@ -58,6 +58,9 @@ export function rotasCheckout({ banco, config, planos, mp, correio, limitar }) {
     const plano = planos.porId[req.body?.plano];
     const metodo = req.body?.metodo;
     if (!plano) return res.status(400).json({ erro: 'Plano inválido.' });
+    if (plano.etapas && !plano.etapas.includes(String(req.usuario.etapa || ''))) {
+      return res.status(403).json({ erro: `O plano ${plano.nome} é exclusivo para estudantes do 1º ao 4º ano. Escolha outro plano ou fale com o suporte para corrigir a sua ficha.`, codigo: 'plano_etapa' });
+    }
     if (!METODOS.includes(metodo)) return res.status(400).json({ erro: 'Forma de pagamento inválida.' });
     const cpf = String(req.body?.cpf || req.usuario.cpf || '').replace(/\D/g, '');
     if (!cpfValido(cpf)) return res.status(400).json({ erro: 'Informe um CPF válido.' });

@@ -101,6 +101,13 @@ export default function App() {
     })();
     return () => { vivo = false; };
   }, []);
+  // Objetivo inicial pela ficha do cadastro: até o 4º ano começa na rota do ENAMED 4º ano; formado no exterior, no Revalida.
+  useEffect(() => {
+    const etapa = conta.usuario?.etapa;
+    if (!etapa || progresso.trilha.objetivo) return;
+    const objetivo = ['1', '2', '3', '4'].includes(etapa) ? 'enamed4' : etapa === 'exterior' ? 'revalida' : 'enamed6';
+    despachar({ tipo: 'configurarTrilha', dados: { objetivo } });
+  }, [conta.usuario?.etapa]);
   useEffect(() => { setSalvo(salvarLocal(progresso)); }, [progresso]);
   useEffect(() => { definirIdioma(idioma); }, []);
   const trocarIdioma = (id) => { definirIdioma(id); setIdioma(id); };

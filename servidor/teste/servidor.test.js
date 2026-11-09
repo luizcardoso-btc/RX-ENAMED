@@ -679,3 +679,17 @@ test('admin: eventos para estande e prospecção das faculdades do Paraguai', as
   await aluno.post('/api/cadastro', { nome: 'Rui Evento', email: 'rui-evento@rx.test', senha: 'senha-forte-1', aceite: true, ...FICHA });
   assert.equal((await aluno.get('/api/admin/eventos')).status, 403, 'aluno não vê eventos');
 });
+
+test('plano ENAMED 4º ano: só para quem está até o 4º ano', async () => {
+  const sexto = cliente();
+  await sexto.post('/api/cadastro', { nome: 'Ana Sexto', email: 'ana-sexto@rx.test', senha: 'senha-forte-1', aceite: true, ...FICHA, etapa: '6' });
+  const negado = await sexto.post('/api/checkout/pagar', { plano: 'enamed-4ano', metodo: 'pix', cpf: '52998224725' });
+  assert.equal(negado.status, 403);
+  assert.equal(negado.corpo.codigo, 'plano_etapa');
+  const eu = (await sexto.get('/api/eu')).corpo;
+  assert.equal(eu.usuario.etapa, '6', '/api/eu informa a etapa da ficha');
+  const quarto = cliente();
+  await quarto.post('/api/cadastro', { nome: 'Bia Quarto', email: 'bia-quarto@rx.test', senha: 'senha-forte-1', aceite: true, ...FICHA, etapa: '4' });
+  const ok = await quarto.post('/api/checkout/pagar', { plano: 'enamed-4ano', metodo: 'pix', cpf: '52998224725' });
+  assert.notEqual(ok.status, 403, JSON.stringify(ok.corpo));
+});

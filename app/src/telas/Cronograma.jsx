@@ -3,7 +3,8 @@
 // em que vencem, o atraso de ontem volta hoje e tudo cabe no tempo que o aluno disse ter.
 import { useState, useMemo } from '../react.js';
 import { useApp, Icone } from '../componentes.jsx';
-import { montarSemana, configDoAluno, CONFIG_PADRAO } from '../cronograma.js';
+import { montarSemana, configDoAluno, CONFIG_PADRAO, OBJETIVOS, rotaQuartoAno } from '../cronograma.js';
+import { modulosDoCurso } from '../modulos.js';
 import { diasAte } from '../trilha.js';
 import { useTrilha, iniciarPlano } from './Trilha.jsx';
 import { DIA, plural } from '../util.js';
@@ -65,11 +66,17 @@ function Configurar({ fechar }) {
   const [metaAcerto, setMetaAcerto] = useState(cfg.metaAcerto);
   const [metaDiaria, setMetaDiaria] = useState(progresso.trilha.metaDiaria || 20);
   const [dataProva, setDataProva] = useState(progresso.trilha.dataProva || '');
+  const [objetivo, setObjetivo] = useState(progresso.trilha.objetivo || 'enamed6');
+  const escolherObjetivo = (o) => {
+    setObjetivo(o);
+    const r = OBJETIVOS[o].ritmo;
+    if (r) { setDias(r.diasEstudo); setMinutos(r.minutosDia); setMetaDiaria(r.metaDiaria); setMetaAcerto(r.metaAcerto); }
+  };
   const alternar = (d) => setDias((x) => (x.includes(d) ? x.filter((y) => y !== d) : [...x, d].sort()));
   const salvar = () => {
     despachar({ tipo: 'configurarTrilha', dados: {
       cronograma: { ...(progresso.trilha.cronograma || {}), diasEstudo: dias.length ? dias : CONFIG_PADRAO.diasEstudo, minutosDia: minutos, metaAcerto, desde: progresso.trilha.cronograma?.desde || Date.now() },
-      metaDiaria, dataProva, ...(metaDiaria !== progresso.trilha.metaDiaria ? { plano: null } : {}),
+      metaDiaria, dataProva, objetivo, ...(metaDiaria !== progresso.trilha.metaDiaria ? { plano: null } : {}),
     } });
     fechar();
   };
@@ -78,6 +85,13 @@ function Configurar({ fechar }) {
       <div className="dialogo config-estudos" role="dialog" aria-modal="true" aria-labelledby="titulo-config">
         <h2 id="titulo-config">{t('Configurar estudos')}</h2>
         <p className="mudo">{t('O cronograma se ajusta a estes números: nada passa do tempo que você tem por dia.')}</p>
+        <div className="campo">
+          <span className="rotulo-campo">{t('Seu objetivo')}</span>
+          <div className="segmentado" role="group" aria-label={t('Seu objetivo')}>
+            {Object.entries(OBJETIVOS).map(([k, o]) => <button key={k} className={objetivo === k ? 'ativo' : ''} aria-pressed={objetivo === k} onClick={() => escolherObjetivo(k)}>{t(o.nome)}</button>)}
+          </div>
+          {objetivo === 'enamed4' && <p className="mudo pequeno">{t('Ritmo sugerido para o 4º ano: 4 dias por semana, 1 hora por dia. A prova do 4º ano é formativa; a do 6º ano é a que conta para o CRM e para o Enare.')}</p>}
+        </div>
         <div className="campo">
           <span className="rotulo-campo">{t('Dias de estudo')}</span>
           <div className="segmentado dias-semana" role="group" aria-label={t('Dias de estudo')}>
@@ -151,6 +165,8 @@ export default function Cronograma() {
         <button className="botao" onClick={() => setConfig(true)}><Icone nome="ajustes" /> {t('Configurar estudos')}</button>
       </header>
 
+      {progresso.trilha.objetivo === 'enamed4' && <RotaQuartoAno />}
+
       <section className="resumo-semana">
         <div className="cartao">
           <span className="sobretitulo">{t('Esta semana')}</span>
@@ -202,5 +218,39 @@ export default function Cronograma() {
       <p className="mudo pequeno legenda-chamas"><Icone nome="chama" tamanho={13} /> {t('Incidência: quanto a especialidade da aula pesa nas provas do Inep.')}</p>
       {config && <Configurar fechar={() => setConfig(false)} />}
     </div>
+  );
+}
+
+/** Rota do 4º ao 6º ano: onde o aluno está e o que falta em cada fase. */
+function RotaQuartoAno() {
+  const { banco, progresso } = useApp();
+  const rota = useMemo(() => rotaQuartoAno(progresso, banco, modulosDoCurso(banco, progresso)), [banco, progresso]);
+  return (
+    <section className="cartao rota-4ano" aria-label={t('Rota ENAMED 4º ano')}>
+      <div className="rota-cab">
+        <div>
+          <span className="sobretitulo">{t('Rota ENAMED 4º ano')}</span>
+          <h2>{t('Do 4º ao 6º ano, sem correria')}</h2>
+          <p className="mudo pequeno">{t('O ENAMED do 4º ano é formativo e não conta para a residência. Ele mostra onde você está; a prova do 6º ano é a que vale para o CRM e para o Enare.')}</p>
+        </div>
+      </div>
+      <ol className="rota-fases">
+        {rota.fases.map((f, i) => (
+          <li key={f.id} className={i === rota.atual ? 'atual' : i < rota.atual ? 'feita' : ''}>
+            <span className="rota-num">{i < rota.atual ? <Icone nome="check" tamanho={14} /> : i + 1}</span>
+            <div>
+              <strong>{t(f.titulo)}</strong>
+              <p className="mudo pequeno">{t(f.texto)}</p>
+              {f.metas.map((m) => (
+                <div key={m.rotulo} className="rota-meta">
+                  <span className="pequeno">{t(m.rotulo)} <span className="mudo">· {m.detalhe}</span></span>
+                  <span className="mini-barra"><span style={{ width: `${Math.round(m.feito * 100)}%` }} /></span>
+                </div>
+              ))}
+            </div>
+          </li>
+        ))}
+      </ol>
+    </section>
   );
 }

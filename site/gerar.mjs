@@ -72,11 +72,11 @@ const TX = {
     // planos
     planos: {
       recomendado: 'Mais escolhido', completo: 'Mais completo', assinar: 'Assinar', emBreve: 'Pagamento abre em breve', gratis: 'Criar conta grátis',
-      curso: { gratis: 'Todos os cursos', mensal: 'ENAMED · Revalida 1ª etapa', ciclo: 'ENAMED · Revalida', 'anual-enamed': 'ENAMED · 12 meses', 'segunda-etapa': 'Revalida 2ª etapa', anual: 'Revalida 1ª e 2ª etapa' },
+      curso: { gratis: 'Todos os cursos', mensal: 'ENAMED · Revalida 1ª etapa', ciclo: 'ENAMED · Revalida', 'enamed-4ano': 'ENAMED · até o 4º ano', 'anual-enamed': 'ENAMED · 12 meses', 'segunda-etapa': 'Revalida 2ª etapa', anual: 'Revalida 1ª e 2ª etapa' },
       rodape: 'Preços em reais. Pagamento por PIX, cartão em até 12× ou boleto, processado pelo Mercado Pago. Cada pagamento libera o período do plano, sem cobrança automática: antes de vencer, você renova se quiser. Você tem 7 dias para desistir e receber o valor de volta.',
       titulo: 'Planos e preços', descricao: 'Planos da Rx Med para o ENAMED e o Revalida: gratuito, mensal, ciclo de prova, 2ª etapa e anual completo.',
       intro: 'Comece grátis. Quando quiser o curso completo, escolha o plano que acompanha a sua prova.',
-      porCurso: [['ENAMED', ['gratis', 'mensal', 'ciclo', 'anual-enamed']], ['Revalida', ['gratis', 'mensal', 'ciclo', 'segunda-etapa', 'anual']]],
+      porCurso: [['ENAMED', ['gratis', 'mensal', 'enamed-4ano', 'ciclo', 'anual-enamed']], ['Revalida', ['gratis', 'mensal', 'ciclo', 'segunda-etapa', 'anual']]],
     },
     faqTitulo: 'Perguntas frequentes',
     // destaque de ECG (início, ENAMED e Revalida)
@@ -159,7 +159,7 @@ const TX = {
         ['Etapas', 'Prova teórica', '1ª etapa teórica e 2ª etapa prática'],
         ['Conteúdo', '6 módulos, banco oficial comentado, simulados e treino de ECG', 'Tudo isso e mais as estações com paciente simulado'],
         ['Idioma', 'Português e espanhol', 'Português e espanhol'],
-        ['Planos', 'Gratuito, mensal, ciclo de prova e ciclo anual', 'Gratuito, mensal, ciclo, 2ª etapa e anual completo']],
+        ['Planos', 'Gratuito, mensal, 4º ano, ciclo de prova e ciclo anual', 'Gratuito, mensal, ciclo, 2ª etapa e anual completo']],
       chamadaTitulo: 'Comece hoje pelo Raio-X da sua prova.', chamadaTexto: 'Crie a conta grátis em um minuto. Sem cartão de crédito.', chamadaBotao: 'Criar conta grátis',
     },
     tour: {
@@ -192,7 +192,15 @@ const TX = {
         ['O curso tem interpretação de ECG?', 'Sim. O treino de ECG tem {n} padrões com laudo comentado, e o simulador clínico traz casos com ECG para laudar.'],
         ['Estou no 5º ano. Já vale começar?', 'Sim. Começar cedo dá tempo para passar pelos seis módulos e fazer vários simulados. O cronograma distribui o estudo até a data da prova.'],
         ['Dá para estudar no internato, com plantões?', 'Sim. O cronograma aceita poucos minutos por dia e dias variados, e o que ficou para trás volta para a semana seguinte.'],
-        ['O que acontece depois dos 6 meses do ciclo?', 'O acesso vai até o fim do período. Para continuar, você renova o plano; não há cobrança automática.']],
+        ['O que acontece depois dos 6 meses do ciclo?', 'O acesso vai até o fim do período. Para continuar, você renova o plano; não há cobrança automática.'],
+        ['Estou no 4º ano. Qual plano escolho?', 'O plano ENAMED 4º ano: 12 meses com tudo do ciclo de prova e a rota do 4º ao 6º ano no cronograma, por um preço menor. Ele é exclusivo para quem está do 1º ao 4º ano, conforme a ficha do cadastro.'],
+        ['A prova do 4º ano conta para a residência?', 'Não. Ela é formativa: mostra como está a sua formação. A prova do 6º ano é a que conta para o Enare e para o registro no CRM.']],
+      quartoOlho: 'Novo · ENAMED 4º ano', quartoTitulo: 'O ENAMED agora começa no 4º ano',
+      quartoTexto: 'A Medida Provisória nº 1.370/2026 dividiu o ENAMED em etapas: uma prova ao fim do 4º ano e outra ao fim do 6º. A do 4º ano é formativa e não conta para a residência; a do 6º ano passa a valer para o registro no CRM e para o Enare. As duas seguem a Matriz de Referência Comum do Inep, e o Congresso ainda discute ajustes nas regras.',
+      quartoFases: [['4º ano', 'Base do que mais cai', 'Diagnóstico, aulas e questões dos temas de maior incidência, num ritmo leve: 4 dias por semana, 1 hora por dia.'],
+        ['5º ano', 'Os seis módulos completos', 'Cada grande área fechada com o simulado do módulo e revisões espaçadas.'],
+        ['6º ano', 'Reta final da prova que conta', 'Banco completo, simulados no tempo real e revisão dos erros.']],
+      quartoPlano: 'Plano ENAMED 4º ano: 12 meses por {p}, exclusivo para quem está do 1º ao 4º ano.', quartoBotao: 'Ver o plano do 4º ano',
       provaOlho: 'A prova', provaTitulo: 'O que você precisa saber sobre o ENAMED',
       prova: [['Quem faz', 'Os concluintes dos cursos de Medicina no Brasil. Médicos já formados também podem fazer a prova para usar a nota no Enare.'],
         ['Como é a prova', 'Questões objetivas com casos clínicos nas cinco grandes áreas e em saúde coletiva, no mesmo estilo do Revalida.'],
@@ -250,11 +258,11 @@ const TX = {
     janela: 'Plataforma Rx Med',
     planos: {
       recomendado: 'El más elegido', completo: 'El más completo', assinar: 'Suscribirse', emBreve: 'El pago abre pronto', gratis: 'Crear cuenta gratis',
-      curso: { gratis: 'Todos los cursos', mensal: 'ENAMED · Revalida 1.ª etapa', ciclo: 'ENAMED · Revalida', 'anual-enamed': 'ENAMED · 12 meses', 'segunda-etapa': 'Revalida 2.ª etapa', anual: 'Revalida 1.ª y 2.ª etapa' },
+      curso: { gratis: 'Todos los cursos', mensal: 'ENAMED · Revalida 1.ª etapa', ciclo: 'ENAMED · Revalida', 'enamed-4ano': 'ENAMED · hasta el 4.º año', 'anual-enamed': 'ENAMED · 12 meses', 'segunda-etapa': 'Revalida 2.ª etapa', anual: 'Revalida 1.ª y 2.ª etapa' },
       rodape: 'Precios en reales brasileños. Pago con PIX, tarjeta en hasta 12 cuotas o boleto, procesado por Mercado Pago. Cada pago libera el periodo del plan, sin cobro automático: antes de vencer, renueva si quiere. Tiene 7 días para desistir y recibir el dinero de vuelta.',
       titulo: 'Planes y precios', descricao: 'Planes de Rx Med para el ENAMED y el Revalida: gratuito, mensual, ciclo de examen, 2.ª etapa y anual completo.',
       intro: 'Empiece gratis. Cuando quiera el curso completo, elija el plan que acompaña su examen.',
-      porCurso: [['ENAMED', ['gratis', 'mensal', 'ciclo', 'anual-enamed']], ['Revalida', ['gratis', 'mensal', 'ciclo', 'segunda-etapa', 'anual']]],
+      porCurso: [['ENAMED', ['gratis', 'mensal', 'enamed-4ano', 'ciclo', 'anual-enamed']], ['Revalida', ['gratis', 'mensal', 'ciclo', 'segunda-etapa', 'anual']]],
     },
     faqTitulo: 'Preguntas frecuentes',
     ecg: {
@@ -335,7 +343,7 @@ const TX = {
         ['Etapas', 'Examen teórico', '1.ª etapa teórica y 2.ª etapa práctica'],
         ['Contenido', '6 módulos, banco oficial comentado, simulacros y práctica de ECG', 'Todo eso y además las estaciones con paciente simulado'],
         ['Idioma', 'Portugués y español', 'Portugués y español'],
-        ['Planes', 'Gratuito, mensual, ciclo de examen y ciclo anual', 'Gratuito, mensual, ciclo, 2.ª etapa y anual completo']],
+        ['Planes', 'Gratuito, mensual, 4.º año, ciclo de examen y ciclo anual', 'Gratuito, mensual, ciclo, 2.ª etapa y anual completo']],
       chamadaTitulo: 'Empiece hoy por los Rayos X de su examen.', chamadaTexto: 'Cree la cuenta gratis en un minuto. Sin tarjeta de crédito.', chamadaBotao: 'Crear cuenta gratis',
     },
     tour: {
@@ -368,7 +376,15 @@ const TX = {
         ['¿El curso tiene interpretación de ECG?', 'Sí. La práctica de ECG tiene {n} patrones con informe comentado, y el simulador clínico trae casos con ECG para informar.'],
         ['Estoy en 5.º año. ¿Ya vale la pena empezar?', 'Sí. Empezar temprano da tiempo para pasar por los seis módulos y hacer varios simulacros. El cronograma reparte el estudio hasta la fecha del examen.'],
         ['¿Puedo estudiar en el internado, con guardias?', 'Sí. El cronograma acepta pocos minutos por día y días variados, y lo que quedó pendiente pasa a la semana siguiente.'],
-        ['¿Qué pasa después de los 6 meses del ciclo?', 'El acceso dura hasta el final del periodo. Para seguir, renueva el plan; no hay cobro automático.']],
+        ['¿Qué pasa después de los 6 meses del ciclo?', 'El acceso dura hasta el final del periodo. Para seguir, renueva el plan; no hay cobro automático.'],
+        ['Estoy en 4.º año. ¿Qué plan elijo?', 'El plan ENAMED 4.º año: 12 meses con todo lo del ciclo de examen y la ruta del 4.º al 6.º año en el cronograma, por un precio menor. Es exclusivo para quien está del 1.º al 4.º año, según la ficha de registro.'],
+        ['¿El examen del 4.º año cuenta para la residencia?', 'No. Es formativo: muestra cómo está su formación. El examen del 6.º año es el que cuenta para el Enare y para el registro en el CRM.']],
+      quartoOlho: 'Nuevo · ENAMED 4.º año', quartoTitulo: 'El ENAMED ahora empieza en el 4.º año',
+      quartoTexto: 'La Medida Provisional n.º 1.370/2026 dividió el ENAMED en etapas: un examen al final del 4.º año y otro al final del 6.º. El del 4.º año es formativo y no cuenta para la residencia; el del 6.º año pasa a valer para el registro en el CRM y para el Enare. Ambos siguen la Matriz de Referencia Común del Inep, y el Congreso aún discute ajustes en las reglas.',
+      quartoFases: [['4.º año', 'Base de lo que más aparece', 'Diagnóstico, clases y preguntas de los temas de mayor incidencia, a un ritmo ligero: 4 días por semana, 1 hora por día.'],
+        ['5.º año', 'Los seis módulos completos', 'Cada gran área cerrada con el simulacro del módulo y repasos espaciados.'],
+        ['6.º año', 'Recta final del examen que cuenta', 'Banco completo, simulacros con el tiempo real y repaso de errores.']],
+      quartoPlano: 'Plan ENAMED 4.º año: 12 meses por {p}, exclusivo para quien está del 1.º al 4.º año.', quartoBotao: 'Ver el plan del 4.º año',
       provaOlho: 'El examen', provaTitulo: 'Lo que necesita saber sobre el ENAMED',
       prova: [['Quién lo rinde', 'Los estudiantes de último año de Medicina en Brasil. Médicos ya graduados también pueden rendirlo para usar la nota en el Enare.'],
         ['Cómo es el examen', 'Preguntas objetivas con casos clínicos en las cinco grandes áreas y en salud colectiva, con el mismo estilo del Revalida.'],
@@ -608,7 +624,7 @@ ${secaoRecursos(lingua)}
     return `<div class="cartao mentor"><b style="background:${cores[i]}">${esc(iniciais)}</b><strong>${esc(`${t1} ${resto[0]}`)}</strong><span>${esc(lingua === 'es' ? (m.es?.titulo || m.titulo) : m.titulo)}</span></div>`;
   }).join('')}</div></section>
 <section class="secao">${cab(L.planosOlho, L.planosTitulo)}
-  ${gradePlanos(['gratis', 'mensal', 'ciclo', 'anual-enamed', 'segunda-etapa', 'anual'], lingua, ctx, { comCurso: true, colunas: 3, destaques: ['ciclo', 'anual'] })}
+  ${gradePlanos(['gratis', 'mensal', 'enamed-4ano', 'ciclo', 'anual-enamed', 'segunda-etapa', 'anual'], lingua, ctx, { comCurso: true, colunas: 4, destaques: ['ciclo', 'anual'] })}
   <p style="margin-top:20px"><a href="${ctx.link('planos.html')}">${L.verPlanos} →</a></p></section>
 <section class="secao">${cab(tx.faqTitulo, '')}${faq(L.faq, lingua)}</section>
 ${chamada(L.chamadaTitulo, L.chamadaTexto, L.chamadaBotao, ctx)}`,
@@ -629,12 +645,15 @@ function paginaEnamed(lingua) {
   ${janela(ctx, tx, 'curso', lingua === 'es' ? 'curso' : 'curso', L.selo).replace(' loading="lazy"', '')}</section>
 <section class="secao">${cab(L.modOlho, L.modTitulo, L.modTexto)}
   <div class="grade">${L.modulos.map(([t, d], i) => `<div class="cartao bloco"><span class="n">${L.modulo} ${i + 1}</span><h3>${t}</h3><p>${d}</p></div>`).join('')}</div></section>
+<section class="secao faixa" id="quarto-ano">${cab(L.quartoOlho, L.quartoTitulo, L.quartoTexto)}
+  <div class="grade">${L.quartoFases.map(([n, t, d]) => `<div class="cartao bloco"><span class="n">${n}</span><h3>${t}</h3><p>${d}</p></div>`).join('')}</div>
+  <div class="linha-botoes" style="align-items:center"><a class="botao botao-primario" href="#plano-enamed-4ano">${L.quartoBotao}</a><span class="mudo">${preencher(L.quartoPlano, { p: reais(plano('enamed-4ano').preco, lingua) })}</span></div></section>
 <section class="secao">${cab(L.provaOlho, L.provaTitulo)}${blocos(L.prova)}</section>
 ${secaoEcg(ctx, lingua)}
 <section class="secao">${cab(L.tourOlho, L.tourTitulo)}${tour(ctx, lingua, 'questao')}${tour(ctx, lingua, 'painel', true)}</section>
 <section class="secao">${cab(L.rotinaOlho, L.rotinaTitulo)}
   <div class="grade">${L.rotina.map(([t, d], i) => `<div class="cartao bloco"><span class="n">0${i + 1}</span><h3>${t}</h3><p>${d}</p></div>`).join('')}</div></section>
-<section class="secao" id="planos">${cab(TX[lingua].inicio.planosOlho, L.planosTitulo)}${gradePlanos(['gratis', 'mensal', 'ciclo', 'anual-enamed'], lingua, ctx, { destaques: ['ciclo', 'anual-enamed'] })}<p class="mudo pequeno" style="margin-top:20px">${tx.planos.rodape}</p></section>
+<section class="secao" id="planos">${cab(TX[lingua].inicio.planosOlho, L.planosTitulo)}${gradePlanos(['gratis', 'mensal', 'enamed-4ano', 'ciclo', 'anual-enamed'], lingua, ctx, { destaques: ['ciclo', 'anual-enamed'] })}<p class="mudo pequeno" style="margin-top:20px">${tx.planos.rodape}</p></section>
 <section class="secao">${cab(tx.faqTitulo, L.faqTitulo)}${faq(L.faq, lingua)}</section>
 ${chamada(L.chamadaTitulo, L.chamadaTexto, tx.inicio.chamadaBotao, ctx)}`,
   });

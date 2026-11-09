@@ -1,5 +1,5 @@
 {
-  "_leia": "Preços em centavos de real. checkout: link de pagamento do gateway para cada plano (vazio = botão 'Pagamento abre em breve'). Com lancamento.ativo, o preço exibido é precoFundador e o preço cheio aparece riscado. limitesGratis: o que o plano gratuito libera. duracaoMeses: quanto tempo de acesso cada pagamento libera (o servidor usa para criar a matrícula).",
+  "_leia": "Preços em centavos de real. checkout: link de pagamento do gateway para cada plano (vazio = botão 'Pagamento abre em breve'). Com lancamento.ativo, o preço exibido é precoFundador e o preço cheio aparece riscado. limitesGratis: o que o plano gratuito libera. duracaoMeses: quanto tempo de acesso cada pagamento libera (o servidor usa para criar a matrícula). etapas: quando existe, só alunos dessas etapas da ficha (1 a 6, formado, exterior) podem comprar o plano.",
   "lancamento": {
     "ativo": false,
     "vagas": 500,
@@ -71,6 +71,41 @@
         ]
       },
       "duracaoMeses": 1
+    },
+    {
+      "id": "enamed-4ano",
+      "preco": 89700,
+      "precoFundador": 89700,
+      "cobranca": "anual",
+      "parcelas": 12,
+      "checkout": "",
+      "etapas": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "pt": {
+        "nome": "ENAMED 4º ano",
+        "para": "Do 1º ao 4º ano, 12 meses de acesso",
+        "itens": [
+          "Tudo do ciclo de prova",
+          "Rota do 4º ao 6º ano no cronograma",
+          "Ritmo leve: 4 dias por semana, 1 hora por dia",
+          "Exclusivo para estudantes até o 4º ano"
+        ]
+      },
+      "es": {
+        "nome": "ENAMED 4.º año",
+        "para": "Del 1.º al 4.º año, 12 meses de acceso",
+        "itens": [
+          "Todo lo del ciclo de examen",
+          "Ruta del 4.º al 6.º año en el cronograma",
+          "Ritmo ligero: 4 días por semana, 1 hora por día",
+          "Exclusivo para estudiantes hasta el 4.º año"
+        ]
+      },
+      "duracaoMeses": 12
     },
     {
       "id": "ciclo",

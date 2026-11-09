@@ -9,7 +9,7 @@ import { ultimaResposta } from '../progresso.js';
 import { t, idiomaAtual } from '../i18n.js';
 import { CartaoIndique } from './Indique.jsx';
 
-const NOMES_PLANO = { mensal: 'Mensal', ciclo: 'Ciclo de prova', 'anual-enamed': 'Ciclo anual completo (ENAMED)', 'segunda-etapa': '2ª etapa', anual: 'Anual completo' };
+const NOMES_PLANO = { mensal: 'Mensal', ciclo: 'Ciclo de prova', 'enamed-4ano': 'ENAMED 4º ano', 'anual-enamed': 'Ciclo anual completo (ENAMED)', 'segunda-etapa': '2ª etapa', anual: 'Anual completo' };
 const DIAS = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
 
 export default function Perfil() {

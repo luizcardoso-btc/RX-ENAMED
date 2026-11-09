@@ -16,6 +16,7 @@ export function carregarPlanos(arquivo) {
     valorCentavos: usarFundador && p.precoFundador < p.preco ? p.precoFundador : p.preco,
     parcelasMax: p.parcelas || 1,
     duracaoMeses: p.duracaoMeses,
+    etapas: Array.isArray(p.etapas) ? p.etapas.map(String) : null,
   }));
   for (const p of planos) if (!Number.isInteger(p.duracaoMeses) || p.duracaoMeses < 1) throw new Error(`planos.json: plano ${p.id} sem duracaoMeses`);
   const porId = Object.fromEntries(planos.map((p) => [p.id, p]));

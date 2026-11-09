@@ -33,7 +33,7 @@ export function carregarUsuario(banco, config) {
     const token = lerCookie(req, nomeCookie(config));
     if (token && token.length < 100) {
       const linha = await banco.um(
-        `SELECT u.id, u.nome, u.email, u.papel, u.cpf, u.totp_ativo, s.token_hash, s.mfa_ok, s.ultimo_uso
+        `SELECT u.id, u.nome, u.email, u.papel, u.cpf, u.totp_ativo, u.etapa, s.token_hash, s.mfa_ok, s.ultimo_uso
            FROM sessoes s JOIN usuarios u ON u.id = s.usuario_id
           WHERE s.token_hash = $1 AND s.expira_em > now() AND u.excluido_em IS NULL`, [hashToken(token)]);
       if (linha) {
@@ -152,8 +152,8 @@ export function rotasAutenticacao({ banco, config, correio, limitar }) {
 
   r.get('/eu', async (req, res) => {
     if (!req.usuario) return res.json({ usuario: null, acesso: { ativo: false, plano: 'gratis' } });
-    const { id, nome, email, papel, totp_ativo: totp } = req.usuario;
-    res.json({ usuario: { id, nome, email, papel, totpAtivo: totp, precisa2fa: totp && !req.sessao.mfaOk }, acesso: await situacaoDoAluno(banco, id) });
+    const { id, nome, email, papel, totp_ativo: totp, etapa } = req.usuario;
+    res.json({ usuario: { id, nome, email, papel, etapa: etapa || null, totpAtivo: totp, precisa2fa: totp && !req.sessao.mfaOk }, acesso: await situacaoDoAluno(banco, id) });
   });
 
   // ---- Recuperação de senha: sempre responde igual, para não revelar quais e-mails têm conta.

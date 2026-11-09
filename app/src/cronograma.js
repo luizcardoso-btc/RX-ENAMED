@@ -7,6 +7,31 @@ import { modulosDoCurso, SEGUNDOS_POR_QUESTAO } from './modulos.js';
 import { montarBaralho } from './flashcards.js';
 
 export const CONFIG_PADRAO = { diasEstudo: [1, 2, 3, 4, 5, 6], minutosDia: 120, metaAcerto: 65 };
+// Objetivo do aluno: muda a ordem do estudo e sugere um ritmo. O ENAMED do 4º ano é formativo e prepara a prova do 6º ano.
+export const OBJETIVOS = {
+  enamed6: { nome: 'ENAMED (6º ano)', ritmo: null },
+  enamed4: { nome: 'ENAMED 4º ano', ritmo: { diasEstudo: [1, 3, 5, 6], minutosDia: 60, metaDiaria: 20, metaAcerto: 60 } },
+  revalida: { nome: 'Revalida', ritmo: null },
+};
+
+/** Rota do 4º ao 6º ano: três fases com metas medidas pelo progresso real. */
+export function rotaQuartoAno(estado, banco, modulos) {
+  const validas = banco.questoes.filter((q) => !q.anulada);
+  const resolvidas = validas.filter((q) => (estado.respostas[q.id] || []).length).length;
+  const fracaoBanco = validas.length ? resolvidas / validas.length : 0;
+  const simulados = estado.simulados.length;
+  const modulosFeitos = modulos.filter((m) => m.status === 'concluido').length;
+  const fases = [
+    { id: 'base', titulo: '4º ano · base do que mais cai', texto: 'Diagnóstico, aulas e questões dos temas de maior incidência, num ritmo leve.',
+      metas: [{ rotulo: 'Banco resolvido', feito: Math.min(fracaoBanco / 0.3, 1), detalhe: `${Math.round(fracaoBanco * 100)}% de 30%` }, { rotulo: 'Simulados', feito: Math.min(simulados / 2, 1), detalhe: `${Math.min(simulados, 2)} de 2` }] },
+    { id: 'modulos', titulo: '5º ano · os seis módulos completos', texto: 'Cada grande área fechada com o simulado do módulo e revisões espaçadas.',
+      metas: [{ rotulo: 'Módulos concluídos', feito: modulos.length ? modulosFeitos / modulos.length : 0, detalhe: `${modulosFeitos} de ${modulos.length}` }, { rotulo: 'Banco resolvido', feito: Math.min(fracaoBanco / 0.7, 1), detalhe: `${Math.round(fracaoBanco * 100)}% de 70%` }] },
+    { id: 'prova', titulo: '6º ano · reta final da prova que conta', texto: 'Banco completo, simulados no tempo real e revisão dos erros. É esta prova que vale para o CRM e para o Enare.',
+      metas: [{ rotulo: 'Banco resolvido', feito: fracaoBanco, detalhe: `${Math.round(fracaoBanco * 100)}%` }, { rotulo: 'Simulados', feito: Math.min(simulados / 8, 1), detalhe: `${Math.min(simulados, 8)} de 8` }] },
+  ].map((f) => ({ ...f, fracao: f.metas.reduce((x, m) => x + m.feito, 0) / f.metas.length }));
+  const atual = fases.findIndex((f) => f.fracao < 1);
+  return { fases, atual: atual < 0 ? fases.length - 1 : atual };
+}
 const MIN_POR_QUESTAO = SEGUNDOS_POR_QUESTAO / 60;
 const MIN_POR_CARTAO = 0.4;
 const QUESTOES_SIMULADO = 30;
@@ -37,11 +62,13 @@ function atividadeDoDia(estado, dia) {
 }
 
 /** Ordem das aulas: área mais fraca e especialidade mais cobrada primeiro. */
-function ordemDasAulas(banco, profs) {
+function ordemDasAulas(banco, profs, objetivo) {
   const porEsp = Object.fromEntries(profs.map((p) => [p.especialidade, p]));
+  // No 4º ano a base vem primeiro: os temas que mais caem, sem castigar a área ainda não estudada.
   const valor = (a) => {
     const p = porEsp[a.especialidade];
-    return p ? p.peso * (1.2 - p.media) : 0.01;
+    if (!p) return 0.01;
+    return objetivo === 'enamed4' ? p.peso : p.peso * (1.2 - p.media);
   };
   return [...banco.aulas].sort((a, b) => valor(b) - valor(a));
 }
@@ -68,7 +95,7 @@ export function montarSemana(estado, banco, profs, semanaRef = Date.now(), agora
   // de hoje em diante (uma por dia), na ordem de prioridade.
   const aulasPorDia = new Map();
   const pendentes = [];
-  for (const a of ordemDasAulas(banco, profs)) {
+  for (const a of ordemDasAulas(banco, profs, estado.trilha.objetivo)) {
     const feitaEm = estado.aulas[a.id];
     if (feitaEm) {
       const dia = dias.find((d) => noDia(feitaEm, d));
