@@ -53,6 +53,11 @@
           <optgroup label="Internato"><option value="5">5º ano (internato)</option><option value="6">6º ano (internato)</option></optgroup>
           <optgroup label="Já formado"><option value="formado">Formado no Brasil</option><option value="exterior">Formado no exterior (Revalida)</option></optgroup>
         </select></label>
+      <label class="rx-campo so-cadastro rx-oculto"><span>Sua faculdade</span><input id="faculdade-busca" list="faculdades-lista" autocomplete="off" placeholder="Digite o nome ou a cidade"><datalist id="faculdades-lista"></datalist></label>
+      <input type="hidden" name="faculdade" id="faculdade">
+      <label class="rx-campo so-cadastro rx-oculto rx-oculto-outra" id="campo-outra" hidden><span>Nome da sua faculdade</span><input name="faculdadeOutra" maxlength="160"></label>
+      <p class="rx-mudo so-cadastro rx-oculto dica-campo">Opcional. Serve para o ranking por faculdade do simulado nacional.</p>
+      <label class="rx-aceite so-cadastro rx-oculto"><input type="checkbox" name="compartilharFaculdade"> <span>Autorizo a coordenação da minha faculdade a ver o meu desempenho na Rx Med, se ela for parceira.</span></label>
       <label class="rx-aceite so-cadastro rx-oculto"><input type="checkbox" name="aceite"> <span>Li e aceito os <a href="/termos" target="_blank">Termos de Uso</a> e a <a href="/privacidade" target="_blank">Política de Privacidade</a>.</span></label>
       <p class="rx-erro rx-oculto" id="erro" role="alert"></p>
       <button class="botao botao-primario rx-botao-largo" type="submit" id="enviar">Continuar</button>
@@ -114,6 +119,24 @@ $('#form-esqueci').addEventListener('submit', async (e) => {
   ok.textContent = r.mensagem;
   ok.classList.remove('rx-oculto');
 });
+// Faculdade: lista do INEP e do Paraguai, escolhida pelo nome ou pela cidade.
+let faculdadesCarregadas = null;
+async function carregarFaculdades() {
+  if (faculdadesCarregadas) return;
+  faculdadesCarregadas = [];
+  try {
+    const { faculdades } = await api('/faculdades');
+    faculdadesCarregadas = faculdades.map((x) => ({ codigo: x.codigo, rotulo: `${x.nome} · ${x.cidade}${x.pais !== 'Brasil' ? ` (${x.pais})` : ''}` }));
+    faculdadesCarregadas.push({ codigo: 'outra', rotulo: 'Outra faculdade (não está na lista)' });
+    $('#faculdades-lista').innerHTML = faculdadesCarregadas.map((x) => `<option value="${x.rotulo.replace(/"/g, '&quot;')}"></option>`).join('');
+  } catch { /* sem lista: segue sem faculdade */ }
+}
+$('#faculdade-busca').addEventListener('focus', carregarFaculdades);
+$('#faculdade-busca').addEventListener('input', (e) => {
+  const achada = (faculdadesCarregadas || []).find((x) => x.rotulo === e.target.value);
+  $('#faculdade').value = achada ? achada.codigo : '';
+  $('#campo-outra').hidden = achada?.codigo !== 'outra';
+});
 $('#form').addEventListener('submit', async (e) => {
   e.preventDefault();
   mostrarErro($('#erro'), '');
@@ -128,7 +151,8 @@ $('#form').addEventListener('submit', async (e) => {
     }
     let origem = null;
     try { origem = sessionStorage.getItem('rx-origem'); } catch { /* sem armazenamento */ }
-    const corpo = modo === 'entrar' ? { email: f.email, senha: f.senha } : { ...f, aceite: f.aceite === 'on', ...(origem ? { origem } : {}) };
+    if (modo === 'cadastro' && $('#faculdade-busca').value.trim() && !f.faculdade) throw new Error('Escolha a faculdade na lista (ou "Outra faculdade").');
+    const corpo = modo === 'entrar' ? { email: f.email, senha: f.senha } : { ...f, aceite: f.aceite === 'on', compartilharFaculdade: f.compartilharFaculdade === 'on', ...(origem ? { origem } : {}) };
     const r = await api(modo === 'entrar' ? '/entrar' : '/cadastro', { metodo: 'POST', corpo });
     location.href = seguro;
   } catch (err) { mostrarErro($('#erro'), err.message); }

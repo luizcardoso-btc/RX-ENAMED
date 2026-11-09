@@ -192,3 +192,22 @@ tr.ev-porta td { background: rgb(245 185 66 / .08); }
 .ev-nota { border-left: 3px solid #f5b942; padding: 8px 12px; background: var(--folha-2); border-radius: 0 10px 10px 0; color: var(--tinta-2); }
 @media (max-width: 760px) { #ev-mapa { height: 380px; } }
 @media (max-width: 760px) { #fac-mapa { height: 380px; } .fac-form { grid-template-columns: 1fr; } }
+
+/* relatório da turma */
+.rel-cab { display: flex; justify-content: space-between; align-items: start; gap: 16px; flex-wrap: wrap; margin-bottom: 16px; }
+.rel-cab h1 { font-family: var(--f-display); margin: 4px 0; }
+.rel-bloco { margin-bottom: 16px; }
+.rel-bloco h2 { margin-top: 0; font-size: 1.1rem; }
+.rel-barra { display: block; height: 8px; border-radius: 99px; background: var(--folha-2); overflow: hidden; }
+.rel-barra i { display: block; height: 100%; background: var(--acento); }
+.rel-semanas { display: grid; grid-template-columns: repeat(8, 1fr); gap: 8px; align-items: end; height: 160px; }
+.rel-semanas > div { display: flex; flex-direction: column; justify-content: end; align-items: center; height: 100%; gap: 4px; font-size: .78rem; }
+.rel-coluna { width: 70%; min-height: 2px; background: var(--acento); border-radius: 6px 6px 0 0; }
+.rel-semanas small { color: var(--tinta-3); text-align: center; }
+.rel-risco { color: var(--aviso); font-size: .85rem; }
+@media print {
+  .rx-topo, .rx-nao-imprimir, nav, #gaveta { display: none !important; }
+  body { background: #fff !important; color: #111 !important; }
+  .rx-cartao, .rx-kpi { background: #fff !important; border-color: #ccc !important; break-inside: avoid; }
+  .rx-mudo, .rx-kpi span, .rx-kpi small, .rel-semanas small { color: #555 !important; }
+}

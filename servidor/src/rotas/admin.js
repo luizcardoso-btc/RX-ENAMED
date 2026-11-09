@@ -4,6 +4,11 @@ import { aplicarPagamento } from '../pagamentos.js';
 import { somarMeses } from '../planos.js';
 import { resumoMetas, lerMetas } from '../metas.js';
 import { existsSync, readFileSync } from 'node:fs';
+import { randomInt } from 'node:crypto';
+import { bancoQuestoes, nomeFaculdade } from '../faculdades.js';
+import { rankingDe } from './nacional.js';
+import { relatorioTurma } from '../relatorio-turma.js';
+import { novoToken, hashToken } from '../seguranca.js';
 
 const ETAPAS = { 1: '1º ano', 2: '2º ano', 3: '3º ano', 4: '4º ano', 5: '5º ano (internato)', 6: '6º ano (internato)', formado: 'Formado no Brasil', exterior: 'Formado no exterior' };
 
@@ -62,6 +67,25 @@ function lerEvento(b = {}) {
   if (v.site && !/^https?:\/\//i.test(v.site)) return { erro: 'O site deve começar com http:// ou https://.' };
   if (v.contato_email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.contato_email)) return { erro: 'E-mail do contato inválido.' };
   return { v };
+}
+
+// Caderno do simulado nacional: amostra por área, proporcional ao peso de cada área no banco do exame.
+function montarCaderno(lista, exame, quantidade) {
+  const validas = lista.filter((q) => !q.anulada && q.gabarito && (exame === 'enamed' || q.exame === 'Revalida'));
+  const porArea = new Map();
+  for (const q of validas) (porArea.get(q.area) || porArea.set(q.area, []).get(q.area)).push(q);
+  const n = Math.min(quantidade, validas.length);
+  const cotas = [...porArea.entries()].map(([area, qs]) => ({ area, qs, cota: Math.floor((qs.length / validas.length) * n), resto: ((qs.length / validas.length) * n) % 1 }));
+  let faltam = n - cotas.reduce((s, c) => s + c.cota, 0);
+  for (const c of [...cotas].sort((a, b) => b.resto - a.resto)) { if (faltam <= 0) break; c.cota += 1; faltam -= 1; }
+  const escolhidas = [];
+  for (const c of cotas) {
+    const qs = [...c.qs];
+    for (let i = qs.length - 1; i > 0; i -= 1) { const j = randomInt(i + 1); [qs[i], qs[j]] = [qs[j], qs[i]]; }
+    escolhidas.push(...qs.slice(0, c.cota));
+  }
+  // Ordem da prova: agrupado por área, como no caderno do Inep.
+  return escolhidas.sort((a, b) => a.area.localeCompare(b.area) || a.id.localeCompare(b.id)).map((q) => q.id);
 }
 
 const POR_PAGINA = 50;
@@ -481,6 +505,102 @@ export function rotasAdmin({ banco, planos, mp, correio, config }) {
   r.post('/paraguai/:id/interacoes', async (req, res) => {
     if (!UNI_POR_ID.has(req.params.id)) return res.status(404).json({ erro: 'Universidade não encontrada.' });
     return registrarInteracao(req, res, 'paraguai', req.params.id);
+  });
+
+  // ---- Simulado nacional: edições, participantes e ranking por faculdade.
+  r.get('/nacional', async (_req, res) => {
+    const lista = await banco.varios(`SELECT s.id, s.nome, s.exame, s.inicio, s.fim, s.duracao_min, s.publicado, jsonb_array_length(s.questoes) AS questoes,
+        count(p.usuario_id) FILTER (WHERE p.enviado_em IS NOT NULL)::int AS entregues, count(p.usuario_id)::int AS iniciados,
+        round(avg(p.nota) FILTER (WHERE p.enviado_em IS NOT NULL AND p.no_tempo), 2) AS media
+      FROM simulados_nacionais s LEFT JOIN simulado_participacoes p ON p.simulado_id = s.id GROUP BY s.id ORDER BY s.inicio DESC`);
+    res.json({ simulados: lista });
+  });
+
+  r.post('/nacional', async (req, res) => {
+    const b = req.body || {};
+    const nome = String(b.nome || '').trim().slice(0, 160);
+    const exame = String(b.exame || '');
+    const quantidade = Number(b.quantidade || 100);
+    const duracao = Number(b.duracaoMin || Math.round(quantidade * 3));
+    const inicio = new Date(b.inicio);
+    const fim = new Date(b.fim);
+    if (nome.length < 3) return res.status(400).json({ erro: 'Dê um nome ao simulado.' });
+    if (!['enamed', 'revalida'].includes(exame)) return res.status(400).json({ erro: 'Escolha ENAMED ou Revalida.' });
+    if (!Number.isInteger(quantidade) || quantidade < 10 || quantidade > 120) return res.status(400).json({ erro: 'O caderno deve ter de 10 a 120 questões.' });
+    if (!Number.isInteger(duracao) || duracao < 10 || duracao > 600) return res.status(400).json({ erro: 'Duração inválida.' });
+    if (Number.isNaN(inicio.getTime()) || Number.isNaN(fim.getTime()) || fim <= inicio) return res.status(400).json({ erro: 'Confira o início e o fim da janela.' });
+    const questoes = montarCaderno(bancoQuestoes(config).lista, exame, quantidade);
+    if (questoes.length < 10) return res.status(500).json({ erro: 'Banco de questões indisponível no servidor.' });
+    const s = await banco.um(`INSERT INTO simulados_nacionais (nome, exame, inicio, fim, duracao_min, questoes, criado_por) VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING *`,
+      [nome, exame, inicio, fim, duracao, JSON.stringify(questoes), req.usuario.id]);
+    await auditar(req, 'nacional_criado', s.id, { nome, exame, questoes: questoes.length });
+    res.status(201).json({ simulado: s });
+  });
+
+  r.put('/nacional/:id', async (req, res) => {
+    if (!UUID.test(req.params.id)) return res.status(404).json({ erro: 'Simulado não encontrado.' });
+    const b = req.body || {};
+    const fim = b.fim ? new Date(b.fim) : null;
+    if (fim && Number.isNaN(fim.getTime())) return res.status(400).json({ erro: 'Data de fim inválida.' });
+    const s = await banco.um(`UPDATE simulados_nacionais SET publicado = COALESCE($2, publicado), fim = COALESCE($3, fim) WHERE id = $1 AND COALESCE($3, fim) > inicio RETURNING *`,
+      [req.params.id, typeof b.publicado === 'boolean' ? b.publicado : null, fim]);
+    if (!s) return res.status(400).json({ erro: 'Simulado não encontrado ou fim antes do início.' });
+    res.json({ simulado: s });
+  });
+
+  r.get('/nacional/:id', async (req, res) => {
+    if (!UUID.test(req.params.id)) return res.status(404).json({ erro: 'Simulado não encontrado.' });
+    const s = await banco.um('SELECT id, nome, exame, inicio, fim, duracao_min, publicado, jsonb_array_length(questoes) AS questoes FROM simulados_nacionais WHERE id = $1', [req.params.id]);
+    if (!s) return res.status(404).json({ erro: 'Simulado não encontrado.' });
+    // No admin, todas as faculdades aparecem (sem o mínimo de participantes do ranking público).
+    const porFaculdade = await banco.varios(`SELECT faculdade, count(*)::int AS participantes, round(avg(nota), 2) AS media, max(nota) AS melhor
+      FROM simulado_participacoes WHERE simulado_id = $1 AND enviado_em IS NOT NULL AND no_tempo GROUP BY faculdade ORDER BY avg(nota) DESC`, [s.id]);
+    const ranking = await rankingDe(banco, s.id);
+    if (req.query.formato === 'csv') {
+      const linhas = await banco.varios(`SELECT u.nome, u.email, p.faculdade, u.faculdade_outra, p.etapa, p.nota, p.acertos, p.total, p.no_tempo, p.enviado_em
+        FROM simulado_participacoes p JOIN usuarios u ON u.id = p.usuario_id WHERE p.simulado_id = $1 AND p.enviado_em IS NOT NULL ORDER BY p.nota DESC`, [s.id]);
+      res.type('text/csv; charset=utf-8').attachment('simulado-nacional.csv');
+      return res.send('﻿' + csv([['Nome', 'E-mail', 'Faculdade', 'Etapa', 'Nota', 'Acertos', 'Questões', 'No tempo', 'Entregue em'],
+        ...linhas.map((l) => [l.nome, l.email, nomeFaculdade(l.faculdade, l.faculdade_outra), l.etapa, l.nota, l.acertos, l.total, l.no_tempo ? 'sim' : 'não', l.enviado_em?.toISOString()])]));
+    }
+    res.json({ simulado: s, ranking, porFaculdade: porFaculdade.map((f) => ({ ...f, nome: nomeFaculdade(f.faculdade) })) });
+  });
+
+  // ---- Relatório da turma: faculdades com alunos cadastrados, relatório e link de leitura para a coordenação.
+  const FACULDADE = /^(br:[0-9]{1,10}|py:[a-z0-9-]{2,40})$/;
+  r.get('/turmas', async (_req, res) => {
+    const lista = await banco.varios(`SELECT faculdade, count(*)::int AS alunos, count(*) FILTER (WHERE compartilhar_faculdade)::int AS autorizaram,
+        count(*) FILTER (WHERE etapa IN ('1', '2', '3', '4'))::int AS ate_quarto, count(*) FILTER (WHERE etapa IN ('5', '6'))::int AS internato
+      FROM usuarios WHERE faculdade IS NOT NULL AND faculdade <> 'outra' AND papel = 'aluno' AND excluido_em IS NULL GROUP BY faculdade ORDER BY count(*) DESC`);
+    const links = await banco.varios('SELECT faculdade, count(*)::int AS ativos FROM relatorio_links WHERE revogado_em IS NULL AND expira_em > now() GROUP BY faculdade');
+    const porFac = new Map(links.map((l) => [l.faculdade, l.ativos]));
+    res.json({ turmas: lista.map((t) => ({ ...t, nome: nomeFaculdade(t.faculdade), links: porFac.get(t.faculdade) || 0 })) });
+  });
+
+  r.get('/turmas/:faculdade', async (req, res) => {
+    if (!FACULDADE.test(req.params.faculdade)) return res.status(404).json({ erro: 'Faculdade não encontrada.' });
+    const relatorio = await relatorioTurma(banco, config, req.params.faculdade);
+    const links = await banco.varios('SELECT id, criado_em, expira_em, revogado_em FROM relatorio_links WHERE faculdade = $1 ORDER BY criado_em DESC LIMIT 20', [req.params.faculdade]);
+    res.json({ relatorio, links });
+  });
+
+  // Link de leitura para a coordenação: o token aparece uma vez só; guardamos apenas o hash.
+  r.post('/turmas/:faculdade/link', async (req, res) => {
+    if (!FACULDADE.test(req.params.faculdade)) return res.status(404).json({ erro: 'Faculdade não encontrada.' });
+    const dias = Math.min(Math.max(Number(req.body?.dias) || 90, 1), 365);
+    const token = novoToken();
+    const l = await banco.um(`INSERT INTO relatorio_links (token_hash, faculdade, expira_em, criado_por) VALUES ($1, $2, now() + make_interval(days => $3), $4) RETURNING id, expira_em`,
+      [hashToken(token), req.params.faculdade, dias, req.usuario.id]);
+    await auditar(req, 'relatorio_link', l.id, { faculdade: nomeFaculdade(req.params.faculdade), dias });
+    res.status(201).json({ link: `${config.urlBase}/relatorio/${token}`, expiraEm: l.expira_em });
+  });
+
+  r.post('/turmas/links/:id/revogar', async (req, res) => {
+    if (!UUID.test(req.params.id)) return res.status(404).json({ erro: 'Link não encontrado.' });
+    const l = await banco.um('UPDATE relatorio_links SET revogado_em = now() WHERE id = $1 AND revogado_em IS NULL RETURNING id, faculdade', [req.params.id]);
+    if (!l) return res.status(404).json({ erro: 'Link não encontrado.' });
+    await auditar(req, 'relatorio_link_revogado', l.id, { faculdade: nomeFaculdade(l.faculdade) });
+    res.json({ ok: true });
   });
 
   r.get('/auditoria', async (_req, res) => {

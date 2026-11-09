@@ -1,3 +1,4 @@
+import { faculdadeValida } from '../faculdades.js';
 import { Router } from 'express';
 import {
   hashSenha, conferirSenha, precisaRefazer, tempoDeSenhaFalsa, problemaDaSenha, novoToken, hashToken, emailValido,
@@ -92,6 +93,11 @@ export function rotasAutenticacao({ banco, config, correio, limitar }) {
     if (!SEXOS.includes(sexo)) return res.status(400).json({ erro: 'Informe o sexo.' });
     const etapa = String(req.body?.etapa || '');
     if (!ETAPAS.includes(etapa)) return res.status(400).json({ erro: 'Informe em que ano da faculdade ou do internato você está.' });
+    // Faculdade (opcional no cadastro; pedida de novo no simulado nacional) e consentimento para a coordenação ver o desempenho.
+    const faculdade = String(req.body?.faculdade || '') || null;
+    if (faculdade && !faculdadeValida(faculdade)) return res.status(400).json({ erro: 'Escolha a sua faculdade na lista ou marque "Outra".' });
+    const faculdadeOutra = faculdade === 'outra' ? String(req.body?.faculdadeOutra || '').trim().slice(0, 160) || null : null;
+    const compartilhar = !!faculdade && req.body?.compartilharFaculdade === true;
     if (req.body?.aceite !== true) return res.status(400).json({ erro: 'Para criar a conta, aceite os Termos de Uso e a Política de Privacidade.' });
     if (await banco.um('SELECT 1 FROM usuarios WHERE lower(email) = $1', [email])) {
       return res.status(409).json({ erro: 'Já existe uma conta com este e-mail. Entre com sua senha.' });
@@ -101,9 +107,9 @@ export function rotasAutenticacao({ banco, config, correio, limitar }) {
     const idIndicador = lerCookie(req, COOKIE_INDICACAO);
     const indicador = /^[0-9a-f-]{36}$/i.test(idIndicador || '') ? await banco.um('SELECT id FROM usuarios WHERE id = $1 AND excluido_em IS NULL', [idIndicador]) : null;
     const origem = indicador ? 'indicacao' : String(req.body?.origem || '').replace(/[^\w.:-]/g, '').slice(0, 60) || null;
-    const u = await banco.um(`INSERT INTO usuarios (nome, email, senha_hash, papel, aceite_termos_em, indicado_por, origem, telefone, sexo, etapa)
-      VALUES ($1, $2, $3, $4, now(), $5, $6, $7, $8, $9) RETURNING id`,
-      [nome, email, await hashSenha(senha), papel, indicador?.id || null, origem, telefone, sexo, etapa]);
+    const u = await banco.um(`INSERT INTO usuarios (nome, email, senha_hash, papel, aceite_termos_em, indicado_por, origem, telefone, sexo, etapa, faculdade, faculdade_outra, compartilhar_faculdade)
+      VALUES ($1, $2, $3, $4, now(), $5, $6, $7, $8, $9, $10, $11, $12) RETURNING id`,
+      [nome, email, await hashSenha(senha), papel, indicador?.id || null, origem, telefone, sexo, etapa, faculdade, faculdadeOutra, compartilhar]);
     if (indicador) res.clearCookie(COOKIE_INDICACAO, { path: '/' });
     await codigoDoAluno(banco, { id: u.id, nome });
     await abrirSessao(req, res, u.id);

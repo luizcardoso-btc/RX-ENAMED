@@ -1493,3 +1493,25 @@ h1, h2, h3 { font-family: var(--f-display); }
 .rota-fases li.atual .rota-num { background: var(--acento); color: #06141B; border-color: var(--acento); }
 .rota-meta { display: grid; gap: 4px; margin-top: 8px; }
 @media (max-width: 860px) { .rota-fases { grid-template-columns: 1fr; } }
+
+/* Simulado nacional */
+.tela-nacional { display: grid; gap: 16px; }
+.nacional-faculdade { display: grid; gap: 10px; max-width: 640px; }
+.nacional-faculdade h2 { margin: 0; }
+.nacional-faculdade input:not([type=checkbox]) { width: 100%; }
+.linha-check { display: flex; gap: 8px; align-items: flex-start; font-size: .9rem; color: var(--tinta-2); }
+.nacional-lista { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+.nacional-cartao h2 { margin: 8px 0 4px; font-size: 1.2rem; }
+.selo-situacao { display: inline-block; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; padding: 3px 9px; border-radius: 99px; background: var(--folha-2); color: var(--tinta-2); }
+.selo-situacao.aberto { background: var(--acento-suave); color: var(--realce); }
+.nacional-ranking { display: grid; gap: 14px; }
+.grade-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.grade-kpis .cartao { display: grid; gap: 4px; }
+.nacional-colunas { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.ranking-lista { margin: 0; padding-left: 22px; display: grid; gap: 8px; }
+.ranking-lista li { display: grid; grid-template-columns: 1fr auto auto; gap: 10px; align-items: center; }
+.ranking-lista li.voce { color: var(--realce); font-weight: 700; }
+.lista-areas { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.lista-areas li { display: grid; grid-template-columns: 1fr auto 60px; gap: 10px; }
+.aviso-nacional { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; padding: 12px 14px; border: 1px solid var(--acento-borda); background: var(--acento-suave); border-radius: 10px; }
+@media (max-width: 760px) { .nacional-colunas { grid-template-columns: 1fr; } }

@@ -3,6 +3,7 @@ import { useApp, Questao, Icone, Numero, ListaBarras, Confirmar, Selo, AvisoLimi
 import { AREAS, infoArea, idEdicao } from '../data.js';
 import { ultimaResposta } from '../progresso.js';
 import { embaralhar, formatarTempo, formatarDuracao, formatarData, formatarPct, pct, plural } from '../util.js';
+import { enviarNacional } from './Nacional.jsx';
 import { t } from '../i18n.js';
 
 const SEGUNDOS_POR_QUESTAO = 180; // 5 horas para 100 questões, como no Revalida
@@ -154,7 +155,7 @@ function Historico({ abrir }) {
 }
 
 function Resultado({ resultado, voltar }) {
-  const { iniciarSessao } = useApp();
+  const { iniciarSessao, ir } = useApp();
   const itens = AREAS.filter((a) => resultado.porArea[a.nome]).map((a) => {
     const r = resultado.porArea[a.nome];
     return { chave: a.nome, rotulo: t(a.curto), cor: a.cor, valor: pct(r.certas, r.validas),
@@ -165,6 +166,9 @@ function Resultado({ resultado, voltar }) {
     <section className="resultado-simulado">
       <span className="sobretitulo">{t('Resultado')} · {formatarData(resultado.fim)}</span>
       <h2>{resultado.titulo}</h2>
+      {resultado.tipo === 'nacional' && (
+        <p className="aviso-nacional">{t('Simulado nacional entregue. A nota oficial e a sua posição no ranking estão na aba Simulado nacional.')} <button className="botao botao-primario botao-pequeno" onClick={() => ir('nacional')}>{t('Ver ranking')}</button></p>
+      )}
       <div className="numeros">
         <Numero rotulo={t('Acertos')} valor={formatarPct(resultado.certas, resultado.validas)}
           detalhe={t('{n} de {q}', { n: resultado.certas, q: plural(resultado.validas, 'questão válida', 'questões válidas') })} />
@@ -205,6 +209,8 @@ function EmAndamento({ sim, aoFinalizar }) {
     const resultado = resultadoDe(sim, banco, fim);
     const corretas = Object.fromEntries(sim.ids.filter((id) => !banco.porId[id].anulada).map((id) => [id, banco.porId[id].gabarito]));
     despachar({ tipo: 'finalizarSimulado', resultado, corretas });
+    // Simulado nacional: a nota oficial e o ranking vêm do servidor (se falhar, fica pendente e é reenviado).
+    if (sim.nacional) enviarNacional(sim.nacional.id, sim.respostas).catch(() => {});
     aoFinalizar(resultado.id);
   };
 
@@ -231,7 +237,7 @@ function EmAndamento({ sim, aoFinalizar }) {
           <span className={`cronometro ${restante < 600 ? 'alerta' : ''}`} role="timer" aria-label={t('Tempo restante')}>
             <Icone nome="relogio" tamanho={16} /> {formatarTempo(restante)}
           </span>
-          <button className="botao" onClick={pausar}>{t(pausado ? 'Retomar' : 'Pausar')}</button>
+          {!sim.nacional && <button className="botao" onClick={pausar}>{t(pausado ? 'Retomar' : 'Pausar')}</button>}
           <button className="botao botao-primario" onClick={() => setConfirmar('entregar')}>{t('Entregar')}</button>
         </div>
       </div>
@@ -258,7 +264,7 @@ function EmAndamento({ sim, aoFinalizar }) {
             <li><span className="amostra duvida" />{t('Com dúvida')}</li>
             <li><span className="amostra" />{t('Em branco')}</li>
           </ul>
-          <button className="botao-texto perigo" onClick={() => setConfirmar('descartar')}>{t('Descartar simulado')}</button>
+          {!sim.nacional && <button className="botao-texto perigo" onClick={() => setConfirmar('descartar')}>{t('Descartar simulado')}</button>}
         </aside>
 
         <div className="simulado-questao">

@@ -9,6 +9,7 @@ import Painel from './telas/Painel.jsx';
 import Banco from './telas/Banco.jsx';
 import Treino from './telas/Treino.jsx';
 import Simulado from './telas/Simulado.jsx';
+import Nacional from './telas/Nacional.jsx';
 import Revisao from './telas/Revisao.jsx';
 import Desempenho from './telas/Desempenho.jsx';
 import RaioX from './telas/RaioX.jsx';
@@ -37,6 +38,7 @@ const ROTAS = {
   questoes: { titulo: 'Questões', tela: Banco, icone: 'lista', grupo: 'Praticar' },
   flashcards: { titulo: 'Flashcards', tela: Flashcards, icone: 'cartas', grupo: 'Praticar' },
   simulado: { titulo: 'Simulado', tela: Simulado, icone: 'relogio', grupo: 'Praticar' },
+  nacional: { titulo: 'Simulado nacional', tela: Nacional, icone: 'alvo', grupo: 'Praticar' },
   pratica: { titulo: 'Prática', tela: Pratica, icone: 'pessoas', grupo: 'Praticar' },
   raiox: { titulo: 'Raio-X', tela: RaioX, icone: 'raiox', grupo: 'Acompanhar' },
   desempenho: { titulo: 'Desempenho', tela: Desempenho, icone: 'grafico', grupo: 'Acompanhar' },

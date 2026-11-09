@@ -6,6 +6,7 @@ import { rotasCheckout } from './rotas/checkout.js';
 import { rotasAvisos } from './rotas/avisos.js';
 import { rotasAdmin } from './rotas/admin.js';
 import { rotasProgresso } from './rotas/progresso.js';
+import { rotasNacional } from './rotas/nacional.js';
 import { criarCorreio } from './email.js';
 import { criarLimitador } from './limitador.js';
 import { contarVisitas } from './metas.js';
@@ -121,6 +122,7 @@ export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ b
   app.use('/api', rotasCheckout({ banco, config, planos, mp, correio, limitar }));
   app.use('/api', rotasAvisos({ banco, config, planos, mp, correio }));
   app.use('/api', rotasProgresso({ banco }));
+  app.use('/api', rotasNacional({ banco, config, limitar }));
   app.use('/api', rotasIndicacao({ banco, config }));
   app.use('/api', rotasIa({ banco, config, limitar, cliente: ia }));
   app.use('/api', rotasResidencia({ config }));
@@ -171,6 +173,8 @@ export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ b
       res.type('html').send(paginaVersionada(arquivo));
     });
   }
+  // Relatório da turma pelo link da coordenação (a página busca os dados em /api/relatorio/<token>).
+  app.get('/relatorio/:token', (_req, res) => { res.set({ 'Cache-Control': 'no-store', 'X-Robots-Tag': 'noindex', 'Referrer-Policy': 'no-referrer' }); res.type('html').send(paginaVersionada('relatorio.html')); });
   app.get('/.well-known/security.txt', (_req, res) => res.type('text/plain').send(
     `Contact: mailto:${config.email.responderPara || 'contato@rxenamed.com.br'}\nExpires: ${new Date(Date.now() + 365 * 86400000).toISOString()}\nPreferred-Languages: pt, es, en\n`));
   // Área do aluno restrita: a plataforma e os dados dela (questões, comentários, aulas) só abrem com a conta logada.

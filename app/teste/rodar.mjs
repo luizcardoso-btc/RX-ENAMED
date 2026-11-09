@@ -609,7 +609,7 @@ try {
   for (const [rota, titulo] of [['curso', 'Curso completo del ENAMED'], ['trilha', 'Su ruta hasta el ENAMED'],
     ['questoes', 'Preguntas oficiales del Inep'], ['flashcards', 'Memorice lo que más aparece'], ['simulado', 'Practique con tiempo de examen'],
     ['pratica', 'Prueba de habilidades clínicas'], ['cronograma', 'Su semana de estudio'], ['raiox', 'Lo que evalúa el Inep, pregunta por pregunta'], ['desempenho', 'Su rendimiento']]) {
-    await es.getByRole('navigation', { name: 'Secciones' }).getByRole('button').nth(['painel', 'desafio', 'cronograma', 'curso', 'trilha', 'simulador', 'questoes', 'flashcards', 'simulado', 'pratica', 'raiox', 'desempenho'].indexOf(rota)).click();
+    await es.getByRole('navigation', { name: 'Secciones' }).getByRole('button').nth(['painel', 'desafio', 'cronograma', 'curso', 'trilha', 'simulador', 'questoes', 'flashcards', 'simulado', 'nacional', 'pratica', 'raiox', 'desempenho'].indexOf(rota)).click();
     await es.getByRole('heading', { name: titulo }).waitFor();
     await verificarLargura(es, `es-${rota}`);
   }
@@ -637,7 +637,7 @@ try {
   await es.getByRole('button', { name: /^Estudiar/ }).click();
   await es.getByRole('button', { name: /Mostrar respuesta/ }).click();
   await es.getByRole('button', { name: /Bien/ }).click();
-  await es.getByRole('navigation', { name: 'Secciones' }).getByRole('button', { name: 'Simulacro' }).click();
+  await es.getByRole('navigation', { name: 'Secciones' }).getByRole('button', { name: 'Simulacro', exact: true }).click();
   await es.getByRole('button', { name: /Empezar examen de 5 horas/ }).click();
   await es.locator('.paleta').waitFor();
   await es.getByRole('button', { name: 'Entregar' }).first().click();

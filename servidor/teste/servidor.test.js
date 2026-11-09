@@ -693,3 +693,90 @@ test('plano ENAMED 4º ano: só para quem está até o 4º ano', async () => {
   const ok = await quarto.post('/api/checkout/pagar', { plano: 'enamed-4ano', metodo: 'pix', cpf: '52998224725' });
   assert.notEqual(ok.status, 403, JSON.stringify(ok.corpo));
 });
+
+test('simulado nacional: correção no servidor, ranking por faculdade e relatório da turma', async () => {
+  const { readFileSync } = await import('node:fs');
+  const banco_q = JSON.parse(readFileSync(new URL('../../app/public/data/questoes.json', import.meta.url), 'utf8')).questoes;
+  const gab = new Map(banco_q.map((q) => [q.id, q]));
+  const adm = cliente();
+  await adm.post('/api/entrar', { email: 'admin@rx.test', senha: 'senha-forte-1' });
+  const { codigoTotp } = await import('../src/seguranca.js');
+  const seg = (await banco.um(`SELECT totp_segredo FROM usuarios WHERE email = 'admin@rx.test'`)).totp_segredo;
+  await adm.post('/api/2fa/verificar', { codigo: codigoTotp(seg) });
+  const agora = Date.now();
+  assert.equal((await adm.post('/api/admin/nacional', { nome: 'X', exame: 'enamed' })).status, 400);
+  const criado = await adm.post('/api/admin/nacional', { nome: 'Nacional teste', exame: 'enamed', quantidade: 20, duracaoMin: 60, inicio: new Date(agora - 60000).toISOString(), fim: new Date(agora + 3600000).toISOString() });
+  assert.equal(criado.status, 201, JSON.stringify(criado.corpo));
+  const sim = criado.corpo.simulado;
+  assert.equal(sim.questoes.length, 20);
+  assert.ok(sim.questoes.every((id) => gab.get(id)?.gabarito && !gab.get(id).anulada), 'só questões válidas no caderno');
+  assert.ok(new Set(sim.questoes.map((id) => gab.get(id).area)).size >= 4, 'caderno com várias áreas');
+
+  // Faculdade: lista pública, cadastro com faculdade inválida recusado.
+  const { faculdades } = (await cliente().get('/api/faculdades')).corpo;
+  assert.ok(faculdades.length > 400 && faculdades.some((f) => f.codigo.startsWith('py:')));
+  const unb = faculdades.find((f) => /Brasília/.test(f.nome) && f.codigo.startsWith('br:'));
+  assert.equal((await cliente().post('/api/cadastro', { nome: 'Fac Errada', email: 'fac-errada@rx.test', senha: 'senha-forte-1', aceite: true, ...FICHA, faculdade: 'br:0' })).status, 400);
+
+  const semFac = cliente();
+  await semFac.post('/api/cadastro', { nome: 'Sem Faculdade', email: 'sem-fac@rx.test', senha: 'senha-forte-1', aceite: true, ...FICHA });
+  const r409 = await semFac.post(`/api/nacional/${sim.id}/iniciar`, {});
+  assert.equal(r409.status, 409);
+  assert.equal(r409.corpo.codigo, 'faculdade');
+
+  // Três alunos da mesma faculdade: notas 100%, 50% e 0%.
+  const notas = [];
+  for (const [i, fracao] of [1, 0.5, 0].entries()) {
+    const c = cliente();
+    await c.post('/api/cadastro', { nome: `Aluno Nacional ${i}`, email: `nacional${i}@rx.test`, senha: 'senha-forte-1', aceite: true, ...FICHA, etapa: '4', faculdade: unb.codigo, compartilharFaculdade: i === 0 });
+    const ini = await c.post(`/api/nacional/${sim.id}/iniciar`, {});
+    assert.equal(ini.status, 200, JSON.stringify(ini.corpo));
+    const respostas = Object.fromEntries(ini.corpo.questoes.map((id, k) => [id, k < ini.corpo.questoes.length * fracao ? gab.get(id).gabarito : (gab.get(id).gabarito === 'A' ? 'B' : 'A')]));
+    respostas.inventada = 'A';
+    const env = await c.post(`/api/nacional/${sim.id}/enviar`, { respostas });
+    assert.equal(env.status, 200, JSON.stringify(env.corpo));
+    notas.push(env.corpo.resultado.nota);
+    assert.equal((await c.post(`/api/nacional/${sim.id}/enviar`, { respostas })).status, 409, 'uma entrega por aluno');
+    if (i === 2) {
+      const rk = env.corpo.ranking;
+      assert.equal(rk.participantes, 3);
+      assert.equal(rk.posicao, 3);
+      assert.equal(rk.faculdades.length, 1, 'faculdade com 3 participantes entra no ranking');
+      assert.equal(rk.faculdades[0].media, 50, JSON.stringify(rk));
+      assert.ok(rk.top.every((x) => !/@/.test(x.nome) && x.nome.split(' ').length <= 2), 'nome curto, sem e-mail');
+    }
+  }
+  assert.deepEqual(notas, [100, 50, 0]);
+  const lista = (await cliente().get('/api/nacional')).corpo.simulados;
+  assert.ok(lista.some((s) => s.id === sim.id && s.situacao === 'aberto' && s.participantes === 3));
+  const det = (await adm.get(`/api/admin/nacional/${sim.id}`)).corpo;
+  assert.equal(det.porFaculdade[0].participantes, 3);
+  assert.match((await adm.get(`/api/admin/nacional/${sim.id}?formato=csv`)).corpo, /nacional0@rx.test/);
+
+  // Relatório da turma e link da coordenação: números de todos, nome só de quem autorizou.
+  const turmas = (await adm.get('/api/admin/turmas')).corpo.turmas;
+  const t = turmas.find((x) => x.faculdade === unb.codigo);
+  assert.equal(t.alunos, 3);
+  assert.equal(t.autorizaram, 1);
+  const rel = (await adm.get(`/api/admin/turmas/${encodeURIComponent(unb.codigo)}`)).corpo.relatorio;
+  assert.equal(rel.alunos, 3);
+  assert.equal(rel.individuais.length, 1);
+  assert.equal(rel.individuais[0].nome, 'Aluno Nacional 0');
+  assert.equal(rel.nacionais[0].participantes, 3);
+  const link = await adm.post(`/api/admin/turmas/${encodeURIComponent(unb.codigo)}/link`, { dias: 30 });
+  assert.equal(link.status, 201);
+  const token = link.corpo.link.split('/relatorio/')[1];
+  const publico = await cliente().get(`/api/relatorio/${token}`);
+  assert.equal(publico.status, 200);
+  assert.equal(publico.corpo.relatorio.alunos, 3);
+  assert.ok(!JSON.stringify(publico.corpo).includes('@rx.test'), 'o relatório nunca mostra e-mail');
+  const pagina = await cliente().get(`/relatorio/${token}`);
+  assert.equal(pagina.status, 200);
+  const links = (await adm.get(`/api/admin/turmas/${encodeURIComponent(unb.codigo)}`)).corpo.links;
+  await adm.post(`/api/admin/turmas/links/${links[0].id}/revogar`, {});
+  assert.equal((await cliente().get(`/api/relatorio/${token}`)).status, 404, 'link revogado');
+  assert.equal((await cliente().get('/api/relatorio/curto')).status, 404);
+  const aluno = cliente();
+  await aluno.post('/api/entrar', { email: 'nacional1@rx.test', senha: 'senha-forte-1' });
+  assert.equal((await aluno.get('/api/admin/turmas')).status, 403);
+});

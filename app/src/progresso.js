@@ -61,6 +61,7 @@ export function reducer(estado, acao) {
       return { ...estado, notas: acao.texto.trim() ? { ...resto, [acao.id]: acao.texto } : resto };
     }
     case 'iniciarSimulado':
+      if (acao.simulado.tipo === 'nacional') return { ...estado, simuladoAtivo: acao.simulado };
       return { ...estado, simuladoAtivo: acao.simulado, simuladosIniciados: [...(estado.simuladosIniciados || []), acao.simulado.inicio].slice(-50) };
     case 'atualizarSimulado':
       return estado.simuladoAtivo ? { ...estado, simuladoAtivo: { ...estado.simuladoAtivo, ...acao.dados } } : estado;

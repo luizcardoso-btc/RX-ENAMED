@@ -20,8 +20,9 @@ export const inicioDoMes = (agora = Date.now()) => {
 export function simuladosNoMes(progresso, agora = Date.now()) {
   const inicio = inicioDoMes(agora);
   const vistos = new Set((progresso.simuladosIniciados || []).filter((t) => t >= inicio));
-  for (const s of progresso.simulados) if ((s.inicio ?? s.fim) >= inicio) vistos.add(s.inicio ?? s.fim);
-  if (progresso.simuladoAtivo?.inicio >= inicio) vistos.add(progresso.simuladoAtivo.inicio);
+  // O simulado nacional é gratuito e não conta no limite do mês.
+  for (const s of progresso.simulados) if (s.tipo !== 'nacional' && (s.inicio ?? s.fim) >= inicio) vistos.add(s.inicio ?? s.fim);
+  if (progresso.simuladoAtivo?.tipo !== 'nacional' && progresso.simuladoAtivo?.inicio >= inicio) vistos.add(progresso.simuladoAtivo.inicio);
   return vistos.size;
 }
 
