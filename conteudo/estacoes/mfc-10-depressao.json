@@ -1,0 +1,180 @@
+{
+  "id": "mfc-10-depressao",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Saúde mental",
+  "titulo": "Desânimo e tristeza",
+  "tema": "Episódio depressivo na APS",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde com equipe multiprofissional (psicologia) e CAPS de referência.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Adriana Cardoso",
+    "idade": 38,
+    "sexo": "feminino",
+    "ocupacao": "caixa de supermercado",
+    "perfil": "Fala baixo, chora durante a consulta. Responde quando perguntada com calma.",
+    "abertura": "Doutor, eu não estou bem. Não tenho vontade de nada.",
+    "roteiro": [
+      {
+        "topico": "Duração",
+        "resposta": "Faz uns 3 meses que estou assim, quase todo dia."
+      },
+      {
+        "topico": "Humor",
+        "resposta": "Me sinto triste e vazia a maior parte do dia."
+      },
+      {
+        "topico": "Prazer",
+        "resposta": "Não tenho prazer em nada, nem em sair com os meus filhos."
+      },
+      {
+        "topico": "Sono",
+        "resposta": "Acordo às 4 da manhã e não durmo mais."
+      },
+      {
+        "topico": "Apetite e peso",
+        "resposta": "Perdi o apetite e uns 5 quilos."
+      },
+      {
+        "topico": "Energia e concentração",
+        "resposta": "Vivo cansada. Erro o troco no trabalho por falta de atenção."
+      },
+      {
+        "topico": "Culpa",
+        "resposta": "Sinto que sou uma péssima mãe."
+      },
+      {
+        "topico": "Ideias de morte (se perguntado)",
+        "resposta": "Às vezes penso que seria melhor dormir e não acordar. Não tenho plano e não tentei nada. Penso nos meus filhos."
+      },
+      {
+        "topico": "Desencadeante",
+        "resposta": "Meu casamento acabou há 6 meses e estou com dívidas."
+      },
+      {
+        "topico": "Episódios anteriores e euforia",
+        "resposta": "Tive uma tristeza assim depois do parto do meu segundo filho. Nunca tive fase de euforia, sem dormir e gastando muito."
+      },
+      {
+        "topico": "Álcool e drogas",
+        "resposta": "Tenho tomado uma taça de vinho para dormir."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doenças. Não tomo remédio."
+      },
+      {
+        "topico": "Rede de apoio",
+        "resposta": "Minha mãe ajuda com as crianças."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Minha mãe teve depressão."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Esse remédio vicia? Vou ficar dopada?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 116 x 72 mmHg, FC 78 bpm, peso 58 kg."
+    },
+    {
+      "item": "Exame do estado mental",
+      "achado": "Vígil, orientada, higiene preservada, humor deprimido, choro fácil, pensamento lentificado sem conteúdo delirante, sem alterações de sensopercepção, com crítica."
+    },
+    {
+      "item": "Tireoide",
+      "achado": "Sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "PHQ-9",
+      "resultado": "17 pontos: depressão moderadamente grave."
+    },
+    {
+      "item": "TSH, hemograma e glicemia",
+      "resultado": "Normais."
+    }
+  ],
+  "diagnostico": "Episódio depressivo moderado a grave (critérios do DSM-5 presentes por mais de 2 semanas), com ideação de morte passiva sem plano, sem história de mania.",
+  "condutaEsperada": [
+    "Acolher, validar o sofrimento e explicar que a depressão é uma doença tratável.",
+    "Avaliar o risco de suicídio (ideação, plano, tentativas, acesso a meios, fatores de proteção) e fazer um plano de segurança com a paciente e a rede de apoio.",
+    "Afastar causas orgânicas (TSH) e transtorno bipolar (história de mania) antes do antidepressivo.",
+    "Antidepressivo ISRS (por exemplo, sertralina 50 mg ou fluoxetina 20 mg pela manhã), explicando a latência de 2 a 4 semanas e os efeitos adversos iniciais.",
+    "Psicoterapia (psicologia da equipe), atividade física, higiene do sono, reduzir o álcool; atestado se necessário.",
+    "Retorno em 2 semanas; manter o tratamento por 6 a 12 meses após a melhora; encaminhar ao CAPS se houver risco alto ou piora."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe com escuta ativa.",
+      "peso": 1
+    },
+    {
+      "id": "criterios",
+      "item": "Investiga os critérios de depressão (humor, anedonia, sono, apetite, energia, concentração, culpa).",
+      "peso": 1.5
+    },
+    {
+      "id": "duracao",
+      "item": "Define a duração e o impacto funcional.",
+      "peso": 0.5
+    },
+    {
+      "id": "suicidio",
+      "item": "Pergunta diretamente sobre ideação suicida, plano e tentativas.",
+      "peso": 2
+    },
+    {
+      "id": "bipolaridade",
+      "item": "Investiga episódios de mania ou hipomania.",
+      "peso": 1
+    },
+    {
+      "id": "substancias",
+      "item": "Investiga uso de álcool e drogas e causas orgânicas.",
+      "peso": 0.5
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica episódio depressivo e classifica a gravidade.",
+      "peso": 1
+    },
+    {
+      "id": "tratamento",
+      "item": "Prescreve ISRS e indica psicoterapia, explicando a latência.",
+      "peso": 1.5
+    },
+    {
+      "id": "seguimento",
+      "item": "Combina retorno breve e o plano de segurança.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Cadernos de Atenção Básica nº 34: Saúde mental.",
+    "OMS. Guia de intervenção mhGAP, versão 2.0."
+  ]
+}

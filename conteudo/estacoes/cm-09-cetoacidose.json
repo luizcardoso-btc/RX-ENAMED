@@ -1,0 +1,194 @@
+{
+  "id": "cm-09-cetoacidose",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Endocrinologia",
+  "titulo": "Vômitos, dor na barriga e muita sede",
+  "tema": "Cetoacidose diabética",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com gasometria, laboratório, bomba de infusão e leito de terapia intensiva.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Gabriela Reis",
+    "idade": 22,
+    "sexo": "feminino",
+    "ocupacao": "estudante universitária",
+    "perfil": "Prostrada, respirando fundo e rápido, com hálito adocicado. Responde devagar.",
+    "abertura": "Eu não paro de vomitar... e estou com muita sede.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Faz 2 dias que estou vomitando e com dor na barriga. Hoje piorou muito."
+      },
+      {
+        "topico": "Diabetes",
+        "resposta": "Tenho diabetes tipo 1 desde os 12 anos."
+      },
+      {
+        "topico": "Insulina",
+        "resposta": "Uso insulina NPH e regular. A insulina acabou há 4 dias e eu não consegui pegar no posto."
+      },
+      {
+        "topico": "Sede e urina",
+        "resposta": "Muita sede e urinando toda hora."
+      },
+      {
+        "topico": "Infecção",
+        "resposta": "Tive diarreia no fim de semana, comi algo estragado. Ardência para urinar não tenho."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Senti um pouco de calor, mas não medi."
+      },
+      {
+        "topico": "Dor abdominal",
+        "resposta": "Uma dor difusa na barriga toda."
+      },
+      {
+        "topico": "Glicemia em casa",
+        "resposta": "O aparelho só mostrava \"HI\"."
+      },
+      {
+        "topico": "Episódios anteriores",
+        "resposta": "Já internei com cetoacidose aos 15 anos."
+      },
+      {
+        "topico": "Gravidez",
+        "resposta": "Não estou grávida. A menstruação veio há 2 semanas."
+      },
+      {
+        "topico": "Álcool e drogas",
+        "resposta": "Não bebo nem uso drogas."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 98 x 60 mmHg, FC 124 bpm, FR 30 irpm (respiração de Kussmaul), SatO2 98%, temperatura 37,4 °C, peso 55 kg."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Sonolenta mas orientada, mucosas muito secas, hálito cetônico, enchimento capilar de 3 segundos."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Doloroso difusamente, sem sinais de irritação peritoneal, ruídos hidroaéreos diminuídos."
+    },
+    {
+      "item": "Aparelho respiratório e cardiovascular",
+      "achado": "Murmúrio vesicular presente, sem ruídos. Taquicárdica, bulhas normais."
+    },
+    {
+      "item": "Exame neurológico",
+      "achado": "Glasgow 14, sem déficit focal."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Glicemia",
+      "resultado": "486 mg/dL."
+    },
+    {
+      "item": "Gasometria venosa",
+      "resultado": "pH 7,12, pCO2 18 mmHg, bicarbonato 8 mEq/L."
+    },
+    {
+      "item": "Eletrólitos, ureia e creatinina",
+      "resultado": "Sódio 131, potássio 5,1, cloro 96 mEq/L (ânion gap de 27), ureia 58 mg/dL, creatinina 1,4 mg/dL."
+    },
+    {
+      "item": "Cetonas",
+      "resultado": "Beta-hidroxibutirato 6,2 mmol/L. Cetonúria +++."
+    },
+    {
+      "item": "Hemograma e urina tipo 1",
+      "resultado": "Leucócitos 16.000/mm³ sem desvio. Urina sem nitrito, glicosúria ++++."
+    },
+    {
+      "item": "Beta-hCG",
+      "resultado": "Negativo."
+    },
+    {
+      "item": "Eletrocardiograma",
+      "resultado": "Taquicardia sinusal, sem alterações de potássio."
+    }
+  ],
+  "diagnostico": "Cetoacidose diabética grave (pH abaixo de 7,0 a 7,24 com bicarbonato abaixo de 10) em diabetes tipo 1, desencadeada pela falta de insulina e gastroenterite.",
+  "condutaEsperada": [
+    "Monitorização e internação em terapia intensiva ou sala de emergência.",
+    "Hidratação: soro fisiológico 0,9% 15 a 20 mL/kg na primeira hora (cerca de 1 litro), depois conforme o sódio corrigido e a hemodinâmica.",
+    "Potássio de 5,1 mEq/L (entre 3,3 e 5,2): iniciar insulina e repor potássio (20 a 30 mEq por litro de soro); se fosse abaixo de 3,3, repor antes da insulina.",
+    "Insulina regular intravenosa contínua 0,1 U/kg/h; queda esperada da glicemia de 50 a 75 mg/dL por hora. Quando a glicemia chegar a 200 a 250 mg/dL, acrescentar soro glicosado e manter a insulina até resolver a cetoacidose.",
+    "Bicarbonato só se pH abaixo de 6,9. Glicemia capilar a cada hora e eletrólitos e gasometria a cada 2 a 4 horas.",
+    "Resolução: glicemia abaixo de 200 mg/dL e dois critérios (bicarbonato de 15 ou mais, pH acima de 7,3, ânion gap de 12 ou menos); transição para insulina subcutânea com sobreposição de 1 a 2 horas. Garantir o acesso à insulina e educação."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e reconhece a gravidade.",
+      "peso": 0.5
+    },
+    {
+      "id": "historia",
+      "item": "Caracteriza o quadro (vômitos, dor abdominal, poliúria, polidipsia) e o diabetes.",
+      "peso": 1
+    },
+    {
+      "id": "desencadeante",
+      "item": "Investiga o desencadeante (falta de insulina, infecção) e gravidez.",
+      "peso": 1
+    },
+    {
+      "id": "exames",
+      "item": "Solicita glicemia, gasometria, eletrólitos com ânion gap e cetonas.",
+      "peso": 1.5
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica cetoacidose diabética grave.",
+      "peso": 1
+    },
+    {
+      "id": "hidratacao",
+      "item": "Prescreve hidratação com soro fisiológico na primeira hora.",
+      "peso": 1.5
+    },
+    {
+      "id": "potassio",
+      "item": "Avalia o potássio antes da insulina e repõe corretamente.",
+      "peso": 1.5
+    },
+    {
+      "id": "insulina",
+      "item": "Prescreve insulina regular IV contínua 0,1 U/kg/h e soro glicosado quando a glicemia cair.",
+      "peso": 1.5
+    },
+    {
+      "id": "bicarbonato",
+      "item": "Não usa bicarbonato com pH acima de 6,9 e define critérios de resolução.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Diretriz da Sociedade Brasileira de Diabetes, 2024: cetoacidose diabética.",
+    "ADA. Hyperglycemic crises in adults with diabetes: consensus report, 2024."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "go-09-hemorragia-pos-parto",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "titulo": "Sangramento depois do parto",
+  "tema": "Hemorragia pós-parto por atonia uterina",
+  "duracaoMin": 10,
+  "cenario": "Sala de parto de maternidade. Parto vaginal há 15 minutos. Há ocitocina, metilergometrina, misoprostol, ácido tranexâmico, balão de tamponamento e banco de sangue. A enfermeira avisa que o sangramento aumentou.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Rosana Pires",
+    "idade": 34,
+    "sexo": "feminino",
+    "ocupacao": "feirante",
+    "perfil": "Pálida, sonolenta, diz que está tonta e com frio.",
+    "abertura": "Doutor, estou ficando tonta... sinto muito frio...",
+    "roteiro": [
+      {
+        "topico": "Parto",
+        "resposta": "Foi meu quarto parto, normal. O bebê nasceu grande, a enfermeira disse 4,3 quilos."
+      },
+      {
+        "topico": "Duração do trabalho de parto",
+        "resposta": "Fiquei em trabalho de parto 14 horas. Usaram soro com remédio para aumentar as contrações."
+      },
+      {
+        "topico": "Placenta",
+        "resposta": "A enfermeira informa: a placenta saiu inteira há 10 minutos."
+      },
+      {
+        "topico": "Ocitocina após o parto",
+        "resposta": "A enfermeira informa: foi feita ocitocina 10 UI intramuscular logo após o nascimento."
+      },
+      {
+        "topico": "Pressão alta e asma",
+        "resposta": "Não tenho pressão alta. Não tenho asma."
+      },
+      {
+        "topico": "Coagulação",
+        "resposta": "Nunca tive problema de sangramento."
+      },
+      {
+        "topico": "Pré-natal",
+        "resposta": "Fiz pré-natal, tive anemia. Meu tipo é O positivo."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 88 x 54 mmHg, FC 122 bpm, FR 24 irpm, SatO2 96%. Índice de choque (FC/PAS) de 1,4."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Pálida, sudoreica, sonolenta."
+    },
+    {
+      "item": "Palpação do útero",
+      "achado": "Útero amolecido, acima da cicatriz umbilical, sem contração (atonia). Ao massagear, sai grande quantidade de sangue e coágulos."
+    },
+    {
+      "item": "Sangramento",
+      "achado": "Perda estimada de 1.200 mL (bolsa coletora sob a paciente)."
+    },
+    {
+      "item": "Revisão do canal de parto",
+      "achado": "Laceração de primeiro grau sem sangramento ativo. Colo sem lacerações."
+    },
+    {
+      "item": "Placenta (revisão)",
+      "achado": "Íntegra, com membranas completas."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Hemograma, coagulograma e fibrinogênio",
+      "resultado": "Hemoglobina 7,8 g/dL, plaquetas 160.000/mm³, fibrinogênio 240 mg/dL."
+    },
+    {
+      "item": "Tipagem e prova cruzada",
+      "resultado": "O positivo, prova cruzada em andamento."
+    }
+  ],
+  "diagnostico": "Hemorragia pós-parto grave por atonia uterina (fatores de risco: multiparidade, macrossomia, trabalho de parto prolongado com ocitocina), com choque hipovolêmico (índice de choque de 1,4).",
+  "condutaEsperada": [
+    "Pedir ajuda e acionar o protocolo de hemorragia pós-parto; dois acessos venosos calibrosos, oxigênio, elevação dos membros inferiores, sonda vesical, coleta de exames e reserva de sangue.",
+    "Massagem uterina bimanual.",
+    "Uterotônicos: ocitocina 5 UI IV lenta seguida de 20 a 40 UI em 500 mL de soro em infusão contínua; metilergometrina 0,2 mg IM (sem hipertensão); misoprostol 800 mcg via retal.",
+    "Ácido tranexâmico 1 g IV em 10 minutos (até 3 horas do parto), podendo repetir após 30 minutos.",
+    "Investigar os 4 T: tônus (atonia), trauma (lacerações), tecido (restos placentários) e trombina (coagulopatia).",
+    "Reposição com cristaloide aquecido e transfusão pelo índice de choque; se não responder, balão de tamponamento intrauterino e cirurgia (suturas compressivas, ligaduras, histerectomia)."
+  ],
+  "pep": [
+    {
+      "id": "ajuda",
+      "item": "Pede ajuda e aciona o protocolo de hemorragia.",
+      "peso": 1
+    },
+    {
+      "id": "choque",
+      "item": "Reconhece o choque (índice de choque acima de 1) e estima a perda.",
+      "peso": 1
+    },
+    {
+      "id": "acessos",
+      "item": "Indica dois acessos calibrosos, exames e reserva de sangue.",
+      "peso": 1
+    },
+    {
+      "id": "massagem",
+      "item": "Realiza massagem uterina bimanual.",
+      "peso": 1
+    },
+    {
+      "id": "ocitocina",
+      "item": "Prescreve ocitocina IV em dose correta.",
+      "peso": 1.5
+    },
+    {
+      "id": "outros-uterotonicos",
+      "item": "Indica metilergometrina (sem hipertensão) e/ou misoprostol.",
+      "peso": 1
+    },
+    {
+      "id": "tranexamico",
+      "item": "Prescreve ácido tranexâmico.",
+      "peso": 1
+    },
+    {
+      "id": "4t",
+      "item": "Investiga a causa pelos 4 T (tônus, trauma, tecido, trombina).",
+      "peso": 1
+    },
+    {
+      "id": "reposicao",
+      "item": "Indica reposição volêmica e transfusão.",
+      "peso": 1
+    },
+    {
+      "id": "refrataria",
+      "item": "Cita o balão de tamponamento e a cirurgia se não houver resposta.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "OPAS/OMS. Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica, 2018.",
+    "FEBRASGO. Hemorragia pós-parto: protocolo."
+  ]
+}

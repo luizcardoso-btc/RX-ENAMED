@@ -1,0 +1,164 @@
+{
+  "id": "cir-09-obstrucao-intestinal",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Abdome agudo",
+  "titulo": "Barriga inchada e vômitos",
+  "tema": "Obstrução intestinal por bridas",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com radiografia, tomografia, laboratório e centro cirúrgico.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Reinaldo Batista",
+    "idade": 61,
+    "sexo": "masculino",
+    "ocupacao": "porteiro",
+    "perfil": "Com dor em cólica e barriga distendida. Colaborativo.",
+    "abertura": "Doutor, minha barriga está estufada, dói em cólica e eu não paro de vomitar.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou há 2 dias com cólica no meio da barriga."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "A dor vem em ondas, de 10 em 10 minutos, e depois alivia."
+      },
+      {
+        "topico": "Vômitos",
+        "resposta": "Vomitei várias vezes. Agora o vômito está escuro e com cheiro ruim."
+      },
+      {
+        "topico": "Gases e fezes",
+        "resposta": "Não evacuo nem solto gases há um dia e meio."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "Cirurgias",
+        "resposta": "Fui operado de apendicite supurada há 10 anos, com corte grande na barriga."
+      },
+      {
+        "topico": "Hérnia",
+        "resposta": "Não tenho hérnia."
+      },
+      {
+        "topico": "Hábito intestinal e sangue nas fezes",
+        "resposta": "Meu intestino sempre funcionou bem. Nunca vi sangue nas fezes. Não perdi peso."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Pressão alta, tomo enalapril."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 128 x 80 mmHg, FC 104 bpm, FR 18 irpm, temperatura 36,9 °C."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Desidratado."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Cicatriz de laparotomia mediana. Abdome distendido, timpânico, ruídos hidroaéreos aumentados com timbre metálico. Dor difusa leve, sem defesa ou descompressão dolorosa. Sem hérnias."
+    },
+    {
+      "item": "Toque retal",
+      "achado": "Ampola retal vazia, sem massas, sem sangue."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Radiografia de abdome em pé e deitado",
+      "resultado": "Alças de delgado distendidas, com níveis hidroaéreos em degrau de escada. Pouco gás no cólon."
+    },
+    {
+      "item": "Tomografia de abdome com contraste",
+      "resultado": "Obstrução de delgado com ponto de transição em íleo distal, sem sinais de sofrimento de alça (parede com realce normal, sem pneumatose, sem líquido livre)."
+    },
+    {
+      "item": "Hemograma, eletrólitos, ureia, creatinina e lactato",
+      "resultado": "Leucócitos 10.800/mm³, sódio 133, potássio 3,1 mEq/L, ureia 72, creatinina 1,3 mg/dL, lactato 1,4 mmol/L."
+    }
+  ],
+  "diagnostico": "Obstrução intestinal mecânica de delgado por bridas (aderências pós-operatórias), sem sinais de estrangulamento.",
+  "condutaEsperada": [
+    "Jejum, sonda nasogástrica aberta para descompressão, hidratação venosa com correção do potássio e sonda vesical para controle de diurese.",
+    "Tratamento conservador inicial por 48 a 72 horas, com reavaliações clínicas seriadas.",
+    "Contraste hidrossolúvel oral (por exemplo, diatrizoato) com radiografia após 24 horas: se o contraste chegar ao cólon, a obstrução tende a resolver.",
+    "Cirurgia (laparotomia ou laparoscopia com lise de bridas) se houver sinais de sofrimento de alça (febre, taquicardia, dor contínua, peritonite, leucocitose, lactato alto) ou falha do tratamento conservador.",
+    "Explicar ao paciente o plano e os sinais que indicariam cirurgia."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e oferece analgesia.",
+      "peso": 0.5
+    },
+    {
+      "id": "quadro",
+      "item": "Caracteriza a dor em cólica, os vômitos e a parada de gases e fezes.",
+      "peso": 1.5
+    },
+    {
+      "id": "causa",
+      "item": "Pergunta cirurgias abdominais prévias, hérnias e sinais de neoplasia.",
+      "peso": 1.5
+    },
+    {
+      "id": "exame",
+      "item": "Solicita exame abdominal (cicatriz, distensão, ruídos), hérnias e toque retal.",
+      "peso": 1
+    },
+    {
+      "id": "imagem",
+      "item": "Solicita radiografia ou tomografia e interpreta como obstrução de delgado.",
+      "peso": 1
+    },
+    {
+      "id": "sofrimento",
+      "item": "Pesquisa sinais de estrangulamento (febre, peritonite, leucocitose, lactato).",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica obstrução intestinal por bridas.",
+      "peso": 1
+    },
+    {
+      "id": "conservador",
+      "item": "Indica jejum, sonda nasogástrica, hidratação e correção do potássio.",
+      "peso": 1.5
+    },
+    {
+      "id": "cirurgia",
+      "item": "Define quando indicar cirurgia.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Bologna Guidelines for adhesive small bowel obstruction, 2017 (atualização)."
+  ]
+}

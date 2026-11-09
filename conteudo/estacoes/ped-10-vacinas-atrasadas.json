@@ -1,0 +1,168 @@
+{
+  "id": "ped-10-vacinas-atrasadas",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Imunização",
+  "titulo": "Vacinas atrasadas",
+  "tema": "Atualização do calendário vacinal da criança",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde com sala de vacina. A mãe veio para a consulta de puericultura e trouxe a caderneta.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Vanessa Lima, mãe de Arthur (7 meses)",
+    "idade": 23,
+    "sexo": "feminino",
+    "ocupacao": "operadora de telemarketing",
+    "perfil": "Com culpa pelo atraso. Preocupada porque o filho está resfriado.",
+    "abertura": "Doutor, as vacinas do Arthur atrasaram, eu me mudei de cidade. E ele está meio gripado, pode tomar?",
+    "roteiro": [
+      {
+        "topico": "Por que atrasou",
+        "resposta": "Mudamos de cidade quando ele tinha 4 meses e eu não consegui vir antes."
+      },
+      {
+        "topico": "Caderneta",
+        "resposta": "Tomou a BCG e a hepatite B ao nascer, e as vacinas dos 2, 3 e 4 meses."
+      },
+      {
+        "topico": "Sintomas atuais",
+        "resposta": "Está com coriza e uma tosse leve há 2 dias. Sem febre."
+      },
+      {
+        "topico": "Alimentação",
+        "resposta": "Mama no peito e já come papinha de fruta e de legumes."
+      },
+      {
+        "topico": "Reações a vacinas",
+        "resposta": "Depois das vacinas teve febre baixa e ficou manhoso um dia. Nada mais."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia a nada, nem a ovo."
+      },
+      {
+        "topico": "Doenças e imunidade",
+        "resposta": "Nunca internou. Não tem doença nem toma remédio de imunidade."
+      },
+      {
+        "topico": "Convulsão",
+        "resposta": "Nunca teve convulsão."
+      },
+      {
+        "topico": "Desenvolvimento",
+        "resposta": "Já senta com apoio e balbucia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não teve febre."
+      },
+      {
+        "topico": "Pessoas em casa",
+        "resposta": "Mora com a gente a minha avó, que faz quimioterapia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Não é perigoso tomar tantas vacinas de uma vez?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais e antropometria",
+      "achado": "FC 124 bpm, FR 32 irpm, temperatura 36,8 °C, peso 8,1 kg (escore Z entre 0 e +1), comprimento adequado."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Ativo, sorridente, hidratado."
+    },
+    {
+      "item": "Aparelho respiratório e otoscopia",
+      "achado": "Coriza hialina. Murmúrio vesicular normal. Otoscopia normal."
+    },
+    {
+      "item": "Desenvolvimento",
+      "achado": "Senta com apoio, transfere objetos de uma mão para a outra, balbucia."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Caderneta de vacinação",
+      "resultado": "Ao nascer: BCG e hepatite B. 2 meses: penta, VIP, rotavírus e pneumocócica 10. 3 meses: meningocócica C. 4 meses: penta, VIP, rotavírus e pneumocócica 10. Faltam as vacinas dos 5 e 6 meses."
+    }
+  ],
+  "diagnostico": "Calendário vacinal atrasado em lactente de 7 meses (faltam a 2ª dose da meningocócica C, a 3ª dose da penta e da VIP e a influenza), sem contraindicações; quadro de vias aéreas superiores leve.",
+  "condutaEsperada": [
+    "Resfriado leve sem febre não contraindica a vacinação (falsa contraindicação).",
+    "Não reiniciar esquemas: aplicar no mesmo dia as doses em atraso (meningocócica C, penta e VIP 3ª dose) e a influenza (1ª dose, com 2ª dose após 30 dias, por ser a primeira vez).",
+    "Rotavírus já completo (as doses têm idade máxima).",
+    "Agendar as próximas: 9 meses (febre amarela) e 12 meses (tríplice viral, pneumocócica e meningocócica de reforço), conforme o calendário vigente.",
+    "A avó em quimioterapia não impede as vacinas do calendário (vacinas inativadas; a do rotavírus já foi feita); orientar higiene das mãos.",
+    "Orientar eventos adversos esperados (febre, dor local) e antitérmico; acolher a mãe sem culpa e fazer busca ativa se faltar."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe a mãe sem culpabilizar.",
+      "peso": 1
+    },
+    {
+      "id": "caderneta",
+      "item": "Verifica a caderneta e identifica as vacinas em atraso.",
+      "peso": 1.5
+    },
+    {
+      "id": "contraindicacoes",
+      "item": "Investiga contraindicações reais (imunodeficiência, reação grave, alergias).",
+      "peso": 1
+    },
+    {
+      "id": "falsa",
+      "item": "Explica que o resfriado leve não contraindica a vacinação.",
+      "peso": 1.5
+    },
+    {
+      "id": "nao-reiniciar",
+      "item": "Não reinicia esquemas e aplica todas as vacinas possíveis no mesmo dia.",
+      "peso": 1.5
+    },
+    {
+      "id": "influenza",
+      "item": "Indica a influenza com duas doses na primeira vez.",
+      "peso": 1
+    },
+    {
+      "id": "proximas",
+      "item": "Agenda as próximas vacinas (9 e 12 meses).",
+      "peso": 1
+    },
+    {
+      "id": "eventos",
+      "item": "Orienta eventos adversos esperados.",
+      "peso": 0.5
+    },
+    {
+      "id": "contactante",
+      "item": "Avalia o contato com a avó imunossuprimida.",
+      "peso": 0.5
+    },
+    {
+      "id": "crescimento",
+      "item": "Avalia crescimento e desenvolvimento.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Calendário Nacional de Vacinação da criança e Manual de Normas e Procedimentos para Vacinação."
+  ]
+}

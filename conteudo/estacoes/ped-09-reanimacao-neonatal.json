@@ -1,0 +1,162 @@
+{
+  "id": "ped-09-reanimacao-neonatal",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Neonatologia",
+  "titulo": "Recém-nascido que não chora ao nascer",
+  "tema": "Recepção e reanimação do recém-nascido na sala de parto",
+  "duracaoMin": 10,
+  "cenario": "Sala de parto de maternidade. Você é o pediatra presente no parto. A mesa de reanimação está pronta, com fonte de calor radiante, oxímetro e ventilador manual com máscara. A enfermeira obstétrica informa o que acontece.",
+  "tarefas": [
+    "Prepare-se para receber o recém-nascido.",
+    "Conduza a reanimação conforme a evolução informada.",
+    "Avalie a vitalidade (Apgar).",
+    "Indique os cuidados após a estabilização e converse com a mãe."
+  ],
+  "paciente": {
+    "nome": "Enfermeira Rosa (sala de parto)",
+    "idade": 45,
+    "sexo": "feminino",
+    "ocupacao": "enfermeira obstétrica",
+    "perfil": "Objetiva. Responde ao que o médico pergunta e informa os parâmetros do recém-nascido quando solicitado.",
+    "abertura": "Doutor, o bebê está nascendo agora.",
+    "roteiro": [
+      {
+        "topico": "Idade gestacional",
+        "resposta": "Gestação de 39 semanas."
+      },
+      {
+        "topico": "Líquido amniótico",
+        "resposta": "Líquido claro."
+      },
+      {
+        "topico": "Pré-natal e intercorrências",
+        "resposta": "Pré-natal sem intercorrências. Mãe sem doenças, sorologias negativas, estreptococo negativo."
+      },
+      {
+        "topico": "Ao nascer",
+        "resposta": "O bebê nasceu, está sem chorar, sem respirar e com o tônus flácido."
+      },
+      {
+        "topico": "Após os passos iniciais",
+        "resposta": "Depois de aquecer, posicionar, secar e estimular, continua em apneia. A frequência cardíaca é de 80 bpm."
+      },
+      {
+        "topico": "Após 30 segundos de ventilação",
+        "resposta": "Com a ventilação com máscara, o tórax expande. Frequência cardíaca de 130 bpm e começou a respirar e a chorar."
+      },
+      {
+        "topico": "Apgar",
+        "resposta": "Apgar de 4 no primeiro minuto e 8 no quinto minuto."
+      },
+      {
+        "topico": "Mãe",
+        "resposta": "A mãe está bem e pergunta pelo bebê."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não teve febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia a remédio."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Avaliação ao nascer",
+      "achado": "Termo, sem respiração, tônus flácido, líquido claro."
+    },
+    {
+      "item": "Frequência cardíaca (ausculta ou monitor)",
+      "achado": "80 bpm após os passos iniciais."
+    },
+    {
+      "item": "Oximetria pré-ductal (mão direita)",
+      "achado": "SatO2 72% no 3º minuto de vida, 88% no 5º minuto."
+    },
+    {
+      "item": "Exame após a estabilização",
+      "achado": "Respiração regular, sem desconforto, corado, tônus adequado. Peso 3.300 g."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Glicemia capilar (se necessário)",
+      "resultado": "62 mg/dL."
+    }
+  ],
+  "diagnostico": "Recém-nascido a termo sem respiração ao nascer (asfixia leve), com resposta à ventilação com pressão positiva no primeiro minuto de vida.",
+  "condutaEsperada": [
+    "Antes do parto: preparar o material, checar o ventilador, a máscara e o aspirador e conhecer a história materna.",
+    "Ao nascer: termo? respira ou chora? tônus adequado? Não respira e está hipotônico: clampear o cordão e levar à mesa de reanimação.",
+    "Passos iniciais em até 30 segundos: calor radiante, cabeça em leve extensão, aspirar boca e nariz só se houver secreção, secar e estimular.",
+    "Apneia ou FC abaixo de 100 bpm: ventilação com pressão positiva com máscara e ar ambiente (21%), 40 a 60 ventilações por minuto, dentro do primeiro minuto de vida (minuto de ouro), com oxímetro e monitor.",
+    "Reavaliar a cada 30 segundos: FC acima de 100 bpm e respiração espontânea, suspender a ventilação; se a FC ficasse abaixo de 60 bpm após ventilação adequada, massagem cardíaca e intubação.",
+    "Depois de estável: contato pele a pele com a mãe, aleitamento na primeira hora, vitamina K, profilaxia ocular, vacina de hepatite B, e conversar com a mãe."
+  ],
+  "pep": [
+    {
+      "id": "preparo",
+      "item": "Confere o material e pergunta a história materna (idade gestacional, líquido, intercorrências).",
+      "peso": 1
+    },
+    {
+      "id": "avaliacao",
+      "item": "Avalia ao nascer: idade gestacional, respiração e tônus.",
+      "peso": 1
+    },
+    {
+      "id": "passos",
+      "item": "Realiza os passos iniciais em até 30 segundos (aquecer, posicionar, aspirar se necessário, secar, estimular).",
+      "peso": 1.5
+    },
+    {
+      "id": "fc",
+      "item": "Avalia a frequência cardíaca e a respiração após os passos iniciais.",
+      "peso": 1
+    },
+    {
+      "id": "vpp",
+      "item": "Inicia ventilação com pressão positiva com máscara em ar ambiente no primeiro minuto de vida.",
+      "peso": 2
+    },
+    {
+      "id": "tecnica",
+      "item": "Ventila com frequência de 40 a 60 por minuto e confirma a expansão do tórax.",
+      "peso": 0.5
+    },
+    {
+      "id": "oximetro",
+      "item": "Coloca o oxímetro na mão direita e monitora a saturação.",
+      "peso": 0.5
+    },
+    {
+      "id": "reavaliacao",
+      "item": "Reavalia a cada 30 segundos e suspende a ventilação ao atingir FC acima de 100 com respiração espontânea.",
+      "peso": 1
+    },
+    {
+      "id": "apgar",
+      "item": "Atribui o Apgar de 1 e 5 minutos.",
+      "peso": 0.5
+    },
+    {
+      "id": "cuidados",
+      "item": "Indica contato pele a pele, aleitamento, vitamina K, profilaxia ocular e vacina de hepatite B.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Pediatria. Reanimação do recém-nascido de 34 semanas ou mais em sala de parto: diretrizes 2022."
+  ]
+}

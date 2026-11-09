@@ -1,0 +1,189 @@
+{
+  "id": "mfc-09-sifilis-adquirida",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Infectologia",
+  "titulo": "Manchas nas mãos e nos pés",
+  "tema": "Sífilis secundária: tratamento e abordagem das parcerias",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde com testes rápidos e penicilina benzatina disponível na unidade.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Thiago Silva",
+    "idade": 28,
+    "sexo": "masculino",
+    "ocupacao": "barbeiro",
+    "perfil": "Envergonhado, preocupado que seja algo \"na pele\". Responde com franqueza se não for julgado.",
+    "abertura": "Doutor, apareceram umas manchas nas mãos e nos pés que não coçam.",
+    "roteiro": [
+      {
+        "topico": "Manchas",
+        "resposta": "Apareceram há 2 semanas, nas palmas das mãos, nas solas dos pés e um pouco no corpo."
+      },
+      {
+        "topico": "Coceira e dor",
+        "resposta": "Não coçam nem doem."
+      },
+      {
+        "topico": "Outros sintomas",
+        "resposta": "Um mal-estar, uma febre baixa e umas ínguas no pescoço."
+      },
+      {
+        "topico": "Ferida genital",
+        "resposta": "Há uns 2 meses tive uma ferida no pênis que não doía e sumiu sozinha."
+      },
+      {
+        "topico": "Cabelo",
+        "resposta": "Notei uma falha no cabelo e na barba."
+      },
+      {
+        "topico": "Vida sexual",
+        "resposta": "Tenho uma namorada fixa há 6 meses e tive relação com outras duas pessoas neste ano. Nem sempre uso camisinha."
+      },
+      {
+        "topico": "Parcerias",
+        "resposta": "Minha namorada não tem sintomas, que eu saiba."
+      },
+      {
+        "topico": "Testes anteriores",
+        "resposta": "Nunca fiz teste de HIV ou sífilis."
+      },
+      {
+        "topico": "Alergia a penicilina",
+        "resposta": "Já tomei Benzetacil quando criança e não tive alergia."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doença. Não tomo remédio."
+      },
+      {
+        "topico": "Uso de drogas",
+        "resposta": "Fumo maconha às vezes."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Uma febre baixa há uma semana."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Vou ter que contar para a minha namorada?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 120 x 76 mmHg, FC 80 bpm, temperatura 37,4 °C."
+    },
+    {
+      "item": "Pele",
+      "achado": "Lesões maculopapulares acastanhadas em palmas, plantas e tronco (roséola sifilítica). Alopecia em clareira no couro cabeludo e na barba."
+    },
+    {
+      "item": "Linfonodos",
+      "achado": "Linfonodomegalia cervical e inguinal bilateral, indolor, móvel."
+    },
+    {
+      "item": "Genitais",
+      "achado": "Sem lesões ativas."
+    },
+    {
+      "item": "Mucosas",
+      "achado": "Placas mucosas esbranquiçadas na boca."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Teste rápido treponêmico",
+      "resultado": "Reagente."
+    },
+    {
+      "item": "VDRL",
+      "resultado": "Reagente 1:64."
+    },
+    {
+      "item": "Testes rápidos de HIV, hepatite B e hepatite C",
+      "resultado": "Não reagentes."
+    }
+  ],
+  "diagnostico": "Sífilis secundária (sífilis recente).",
+  "condutaEsperada": [
+    "Teste rápido treponêmico reagente: iniciar o tratamento no mesmo dia, sem esperar o VDRL (que serve para o seguimento).",
+    "Penicilina G benzatina 2,4 milhões UI IM em dose única (1,2 milhão em cada glúteo), na própria unidade.",
+    "Orientar a reação de Jarisch-Herxheimer (febre e mal-estar nas primeiras 24 horas).",
+    "Testar para HIV, hepatites B e C; oferecer vacina de hepatite B e PrEP para HIV.",
+    "Notificação compulsória. Comunicar e tratar as parcerias sexuais dos últimos 3 meses a 1 ano, mesmo sem sintomas e com teste negativo (tratamento da parceria exposta).",
+    "Seguimento com VDRL a cada 3 meses no primeiro ano (espera-se queda de 2 títulos em 6 meses); uso de preservativo."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe sem julgamento.",
+      "peso": 0.5
+    },
+    {
+      "id": "lesoes",
+      "item": "Caracteriza as lesões de pele, sintomas sistêmicos e a ferida genital prévia.",
+      "peso": 1
+    },
+    {
+      "id": "sexual",
+      "item": "Faz a história sexual (parcerias, uso de preservativo).",
+      "peso": 1
+    },
+    {
+      "id": "alergia",
+      "item": "Pergunta alergia à penicilina.",
+      "peso": 0.5
+    },
+    {
+      "id": "exame",
+      "item": "Examina pele, mucosas, linfonodos e genitais.",
+      "peso": 1
+    },
+    {
+      "id": "testes",
+      "item": "Solicita teste rápido treponêmico, VDRL e testes para HIV e hepatites.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica sífilis secundária.",
+      "peso": 1
+    },
+    {
+      "id": "penicilina",
+      "item": "Prescreve penicilina benzatina 2,4 milhões UI em dose única.",
+      "peso": 1.5
+    },
+    {
+      "id": "parcerias",
+      "item": "Orienta a convocação e o tratamento das parcerias.",
+      "peso": 1
+    },
+    {
+      "id": "notificacao",
+      "item": "Notifica o caso e orienta o seguimento com VDRL.",
+      "peso": 1
+    },
+    {
+      "id": "prevencao",
+      "item": "Orienta preservativo e oferece PrEP e vacina de hepatite B.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com IST, 2022."
+  ]
+}

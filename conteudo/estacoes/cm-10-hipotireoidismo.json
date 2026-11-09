@@ -1,0 +1,196 @@
+{
+  "id": "cm-10-hipotireoidismo",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Endocrinologia",
+  "titulo": "Cansaço e ganho de peso",
+  "tema": "Hipotireoidismo primário (tireoidite de Hashimoto)",
+  "duracaoMin": 10,
+  "cenario": "Ambulatório de clínica médica. A paciente traz exames pedidos pela unidade básica.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Sandra Oliveira",
+    "idade": 46,
+    "sexo": "feminino",
+    "ocupacao": "auxiliar de enfermagem",
+    "perfil": "Cansada, voz um pouco rouca, fala devagar. Acha que está \"ficando velha\".",
+    "abertura": "Doutor, eu vivo cansada e engordei muito, mesmo sem comer mais.",
+    "roteiro": [
+      {
+        "topico": "Cansaço",
+        "resposta": "Há uns 8 meses. Durmo muito e acordo cansada."
+      },
+      {
+        "topico": "Peso",
+        "resposta": "Engordei 7 quilos neste ano."
+      },
+      {
+        "topico": "Frio",
+        "resposta": "Sinto muito frio, todo mundo de manga curta e eu de casaco."
+      },
+      {
+        "topico": "Intestino",
+        "resposta": "O intestino ficou preso, evacuo a cada 3 ou 4 dias."
+      },
+      {
+        "topico": "Pele e cabelo",
+        "resposta": "A pele está seca e o cabelo caindo."
+      },
+      {
+        "topico": "Menstruação",
+        "resposta": "Está vindo mais forte e mais longa."
+      },
+      {
+        "topico": "Humor e memória",
+        "resposta": "Ando desanimada e esquecida."
+      },
+      {
+        "topico": "Inchaço",
+        "resposta": "O rosto amanhece inchado."
+      },
+      {
+        "topico": "Pescoço",
+        "resposta": "Não notei caroço no pescoço."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Não tomo nada. Não uso amiodarona nem lítio."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Não tenho doenças conhecidas. Nunca operei a tireoide nem fiz iodo radioativo."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Minha mãe toma remédio para a tireoide."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Vou ter que tomar esse remédio para o resto da vida?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 138 x 90 mmHg, FC 56 bpm, temperatura 35,9 °C, peso 78 kg, IMC 29,7 kg/m²."
+    },
+    {
+      "item": "Pele e fâneros",
+      "achado": "Pele seca, fria e áspera, rarefação do terço lateral das sobrancelhas, edema periorbitário."
+    },
+    {
+      "item": "Tireoide",
+      "achado": "Aumentada difusamente (bócio pequeno), indolor, de consistência firme, sem nódulos."
+    },
+    {
+      "item": "Exame neurológico",
+      "achado": "Fase de relaxamento dos reflexos aquileus lentificada."
+    },
+    {
+      "item": "Aparelho cardiovascular",
+      "achado": "Bradicardia, bulhas normofonéticas."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "TSH e T4 livre",
+      "resultado": "TSH 18,6 mUI/L (normal de 0,4 a 4,5). T4 livre 0,5 ng/dL (normal de 0,9 a 1,7)."
+    },
+    {
+      "item": "Anticorpo anti-TPO",
+      "resultado": "Positivo, 480 UI/mL."
+    },
+    {
+      "item": "Perfil lipídico",
+      "resultado": "LDL 168, HDL 50, triglicerídeos 190 mg/dL."
+    },
+    {
+      "item": "Hemograma e CK",
+      "resultado": "Hemoglobina 11,4 g/dL. CK discretamente elevada."
+    },
+    {
+      "item": "Beta-hCG",
+      "resultado": "Negativo."
+    }
+  ],
+  "diagnostico": "Hipotireoidismo primário clínico por tireoidite de Hashimoto (TSH elevado, T4 livre baixo, anti-TPO positivo).",
+  "condutaEsperada": [
+    "Confirmar hipotireoidismo primário: TSH elevado com T4 livre baixo; anti-TPO positivo indica Hashimoto.",
+    "Levotiroxina em jejum, 30 a 60 minutos antes do café, longe de cálcio, ferro e omeprazol.",
+    "Dose plena estimada de 1,6 mcg/kg/dia (cerca de 100 a 125 mcg) em adulta jovem sem cardiopatia; em idosos ou cardiopatas, começar com 12,5 a 25 mcg.",
+    "Dosar TSH em 6 a 8 semanas e ajustar a dose; meta de TSH dentro da faixa normal.",
+    "Reavaliar o perfil lipídico depois do eutireoidismo; orientar que o peso melhora pouco e que o tratamento é contínuo.",
+    "Orientar planejamento antes de engravidar (a dose aumenta na gestação)."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e escuta a queixa.",
+      "peso": 0.5
+    },
+    {
+      "id": "sintomas",
+      "item": "Investiga sintomas de hipotireoidismo (frio, constipação, pele seca, ganho de peso, menorragia).",
+      "peso": 1.5
+    },
+    {
+      "id": "causas",
+      "item": "Investiga causas (medicamentos, cirurgia, iodo radioativo) e história familiar.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Solicita exame da tireoide e identifica sinais de hipotireoidismo.",
+      "peso": 1
+    },
+    {
+      "id": "tsh",
+      "item": "Solicita TSH e T4 livre e interpreta como hipotireoidismo primário.",
+      "peso": 1.5
+    },
+    {
+      "id": "anti-tpo",
+      "item": "Solicita anti-TPO e diagnostica tireoidite de Hashimoto.",
+      "peso": 1
+    },
+    {
+      "id": "levotiroxina",
+      "item": "Prescreve levotiroxina com dose adequada.",
+      "peso": 1.5
+    },
+    {
+      "id": "orientacao",
+      "item": "Orienta a tomada em jejum e as interações.",
+      "peso": 1
+    },
+    {
+      "id": "seguimento",
+      "item": "Solicita TSH de controle em 6 a 8 semanas.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Endocrinologia e Metabologia. Consenso de hipotireoidismo, 2013.",
+    "American Thyroid Association. Guidelines for the treatment of hypothyroidism, 2014."
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "id": "go-10-diabetes-gestacional",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "titulo": "Resultado da curva glicêmica no pré-natal",
+  "tema": "Diabetes mellitus gestacional",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde, consulta de pré-natal. A gestante traz o teste oral de tolerância à glicose.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Priscila Duarte",
+    "idade": 32,
+    "sexo": "feminino",
+    "ocupacao": "administradora",
+    "perfil": "Preocupada com o bebê e com a ideia de usar insulina.",
+    "abertura": "Doutor, trouxe o exame da glicose. Deu alguma coisa errada?",
+    "roteiro": [
+      {
+        "topico": "Idade gestacional",
+        "resposta": "Estou com 26 semanas."
+      },
+      {
+        "topico": "Primeira glicemia do pré-natal",
+        "resposta": "No começo da gravidez a glicemia de jejum deu 86."
+      },
+      {
+        "topico": "Sintomas",
+        "resposta": "Estou com mais sede, mas acho que é o calor."
+      },
+      {
+        "topico": "Alimentação",
+        "resposta": "Como bastante doce e pão branco. Tomo refrigerante."
+      },
+      {
+        "topico": "Atividade física",
+        "resposta": "Parei de caminhar quando engravidei."
+      },
+      {
+        "topico": "Peso",
+        "resposta": "Antes da gravidez eu pesava 82 quilos. Já ganhei 10."
+      },
+      {
+        "topico": "Gestações anteriores",
+        "resposta": "Tenho um filho de 4 anos que nasceu com 4,1 quilos."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Meu pai e minha avó têm diabetes."
+      },
+      {
+        "topico": "Pressão",
+        "resposta": "A pressão tem estado normal."
+      },
+      {
+        "topico": "Movimentos do bebê",
+        "resposta": "Mexe bastante."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Tomo ácido fólico e sulfato ferroso."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "A insulina faz mal para o bebê?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 118 x 74 mmHg, FC 82 bpm."
+    },
+    {
+      "item": "Antropometria",
+      "achado": "Peso 92 kg, IMC pré-gestacional de 31,2 kg/m²."
+    },
+    {
+      "item": "Exame obstétrico",
+      "achado": "Altura uterina de 28 cm (acima do esperado para 26 semanas), BCF 140 bpm."
+    },
+    {
+      "item": "Edema",
+      "achado": "Sem edema."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Teste oral de tolerância à glicose (75 g)",
+      "resultado": "Jejum 88 mg/dL, 1 hora 192 mg/dL, 2 horas 160 mg/dL."
+    },
+    {
+      "item": "Urina tipo 1",
+      "resultado": "Glicosúria +, sem proteinúria, sem nitrito."
+    },
+    {
+      "item": "Ultrassom obstétrico",
+      "resultado": "Feto com peso no percentil 85, líquido amniótico no limite superior."
+    }
+  ],
+  "diagnostico": "Diabetes mellitus gestacional (TOTG 75 g com 1 hora de 180 ou mais e 2 horas de 153 ou mais), com feto grande para a idade gestacional.",
+  "condutaEsperada": [
+    "Diagnóstico: TOTG 75 g entre 24 e 28 semanas com pelo menos um valor alterado (jejum de 92 a 125, 1 hora de 180 ou mais, 2 horas de 153 ou mais).",
+    "Orientação nutricional (com nutricionista) e atividade física regular (caminhada de 30 minutos, se não houver contraindicação).",
+    "Automonitorização da glicemia capilar: metas de jejum abaixo de 95, 1 hora após as refeições abaixo de 140 e 2 horas abaixo de 120 mg/dL.",
+    "Se não atingir as metas em 1 a 2 semanas: insulina (NPH, com regular se necessário); metformina é alternativa quando a insulina não for possível.",
+    "Acompanhamento compartilhado com o pré-natal de alto risco, ultrassom para crescimento fetal e líquido amniótico.",
+    "Após o parto: TOTG 75 g entre 6 semanas e 6 meses e rastreamento periódico de diabetes tipo 2; estimular o aleitamento."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe a preocupação da gestante.",
+      "peso": 0.5
+    },
+    {
+      "id": "ig",
+      "item": "Confirma a idade gestacional e a glicemia do primeiro trimestre.",
+      "peso": 1
+    },
+    {
+      "id": "fatores",
+      "item": "Investiga fatores de risco (obesidade, macrossomia anterior, história familiar).",
+      "peso": 1
+    },
+    {
+      "id": "totg",
+      "item": "Interpreta o TOTG pelos pontos de corte corretos.",
+      "peso": 1.5
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica diabetes gestacional.",
+      "peso": 1
+    },
+    {
+      "id": "dieta",
+      "item": "Orienta dieta e atividade física.",
+      "peso": 1
+    },
+    {
+      "id": "monitorizacao",
+      "item": "Indica automonitorização com as metas glicêmicas corretas.",
+      "peso": 1.5
+    },
+    {
+      "id": "insulina",
+      "item": "Explica quando iniciar insulina (ou metformina como alternativa).",
+      "peso": 1
+    },
+    {
+      "id": "feto",
+      "item": "Indica acompanhamento do crescimento fetal e pré-natal de alto risco.",
+      "peso": 0.5
+    },
+    {
+      "id": "pos-parto",
+      "item": "Orienta o TOTG após o parto e o risco futuro de diabetes tipo 2.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "OPAS, Ministério da Saúde, FEBRASGO e SBD. Rastreamento e diagnóstico de diabetes mellitus gestacional no Brasil, 2016.",
+    "Diretriz da Sociedade Brasileira de Diabetes, 2024."
+  ]
+}

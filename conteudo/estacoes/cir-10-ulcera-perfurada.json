@@ -1,0 +1,172 @@
+{
+  "id": "cir-10-ulcera-perfurada",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Abdome agudo",
+  "titulo": "Dor muito forte e súbita no estômago",
+  "tema": "Úlcera péptica perfurada",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com radiografia, tomografia e centro cirúrgico.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Paulo Henrique Dias",
+    "idade": 50,
+    "sexo": "masculino",
+    "ocupacao": "carregador",
+    "perfil": "Imóvel na maca, com medo de se mexer pela dor, respirando curto.",
+    "abertura": "Doutor, me deu uma dor de facada no estômago, não consigo nem me mexer!",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou de repente há 3 horas, uma dor de facada no alto da barriga."
+      },
+      {
+        "topico": "Evolução",
+        "resposta": "Agora dói a barriga toda e piora quando me mexo ou respiro fundo."
+      },
+      {
+        "topico": "Irradiação",
+        "resposta": "Vai para o ombro direito."
+      },
+      {
+        "topico": "Vômitos",
+        "resposta": "Vomitei uma vez."
+      },
+      {
+        "topico": "Dor de estômago antes",
+        "resposta": "Tenho queimação no estômago há meses, que melhorava com comida."
+      },
+      {
+        "topico": "Anti-inflamatório",
+        "resposta": "Estou tomando diclofenaco 3 vezes por dia há 3 semanas por causa de dor nas costas."
+      },
+      {
+        "topico": "Tabagismo e álcool",
+        "resposta": "Fumo um maço por dia. Bebo no fim de semana."
+      },
+      {
+        "topico": "Sangue no vômito ou fezes escuras",
+        "resposta": "Não vi sangue nem fezes pretas."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Não tenho doenças conhecidas."
+      },
+      {
+        "topico": "Cirurgias",
+        "resposta": "Nunca operei."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 112 x 70 mmHg, FC 116 bpm, FR 24 irpm, temperatura 37,8 °C."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Fácies de dor, imóvel, sudoreico, desidratado."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Abdome em tábua, rígido difusamente, com descompressão brusca dolorosa (sinal de Blumberg). Perda da macicez hepática à percussão (sinal de Jobert). Ruídos hidroaéreos ausentes."
+    },
+    {
+      "item": "Aparelho respiratório e cardiovascular",
+      "achado": "Respiração superficial. Taquicárdico."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Radiografia de tórax em pé",
+      "resultado": "Pneumoperitônio: ar livre sob as cúpulas diafragmáticas."
+    },
+    {
+      "item": "Hemograma, eletrólitos, função renal, amilase e lactato",
+      "resultado": "Leucócitos 17.400/mm³ com desvio, creatinina 1,2 mg/dL, amilase pouco elevada, lactato 2,4 mmol/L."
+    },
+    {
+      "item": "Tomografia de abdome",
+      "resultado": "Pneumoperitônio e líquido livre periduodenal, sugerindo perfuração de bulbo duodenal."
+    }
+  ],
+  "diagnostico": "Abdome agudo perfurativo por úlcera péptica perfurada (provável úlcera duodenal), associada ao uso de anti-inflamatório e ao tabagismo.",
+  "condutaEsperada": [
+    "Jejum, sonda nasogástrica, dois acessos venosos, hidratação e analgesia.",
+    "Inibidor de bomba de prótons intravenoso e antibiótico de amplo espectro.",
+    "Cirurgia de urgência (laparoscopia ou laparotomia): rafia da úlcera com retalho de omento (técnica de Graham) e lavagem da cavidade.",
+    "Suspender o anti-inflamatório; pesquisar e tratar Helicobacter pylori; cessar o tabagismo.",
+    "Explicar ao paciente a necessidade da cirurgia."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e oferece analgesia.",
+      "peso": 0.5
+    },
+    {
+      "id": "dor",
+      "item": "Caracteriza a dor súbita, intensa, que se difunde.",
+      "peso": 1.5
+    },
+    {
+      "id": "fatores",
+      "item": "Investiga uso de anti-inflamatório, sintomas dispépticos prévios, tabagismo e álcool.",
+      "peso": 1.5
+    },
+    {
+      "id": "exame",
+      "item": "Solicita exame abdominal e identifica abdome em tábua e sinal de Jobert.",
+      "peso": 1
+    },
+    {
+      "id": "rx",
+      "item": "Solicita radiografia de tórax em pé e identifica pneumoperitônio.",
+      "peso": 1.5
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica abdome agudo perfurativo por úlcera péptica.",
+      "peso": 1
+    },
+    {
+      "id": "suporte",
+      "item": "Prescreve jejum, sonda nasogástrica, hidratação, IBP e antibiótico.",
+      "peso": 1
+    },
+    {
+      "id": "cirurgia",
+      "item": "Indica cirurgia de urgência.",
+      "peso": 1.5
+    },
+    {
+      "id": "prevencao",
+      "item": "Orienta suspender o anti-inflamatório e pesquisar H. pylori.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "World Society of Emergency Surgery. Guidelines for perforated peptic ulcer disease, 2020."
+  ]
+}
