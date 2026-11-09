@@ -8,6 +8,10 @@ const ETAPAS = { 1: '1º ano', 2: '2º ano', 3: '3º ano', 4: '4º ano', 5: '5º
 const SEXO = { masculino: 'Masculino', feminino: 'Feminino' };
 
 const NOMES = { mensal: 'Mensal', ciclo: 'Ciclo de prova', 'enamed-4ano': 'ENAMED 4º ano', 'anual-enamed': 'Ciclo anual completo (ENAMED)', 'segunda-etapa': '2ª etapa', anual: 'Anual completo' };
+const RECURSO = { teoria: 'Teoria', estacoes: 'Estações', dupla: 'Dupla' };
+// O que um plano libera, em etiquetas (teoria, estações, dupla); o que falta fica no limite do gratuito.
+const modulos = (recursos = []) => ['teoria', 'estacoes', 'dupla']
+  .map((r) => `<span class="rx-etq ${recursos.includes(r) ? 'ativo' : ''}" title="${recursos.includes(r) ? 'liberado' : 'limite do gratuito'}">${recursos.includes(r) ? '✓' : '✕'} ${RECURSO[r]}</span>`).join(' ');
 const SIT = { ativo: 'Ativo', vencendo: 'Vencendo', expirado: 'Inativo', gratuito: 'Gratuito' };
 const STATUS = { aprovado: 'Aprovado', pendente: 'Pendente', recusado: 'Recusado', reembolsado: 'Reembolsado', expirado: 'Expirado', cancelado: 'Cancelado', contestado: 'Contestado' };
 const metodo = (m, n) => (m === 'cartao' ? `Cartão${n > 1 ? ` ${n}×` : ''}` : m.toUpperCase());
@@ -247,6 +251,8 @@ async function detalheAluno(id) {
     <h2>${esc(aluno.nome)}</h2>
     <p class="rx-mudo">${esc(aluno.email)} · CPF ${esc(aluno.cpf || '—')}<br>Celular ${esc(aluno.telefone || '—')} · ${esc(SEXO[aluno.sexo] || 'Sexo não informado')} · ${esc(ETAPAS[aluno.etapa] || 'Etapa não informada')}<br>Cadastro ${dataHora(aluno.criado_em)} · último acesso ${dataHora(aluno.ultimo_acesso)}<br>
       ${progresso ? `Progresso salvo na conta: ${progresso.questoes} questões respondidas, atualizado em ${dataHora(progresso.atualizado_em)}` : 'Ainda não salvou progresso na conta.'}</p>
+    <h3>Módulos liberados agora</h3>
+    <p>${modulos(config.planos.filter((p) => matriculas.some((m) => m.plano_id === p.id && m.status === 'ativa' && new Date(m.inicio) <= new Date() && new Date(m.fim) > new Date())).flatMap((p) => p.recursos))}</p>
     <h3>Liberar acesso manualmente</h3>
     <form class="rx-linha" id="conceder">
       <label class="rx-campo"><span>Plano</span><select name="plano">${config.planos.map((p) => `<option value="${p.id}">${esc(p.nome)}</option>`).join('')}</select></label>
@@ -254,6 +260,7 @@ async function detalheAluno(id) {
       <label class="rx-campo" style="flex:1"><span>Motivo</span><input name="observacao" placeholder="bolsa, cortesia, correção…"></label>
       <button class="botao botao-primario">Liberar</button>
     </form>
+    <p id="libera" class="rx-mudo"></p>
     <button class="botao" id="revogar">Revogar acesso atual</button>
     <h3>Matrículas</h3>
     <table class="rx-tabela"><thead><tr><th>Plano</th><th>Período</th><th>Origem</th><th>Situação</th></tr></thead><tbody>
@@ -269,8 +276,12 @@ async function detalheAluno(id) {
       ${emails.map((e) => `<tr><td>${dataHora(e.criado_em)}</td><td>${esc(e.assunto)}</td><td>${e.status === 'enviado' ? 'Enviado' : e.status === 'simulado' ? '<span class="rx-mudo">Simulado</span>' : '<span class="rx-etq recusado">Falhou</span>'}</td></tr>`).join('') || '<tr><td colspan="3" class="rx-mudo">Nenhum.</td></tr>'}
     </tbody></table></aside>`;
   $('#fechar').addEventListener('click', fecharGaveta);
-  $('#conceder [name=plano]').addEventListener('change', (e) => { $('#conceder [name=meses]').value = config.planos.find((p) => p.id === e.target.value).duracaoMeses; });
-  $('#conceder [name=meses]').value = config.planos[0].duracaoMeses;
+  const mostrarPlano = (plano) => {
+    $('#conceder [name=meses]').value = plano.duracaoMeses;
+    $('#libera').innerHTML = `Este plano libera: ${modulos(plano.recursos)}`;
+  };
+  $('#conceder [name=plano]').addEventListener('change', (e) => mostrarPlano(config.planos.find((p) => p.id === e.target.value)));
+  mostrarPlano(config.planos[0]);
   $('#conceder').addEventListener('submit', async (e) => {
     e.preventDefault();
     const f = Object.fromEntries(new FormData(e.target));
