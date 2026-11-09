@@ -1,0 +1,185 @@
+{
+  "id": "cm-13-hiv-diagnostico",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Infectologia",
+  "titulo": "Resultado do teste rápido",
+  "tema": "HIV: comunicação do diagnóstico e início da TARV",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde com testes rápidos e serviço de atenção especializada (SAE) de referência. Os dois testes rápidos de HIV, de fabricantes diferentes, foram reagentes.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "André Luiz Santos",
+    "idade": 31,
+    "sexo": "masculino",
+    "ocupacao": "garçom",
+    "perfil": "Ansioso, desconfia do resultado. Quer saber se vai morrer e se alguém vai ficar sabendo.",
+    "abertura": "Doutor, a enfermeira disse que o senhor queria falar comigo sobre o exame. Deu alguma coisa?",
+    "roteiro": [
+      {
+        "topico": "Motivo do teste",
+        "resposta": "Vim porque estou com sapinho na boca e perdi peso."
+      },
+      {
+        "topico": "Sintomas",
+        "resposta": "Perdi uns 6 quilos em 4 meses. Tenho uma diarreia de vez em quando e suor à noite."
+      },
+      {
+        "topico": "Tosse e febre",
+        "resposta": "Não tenho tosse. Febre baixa às vezes à noite."
+      },
+      {
+        "topico": "Testes anteriores",
+        "resposta": "Fiz um teste há 3 anos e deu negativo."
+      },
+      {
+        "topico": "Vida sexual",
+        "resposta": "Tenho relações com homens. Nem sempre uso camisinha. Tenho um parceiro fixo há 1 ano."
+      },
+      {
+        "topico": "Parceiro",
+        "resposta": "Ele não sabe e nunca fez o teste."
+      },
+      {
+        "topico": "Drogas",
+        "resposta": "Uso cocaína às vezes em festas, não injetável."
+      },
+      {
+        "topico": "Infecções anteriores",
+        "resposta": "Tive uma ferida no pênis no ano passado e tratei com injeção."
+      },
+      {
+        "topico": "Apoio",
+        "resposta": "Moro sozinho. Minha irmã é próxima."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Não tomo nada."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Eu vou morrer?",
+      "Alguém do trabalho vai ficar sabendo?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 116 x 72 mmHg, FC 84 bpm, temperatura 37,3 °C, peso 62 kg (IMC 20)."
+    },
+    {
+      "item": "Boca",
+      "achado": "Placas esbranquiçadas removíveis na língua e no palato (candidíase oral)."
+    },
+    {
+      "item": "Linfonodos",
+      "achado": "Linfonodomegalia cervical e axilar bilateral, indolor."
+    },
+    {
+      "item": "Pele e genitais",
+      "achado": "Dermatite seborreica na face. Genitais sem lesões."
+    },
+    {
+      "item": "Aparelho respiratório",
+      "achado": "Sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Testes rápidos de HIV (TR1 e TR2)",
+      "resultado": "Ambos reagentes: diagnóstico de infecção pelo HIV."
+    },
+    {
+      "item": "Testes rápidos de sífilis e hepatites B e C",
+      "resultado": "Treponêmico reagente (tratou sífilis no ano passado). Hepatites não reagentes."
+    },
+    {
+      "item": "Contagem de linfócitos T CD4 e carga viral",
+      "resultado": "Solicitados (resultado em 1 semana; depois: CD4 de 180 células/mm³ e carga viral de 95.000 cópias/mL)."
+    },
+    {
+      "item": "Radiografia de tórax",
+      "resultado": "Sem alterações."
+    }
+  ],
+  "diagnostico": "Infecção pelo HIV com sinais de imunodeficiência (candidíase oral, perda de peso), confirmada por dois testes rápidos reagentes.",
+  "condutaEsperada": [
+    "Comunicar o diagnóstico com acolhimento, em linguagem simples, garantindo sigilo; explicar que é uma infecção crônica tratável e que, com o tratamento, a expectativa de vida é próxima da normal.",
+    "Explicar que, com carga viral indetectável, não há transmissão sexual (indetectável = intransmissível).",
+    "Solicitar CD4, carga viral, genotipagem (quando indicada), VDRL, sorologias para hepatites, toxoplasmose e rastreamento de tuberculose (sintomas e radiografia); notificação compulsória.",
+    "Iniciar a terapia antirretroviral o quanto antes, de preferência no mesmo dia ou em até 7 dias: tenofovir com lamivudina e dolutegravir.",
+    "Tratar a candidíase oral (fluconazol). Profilaxia com sulfametoxazol-trimetoprima se CD4 abaixo de 200 células/mm³.",
+    "Orientar a testagem do parceiro e o preservativo; vincular ao SAE e marcar retorno breve; avaliar saúde mental e uso de drogas."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se, garante sigilo e prepara a comunicação.",
+      "peso": 1
+    },
+    {
+      "id": "comunicacao",
+      "item": "Comunica o diagnóstico com clareza e empatia, checando a compreensão.",
+      "peso": 1.5
+    },
+    {
+      "id": "sintomas",
+      "item": "Investiga sintomas de imunodeficiência e de tuberculose.",
+      "peso": 1
+    },
+    {
+      "id": "sexual",
+      "item": "Faz a história sexual e de uso de drogas sem julgamento.",
+      "peso": 0.5
+    },
+    {
+      "id": "exames",
+      "item": "Solicita CD4, carga viral, sorologias e rastreamento de tuberculose.",
+      "peso": 1
+    },
+    {
+      "id": "tarv",
+      "item": "Indica início rápido da TARV com esquema preferencial.",
+      "peso": 2
+    },
+    {
+      "id": "profilaxia",
+      "item": "Trata a candidíase e indica profilaxia se CD4 abaixo de 200.",
+      "peso": 0.5
+    },
+    {
+      "id": "i-igual-i",
+      "item": "Explica que indetectável é igual a intransmissível.",
+      "peso": 0.5
+    },
+    {
+      "id": "parceria",
+      "item": "Orienta testagem do parceiro e preservativo.",
+      "peso": 1
+    },
+    {
+      "id": "vinculo",
+      "item": "Vincula ao SAE, notifica e combina retorno.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos, 2024."
+  ]
+}

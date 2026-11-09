@@ -1,0 +1,181 @@
+{
+  "id": "cm-14-hanseniase",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Infectologia",
+  "titulo": "Manchas dormentes na pele",
+  "tema": "Hanseníase multibacilar",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. Há kit de monofilamentos, baciloscopia de raspado intradérmico e poliquimioterapia (PQT-U).",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Cleide Marques",
+    "idade": 42,
+    "sexo": "feminino",
+    "ocupacao": "lavradora",
+    "perfil": "Tímida, com medo do diagnóstico (\"lepra\"). Esconde os braços com o casaco.",
+    "abertura": "Doutor, apareceram umas manchas nos braços e nas pernas que não doem.",
+    "roteiro": [
+      {
+        "topico": "Manchas",
+        "resposta": "Começaram há uns 8 meses. Agora são várias, nos braços, nas costas e nas pernas."
+      },
+      {
+        "topico": "Sensibilidade",
+        "resposta": "Encostei na panela quente e não senti. As manchas não coçam."
+      },
+      {
+        "topico": "Formigamento e fraqueza",
+        "resposta": "Sinto formigamento nos dedos mínimos da mão e às vezes deixo cair as coisas."
+      },
+      {
+        "topico": "Olhos e nariz",
+        "resposta": "O nariz entope e sangra um pouco às vezes."
+      },
+      {
+        "topico": "Dor nos nervos",
+        "resposta": "Dói no cotovelo quando bato."
+      },
+      {
+        "topico": "Contatos",
+        "resposta": "Moro com o marido e 3 filhos. Meu sogro teve hanseníase e tratou."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doenças. Não tomo remédio."
+      },
+      {
+        "topico": "Gestação",
+        "resposta": "Não estou grávida. Uso laqueadura."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Alergia a sulfa? Não sei. Nunca tive alergia a remédio."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "É lepra, doutor? Vou ter que ficar longe da minha família?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Pele",
+      "achado": "Sete placas eritemato-hipocrômicas de bordas bem definidas em braços, dorso e coxas, com perda da sensibilidade térmica e dolorosa."
+    },
+    {
+      "item": "Palpação de nervos",
+      "achado": "Nervo ulnar esquerdo espessado e doloroso no cotovelo. Nervo fibular comum direito espessado."
+    },
+    {
+      "item": "Avaliação neurológica simplificada",
+      "achado": "Sensibilidade ao monofilamento diminuída na região do nervo ulnar esquerdo. Força preservada nas mãos e nos pés."
+    },
+    {
+      "item": "Olhos",
+      "achado": "Sem lagoftalmo, força palpebral preservada."
+    },
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 120 x 78 mmHg, FC 76 bpm."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Baciloscopia de raspado intradérmico",
+      "resultado": "Índice baciloscópico de 2+."
+    },
+    {
+      "item": "Grau de incapacidade física",
+      "resultado": "Grau 1 (diminuição da sensibilidade, sem deformidade visível)."
+    },
+    {
+      "item": "Hemograma e enzimas hepáticas",
+      "resultado": "Normais."
+    }
+  ],
+  "diagnostico": "Hanseníase multibacilar (mais de 5 lesões, nervos acometidos, baciloscopia positiva), com grau 1 de incapacidade física.",
+  "condutaEsperada": [
+    "Diagnóstico clínico: lesão de pele com alteração de sensibilidade e espessamento de nervo; classificação operacional multibacilar (mais de 5 lesões ou baciloscopia positiva).",
+    "Poliquimioterapia única (PQT-U) para multibacilar por 12 doses (12 meses): rifampicina 600 mg e clofazimina 300 mg mensais supervisionadas, mais dapsona 100 mg e clofazimina 50 mg diárias.",
+    "Notificação compulsória e avaliação neurológica simplificada com grau de incapacidade no início e no fim do tratamento.",
+    "Examinar todos os contatos domiciliares e sociais dos últimos 5 anos e aplicar BCG nos contatos sem doença, conforme a cicatriz vacinal.",
+    "Orientar autocuidado (mãos, pés, olhos), reações hansênicas (que podem ocorrer e devem ser tratadas, sem interromper a PQT) e efeitos dos remédios (pele escurecida pela clofazimina, urina avermelhada pela rifampicina).",
+    "Combater o estigma: explicar que após a primeira dose não transmite e que tem cura."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe o medo da paciente.",
+      "peso": 0.5
+    },
+    {
+      "id": "lesoes",
+      "item": "Caracteriza as lesões e a perda de sensibilidade.",
+      "peso": 1
+    },
+    {
+      "id": "neurologico",
+      "item": "Investiga sintomas neurológicos (formigamento, fraqueza, dor nos nervos).",
+      "peso": 1
+    },
+    {
+      "id": "contatos",
+      "item": "Pergunta contatos com hanseníase.",
+      "peso": 0.5
+    },
+    {
+      "id": "exame",
+      "item": "Testa a sensibilidade das lesões e palpa os nervos periféricos.",
+      "peso": 1.5
+    },
+    {
+      "id": "classificacao",
+      "item": "Classifica como multibacilar e solicita baciloscopia.",
+      "peso": 1
+    },
+    {
+      "id": "incapacidade",
+      "item": "Realiza avaliação neurológica simplificada e grau de incapacidade.",
+      "peso": 0.5
+    },
+    {
+      "id": "pqt",
+      "item": "Prescreve PQT-U multibacilar por 12 doses.",
+      "peso": 1.5
+    },
+    {
+      "id": "notificacao",
+      "item": "Notifica e indica exame dos contatos com BCG.",
+      "peso": 1
+    },
+    {
+      "id": "orientacoes",
+      "item": "Orienta autocuidado, reações e efeitos dos medicamentos.",
+      "peso": 1
+    },
+    {
+      "id": "estigma",
+      "item": "Explica que tem cura e não transmite após o início do tratamento.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase, 2022."
+  ]
+}

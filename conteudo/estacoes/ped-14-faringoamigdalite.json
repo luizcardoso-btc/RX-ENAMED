@@ -1,0 +1,177 @@
+{
+  "id": "ped-14-faringoamigdalite",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Infectologia pediátrica",
+  "titulo": "Dor de garganta e febre alta",
+  "tema": "Faringoamigdalite estreptocócica",
+  "duracaoMin": 10,
+  "cenario": "Unidade básica de saúde com teste rápido para estreptococo e penicilina benzatina.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Eduardo Lima, pai de Isabela (8 anos)",
+    "idade": 38,
+    "sexo": "masculino",
+    "ocupacao": "eletricista",
+    "perfil": "Calmo. Isabela, de 8 anos, está sentada, com dor ao engolir, responde algumas perguntas.",
+    "abertura": "Doutor, a Isabela está com febre alta e dor de garganta, não está nem conseguindo comer.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou ontem de repente, com febre de 39,5 °C."
+      },
+      {
+        "topico": "Dor de garganta",
+        "resposta": "Dói muito para engolir."
+      },
+      {
+        "topico": "Tosse, coriza, rouquidão",
+        "resposta": "Não tem tosse nem coriza."
+      },
+      {
+        "topico": "Dor abdominal e vômitos",
+        "resposta": "Reclamou de dor na barriga e vomitou uma vez."
+      },
+      {
+        "topico": "Manchas na pele",
+        "resposta": "Não vi manchas na pele."
+      },
+      {
+        "topico": "Contatos",
+        "resposta": "Dois colegas da sala tiveram \"infecção de garganta\" na semana passada."
+      },
+      {
+        "topico": "Episódios anteriores",
+        "resposta": "Teve dor de garganta umas 2 vezes por ano."
+      },
+      {
+        "topico": "Doenças e febre reumática",
+        "resposta": "Nunca teve problema de coração nem febre reumática."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Dei paracetamol."
+      },
+      {
+        "topico": "Alergia a penicilina",
+        "resposta": "Já tomou amoxicilina e Benzetacil sem problema."
+      },
+      {
+        "topico": "Peso",
+        "resposta": "Está com uns 26 quilos."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "A injeção dói muito. Não dá para ser só xarope?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "FC 118 bpm, FR 22 irpm, temperatura 39,0 °C, peso 26 kg."
+    },
+    {
+      "item": "Orofaringe",
+      "achado": "Amígdalas hipertrofiadas e hiperemiadas com exsudato branco. Petéquias no palato."
+    },
+    {
+      "item": "Linfonodos",
+      "achado": "Linfonodos cervicais anteriores aumentados e dolorosos."
+    },
+    {
+      "item": "Pele",
+      "achado": "Sem exantema."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Sem hepatoesplenomegalia."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Teste rápido para estreptococo do grupo A",
+      "resultado": "Positivo."
+    },
+    {
+      "item": "Hemograma",
+      "resultado": "Não necessário."
+    }
+  ],
+  "diagnostico": "Faringoamigdalite aguda estreptocócica (estreptococo beta-hemolítico do grupo A), confirmada por teste rápido.",
+  "condutaEsperada": [
+    "Escore de Centor/McIsaac alto (febre, exsudato, linfonodos cervicais anteriores dolorosos, sem tosse, idade de 3 a 14 anos) e teste rápido positivo.",
+    "Antibiótico para prevenir febre reumática: penicilina G benzatina 600.000 UI IM em dose única (menos de 27 kg) ou amoxicilina 50 mg/kg/dia por 10 dias.",
+    "Analgésico e antitérmico, líquidos frios e alimentação pastosa.",
+    "Pode voltar à escola após 24 horas de antibiótico e sem febre.",
+    "Orientar sinais de complicação (abscesso periamigdaliano, dificuldade para abrir a boca, manchas, dor nas articulações) e completar o tratamento.",
+    "Diferenciar de quadros virais e da mononucleose (que não deve receber amoxicilina pelo risco de exantema)."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e inclui a criança na conversa.",
+      "peso": 0.5
+    },
+    {
+      "id": "quadro",
+      "item": "Caracteriza febre, dor de garganta e ausência de sintomas virais (tosse, coriza).",
+      "peso": 1.5
+    },
+    {
+      "id": "contatos",
+      "item": "Pergunta contatos e episódios prévios.",
+      "peso": 0.5
+    },
+    {
+      "id": "alergia",
+      "item": "Pergunta alergia à penicilina e o peso.",
+      "peso": 0.5
+    },
+    {
+      "id": "exame",
+      "item": "Examina orofaringe, linfonodos, pele e abdome.",
+      "peso": 1
+    },
+    {
+      "id": "escore",
+      "item": "Aplica critérios clínicos (Centor/McIsaac).",
+      "peso": 1
+    },
+    {
+      "id": "teste",
+      "item": "Solicita teste rápido para estreptococo.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica faringoamigdalite estreptocócica.",
+      "peso": 1
+    },
+    {
+      "id": "antibiotico",
+      "item": "Prescreve penicilina benzatina ou amoxicilina por 10 dias em dose correta.",
+      "peso": 2
+    },
+    {
+      "id": "orientacao",
+      "item": "Explica a prevenção da febre reumática e o retorno à escola.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Pediatria. Faringoamigdalites agudas.",
+    "IDSA. Guideline for group A streptococcal pharyngitis, 2012."
+  ]
+}

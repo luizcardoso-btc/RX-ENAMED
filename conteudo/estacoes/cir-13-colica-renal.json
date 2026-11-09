@@ -1,0 +1,180 @@
+{
+  "id": "cir-13-colica-renal",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Urologia",
+  "titulo": "Dor forte nas costas que vai para a virilha",
+  "tema": "Cólica renal por cálculo ureteral",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com tomografia, laboratório e urologia de sobreaviso.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Marcelo Tavares",
+    "idade": 38,
+    "sexo": "masculino",
+    "ocupacao": "técnico em informática",
+    "perfil": "Inquieto, não para na maca, troca de posição o tempo todo por causa da dor.",
+    "abertura": "Doutor, me ajuda, essa dor é insuportável!",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou há 3 horas, de repente, do lado esquerdo das costas."
+      },
+      {
+        "topico": "Irradiação",
+        "resposta": "Vai para a virilha e para o testículo esquerdo."
+      },
+      {
+        "topico": "Tipo",
+        "resposta": "Vem em ondas, em cólica. Não tem posição que melhore."
+      },
+      {
+        "topico": "Náuseas",
+        "resposta": "Vomitei uma vez."
+      },
+      {
+        "topico": "Urina",
+        "resposta": "Estou com vontade de urinar toda hora. A urina parece meio rosada."
+      },
+      {
+        "topico": "Febre e calafrios",
+        "resposta": "Não tive febre nem calafrio."
+      },
+      {
+        "topico": "Episódios anteriores",
+        "resposta": "Nunca tive. Meu pai tinha pedra nos rins."
+      },
+      {
+        "topico": "Ingestão de água",
+        "resposta": "Bebo pouca água. Trabalho no ar-condicionado e tomo muito café."
+      },
+      {
+        "topico": "Rim único ou doença renal",
+        "resposta": "Tenho os dois rins. Não tenho doença nos rins."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Não tomo nada."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 148 x 90 mmHg, FC 98 bpm, FR 18 irpm, temperatura 36,6 °C."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Flácido, sem sinais de peritonite. Dor à palpação profunda do flanco esquerdo."
+    },
+    {
+      "item": "Lombar",
+      "achado": "Punho-percussão lombar (Giordano) positiva à esquerda."
+    },
+    {
+      "item": "Genitais",
+      "achado": "Testículos tópicos, sem alterações (dor referida)."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Urina tipo 1",
+      "resultado": "Hematúria microscópica, sem leucocitúria significativa, nitrito negativo."
+    },
+    {
+      "item": "Creatinina e hemograma",
+      "resultado": "Creatinina 1,0 mg/dL. Leucócitos 9.200/mm³."
+    },
+    {
+      "item": "Tomografia de abdome sem contraste",
+      "resultado": "Cálculo de 5 mm no ureter distal esquerdo, com hidronefrose leve à esquerda. Rim direito normal."
+    }
+  ],
+  "diagnostico": "Cólica renal por cálculo de 5 mm no ureter distal esquerdo, sem infecção e com função renal normal.",
+  "condutaEsperada": [
+    "Analgesia: anti-inflamatório (por exemplo, cetorolaco ou diclofenaco IV/IM) com dipirona; opioide para dor refratária.",
+    "Tomografia sem contraste para confirmar o cálculo, o tamanho e a obstrução.",
+    "Terapia expulsiva: tansulosina 0,4 mg por dia para cálculo distal de até 10 mm, por até 4 semanas, com analgesia oral.",
+    "Hidratação habitual (sem forçar grandes volumes na crise) e filtrar a urina para recuperar o cálculo.",
+    "Sinais de alarme para desobstrução urgente (cateter duplo J ou nefrostomia): febre com obstrução, rim único, insuficiência renal ou dor refratária.",
+    "Retorno com urologia; prevenção: mais de 2,5 litros de água por dia, menos sal e proteína animal; análise do cálculo."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e oferece analgesia rápida.",
+      "peso": 0.5
+    },
+    {
+      "id": "dor",
+      "item": "Caracteriza a dor (início súbito, localização, irradiação, cólica).",
+      "peso": 1.5
+    },
+    {
+      "id": "urinario",
+      "item": "Pergunta hematúria e sintomas urinários.",
+      "peso": 0.5
+    },
+    {
+      "id": "infeccao",
+      "item": "Pergunta febre e calafrios (obstrução infectada).",
+      "peso": 1
+    },
+    {
+      "id": "risco",
+      "item": "Pergunta rim único, doença renal e episódios anteriores.",
+      "peso": 0.5
+    },
+    {
+      "id": "analgesia",
+      "item": "Prescreve anti-inflamatório e analgesia adequada.",
+      "peso": 1.5
+    },
+    {
+      "id": "exames",
+      "item": "Solicita urina, creatinina e tomografia sem contraste.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica cálculo ureteral distal de 5 mm.",
+      "peso": 1
+    },
+    {
+      "id": "expulsiva",
+      "item": "Indica terapia expulsiva com tansulosina.",
+      "peso": 1
+    },
+    {
+      "id": "alarme",
+      "item": "Orienta sinais de alarme para desobstrução urgente.",
+      "peso": 1
+    },
+    {
+      "id": "prevencao",
+      "item": "Orienta ingestão de água e prevenção.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "European Association of Urology. Guidelines on urolithiasis, 2024.",
+    "Sociedade Brasileira de Urologia. Litíase urinária."
+  ]
+}

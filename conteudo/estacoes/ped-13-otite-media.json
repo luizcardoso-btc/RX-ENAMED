@@ -1,0 +1,177 @@
+{
+  "id": "ped-13-otite-media",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Otorrinolaringologia pediátrica",
+  "titulo": "Criança chorando com dor de ouvido",
+  "tema": "Otite média aguda",
+  "duracaoMin": 10,
+  "cenario": "Unidade básica de saúde com otoscópio e farmácia.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Michele Souza, mãe de Lorena (1 ano e 6 meses)",
+    "idade": 27,
+    "sexo": "feminino",
+    "ocupacao": "auxiliar de cozinha",
+    "perfil": "Cansada após uma noite sem dormir. Lorena, de 1 ano e 6 meses, está no colo, irritada.",
+    "abertura": "Doutor, a Lorena chorou a noite toda e fica pondo a mão no ouvido.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Há 2 dias. Começou com coriza há uma semana."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Teve febre de 39,2 °C esta noite."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Chora muito, põe a mão no ouvido direito, não deixa encostar."
+      },
+      {
+        "topico": "Secreção no ouvido",
+        "resposta": "Não saiu nada do ouvido."
+      },
+      {
+        "topico": "Alimentação e comportamento",
+        "resposta": "Está mamando menos. Fica irritada."
+      },
+      {
+        "topico": "Vômitos e convulsão",
+        "resposta": "Não vomitou nem teve convulsão."
+      },
+      {
+        "topico": "Episódios anteriores",
+        "resposta": "Teve otite uma vez com 1 ano."
+      },
+      {
+        "topico": "Antibiótico recente",
+        "resposta": "Não tomou antibiótico no último mês."
+      },
+      {
+        "topico": "Creche e mamadeira",
+        "resposta": "Vai à creche. Toma mamadeira deitada para dormir."
+      },
+      {
+        "topico": "Vacinas",
+        "resposta": "Em dia."
+      },
+      {
+        "topico": "Fumo em casa",
+        "resposta": "O pai fuma dentro de casa."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia a remédio."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Pode pingar remédio no ouvido?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "FC 136 bpm, FR 30 irpm, temperatura 38,9 °C, peso 11 kg."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Irritada, mas consolável, hidratada."
+    },
+    {
+      "item": "Otoscopia",
+      "achado": "Orelha direita: membrana timpânica hiperemiada, opaca e abaulada, sem perfuração. Orelha esquerda: normal."
+    },
+    {
+      "item": "Oroscopia e rinoscopia",
+      "achado": "Coriza mucoide. Orofaringe levemente hiperemiada."
+    },
+    {
+      "item": "Aparelho respiratório e meninges",
+      "achado": "Murmúrio vesicular normal. Sem rigidez de nuca."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Exames laboratoriais",
+      "resultado": "Não necessários."
+    }
+  ],
+  "diagnostico": "Otite média aguda à direita em criança menor de 2 anos, com febre alta e otalgia intensa.",
+  "condutaEsperada": [
+    "Diagnóstico: início agudo com membrana timpânica abaulada (critério mais importante) e sinais de inflamação.",
+    "Analgesia regular (dipirona ou paracetamol; ibuprofeno também pode ser usado).",
+    "Antibiótico indicado (menor de 2 anos, febre de 39 °C ou mais, otalgia intensa): amoxicilina 80 a 90 mg/kg/dia dividida a cada 12 horas por 10 dias.",
+    "Reavaliar em 48 a 72 horas se não melhorar; trocar para amoxicilina com clavulanato se houver falha.",
+    "Prevenção: vacinação em dia (pneumocócica, influenza), não dar mamadeira deitada, evitar o fumo em casa, estimular o aleitamento.",
+    "Orientar sinais de alarme (sonolência, vômitos, inchaço atrás da orelha, rigidez de nuca)."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe a mãe.",
+      "peso": 0.5
+    },
+    {
+      "id": "quadro",
+      "item": "Caracteriza otalgia, febre e o resfriado prévio.",
+      "peso": 1
+    },
+    {
+      "id": "gravidade",
+      "item": "Pergunta febre alta, sinais de alarme e otorreia.",
+      "peso": 1
+    },
+    {
+      "id": "fatores",
+      "item": "Investiga fatores de risco (creche, mamadeira deitada, fumo, antibiótico recente).",
+      "peso": 1
+    },
+    {
+      "id": "otoscopia",
+      "item": "Solicita otoscopia e identifica a membrana timpânica abaulada.",
+      "peso": 1.5
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica otite média aguda.",
+      "peso": 1
+    },
+    {
+      "id": "analgesia",
+      "item": "Prescreve analgesia.",
+      "peso": 0.5
+    },
+    {
+      "id": "antibiotico",
+      "item": "Prescreve amoxicilina em alta dose pelo tempo correto.",
+      "peso": 2
+    },
+    {
+      "id": "reavaliacao",
+      "item": "Orienta reavaliação em 48 a 72 horas.",
+      "peso": 0.5
+    },
+    {
+      "id": "prevencao",
+      "item": "Orienta prevenção (mamadeira, fumo, vacinas).",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Pediatria. Otite média aguda.",
+    "AAP. Clinical practice guideline: diagnosis and management of acute otitis media, 2013."
+  ]
+}

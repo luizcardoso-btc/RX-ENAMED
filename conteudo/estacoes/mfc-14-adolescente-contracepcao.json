@@ -1,0 +1,181 @@
+{
+  "id": "mfc-14-adolescente-contracepcao",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Atenção primária",
+  "titulo": "Adolescente que quer anticoncepcional",
+  "tema": "Adolescente: contracepção, sigilo e prevenção de IST",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. A adolescente veio sozinha à consulta.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Kamila Souza",
+    "idade": 15,
+    "sexo": "feminino",
+    "ocupacao": "estudante",
+    "perfil": "Nervosa, com medo de que a mãe descubra. Fala mais à vontade se o médico garantir sigilo.",
+    "abertura": "Doutor, eu queria começar a tomar anticoncepcional. Mas a minha mãe não pode saber.",
+    "roteiro": [
+      {
+        "topico": "Vida sexual",
+        "resposta": "Comecei a ter relação há 3 meses com o meu namorado."
+      },
+      {
+        "topico": "Namorado",
+        "resposta": "Ele tem 17 anos. A gente estuda na mesma escola."
+      },
+      {
+        "topico": "Consentimento",
+        "resposta": "Foi porque eu quis. Ele nunca me forçou."
+      },
+      {
+        "topico": "Preservativo",
+        "resposta": "Usamos camisinha às vezes."
+      },
+      {
+        "topico": "Última menstruação",
+        "resposta": "Veio há 2 semanas, normal."
+      },
+      {
+        "topico": "Relação sem proteção",
+        "resposta": "A última sem camisinha foi há 4 dias."
+      },
+      {
+        "topico": "Ciclo",
+        "resposta": "Menstruo desde os 12 anos, regular."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Não tenho doença. Não tenho enxaqueca com aura."
+      },
+      {
+        "topico": "Fumo",
+        "resposta": "Não fumo."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Não tomo remédio."
+      },
+      {
+        "topico": "Vacinas",
+        "resposta": "Não sei se tomei a vacina do HPV."
+      },
+      {
+        "topico": "Família e escola",
+        "resposta": "Moro com a minha mãe. Vou bem na escola."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "O senhor vai contar para a minha mãe?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 108 x 68 mmHg, FC 76 bpm, peso 54 kg, IMC 20,8 kg/m²."
+    },
+    {
+      "item": "Exame físico geral",
+      "achado": "Sem alterações. Desenvolvimento puberal completo (Tanner 5)."
+    },
+    {
+      "item": "Exame ginecológico",
+      "achado": "Não é obrigatório para iniciar contracepção."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Teste de gravidez",
+      "resultado": "Negativo (cerca de 2 semanas da menstruação; repetir se houver atraso)."
+    },
+    {
+      "item": "Testes rápidos de HIV, sífilis e hepatites",
+      "resultado": "Não reagentes."
+    }
+  ],
+  "diagnostico": "Adolescente de 15 anos com vida sexual ativa e consentida, sem contraindicações aos métodos contraceptivos, com exposição recente sem preservativo.",
+  "condutaEsperada": [
+    "Garantir sigilo e confidencialidade (Estatuto da Criança e do Adolescente e Código de Ética Médica); o sigilo só é quebrado em risco à vida ou suspeita de violência.",
+    "Avaliar violência ou coerção (relação consentida com parceiro de 17 anos: não configura violência; abaixo de 14 anos seria estupro de vulnerável).",
+    "Oferecer contracepção de emergência (levonorgestrel 1,5 mg em dose única) pela relação desprotegida há 4 dias (eficaz até 5 dias).",
+    "Aconselhamento contraceptivo: métodos de longa duração (DIU ou implante) são os mais eficazes para adolescentes; alternativas: pílula combinada (sem contraindicações), injetável. Iniciar o método escolhido no mesmo dia.",
+    "Dupla proteção: preservativo em todas as relações; testes de IST; verificar e atualizar a vacina de HPV e hepatite B.",
+    "Estimular, sem obrigar, o diálogo com a família; marcar retorno."
+  ],
+  "pep": [
+    {
+      "id": "sigilo",
+      "item": "Garante sigilo e confidencialidade logo no início.",
+      "peso": 1.5
+    },
+    {
+      "id": "historia",
+      "item": "Faz a história sexual (início, parceiro, preservativo).",
+      "peso": 1
+    },
+    {
+      "id": "violencia",
+      "item": "Investiga consentimento, coerção e violência.",
+      "peso": 1
+    },
+    {
+      "id": "gravidez",
+      "item": "Avalia o risco de gravidez (menstruação, relação desprotegida).",
+      "peso": 1
+    },
+    {
+      "id": "emergencia",
+      "item": "Oferece contracepção de emergência.",
+      "peso": 1
+    },
+    {
+      "id": "contraindicacoes",
+      "item": "Investiga contraindicações (enxaqueca com aura, tabagismo, doenças).",
+      "peso": 0.5
+    },
+    {
+      "id": "aconselhamento",
+      "item": "Apresenta os métodos e destaca os de longa duração.",
+      "peso": 1.5
+    },
+    {
+      "id": "dupla",
+      "item": "Orienta dupla proteção com preservativo e oferece testes de IST.",
+      "peso": 1
+    },
+    {
+      "id": "vacina",
+      "item": "Verifica as vacinas de HPV e hepatite B.",
+      "peso": 0.5
+    },
+    {
+      "id": "familia",
+      "item": "Estimula o diálogo com a família respeitando a autonomia.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Proteger e cuidar da saúde de adolescentes na atenção básica, 2018.",
+    "Critérios Médicos de Elegibilidade para Uso de Métodos Anticoncepcionais (OMS, 2015)."
+  ]
+}

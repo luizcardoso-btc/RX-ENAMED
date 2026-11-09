@@ -1,0 +1,184 @@
+{
+  "id": "go-13-corrimento-vaginal",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Ginecologia",
+  "titulo": "Corrimento com cheiro forte",
+  "tema": "Corrimento vaginal: vaginose bacteriana",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde com espéculo, fita de pH, hidróxido de potássio (KOH) e microscópio.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Débora Nunes",
+    "idade": 28,
+    "sexo": "feminino",
+    "ocupacao": "cabeleireira",
+    "perfil": "Envergonhada pelo cheiro. Acha que pegou de alguém.",
+    "abertura": "Doutor, estou com um corrimento com um cheiro muito ruim, parece de peixe.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou há 2 semanas."
+      },
+      {
+        "topico": "Características",
+        "resposta": "Corrimento acinzentado, fino, em pouca quantidade."
+      },
+      {
+        "topico": "Cheiro",
+        "resposta": "O cheiro piora depois da relação e na menstruação."
+      },
+      {
+        "topico": "Coceira, ardência, dor",
+        "resposta": "Não coça e não arde. Não tenho dor na relação nem no pé da barriga."
+      },
+      {
+        "topico": "Urina",
+        "resposta": "Não tenho ardência ao urinar."
+      },
+      {
+        "topico": "Parceria sexual",
+        "resposta": "Tenho um parceiro fixo há 3 anos. Ele não tem sintomas."
+      },
+      {
+        "topico": "Contracepção",
+        "resposta": "Uso DIU de cobre."
+      },
+      {
+        "topico": "Duchas vaginais",
+        "resposta": "Faço ducha vaginal com sabonete para tirar o cheiro."
+      },
+      {
+        "topico": "Gravidez",
+        "resposta": "A menstruação veio há 10 dias, normal."
+      },
+      {
+        "topico": "Episódios anteriores",
+        "resposta": "Já tive isso uma vez no ano passado."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doença. Não tomo remédio."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Meu marido me traiu?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Exame especular",
+      "achado": "Corrimento homogêneo, fino, acinzentado, aderido às paredes vaginais, sem hiperemia. Colo sem alterações, fio do DIU visível."
+    },
+    {
+      "item": "Toque vaginal",
+      "achado": "Sem dor à mobilização do colo, anexos livres."
+    },
+    {
+      "item": "Vulva",
+      "achado": "Sem lesões, sem edema."
+    }
+  ],
+  "exames": [
+    {
+      "item": "pH vaginal",
+      "resultado": "5,2."
+    },
+    {
+      "item": "Teste das aminas (KOH a 10%)",
+      "resultado": "Positivo: odor de peixe."
+    },
+    {
+      "item": "Microscopia a fresco",
+      "resultado": "Células-guia (clue cells). Sem hifas ou tricomonas."
+    },
+    {
+      "item": "Testes rápidos de HIV, sífilis e hepatites",
+      "resultado": "Não reagentes."
+    }
+  ],
+  "diagnostico": "Vaginose bacteriana (critérios de Amsel: corrimento homogêneo, pH acima de 4,5, teste das aminas positivo e células-guia).",
+  "condutaEsperada": [
+    "Diagnosticar pelos critérios de Amsel (3 de 4) e diferenciar de candidíase (prurido, corrimento grumoso, pH abaixo de 4,5) e tricomoníase (corrimento amarelo-esverdeado bolhoso, colo em framboesa).",
+    "Metronidazol 500 mg VO a cada 12 horas por 7 dias (ou metronidazol gel vaginal por 5 noites); evitar álcool durante e até 24 horas após.",
+    "Não é necessário tratar o parceiro (não é IST); não é preciso retirar o DIU.",
+    "Suspender as duchas vaginais.",
+    "Oferecer testes para HIV, sífilis e hepatites e orientar preservativo.",
+    "Explicar à paciente que não é sinal de traição e que pode voltar; retornar se persistir."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe sem julgamento.",
+      "peso": 0.5
+    },
+    {
+      "id": "corrimento",
+      "item": "Caracteriza o corrimento (cor, odor, consistência, relação com o coito).",
+      "peso": 1.5
+    },
+    {
+      "id": "diferenciais",
+      "item": "Pergunta prurido, ardência, dispareunia e dor pélvica.",
+      "peso": 1
+    },
+    {
+      "id": "fatores",
+      "item": "Investiga parceria, contracepção e duchas vaginais.",
+      "peso": 0.5
+    },
+    {
+      "id": "especular",
+      "item": "Realiza exame especular e descreve o corrimento.",
+      "peso": 1
+    },
+    {
+      "id": "ph-aminas",
+      "item": "Solicita pH vaginal e teste das aminas.",
+      "peso": 1
+    },
+    {
+      "id": "microscopia",
+      "item": "Solicita microscopia e identifica células-guia.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica vaginose bacteriana.",
+      "peso": 1
+    },
+    {
+      "id": "metronidazol",
+      "item": "Prescreve metronidazol corretamente e orienta evitar álcool.",
+      "peso": 1.5
+    },
+    {
+      "id": "parceiro",
+      "item": "Explica que o parceiro não precisa ser tratado e oferece testes de IST.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. PCDT para Atenção Integral às Pessoas com IST, 2022: corrimento vaginal."
+  ]
+}

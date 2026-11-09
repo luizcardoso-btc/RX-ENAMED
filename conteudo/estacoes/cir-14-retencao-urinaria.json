@@ -1,0 +1,175 @@
+{
+  "id": "cir-14-retencao-urinaria",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Urologia",
+  "titulo": "Não consigo urinar",
+  "tema": "Retenção urinária aguda por hiperplasia prostática",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral. Há sondas vesicais, ultrassom e laboratório.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Seu Antônio Ribeiro",
+    "idade": 72,
+    "sexo": "masculino",
+    "ocupacao": "aposentado (comerciante)",
+    "perfil": "Com dor e aflito, segurando o pé da barriga.",
+    "abertura": "Doutor, faz desde ontem à noite que eu não consigo urinar. Minha barriga vai estourar!",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Urinei pela última vez ontem às 10 da noite. Já são 12 horas."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Dor forte no pé da barriga, uma vontade enorme de urinar."
+      },
+      {
+        "topico": "Sintomas antes",
+        "resposta": "Há uns 3 anos o jato está fraco, demoro para começar e levanto 4 vezes à noite para urinar. Fica um gotejamento no fim."
+      },
+      {
+        "topico": "Medicamentos recentes",
+        "resposta": "Tomei um antigripal ontem, aquele com remédio para nariz entupido."
+      },
+      {
+        "topico": "Sangue na urina e febre",
+        "resposta": "Não vi sangue. Não tive febre."
+      },
+      {
+        "topico": "Intestino",
+        "resposta": "Estou com o intestino preso há 4 dias."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Pressão alta. Diabetes não tenho."
+      },
+      {
+        "topico": "Medicamentos de uso contínuo",
+        "resposta": "Anlodipino."
+      },
+      {
+        "topico": "Cirurgias e sondagens",
+        "resposta": "Nunca operei a próstata nem usei sonda."
+      },
+      {
+        "topico": "Exame da próstata",
+        "resposta": "Nunca fiz exame de próstata."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 162 x 94 mmHg, FC 96 bpm, temperatura 36,5 °C."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Massa suprapúbica arredondada, dolorosa, maciça à percussão (bexigoma) até perto da cicatriz umbilical."
+    },
+    {
+      "item": "Toque retal",
+      "achado": "Próstata aumentada (cerca de 50 g), fibroelástica, lisa, indolor, sem nódulos. Fecaloma em ampola retal."
+    },
+    {
+      "item": "Genitais",
+      "achado": "Sem estenose de meato ou fimose."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Ultrassom de bexiga",
+      "resultado": "Volume vesical de 1.100 mL."
+    },
+    {
+      "item": "Creatinina, ureia e eletrólitos",
+      "resultado": "Creatinina 1,4 mg/dL, ureia 60 mg/dL, potássio 4,6 mEq/L."
+    },
+    {
+      "item": "Urina tipo 1 (após a sondagem)",
+      "resultado": "Sem sinais de infecção."
+    }
+  ],
+  "diagnostico": "Retenção urinária aguda por hiperplasia prostática benigna, precipitada por descongestionante (simpaticomimético) e constipação.",
+  "condutaEsperada": [
+    "Cateterismo vesical de alívio imediato com sonda de Foley de demora (drenagem do bexigoma), com técnica asséptica; se a sondagem uretral não for possível, cistostomia suprapúbica.",
+    "Observar hematúria e poliúria pós-obstrutiva após a drenagem; controlar a função renal.",
+    "Iniciar alfabloqueador (tansulosina 0,4 mg por dia) e retirar a sonda em 2 a 3 dias com teste de micção (tentativa sem sonda).",
+    "Suspender o antigripal (descongestionante e anti-histamínico) e tratar a constipação.",
+    "Encaminhar à urologia: avaliar inibidor da 5-alfa-redutase (próstata acima de 40 g) e cirurgia se houver retenção recorrente; o PSA deve ser dosado depois da retenção e da sondagem resolvidas, em decisão compartilhada.",
+    "Explicar ao paciente o procedimento e o cuidado com a sonda."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e explica o que vai fazer.",
+      "peso": 0.5
+    },
+    {
+      "id": "retencao",
+      "item": "Caracteriza a retenção (tempo sem urinar, dor).",
+      "peso": 1
+    },
+    {
+      "id": "luts",
+      "item": "Investiga sintomas prévios do trato urinário inferior.",
+      "peso": 1
+    },
+    {
+      "id": "precipitantes",
+      "item": "Investiga medicamentos (descongestionante, anticolinérgico) e constipação.",
+      "peso": 1.5
+    },
+    {
+      "id": "exame",
+      "item": "Examina o abdome (bexigoma) e faz toque retal.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica retenção urinária aguda por hiperplasia prostática.",
+      "peso": 1
+    },
+    {
+      "id": "sondagem",
+      "item": "Indica cateterismo vesical imediato com técnica asséptica.",
+      "peso": 2
+    },
+    {
+      "id": "alfabloqueador",
+      "item": "Prescreve alfabloqueador e planeja retirar a sonda.",
+      "peso": 1
+    },
+    {
+      "id": "suspender",
+      "item": "Suspende o descongestionante e orienta evitar esses remédios.",
+      "peso": 0.5
+    },
+    {
+      "id": "seguimento",
+      "item": "Encaminha à urologia e controla a função renal.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Urologia. Hiperplasia prostática benigna.",
+    "European Association of Urology. Guidelines on non-neurogenic male LUTS, 2024."
+  ]
+}

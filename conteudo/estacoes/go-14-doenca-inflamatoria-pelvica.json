@@ -1,0 +1,191 @@
+{
+  "id": "go-14-doenca-inflamatoria-pelvica",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Ginecologia",
+  "titulo": "Dor no pé da barriga e febre",
+  "tema": "Doença inflamatória pélvica",
+  "duracaoMin": 10,
+  "cenario": "Pronto atendimento ginecológico. Há ultrassom, laboratório e medicação injetável.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Amanda Rocha",
+    "idade": 23,
+    "sexo": "feminino",
+    "ocupacao": "estudante",
+    "perfil": "Com dor, preocupada. Responde com sinceridade quando há privacidade.",
+    "abertura": "Doutor, estou com uma dor no pé da barriga dos dois lados e febre.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou há 4 dias e foi piorando."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Dor no pé da barriga dos dois lados, contínua. Dói mais na relação sexual."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Febre de 38,3 °C ontem."
+      },
+      {
+        "topico": "Corrimento",
+        "resposta": "Um corrimento amarelado com cheiro, há uma semana."
+      },
+      {
+        "topico": "Sangramento",
+        "resposta": "Um sangramento pequeno depois da relação."
+      },
+      {
+        "topico": "Menstruação",
+        "resposta": "A última foi há 8 dias, normal."
+      },
+      {
+        "topico": "Vida sexual",
+        "resposta": "Tenho um namorado novo há 2 meses. A gente não usa camisinha."
+      },
+      {
+        "topico": "Contracepção",
+        "resposta": "Uso pílula."
+      },
+      {
+        "topico": "Vômitos e intestino",
+        "resposta": "Não vomitei. O intestino está normal."
+      },
+      {
+        "topico": "Urina",
+        "resposta": "Sem ardência para urinar."
+      },
+      {
+        "topico": "Doenças e IST anteriores",
+        "resposta": "Nunca tive infecção sexual."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 116 x 74 mmHg, FC 98 bpm, temperatura 38,2 °C."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Dor à palpação em hipogástrio e fossas ilíacas, sem descompressão dolorosa, sem massas."
+    },
+    {
+      "item": "Exame especular",
+      "achado": "Secreção mucopurulenta saindo pelo colo, colo friável."
+    },
+    {
+      "item": "Toque vaginal",
+      "achado": "Dor à mobilização do colo uterino e à palpação dos anexos dos dois lados. Sem massas anexiais."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Beta-hCG",
+      "resultado": "Negativo."
+    },
+    {
+      "item": "Hemograma e PCR",
+      "resultado": "Leucócitos 13.600/mm³, PCR 7,8 mg/dL."
+    },
+    {
+      "item": "Ultrassom transvaginal",
+      "resultado": "Útero e ovários normais, sem abscesso tubo-ovariano, pequena quantidade de líquido livre."
+    },
+    {
+      "item": "Pesquisa de clamídia e gonococo (biologia molecular)",
+      "resultado": "Colhida."
+    },
+    {
+      "item": "Testes rápidos de HIV, sífilis e hepatites",
+      "resultado": "Não reagentes."
+    }
+  ],
+  "diagnostico": "Doença inflamatória pélvica aguda leve a moderada, sem abscesso, sem critérios de internação.",
+  "condutaEsperada": [
+    "Diagnóstico clínico: dor pélvica com dor à mobilização do colo e anexos, mais critérios adicionais (febre, secreção mucopurulenta, PCR elevada).",
+    "Afastar gravidez (ectópica) e outras causas (apendicite); ultrassom para afastar abscesso tubo-ovariano.",
+    "Tratamento ambulatorial: ceftriaxona 500 mg IM em dose única, mais doxiciclina 100 mg VO a cada 12 horas por 14 dias, mais metronidazol 500 mg VO a cada 12 horas por 14 dias.",
+    "Reavaliar em 72 horas; internar se não melhorar, se houver abscesso, gravidez, quadro grave ou intolerância à via oral.",
+    "Tratar o parceiro sexual (gonorreia e clamídia: ceftriaxona 500 mg IM e azitromicina 1 g VO) e orientar abstinência até o fim do tratamento.",
+    "Oferecer testes de IST, preservativo e vacina para HPV e hepatite B conforme a idade."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e garante privacidade.",
+      "peso": 0.5
+    },
+    {
+      "id": "dor",
+      "item": "Caracteriza a dor pélvica, a dispareunia e a febre.",
+      "peso": 1
+    },
+    {
+      "id": "corrimento",
+      "item": "Pergunta corrimento e sangramento.",
+      "peso": 0.5
+    },
+    {
+      "id": "sexual",
+      "item": "Faz a história sexual (novas parcerias, preservativo).",
+      "peso": 1
+    },
+    {
+      "id": "gravidez",
+      "item": "Afasta gravidez com beta-hCG.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Realiza exame especular e toque, identificando dor à mobilização do colo e dos anexos.",
+      "peso": 1.5
+    },
+    {
+      "id": "usg",
+      "item": "Solicita ultrassom para afastar abscesso.",
+      "peso": 0.5
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica doença inflamatória pélvica.",
+      "peso": 1
+    },
+    {
+      "id": "tratamento",
+      "item": "Prescreve ceftriaxona, doxiciclina e metronidazol nas doses corretas.",
+      "peso": 1.5
+    },
+    {
+      "id": "parceiro",
+      "item": "Orienta o tratamento do parceiro.",
+      "peso": 1
+    },
+    {
+      "id": "reavaliacao",
+      "item": "Combina reavaliação em 72 horas e critérios de internação.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. PCDT para Atenção Integral às Pessoas com IST, 2022: doença inflamatória pélvica."
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "id": "mfc-13-ler-dort",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Saúde do trabalhador",
+  "titulo": "Dor e formigamento nas mãos",
+  "tema": "Doença relacionada ao trabalho: LER/DORT (síndrome do túnel do carpo)",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. O município tem Centro de Referência em Saúde do Trabalhador (CEREST).",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Sueli Vieira",
+    "idade": 41,
+    "sexo": "feminino",
+    "ocupacao": "costureira em confecção",
+    "perfil": "Preocupada em perder o emprego. Tem medo de pedir afastamento.",
+    "abertura": "Doutor, minhas mãos formigam e doem, principalmente à noite.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Há 6 meses, piorando."
+      },
+      {
+        "topico": "Sintomas",
+        "resposta": "Formigamento no polegar, no indicador e no dedo médio das duas mãos, pior na direita. Acordo à noite e preciso sacudir as mãos."
+      },
+      {
+        "topico": "Fraqueza",
+        "resposta": "Estou deixando cair a tesoura e a xícara."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Dor no punho que sobe para o braço."
+      },
+      {
+        "topico": "Trabalho",
+        "resposta": "Costuro na máquina 10 horas por dia, com meta de produção. Pausa só no almoço."
+      },
+      {
+        "topico": "Tempo de trabalho",
+        "resposta": "Trabalho nessa função há 12 anos, com carteira assinada."
+      },
+      {
+        "topico": "Colegas",
+        "resposta": "Duas colegas têm o mesmo problema."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Não tenho diabetes nem problema de tireoide. Não estou grávida."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Tomo dipirona e diclofenaco por conta própria."
+      },
+      {
+        "topico": "Atividades fora do trabalho",
+        "resposta": "Cuido da casa sozinha."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Se eu pegar atestado, a firma vai me mandar embora?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Inspeção das mãos",
+      "achado": "Discreta atrofia da eminência tenar à direita."
+    },
+    {
+      "item": "Teste de Phalen",
+      "achado": "Positivo bilateralmente, mais à direita."
+    },
+    {
+      "item": "Sinal de Tinel no punho",
+      "achado": "Positivo à direita."
+    },
+    {
+      "item": "Sensibilidade e força",
+      "achado": "Hipoestesia no território do nervo mediano à direita; força de oponência do polegar diminuída."
+    },
+    {
+      "item": "Coluna cervical e ombros",
+      "achado": "Sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Eletroneuromiografia",
+      "resultado": "Síndrome do túnel do carpo moderada à direita e leve à esquerda."
+    },
+    {
+      "item": "Glicemia e TSH",
+      "resultado": "Normais."
+    }
+  ],
+  "diagnostico": "Síndrome do túnel do carpo bilateral relacionada ao trabalho (LER/DORT), com nexo causal ocupacional (movimentos repetitivos, metas, ausência de pausas).",
+  "condutaEsperada": [
+    "Fazer a anamnese ocupacional: função, jornada, ritmo, pausas, metas, tempo na atividade e casos semelhantes.",
+    "Estabelecer o nexo com o trabalho e registrar no prontuário.",
+    "Notificação compulsória no SINAN (LER/DORT) e emissão da Comunicação de Acidente de Trabalho (CAT), que o médico pode emitir mesmo sem a empresa.",
+    "Tratamento: afastamento da atividade que agrava (atestado), órtese de punho noturna em posição neutra, analgesia de curto prazo e fisioterapia; encaminhar à ortopedia ou à mão para avaliar descompressão (atrofia tenar).",
+    "Orientar direitos: se afastamento acima de 15 dias, benefício acidentário pelo INSS e estabilidade no emprego após o retorno.",
+    "Acionar o CEREST para avaliação do ambiente de trabalho (ergonomia, pausas) e investigar as colegas."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe a preocupação.",
+      "peso": 0.5
+    },
+    {
+      "id": "sintomas",
+      "item": "Caracteriza a dor e as parestesias no território do nervo mediano.",
+      "peso": 1
+    },
+    {
+      "id": "ocupacional",
+      "item": "Faz anamnese ocupacional detalhada (função, jornada, pausas, metas, tempo).",
+      "peso": 2
+    },
+    {
+      "id": "diferenciais",
+      "item": "Investiga diabetes, hipotireoidismo e gravidez.",
+      "peso": 0.5
+    },
+    {
+      "id": "exame",
+      "item": "Realiza os testes de Phalen e Tinel e avalia força e atrofia.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica síndrome do túnel do carpo relacionada ao trabalho.",
+      "peso": 1
+    },
+    {
+      "id": "notificacao",
+      "item": "Notifica no SINAN e emite a CAT.",
+      "peso": 1.5
+    },
+    {
+      "id": "tratamento",
+      "item": "Indica órtese, analgesia, fisioterapia e afastamento da atividade.",
+      "peso": 1
+    },
+    {
+      "id": "direitos",
+      "item": "Orienta os direitos previdenciários e trabalhistas.",
+      "peso": 1
+    },
+    {
+      "id": "cerest",
+      "item": "Aciona o CEREST para avaliar o ambiente de trabalho.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Dor relacionada ao trabalho: LER/DORT (Protocolos de complexidade diferenciada).",
+    "Portaria GM/MS nº 1.999/2023: lista de doenças relacionadas ao trabalho."
+  ]
+}
