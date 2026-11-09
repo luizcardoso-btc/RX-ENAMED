@@ -1,0 +1,181 @@
+{
+  "id": "mfc-03-hipertensao-aps",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Atenção primária",
+  "titulo": "Pressão alta na consulta de rotina",
+  "tema": "Hipertensão arterial na APS: diagnóstico, estratificação e tratamento",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde com equipe de Saúde da Família. O paciente trouxe medidas de pressão feitas na farmácia.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Carlos Henrique Batista",
+    "idade": 52,
+    "sexo": "masculino",
+    "ocupacao": "motorista de aplicativo",
+    "perfil": "Tranquilo, um pouco cético com remédios. Gosta de entender o porquê das coisas.",
+    "abertura": "A moça da farmácia disse que a minha pressão está alta. Eu não sinto nada.",
+    "roteiro": [
+      {
+        "topico": "Medidas de pressão",
+        "resposta": "Medi três vezes na farmácia neste mês: 160 por 100, 156 por 98 e 158 por 96."
+      },
+      {
+        "topico": "Sintomas",
+        "resposta": "Não sinto dor de cabeça nem nada."
+      },
+      {
+        "topico": "Dor no peito, falta de ar, inchaço",
+        "resposta": "Não tenho."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Nunca tive diabetes. Colesterol nunca medi."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Não tomo remédio. Às vezes tomo um descongestionante nasal."
+      },
+      {
+        "topico": "Alimentação",
+        "resposta": "Como na rua, muito salgado, lanche e refrigerante."
+      },
+      {
+        "topico": "Atividade física",
+        "resposta": "Fico o dia todo sentado dirigindo. Não faço exercício."
+      },
+      {
+        "topico": "Tabagismo e álcool",
+        "resposta": "Fumo meio maço por dia. Bebo cerveja no fim de semana, umas 6 latas."
+      },
+      {
+        "topico": "Sono",
+        "resposta": "Durmo pouco, uns 5 horas. Minha mulher diz que eu ronco muito."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Meu pai teve derrame aos 60 anos. Minha mãe é hipertensa."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Se eu não sinto nada, preciso mesmo tomar remédio?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Pressão arterial na consulta",
+      "achado": "Média de duas medidas: 158 x 98 mmHg, sentado, manguito adequado. Braços com diferença menor que 10 mmHg."
+    },
+    {
+      "item": "Antropometria",
+      "achado": "Peso 92 kg, altura 1,74 m, IMC 30,4 kg/m², circunferência abdominal 106 cm."
+    },
+    {
+      "item": "Exame cardiovascular",
+      "achado": "FC 78 bpm, ritmo regular, sem sopros, pulsos periféricos simétricos."
+    },
+    {
+      "item": "Fundo de olho",
+      "achado": "Sem alterações."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Globoso, sem sopros abdominais, indolor."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Glicemia, creatinina, potássio e ácido úrico",
+      "resultado": "Glicemia de jejum 98 mg/dL, creatinina 1,0 mg/dL (TFG 88 mL/min), potássio 4,2 mEq/L, ácido úrico 6,8 mg/dL."
+    },
+    {
+      "item": "Perfil lipídico",
+      "resultado": "Colesterol total 232, LDL 152, HDL 38, triglicerídeos 210 mg/dL."
+    },
+    {
+      "item": "Urina tipo 1 e relação albumina/creatinina",
+      "resultado": "Normais."
+    },
+    {
+      "item": "Eletrocardiograma",
+      "resultado": "Ritmo sinusal, sem sobrecarga ventricular."
+    }
+  ],
+  "diagnostico": "Hipertensão arterial estágio 2, com risco cardiovascular alto (tabagismo, dislipidemia, obesidade abdominal, história familiar); suspeita de apneia obstrutiva do sono.",
+  "condutaEsperada": [
+    "Confirmar o diagnóstico com as medidas no consultório (e, se disponível, MAPA ou MRPA).",
+    "Exames iniciais: creatinina e TFG, potássio, glicemia, perfil lipídico, ácido úrico, urina tipo 1, relação albumina/creatinina e ECG.",
+    "Mudanças de estilo de vida: menos sal (menos de 5 g por dia), padrão alimentar DASH, atividade física de 150 minutos por semana, perda de peso, redução do álcool e cessação do tabagismo.",
+    "Estágio 2: iniciar tratamento com combinação de dois fármacos (IECA ou BRA + tiazídico ou bloqueador de canal de cálcio).",
+    "Meta: PA abaixo de 130 x 80 mmHg se tolerada. Estatina pelo risco cardiovascular. Evitar descongestionante nasal.",
+    "Investigar apneia do sono e retornar em 4 semanas para avaliar resposta e adesão."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e cria vínculo, valorizando a preocupação do paciente.",
+      "peso": 0.5
+    },
+    {
+      "id": "medidas",
+      "item": "Confirma as medidas de PA (técnica, mais de uma medida, em mais de uma ocasião).",
+      "peso": 1
+    },
+    {
+      "id": "lesao-orgao",
+      "item": "Investiga sintomas de lesão de órgão-alvo e doenças associadas.",
+      "peso": 1
+    },
+    {
+      "id": "fatores-risco",
+      "item": "Investiga fatores de risco (tabagismo, álcool, sedentarismo, alimentação, história familiar).",
+      "peso": 1.5
+    },
+    {
+      "id": "secundaria",
+      "item": "Pergunta sobre medicamentos que elevam a PA e sinais de apneia do sono.",
+      "peso": 1
+    },
+    {
+      "id": "exames",
+      "item": "Solicita os exames iniciais de avaliação do hipertenso.",
+      "peso": 1
+    },
+    {
+      "id": "estratificacao",
+      "item": "Classifica como estágio 2 e estratifica o risco cardiovascular.",
+      "peso": 1
+    },
+    {
+      "id": "mev",
+      "item": "Orienta as mudanças de estilo de vida de forma concreta.",
+      "peso": 1
+    },
+    {
+      "id": "farmaco",
+      "item": "Inicia tratamento farmacológico combinado e define a meta de PA.",
+      "peso": 1.5
+    },
+    {
+      "id": "seguimento",
+      "item": "Combina retorno e explica a importância do tratamento contínuo.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Diretrizes Brasileiras de Hipertensão Arterial, SBC 2020.",
+    "Ministério da Saúde. Cadernos de Atenção Básica nº 37."
+  ]
+}

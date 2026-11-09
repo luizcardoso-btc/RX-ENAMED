@@ -1,0 +1,166 @@
+{
+  "id": "cir-04-tce",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Trauma",
+  "titulo": "Queda de bicicleta com batida na cabeça",
+  "tema": "Traumatismo cranioencefálico: indicação de tomografia e hematoma extradural",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com tomografia. A neurocirurgia de referência fica no mesmo hospital.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Lucas Martins Ferreira",
+    "idade": 32,
+    "sexo": "masculino",
+    "ocupacao": "professor de educação física",
+    "perfil": "Sonolento, mas responde. Repete a mesma pergunta duas vezes. A esposa acompanha.",
+    "abertura": "Que horas são? Eu caí da bicicleta?",
+    "roteiro": [
+      {
+        "topico": "O que aconteceu",
+        "resposta": "A esposa responde: \"Ele caiu de bicicleta descendo a ladeira, sem capacete, e bateu a cabeça no meio-fio.\""
+      },
+      {
+        "topico": "Horário",
+        "resposta": "Faz uma hora e meia."
+      },
+      {
+        "topico": "Perda de consciência",
+        "resposta": "Ficou desacordado por uns 2 minutos. Depois acordou falando normal."
+      },
+      {
+        "topico": "Memória do acidente",
+        "resposta": "Não lembra de nada desde que saiu de casa."
+      },
+      {
+        "topico": "Evolução",
+        "resposta": "No caminho para cá ficou mais sonolento e vomitou duas vezes."
+      },
+      {
+        "topico": "Cefaleia",
+        "resposta": "Diz que a cabeça dói muito, do lado direito."
+      },
+      {
+        "topico": "Convulsão",
+        "resposta": "Não teve convulsão."
+      },
+      {
+        "topico": "Anticoagulante ou doença",
+        "resposta": "Não toma nenhum remédio. É saudável."
+      },
+      {
+        "topico": "Álcool",
+        "resposta": "Não bebeu nada."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 148 x 86 mmHg, FC 64 bpm, FR 16 irpm, SatO2 97% em ar ambiente."
+    },
+    {
+      "item": "Escala de coma de Glasgow",
+      "achado": "Abertura ocular ao chamado (3), confuso (4), localiza a dor (6): Glasgow 13. Na chegada ao hospital, a equipe registrou Glasgow 15."
+    },
+    {
+      "item": "Pupilas",
+      "achado": "Anisocoria discreta, pupila direita maior que a esquerda, fotorreagentes."
+    },
+    {
+      "item": "Cabeça e couro cabeludo",
+      "achado": "Hematoma subgaleal temporal direito. Sem sinais de fratura de base de crânio."
+    },
+    {
+      "item": "Coluna cervical e motor",
+      "achado": "Sem dor na coluna cervical. Força preservada nos quatro membros, discreta lentificação à esquerda."
+    },
+    {
+      "item": "Tórax e abdome",
+      "achado": "Sem lesões. Abdome flácido e indolor."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Tomografia de crânio sem contraste",
+      "resultado": "Coleção biconvexa (em lente) hiperdensa temporal direita, com 2 cm de espessura e desvio da linha média de 6 mm. Fratura linear do osso temporal direito."
+    },
+    {
+      "item": "Hemograma, coagulograma e glicemia",
+      "resultado": "Hemograma, coagulograma e glicemia normais."
+    }
+  ],
+  "diagnostico": "Traumatismo cranioencefálico moderado com hematoma extradural temporal direito, com intervalo lúcido e piora neurológica.",
+  "condutaEsperada": [
+    "Avaliação pelo ABCDE, com restrição de movimento da coluna cervical até avaliação.",
+    "Tomografia de crânio indicada (perda de consciência, amnésia, vômitos, Glasgow menor que 15, cefaleia e piora).",
+    "Acionar a neurocirurgia: drenagem cirúrgica de urgência do hematoma extradural (volume grande, desvio de linha média e piora clínica).",
+    "Medidas de proteção cerebral: cabeceira a 30 graus, evitar hipotensão (PAS de 110 mmHg ou mais) e hipóxia (SatO2 de 94% ou mais), normoglicemia, analgesia.",
+    "Monitorização neurológica seriada (Glasgow e pupilas); intubação se Glasgow de 8 ou menos ou perda de proteção da via aérea.",
+    "Explicar à esposa a gravidade, a necessidade de cirurgia e o prognóstico."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se, explica o que vai fazer e conversa com a acompanhante.",
+      "peso": 0.5
+    },
+    {
+      "id": "mecanismo",
+      "item": "Caracteriza o mecanismo do trauma e o uso de capacete.",
+      "peso": 0.5
+    },
+    {
+      "id": "perda-consciencia",
+      "item": "Pergunta perda de consciência, amnésia e intervalo lúcido.",
+      "peso": 1.5
+    },
+    {
+      "id": "sinais-alarme",
+      "item": "Investiga vômitos, cefaleia progressiva, convulsão e uso de anticoagulante.",
+      "peso": 1
+    },
+    {
+      "id": "glasgow",
+      "item": "Avalia a escala de Glasgow e as pupilas e identifica a piora neurológica.",
+      "peso": 1.5
+    },
+    {
+      "id": "tc",
+      "item": "Indica tomografia de crânio sem contraste.",
+      "peso": 1
+    },
+    {
+      "id": "interpreta",
+      "item": "Interpreta a tomografia como hematoma extradural com desvio da linha média.",
+      "peso": 1.5
+    },
+    {
+      "id": "neurocirurgia",
+      "item": "Aciona a neurocirurgia para drenagem de urgência.",
+      "peso": 1.5
+    },
+    {
+      "id": "protecao",
+      "item": "Indica medidas de proteção cerebral (cabeceira a 30°, evitar hipotensão e hipóxia).",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "ATLS, 10ª edição. Capítulo de traumatismo cranioencefálico.",
+    "Canadian CT Head Rule."
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "cir-03-trauma-abdominal",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Trauma",
+  "titulo": "Motociclista após colisão",
+  "tema": "Trauma abdominal fechado com instabilidade",
+  "duracaoMin": 10,
+  "cenario": "Sala de emergência de hospital de referência em trauma. Equipe de enfermagem, ultrassom à beira do leito, banco de sangue e centro cirúrgico disponíveis. O paciente chegou pelo SAMU, com colar cervical e prancha.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Diego Rodrigues",
+    "idade": 24,
+    "sexo": "masculino",
+    "ocupacao": "entregador",
+    "perfil": "Pálido, ansioso, responde devagar. Queixa-se de dor na barriga. Pede água.",
+    "abertura": "Tá doendo muito a minha barriga... tô com sede...",
+    "roteiro": [
+      {
+        "topico": "O que aconteceu",
+        "resposta": "Bati de moto num carro que cruzou na minha frente. Bati a barriga no guidão."
+      },
+      {
+        "topico": "Horário",
+        "resposta": "Faz uns 40 minutos."
+      },
+      {
+        "topico": "Capacete e perda de consciência",
+        "resposta": "Estava de capacete. Acho que não desmaiei, lembro de tudo."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Dói mais do lado esquerdo da barriga e vai para o ombro esquerdo."
+      },
+      {
+        "topico": "Falta de ar",
+        "resposta": "Um pouco, por causa da dor."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doença, não tomo remédio."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Última refeição",
+        "resposta": "Almocei faz umas duas horas."
+      },
+      {
+        "topico": "Álcool e drogas",
+        "resposta": "Não bebi nada hoje."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "A: vias aéreas e coluna cervical",
+      "achado": "Fala, vias aéreas pérvias. Colar cervical bem posicionado."
+    },
+    {
+      "item": "B: respiração",
+      "achado": "FR 26 irpm, SatO2 95% com máscara. Murmúrio vesicular presente e simétrico. Sem enfisema subcutâneo."
+    },
+    {
+      "item": "C: circulação",
+      "achado": "PA 82 x 50 mmHg, FC 132 bpm, pulsos finos, enchimento capilar de 4 segundos, pele fria. Sem sangramento externo. Pelve estável."
+    },
+    {
+      "item": "D: neurológico",
+      "achado": "Glasgow 14 (abertura ocular ao chamado). Pupilas isocóricas e fotorreagentes."
+    },
+    {
+      "item": "E: exposição e abdome",
+      "achado": "Escoriação no hipocôndrio esquerdo. Abdome distendido, doloroso, com defesa difusa."
+    }
+  ],
+  "exames": [
+    {
+      "item": "FAST (ultrassom à beira do leito)",
+      "resultado": "Líquido livre no espaço esplenorrenal e na pelve. Pericárdio sem líquido."
+    },
+    {
+      "item": "Radiografia de tórax e de pelve",
+      "resultado": "Sem pneumotórax, hemotórax ou fraturas. Pelve sem fratura."
+    },
+    {
+      "item": "Hemograma, lactato e tipagem sanguínea",
+      "resultado": "Hemoglobina 9,1 g/dL, lactato 4,8 mmol/L, tipagem sanguínea O positivo."
+    }
+  ],
+  "diagnostico": "Trauma abdominal fechado com choque hemorrágico classe III e FAST positivo: provável lesão esplênica com hemoperitônio, paciente instável.",
+  "condutaEsperada": [
+    "Atendimento pelo ABCDE com restrição de movimento da coluna.",
+    "Dois acessos venosos calibrosos, coleta de exames e tipagem; aquecer o paciente.",
+    "Reposição volêmica limitada (até 1 litro de cristaloide aquecido) e início precoce de hemoderivados, com protocolo de transfusão maciça (concentrado de hemácias, plasma e plaquetas 1:1:1).",
+    "Ácido tranexâmico 1 g IV em 10 minutos (até 3 horas do trauma), seguido de 1 g em 8 horas.",
+    "Paciente instável com FAST positivo: laparotomia exploradora de urgência. Não levar à tomografia.",
+    "Sonda vesical se não houver sinais de lesão uretral; analgesia; acionar a cirurgia e o centro cirúrgico; comunicar o paciente."
+  ],
+  "pep": [
+    {
+      "id": "abcde",
+      "item": "Faz a avaliação inicial na ordem ABCDE com restrição de movimento da coluna cervical.",
+      "peso": 1
+    },
+    {
+      "id": "choque",
+      "item": "Reconhece o choque hemorrágico (hipotensão, taquicardia, má perfusão).",
+      "peso": 1.5
+    },
+    {
+      "id": "acesso",
+      "item": "Solicita dois acessos venosos calibrosos, tipagem e exames.",
+      "peso": 1
+    },
+    {
+      "id": "volume",
+      "item": "Faz reposição volêmica limitada com cristaloide aquecido e indica hemoderivados precocemente.",
+      "peso": 1.5
+    },
+    {
+      "id": "acido-tranexamico",
+      "item": "Indica ácido tranexâmico dentro de 3 horas do trauma.",
+      "peso": 1
+    },
+    {
+      "id": "fast",
+      "item": "Solicita FAST e interpreta como líquido livre na cavidade.",
+      "peso": 1
+    },
+    {
+      "id": "laparotomia",
+      "item": "Indica laparotomia exploradora de urgência sem levar o paciente instável à tomografia.",
+      "peso": 2
+    },
+    {
+      "id": "comunica",
+      "item": "Aciona a equipe cirúrgica e explica ao paciente o que será feito.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "ATLS: Advanced Trauma Life Support, 10ª edição."
+  ]
+}

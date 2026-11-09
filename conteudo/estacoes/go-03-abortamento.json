@@ -1,0 +1,186 @@
+{
+  "id": "go-03-abortamento",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "titulo": "Sangramento com 9 semanas de gestação",
+  "tema": "Abortamento incompleto",
+  "duracaoMin": 10,
+  "cenario": "Pronto atendimento de maternidade. Há ultrassom transvaginal, laboratório e sala de procedimentos com AMIU.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Juliana Costa",
+    "idade": 27,
+    "sexo": "feminino",
+    "ocupacao": "vendedora",
+    "perfil": "Chorosa, com cólica. Planejou a gravidez e está com medo de perder o bebê.",
+    "abertura": "Doutor, eu tô sangrando muito e com cólica, eu tô grávida.",
+    "roteiro": [
+      {
+        "topico": "Data da última menstruação",
+        "resposta": "Foi há 9 semanas."
+      },
+      {
+        "topico": "Início do sangramento",
+        "resposta": "Começou ontem à noite, pouco. Hoje de manhã aumentou e saíram uns pedaços."
+      },
+      {
+        "topico": "Quantidade",
+        "resposta": "Já troquei três absorventes cheios desde de manhã."
+      },
+      {
+        "topico": "Cólica",
+        "resposta": "Cólica forte, como de menstruação, no pé da barriga."
+      },
+      {
+        "topico": "Febre, corrimento com cheiro",
+        "resposta": "Não tive febre nem corrimento com cheiro ruim."
+      },
+      {
+        "topico": "Tontura ou desmaio",
+        "resposta": "Um pouco de tontura quando levanto."
+      },
+      {
+        "topico": "Gestações anteriores",
+        "resposta": "Tenho um filho de 4 anos, parto normal. Nunca perdi bebê."
+      },
+      {
+        "topico": "Pré-natal e ultrassom",
+        "resposta": "Fiz um teste de farmácia positivo. Ainda não fiz ultrassom."
+      },
+      {
+        "topico": "Tipo sanguíneo",
+        "resposta": "Sou O negativo. Meu marido é A positivo."
+      },
+      {
+        "topico": "Manipulação ou medicamentos",
+        "resposta": "Não tomei nada nem fiz nada para perder."
+      },
+      {
+        "topico": "Doenças e alergias",
+        "resposta": "Sou saudável. Não tenho alergia."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Só ácido fólico."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Foi alguma coisa que eu fiz?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 110 x 70 mmHg, FC 92 bpm, temperatura 36,7 °C."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Flácido, doloroso à palpação profunda no hipogástrio, sem sinais de irritação peritoneal."
+    },
+    {
+      "item": "Exame especular",
+      "achado": "Sangramento moderado vindo do orifício cervical, com restos ovulares no orifício. Sem lesões no colo."
+    },
+    {
+      "item": "Toque vaginal",
+      "achado": "Colo pérvio a uma polpa digital. Útero aumentado para cerca de 8 semanas. Anexos livres."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Ultrassom transvaginal",
+      "resultado": "Útero com conteúdo heterogêneo de 2,5 cm de espessura na cavidade, sem saco gestacional ou embrião. Anexos normais."
+    },
+    {
+      "item": "Beta-hCG",
+      "resultado": "Positivo."
+    },
+    {
+      "item": "Hemograma",
+      "resultado": "Hemoglobina 11,2 g/dL."
+    },
+    {
+      "item": "Tipagem sanguínea",
+      "resultado": "O, Rh negativo. Coombs indireto negativo."
+    }
+  ],
+  "diagnostico": "Abortamento incompleto no primeiro trimestre em gestante Rh negativo com Coombs indireto negativo.",
+  "condutaEsperada": [
+    "Acolhimento, sem julgamento, e analgesia.",
+    "Esvaziamento uterino: aspiração manual intrauterina (AMIU), preferencial até 12 semanas; misoprostol é alternativa em paciente estável.",
+    "Imunoglobulina anti-D (até 72 horas) por ser Rh negativo com Coombs indireto negativo.",
+    "Encaminhar o material para exame anatomopatológico.",
+    "Orientar sinais de alarme (febre, sangramento intenso, dor forte) e retorno.",
+    "Oferecer planejamento reprodutivo e apoio emocional; explicar que o abortamento no primeiro trimestre geralmente não tem causa evitável."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe a paciente sem julgamento.",
+      "peso": 1
+    },
+    {
+      "id": "idade-gestacional",
+      "item": "Calcula a idade gestacional pela data da última menstruação.",
+      "peso": 0.5
+    },
+    {
+      "id": "sangramento",
+      "item": "Caracteriza o sangramento, a eliminação de restos e a cólica.",
+      "peso": 1
+    },
+    {
+      "id": "infeccao",
+      "item": "Pergunta febre e corrimento com odor (afasta abortamento infectado).",
+      "peso": 0.5
+    },
+    {
+      "id": "rh",
+      "item": "Pergunta ou solicita o tipo sanguíneo e o fator Rh.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Solicita exame especular e toque e identifica colo pérvio com restos.",
+      "peso": 1
+    },
+    {
+      "id": "usg",
+      "item": "Solicita ultrassom transvaginal e interpreta como restos ovulares.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica abortamento incompleto.",
+      "peso": 1
+    },
+    {
+      "id": "amiu",
+      "item": "Indica esvaziamento uterino (AMIU ou misoprostol).",
+      "peso": 1.5
+    },
+    {
+      "id": "anti-d",
+      "item": "Indica imunoglobulina anti-D.",
+      "peso": 1
+    },
+    {
+      "id": "orientacao",
+      "item": "Orienta sinais de alarme, planejamento reprodutivo e oferece apoio.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Atenção humanizada ao abortamento: norma técnica.",
+    "FEBRASGO. Protocolo de abortamento."
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "ped-04-asma-crianca",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Pneumologia pediátrica",
+  "titulo": "Criança com crise de falta de ar",
+  "tema": "Crise de asma na criança",
+  "duracaoMin": 10,
+  "cenario": "Unidade de pronto atendimento. Há oxímetro, oxigênio, salbutamol spray, espaçador, nebulizador e corticoides.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Cláudia Mendes, mãe de Pedro (7 anos)",
+    "idade": 35,
+    "sexo": "feminino",
+    "ocupacao": "cabeleireira",
+    "perfil": "Mãe aflita. Pedro, de 7 anos, está sentado, cansado, e consegue responder com frases curtas.",
+    "abertura": "Ele está com aquela falta de ar de novo, doutor, a bombinha não está resolvendo.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou ontem à noite depois de um resfriado. Hoje de manhã piorou."
+      },
+      {
+        "topico": "Uso da bombinha",
+        "resposta": "Dei 2 jatos de salbutamol três vezes desde ontem, sem espaçador."
+      },
+      {
+        "topico": "Fala e atividade",
+        "resposta": "Ele consegue falar, mas para no meio da frase para respirar."
+      },
+      {
+        "topico": "Crises anteriores",
+        "resposta": "Tem crise umas três vezes por mês. Acorda à noite tossindo pelo menos uma vez por semana."
+      },
+      {
+        "topico": "Internações",
+        "resposta": "Já internou uma vez, ano passado. Nunca foi para UTI nem foi intubado."
+      },
+      {
+        "topico": "Tratamento de manutenção",
+        "resposta": "O médico passou uma bombinha de corticoide, mas eu parei porque achei que ele melhorou."
+      },
+      {
+        "topico": "Desencadeantes",
+        "resposta": "Piora com poeira, frio e quando o gato da vizinha entra em casa."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não teve febre."
+      },
+      {
+        "topico": "Doenças e alergias",
+        "resposta": "Rinite alérgica. Não tem alergia a remédio."
+      },
+      {
+        "topico": "Fumo em casa",
+        "resposta": "O avô, que mora com a gente, fuma dentro de casa."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Eu tenho asma desde pequena."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "A bombinha vicia ou faz mal para o coração?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "FC 128 bpm, FR 34 irpm, SatO2 93% em ar ambiente, temperatura 36,6 °C, peso 24 kg."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Alerta, fala frases curtas, prefere ficar sentado."
+    },
+    {
+      "item": "Aparelho respiratório",
+      "achado": "Tiragem intercostal leve. Sibilos expiratórios difusos. Tempo expiratório prolongado. Murmúrio vesicular presente."
+    },
+    {
+      "item": "Reavaliação após 3 doses de salbutamol com espaçador e corticoide oral",
+      "achado": "FR 24 irpm, SatO2 96%, fala frases completas, sibilos esparsos."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Pico de fluxo expiratório",
+      "resultado": "55% do previsto na chegada; 80% após o tratamento."
+    },
+    {
+      "item": "Radiografia de tórax",
+      "resultado": "Não indicada de rotina; se feita: hiperinsuflação, sem consolidação."
+    }
+  ],
+  "diagnostico": "Crise de asma moderada em criança com asma não controlada (sintomas frequentes e despertares noturnos) e sem tratamento de manutenção.",
+  "condutaEsperada": [
+    "Salbutamol spray com espaçador, 4 a 10 jatos a cada 20 minutos na primeira hora (ou nebulização), e reavaliar.",
+    "Oxigênio se SatO2 abaixo de 94%.",
+    "Corticoide sistêmico precoce: prednisolona ou prednisona 1 a 2 mg/kg/dia (máximo 40 mg) por 3 a 5 dias.",
+    "Reavaliar após 1 hora; se não melhorar, considerar ipratrópio e sulfato de magnésio e observação ou internação.",
+    "Alta com boa resposta: plano de ação escrito, técnica inalatória com espaçador, retomar corticoide inalatório de manutenção e retorno em até 1 semana.",
+    "Controle ambiental: casa sem fumo, evitar poeira e animais; tratar a rinite."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe a mãe e a criança.",
+      "peso": 0.5
+    },
+    {
+      "id": "gravidade",
+      "item": "Avalia a gravidade da crise (fala, uso de musculatura, saturação, frequência respiratória).",
+      "peso": 1.5
+    },
+    {
+      "id": "tratamento-previo",
+      "item": "Pergunta o uso de broncodilatador e a técnica (espaçador).",
+      "peso": 0.5
+    },
+    {
+      "id": "controle",
+      "item": "Avalia o controle da asma (crises, despertares noturnos, internações, UTI, intubação).",
+      "peso": 1
+    },
+    {
+      "id": "manutencao",
+      "item": "Pergunta sobre o tratamento de manutenção e a adesão.",
+      "peso": 1
+    },
+    {
+      "id": "salbutamol",
+      "item": "Prescreve salbutamol com espaçador em doses repetidas na primeira hora.",
+      "peso": 1.5
+    },
+    {
+      "id": "corticoide",
+      "item": "Prescreve corticoide sistêmico com dose adequada.",
+      "peso": 1.5
+    },
+    {
+      "id": "reavaliacao",
+      "item": "Reavalia a resposta antes de decidir a alta.",
+      "peso": 1
+    },
+    {
+      "id": "alta",
+      "item": "Orienta plano de ação, técnica com espaçador, corticoide inalatório e controle ambiental (fumo).",
+      "peso": 1.5
+    }
+  ],
+  "referencias": [
+    "GINA: Global Initiative for Asthma, 2024.",
+    "Sociedade Brasileira de Pediatria. Asma na infância."
+  ]
+}

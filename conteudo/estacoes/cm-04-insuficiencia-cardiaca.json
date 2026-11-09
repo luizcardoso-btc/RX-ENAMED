@@ -1,0 +1,187 @@
+{
+  "id": "cm-04-insuficiencia-cardiaca",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Cardiologia",
+  "titulo": "Falta de ar que piora deitado",
+  "tema": "Insuficiência cardíaca descompensada",
+  "duracaoMin": 10,
+  "cenario": "Pronto atendimento de hospital secundário. Há eletrocardiograma, radiografia, exames laboratoriais, BNP, oxigênio e ventilação não invasiva.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Antônio Pereira Lima",
+    "idade": 71,
+    "sexo": "masculino",
+    "ocupacao": "aposentado (pedreiro)",
+    "perfil": "Cansado, senta na beira da maca para respirar melhor. Fala frases curtas. Cooperativo.",
+    "abertura": "Doutor, eu tô com muita falta de ar, não consigo nem deitar.",
+    "roteiro": [
+      {
+        "topico": "Início e evolução",
+        "resposta": "Faz uns 10 dias que vem piorando. Agora cansa até para tomar banho."
+      },
+      {
+        "topico": "Falta de ar ao deitar",
+        "resposta": "Tenho que dormir com três travesseiros. Duas noites acordei sufocado e tive que sentar na janela."
+      },
+      {
+        "topico": "Inchaço",
+        "resposta": "As pernas estão inchadas, o sapato não entra. A barriga também parece maior."
+      },
+      {
+        "topico": "Ganho de peso",
+        "resposta": "Engordei uns 4 quilos neste mês, sem comer mais."
+      },
+      {
+        "topico": "Dor no peito, palpitação",
+        "resposta": "Não tive dor no peito. Às vezes sinto o coração acelerado."
+      },
+      {
+        "topico": "Febre, tosse, catarro",
+        "resposta": "Uma tosse seca à noite. Febre não."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Tive um infarto há 5 anos. Pressão alta. O médico disse que o coração ficou fraco."
+      },
+      {
+        "topico": "Medicamentos e adesão",
+        "resposta": "Furosemida, enalapril, carvedilol e espironolactona. Parei a furosemida há duas semanas porque fazia urinar muito e eu ia para a roça."
+      },
+      {
+        "topico": "Dieta e sal",
+        "resposta": "Nas festas do fim do mês comi muito churrasco e farofa. Água eu bebo bastante."
+      },
+      {
+        "topico": "Anti-inflamatório",
+        "resposta": "Tomei diclofenaco uns dias por causa da dor no joelho."
+      },
+      {
+        "topico": "Hábitos",
+        "resposta": "Não fumo há 5 anos. Cerveja só no fim de semana."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Meu irmão também é do coração."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Posso parar o remédio de urinar quando for trabalhar?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 164 x 96 mmHg, FC 104 bpm regular, FR 28 irpm, SatO2 88% em ar ambiente, temperatura 36,4 °C, peso 82 kg."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Dispneico, sentado, sem cianose central, extremidades mornas."
+    },
+    {
+      "item": "Aparelho cardiovascular",
+      "achado": "Ictus desviado para a esquerda. Terceira bulha (B3). Estase jugular a 45°. Refluxo hepatojugular positivo."
+    },
+    {
+      "item": "Aparelho respiratório",
+      "achado": "Estertores crepitantes até o terço médio dos dois hemitórax."
+    },
+    {
+      "item": "Abdome e extremidades",
+      "achado": "Hepatomegalia dolorosa a 3 cm do rebordo costal. Edema 3+/4+ simétrico até os joelhos."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Eletrocardiograma",
+      "resultado": "Ritmo sinusal, FC 104 bpm, área inativa anterior (ondas Q de V1 a V4), sem supradesnivelamento de ST."
+    },
+    {
+      "item": "Radiografia de tórax",
+      "resultado": "Cardiomegalia, cefalização da trama vascular, linhas B de Kerley e pequeno derrame pleural bilateral."
+    },
+    {
+      "item": "BNP e troponina",
+      "resultado": "BNP 1.450 pg/mL. Troponina normal."
+    },
+    {
+      "item": "Hemograma, creatinina, ureia e eletrólitos",
+      "resultado": "Creatinina 1,4 mg/dL (anterior 1,1), sódio 134 mEq/L, potássio 4,8 mEq/L, hemoglobina 12,8 g/dL."
+    },
+    {
+      "item": "Ecocardiograma (último, há 1 ano)",
+      "resultado": "Fração de ejeção do ventrículo esquerdo de 30%, acinesia anterior."
+    }
+  ],
+  "diagnostico": "Insuficiência cardíaca com fração de ejeção reduzida descompensada, perfil quente e úmido (congesto e bem perfundido), desencadeada por má adesão ao diurético, excesso de sal e uso de anti-inflamatório.",
+  "condutaEsperada": [
+    "Cabeceira elevada, monitorização, oxigênio para SatO2 abaixo de 90% e ventilação não invasiva se houver desconforto respiratório importante.",
+    "Furosemida intravenosa (dose de 1 a 2,5 vezes a dose oral habitual; por exemplo, 40 a 80 mg IV) com controle de diurese, peso, função renal e potássio.",
+    "Vasodilatador (nitrato) se PA elevada e congestão importante.",
+    "Identificar e corrigir os fatores de descompensação: suspender o diclofenaco, orientar dieta com pouco sal e retomar o diurético.",
+    "Manter betabloqueador se não houver choque ou baixo débito; otimizar o tratamento que modifica a doença (IECA/BRA/sacubitril-valsartana, betabloqueador, espironolactona e inibidor de SGLT2) até a alta.",
+    "Explicar a doença e combinar o controle diário do peso e da ingesta de líquidos e sal."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e explica o que vai fazer.",
+      "peso": 0.5
+    },
+    {
+      "id": "sintomas",
+      "item": "Caracteriza a dispneia (esforço, ortopneia, dispneia paroxística noturna), edema e ganho de peso.",
+      "peso": 1.5
+    },
+    {
+      "id": "desencadeantes",
+      "item": "Investiga fatores de descompensação: adesão ao tratamento, sal, anti-inflamatório, infecção, isquemia ou arritmia.",
+      "peso": 1.5
+    },
+    {
+      "id": "exame",
+      "item": "Solicita exame cardiovascular e pulmonar e identifica sinais de congestão (B3, estase jugular, crepitantes, edema).",
+      "peso": 1
+    },
+    {
+      "id": "perfil",
+      "item": "Classifica o perfil hemodinâmico como quente e úmido.",
+      "peso": 1
+    },
+    {
+      "id": "exames",
+      "item": "Solicita ECG, radiografia de tórax, BNP, troponina, função renal e eletrólitos.",
+      "peso": 1.5
+    },
+    {
+      "id": "oxigenio",
+      "item": "Indica oxigênio para SatO2 abaixo de 90% e considera ventilação não invasiva.",
+      "peso": 0.5
+    },
+    {
+      "id": "diuretico",
+      "item": "Prescreve furosemida intravenosa e controle de diurese, peso e potássio.",
+      "peso": 1.5
+    },
+    {
+      "id": "orientacao",
+      "item": "Orienta suspender o anti-inflamatório, reduzir o sal e não parar o diurético; explica o plano ao paciente.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda, SBC 2018 e atualização 2021."
+  ]
+}

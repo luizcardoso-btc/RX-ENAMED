@@ -1,0 +1,189 @@
+{
+  "id": "cm-03-avc-isquemico",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Neurologia",
+  "titulo": "Fraqueza súbita no braço e na perna",
+  "tema": "AVC isquêmico agudo: janela de trombólise",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com tomografia 24 horas e protocolo de AVC. A unidade de AVC e a neurologia estão disponíveis por telefone. São 10h40.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Maria das Graças Souza",
+    "idade": 67,
+    "sexo": "feminino",
+    "ocupacao": "aposentada (costureira)",
+    "perfil": "Trazida pela filha. Fala com dificuldade, arrastada, mas entende tudo. Está assustada. A filha responde quando a paciente não consegue.",
+    "abertura": "Doutor... o meu braço... e a perna... não mexem direito...",
+    "roteiro": [
+      {
+        "topico": "Início dos sintomas",
+        "resposta": "A filha responde: \"Ela estava normal no café, às 9h30. Às 9h50 deixou cair a xícara e não conseguiu mais levantar o braço direito.\""
+      },
+      {
+        "topico": "Horário em que foi vista bem pela última vez",
+        "resposta": "Às 9h30, tomando café comigo. Estava conversando normal."
+      },
+      {
+        "topico": "Sintomas",
+        "resposta": "Fraqueza no braço e na perna do lado direito, a boca ficou torta e a fala enrolada."
+      },
+      {
+        "topico": "Cefaleia, vômitos, convulsão",
+        "resposta": "Não teve dor de cabeça forte, não vomitou, não teve convulsão."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Pressão alta há 15 anos e diabetes há 8 anos. O médico falou que o coração \"bate descompassado\" às vezes."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Losartana, hidroclorotiazida e metformina. Não usa remédio para afinar o sangue."
+      },
+      {
+        "topico": "Anticoagulante",
+        "resposta": "Não toma varfarina nem outro anticoagulante."
+      },
+      {
+        "topico": "Cirurgias, sangramentos, AVC ou trauma recentes",
+        "resposta": "Nada disso. Nunca teve derrame. Não caiu nem bateu a cabeça."
+      },
+      {
+        "topico": "Hábitos",
+        "resposta": "Ex-fumante, parou há 10 anos. Não bebe."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia a remédio."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não teve febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "A mãe dela teve derrame com 70 anos."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Doutor, eu vou ficar assim para sempre?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 176 x 98 mmHg, FC 92 bpm irregular, FR 16 irpm, SatO2 96% em ar ambiente, temperatura 36,5 °C."
+    },
+    {
+      "item": "Glicemia capilar",
+      "achado": "132 mg/dL."
+    },
+    {
+      "item": "Exame neurológico",
+      "achado": "Consciente, orientada. Disartria moderada. Paralisia facial central à direita. Força grau 2 no membro superior direito e grau 3 no inferior direito. Sem rigidez de nuca. NIHSS 9."
+    },
+    {
+      "item": "Aparelho cardiovascular",
+      "achado": "Ritmo cardíaco irregular, bulhas normofonéticas, sem sopros."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Bom estado geral, corada, hidratada."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Flácido, indolor, sem visceromegalias."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Tomografia de crânio sem contraste",
+      "resultado": "Sem sangramento. Sem área de hipodensidade estabelecida. ASPECTS 10."
+    },
+    {
+      "item": "Eletrocardiograma",
+      "resultado": "Fibrilação atrial com resposta ventricular de 90 bpm, sem alterações isquêmicas agudas."
+    },
+    {
+      "item": "Hemograma, coagulograma, creatinina e glicemia",
+      "resultado": "Hemograma normal, plaquetas 230.000/mm³, INR 1,0, creatinina 1,0 mg/dL, glicemia 130 mg/dL."
+    },
+    {
+      "item": "Angiotomografia de vasos intracranianos",
+      "resultado": "Sem oclusão de grande vaso proximal."
+    }
+  ],
+  "diagnostico": "AVC isquêmico agudo em território da artéria cerebral média esquerda, com início há cerca de 1 hora e 10 minutos, provável origem cardioembólica (fibrilação atrial).",
+  "condutaEsperada": [
+    "Acionar o protocolo de AVC: avaliação neurológica (NIHSS), glicemia capilar e tomografia de crânio sem contraste imediata.",
+    "Confirmar o horário do último momento visto bem (9h30) e afastar contraindicações à trombólise.",
+    "Trombólise com alteplase 0,9 mg/kg (máximo 90 mg): 10% em bolus em 1 minuto e o restante em 60 minutos, dentro de 4,5 horas.",
+    "Manter PA abaixo de 185 x 110 mmHg antes e abaixo de 180 x 105 mmHg nas 24 horas após a trombólise.",
+    "Não dar antiagregante nem anticoagulante nas primeiras 24 horas após a alteplase; monitorização neurológica e internação em unidade de AVC.",
+    "Investigar a causa (FA): anticoagulação será discutida depois, conforme a extensão do infarto. Explicar à paciente e à filha o tratamento e os riscos."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e explica à paciente e à acompanhante o que vai fazer.",
+      "peso": 0.5
+    },
+    {
+      "id": "horario",
+      "item": "Define o horário do último momento em que a paciente foi vista bem.",
+      "peso": 1.5
+    },
+    {
+      "id": "deficits",
+      "item": "Caracteriza os déficits (fraqueza, face, fala) e pergunta cefaleia, vômitos ou convulsão.",
+      "peso": 0.5
+    },
+    {
+      "id": "contraindicacoes",
+      "item": "Investiga contraindicações à trombólise (anticoagulante, sangramento, cirurgia, AVC ou trauma recentes).",
+      "peso": 1.5
+    },
+    {
+      "id": "glicemia",
+      "item": "Solicita glicemia capilar.",
+      "peso": 0.5
+    },
+    {
+      "id": "tc",
+      "item": "Solicita tomografia de crânio sem contraste com urgência e interpreta como sem sangramento.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica AVC isquêmico agudo dentro da janela terapêutica.",
+      "peso": 1
+    },
+    {
+      "id": "trombolise",
+      "item": "Indica trombólise com alteplase 0,9 mg/kg (máx. 90 mg, 10% em bolus).",
+      "peso": 1.5
+    },
+    {
+      "id": "pa",
+      "item": "Mantém PA abaixo de 185 x 110 mmHg para a trombólise.",
+      "peso": 1
+    },
+    {
+      "id": "comunica",
+      "item": "Explica o diagnóstico, o benefício e o risco de sangramento à paciente e à filha.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Linha de cuidado do AVC no adulto.",
+    "AHA/ASA. Guidelines for the early management of acute ischemic stroke, 2019."
+  ]
+}

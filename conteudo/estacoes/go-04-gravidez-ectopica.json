@@ -1,0 +1,180 @@
+{
+  "id": "go-04-gravidez-ectopica",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "titulo": "Atraso menstrual e dor no baixo ventre",
+  "tema": "Gravidez ectópica íntegra: tratamento com metotrexato",
+  "duracaoMin": 10,
+  "cenario": "Pronto atendimento ginecológico de hospital geral. Há ultrassom transvaginal, beta-hCG quantitativo e laboratório.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Fernanda Alves",
+    "idade": 30,
+    "sexo": "feminino",
+    "ocupacao": "enfermeira",
+    "perfil": "Tranquila, mas preocupada. Responde com clareza.",
+    "abertura": "Estou com uma dor do lado esquerdo e um sangramento escuro, e minha menstruação está atrasada.",
+    "roteiro": [
+      {
+        "topico": "Data da última menstruação",
+        "resposta": "Foi há 7 semanas. Sempre foi regular."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Começou há 2 dias, do lado esquerdo do pé da barriga, uma dor fraca e contínua."
+      },
+      {
+        "topico": "Sangramento",
+        "resposta": "Um sangramento escuro, pouco, tipo borra de café."
+      },
+      {
+        "topico": "Desmaio, tontura, dor no ombro",
+        "resposta": "Não desmaiei, não tive tontura nem dor no ombro."
+      },
+      {
+        "topico": "Teste de gravidez",
+        "resposta": "Fiz um teste de farmácia que deu positivo."
+      },
+      {
+        "topico": "Antecedentes ginecológicos",
+        "resposta": "Tive uma infecção nas trompas aos 22 anos e tratei com antibiótico."
+      },
+      {
+        "topico": "Gestações",
+        "resposta": "Nunca engravidei antes."
+      },
+      {
+        "topico": "Contracepção",
+        "resposta": "Usava camisinha, nem sempre."
+      },
+      {
+        "topico": "Desejo de gestação",
+        "resposta": "A gente queria ter filhos no futuro."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Sou saudável."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Não tomo nada."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Vou conseguir engravidar depois?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 118 x 76 mmHg, FC 82 bpm, temperatura 36,5 °C."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Flácido, levemente doloroso na fossa ilíaca esquerda, sem sinais de irritação peritoneal."
+    },
+    {
+      "item": "Exame especular",
+      "achado": "Pequena quantidade de sangue escuro no fundo de saco. Colo fechado."
+    },
+    {
+      "item": "Toque vaginal",
+      "achado": "Colo fechado, útero pouco aumentado, anexo esquerdo levemente doloroso, sem massa palpável. Fundo de saco livre."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Beta-hCG quantitativo",
+      "resultado": "2.350 mUI/mL."
+    },
+    {
+      "item": "Ultrassom transvaginal",
+      "resultado": "Útero sem saco gestacional intrauterino. Massa anexial esquerda de 2,8 cm, com anel tubário, sem embrião e sem batimento cardíaco. Mínima quantidade de líquido livre no fundo de saco."
+    },
+    {
+      "item": "Hemograma, função hepática e função renal",
+      "resultado": "Hemoglobina 12,9 g/dL; plaquetas, TGO, TGP e creatinina normais."
+    },
+    {
+      "item": "Tipagem sanguínea",
+      "resultado": "A, Rh positivo."
+    }
+  ],
+  "diagnostico": "Gravidez ectópica tubária esquerda íntegra, em paciente estável, candidata a tratamento clínico com metotrexato.",
+  "condutaEsperada": [
+    "Confirmar estabilidade hemodinâmica e ausência de sinais de rotura.",
+    "Critérios para metotrexato presentes: estável, massa menor que 3,5 a 4 cm, beta-hCG menor que 5.000 mUI/mL, sem batimento cardíaco embrionário, exames normais e possibilidade de seguimento.",
+    "Metotrexato 50 mg/m² intramuscular em dose única.",
+    "Dosar beta-hCG no 4º e no 7º dia: espera-se queda de pelo menos 15% entre eles; depois, semanalmente até negativar.",
+    "Orientar sinais de rotura (dor forte, tontura, desmaio, dor no ombro) e retorno imediato; evitar ácido fólico, anti-inflamatórios, álcool e relações sexuais durante o tratamento; contracepção por 3 meses.",
+    "Se houver instabilidade ou falha do tratamento: cirurgia (salpingectomia, de preferência por videolaparoscopia)."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e explica o que vai fazer.",
+      "peso": 0.5
+    },
+    {
+      "id": "atraso",
+      "item": "Caracteriza o atraso menstrual, a dor e o sangramento.",
+      "peso": 1
+    },
+    {
+      "id": "rotura",
+      "item": "Pergunta sinais de rotura e instabilidade (tontura, desmaio, dor no ombro).",
+      "peso": 1
+    },
+    {
+      "id": "fatores-risco",
+      "item": "Investiga fatores de risco (doença inflamatória pélvica, cirurgia tubária, ectópica prévia).",
+      "peso": 1
+    },
+    {
+      "id": "exames",
+      "item": "Solicita beta-hCG quantitativo e ultrassom transvaginal.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica gravidez ectópica íntegra.",
+      "peso": 1.5
+    },
+    {
+      "id": "criterios",
+      "item": "Verifica os critérios para tratamento clínico.",
+      "peso": 1.5
+    },
+    {
+      "id": "metotrexato",
+      "item": "Indica metotrexato 50 mg/m² IM em dose única.",
+      "peso": 1
+    },
+    {
+      "id": "seguimento",
+      "item": "Orienta o seguimento com beta-hCG no 4º e no 7º dia e os sinais de alarme.",
+      "peso": 1.5
+    }
+  ],
+  "referencias": [
+    "FEBRASGO. Gravidez ectópica: protocolo.",
+    "ACOG Practice Bulletin 193: Tubal ectopic pregnancy."
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "id": "mfc-04-diabetes-aps",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Atenção primária",
+  "titulo": "Glicose alta no exame de rotina",
+  "tema": "Diabetes tipo 2 na APS: diagnóstico e início do tratamento",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. A paciente veio mostrar exames pedidos na consulta anterior.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Rosângela Nunes",
+    "idade": 48,
+    "sexo": "feminino",
+    "ocupacao": "merendeira",
+    "perfil": "Comunicativa, tem medo de ter que tomar insulina \"como a mãe\". Gosta de doces.",
+    "abertura": "Doutor, eu trouxe os exames. Deu açúcar alto, né?",
+    "roteiro": [
+      {
+        "topico": "Sintomas",
+        "resposta": "Tenho tido muita sede e levanto à noite para urinar. Achei que era o calor."
+      },
+      {
+        "topico": "Peso",
+        "resposta": "Engordei 8 quilos nos últimos 2 anos."
+      },
+      {
+        "topico": "Visão, formigamento, feridas",
+        "resposta": "Às vezes os pés formigam à noite. Não tenho ferida."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Tive diabetes na gravidez do meu segundo filho. Pressão é normal."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Não tomo nada."
+      },
+      {
+        "topico": "Alimentação",
+        "resposta": "Como bastante pão, arroz e doce. Refrigerante todo dia."
+      },
+      {
+        "topico": "Atividade física",
+        "resposta": "Trabalho em pé, mas não faço exercício."
+      },
+      {
+        "topico": "Tabagismo e álcool",
+        "resposta": "Não fumo. Bebo pouco."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Minha mãe tem diabetes e usa insulina. Ela teve um pé amputado."
+      },
+      {
+        "topico": "Ciclo menstrual",
+        "resposta": "Ainda menstruo, regular."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Vou ter que usar insulina como a minha mãe?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 128 x 82 mmHg, FC 76 bpm."
+    },
+    {
+      "item": "Antropometria",
+      "achado": "Peso 84 kg, altura 1,60 m, IMC 32,8 kg/m², circunferência abdominal 102 cm."
+    },
+    {
+      "item": "Exame dos pés",
+      "achado": "Pulsos pediosos presentes. Sensibilidade ao monofilamento preservada. Pele íntegra, sem calosidades."
+    },
+    {
+      "item": "Pele",
+      "achado": "Acantose nigricans no pescoço."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Glicemias de jejum",
+      "resultado": "148 mg/dL e 152 mg/dL (duas datas)."
+    },
+    {
+      "item": "Hemoglobina glicada",
+      "resultado": "7,8%."
+    },
+    {
+      "item": "Perfil lipídico",
+      "resultado": "LDL 138, HDL 42, triglicerídeos 190 mg/dL."
+    },
+    {
+      "item": "Creatinina e relação albumina/creatinina na urina",
+      "resultado": "Creatinina 0,8 mg/dL (TFG 96), relação albumina/creatinina 18 mg/g (normal)."
+    },
+    {
+      "item": "Fundo de olho",
+      "resultado": "A agendar."
+    }
+  ],
+  "diagnostico": "Diabetes mellitus tipo 2 recém-diagnosticado, com obesidade e dislipidemia, sem complicações crônicas identificadas.",
+  "condutaEsperada": [
+    "Confirmar o diagnóstico: duas glicemias de jejum de 126 mg/dL ou mais e HbA1c de 6,5% ou mais.",
+    "Mudança de estilo de vida: alimentação com menos açúcar e ultraprocessados, atividade física de 150 minutos por semana e meta de perda de peso de 5 a 10%.",
+    "Iniciar metformina 500 mg com a refeição, aumentando progressivamente até 2.000 mg/dia conforme tolerância.",
+    "Meta individualizada de HbA1c abaixo de 7%; repetir a HbA1c em 3 meses.",
+    "Estatina (40 a 75 anos com diabetes), rastreamento de complicações (fundo de olho, exame dos pés anual, função renal e albuminúria) e vacinas.",
+    "Educação em diabetes: explicar que a insulina não é castigo e que o controle precoce previne complicações; sinais de hipoglicemia e de descompensação."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe o medo da paciente.",
+      "peso": 0.5
+    },
+    {
+      "id": "sintomas",
+      "item": "Pergunta sintomas de hiperglicemia (sede, poliúria, perda ou ganho de peso).",
+      "peso": 1
+    },
+    {
+      "id": "complicacoes",
+      "item": "Investiga complicações (visão, formigamento, feridas nos pés).",
+      "peso": 1
+    },
+    {
+      "id": "fatores-risco",
+      "item": "Investiga fatores de risco e história de diabetes gestacional e familiar.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Confirma o diagnóstico de diabetes tipo 2 pelos critérios laboratoriais.",
+      "peso": 1.5
+    },
+    {
+      "id": "pes",
+      "item": "Solicita ou realiza o exame dos pés com monofilamento.",
+      "peso": 1
+    },
+    {
+      "id": "mev",
+      "item": "Orienta alimentação, atividade física e perda de peso de forma concreta.",
+      "peso": 1
+    },
+    {
+      "id": "metformina",
+      "item": "Inicia metformina com titulação gradual.",
+      "peso": 1.5
+    },
+    {
+      "id": "rastreio",
+      "item": "Solicita fundo de olho, albuminúria e indica estatina.",
+      "peso": 1
+    },
+    {
+      "id": "educacao",
+      "item": "Explica a doença, as metas e o seguimento, sem amedrontar.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Diretriz da Sociedade Brasileira de Diabetes, 2024.",
+    "Ministério da Saúde. Cadernos de Atenção Básica nº 36."
+  ]
+}

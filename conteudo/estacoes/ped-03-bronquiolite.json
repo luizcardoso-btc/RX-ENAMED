@@ -1,0 +1,188 @@
+{
+  "id": "ped-03-bronquiolite",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Pneumologia pediátrica",
+  "titulo": "Lactente com chiado e cansaço",
+  "tema": "Bronquiolite viral aguda",
+  "duracaoMin": 10,
+  "cenario": "Pronto atendimento pediátrico de hospital secundário, em junho. Há oxímetro, oxigênio e leitos de internação pediátrica.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Ana Luísa Prado, mãe de Gabriel (4 meses)",
+    "idade": 29,
+    "sexo": "feminino",
+    "ocupacao": "auxiliar administrativa",
+    "perfil": "Mãe preocupada, cansada, responde por Gabriel, de 4 meses, que está no colo dela.",
+    "abertura": "Doutor, o Gabriel tá chiando e respirando muito rápido, não quer mamar.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou há 3 dias com coriza e espirros. Ontem começou a tossir e hoje está chiando."
+      },
+      {
+        "topico": "Respiração",
+        "resposta": "Está respirando rápido, a barriguinha afunda quando ele respira."
+      },
+      {
+        "topico": "Alimentação",
+        "resposta": "Mama no peito. Hoje mamou menos da metade do normal, cansa e solta o peito."
+      },
+      {
+        "topico": "Diurese",
+        "resposta": "Molhou só duas fraldas desde de manhã."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Teve 37,8 °C ontem."
+      },
+      {
+        "topico": "Pausas na respiração ou cianose",
+        "resposta": "Não vi ele parar de respirar nem ficar roxo."
+      },
+      {
+        "topico": "Contatos",
+        "resposta": "O irmão de 3 anos, que vai à creche, está resfriado."
+      },
+      {
+        "topico": "Gestação e nascimento",
+        "resposta": "Nasceu de 39 semanas, parto normal, sem precisar de UTI."
+      },
+      {
+        "topico": "Doenças e vacinas",
+        "resposta": "Nunca teve nada. Vacinas em dia."
+      },
+      {
+        "topico": "Episódios anteriores",
+        "resposta": "É a primeira vez que chia."
+      },
+      {
+        "topico": "Tabagismo em casa",
+        "resposta": "O pai fuma, mas fora de casa."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Só dei soro no nariz."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Eu tenho rinite. Ninguém tem asma."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Ele vai precisar de antibiótico?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "FC 168 bpm, FR 64 irpm, SatO2 89% em ar ambiente, temperatura 37,6 °C, peso 6,4 kg."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Irritado, hidratado, corado, sem cianose."
+    },
+    {
+      "item": "Aparelho respiratório",
+      "achado": "Tiragem subcostal e intercostal, batimento de asa de nariz. Sibilos e estertores finos difusos."
+    },
+    {
+      "item": "Aparelho cardiovascular",
+      "achado": "Taquicárdico, bulhas normofonéticas, enchimento capilar menor que 2 segundos."
+    },
+    {
+      "item": "Otoscopia e oroscopia",
+      "achado": "Sem alterações."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Flácido, fígado a 1 cm do rebordo costal."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Radiografia de tórax",
+      "resultado": "Hiperinsuflação e espessamento peribrônquico, sem consolidação."
+    },
+    {
+      "item": "Pesquisa de vírus respiratórios",
+      "resultado": "Vírus sincicial respiratório detectado."
+    },
+    {
+      "item": "Hemograma",
+      "resultado": "Não indicado de rotina; se feito: leucócitos 9.800/mm³, sem desvio."
+    }
+  ],
+  "diagnostico": "Bronquiolite viral aguda (vírus sincicial respiratório) com desconforto respiratório, hipoxemia e ingestão menor que 50%: indicação de internação.",
+  "condutaEsperada": [
+    "Internar: SatO2 abaixo de 90 a 92%, desconforto respiratório e ingestão abaixo de 50% do habitual.",
+    "Oxigênio para manter SatO2 de 90 a 92% ou mais; cabeceira elevada; aspiração e lavagem nasal com soro fisiológico.",
+    "Hidratação: oferecer o peito em mamadas menores e mais frequentes; se não conseguir mamar, sonda nasogástrica ou hidratação venosa.",
+    "Não usar de rotina broncodilatador, corticoide, antibiótico ou fisioterapia respiratória.",
+    "Monitorar sinais de piora (apneia, cansaço, queda da saturação) e precauções de contato.",
+    "Explicar à mãe a evolução esperada (pico entre o 3º e o 5º dia) e orientar sobre o fumo."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe a mãe.",
+      "peso": 0.5
+    },
+    {
+      "id": "historia",
+      "item": "Caracteriza o quadro: pródromo de vias aéreas superiores, tosse, sibilância e tempo de evolução.",
+      "peso": 1
+    },
+    {
+      "id": "alimentacao",
+      "item": "Pergunta a aceitação das mamadas e a diurese.",
+      "peso": 1.5
+    },
+    {
+      "id": "gravidade",
+      "item": "Pergunta apneia, cianose, prematuridade e doenças de base.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Solicita sinais vitais com oximetria e exame respiratório e reconhece o desconforto respiratório.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica bronquiolite viral aguda.",
+      "peso": 1
+    },
+    {
+      "id": "internacao",
+      "item": "Indica internação pelos critérios de gravidade.",
+      "peso": 1.5
+    },
+    {
+      "id": "suporte",
+      "item": "Prescreve oxigênio, lavagem nasal e hidratação (oral fracionada, sonda ou venosa).",
+      "peso": 1.5
+    },
+    {
+      "id": "sem-medicamentos",
+      "item": "Não prescreve broncodilatador, corticoide ou antibiótico de rotina.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Pediatria. Diretrizes para o manejo da bronquiolite viral aguda, 2017.",
+    "AAP. Clinical practice guideline: bronchiolitis, 2014."
+  ]
+}
