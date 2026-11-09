@@ -1,0 +1,189 @@
+{
+  "id": "go-08-rotura-membranas",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "titulo": "Perda de líquido com 30 semanas",
+  "tema": "Rotura prematura de membranas pré-termo",
+  "duracaoMin": 10,
+  "cenario": "Maternidade de alto risco com UTI neonatal, laboratório e cardiotocografia.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Patrícia Gomes",
+    "idade": 29,
+    "sexo": "feminino",
+    "ocupacao": "professora",
+    "perfil": "Calma, mas preocupada. Chegou com uma toalha.",
+    "abertura": "Doutor, saiu muita água de mim, molhou a calça toda, e eu não estou sentindo contração.",
+    "roteiro": [
+      {
+        "topico": "Idade gestacional",
+        "resposta": "Estou com 30 semanas."
+      },
+      {
+        "topico": "Perda de líquido",
+        "resposta": "Começou há 6 horas, de repente. Continua saindo um pouco quando me mexo. É clarinho, sem cheiro."
+      },
+      {
+        "topico": "Contrações",
+        "resposta": "Não estou sentindo contração."
+      },
+      {
+        "topico": "Sangramento",
+        "resposta": "Não sangrei."
+      },
+      {
+        "topico": "Febre, calafrios, dor na barriga",
+        "resposta": "Não tive febre nem dor."
+      },
+      {
+        "topico": "Movimentos do bebê",
+        "resposta": "Está mexendo bem."
+      },
+      {
+        "topico": "Corrimento ou infecções",
+        "resposta": "Tratei uma infecção vaginal no começo da gravidez."
+      },
+      {
+        "topico": "Gestações anteriores",
+        "resposta": "Tenho uma filha de 5 anos, nasceu de 36 semanas."
+      },
+      {
+        "topico": "Pré-natal",
+        "resposta": "Fiz todas as consultas. Os exames estão normais."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doença. Tomo ácido fólico e ferro."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "O bebê vai ficar sem líquido?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 110 x 70 mmHg, FC 84 bpm, temperatura 36,6 °C."
+    },
+    {
+      "item": "Palpação abdominal",
+      "achado": "Útero indolor, sem contrações. Altura uterina de 28 cm. Feto cefálico."
+    },
+    {
+      "item": "Ausculta fetal",
+      "achado": "BCF 140 bpm."
+    },
+    {
+      "item": "Exame especular",
+      "achado": "Saída de líquido claro pelo orifício cervical, que aumenta com a manobra de Valsalva. Colo fechado ao exame visual."
+    },
+    {
+      "item": "Toque vaginal",
+      "achado": "Não realizar."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Teste de cristalização e pH do líquido",
+      "resultado": "Cristalização em folha de samambaia positiva. pH 7,0 (fita de nitrazina positiva)."
+    },
+    {
+      "item": "Ultrassom obstétrico",
+      "resultado": "Feto único, 30 semanas, cefálico, peso estimado de 1.450 g, índice de líquido amniótico de 4 cm (oligoâmnio)."
+    },
+    {
+      "item": "Hemograma e PCR",
+      "resultado": "Leucócitos 10.400/mm³, PCR normal."
+    },
+    {
+      "item": "Cardiotocografia",
+      "resultado": "Categoria I."
+    },
+    {
+      "item": "Urocultura e cultura para estreptococo do grupo B",
+      "resultado": "Coletadas."
+    }
+  ],
+  "diagnostico": "Rotura prematura de membranas pré-termo (30 semanas), sem trabalho de parto e sem sinais de corioamnionite.",
+  "condutaEsperada": [
+    "Confirmar com exame especular (e cristalização ou pH); não fazer toque vaginal.",
+    "Internação com conduta expectante até 34 semanas, se não houver infecção, sofrimento fetal ou trabalho de parto.",
+    "Corticoide: betametasona 12 mg IM, duas doses com 24 horas de intervalo.",
+    "Antibiótico de latência: ampicilina IV por 48 horas seguida de amoxicilina oral por 5 dias, mais azitromicina em dose única.",
+    "Sulfato de magnésio para neuroproteção se o parto for iminente antes de 32 semanas.",
+    "Vigiar corioamnionite (febre, taquicardia materna ou fetal, útero doloroso, líquido fétido, leucocitose) e vitalidade fetal; resolver a gestação se houver infecção."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe a paciente.",
+      "peso": 0.5
+    },
+    {
+      "id": "perda",
+      "item": "Caracteriza a perda de líquido (início, cor, cheiro, quantidade).",
+      "peso": 1
+    },
+    {
+      "id": "infeccao",
+      "item": "Pergunta sinais de infecção (febre, dor, odor do líquido).",
+      "peso": 1
+    },
+    {
+      "id": "contracoes",
+      "item": "Pergunta contrações e sangramento.",
+      "peso": 0.5
+    },
+    {
+      "id": "sem-toque",
+      "item": "Não faz toque vaginal; confirma com exame especular.",
+      "peso": 1.5
+    },
+    {
+      "id": "confirmacao",
+      "item": "Confirma a rotura (cristalização ou pH) e avalia o líquido no ultrassom.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica rotura prematura de membranas pré-termo.",
+      "peso": 1
+    },
+    {
+      "id": "corticoide",
+      "item": "Prescreve corticoide.",
+      "peso": 1
+    },
+    {
+      "id": "antibiotico",
+      "item": "Prescreve antibiótico de latência.",
+      "peso": 1.5
+    },
+    {
+      "id": "vigilancia",
+      "item": "Planeja conduta expectante com vigilância de corioamnionite.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "FEBRASGO. Rotura prematura das membranas ovulares: protocolo.",
+    "ACOG Practice Bulletin 217: Prelabor rupture of membranes."
+  ]
+}

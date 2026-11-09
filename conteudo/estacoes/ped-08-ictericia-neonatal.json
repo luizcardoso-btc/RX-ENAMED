@@ -1,0 +1,182 @@
+{
+  "id": "ped-08-ictericia-neonatal",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Neonatologia",
+  "titulo": "Recém-nascido amarelinho",
+  "tema": "Icterícia neonatal por incompatibilidade ABO",
+  "duracaoMin": 10,
+  "cenario": "Alojamento conjunto de maternidade. O recém-nascido está com 70 horas de vida, mamando no peito. Há bilirrubinômetro, laboratório e fototerapia.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Débora Santos, mãe de Heitor (3 dias)",
+    "idade": 24,
+    "sexo": "feminino",
+    "ocupacao": "estudante",
+    "perfil": "Primeira vez mãe, cansada, com medo de o filho \"ficar amarelo para sempre\".",
+    "abertura": "Doutor, o Heitor está bem amarelinho, até as perninhas.",
+    "roteiro": [
+      {
+        "topico": "Quando começou",
+        "resposta": "Notei com 1 dia de vida no rostinho. Hoje está até as pernas."
+      },
+      {
+        "topico": "Amamentação",
+        "resposta": "Está mamando no peito, de 3 em 3 horas, umas 8 a 10 vezes por dia. Às vezes dorme no peito."
+      },
+      {
+        "topico": "Diurese e fezes",
+        "resposta": "Molha umas 6 fraldas por dia. Já fez cocô amarelo."
+      },
+      {
+        "topico": "Comportamento",
+        "resposta": "Está ativo, chora forte, mama bem."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não teve febre."
+      },
+      {
+        "topico": "Gestação e parto",
+        "resposta": "Nasceu de 39 semanas, parto normal, 3.200 gramas. Não precisou de oxigênio."
+      },
+      {
+        "topico": "Tipo sanguíneo",
+        "resposta": "Eu sou O positivo. Disseram que ele é A positivo."
+      },
+      {
+        "topico": "Irmãos com icterícia",
+        "resposta": "É meu primeiro filho."
+      },
+      {
+        "topico": "Perda de peso",
+        "resposta": "Disseram que perdeu um pouco de peso."
+      },
+      {
+        "topico": "Doenças na família",
+        "resposta": "Ninguém tem anemia ou doença do sangue."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não sei de alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Posso continuar amamentando?",
+      "Isso vai deixar sequela?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "FC 142 bpm, FR 44 irpm, temperatura 36,8 °C, peso 3.020 g (perda de 5,6%)."
+    },
+    {
+      "item": "Estado geral e pele",
+      "achado": "Ativo, reativo, sucção vigorosa. Icterícia até as pernas (zona 4 de Kramer). Sem palidez importante."
+    },
+    {
+      "item": "Exame neurológico",
+      "achado": "Tônus e reflexos normais, sem hipertonia, choro normal."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Fígado a 2 cm do rebordo costal, baço não palpável. Coto umbilical sem sinais de infecção."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Bilirrubina total e frações",
+      "resultado": "Bilirrubina total 17,4 mg/dL, indireta 16,9 mg/dL, direta 0,5 mg/dL, com 70 horas de vida."
+    },
+    {
+      "item": "Tipagem sanguínea e Coombs direto do recém-nascido",
+      "resultado": "A positivo. Coombs direto positivo."
+    },
+    {
+      "item": "Hemograma e reticulócitos",
+      "resultado": "Hemoglobina 14,2 g/dL, reticulócitos 7%, esferócitos no sangue periférico."
+    },
+    {
+      "item": "Gráfico de Bhutani e limiares",
+      "resultado": "Acima da linha de fototerapia para recém-nascido de 39 semanas com fator de risco de neurotoxicidade (doença hemolítica); abaixo do limiar de exsanguineotransfusão."
+    }
+  ],
+  "diagnostico": "Hiperbilirrubinemia indireta neonatal por doença hemolítica por incompatibilidade ABO (mãe O, recém-nascido A, Coombs direto positivo), com indicação de fototerapia.",
+  "condutaEsperada": [
+    "Avaliar a idade em horas, a idade gestacional, os fatores de risco de neurotoxicidade e sinais de encefalopatia bilirrubínica.",
+    "Dosar bilirrubina total e frações, tipagem do recém-nascido, Coombs direto, hemograma e reticulócitos.",
+    "Fototerapia intensiva (bilirrubina acima do limiar para a idade em horas e o risco).",
+    "Manter o aleitamento materno sob livre demanda, com apoio à pega; avaliar hidratação e peso.",
+    "Controle da bilirrubina em 4 a 6 horas; exsanguineotransfusão se atingir o limiar ou houver sinais de encefalopatia.",
+    "Explicar à mãe a causa, o tratamento e o seguimento após a alta (rebote e anemia tardia)."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe a mãe.",
+      "peso": 0.5
+    },
+    {
+      "id": "inicio",
+      "item": "Pergunta o início e a progressão da icterícia (icterícia nas primeiras 24 horas).",
+      "peso": 1.5
+    },
+    {
+      "id": "amamentacao",
+      "item": "Avalia amamentação, diurese, fezes e perda de peso.",
+      "peso": 1
+    },
+    {
+      "id": "tipagem",
+      "item": "Pergunta o tipo sanguíneo da mãe e do recém-nascido.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Examina e estima a icterícia pelas zonas de Kramer e pesquisa sinais neurológicos.",
+      "peso": 1
+    },
+    {
+      "id": "bilirrubina",
+      "item": "Solicita bilirrubina total e frações e interpreta para a idade em horas.",
+      "peso": 1.5
+    },
+    {
+      "id": "hemolise",
+      "item": "Solicita Coombs direto, hemograma e reticulócitos e reconhece a hemólise.",
+      "peso": 1
+    },
+    {
+      "id": "fototerapia",
+      "item": "Indica fototerapia.",
+      "peso": 1.5
+    },
+    {
+      "id": "aleitamento",
+      "item": "Mantém o aleitamento materno e combina o controle da bilirrubina.",
+      "peso": 0.5
+    },
+    {
+      "id": "orienta",
+      "item": "Explica à mãe a causa e o tratamento.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Pediatria. Icterícia no recém-nascido com idade gestacional de 35 semanas ou mais, 2021.",
+    "AAP. Clinical practice guideline revision: management of hyperbilirubinemia, 2022."
+  ]
+}

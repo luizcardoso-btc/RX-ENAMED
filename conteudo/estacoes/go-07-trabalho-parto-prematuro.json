@@ -1,0 +1,190 @@
+{
+  "id": "go-07-trabalho-parto-prematuro",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "titulo": "Contrações com 31 semanas",
+  "tema": "Trabalho de parto prematuro",
+  "duracaoMin": 10,
+  "cenario": "Pronto atendimento obstétrico de hospital com maternidade, sem UTI neonatal. A maternidade de referência com UTI neonatal fica a 40 minutos.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Camila Ribeiro",
+    "idade": 22,
+    "sexo": "feminino",
+    "ocupacao": "atendente de telemarketing",
+    "perfil": "Assustada, segurando a barriga. Teme pelo bebê.",
+    "abertura": "Doutor, a minha barriga está ficando dura toda hora e dói, e eu estou só de 7 meses.",
+    "roteiro": [
+      {
+        "topico": "Idade gestacional",
+        "resposta": "Estou com 31 semanas, pelo ultrassom do começo."
+      },
+      {
+        "topico": "Contrações",
+        "resposta": "Começaram há 4 horas. Agora vêm a cada 5 minutos, doem e ficam mais fortes."
+      },
+      {
+        "topico": "Perda de líquido ou sangue",
+        "resposta": "Não perdi líquido nem sangue."
+      },
+      {
+        "topico": "Movimentos do bebê",
+        "resposta": "Está mexendo normal."
+      },
+      {
+        "topico": "Ardência ao urinar, corrimento",
+        "resposta": "Estou com ardência para urinar há 3 dias."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "Gestações anteriores",
+        "resposta": "É a minha primeira gravidez."
+      },
+      {
+        "topico": "Pré-natal",
+        "resposta": "Fiz 5 consultas. O exame do estreptococo ainda não foi feito."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doença. Tomo sulfato ferroso."
+      },
+      {
+        "topico": "Fumo e drogas",
+        "resposta": "Não fumo nem uso drogas."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Meu bebê vai sobreviver se nascer agora?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 112 x 70 mmHg, FC 92 bpm, temperatura 36,8 °C."
+    },
+    {
+      "item": "Palpação e dinâmica uterina",
+      "achado": "3 contrações em 10 minutos, de 40 segundos, moderadas. Útero relaxa entre elas. Altura uterina de 30 cm. Feto cefálico."
+    },
+    {
+      "item": "Ausculta fetal",
+      "achado": "BCF 146 bpm."
+    },
+    {
+      "item": "Exame especular",
+      "achado": "Sem líquido amniótico ou sangramento. Conteúdo vaginal fisiológico."
+    },
+    {
+      "item": "Toque vaginal",
+      "achado": "Colo médio, 60% apagado, dilatado para 3 cm. Bolsa íntegra. Cefálico, alto."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Urina tipo 1 e urocultura",
+      "resultado": "Urina com nitrito positivo e leucocitúria. Urocultura colhida."
+    },
+    {
+      "item": "Cardiotocografia",
+      "resultado": "Categoria I. Contrações regulares."
+    },
+    {
+      "item": "Ultrassom obstétrico",
+      "resultado": "Feto único, 31 semanas, cefálico, peso estimado de 1.600 g, líquido amniótico normal."
+    },
+    {
+      "item": "Hemograma e PCR",
+      "resultado": "Leucócitos 11.200/mm³, PCR normal."
+    }
+  ],
+  "diagnostico": "Trabalho de parto prematuro com 31 semanas, provavelmente desencadeado por infecção urinária, sem corioamnionite.",
+  "condutaEsperada": [
+    "Internação e transferência para maternidade com UTI neonatal, se possível antes do parto (transporte intraútero).",
+    "Corticoide para maturação pulmonar: betametasona 12 mg IM, duas doses com 24 horas de intervalo.",
+    "Tocólise por até 48 horas para completar o corticoide e a transferência: nifedipina oral (sem contraindicações como infecção intrauterina, sofrimento fetal ou sangramento).",
+    "Sulfato de magnésio para neuroproteção fetal (menos de 32 semanas com parto provável).",
+    "Profilaxia para estreptococo do grupo B (penicilina cristalina) por status desconhecido em trabalho de parto prematuro.",
+    "Tratar a infecção urinária (por exemplo, cefalexina) conforme a urocultura; explicar o plano à paciente."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe a paciente.",
+      "peso": 0.5
+    },
+    {
+      "id": "contracoes",
+      "item": "Caracteriza as contrações e pergunta perda de líquido e sangramento.",
+      "peso": 1
+    },
+    {
+      "id": "ig",
+      "item": "Confirma a idade gestacional.",
+      "peso": 0.5
+    },
+    {
+      "id": "infeccao",
+      "item": "Investiga causas (infecção urinária, corrimento, febre).",
+      "peso": 1
+    },
+    {
+      "id": "toque",
+      "item": "Avalia a dinâmica uterina e o colo (dilatação e apagamento).",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica trabalho de parto prematuro.",
+      "peso": 1
+    },
+    {
+      "id": "corticoide",
+      "item": "Prescreve betametasona.",
+      "peso": 1.5
+    },
+    {
+      "id": "tocolise",
+      "item": "Indica tocólise com nifedipina por até 48 horas.",
+      "peso": 1
+    },
+    {
+      "id": "magnesio",
+      "item": "Indica sulfato de magnésio para neuroproteção.",
+      "peso": 1
+    },
+    {
+      "id": "estreptococo",
+      "item": "Indica profilaxia para estreptococo do grupo B.",
+      "peso": 0.5
+    },
+    {
+      "id": "transferencia",
+      "item": "Indica transferência para maternidade com UTI neonatal.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "FEBRASGO. Trabalho de parto prematuro: protocolo.",
+    "Ministério da Saúde. Manual de gestação de alto risco, 2022."
+  ]
+}

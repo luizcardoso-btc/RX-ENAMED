@@ -1,0 +1,191 @@
+{
+  "id": "cir-08-pancreatite",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Abdome agudo",
+  "titulo": "Dor em faixa no alto da barriga",
+  "tema": "Pancreatite aguda",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com laboratório, ultrassom e tomografia.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Sebastião Moreira",
+    "idade": 52,
+    "sexo": "masculino",
+    "ocupacao": "segurança",
+    "perfil": "Com muita dor, curvado para a frente. Nega beber muito no começo.",
+    "abertura": "Doutor, uma dor horrível aqui em cima da barriga que vai para as costas.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou ontem à noite, depois de uma festa. Foi piorando."
+      },
+      {
+        "topico": "Local e irradiação",
+        "resposta": "No meio, em cima do umbigo, e vai para as costas como uma faixa."
+      },
+      {
+        "topico": "Intensidade",
+        "resposta": "Nota 9. Melhora um pouco se eu ficar sentado inclinado para a frente."
+      },
+      {
+        "topico": "Vômitos",
+        "resposta": "Vomitei várias vezes. Não alivia."
+      },
+      {
+        "topico": "Álcool",
+        "resposta": "Bebo todo dia, umas 6 a 8 cervejas, e mais no fim de semana. Ontem bebi muito."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "Icterícia",
+        "resposta": "Não fiquei amarelo."
+      },
+      {
+        "topico": "Episódios anteriores",
+        "resposta": "Nunca tive isso."
+      },
+      {
+        "topico": "Cálculo na vesícula",
+        "resposta": "Nunca fiz ultrassom."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Não tomo remédio."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Não sei de nenhuma doença."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 132 x 84 mmHg, FC 108 bpm, FR 20 irpm, SatO2 96%, temperatura 37,4 °C."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Desidratado, anictérico, sudoreico."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Distendido, doloroso no epigástrio com defesa voluntária, ruídos hidroaéreos diminuídos. Sem equimoses periumbilical ou em flancos."
+    },
+    {
+      "item": "Aparelho respiratório",
+      "achado": "Murmúrio vesicular presente, sem estertores."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Amilase e lipase",
+      "resultado": "Lipase 1.860 U/L (mais de 3 vezes o limite superior). Amilase 920 U/L."
+    },
+    {
+      "item": "Hemograma, ureia, creatinina e glicemia",
+      "resultado": "Hematócrito 46%, leucócitos 13.900/mm³, ureia 38 mg/dL, creatinina 1,0 mg/dL, glicemia 142 mg/dL."
+    },
+    {
+      "item": "Cálcio, triglicerídeos, bilirrubinas e enzimas hepáticas",
+      "resultado": "Cálcio 8,9 mg/dL, triglicerídeos 210 mg/dL, bilirrubinas normais, TGO 62, TGP 40, GGT 280 U/L."
+    },
+    {
+      "item": "Ultrassom de abdome",
+      "resultado": "Vesícula sem cálculos, vias biliares normais, pâncreas edemaciado, sem coleções."
+    },
+    {
+      "item": "Gasometria e PCR",
+      "resultado": "Sem acidose. PCR 6,8 mg/dL."
+    },
+    {
+      "item": "Tomografia de abdome",
+      "resultado": "Não indicada nas primeiras 72 horas quando o diagnóstico está confirmado."
+    }
+  ],
+  "diagnostico": "Pancreatite aguda alcoólica, leve (sem falência orgânica), com diagnóstico pelos critérios de dor típica e lipase acima de 3 vezes o normal.",
+  "condutaEsperada": [
+    "Diagnóstico com 2 de 3 critérios: dor típica, lipase ou amilase acima de 3 vezes o limite e imagem compatível.",
+    "Hidratação venosa com Ringer lactato, guiada por metas (frequência cardíaca, diurese, hematócrito e ureia), sem excesso de volume.",
+    "Analgesia eficaz (opioide pode ser usado) e antiemético.",
+    "Dieta oral precoce assim que houver tolerância (em 24 a 48 horas), sem esperar a lipase normalizar.",
+    "Sem antibiótico profilático. Tomografia só após 72 horas se houver dúvida, piora ou suspeita de complicação.",
+    "Investigar a causa (ultrassom para litíase, triglicerídeos, cálcio) e abordar o uso de álcool, com tiamina e prevenção da abstinência."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e oferece analgesia.",
+      "peso": 0.5
+    },
+    {
+      "id": "dor",
+      "item": "Caracteriza a dor (local, irradiação em faixa, intensidade, fatores de melhora).",
+      "peso": 1
+    },
+    {
+      "id": "causas",
+      "item": "Investiga causas: álcool, litíase biliar, triglicerídeos, medicamentos.",
+      "peso": 1.5
+    },
+    {
+      "id": "lipase",
+      "item": "Solicita lipase e interpreta como mais de 3 vezes o limite.",
+      "peso": 1
+    },
+    {
+      "id": "usg",
+      "item": "Solicita ultrassom de abdome para pesquisar litíase.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica pancreatite aguda.",
+      "peso": 1
+    },
+    {
+      "id": "gravidade",
+      "item": "Avalia a gravidade (falência orgânica, ureia, hematócrito).",
+      "peso": 1
+    },
+    {
+      "id": "hidratacao",
+      "item": "Prescreve hidratação venosa com Ringer lactato guiada por metas.",
+      "peso": 1.5
+    },
+    {
+      "id": "dieta",
+      "item": "Indica dieta oral precoce e não indica antibiótico profilático.",
+      "peso": 1
+    },
+    {
+      "id": "alcool",
+      "item": "Aborda o uso de álcool e prescreve tiamina.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "American College of Gastroenterology. Management of acute pancreatitis, 2024.",
+    "Classificação de Atlanta revisada, 2012."
+  ]
+}

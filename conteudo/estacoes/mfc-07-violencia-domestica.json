@@ -1,0 +1,181 @@
+{
+  "id": "mfc-07-violencia-domestica",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Violência",
+  "titulo": "Dor de cabeça e insônia",
+  "tema": "Violência doméstica contra a mulher",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. A paciente veio sozinha, agendada pela agente comunitária de saúde. A consulta é reservada.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Luciana Ferreira",
+    "idade": 32,
+    "sexo": "feminino",
+    "ocupacao": "diarista",
+    "perfil": "Tímida, evita olhar nos olhos, usa blusa de manga comprida no calor. Só fala da violência se o médico perguntar com cuidado e garantir sigilo.",
+    "abertura": "Doutor, eu estou com muita dor de cabeça e não consigo dormir.",
+    "roteiro": [
+      {
+        "topico": "Dor de cabeça",
+        "resposta": "Dói quase todo dia, a cabeça toda, há uns 3 meses."
+      },
+      {
+        "topico": "Sono",
+        "resposta": "Durmo mal, acordo assustada."
+      },
+      {
+        "topico": "Humor",
+        "resposta": "Ando triste, choro à toa. Não tenho vontade de nada."
+      },
+      {
+        "topico": "Manchas nos braços (se perguntado)",
+        "resposta": "Foi... uma queda. (Se o médico acolher e garantir sigilo:) Foi o meu marido. Ele me apertou e me empurrou."
+      },
+      {
+        "topico": "Frequência e gravidade da violência",
+        "resposta": "Começou há 2 anos. Ele bebe e fica agressivo. Na semana passada ele me deu um tapa e me empurrou contra a parede."
+      },
+      {
+        "topico": "Ameaças e arma",
+        "resposta": "Ele diz que, se eu for embora, me mata. Ele tem uma faca grande que deixa em casa."
+      },
+      {
+        "topico": "Violência sexual",
+        "resposta": "Às vezes ele me obriga a ter relação."
+      },
+      {
+        "topico": "Filhos",
+        "resposta": "Tenho dois filhos, de 6 e 9 anos. Ele grita com eles, mas não bate."
+      },
+      {
+        "topico": "Rede de apoio",
+        "resposta": "Minha irmã mora no bairro vizinho. Ela não sabe de nada."
+      },
+      {
+        "topico": "Pensamentos de morte",
+        "resposta": "Às vezes penso que seria melhor sumir, mas não penso em me matar por causa dos meus filhos."
+      },
+      {
+        "topico": "Denúncia anterior",
+        "resposta": "Nunca denunciei. Tenho medo e dependo dele para pagar o aluguel."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doença. Tomo dipirona para a dor de cabeça."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Se eu contar, a polícia vai prender ele hoje? Eu não tenho para onde ir."
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 122 x 78 mmHg, FC 88 bpm."
+    },
+    {
+      "item": "Pele (com consentimento)",
+      "achado": "Equimoses arroxeadas e amareladas em braços (marcas de dedos) e equimose antiga na região lombar."
+    },
+    {
+      "item": "Exame neurológico",
+      "achado": "Sem déficits focais. Fundo de olho normal."
+    },
+    {
+      "item": "Estado mental",
+      "achado": "Humor deprimido, choro fácil, sem sintomas psicóticos."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Formulário Nacional de Avaliação de Risco (Lei 14.149/2021)",
+      "resultado": "Risco elevado: ameaça de morte, acesso a arma branca, escalada da violência, violência sexual, dependência financeira."
+    }
+  ],
+  "diagnostico": "Violência doméstica contra a mulher (física, psicológica e sexual) com risco elevado, associada a sintomas depressivos e cefaleia tensional.",
+  "condutaEsperada": [
+    "Acolher sem julgar, em ambiente reservado, garantindo sigilo; nomear a violência e validar o relato.",
+    "Avaliar o risco (ameaça de morte, arma, escalada) e construir um plano de segurança com a paciente (para onde ir, documentos, contatos, sinal combinado).",
+    "Notificação compulsória no SINAN e comunicação à autoridade policial nos casos previstos em lei, informando a paciente.",
+    "Informar os direitos e a rede: Lei Maria da Penha e medidas protetivas, Delegacia da Mulher, Centro de Referência da Mulher, CREAS, Defensoria, Ligue 180 e 190 em emergência.",
+    "Avaliar a violência sexual (profilaxias se recente) e cuidar da saúde mental (depressão, risco de suicídio); proteger as crianças (Conselho Tutelar se houver risco).",
+    "Retorno breve com a equipe e a agente comunitária, respeitando o tempo e as decisões da mulher."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se, garante sigilo e acolhe sem julgamento.",
+      "peso": 1.5
+    },
+    {
+      "id": "queixa",
+      "item": "Explora a queixa (cefaleia, insônia) e o humor.",
+      "peso": 0.5
+    },
+    {
+      "id": "pergunta",
+      "item": "Pergunta diretamente, com cuidado, sobre violência ao notar as lesões.",
+      "peso": 1.5
+    },
+    {
+      "id": "tipos",
+      "item": "Investiga tipos de violência (física, psicológica, sexual) e frequência.",
+      "peso": 1
+    },
+    {
+      "id": "risco",
+      "item": "Avalia o risco (ameaça de morte, arma, escalada) e o risco de suicídio.",
+      "peso": 1.5
+    },
+    {
+      "id": "filhos",
+      "item": "Pergunta sobre os filhos e a rede de apoio.",
+      "peso": 0.5
+    },
+    {
+      "id": "seguranca",
+      "item": "Constrói um plano de segurança com a paciente.",
+      "peso": 1
+    },
+    {
+      "id": "notificacao",
+      "item": "Realiza a notificação compulsória e explica à paciente.",
+      "peso": 1
+    },
+    {
+      "id": "rede",
+      "item": "Orienta a rede de proteção e as medidas protetivas da Lei Maria da Penha.",
+      "peso": 1
+    },
+    {
+      "id": "seguimento",
+      "item": "Combina retorno respeitando a autonomia da paciente.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Atenção às mulheres em situação de violência.",
+    "Lei 11.340/2006 (Lei Maria da Penha)."
+  ]
+}

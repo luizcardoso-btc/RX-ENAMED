@@ -1,0 +1,197 @@
+{
+  "id": "mfc-08-idoso-quedas",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Geriatria",
+  "titulo": "Quedas em casa",
+  "tema": "Idoso com quedas e polifarmácia",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. A paciente veio com a filha, que é a cuidadora. Trouxe a sacola com todos os remédios.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Dona Aparecida Lima",
+    "idade": 79,
+    "sexo": "feminino",
+    "ocupacao": "aposentada (costureira)",
+    "perfil": "Simpática, um pouco esquecida. A filha completa as informações.",
+    "abertura": "Doutor, eu caí de novo, minha filha ficou brava comigo.",
+    "roteiro": [
+      {
+        "topico": "Quedas",
+        "resposta": "Caí duas vezes neste mês. Uma ao levantar da cama de madrugada para ir ao banheiro e outra no tapete da sala."
+      },
+      {
+        "topico": "Tontura",
+        "resposta": "Fico tonta quando levanto rápido. A vista escurece."
+      },
+      {
+        "topico": "Perda de consciência",
+        "resposta": "Não desmaiei. Não bati a cabeça."
+      },
+      {
+        "topico": "Lesões",
+        "resposta": "Fiquei com o braço roxo. Não quebrei nada."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "A filha mostra a sacola: losartana, hidroclorotiazida, doxazosina para a próstata do marido que ela toma também, furosemida, diazepam para dormir, amitriptilina, omeprazol, glibenclamida e AAS."
+      },
+      {
+        "topico": "Sono",
+        "resposta": "Tomo diazepam há 15 anos para dormir."
+      },
+      {
+        "topico": "Visão e audição",
+        "resposta": "Enxergo mal de longe, os óculos estão velhos. Escuto bem."
+      },
+      {
+        "topico": "Urina",
+        "resposta": "Levanto 3 vezes por noite para urinar."
+      },
+      {
+        "topico": "Memória",
+        "resposta": "A filha diz que ela anda mais esquecida, troca os remédios às vezes."
+      },
+      {
+        "topico": "Casa",
+        "resposta": "Moro numa casa com tapetes, o banheiro não tem barra e a luz do corredor é fraca."
+      },
+      {
+        "topico": "Atividade física",
+        "resposta": "Quase não saio de casa."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Pressão alta, diabetes e artrose no joelho."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Se eu parar o remédio de dormir, não vou dormir nunca mais."
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Pressão arterial deitada e em pé",
+      "achado": "Deitada: 138 x 80 mmHg. Em pé após 3 minutos: 108 x 66 mmHg, com tontura (hipotensão ortostática)."
+    },
+    {
+      "item": "Teste levante e ande (Timed Up and Go)",
+      "achado": "16 segundos, marcha lenta com base alargada."
+    },
+    {
+      "item": "Glicemia capilar",
+      "achado": "68 mg/dL (em jejum, usa glibenclamida)."
+    },
+    {
+      "item": "Exame dos pés e calçados",
+      "achado": "Usa chinelo de dedo largo. Sensibilidade diminuída nos pés."
+    },
+    {
+      "item": "Acuidade visual",
+      "achado": "Reduzida bilateralmente."
+    },
+    {
+      "item": "Minimental",
+      "achado": "23 pontos (escolaridade de 4 anos)."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Hemograma, função renal, eletrólitos, vitamina B12 e TSH",
+      "resultado": "Creatinina 1,3 mg/dL (clearance 38 mL/min), sódio 131 mEq/L, potássio 3,4 mEq/L, B12 e TSH normais."
+    },
+    {
+      "item": "Hemoglobina glicada",
+      "resultado": "6,1%."
+    },
+    {
+      "item": "Densitometria óssea",
+      "resultado": "Osteoporose (T-score de -2,8 no colo do fêmur)."
+    }
+  ],
+  "diagnostico": "Quedas recorrentes em idosa com polifarmácia (medicamentos potencialmente inapropriados pelos critérios de Beers), hipotensão ortostática, hipoglicemia por sulfonilureia, déficit visual, riscos ambientais e osteoporose.",
+  "condutaEsperada": [
+    "Avaliação multifatorial de quedas: medicamentos, hipotensão ortostática, visão, marcha e equilíbrio, cognição, pés e calçados, ambiente.",
+    "Revisão e desprescrição: suspender a doxazosina (não é dela), retirar gradualmente o diazepam, suspender a amitriptilina, trocar a glibenclamida (hipoglicemia, função renal) e rever os diuréticos (furosemida e hidroclorotiazida, hiponatremia).",
+    "Meta glicêmica menos rígida para idosa frágil; organizar os medicamentos com a filha (caixa organizadora, lista).",
+    "Exercícios de força e equilíbrio (fisioterapia ou grupo da UBS), adaptação da casa (retirar tapetes, barras no banheiro, luz noturna), calçado fechado.",
+    "Tratar a osteoporose (cálcio, vitamina D e bisfosfonato) e encaminhar ao oftalmologista; investigar o declínio cognitivo.",
+    "Retorno breve com a equipe e visita domiciliar."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e inclui a paciente e a cuidadora na conversa.",
+      "peso": 0.5
+    },
+    {
+      "id": "quedas",
+      "item": "Caracteriza as quedas (circunstâncias, frequência, lesões, perda de consciência).",
+      "peso": 1
+    },
+    {
+      "id": "medicamentos",
+      "item": "Revisa todos os medicamentos em uso, inclusive os de outras pessoas.",
+      "peso": 1.5
+    },
+    {
+      "id": "ortostatica",
+      "item": "Mede a pressão deitada e em pé e identifica hipotensão ortostática.",
+      "peso": 1
+    },
+    {
+      "id": "fatores",
+      "item": "Investiga visão, marcha, cognição, sono, noctúria e ambiente da casa.",
+      "peso": 1
+    },
+    {
+      "id": "glicemia",
+      "item": "Identifica a hipoglicemia pela glibenclamida.",
+      "peso": 0.5
+    },
+    {
+      "id": "desprescricao",
+      "item": "Faz desprescrição (benzodiazepínico, amitriptilina, doxazosina, sulfonilureia).",
+      "peso": 2
+    },
+    {
+      "id": "exercicio",
+      "item": "Orienta exercícios de força e equilíbrio e adaptação da casa.",
+      "peso": 1
+    },
+    {
+      "id": "osteoporose",
+      "item": "Trata a osteoporose e encaminha para avaliar a visão.",
+      "peso": 1
+    },
+    {
+      "id": "cuidadora",
+      "item": "Organiza os medicamentos com a cuidadora e combina o seguimento.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Cadernos de Atenção Básica nº 19: Envelhecimento e saúde da pessoa idosa.",
+    "American Geriatrics Society Beers Criteria, 2023."
+  ]
+}

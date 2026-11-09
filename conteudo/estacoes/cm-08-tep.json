@@ -1,0 +1,193 @@
+{
+  "id": "cm-08-tep",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Pneumologia",
+  "titulo": "Falta de ar súbita depois de uma viagem",
+  "tema": "Tromboembolismo pulmonar",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com angiotomografia, ecocardiograma e laboratório.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Bianca Fernandes",
+    "idade": 34,
+    "sexo": "feminino",
+    "ocupacao": "analista de sistemas",
+    "perfil": "Ansiosa, respira rápido, coloca a mão no lado direito do peito quando respira fundo.",
+    "abertura": "Estou com falta de ar de repente e uma dor no peito quando respiro.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou hoje de manhã, de repente, quando eu levantei da cama."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Dor do lado direito do peito que piora quando respiro fundo."
+      },
+      {
+        "topico": "Tosse e escarro",
+        "resposta": "Uma tosse seca. Hoje saiu um pouquinho de sangue no catarro."
+      },
+      {
+        "topico": "Pernas",
+        "resposta": "A panturrilha esquerda está inchada e doendo há uns 3 dias."
+      },
+      {
+        "topico": "Viagem e imobilização",
+        "resposta": "Voltei de uma viagem de avião de 12 horas há 5 dias."
+      },
+      {
+        "topico": "Anticoncepcional",
+        "resposta": "Tomo pílula anticoncepcional combinada há 6 anos."
+      },
+      {
+        "topico": "Cirurgias e câncer",
+        "resposta": "Nunca tive câncer. Não fiz cirurgia recente."
+      },
+      {
+        "topico": "Trombose prévia",
+        "resposta": "Nunca tive trombose."
+      },
+      {
+        "topico": "Tabagismo",
+        "resposta": "Fumo socialmente."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Minha mãe teve trombose na perna depois de um parto."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Eu nunca mais vou poder tomar anticoncepcional?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 118 x 76 mmHg, FC 116 bpm, FR 26 irpm, SatO2 91% em ar ambiente, temperatura 37,2 °C."
+    },
+    {
+      "item": "Aparelho respiratório",
+      "achado": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+    },
+    {
+      "item": "Aparelho cardiovascular",
+      "achado": "Taquicárdica, bulhas normofonéticas, sem estase jugular."
+    },
+    {
+      "item": "Membros inferiores",
+      "achado": "Panturrilha esquerda com edema, 3 cm maior que a direita, dolorosa à palpação."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Angiotomografia de tórax",
+      "resultado": "Falhas de enchimento em artérias segmentares dos lobos inferiores direito e esquerdo. Relação entre os ventrículos direito e esquerdo normal."
+    },
+    {
+      "item": "Eletrocardiograma",
+      "resultado": "Taquicardia sinusal."
+    },
+    {
+      "item": "Ecocardiograma",
+      "resultado": "Ventrículo direito de tamanho e função normais."
+    },
+    {
+      "item": "Troponina e BNP",
+      "resultado": "Normais."
+    },
+    {
+      "item": "Hemograma, creatinina e coagulograma",
+      "resultado": "Normais."
+    },
+    {
+      "item": "Ultrassom com Doppler venoso do membro inferior esquerdo",
+      "resultado": "Trombose venosa profunda da veia poplítea esquerda."
+    }
+  ],
+  "diagnostico": "Tromboembolismo pulmonar agudo provocado (estrogênio e viagem longa), hemodinamicamente estável, de risco intermediário-baixo (sPESI 1 pela frequência cardíaca, sem disfunção de ventrículo direito ou troponina alterada), com trombose venosa profunda.",
+  "condutaEsperada": [
+    "Estimar a probabilidade clínica (Wells alto) e confirmar com angiotomografia; o D-dímero não ajuda quando a probabilidade é alta.",
+    "Estratificar o risco: estável, sem disfunção de ventrículo direito e troponina normal.",
+    "Anticoagulação imediata: enoxaparina 1 mg/kg a cada 12 horas ou anticoagulante oral direto (rivaroxabana ou apixabana em dose de ataque).",
+    "Sem indicação de trombólise (sem choque ou hipotensão).",
+    "Suspender o anticoncepcional combinado (estrogênio); oferecer método sem estrogênio (DIU de cobre, DIU hormonal ou progestágeno isolado).",
+    "Anticoagulação por pelo menos 3 meses (fator de risco transitório); orientar sinais de sangramento e de piora."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e explica o que vai fazer.",
+      "peso": 0.5
+    },
+    {
+      "id": "quadro",
+      "item": "Caracteriza a dispneia súbita, a dor pleurítica e a hemoptise.",
+      "peso": 1
+    },
+    {
+      "id": "fatores-risco",
+      "item": "Investiga fatores de risco (anticoncepcional, viagem, cirurgia, câncer, trombose prévia).",
+      "peso": 1.5
+    },
+    {
+      "id": "tvp",
+      "item": "Pergunta e examina sinais de trombose venosa profunda.",
+      "peso": 1
+    },
+    {
+      "id": "probabilidade",
+      "item": "Estima a probabilidade clínica (Wells) e decide o exame.",
+      "peso": 1
+    },
+    {
+      "id": "angiotc",
+      "item": "Solicita angiotomografia e interpreta como tromboembolismo pulmonar.",
+      "peso": 1
+    },
+    {
+      "id": "risco",
+      "item": "Estratifica o risco (estabilidade, ventrículo direito, troponina).",
+      "peso": 1
+    },
+    {
+      "id": "anticoagulacao",
+      "item": "Inicia anticoagulação em dose correta.",
+      "peso": 1.5
+    },
+    {
+      "id": "sem-trombolise",
+      "item": "Não indica trombólise na paciente estável.",
+      "peso": 0.5
+    },
+    {
+      "id": "estrogenio",
+      "item": "Suspende o anticoncepcional com estrogênio e orienta outro método.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "ESC Guidelines on acute pulmonary embolism, 2019.",
+    "Sociedade Brasileira de Pneumologia e Tisiologia. Tromboembolia pulmonar."
+  ]
+}

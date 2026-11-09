@@ -1,0 +1,189 @@
+{
+  "id": "cm-07-dpoc-exacerbada",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Pneumologia",
+  "titulo": "Falta de ar e catarro amarelo",
+  "tema": "Exacerbação da DPOC com acidose respiratória",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral. Há gasometria, radiografia, máscara de Venturi e ventilação não invasiva.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Osvaldo Carvalho",
+    "idade": 68,
+    "sexo": "masculino",
+    "ocupacao": "aposentado (metalúrgico)",
+    "perfil": "Muito cansado, lábios arroxeados, fala frases curtas, sentado inclinado para a frente.",
+    "abertura": "Doutor... não estou... conseguindo respirar...",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Faz 3 dias que piorou. Começou com um resfriado."
+      },
+      {
+        "topico": "Catarro",
+        "resposta": "Aumentou muito e ficou amarelo-esverdeado."
+      },
+      {
+        "topico": "Falta de ar habitual",
+        "resposta": "Normalmente canso para subir uma ladeira. Agora canso para falar."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Teve um pouco de febre ontem, 37,9 °C."
+      },
+      {
+        "topico": "Dor no peito, inchaço nas pernas",
+        "resposta": "Não tenho dor no peito. As pernas não incharam."
+      },
+      {
+        "topico": "Doença pulmonar",
+        "resposta": "Tenho enfisema há 8 anos. Já internei duas vezes no ano passado."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Uso uma bombinha de manhã (formoterol com budesonida) e salbutamol quando preciso. Usei o salbutamol de 2 em 2 horas hoje."
+      },
+      {
+        "topico": "Oxigênio domiciliar",
+        "resposta": "Não uso oxigênio em casa."
+      },
+      {
+        "topico": "Tabagismo",
+        "resposta": "Fumei dois maços por dia por 40 anos. Ainda fumo uns 5 cigarros por dia."
+      },
+      {
+        "topico": "Vacinas",
+        "resposta": "Não tomei a vacina da gripe este ano. A da pneumonia nunca tomei."
+      },
+      {
+        "topico": "Outras doenças",
+        "resposta": "Pressão alta."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Por que não pode aumentar o oxigênio para eu respirar melhor?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 148 x 86 mmHg, FC 112 bpm, FR 30 irpm, SatO2 85% em ar ambiente, temperatura 37,6 °C."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Dispneico, cianose labial, uso da musculatura acessória, sonolento mas orientado."
+    },
+    {
+      "item": "Aparelho respiratório",
+      "achado": "Tórax em tonel, murmúrio vesicular difusamente diminuído, sibilos expiratórios difusos, expiração prolongada."
+    },
+    {
+      "item": "Aparelho cardiovascular",
+      "achado": "Taquicárdico, bulhas abafadas, sem estase jugular."
+    },
+    {
+      "item": "Abdome e extremidades",
+      "achado": "Abdome sem alterações. Sem edema."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Gasometria arterial",
+      "resultado": "pH 7,30, pCO2 62 mmHg, pO2 50 mmHg, bicarbonato 30 mEq/L, SatO2 84%."
+    },
+    {
+      "item": "Radiografia de tórax",
+      "resultado": "Hiperinsuflação, retificação das cúpulas diafragmáticas, sem consolidação, sem pneumotórax."
+    },
+    {
+      "item": "Eletrocardiograma",
+      "resultado": "Taquicardia sinusal, sem alterações isquêmicas."
+    },
+    {
+      "item": "Hemograma, eletrólitos e PCR",
+      "resultado": "Leucócitos 13.200/mm³, PCR 4,2 mg/dL, eletrólitos normais."
+    }
+  ],
+  "diagnostico": "Exacerbação grave da DPOC de causa infecciosa (aumento da dispneia, do volume e da purulência do escarro), com acidose respiratória aguda sobre crônica.",
+  "condutaEsperada": [
+    "Oxigênio controlado (máscara de Venturi) com alvo de SatO2 entre 88 e 92%, com nova gasometria em 30 a 60 minutos.",
+    "Broncodilatadores de curta ação: salbutamol associado a ipratrópio, inalatórios.",
+    "Corticoide sistêmico: prednisona 40 mg por dia por 5 dias.",
+    "Antibiótico pela purulência do escarro (por exemplo, amoxicilina com clavulanato ou azitromicina).",
+    "Ventilação não invasiva por acidose respiratória (pH abaixo de 7,35 e pCO2 acima de 45 mmHg); intubação se falhar.",
+    "Na alta: cessação do tabagismo, vacinas (influenza, pneumocócica, covid), revisar técnica inalatória, reabilitação pulmonar."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e reconhece a gravidade.",
+      "peso": 0.5
+    },
+    {
+      "id": "exacerbacao",
+      "item": "Caracteriza a piora da dispneia e a mudança do escarro (volume e purulência).",
+      "peso": 1
+    },
+    {
+      "id": "doenca-base",
+      "item": "Investiga a gravidade da DPOC (internações, oxigênio domiciliar, tratamento).",
+      "peso": 1
+    },
+    {
+      "id": "tabagismo",
+      "item": "Pergunta tabagismo e vacinação.",
+      "peso": 0.5
+    },
+    {
+      "id": "gasometria",
+      "item": "Solicita gasometria e interpreta como acidose respiratória aguda sobre crônica.",
+      "peso": 1.5
+    },
+    {
+      "id": "oxigenio",
+      "item": "Indica oxigênio controlado com alvo de 88 a 92%.",
+      "peso": 1.5
+    },
+    {
+      "id": "broncodilatador",
+      "item": "Prescreve broncodilatadores de curta ação.",
+      "peso": 1
+    },
+    {
+      "id": "corticoide",
+      "item": "Prescreve corticoide sistêmico por 5 dias.",
+      "peso": 0.5
+    },
+    {
+      "id": "antibiotico",
+      "item": "Prescreve antibiótico pela purulência do escarro.",
+      "peso": 1
+    },
+    {
+      "id": "vni",
+      "item": "Indica ventilação não invasiva.",
+      "peso": 1.5
+    }
+  ],
+  "referencias": [
+    "GOLD: Global Initiative for Chronic Obstructive Lung Disease, 2024.",
+    "Sociedade Brasileira de Pneumologia e Tisiologia. Diretrizes de DPOC."
+  ]
+}

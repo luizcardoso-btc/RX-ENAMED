@@ -1,0 +1,198 @@
+{
+  "id": "ped-07-meningite",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Infectologia pediátrica",
+  "titulo": "Criança com febre, vômitos e manchas na pele",
+  "tema": "Meningite bacteriana (doença meningocócica)",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro pediátrico de hospital geral com laboratório, punção lombar e leitos de UTI pediátrica.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Larissa Campos, mãe de Miguel (2 anos)",
+    "idade": 28,
+    "sexo": "feminino",
+    "ocupacao": "operadora de caixa",
+    "perfil": "Desesperada. Miguel, de 2 anos, está muito sonolento e choroso quando mexem nele.",
+    "abertura": "Doutor, meu filho está com febre alta, vomitando e apareceram umas manchinhas roxas!",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou ontem à noite com febre de 39,5 °C."
+      },
+      {
+        "topico": "Vômitos",
+        "resposta": "Vomitou umas 5 vezes desde de madrugada, em jato."
+      },
+      {
+        "topico": "Comportamento",
+        "resposta": "Está muito sonolento e chora quando a gente mexe no pescoço dele."
+      },
+      {
+        "topico": "Manchas",
+        "resposta": "Há umas 2 horas apareceram umas manchinhas roxas nas pernas que não somem quando eu aperto."
+      },
+      {
+        "topico": "Convulsão",
+        "resposta": "Não teve convulsão."
+      },
+      {
+        "topico": "Alimentação e diurese",
+        "resposta": "Não quer comer nem beber. Fez pouco xixi."
+      },
+      {
+        "topico": "Contatos",
+        "resposta": "Vai à creche. Não sei de nenhuma criança doente."
+      },
+      {
+        "topico": "Vacinas",
+        "resposta": "Tomou todas as vacinas do posto, inclusive a meningo C."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Nunca teve nada. Dei dipirona."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia."
+      },
+      {
+        "topico": "Pessoas em casa",
+        "resposta": "Moram comigo o pai, a avó e uma irmã de 6 anos."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não teve febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "A irmã dele também vai pegar?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "FC 168 bpm, FR 34 irpm, PA 86 x 50 mmHg, SatO2 96%, temperatura 39,4 °C, enchimento capilar de 3 segundos, peso 12 kg."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Sonolento, irritável ao manuseio, desidratado."
+    },
+    {
+      "item": "Exame neurológico",
+      "achado": "Rigidez de nuca, sinais de Kernig e Brudzinski positivos. Pupilas isocóricas e fotorreagentes. Sem déficit focal."
+    },
+    {
+      "item": "Pele",
+      "achado": "Petéquias e púrpuras em membros inferiores e tronco, que não desaparecem à pressão."
+    },
+    {
+      "item": "Fundo de olho",
+      "achado": "Sem papiledema."
+    },
+    {
+      "item": "Aparelho respiratório e abdome",
+      "achado": "Sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Líquor (punção lombar)",
+      "resultado": "Turvo. 2.200 células/mm³ com 90% de neutrófilos, proteína 190 mg/dL, glicose 18 mg/dL (glicemia 98). Gram: diplococos gram-negativos."
+    },
+    {
+      "item": "Hemograma, PCR e coagulograma",
+      "resultado": "Leucócitos 23.000/mm³ com desvio, plaquetas 98.000/mm³, PCR 18 mg/dL, INR 1,4."
+    },
+    {
+      "item": "Hemocultura",
+      "resultado": "Coletada antes do antibiótico."
+    },
+    {
+      "item": "Glicemia, eletrólitos e gasometria",
+      "resultado": "Acidose metabólica leve, lactato 3,2 mmol/L."
+    }
+  ],
+  "diagnostico": "Meningite bacteriana com doença meningocócica (meningococcemia com púrpura), com sinais de choque compensado.",
+  "condutaEsperada": [
+    "Estabilização ABC: acesso venoso, expansão com cristaloide 10 a 20 mL/kg e reavaliação (sinais de choque).",
+    "Hemocultura e, se não houver contraindicação (instabilidade grave, sinais de hipertensão intracraniana, coagulopatia), punção lombar; nunca atrasar o antibiótico.",
+    "Antibiótico imediato: ceftriaxona 100 mg/kg/dia (até 4 g/dia).",
+    "Dexametasona 0,15 mg/kg a cada 6 horas, antes ou junto com a primeira dose do antibiótico (benefício principal na meningite por Haemophilus e pneumococo).",
+    "Isolamento respiratório por gotículas nas primeiras 24 horas de antibiótico e internação em UTI pediátrica.",
+    "Notificação compulsória imediata e quimioprofilaxia dos contatos íntimos (rifampicina), incluindo a família."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e age com rapidez, acolhendo a mãe.",
+      "peso": 0.5
+    },
+    {
+      "id": "quadro",
+      "item": "Caracteriza febre, vômitos, sonolência e as manchas que não desaparecem à pressão.",
+      "peso": 1
+    },
+    {
+      "id": "vacinas",
+      "item": "Pergunta vacinação e contatos.",
+      "peso": 0.5
+    },
+    {
+      "id": "exame",
+      "item": "Solicita sinais vitais, exame neurológico e da pele, e reconhece sinais meníngeos e púrpura.",
+      "peso": 1
+    },
+    {
+      "id": "choque",
+      "item": "Reconhece sinais de choque e indica expansão volêmica.",
+      "peso": 1
+    },
+    {
+      "id": "antibiotico",
+      "item": "Prescreve ceftriaxona imediatamente, sem atrasar pela punção.",
+      "peso": 2
+    },
+    {
+      "id": "liquor",
+      "item": "Indica punção lombar quando seguro e interpreta o líquor como bacteriano.",
+      "peso": 1
+    },
+    {
+      "id": "dexametasona",
+      "item": "Indica dexametasona antes ou junto do antibiótico.",
+      "peso": 0.5
+    },
+    {
+      "id": "isolamento",
+      "item": "Indica isolamento por gotículas e UTI.",
+      "peso": 0.5
+    },
+    {
+      "id": "notificacao",
+      "item": "Notifica o caso e indica quimioprofilaxia dos contatos com rifampicina.",
+      "peso": 1.5
+    },
+    {
+      "id": "comunica",
+      "item": "Explica à mãe a gravidade e o tratamento.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Guia de Vigilância em Saúde: meningites.",
+    "Sociedade Brasileira de Pediatria. Meningites bacterianas."
+  ]
+}

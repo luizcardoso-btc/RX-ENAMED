@@ -1,0 +1,181 @@
+{
+  "id": "cir-07-colecistite",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Abdome agudo",
+  "titulo": "Dor do lado direito da barriga depois de feijoada",
+  "tema": "Colecistite aguda calculosa",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com ultrassom, laboratório e centro cirúrgico com videolaparoscopia.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Marta Gonçalves",
+    "idade": 45,
+    "sexo": "feminino",
+    "ocupacao": "comerciante",
+    "perfil": "Com dor, deitada encolhida. Colaborativa.",
+    "abertura": "Doutor, estou com uma dor do lado direito da barriga que não passa desde ontem.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou ontem depois do almoço, uma feijoada. Já faz umas 30 horas."
+      },
+      {
+        "topico": "Local e irradiação",
+        "resposta": "Embaixo das costelas do lado direito e vai para as costas, perto do ombro."
+      },
+      {
+        "topico": "Tipo e intensidade",
+        "resposta": "Uma dor contínua, forte, nota 8."
+      },
+      {
+        "topico": "Episódios anteriores",
+        "resposta": "Já tive dores parecidas depois de comida gordurosa, mas passavam em 2 ou 3 horas. Desta vez não passou."
+      },
+      {
+        "topico": "Náuseas e vômitos",
+        "resposta": "Vomitei três vezes."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Senti calafrio. Medi 38 °C hoje."
+      },
+      {
+        "topico": "Icterícia, urina escura, fezes claras",
+        "resposta": "Não fiquei amarela. A urina está normal."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Tenho pressão alta. Tive três filhos."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Tomo anlodipino."
+      },
+      {
+        "topico": "Cirurgias",
+        "resposta": "Fiz uma cesárea."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Álcool",
+        "resposta": "Não bebo."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 136 x 84 mmHg, FC 102 bpm, FR 18 irpm, temperatura 38,3 °C."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Regular estado geral, anictérica, desidratada leve."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Dor à palpação no hipocôndrio direito com defesa localizada. Sinal de Murphy positivo. Sem massa palpável. Ruídos hidroaéreos presentes."
+    },
+    {
+      "item": "Aparelho cardiovascular e respiratório",
+      "achado": "Sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Ultrassom de abdome",
+      "resultado": "Vesícula distendida, parede espessada (5 mm), cálculo de 2 cm impactado no infundíbulo, líquido pericolecístico, sinal de Murphy ultrassonográfico. Colédoco de 5 mm, sem cálculos."
+    },
+    {
+      "item": "Hemograma e PCR",
+      "resultado": "Leucócitos 14.800/mm³ com desvio à esquerda. PCR 9,6 mg/dL."
+    },
+    {
+      "item": "Bilirrubinas, enzimas hepáticas, amilase e lipase",
+      "resultado": "Bilirrubinas, fosfatase alcalina, GGT, amilase e lipase normais."
+    },
+    {
+      "item": "Creatinina",
+      "resultado": "0,9 mg/dL."
+    }
+  ],
+  "diagnostico": "Colecistite aguda calculosa, grau I (leve) pelos critérios de Tóquio, sem sinais de coledocolitíase ou colangite.",
+  "condutaEsperada": [
+    "Internação, jejum, hidratação venosa, analgesia e antiemético.",
+    "Antibiótico (por exemplo, ceftriaxona com metronidazol, ou ampicilina com sulbactam).",
+    "Colecistectomia videolaparoscópica precoce, na mesma internação (de preferência nas primeiras 72 horas).",
+    "Afastar coledocolitíase (bilirrubinas e colédoco normais) e colangite (sem icterícia).",
+    "Explicar à paciente o diagnóstico e a cirurgia."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e oferece analgesia.",
+      "peso": 0.5
+    },
+    {
+      "id": "dor",
+      "item": "Caracteriza a dor (início, local, irradiação, duração, relação com alimentação).",
+      "peso": 1.5
+    },
+    {
+      "id": "associados",
+      "item": "Pergunta febre, náuseas e vômitos.",
+      "peso": 0.5
+    },
+    {
+      "id": "ictericia",
+      "item": "Pergunta icterícia, colúria e acolia.",
+      "peso": 1
+    },
+    {
+      "id": "murphy",
+      "item": "Solicita exame abdominal e identifica o sinal de Murphy.",
+      "peso": 1
+    },
+    {
+      "id": "usg",
+      "item": "Solicita ultrassom de abdome e interpreta como colecistite aguda.",
+      "peso": 1.5
+    },
+    {
+      "id": "laboratorio",
+      "item": "Solicita hemograma, PCR, bilirrubinas, enzimas hepáticas e lipase.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica colecistite aguda calculosa.",
+      "peso": 1
+    },
+    {
+      "id": "suporte",
+      "item": "Prescreve jejum, hidratação, analgesia e antibiótico.",
+      "peso": 1
+    },
+    {
+      "id": "cirurgia",
+      "item": "Indica colecistectomia videolaparoscópica precoce.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Tokyo Guidelines 2018 (TG18): colecistite aguda."
+  ]
+}
