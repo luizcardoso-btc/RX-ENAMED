@@ -1,0 +1,180 @@
+{
+  "id": "mfc-17-hepatite-c",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Infectologia",
+  "titulo": "Teste rápido reagente na campanha",
+  "tema": "Hepatite C: testagem, confirmação e tratamento",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. O paciente fez teste rápido numa campanha de testagem e o anti-HCV foi reagente.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Mauro Cavalcanti",
+    "idade": 52,
+    "sexo": "masculino",
+    "ocupacao": "mecânico",
+    "perfil": "Preocupado, acha que \"pegou alguma coisa grave\" e que vai morrer de câncer no fígado.",
+    "abertura": "Doutor, deu positivo para hepatite C no teste da campanha. O que isso quer dizer?",
+    "roteiro": [
+      {
+        "topico": "Sintomas",
+        "resposta": "Não sinto nada. Às vezes um cansaço."
+      },
+      {
+        "topico": "Transfusão",
+        "resposta": "Recebi sangue num acidente em 1990."
+      },
+      {
+        "topico": "Tatuagem e objetos",
+        "resposta": "Tenho duas tatuagens feitas numa casa, sem estúdio. Compartilho alicate de unha em casa."
+      },
+      {
+        "topico": "Drogas",
+        "resposta": "Usei cocaína aspirada na juventude, compartilhando canudo."
+      },
+      {
+        "topico": "Vida sexual",
+        "resposta": "Casado há 20 anos."
+      },
+      {
+        "topico": "Álcool",
+        "resposta": "Bebo cerveja no fim de semana, umas 6 latas."
+      },
+      {
+        "topico": "Icterícia",
+        "resposta": "Nunca fiquei amarelo."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doença. Não tomo remédio."
+      },
+      {
+        "topico": "Vacinas",
+        "resposta": "Não sei se tomei a vacina de hepatite B."
+      },
+      {
+        "topico": "Família",
+        "resposta": "Minha esposa nunca fez o teste."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Tem cura? Ou vou virar cirrose?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Exame físico",
+      "achado": "Sem icterícia, sem estigmas de hepatopatia crônica, fígado e baço não palpáveis."
+    },
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 130 x 84 mmHg, FC 76 bpm."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Teste rápido anti-HCV",
+      "resultado": "Reagente."
+    },
+    {
+      "item": "Carga viral do HCV (HCV-RNA)",
+      "resultado": "Detectável: 1.200.000 UI/mL (infecção ativa)."
+    },
+    {
+      "item": "Função hepática, plaquetas e escores de fibrose",
+      "resultado": "TGP 88 U/L, TGO 62 U/L, plaquetas 210.000/mm³. APRI 0,7 e FIB-4 1,4 (sem fibrose avançada)."
+    },
+    {
+      "item": "HBsAg, anti-HBs, anti-HBc e HIV",
+      "resultado": "HBsAg e anti-HBc não reagentes, anti-HBs negativo (não vacinado). HIV não reagente."
+    },
+    {
+      "item": "Ultrassom de abdome",
+      "resultado": "Fígado com ecotextura discretamente heterogênea, sem nódulos."
+    }
+  ],
+  "diagnostico": "Hepatite C crônica (anti-HCV reagente com HCV-RNA detectável), sem fibrose avançada.",
+  "condutaEsperada": [
+    "Teste rápido anti-HCV reagente indica contato com o vírus: confirmar a infecção ativa com a carga viral (HCV-RNA).",
+    "Infecção ativa: avaliar a fibrose (APRI, FIB-4 ou elastografia) e outras infecções (HBV, HIV).",
+    "Tratamento com antivirais de ação direta pelo SUS (por exemplo, sofosbuvir com velpatasvir por 12 semanas, pangenotípico), com cura em mais de 95% dos casos.",
+    "Notificação compulsória. Vacinar contra hepatites A e B; reduzir o álcool.",
+    "Orientar a transmissão (sangue: não compartilhar alicate, lâmina e escova de dentes; via sexual é rara) e testar a esposa.",
+    "Carga viral 12 semanas após o fim do tratamento para confirmar a cura (resposta virológica sustentada)."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe a preocupação.",
+      "peso": 0.5
+    },
+    {
+      "id": "explica",
+      "item": "Explica o significado do teste rápido reagente (contato com o vírus).",
+      "peso": 1
+    },
+    {
+      "id": "exposicao",
+      "item": "Investiga formas de exposição (transfusão, tatuagem, drogas, objetos).",
+      "peso": 1
+    },
+    {
+      "id": "confirmacao",
+      "item": "Solicita carga viral para confirmar a infecção ativa.",
+      "peso": 2
+    },
+    {
+      "id": "avaliacao",
+      "item": "Solicita função hepática, avaliação de fibrose e sorologias de HBV e HIV.",
+      "peso": 1
+    },
+    {
+      "id": "tratamento",
+      "item": "Indica tratamento com antivirais de ação direta e explica a alta taxa de cura.",
+      "peso": 1.5
+    },
+    {
+      "id": "notificacao",
+      "item": "Notifica o caso.",
+      "peso": 0.5
+    },
+    {
+      "id": "vacinas",
+      "item": "Indica vacinas de hepatite A e B e orienta reduzir o álcool.",
+      "peso": 1
+    },
+    {
+      "id": "transmissao",
+      "item": "Orienta sobre transmissão e testagem da esposa.",
+      "peso": 1
+    },
+    {
+      "id": "cura",
+      "item": "Explica a confirmação da cura após o tratamento.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Hepatite C e Coinfecções, 2019 (atualizações)."
+  ]
+}

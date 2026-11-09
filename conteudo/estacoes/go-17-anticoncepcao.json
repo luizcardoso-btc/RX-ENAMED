@@ -1,0 +1,177 @@
+{
+  "id": "go-17-anticoncepcao",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Planejamento familiar",
+  "titulo": "Quero voltar a tomar pílula",
+  "tema": "Anticoncepção: critérios médicos de elegibilidade",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde com DIU de cobre, implante, injetáveis, pílulas e preservativos.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Marlene Souza",
+    "idade": 37,
+    "sexo": "feminino",
+    "ocupacao": "feirante",
+    "perfil": "Decidida a \"tomar a pílula de novo\", acha o DIU \"coisa de outro mundo\".",
+    "abertura": "Doutor, eu quero voltar a tomar a pílula que eu tomava antes.",
+    "roteiro": [
+      {
+        "topico": "Filhos",
+        "resposta": "Tenho 3 filhos, o mais novo tem 2 anos. Não quero mais filhos."
+      },
+      {
+        "topico": "Método atual",
+        "resposta": "Estou usando só camisinha, mas meu marido não gosta."
+      },
+      {
+        "topico": "Pílula anterior",
+        "resposta": "Tomava pílula combinada há uns 10 anos."
+      },
+      {
+        "topico": "Tabagismo",
+        "resposta": "Fumo um maço por dia desde os 18 anos."
+      },
+      {
+        "topico": "Dor de cabeça",
+        "resposta": "Tenho enxaqueca. Antes da dor, vejo uns pontos brilhantes por uns 20 minutos."
+      },
+      {
+        "topico": "Pressão",
+        "resposta": "Já me disseram que a pressão estava alta, mas não tomo remédio."
+      },
+      {
+        "topico": "Trombose e doenças",
+        "resposta": "Nunca tive trombose. Não tenho diabetes nem doença no fígado."
+      },
+      {
+        "topico": "Menstruação",
+        "resposta": "Regular, um pouco forte."
+      },
+      {
+        "topico": "Laqueadura",
+        "resposta": "Já pensei em ligar as trompas."
+      },
+      {
+        "topico": "Última menstruação e relação",
+        "resposta": "A menstruação veio há 1 semana. Uso camisinha em todas as relações."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Tomo paracetamol para a enxaqueca."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Mas eu tomei a pílula por anos e nunca aconteceu nada."
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 142 x 92 mmHg (média de duas medidas), FC 78 bpm."
+    },
+    {
+      "item": "Antropometria",
+      "achado": "IMC 27 kg/m²."
+    },
+    {
+      "item": "Exame ginecológico",
+      "achado": "Sem alterações, útero de tamanho normal, colo sem lesões."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Teste de gravidez",
+      "resultado": "Negativo."
+    },
+    {
+      "item": "Citopatológico",
+      "resultado": "Normal há 1 ano."
+    }
+  ],
+  "diagnostico": "Mulher de 37 anos, tabagista (mais de 15 cigarros por dia), com enxaqueca com aura e pressão elevada: contraindicação aos métodos com estrogênio (categoria 4 dos critérios de elegibilidade da OMS).",
+  "condutaEsperada": [
+    "Avaliar os critérios médicos de elegibilidade (OMS): 35 anos ou mais e 15 ou mais cigarros por dia, enxaqueca com aura e hipertensão são categoria 4 para métodos combinados (estrogênio): não usar.",
+    "Explicar o risco de AVC e trombose com o estrogênio nessa situação.",
+    "Oferecer métodos seguros: DIU de cobre (categoria 1, inclusive por longo prazo), DIU de levonorgestrel, implante, pílula só de progestágeno (desogestrel) ou injetável trimestral.",
+    "Se desejar método definitivo: laqueadura tubária (Lei 14.443/2022: 21 anos ou mais, ou 2 filhos vivos, sem necessidade de consentimento do cônjuge, com prazo de 60 dias entre a manifestação e a cirurgia), e oferecer a vasectomia ao parceiro.",
+    "Abordar a cessação do tabagismo e confirmar a hipertensão em novas consultas.",
+    "Manter o preservativo para prevenção de IST."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e escuta o desejo da paciente.",
+      "peso": 0.5
+    },
+    {
+      "id": "reprodutivo",
+      "item": "Investiga o desejo reprodutivo e o histórico contraceptivo.",
+      "peso": 1
+    },
+    {
+      "id": "tabagismo",
+      "item": "Pergunta o tabagismo (quantidade) e a idade.",
+      "peso": 1
+    },
+    {
+      "id": "enxaqueca",
+      "item": "Investiga enxaqueca e caracteriza a aura.",
+      "peso": 1.5
+    },
+    {
+      "id": "pressao",
+      "item": "Mede a pressão e pergunta hipertensão e trombose.",
+      "peso": 1
+    },
+    {
+      "id": "elegibilidade",
+      "item": "Aplica os critérios de elegibilidade e contraindica o estrogênio.",
+      "peso": 2
+    },
+    {
+      "id": "alternativas",
+      "item": "Oferece alternativas seguras (DIU, implante, progestágeno isolado).",
+      "peso": 1.5
+    },
+    {
+      "id": "laqueadura",
+      "item": "Orienta sobre laqueadura e vasectomia conforme a lei.",
+      "peso": 0.5
+    },
+    {
+      "id": "tabaco",
+      "item": "Aborda a cessação do tabagismo.",
+      "peso": 0.5
+    },
+    {
+      "id": "preservativo",
+      "item": "Mantém a orientação do preservativo.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "OMS. Critérios médicos de elegibilidade para uso de métodos anticoncepcionais, 5ª edição.",
+    "Lei 14.443/2022 (planejamento familiar)."
+  ]
+}

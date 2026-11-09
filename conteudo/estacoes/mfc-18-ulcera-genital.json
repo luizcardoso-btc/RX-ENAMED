@@ -1,0 +1,168 @@
+{
+  "id": "mfc-18-ulcera-genital",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Infectologia",
+  "titulo": "Feridas no pênis",
+  "tema": "Úlcera genital: abordagem sindrômica",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde com testes rápidos e medicamentos para IST. Não há exames de laboratório para identificar o agente no mesmo dia.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Leonardo Prado",
+    "idade": 26,
+    "sexo": "masculino",
+    "ocupacao": "vendedor",
+    "perfil": "Envergonhado, pede para o atendimento ser rápido.",
+    "abertura": "Doutor, apareceram umas feridas no pênis que doem muito.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Apareceram há 6 dias, depois de uma relação sem camisinha."
+      },
+      {
+        "topico": "Características",
+        "resposta": "São umas 3 feridas, com fundo sujo, amarelado, que doem bastante."
+      },
+      {
+        "topico": "Bolhas antes",
+        "resposta": "Não teve bolhas antes das feridas."
+      },
+      {
+        "topico": "Episódios anteriores",
+        "resposta": "Nunca tive isso."
+      },
+      {
+        "topico": "Caroço na virilha",
+        "resposta": "Apareceu um caroço dolorido na virilha esquerda."
+      },
+      {
+        "topico": "Corrimento e ardência",
+        "resposta": "Não tenho corrimento. Arde um pouco para urinar quando a urina passa na ferida."
+      },
+      {
+        "topico": "Parcerias",
+        "resposta": "Tive relação com uma mulher que conheci numa viagem, há 10 dias. Tenho namorada fixa."
+      },
+      {
+        "topico": "Testes anteriores",
+        "resposta": "Fiz teste de HIV há 2 anos, negativo."
+      },
+      {
+        "topico": "Alergia a penicilina",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Não tomo nada."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "A minha namorada precisa saber?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Genitais",
+      "achado": "Três úlceras no sulco balanoprepucial, de 5 a 8 mm, de bordas irregulares e fundo purulento, dolorosas ao toque."
+    },
+    {
+      "item": "Linfonodos inguinais",
+      "achado": "Linfonodo inguinal esquerdo aumentado (3 cm), doloroso, com flutuação (bubão)."
+    },
+    {
+      "item": "Pele e mucosas",
+      "achado": "Sem outras lesões."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Teste rápido treponêmico",
+      "resultado": "Não reagente (pode estar negativo no início da sífilis)."
+    },
+    {
+      "item": "Testes rápidos de HIV e hepatites B e C",
+      "resultado": "Não reagentes."
+    }
+  ],
+  "diagnostico": "Síndrome de úlcera genital (quadro sugestivo de cancroide: úlceras múltiplas, dolorosas, de fundo purulento, com bubão), com indicação de tratamento sindrômico para sífilis e cancroide.",
+  "condutaEsperada": [
+    "Abordagem sindrômica (fluxograma de úlcera genital do Ministério da Saúde): sem vesículas ou história de herpes, tratar sífilis e cancroide no mesmo atendimento.",
+    "Penicilina G benzatina 2,4 milhões UI IM em dose única (sífilis primária) e azitromicina 1 g VO em dose única (cancroide).",
+    "Se as lesões durarem mais de 4 semanas, tratar também donovanose e investigar com biópsia.",
+    "Bubão com flutuação: aspiração com agulha (não fazer drenagem cirúrgica aberta).",
+    "Testes rápidos de HIV, sífilis e hepatites; repetir o teste de sífilis e HIV após a janela; oferecer PEP se a exposição tiver sido há menos de 72 horas (aqui, já passou) e PrEP.",
+    "Tratar as parcerias sexuais, orientar preservativo e retorno em 7 dias para ver a cicatrização; notificar se houver sífilis."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe sem julgamento.",
+      "peso": 0.5
+    },
+    {
+      "id": "lesao",
+      "item": "Caracteriza as úlceras (número, dor, fundo, tempo, vesículas prévias).",
+      "peso": 1.5
+    },
+    {
+      "id": "linfonodo",
+      "item": "Pergunta e examina os linfonodos inguinais.",
+      "peso": 1
+    },
+    {
+      "id": "sexual",
+      "item": "Faz a história sexual e das parcerias.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Examina os genitais e descreve as lesões.",
+      "peso": 1
+    },
+    {
+      "id": "testes",
+      "item": "Solicita testes rápidos de sífilis, HIV e hepatites.",
+      "peso": 1
+    },
+    {
+      "id": "sindromica",
+      "item": "Aplica a abordagem sindrômica de úlcera genital.",
+      "peso": 1
+    },
+    {
+      "id": "tratamento",
+      "item": "Prescreve penicilina benzatina e azitromicina em dose única.",
+      "peso": 1.5
+    },
+    {
+      "id": "parcerias",
+      "item": "Orienta o tratamento das parcerias e o preservativo.",
+      "peso": 1
+    },
+    {
+      "id": "retorno",
+      "item": "Combina retorno e orienta a repetição dos testes.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. PCDT para Atenção Integral às Pessoas com IST, 2022: úlceras genitais."
+  ]
+}

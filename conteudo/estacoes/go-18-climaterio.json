@@ -1,0 +1,181 @@
+{
+  "id": "go-18-climaterio",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Climatério",
+  "titulo": "Calores e insônia",
+  "tema": "Síndrome climatérica: terapia hormonal",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. A paciente traz uma mamografia recente.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Ivone Carvalho",
+    "idade": 51,
+    "sexo": "feminino",
+    "ocupacao": "servidora pública",
+    "perfil": "Cansada, irritada com os calores, com medo de hormônio \"dar câncer\".",
+    "abertura": "Doutor, eu não aguento mais esses calores. Não durmo e estou irritada com todo mundo.",
+    "roteiro": [
+      {
+        "topico": "Menstruação",
+        "resposta": "A última menstruação foi há 14 meses."
+      },
+      {
+        "topico": "Fogachos",
+        "resposta": "Tenho uns 10 calorões por dia, com suor. À noite acordo molhada."
+      },
+      {
+        "topico": "Sono e humor",
+        "resposta": "Durmo mal. Ando irritada e chorosa."
+      },
+      {
+        "topico": "Sintomas vaginais",
+        "resposta": "A vagina está seca e a relação dói."
+      },
+      {
+        "topico": "Urina",
+        "resposta": "Às vezes perco um pouquinho de urina ao tossir."
+      },
+      {
+        "topico": "Sangramento após a menopausa",
+        "resposta": "Não tive sangramento depois que parou."
+      },
+      {
+        "topico": "Câncer e trombose",
+        "resposta": "Nunca tive câncer de mama ou de útero. Nunca tive trombose, derrame ou infarto."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Pressão controlada com losartana. Não tenho doença no fígado."
+      },
+      {
+        "topico": "Útero",
+        "resposta": "Tenho útero, nunca operei."
+      },
+      {
+        "topico": "Fumo e álcool",
+        "resposta": "Não fumo. Bebo socialmente."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Minha mãe teve fratura de quadril aos 75 anos. Ninguém teve câncer de mama."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Hormônio não dá câncer de mama?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 128 x 82 mmHg, FC 80 bpm, IMC 26 kg/m²."
+    },
+    {
+      "item": "Exame das mamas",
+      "achado": "Sem nódulos, sem descarga."
+    },
+    {
+      "item": "Exame ginecológico",
+      "achado": "Mucosa vaginal atrófica, pálida e seca. Colo sem lesões."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Mamografia (há 3 meses)",
+      "resultado": "BI-RADS 2 (achados benignos)."
+    },
+    {
+      "item": "Perfil lipídico e glicemia",
+      "resultado": "LDL 132, HDL 52, triglicerídeos 140 mg/dL, glicemia 94 mg/dL."
+    },
+    {
+      "item": "Citopatológico",
+      "resultado": "Normal há 1 ano."
+    },
+    {
+      "item": "FSH",
+      "resultado": "Não é necessário para o diagnóstico (amenorreia há mais de 12 meses na idade esperada)."
+    }
+  ],
+  "diagnostico": "Síndrome climatérica pós-menopausa com sintomas vasomotores moderados a intensos e síndrome geniturinária, em mulher com útero e sem contraindicações à terapia hormonal.",
+  "condutaEsperada": [
+    "Diagnóstico clínico: menopausa (12 meses sem menstruação) com sintomas vasomotores; FSH não é necessário.",
+    "Investigar contraindicações à terapia hormonal: câncer de mama ou de endométrio, sangramento genital não esclarecido, trombose, doença cardiovascular ou hepática grave.",
+    "Terapia hormonal indicada (menos de 60 anos e menos de 10 anos de menopausa): estrogênio (de preferência estradiol transdérmico, pela hipertensão) associado a progestagênio para proteger o endométrio (tem útero), na menor dose eficaz.",
+    "Estrogênio vaginal tópico para a síndrome geniturinária; exercícios do assoalho pélvico.",
+    "Alternativas não hormonais se houver contraindicação ou recusa (ISRS ou IRSN, gabapentina).",
+    "Reavaliar anualmente, mamografia periódica, estilo de vida (atividade física, cálcio, vitamina D) e avaliação do risco de fratura."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe as queixas.",
+      "peso": 0.5
+    },
+    {
+      "id": "menopausa",
+      "item": "Confirma a amenorreia há mais de 12 meses.",
+      "peso": 1
+    },
+    {
+      "id": "sintomas",
+      "item": "Caracteriza os sintomas vasomotores, de sono, de humor e geniturinários.",
+      "peso": 1
+    },
+    {
+      "id": "sangramento",
+      "item": "Pergunta sangramento após a menopausa.",
+      "peso": 0.5
+    },
+    {
+      "id": "contraindicacoes",
+      "item": "Investiga contraindicações à terapia hormonal (câncer de mama, trombose, doença cardiovascular e hepática).",
+      "peso": 2
+    },
+    {
+      "id": "janela",
+      "item": "Considera a idade e o tempo de menopausa (janela de oportunidade).",
+      "peso": 1
+    },
+    {
+      "id": "th",
+      "item": "Prescreve estrogênio com progestagênio (útero presente) na menor dose eficaz.",
+      "peso": 2
+    },
+    {
+      "id": "vaginal",
+      "item": "Indica estrogênio vaginal para a síndrome geniturinária.",
+      "peso": 0.5
+    },
+    {
+      "id": "alternativas",
+      "item": "Cita alternativas não hormonais.",
+      "peso": 0.5
+    },
+    {
+      "id": "seguimento",
+      "item": "Orienta seguimento, mamografia e estilo de vida.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "FEBRASGO. Manual de orientação em climatério.",
+    "The 2022 hormone therapy position statement of The North American Menopause Society."
+  ]
+}
