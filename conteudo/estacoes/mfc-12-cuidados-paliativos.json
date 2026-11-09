@@ -1,0 +1,182 @@
+{
+  "id": "mfc-12-cuidados-paliativos",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Atenção primária",
+  "titulo": "Visita domiciliar a paciente com câncer avançado",
+  "tema": "Cuidados paliativos no domicílio",
+  "duracaoMin": 10,
+  "cenario": "Visita domiciliar da equipe de Saúde da Família. O paciente tem câncer de pulmão com metástases ósseas e decidiu não fazer nova quimioterapia. A filha é a cuidadora.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Seu Joaquim Barros",
+    "idade": 72,
+    "sexo": "masculino",
+    "ocupacao": "aposentado (marceneiro)",
+    "perfil": "Lúcido, cansado, com dor. Quer ficar em casa. A filha está esgotada e com medo.",
+    "abertura": "Doutor, essa dor nas costas não me deixa em paz.",
+    "roteiro": [
+      {
+        "topico": "Dor",
+        "resposta": "Dor nas costas e no quadril, nota 8, pior à noite. Não durmo."
+      },
+      {
+        "topico": "Analgésicos em uso",
+        "resposta": "Tomo dipirona e tramadol de 8 em 8 horas. Melhora pouco."
+      },
+      {
+        "topico": "Intestino",
+        "resposta": "Estou há 5 dias sem evacuar."
+      },
+      {
+        "topico": "Falta de ar",
+        "resposta": "Fico sem ar quando ando até o banheiro."
+      },
+      {
+        "topico": "Náuseas e apetite",
+        "resposta": "Enjoo às vezes. Quase não como."
+      },
+      {
+        "topico": "Humor e medos",
+        "resposta": "Tenho medo de sentir dor no fim e de dar trabalho. Não tenho medo de morrer."
+      },
+      {
+        "topico": "Desejos",
+        "resposta": "Quero ficar em casa, com a minha família. Não quero voltar para o hospital nem ser intubado."
+      },
+      {
+        "topico": "Espiritualidade",
+        "resposta": "Sou católico. Queria receber a visita do padre."
+      },
+      {
+        "topico": "Cuidadora",
+        "resposta": "A filha diz: \"Eu estou sozinha, não durmo, tenho medo de ele morrer e eu não saber o que fazer.\""
+      },
+      {
+        "topico": "Doenças e tratamento",
+        "resposta": "Câncer de pulmão há 1 ano, com metástase nos ossos. O oncologista disse que não há mais quimioterapia indicada."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "A morfina vai me fazer morrer mais rápido?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 104 x 66 mmHg, FC 96 bpm, FR 22 irpm, SatO2 91% em ar ambiente."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Emagrecido, consciente, orientado, desidratado leve. Escala de desempenho (PPS) de 40%."
+    },
+    {
+      "item": "Dor",
+      "achado": "Dor à palpação da coluna lombar e da crista ilíaca. Sem déficit neurológico nas pernas."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Distendido, fezes palpáveis no cólon."
+    },
+    {
+      "item": "Pele",
+      "achado": "Hiperemia em região sacral, sem úlcera aberta."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Escala de avaliação de sintomas de Edmonton (ESAS)",
+      "resultado": "Dor 8, cansaço 7, falta de ar 5, apetite 7, ansiedade 6, bem-estar 6."
+    }
+  ],
+  "diagnostico": "Paciente em cuidados paliativos exclusivos por câncer de pulmão metastático, com dor oncológica mal controlada, constipação, dispneia e sobrecarga da cuidadora.",
+  "condutaEsperada": [
+    "Avaliar sintomas (ESAS), valores e desejos do paciente; registrar as diretivas antecipadas de vontade (ficar em casa, não ser intubado).",
+    "Dor: passar ao terceiro degrau da escada analgésica com morfina oral (por exemplo, 5 mg a cada 4 horas, com doses de resgate de 10% da dose diária), mantendo dipirona; suspender o tramadol.",
+    "Laxativo regular junto com o opioide (por exemplo, bisacodil ou lactulose) e antiemético se necessário.",
+    "Dispneia: morfina em dose baixa, ventilador ou janela aberta, posição confortável; oxigênio se houver hipoxemia e desconforto.",
+    "Prevenir lesão por pressão (mudança de decúbito, colchão) e orientar a cuidadora sobre sinais de fim de vida e o que fazer.",
+    "Apoio à família: equipe multiprofissional, Programa Melhor em Casa, visita do padre, plano para o fim de vida e contato da equipe."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e cria vínculo com o paciente e a cuidadora.",
+      "peso": 0.5
+    },
+    {
+      "id": "dor",
+      "item": "Caracteriza a dor e os analgésicos em uso.",
+      "peso": 1
+    },
+    {
+      "id": "sintomas",
+      "item": "Investiga outros sintomas (constipação, dispneia, náuseas, apetite).",
+      "peso": 1
+    },
+    {
+      "id": "valores",
+      "item": "Pergunta sobre valores, medos e desejos (local de morte, intubação).",
+      "peso": 1.5
+    },
+    {
+      "id": "diretivas",
+      "item": "Registra as diretivas antecipadas de vontade.",
+      "peso": 0.5
+    },
+    {
+      "id": "morfina",
+      "item": "Prescreve morfina com doses de resgate (terceiro degrau).",
+      "peso": 1.5
+    },
+    {
+      "id": "laxativo",
+      "item": "Prescreve laxativo junto com o opioide.",
+      "peso": 1
+    },
+    {
+      "id": "dispneia",
+      "item": "Orienta o controle da dispneia.",
+      "peso": 0.5
+    },
+    {
+      "id": "cuidadora",
+      "item": "Acolhe a cuidadora e orienta sobre o fim de vida.",
+      "peso": 1
+    },
+    {
+      "id": "rede",
+      "item": "Aciona a equipe multiprofissional, o Melhor em Casa e o apoio espiritual.",
+      "peso": 1
+    },
+    {
+      "id": "lesao",
+      "item": "Orienta a prevenção de lesão por pressão.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Manual de cuidados paliativos, 2023.",
+    "Academia Nacional de Cuidados Paliativos. Manual de cuidados paliativos."
+  ]
+}

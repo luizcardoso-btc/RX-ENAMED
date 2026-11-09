@@ -1,0 +1,185 @@
+{
+  "id": "mfc-11-ansiedade",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Saúde mental",
+  "titulo": "Preocupação o tempo todo",
+  "tema": "Transtorno de ansiedade generalizada",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde com psicologia na equipe multiprofissional.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Ricardo Nogueira",
+    "idade": 35,
+    "sexo": "masculino",
+    "ocupacao": "gerente de banco",
+    "perfil": "Inquieto, mexe as pernas, fala rápido. Quer uma solução rápida e pede \"um calmante\".",
+    "abertura": "Doutor, eu não consigo parar de me preocupar com tudo. Preciso de um calmante.",
+    "roteiro": [
+      {
+        "topico": "Duração",
+        "resposta": "Faz uns 8 meses, quase todo dia."
+      },
+      {
+        "topico": "Preocupações",
+        "resposta": "Me preocupo com o trabalho, com dinheiro, com a saúde dos meus filhos, com tudo. Não consigo controlar."
+      },
+      {
+        "topico": "Sintomas físicos",
+        "resposta": "Tensão no pescoço, dor de cabeça, coração acelerado às vezes, cansaço."
+      },
+      {
+        "topico": "Sono",
+        "resposta": "Demoro para dormir porque fico pensando."
+      },
+      {
+        "topico": "Concentração e irritação",
+        "resposta": "Estou irritado e esquecido no trabalho."
+      },
+      {
+        "topico": "Crises de pânico",
+        "resposta": "Não tive crise súbita de medo de morrer."
+      },
+      {
+        "topico": "Humor",
+        "resposta": "Não estou triste. Ainda gosto das minhas coisas."
+      },
+      {
+        "topico": "Ideias de morte",
+        "resposta": "Não penso em morrer."
+      },
+      {
+        "topico": "Cafeína e estimulantes",
+        "resposta": "Tomo uns 8 cafés por dia e energético à tarde."
+      },
+      {
+        "topico": "Álcool e drogas",
+        "resposta": "Bebo vinho toda noite para relaxar, umas 2 taças."
+      },
+      {
+        "topico": "Tireoide e perda de peso",
+        "resposta": "Não perdi peso, não tenho tremor."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Tomei clonazepam emprestado da minha mãe algumas vezes."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Minha mãe tem ansiedade."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Não dá para me passar só o clonazepam? Com ele eu fico ótimo."
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 132 x 84 mmHg, FC 96 bpm, peso estável."
+    },
+    {
+      "item": "Exame físico",
+      "achado": "Sem tremor, sem exoftalmia, tireoide normal, ausculta cardíaca normal."
+    },
+    {
+      "item": "Exame do estado mental",
+      "achado": "Ansioso, inquieto, discurso acelerado, sem sintomas depressivos ou psicóticos."
+    }
+  ],
+  "exames": [
+    {
+      "item": "GAD-7",
+      "resultado": "15 pontos: ansiedade moderada a grave."
+    },
+    {
+      "item": "TSH e glicemia",
+      "resultado": "Normais."
+    },
+    {
+      "item": "Eletrocardiograma",
+      "resultado": "Taquicardia sinusal leve, sem outras alterações."
+    }
+  ],
+  "diagnostico": "Transtorno de ansiedade generalizada (preocupação excessiva e difícil de controlar por mais de 6 meses, com sintomas físicos e prejuízo), agravado por cafeína e álcool.",
+  "condutaEsperada": [
+    "Afastar causas orgânicas e substâncias (TSH, cafeína, álcool, estimulantes) e comorbidades (depressão, pânico).",
+    "Psicoeducação: explicar o ciclo da ansiedade e que há tratamento eficaz.",
+    "Terapia cognitivo-comportamental (psicologia da equipe), técnicas de respiração e relaxamento, atividade física regular, higiene do sono.",
+    "Reduzir gradualmente a cafeína e o álcool; não usar clonazepam emprestado.",
+    "Farmacoterapia de primeira linha: ISRS (por exemplo, escitalopram 10 mg ou sertralina 50 mg), começando com dose baixa; evitar benzodiazepínico de uso contínuo.",
+    "Retorno em 2 a 4 semanas para avaliar resposta e efeitos adversos."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe o paciente.",
+      "peso": 0.5
+    },
+    {
+      "id": "preocupacao",
+      "item": "Caracteriza a preocupação (excessiva, difícil de controlar, duração).",
+      "peso": 1.5
+    },
+    {
+      "id": "sintomas",
+      "item": "Investiga sintomas físicos, sono, concentração e irritabilidade.",
+      "peso": 1
+    },
+    {
+      "id": "diferenciais",
+      "item": "Investiga depressão, pânico e ideação suicida.",
+      "peso": 1
+    },
+    {
+      "id": "substancias",
+      "item": "Investiga cafeína, álcool, estimulantes e uso de benzodiazepínico.",
+      "peso": 1.5
+    },
+    {
+      "id": "organicas",
+      "item": "Solicita TSH e avalia causas orgânicas.",
+      "peso": 0.5
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica transtorno de ansiedade generalizada.",
+      "peso": 1
+    },
+    {
+      "id": "nao-farmacologico",
+      "item": "Indica psicoterapia, atividade física e redução de cafeína e álcool.",
+      "peso": 1
+    },
+    {
+      "id": "isrs",
+      "item": "Prescreve ISRS e explica por que não usar benzodiazepínico contínuo.",
+      "peso": 1.5
+    },
+    {
+      "id": "seguimento",
+      "item": "Combina retorno.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Cadernos de Atenção Básica nº 34: Saúde mental.",
+    "NICE. Generalised anxiety disorder and panic disorder in adults: management (CG113)."
+  ]
+}

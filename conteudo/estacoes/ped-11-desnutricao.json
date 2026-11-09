@@ -1,0 +1,183 @@
+{
+  "id": "ped-11-desnutricao",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Aleitamento e nutrição",
+  "titulo": "Bebê que não ganha peso",
+  "tema": "Desnutrição aguda moderada no lactente",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde, consulta de puericultura. A agente comunitária chamou a família porque a criança faltou às consultas.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Joana Pereira, mãe de Kauã (9 meses)",
+    "idade": 19,
+    "sexo": "feminino",
+    "ocupacao": "desempregada",
+    "perfil": "Jovem, tímida, com medo de ser culpada. Mora com a mãe e mais 4 irmãos.",
+    "abertura": "Doutor, a agente de saúde disse que o Kauã está magrinho.",
+    "roteiro": [
+      {
+        "topico": "Alimentação atual",
+        "resposta": "Dou leite de vaca de caixinha com água e um pouco de farinha na mamadeira, umas 5 vezes por dia."
+      },
+      {
+        "topico": "Aleitamento materno",
+        "resposta": "Mamou no peito só até 2 meses. Parei porque tive que procurar emprego."
+      },
+      {
+        "topico": "Comida",
+        "resposta": "Às vezes dou caldo de feijão. Ainda não come comida de panela."
+      },
+      {
+        "topico": "Diarreia e infecções",
+        "resposta": "Teve diarreia duas vezes neste mês. Às vezes tem febre."
+      },
+      {
+        "topico": "Apetite e comportamento",
+        "resposta": "Está mais quietinho, chora pouco."
+      },
+      {
+        "topico": "Desenvolvimento",
+        "resposta": "Ainda não senta sem apoio."
+      },
+      {
+        "topico": "Gestação e nascimento",
+        "resposta": "Nasceu de 38 semanas com 2.900 gramas. Fiz poucas consultas de pré-natal."
+      },
+      {
+        "topico": "Vacinas",
+        "resposta": "Estão atrasadas desde os 4 meses."
+      },
+      {
+        "topico": "Situação da família",
+        "resposta": "A gente vive com a pensão da minha mãe. Às vezes falta comida. A água é de poço."
+      },
+      {
+        "topico": "Programas sociais",
+        "resposta": "Não recebo Bolsa Família."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Não toma nada."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não teve febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Antropometria",
+      "achado": "Peso 6,6 kg, comprimento 69 cm. Peso para o comprimento com escore Z de -2,4. Comprimento para a idade com escore Z de -1,2."
+    },
+    {
+      "item": "Curva de crescimento",
+      "achado": "Peso estacionado desde os 6 meses, cruzando canais para baixo."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Hipoativo, sem edema, palidez cutânea leve, cabelos finos."
+    },
+    {
+      "item": "Sinais de gravidade",
+      "achado": "Sem edema de pés, sem desidratação, sem febre, sem desconforto respiratório, aceita o teste do apetite."
+    },
+    {
+      "item": "Desenvolvimento",
+      "achado": "Não senta sem apoio, segura objetos, balbucia."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Hemograma",
+      "resultado": "Hemoglobina 9,4 g/dL, VCM 66 fL."
+    },
+    {
+      "item": "Parasitológico de fezes e urina tipo 1",
+      "resultado": "Giárdia no parasitológico. Urina normal."
+    }
+  ],
+  "diagnostico": "Desnutrição aguda moderada (peso para o comprimento entre -3 e -2 escores Z) sem complicações, por ingestão inadequada e insegurança alimentar, com anemia, giardíase e atraso do desenvolvimento.",
+  "condutaEsperada": [
+    "Classificar a desnutrição pelos escores Z e afastar sinais de gravidade que exijam internação (escore Z abaixo de -3, edema, desidratação, infecção grave, perda de apetite).",
+    "Tratamento ambulatorial: orientação alimentar adequada à idade (comida da família amassada, carnes, feijão, frutas e legumes, 3 papas por dia), sem farinha na mamadeira; fórmula infantil enquanto não houver leite materno.",
+    "Tratar a giardíase (metronidazol), a anemia (sulfato ferroso) e oferecer vitamina A conforme o programa; atualizar as vacinas.",
+    "Avaliar a situação social: encaminhar ao CRAS e ao Cadastro Único (Bolsa Família), orientar sobre a água (ferver ou clorar).",
+    "Estimulação do desenvolvimento e retorno em 15 dias para controle do peso, com visitas da agente comunitária.",
+    "Acolher a mãe sem culpa e fortalecer a rede de apoio."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe a mãe sem julgamento.",
+      "peso": 1
+    },
+    {
+      "id": "alimentacao",
+      "item": "Faz a história alimentar detalhada (aleitamento, leite, diluição, alimentação complementar).",
+      "peso": 1.5
+    },
+    {
+      "id": "infeccoes",
+      "item": "Investiga diarreia, infecções e febre.",
+      "peso": 0.5
+    },
+    {
+      "id": "social",
+      "item": "Investiga a situação social (renda, alimentação, água, programas sociais).",
+      "peso": 1
+    },
+    {
+      "id": "antropometria",
+      "item": "Solicita peso e comprimento e interpreta os escores Z.",
+      "peso": 1.5
+    },
+    {
+      "id": "gravidade",
+      "item": "Pesquisa sinais de gravidade e decide pelo tratamento ambulatorial.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica desnutrição aguda moderada.",
+      "peso": 1
+    },
+    {
+      "id": "orientacao",
+      "item": "Orienta a alimentação adequada à idade de forma concreta.",
+      "peso": 1
+    },
+    {
+      "id": "tratamentos",
+      "item": "Trata a anemia e a parasitose e atualiza as vacinas.",
+      "peso": 0.5
+    },
+    {
+      "id": "rede",
+      "item": "Encaminha ao CRAS e ao Cadastro Único e combina retorno breve.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Manual de atendimento da criança com desnutrição grave em nível hospitalar e Guia alimentar para crianças brasileiras menores de 2 anos, 2019.",
+    "OMS. Padrões de crescimento infantil."
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "id": "go-12-pielonefrite-gestacao",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "titulo": "Febre e dor nas costas na gravidez",
+  "tema": "Pielonefrite aguda na gestação",
+  "duracaoMin": 10,
+  "cenario": "Pronto atendimento obstétrico de maternidade. Há laboratório, ultrassom e leitos de internação.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Larissa Mendes",
+    "idade": 26,
+    "sexo": "feminino",
+    "ocupacao": "auxiliar de limpeza",
+    "perfil": "Com calafrios, enrolada no lençol, cansada.",
+    "abertura": "Doutor, estou com febre e uma dor forte nas costas, do lado direito.",
+    "roteiro": [
+      {
+        "topico": "Idade gestacional",
+        "resposta": "Estou com 22 semanas."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Febre de 39 °C desde ontem, com calafrio."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Dor nas costas do lado direito, constante."
+      },
+      {
+        "topico": "Sintomas urinários",
+        "resposta": "Faz uma semana que sinto ardência e vontade de urinar toda hora. Achei que era normal da gravidez."
+      },
+      {
+        "topico": "Náuseas e vômitos",
+        "resposta": "Vomitei 3 vezes hoje."
+      },
+      {
+        "topico": "Contrações e perdas",
+        "resposta": "Não tenho contrações, sangramento ou perda de líquido."
+      },
+      {
+        "topico": "Movimentos do bebê",
+        "resposta": "Está mexendo."
+      },
+      {
+        "topico": "Infecções urinárias anteriores",
+        "resposta": "Tive infecção urinária no começo da gravidez e tratei com cefalexina."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doença. Tomo ferro e ácido fólico."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 108 x 66 mmHg, FC 112 bpm, FR 20 irpm, temperatura 38,9 °C."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Desidratada, calafrios."
+    },
+    {
+      "item": "Abdome e lombar",
+      "achado": "Útero compatível com 22 semanas, indolor, sem contrações. Punho-percussão lombar (Giordano) positiva à direita."
+    },
+    {
+      "item": "Ausculta fetal",
+      "achado": "BCF 160 bpm."
+    },
+    {
+      "item": "Aparelho respiratório",
+      "achado": "Murmúrio vesicular presente, sem ruídos."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Urina tipo 1 e urocultura",
+      "resultado": "Leucocitúria intensa, nitrito positivo, bacteriúria. Urocultura colhida."
+    },
+    {
+      "item": "Hemograma, PCR e creatinina",
+      "resultado": "Leucócitos 18.500/mm³ com desvio, PCR 15 mg/dL, creatinina 0,8 mg/dL."
+    },
+    {
+      "item": "Ultrassom de rins e vias urinárias",
+      "resultado": "Hidronefrose leve à direita (fisiológica da gestação), sem cálculos ou abscesso."
+    },
+    {
+      "item": "Ultrassom obstétrico",
+      "resultado": "Feto vivo, biometria compatível, líquido normal."
+    }
+  ],
+  "diagnostico": "Pielonefrite aguda à direita na gestação de 22 semanas, sem sinais de sepse grave, com infecção urinária recorrente.",
+  "condutaEsperada": [
+    "Internar: pielonefrite na gestação exige tratamento hospitalar inicial.",
+    "Urocultura antes do antibiótico; hidratação venosa, antitérmico e antiemético.",
+    "Antibiótico intravenoso: ceftriaxona 1 g IV a cada 24 horas (ou cefazolina), ajustado pela urocultura; não usar quinolonas.",
+    "Após 48 horas sem febre, trocar para via oral e completar 10 a 14 dias; urocultura de controle 1 a 2 semanas após o fim.",
+    "Por ser infecção recorrente, profilaxia até o fim da gestação (por exemplo, cefalexina ou nitrofurantoína à noite) e urocultura mensal.",
+    "Vigiar trabalho de parto prematuro e sinais de sepse; explicar o plano à paciente."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe a paciente.",
+      "peso": 0.5
+    },
+    {
+      "id": "quadro",
+      "item": "Caracteriza febre, dor lombar e sintomas urinários.",
+      "peso": 1
+    },
+    {
+      "id": "obstetrico",
+      "item": "Pergunta contrações, perdas e movimentos fetais.",
+      "peso": 1
+    },
+    {
+      "id": "antecedentes",
+      "item": "Pergunta infecções urinárias anteriores e alergias.",
+      "peso": 0.5
+    },
+    {
+      "id": "exame",
+      "item": "Solicita sinais vitais, punho-percussão lombar e ausculta fetal.",
+      "peso": 1
+    },
+    {
+      "id": "exames",
+      "item": "Solicita urina tipo 1, urocultura, hemograma e ultrassom de rins.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica pielonefrite aguda na gestação.",
+      "peso": 1
+    },
+    {
+      "id": "internacao",
+      "item": "Interna e prescreve antibiótico intravenoso adequado à gestação.",
+      "peso": 2
+    },
+    {
+      "id": "seguimento",
+      "item": "Orienta via oral após 48 horas sem febre, urocultura de controle e profilaxia.",
+      "peso": 1
+    },
+    {
+      "id": "quinolona",
+      "item": "Evita quinolonas e outros antibióticos contraindicados na gestação.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "FEBRASGO. Infecção urinária na gestação: protocolo.",
+    "Ministério da Saúde. Manual de gestação de alto risco, 2022."
+  ]
+}

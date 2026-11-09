@@ -1,0 +1,186 @@
+{
+  "id": "cm-11-sepse-urinaria",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Emergência clínica",
+  "titulo": "Idosa confusa e com febre",
+  "tema": "Sepse com hipotensão de foco urinário",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral. Há laboratório com lactato, hemocultura, ultrassom, antibióticos e noradrenalina.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Dona Lurdes Ferreira",
+    "idade": 76,
+    "sexo": "feminino",
+    "ocupacao": "aposentada",
+    "perfil": "Confusa e sonolenta. A neta acompanha e responde à maior parte das perguntas.",
+    "abertura": "Ai... onde eu estou?...",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "A neta responde: \"Desde ontem ela está com febre e calafrio. Hoje amanheceu confusa, falando coisa sem sentido.\""
+      },
+      {
+        "topico": "Sintomas urinários",
+        "resposta": "Há uns 4 dias reclamava de ardência para urinar e de urinar toda hora."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Reclamou de dor nas costas do lado direito."
+      },
+      {
+        "topico": "Vômitos e alimentação",
+        "resposta": "Vomitou duas vezes e não come desde ontem. Bebeu pouca água."
+      },
+      {
+        "topico": "Urina",
+        "resposta": "Fez pouco xixi hoje, escuro."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Tem diabetes e pressão alta."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Metformina, losartana e AAS."
+      },
+      {
+        "topico": "Internações e antibióticos recentes",
+        "resposta": "Não internou nem tomou antibiótico nos últimos 3 meses."
+      },
+      {
+        "topico": "Sonda e cateteres",
+        "resposta": "Não usa sonda."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia a remédio."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Febre de 39 °C ontem à noite."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 84 x 50 mmHg (PAM 61), FC 118 bpm, FR 26 irpm, SatO2 94% em ar ambiente, temperatura 38,9 °C, glicemia capilar 210 mg/dL."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Sonolenta, desorientada (Glasgow 13), desidratada, pele quente, enchimento capilar de 4 segundos."
+    },
+    {
+      "item": "Abdome e lombar",
+      "achado": "Abdome flácido, dor à palpação no flanco direito. Punho-percussão lombar (Giordano) positiva à direita."
+    },
+    {
+      "item": "Aparelho respiratório e cardiovascular",
+      "achado": "Murmúrio vesicular presente, sem estertores. Taquicárdica, sem sopros."
+    },
+    {
+      "item": "Exame neurológico",
+      "achado": "Sem rigidez de nuca, sem déficit focal."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Lactato",
+      "resultado": "4,1 mmol/L."
+    },
+    {
+      "item": "Hemograma, PCR e procalcitonina",
+      "resultado": "Leucócitos 21.000/mm³ com 12% de bastões, plaquetas 140.000/mm³, PCR 22 mg/dL."
+    },
+    {
+      "item": "Creatinina, ureia, eletrólitos e gasometria",
+      "resultado": "Creatinina 2,0 mg/dL (anterior 1,0), ureia 88, potássio 4,8. Acidose metabólica leve."
+    },
+    {
+      "item": "Urina tipo 1 e urocultura",
+      "resultado": "Leucocitúria intensa, nitrito positivo, bacteriúria. Urocultura colhida."
+    },
+    {
+      "item": "Hemoculturas",
+      "resultado": "Dois pares colhidos antes do antibiótico."
+    },
+    {
+      "item": "Ultrassom de rins e vias urinárias",
+      "resultado": "Rim direito aumentado, sem hidronefrose, sem cálculos, sem abscesso."
+    }
+  ],
+  "diagnostico": "Sepse de foco urinário (pielonefrite aguda à direita) com hipotensão e hiperlactatemia, com disfunções neurológica e renal (qSOFA 3).",
+  "condutaEsperada": [
+    "Reconhecer a sepse e iniciar o pacote da primeira hora.",
+    "Lactato, duas hemoculturas e urocultura antes do antibiótico, sem atrasá-lo.",
+    "Antibiótico intravenoso de amplo espectro na primeira hora (por exemplo, ceftriaxona 2 g IV), ajustado depois pela cultura.",
+    "Cristaloide 30 mL/kg nas primeiras 3 horas (hipotensão e lactato de 4 ou mais), reavaliando a resposta e sinais de congestão.",
+    "Noradrenalina se a PAM continuar abaixo de 65 mmHg durante ou após o volume; nova dosagem de lactato em 2 a 4 horas.",
+    "Controle do foco (ultrassom sem obstrução), suspender metformina, sonda vesical para diurese e internação em UTI; explicar à família."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e conversa com a paciente e a acompanhante.",
+      "peso": 0.5
+    },
+    {
+      "id": "foco",
+      "item": "Investiga o foco infeccioso (sintomas urinários, dor lombar).",
+      "peso": 1
+    },
+    {
+      "id": "fatores",
+      "item": "Investiga comorbidades, internações e antibióticos recentes.",
+      "peso": 0.5
+    },
+    {
+      "id": "sepse",
+      "item": "Reconhece sepse com hipotensão e disfunção orgânica.",
+      "peso": 1.5
+    },
+    {
+      "id": "lactato-culturas",
+      "item": "Solicita lactato, hemoculturas e urocultura antes do antibiótico.",
+      "peso": 1.5
+    },
+    {
+      "id": "antibiotico",
+      "item": "Prescreve antibiótico de amplo espectro na primeira hora.",
+      "peso": 2
+    },
+    {
+      "id": "volume",
+      "item": "Prescreve cristaloide 30 mL/kg com reavaliação.",
+      "peso": 1.5
+    },
+    {
+      "id": "vasopressor",
+      "item": "Indica noradrenalina se a PAM continuar abaixo de 65 mmHg.",
+      "peso": 1
+    },
+    {
+      "id": "foco-controle",
+      "item": "Solicita ultrassom para afastar obstrução e controlar o foco.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Surviving Sepsis Campaign: international guidelines, 2021.",
+    "Instituto Latino-Americano de Sepse (ILAS). Protocolo de sepse."
+  ]
+}

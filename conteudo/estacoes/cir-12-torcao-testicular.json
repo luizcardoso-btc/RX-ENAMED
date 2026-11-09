@@ -1,0 +1,169 @@
+{
+  "id": "cir-12-torcao-testicular",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Urologia",
+  "titulo": "Dor súbita no testículo",
+  "tema": "Torção testicular",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com urologia de sobreaviso e centro cirúrgico. Há ultrassom com Doppler.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Mateus Oliveira",
+    "idade": 14,
+    "sexo": "masculino",
+    "ocupacao": "estudante",
+    "perfil": "Adolescente com muita dor, envergonhado, acompanhado do pai.",
+    "abertura": "Doutor, está doendo muito o meu saco do lado esquerdo.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Acordei com a dor há 3 horas, de repente."
+      },
+      {
+        "topico": "Intensidade",
+        "resposta": "É a pior dor que já senti. Nota 10."
+      },
+      {
+        "topico": "Náuseas e vômitos",
+        "resposta": "Vomitei duas vezes."
+      },
+      {
+        "topico": "Trauma",
+        "resposta": "Não levei pancada."
+      },
+      {
+        "topico": "Episódios anteriores",
+        "resposta": "Já tive uma dor parecida mês passado que passou sozinha em meia hora."
+      },
+      {
+        "topico": "Ardência para urinar e corrimento",
+        "resposta": "Não tenho ardência para urinar nem corrimento."
+      },
+      {
+        "topico": "Atividade sexual",
+        "resposta": "Nunca tive relação."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "Caxumba",
+        "resposta": "Não estou com o rosto inchado. Tomei as vacinas."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doença. Não tomo remédio."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 124 x 76 mmHg, FC 106 bpm, temperatura 36,7 °C."
+    },
+    {
+      "item": "Bolsa escrotal",
+      "achado": "Testículo esquerdo elevado, horizontalizado, endurecido e muito doloroso. Edema leve da bolsa."
+    },
+    {
+      "item": "Reflexo cremastérico",
+      "achado": "Ausente à esquerda, presente à direita."
+    },
+    {
+      "item": "Sinal de Prehn",
+      "achado": "Elevar o testículo não alivia a dor (negativo)."
+    },
+    {
+      "item": "Abdome e região inguinal",
+      "achado": "Sem hérnias, abdome sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Ultrassom de bolsa escrotal com Doppler",
+      "resultado": "Ausência de fluxo sanguíneo no testículo esquerdo, com sinal do redemoinho no cordão espermático. Testículo direito normal."
+    },
+    {
+      "item": "Urina tipo 1",
+      "resultado": "Normal."
+    }
+  ],
+  "diagnostico": "Torção do cordão espermático (torção testicular) à esquerda, com 3 horas de evolução.",
+  "condutaEsperada": [
+    "Torção é emergência: o salvamento do testículo é alto até 6 horas.",
+    "Com quadro típico (TWIST alto), não atrasar a cirurgia pelo ultrassom.",
+    "Exploração cirúrgica escrotal imediata: detorção, avaliação da viabilidade e orquidopexia; orquidopexia também do lado oposto (contralateral).",
+    "Enquanto aguarda o centro cirúrgico, a detorção manual (rotação de medial para lateral, como abrir um livro) pode aliviar, mas não dispensa a cirurgia.",
+    "Analgesia; explicar ao adolescente e ao pai a urgência e o risco de perda do testículo."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se, garante privacidade e inclui o pai na conversa.",
+      "peso": 0.5
+    },
+    {
+      "id": "dor",
+      "item": "Caracteriza a dor súbita, a intensidade e o tempo de evolução.",
+      "peso": 1.5
+    },
+    {
+      "id": "diferenciais",
+      "item": "Investiga trauma, sintomas urinários, febre e atividade sexual (diferenciais).",
+      "peso": 1
+    },
+    {
+      "id": "episodios",
+      "item": "Pergunta episódios prévios de dor que passaram sozinhos.",
+      "peso": 0.5
+    },
+    {
+      "id": "exame",
+      "item": "Examina a bolsa escrotal (posição do testículo, reflexo cremastérico, sinal de Prehn).",
+      "peso": 1.5
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica torção testicular.",
+      "peso": 1.5
+    },
+    {
+      "id": "urgencia",
+      "item": "Reconhece a janela de 6 horas e não atrasa a cirurgia.",
+      "peso": 1
+    },
+    {
+      "id": "cirurgia",
+      "item": "Indica exploração cirúrgica imediata com orquidopexia bilateral.",
+      "peso": 2
+    },
+    {
+      "id": "comunica",
+      "item": "Explica ao paciente e ao pai a urgência e o risco.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "European Association of Urology. Guidelines on paediatric urology: acute scrotum.",
+    "Sociedade Brasileira de Urologia. Escroto agudo."
+  ]
+}

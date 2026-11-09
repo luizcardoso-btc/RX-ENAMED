@@ -1,0 +1,168 @@
+{
+  "id": "cir-11-hernia-encarcerada",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Abdome agudo",
+  "titulo": "Caroço na virilha que não volta",
+  "tema": "Hérnia inguinal encarcerada",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com centro cirúrgico.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Valter Souza",
+    "idade": 58,
+    "sexo": "masculino",
+    "ocupacao": "carregador de mudanças",
+    "perfil": "Com dor, segurando a virilha direita.",
+    "abertura": "Doutor, a minha hérnia saiu e não volta mais, está doendo muito.",
+    "roteiro": [
+      {
+        "topico": "Hérnia",
+        "resposta": "Tenho uma hérnia na virilha direita há 2 anos. Ela sempre voltava quando eu deitava."
+      },
+      {
+        "topico": "Início",
+        "resposta": "Saiu hoje cedo quando carreguei um armário, há 8 horas, e não volta."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Dor forte no caroço e agora na barriga também."
+      },
+      {
+        "topico": "Vômitos",
+        "resposta": "Vomitei duas vezes."
+      },
+      {
+        "topico": "Gases e fezes",
+        "resposta": "Não soltei gases desde a hora do almoço."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "Cirurgia indicada antes",
+        "resposta": "O médico do posto mandou operar, mas eu fiquei com medo e não fui."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Tenho pressão alta. Fumo um maço por dia. Tosse crônica de manhã."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Tomo hidroclorotiazida."
+      },
+      {
+        "topico": "Anticoagulante",
+        "resposta": "Não tomo remédio para afinar o sangue."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 146 x 88 mmHg, FC 98 bpm, FR 18 irpm, temperatura 37,2 °C."
+    },
+    {
+      "item": "Região inguinal",
+      "achado": "Abaulamento inguinal direito de 6 cm, endurecido, doloroso, irredutível. Pele sem hiperemia ou edema."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Levemente distendido, ruídos hidroaéreos aumentados, sem sinais de peritonite."
+    },
+    {
+      "item": "Bolsa escrotal e testículos",
+      "achado": "Testículos tópicos, sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Hemograma e lactato",
+      "resultado": "Leucócitos 12.400/mm³, lactato 1,6 mmol/L."
+    },
+    {
+      "item": "Radiografia de abdome",
+      "resultado": "Algumas alças de delgado distendidas com níveis hidroaéreos."
+    },
+    {
+      "item": "Eletrólitos, creatinina e coagulograma",
+      "resultado": "Normais."
+    }
+  ],
+  "diagnostico": "Hérnia inguinal direita encarcerada há 8 horas, com sinais de obstrução intestinal, sem sinais clínicos de estrangulamento.",
+  "condutaEsperada": [
+    "Analgesia, jejum, hidratação venosa e sonda nasogástrica pela obstrução.",
+    "Não tentar redução manual: encarceramento há mais de 6 horas e obstrução (risco de reduzir alça isquêmica ou redução em bloco).",
+    "Cirurgia de urgência: inguinotomia com avaliação da viabilidade da alça (ressecção se houver necrose) e correção da hérnia; tela se não houver contaminação.",
+    "Antibiótico profilático na indução.",
+    "Explicar ao paciente o risco de estrangulamento e a necessidade da cirurgia."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e oferece analgesia.",
+      "peso": 0.5
+    },
+    {
+      "id": "historia",
+      "item": "Caracteriza a hérnia (tempo, redutibilidade) e o início do encarceramento.",
+      "peso": 1.5
+    },
+    {
+      "id": "tempo",
+      "item": "Define o tempo de encarceramento.",
+      "peso": 1
+    },
+    {
+      "id": "obstrucao",
+      "item": "Pergunta vômitos e parada de gases e fezes.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Examina a região inguinal e pesquisa sinais de estrangulamento (hiperemia, edema, febre, peritonite).",
+      "peso": 1.5
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica hérnia inguinal encarcerada com obstrução.",
+      "peso": 1
+    },
+    {
+      "id": "nao-reduzir",
+      "item": "Não tenta redução manual pelo tempo e pela obstrução.",
+      "peso": 1
+    },
+    {
+      "id": "cirurgia",
+      "item": "Indica cirurgia de urgência com avaliação da alça.",
+      "peso": 1.5
+    },
+    {
+      "id": "suporte",
+      "item": "Prescreve jejum, hidratação e sonda nasogástrica.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "HerniaSurge Group. International guidelines for groin hernia management, 2018."
+  ]
+}

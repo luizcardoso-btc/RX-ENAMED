@@ -1,0 +1,186 @@
+{
+  "id": "cm-12-dengue-alarme",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Infectologia",
+  "titulo": "Febre que passou, mas a dor na barriga piorou",
+  "tema": "Dengue com sinais de alarme",
+  "duracaoMin": 10,
+  "cenario": "Unidade de pronto atendimento durante epidemia de dengue. Há hematócrito, hemograma, soro e leitos de observação.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Felipe Costa",
+    "idade": 30,
+    "sexo": "masculino",
+    "ocupacao": "motoboy",
+    "perfil": "Abatido, com dor. Preocupado em voltar ao trabalho.",
+    "abertura": "Doutor, a febre passou, mas agora estou com uma dor forte na barriga e vomitando.",
+    "roteiro": [
+      {
+        "topico": "Febre",
+        "resposta": "Tive febre de 39 °C por 4 dias. Ontem a febre passou."
+      },
+      {
+        "topico": "Dor no corpo e nos olhos",
+        "resposta": "Muita dor no corpo, nas juntas e atrás dos olhos nos primeiros dias."
+      },
+      {
+        "topico": "Dor abdominal",
+        "resposta": "Desde ontem uma dor forte e contínua na barriga."
+      },
+      {
+        "topico": "Vômitos",
+        "resposta": "Vomitei 5 vezes hoje, não consigo segurar nem água."
+      },
+      {
+        "topico": "Sangramentos",
+        "resposta": "A gengiva sangrou um pouco quando escovei os dentes."
+      },
+      {
+        "topico": "Tontura",
+        "resposta": "Fico tonto quando levanto."
+      },
+      {
+        "topico": "Urina",
+        "resposta": "Estou urinando pouco."
+      },
+      {
+        "topico": "Manchas",
+        "resposta": "Apareceram umas manchas vermelhas no corpo ontem."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Tomei dipirona. Um amigo me deu diclofenaco, tomei dois comprimidos."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Não tenho doenças. Tive dengue há 3 anos."
+      },
+      {
+        "topico": "Bairro",
+        "resposta": "Muita gente no meu bairro está com dengue."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 108 x 74 mmHg deitado e 96 x 70 mmHg em pé, FC 104 bpm, FR 20 irpm, temperatura 36,9 °C, peso 72 kg."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Desidratado, enchimento capilar de 2 segundos, extremidades mornas."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Doloroso à palpação difusa, fígado a 3 cm do rebordo costal, doloroso. Sem sinais de peritonite."
+    },
+    {
+      "item": "Pele e mucosas",
+      "achado": "Exantema maculopapular no tronco. Petéquias nas pernas. Gengivorragia discreta."
+    },
+    {
+      "item": "Aparelho respiratório",
+      "achado": "Murmúrio vesicular diminuído na base direita."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Hemograma",
+      "resultado": "Hematócrito 50% (no dia 2 era 42%), leucócitos 2.800/mm³, plaquetas 42.000/mm³."
+    },
+    {
+      "item": "Albumina, transaminases e função renal",
+      "resultado": "Albumina 3,0 g/dL, TGO 220, TGP 180 U/L, creatinina 1,1 mg/dL."
+    },
+    {
+      "item": "NS1 e sorologia IgM para dengue",
+      "resultado": "NS1 negativo (fase tardia). IgM reagente."
+    },
+    {
+      "item": "Ultrassom de abdome",
+      "resultado": "Pequena quantidade de líquido livre na pelve e derrame pleural pequeno à direita, espessamento da parede da vesícula."
+    }
+  ],
+  "diagnostico": "Dengue com sinais de alarme (grupo C): dor abdominal intensa e contínua, vômitos persistentes, hipotensão postural, hepatomegalia dolorosa, sangramento de mucosa, acúmulo de líquido e aumento do hematócrito com queda das plaquetas, na fase crítica (após a defervescência).",
+  "condutaEsperada": [
+    "Classificar como grupo C (sinais de alarme): internar em leito de observação ou enfermaria.",
+    "Hidratação venosa imediata: 10 mL/kg de soro fisiológico ou Ringer lactato na primeira hora (cerca de 720 mL), com reavaliação clínica e do hematócrito; repetir até 3 vezes se não melhorar.",
+    "Com melhora, manutenção venosa (25 mL/kg em 6 horas e depois em 8 horas) e reintrodução gradual da via oral.",
+    "Suspender o diclofenaco: não usar anti-inflamatórios nem AAS; analgesia com dipirona ou paracetamol.",
+    "Monitorar sinais vitais, diurese, hematócrito, plaquetas e sinais de choque; se piorar, tratar como grupo D.",
+    "Notificar o caso e orientar sinais de piora; alta só com melhora clínica, hematócrito estável e 48 horas sem febre."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e escuta o paciente.",
+      "peso": 0.5
+    },
+    {
+      "id": "evolucao",
+      "item": "Caracteriza a evolução e identifica a fase crítica após a defervescência.",
+      "peso": 1
+    },
+    {
+      "id": "alarme",
+      "item": "Pesquisa sinais de alarme (dor abdominal, vômitos, sangramento, tontura, diurese).",
+      "peso": 1.5
+    },
+    {
+      "id": "medicamentos",
+      "item": "Pergunta uso de anti-inflamatório e AAS.",
+      "peso": 0.5
+    },
+    {
+      "id": "exame",
+      "item": "Solicita PA deitado e em pé, exame abdominal e da pele.",
+      "peso": 1
+    },
+    {
+      "id": "hematocrito",
+      "item": "Solicita hemograma e interpreta a hemoconcentração e a plaquetopenia.",
+      "peso": 1
+    },
+    {
+      "id": "classificacao",
+      "item": "Classifica como dengue com sinais de alarme (grupo C).",
+      "peso": 1.5
+    },
+    {
+      "id": "hidratacao",
+      "item": "Prescreve hidratação venosa de 10 mL/kg na primeira hora com reavaliação.",
+      "peso": 1.5
+    },
+    {
+      "id": "aine",
+      "item": "Suspende o anti-inflamatório e prescreve dipirona ou paracetamol.",
+      "peso": 0.5
+    },
+    {
+      "id": "notificacao",
+      "item": "Notifica o caso e orienta a monitorização.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Dengue: diagnóstico e manejo clínico, adulto e criança, 6ª edição, 2024."
+  ]
+}

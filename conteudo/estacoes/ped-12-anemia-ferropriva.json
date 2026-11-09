@@ -1,0 +1,192 @@
+{
+  "id": "ped-12-anemia-ferropriva",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Hematologia pediátrica",
+  "titulo": "Criança pálida e sem apetite",
+  "tema": "Anemia ferropriva na infância",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. A mãe trouxe o resultado do hemograma pedido na consulta anterior.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Renata Alves, mãe de Sofia (1 ano e 6 meses)",
+    "idade": 30,
+    "sexo": "feminino",
+    "ocupacao": "vendedora",
+    "perfil": "Atenta e colaborativa. Acha que a filha \"só gosta de leite\".",
+    "abertura": "Doutor, a Sofia está bem branquinha e não quer comer nada, só leite.",
+    "roteiro": [
+      {
+        "topico": "Alimentação",
+        "resposta": "Toma mamadeira de leite de vaca integral umas 5 vezes por dia, mais de 1 litro. Come pouca comida."
+      },
+      {
+        "topico": "Carne e feijão",
+        "resposta": "Carne quase não come, não gosta. Feijão só o caldo."
+      },
+      {
+        "topico": "Aleitamento",
+        "resposta": "Mamou no peito até 4 meses."
+      },
+      {
+        "topico": "Suplemento de ferro",
+        "resposta": "O posto deu o ferro com 6 meses, mas eu parei porque escurecia os dentes."
+      },
+      {
+        "topico": "Palidez e cansaço",
+        "resposta": "Está pálida há uns 2 meses. Cansa rápido para brincar."
+      },
+      {
+        "topico": "Comer coisas estranhas",
+        "resposta": "Às vezes come terra do vaso."
+      },
+      {
+        "topico": "Sangramentos e fezes",
+        "resposta": "Não vi sangue nas fezes. Não tem sangramento."
+      },
+      {
+        "topico": "Infecções",
+        "resposta": "Pega muitos resfriados."
+      },
+      {
+        "topico": "Desenvolvimento",
+        "resposta": "Anda e fala algumas palavras."
+      },
+      {
+        "topico": "Gestação e nascimento",
+        "resposta": "Nasceu de 37 semanas com 2.700 gramas. Eu tive anemia na gravidez."
+      },
+      {
+        "topico": "Doenças na família",
+        "resposta": "Ninguém tem doença do sangue."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não teve febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Antropometria",
+      "achado": "Peso 11,4 kg e estatura adequados para a idade (escores Z entre -1 e +1)."
+    },
+    {
+      "item": "Estado geral e mucosas",
+      "achado": "Ativa, palidez cutaneomucosa ++/4+, sem icterícia."
+    },
+    {
+      "item": "Aparelho cardiovascular",
+      "achado": "FC 118 bpm, sopro sistólico suave em foco mitral (sopro funcional)."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Sem visceromegalias."
+    },
+    {
+      "item": "Pele e unhas",
+      "achado": "Unhas finas, sem petéquias."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Hemograma",
+      "resultado": "Hemoglobina 8,9 g/dL, VCM 62 fL, HCM 19 pg, RDW 18%, plaquetas 480.000/mm³, leucócitos normais."
+    },
+    {
+      "item": "Ferritina e reticulócitos",
+      "resultado": "Ferritina 5 ng/mL. Reticulócitos 0,8%."
+    },
+    {
+      "item": "Parasitológico de fezes",
+      "resultado": "Negativo."
+    }
+  ],
+  "diagnostico": "Anemia ferropriva (microcítica e hipocrômica, RDW alto, ferritina baixa) por ingestão inadequada de ferro e excesso de leite de vaca.",
+  "condutaEsperada": [
+    "Confirmar a deficiência de ferro: anemia microcítica e hipocrômica com RDW aumentado e ferritina baixa.",
+    "Sulfato ferroso 3 a 5 mg/kg/dia de ferro elementar (cerca de 35 a 55 mg/dia para 11,4 kg), uma vez ao dia, longe das refeições lácteas, de preferência com suco de fruta cítrica.",
+    "Manter o tratamento até normalizar a hemoglobina e por mais 2 a 3 meses para repor os estoques (total de 3 a 6 meses).",
+    "Reduzir o leite de vaca para no máximo 500 mL por dia e oferecer carnes, feijão, folhas verde-escuras; orientar escovar os dentes para evitar manchas.",
+    "Reavaliar em 30 dias (aumento de reticulócitos em 7 a 10 dias e da hemoglobina em 1 a 2 g/dL em 4 semanas).",
+    "Orientar que as fezes podem escurecer e manter as vacinas e a puericultura."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe a mãe.",
+      "peso": 0.5
+    },
+    {
+      "id": "alimentacao",
+      "item": "Investiga a dieta (leite de vaca, carnes, feijão, aleitamento).",
+      "peso": 1.5
+    },
+    {
+      "id": "suplemento",
+      "item": "Pergunta a suplementação profilática de ferro.",
+      "peso": 0.5
+    },
+    {
+      "id": "sintomas",
+      "item": "Investiga palidez, cansaço e picamalácia.",
+      "peso": 1
+    },
+    {
+      "id": "perdas",
+      "item": "Investiga perdas de sangue e parasitoses.",
+      "peso": 0.5
+    },
+    {
+      "id": "hemograma",
+      "item": "Interpreta o hemograma como anemia microcítica e hipocrômica com RDW alto.",
+      "peso": 1
+    },
+    {
+      "id": "ferritina",
+      "item": "Solicita ferritina e confirma a deficiência de ferro.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica anemia ferropriva.",
+      "peso": 1
+    },
+    {
+      "id": "ferro",
+      "item": "Prescreve sulfato ferroso na dose correta e pelo tempo correto.",
+      "peso": 1.5
+    },
+    {
+      "id": "dieta",
+      "item": "Orienta reduzir o leite de vaca e oferecer alimentos ricos em ferro.",
+      "peso": 1
+    },
+    {
+      "id": "reavaliacao",
+      "item": "Combina reavaliação em 30 dias.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Pediatria. Consenso sobre anemia ferropriva, 2021.",
+    "Ministério da Saúde. Programa Nacional de Suplementação de Ferro."
+  ]
+}

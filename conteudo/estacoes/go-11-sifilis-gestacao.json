@@ -1,0 +1,186 @@
+{
+  "id": "go-11-sifilis-gestacao",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "titulo": "Teste rápido reagente no pré-natal",
+  "tema": "Sífilis na gestação",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde, primeira consulta de pré-natal. A enfermeira fez os testes rápidos e chamou o médico.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Bruna Cardoso",
+    "idade": 24,
+    "sexo": "feminino",
+    "ocupacao": "manicure",
+    "perfil": "Assustada e com vergonha. Medo de o parceiro descobrir.",
+    "abertura": "Doutor, a enfermeira disse que um dos exames deu positivo. É grave?",
+    "roteiro": [
+      {
+        "topico": "Idade gestacional",
+        "resposta": "Minha menstruação atrasou, estou com 12 semanas."
+      },
+      {
+        "topico": "Lesões genitais",
+        "resposta": "Não tenho ferida. Nunca vi ferida nos genitais."
+      },
+      {
+        "topico": "Manchas na pele",
+        "resposta": "Não tive manchas."
+      },
+      {
+        "topico": "Tratamento anterior",
+        "resposta": "Nunca tratei sífilis. Nunca fiz o teste antes."
+      },
+      {
+        "topico": "Parceiro",
+        "resposta": "Tenho um parceiro fixo há 1 ano, o pai do bebê. Ele nunca fez teste."
+      },
+      {
+        "topico": "Preservativo",
+        "resposta": "A gente não usa camisinha."
+      },
+      {
+        "topico": "Alergia a penicilina",
+        "resposta": "Não tenho alergia a penicilina."
+      },
+      {
+        "topico": "Gestações anteriores",
+        "resposta": "É a minha primeira gravidez."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doença. Tomo ácido fólico."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia a nada."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Como eu vou contar para o meu marido?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 110 x 70 mmHg, FC 80 bpm."
+    },
+    {
+      "item": "Pele e mucosas",
+      "achado": "Sem lesões."
+    },
+    {
+      "item": "Exame ginecológico",
+      "achado": "Sem lesões genitais. Colo sem alterações."
+    },
+    {
+      "item": "Linfonodos",
+      "achado": "Sem linfonodomegalias."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Teste rápido treponêmico",
+      "resultado": "Reagente."
+    },
+    {
+      "item": "VDRL",
+      "resultado": "Reagente 1:8."
+    },
+    {
+      "item": "Testes rápidos de HIV e hepatites B e C",
+      "resultado": "Não reagentes."
+    },
+    {
+      "item": "Ultrassom obstétrico",
+      "resultado": "Gestação tópica, 12 semanas, feto sem alterações."
+    }
+  ],
+  "diagnostico": "Sífilis latente de duração ignorada na gestação (sem lesões, sem teste anterior).",
+  "condutaEsperada": [
+    "Teste rápido reagente na gestante: iniciar o tratamento na mesma consulta, sem esperar o VDRL.",
+    "Penicilina G benzatina 2,4 milhões UI IM por semana, por 3 semanas (total de 7,2 milhões UI); em gestantes, o intervalo entre as doses não deve passar de 9 dias, senão o esquema é reiniciado.",
+    "A penicilina é o único tratamento eficaz para prevenir a sífilis congênita; se houver alergia, fazer dessensibilização.",
+    "Notificação compulsória de sífilis em gestante.",
+    "Testar e tratar o parceiro (mesmo com teste negativo, se exposto), orientar abstinência ou preservativo até o fim do tratamento de ambos.",
+    "VDRL mensal até o parto; o tratamento deve terminar pelo menos 30 dias antes do parto. Explicar os riscos para o bebê e a importância do tratamento."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se, garante sigilo e acolhe sem julgamento.",
+      "peso": 1
+    },
+    {
+      "id": "historia",
+      "item": "Investiga lesões, tratamento anterior e testes prévios.",
+      "peso": 1
+    },
+    {
+      "id": "parceria",
+      "item": "Pergunta sobre o parceiro e o uso de preservativo.",
+      "peso": 1
+    },
+    {
+      "id": "alergia",
+      "item": "Pergunta alergia à penicilina.",
+      "peso": 0.5
+    },
+    {
+      "id": "diagnostico",
+      "item": "Interpreta os testes e diagnostica sífilis latente de duração ignorada.",
+      "peso": 1
+    },
+    {
+      "id": "penicilina",
+      "item": "Prescreve penicilina benzatina 2,4 milhões UI por semana por 3 semanas.",
+      "peso": 2
+    },
+    {
+      "id": "imediato",
+      "item": "Inicia o tratamento no mesmo dia.",
+      "peso": 0.5
+    },
+    {
+      "id": "parceiro",
+      "item": "Orienta testar e tratar o parceiro.",
+      "peso": 1
+    },
+    {
+      "id": "notificacao",
+      "item": "Notifica sífilis em gestante.",
+      "peso": 0.5
+    },
+    {
+      "id": "seguimento",
+      "item": "Orienta VDRL mensal e explica o risco de sífilis congênita.",
+      "peso": 1
+    },
+    {
+      "id": "outros",
+      "item": "Verifica os testes de HIV e hepatites.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com IST, 2022.",
+    "Ministério da Saúde. Protocolo de transmissão vertical de HIV, sífilis e hepatites virais."
+  ]
+}
