@@ -10,6 +10,7 @@
     "iniciar": "node src/iniciar.js",
     "migrar": "node src/migrar.js",
     "criar-admin": "node src/criar-admin.js",
+    "redefinir-acesso": "node src/redefinir-acesso.js",
     "teste": "node --test teste/*.test.js",
     "zerar": "node src/zerar.js"
   },

@@ -2,7 +2,7 @@
 // Precisa de um Postgres vazio em TEST_DATABASE_URL (padrão: o banco local de testes).
 import { test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
-import { createHmac } from 'node:crypto';
+import { createHmac, createHash } from 'node:crypto';
 import { carregarConfig } from '../src/config.js';
 import { criarBanco, migrar } from '../src/db.js';
 import { carregarPlanos, somarMeses } from '../src/planos.js';
@@ -779,4 +779,29 @@ test('simulado nacional: correção no servidor, ranking por faculdade e relató
   const aluno = cliente();
   await aluno.post('/api/entrar', { email: 'nacional1@rx.test', senha: 'senha-forte-1' });
   assert.equal((await aluno.get('/api/admin/turmas')).status, 403);
+});
+
+test('páginas do servidor: scripts embutidos batem com a política de segurança (login funciona)', async () => {
+  for (const pagina of ['/entrar', '/minha-conta', '/redefinir-senha']) {
+    const r = await fetch(url + pagina);
+    const csp = r.headers.get('content-security-policy');
+    const html = await r.text();
+    const scripts = [...html.matchAll(/<script(?![^>]*\bsrc=)[^>]*>([\s\S]*?)<\/script>/gi)].map((m) => m[1]).filter((s) => s.trim());
+    for (const s of scripts) {
+      const hash = `'sha256-${createHash('sha256').update(s, 'utf8').digest('base64')}'`;
+      assert.ok(csp.includes(hash), `${pagina}: script embutido bloqueado pela CSP`);
+    }
+  }
+});
+
+test('recuperação de acesso pelo terminal: senha temporária e desbloqueio', async () => {
+  const { execFile } = await import('node:child_process');
+  const c = cliente();
+  await c.post('/api/cadastro', { nome: 'Conta Esquecida', email: 'esquecida@rx.test', senha: 'senha-forte-1', aceite: true, ...FICHA });
+  await banco.consulta(`UPDATE usuarios SET falhas_login = 9, bloqueado_ate = now() + interval '1 hour' WHERE email = 'esquecida@rx.test'`);
+  const saida = await new Promise((ok, falha) => execFile(process.execPath, ['src/redefinir-acesso.js', 'esquecida@rx.test'],
+    { cwd: new URL('..', import.meta.url).pathname, env: { ...process.env, DATABASE_URL: BANCO } }, (e, so, se) => (e ? falha(new Error(se || e.message)) : ok(so))));
+  const senha = saida.match(/Senha temporária: (\S+)/)[1];
+  const r = await cliente().post('/api/entrar', { email: 'esquecida@rx.test', senha });
+  assert.equal(r.status, 200, JSON.stringify(r.corpo));
 });

@@ -19,7 +19,7 @@ import { rotasDupla } from './rotas/dupla.js';
 const MP_HOSTS = 'https://*.mercadopago.com https://*.mercadopago.com.br https://*.mercadolibre.com https://*.mercadolivre.com https://*.mlstatic.com';
 
 /** Assinaturas (sha256) de todos os scripts embutidos nas páginas: a política só deixa rodar esses, nada injetado. */
-function hashesDeScripts(pastas) {
+function hashesDeScripts(pastas, transformar = null) {
   const hashes = new Set();
   const visitar = (p) => {
     for (const nome of readdirSync(p)) {
@@ -29,7 +29,9 @@ function hashesDeScripts(pastas) {
         const html = readFileSync(caminho, 'utf8');
         for (const m of html.matchAll(/<script(?![^>]*\bsrc=)([^>]*)>([\s\S]*?)<\/script>/gi)) {
           if (/application\/ld\+json/i.test(m[1]) || !m[2].trim()) continue;
-          hashes.add(`'sha256-${createHash('sha256').update(m[2], 'utf8').digest('base64')}'`);
+          for (const texto of new Set([m[2], transformar ? transformar(m[2]) : m[2]])) {
+            hashes.add(`'sha256-${createHash('sha256').update(texto, 'utf8').digest('base64')}'`);
+          }
         }
       }
     }
@@ -79,7 +81,11 @@ export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ b
   // imports entre módulos levam a mesma versão, então um deploy sempre baixa o código novo, mesmo com cache antigo.
   const VERSAO = createHash('sha1').update(readdirSync(web).filter((n) => /\.(js|css|html)$/.test(n)).sort()
     .map((n) => n + readFileSync(web + n, 'utf8')).join('\n')).digest('hex').slice(0, 10);
-  const csp = politica(hashesDeScripts([web, config.pastaSite]));
+  const comVersao = (texto) => texto.replace(/(["'])(\/_rx\/[\w-]+\.(?:js|css))\1/g, `$1$2?v=${VERSAO}$1`)
+    .replace(/(from\s+|import\s*\(\s*)(["'])(\.\/[\w-]+\.js)\2/g, `$1$2$3?v=${VERSAO}$2`);
+  // As páginas do servidor saem com a versão também dentro dos scripts embutidos (imports de /_rx/...):
+  // a política de segurança precisa do hash do script como ele é enviado, senão o navegador bloqueia (login quebrado).
+  const csp = politica(hashesDeScripts([web, config.pastaSite], comVersao));
   app.disable('x-powered-by');
   app.set('trust proxy', 1); // um proxy na frente (Railway/Render): req.ip é o IP real do visitante
   app.use((req, res, next) => {
@@ -137,8 +143,6 @@ export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ b
   // Páginas próprias do servidor: entrar, checkout, conta, admin e documentos legais.
   // Scripts e estilos das páginas do servidor são revalidados a cada visita (304 quando não mudaram), para que um deploy
   // nunca misture a página nova com um script antigo do cache. O mapa (Leaflet) e as imagens podem ficar em cache.
-  const comVersao = (texto) => texto.replace(/(["'])(\/_rx\/[\w-]+\.(?:js|css))\1/g, `$1$2?v=${VERSAO}$1`)
-    .replace(/(from\s+|import\s*\(\s*)(["'])(\.\/[\w-]+\.js)\2/g, `$1$2$3?v=${VERSAO}$2`);
   const jsVersionado = new Map();
   app.get(/^\/_rx\/[\w-]+\.js$/, (req, res, next) => {
     const nome = req.path.slice(5);
