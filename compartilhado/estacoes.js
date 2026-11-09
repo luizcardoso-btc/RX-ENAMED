@@ -149,7 +149,7 @@ export function parteCandidato(e) {
     cenario: e.cenario,
     instrucoes: e.instrucoes,
     tarefas: e.tarefas,
-    paciente: e.paciente ? { nome: e.paciente.nome, idade: e.paciente.idade, ocupacao: e.paciente.ocupacao } : null,
+    paciente: e.paciente ? { nome: e.paciente.nome, idade: e.paciente.idade, sexo: e.paciente.sexo || null, ocupacao: e.paciente.ocupacao } : null,
     abertura: e.paciente?.abertura || '',
     // Nomes (não conteúdo) do que pode ser perguntado ou pedido: usados no modo roteiro.
     topicos: (e.paciente?.roteiro || []).map((r, i) => ({ chave: `a${i}`, rotulo: r.topico || `Pergunta ${i + 1}` })),

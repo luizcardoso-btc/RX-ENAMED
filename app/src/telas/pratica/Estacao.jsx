@@ -4,6 +4,7 @@ import { infoArea } from '../../data.js';
 import { formatarTempo } from '../../util.js';
 import { t, tc, idiomaAtual } from '../../i18n.js';
 import { api } from '../../pratica-api.js';
+import { useDitado, falar, pararFala, temSintese, lerPreferencias, salvarPreferencias } from '../../voz.js';
 import { NIVEIS, ORIGENS } from '../../../../compartilhado/estacoes.js';
 import { SeloOrigem, Impresso, useRestante, Recomendacoes, notaTexto } from './comum.jsx';
 
@@ -104,6 +105,8 @@ function Consulta({ e, tentativa, modo, minutos, simulado, encerrar }) {
     if (encerrou.current) return;
     encerrou.current = true;
     controle.current?.abort();
+    pararFala();
+    ditado.parar();
     encerrar({ conclusao, falas: mensagens.filter((m) => !m.pendente), revelados: [...revelados], esgotado });
   };
   useEffect(() => { if (restante <= 0) sair(true); }, [restante <= 0]);
@@ -111,6 +114,23 @@ function Consulta({ e, tentativa, modo, minutos, simulado, encerrar }) {
   useEffect(() => () => controle.current?.abort(), []);
 
   const marcar = (r) => setRevelados((s) => new Set([...s, ...(r.chave ? [r.chave] : [])]));
+
+  // Voz: o candidato fala (ditado do navegador) e o paciente responde em voz alta. Sem custo.
+  const [voz, setVoz] = useState(lerPreferencias);
+  const mudarVoz = (k) => setVoz((p) => { const n = { ...p, [k]: !p[k] }; salvarPreferencias(n); if (k === 'falarPaciente' && !n[k]) pararFala(); return n; });
+  const enviarRef = useRef(null);
+  const ditado = useDitado({ aoParcial: setTexto, aoFinal: (f) => enviarRef.current?.(f) });
+  const falado = useRef(-1);
+  useEffect(() => {
+    const i = mensagens.length - 1;
+    const m = mensagens[i];
+    if (!m || m.pendente || m.de === 'candidato' || i <= falado.current || encerrou.current) return;
+    falado.current = i;
+    const ouvirDeNovo = () => { if (voz.continuo && ditado.disponivel && !encerrou.current) ditado.iniciar(); };
+    if (m.de === 'paciente' && voz.falarPaciente && temSintese()) falar(m.texto, { sexo: e.paciente?.sexo, idade: e.paciente?.idade, aoTerminar: ouvirDeNovo });
+    else if (i > 0) ouvirDeNovo();
+  }, [mensagens]);
+  useEffect(() => () => pararFala(), []);
 
   const enviar = async (conteudo) => {
     const fala = conteudo.trim();
@@ -143,6 +163,8 @@ function Consulta({ e, tentativa, modo, minutos, simulado, encerrar }) {
       setAguardando(false);
     }
   };
+
+  enviarRef.current = enviar;
 
   const revelar = async (item) => {
     if (aguardando || revelados.has(item.chave)) return;
@@ -216,6 +238,19 @@ function Consulta({ e, tentativa, modo, minutos, simulado, encerrar }) {
                 {aguardando && modo === 'ia'
                   ? <button type="button" className="botao" onClick={() => controle.current?.abort()}>{t('Parar')}</button>
                   : <button type="submit" className="botao botao-primario" disabled={!texto.trim() || aguardando}>{t('Enviar')}</button>}
+                {ditado.disponivel && (
+                  <button type="button" className={`botao botao-voz${ditado.ouvindo ? ' ouvindo' : ''}`} aria-pressed={ditado.ouvindo} disabled={aguardando && !ditado.ouvindo}
+                    onClick={() => (ditado.ouvindo ? ditado.parar() : ditado.iniciar())}>
+                    <Icone nome="microfone" tamanho={18} /> {ditado.ouvindo ? t('Ouvindo… toque para parar') : t('Falar')}
+                  </button>
+                )}
+              </div>
+              <div className="voz-opcoes">
+                {temSintese() && <label><input type="checkbox" checked={voz.falarPaciente} onChange={() => mudarVoz('falarPaciente')} /> <Icone nome="som" tamanho={16} /> {t('Ouvir o paciente em voz alta')}</label>}
+                {ditado.disponivel
+                  ? <label><input type="checkbox" checked={voz.continuo} onChange={() => mudarVoz('continuo')} /> {t('Conversa contínua: o microfone abre sozinho depois de cada resposta')}</label>
+                  : <span className="mudo pequeno">{t('Para falar por voz com o paciente, use o Chrome, o Edge ou o Safari.')}</span>}
+                {ditado.erro && <span className="aviso pequeno" role="status">{t(ditado.erro)}</span>}
               </div>
               {!simulado && (e.pedidos || []).length > 0 && (
                 <details className="pedidos">

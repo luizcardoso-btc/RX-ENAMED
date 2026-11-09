@@ -1515,4 +1515,14 @@ export default {
   "Taquicardia ventricular monomórfica": "Taquicardia ventricular monomorfa",
   "Pré-excitação (Wolff-Parkinson-White)": "Preexcitación (Wolff-Parkinson-White)",
   "QT longo": "QT largo",
+  // Conversa por voz
+  "Falar": "Hablar",
+  "Ouvindo… toque para parar": "Escuchando… toque para parar",
+  "Ouvir o paciente em voz alta": "Escuchar al paciente en voz alta",
+  "Conversa contínua: o microfone abre sozinho depois de cada resposta": "Conversación continua: el micrófono se abre solo después de cada respuesta",
+  "Para falar por voz com o paciente, use o Chrome, o Edge ou o Safari.": "Para hablar por voz con el paciente, use Chrome, Edge o Safari.",
+  "Permita o uso do microfone para falar com o paciente.": "Permita el uso del micrófono para hablar con el paciente.",
+  "Não ouvi nada. Toque no microfone e fale de novo.": "No escuché nada. Toque el micrófono y hable de nuevo.",
+  "Nenhum microfone encontrado.": "No se encontró ningún micrófono.",
+  "O reconhecimento de voz precisa de internet neste navegador.": "El reconocimiento de voz necesita internet en este navegador.",
 };

@@ -588,6 +588,11 @@ button.linha-questao:hover { background: var(--folha-2); }
 .mensagem-examinador .mensagem-texto { background: var(--aviso-suave); border-left: 3px solid var(--aviso); border-radius: 6px; font-family: var(--f-ui); font-size: var(--t-1); }
 .enviar { display: flex; flex-direction: column; gap: 8px; }
 .enviar .linha-botoes { justify-content: flex-end; }
+.botao-voz.ouvindo { background: rgb(217 89 38 / .18); border-color: #d95926; color: var(--tinta); animation: voz-pulso 1.2s ease-in-out infinite; }
+@keyframes voz-pulso { 50% { box-shadow: 0 0 0 6px rgb(217 89 38 / .18); } }
+@media (prefers-reduced-motion: reduce) { .botao-voz.ouvindo { animation: none; } }
+.voz-opcoes { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: .85rem; color: var(--tinta-2); }
+.voz-opcoes label { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
 .pedidos summary { cursor: pointer; color: var(--realce); font-weight: 500; font-size: var(--t-1); }
 .pedidos .chips { margin-top: 8px; }
 .roteiro { display: flex; flex-direction: column; gap: 12px; padding-top: 8px; border-top: 1px dashed var(--linha); }
