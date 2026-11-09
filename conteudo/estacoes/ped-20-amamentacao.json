@@ -1,0 +1,173 @@
+{
+  "id": "ped-20-amamentacao",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Aleitamento e nutrição",
+  "titulo": "Dor para amamentar",
+  "tema": "Dificuldade na amamentação: pega incorreta e fissura mamilar",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde, primeira consulta do recém-nascido (5º dia de vida). A mãe trouxe o bebê para o teste do pezinho.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Bianca Araújo, mãe de Theo (7 dias)",
+    "idade": 25,
+    "sexo": "feminino",
+    "ocupacao": "estudante de enfermagem",
+    "perfil": "Chorosa, cansada, com o peito doendo. Pensa em dar mamadeira.",
+    "abertura": "Doutor, meu peito está machucado, dói muito para amamentar. Acho que vou ter que dar leite de lata.",
+    "roteiro": [
+      {
+        "topico": "Dor",
+        "resposta": "Dói muito quando ele pega, principalmente no começo da mamada. O bico está rachado e sangrou."
+      },
+      {
+        "topico": "Frequência e duração",
+        "resposta": "Ele mama de 2 em 2 horas, mas fica pouco tempo e solta o peito chorando."
+      },
+      {
+        "topico": "Fraldas",
+        "resposta": "Molha umas 5 fraldas por dia. Cocô amarelo, 2 vezes por dia."
+      },
+      {
+        "topico": "Peso",
+        "resposta": "Nasceu com 3.300 gramas."
+      },
+      {
+        "topico": "Seios",
+        "resposta": "Os seios estão cheios e duros."
+      },
+      {
+        "topico": "Febre e vermelhidão",
+        "resposta": "Não tive febre. Não tem área vermelha no seio."
+      },
+      {
+        "topico": "Chupeta e mamadeira",
+        "resposta": "Comecei a dar chupeta para ele acalmar."
+      },
+      {
+        "topico": "Cremes",
+        "resposta": "Passo pomada e lavo o bico com sabonete antes de cada mamada."
+      },
+      {
+        "topico": "Parto",
+        "resposta": "Parto normal com 39 semanas. Mamou na primeira hora."
+      },
+      {
+        "topico": "Apoio",
+        "resposta": "Meu marido ajuda, mas a minha sogra diz que o meu leite é fraco."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "O meu leite não é fraco mesmo?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Peso do bebê",
+      "achado": "3.010 g (perda de 8,8% do peso de nascimento)."
+    },
+    {
+      "item": "Observação da mamada",
+      "achado": "Bebê com o corpo afastado da mãe, pescoço torcido, boca pouco aberta, lábio inferior virado para dentro, mais aréola visível abaixo da boca do que acima, bochechas encovadas e estalos durante a sucção."
+    },
+    {
+      "item": "Mamas",
+      "achado": "Mamas ingurgitadas. Fissura de 4 mm em cada mamilo, sem sinais de infecção."
+    },
+    {
+      "item": "Boca do bebê (teste da linguinha)",
+      "achado": "Frênulo lingual normal, língua com boa mobilidade."
+    },
+    {
+      "item": "Exame do recém-nascido",
+      "achado": "Ativo, hidratado, icterícia leve até o tórax, sem outras alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Bilirrubina transcutânea",
+      "resultado": "9 mg/dL (abaixo da linha de tratamento)."
+    }
+  ],
+  "diagnostico": "Dificuldade na amamentação por posição e pega incorretas, com fissuras mamilares e ingurgitamento, e perda de peso do recém-nascido próxima de 10%.",
+  "condutaEsperada": [
+    "Acolher, valorizar o esforço da mãe e desmistificar o \"leite fraco\".",
+    "Observar a mamada e corrigir a posição (bebê de frente para a mãe, barriga com barriga, corpo alinhado) e a pega (boca bem aberta, lábios virados para fora, mais aréola acima que abaixo, queixo tocando o peito).",
+    "Fissuras: começar pela mama menos dolorida, passar o próprio leite no mamilo após a mamada, deixar secar ao ar; não usar pomadas nem sabonete no mamilo.",
+    "Ingurgitamento: ordenhar um pouco antes da mamada para amaciar a aréola, mamadas frequentes, compressas frias após a mamada.",
+    "Livre demanda (8 a 12 vezes por dia), sem chupeta, mamadeira ou chás; não indicar fórmula.",
+    "Retorno em 48 horas para controle do peso (deve recuperar o peso de nascimento até 10 a 14 dias) e apoio do banco de leite ou do grupo de aleitamento."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se, acolhe e valoriza a mãe.",
+      "peso": 1
+    },
+    {
+      "id": "historia",
+      "item": "Investiga a dor, a frequência das mamadas e os sinais de ingestão (fraldas, fezes).",
+      "peso": 1
+    },
+    {
+      "id": "praticas",
+      "item": "Pergunta uso de chupeta, mamadeira, cremes e sabonete.",
+      "peso": 1
+    },
+    {
+      "id": "peso",
+      "item": "Avalia o peso e a perda em relação ao nascimento.",
+      "peso": 1
+    },
+    {
+      "id": "observa",
+      "item": "Observa a mamada e identifica os erros de posição e pega.",
+      "peso": 1.5
+    },
+    {
+      "id": "corrige",
+      "item": "Corrige a posição e a pega de forma concreta.",
+      "peso": 1.5
+    },
+    {
+      "id": "fissura",
+      "item": "Orienta o tratamento da fissura e do ingurgitamento.",
+      "peso": 1
+    },
+    {
+      "id": "sem-formula",
+      "item": "Mantém o aleitamento exclusivo, sem fórmula nem chupeta.",
+      "peso": 1
+    },
+    {
+      "id": "retorno",
+      "item": "Combina retorno em 48 horas e rede de apoio.",
+      "peso": 0.5
+    },
+    {
+      "id": "linguinha",
+      "item": "Avalia o frênulo lingual.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Saúde da criança: aleitamento materno e alimentação complementar (Cadernos de Atenção Básica nº 23).",
+    "Guia alimentar para crianças brasileiras menores de 2 anos, 2019."
+  ]
+}

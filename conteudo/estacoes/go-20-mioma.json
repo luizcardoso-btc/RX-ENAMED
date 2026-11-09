@@ -1,0 +1,185 @@
+{
+  "id": "go-20-mioma",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Ginecologia",
+  "titulo": "Menstruação muito forte",
+  "tema": "Sangramento uterino anormal por leiomioma",
+  "duracaoMin": 10,
+  "cenario": "Ambulatório de ginecologia. A paciente traz o ultrassom pedido na unidade básica.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Rosemeire Lima",
+    "idade": 42,
+    "sexo": "feminino",
+    "ocupacao": "auxiliar administrativa",
+    "perfil": "Cansada, constrangida por manchar a roupa no trabalho.",
+    "abertura": "Doutor, minha menstruação está vindo muito forte, com coágulos, e eu ando muito cansada.",
+    "roteiro": [
+      {
+        "topico": "Fluxo",
+        "resposta": "Há 1 ano a menstruação vem muito forte. Troco o absorvente de hora em hora nos primeiros dias, com coágulos grandes."
+      },
+      {
+        "topico": "Duração e ciclo",
+        "resposta": "Dura 9 dias, a cada 28 dias, regular."
+      },
+      {
+        "topico": "Sangramento fora da menstruação",
+        "resposta": "Não sangro entre as menstruações nem depois da relação."
+      },
+      {
+        "topico": "Dor e pressão",
+        "resposta": "Sinto peso no pé da barriga e vontade de urinar toda hora."
+      },
+      {
+        "topico": "Cansaço",
+        "resposta": "Canso fácil, fico sem ar para subir escada."
+      },
+      {
+        "topico": "Filhos e desejo de gravidez",
+        "resposta": "Tenho dois filhos e não quero mais."
+      },
+      {
+        "topico": "Contracepção",
+        "resposta": "Meu marido fez vasectomia."
+      },
+      {
+        "topico": "Doenças e coagulação",
+        "resposta": "Não tenho doença. Nunca tive sangramento de gengiva ou nariz."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Não tomo nada."
+      },
+      {
+        "topico": "Preventivo",
+        "resposta": "Fiz há 1 ano, normal."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Mioma vira câncer?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 120 x 76 mmHg, FC 96 bpm."
+    },
+    {
+      "item": "Pele e mucosas",
+      "achado": "Palidez ++/4+."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Útero palpável acima da sínfise púbica."
+    },
+    {
+      "item": "Exame especular",
+      "achado": "Colo sem lesões, sem pólipos."
+    },
+    {
+      "item": "Toque bimanual",
+      "achado": "Útero aumentado (tamanho de gestação de 14 semanas), de contorno irregular, móvel, indolor."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Ultrassom transvaginal",
+      "resultado": "Útero aumentado com três leiomiomas: um intramural de 5 cm que deforma a cavidade (submucoso tipo 2 da FIGO) e dois subserosos de 3 cm. Endométrio regular. Ovários normais."
+    },
+    {
+      "item": "Hemograma e ferritina",
+      "resultado": "Hemoglobina 8,9 g/dL, VCM 70 fL, ferritina 5 ng/mL."
+    },
+    {
+      "item": "Beta-hCG e TSH",
+      "resultado": "Negativo. TSH normal."
+    }
+  ],
+  "diagnostico": "Sangramento uterino anormal por leiomiomas uterinos (PALM-COEIN: L), com mioma que deforma a cavidade, causando anemia ferropriva, em mulher com prole constituída.",
+  "condutaEsperada": [
+    "Classificar o sangramento pelo PALM-COEIN e afastar gravidez, coagulopatia e tireoidopatia.",
+    "Tratar a anemia: ferro oral (ou intravenoso se a anemia for importante e a cirurgia estiver próxima).",
+    "Controle do sangramento enquanto aguarda: ácido tranexâmico nos dias de fluxo intenso e anti-inflamatório; progestágenos.",
+    "O DIU de levonorgestrel é menos indicado com cavidade deformada pelo mioma.",
+    "Prole constituída e sintomas importantes: histerectomia (de preferência por via minimamente invasiva) é o tratamento definitivo; alternativas que preservam o útero: miomectomia e embolização das artérias uterinas. Análogo de GnRH antes da cirurgia para corrigir a anemia.",
+    "Explicar que o mioma é benigno e discutir as opções com a paciente."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe a paciente.",
+      "peso": 0.5
+    },
+    {
+      "id": "sangramento",
+      "item": "Caracteriza o sangramento (volume, duração, coágulos, regularidade).",
+      "peso": 1.5
+    },
+    {
+      "id": "compressivos",
+      "item": "Pergunta sintomas compressivos e de anemia.",
+      "peso": 0.5
+    },
+    {
+      "id": "diferenciais",
+      "item": "Investiga coagulopatia, gravidez e sangramento intermenstrual.",
+      "peso": 1
+    },
+    {
+      "id": "reprodutivo",
+      "item": "Pergunta o desejo reprodutivo.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Realiza o exame ginecológico e identifica o útero aumentado e irregular.",
+      "peso": 1
+    },
+    {
+      "id": "usg",
+      "item": "Interpreta o ultrassom (leiomiomas e tipo pela FIGO).",
+      "peso": 1
+    },
+    {
+      "id": "anemia",
+      "item": "Diagnostica e trata a anemia ferropriva.",
+      "peso": 1
+    },
+    {
+      "id": "clinico",
+      "item": "Prescreve tratamento clínico do sangramento (ácido tranexâmico, AINE).",
+      "peso": 1
+    },
+    {
+      "id": "definitivo",
+      "item": "Discute as opções cirúrgicas conforme o desejo reprodutivo.",
+      "peso": 1.5
+    }
+  ],
+  "referencias": [
+    "FEBRASGO. Miomatose uterina: protocolo.",
+    "FIGO classification system (PALM-COEIN) for abnormal uterine bleeding, 2018."
+  ]
+}

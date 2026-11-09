@@ -1,0 +1,165 @@
+{
+  "id": "cir-19-abscesso-anorretal",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Coloproctologia",
+  "titulo": "Dor forte perto do ânus",
+  "tema": "Abscesso anorretal",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com sala de procedimentos e centro cirúrgico.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Anderson Moreira",
+    "idade": 38,
+    "sexo": "masculino",
+    "ocupacao": "motorista de ônibus",
+    "perfil": "Com muita dor, não consegue sentar. Constrangido.",
+    "abertura": "Doutor, estou com uma dor horrível perto do ânus, não consigo nem sentar.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou há 4 dias e piorou muito."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "É uma dor latejante, constante, pior ao sentar e ao evacuar."
+      },
+      {
+        "topico": "Caroço",
+        "resposta": "Tem um caroço duro e quente do lado do ânus."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Tive febre de 38 °C ontem."
+      },
+      {
+        "topico": "Secreção",
+        "resposta": "Não saiu pus."
+      },
+      {
+        "topico": "Evacuação",
+        "resposta": "Estou com medo de evacuar por causa da dor."
+      },
+      {
+        "topico": "Episódios anteriores",
+        "resposta": "Nunca tive."
+      },
+      {
+        "topico": "Diabetes",
+        "resposta": "Tenho diabetes. Tomo metformina, mas a glicose anda alta."
+      },
+      {
+        "topico": "Intestino e doença inflamatória",
+        "resposta": "Não tenho diarreia crônica nem sangue nas fezes."
+      },
+      {
+        "topico": "Imunidade",
+        "resposta": "Não tenho HIV, que eu saiba."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 132 x 84 mmHg, FC 102 bpm, temperatura 38,2 °C, glicemia capilar 248 mg/dL."
+    },
+    {
+      "item": "Região perianal",
+      "achado": "Abaulamento hiperemiado, quente, endurecido e com flutuação de 4 cm, às 5 horas (posição de litotomia), a 2 cm da borda anal."
+    },
+    {
+      "item": "Toque retal",
+      "achado": "Muito doloroso; sem massa intrarretal."
+    },
+    {
+      "item": "Períneo e bolsa escrotal",
+      "achado": "Sem crepitação, sem necrose, sem extensão para o períneo."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Hemograma e PCR",
+      "resultado": "Leucócitos 15.200/mm³, PCR 10 mg/dL."
+    },
+    {
+      "item": "Hemoglobina glicada",
+      "resultado": "9,2%."
+    }
+  ],
+  "diagnostico": "Abscesso perianal em paciente diabético, com sinais sistêmicos (febre, leucocitose), sem sinais de gangrena de Fournier.",
+  "condutaEsperada": [
+    "O tratamento do abscesso é a drenagem cirúrgica imediata, sem esperar flutuação e sem tentar tratar só com antibiótico.",
+    "Drenagem com anestesia adequada, incisão próxima à borda anal e desbridamento das lojas, sem procurar a fístula na fase aguda.",
+    "Antibiótico associado, por ser diabético e ter sinais sistêmicos (por exemplo, amoxicilina com clavulanato, ou ciprofloxacino com metronidazol).",
+    "Analgesia, banhos de assento, laxativos para evitar fezes endurecidas e controle glicêmico.",
+    "Afastar gangrena de Fournier (crepitação, necrose, dor desproporcional).",
+    "Orientar que pode se formar uma fístula anal (em até metade dos casos) e retorno com o proctologista."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se, garante privacidade e acolhe.",
+      "peso": 0.5
+    },
+    {
+      "id": "dor",
+      "item": "Caracteriza a dor, o caroço e a febre.",
+      "peso": 1
+    },
+    {
+      "id": "fatores",
+      "item": "Investiga diabetes, imunossupressão e doença inflamatória intestinal.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Examina a região perianal e faz toque retal.",
+      "peso": 1
+    },
+    {
+      "id": "fournier",
+      "item": "Pesquisa sinais de gangrena de Fournier.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica abscesso perianal.",
+      "peso": 1
+    },
+    {
+      "id": "drenagem",
+      "item": "Indica drenagem cirúrgica imediata.",
+      "peso": 2.5
+    },
+    {
+      "id": "antibiotico",
+      "item": "Indica antibiótico pelo diabetes e pelos sinais sistêmicos.",
+      "peso": 1
+    },
+    {
+      "id": "orientacoes",
+      "item": "Orienta analgesia, banhos de assento, controle glicêmico e o risco de fístula.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "American Society of Colon and Rectal Surgeons. Clinical practice guidelines for anorectal abscess and fistula-in-ano, 2022."
+  ]
+}

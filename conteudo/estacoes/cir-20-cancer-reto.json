@@ -1,0 +1,188 @@
+{
+  "id": "cir-20-cancer-reto",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Coloproctologia",
+  "titulo": "Sangue nas fezes há meses",
+  "tema": "Sangramento retal: câncer de reto",
+  "duracaoMin": 10,
+  "cenario": "Ambulatório de cirurgia geral. A paciente foi encaminhada pela unidade básica com \"hemorroidas que não melhoram\".",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Dona Lúcia Teixeira",
+    "idade": 63,
+    "sexo": "feminino",
+    "ocupacao": "aposentada (cozinheira)",
+    "perfil": "Envergonhada, acha que são hemorroidas. Responde bem.",
+    "abertura": "Doutor, o médico do posto disse que eram hemorroidas, mas o sangue não para.",
+    "roteiro": [
+      {
+        "topico": "Sangramento",
+        "resposta": "Há uns 4 meses sai sangue vermelho-escuro misturado com as fezes, quase todo dia."
+      },
+      {
+        "topico": "Hábito intestinal",
+        "resposta": "O intestino mudou: às vezes preso, às vezes solto. Fico com vontade de evacuar e não sai nada."
+      },
+      {
+        "topico": "Forma das fezes",
+        "resposta": "As fezes estão mais finas."
+      },
+      {
+        "topico": "Peso e apetite",
+        "resposta": "Perdi uns 6 quilos sem querer. Estou sem apetite."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Uma dor no reto quando evacuo."
+      },
+      {
+        "topico": "Cansaço",
+        "resposta": "Ando muito cansada."
+      },
+      {
+        "topico": "Colonoscopia",
+        "resposta": "Nunca fiz colonoscopia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Meu irmão teve câncer de intestino aos 58 anos."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Tenho pressão alta. Tomo losartana. Não tomo anticoagulante."
+      },
+      {
+        "topico": "Pomadas usadas",
+        "resposta": "Usei pomada para hemorroida por 2 meses e não melhorou."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Vou ter que usar bolsinha?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 126 x 80 mmHg, FC 92 bpm."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Emagrecida, palidez ++/4+."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Sem massas palpáveis, sem ascite, fígado não palpável."
+    },
+    {
+      "item": "Inspeção anal",
+      "achado": "Pequenos plicomas, sem hemorroidas externas trombosadas."
+    },
+    {
+      "item": "Toque retal",
+      "achado": "Lesão endurecida, irregular, ulcerada, na parede posterior do reto, a 6 cm da borda anal, ocupando metade da circunferência, pouco móvel. Sangue na luva."
+    },
+    {
+      "item": "Linfonodos",
+      "achado": "Sem linfonodos inguinais ou supraclaviculares palpáveis."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Hemograma",
+      "resultado": "Hemoglobina 9,1 g/dL, VCM 70 fL."
+    },
+    {
+      "item": "Colonoscopia com biópsia",
+      "resultado": "Lesão vegetante e ulcerada no reto médio, a 6 cm da borda anal. Biópsia: adenocarcinoma moderadamente diferenciado. Restante do cólon sem lesões."
+    },
+    {
+      "item": "CEA",
+      "resultado": "12 ng/mL."
+    },
+    {
+      "item": "Tomografia de tórax e abdome",
+      "resultado": "Sem metástases a distância."
+    },
+    {
+      "item": "Ressonância magnética da pelve",
+      "resultado": "Tumor do reto médio que atravessa a parede (T3), com linfonodos suspeitos no mesorreto (N1), sem comprometimento da fáscia mesorretal."
+    }
+  ],
+  "diagnostico": "Adenocarcinoma de reto médio localmente avançado (T3N1M0), com anemia ferropriva, inicialmente atribuído a hemorroidas.",
+  "condutaEsperada": [
+    "Sangramento retal com alteração do hábito intestinal, perda de peso e anemia acima dos 50 anos: investigar câncer colorretal; não atribuir a hemorroidas sem exame.",
+    "Toque retal em todo paciente com sangramento retal.",
+    "Colonoscopia completa com biópsia.",
+    "Estadiamento: tomografia de tórax e abdome, ressonância da pelve (reto) e CEA.",
+    "Encaminhar com prioridade à oncologia e à cirurgia (regulação pela Lei dos 60 dias para início do tratamento): câncer de reto localmente avançado recebe tratamento neoadjuvante (quimioterapia e radioterapia) seguido de cirurgia com excisão total do mesorreto.",
+    "Tratar a anemia, comunicar o diagnóstico com cuidado e orientar a colonoscopia dos parentes de primeiro grau."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe a paciente.",
+      "peso": 0.5
+    },
+    {
+      "id": "sangramento",
+      "item": "Caracteriza o sangramento (cor, relação com as fezes, tempo).",
+      "peso": 1
+    },
+    {
+      "id": "alarme",
+      "item": "Investiga sinais de alarme (hábito intestinal, tenesmo, fezes finas, perda de peso).",
+      "peso": 1.5
+    },
+    {
+      "id": "familia",
+      "item": "Pergunta história familiar de câncer colorretal.",
+      "peso": 0.5
+    },
+    {
+      "id": "toque",
+      "item": "Realiza o toque retal e descreve a lesão.",
+      "peso": 2
+    },
+    {
+      "id": "colonoscopia",
+      "item": "Solicita colonoscopia com biópsia.",
+      "peso": 1.5
+    },
+    {
+      "id": "estadiamento",
+      "item": "Solicita estadiamento (tomografia, ressonância da pelve, CEA).",
+      "peso": 1
+    },
+    {
+      "id": "encaminha",
+      "item": "Encaminha com prioridade e explica o tratamento.",
+      "peso": 1
+    },
+    {
+      "id": "comunica",
+      "item": "Comunica o diagnóstico com empatia e orienta a família.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "INCA. Detecção precoce do câncer colorretal.",
+    "NCCN Guidelines: Rectal cancer, 2024."
+  ]
+}

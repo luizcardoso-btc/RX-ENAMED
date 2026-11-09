@@ -1,0 +1,170 @@
+{
+  "id": "cm-19-estado-de-mal",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Neurologia",
+  "titulo": "Convulsão que não para",
+  "tema": "Estado de mal epiléptico",
+  "duracaoMin": 10,
+  "cenario": "Sala de emergência de hospital geral. O paciente chegou pelo SAMU convulsionando. Há oxigênio, aspirador, monitor, benzodiazepínicos, fenitoína, material de intubação e tomografia.",
+  "tarefas": [
+    "Conduza o atendimento inicial do paciente em crise.",
+    "Prescreva o tratamento em etapas conforme a evolução informada.",
+    "Investigue a causa com a acompanhante.",
+    "Explique a situação à família."
+  ],
+  "paciente": {
+    "nome": "Irmã do paciente (Vanessa)",
+    "idade": 30,
+    "sexo": "feminino",
+    "ocupacao": "vendedora",
+    "perfil": "A irmã de Rodrigo, de 34 anos, está nervosa e responde às perguntas enquanto ele convulsiona.",
+    "abertura": "Doutor, o meu irmão está tendo convulsão sem parar!",
+    "roteiro": [
+      {
+        "topico": "Início da crise",
+        "resposta": "Começou há uns 10 minutos, em casa. Ele caiu, ficou duro e começou a se debater. Ainda não parou."
+      },
+      {
+        "topico": "Crises anteriores",
+        "resposta": "Ele tem epilepsia desde os 15 anos."
+      },
+      {
+        "topico": "Medicamento",
+        "resposta": "Toma carbamazepina, mas parou há uma semana porque acabou o remédio."
+      },
+      {
+        "topico": "Álcool e drogas",
+        "resposta": "Bebeu bastante no fim de semana. Não usa drogas."
+      },
+      {
+        "topico": "Trauma",
+        "resposta": "Não bateu a cabeça antes, que eu saiba."
+      },
+      {
+        "topico": "Febre e outros sintomas",
+        "resposta": "Não teve febre, dor de cabeça ou vômito antes."
+      },
+      {
+        "topico": "Diabetes",
+        "resposta": "Não tem diabetes."
+      },
+      {
+        "topico": "Outras doenças e alergias",
+        "resposta": "Não tem outra doença. Não tem alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 158 x 94 mmHg, FC 128 bpm, FR 28 irpm, SatO2 89% em ar ambiente, temperatura 37,8 °C."
+    },
+    {
+      "item": "Glicemia capilar",
+      "achado": "104 mg/dL."
+    },
+    {
+      "item": "Exame neurológico",
+      "achado": "Crise tônico-clônica generalizada em curso, sem recuperação da consciência. Pupilas isocóricas."
+    },
+    {
+      "item": "Vias aéreas",
+      "achado": "Salivação abundante, ruído de secreção, sem obstrução completa. Mordedura de língua."
+    },
+    {
+      "item": "Após a segunda dose de benzodiazepínico",
+      "achado": "A crise continua (25 minutos desde o início)."
+    },
+    {
+      "item": "Após a fenitoína",
+      "achado": "A crise cessa. Paciente torporoso, Glasgow 9, respirando espontaneamente, SatO2 96% com oxigênio."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Eletrólitos, cálcio, magnésio, função renal e hepática",
+      "resultado": "Sódio 138, cálcio e magnésio normais, CK 1.200 U/L, lactato 6,0 mmol/L (pela crise)."
+    },
+    {
+      "item": "Nível sérico de carbamazepina",
+      "resultado": "Abaixo do nível terapêutico."
+    },
+    {
+      "item": "Tomografia de crânio (após estabilização)",
+      "resultado": "Sem lesões agudas."
+    },
+    {
+      "item": "Gasometria arterial",
+      "resultado": "Acidose mista leve, sem hipercapnia grave após a crise."
+    }
+  ],
+  "diagnostico": "Estado de mal epiléptico convulsivo generalizado, desencadeado pela suspensão do anticonvulsivante (carbamazepina) e por álcool.",
+  "condutaEsperada": [
+    "Estado de mal: crise com 5 minutos ou mais ou crises repetidas sem recuperar a consciência.",
+    "ABC: lateralizar, aspirar, oxigênio, monitorização, acesso venoso e glicemia capilar (se hipoglicemia: tiamina 100 mg IV antes de glicose a 50%).",
+    "Primeira linha (5 minutos): benzodiazepínico, diazepam 10 mg IV (pode repetir uma vez) ou midazolam 10 mg IM se não houver acesso.",
+    "Segunda linha (crise persistente): fenitoína 20 mg/kg IV, no máximo 50 mg/min, com monitorização (ou valproato ou levetiracetam).",
+    "Terceira linha (refratário): intubação e infusão contínua de midazolam ou propofol em UTI, com EEG contínuo.",
+    "Investigar a causa (adesão, álcool, eletrólitos, tomografia), retomar o anticonvulsivante e garantir o acesso ao medicamento."
+  ],
+  "pep": [
+    {
+      "id": "reconhece",
+      "item": "Reconhece o estado de mal epiléptico pela duração da crise.",
+      "peso": 1
+    },
+    {
+      "id": "abc",
+      "item": "Faz o ABC: posição lateral, aspiração, oxigênio, monitorização e acesso venoso.",
+      "peso": 1.5
+    },
+    {
+      "id": "glicemia",
+      "item": "Solicita glicemia capilar.",
+      "peso": 0.5
+    },
+    {
+      "id": "benzodiazepinico",
+      "item": "Prescreve benzodiazepínico em dose correta e repete uma vez.",
+      "peso": 2
+    },
+    {
+      "id": "fenitoina",
+      "item": "Prescreve fenitoína 20 mg/kg em infusão controlada quando a crise persiste.",
+      "peso": 2
+    },
+    {
+      "id": "refratario",
+      "item": "Indica intubação e anestésico contínuo em UTI se refratário.",
+      "peso": 1
+    },
+    {
+      "id": "causa",
+      "item": "Investiga a causa (suspensão do anticonvulsivante, álcool, eletrólitos, trauma).",
+      "peso": 1
+    },
+    {
+      "id": "tc",
+      "item": "Solicita tomografia de crânio após a estabilização.",
+      "peso": 0.5
+    },
+    {
+      "id": "comunica",
+      "item": "Explica à irmã a situação e o plano.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "American Epilepsy Society. Guideline for the treatment of convulsive status epilepticus, 2016.",
+    "Liga Brasileira de Epilepsia. Estado de mal epiléptico."
+  ]
+}

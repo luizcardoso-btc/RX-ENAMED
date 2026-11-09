@@ -1,0 +1,193 @@
+{
+  "id": "ped-19-sindrome-nefrotica",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Nefrologia pediátrica",
+  "titulo": "Criança com o rosto inchado",
+  "tema": "Síndrome nefrótica idiopática na infância",
+  "duracaoMin": 10,
+  "cenario": "Ambulatório de pediatria de hospital geral com laboratório.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Kátia Ramos, mãe de Gustavo (4 anos)",
+    "idade": 29,
+    "sexo": "feminino",
+    "ocupacao": "manicure",
+    "perfil": "Preocupada, achou que era alergia e deu antialérgico.",
+    "abertura": "Doutor, o Gustavo está com o rosto todo inchado e agora as pernas também.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Há 10 dias acordou com os olhos inchados. Achei que era alergia."
+      },
+      {
+        "topico": "Evolução",
+        "resposta": "Agora incharam as pernas, a barriga e o saco."
+      },
+      {
+        "topico": "Urina",
+        "resposta": "A urina está com muita espuma. Não está escura nem com sangue."
+      },
+      {
+        "topico": "Quantidade de urina",
+        "resposta": "Está urinando menos."
+      },
+      {
+        "topico": "Infecção antes",
+        "resposta": "Teve um resfriado umas 2 semanas antes."
+      },
+      {
+        "topico": "Dor de garganta ou feridas na pele",
+        "resposta": "Não teve dor de garganta nem feridas na pele."
+      },
+      {
+        "topico": "Dor abdominal e febre",
+        "resposta": "Não tem dor na barriga nem febre."
+      },
+      {
+        "topico": "Pressão e dor de cabeça",
+        "resposta": "Não reclamou de dor de cabeça."
+      },
+      {
+        "topico": "Vacinas e varicela",
+        "resposta": "Vacinas em dia. Já teve catapora."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Dei loratadina por 3 dias."
+      },
+      {
+        "topico": "Peso",
+        "resposta": "Ganhou uns 2 quilos em 10 dias."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Ele vai precisar de hemodiálise?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 98 x 60 mmHg (normal para a idade), FC 104 bpm, FR 24 irpm, temperatura 36,6 °C, peso 19 kg (habitual 17 kg)."
+    },
+    {
+      "item": "Edema",
+      "achado": "Edema palpebral, pré-tibial com cacifo, de bolsa escrotal e parede abdominal."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Ascite moderada, indolor, sem sinais de peritonite."
+    },
+    {
+      "item": "Aparelho respiratório",
+      "achado": "Murmúrio vesicular presente, sem desconforto respiratório."
+    },
+    {
+      "item": "Pele e garganta",
+      "achado": "Sem lesões, sem amigdalite."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Urina tipo 1",
+      "resultado": "Proteína ++++, sem hematúria, sem cilindros hemáticos."
+    },
+    {
+      "item": "Relação proteína/creatinina na urina",
+      "resultado": "6,2 mg/mg (proteinúria nefrótica)."
+    },
+    {
+      "item": "Albumina e colesterol",
+      "resultado": "Albumina 1,6 g/dL. Colesterol total 380 mg/dL."
+    },
+    {
+      "item": "Creatinina, eletrólitos e complemento",
+      "resultado": "Creatinina 0,4 mg/dL (normal), sódio 133, C3 e C4 normais."
+    },
+    {
+      "item": "Sorologias e PPD",
+      "resultado": "Hepatites B e C e HIV não reagentes. PPD não reator."
+    }
+  ],
+  "diagnostico": "Síndrome nefrótica idiopática (provável doença de lesões mínimas): criança de 4 anos com edema, proteinúria nefrótica, hipoalbuminemia e dislipidemia, sem hematúria, hipertensão, insuficiência renal ou complemento baixo.",
+  "condutaEsperada": [
+    "Confirmar a síndrome nefrótica: proteinúria nefrótica (relação proteína/creatinina acima de 2), albumina abaixo de 2,5 g/dL e edema.",
+    "Quadro típico (1 a 10 anos, sem hematúria, sem hipertensão, função renal e complemento normais): tratar com corticoide sem biópsia.",
+    "Prednisona ou prednisolona 60 mg/m²/dia (máximo de 60 mg) por 4 a 6 semanas, depois 40 mg/m² em dias alternados por 4 a 6 semanas.",
+    "Dieta com pouco sal (sem restringir proteína), restrição hídrica moderada se o edema for importante; albumina com furosemida só em edema refratário ou sintomático.",
+    "Vigiar complicações: infecções (peritonite por pneumococo), trombose e hipovolemia; vacina pneumocócica e adiar vacinas vivas durante o corticoide em dose alta.",
+    "Encaminhar à nefrologia pediátrica; biópsia se não responder ao corticoide (corticorresistente) ou se o quadro for atípico; ensinar a mãe a testar a proteína na urina em casa."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe a mãe.",
+      "peso": 0.5
+    },
+    {
+      "id": "edema",
+      "item": "Caracteriza o edema (início, progressão) e a urina espumosa.",
+      "peso": 1
+    },
+    {
+      "id": "nefritica",
+      "item": "Investiga sinais nefríticos (hematúria, hipertensão, oligúria) e infecção estreptocócica prévia.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Mede a pressão e examina o edema e a ascite.",
+      "peso": 1
+    },
+    {
+      "id": "exames",
+      "item": "Solicita urina, relação proteína/creatinina, albumina, colesterol, creatinina e complemento.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica síndrome nefrótica idiopática.",
+      "peso": 1
+    },
+    {
+      "id": "corticoide",
+      "item": "Prescreve corticoide na dose e no tempo corretos.",
+      "peso": 2
+    },
+    {
+      "id": "suporte",
+      "item": "Orienta dieta com pouco sal e o manejo do edema.",
+      "peso": 0.5
+    },
+    {
+      "id": "complicacoes",
+      "item": "Orienta complicações (infecção, trombose) e vacinas.",
+      "peso": 1
+    },
+    {
+      "id": "encaminha",
+      "item": "Encaminha à nefrologia pediátrica e explica quando biopsiar.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Pediatria. Síndrome nefrótica idiopática na infância.",
+    "KDIGO. Clinical practice guideline for the management of glomerular diseases, 2021."
+  ]
+}

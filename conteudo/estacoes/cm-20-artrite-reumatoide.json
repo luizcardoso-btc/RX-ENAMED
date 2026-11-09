@@ -1,0 +1,205 @@
+{
+  "id": "cm-20-artrite-reumatoide",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Reumatologia",
+  "titulo": "Dor e inchaço nas mãos",
+  "tema": "Artrite reumatoide inicial",
+  "duracaoMin": 10,
+  "cenario": "Ambulatório de clínica médica. A paciente traz exames pedidos pela unidade básica.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Simone Cardoso",
+    "idade": 45,
+    "sexo": "feminino",
+    "ocupacao": "faxineira",
+    "perfil": "Com dor nas mãos, preocupada em não conseguir trabalhar.",
+    "abertura": "Doutor, minhas mãos estão inchadas e doendo, de manhã eu não consigo nem abrir a mão.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Há uns 4 meses, foi piorando."
+      },
+      {
+        "topico": "Articulações",
+        "resposta": "Doem os dedos das duas mãos, perto dos nós, e os dois punhos. Às vezes os pés."
+      },
+      {
+        "topico": "Rigidez matinal",
+        "resposta": "De manhã as mãos ficam duras por umas 2 horas."
+      },
+      {
+        "topico": "Inchaço",
+        "resposta": "Os dedos e os punhos incham."
+      },
+      {
+        "topico": "Sintomas gerais",
+        "resposta": "Cansaço e perdi uns 3 quilos."
+      },
+      {
+        "topico": "Pele, olhos e boca",
+        "resposta": "Não tenho manchas no rosto nem feridas na boca. Os olhos não estão secos."
+      },
+      {
+        "topico": "Psoríase e intestino",
+        "resposta": "Não tenho psoríase nem diarreia."
+      },
+      {
+        "topico": "Infecções recentes",
+        "resposta": "Não tive infecção antes de começar."
+      },
+      {
+        "topico": "Tabagismo",
+        "resposta": "Fumo 10 cigarros por dia."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Tomo ibuprofeno por conta própria."
+      },
+      {
+        "topico": "Gravidez e contracepção",
+        "resposta": "Não pretendo engravidar. Uso camisinha às vezes."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Minha tia tem \"reumatismo\"."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Esse remédio não é de câncer?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Mãos e punhos",
+      "achado": "Sinovite (edema e dor) das articulações metacarpofalangianas 2ª a 4ª e interfalangianas proximais bilateralmente e dos dois punhos, simétrica. Teste do aperto das mãos doloroso. Sem nódulos."
+    },
+    {
+      "item": "Pés",
+      "achado": "Dor ao apertar as articulações metatarsofalangianas."
+    },
+    {
+      "item": "Outras articulações",
+      "achado": "Joelhos, ombros e coluna sem sinovite."
+    },
+    {
+      "item": "Pele e mucosas",
+      "achado": "Sem lesões."
+    },
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 122 x 78 mmHg, FC 80 bpm, temperatura 36,8 °C."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Fator reumatoide e anti-CCP",
+      "resultado": "Fator reumatoide positivo (alto título). Anti-CCP positivo."
+    },
+    {
+      "item": "VHS e PCR",
+      "resultado": "VHS 48 mm/h, PCR 3,2 mg/dL."
+    },
+    {
+      "item": "Hemograma, função hepática e renal",
+      "resultado": "Hemoglobina 11,6 g/dL, leucócitos e plaquetas normais, TGO, TGP e creatinina normais."
+    },
+    {
+      "item": "Sorologias para hepatites B e C e HIV",
+      "resultado": "Não reagentes."
+    },
+    {
+      "item": "Radiografias de mãos e pés",
+      "resultado": "Osteopenia periarticular, sem erosões."
+    },
+    {
+      "item": "Radiografia de tórax",
+      "resultado": "Normal."
+    },
+    {
+      "item": "Beta-hCG",
+      "resultado": "Negativo."
+    }
+  ],
+  "diagnostico": "Artrite reumatoide inicial (critérios ACR/EULAR 2010: mais de 10 pequenas articulações, fator reumatoide e anti-CCP em alto título, provas inflamatórias elevadas e duração acima de 6 semanas).",
+  "condutaEsperada": [
+    "Diagnóstico precoce é fundamental: janela de oportunidade para evitar erosões.",
+    "Iniciar droga modificadora: metotrexato 15 mg por semana (VO ou SC), aumentando até 20 a 25 mg por semana, com ácido fólico 5 mg por semana, 24 a 48 horas após o metotrexato.",
+    "Antes do metotrexato: hemograma, função hepática e renal, sorologias para hepatites e HIV, radiografia de tórax; contracepção eficaz (teratogênico) e evitar álcool.",
+    "Corticoide em dose baixa (prednisona até 10 mg/dia) por pouco tempo, como ponte, e anti-inflamatório para sintomas.",
+    "Encaminhar à reumatologia; meta de remissão ou baixa atividade (tratar até o alvo), reavaliando a cada 1 a 3 meses.",
+    "Cessar o tabagismo, vacinas (influenza, pneumocócica, hepatite B), fisioterapia e terapia ocupacional."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e escuta a paciente.",
+      "peso": 0.5
+    },
+    {
+      "id": "artrite",
+      "item": "Caracteriza as articulações acometidas, a simetria e o tempo.",
+      "peso": 1.5
+    },
+    {
+      "id": "rigidez",
+      "item": "Pergunta a rigidez matinal e sua duração.",
+      "peso": 1
+    },
+    {
+      "id": "diferenciais",
+      "item": "Investiga diferenciais (lúpus, psoríase, infecções, doença intestinal).",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Examina as articulações e identifica sinovite das pequenas articulações.",
+      "peso": 1
+    },
+    {
+      "id": "exames",
+      "item": "Solicita fator reumatoide, anti-CCP, VHS, PCR e radiografias.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica artrite reumatoide pelos critérios.",
+      "peso": 1
+    },
+    {
+      "id": "metotrexato",
+      "item": "Prescreve metotrexato semanal com ácido fólico.",
+      "peso": 2
+    },
+    {
+      "id": "seguranca",
+      "item": "Solicita exames de segurança e orienta contracepção.",
+      "peso": 0.5
+    },
+    {
+      "id": "encaminha",
+      "item": "Encaminha à reumatologia e orienta tabagismo e vacinas.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Reumatologia. Recomendações para o tratamento da artrite reumatoide, 2017 e atualizações.",
+    "Critérios de classificação ACR/EULAR 2010."
+  ]
+}

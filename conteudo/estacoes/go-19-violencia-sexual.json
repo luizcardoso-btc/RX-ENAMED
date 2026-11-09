@@ -1,0 +1,185 @@
+{
+  "id": "go-19-violencia-sexual",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Violência sexual",
+  "titulo": "Atendimento após violência sexual",
+  "tema": "Violência sexual: acolhimento e profilaxias",
+  "duracaoMin": 10,
+  "cenario": "Serviço de referência para atendimento a pessoas em situação de violência sexual, em hospital geral, com profilaxias, coleta de vestígios e equipe multiprofissional.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Letícia Moraes",
+    "idade": 19,
+    "sexo": "feminino",
+    "ocupacao": "estudante",
+    "perfil": "Abalada, fala baixo, às vezes trava. Precisa de tempo e não quer repetir detalhes muitas vezes.",
+    "abertura": "Eu... fui violentada ontem à noite. Não sei o que fazer.",
+    "roteiro": [
+      {
+        "topico": "Quando aconteceu",
+        "resposta": "Foi ontem, por volta das 23 horas. Faz umas 16 horas."
+      },
+      {
+        "topico": "O que aconteceu (sem forçar detalhes)",
+        "resposta": "Um homem que eu não conhecia me puxou para um terreno quando eu voltava da faculdade. Houve penetração vaginal. Ele não usou camisinha."
+      },
+      {
+        "topico": "Outras formas de contato",
+        "resposta": "Não houve contato anal ou oral."
+      },
+      {
+        "topico": "Lesões",
+        "resposta": "Estou com dor no braço e arranhões nas pernas."
+      },
+      {
+        "topico": "Banho e troca de roupa",
+        "resposta": "Tomei banho quando cheguei em casa. Guardei a roupa num saco."
+      },
+      {
+        "topico": "Menstruação e contracepção",
+        "resposta": "A última menstruação foi há 12 dias. Não uso anticoncepcional."
+      },
+      {
+        "topico": "Vacina de hepatite B",
+        "resposta": "Tomei as três doses na adolescência."
+      },
+      {
+        "topico": "Boletim de ocorrência",
+        "resposta": "Ainda não fui à delegacia. Não sei se quero."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doença. Não tomo remédio."
+      },
+      {
+        "topico": "Apoio",
+        "resposta": "Contei só para a minha mãe, que veio comigo."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Eu sou obrigada a ir à delegacia?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 118 x 74 mmHg, FC 96 bpm."
+    },
+    {
+      "item": "Exame físico geral (com consentimento)",
+      "achado": "Equimose no braço direito e escoriações nas coxas."
+    },
+    {
+      "item": "Exame ginecológico (com consentimento)",
+      "achado": "Pequena laceração em fúrcula vaginal, sem sangramento ativo."
+    },
+    {
+      "item": "Estado emocional",
+      "achado": "Ansiosa, chorosa, orientada."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Testes rápidos de HIV, sífilis e hepatites B e C (basais)",
+      "resultado": "Não reagentes."
+    },
+    {
+      "item": "Beta-hCG",
+      "resultado": "Negativo."
+    },
+    {
+      "item": "Anti-HBs",
+      "resultado": "Reagente (imune)."
+    },
+    {
+      "item": "Coleta de vestígios (com consentimento)",
+      "resultado": "Swab vaginal e roupas guardadas em cadeia de custódia."
+    }
+  ],
+  "diagnostico": "Violência sexual com penetração vaginal desprotegida há 16 horas, por agressor desconhecido.",
+  "condutaEsperada": [
+    "Acolhimento humanizado, sem julgamento, em local reservado; a paciente não precisa de boletim de ocorrência para ser atendida; evitar que repita o relato várias vezes.",
+    "Contracepção de emergência: levonorgestrel 1,5 mg em dose única, o quanto antes (até 5 dias).",
+    "Profilaxia pós-exposição ao HIV (até 72 horas): tenofovir com lamivudina e dolutegravir por 28 dias.",
+    "Profilaxia de IST: penicilina G benzatina 2,4 milhões UI IM (sífilis), ceftriaxona 500 mg IM (gonorreia), azitromicina 1 g VO (clamídia) e metronidazol 2 g VO (tricomoníase, pode ser adiado). Hepatite B: já imune (anti-HBs reagente), sem necessidade de imunoglobulina.",
+    "Coleta de vestígios com consentimento e cadeia de custódia; notificação compulsória imediata da violência sexual; informar os direitos (registro policial é decisão da vítima adulta; interrupção legal da gestação se houver gravidez decorrente do estupro).",
+    "Seguimento com testes em 30 e 90 dias, apoio psicológico e social, e retorno breve."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Acolhe com empatia, garante privacidade e respeita o tempo da paciente.",
+      "peso": 1.5
+    },
+    {
+      "id": "tempo",
+      "item": "Define o tempo desde a violência.",
+      "peso": 1
+    },
+    {
+      "id": "tipo",
+      "item": "Identifica o tipo de exposição sem forçar detalhes.",
+      "peso": 0.5
+    },
+    {
+      "id": "emergencia",
+      "item": "Prescreve contracepção de emergência.",
+      "peso": 1
+    },
+    {
+      "id": "pep",
+      "item": "Prescreve profilaxia pós-exposição ao HIV por 28 dias.",
+      "peso": 1.5
+    },
+    {
+      "id": "ist",
+      "item": "Prescreve profilaxia de sífilis, gonorreia, clamídia e tricomoníase.",
+      "peso": 1.5
+    },
+    {
+      "id": "hepatite",
+      "item": "Avalia a imunidade para hepatite B.",
+      "peso": 0.5
+    },
+    {
+      "id": "notificacao",
+      "item": "Notifica a violência e informa os direitos (registro policial, interrupção legal).",
+      "peso": 1
+    },
+    {
+      "id": "vestigios",
+      "item": "Oferece coleta de vestígios com consentimento.",
+      "peso": 0.5
+    },
+    {
+      "id": "seguimento",
+      "item": "Organiza o seguimento sorológico e psicológico.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Norma técnica: prevenção e tratamento dos agravos resultantes da violência sexual contra mulheres e adolescentes.",
+    "Ministério da Saúde. PCDT para profilaxia pós-exposição (PEP) ao HIV, IST e hepatites virais, 2024."
+  ]
+}

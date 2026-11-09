@@ -1,0 +1,168 @@
+{
+  "id": "mfc-19-desprescricao-benzodiazepinico",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Saúde mental",
+  "titulo": "Renovação da receita do calmante",
+  "tema": "Uso prolongado de benzodiazepínico: desprescrição",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. A paciente veio só para renovar a receita azul de clonazepam.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Dona Odete Silva",
+    "idade": 68,
+    "sexo": "feminino",
+    "ocupacao": "aposentada (costureira)",
+    "perfil": "Simpática, mas resistente: \"sem o remédio eu não durmo\". A filha a acompanha e se preocupa com as quedas e o esquecimento.",
+    "abertura": "Doutor, eu vim só pegar a receita do meu remédio de dormir.",
+    "roteiro": [
+      {
+        "topico": "Medicamento",
+        "resposta": "Tomo clonazepam 2 mg à noite há 12 anos. Às vezes tomo mais um se acordo."
+      },
+      {
+        "topico": "Por que começou",
+        "resposta": "Comecei quando o meu marido morreu. Fiquei muito triste e sem dormir."
+      },
+      {
+        "topico": "Sono atual",
+        "resposta": "Durmo umas 5 horas. Acordo cansada."
+      },
+      {
+        "topico": "Quedas e tontura",
+        "resposta": "A filha conta: \"Ela caiu duas vezes neste ano, e fica sonolenta de dia.\""
+      },
+      {
+        "topico": "Memória",
+        "resposta": "A filha diz que ela anda esquecendo panela no fogo."
+      },
+      {
+        "topico": "Tentativas de parar",
+        "resposta": "Quando fiquei sem o remédio, tive tremedeira e não dormi nada."
+      },
+      {
+        "topico": "Humor",
+        "resposta": "Às vezes fico triste. Não penso em morrer."
+      },
+      {
+        "topico": "Hábitos de sono",
+        "resposta": "Durmo à tarde, assisto TV na cama até tarde e tomo café à noite."
+      },
+      {
+        "topico": "Álcool",
+        "resposta": "Não bebo."
+      },
+      {
+        "topico": "Outros medicamentos",
+        "resposta": "Losartana e sinvastatina."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Se eu parar o remédio, não vou dormir nunca mais."
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 134 x 82 mmHg deitada e 128 x 80 mmHg em pé, FC 74 bpm."
+    },
+    {
+      "item": "Exame neurológico e marcha",
+      "achado": "Marcha lenta, teste levante e ande de 14 segundos."
+    },
+    {
+      "item": "Estado mental",
+      "achado": "Humor levemente deprimido, sem ideação suicida. Minimental de 25 (escolaridade de 4 anos)."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Escala de depressão geriátrica (GDS-15)",
+      "resultado": "6 pontos: sintomas depressivos leves."
+    },
+    {
+      "item": "Hemograma, TSH, vitamina B12 e função renal",
+      "resultado": "Normais."
+    }
+  ],
+  "diagnostico": "Uso prolongado de benzodiazepínico (dependência) em idosa, com efeitos adversos (sonolência diurna, quedas, queixas de memória), insônia crônica e sintomas depressivos leves.",
+  "condutaEsperada": [
+    "Acolher, reconhecer o motivo do início do remédio e explicar os riscos do uso prolongado em idosos (quedas, fraturas, prejuízo da memória, dependência), sem culpabilizar.",
+    "Decisão compartilhada sobre a redução gradual; não suspender de forma abrupta (risco de abstinência e convulsão).",
+    "Redução lenta: cerca de 10 a 25% da dose a cada 2 a 4 semanas (por exemplo, de 2 mg para 1,5 mg e depois para 1 mg), ajustando ao ritmo da paciente; renovar a receita com a nova dose.",
+    "Terapia cognitivo-comportamental para insônia e higiene do sono (evitar cochilos longos, telas na cama e café à noite, horários regulares, atividade física de dia).",
+    "Tratar os sintomas depressivos (acompanhamento, grupos, psicoterapia; antidepressivo se indicado) e prevenir quedas.",
+    "Retornos frequentes para acompanhar sintomas de abstinência e o sono."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe sem julgar.",
+      "peso": 1
+    },
+    {
+      "id": "uso",
+      "item": "Investiga a dose, o tempo de uso e o motivo do início.",
+      "peso": 1
+    },
+    {
+      "id": "efeitos",
+      "item": "Investiga efeitos adversos (quedas, sonolência, memória).",
+      "peso": 1.5
+    },
+    {
+      "id": "sono",
+      "item": "Investiga os hábitos de sono.",
+      "peso": 1
+    },
+    {
+      "id": "humor",
+      "item": "Avalia humor e risco de suicídio.",
+      "peso": 0.5
+    },
+    {
+      "id": "riscos",
+      "item": "Explica os riscos do uso prolongado.",
+      "peso": 1
+    },
+    {
+      "id": "reducao",
+      "item": "Propõe redução gradual compartilhada e não suspende abruptamente.",
+      "peso": 2
+    },
+    {
+      "id": "tcc",
+      "item": "Orienta higiene do sono e terapia cognitivo-comportamental para insônia.",
+      "peso": 1
+    },
+    {
+      "id": "seguimento",
+      "item": "Combina seguimento e orienta sinais de abstinência.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Cadernos de Atenção Básica nº 34: Saúde mental.",
+    "Deprescribing.org. Benzodiazepine receptor agonist deprescribing algorithm, 2019."
+  ]
+}

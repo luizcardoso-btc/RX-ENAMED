@@ -1,0 +1,178 @@
+{
+  "id": "mfc-20-escabiose",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Dermatologia",
+  "titulo": "Coceira em toda a família",
+  "tema": "Escabiose: tratamento da família",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. A mãe trouxe os três filhos. A agente comunitária relatou outros casos na escola do bairro.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Michele Pinheiro",
+    "idade": 31,
+    "sexo": "feminino",
+    "ocupacao": "diarista",
+    "perfil": "Constrangida, acha que é \"falta de higiene\". Está amamentando o bebê de 4 meses.",
+    "abertura": "Doutor, a gente está todo mundo com uma coceira que não para, principalmente de noite.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou há 3 semanas no filho de 9 anos. Depois passou para todo mundo."
+      },
+      {
+        "topico": "Coceira",
+        "resposta": "Coça muito mais à noite, ninguém dorme."
+      },
+      {
+        "topico": "Lugares",
+        "resposta": "Entre os dedos, nos punhos, na cintura e nas partes íntimas dos meninos. O bebê tem bolinhas nas mãos e nos pés."
+      },
+      {
+        "topico": "Quem tem",
+        "resposta": "Eu, meu marido e os três filhos: de 9 anos, de 6 anos e o bebê de 4 meses."
+      },
+      {
+        "topico": "Escola",
+        "resposta": "Na escola do de 9 anos tem outras crianças com coceira."
+      },
+      {
+        "topico": "Medicamentos usados",
+        "resposta": "Passei pomada de corticoide que a vizinha deu. Melhorou um pouco e voltou."
+      },
+      {
+        "topico": "Amamentação e gravidez",
+        "resposta": "Estou amamentando o bebê. Não estou grávida."
+      },
+      {
+        "topico": "Pele infeccionada",
+        "resposta": "O de 6 anos tem umas feridas com casca amarelada."
+      },
+      {
+        "topico": "Casa",
+        "resposta": "Moramos em 5 pessoas em dois cômodos. Dividimos as camas."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Ninguém tem doença."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Ninguém teve febre."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Ninguém tem alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "É porque a gente é sujo?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Pele da mãe",
+      "achado": "Pápulas eritematosas escoriadas e túneis lineares nos espaços entre os dedos, nos punhos, nas axilas, na cintura e nas mamas."
+    },
+    {
+      "item": "Pele dos filhos maiores",
+      "achado": "Pápulas e escoriações nos mesmos locais, com nódulos no pênis e na bolsa escrotal. No de 6 anos, crostas melicéricas em lesões escoriadas (impetiginização)."
+    },
+    {
+      "item": "Pele do bebê",
+      "achado": "Pápulas e vesículas nas palmas, plantas, axilas e couro cabeludo."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Todos em bom estado geral, sem febre."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Dermatoscopia ou raspado de pele",
+      "resultado": "Não é necessário: diagnóstico clínico (se feito, ácaro visível)."
+    }
+  ],
+  "diagnostico": "Escabiose familiar (todos os moradores acometidos), com impetiginização secundária em uma criança.",
+  "condutaEsperada": [
+    "Diagnóstico clínico: prurido noturno, lesões típicas (túneis, locais característicos) e vários contatos acometidos.",
+    "Tratar todos os moradores e contatos íntimos ao mesmo tempo, com ou sem sintomas.",
+    "Permetrina 5% loção ou creme: aplicar do pescoço para baixo (no bebê, também no couro cabeludo e no rosto, poupando olhos e boca), deixar de 8 a 14 horas e lavar; repetir após 7 dias. Indicada para a mãe que amamenta e para o bebê acima de 2 meses.",
+    "Ivermectina oral 200 mcg/kg em duas doses com 7 a 14 dias de intervalo é alternativa para maiores de 15 kg (não usar na lactante sem avaliação, nem em gestantes e crianças pequenas).",
+    "Lavar roupas de cama e de uso pessoal em água quente (ou guardar em saco fechado por 72 horas); a coceira pode persistir por 2 a 4 semanas (anti-histamínico). Tratar o impetigo (antibiótico tópico ou oral conforme a extensão).",
+    "Retorno à escola 24 horas após o tratamento; comunicar a escola e a vigilância pelo surto; explicar que não é falta de higiene."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe a família sem culpabilizar.",
+      "peso": 1
+    },
+    {
+      "id": "prurido",
+      "item": "Caracteriza o prurido noturno e os locais acometidos.",
+      "peso": 1
+    },
+    {
+      "id": "contatos",
+      "item": "Investiga os contatos acometidos em casa e na escola.",
+      "peso": 1
+    },
+    {
+      "id": "amamentacao",
+      "item": "Pergunta amamentação, gravidez e a idade do bebê.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Examina a pele e identifica lesões típicas e a impetiginização.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica escabiose familiar.",
+      "peso": 1
+    },
+    {
+      "id": "todos",
+      "item": "Indica tratar todos os contatos ao mesmo tempo.",
+      "peso": 1
+    },
+    {
+      "id": "permetrina",
+      "item": "Prescreve permetrina corretamente, incluindo o bebê e a mãe que amamenta.",
+      "peso": 1.5
+    },
+    {
+      "id": "ambiente",
+      "item": "Orienta a lavagem das roupas e a persistência do prurido.",
+      "peso": 0.5
+    },
+    {
+      "id": "impetigo",
+      "item": "Trata o impetigo e orienta o retorno à escola.",
+      "peso": 0.5
+    },
+    {
+      "id": "vigilancia",
+      "item": "Comunica a escola e a vigilância pelo surto.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Guia prático de manejo da escabiose na atenção primária.",
+    "Sociedade Brasileira de Dermatologia. Escabiose."
+  ]
+}
