@@ -1,5 +1,5 @@
 {
-  "_leia": "Preços em centavos de real. checkout: link de pagamento do gateway para cada plano (vazio = botão 'Pagamento abre em breve'). Com lancamento.ativo, o preço exibido é precoFundador e o preço cheio aparece riscado. limitesGratis: o que o plano gratuito libera. duracaoMeses: quanto tempo de acesso cada pagamento libera (o servidor usa para criar a matrícula). etapas: quando existe, só alunos dessas etapas da ficha (1 a 6, formado, exterior) podem comprar o plano.",
+  "_leia": "Preços em centavos de real. checkout: link de pagamento do gateway para cada plano (vazio = botão 'Pagamento abre em breve'). Com lancamento.ativo, o preço exibido é precoFundador e o preço cheio aparece riscado. limitesGratis: o que o plano gratuito libera. duracaoMeses: quanto tempo de acesso cada pagamento libera (o servidor usa para criar a matrícula). etapas: quando existe, só alunos dessas etapas da ficha (1 a 6, formado, exterior) podem comprar o plano. recursos: o que cada plano libera — teoria (questões e simulados sem limite, curso completo, flashcards, simulador clínico e ECG), estacoes (todas as estações e simulados da 2ª etapa) e dupla (treino em dupla). Sem o recurso, valem os limites de limitesGratis.",
   "lancamento": {
     "ativo": false,
     "vagas": 500,
@@ -39,7 +39,8 @@
           "1 simulacro por mes",
           "Una estación de la 2.ª etapa por área"
         ]
-      }
+      },
+      "recursos": []
     },
     {
       "id": "mensal",
@@ -70,7 +71,10 @@
           "Sin permanencia ni cobro automático"
         ]
       },
-      "duracaoMeses": 1
+      "duracaoMeses": 1,
+      "recursos": [
+        "teoria"
+      ]
     },
     {
       "id": "enamed-4ano",
@@ -105,7 +109,11 @@
           "Exclusivo para estudiantes hasta el 4.º año"
         ]
       },
-      "duracaoMeses": 12
+      "duracaoMeses": 12,
+      "recursos": [
+        "teoria",
+        "dupla"
+      ]
     },
     {
       "id": "ciclo",
@@ -137,7 +145,11 @@
           "Sale R$ 190,40 más barato que 6 meses en el mensual"
         ]
       },
-      "duracaoMeses": 6
+      "duracaoMeses": 6,
+      "recursos": [
+        "teoria",
+        "dupla"
+      ]
     },
     {
       "id": "anual-enamed",
@@ -166,7 +178,11 @@
           "Sale R$ 497 más barato que dos ciclos de examen"
         ]
       },
-      "duracaoMeses": 12
+      "duracaoMeses": 12,
+      "recursos": [
+        "teoria",
+        "dupla"
+      ]
     },
     {
       "id": "segunda-etapa",
@@ -195,7 +211,11 @@
           "Acceso hasta el resultado final"
         ]
       },
-      "duracaoMeses": 8
+      "duracaoMeses": 8,
+      "recursos": [
+        "estacoes",
+        "dupla"
+      ]
     },
     {
       "id": "anual",
@@ -224,11 +244,21 @@
           "Sale R$ 1.294 más barato que dos ciclos y la 2.ª etapa por separado"
         ]
       },
-      "duracaoMeses": 12
+      "duracaoMeses": 12,
+      "recursos": [
+        "teoria",
+        "estacoes",
+        "dupla"
+      ]
     }
   ],
   "limitesGratis": {
     "questoesDia": 25,
-    "simuladosMes": 1
+    "simuladosMes": 1,
+    "aulasPorModulo": 1,
+    "flashcardsDia": 20,
+    "casosPorArea": 1,
+    "ecgDia": 5,
+    "estacoesPorArea": 1
   }
 }

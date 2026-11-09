@@ -1,3 +1,4 @@
+import { temRecurso } from '../acesso.js';
 import { Router } from 'express';
 import { randomInt } from 'node:crypto';
 import { exigirLogin } from './autenticacao.js';
@@ -88,6 +89,8 @@ export function rotasDupla({ banco, limitar, acervo }) {
   }
 
   r.post('/dupla/salas', exigirLogin, async (req, res) => {
+    // Quem cria a sala precisa do treino em dupla no plano; o colega convidado entra pelo código, mesmo no gratuito.
+    if (!(await temRecurso(banco, req.usuario, 'dupla'))) return res.status(403).json({ erro: 'O treino em dupla faz parte dos planos Ciclo de prova, 2ª etapa e Anual.', codigo: 'plano', recurso: 'dupla' });
     const papel = PAPEIS.includes(req.body?.papel) ? req.body.papel : 'medico';
     const meet = meetValido(req.body?.meetUrl);
     if (meet === null) return res.status(400).json({ erro: 'Cole um link do Google Meet (https://meet.google.com/abc-defg-hij).' });

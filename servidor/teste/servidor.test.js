@@ -91,7 +91,7 @@ test('cadastro, sessão e proteção das rotas', async () => {
   assert.equal((await cliente().post('/api/cadastro', { nome: 'Ana', email: 'ANA@rx.test', senha: 'senha-forte-1' , aceite: true, ...FICHA })).status, 409);
   const eu = (await a.get('/api/eu')).corpo;
   assert.equal(eu.usuario.email, 'ana@rx.test');
-  assert.deepEqual(eu.acesso, { ativo: false, plano: 'gratis', ate: null });
+  assert.deepEqual(eu.acesso, { ativo: false, plano: 'gratis', ate: null, planos: [], recursos: [] });
   assert.equal((await a.get('/api/admin/resumo')).status, 403);
   assert.equal((await cliente().post('/api/checkout/pagar', { plano: 'mensal', metodo: 'pix', cpf: CPF })).status, 401);
   assert.equal((await a.post('/api/checkout/pagar', { plano: 'mensal', metodo: 'pix', cpf: CPF }, { origin: 'https://golpe.test' })).status, 403);
@@ -476,7 +476,12 @@ async function alunoNovo(nome) {
   const c = cliente();
   const email = `${nome.toLowerCase()}-${Date.now()}@rx.test`;
   assert.equal((await c.post('/api/cadastro', { nome, email, senha: 'senha-forte-1', aceite: true, ...FICHA })).status, 201);
+  c.email = email;
   return c;
+}
+
+async function darPlano(c, plano) {
+  await banco.consulta(`INSERT INTO matriculas (usuario_id, plano_id, fim, origem) SELECT id, $2, now() + interval '30 days', 'manual' FROM usuarios WHERE email = $1`, [c.email, plano]);
 }
 
 test('2ª etapa: candidato só recebe o impresso da porta; PEP e roteiro só depois de encerrar', async () => {
@@ -528,6 +533,8 @@ test('2ª etapa: candidato só recebe o impresso da porta; PEP e roteiro só dep
 
 test('2ª etapa: simulado de 10 estações segue o edital (duas por área) e fecha a nota média', async () => {
   const a = await alunoNovo('Dora');
+  assert.equal((await a.post('/api/pratica/simulados', { quantidade: 10, edital: 'revalida-padrao' })).status, 403, 'simulado de estações exige plano');
+  await darPlano(a, 'segunda-etapa');
   const s = (await a.post('/api/pratica/simulados', { quantidade: 10, edital: 'revalida-padrao' })).corpo;
   assert.equal(s.estacoes.length, 10);
   assert.deepEqual(s.blocos, [5, 5]);
@@ -547,6 +554,10 @@ test('2ª etapa: simulado de 10 estações segue o edital (duas por área) e fec
 test('2ª etapa: dupla com médico e ator, Meet, impresso liberado, avaliação e nota no histórico do médico', async () => {
   const ator = await alunoNovo('Ator');
   const medico = await alunoNovo('Medico');
+  assert.equal((await ator.post('/api/dupla/salas', { papel: 'ator', meetUrl: 'https://meet.google.com/abc-defg-hij' })).corpo.codigo, 'plano', 'criar sala exige plano');
+  await darPlano(ator, 'mensal');
+  assert.equal((await ator.post('/api/dupla/salas', { papel: 'ator', meetUrl: 'https://meet.google.com/abc-defg-hij' })).status, 403, 'mensal é só teoria');
+  await darPlano(ator, 'ciclo');
   assert.equal((await ator.post('/api/dupla/salas', { papel: 'ator', meetUrl: 'https://golpe.test/x' })).status, 400, 'só link do Meet');
   const sala = (await ator.post('/api/dupla/salas', { papel: 'ator', meetUrl: 'https://meet.google.com/abc-defg-hij', estacaoId: 'cm-01-dor-toracica' })).corpo;
   assert.equal(sala.papel, 'ator');
@@ -804,4 +815,30 @@ test('recuperação de acesso pelo terminal: senha temporária e desbloqueio', a
   const senha = saida.match(/Senha temporária: (\S+)/)[1];
   const r = await cliente().post('/api/entrar', { email: 'esquecida@rx.test', senha });
   assert.equal(r.status, 200, JSON.stringify(r.corpo));
+});
+
+test('planos: cada plano libera só os seus módulos (teoria, estações, dupla)', async () => {
+  const a = await alunoNovo('Planos');
+  const lista = (await a.get('/api/pratica/estacoes')).corpo.estacoes;
+  const livre = lista.find((e) => e.livre);
+  const paga = lista.find((e) => !e.livre);
+  assert.ok(livre && paga, 'há estações livres e fechadas no gratuito');
+  assert.equal(lista.filter((e) => e.livre).length, 5, 'uma livre por área');
+  assert.equal((await a.post('/api/pratica/tentativas', { estacaoId: livre.id, modo: 'roteiro' })).status, 201);
+  assert.equal((await a.post('/api/pratica/tentativas', { estacaoId: paga.id, modo: 'roteiro' })).corpo.codigo, 'plano');
+
+  await darPlano(a, 'mensal');
+  let eu = (await a.get('/api/eu')).corpo;
+  assert.deepEqual(eu.acesso.recursos, ['teoria'], 'mensal: só teoria');
+  assert.equal((await a.post('/api/pratica/tentativas', { estacaoId: paga.id, modo: 'roteiro' })).status, 403);
+
+  const b = await alunoNovo('Segunda');
+  await darPlano(b, 'segunda-etapa');
+  eu = (await b.get('/api/eu')).corpo;
+  assert.deepEqual(eu.acesso.recursos.sort(), ['dupla', 'estacoes'], '2ª etapa: sem teoria');
+  assert.equal((await b.post('/api/pratica/tentativas', { estacaoId: paga.id, modo: 'roteiro' })).status, 201);
+
+  const c = await alunoNovo('Anual');
+  await darPlano(c, 'anual');
+  assert.deepEqual((await c.get('/api/eu')).corpo.acesso.recursos.sort(), ['dupla', 'estacoes', 'teoria']);
 });

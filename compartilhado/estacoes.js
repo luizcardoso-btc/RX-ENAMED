@@ -226,3 +226,13 @@ export function montarCircuito(estacoes, edital, total, sortear = Math.random) {
   while (escolhidas.length < total && resto.length) escolhidas.push(resto.shift());
   return escolhidas.slice(0, total);
 }
+
+/** Estações liberadas no plano gratuito: as primeiras (por id) de cada grande área que têm roteiro do paciente. */
+export function idsEstacoesGratis(publicadas, porArea = 1) {
+  const ids = new Set();
+  for (const area of AREAS_ESTACAO) {
+    publicadas.filter((e) => e.area === area && (e.modos ? e.modos.gratuito : e.paciente?.roteiro?.length))
+      .map((e) => e.id).sort().slice(0, porArea).forEach((id) => ids.add(id));
+  }
+  return ids;
+}

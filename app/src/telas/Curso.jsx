@@ -114,7 +114,7 @@ function Modulo({ m, proximo, abrirAula, voltar }) {
 
   if (cursoVista.flashcards) {
     const baralho = montarBaralho(banco).filter((c) => c.tipo === 'conceito' && c.area === m.area.nome);
-    return <SessaoFlashcards fila={filaDeEstudo(baralho, progresso.flashcards, { novos: 20 })} sair={() => setCursoVista({ ...cursoVista, flashcards: false })} />;
+    return <SessaoFlashcards fila={filaDeEstudo(baralho, progresso.flashcards, { novos: Math.min(20, acesso.flashcardsRestantes) })} sair={() => setCursoVista({ ...cursoVista, flashcards: false })} />;
   }
   const responder = (ids, titulo) => iniciarSessao({ titulo, ids, origem: 'modulo' });
   const iniciarSimulado = () => {
@@ -174,15 +174,19 @@ function Modulo({ m, proximo, abrirAula, voltar }) {
           <strong className="parte-numero">{m.concluidas}<small>/{m.aulas.length}</small></strong>
           <span className="trilho-progresso"><span style={{ width: `${pct(m.concluidas, m.aulas.length)}%`, background: cor }} /></span>
           <ul className="lista-aulas">
-            {m.aulas.map((a) => (
-              <li key={a.id}>
-                <button className="botao-texto" onClick={() => abrirAula(a.id)}>
-                  {progresso.aulas[a.id] ? <Icone nome="check" tamanho={14} /> : <span className="ponto-aula" aria-hidden="true" />}
-                  {textoDaAula(a).titulo}
-                </button>
-              </li>
-            ))}
+            {m.aulas.map((a, i) => {
+              const fechada = !acesso.completo && i >= acesso.limites.aulasPorModulo;
+              return (
+                <li key={a.id}>
+                  <button className="botao-texto" disabled={fechada} onClick={() => abrirAula(a.id)}>
+                    {fechada ? <Icone nome="cadeado" tamanho={14} /> : progresso.aulas[a.id] ? <Icone nome="check" tamanho={14} /> : <span className="ponto-aula" aria-hidden="true" />}
+                    {textoDaAula(a).titulo}
+                  </button>
+                </li>
+              );
+            })}
           </ul>
+          {!acesso.completo && m.aulas.length > acesso.limites.aulasPorModulo && <AvisoLimite tipo="aula" />}
         </section>
       </div>
 
@@ -205,11 +209,13 @@ function Modulo({ m, proximo, abrirAula, voltar }) {
 }
 
 export default function Curso() {
-  const { banco, progresso, cursoVista, setCursoVista } = useApp();
+  const { banco, progresso, cursoVista, setCursoVista, acesso } = useApp();
   const modulos = useMemo(() => modulosDoCurso(banco, progresso), [banco, progresso]);
   const indice = modulos.findIndex((m) => m.numero === cursoVista.modulo);
   const m = modulos[indice];
-  const aula = m && banco.aulas.find((a) => a.id === cursoVista.aula);
+  // Plano sem teoria: só as primeiras aulas de cada módulo abrem (também por link direto).
+  const aulaLivre = (id) => acesso.completo || (m?.aulas.findIndex((a) => a.id === id) ?? 0) < acesso.limites.aulasPorModulo;
+  const aula = m && aulaLivre(cursoVista.aula) && banco.aulas.find((a) => a.id === cursoVista.aula);
 
   if (aula) return <Aula key={aula.id} aula={aula} voltar={() => setCursoVista({ modulo: m.numero })} />;
   if (m && m.liberado) {

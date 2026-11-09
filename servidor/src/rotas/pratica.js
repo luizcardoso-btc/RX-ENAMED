@@ -1,9 +1,10 @@
 import { Router } from 'express';
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { exigirLogin, exigirAdmin } from './autenticacao.js';
+import { temRecurso } from '../acesso.js';
 import { carregarEstacoes } from '../../../compartilhado/carregar-estacoes.js';
 import {
-  partePublica, parteCandidato, parteCorrecao, validarEstacao, corrigir, montarCircuito, NIVEIS, ORIGENS,
+  partePublica, parteCandidato, parteCorrecao, validarEstacao, corrigir, montarCircuito, NIVEIS, ORIGENS, idsEstacoesGratis,
 } from '../../../compartilhado/estacoes.js';
 import { responder, revelar, sugerirAvaliacao } from '../../../compartilhado/motor-paciente.js';
 import { cotaDaIa, transmitirIa } from '../ia.js';
@@ -85,6 +86,11 @@ export function rotasPratica({ banco, config, limitar, cliente, acervo }) {
   const r = Router();
   const admin = exigirAdmin(config);
   const visivel = (e, usuario) => e && (e.status === 'publicada' || usuario?.papel === 'admin');
+  // Plano gratuito: uma estação por área. As demais e os simulados de estações exigem o recurso "estacoes".
+  const gratis = idsEstacoesGratis(acervo.publicadas, 1);
+  const semPlano = (res, recurso) => res.status(403).json({
+    erro: recurso === 'dupla' ? 'O treino em dupla faz parte dos planos Ciclo de prova, 2ª etapa e Anual.' : 'Esta estação faz parte dos planos 2ª etapa e Anual completo. No plano gratuito, há uma estação por área.',
+    codigo: 'plano', recurso });
 
   async function tentativaDo(req, res) {
     if (!uuid.test(req.params.id)) { res.status(404).json({ erro: 'Tentativa não encontrada.' }); return null; }
@@ -96,7 +102,7 @@ export function rotasPratica({ banco, config, limitar, cliente, acervo }) {
   }
 
   r.get('/pratica/estacoes', exigirLogin, (req, res) => {
-    res.json({ estacoes: acervo.publicadas.map(partePublica), editais: acervo.editais, origens: ORIGENS, iaDisponivel: Boolean(cliente) });
+    res.json({ estacoes: acervo.publicadas.map((e) => ({ ...partePublica(e), livre: gratis.has(e.id) })), editais: acervo.editais, origens: ORIGENS, iaDisponivel: Boolean(cliente) });
   });
 
   r.get('/pratica/estacoes/:id', exigirLogin, (req, res) => {
@@ -113,6 +119,7 @@ export function rotasPratica({ banco, config, limitar, cliente, acervo }) {
     if (!['gratuito', 'roteiro', 'ia'].includes(modo)) return res.status(400).json({ erro: 'Modo inválido.' });
     if ((modo === 'gratuito' || modo === 'roteiro') && !e.paciente?.roteiro?.length) return res.status(400).json({ erro: 'Esta estação não tem roteiro do paciente; treine em dupla.' });
     if (modo === 'ia' && !cliente) return res.status(503).json({ erro: 'A IA não está ativa. Use o paciente gratuito.', codigo: 'sampling_disabled' });
+    if ((simuladoId || !gratis.has(e.id)) && !(await temRecurso(banco, req.usuario, 'estacoes'))) return semPlano(res, 'estacoes');
     if (await limitar(`pratica-inicio:${req.usuario.id}`, 60, 3600)) return res.status(429).json({ erro: 'Muitas estações em pouco tempo. Espere um pouco.' });
     let simulado = null;
     if (simuladoId) {
@@ -240,6 +247,7 @@ export function rotasPratica({ banco, config, limitar, cliente, acervo }) {
   /* ---------------------------------------------------------------- simulados */
 
   r.post('/pratica/simulados', exigirLogin, async (req, res) => {
+    if (!(await temRecurso(banco, req.usuario, 'estacoes'))) return semPlano(res, 'estacoes');
     const quantidade = [1, 5, 10].includes(Number(req.body?.quantidade)) ? Number(req.body.quantidade) : 5;
     const edital = acervo.editais.find((x) => x.id === req.body?.edital) || acervo.editais[0] || { id: 'livre', distribuicao: {}, minutosPorEstacao: 10, blocos: [5, 5] };
     const origem = ['oficial', 'autoral'].includes(req.body?.origem) ? req.body.origem : null;

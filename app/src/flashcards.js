@@ -28,7 +28,7 @@ export function agendarCartao(atual, nota, agora = Date.now()) {
     facilidade += 0.15;
   }
   const proxima = nota === 'errei' ? agora + 10 * MINUTO : inicioDoDia(agora) + intervalo * DIA;
-  return { intervalo, facilidade, proxima, vistos: s.vistos + 1, ultima: nota };
+  return { intervalo, facilidade, proxima, vistos: s.vistos + 1, ultima: nota, inicio: s.inicio ?? agora };
 }
 
 export function situacaoCartao(estado) {

@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useMemo } from '../react.js';
-import { useApp, Icone } from '../componentes.jsx';
+import { useApp, Icone, AvisoLimite } from '../componentes.jsx';
+import { idsLivresPorArea, contarEcg, ecgsHoje } from '../acesso.js';
 import { AREAS, FILTRO_INICIAL } from '../data.js';
 import { normalizar } from '../util.js';
 import { t, idiomaAtual } from '../i18n.js';
@@ -25,7 +26,10 @@ function Ecg({ chave, fc, semente }) {
 /* -------------------------------------------------------------- lista de casos */
 
 function ListaCasos({ abrir }) {
-  const { progresso } = useApp();
+  const { progresso, acesso } = useApp();
+  // Plano sem teoria: um caso por área aberto.
+  const livres = useMemo(() => (acesso.completo ? null : idsLivresPorArea(CASOS, acesso.limites.casosPorArea)), [acesso.completo, acesso.limites.casosPorArea]);
+  const aberto = (c) => !livres || livres.has(c.id);
   const [area, setArea] = useState('');
   const melhor = useMemo(() => {
     const m = {};
@@ -48,19 +52,20 @@ function ListaCasos({ abrir }) {
               <option value="">{t('Todas as áreas')}</option>
               {AREAS.map((a) => <option key={a.nome} value={a.nome}>{t(a.nome)}</option>)}
             </select>
-            <button className="botao botao-primario" onClick={() => abrir(sorteio(lista.length ? lista : CASOS).id)}><Icone nome="embaralhar" /> {t('Caso aleatório')}</button>
+            <button className="botao botao-primario" onClick={() => abrir(sorteio((lista.length ? lista : CASOS).filter(aberto)).id)}><Icone nome="embaralhar" /> {t('Caso aleatório')}</button>
           </div>
         </div>
       </section>
+      {livres && <AvisoLimite tipo="caso" />}
       <ul className="sim-casos">
         {lista.map((c) => (
           <li key={c.id}>
-            <button className="cartao sim-caso-cartao" onClick={() => abrir(c.id)}>
+            <button className="cartao sim-caso-cartao" disabled={!aberto(c)} onClick={() => abrir(c.id)}>
               <span className="sobretitulo">{t(c.area)} · {t(c.dificuldade)}</span>
               <strong>{c.titulo}</strong>
               <span className="mudo pequeno">{c.cenario}</span>
               <span className={`sim-caso-nota${melhor[c.id] != null ? ' feito' : ''}`}>
-                {melhor[c.id] != null ? t('Melhor nota: {n}', { n: melhor[c.id].toFixed(1) }) : t('Não feito')}
+                {!aberto(c) ? <><Icone nome="cadeado" tamanho={14} /> {t('Plano com teoria')}</> : melhor[c.id] != null ? t('Melhor nota: {n}', { n: melhor[c.id].toFixed(1) }) : t('Não feito')}
               </span>
             </button>
           </li>
@@ -325,14 +330,18 @@ function Correcao({ caso, registro, refazer, outro }) {
 /* ------------------------------------------------------------------------- ECG */
 
 function TreinoEcg() {
+  const { acesso } = useApp();
   const [rodada, setRodada] = useState(() => ({ chave: sorteio(CHAVES_ECG), semente: Math.floor(Math.random() * 9999) }));
   const [escolha, setEscolha] = useState(null);
   const [placar, setPlacar] = useState({ certos: 0, total: 0 });
   const e = ECGS[rodada.chave];
   const opcoes = useMemo(() => embaralhar([rodada.chave, ...embaralhar(CHAVES_ECG.filter((k) => k !== rodada.chave)).slice(0, 3)]), [rodada]);
 
+  // Plano sem teoria: alguns ECGs por dia (contados neste navegador).
+  const esgotado = !acesso.completo && !escolha && ecgsHoje() >= acesso.limites.ecgDia;
   const responderEcg = (k) => {
-    if (escolha) return;
+    if (escolha || esgotado) return;
+    if (!acesso.completo) contarEcg();
     setEscolha(k);
     setPlacar((p) => ({ certos: p.certos + (k === rodada.chave ? 1 : 0), total: p.total + 1 }));
   };
@@ -357,15 +366,16 @@ function TreinoEcg() {
           <ul className="sim-opcoes">
             {opcoes.map((k) => (
               <li key={k}>
-                <button className={`alternativa-botao${escolha ? (k === rodada.chave ? ' certa' : k === escolha ? ' errada' : '') : ''}`} disabled={!!escolha} onClick={() => responderEcg(k)}>
+                <button className={`alternativa-botao${escolha ? (k === rodada.chave ? ' certa' : k === escolha ? ' errada' : '') : ''}`} disabled={!!escolha || esgotado} onClick={() => responderEcg(k)}>
                   {t(ECGS[k].nome)}
                 </button>
               </li>
             ))}
           </ul>
           <div className="linha-botoes">
-            <button className="botao botao-primario" onClick={proximo}>{t('Próximo ECG')} <Icone nome="direita" /></button>
+            <button className="botao botao-primario" disabled={esgotado} onClick={proximo}>{t('Próximo ECG')} <Icone nome="direita" /></button>
           </div>
+          {esgotado && <AvisoLimite tipo="ecg" />}
         </section>
         {escolha ? (
           <section className="cartao sim-gabarito">

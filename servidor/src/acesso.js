@@ -1,14 +1,21 @@
+import { readFileSync } from 'node:fs';
 import { somarMeses } from './planos.js';
+
+// O que cada plano libera (conteudo/planos.json, campo recursos). Matrículas ativas somam os recursos.
+const ARQ_PLANOS = new URL('../../conteudo/planos.json', import.meta.url).pathname;
+const RECURSOS_POR_PLANO = Object.fromEntries(JSON.parse(readFileSync(ARQ_PLANOS, 'utf8')).planos.map((p) => [p.id, p.recursos || []]));
+export const TODOS_RECURSOS = ['teoria', 'estacoes', 'dupla'];
 
 /** Situação de acesso de um aluno a partir das matrículas. */
 export async function situacaoDoAluno(banco, usuarioId) {
-  const atual = await banco.um(
+  const vigentes = await banco.varios(
     `SELECT plano_id, inicio, fim, origem FROM matriculas
       WHERE usuario_id = $1 AND status = 'ativa' AND inicio <= now() AND fim > now()
-      ORDER BY fim DESC LIMIT 1`, [usuarioId]);
-  return atual
-    ? { ativo: true, plano: atual.plano_id, ate: atual.fim, origem: atual.origem }
-    : { ativo: false, plano: 'gratis', ate: null };
+      ORDER BY fim DESC`, [usuarioId]);
+  if (!vigentes.length) return { ativo: false, plano: 'gratis', ate: null, planos: [], recursos: [] };
+  const atual = vigentes[0];
+  const recursos = TODOS_RECURSOS.filter((r) => vigentes.some((m) => (RECURSOS_POR_PLANO[m.plano_id] || []).includes(r)));
+  return { ativo: true, plano: atual.plano_id, ate: atual.fim, origem: atual.origem, planos: vigentes.map((m) => m.plano_id), recursos };
 }
 
 /**
@@ -32,4 +39,10 @@ export async function liberarPorPedido(t, pedido, plano) {
 /** Reembolso ou contestação: encerra a matrícula daquele pedido. */
 export async function cancelarPorPedido(t, pedidoId) {
   await t.consulta(`UPDATE matriculas SET status = 'cancelada' WHERE pedido_id = $1`, [pedidoId]);
+}
+
+/** O usuário tem o recurso? Administradores têm todos. */
+export async function temRecurso(banco, usuario, recurso) {
+  if (usuario?.papel === 'admin') return true;
+  return (await situacaoDoAluno(banco, usuario.id)).recursos.includes(recurso);
 }

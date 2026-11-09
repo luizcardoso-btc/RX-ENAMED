@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useMemo } from '../../react.js';
-import { useApp, Icone, Numero, Confirmar } from '../../componentes.jsx';
+import { useApp, Icone, Numero, Confirmar, AvisoLimite } from '../../componentes.jsx';
 import { AREAS, infoArea } from '../../data.js';
 import { formatarTempo } from '../../util.js';
 import { t } from '../../i18n.js';
@@ -51,6 +51,7 @@ function CampoMeet({ valor, mudar }) {
 }
 
 function Lobby({ estacoes, entrar, voltar }) {
+  const { acesso } = useApp();
   const [papel, setPapel] = useState('ator');
   const [estacao, setEstacao] = useState('aleatoria');
   const [meet, setMeet] = useState('');
@@ -88,7 +89,8 @@ function Lobby({ estacoes, entrar, voltar }) {
           <CampoMeet valor={meet} mudar={setMeet} />
           <label className="opcao-linha"><input type="checkbox" checked={modoProva} onChange={(ev) => setModoProva(ev.target.checked)} /> {t('Modo prova: o médico não vê o tema, o roteiro nem o PEP até o fim')}</label>
           <label className="campo campo-curto"><span>{t('Minutos')}</span><input type="number" min={5} max={20} value={minutos} onChange={(ev) => setMinutos(Number(ev.target.value) || 10)} /></label>
-          <button className="botao botao-primario botao-grande" disabled={ocupado}
+          {!acesso.dupla && <AvisoLimite tipo="dupla" />}
+          <button className="botao botao-primario botao-grande" disabled={ocupado || !acesso.dupla}
             onClick={() => agir(() => api().criarSala({ papel, estacaoId: estacao, meetUrl: meet.trim(), modoProva, minutos }))}>
             <Icone nome="pessoas" /> {t('Criar sala')}
           </button>

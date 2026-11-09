@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from '../react.js';
-import { useApp, Icone, Vazio, AvatarMentor } from '../componentes.jsx';
+import { useApp, Icone, Vazio, AvatarMentor, AvisoLimite } from '../componentes.jsx';
 import { AREAS, infoArea } from '../data.js';
 import { plural, normalizar } from '../util.js';
 import { t, tc, idiomaAtual } from '../i18n.js';
@@ -31,6 +31,7 @@ export function useSample() {
 /* ------------------------------------------------------------------ central da 2ª etapa */
 
 function Atalhos({ abrir, resumo, temDiscursivas }) {
+  const { acesso } = useApp();
   const cartoes = [
     { id: 'individual', icone: 'estetoscopio', titulo: 'Paciente simulado', texto: 'Escolha uma estação abaixo e atenda sozinho: o paciente responde ao que você pergunta, sem custo.' },
     { id: 'dupla', icone: 'pessoas', titulo: 'Treinar em dupla', texto: 'Um faz o médico e o outro o ator, pelo Google Meet, com cronômetro, impressos e PEP.', destaque: true },
@@ -42,8 +43,9 @@ function Atalhos({ abrir, resumo, temDiscursivas }) {
   return (
     <div className="pratica-atalhos-2">
       {cartoes.map((c) => (
-        <button key={c.id} className={`cartao atalho-pratica ${c.destaque ? 'destaque-pratica' : ''}`} onClick={() => abrir(c.id)}>
-          <Icone nome={c.icone} />
+        <button key={c.id} className={`cartao atalho-pratica ${c.destaque ? 'destaque-pratica' : ''}`}
+          disabled={c.id.startsWith('simulado') && !acesso.estacoes} onClick={() => abrir(c.id)}>
+          <Icone nome={c.id.startsWith('simulado') && !acesso.estacoes ? 'cadeado' : c.icone} />
           <strong>{t(c.titulo)}</strong>
           <span className="mudo pequeno">{c.id === 'desempenho' ? c.texto : t(c.texto)}</span>
         </button>
@@ -53,7 +55,9 @@ function Atalhos({ abrir, resumo, temDiscursivas }) {
 }
 
 function Catalogo({ estacoes, abrir }) {
-  const { progresso } = useApp();
+  const { progresso, acesso } = useApp();
+  // Sem plano de 2ª etapa, só as estações marcadas "livre" pelo servidor abrem (uma por área).
+  const fechada = (e) => !acesso.estacoes && e.livre === false;
   const [area, setArea] = useState('');
   const [origem, setOrigem] = useState('');
   const [busca, setBusca] = useState('');
@@ -79,6 +83,7 @@ function Catalogo({ estacoes, abrir }) {
         <label className="sr" htmlFor="busca-estacao">{t('Buscar estação')}</label>
         <input id="busca-estacao" type="search" value={busca} onChange={(ev) => setBusca(ev.target.value)} placeholder={t('Buscar por tema ou edição (ex.: dor lombar, 2024.1)')} />
       </div>
+      {!acesso.estacoes && estacoes.some(fechada) && <AvisoLimite tipo="estacao" />}
       {!lista.length && <p className="mudo">{t('Nenhuma estação com esse filtro.')}</p>}
       {AREAS.map((a) => {
         const daArea = lista.filter((e) => e.area === a.nome);
@@ -91,7 +96,7 @@ function Catalogo({ estacoes, abrir }) {
                 const tentativas = progresso.praticas[e.id] || [];
                 const ultima = tentativas[tentativas.length - 1];
                 return (
-                  <button key={e.id} className="estacao-cartao" onClick={() => abrir(e.id)}>
+                  <button key={e.id} className="estacao-cartao" disabled={fechada(e)} onClick={() => abrir(e.id)}>
                     <span className="sobretitulo">{t(e.especialidade)} · {e.duracaoMin} min</span>
                     <strong>{e.titulo}</strong>
                     <span className="mudo pequeno">{e.resumo}</span>
@@ -99,8 +104,8 @@ function Catalogo({ estacoes, abrir }) {
                     <span className="estacao-rodape">
                       {ultima
                         ? <span>{t('Última nota')} <strong className="nota-pequena">{notaTexto(ultima.nota)}</strong> · {plural(tentativas.length, 'tentativa', 'tentativas')}</span>
-                        : <span className="mudo">{e.modos?.gratuito ? t('Ainda não feita') : t('Só em dupla')}</span>}
-                      <Icone nome="direita" tamanho={16} />
+                        : <span className="mudo">{fechada(e) ? t('Plano com 2ª etapa') : e.modos?.gratuito ? t('Ainda não feita') : t('Só em dupla')}</span>}
+                      <Icone nome={fechada(e) ? 'cadeado' : 'direita'} tamanho={16} />
                     </span>
                   </button>
                 );

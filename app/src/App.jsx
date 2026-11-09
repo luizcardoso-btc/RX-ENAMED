@@ -79,15 +79,16 @@ export default function App() {
   useEffect(() => {
     carregarBanco().then(setBanco).catch((e) => setErro(e.message));
   }, []);
-  // Acesso completo: o dono do artefato (quem publica o curso) ou, no futuro, uma assinatura ativa confirmada pelo servidor.
-  const [acessoTotal, setAcessoTotal] = useState(() => window.__rxAcessoTotal === true);
+  // Acesso: o dono do artefato tem tudo; no site, o plano do aluno diz o que libera (/api/eu → acesso.recursos).
+  // recursos: true = tudo (dono do artefato ou admin); senão, a lista que o plano do aluno libera.
+  const [recursos, setRecursos] = useState(() => (window.__rxAcessoTotal === true ? true : []));
   const [conta, setConta] = useState({ servidor: false, usuario: null, acesso: null });
   useEffect(() => {
     let vivo = true;
     (async () => {
       try {
         const u = window.claude?.use ? await window.claude.use('user') : null;
-        if (vivo && u?.isOwner?.()) setAcessoTotal(true);
+        if (vivo && u?.isOwner?.()) setRecursos(true);
       } catch { /* sem visualizador: segue no plano gratuito */ }
       // No site próprio, a conta do aluno vem do servidor (/api/eu): plano pago ativo libera tudo.
       if (document.querySelector('meta[name="rx-servidor"]')) {
@@ -96,7 +97,9 @@ export default function App() {
           const dados = r.ok && (r.headers.get('content-type') || '').includes('json') ? await r.json() : null;
           if (vivo && dados) {
             setConta({ servidor: true, usuario: dados.usuario, acesso: dados.acesso });
-            if (dados.acesso?.ativo || dados.usuario?.papel === 'admin') setAcessoTotal(true);
+            if (dados.usuario?.papel === 'admin') setRecursos(true);
+            else if (Array.isArray(dados.acesso?.recursos)) setRecursos(dados.acesso.recursos);
+            else if (dados.acesso?.ativo) setRecursos(true);
           }
         } catch { /* site estático sem servidor */ }
       }
@@ -136,8 +139,8 @@ export default function App() {
 
   const pendentes = useMemo(() => (banco ? revisoesPendentes(progresso).filter((id) => banco.porId[id]).length : 0),
     [progresso, banco]);
-  const acesso = useMemo(() => situacaoAcesso(progresso, banco?.planos?.limitesGratis || LIMITES_PADRAO, acessoTotal),
-    [progresso, banco, acessoTotal]);
+  const acesso = useMemo(() => situacaoAcesso(progresso, banco?.planos?.limitesGratis || LIMITES_PADRAO, recursos),
+    [progresso, banco, recursos]);
   // Progresso na conta (site com servidor): ao entrar, junta o do navegador com o da conta; depois salva a cada mudança.
   const [sincronizado, setSincronizado] = useState(false);
   useEffect(() => {
@@ -211,7 +214,7 @@ export default function App() {
             <span className="avatar">{iniciais(conta.usuario?.nome)}</span>
             <span className="perfil-mini-texto">
               <strong>{conta.usuario?.nome?.split(' ')[0] || t('Visitante')}</strong>
-              <span className={`selo-plano${acesso.completo ? ' pago' : ''}`}>{acesso.completo ? t('Acesso completo') : t('Plano gratuito')}</span>
+              <span className={`selo-plano${acesso.recursos.length ? ' pago' : ''}`}>{acesso.recursos.length === 3 ? t('Acesso completo') : acesso.recursos.length ? t('Assinante') : t('Plano gratuito')}</span>
             </span>
           </button>
 

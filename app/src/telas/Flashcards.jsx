@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from '../react.js';
-import { useApp, Icone, TagArea, Numero, Vazio, Enunciado, Selo } from '../componentes.jsx';
+import { useApp, Icone, TagArea, Numero, Vazio, Enunciado, Selo, AvisoLimite } from '../componentes.jsx';
 import { AREAS, infoArea } from '../data.js';
 import { NOTAS, montarBaralho, filaDeEstudo, situacaoCartao } from '../flashcards.js';
 import { LETRAS, plural } from '../util.js';
@@ -139,12 +139,13 @@ export function Sessao({ fila: filaInicial, sair }) {
 }
 
 export default function Flashcards() {
-  const { banco, progresso } = useApp();
+  const { banco, progresso, acesso } = useApp();
   const [baralho, setBaralho] = useState('todos');
   const [areas, setAreas] = useState([]);
   const [especialidade, setEspecialidade] = useState('');
   const [soAlta, setSoAlta] = useState(false);
-  const [novos, setNovos] = useState(20);
+  const [escolhaNovos, setNovos] = useState(20);
+  const novos = Math.min(escolhaNovos, acesso.flashcardsRestantes);
   const [fila, setFila] = useState(null);
   const todos = useMemo(() => montarBaralho(banco), [banco]);
   const estados = progresso.flashcards;
@@ -219,14 +220,15 @@ export default function Flashcards() {
         <div className="linha-botoes">
           <div className="segmentado" role="group" aria-label={t('Cartões novos por sessão')}>
             {[10, 20, 40].map((n) => (
-              <button key={n} className={novos === n ? 'ativo' : ''} aria-pressed={novos === n} onClick={() => setNovos(n)}>{n} {t('novos')}</button>
+              <button key={n} className={escolhaNovos === n ? 'ativo' : ''} aria-pressed={escolhaNovos === n} onClick={() => setNovos(n)}>{n} {t('novos')}</button>
             ))}
           </div>
-          <button className="botao botao-primario botao-grande" disabled={!devidos && !contagem.novo}
+          <button className="botao botao-primario botao-grande" disabled={!devidos && !Math.min(novos, contagem.novo)}
             onClick={() => setFila(filaDeEstudo(filtrados, estados, { novos }))}>
             {t('Estudar')} {devidos ? `${devidos} + ` : ''}{Math.min(novos, contagem.novo)} <Icone nome="direita" />
           </button>
         </div>
+        {!acesso.completo && acesso.flashcardsRestantes === 0 && <AvisoLimite tipo="flashcards" />}
       </section>
 
       <section className="secao">

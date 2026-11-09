@@ -294,9 +294,18 @@ export function Questao({ q, escolha, onEscolher, revelada, eliminadas, onElimin
 // Aviso de limite do plano gratuito, com caminho direto para os planos.
 export function AvisoLimite({ tipo }) {
   const { acesso, ir } = useApp();
-  const texto = tipo === 'simulado'
-    ? t('O plano gratuito inclui {n} simulado por mês, e você já usou o deste mês. Assine para fazer simulados ilimitados.', { n: acesso.limites.simuladosMes })
-    : t('Você respondeu as {n} questões gratuitas de hoje. Amanhã liberam mais {n}, ou assine para treinar sem limite.', { n: acesso.limites.questoesDia });
+  const l = acesso.limites;
+  const textos = {
+    simulado: () => t('O plano gratuito inclui {n} simulado por mês, e você já usou o deste mês. Assine para fazer simulados ilimitados.', { n: l.simuladosMes }),
+    questoes: () => t('Você respondeu as {n} questões gratuitas de hoje. Amanhã liberam mais {n}, ou assine para treinar sem limite.', { n: l.questoesDia }),
+    aula: () => t('No plano gratuito, a primeira aula de cada módulo é aberta. As demais fazem parte dos planos com teoria.'),
+    flashcards: () => t('Você estudou os {n} flashcards novos gratuitos de hoje. Os já vistos continuam na revisão; assine um plano com teoria para estudar sem limite.', { n: l.flashcardsDia }),
+    caso: () => t('No plano gratuito, um caso clínico por área fica aberto. Os demais fazem parte dos planos com teoria.'),
+    ecg: () => t('Você fez os {n} ECGs gratuitos de hoje. Amanhã liberam mais, ou assine um plano com teoria.', { n: l.ecgDia }),
+    estacao: () => t('No plano gratuito, uma estação por área fica aberta. As demais estações e os simulados de estações fazem parte dos planos com 2ª etapa.'),
+    dupla: () => t('Criar sala de treino em dupla faz parte dos planos com treino em dupla. Você pode entrar na sala de um colega pelo código.'),
+  };
+  const texto = (textos[tipo] || textos.questoes)();
   return (
     <div className="aviso-limite" role="status">
       <Icone nome="cadeado" />

@@ -410,6 +410,12 @@ try {
     await foto(g, '29b-gratis-questoes', false);
     await g.getByRole('button', { name: 'Ver planos' }).first().click();
     await g.getByRole('heading', { name: 'Escolha o seu plano' }).waitFor();
+    // Simulador no gratuito: um caso aberto por área, os demais com cadeado.
+    await g.goto('http://app.local/#simulador');
+    await g.locator('.sim-caso-cartao').first().waitFor();
+    const abertos = await g.locator('.sim-caso-cartao:not([disabled])').count();
+    if (abertos !== 5) erros.push(`gratuito: deveria haver 5 casos abertos (um por área), há ${abertos}`);
+    if (!(await g.locator('.sim-caso-cartao[disabled]').count())) erros.push('gratuito: casos além do primeiro por área deveriam estar fechados');
     await g.close();
   }
 
