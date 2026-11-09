@@ -1,0 +1,175 @@
+{
+  "id": "ped-15-itu-lactente",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Nefrologia pediátrica",
+  "titulo": "Bebê com febre sem causa aparente",
+  "tema": "Infecção urinária febril no lactente",
+  "duracaoMin": 10,
+  "cenario": "Pronto atendimento pediátrico com laboratório e possibilidade de cateterismo vesical.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Paula Martins, mãe de Alice (8 meses)",
+    "idade": 30,
+    "sexo": "feminino",
+    "ocupacao": "professora",
+    "perfil": "Preocupada porque a febre não passa e \"não encontram nada\".",
+    "abertura": "Doutor, a Alice está com febre alta há 3 dias e ninguém descobre de onde vem.",
+    "roteiro": [
+      {
+        "topico": "Febre",
+        "resposta": "Febre de 39,5 °C há 3 dias, que volta a cada 6 horas."
+      },
+      {
+        "topico": "Sintomas respiratórios",
+        "resposta": "Não tem tosse nem coriza."
+      },
+      {
+        "topico": "Vômitos e diarreia",
+        "resposta": "Vomitou uma vez ontem. Diarreia não."
+      },
+      {
+        "topico": "Urina",
+        "resposta": "Notei que a fralda está com cheiro forte. Ela chora quando faz xixi."
+      },
+      {
+        "topico": "Alimentação",
+        "resposta": "Está mamando um pouco menos, mas aceita."
+      },
+      {
+        "topico": "Comportamento",
+        "resposta": "Fica abatida na febre e melhora quando passa."
+      },
+      {
+        "topico": "Infecções urinárias anteriores",
+        "resposta": "Nunca teve."
+      },
+      {
+        "topico": "Gestação",
+        "resposta": "No ultrassom da gravidez disseram que os rins estavam normais."
+      },
+      {
+        "topico": "Intestino",
+        "resposta": "Às vezes fica com o intestino preso."
+      },
+      {
+        "topico": "Vacinas",
+        "resposta": "Em dia."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "FC 150 bpm, FR 34 irpm, temperatura 39,2 °C, peso 8,2 kg, enchimento capilar menor que 2 segundos."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Irritada na febre, ativa sem febre, hidratada, sem toxemia."
+    },
+    {
+      "item": "Exame físico",
+      "achado": "Otoscopia, orofaringe e ausculta pulmonar normais. Abdome sem massas. Genitália sem alterações, sem sinéquia de pequenos lábios."
+    },
+    {
+      "item": "Meninges e pele",
+      "achado": "Sem rigidez, fontanela normotensa, sem exantema."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Urina tipo 1 (por cateterismo vesical)",
+      "resultado": "Leucocitúria de 85.000/mL, nitrito positivo, bacteriúria intensa."
+    },
+    {
+      "item": "Urocultura (por cateterismo vesical)",
+      "resultado": "Colhida; resultado posterior: Escherichia coli com mais de 50.000 UFC/mL, sensível a cefalosporinas."
+    },
+    {
+      "item": "Hemograma, PCR e creatinina",
+      "resultado": "Leucócitos 18.000/mm³, PCR 9,4 mg/dL, creatinina normal."
+    }
+  ],
+  "diagnostico": "Infecção do trato urinário febril (provável pielonefrite) em lactente de 8 meses, sem toxemia, tolerando a via oral.",
+  "condutaEsperada": [
+    "Febre sem sinais localizatórios em lactente: colher urina por método confiável (cateterismo vesical ou punção suprapúbica; saco coletor não serve para cultura).",
+    "Urocultura antes do antibiótico.",
+    "Lactente sem toxemia e aceitando a via oral: antibiótico oral (por exemplo, cefuroxima 30 mg/kg/dia ou amoxicilina com clavulanato), por 7 a 14 dias; via intravenosa se toxemia, vômitos, desidratação ou menos de 2 a 3 meses.",
+    "Reavaliar em 48 a 72 horas e ajustar pelo antibiograma.",
+    "Ultrassom de rins e vias urinárias após a primeira ITU febril; uretrocistografia miccional se o ultrassom estiver alterado ou houver recorrência.",
+    "Tratar a constipação e orientar a mãe sobre sinais de alarme e nova febre."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe a mãe.",
+      "peso": 0.5
+    },
+    {
+      "id": "febre",
+      "item": "Caracteriza a febre e procura um foco.",
+      "peso": 1
+    },
+    {
+      "id": "urinario",
+      "item": "Pergunta sinais urinários e ITU prévia.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Examina a criança procurando foco e sinais de toxemia.",
+      "peso": 1
+    },
+    {
+      "id": "coleta",
+      "item": "Indica coleta de urina por cateterismo vesical (não por saco coletor) para cultura.",
+      "peso": 1.5
+    },
+    {
+      "id": "urocultura",
+      "item": "Solicita urocultura antes do antibiótico.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica infecção urinária febril.",
+      "peso": 1
+    },
+    {
+      "id": "antibiotico",
+      "item": "Prescreve antibiótico adequado por via oral, sabendo quando internar.",
+      "peso": 1.5
+    },
+    {
+      "id": "imagem",
+      "item": "Solicita ultrassom de rins e vias urinárias.",
+      "peso": 0.5
+    },
+    {
+      "id": "seguimento",
+      "item": "Orienta reavaliação em 48 a 72 horas e a constipação.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Pediatria. Infecção do trato urinário na infância, 2021.",
+    "AAP. Urinary tract infection: clinical practice guideline, 2011 (reafirmada)."
+  ]
+}

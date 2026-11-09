@@ -1,0 +1,188 @@
+{
+  "id": "cm-15-anemia-ferropriva",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Hematologia",
+  "titulo": "Cansaço e palidez",
+  "tema": "Anemia ferropriva no homem adulto: investigação de perda digestiva",
+  "duracaoMin": 10,
+  "cenario": "Ambulatório de clínica médica. O paciente traz o hemograma pedido na unidade básica.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Roberto Campos",
+    "idade": 56,
+    "sexo": "masculino",
+    "ocupacao": "contador",
+    "perfil": "Cansado, preocupado, acha que é \"só estresse\".",
+    "abertura": "Doutor, eu ando muito cansado, sem ar para subir escada, e minha mulher diz que estou pálido.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Há uns 4 meses, piorando aos poucos."
+      },
+      {
+        "topico": "Falta de ar e palpitação",
+        "resposta": "Canso para subir um lance de escada e o coração dispara."
+      },
+      {
+        "topico": "Sangramentos",
+        "resposta": "Não vi sangue nas fezes nem na urina. Não tenho sangramento de gengiva ou nariz."
+      },
+      {
+        "topico": "Fezes",
+        "resposta": "As fezes às vezes estão mais escuras. O intestino, que era certinho, está alternando entre preso e solto."
+      },
+      {
+        "topico": "Peso",
+        "resposta": "Perdi uns 5 quilos sem fazer dieta."
+      },
+      {
+        "topico": "Dor abdominal e azia",
+        "resposta": "Uma dor leve do lado direito da barriga às vezes. Azia não."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Tomo AAS 100 mg há 2 anos por conta própria e ibuprofeno às vezes."
+      },
+      {
+        "topico": "Alimentação",
+        "resposta": "Como carne todos os dias."
+      },
+      {
+        "topico": "Colonoscopia e endoscopia",
+        "resposta": "Nunca fiz."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Meu pai teve câncer de intestino aos 70 anos."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Pressão alta."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Pode ser câncer, doutor?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 124 x 78 mmHg, FC 98 bpm, FR 16 irpm."
+    },
+    {
+      "item": "Pele e mucosas",
+      "achado": "Palidez cutaneomucosa +++/4+, sem icterícia. Unhas quebradiças."
+    },
+    {
+      "item": "Aparelho cardiovascular",
+      "achado": "Sopro sistólico suave em foco aórtico (sopro funcional)."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Flácido, levemente doloroso no flanco direito, sem massas palpáveis, sem visceromegalias."
+    },
+    {
+      "item": "Toque retal",
+      "achado": "Sem massas. Fezes escurecidas na luva."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Hemograma",
+      "resultado": "Hemoglobina 8,2 g/dL, VCM 68 fL, HCM 21 pg, RDW 19%, plaquetas 470.000/mm³."
+    },
+    {
+      "item": "Ferritina, ferro sérico e saturação da transferrina",
+      "resultado": "Ferritina 6 ng/mL, ferro 28 mcg/dL, saturação da transferrina 6%."
+    },
+    {
+      "item": "Pesquisa de sangue oculto nas fezes",
+      "resultado": "Positiva."
+    },
+    {
+      "item": "Função renal e hepática",
+      "resultado": "Normais."
+    }
+  ],
+  "diagnostico": "Anemia ferropriva por provável perda sanguínea digestiva crônica em homem de 56 anos, com alteração do hábito intestinal, perda de peso e história familiar: suspeita de câncer colorretal.",
+  "condutaEsperada": [
+    "Confirmar a deficiência de ferro (ferritina baixa, saturação da transferrina baixa).",
+    "Em homem adulto ou mulher após a menopausa, deficiência de ferro é perda digestiva até prova em contrário: colonoscopia e endoscopia digestiva alta.",
+    "Priorizar a colonoscopia pelos sinais de alarme (alteração do hábito intestinal, perda de peso, história familiar).",
+    "Reposição de ferro oral (por exemplo, sulfato ferroso com 40 a 65 mg de ferro elementar uma vez ao dia ou em dias alternados); ferro intravenoso se houver intolerância ou má absorção.",
+    "Transfusão só se houver instabilidade ou sintomas graves; suspender AAS sem indicação e anti-inflamatórios.",
+    "Pesquisar Helicobacter pylori e doença celíaca durante a endoscopia; explicar a investigação ao paciente."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e escuta o paciente.",
+      "peso": 0.5
+    },
+    {
+      "id": "sintomas",
+      "item": "Caracteriza os sintomas da anemia.",
+      "peso": 0.5
+    },
+    {
+      "id": "perdas",
+      "item": "Investiga perdas de sangue (fezes escuras, hematoquezia, hematúria).",
+      "peso": 1.5
+    },
+    {
+      "id": "alarme",
+      "item": "Investiga sinais de alarme (alteração do hábito intestinal, perda de peso) e história familiar.",
+      "peso": 1.5
+    },
+    {
+      "id": "medicamentos",
+      "item": "Pergunta uso de AAS e anti-inflamatórios.",
+      "peso": 0.5
+    },
+    {
+      "id": "laboratorio",
+      "item": "Interpreta o hemograma e a ferritina como anemia ferropriva.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Conclui que a anemia ferropriva no homem adulto exige investigação digestiva.",
+      "peso": 1
+    },
+    {
+      "id": "colonoscopia",
+      "item": "Solicita colonoscopia e endoscopia digestiva alta.",
+      "peso": 2
+    },
+    {
+      "id": "ferro",
+      "item": "Prescreve reposição de ferro adequada.",
+      "peso": 1
+    },
+    {
+      "id": "comunica",
+      "item": "Explica a investigação e a suspeita com clareza.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "British Society of Gastroenterology. Guidelines for the management of iron deficiency anaemia in adults, 2021."
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "id": "cm-16-hipercalemia",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Nefrologia",
+  "titulo": "Fraqueza depois de diarreia",
+  "tema": "Lesão renal aguda com hipercalemia grave",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com monitor cardíaco, laboratório, gasometria e hemodiálise de urgência.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "José Augusto Prates",
+    "idade": 68,
+    "sexo": "masculino",
+    "ocupacao": "aposentado (motorista)",
+    "perfil": "Fraco, deitado, responde com clareza.",
+    "abertura": "Doutor, estou sem força nas pernas, mal consigo ficar em pé.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Faz 2 dias que estou fraco, piorou hoje."
+      },
+      {
+        "topico": "Diarreia",
+        "resposta": "Tive diarreia por 3 dias, muitas vezes por dia. Bebi pouca água."
+      },
+      {
+        "topico": "Urina",
+        "resposta": "Estou urinando muito pouco desde ontem."
+      },
+      {
+        "topico": "Palpitação",
+        "resposta": "Às vezes sinto o coração falhar."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Diabetes há 15 anos e pressão alta. O médico disse que os rins estão um pouco fracos."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Enalapril, espironolactona, metformina e insulina NPH. Comecei a tomar ibuprofeno para dor no joelho há uma semana."
+      },
+      {
+        "topico": "Sal e frutas",
+        "resposta": "Uso sal light. Como bastante banana e laranja."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 102 x 64 mmHg, FC 54 bpm, FR 20 irpm, SatO2 96%, temperatura 36,4 °C, glicemia capilar 156 mg/dL."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Desidratado, mucosas secas."
+    },
+    {
+      "item": "Exame neurológico",
+      "achado": "Fraqueza simétrica dos membros inferiores (grau 4), reflexos diminuídos, sem déficit sensitivo."
+    },
+    {
+      "item": "Aparelho cardiovascular",
+      "achado": "Bradicárdico, ritmo regular."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Sem alterações. Sem bexigoma."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Eletrocardiograma",
+      "resultado": "Bradicardia sinusal de 54 bpm, ondas T apiculadas e simétricas, achatamento da onda P, QRS de 0,12 s."
+    },
+    {
+      "item": "Eletrólitos, ureia e creatinina",
+      "resultado": "Potássio 7,2 mEq/L, sódio 134, ureia 148 mg/dL, creatinina 3,9 mg/dL (anterior 1,3)."
+    },
+    {
+      "item": "Gasometria venosa",
+      "resultado": "pH 7,26, bicarbonato 15 mEq/L."
+    },
+    {
+      "item": "Urina tipo 1 e sódio urinário",
+      "resultado": "Densidade alta, sem proteinúria nova. Sódio urinário 12 mEq/L."
+    },
+    {
+      "item": "Ultrassom de rins",
+      "resultado": "Rins de tamanho normal, sem hidronefrose."
+    }
+  ],
+  "diagnostico": "Lesão renal aguda pré-renal (desidratação por diarreia, agravada por IECA, espironolactona e anti-inflamatório) com hipercalemia grave e alterações no ECG, além de acidose metabólica.",
+  "condutaEsperada": [
+    "Monitorização cardíaca contínua: hipercalemia com alteração no ECG é emergência.",
+    "Estabilizar a membrana cardíaca: gluconato de cálcio a 10%, 10 mL IV em 2 a 3 minutos (pode repetir se o ECG não melhorar).",
+    "Desviar o potássio para dentro das células: insulina regular 10 UI IV com glicose 25 a 50 g (soro glicosado a 50%), e salbutamol inalatório; bicarbonato pela acidose.",
+    "Retirar o potássio do corpo: hidratação com soro fisiológico para restaurar a diurese, resina de troca (poliestirenossulfonato de cálcio) e hemodiálise se refratária, com oligúria persistente ou acidose grave.",
+    "Suspender enalapril, espironolactona, ibuprofeno e metformina; potássio e glicemia de controle a cada 1 a 2 horas.",
+    "Explicar ao paciente e ajustar os medicamentos na alta (evitar anti-inflamatórios e substitutos de sal com potássio)."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e reconhece a gravidade.",
+      "peso": 0.5
+    },
+    {
+      "id": "historia",
+      "item": "Investiga a diarreia, a desidratação e a diurese.",
+      "peso": 1
+    },
+    {
+      "id": "medicamentos",
+      "item": "Revisa medicamentos que elevam o potássio e lesam o rim (IECA, espironolactona, anti-inflamatório).",
+      "peso": 1.5
+    },
+    {
+      "id": "ecg",
+      "item": "Solicita ECG e identifica alterações da hipercalemia.",
+      "peso": 1
+    },
+    {
+      "id": "laboratorio",
+      "item": "Solicita potássio, função renal e gasometria.",
+      "peso": 0.5
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica lesão renal aguda pré-renal com hipercalemia grave.",
+      "peso": 1
+    },
+    {
+      "id": "calcio",
+      "item": "Prescreve gluconato de cálcio para estabilizar a membrana.",
+      "peso": 1.5
+    },
+    {
+      "id": "insulina",
+      "item": "Prescreve insulina com glicose e salbutamol.",
+      "peso": 1
+    },
+    {
+      "id": "remocao",
+      "item": "Indica hidratação, resina e hemodiálise se refratária.",
+      "peso": 1
+    },
+    {
+      "id": "suspender",
+      "item": "Suspende os medicamentos implicados.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "KDIGO. Clinical practice guideline for acute kidney injury, 2012.",
+    "UK Kidney Association. Clinical practice guidelines: treatment of acute hyperkalaemia in adults, 2023."
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "id": "cir-15-isquemia-mesenterica",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Abdome agudo",
+  "titulo": "Dor na barriga muito forte e barriga mole",
+  "tema": "Isquemia mesentérica aguda",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital terciário com angiotomografia, cirurgia vascular, radiologia intervencionista e cirurgia geral.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Dona Cecília Moraes",
+    "idade": 78,
+    "sexo": "feminino",
+    "ocupacao": "aposentada",
+    "perfil": "Com muita dor, gemendo. O filho acompanha.",
+    "abertura": "Ai, doutor, essa dor na barriga está me matando!",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou de repente há 4 horas, depois do almoço."
+      },
+      {
+        "topico": "Intensidade",
+        "resposta": "Muito forte, nota 10, no meio da barriga."
+      },
+      {
+        "topico": "Vômitos e diarreia",
+        "resposta": "Vomitei e tive uma evacuação com um pouco de sangue escuro."
+      },
+      {
+        "topico": "Episódios anteriores",
+        "resposta": "Nunca tive dor assim."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "O filho conta: \"Ela tem arritmia, fibrilação atrial, e pressão alta.\""
+      },
+      {
+        "topico": "Anticoagulante",
+        "resposta": "O médico mandou tomar varfarina, mas ela parou há 2 meses porque dava muito roxo."
+      },
+      {
+        "topico": "Infarto ou AVC",
+        "resposta": "Teve um derrame pequeno há 3 anos, sem sequela."
+      },
+      {
+        "topico": "Dor após comer antes",
+        "resposta": "Nunca teve dor depois de comer."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não teve febre."
+      },
+      {
+        "topico": "Cirurgias",
+        "resposta": "Operou a vesícula há 20 anos."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Alergia a contraste? Nunca fez tomografia com contraste. Não tem alergia conhecida."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 150 x 90 mmHg, FC 118 bpm irregular, FR 22 irpm, SatO2 95%, temperatura 37,1 °C."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Flácido, pouco doloroso à palpação, sem defesa ou descompressão dolorosa, ruídos hidroaéreos presentes. Dor desproporcional ao exame físico."
+    },
+    {
+      "item": "Aparelho cardiovascular",
+      "achado": "Ritmo irregularmente irregular."
+    },
+    {
+      "item": "Toque retal",
+      "achado": "Sangue escuro em pequena quantidade."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Lactato e gasometria",
+      "resultado": "Lactato 5,6 mmol/L. Acidose metabólica (pH 7,28, bicarbonato 16)."
+    },
+    {
+      "item": "Hemograma, amilase e função renal",
+      "resultado": "Leucócitos 22.000/mm³, amilase discretamente elevada, creatinina 1,2 mg/dL."
+    },
+    {
+      "item": "Eletrocardiograma",
+      "resultado": "Fibrilação atrial com resposta ventricular de 118 bpm."
+    },
+    {
+      "item": "Angiotomografia de abdome",
+      "resultado": "Falha de enchimento (êmbolo) na artéria mesentérica superior, a 5 cm da origem. Parede de alças de jejuno com realce diminuído, sem pneumatose."
+    }
+  ],
+  "diagnostico": "Isquemia mesentérica aguda por embolia da artéria mesentérica superior, secundária a fibrilação atrial sem anticoagulação.",
+  "condutaEsperada": [
+    "Suspeitar em idoso com fibrilação atrial e dor abdominal intensa desproporcional ao exame físico; o lactato normal não exclui.",
+    "Angiotomografia de abdome com urgência (a função renal não deve atrasar o exame).",
+    "Ressuscitação volêmica, jejum, sonda nasogástrica, analgesia com opioide e antibiótico de amplo espectro.",
+    "Anticoagulação plena imediata com heparina não fracionada intravenosa.",
+    "Revascularização de urgência (embolectomia cirúrgica ou tratamento endovascular) e laparotomia para avaliar a viabilidade das alças, com ressecção do que estiver necrosado e reavaliação em 24 a 48 horas (second look).",
+    "Explicar ao filho a gravidade e o alto risco do quadro."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e reconhece a gravidade.",
+      "peso": 0.5
+    },
+    {
+      "id": "dor",
+      "item": "Caracteriza a dor súbita e intensa.",
+      "peso": 1
+    },
+    {
+      "id": "fatores",
+      "item": "Investiga fibrilação atrial, anticoagulação e eventos embólicos prévios.",
+      "peso": 1.5
+    },
+    {
+      "id": "exame",
+      "item": "Identifica a dor desproporcional ao exame físico.",
+      "peso": 1.5
+    },
+    {
+      "id": "lactato",
+      "item": "Solicita lactato e gasometria.",
+      "peso": 0.5
+    },
+    {
+      "id": "angiotc",
+      "item": "Solicita angiotomografia com urgência e interpreta como embolia da mesentérica superior.",
+      "peso": 1.5
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica isquemia mesentérica aguda.",
+      "peso": 1
+    },
+    {
+      "id": "heparina",
+      "item": "Inicia heparina não fracionada em dose plena.",
+      "peso": 1
+    },
+    {
+      "id": "suporte",
+      "item": "Indica ressuscitação, jejum, sonda nasogástrica e antibiótico.",
+      "peso": 0.5
+    },
+    {
+      "id": "revascularizacao",
+      "item": "Indica revascularização e laparotomia urgentes.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "World Society of Emergency Surgery. Guidelines on acute mesenteric ischemia, 2022.",
+    "ESVS Guidelines on the management of diseases of mesenteric arteries and veins, 2017."
+  ]
+}

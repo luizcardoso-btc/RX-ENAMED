@@ -1,0 +1,163 @@
+{
+  "id": "ped-16-crupe",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Pneumologia pediátrica",
+  "titulo": "Tosse de cachorro durante a madrugada",
+  "tema": "Laringotraqueíte viral aguda (crupe)",
+  "duracaoMin": 10,
+  "cenario": "Pronto atendimento pediátrico às 2 horas da manhã. Há oxímetro, nebulizador, adrenalina e dexametasona.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Tatiana Freitas, mãe de Benício (2 anos)",
+    "idade": 32,
+    "sexo": "feminino",
+    "ocupacao": "psicóloga",
+    "perfil": "Assustada com o barulho da respiração do filho. Benício, de 2 anos, está no colo, agitado.",
+    "abertura": "Doutor, ele acordou com uma tosse de cachorro e um barulho para respirar!",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Estava resfriado há 2 dias. Acordou agora de madrugada com a tosse e o barulho."
+      },
+      {
+        "topico": "Tosse e voz",
+        "resposta": "Tosse rouca, como latido. A voz está rouca."
+      },
+      {
+        "topico": "Barulho na respiração",
+        "resposta": "Faz um barulho alto quando puxa o ar, mesmo parado no colo."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Febre de 38 °C."
+      },
+      {
+        "topico": "Baba e dificuldade de engolir",
+        "resposta": "Não está babando. Consegue engolir."
+      },
+      {
+        "topico": "Engasgo com objeto",
+        "resposta": "Não estava brincando com nada pequeno, não engasgou."
+      },
+      {
+        "topico": "Episódios anteriores",
+        "resposta": "Nunca teve."
+      },
+      {
+        "topico": "Vacinas",
+        "resposta": "Em dia, inclusive a Hib."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tem doença. Não toma remédio."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Ele pode parar de respirar?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "FC 140 bpm, FR 36 irpm, SatO2 96% em ar ambiente, temperatura 38,1 °C, peso 13 kg."
+    },
+    {
+      "item": "Respiração",
+      "achado": "Estridor inspiratório audível em repouso, tiragem supraesternal leve, entrada de ar normal, sem cianose."
+    },
+    {
+      "item": "Estado de consciência",
+      "achado": "Agitado, chora quando separado da mãe, consolável no colo."
+    },
+    {
+      "item": "Orofaringe e pescoço",
+      "achado": "Orofaringe levemente hiperemiada, sem salivação excessiva, sem posição em tripé."
+    },
+    {
+      "item": "Ausculta pulmonar",
+      "achado": "Murmúrio vesicular presente, sem sibilos."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Escore de Westley",
+      "resultado": "4 pontos: crupe moderado."
+    },
+    {
+      "item": "Radiografia cervical",
+      "resultado": "Não necessária (se feita: estreitamento subglótico, \"sinal da torre\")."
+    }
+  ],
+  "diagnostico": "Laringotraqueíte viral aguda (crupe) moderada, com estridor em repouso.",
+  "condutaEsperada": [
+    "Manter a criança calma no colo da mãe; evitar procedimentos que a agitem.",
+    "Dexametasona 0,15 a 0,6 mg/kg em dose única (oral ou intramuscular); no crupe moderado, até 0,6 mg/kg.",
+    "Nebulização com adrenalina (L-adrenalina 1:1.000, 0,5 mL/kg, máximo de 5 mL) pelo estridor em repouso.",
+    "Observar por 2 a 4 horas após a adrenalina (efeito rebote).",
+    "Alta se não houver estridor em repouso, com boa saturação e orientação; internar se o estridor persistir, precisar de nova adrenalina ou houver sinais de gravidade.",
+    "Diferenciar de epiglotite, corpo estranho e traqueíte bacteriana; ar umidificado não tem benefício comprovado."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se, acolhe a mãe e mantém a criança no colo.",
+      "peso": 1
+    },
+    {
+      "id": "quadro",
+      "item": "Caracteriza a tosse ladrante, a rouquidão, o estridor e o pródromo viral.",
+      "peso": 1.5
+    },
+    {
+      "id": "diferenciais",
+      "item": "Pergunta sinais de epiglotite e corpo estranho (baba, disfagia, engasgo).",
+      "peso": 1
+    },
+    {
+      "id": "gravidade",
+      "item": "Avalia a gravidade (estridor em repouso, tiragem, saturação, consciência).",
+      "peso": 1.5
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica crupe moderado.",
+      "peso": 1
+    },
+    {
+      "id": "corticoide",
+      "item": "Prescreve dexametasona em dose única.",
+      "peso": 1.5
+    },
+    {
+      "id": "adrenalina",
+      "item": "Prescreve adrenalina inalatória pelo estridor em repouso.",
+      "peso": 1.5
+    },
+    {
+      "id": "observacao",
+      "item": "Observa por 2 a 4 horas e define os critérios de alta e de internação.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Pediatria. Laringotraqueíte viral aguda.",
+    "Cochrane: glucocorticoids for croup in children, 2023."
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "mfc-15-prevencao-quaternaria",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Prevenção e rastreamento",
+  "titulo": "Quero fazer um check-up completo",
+  "tema": "Rastreamento baseado em evidências e prevenção quaternária (PSA)",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. O paciente veio pedir uma lista de exames que um amigo fez em clínica particular.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Gilberto Matos",
+    "idade": 55,
+    "sexo": "masculino",
+    "ocupacao": "comerciante",
+    "perfil": "Simpático e insistente. Quer \"todos os exames\" e \"o do câncer de próstata\", porque um amigo teve.",
+    "abertura": "Doutor, eu quero fazer um check-up completo: PSA, tomografia de corpo inteiro, marcador de câncer, tudo.",
+    "roteiro": [
+      {
+        "topico": "Motivo",
+        "resposta": "Um amigo meu descobriu câncer de próstata e eu fiquei com medo."
+      },
+      {
+        "topico": "Sintomas urinários",
+        "resposta": "Não tenho nada. Urino bem, levanto uma vez à noite."
+      },
+      {
+        "topico": "Outros sintomas",
+        "resposta": "Não tenho sintoma nenhum. Estou bem."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Não tenho doenças conhecidas."
+      },
+      {
+        "topico": "Pressão e exames",
+        "resposta": "Não meço a pressão há 3 anos. Nunca fiz colonoscopia."
+      },
+      {
+        "topico": "Tabagismo e álcool",
+        "resposta": "Parei de fumar há 10 anos; fumei 20 anos. Bebo no fim de semana."
+      },
+      {
+        "topico": "Atividade física e alimentação",
+        "resposta": "Não faço exercício. Como muita carne e fritura."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Meu pai morreu de infarto aos 66 anos. Ninguém na família teve câncer de próstata ou de intestino."
+      },
+      {
+        "topico": "Vida sexual",
+        "resposta": "Casado. Nunca fiz teste de HIV ou de hepatite."
+      },
+      {
+        "topico": "Vacinas",
+        "resposta": "Não sei como estão."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Não tomo remédio."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Mas e se eu tiver câncer e não descobrir a tempo?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 146 x 92 mmHg (repetir em outra consulta), FC 76 bpm."
+    },
+    {
+      "item": "Antropometria",
+      "achado": "Peso 88 kg, IMC 29,1 kg/m², circunferência abdominal 104 cm."
+    },
+    {
+      "item": "Exame físico geral",
+      "achado": "Sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Exames de rastreamento indicados",
+      "resultado": "Glicemia de jejum, perfil lipídico, testes rápidos de HIV, sífilis e hepatites B e C, pesquisa de sangue oculto nas fezes."
+    }
+  ],
+  "diagnostico": "Homem de 55 anos assintomático pedindo exames sem indicação: oportunidade de rastreamento baseado em evidências e de prevenção quaternária (evitar danos de exames e intervenções desnecessários).",
+  "condutaEsperada": [
+    "Acolher a preocupação e explorar o medo, sem desqualificar o pedido.",
+    "Explicar que o rastreamento populacional do câncer de próstata com PSA não é recomendado pelo Ministério da Saúde e pelo INCA: o benefício em mortalidade é pequeno e incerto, e há danos (falsos positivos, biópsias, sobrediagnóstico, tratamento com incontinência e impotência). Se, após a conversa, ele ainda quiser, a decisão é compartilhada e registrada.",
+    "Não indicar tomografia de corpo inteiro nem marcadores tumorais em pessoa assintomática.",
+    "Indicar o que tem benefício: pressão arterial (confirmar hipertensão), glicemia, perfil lipídico e risco cardiovascular, câncer colorretal (pesquisa de sangue oculto nas fezes anual ou colonoscopia, de 50 a 75 anos), testes de HIV, sífilis e hepatites, atualização vacinal.",
+    "Orientar estilo de vida (alimentação, atividade física, álcool) e retorno para os resultados."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe a preocupação do paciente.",
+      "peso": 1
+    },
+    {
+      "id": "motivo",
+      "item": "Explora o motivo do pedido e o medo.",
+      "peso": 1
+    },
+    {
+      "id": "sintomas",
+      "item": "Pergunta sintomas urinários e outros sintomas (afasta investigação diagnóstica).",
+      "peso": 1
+    },
+    {
+      "id": "fatores",
+      "item": "Investiga fatores de risco cardiovascular e história familiar.",
+      "peso": 1
+    },
+    {
+      "id": "psa",
+      "item": "Explica os benefícios e os danos do PSA e faz decisão compartilhada.",
+      "peso": 2
+    },
+    {
+      "id": "quaternaria",
+      "item": "Não indica tomografia de corpo inteiro nem marcadores tumorais.",
+      "peso": 1
+    },
+    {
+      "id": "rastreio",
+      "item": "Indica os rastreamentos com evidência (pressão, glicemia, lipídeos, colorretal).",
+      "peso": 1.5
+    },
+    {
+      "id": "ist-vacinas",
+      "item": "Oferece testes de IST e atualização vacinal.",
+      "peso": 0.5
+    },
+    {
+      "id": "estilo",
+      "item": "Orienta estilo de vida e retorno.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "INCA. Nota técnica sobre rastreamento do câncer de próstata, 2023.",
+    "Ministério da Saúde. Cadernos de Atenção Primária nº 29: Rastreamento."
+  ]
+}

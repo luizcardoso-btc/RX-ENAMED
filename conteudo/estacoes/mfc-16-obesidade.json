@@ -1,0 +1,185 @@
+{
+  "id": "mfc-16-obesidade",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Atenção primária",
+  "titulo": "Quero emagrecer",
+  "tema": "Obesidade: abordagem na APS",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde com nutricionista e educador físico na equipe multiprofissional e Academia da Saúde.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Cristina Barros",
+    "idade": 39,
+    "sexo": "feminino",
+    "ocupacao": "recepcionista",
+    "perfil": "Envergonhada, já tentou muitas dietas. Pede \"um remédio para emagrecer\".",
+    "abertura": "Doutor, eu preciso emagrecer. Já tentei de tudo. Tem algum remédio?",
+    "roteiro": [
+      {
+        "topico": "Evolução do peso",
+        "resposta": "Engordei 25 quilos nos últimos 10 anos, depois das duas gestações."
+      },
+      {
+        "topico": "Tentativas",
+        "resposta": "Já fiz dieta da sopa, low carb e tomei chá. Perco e depois ganho tudo de volta."
+      },
+      {
+        "topico": "Alimentação",
+        "resposta": "Pulo o café, almoço marmita e à noite como muito, pão, salgadinho e refrigerante."
+      },
+      {
+        "topico": "Comer escondido ou sem controle",
+        "resposta": "Às vezes como muito de uma vez, sem conseguir parar, e depois me sinto culpada. Umas duas vezes por semana."
+      },
+      {
+        "topico": "Atividade física",
+        "resposta": "Não faço. Trabalho sentada."
+      },
+      {
+        "topico": "Sono",
+        "resposta": "Durmo umas 5 horas. Ronco, segundo meu marido."
+      },
+      {
+        "topico": "Humor",
+        "resposta": "Fico triste com o meu corpo. Não penso em morrer."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Tomo anticoncepcional injetável trimestral e amitriptilina para dormir."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Pressão alta. O médico disse que o açúcar estava no limite."
+      },
+      {
+        "topico": "Ciclo menstrual e pelos",
+        "resposta": "Menstruação irregular desde que uso a injeção."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Minha mãe é obesa e diabética."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "E aquela injeção que todo mundo está usando para emagrecer?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Antropometria",
+      "achado": "Peso 96 kg, altura 1,63 m, IMC 36,1 kg/m² (obesidade grau II), circunferência abdominal 108 cm."
+    },
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 142 x 90 mmHg, FC 80 bpm."
+    },
+    {
+      "item": "Pele",
+      "achado": "Acantose nigricans no pescoço e nas axilas."
+    },
+    {
+      "item": "Tireoide e abdome",
+      "achado": "Sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Glicemia de jejum e hemoglobina glicada",
+      "resultado": "Glicemia 112 mg/dL, HbA1c 6,1% (pré-diabetes)."
+    },
+    {
+      "item": "Perfil lipídico",
+      "resultado": "LDL 140, HDL 38, triglicerídeos 230 mg/dL."
+    },
+    {
+      "item": "Transaminases e ultrassom de abdome",
+      "resultado": "TGP 58 U/L. Esteatose hepática moderada."
+    },
+    {
+      "item": "TSH",
+      "resultado": "Normal."
+    }
+  ],
+  "diagnostico": "Obesidade grau II com hipertensão, pré-diabetes, dislipidemia e esteatose hepática, com episódios de compulsão alimentar e medicamentos que favorecem o ganho de peso.",
+  "condutaEsperada": [
+    "Abordagem sem estigma, com escuta e entrevista motivacional; tratar a obesidade como doença crônica.",
+    "Investigar fatores contribuintes: compulsão alimentar, sono e apneia, saúde mental e medicamentos que engordam (amitriptilina, acetato de medroxiprogesterona).",
+    "Metas realistas: perda de 5 a 10% do peso em 6 meses; plano alimentar pelo Guia Alimentar (comida de verdade, menos ultraprocessados), com nutricionista; atividade física progressiva até 150 a 300 minutos por semana (Academia da Saúde); sono.",
+    "Revisar os medicamentos: trocar a amitriptilina e discutir outro contraceptivo; abordar a compulsão (psicologia).",
+    "Farmacoterapia pode ser considerada (IMC de 30 ou mais, ou de 27 ou mais com comorbidade) como complemento; cirurgia bariátrica é opção para IMC de 35 ou mais com comorbidades após tratamento clínico sem sucesso.",
+    "Tratar a hipertensão e o pré-diabetes e acompanhar com retornos mensais e grupo."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe sem estigma.",
+      "peso": 1
+    },
+    {
+      "id": "historia",
+      "item": "Faz a história do peso e das tentativas anteriores.",
+      "peso": 0.5
+    },
+    {
+      "id": "alimentacao",
+      "item": "Investiga a alimentação e a compulsão alimentar.",
+      "peso": 1.5
+    },
+    {
+      "id": "fatores",
+      "item": "Investiga sono, humor, atividade física e medicamentos que engordam.",
+      "peso": 1.5
+    },
+    {
+      "id": "imc",
+      "item": "Calcula o IMC, a circunferência abdominal e classifica a obesidade.",
+      "peso": 0.5
+    },
+    {
+      "id": "comorbidades",
+      "item": "Rastreia comorbidades (pressão, glicemia, lipídeos, fígado).",
+      "peso": 1
+    },
+    {
+      "id": "metas",
+      "item": "Define metas realistas e plano alimentar e de atividade física.",
+      "peso": 1.5
+    },
+    {
+      "id": "medicamentos",
+      "item": "Revisa os medicamentos que favorecem o ganho de peso.",
+      "peso": 1
+    },
+    {
+      "id": "opcoes",
+      "item": "Explica as opções de farmacoterapia e cirurgia bariátrica com critérios.",
+      "peso": 1
+    },
+    {
+      "id": "seguimento",
+      "item": "Combina seguimento e apoio multiprofissional.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Manual de atenção às pessoas com sobrepeso e obesidade no âmbito da APS, 2022.",
+    "Diretrizes Brasileiras de Obesidade, ABESO 2016."
+  ]
+}

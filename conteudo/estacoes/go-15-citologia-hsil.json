@@ -1,0 +1,172 @@
+{
+  "id": "go-15-citologia-hsil",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Oncologia ginecológica",
+  "titulo": "Resultado do preventivo alterado",
+  "tema": "Citologia cervical com lesão de alto grau (HSIL)",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. A paciente veio buscar o resultado do exame preventivo (citopatológico do colo do útero).",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Elaine Batista",
+    "idade": 32,
+    "sexo": "feminino",
+    "ocupacao": "operadora de caixa",
+    "perfil": "Assustada: leu \"alto grau\" no laudo e acha que está com câncer.",
+    "abertura": "Doutor, o meu preventivo deu alterado. Eu estou com câncer?",
+    "roteiro": [
+      {
+        "topico": "Exames anteriores",
+        "resposta": "O último preventivo foi há 5 anos e estava normal."
+      },
+      {
+        "topico": "Sintomas",
+        "resposta": "Não tenho sangramento depois da relação nem corrimento diferente."
+      },
+      {
+        "topico": "Ciclo e gravidez",
+        "resposta": "Menstruação regular. Não estou grávida. Uso pílula."
+      },
+      {
+        "topico": "Vida sexual",
+        "resposta": "Comecei aos 15 anos. Tive vários parceiros. Hoje tenho um parceiro fixo."
+      },
+      {
+        "topico": "Preservativo",
+        "resposta": "Não uso camisinha com o meu parceiro."
+      },
+      {
+        "topico": "Tabagismo",
+        "resposta": "Fumo 10 cigarros por dia."
+      },
+      {
+        "topico": "Vacina HPV",
+        "resposta": "Não tomei a vacina do HPV."
+      },
+      {
+        "topico": "HIV e imunidade",
+        "resposta": "Nunca fiz o teste de HIV. Não tenho doença de imunidade."
+      },
+      {
+        "topico": "Gestações",
+        "resposta": "Tenho dois filhos."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doenças. Tomo anticoncepcional."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Vou ter que tirar o útero?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Resultado do citopatológico",
+      "achado": "Lesão intraepitelial escamosa de alto grau (HSIL). Amostra satisfatória, com representação da junção escamocolunar."
+    },
+    {
+      "item": "Exame especular",
+      "achado": "Colo sem lesões visíveis a olho nu, sem sangramento."
+    },
+    {
+      "item": "Toque vaginal",
+      "achado": "Sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Colposcopia (no serviço de referência)",
+      "resultado": "Junção escamocolunar visível (zona de transformação tipo 1). Epitélio acetobranco denso com mosaico grosseiro (achado maior) no lábio anterior, totalmente visível."
+    },
+    {
+      "item": "Teste rápido de HIV",
+      "resultado": "Não reagente."
+    }
+  ],
+  "diagnostico": "Citologia com lesão intraepitelial escamosa de alto grau (HSIL), lesão precursora do câncer do colo do útero, com colposcopia compatível.",
+  "condutaEsperada": [
+    "Explicar que HSIL é uma lesão precursora, tratável e com cura, não é câncer.",
+    "Encaminhar para colposcopia no serviço de referência (não repetir a citologia).",
+    "Colposcopia com achado maior e zona de transformação totalmente visível em mulher acima de 25 anos, não gestante: \"ver e tratar\" com excisão da zona de transformação (EZT); caso contrário, biópsia.",
+    "Seguimento após o tratamento: citologia e colposcopia aos 6 meses e citologia anual (ou teste de DNA-HPV, conforme o protocolo local).",
+    "Oferecer teste de HIV, orientar a cessação do tabagismo e o preservativo.",
+    "Reforçar a importância do rastreamento (25 a 64 anos) e da vacina de HPV para os filhos."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe o medo da paciente.",
+      "peso": 1
+    },
+    {
+      "id": "explica",
+      "item": "Explica que a lesão de alto grau é precursora e tratável, não é câncer.",
+      "peso": 1.5
+    },
+    {
+      "id": "historia",
+      "item": "Pergunta exames anteriores e sintomas (sangramento pós-coito, corrimento).",
+      "peso": 1
+    },
+    {
+      "id": "fatores",
+      "item": "Investiga fatores de risco (tabagismo, HIV, imunossupressão, vacina).",
+      "peso": 1
+    },
+    {
+      "id": "gravidez",
+      "item": "Confirma que não está grávida.",
+      "peso": 0.5
+    },
+    {
+      "id": "conduta",
+      "item": "Encaminha para colposcopia sem repetir a citologia.",
+      "peso": 2
+    },
+    {
+      "id": "ver-tratar",
+      "item": "Explica a possibilidade de EZT (ver e tratar) ou biópsia.",
+      "peso": 1
+    },
+    {
+      "id": "seguimento",
+      "item": "Orienta o seguimento após o tratamento.",
+      "peso": 0.5
+    },
+    {
+      "id": "prevencao",
+      "item": "Orienta cessação do tabagismo, preservativo e oferece teste de HIV.",
+      "peso": 1
+    },
+    {
+      "id": "rastreio",
+      "item": "Reforça o rastreamento periódico e a vacinação de HPV.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "INCA. Diretrizes brasileiras para o rastreamento do câncer do colo do útero, 2016."
+  ]
+}

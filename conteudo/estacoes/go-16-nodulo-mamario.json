@@ -1,0 +1,172 @@
+{
+  "id": "go-16-nodulo-mamario",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Mastologia",
+  "titulo": "Caroço na mama",
+  "tema": "Nódulo mamário suspeito: investigação",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. A mamografia e o ultrassom pedidos na consulta anterior ficaram prontos.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Vera Lúcia Santana",
+    "idade": 47,
+    "sexo": "feminino",
+    "ocupacao": "professora",
+    "perfil": "Ansiosa, já pesquisou na internet. Quer respostas claras.",
+    "abertura": "Doutor, eu achei um caroço no peito no banho. Trouxe os exames.",
+    "roteiro": [
+      {
+        "topico": "Quando notou",
+        "resposta": "Há uns 2 meses, no peito direito. Parece que cresceu."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Não dói."
+      },
+      {
+        "topico": "Secreção e pele",
+        "resposta": "Não sai nada do mamilo. A pele não mudou."
+      },
+      {
+        "topico": "Axila",
+        "resposta": "Não senti nada na axila."
+      },
+      {
+        "topico": "Ciclo menstrual",
+        "resposta": "Ainda menstruo, regular. Primeira menstruação aos 10 anos."
+      },
+      {
+        "topico": "Gestações e amamentação",
+        "resposta": "Não tive filhos."
+      },
+      {
+        "topico": "Hormônios",
+        "resposta": "Usei pílula por 15 anos. Não faço reposição hormonal."
+      },
+      {
+        "topico": "Mamografias anteriores",
+        "resposta": "Nunca fiz mamografia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Minha mãe teve câncer de mama aos 62 anos. Minha tia teve câncer de ovário."
+      },
+      {
+        "topico": "Álcool, fumo, atividade física",
+        "resposta": "Bebo vinho quase todo dia. Não fumo. Não faço exercício."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Não tenho doenças."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Vou perder a mama?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Inspeção das mamas",
+      "achado": "Mamas simétricas, sem retração de pele ou mamilo, sem casca de laranja."
+    },
+    {
+      "item": "Palpação das mamas",
+      "achado": "Nódulo de 2 cm no quadrante superior lateral da mama direita, endurecido, de bordas irregulares, pouco móvel, indolor."
+    },
+    {
+      "item": "Axilas e fossas supraclaviculares",
+      "achado": "Sem linfonodos palpáveis."
+    },
+    {
+      "item": "Expressão mamilar",
+      "achado": "Sem descarga."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Mamografia",
+      "resultado": "Nódulo irregular, de margens espiculadas, de 1,9 cm no quadrante superior lateral da mama direita. BI-RADS 5."
+    },
+    {
+      "item": "Ultrassom de mamas e axilas",
+      "resultado": "Nódulo sólido, hipoecoico, irregular, mais alto que largo, com sombra acústica posterior. Axila sem linfonodos suspeitos. BI-RADS 5."
+    }
+  ],
+  "diagnostico": "Nódulo mamário altamente suspeito de malignidade (BI-RADS 5) na mama direita.",
+  "condutaEsperada": [
+    "Exame clínico das mamas completo (inspeção, palpação, axilas e fossas supraclaviculares).",
+    "Interpretar o BI-RADS 5 como altamente suspeito (risco de malignidade acima de 95%).",
+    "Biópsia percutânea por agulha grossa (core biopsy) guiada por ultrassom, com imuno-histoquímica.",
+    "Encaminhamento prioritário (regulação com prioridade) ao serviço de mastologia ou oncologia; a Lei dos 30 dias garante o diagnóstico em até 30 dias quando há suspeita.",
+    "Comunicar com clareza e empatia que é preciso confirmar com biópsia, sem antecipar o diagnóstico; oferecer apoio.",
+    "Pela história familiar (mama e ovário), avaliar a indicação de aconselhamento genético."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe a ansiedade da paciente.",
+      "peso": 0.5
+    },
+    {
+      "id": "nodulo",
+      "item": "Caracteriza o nódulo (tempo, crescimento, dor, secreção, alterações de pele).",
+      "peso": 1
+    },
+    {
+      "id": "fatores",
+      "item": "Investiga fatores de risco (menarca precoce, nuliparidade, álcool, história familiar).",
+      "peso": 1.5
+    },
+    {
+      "id": "exame",
+      "item": "Realiza o exame clínico completo das mamas e das axilas.",
+      "peso": 1.5
+    },
+    {
+      "id": "birads",
+      "item": "Interpreta a mamografia e o ultrassom como BI-RADS 5.",
+      "peso": 1.5
+    },
+    {
+      "id": "biopsia",
+      "item": "Indica biópsia por agulha grossa.",
+      "peso": 2
+    },
+    {
+      "id": "encaminhamento",
+      "item": "Encaminha com prioridade ao serviço especializado.",
+      "peso": 1
+    },
+    {
+      "id": "comunica",
+      "item": "Comunica a suspeita com clareza e empatia.",
+      "peso": 0.5
+    },
+    {
+      "id": "genetica",
+      "item": "Considera aconselhamento genético pela história familiar.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "INCA. Diretrizes para a detecção precoce do câncer de mama no Brasil, 2015.",
+    "ACR BI-RADS Atlas, 5ª edição."
+  ]
+}

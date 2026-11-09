@@ -1,0 +1,167 @@
+{
+  "id": "cir-16-fratura-exposta",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Trauma",
+  "titulo": "Osso para fora depois de queda de moto",
+  "tema": "Fratura exposta de tíbia",
+  "duracaoMin": 10,
+  "cenario": "Sala de emergência de hospital com ortopedia, radiografia, centro cirúrgico e antibióticos.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Wellington Rocha",
+    "idade": 28,
+    "sexo": "masculino",
+    "ocupacao": "entregador",
+    "perfil": "Com muita dor, assustado ao ver o osso. Responde bem.",
+    "abertura": "Doutor, olha a minha perna, o osso está para fora!",
+    "roteiro": [
+      {
+        "topico": "O que aconteceu",
+        "resposta": "Caí de moto a uns 40 por hora numa estrada de terra. A perna ficou presa embaixo da moto."
+      },
+      {
+        "topico": "Horário",
+        "resposta": "Faz 1 hora."
+      },
+      {
+        "topico": "Capacete e outras lesões",
+        "resposta": "Estava de capacete. Não bati a cabeça. Só dói a perna."
+      },
+      {
+        "topico": "Dor e sensibilidade",
+        "resposta": "Dói muito. Sinto o pé e mexo os dedos."
+      },
+      {
+        "topico": "Vacina antitetânica",
+        "resposta": "Não sei quando tomei a vacina de tétano. Faz muito tempo."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doença. Não tomo remédio."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia a remédio."
+      },
+      {
+        "topico": "Última refeição",
+        "resposta": "Comi um lanche há 3 horas."
+      },
+      {
+        "topico": "Álcool e drogas",
+        "resposta": "Não bebi."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Avaliação inicial ABCDE",
+      "achado": "Vias aéreas pérvias, respiração normal. PA 128 x 80 mmHg, FC 104 bpm. Glasgow 15. Sem outras lesões."
+    },
+    {
+      "item": "Perna esquerda",
+      "achado": "Ferida de 6 cm na face anterior da perna, com exposição de fragmento ósseo da tíbia, contaminação moderada com terra, sangramento controlado com compressão. Sem perda extensa de partes moles."
+    },
+    {
+      "item": "Avaliação neurovascular distal",
+      "achado": "Pulsos pedioso e tibial posterior presentes, enchimento capilar normal, sensibilidade e motricidade dos dedos preservadas."
+    },
+    {
+      "item": "Compartimentos da perna",
+      "achado": "Perna tensa, mas com dor proporcional, sem dor à extensão passiva dos dedos."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Radiografia da perna esquerda (frente e perfil, com joelho e tornozelo)",
+      "resultado": "Fratura diafisária cominuta da tíbia e fratura da fíbula, desviadas."
+    },
+    {
+      "item": "Hemograma e tipagem sanguínea",
+      "resultado": "Hemoglobina 13,4 g/dL. Tipo A positivo."
+    }
+  ],
+  "diagnostico": "Fratura exposta da diáfise da tíbia esquerda, Gustilo e Anderson tipo II (ferida de 1 a 10 cm, sem lesão extensa de partes moles), sem lesão neurovascular.",
+  "condutaEsperada": [
+    "Avaliação inicial pelo ABCDE e controle do sangramento com compressão.",
+    "Avaliar e registrar pulsos, perfusão, sensibilidade e motricidade distais antes e depois de imobilizar.",
+    "Antibiótico intravenoso o mais rápido possível (até 1 hora): cefazolina 2 g IV (tipos I e II); no tipo III, associar gentamicina.",
+    "Profilaxia do tétano: vacina e imunoglobulina antitetânica (ferida suja e vacinação desconhecida).",
+    "Cobrir a ferida com curativo estéril úmido (fotografar para não reabrir), alinhar e imobilizar com tala; analgesia com opioide.",
+    "Desbridamento e limpeza cirúrgica no centro cirúrgico o quanto antes (idealmente em até 24 horas) e estabilização (fixador externo ou haste); vigiar síndrome compartimental."
+  ],
+  "pep": [
+    {
+      "id": "abcde",
+      "item": "Faz a avaliação inicial ABCDE.",
+      "peso": 1
+    },
+    {
+      "id": "mecanismo",
+      "item": "Pergunta o mecanismo, o horário e outras lesões.",
+      "peso": 0.5
+    },
+    {
+      "id": "neurovascular",
+      "item": "Avalia pulsos, perfusão, sensibilidade e motricidade distais.",
+      "peso": 1.5
+    },
+    {
+      "id": "classificacao",
+      "item": "Classifica a fratura exposta (Gustilo e Anderson).",
+      "peso": 1
+    },
+    {
+      "id": "antibiotico",
+      "item": "Prescreve antibiótico intravenoso precoce adequado ao tipo.",
+      "peso": 2
+    },
+    {
+      "id": "tetano",
+      "item": "Indica vacina e imunoglobulina antitetânica.",
+      "peso": 1
+    },
+    {
+      "id": "curativo",
+      "item": "Indica curativo estéril, alinhamento e imobilização.",
+      "peso": 1
+    },
+    {
+      "id": "analgesia",
+      "item": "Prescreve analgesia.",
+      "peso": 0.5
+    },
+    {
+      "id": "cirurgia",
+      "item": "Indica desbridamento cirúrgico e estabilização da fratura.",
+      "peso": 1
+    },
+    {
+      "id": "compartimental",
+      "item": "Orienta vigilância de síndrome compartimental.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "ATLS, 10ª edição: trauma musculoesquelético.",
+    "Sociedade Brasileira de Ortopedia e Traumatologia. Fraturas expostas."
+  ]
+}
