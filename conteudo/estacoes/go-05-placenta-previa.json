@@ -1,0 +1,189 @@
+{
+  "id": "go-05-placenta-previa",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "titulo": "Sangramento vermelho vivo sem dor no terceiro trimestre",
+  "tema": "Placenta prévia",
+  "duracaoMin": 10,
+  "cenario": "Pronto atendimento obstétrico de maternidade de alto risco. Há cardiotocografia, ultrassom, banco de sangue e centro obstétrico.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Tatiane Lopes",
+    "idade": 33,
+    "sexo": "feminino",
+    "ocupacao": "auxiliar de cozinha",
+    "perfil": "Assustada, mas calma. Está deitada, com um absorvente sujo de sangue vivo.",
+    "abertura": "Doutor, eu acordei molhada de sangue, e não estou sentindo dor.",
+    "roteiro": [
+      {
+        "topico": "Idade gestacional",
+        "resposta": "Estou com 32 semanas, pelo cartão de pré-natal."
+      },
+      {
+        "topico": "Sangramento",
+        "resposta": "Acordei com a cama molhada de sangue vermelho vivo. Encheu um absorvente."
+      },
+      {
+        "topico": "Dor ou contração",
+        "resposta": "Não tenho dor nem contração."
+      },
+      {
+        "topico": "Episódios anteriores",
+        "resposta": "Tive um sangramento pequeno com 28 semanas, mas parou sozinho."
+      },
+      {
+        "topico": "Movimentos do bebê",
+        "resposta": "O bebê está mexendo normal."
+      },
+      {
+        "topico": "Perda de líquido",
+        "resposta": "Não perdi líquido."
+      },
+      {
+        "topico": "Gestações anteriores",
+        "resposta": "É a minha segunda gravidez. A primeira foi cesárea."
+      },
+      {
+        "topico": "Ultrassons do pré-natal",
+        "resposta": "No ultrassom de 22 semanas falaram que a placenta estava baixa."
+      },
+      {
+        "topico": "Relação sexual ou trauma",
+        "resposta": "Não tive relação nem sofri trauma."
+      },
+      {
+        "topico": "Tipo sanguíneo",
+        "resposta": "Sou A positivo."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doenças. Tomo sulfato ferroso."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Vou ter que fazer cesárea de novo?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 112 x 72 mmHg, FC 96 bpm, temperatura 36,6 °C."
+    },
+    {
+      "item": "Palpação abdominal",
+      "achado": "Útero indolor e relaxado, altura uterina de 31 cm. Feto em apresentação pélvica."
+    },
+    {
+      "item": "Ausculta fetal",
+      "achado": "BCF 142 bpm, regular."
+    },
+    {
+      "item": "Exame especular",
+      "achado": "Sangue vermelho vivo saindo pelo orifício cervical, em pequena quantidade no momento. Sem lesões vaginais ou cervicais."
+    },
+    {
+      "item": "Toque vaginal",
+      "achado": "Não realizar."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Ultrassom obstétrico",
+      "resultado": "Gestação única, 32 semanas, feto vivo, pélvico. Placenta anterior recobrindo totalmente o orifício interno do colo. Sinais sugestivos de acretismo: perda do espaço hipoecoico retroplacentário e lacunas vasculares."
+    },
+    {
+      "item": "Cardiotocografia",
+      "resultado": "Feto ativo, categoria I."
+    },
+    {
+      "item": "Hemograma, coagulograma e tipagem sanguínea",
+      "resultado": "Hemoglobina 10,4 g/dL, plaquetas e coagulograma normais, tipo A positivo."
+    }
+  ],
+  "diagnostico": "Placenta prévia total (centro-total) com sangramento no terceiro trimestre, gestação de 32 semanas, com suspeita de acretismo placentário (cesárea anterior).",
+  "condutaEsperada": [
+    "Não fazer toque vaginal.",
+    "Internar: acesso venoso calibroso, hemograma, coagulograma, tipagem e reserva de sangue; monitorizar o sangramento e a vitalidade fetal.",
+    "Corticoide para maturação pulmonar (betametasona 12 mg IM, duas doses com 24 horas de intervalo) por ter menos de 34 semanas; sulfato de magnésio para neuroproteção se o parto for iminente antes de 32 semanas.",
+    "Conduta expectante enquanto o sangramento for controlado e mãe e feto estiverem estáveis; cesárea de urgência se sangramento intenso ou sofrimento fetal.",
+    "Investigar o acretismo (ultrassom com Doppler ou ressonância) e planejar cesárea eletiva entre 34 e 37 semanas em centro com banco de sangue e equipe preparada para histerectomia.",
+    "Explicar à paciente o diagnóstico, os riscos e o plano."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe a paciente.",
+      "peso": 0.5
+    },
+    {
+      "id": "sangramento",
+      "item": "Caracteriza o sangramento (cor, quantidade, ausência de dor e de contrações).",
+      "peso": 1
+    },
+    {
+      "id": "antecedentes",
+      "item": "Pergunta cesárea anterior, episódios prévios e o resultado de ultrassons.",
+      "peso": 1
+    },
+    {
+      "id": "vitalidade",
+      "item": "Avalia a movimentação e os batimentos fetais.",
+      "peso": 0.5
+    },
+    {
+      "id": "sem-toque",
+      "item": "Não faz toque vaginal; faz exame especular.",
+      "peso": 2
+    },
+    {
+      "id": "usg",
+      "item": "Solicita ultrassom e interpreta como placenta prévia total.",
+      "peso": 1
+    },
+    {
+      "id": "acretismo",
+      "item": "Reconhece o risco de acretismo pela cesárea anterior.",
+      "peso": 1
+    },
+    {
+      "id": "internacao",
+      "item": "Interna, solicita exames e reserva de sangue.",
+      "peso": 1
+    },
+    {
+      "id": "corticoide",
+      "item": "Prescreve corticoide para maturação pulmonar.",
+      "peso": 1
+    },
+    {
+      "id": "plano",
+      "item": "Planeja via de parto por cesárea e explica à paciente.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "FEBRASGO. Placenta prévia e acretismo placentário: protocolo.",
+    "Ministério da Saúde. Manual de gestação de alto risco, 2022."
+  ]
+}

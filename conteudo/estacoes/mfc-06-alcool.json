@@ -1,0 +1,193 @@
+{
+  "id": "mfc-06-alcool",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Atenção primária",
+  "titulo": "Insônia e dor no estômago",
+  "tema": "Uso problemático de álcool: rastreamento e intervenção breve",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. O paciente veio por insônia e azia. Há CAPS AD de referência no município.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Edson Ribeiro",
+    "idade": 48,
+    "sexo": "masculino",
+    "ocupacao": "pedreiro",
+    "perfil": "Minimiza o consumo no começo. Se sentir que não está sendo julgado, se abre mais.",
+    "abertura": "Doutor, eu não estou dormindo direito e tenho uma queimação no estômago.",
+    "roteiro": [
+      {
+        "topico": "Sono",
+        "resposta": "Demoro para dormir e acordo de madrugada, todo dia."
+      },
+      {
+        "topico": "Azia",
+        "resposta": "Queimação no estômago, pior de manhã."
+      },
+      {
+        "topico": "Consumo de álcool",
+        "resposta": "Bebo umas cervejinhas para relaxar. Na verdade, umas 8 latas por dia e cachaça no fim de semana."
+      },
+      {
+        "topico": "Bebida pela manhã",
+        "resposta": "Às vezes tomo uma dose de manhã para parar a tremedeira."
+      },
+      {
+        "topico": "Tentativas de parar",
+        "resposta": "Já tentei diminuir, mas não consigo."
+      },
+      {
+        "topico": "Críticas de outras pessoas",
+        "resposta": "Minha mulher reclama. Ela falou que vai embora se eu não parar."
+      },
+      {
+        "topico": "Culpa",
+        "resposta": "Fico com vergonha depois que bebo."
+      },
+      {
+        "topico": "Consequências",
+        "resposta": "Faltei ao trabalho algumas segundas-feiras. Uma vez caí de bicicleta bêbado."
+      },
+      {
+        "topico": "Abstinência",
+        "resposta": "Quando fico sem beber, tremo, suo e fico agitado."
+      },
+      {
+        "topico": "Outras drogas e tabaco",
+        "resposta": "Fumo meio maço. Não uso outras drogas."
+      },
+      {
+        "topico": "Humor",
+        "resposta": "Ando desanimado. Não penso em me matar."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não sei de doença. Tomo omeprazol por conta própria."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Eu não sou alcoólatra, doutor. Eu só bebo para relaxar."
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 146 x 92 mmHg, FC 94 bpm, temperatura 36,5 °C."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Hálito etílico leve, tremor fino de extremidades. Orientado."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Dor leve no epigástrio. Fígado a 2 cm do rebordo costal, de bordas rombas."
+    },
+    {
+      "item": "Pele",
+      "achado": "Telangiectasias (aranhas vasculares) no tórax."
+    }
+  ],
+  "exames": [
+    {
+      "item": "AUDIT",
+      "resultado": "24 pontos: provável dependência."
+    },
+    {
+      "item": "CAGE",
+      "resultado": "4 respostas positivas."
+    },
+    {
+      "item": "Hemograma, enzimas hepáticas e GGT",
+      "resultado": "VCM 104 fL, TGO 98 U/L, TGP 52 U/L (TGO/TGP maior que 2), GGT 310 U/L."
+    },
+    {
+      "item": "Glicemia, lipídeos e sorologias para hepatites",
+      "resultado": "Glicemia 102 mg/dL, triglicerídeos 260 mg/dL. Hepatites B e C não reagentes."
+    }
+  ],
+  "diagnostico": "Transtorno por uso de álcool com provável dependência (AUDIT 24, CAGE 4/4, sintomas de abstinência), com doença hepática alcoólica e gastrite associadas.",
+  "condutaEsperada": [
+    "Rastrear o uso de álcool com instrumentos validados (AUDIT ou CAGE) e investigar abstinência, comorbidades psiquiátricas e risco de suicídio.",
+    "Intervenção breve (FRAMES: devolutiva, responsabilidade, conselho, menu de opções, empatia, autoeficácia) com entrevista motivacional, sem julgamento.",
+    "Plano compartilhado: oferecer acompanhamento na UBS e no CAPS AD; grupos de ajuda mútua (Alcoólicos Anônimos); envolver a família.",
+    "Desintoxicação planejada com avaliação do risco de abstinência grave (CIWA-Ar); benzodiazepínico se indicado e tiamina para prevenir encefalopatia de Wernicke.",
+    "Farmacoterapia para manter a abstinência (naltrexona ou acamprosato; dissulfiram só com consentimento e supervisão) e tratar a gastrite.",
+    "Seguimento próximo e avaliação hepática."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e cria ambiente sem julgamento.",
+      "peso": 1
+    },
+    {
+      "id": "queixa",
+      "item": "Explora a queixa principal (insônia e azia).",
+      "peso": 0.5
+    },
+    {
+      "id": "rastreio",
+      "item": "Pergunta sobre o consumo de álcool com quantidade e frequência.",
+      "peso": 1.5
+    },
+    {
+      "id": "cage",
+      "item": "Aplica as perguntas do CAGE ou do AUDIT.",
+      "peso": 1.5
+    },
+    {
+      "id": "abstinencia",
+      "item": "Investiga sintomas de abstinência e bebida pela manhã.",
+      "peso": 1
+    },
+    {
+      "id": "consequencias",
+      "item": "Investiga consequências sociais, familiares e no trabalho.",
+      "peso": 0.5
+    },
+    {
+      "id": "humor",
+      "item": "Investiga humor e risco de suicídio.",
+      "peso": 0.5
+    },
+    {
+      "id": "intervencao",
+      "item": "Faz intervenção breve com devolutiva, empatia e menu de opções.",
+      "peso": 1.5
+    },
+    {
+      "id": "rede",
+      "item": "Oferece CAPS AD, grupos de ajuda mútua e envolve a família.",
+      "peso": 1
+    },
+    {
+      "id": "tiamina",
+      "item": "Indica tiamina e plano de desintoxicação com avaliação do risco.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Cadernos de Atenção Básica nº 34: Saúde mental.",
+    "OMS. AUDIT: teste para identificação de problemas relacionados ao uso de álcool."
+  ]
+}

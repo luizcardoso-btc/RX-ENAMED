@@ -1,0 +1,176 @@
+{
+  "id": "ped-05-pneumonia-crianca",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Pneumologia pediátrica",
+  "titulo": "Criança com febre e tosse há quatro dias",
+  "tema": "Pneumonia adquirida na comunidade na criança",
+  "duracaoMin": 10,
+  "cenario": "Unidade básica de saúde com sala de observação. Há oxímetro e radiografia na UPA vizinha.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Simone Rocha, mãe de Laura (3 anos)",
+    "idade": 31,
+    "sexo": "feminino",
+    "ocupacao": "recepcionista",
+    "perfil": "Preocupada. Laura, de 3 anos, está no colo, abatida, mas brinca um pouco.",
+    "abertura": "A Laura está com febre e tosse há quatro dias e agora está respirando rápido.",
+    "roteiro": [
+      {
+        "topico": "Febre",
+        "resposta": "Febre de 39 °C há quatro dias, que volta toda vez que passa o efeito da dipirona."
+      },
+      {
+        "topico": "Tosse",
+        "resposta": "Tosse com catarro, piorou ontem."
+      },
+      {
+        "topico": "Respiração",
+        "resposta": "Está respirando mais rápido, mas não vi a barriga afundar."
+      },
+      {
+        "topico": "Alimentação e hidratação",
+        "resposta": "Está comendo pouco, mas bebe água e suco. Está fazendo xixi normal."
+      },
+      {
+        "topico": "Vômitos, convulsão, sonolência",
+        "resposta": "Não vomitou, não teve convulsão. Fica mais quietinha quando está com febre."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Às vezes reclama de dor na barriga quando tosse."
+      },
+      {
+        "topico": "Doenças anteriores",
+        "resposta": "Nunca internou. Nunca chiou."
+      },
+      {
+        "topico": "Vacinas",
+        "resposta": "Todas em dia, inclusive a pneumocócica."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Só dipirona para a febre."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia a remédio."
+      },
+      {
+        "topico": "Creche e contatos",
+        "resposta": "Vai à creche. Tem coleguinhas gripados."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Ela não precisa de soro na veia?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "FC 132 bpm, FR 46 irpm, SatO2 95% em ar ambiente, temperatura 38,9 °C, peso 14 kg."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Abatida, hidratada, corada, ativa entre os picos de febre."
+    },
+    {
+      "item": "Aparelho respiratório",
+      "achado": "Sem tiragem. Murmúrio diminuído e estertores crepitantes na base direita. Sem sibilos."
+    },
+    {
+      "item": "Otoscopia e oroscopia",
+      "achado": "Sem alterações."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Flácido, indolor à palpação profunda."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Radiografia de tórax",
+      "resultado": "Consolidação no lobo inferior direito, sem derrame pleural."
+    },
+    {
+      "item": "Hemograma",
+      "resultado": "Não necessário para tratamento ambulatorial; se feito: leucócitos 17.500/mm³ com neutrofilia."
+    }
+  ],
+  "diagnostico": "Pneumonia adquirida na comunidade sem sinais de gravidade em criança de 3 anos, com indicação de tratamento ambulatorial.",
+  "condutaEsperada": [
+    "Diagnóstico clínico: febre, tosse e taquipneia (frequência respiratória acima de 40 irpm entre 1 e 5 anos); a radiografia não é obrigatória.",
+    "Afastar sinais de gravidade: tiragem subcostal, SatO2 abaixo de 92%, incapacidade de beber, vômitos, convulsão, letargia, idade abaixo de 2 meses.",
+    "Tratamento ambulatorial com amoxicilina oral 50 mg/kg/dia, dividida a cada 8 ou 12 horas, por 5 a 7 dias (cerca de 350 mg a cada 12 horas para 14 kg).",
+    "Antitérmico, oferta de líquidos e reavaliação em 48 a 72 horas.",
+    "Orientar sinais de alarme para retorno imediato: piora da respiração, tiragem, não conseguir beber, sonolência, febre persistente após 48 a 72 horas de antibiótico."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe a mãe.",
+      "peso": 0.5
+    },
+    {
+      "id": "febre-tosse",
+      "item": "Caracteriza a febre, a tosse e o tempo de evolução.",
+      "peso": 1
+    },
+    {
+      "id": "perigo",
+      "item": "Pergunta sinais de perigo (não consegue beber, vômitos, convulsão, letargia).",
+      "peso": 1.5
+    },
+    {
+      "id": "vacinas",
+      "item": "Pergunta vacinação e doenças prévias.",
+      "peso": 0.5
+    },
+    {
+      "id": "fr",
+      "item": "Solicita sinais vitais e identifica taquipneia para a idade.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Solicita exame respiratório e identifica crepitantes localizados sem tiragem.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica pneumonia sem sinais de gravidade.",
+      "peso": 1
+    },
+    {
+      "id": "ambulatorial",
+      "item": "Decide pelo tratamento ambulatorial.",
+      "peso": 1
+    },
+    {
+      "id": "amoxicilina",
+      "item": "Prescreve amoxicilina na dose correta por 5 a 7 dias.",
+      "peso": 1.5
+    },
+    {
+      "id": "retorno",
+      "item": "Orienta reavaliação em 48 a 72 horas e sinais de alarme.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Pediatria. Pneumonia adquirida na comunidade na infância.",
+    "OMS. AIDPI: atenção integrada às doenças prevalentes na infância."
+  ]
+}

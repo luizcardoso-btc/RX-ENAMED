@@ -72,7 +72,7 @@ Todas levam o rótulo "Autoral RX MED" e entram em revisão médica como as aula
 |---|---|---|
 | 1 | cir-03 | Trauma abdominal fechado |
 | 2 | cir-04 | Traumatismo cranioencefálico |
-| 3 | cir-05 | Politrauma com choque hemorrágico |
+| 3 | cir-05 | Politrauma com fratura de pelve instável e choque |
 | 4 | cir-06 | Queimadura: reposição volêmica |
 | 5 | cir-07 | Colecistite aguda |
 | 6 | cir-08 | Pancreatite aguda |

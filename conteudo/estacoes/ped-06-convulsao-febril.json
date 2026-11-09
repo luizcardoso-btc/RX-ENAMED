@@ -1,0 +1,190 @@
+{
+  "id": "ped-06-convulsao-febril",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Neurologia pediátrica",
+  "titulo": "Convulsão com febre",
+  "tema": "Convulsão febril simples",
+  "duracaoMin": 10,
+  "cenario": "Pronto atendimento pediátrico. A criança chegou há 20 minutos, depois de uma crise em casa.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Priscila Moura, mãe de Davi (1 ano e 6 meses)",
+    "idade": 26,
+    "sexo": "feminino",
+    "ocupacao": "manicure",
+    "perfil": "Muito assustada, achou que o filho ia morrer. Davi está acordado no colo, choramingando.",
+    "abertura": "Doutor, meu filho teve uma convulsão em casa, ficou roxo, eu achei que ele ia morrer!",
+    "roteiro": [
+      {
+        "topico": "Como foi a crise",
+        "resposta": "Ele ficou duro, revirou os olhos e começou a tremer os braços e as pernas, os dois lados."
+      },
+      {
+        "topico": "Duração",
+        "resposta": "Durou uns 2 minutos, mas pareceu uma eternidade."
+      },
+      {
+        "topico": "Depois da crise",
+        "resposta": "Ficou molinho e sonolento uns 15 minutos. Agora já está esperto."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Começou com febre hoje à tarde, 39,2 °C, e coriza."
+      },
+      {
+        "topico": "Quantas crises",
+        "resposta": "Foi só uma vez."
+      },
+      {
+        "topico": "Crises anteriores",
+        "resposta": "Nunca teve convulsão antes."
+      },
+      {
+        "topico": "Vômitos, rigidez, manchas na pele",
+        "resposta": "Não vomitou. Não vi manchas na pele."
+      },
+      {
+        "topico": "Desenvolvimento",
+        "resposta": "Anda sozinho, fala algumas palavras. Sempre foi normal."
+      },
+      {
+        "topico": "Vacinas",
+        "resposta": "Todas em dia."
+      },
+      {
+        "topico": "Gestação e nascimento",
+        "resposta": "Nasceu de 38 semanas, normal."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "O pai dele teve convulsão com febre quando era pequeno."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Não toma nada. Dei dipirona antes de vir."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Ele vai ficar com epilepsia?",
+      "Se eu der antitérmico na hora certa, ele não convulsiona mais?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "FC 140 bpm, FR 30 irpm, SatO2 98%, temperatura 38,6 °C, peso 11 kg."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Ativo, reativo, interage com a mãe, hidratado."
+    },
+    {
+      "item": "Exame neurológico",
+      "achado": "Sem déficit focal. Fontanela anterior fechada. Sem sinais de irritação meníngea."
+    },
+    {
+      "item": "Otoscopia e oroscopia",
+      "achado": "Hiperemia de orofaringe, coriza hialina. Membranas timpânicas normais."
+    },
+    {
+      "item": "Pele",
+      "achado": "Sem petéquias ou exantema."
+    },
+    {
+      "item": "Aparelho respiratório e abdome",
+      "achado": "Murmúrio vesicular normal. Abdome sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Hemograma, glicemia e eletrólitos",
+      "resultado": "Não são necessários na convulsão febril simples; se feitos: normais."
+    },
+    {
+      "item": "Punção lombar",
+      "resultado": "Não indicada (criança acima de 12 meses, vacinada, sem sinais meníngeos e bem após a crise)."
+    },
+    {
+      "item": "Eletroencefalograma e neuroimagem",
+      "resultado": "Não indicados na convulsão febril simples."
+    }
+  ],
+  "diagnostico": "Convulsão febril simples (crise generalizada, menos de 15 minutos, única em 24 horas, entre 6 meses e 5 anos), associada a infecção viral de vias aéreas superiores.",
+  "condutaEsperada": [
+    "Confirmar os critérios de convulsão febril simples e afastar infecção do sistema nervoso central (exame neurológico normal, sem sinais meníngeos, vacinação em dia).",
+    "Não são necessários EEG, neuroimagem ou punção lombar de rotina.",
+    "Tratar a febre para conforto (antitérmico não previne nova crise) e a causa da febre.",
+    "Orientar a família para nova crise: deitar de lado, afastar objetos, não colocar nada na boca, cronometrar; procurar atendimento se durar mais de 5 minutos.",
+    "Explicar o bom prognóstico, o risco de recorrência (cerca de 30%) e que não há indicação de anticonvulsivante contínuo.",
+    "Se a criança chegasse em crise: benzodiazepínico (por exemplo, midazolam) após 5 minutos."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe a angústia da mãe.",
+      "peso": 1
+    },
+    {
+      "id": "crise",
+      "item": "Caracteriza a crise: tipo (generalizada ou focal), duração e período pós-ictal.",
+      "peso": 1.5
+    },
+    {
+      "id": "febre",
+      "item": "Caracteriza a febre e o foco infeccioso.",
+      "peso": 0.5
+    },
+    {
+      "id": "recorrencia",
+      "item": "Pergunta se houve mais de uma crise em 24 horas e crises anteriores.",
+      "peso": 1
+    },
+    {
+      "id": "antecedentes",
+      "item": "Pergunta desenvolvimento, vacinação e história familiar.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Solicita exame neurológico e pesquisa sinais meníngeos e petéquias.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica convulsão febril simples.",
+      "peso": 1
+    },
+    {
+      "id": "sem-exames",
+      "item": "Não indica EEG, neuroimagem ou punção lombar de rotina.",
+      "peso": 1
+    },
+    {
+      "id": "orientacao",
+      "item": "Orienta o que fazer em nova crise e quando procurar atendimento.",
+      "peso": 1.5
+    },
+    {
+      "id": "prognostico",
+      "item": "Explica o bom prognóstico e que o antitérmico não previne nova crise.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Pediatria. Crise febril.",
+    "AAP. Febrile seizures: clinical practice guideline, 2011."
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": "go-06-descolamento-placenta",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "titulo": "Dor forte na barriga e sangramento escuro",
+  "tema": "Descolamento prematuro de placenta",
+  "duracaoMin": 10,
+  "cenario": "Centro obstétrico de maternidade. Há cardiotocografia, ultrassom, banco de sangue e sala de cesárea.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Sueli Ramos",
+    "idade": 36,
+    "sexo": "feminino",
+    "ocupacao": "faxineira",
+    "perfil": "Com muita dor, contorcida. Responde com dificuldade.",
+    "abertura": "Ai, doutor, uma dor muito forte na barriga que não passa, e está saindo sangue!",
+    "roteiro": [
+      {
+        "topico": "Idade gestacional",
+        "resposta": "Estou com 34 semanas."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Começou de repente há uma hora. É forte, a barriga fica dura o tempo todo."
+      },
+      {
+        "topico": "Sangramento",
+        "resposta": "Um sangue escuro, não muito."
+      },
+      {
+        "topico": "Movimentos do bebê",
+        "resposta": "Desde que a dor começou, o bebê está mexendo menos."
+      },
+      {
+        "topico": "Pressão",
+        "resposta": "No pré-natal disseram que a minha pressão estava subindo. Tomo metildopa."
+      },
+      {
+        "topico": "Trauma",
+        "resposta": "Não caí nem bati a barriga."
+      },
+      {
+        "topico": "Drogas",
+        "resposta": "Fumo cigarro. Não uso cocaína nem crack."
+      },
+      {
+        "topico": "Perda de líquido",
+        "resposta": "Não perdi líquido."
+      },
+      {
+        "topico": "Gestações anteriores",
+        "resposta": "Tenho três filhos, todos de parto normal."
+      },
+      {
+        "topico": "Tipo sanguíneo",
+        "resposta": "O positivo."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 154 x 98 mmHg, FC 108 bpm, temperatura 36,7 °C."
+    },
+    {
+      "item": "Palpação abdominal",
+      "achado": "Útero hipertônico, doloroso, lenhoso, sem relaxamento entre as contrações. Altura uterina de 34 cm."
+    },
+    {
+      "item": "Ausculta fetal",
+      "achado": "BCF 98 bpm."
+    },
+    {
+      "item": "Exame especular",
+      "achado": "Sangue escuro em pequena quantidade vindo do colo."
+    },
+    {
+      "item": "Toque vaginal",
+      "achado": "Colo grosso, posterior, pérvio para 1 cm. Bolsa íntegra."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Cardiotocografia",
+      "resultado": "Bradicardia fetal de 100 bpm com variabilidade mínima e desacelerações tardias (categoria III)."
+    },
+    {
+      "item": "Ultrassom obstétrico",
+      "resultado": "Feto vivo, cefálico. Placenta posterior, normalmente inserida. Imagem hiperecogênica retroplacentária (o ultrassom normal não exclui o diagnóstico)."
+    },
+    {
+      "item": "Hemograma, coagulograma e fibrinogênio",
+      "resultado": "Hemoglobina 10,1 g/dL, plaquetas 128.000/mm³, fibrinogênio 210 mg/dL, coagulograma pouco alargado."
+    },
+    {
+      "item": "Proteinúria e enzimas hepáticas",
+      "resultado": "Relação proteína/creatinina urinária 0,6. Enzimas hepáticas normais."
+    }
+  ],
+  "diagnostico": "Descolamento prematuro de placenta com feto vivo e sofrimento fetal, em gestante de 34 semanas com pré-eclâmpsia.",
+  "condutaEsperada": [
+    "Diagnóstico clínico: dor abdominal súbita, hipertonia uterina e sangramento escuro; o ultrassom não é necessário para decidir.",
+    "Estabilização: dois acessos venosos calibrosos, cristaloide, hemograma, coagulograma e fibrinogênio, tipagem e reserva de sangue; sonda vesical para diurese.",
+    "Feto vivo e viável com sofrimento fetal e parto não iminente: cesárea de emergência.",
+    "Amniotomia se o parto vaginal for iminente.",
+    "Atenção à coagulação intravascular disseminada e à hemorragia pós-parto (útero de Couvelaire); controle da pressão e sulfato de magnésio pela pré-eclâmpsia.",
+    "Explicar à paciente a urgência da cesárea."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e age com rapidez.",
+      "peso": 0.5
+    },
+    {
+      "id": "dor",
+      "item": "Caracteriza a dor súbita, a hipertonia e o sangramento escuro.",
+      "peso": 1
+    },
+    {
+      "id": "fatores",
+      "item": "Investiga fatores de risco (hipertensão, tabagismo, cocaína, trauma).",
+      "peso": 1
+    },
+    {
+      "id": "vitalidade",
+      "item": "Pergunta movimentos fetais e solicita a ausculta e a cardiotocografia.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Solicita palpação abdominal e identifica a hipertonia uterina.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica descolamento prematuro de placenta.",
+      "peso": 1.5
+    },
+    {
+      "id": "estabilizacao",
+      "item": "Indica acessos calibrosos, exames de coagulação e reserva de sangue.",
+      "peso": 1
+    },
+    {
+      "id": "cesarea",
+      "item": "Indica cesárea de emergência pelo sofrimento fetal.",
+      "peso": 2
+    },
+    {
+      "id": "civd",
+      "item": "Reconhece o risco de coagulopatia e de hemorragia pós-parto.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "FEBRASGO. Descolamento prematuro de placenta: protocolo.",
+    "Ministério da Saúde. Manual de gestação de alto risco, 2022."
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "id": "cm-05-emergencia-hipertensiva",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Cardiologia",
+  "titulo": "Pressão muito alta e confusão",
+  "tema": "Emergência hipertensiva: encefalopatia hipertensiva",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com tomografia, UTI e bomba de infusão. A paciente chegou trazida pelo marido.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Neide Barbosa",
+    "idade": 58,
+    "sexo": "feminino",
+    "ocupacao": "dona de casa",
+    "perfil": "Sonolenta e um pouco confusa, responde devagar. O marido completa as informações.",
+    "abertura": "Minha cabeça... está explodindo... a vista está embaçada.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "O marido responde: \"Começou ontem à noite com dor de cabeça forte. Hoje ela vomitou duas vezes e ficou meio aérea, trocando as palavras.\""
+      },
+      {
+        "topico": "Cefaleia",
+        "resposta": "Dor forte, na cabeça toda, a pior que já teve."
+      },
+      {
+        "topico": "Visão",
+        "resposta": "Diz que está vendo embaçado dos dois olhos."
+      },
+      {
+        "topico": "Fraqueza, fala, convulsão",
+        "resposta": "Não teve fraqueza de um lado nem convulsão. Fala devagar, mas sem enrolar."
+      },
+      {
+        "topico": "Dor no peito, falta de ar",
+        "resposta": "Não teve dor no peito nem falta de ar."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Pressão alta há 20 anos. Tem problema de rim, o médico falou que está fraco."
+      },
+      {
+        "topico": "Medicamentos e adesão",
+        "resposta": "Ela parou os remédios da pressão há um mês porque acabou e não foi buscar no posto."
+      },
+      {
+        "topico": "Drogas e medicamentos",
+        "resposta": "Não usa droga nem remédio para emagrecer."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não teve febre."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "A mãe morreu de derrame."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 224 x 134 mmHg nos dois braços, FC 88 bpm, FR 18 irpm, SatO2 96%, temperatura 36,6 °C."
+    },
+    {
+      "item": "Exame neurológico",
+      "achado": "Sonolenta, desorientada no tempo, sem déficit motor focal, sem rigidez de nuca. Glasgow 14."
+    },
+    {
+      "item": "Fundo de olho",
+      "achado": "Papiledema bilateral, hemorragias em chama de vela e exsudatos algodonosos."
+    },
+    {
+      "item": "Aparelho cardiovascular",
+      "achado": "Ritmo regular, B4 audível, sem sopros. Pulsos simétricos."
+    },
+    {
+      "item": "Aparelho respiratório",
+      "achado": "Murmúrio vesicular presente, sem estertores."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Flácido, indolor, sem sopros."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Tomografia de crânio sem contraste",
+      "resultado": "Sem sangramento. Hipodensidade discreta da substância branca occipital bilateral."
+    },
+    {
+      "item": "Eletrocardiograma",
+      "resultado": "Ritmo sinusal, sobrecarga ventricular esquerda, sem alterações isquêmicas agudas."
+    },
+    {
+      "item": "Hemograma, creatinina e eletrólitos",
+      "resultado": "Hemoglobina 11,8 g/dL, plaquetas normais, creatinina 2,1 mg/dL (anterior 1,6), potássio 4,6 mEq/L."
+    },
+    {
+      "item": "Urina tipo 1",
+      "resultado": "Proteinúria ++, sem hematúria dismórfica."
+    },
+    {
+      "item": "Troponina",
+      "resultado": "Normal."
+    }
+  ],
+  "diagnostico": "Emergência hipertensiva: encefalopatia hipertensiva (com retinopatia grau IV e piora da função renal) após suspensão dos anti-hipertensivos.",
+  "condutaEsperada": [
+    "Diferenciar emergência (lesão aguda de órgão-alvo) de urgência hipertensiva e de pseudocrise.",
+    "Tomografia de crânio para afastar AVC hemorrágico; ECG, troponina, função renal e urina.",
+    "Internação em UTI com anti-hipertensivo intravenoso titulável (nitroprussiato de sódio).",
+    "Reduzir a pressão arterial média em no máximo 20 a 25% na primeira hora; depois, até cerca de 160 x 100 mmHg em 2 a 6 horas; normalizar em 24 a 48 horas.",
+    "Não usar nifedipina sublingual.",
+    "Depois da fase aguda, retomar anti-hipertensivos orais e garantir acesso aos medicamentos; explicar ao casal."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e conversa com a paciente e o acompanhante.",
+      "peso": 0.5
+    },
+    {
+      "id": "sintomas",
+      "item": "Caracteriza cefaleia, alteração visual, confusão e vômitos.",
+      "peso": 1
+    },
+    {
+      "id": "lesao-orgao",
+      "item": "Investiga lesão de órgão-alvo: déficit neurológico, dor torácica, dispneia.",
+      "peso": 1
+    },
+    {
+      "id": "adesao",
+      "item": "Investiga a adesão aos anti-hipertensivos e o uso de drogas.",
+      "peso": 1
+    },
+    {
+      "id": "fundo-olho",
+      "item": "Solicita exame neurológico e fundo de olho e reconhece papiledema.",
+      "peso": 1
+    },
+    {
+      "id": "tc",
+      "item": "Solicita tomografia de crânio para afastar AVC hemorrágico.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica emergência hipertensiva (encefalopatia hipertensiva).",
+      "peso": 1.5
+    },
+    {
+      "id": "nitroprussiato",
+      "item": "Indica UTI e anti-hipertensivo intravenoso (nitroprussiato).",
+      "peso": 1
+    },
+    {
+      "id": "meta",
+      "item": "Define a meta de redução gradual (no máximo 25% na primeira hora).",
+      "peso": 1.5
+    },
+    {
+      "id": "nifedipina",
+      "item": "Não usa nifedipina sublingual nem reduz a pressão bruscamente.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Diretrizes Brasileiras de Hipertensão Arterial, SBC 2020: crises hipertensivas."
+  ]
+}

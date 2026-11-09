@@ -66,6 +66,10 @@
       {
         "topico": "Alergias",
         "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
       }
     ],
     "perguntasDoPaciente": [

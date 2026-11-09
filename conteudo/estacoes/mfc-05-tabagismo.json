@@ -1,0 +1,172 @@
+{
+  "id": "mfc-05-tabagismo",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Atenção primária",
+  "titulo": "Quero parar de fumar",
+  "tema": "Cessação do tabagismo",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde com grupo de tabagismo do Programa Nacional de Controle do Tabagismo. Há adesivo, goma e pastilha de nicotina e bupropiona.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Valdir Santana",
+    "idade": 45,
+    "sexo": "masculino",
+    "ocupacao": "motorista de caminhão",
+    "perfil": "Decidido, mas com medo de não conseguir. Já tentou parar sozinho.",
+    "abertura": "Doutor, eu quero parar de fumar. Meu vizinho teve um infarto e eu fiquei com medo.",
+    "roteiro": [
+      {
+        "topico": "Quantidade e tempo",
+        "resposta": "Fumo um maço por dia, desde os 20 anos."
+      },
+      {
+        "topico": "Primeiro cigarro",
+        "resposta": "Fumo o primeiro cigarro logo que acordo, antes do café."
+      },
+      {
+        "topico": "Situações",
+        "resposta": "Fumo mais no trânsito, depois do café e quando estou nervoso."
+      },
+      {
+        "topico": "Tentativas anteriores",
+        "resposta": "Tentei parar duas vezes sozinho. Fiquei muito irritado, com vontade e ansiedade, e voltei em uma semana."
+      },
+      {
+        "topico": "Motivação",
+        "resposta": "Agora eu quero de verdade. Quero parar no mês que vem."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Tenho pressão alta. Às vezes tosse de manhã com catarro."
+      },
+      {
+        "topico": "Convulsão, transtorno alimentar, saúde mental",
+        "resposta": "Nunca tive convulsão. Não tenho problema psiquiátrico."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Tomo enalapril."
+      },
+      {
+        "topico": "Álcool e café",
+        "resposta": "Bebo cerveja no fim de semana. Café, umas 6 xícaras por dia."
+      },
+      {
+        "topico": "Pessoas em casa",
+        "resposta": "Minha mulher também fuma."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "O adesivo não vai me deixar viciado na nicotina?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 138 x 88 mmHg, FC 82 bpm, SatO2 96%."
+    },
+    {
+      "item": "Antropometria",
+      "achado": "Peso 84 kg, IMC 27,4 kg/m²."
+    },
+    {
+      "item": "Aparelho respiratório",
+      "achado": "Murmúrio vesicular discretamente diminuído, sem ruídos adventícios."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Teste de Fagerström",
+      "resultado": "7 pontos: dependência elevada."
+    },
+    {
+      "item": "Espirometria",
+      "resultado": "Relação VEF1/CVF de 0,74 após broncodilatador, sem obstrução."
+    }
+  ],
+  "diagnostico": "Tabagismo com dependência elevada à nicotina (25 maços-ano), em estágio de preparação para a cessação.",
+  "condutaEsperada": [
+    "Parabenizar a decisão e avaliar a motivação e o estágio de mudança (preparação).",
+    "Avaliar o grau de dependência (Fagerström), o histórico de tentativas e os gatilhos.",
+    "Abordagem intensiva: grupo de tabagismo ou consultas individuais com terapia cognitivo-comportamental; marcar uma data para parar.",
+    "Farmacoterapia: terapia de reposição de nicotina combinada (adesivo de 21 mg/dia com redução gradual, mais goma ou pastilha nas fissuras) e/ou bupropiona (sem contraindicações).",
+    "Orientar estratégias para os gatilhos (café, trânsito), sintomas de abstinência, evitar álcool no início, convidar a esposa a participar.",
+    "Seguimento próximo (semanal no primeiro mês) e prevenção de recaída."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e valoriza a decisão de parar.",
+      "peso": 0.5
+    },
+    {
+      "id": "carga",
+      "item": "Quantifica o consumo (maços-ano) e o tempo de tabagismo.",
+      "peso": 1
+    },
+    {
+      "id": "dependencia",
+      "item": "Avalia a dependência (primeiro cigarro do dia, Fagerström).",
+      "peso": 1.5
+    },
+    {
+      "id": "tentativas",
+      "item": "Pergunta tentativas anteriores e sintomas de abstinência.",
+      "peso": 1
+    },
+    {
+      "id": "gatilhos",
+      "item": "Identifica gatilhos e a motivação (estágio de mudança).",
+      "peso": 1
+    },
+    {
+      "id": "contraindicacoes",
+      "item": "Investiga contraindicações à bupropiona (convulsão, transtorno alimentar).",
+      "peso": 0.5
+    },
+    {
+      "id": "abordagem",
+      "item": "Oferece abordagem cognitivo-comportamental (grupo ou individual) e data para parar.",
+      "peso": 1.5
+    },
+    {
+      "id": "farmaco",
+      "item": "Prescreve terapia de reposição de nicotina e/ou bupropiona corretamente.",
+      "peso": 2
+    },
+    {
+      "id": "seguimento",
+      "item": "Combina seguimento e orienta prevenção de recaída.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo, 2020.",
+    "Cadernos de Atenção Básica nº 40."
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "cir-05-fratura-pelve",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Trauma",
+  "titulo": "Pedestre atropelado com dor no quadril",
+  "tema": "Politrauma com fratura de pelve instável e choque",
+  "duracaoMin": 10,
+  "cenario": "Sala de emergência de hospital de referência em trauma. Há ultrassom, radiografia, banco de sangue, ortopedia e radiologia intervencionista.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Jorge Almeida",
+    "idade": 46,
+    "sexo": "masculino",
+    "ocupacao": "pedreiro",
+    "perfil": "Pálido, gemendo de dor. Responde às perguntas.",
+    "abertura": "Ai, meu quadril... não consigo mexer as pernas de dor.",
+    "roteiro": [
+      {
+        "topico": "O que aconteceu",
+        "resposta": "Um carro me pegou quando eu atravessava a avenida. Caí de lado."
+      },
+      {
+        "topico": "Horário",
+        "resposta": "Faz uns 30 minutos."
+      },
+      {
+        "topico": "Perda de consciência",
+        "resposta": "Não desmaiei."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "A dor é no quadril e na virilha."
+      },
+      {
+        "topico": "Urina",
+        "resposta": "Tô com vontade de urinar, mas não consigo. Vi sangue na cueca."
+      },
+      {
+        "topico": "Falta de ar",
+        "resposta": "Não estou com falta de ar."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Tenho pressão alta, tomo losartana."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Alergia a dipirona."
+      },
+      {
+        "topico": "Última refeição",
+        "resposta": "Comi um pão às 6 da manhã."
+      },
+      {
+        "topico": "Álcool",
+        "resposta": "Bebi duas cervejas no almoço."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "A: vias aéreas e coluna",
+      "achado": "Fala bem, vias aéreas pérvias. Colar cervical."
+    },
+    {
+      "item": "B: respiração",
+      "achado": "FR 24 irpm, SatO2 96% com máscara, murmúrio vesicular simétrico."
+    },
+    {
+      "item": "C: circulação",
+      "achado": "PA 86 x 54 mmHg, FC 128 bpm, pele fria e pegajosa, enchimento capilar de 4 segundos."
+    },
+    {
+      "item": "Pelve",
+      "achado": "Dor intensa à palpação suave das cristas ilíacas, com instabilidade. Equimose perineal e em bolsa escrotal."
+    },
+    {
+      "item": "Uretra e períneo",
+      "achado": "Sangue no meato uretral. Próstata não palpável (alta) ao toque retal."
+    },
+    {
+      "item": "D: neurológico",
+      "achado": "Glasgow 15, pupilas isocóricas."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Flácido, sem defesa, doloroso em hipogástrio."
+    }
+  ],
+  "exames": [
+    {
+      "item": "FAST (ultrassom à beira do leito)",
+      "resultado": "Sem líquido livre no abdome. Pericárdio normal."
+    },
+    {
+      "item": "Radiografia de pelve",
+      "resultado": "Disjunção da sínfise púbica de 4 cm e fratura do ramo púbico bilateral (fratura em \"livro aberto\")."
+    },
+    {
+      "item": "Radiografia de tórax",
+      "resultado": "Sem pneumotórax ou hemotórax."
+    },
+    {
+      "item": "Hemograma, lactato e tipagem sanguínea",
+      "resultado": "Hemoglobina 8,9 g/dL, lactato 5,2 mmol/L, tipo B positivo."
+    }
+  ],
+  "diagnostico": "Politrauma com fratura de pelve instável em livro aberto e choque hemorrágico (sangramento pélvico, FAST negativo), com suspeita de lesão de uretra posterior.",
+  "condutaEsperada": [
+    "ABCDE com restrição de movimento da coluna; dois acessos calibrosos e coleta de exames.",
+    "Estabilização mecânica imediata da pelve com cinta pélvica (ou lençol) na altura dos trocânteres maiores.",
+    "Reposição volêmica limitada e hemoderivados precoces (protocolo de transfusão maciça); ácido tranexâmico até 3 horas do trauma.",
+    "Não passar sonda vesical (sangue no meato, hematoma perineal, próstata alta): uretrocistografia retrógrada; se necessário, cistostomia suprapúbica.",
+    "FAST negativo e instabilidade: o sangramento é pélvico. Controle por angioembolização ou tamponamento pré-peritoneal com fixação externa da pelve.",
+    "Analgesia sem dipirona (alergia) e comunicação com o paciente."
+  ],
+  "pep": [
+    {
+      "id": "abcde",
+      "item": "Faz a avaliação inicial ABCDE com restrição de movimento da coluna.",
+      "peso": 1
+    },
+    {
+      "id": "choque",
+      "item": "Reconhece o choque hemorrágico.",
+      "peso": 1
+    },
+    {
+      "id": "pelve",
+      "item": "Examina a pelve com delicadeza, sem manobras repetidas, e identifica a instabilidade.",
+      "peso": 1
+    },
+    {
+      "id": "cinta",
+      "item": "Indica estabilização imediata com cinta pélvica ou lençol.",
+      "peso": 1.5
+    },
+    {
+      "id": "volume",
+      "item": "Indica hemoderivados precocemente e ácido tranexâmico.",
+      "peso": 1.5
+    },
+    {
+      "id": "uretra",
+      "item": "Reconhece sinais de lesão de uretra e não passa sonda vesical.",
+      "peso": 1.5
+    },
+    {
+      "id": "fonte",
+      "item": "Interpreta o FAST negativo e a radiografia e conclui que o sangramento é pélvico.",
+      "peso": 1
+    },
+    {
+      "id": "controle",
+      "item": "Indica angioembolização ou tamponamento pré-peritoneal e fixação externa.",
+      "peso": 1
+    },
+    {
+      "id": "alergia",
+      "item": "Pergunta alergias e evita a dipirona.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "ATLS, 10ª edição: trauma pélvico e choque."
+  ]
+}

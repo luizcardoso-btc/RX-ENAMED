@@ -62,6 +62,14 @@
       {
         "topico": "Alergias",
         "resposta": "Não tem alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
       }
     ],
     "perguntasDoPaciente": [],

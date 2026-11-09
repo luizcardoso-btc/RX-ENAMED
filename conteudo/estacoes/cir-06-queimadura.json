@@ -1,0 +1,166 @@
+{
+  "id": "cir-06-queimadura",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Queimaduras",
+  "titulo": "Queimadura com álcool",
+  "tema": "Grande queimado: cálculo da superfície e reposição volêmica",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral. O centro de tratamento de queimados (CTQ) de referência fica a 2 horas. Há soro aquecido e analgésicos.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Rodrigo Teixeira",
+    "idade": 35,
+    "sexo": "masculino",
+    "ocupacao": "churrasqueiro",
+    "perfil": "Com muita dor, agitado, mas colaborativo.",
+    "abertura": "Doutor, me ajuda, está queimando muito!",
+    "roteiro": [
+      {
+        "topico": "O que aconteceu",
+        "resposta": "Joguei álcool na churrasqueira e o fogo voltou em cima de mim."
+      },
+      {
+        "topico": "Horário",
+        "resposta": "Faz uma hora. Foi às 14h."
+      },
+      {
+        "topico": "Ambiente",
+        "resposta": "Foi no quintal, ao ar livre. Não fiquei em lugar fechado com fumaça."
+      },
+      {
+        "topico": "Respiração e voz",
+        "resposta": "Respiro bem. A voz está normal."
+      },
+      {
+        "topico": "Primeiros socorros",
+        "resposta": "Joguei água da mangueira. Passaram pasta de dente no braço."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doença, não tomo remédio."
+      },
+      {
+        "topico": "Vacina antitetânica",
+        "resposta": "Não lembro quando tomei a última vacina de tétano. Faz mais de 10 anos."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Peso",
+        "resposta": "Peso uns 70 quilos."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 128 x 80 mmHg, FC 112 bpm, FR 20 irpm, SatO2 98% em ar ambiente, temperatura 36,8 °C."
+    },
+    {
+      "item": "Vias aéreas e face",
+      "achado": "Face sem queimaduras. Sem fuligem na boca, sem pelos nasais chamuscados, sem rouquidão ou estridor."
+    },
+    {
+      "item": "Queimaduras: extensão e profundidade",
+      "achado": "Tronco anterior inteiro com bolhas e áreas brancas, pouco dolorosas (segundo grau profundo e terceiro grau). Membro superior direito inteiro com bolhas e leito rosado e doloroso (segundo grau). Mãos poupadas."
+    },
+    {
+      "item": "Circulação dos membros",
+      "achado": "Membro superior direito com pulsos presentes, sem queimadura circunferencial."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Queimadura na parede anterior; sem defesa."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Hemograma, eletrólitos, creatinina e CK",
+      "resultado": "Hematócrito 50%, sódio 140, potássio 4,4 mEq/L, creatinina 0,9 mg/dL, CK normal."
+    },
+    {
+      "item": "Gasometria com carboxi-hemoglobina",
+      "resultado": "Normal; carboxi-hemoglobina 1%."
+    }
+  ],
+  "diagnostico": "Grande queimado: queimadura de segundo grau profundo e terceiro grau em tronco anterior (18%) e de segundo grau em membro superior direito (9%), totalizando 27% da superfície corporal, sem lesão inalatória.",
+  "condutaEsperada": [
+    "Interromper a queimadura, remover roupas e adornos, cobrir com compressas limpas e secas e evitar hipotermia.",
+    "Avaliar a via aérea (sem sinais de lesão inalatória) e o ABCDE.",
+    "Superfície corporal queimada pela regra dos nove: 27% (só segundo e terceiro graus contam).",
+    "Reposição com Ringer lactato pela fórmula de Parkland: 4 mL x 70 kg x 27% = 7.560 mL em 24 horas, metade nas primeiras 8 horas contadas a partir da queimadura (14h) e o restante nas 16 horas seguintes. Ajustar pela diurese (0,5 mL/kg/h, cerca de 35 mL/h), com sonda vesical.",
+    "Analgesia com opioide IV, profilaxia do tétano (vacina e imunoglobulina antitetânica pela história incerta), sem antibiótico profilático; limpar a pasta de dente e fazer curativo.",
+    "Encaminhar ao centro de tratamento de queimados (mais de 20% de superfície queimada)."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se, acolhe e oferece analgesia.",
+      "peso": 0.5
+    },
+    {
+      "id": "mecanismo",
+      "item": "Pergunta o mecanismo, o horário e o ambiente (fechado ou aberto).",
+      "peso": 1
+    },
+    {
+      "id": "via-aerea",
+      "item": "Investiga e examina sinais de lesão inalatória (face, fuligem, rouquidão, estridor).",
+      "peso": 1.5
+    },
+    {
+      "id": "scq",
+      "item": "Calcula a superfície corporal queimada pela regra dos nove (cerca de 27%).",
+      "peso": 1.5
+    },
+    {
+      "id": "profundidade",
+      "item": "Classifica a profundidade das queimaduras.",
+      "peso": 0.5
+    },
+    {
+      "id": "parkland",
+      "item": "Calcula a reposição pela fórmula de Parkland com Ringer lactato, metade nas primeiras 8 horas.",
+      "peso": 2
+    },
+    {
+      "id": "diurese",
+      "item": "Indica sonda vesical e meta de diurese de 0,5 mL/kg/h.",
+      "peso": 1
+    },
+    {
+      "id": "tetano",
+      "item": "Indica a profilaxia do tétano.",
+      "peso": 0.5
+    },
+    {
+      "id": "ctq",
+      "item": "Indica a transferência para centro de tratamento de queimados.",
+      "peso": 1.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Cartilha para tratamento de emergência das queimaduras, 2012.",
+    "ATLS, 10ª edição: lesões térmicas."
+  ]
+}

@@ -70,6 +70,10 @@
       {
         "topico": "Medicamentos",
         "resposta": "Só ácido fólico."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
       }
     ],
     "perguntasDoPaciente": [

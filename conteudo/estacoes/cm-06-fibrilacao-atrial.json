@@ -1,0 +1,192 @@
+{
+  "id": "cm-06-fibrilacao-atrial",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Cardiologia",
+  "titulo": "Coração disparado há dois dias",
+  "tema": "Fibrilação atrial: controle de frequência e anticoagulação",
+  "duracaoMin": 10,
+  "cenario": "Pronto atendimento de hospital geral. Há monitor, eletrocardiograma, desfibrilador e laboratório.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Helena Prado",
+    "idade": 72,
+    "sexo": "feminino",
+    "ocupacao": "professora aposentada",
+    "perfil": "Lúcida, um pouco ansiosa. Descreve bem os sintomas.",
+    "abertura": "Doutor, o meu coração está disparado e batendo errado.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou anteontem à tarde. Não sei a hora exata."
+      },
+      {
+        "topico": "Palpitação",
+        "resposta": "É um batimento rápido e bagunçado, o tempo todo."
+      },
+      {
+        "topico": "Sintomas associados",
+        "resposta": "Um pouco de cansaço quando ando. Não desmaiei."
+      },
+      {
+        "topico": "Dor no peito",
+        "resposta": "Não tenho dor no peito."
+      },
+      {
+        "topico": "Falta de ar ao deitar, inchaço",
+        "resposta": "Não."
+      },
+      {
+        "topico": "Episódios anteriores",
+        "resposta": "Há uns meses senti algo parecido, mas passou sozinho em uma hora."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Pressão alta há 10 anos. Não tenho diabetes. Nunca tive derrame nem infarto."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Losartana 50 mg duas vezes ao dia."
+      },
+      {
+        "topico": "Sangramentos e quedas",
+        "resposta": "Nunca tive sangramento. Não caio."
+      },
+      {
+        "topico": "Tireoide, café, álcool",
+        "resposta": "Não tenho problema de tireoide. Café, dois por dia. Não bebo."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Meu pai tinha arritmia."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Esse remédio de afinar o sangue não é perigoso?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 132 x 82 mmHg, FC 138 bpm irregular, FR 18 irpm, SatO2 97%, temperatura 36,4 °C."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Bom estado geral, lúcida, sem sinais de baixo débito."
+    },
+    {
+      "item": "Aparelho cardiovascular",
+      "achado": "Ritmo cardíaco irregularmente irregular, bulhas com intensidade variável, sem sopros. Déficit de pulso."
+    },
+    {
+      "item": "Aparelho respiratório",
+      "achado": "Murmúrio vesicular presente, sem estertores."
+    },
+    {
+      "item": "Pescoço",
+      "achado": "Tireoide de tamanho normal, sem nódulos. Sem estase jugular."
+    },
+    {
+      "item": "Abdome e extremidades",
+      "achado": "Abdome sem alterações. Sem edema."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Eletrocardiograma",
+      "resultado": "Fibrilação atrial com resposta ventricular de 136 bpm, QRS estreito, sem alterações isquêmicas."
+    },
+    {
+      "item": "TSH, eletrólitos e função renal",
+      "resultado": "TSH 2,1 mUI/L, potássio 4,3, magnésio 2,0, creatinina 0,9 mg/dL (clearance 62 mL/min)."
+    },
+    {
+      "item": "Hemograma e troponina",
+      "resultado": "Hemograma normal. Troponina normal."
+    },
+    {
+      "item": "Ecocardiograma",
+      "resultado": "Fração de ejeção de 60%, átrio esquerdo de 44 mm, sem valvopatia importante, sem trombo visível no transtorácico."
+    }
+  ],
+  "diagnostico": "Fibrilação atrial de início há mais de 48 horas, com alta resposta ventricular, hemodinamicamente estável. CHA2DS2-VASc 3 (idade de 65 a 74 anos, hipertensão, sexo feminino).",
+  "condutaEsperada": [
+    "Paciente estável: controle da frequência cardíaca com betabloqueador (por exemplo, metoprolol) ou bloqueador de canal de cálcio não di-hidropiridínico; meta inicial abaixo de 110 bpm em repouso.",
+    "Não fazer cardioversão imediata: duração maior que 48 horas sem anticoagulação. Cardioversão só após 3 semanas de anticoagulação ou com ecocardiograma transesofágico sem trombo.",
+    "Anticoagulação oral pelo CHA2DS2-VASc de 3: anticoagulante oral direto (como apixabana ou rivaroxabana) ou varfarina com INR entre 2 e 3. Avaliar o risco de sangramento (HAS-BLED).",
+    "Investigar causas: TSH, eletrólitos, ecocardiograma.",
+    "Explicar o risco de AVC, a importância do anticoagulante e os sinais de sangramento; seguimento ambulatorial com cardiologia."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e explica o que vai fazer.",
+      "peso": 0.5
+    },
+    {
+      "id": "inicio",
+      "item": "Define o tempo de início da arritmia (mais ou menos de 48 horas).",
+      "peso": 1.5
+    },
+    {
+      "id": "instabilidade",
+      "item": "Investiga sinais de instabilidade (síncope, dor torácica, dispneia, hipotensão).",
+      "peso": 1
+    },
+    {
+      "id": "fatores-risco",
+      "item": "Investiga fatores do CHA2DS2-VASc e de sangramento.",
+      "peso": 1
+    },
+    {
+      "id": "causas",
+      "item": "Investiga causas (tireoide, álcool, cafeína, cardiopatia).",
+      "peso": 0.5
+    },
+    {
+      "id": "ecg",
+      "item": "Solicita e interpreta o ECG como fibrilação atrial com alta resposta.",
+      "peso": 1
+    },
+    {
+      "id": "frequencia",
+      "item": "Indica controle da frequência com betabloqueador ou antagonista de cálcio.",
+      "peso": 1.5
+    },
+    {
+      "id": "nao-cardioverter",
+      "item": "Não indica cardioversão imediata pela duração maior que 48 horas sem anticoagulação.",
+      "peso": 1
+    },
+    {
+      "id": "anticoagulacao",
+      "item": "Calcula o CHA2DS2-VASc e indica anticoagulação oral.",
+      "peso": 1.5
+    },
+    {
+      "id": "orientacao",
+      "item": "Explica o risco de AVC e de sangramento e o seguimento.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Diretrizes Brasileiras de Fibrilação Atrial, SBC 2016.",
+    "ESC Guidelines for the management of atrial fibrillation, 2024."
+  ]
+}

@@ -58,6 +58,14 @@
       {
         "topico": "Álcool e drogas",
         "resposta": "Não bebi nada hoje."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
       }
     ],
     "perguntasDoPaciente": [],
