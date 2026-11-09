@@ -1,0 +1,148 @@
+{
+  "id": "cir-22-pneumotorax-hipertensivo",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Trauma",
+  "titulo": "Falta de ar depois de acidente de moto",
+  "tema": "Pneumotórax hipertensivo",
+  "duracaoMin": 10,
+  "cenario": "Sala de emergência de hospital de referência em trauma. Há jelco calibroso, material de drenagem torácica e radiografia.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Bruno Castro",
+    "idade": 27,
+    "sexo": "masculino",
+    "ocupacao": "motoboy",
+    "perfil": "Muito agitado e com falta de ar. Fala só palavras soltas.",
+    "abertura": "Não... consigo... respirar...",
+    "roteiro": [
+      {
+        "topico": "O que aconteceu",
+        "resposta": "O socorrista conta: \"Bateu de moto num poste há 30 minutos. Bateu o lado direito do peito.\""
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Dor forte no lado direito do peito."
+      },
+      {
+        "topico": "Falta de ar",
+        "resposta": "Está piorando muito rápido."
+      },
+      {
+        "topico": "Capacete e consciência",
+        "resposta": "Estava de capacete e não desmaiou."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tem doenças."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "A: vias aéreas",
+      "achado": "Pérvias. Traqueia desviada para a esquerda."
+    },
+    {
+      "item": "B: respiração",
+      "achado": "FR 36 irpm, SatO2 82% com máscara. Murmúrio vesicular abolido à direita, hipertimpanismo à percussão à direita, enfisema subcutâneo no hemitórax direito."
+    },
+    {
+      "item": "C: circulação",
+      "achado": "PA 78 x 46 mmHg, FC 138 bpm, jugulares túrgidas, pele fria."
+    },
+    {
+      "item": "Após a descompressão por agulha",
+      "achado": "Saída de ar sob pressão. SatO2 sobe para 92%, PA 104 x 68 mmHg, FC 112 bpm."
+    },
+    {
+      "item": "Após a drenagem torácica",
+      "achado": "Dreno oscilando e borbulhando no selo d’água. Murmúrio vesicular presente à direita. SatO2 97%."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Radiografia de tórax (após a drenagem)",
+      "resultado": "Pulmão direito expandido, dreno bem posicionado, fraturas de 4º a 6º arcos costais à direita."
+    },
+    {
+      "item": "FAST e exames",
+      "resultado": "FAST sem líquido livre. Hemoglobina 13,6 g/dL."
+    }
+  ],
+  "diagnostico": "Pneumotórax hipertensivo à direita por trauma torácico fechado com fraturas de costelas, com choque obstrutivo.",
+  "condutaEsperada": [
+    "Diagnóstico clínico: insuficiência respiratória, hipotensão, desvio da traqueia, turgência jugular, murmúrio abolido e hipertimpanismo. Não esperar radiografia.",
+    "Descompressão imediata por agulha (cateter calibroso) no 4º ou 5º espaço intercostal, entre as linhas axilares anterior e média (no adulto), ou no 2º espaço na linha hemiclavicular.",
+    "Drenagem torácica em selo d’água no 5º espaço intercostal, entre as linhas axilares anterior e média, após a descompressão.",
+    "Oxigênio, monitorização e reavaliação do ABCDE; radiografia de tórax de controle.",
+    "Analgesia para as fraturas de costelas e vigilância de hemotórax e contusão pulmonar.",
+    "Explicar ao paciente o procedimento."
+  ],
+  "pep": [
+    {
+      "id": "abcde",
+      "item": "Faz a avaliação inicial ABCDE.",
+      "peso": 1
+    },
+    {
+      "id": "sinais",
+      "item": "Identifica desvio da traqueia, murmúrio abolido, hipertimpanismo e turgência jugular.",
+      "peso": 1.5
+    },
+    {
+      "id": "choque",
+      "item": "Reconhece o choque obstrutivo.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica pneumotórax hipertensivo clinicamente, sem esperar radiografia.",
+      "peso": 1.5
+    },
+    {
+      "id": "descompressao",
+      "item": "Realiza a descompressão por agulha no local correto.",
+      "peso": 2
+    },
+    {
+      "id": "drenagem",
+      "item": "Indica drenagem torácica em selo d’água no local correto.",
+      "peso": 2
+    },
+    {
+      "id": "reavaliacao",
+      "item": "Reavalia após cada intervenção e solicita radiografia de controle.",
+      "peso": 0.5
+    },
+    {
+      "id": "analgesia",
+      "item": "Prescreve analgesia para as fraturas de costelas.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "ATLS, 10ª edição: trauma torácico."
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "id": "cm-21-risco-suicidio",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Psiquiatria",
+  "titulo": "Cortes no punho",
+  "tema": "Tentativa de suicídio: avaliação de risco e conduta",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com psiquiatria de sobreaviso. O paciente foi trazido pelo irmão. Os ferimentos já foram limpos pela enfermagem.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Rafael Antunes",
+    "idade": 24,
+    "sexo": "masculino",
+    "ocupacao": "desempregado (era vendedor)",
+    "perfil": "Cabisbaixo, fala pouco, evita olhar. Se o médico for acolhedor e direto, responde às perguntas.",
+    "abertura": "Eu não queria vir. Meu irmão me trouxe.",
+    "roteiro": [
+      {
+        "topico": "O que aconteceu",
+        "resposta": "Fiz uns cortes no punho com uma lâmina hoje de madrugada."
+      },
+      {
+        "topico": "Intenção",
+        "resposta": "Eu queria morrer. Não aguento mais."
+      },
+      {
+        "topico": "Planejamento",
+        "resposta": "Pensei nisso a semana toda. Escrevi uma carta para a minha mãe."
+      },
+      {
+        "topico": "O que impediu",
+        "resposta": "Meu irmão chegou e me viu."
+      },
+      {
+        "topico": "Ideias agora",
+        "resposta": "Ainda penso que seria melhor não estar aqui. Se eu sair, não sei o que faço."
+      },
+      {
+        "topico": "Tentativas anteriores",
+        "resposta": "Tomei uma caixa de remédio há 2 anos e fui parar no hospital."
+      },
+      {
+        "topico": "Humor",
+        "resposta": "Estou triste há meses, não durmo, não sinto vontade de nada."
+      },
+      {
+        "topico": "Perdas recentes",
+        "resposta": "Perdi o emprego há 3 meses e a namorada terminou comigo."
+      },
+      {
+        "topico": "Álcool e drogas",
+        "resposta": "Tenho bebido todo dia. Bebi antes de me cortar."
+      },
+      {
+        "topico": "Acesso a meios",
+        "resposta": "Em casa tem os remédios da minha mãe e uma arma do meu pai."
+      },
+      {
+        "topico": "Tratamento",
+        "resposta": "Nunca fiz tratamento. Achava que era fraqueza."
+      },
+      {
+        "topico": "Fatores de proteção",
+        "resposta": "Gosto muito do meu irmão e da minha mãe."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Vocês vão me prender aqui?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 126 x 80 mmHg, FC 88 bpm, SatO2 98%, temperatura 36,5 °C."
+    },
+    {
+      "item": "Ferimentos",
+      "achado": "Três cortes superficiais no punho esquerdo, já limpos, sem lesão de tendão, nervo ou vaso."
+    },
+    {
+      "item": "Exame do estado mental",
+      "achado": "Vígil, orientado, hálito etílico leve, humor deprimido, afeto embotado, pensamento lentificado com ideação suicida persistente e plano, sem sintomas psicóticos, crítica parcial."
+    },
+    {
+      "item": "Exame neurológico",
+      "achado": "Sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Etanol sérico",
+      "resultado": "80 mg/dL."
+    },
+    {
+      "item": "Paracetamol e salicilato séricos e ECG",
+      "resultado": "Indetectáveis. ECG normal (afasta ingestão oculta)."
+    }
+  ],
+  "diagnostico": "Tentativa de suicídio com alta intencionalidade e risco de suicídio alto (plano, carta, tentativa prévia, ideação persistente, depressão, álcool, perdas recentes, acesso a meios letais, sexo masculino).",
+  "condutaEsperada": [
+    "Garantir um ambiente seguro: observação contínua, retirar objetos perigosos, não deixar o paciente sozinho.",
+    "Tratar as lesões e afastar ingestão associada (paracetamol, salicilato, ECG).",
+    "Avaliar o risco de suicídio de forma direta e empática: intenção, plano, letalidade, tentativas prévias, acesso a meios, fatores de risco e de proteção.",
+    "Risco alto: avaliação psiquiátrica e internação (voluntária, ou involuntária se recusar, conforme a Lei 10.216/2001).",
+    "Notificação compulsória imediata de lesão autoprovocada (tentativa de suicídio).",
+    "Envolver a família: retirar a arma e os medicamentos de casa; depois da alta, plano de segurança, CAPS, tratamento da depressão e do uso de álcool, e retorno breve."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe sem julgamento.",
+      "peso": 1
+    },
+    {
+      "id": "pergunta",
+      "item": "Pergunta diretamente sobre a intenção suicida.",
+      "peso": 1
+    },
+    {
+      "id": "plano",
+      "item": "Investiga planejamento, carta e letalidade.",
+      "peso": 1
+    },
+    {
+      "id": "ideacao",
+      "item": "Investiga a ideação atual.",
+      "peso": 1
+    },
+    {
+      "id": "fatores",
+      "item": "Investiga tentativas prévias, depressão, álcool, perdas e acesso a meios.",
+      "peso": 1.5
+    },
+    {
+      "id": "protecao",
+      "item": "Identifica fatores de proteção.",
+      "peso": 0.5
+    },
+    {
+      "id": "seguranca",
+      "item": "Garante segurança imediata e observação contínua.",
+      "peso": 1
+    },
+    {
+      "id": "classifica",
+      "item": "Classifica o risco como alto.",
+      "peso": 0.5
+    },
+    {
+      "id": "internacao",
+      "item": "Indica avaliação psiquiátrica e internação.",
+      "peso": 1
+    },
+    {
+      "id": "notificacao",
+      "item": "Notifica a lesão autoprovocada.",
+      "peso": 0.5
+    },
+    {
+      "id": "familia",
+      "item": "Orienta a família a retirar armas e medicamentos e planeja o seguimento.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Prevenção do suicídio: manual dirigido a profissionais das equipes de saúde mental.",
+    "Associação Brasileira de Psiquiatria. Suicídio: informando para prevenir."
+  ]
+}

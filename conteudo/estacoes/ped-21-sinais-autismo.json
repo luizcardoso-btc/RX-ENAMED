@@ -1,0 +1,177 @@
+{
+  "id": "ped-21-sinais-autismo",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Desenvolvimento infantil",
+  "titulo": "Meu filho ainda não fala",
+  "tema": "Atraso do desenvolvimento: sinais de transtorno do espectro autista",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde, consulta de puericultura. A mãe traz a Caderneta da Criança.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Fernanda Costa, mãe de Enzo (2 anos)",
+    "idade": 30,
+    "sexo": "feminino",
+    "ocupacao": "professora",
+    "perfil": "Preocupada, mas a sogra diz que \"cada criança tem seu tempo\". Enzo brinca sozinho no chão do consultório.",
+    "abertura": "Doutor, o Enzo tem 2 anos e ainda não fala nenhuma palavra. A minha sogra diz que é normal.",
+    "roteiro": [
+      {
+        "topico": "Fala",
+        "resposta": "Ele não fala palavras com sentido. Faz uns sons repetidos."
+      },
+      {
+        "topico": "Atender pelo nome",
+        "resposta": "Quase nunca olha quando a gente chama, parece que não escuta. Mas ouve o barulho da TV de longe."
+      },
+      {
+        "topico": "Apontar e mostrar",
+        "resposta": "Não aponta para pedir as coisas. Pega a minha mão e leva até o que ele quer."
+      },
+      {
+        "topico": "Contato visual",
+        "resposta": "Olha pouco nos olhos."
+      },
+      {
+        "topico": "Brincadeiras",
+        "resposta": "Gosta de enfileirar os carrinhos e girar as rodas por muito tempo. Não brinca de faz de conta."
+      },
+      {
+        "topico": "Movimentos e rotina",
+        "resposta": "Balança as mãos quando fica animado. Fica muito irritado se a rotina muda."
+      },
+      {
+        "topico": "Outras crianças",
+        "resposta": "Não se interessa pelas crianças da creche."
+      },
+      {
+        "topico": "Marcos motores",
+        "resposta": "Sentou com 6 meses e andou com 1 ano e 2 meses."
+      },
+      {
+        "topico": "Perda de habilidades",
+        "resposta": "Com 1 ano ele falava \"mamã\", depois parou."
+      },
+      {
+        "topico": "Gestação, parto e audição",
+        "resposta": "Gestação e parto normais. O teste da orelhinha foi normal."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "O primo do pai tem autismo."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não teve febre."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "A culpa é minha? Foi alguma vacina?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Crescimento",
+      "achado": "Peso, estatura e perímetro cefálico adequados para a idade."
+    },
+    {
+      "item": "Observação do comportamento",
+      "achado": "Não responde ao nome, pouco contato visual, não compartilha atenção (não olha para onde o médico aponta), alinha objetos, estereotipias de mãos."
+    },
+    {
+      "item": "Exame físico e neurológico",
+      "achado": "Sem dismorfias, sem manchas de pele, tônus e reflexos normais."
+    },
+    {
+      "item": "Caderneta da Criança",
+      "achado": "Marcos de linguagem e de interação social dos 12 e 18 meses ausentes."
+    }
+  ],
+  "exames": [
+    {
+      "item": "M-CHAT-R/F",
+      "resultado": "13 pontos: alto risco para transtorno do espectro autista."
+    },
+    {
+      "item": "Avaliação auditiva (BERA ou emissões otoacústicas)",
+      "resultado": "A solicitar para afastar perda auditiva."
+    }
+  ],
+  "diagnostico": "Atraso de linguagem e de interação social com sinais de alerta para transtorno do espectro autista (M-CHAT-R de alto risco, perda de habilidades), em criança de 2 anos.",
+  "condutaEsperada": [
+    "Valorizar a preocupação da mãe; não adiar com \"cada criança tem seu tempo\" diante de sinais de alerta.",
+    "Vigilância do desenvolvimento com a Caderneta da Criança e aplicação do M-CHAT-R/F (de 16 a 30 meses).",
+    "Afastar perda auditiva (avaliação auditiva) e outras causas.",
+    "Encaminhar para avaliação diagnóstica multiprofissional (neuropediatria ou psiquiatria infantil, fonoaudiologia, terapia ocupacional, psicologia) e iniciar a estimulação precoce sem esperar o diagnóstico (CER, CAPSi, rede local).",
+    "Orientar a família a estimular a comunicação e a interação no dia a dia e informar os direitos (Lei 12.764/2012).",
+    "Seguimento próximo na puericultura e apoio à família."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e valoriza a preocupação da mãe.",
+      "peso": 1
+    },
+    {
+      "id": "linguagem",
+      "item": "Investiga a linguagem e a perda de habilidades.",
+      "peso": 1
+    },
+    {
+      "id": "social",
+      "item": "Investiga atenção compartilhada, resposta ao nome, contato visual e brincadeira.",
+      "peso": 1.5
+    },
+    {
+      "id": "repetitivos",
+      "item": "Investiga comportamentos repetitivos e rigidez de rotina.",
+      "peso": 1
+    },
+    {
+      "id": "marcos",
+      "item": "Revisa os marcos do desenvolvimento na caderneta.",
+      "peso": 0.5
+    },
+    {
+      "id": "observa",
+      "item": "Observa o comportamento da criança na consulta.",
+      "peso": 1
+    },
+    {
+      "id": "mchat",
+      "item": "Aplica o M-CHAT-R e interpreta como alto risco.",
+      "peso": 1
+    },
+    {
+      "id": "audicao",
+      "item": "Solicita avaliação auditiva.",
+      "peso": 0.5
+    },
+    {
+      "id": "encaminha",
+      "item": "Encaminha para avaliação multiprofissional e estimulação precoce sem esperar o diagnóstico.",
+      "peso": 1.5
+    },
+    {
+      "id": "orienta",
+      "item": "Orienta a família sobre estimulação e direitos.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Diretrizes de atenção à reabilitação da pessoa com transtornos do espectro do autismo.",
+    "Sociedade Brasileira de Pediatria. Manual de orientação: transtorno do espectro do autismo, 2019."
+  ]
+}

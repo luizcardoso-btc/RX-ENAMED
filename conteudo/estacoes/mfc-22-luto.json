@@ -1,0 +1,172 @@
+{
+  "id": "mfc-22-luto",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Atenção primária",
+  "titulo": "Não durmo desde que meu marido morreu",
+  "tema": "Luto e abordagem familiar",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. A paciente é acompanhada pela equipe há anos. A agente comunitária contou que a família está em conflito.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Dona Marta Ribeiro",
+    "idade": 58,
+    "sexo": "feminino",
+    "ocupacao": "costureira",
+    "perfil": "Chorosa, fala do marido com saudade. Quer \"um remédio para dormir\".",
+    "abertura": "Doutor, desde que o meu marido morreu eu não durmo. Me passa um remédio para dormir?",
+    "roteiro": [
+      {
+        "topico": "Perda",
+        "resposta": "Meu marido morreu de infarto há 3 meses. Foi de repente."
+      },
+      {
+        "topico": "Sentimentos",
+        "resposta": "Sinto muita saudade. Choro quando vejo as coisas dele. Às vezes sinto culpa por não ter percebido antes."
+      },
+      {
+        "topico": "Sono e apetite",
+        "resposta": "Demoro para dormir e acordo de madrugada. Como menos."
+      },
+      {
+        "topico": "Atividades",
+        "resposta": "Continuo costurando e cuidando da casa. Vou à igreja aos domingos."
+      },
+      {
+        "topico": "Prazer",
+        "resposta": "Ainda gosto de ver os netos, isso me alegra."
+      },
+      {
+        "topico": "Ideias de morte",
+        "resposta": "Às vezes penso que queria ir junto com ele, mas não penso em me matar. Tenho os netos."
+      },
+      {
+        "topico": "Família",
+        "resposta": "Moro sozinha agora. Os dois filhos brigam por causa da casa e da pensão. Minha filha mais nova se afastou."
+      },
+      {
+        "topico": "Apoio",
+        "resposta": "Minha irmã vem me ver toda semana. O pessoal da igreja ajuda."
+      },
+      {
+        "topico": "Álcool e remédios",
+        "resposta": "Não bebo. Uma vizinha me deu um comprimido de diazepam."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Pressão alta controlada."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Isso é normal? Eu estou ficando louca?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 132 x 84 mmHg, FC 78 bpm, peso 2 kg menor que na última consulta."
+    },
+    {
+      "item": "Estado mental",
+      "achado": "Humor triste, choro ao falar do marido, sem lentificação, sem sintomas psicóticos, sem ideação suicida estruturada."
+    },
+    {
+      "item": "Exame físico",
+      "achado": "Sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Genograma e ecomapa",
+      "resultado": "Viúva há 3 meses, dois filhos adultos em conflito pela herança, rede de apoio na irmã e na igreja."
+    },
+    {
+      "item": "APGAR familiar",
+      "resultado": "Disfunção familiar moderada."
+    },
+    {
+      "item": "PHQ-9",
+      "resultado": "9 pontos (sintomas leves)."
+    }
+  ],
+  "diagnostico": "Luto normal (3 meses) com insônia, em família no ciclo de vida da viuvez e com conflito entre os filhos; sem critérios para depressão maior ou luto prolongado.",
+  "condutaEsperada": [
+    "Escuta ativa e validação: o luto é uma resposta natural à perda; explicar o que é esperado.",
+    "Diferenciar o luto normal do luto prolongado (mais de 12 meses, com saudade intensa e prejuízo) e da depressão maior; avaliar o risco de suicídio.",
+    "Não medicalizar o luto: evitar benzodiazepínico (orientar a não usar o diazepam da vizinha); higiene do sono e rotina.",
+    "Usar ferramentas de abordagem familiar (genograma, ecomapa, ciclo de vida) e oferecer conferência familiar para mediar o conflito dos filhos.",
+    "Fortalecer a rede de apoio (irmã, igreja, grupos de convivência e de luto da comunidade).",
+    "Retorno em 2 a 4 semanas e reavaliação se os sintomas se intensificarem."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe a dor da perda.",
+      "peso": 1.5
+    },
+    {
+      "id": "luto",
+      "item": "Explora a perda, os sentimentos e o tempo de luto.",
+      "peso": 1
+    },
+    {
+      "id": "funcionamento",
+      "item": "Avalia o funcionamento, o prazer e o autocuidado.",
+      "peso": 1
+    },
+    {
+      "id": "suicidio",
+      "item": "Avalia ideação de morte e risco de suicídio.",
+      "peso": 1
+    },
+    {
+      "id": "diferencia",
+      "item": "Diferencia luto normal de depressão e luto prolongado.",
+      "peso": 1
+    },
+    {
+      "id": "familia",
+      "item": "Investiga a dinâmica familiar (genograma, ciclo de vida, conflitos).",
+      "peso": 1.5
+    },
+    {
+      "id": "nao-medicalizar",
+      "item": "Não prescreve benzodiazepínico e orienta higiene do sono.",
+      "peso": 1
+    },
+    {
+      "id": "rede",
+      "item": "Fortalece a rede de apoio e oferece conferência familiar.",
+      "peso": 1
+    },
+    {
+      "id": "seguimento",
+      "item": "Combina retorno.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Cadernos de Atenção Básica nº 34: Saúde mental.",
+    "Sociedade Brasileira de Medicina de Família e Comunidade. Abordagem familiar."
+  ]
+}

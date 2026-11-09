@@ -1,0 +1,160 @@
+{
+  "id": "mfc-21-raiva",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Medicina de Família e Comunidade / Saúde Coletiva",
+  "especialidade": "Vigilância em saúde",
+  "titulo": "Mordida de cachorro",
+  "tema": "Profilaxia da raiva humana pós-exposição",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde de referência para atendimento antirrábico, com vacina e soro antirrábico disponíveis.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Diego Fernandes",
+    "idade": 30,
+    "sexo": "masculino",
+    "ocupacao": "carteiro",
+    "perfil": "Assustado, com a mão enrolada num pano.",
+    "abertura": "Doutor, um cachorro me mordeu na mão quando eu entregava as cartas.",
+    "roteiro": [
+      {
+        "topico": "Quando",
+        "resposta": "Foi há 6 horas."
+      },
+      {
+        "topico": "Animal",
+        "resposta": "Um cachorro de rua, que eu nunca tinha visto. Fugiu depois de morder."
+      },
+      {
+        "topico": "Comportamento do animal",
+        "resposta": "Estava agressivo, latindo e babando. Me atacou sem eu provocar."
+      },
+      {
+        "topico": "Possibilidade de observar o animal",
+        "resposta": "Ninguém sabe de quem é. Não tem como achar."
+      },
+      {
+        "topico": "Local da mordida",
+        "resposta": "Na mão direita, entre o polegar e o indicador."
+      },
+      {
+        "topico": "Primeiros cuidados",
+        "resposta": "Lavei só com água da torneira."
+      },
+      {
+        "topico": "Vacina antirrábica",
+        "resposta": "Nunca tomei vacina contra raiva."
+      },
+      {
+        "topico": "Vacina antitetânica",
+        "resposta": "Tomei a vacina de tétano há 3 anos, no trabalho."
+      },
+      {
+        "topico": "Doenças e imunidade",
+        "resposta": "Não tenho doenças."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia, nem a soro."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Vou ter que tomar aquelas injeções na barriga?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Ferimento",
+      "achado": "Mordedura profunda e dilacerante de 3 cm no dorso da mão direita, entre o polegar e o indicador, com sangramento discreto."
+    },
+    {
+      "item": "Função da mão",
+      "achado": "Tendões, sensibilidade e perfusão preservados."
+    },
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 124 x 80 mmHg, FC 86 bpm, temperatura 36,6 °C."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Classificação da exposição",
+      "resultado": "Acidente grave (mordedura em mão, ferimento profundo), por cão não observável."
+    }
+  ],
+  "diagnostico": "Exposição grave ao vírus da raiva (mordedura profunda em mão por cão não observável), com indicação de soro e vacina antirrábicos.",
+  "condutaEsperada": [
+    "Lavar o ferimento imediatamente com água corrente e sabão em abundância; antissepsia; evitar sutura (se necessário, apenas pontos de aproximação após infiltrar o soro).",
+    "Classificar o acidente (grave: mãos, cabeça, pés, mucosas, ferimentos profundos ou múltiplos) e a condição do animal (não observável).",
+    "Profilaxia pós-exposição: vacina antirrábica (4 doses: dias 0, 3, 7 e 14, por via intramuscular, ou esquema intradérmico conforme o serviço) e soro antirrábico ou imunoglobulina humana antirrábica infiltrados ao redor do ferimento.",
+    "Profilaxia do tétano: esquema em dia (reforço há 3 anos), sem necessidade de nova dose.",
+    "Antibiótico profilático pela mordedura profunda na mão (amoxicilina com clavulanato).",
+    "Notificar o atendimento antirrábico, acionar o controle de zoonoses para buscar o animal e orientar a completar todas as doses."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe o paciente.",
+      "peso": 0.5
+    },
+    {
+      "id": "acidente",
+      "item": "Caracteriza o acidente (local, profundidade, tempo).",
+      "peso": 1
+    },
+    {
+      "id": "animal",
+      "item": "Investiga a espécie, o comportamento e se o animal pode ser observado.",
+      "peso": 1.5
+    },
+    {
+      "id": "vacinacao",
+      "item": "Pergunta vacinação antirrábica prévia e antitetânica.",
+      "peso": 1
+    },
+    {
+      "id": "limpeza",
+      "item": "Indica lavagem abundante com água e sabão e evita sutura.",
+      "peso": 1.5
+    },
+    {
+      "id": "classificacao",
+      "item": "Classifica o acidente como grave.",
+      "peso": 1
+    },
+    {
+      "id": "soro-vacina",
+      "item": "Indica soro antirrábico infiltrado e vacina em 4 doses.",
+      "peso": 2
+    },
+    {
+      "id": "antibiotico",
+      "item": "Indica antibiótico profilático pela mordedura na mão.",
+      "peso": 0.5
+    },
+    {
+      "id": "notificacao",
+      "item": "Notifica e aciona o controle de zoonoses.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Nota técnica sobre profilaxia da raiva humana, 2022.",
+    "Ministério da Saúde. Guia de Vigilância em Saúde: raiva."
+  ]
+}

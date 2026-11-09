@@ -1,0 +1,193 @@
+{
+  "id": "go-21-sop",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Ginecologia endócrina",
+  "titulo": "Menstruação irregular e pelos no rosto",
+  "tema": "Síndrome dos ovários policísticos",
+  "duracaoMin": 10,
+  "cenario": "Ambulatório de ginecologia. A paciente traz exames pedidos na unidade básica.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Larissa Prado",
+    "idade": 24,
+    "sexo": "feminino",
+    "ocupacao": "designer",
+    "perfil": "Incomodada com os pelos e a acne, com baixa autoestima.",
+    "abertura": "Doutor, minha menstruação vem quando quer, e estou cheia de pelos no rosto e espinhas.",
+    "roteiro": [
+      {
+        "topico": "Ciclo menstrual",
+        "resposta": "Desde a primeira menstruação, aos 12 anos, vem a cada 2 ou 3 meses."
+      },
+      {
+        "topico": "Pelos",
+        "resposta": "Tenho pelos no queixo, no buço e na barriga. Faço depilação toda semana."
+      },
+      {
+        "topico": "Acne e queda de cabelo",
+        "resposta": "Tenho espinhas e o cabelo está ralo no topo."
+      },
+      {
+        "topico": "Peso",
+        "resposta": "Engordei 12 quilos em 3 anos."
+      },
+      {
+        "topico": "Início dos pelos",
+        "resposta": "Os pelos aumentaram aos poucos desde a adolescência, não de repente."
+      },
+      {
+        "topico": "Voz e clitóris",
+        "resposta": "A voz não engrossou. Nada mais mudou."
+      },
+      {
+        "topico": "Leite nas mamas",
+        "resposta": "Não sai leite das mamas."
+      },
+      {
+        "topico": "Desejo de gravidez",
+        "resposta": "Não quero engravidar agora, talvez daqui a uns anos."
+      },
+      {
+        "topico": "Contracepção",
+        "resposta": "Uso camisinha."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Não tomo nada."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Minha mãe tem diabetes."
+      },
+      {
+        "topico": "Humor",
+        "resposta": "Às vezes fico triste com a aparência."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Vou conseguir ter filhos?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais e antropometria",
+      "achado": "PA 128 x 82 mmHg, IMC 31 kg/m², circunferência abdominal 96 cm."
+    },
+    {
+      "item": "Pele",
+      "achado": "Hirsutismo (escore de Ferriman-Gallwey de 14), acne inflamatória em face e dorso, acantose nigricans no pescoço."
+    },
+    {
+      "item": "Sinais de virilização",
+      "achado": "Ausentes (sem clitoromegalia, sem alteração da voz)."
+    },
+    {
+      "item": "Exame ginecológico",
+      "achado": "Sem alterações."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Beta-hCG, TSH e prolactina",
+      "resultado": "Beta-hCG negativo. TSH e prolactina normais."
+    },
+    {
+      "item": "17-hidroxiprogesterona",
+      "resultado": "Normal (afasta hiperplasia adrenal congênita não clássica)."
+    },
+    {
+      "item": "Testosterona total e SDHEA",
+      "resultado": "Testosterona total levemente elevada. SDHEA normal."
+    },
+    {
+      "item": "Ultrassom transvaginal",
+      "resultado": "Ovários aumentados, com mais de 20 folículos de 2 a 9 mm em cada ovário."
+    },
+    {
+      "item": "Glicemia, TOTG e perfil lipídico",
+      "resultado": "Glicemia de jejum 98 mg/dL, glicemia 2 horas após 75 g de 152 mg/dL (intolerância à glicose). HDL 38, triglicerídeos 190 mg/dL."
+    }
+  ],
+  "diagnostico": "Síndrome dos ovários policísticos (critérios de Rotterdam: oligoanovulação, hiperandrogenismo clínico e laboratorial e ovários policísticos), com obesidade e intolerância à glicose.",
+  "condutaEsperada": [
+    "Diagnóstico pelos critérios de Rotterdam (2 de 3), excluindo gravidez, hipotireoidismo, hiperprolactinemia, hiperplasia adrenal e tumores produtores de andrógenos (início súbito ou virilização).",
+    "Mudança de estilo de vida: perda de 5 a 10% do peso melhora ciclos, hiperandrogenismo e metabolismo.",
+    "Anticoncepcional combinado (sem contraindicações) para regular o ciclo, proteger o endométrio e tratar hirsutismo e acne.",
+    "Espironolactona após 6 meses, se o hirsutismo persistir (sempre com contracepção eficaz); metformina pela intolerância à glicose.",
+    "Rastreamento metabólico periódico (glicemia, lipídeos, pressão), apneia do sono e saúde emocional.",
+    "Explicar que, quando quiser engravidar, há tratamento (letrozol para induzir a ovulação)."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe as queixas.",
+      "peso": 0.5
+    },
+    {
+      "id": "ciclo",
+      "item": "Caracteriza a irregularidade menstrual.",
+      "peso": 1
+    },
+    {
+      "id": "hiperandrogenismo",
+      "item": "Investiga hirsutismo, acne e alopecia.",
+      "peso": 1
+    },
+    {
+      "id": "virilizacao",
+      "item": "Pergunta sinais de virilização e início súbito (afasta tumor).",
+      "peso": 1
+    },
+    {
+      "id": "diferenciais",
+      "item": "Solicita beta-hCG, TSH, prolactina e 17-hidroxiprogesterona.",
+      "peso": 1.5
+    },
+    {
+      "id": "usg",
+      "item": "Interpreta o ultrassom com ovários policísticos.",
+      "peso": 0.5
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica SOP pelos critérios de Rotterdam.",
+      "peso": 1
+    },
+    {
+      "id": "metabolico",
+      "item": "Rastreia alterações metabólicas (TOTG, lipídeos).",
+      "peso": 1
+    },
+    {
+      "id": "tratamento",
+      "item": "Indica mudança de estilo de vida e anticoncepcional combinado.",
+      "peso": 1.5
+    },
+    {
+      "id": "futuro",
+      "item": "Orienta sobre fertilidade futura e seguimento.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "International evidence-based guideline for the assessment and management of polycystic ovary syndrome, 2023.",
+    "FEBRASGO. Síndrome dos ovários policísticos."
+  ]
+}

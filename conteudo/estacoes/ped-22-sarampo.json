@@ -1,0 +1,177 @@
+{
+  "id": "ped-22-sarampo",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Infectologia pediátrica",
+  "titulo": "Febre alta e manchas que começaram no rosto",
+  "tema": "Sarampo",
+  "duracaoMin": 10,
+  "cenario": "Pronto atendimento pediátrico. Há sala de isolamento respiratório e a vigilância epidemiológica do município pode ser acionada por telefone.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Gilmar Duarte, pai de Clara (3 anos)",
+    "idade": 35,
+    "sexo": "masculino",
+    "ocupacao": "motorista",
+    "perfil": "Preocupado. Ele e a esposa decidiram não vacinar a filha por medo de reações.",
+    "abertura": "Doutor, a Clara está com febre alta há 5 dias e agora apareceram manchas no corpo.",
+    "roteiro": [
+      {
+        "topico": "Febre",
+        "resposta": "Febre de 39,5 °C há 5 dias."
+      },
+      {
+        "topico": "Primeiros sintomas",
+        "resposta": "Começou com tosse, nariz escorrendo e olhos vermelhos."
+      },
+      {
+        "topico": "Manchas",
+        "resposta": "Ontem apareceram manchas vermelhas atrás das orelhas e no rosto. Hoje desceram para o corpo."
+      },
+      {
+        "topico": "Coceira",
+        "resposta": "As manchas coçam pouco."
+      },
+      {
+        "topico": "Vacinas",
+        "resposta": "Ela não tomou nenhuma vacina depois dos 6 meses. A gente ficou com medo."
+      },
+      {
+        "topico": "Viagens e contatos",
+        "resposta": "Voltamos de uma viagem há 2 semanas. Uma criança da festa da família estava com manchas."
+      },
+      {
+        "topico": "Alimentação",
+        "resposta": "Está comendo pouco e bebendo água."
+      },
+      {
+        "topico": "Respiração e ouvido",
+        "resposta": "Tosse bastante. Não reclamou de ouvido."
+      },
+      {
+        "topico": "Convulsão e sonolência",
+        "resposta": "Não teve convulsão. Está abatida."
+      },
+      {
+        "topico": "Pessoas em casa",
+        "resposta": "Tenho um bebê de 5 meses e minha esposa está grávida de 4 meses."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "A minha esposa grávida corre risco?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "FC 132 bpm, FR 30 irpm, SatO2 96%, temperatura 39,2 °C, peso 14 kg."
+    },
+    {
+      "item": "Pele",
+      "achado": "Exantema maculopapular eritematoso, confluente na face, descendo para o tronco e os membros (progressão craniocaudal)."
+    },
+    {
+      "item": "Boca",
+      "achado": "Pequenos pontos brancos na mucosa jugal, próximos aos molares (manchas de Koplik)."
+    },
+    {
+      "item": "Olhos",
+      "achado": "Conjuntivite com lacrimejamento e fotofobia."
+    },
+    {
+      "item": "Aparelho respiratório e otoscopia",
+      "achado": "Murmúrio vesicular presente, sem estertores. Otoscopia normal."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Sorologia IgM e IgG para sarampo e rubéola",
+      "resultado": "Coletada (resultado: IgM para sarampo reagente)."
+    },
+    {
+      "item": "Swab de orofaringe e nasofaringe e urina para RT-PCR",
+      "resultado": "Coletados (vírus do sarampo detectado)."
+    }
+  ],
+  "diagnostico": "Sarampo (febre, exantema maculopapular craniocaudal, tosse, coriza, conjuntivite e manchas de Koplik) em criança não vacinada.",
+  "condutaEsperada": [
+    "Isolamento respiratório por aerossóis (máscara N95 para a equipe) até 4 dias após o início do exantema.",
+    "Notificação imediata (em até 24 horas) à vigilância epidemiológica; coletar sorologia (IgM e IgG) e amostras para RT-PCR (swab e urina).",
+    "Vitamina A em duas doses (200.000 UI em crianças de 1 ano ou mais, nos dias 1 e 2) para reduzir complicações.",
+    "Tratamento de suporte (antitérmico, hidratação, nutrição) e vigilância de complicações (pneumonia, otite, diarreia, encefalite).",
+    "Bloqueio vacinal: vacinar os contatos suscetíveis em até 72 horas; imunoglobulina em até 6 dias para contatos de risco que não podem receber vacina (gestante não vacinada, bebê menor de 6 meses, imunodeprimidos).",
+    "Abordar a hesitação vacinal com acolhimento e atualizar o calendário da criança e da família."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe o pai sem julgamento.",
+      "peso": 0.5
+    },
+    {
+      "id": "quadro",
+      "item": "Caracteriza a febre, os sintomas catarrais e a progressão do exantema.",
+      "peso": 1.5
+    },
+    {
+      "id": "vacinas",
+      "item": "Investiga a situação vacinal e os contatos.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Examina a pele, a boca (Koplik) e os olhos.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica sarampo (caso suspeito).",
+      "peso": 1
+    },
+    {
+      "id": "isolamento",
+      "item": "Indica isolamento respiratório por aerossóis.",
+      "peso": 1
+    },
+    {
+      "id": "notificacao",
+      "item": "Notifica imediatamente e coleta sorologia e RT-PCR.",
+      "peso": 1.5
+    },
+    {
+      "id": "vitamina-a",
+      "item": "Prescreve vitamina A.",
+      "peso": 1
+    },
+    {
+      "id": "contatos",
+      "item": "Orienta bloqueio vacinal e imunoglobulina para a gestante e o bebê.",
+      "peso": 1
+    },
+    {
+      "id": "hesitacao",
+      "item": "Aborda a hesitação vacinal com respeito.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Guia de Vigilância em Saúde: sarampo.",
+    "Sociedade Brasileira de Pediatria. Sarampo: atualização."
+  ]
+}

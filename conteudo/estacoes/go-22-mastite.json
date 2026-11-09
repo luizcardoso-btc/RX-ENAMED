@@ -1,0 +1,177 @@
+{
+  "id": "go-22-mastite",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Ginecologia e Obstetrícia",
+  "especialidade": "Obstetrícia",
+  "titulo": "Mama vermelha e febre depois do parto",
+  "tema": "Mastite puerperal",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. A puérpera veio com o bebê de 3 semanas.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Juliana Freitas",
+    "idade": 28,
+    "sexo": "feminino",
+    "ocupacao": "arquiteta",
+    "perfil": "Com febre e dor, pensando em parar de amamentar por medo de passar infecção ao bebê.",
+    "abertura": "Doutor, meu peito direito está vermelho, duro e doendo, e eu estou com febre.",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou ontem com dor e uma área dura no peito direito. Hoje veio a febre."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Febre de 38,8 °C, com calafrio e dor no corpo."
+      },
+      {
+        "topico": "Amamentação",
+        "resposta": "Amamento exclusivamente. Tenho evitado o peito direito porque dói."
+      },
+      {
+        "topico": "Fissura",
+        "resposta": "Tive rachadura no bico do peito direito na primeira semana."
+      },
+      {
+        "topico": "Intervalos",
+        "resposta": "Ele está dormindo mais à noite e fica 6 horas sem mamar."
+      },
+      {
+        "topico": "Pus no leite",
+        "resposta": "Não vi pus saindo."
+      },
+      {
+        "topico": "Parto",
+        "resposta": "Parto normal há 3 semanas, sem complicações."
+      },
+      {
+        "topico": "Bebê",
+        "resposta": "O bebê está bem, ganhando peso."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Tomei paracetamol."
+      },
+      {
+        "topico": "Alergia a penicilina",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Não é melhor parar de amamentar para não passar a infecção?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 116 x 72 mmHg, FC 102 bpm, temperatura 38,7 °C."
+    },
+    {
+      "item": "Mama direita",
+      "achado": "Área eritematosa, quente, endurecida e dolorosa de 6 cm no quadrante superior lateral, sem flutuação. Mamilo com fissura cicatrizando."
+    },
+    {
+      "item": "Mama esquerda",
+      "achado": "Sem alterações."
+    },
+    {
+      "item": "Axila",
+      "achado": "Linfonodo axilar direito doloroso."
+    },
+    {
+      "item": "Observação da mamada",
+      "achado": "Pega adequada no lado esquerdo; no direito o bebê não abocanha bem a aréola endurecida."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Ultrassom da mama direita",
+      "resultado": "Edema e espessamento de tecidos no quadrante superior lateral, sem coleção (sem abscesso)."
+    },
+    {
+      "item": "Cultura do leite",
+      "resultado": "Opcional; se feita: Staphylococcus aureus sensível à oxacilina."
+    }
+  ],
+  "diagnostico": "Mastite lactacional (infecciosa) na mama direita, sem abscesso, associada a esvaziamento inadequado e fissura prévia.",
+  "condutaEsperada": [
+    "Manter a amamentação, inclusive na mama afetada: o leite não faz mal ao bebê, e o esvaziamento eficaz faz parte do tratamento.",
+    "Corrigir a pega, oferecer a mama afetada com frequência e ordenhar se necessário; não deixar longos intervalos.",
+    "Analgésico e anti-inflamatório compatíveis com a amamentação (ibuprofeno, paracetamol), compressas frias e repouso.",
+    "Antibiótico por febre e sintomas há mais de 24 horas: cefalexina 500 mg VO a cada 6 horas por 10 a 14 dias (ou amoxicilina com clavulanato).",
+    "Ultrassom para afastar abscesso; se houver, drenagem por punção guiada ou cirúrgica.",
+    "Retorno em 48 horas; procurar antes se piorar ou surgir flutuação."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe o medo da mãe.",
+      "peso": 0.5
+    },
+    {
+      "id": "quadro",
+      "item": "Caracteriza a dor, a área endurecida, a febre e o tempo.",
+      "peso": 1
+    },
+    {
+      "id": "amamentacao",
+      "item": "Investiga a técnica, os intervalos e a fissura prévia.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Examina as mamas e a axila e pesquisa flutuação.",
+      "peso": 1
+    },
+    {
+      "id": "mamada",
+      "item": "Observa a mamada.",
+      "peso": 0.5
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica mastite lactacional.",
+      "peso": 1
+    },
+    {
+      "id": "manter",
+      "item": "Orienta manter a amamentação, inclusive na mama afetada.",
+      "peso": 2
+    },
+    {
+      "id": "antibiotico",
+      "item": "Prescreve antibiótico adequado pelo tempo correto.",
+      "peso": 1.5
+    },
+    {
+      "id": "sintomaticos",
+      "item": "Prescreve analgesia compatível e compressas.",
+      "peso": 0.5
+    },
+    {
+      "id": "abscesso",
+      "item": "Solicita ultrassom para afastar abscesso e combina retorno.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Cadernos de Atenção Básica nº 23: aleitamento materno.",
+    "Academy of Breastfeeding Medicine. Clinical protocol #36: the mastitis spectrum, 2022."
+  ]
+}

@@ -1589,4 +1589,6 @@ export default {
   "As faculdades aparecem aqui a partir de {n} participantes.": "Las facultades aparecen aquí a partir de {n} participantes.",
   "Top 20 nacional": "Top 20 nacional",
   "Simulado nacional entregue. A nota oficial e a sua posição no ranking estão na aba Simulado nacional.": "Simulacro nacional entregado. La nota oficial y su posición en el ranking están en la pestaña Simulacro nacional.",
+  "Otorrinolaringologia pediátrica": "Otorrinolaringología pediátrica",
+  "Saúde mental": "Salud mental",
 };

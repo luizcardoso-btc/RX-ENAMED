@@ -1,0 +1,182 @@
+{
+  "id": "cm-22-organofosforado",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Emergência clínica",
+  "titulo": "Agricultor passando mal depois de pulverizar",
+  "tema": "Intoxicação por organofosforado",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital de cidade agrícola. Há atropina, oxigênio, material de intubação e telefone do CIATox.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Valdecir Moura",
+    "idade": 38,
+    "sexo": "masculino",
+    "ocupacao": "agricultor",
+    "perfil": "Suando muito, babando, com dificuldade de respirar e vômitos. O colega de trabalho acompanha e completa as respostas.",
+    "abertura": "Doutor... estou passando muito mal... não consigo respirar direito...",
+    "roteiro": [
+      {
+        "topico": "O que aconteceu",
+        "resposta": "O colega conta: \"A gente estava pulverizando veneno na lavoura de manhã. Ele estava sem máscara e sem luva, e a roupa ficou molhada de veneno.\""
+      },
+      {
+        "topico": "Produto",
+        "resposta": "É um inseticida organofosforado. O colega trouxe a embalagem."
+      },
+      {
+        "topico": "Início dos sintomas",
+        "resposta": "Começou há 2 horas, com suor, vômito, diarreia e falta de ar."
+      },
+      {
+        "topico": "Visão",
+        "resposta": "Diz que a vista está escura e embaçada."
+      },
+      {
+        "topico": "Tremores",
+        "resposta": "Os músculos ficam tremendo."
+      },
+      {
+        "topico": "Ingestão",
+        "resposta": "Não bebeu o produto, que eu saiba."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Ele não tem doenças."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Não toma remédio."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 92 x 58 mmHg, FC 48 bpm, FR 28 irpm, SatO2 88% em ar ambiente, temperatura 36,4 °C."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Sudorese profusa, sialorreia, lacrimejamento, cheiro de produto químico na roupa."
+    },
+    {
+      "item": "Pupilas",
+      "achado": "Miose bilateral puntiforme."
+    },
+    {
+      "item": "Aparelho respiratório",
+      "achado": "Broncorreia, sibilos e estertores difusos."
+    },
+    {
+      "item": "Neuromuscular",
+      "achado": "Fasciculações em membros e face, fraqueza muscular. Sonolento, Glasgow 13."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Ruídos hidroaéreos aumentados, diarreia."
+    },
+    {
+      "item": "Após atropina em doses repetidas",
+      "achado": "Secreções secas, pulmões limpos, FC 98 bpm, PA 112 x 70 mmHg (atropinização)."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Atividade da colinesterase eritrocitária e plasmática",
+      "resultado": "Muito reduzidas (confirmam a intoxicação)."
+    },
+    {
+      "item": "Eletrólitos, função renal, glicemia e gasometria",
+      "resultado": "Acidose respiratória leve, glicemia 168 mg/dL, demais normais."
+    },
+    {
+      "item": "Eletrocardiograma",
+      "resultado": "Bradicardia sinusal, QTc no limite superior."
+    }
+  ],
+  "diagnostico": "Intoxicação aguda por inseticida organofosforado (exposição ocupacional cutânea e inalatória), com síndrome colinérgica muscarínica e nicotínica grave.",
+  "condutaEsperada": [
+    "Descontaminação: retirar as roupas e lavar a pele e os cabelos com água e sabão; equipe com luvas e avental.",
+    "ABC: aspirar secreções, oxigênio, monitorização e acesso venoso; intubar se insuficiência respiratória (evitar succinilcolina).",
+    "Atropina 1 a 2 mg IV, dobrando a dose a cada 5 minutos até a atropinização (secreções brônquicas secas, FC acima de 80 bpm, PAS acima de 80 mmHg); o alvo são as secreções, não as pupilas. Depois, infusão contínua.",
+    "Oxima (pralidoxima) quando disponível, o mais cedo possível; benzodiazepínico para convulsões ou agitação.",
+    "Contato com o CIATox, dosagem de colinesterase e vigilância da síndrome intermediária (fraqueza respiratória entre 24 e 96 horas) em UTI.",
+    "Notificação compulsória de intoxicação exógena e acidente de trabalho (CAT); orientar o uso de EPI."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e reconhece a urgência.",
+      "peso": 0.5
+    },
+    {
+      "id": "exposicao",
+      "item": "Investiga o produto, a via de exposição e o tempo.",
+      "peso": 1
+    },
+    {
+      "id": "descontaminacao",
+      "item": "Indica descontaminação com retirada das roupas e lavagem, com proteção da equipe.",
+      "peso": 1.5
+    },
+    {
+      "id": "sindrome",
+      "item": "Reconhece a síndrome colinérgica (miose, secreções, bradicardia, fasciculações).",
+      "peso": 1.5
+    },
+    {
+      "id": "abc",
+      "item": "Garante vias aéreas, oxigênio e monitorização.",
+      "peso": 1
+    },
+    {
+      "id": "atropina",
+      "item": "Prescreve atropina em doses crescentes até a atropinização (secreções secas).",
+      "peso": 2
+    },
+    {
+      "id": "oxima",
+      "item": "Indica pralidoxima e benzodiazepínico se convulsão.",
+      "peso": 0.5
+    },
+    {
+      "id": "ciatox",
+      "item": "Contata o CIATox e indica UTI.",
+      "peso": 0.5
+    },
+    {
+      "id": "notificacao",
+      "item": "Notifica a intoxicação e o acidente de trabalho.",
+      "peso": 1
+    },
+    {
+      "id": "epi",
+      "item": "Orienta o uso de equipamento de proteção.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Diretrizes brasileiras para diagnóstico e tratamento de intoxicações por agrotóxicos, 2018."
+  ]
+}

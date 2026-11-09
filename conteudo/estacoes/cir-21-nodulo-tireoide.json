@@ -1,0 +1,173 @@
+{
+  "id": "cir-21-nodulo-tireoide",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Cirurgia de cabeça e pescoço",
+  "titulo": "Caroço no pescoço",
+  "tema": "Nódulo de tireoide: investigação e conduta",
+  "duracaoMin": 10,
+  "cenario": "Ambulatório de cirurgia geral e de cabeça e pescoço. A paciente traz exames pedidos na unidade básica.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Paula Siqueira",
+    "idade": 38,
+    "sexo": "feminino",
+    "ocupacao": "jornalista",
+    "perfil": "Preocupada, encontrou o caroço ao se olhar no espelho.",
+    "abertura": "Doutor, apareceu um caroço no meu pescoço. É câncer?",
+    "roteiro": [
+      {
+        "topico": "Quando notou",
+        "resposta": "Há uns 3 meses, do lado direito do pescoço."
+      },
+      {
+        "topico": "Crescimento",
+        "resposta": "Acho que está do mesmo tamanho."
+      },
+      {
+        "topico": "Sintomas compressivos",
+        "resposta": "Não tenho dificuldade para engolir nem para respirar. A voz não mudou."
+      },
+      {
+        "topico": "Sintomas de tireoide",
+        "resposta": "Não tenho palpitação, tremor, perda ou ganho de peso."
+      },
+      {
+        "topico": "Radiação",
+        "resposta": "Nunca fiz radioterapia no pescoço."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Ninguém teve câncer de tireoide. Minha mãe tem hipotireoidismo."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Não dói."
+      },
+      {
+        "topico": "Gravidez",
+        "resposta": "Não estou grávida."
+      },
+      {
+        "topico": "Doenças e medicamentos",
+        "resposta": "Não tenho doenças. Não tomo remédio."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Vou ter que tomar remédio de tireoide para sempre?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Pescoço",
+      "achado": "Nódulo de cerca de 2 cm no lobo direito da tireoide, endurecido, indolor, móvel à deglutição."
+    },
+    {
+      "item": "Linfonodos cervicais",
+      "achado": "Sem linfonodos palpáveis."
+    },
+    {
+      "item": "Laringe e voz",
+      "achado": "Voz normal."
+    },
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 118 x 76 mmHg, FC 74 bpm."
+    }
+  ],
+  "exames": [
+    {
+      "item": "TSH",
+      "resultado": "1,8 mUI/L (normal)."
+    },
+    {
+      "item": "Ultrassom de tireoide",
+      "resultado": "Nódulo sólido, hipoecoico, de 2,2 cm no lobo direito, com margens irregulares e microcalcificações (TI-RADS 5). Linfonodos cervicais sem alterações."
+    },
+    {
+      "item": "Punção aspirativa por agulha fina (PAAF)",
+      "resultado": "Bethesda VI: carcinoma papilífero."
+    }
+  ],
+  "diagnostico": "Nódulo de tireoide suspeito (TI-RADS 5) com punção Bethesda VI: carcinoma papilífero de tireoide de 2,2 cm, sem linfonodos suspeitos.",
+  "condutaEsperada": [
+    "Avaliar o nódulo: história (radiação, história familiar, crescimento, sintomas compressivos) e exame do pescoço.",
+    "Dosar TSH primeiro: se estiver baixo, fazer cintilografia (nódulo hiperfuncionante raramente é maligno); com TSH normal, ultrassom.",
+    "Ultrassom com classificação de risco (TI-RADS) e PAAF quando indicada pelo tamanho e pelo padrão (por exemplo, TI-RADS 5 a partir de 1 cm).",
+    "Bethesda VI (maligno): tratamento cirúrgico, tireoidectomia total ou lobectomia (tumor de 1 a 4 cm sem extensão extratireoidiana ou linfonodos), com ultrassom de linfonodos antes.",
+    "Depois da cirurgia: estratificação do risco para decidir iodo radioativo e reposição de levotiroxina.",
+    "Explicar que o carcinoma papilífero tem excelente prognóstico."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e acolhe a preocupação.",
+      "peso": 0.5
+    },
+    {
+      "id": "nodulo",
+      "item": "Caracteriza o nódulo (tempo, crescimento, dor).",
+      "peso": 1
+    },
+    {
+      "id": "risco",
+      "item": "Investiga fatores de risco (radiação, história familiar).",
+      "peso": 1
+    },
+    {
+      "id": "compressivos",
+      "item": "Pergunta sintomas compressivos e de disfunção tireoidiana.",
+      "peso": 1
+    },
+    {
+      "id": "exame",
+      "item": "Examina a tireoide e as cadeias linfonodais.",
+      "peso": 1
+    },
+    {
+      "id": "tsh",
+      "item": "Solicita TSH como primeiro exame.",
+      "peso": 1
+    },
+    {
+      "id": "usg",
+      "item": "Solicita ultrassom e interpreta o TI-RADS.",
+      "peso": 1
+    },
+    {
+      "id": "paaf",
+      "item": "Indica PAAF e interpreta o Bethesda VI.",
+      "peso": 1.5
+    },
+    {
+      "id": "cirurgia",
+      "item": "Indica tratamento cirúrgico.",
+      "peso": 1
+    },
+    {
+      "id": "prognostico",
+      "item": "Comunica o diagnóstico e o bom prognóstico.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "American Thyroid Association. Management guidelines for adult patients with thyroid nodules and differentiated thyroid cancer, 2015.",
+    "Sociedade Brasileira de Endocrinologia e Metabologia. Nódulos tireoidianos."
+  ]
+}
