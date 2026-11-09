@@ -1,0 +1,186 @@
+{
+  "id": "cm-18-cefaleia",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Neurologia",
+  "titulo": "Dor de cabeça que vai e volta",
+  "tema": "Cefaleia: enxaqueca sem aura e uso excessivo de analgésicos",
+  "duracaoMin": 10,
+  "cenario": "Unidade Básica de Saúde. A paciente veio pedir uma tomografia \"para ver se é tumor\".",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Jéssica Andrade",
+    "idade": 28,
+    "sexo": "feminino",
+    "ocupacao": "analista de RH",
+    "perfil": "Cansada das crises, com medo de tumor. Fala bem.",
+    "abertura": "Doutor, eu tenho dor de cabeça direto. Quero fazer uma tomografia para ver se não é tumor.",
+    "roteiro": [
+      {
+        "topico": "Tempo de doença",
+        "resposta": "Tenho dor de cabeça desde os 16 anos. Piorou no último ano."
+      },
+      {
+        "topico": "Características",
+        "resposta": "É de um lado só, latejando, forte. Dura de 6 horas a 1 dia."
+      },
+      {
+        "topico": "Sintomas associados",
+        "resposta": "Enjoo, às vezes vômito, e não suporto luz nem barulho. Preciso deitar no escuro."
+      },
+      {
+        "topico": "Aura",
+        "resposta": "Não vejo luzes nem perco a visão antes da dor. Não tenho formigamento."
+      },
+      {
+        "topico": "Frequência",
+        "resposta": "Tenho umas 5 crises por mês, e uma dor fraca quase todo dia."
+      },
+      {
+        "topico": "Analgésicos",
+        "resposta": "Tomo dipirona ou um remédio com cafeína quase todo dia, uns 20 dias por mês."
+      },
+      {
+        "topico": "Gatilhos",
+        "resposta": "Piora na menstruação, quando durmo pouco ou fico sem comer."
+      },
+      {
+        "topico": "Sinais de alarme",
+        "resposta": "Nunca foi a pior dor da vida de repente. Não acorda com a dor. Não tenho febre, fraqueza, alteração da fala ou da visão."
+      },
+      {
+        "topico": "Anticoncepcional",
+        "resposta": "Tomo pílula combinada há 5 anos."
+      },
+      {
+        "topico": "Fumo e pressão",
+        "resposta": "Não fumo. A pressão é normal."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Minha mãe tem enxaqueca."
+      },
+      {
+        "topico": "Humor e sono",
+        "resposta": "Durmo mal e ando ansiosa."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "Mas e se for um tumor que ninguém viu?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 116 x 74 mmHg, FC 72 bpm, temperatura 36,5 °C."
+    },
+    {
+      "item": "Exame neurológico",
+      "achado": "Normal: sem déficits, sem rigidez de nuca, marcha e coordenação normais."
+    },
+    {
+      "item": "Fundo de olho",
+      "achado": "Sem papiledema."
+    },
+    {
+      "item": "Exame de cabeça e pescoço",
+      "achado": "Sem alterações. Leve tensão da musculatura cervical."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Neuroimagem",
+      "resultado": "Não indicada: cefaleia primária típica, sem sinais de alarme e com exame neurológico normal."
+    },
+    {
+      "item": "Diário de cefaleia",
+      "resultado": "A combinar com a paciente."
+    }
+  ],
+  "diagnostico": "Enxaqueca sem aura de alta frequência (episódica alta) com cefaleia por uso excessivo de medicamentos (analgésicos em 15 ou mais dias por mês).",
+  "condutaEsperada": [
+    "Diagnóstico clínico pelos critérios da Classificação Internacional das Cefaleias; investigar sinais de alarme (SNOOP) e explicar por que a tomografia não é necessária.",
+    "Explicar a cefaleia por uso excessivo de analgésicos e combinar a redução (limite de menos de 10 dias por mês com analgésicos).",
+    "Tratamento da crise: anti-inflamatório (por exemplo, naproxeno ou ibuprofeno) com antiemético; triptano (sumatriptana) nas crises moderadas a fortes, logo no início da dor.",
+    "Profilaxia (4 ou mais crises por mês): propranolol 40 a 80 mg/dia, amitriptilina 25 mg à noite ou topiramato, com reavaliação em 2 a 3 meses.",
+    "Diário de cefaleia, sono regular, refeições regulares, atividade física e manejo do estresse.",
+    "A pílula combinada pode continuar (enxaqueca sem aura, menos de 35 anos, sem outros fatores); se surgir aura, suspender o estrogênio."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe o medo de tumor.",
+      "peso": 0.5
+    },
+    {
+      "id": "caracteristicas",
+      "item": "Caracteriza a dor (localização, tipo, duração, intensidade).",
+      "peso": 1
+    },
+    {
+      "id": "associados",
+      "item": "Pergunta náuseas, fotofobia e fonofobia.",
+      "peso": 0.5
+    },
+    {
+      "id": "aura",
+      "item": "Pergunta sobre aura.",
+      "peso": 1
+    },
+    {
+      "id": "alarme",
+      "item": "Investiga sinais de alarme (início súbito, febre, déficit, mudança de padrão).",
+      "peso": 1.5
+    },
+    {
+      "id": "analgesicos",
+      "item": "Quantifica o uso de analgésicos por mês.",
+      "peso": 1
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica enxaqueca sem aura com uso excessivo de analgésicos.",
+      "peso": 1
+    },
+    {
+      "id": "sem-imagem",
+      "item": "Explica que a neuroimagem não é necessária.",
+      "peso": 1
+    },
+    {
+      "id": "crise",
+      "item": "Prescreve tratamento adequado da crise.",
+      "peso": 0.5
+    },
+    {
+      "id": "profilaxia",
+      "item": "Indica profilaxia e a redução dos analgésicos.",
+      "peso": 1.5
+    },
+    {
+      "id": "pilula",
+      "item": "Avalia a pílula combinada em relação à aura.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "International Classification of Headache Disorders, 3ª edição (ICHD-3).",
+    "Sociedade Brasileira de Cefaleia. Recomendações para o tratamento da enxaqueca."
+  ]
+}

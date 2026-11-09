@@ -1,0 +1,183 @@
+{
+  "id": "cir-18-pe-diabetico",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Cirurgia vascular",
+  "titulo": "Ferida no pé que não cicatriza",
+  "tema": "Pé diabético infectado com suspeita de osteomielite",
+  "duracaoMin": 10,
+  "cenario": "Pronto atendimento de hospital geral com radiografia, laboratório, cirurgia vascular e cirurgia geral.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Francisco Pereira",
+    "idade": 62,
+    "sexo": "masculino",
+    "ocupacao": "aposentado (motorista)",
+    "perfil": "Tranquilo, minimiza a ferida porque \"não dói\". A filha insistiu para vir.",
+    "abertura": "Minha filha me trouxe por causa dessa ferida no pé, mas nem dói.",
+    "roteiro": [
+      {
+        "topico": "Ferida",
+        "resposta": "Apareceu há 3 semanas embaixo do dedão do pé direito, depois de usar um sapato novo."
+      },
+      {
+        "topico": "Piora",
+        "resposta": "Nesta semana ficou vermelho em volta e começou a sair pus com mau cheiro."
+      },
+      {
+        "topico": "Dor",
+        "resposta": "Não dói. Não sinto direito os pés há anos."
+      },
+      {
+        "topico": "Febre e calafrios",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "Dor ao andar",
+        "resposta": "Sinto dor na panturrilha quando ando 2 quarteirões, e passa quando paro."
+      },
+      {
+        "topico": "Diabetes",
+        "resposta": "Tenho diabetes há 18 anos. Uso metformina e insulina NPH. A glicose está sempre alta, uns 250."
+      },
+      {
+        "topico": "Fumo",
+        "resposta": "Fumo um maço por dia há 40 anos."
+      },
+      {
+        "topico": "Outras doenças",
+        "resposta": "Pressão alta. Tive um infarto há 3 anos."
+      },
+      {
+        "topico": "Cuidados com os pés",
+        "resposta": "Ando descalço em casa. Ninguém nunca examinou os meus pés."
+      },
+      {
+        "topico": "Amputações",
+        "resposta": "Nunca amputei nada."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 148 x 86 mmHg, FC 92 bpm, FR 18 irpm, temperatura 37,4 °C, glicemia capilar 286 mg/dL."
+    },
+    {
+      "item": "Úlcera",
+      "achado": "Úlcera de 2 cm na face plantar do hálux direito, com bordas calosas, secreção purulenta e odor. Hiperemia de 3 cm ao redor. Ao tocar com uma sonda estéril, chega ao osso (teste probe-to-bone positivo)."
+    },
+    {
+      "item": "Neuropatia",
+      "achado": "Sensibilidade ao monofilamento ausente nos dois pés. Vibração diminuída."
+    },
+    {
+      "item": "Pulsos e perfusão",
+      "achado": "Pulsos pedioso e tibial posterior não palpáveis à direita; poplíteo presente. Pé frio, rarefação de pelos. Índice tornozelo-braquial de 0,6 à direita."
+    },
+    {
+      "item": "Pé esquerdo",
+      "achado": "Calosidades plantares, sem úlceras. Unhas espessadas."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Radiografia do pé direito",
+      "resultado": "Erosão cortical e reação periosteal na falange distal do hálux, sugestivas de osteomielite."
+    },
+    {
+      "item": "Hemograma, PCR e VHS",
+      "resultado": "Leucócitos 12.800/mm³, PCR 9 mg/dL, VHS 85 mm/h."
+    },
+    {
+      "item": "Hemoglobina glicada e função renal",
+      "resultado": "HbA1c 10,4%. Creatinina 1,2 mg/dL."
+    },
+    {
+      "item": "Ultrassom com Doppler arterial do membro inferior direito",
+      "resultado": "Oclusão da artéria tibial anterior e estenose grave da tibial posterior."
+    }
+  ],
+  "diagnostico": "Pé diabético neuroisquêmico com infecção moderada e osteomielite da falange distal do hálux direito, associada à doença arterial periférica.",
+  "condutaEsperada": [
+    "Classificar a gravidade da infecção (moderada: celulite acima de 2 cm, acometimento ósseo, sem sinais sistêmicos) e a isquemia (índice tornozelo-braquial).",
+    "Internar pelo acometimento ósseo e pela isquemia; cultura de tecido profundo ou de osso (não usar swab superficial).",
+    "Antibiótico empírico de amplo espectro (por exemplo, ampicilina com sulbactam, ou ciprofloxacino com clindamicina), ajustado pela cultura.",
+    "Desbridamento cirúrgico do tecido necrótico e do osso infectado (amputação do hálux se necessário) e descarga do peso (offloading).",
+    "Avaliação vascular para revascularização (angiografia), insulina para controle glicêmico e cessação do tabagismo.",
+    "Educação em cuidados com os pés e calçados adequados; examinar os pés em todas as consultas."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e explica a gravidade.",
+      "peso": 0.5
+    },
+    {
+      "id": "ulcera",
+      "item": "Caracteriza a úlcera (tempo, causa, secreção, odor).",
+      "peso": 1
+    },
+    {
+      "id": "sistemicos",
+      "item": "Pesquisa sinais sistêmicos de infecção.",
+      "peso": 0.5
+    },
+    {
+      "id": "isquemia",
+      "item": "Pergunta claudicação e examina pulsos (índice tornozelo-braquial).",
+      "peso": 1.5
+    },
+    {
+      "id": "neuropatia",
+      "item": "Avalia a neuropatia com monofilamento.",
+      "peso": 1
+    },
+    {
+      "id": "osso",
+      "item": "Realiza o teste probe-to-bone e solicita radiografia.",
+      "peso": 1.5
+    },
+    {
+      "id": "classificacao",
+      "item": "Classifica a infecção e diagnostica osteomielite.",
+      "peso": 1
+    },
+    {
+      "id": "conduta",
+      "item": "Interna, colhe cultura profunda e inicia antibiótico adequado.",
+      "peso": 1.5
+    },
+    {
+      "id": "desbridamento",
+      "item": "Indica desbridamento cirúrgico, descarga do peso e avaliação vascular.",
+      "peso": 1
+    },
+    {
+      "id": "educacao",
+      "item": "Orienta controle glicêmico, tabagismo e cuidados com os pés.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "International Working Group on the Diabetic Foot (IWGDF) Guidelines, 2023.",
+    "Sociedade Brasileira de Diabetes. Pé diabético."
+  ]
+}

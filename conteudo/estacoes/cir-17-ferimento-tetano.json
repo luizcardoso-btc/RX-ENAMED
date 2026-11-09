@@ -1,0 +1,166 @@
+{
+  "id": "cir-17-ferimento-tetano",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Cirurgia",
+  "especialidade": "Pré e pós-operatório",
+  "titulo": "Corte na mão com enxada",
+  "tema": "Ferimento cortocontuso: sutura e profilaxia do tétano",
+  "duracaoMin": 10,
+  "cenario": "Unidade de pronto atendimento com sala de sutura, anestésico local, fios e vacinas e soro antitetânicos.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Sebastião Lima",
+    "idade": 45,
+    "sexo": "masculino",
+    "ocupacao": "jardineiro",
+    "perfil": "Calmo, segura a mão enrolada num pano.",
+    "abertura": "Doutor, cortei a mão com a enxada lá no jardim.",
+    "roteiro": [
+      {
+        "topico": "Como aconteceu",
+        "resposta": "Estava capinando, a enxada escorregou e cortou a palma da mão esquerda."
+      },
+      {
+        "topico": "Horário",
+        "resposta": "Faz 3 horas."
+      },
+      {
+        "topico": "Objeto",
+        "resposta": "A enxada estava enferrujada e suja de terra."
+      },
+      {
+        "topico": "Mão dominante",
+        "resposta": "Sou destro. Cortei a esquerda."
+      },
+      {
+        "topico": "Movimento e sensibilidade",
+        "resposta": "Consigo mexer os dedos. Sinto todos os dedos."
+      },
+      {
+        "topico": "Sangramento",
+        "resposta": "Sangrou bastante, mas parou quando apertei."
+      },
+      {
+        "topico": "Vacina antitetânica",
+        "resposta": "Tomei as três doses no quartel, aos 18 anos. O último reforço foi há 12 anos."
+      },
+      {
+        "topico": "Doenças",
+        "resposta": "Não tenho diabetes nem problema de imunidade."
+      },
+      {
+        "topico": "Medicamentos e anticoagulante",
+        "resposta": "Não tomo remédio."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia a remédio nem a anestesia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 128 x 82 mmHg, FC 80 bpm."
+    },
+    {
+      "item": "Ferida",
+      "achado": "Corte linear de 4 cm na região tenar da mão esquerda, bordas regulares, com terra, sem perda de tecido, sem sangramento ativo."
+    },
+    {
+      "item": "Função dos tendões",
+      "achado": "Flexão e extensão de todos os dedos preservadas contra resistência, inclusive flexão isolada das falanges distais."
+    },
+    {
+      "item": "Sensibilidade e perfusão digital",
+      "achado": "Sensibilidade preservada nas faces radial e ulnar de todos os dedos. Enchimento capilar normal."
+    },
+    {
+      "item": "Exploração da ferida (após anestesia)",
+      "achado": "Sem corpo estranho visível após a limpeza, sem lesão de tendão, nervo ou vaso."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Radiografia da mão",
+      "resultado": "Sem corpo estranho radiopaco, sem fraturas."
+    }
+  ],
+  "diagnostico": "Ferimento cortocontuso de 4 cm na mão esquerda, de alto risco para tétano (contaminado com terra), sem lesão de tendão, nervo ou vaso, em paciente com esquema antitetânico completo e último reforço há mais de 10 anos.",
+  "condutaEsperada": [
+    "Avaliar a função dos tendões flexores e extensores, a sensibilidade digital e a perfusão antes da anestesia.",
+    "Anestesia local (lidocaína a 1 ou 2%), limpeza abundante com soro fisiológico sob pressão, exploração e desbridamento de tecido desvitalizado.",
+    "Sutura primária com fio inabsorvível monofilamentar (náilon 4-0 na mão); curativo; retirada dos pontos em 10 a 14 dias.",
+    "Profilaxia do tétano: esquema completo com último reforço há mais de 10 anos: aplicar um reforço da vacina dT. Imunoglobulina ou soro antitetânico só se imunodeprimido, desnutrido grave ou idoso.",
+    "Antibiótico profilático não é rotina; considerar em ferida da mão muito contaminada.",
+    "Orientar sinais de infecção, elevação da mão e retorno."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e explica o que vai fazer.",
+      "peso": 0.5
+    },
+    {
+      "id": "mecanismo",
+      "item": "Pergunta o mecanismo, o horário, o objeto e a contaminação.",
+      "peso": 1
+    },
+    {
+      "id": "tetano",
+      "item": "Investiga a história vacinal antitetânica (doses e último reforço).",
+      "peso": 1.5
+    },
+    {
+      "id": "funcao",
+      "item": "Avalia tendões, sensibilidade e perfusão antes da anestesia.",
+      "peso": 1.5
+    },
+    {
+      "id": "anestesia",
+      "item": "Indica anestesia local e limpeza abundante com soro.",
+      "peso": 1
+    },
+    {
+      "id": "exploracao",
+      "item": "Explora a ferida e desbrida tecido desvitalizado.",
+      "peso": 1
+    },
+    {
+      "id": "sutura",
+      "item": "Indica sutura com fio adequado e o prazo de retirada.",
+      "peso": 1
+    },
+    {
+      "id": "profilaxia",
+      "item": "Indica o reforço da vacina dT e explica quando haveria imunoglobulina.",
+      "peso": 2
+    },
+    {
+      "id": "orientacao",
+      "item": "Orienta cuidados com a ferida e sinais de infecção.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Ministério da Saúde. Guia de Vigilância em Saúde: tétano acidental (profilaxia).",
+    "ATLS, 10ª edição."
+  ]
+}

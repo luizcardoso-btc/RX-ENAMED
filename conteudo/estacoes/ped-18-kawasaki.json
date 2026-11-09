@@ -1,0 +1,197 @@
+{
+  "id": "ped-18-kawasaki",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Infectologia pediátrica",
+  "titulo": "Febre há uma semana com olhos vermelhos",
+  "tema": "Doença de Kawasaki",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro pediátrico de hospital terciário com ecocardiograma, laboratório e imunoglobulina disponível.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Gisele Pinto, mãe de Lucas (3 anos)",
+    "idade": 33,
+    "sexo": "feminino",
+    "ocupacao": "farmacêutica",
+    "perfil": "Preocupada, já levou o filho a dois serviços, disseram que era virose.",
+    "abertura": "Doutor, o Lucas está com febre há 6 dias e agora a boca dele está toda vermelha e rachada.",
+    "roteiro": [
+      {
+        "topico": "Febre",
+        "resposta": "Febre alta, de 39 a 40 °C, há 6 dias, que quase não passa com dipirona."
+      },
+      {
+        "topico": "Olhos",
+        "resposta": "Os olhos ficaram vermelhos há 4 dias, sem remela."
+      },
+      {
+        "topico": "Boca",
+        "resposta": "A boca está rachada e vermelha, a língua parece um morango."
+      },
+      {
+        "topico": "Manchas",
+        "resposta": "Apareceram manchas vermelhas pelo corpo."
+      },
+      {
+        "topico": "Mãos e pés",
+        "resposta": "As mãos e os pés estão inchados e vermelhos."
+      },
+      {
+        "topico": "Pescoço",
+        "resposta": "Apareceu um caroço do lado direito do pescoço."
+      },
+      {
+        "topico": "Comportamento",
+        "resposta": "Está muito irritado, chora por tudo."
+      },
+      {
+        "topico": "Tosse, coriza e diarreia",
+        "resposta": "Não tem tosse nem coriza. Teve 2 dias de diarreia."
+      },
+      {
+        "topico": "Antibiótico",
+        "resposta": "Deram amoxicilina há 3 dias e não melhorou."
+      },
+      {
+        "topico": "Contato com doentes",
+        "resposta": "Ninguém em casa está doente."
+      },
+      {
+        "topico": "Vacinas",
+        "resposta": "Em dia."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [
+      "O coração dele vai ficar doente?"
+    ],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "FC 156 bpm, FR 30 irpm, PA 98 x 58 mmHg, temperatura 39,6 °C, peso 14 kg."
+    },
+    {
+      "item": "Olhos",
+      "achado": "Hiperemia conjuntival bilateral sem secreção, poupando o limbo."
+    },
+    {
+      "item": "Boca",
+      "achado": "Lábios vermelhos e fissurados, língua em framboesa, hiperemia difusa da orofaringe."
+    },
+    {
+      "item": "Pele e extremidades",
+      "achado": "Exantema maculopapular polimorfo no tronco. Edema endurecido e eritema de mãos e pés. Eritema na cicatriz da BCG."
+    },
+    {
+      "item": "Linfonodos",
+      "achado": "Linfonodo cervical direito de 2 cm, pouco doloroso."
+    },
+    {
+      "item": "Aparelho cardiovascular",
+      "achado": "Taquicárdico, sem sopros, sem sinais de insuficiência cardíaca."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Hemograma",
+      "resultado": "Leucócitos 18.000/mm³ com neutrofilia, hemoglobina 10,2 g/dL, plaquetas 420.000/mm³."
+    },
+    {
+      "item": "PCR e VHS",
+      "resultado": "PCR 14 mg/dL, VHS 90 mm/h."
+    },
+    {
+      "item": "Albumina e transaminases",
+      "resultado": "Albumina 2,9 g/dL, TGP 98 U/L."
+    },
+    {
+      "item": "Urina tipo 1",
+      "resultado": "Leucocitúria estéril."
+    },
+    {
+      "item": "Ecocardiograma",
+      "resultado": "Ectasia leve da artéria coronária direita (escore Z de +2,3), sem aneurismas, função ventricular normal."
+    }
+  ],
+  "diagnostico": "Doença de Kawasaki completa (febre há 5 dias ou mais com 5 dos 5 critérios principais: conjuntivite não exsudativa, alterações de lábios e boca, exantema, alterações de extremidades e linfonodomegalia cervical), com ectasia coronariana.",
+  "condutaEsperada": [
+    "Diagnóstico clínico: febre há pelo menos 5 dias com 4 ou mais critérios principais; investigar diagnósticos diferenciais (escarlatina, sarampo, reação a medicamentos).",
+    "Internar e tratar até o 10º dia de febre: imunoglobulina humana intravenosa 2 g/kg em dose única, infundida em 10 a 12 horas.",
+    "AAS em dose moderada a alta (30 a 50 ou 80 a 100 mg/kg/dia) até 48 a 72 horas sem febre; depois, dose baixa (3 a 5 mg/kg/dia) por 6 a 8 semanas ou até o ecocardiograma normal.",
+    "Ecocardiograma no diagnóstico, em 1 a 2 semanas e em 6 a 8 semanas; corticoide em casos de alto risco ou sem resposta à imunoglobulina.",
+    "Adiar vacinas de vírus vivos (sarampo, varicela) por 11 meses após a imunoglobulina; vacinar contra influenza (inativada) pelo risco de síndrome de Reye com AAS.",
+    "Explicar à mãe a doença, o risco coronariano e o seguimento com cardiologia pediátrica."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe a mãe.",
+      "peso": 0.5
+    },
+    {
+      "id": "febre",
+      "item": "Caracteriza a febre (duração, intensidade, resposta ao antitérmico e ao antibiótico).",
+      "peso": 1
+    },
+    {
+      "id": "criterios",
+      "item": "Investiga os critérios principais (olhos, boca, pele, extremidades, linfonodo).",
+      "peso": 2
+    },
+    {
+      "id": "exame",
+      "item": "Examina e confirma os critérios.",
+      "peso": 1
+    },
+    {
+      "id": "diferenciais",
+      "item": "Considera diagnósticos diferenciais.",
+      "peso": 0.5
+    },
+    {
+      "id": "diagnostico",
+      "item": "Diagnostica doença de Kawasaki.",
+      "peso": 1
+    },
+    {
+      "id": "igiv",
+      "item": "Prescreve imunoglobulina intravenosa 2 g/kg.",
+      "peso": 1.5
+    },
+    {
+      "id": "aas",
+      "item": "Prescreve AAS em doses corretas nas duas fases.",
+      "peso": 1
+    },
+    {
+      "id": "eco",
+      "item": "Solicita ecocardiograma e programa o seguimento.",
+      "peso": 1
+    },
+    {
+      "id": "vacinas",
+      "item": "Orienta o adiamento das vacinas vivas e a vacina de influenza.",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Pediatria. Doença de Kawasaki.",
+    "AHA. Diagnosis, treatment and long-term management of Kawasaki disease, 2017."
+  ]
+}

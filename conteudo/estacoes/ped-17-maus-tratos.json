@@ -1,0 +1,182 @@
+{
+  "id": "ped-17-maus-tratos",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Pediatria",
+  "especialidade": "Ética e medicina legal",
+  "titulo": "Criança que caiu do sofá",
+  "tema": "Suspeita de maus-tratos na infância",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro pediátrico de hospital geral com radiologia, serviço social e psicologia.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Rafaela Gomes, mãe de Henrique (1 ano e 3 meses)",
+    "idade": 22,
+    "sexo": "feminino",
+    "ocupacao": "auxiliar de produção",
+    "perfil": "Nervosa, evita detalhes, a história muda quando o médico pergunta de novo. O padrasto ficou na recepção.",
+    "abertura": "Doutor, o meu filho caiu do sofá e está chorando muito quando mexe na perna.",
+    "roteiro": [
+      {
+        "topico": "Como aconteceu",
+        "resposta": "Ele caiu do sofá, que é baixinho, ontem à noite. (Se perguntar de novo:) Acho que foi da cama."
+      },
+      {
+        "topico": "Quem estava junto",
+        "resposta": "Eu estava no trabalho. Ele estava com o meu companheiro."
+      },
+      {
+        "topico": "Demora para procurar atendimento",
+        "resposta": "Achei que ia melhorar. Só vim hoje porque ele não para de chorar."
+      },
+      {
+        "topico": "Andar",
+        "resposta": "Ele estava começando a andar com apoio."
+      },
+      {
+        "topico": "Manchas roxas",
+        "resposta": "São de quando ele cai brincando."
+      },
+      {
+        "topico": "Quedas e machucados anteriores",
+        "resposta": "Já levei ele ao posto mês passado por uma queimadura de cigarro no braço. Disseram que foi sem querer."
+      },
+      {
+        "topico": "Comportamento",
+        "resposta": "Ele anda mais assustado e chora quando o padrasto chega."
+      },
+      {
+        "topico": "Doenças e sangramentos",
+        "resposta": "Nunca teve doença do sangue. Não sangra fácil."
+      },
+      {
+        "topico": "Vacinas e puericultura",
+        "resposta": "As vacinas estão atrasadas."
+      },
+      {
+        "topico": "Outras crianças em casa",
+        "resposta": "Tem a filha do meu companheiro, de 4 anos."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tem alergia."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não teve febre."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "FC 148 bpm, FR 30 irpm, temperatura 36,6 °C, peso 9 kg (abaixo do escore Z -2)."
+    },
+    {
+      "item": "Membro inferior direito",
+      "achado": "Coxa direita com edema e dor intensa à mobilização. Criança evita mexer a perna."
+    },
+    {
+      "item": "Pele",
+      "achado": "Equimoses em diferentes estágios de evolução (arroxeadas, esverdeadas e amareladas) nas costas, no abdome e no pavilhão auricular. Cicatriz circular de 8 mm no antebraço, compatível com queimadura de cigarro."
+    },
+    {
+      "item": "Exame neurológico e fontanela",
+      "achado": "Irritado, sem déficits focais, fontanela normotensa."
+    },
+    {
+      "item": "Comportamento",
+      "achado": "Retraído, chora quando examinado, não procura a mãe."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Radiografia do fêmur direito",
+      "resultado": "Fratura em espiral da diáfise do fêmur."
+    },
+    {
+      "item": "Inventário do esqueleto (radiografias de esqueleto completo)",
+      "resultado": "Fraturas de arcos costais posteriores em consolidação (antigas)."
+    },
+    {
+      "item": "Hemograma e coagulograma",
+      "resultado": "Normais (afastam distúrbio de coagulação)."
+    },
+    {
+      "item": "Fundo de olho e tomografia de crânio",
+      "resultado": "Fundo de olho sem hemorragias retinianas. Tomografia de crânio normal."
+    }
+  ],
+  "diagnostico": "Suspeita fundamentada de maus-tratos físicos (violência física) em criança de 1 ano e 3 meses: fratura de fêmur incompatível com o mecanismo relatado, fraturas antigas de costelas, equimoses em vários estágios e em locais atípicos, queimadura de cigarro, demora em procurar atendimento, história inconsistente e desnutrição.",
+  "condutaEsperada": [
+    "Tratar as lesões (analgesia, imobilização, ortopedia) e internar a criança para proteção.",
+    "Investigar: inventário do esqueleto (menores de 2 anos), coagulograma, fundo de olho e neuroimagem se indicado; documentar as lesões detalhadamente (com fotografias, se permitido).",
+    "Notificação compulsória (SINAN) e comunicação obrigatória ao Conselho Tutelar (Estatuto da Criança e do Adolescente); acionar o serviço social e a psicologia.",
+    "Não confrontar nem acusar a família; manter postura acolhedora e registrar a história com as palavras de quem relatou.",
+    "Avaliar a proteção da outra criança da casa (comunicar ao Conselho Tutelar) e oferecer apoio à mãe.",
+    "Não dar alta até que a rede de proteção garanta a segurança da criança."
+  ],
+  "pep": [
+    {
+      "id": "acolhimento",
+      "item": "Apresenta-se e acolhe sem acusar.",
+      "peso": 1
+    },
+    {
+      "id": "historia",
+      "item": "Colhe a história do trauma, quem estava presente e a demora em procurar atendimento.",
+      "peso": 1.5
+    },
+    {
+      "id": "inconsistencias",
+      "item": "Identifica a incompatibilidade entre o mecanismo e as lesões.",
+      "peso": 1
+    },
+    {
+      "id": "antecedentes",
+      "item": "Pergunta lesões e atendimentos anteriores.",
+      "peso": 0.5
+    },
+    {
+      "id": "exame",
+      "item": "Examina a pele toda e descreve as equimoses em vários estágios e a queimadura.",
+      "peso": 1
+    },
+    {
+      "id": "investigacao",
+      "item": "Solicita inventário do esqueleto, coagulograma, fundo de olho e imagem.",
+      "peso": 1.5
+    },
+    {
+      "id": "suspeita",
+      "item": "Formula a suspeita de maus-tratos.",
+      "peso": 1
+    },
+    {
+      "id": "notificacao",
+      "item": "Notifica e comunica ao Conselho Tutelar.",
+      "peso": 1.5
+    },
+    {
+      "id": "protecao",
+      "item": "Interna para proteção e aciona serviço social e psicologia.",
+      "peso": 1
+    }
+  ],
+  "referencias": [
+    "Sociedade Brasileira de Pediatria. Manual de atendimento às crianças e adolescentes vítimas de violência, 2018.",
+    "Lei 8.069/1990 (Estatuto da Criança e do Adolescente)."
+  ]
+}

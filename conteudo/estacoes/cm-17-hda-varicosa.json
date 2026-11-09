@@ -1,0 +1,178 @@
+{
+  "id": "cm-17-hda-varicosa",
+  "versao": 1,
+  "status": "publicada",
+  "origem": "autoral",
+  "area": "Clínica Médica",
+  "especialidade": "Gastroenterologia",
+  "titulo": "Vômito com sangue",
+  "tema": "Hemorragia digestiva alta varicosa no cirrótico",
+  "duracaoMin": 10,
+  "cenario": "Pronto-socorro de hospital geral com banco de sangue, endoscopia de urgência disponível em até 12 horas e UTI.",
+  "tarefas": [
+    "Realize a anamnese dirigida ao quadro.",
+    "Solicite e interprete o exame físico e os exames complementares pertinentes.",
+    "Formule a hipótese diagnóstica.",
+    "Proponha a conduta e explique ao paciente o que será feito."
+  ],
+  "paciente": {
+    "nome": "Nelson Araújo",
+    "idade": 54,
+    "sexo": "masculino",
+    "ocupacao": "pedreiro",
+    "perfil": "Pálido, assustado, com a camisa suja de sangue. Responde com clareza.",
+    "abertura": "Doutor, eu vomitei sangue três vezes, muito sangue!",
+    "roteiro": [
+      {
+        "topico": "Início",
+        "resposta": "Começou há 2 horas. Vomitei sangue vivo três vezes, uns 2 copos cada."
+      },
+      {
+        "topico": "Fezes",
+        "resposta": "Desde ontem as fezes estão pretas e com cheiro forte."
+      },
+      {
+        "topico": "Tontura e desmaio",
+        "resposta": "Fiquei tonto e quase desmaiei no banheiro."
+      },
+      {
+        "topico": "Álcool",
+        "resposta": "Bebo cachaça todo dia há 25 anos. Parei há 2 meses quando o médico falou do fígado."
+      },
+      {
+        "topico": "Fígado",
+        "resposta": "O médico disse que eu tenho cirrose. A barriga cresceu e as pernas incharam."
+      },
+      {
+        "topico": "Sangramentos anteriores",
+        "resposta": "Nunca tinha vomitado sangue."
+      },
+      {
+        "topico": "Endoscopia anterior",
+        "resposta": "Nunca fiz endoscopia."
+      },
+      {
+        "topico": "Medicamentos",
+        "resposta": "Tomo espironolactona e furosemida. Não tomo AAS nem anti-inflamatório."
+      },
+      {
+        "topico": "Confusão e sono",
+        "resposta": "Minha mulher diz que ando meio esquecido e trocando o dia pela noite."
+      },
+      {
+        "topico": "Febre",
+        "resposta": "Não tive febre."
+      },
+      {
+        "topico": "Alergias",
+        "resposta": "Não tenho alergia."
+      },
+      {
+        "topico": "História familiar",
+        "resposta": "Que eu saiba, ninguém na família tem nada parecido."
+      }
+    ],
+    "perguntasDoPaciente": [],
+    "seNaoSouber": "Diga que não sabe ou que não reparou, sem inventar sintomas que não estão no roteiro."
+  },
+  "exameFisico": [
+    {
+      "item": "Sinais vitais",
+      "achado": "PA 92 x 58 mmHg, FC 122 bpm, FR 22 irpm, SatO2 96%, temperatura 36,4 °C."
+    },
+    {
+      "item": "Estado geral",
+      "achado": "Pálido, sudoreico, ictérico leve, consciente e orientado, com flapping discreto."
+    },
+    {
+      "item": "Abdome",
+      "achado": "Ascite moderada, circulação colateral na parede abdominal, baço palpável."
+    },
+    {
+      "item": "Pele",
+      "achado": "Aranhas vasculares no tórax, eritema palmar, ginecomastia."
+    },
+    {
+      "item": "Toque retal",
+      "achado": "Melena."
+    }
+  ],
+  "exames": [
+    {
+      "item": "Hemograma e coagulograma",
+      "resultado": "Hemoglobina 7,6 g/dL, plaquetas 68.000/mm³, INR 1,8."
+    },
+    {
+      "item": "Função hepática e renal",
+      "resultado": "Bilirrubina 2,6 mg/dL, albumina 2,8 g/dL, creatinina 1,1 mg/dL. Child-Pugh C (10 pontos)."
+    },
+    {
+      "item": "Tipagem sanguínea",
+      "resultado": "O positivo, prova cruzada em andamento."
+    },
+    {
+      "item": "Endoscopia digestiva alta (após estabilização)",
+      "resultado": "Varizes esofágicas de grosso calibre com sangramento ativo em jato e sinais vermelhos. Feita ligadura elástica."
+    }
+  ],
+  "diagnostico": "Hemorragia digestiva alta varicosa (varizes esofágicas) em cirrose hepática alcoólica Child-Pugh C, com instabilidade hemodinâmica.",
+  "condutaEsperada": [
+    "ABC: proteger a via aérea (intubação se rebaixamento do nível de consciência ou hematêmese maciça), oxigênio, dois acessos calibrosos e monitorização.",
+    "Reposição volêmica cuidadosa e transfusão restritiva (meta de hemoglobina de 7 a 8 g/dL); evitar excesso de volume, que aumenta a pressão portal.",
+    "Vasoconstritor esplâncnico imediato, antes da endoscopia: terlipressina 2 mg IV a cada 4 horas (ou octreotide), por 2 a 5 dias.",
+    "Antibiótico profilático: ceftriaxona 1 g IV por dia por até 7 dias.",
+    "Endoscopia em até 12 horas com ligadura elástica das varizes; inibidor de bomba de prótons até a endoscopia.",
+    "Lactulose para prevenir encefalopatia; após o controle, profilaxia secundária com betabloqueador não seletivo (propranolol ou carvedilol) e ligaduras seriadas; TIPS se houver falha."
+  ],
+  "pep": [
+    {
+      "id": "apresentacao",
+      "item": "Apresenta-se e reconhece a gravidade.",
+      "peso": 0.5
+    },
+    {
+      "id": "sangramento",
+      "item": "Caracteriza a hematêmese, a melena e a repercussão hemodinâmica.",
+      "peso": 1
+    },
+    {
+      "id": "hepatopatia",
+      "item": "Investiga álcool, cirrose e sinais de descompensação (ascite, encefalopatia).",
+      "peso": 1
+    },
+    {
+      "id": "estabilizacao",
+      "item": "Indica proteção da via aérea, acessos calibrosos e monitorização.",
+      "peso": 1
+    },
+    {
+      "id": "transfusao",
+      "item": "Indica transfusão restritiva e reposição cuidadosa de volume.",
+      "peso": 1
+    },
+    {
+      "id": "terlipressina",
+      "item": "Prescreve vasoconstritor esplâncnico (terlipressina ou octreotide) antes da endoscopia.",
+      "peso": 2
+    },
+    {
+      "id": "antibiotico",
+      "item": "Prescreve antibiótico profilático (ceftriaxona).",
+      "peso": 1.5
+    },
+    {
+      "id": "endoscopia",
+      "item": "Indica endoscopia em até 12 horas com ligadura elástica.",
+      "peso": 1.5
+    },
+    {
+      "id": "secundaria",
+      "item": "Planeja a profilaxia secundária (betabloqueador e ligadura).",
+      "peso": 0.5
+    }
+  ],
+  "referencias": [
+    "Baveno VII: renewing consensus in portal hypertension, 2022.",
+    "Sociedade Brasileira de Hepatologia. Hemorragia digestiva varicosa."
+  ]
+}
