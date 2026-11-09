@@ -842,3 +842,22 @@ test('planos: cada plano libera só os seus módulos (teoria, estações, dupla)
   await darPlano(c, 'anual');
   assert.deepEqual((await c.get('/api/eu')).corpo.acesso.recursos.sort(), ['dupla', 'estacoes', 'teoria']);
 });
+
+test('admin: contas de admin aparecem na lista e podem virar conta de aluno para testar planos', async () => {
+  const adm = await alunoNovo('Chefe');
+  await banco.consulta(`UPDATE usuarios SET papel = 'admin' WHERE email = $1`, [adm.email]);
+  const teste = await alunoNovo('Teste');
+  const u = await banco.um('SELECT id FROM usuarios WHERE email = $1', [teste.email]);
+  await banco.consulta(`UPDATE usuarios SET papel = 'admin' WHERE id = $1`, [u.id]);
+  const lista = (await adm.get(`/api/admin/alunos?busca=${encodeURIComponent(teste.email)}`)).corpo.alunos;
+  assert.equal(lista.length, 1);
+  assert.equal(lista[0].papel, 'admin');
+  assert.deepEqual((await teste.get('/api/eu')).corpo.usuario.papel, 'admin');
+
+  const eu = (await adm.get('/api/eu')).corpo.usuario;
+  assert.equal((await adm.post(`/api/admin/alunos/${eu.id}/papel`, { papel: 'aluno' })).status, 400, 'não muda o próprio papel');
+  assert.equal((await adm.post(`/api/admin/alunos/${u.id}/papel`, { papel: 'aluno' })).status, 200);
+  assert.equal((await teste.get('/api/admin/resumo')).status, 403, 'virou aluno: sem painel');
+  await adm.post(`/api/admin/alunos/${u.id}/acesso`, { acao: 'conceder', plano: 'segunda-etapa', meses: 1 });
+  assert.deepEqual((await teste.get('/api/eu')).corpo.acesso.recursos.sort(), ['dupla', 'estacoes']);
+});

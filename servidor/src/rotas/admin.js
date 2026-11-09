@@ -171,9 +171,10 @@ export function rotasAdmin({ banco, planos, mp, correio, config }) {
     const situacao = ['ativo', 'vencendo', 'expirado', 'gratuito'].includes(req.query.situacao) ? req.query.situacao : null;
     const pagina = Math.max(1, Number(req.query.pagina) || 1);
     const params = [];
-    const filtros = ["u.papel = 'aluno'"];
+    // A lista mostra também as contas de admin (marcadas), para achar contas de teste; a planilha leva só alunos.
+    const filtros = [req.query.formato === 'csv' ? "u.papel = 'aluno'" : 'u.excluido_em IS NULL'];
     if (busca) { params.push(`%${busca.toLowerCase()}%`); filtros.push(`(lower(u.nome) LIKE $${params.length} OR lower(u.email) LIKE $${params.length} OR u.cpf LIKE $${params.length})`); }
-    const sql = `SELECT * FROM (SELECT u.id, u.nome, u.email, u.cpf, u.etapa, u.criado_em, u.ultimo_acesso, m.plano_id AS plano, m.fim AS acesso_ate,
+    const sql = `SELECT * FROM (SELECT u.id, u.nome, u.email, u.cpf, u.etapa, u.papel, u.criado_em, u.ultimo_acesso, m.plano_id AS plano, m.fim AS acesso_ate,
                         g.total AS total_pago, ${SITUACAO} AS situacao ${BASE_ALUNOS} WHERE ${filtros.join(' AND ')}) x
                   ${situacao ? `WHERE situacao = '${situacao}'` : ''}`;
     if (req.query.formato === 'csv') {
@@ -200,6 +201,18 @@ export function rotasAdmin({ banco, planos, mp, correio, config }) {
   });
 
   // Liberação manual (bolsa, cortesia, correção) ou revogação do acesso.
+  // Papel da conta: admin vê tudo; para testar os planos, a conta precisa ser de aluno.
+  r.post('/alunos/:id/papel', async (req, res) => {
+    const papel = req.body?.papel;
+    if (!['aluno', 'admin'].includes(papel)) return res.status(400).json({ erro: 'Papel inválido.' });
+    const alvo = await banco.um('SELECT id, papel FROM usuarios WHERE id = $1 AND excluido_em IS NULL', [req.params.id]).catch(() => null);
+    if (!alvo) return res.status(404).json({ erro: 'Conta não encontrada.' });
+    if (alvo.id === req.usuario.id) return res.status(400).json({ erro: 'Você não pode mudar o papel da sua própria conta.' });
+    await banco.consulta('UPDATE usuarios SET papel = $2 WHERE id = $1', [alvo.id, papel]);
+    await auditar(req, 'alterar_papel', alvo.id, { de: alvo.papel, para: papel });
+    res.json({ ok: true, papel });
+  });
+
   r.post('/alunos/:id/acesso', async (req, res) => {
     const aluno = await banco.um('SELECT id FROM usuarios WHERE id = $1', [req.params.id]).catch(() => null);
     if (!aluno) return res.status(404).json({ erro: 'Aluno não encontrado.' });

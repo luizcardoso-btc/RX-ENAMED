@@ -226,7 +226,7 @@ async function alunos(pagina = 1) {
       <a class="botao" href="/api/admin/alunos?${new URLSearchParams({ formato: 'csv', ...(busca ? { busca } : {}), ...(situacao ? { situacao } : {}) })}">Exportar planilha</a>
     </form>
     <div class="rx-cartao rx-rolagem"><table class="rx-tabela"><thead><tr><th>Aluno</th><th>Etapa</th><th>Situação</th><th>Plano</th><th>Acesso até</th><th>Total pago</th><th>Cadastro</th><th>Último acesso</th></tr></thead><tbody>
-      ${r.alunos.map((a) => `<tr class="clicavel" data-id="${a.id}"><td><strong>${esc(a.nome)}</strong><br><span class="rx-mudo">${esc(a.email)}</span></td><td>${esc(ETAPAS[a.etapa] || '—')}</td>
+      ${r.alunos.map((a) => `<tr class="clicavel" data-id="${a.id}"><td><strong>${esc(a.nome)}</strong>${a.papel === 'admin' ? ' <span class="rx-etq vencendo">Admin</span>' : ''}<br><span class="rx-mudo">${esc(a.email)}</span></td><td>${esc(ETAPAS[a.etapa] || '—')}</td>
         <td><span class="rx-etq ${a.situacao}">${SIT[a.situacao]}</span></td><td>${esc(NOMES[a.plano] || '—')}</td><td>${data(a.acesso_ate)}</td>
         <td>${reais(a.total_pago)}</td><td>${data(a.criado_em)}</td><td>${data(a.ultimo_acesso)}</td></tr>`).join('') || '<tr><td colspan="8" class="rx-mudo">Nenhum aluno encontrado.</td></tr>'}
     </tbody></table></div>
@@ -251,6 +251,10 @@ async function detalheAluno(id) {
     <h2>${esc(aluno.nome)}</h2>
     <p class="rx-mudo">${esc(aluno.email)} · CPF ${esc(aluno.cpf || '—')}<br>Celular ${esc(aluno.telefone || '—')} · ${esc(SEXO[aluno.sexo] || 'Sexo não informado')} · ${esc(ETAPAS[aluno.etapa] || 'Etapa não informada')}<br>Cadastro ${dataHora(aluno.criado_em)} · último acesso ${dataHora(aluno.ultimo_acesso)}<br>
       ${progresso ? `Progresso salvo na conta: ${progresso.questoes} questões respondidas, atualizado em ${dataHora(progresso.atualizado_em)}` : 'Ainda não salvou progresso na conta.'}</p>
+    <h3>Tipo de conta</h3>
+    <p>${aluno.papel === 'admin'
+      ? 'Conta de <strong>admin</strong>: vê todos os módulos, qualquer que seja o plano. Para testar os planos, transforme em conta de aluno.<br><button class="botao" id="papel" data-papel="aluno">Transformar em conta de aluno</button>'
+      : 'Conta de <strong>aluno</strong>: vê só o que o plano libera.<br><button class="botao" id="papel" data-papel="admin">Tornar admin</button>'}</p>
     <h3>Módulos liberados agora</h3>
     <p>${modulos(config.planos.filter((p) => matriculas.some((m) => m.plano_id === p.id && m.status === 'ativa' && new Date(m.inicio) <= new Date() && new Date(m.fim) > new Date())).flatMap((p) => p.recursos))}</p>
     <h3>Liberar acesso manualmente</h3>
@@ -276,6 +280,11 @@ async function detalheAluno(id) {
       ${emails.map((e) => `<tr><td>${dataHora(e.criado_em)}</td><td>${esc(e.assunto)}</td><td>${e.status === 'enviado' ? 'Enviado' : e.status === 'simulado' ? '<span class="rx-mudo">Simulado</span>' : '<span class="rx-etq recusado">Falhou</span>'}</td></tr>`).join('') || '<tr><td colspan="3" class="rx-mudo">Nenhum.</td></tr>'}
     </tbody></table></aside>`;
   $('#fechar').addEventListener('click', fecharGaveta);
+  $('#papel').addEventListener('click', async (e) => {
+    const papel = e.target.dataset.papel;
+    if (!confirm(papel === 'admin' ? `Dar acesso de administrador a ${aluno.nome}? Ele verá todos os dados do painel.` : `Transformar ${aluno.nome} em conta de aluno? Ela perde o acesso ao painel admin.`)) return;
+    try { await api(`/admin/alunos/${id}/papel`, { metodo: 'POST', corpo: { papel } }); detalheAluno(id); alunos(); } catch (err) { alert(err.message); }
+  });
   const mostrarPlano = (plano) => {
     $('#conceder [name=meses]').value = plano.duracaoMeses;
     $('#libera').innerHTML = `Este plano libera: ${modulos(plano.recursos)}`;
@@ -441,7 +450,7 @@ async function detalheEstacao(id) {
 
 async function auditoria() {
   const { eventos } = await api('/admin/auditoria');
-  const ACOES = { conceder_acesso: 'Liberou acesso', revogar_acesso: 'Revogou acesso', reembolsar: 'Reembolsou pedido', criar_cupom: 'Criou cupom', ativar_cupom: 'Reativou cupom', desativar_cupom: 'Desativou cupom', criar_afiliado: 'Cadastrou afiliado', pagar_comissao: 'Pagou comissão', alterar_metas: 'Alterou as metas', faculdade_status: 'Mudou status de escola', evento_criado: 'Cadastrou evento', evento_status: 'Mudou status de evento', evento_removido: 'Removeu evento', paraguai_status: 'Mudou status de faculdade no Paraguai', nacional_criado: 'Criou simulado nacional', relatorio_link: 'Gerou link de relatório', relatorio_link_revogado: 'Revogou link de relatório' };
+  const ACOES = { alterar_papel: 'Mudou o tipo de conta', conceder_acesso: 'Liberou acesso', revogar_acesso: 'Revogou acesso', reembolsar: 'Reembolsou pedido', criar_cupom: 'Criou cupom', ativar_cupom: 'Reativou cupom', desativar_cupom: 'Desativou cupom', criar_afiliado: 'Cadastrou afiliado', pagar_comissao: 'Pagou comissão', alterar_metas: 'Alterou as metas', faculdade_status: 'Mudou status de escola', evento_criado: 'Cadastrou evento', evento_status: 'Mudou status de evento', evento_removido: 'Removeu evento', paraguai_status: 'Mudou status de faculdade no Paraguai', nacional_criado: 'Criou simulado nacional', relatorio_link: 'Gerou link de relatório', relatorio_link_revogado: 'Revogou link de relatório' };
   conteudo.innerHTML = `<h1 style="font-family:var(--f-display)">Auditoria</h1>
     <div class="rx-cartao rx-rolagem"><table class="rx-tabela"><thead><tr><th>Quando</th><th>Admin</th><th>Ação</th><th>Detalhes</th></tr></thead><tbody>
     ${eventos.map((e) => `<tr><td>${dataHora(e.em)}</td><td>${esc(e.admin || '—')}</td><td>${ACOES[e.acao] || esc(e.acao)}</td><td class="rx-mudo">${esc(JSON.stringify(e.detalhes))}</td></tr>`).join('') || '<tr><td colspan="4" class="rx-mudo">Nenhuma ação registrada.</td></tr>'}
