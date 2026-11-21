@@ -5,7 +5,8 @@ site/dist
 servidor/demo/dist
 **/__pycache__
 provas
-importar
+importar/*
+!importar/banco_externo.json
 *.xlsx
 .env
 .claude
