@@ -29,6 +29,7 @@ export default function Banco() {
   const f = filtro;
   const set = (dados) => { setFiltro({ ...f, ...dados }); setLimite(40); };
 
+  const oficiais = banco.questoes.filter((q) => !q.fonte || q.fonte === 'inep').length;
   const resultado = useMemo(() => filtrarQuestoes(banco.questoes, f, progresso), [banco, f, progresso]);
   const especialidades = useMemo(() => {
     const base = f.areas.length ? banco.questoes.filter((q) => f.areas.includes(q.area)) : banco.questoes;
@@ -48,7 +49,8 @@ export default function Banco() {
         <div>
           <span className="sobretitulo">{t('Banco de questões')}</span>
           <h1>{t('Questões oficiais do Inep')}</h1>
-          <p className="mudo">{t('{q} de {edicoes}, com gabarito definitivo.', { q: plural(banco.questoes.length, 'questão', 'questões'), edicoes: banco.edicoes.map((e) => e.rotulo).join(t(' e ')) })}</p>
+          <p className="mudo">{t('{q} de {edicoes}, com gabarito definitivo.', { q: plural(oficiais, 'questão', 'questões'), edicoes: banco.edicoes.map((e) => e.rotulo).join(t(' e ')) })}</p>
+          {banco.questoes.length > oficiais && <p className="mudo">{t('Mais {n} inéditas RX, revisadas por médico.', { n: banco.questoes.length - oficiais })}</p>}
           {idiomaAtual() === 'es' && <p className="aviso-idioma">{t('As questões aparecem em português, como na prova do Inep.')}</p>}
         </div>
       </header>

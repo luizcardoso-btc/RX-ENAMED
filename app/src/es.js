@@ -890,6 +890,7 @@ export default {
   'O plano gratuito inclui {n} simulado por mês, e você já usou o deste mês. Assine para fazer simulados ilimitados.': 'El plan gratuito incluye {n} simulacro por mes, y ya usó el de este mes. Suscríbase para hacer simulacros ilimitados.',
   'Você respondeu as {n} questões gratuitas de hoje. Amanhã liberam mais {n}, ou assine para treinar sem limite.': 'Respondió las {n} preguntas gratuitas de hoy. Mañana se liberan {n} más, o suscríbase para practicar sin límite.',
   'Ver planos': 'Ver planes',
+  'Mais {n} inéditas RX, revisadas por médico.': 'Más {n} inéditas RX, revisadas por un médico.',
   'No plano gratuito, a primeira aula de cada módulo é aberta. As demais fazem parte dos planos com teoria.': 'En el plan gratuito, la primera clase de cada módulo está abierta. Las demás forman parte de los planes con teoría.',
   'Você estudou os {n} flashcards novos gratuitos de hoje. Os já vistos continuam na revisão; assine um plano com teoria para estudar sem limite.': 'Ya estudió las {n} tarjetas nuevas gratuitas de hoy. Las ya vistas siguen en el repaso; suscríbase a un plan con teoría para estudiar sin límite.',
   'No plano gratuito, um caso clínico por área fica aberto. Os demais fazem parte dos planos com teoria.': 'En el plan gratuito, un caso clínico por área está abierto. Los demás forman parte de los planes con teoría.',

@@ -1,6 +1,7 @@
 import { $, api, reais, data, dataHora, esc } from './comum.js';
 import { faculdades } from './faculdades.js';
 import { eventos } from './eventos.js';
+import { questoesRx } from './questoes-rx.js';
 import { nacionalAdmin } from './nacional-admin.js';
 import { turmas } from './turmas.js';
 
@@ -75,6 +76,7 @@ function abrir() {
   for (const b of document.querySelectorAll('[data-aba]')) b.style.color = b.dataset.aba === aba ? 'var(--tinta)' : '';
   fecharGaveta();
   if (aba === 'nacional') return nacionalAdmin(conteudo, (html) => { $('#gaveta').innerHTML = html; }, fecharGaveta).catch((e) => { conteudo.innerHTML = `<p class="rx-erro">${esc(e.message)}</p>`; });
+  if (aba === 'questoes') return questoesRx(conteudo).catch((e) => { conteudo.innerHTML = `<p class="rx-erro">${esc(e.message)}</p>`; });
   if (aba === 'turmas') return turmas(conteudo).catch((e) => { conteudo.innerHTML = `<p class="rx-erro">${esc(e.message)}</p>`; });
   if (aba === 'eventos') return eventos(conteudo, (html) => { $('#gaveta').innerHTML = html; }, fecharGaveta).catch((e) => { conteudo.innerHTML = `<p class="rx-erro">${esc(e.message)}</p>`; });
   if (aba === 'faculdades') return faculdades(conteudo, (html) => { $('#gaveta').innerHTML = html; }, fecharGaveta).catch((e) => { conteudo.innerHTML = `<p class="rx-erro">${esc(e.message)}</p>`; });
@@ -450,7 +452,7 @@ async function detalheEstacao(id) {
 
 async function auditoria() {
   const { eventos } = await api('/admin/auditoria');
-  const ACOES = { alterar_papel: 'Mudou o tipo de conta', conceder_acesso: 'Liberou acesso', revogar_acesso: 'Revogou acesso', reembolsar: 'Reembolsou pedido', criar_cupom: 'Criou cupom', ativar_cupom: 'Reativou cupom', desativar_cupom: 'Desativou cupom', criar_afiliado: 'Cadastrou afiliado', pagar_comissao: 'Pagou comissão', alterar_metas: 'Alterou as metas', faculdade_status: 'Mudou status de escola', evento_criado: 'Cadastrou evento', evento_status: 'Mudou status de evento', evento_removido: 'Removeu evento', paraguai_status: 'Mudou status de faculdade no Paraguai', nacional_criado: 'Criou simulado nacional', relatorio_link: 'Gerou link de relatório', relatorio_link_revogado: 'Revogou link de relatório' };
+  const ACOES = { revisar_questao: 'Revisou questão', alterar_papel: 'Mudou o tipo de conta', conceder_acesso: 'Liberou acesso', revogar_acesso: 'Revogou acesso', reembolsar: 'Reembolsou pedido', criar_cupom: 'Criou cupom', ativar_cupom: 'Reativou cupom', desativar_cupom: 'Desativou cupom', criar_afiliado: 'Cadastrou afiliado', pagar_comissao: 'Pagou comissão', alterar_metas: 'Alterou as metas', faculdade_status: 'Mudou status de escola', evento_criado: 'Cadastrou evento', evento_status: 'Mudou status de evento', evento_removido: 'Removeu evento', paraguai_status: 'Mudou status de faculdade no Paraguai', nacional_criado: 'Criou simulado nacional', relatorio_link: 'Gerou link de relatório', relatorio_link_revogado: 'Revogou link de relatório' };
   conteudo.innerHTML = `<h1 style="font-family:var(--f-display)">Auditoria</h1>
     <div class="rx-cartao rx-rolagem"><table class="rx-tabela"><thead><tr><th>Quando</th><th>Admin</th><th>Ação</th><th>Detalhes</th></tr></thead><tbody>
     ${eventos.map((e) => `<tr><td>${dataHora(e.em)}</td><td>${esc(e.admin || '—')}</td><td>${ACOES[e.acao] || esc(e.acao)}</td><td class="rx-mudo">${esc(JSON.stringify(e.detalhes))}</td></tr>`).join('') || '<tr><td colspan="4" class="rx-mudo">Nenhuma ação registrada.</td></tr>'}

@@ -23,6 +23,8 @@ COPY --from=build --chown=node:node /rx/servidor/web ./servidor/web
 COPY --from=build --chown=node:node /rx/site/dist ./site/dist
 COPY --from=build --chown=node:node /rx/conteudo/planos.json ./conteudo/planos.json
 COPY --from=build --chown=node:node /rx/conteudo/residencia ./conteudo/residencia
+# Questões autorais e importadas: o servidor libera para os alunos só as aprovadas na revisão médica.
+COPY --from=build --chown=node:node /rx/importar/banco_externo.json ./importar/banco_externo.json
 # 2ª etapa: estações (autorais e oficiais do Inep), editais e mentores ficam só no servidor; o módulo compartilhado
 # monta, por papel, o que cada pessoa pode ver (o roteiro e o PEP nunca vão para arquivo público).
 COPY --from=build --chown=node:node /rx/compartilhado ./compartilhado

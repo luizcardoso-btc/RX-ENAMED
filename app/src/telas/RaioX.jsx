@@ -96,11 +96,13 @@ export default function RaioX() {
   const { banco, progresso, ir, setFiltro } = useApp();
   const [edicao, setEdicao] = useState('todas');
   const [areaEsp, setAreaEsp] = useState('');
-  const qs = useMemo(() => (edicao === 'todas' ? banco.questoes : banco.questoes.filter((q) => idEdicao(q) === edicao)),
-    [banco, edicao]);
+  // O Raio-X mede a prova: só as questões oficiais do Inep entram nas estatísticas.
+  const oficiais = useMemo(() => banco.questoes.filter((q) => !q.fonte || q.fonte === 'inep'), [banco]);
+  const qs = useMemo(() => (edicao === 'todas' ? oficiais : oficiais.filter((q) => idEdicao(q) === edicao)),
+    [oficiais, edicao]);
   const validas = qs.filter((q) => !q.anulada);
   const edMapa = edicao === 'todas' ? banco.edicoes[banco.edicoes.length - 1].id : edicao;
-  const caderno = banco.questoes.filter((q) => idEdicao(q) === edMapa).sort((a, b) => a.numero - b.numero);
+  const caderno = oficiais.filter((q) => idEdicao(q) === edMapa).sort((a, b) => a.numero - b.numero);
 
   const especialidades = contar(areaEsp ? qs.filter((q) => q.area === areaEsp) : qs, (q) => q.especialidade);
   const itensEsp = especialidades.slice(0, 15).map(([nome, lista]) => ({
@@ -110,7 +112,7 @@ export default function RaioX() {
   const tipos = contar(qs, (q) => q.tipo).map(([nome, lista]) => ({
     chave: nome, rotulo: t(nome), valor: lista.length, dica: `${t(nome)}: ${plural(lista.length, 'questão', 'questões')}`,
   }));
-  const repetidos = contar(banco.questoes, (q) => q.tema)
+  const repetidos = contar(oficiais, (q) => q.tema)
     .filter(([, lista]) => new Set(lista.map(idEdicao)).size > 1 || lista.length > 2)
     .filter(([, lista]) => edicao === 'todas' || lista.some((q) => idEdicao(q) === edicao));
   const comConduta = qs.filter((q) => /conduta/i.test(q.tipo)).length;
@@ -142,7 +144,7 @@ export default function RaioX() {
           <span className="sobretitulo">{t('Raio-X da prova')}</span>
           <h1>{t('O que o Inep cobra, questão por questão')}</h1>
           <p className="mudo">{t('Cada questão oficial foi lida e classificada por especialidade, tema e tipo de cobrança.')}{' '}
-            {t('Base atual:')} {banco.edicoes.map((e) => e.rotulo).join(t(' e '))} · {plural(banco.questoes.length, 'questão', 'questões')}.</p>
+            {t('Base atual:')} {banco.edicoes.map((e) => e.rotulo).join(t(' e '))} · {plural(oficiais.length, 'questão', 'questões')}.</p>
         </div>
       </header>
 

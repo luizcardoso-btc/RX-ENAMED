@@ -2,7 +2,7 @@
 // sem erros de página, e a área do aluno abre a partir do site nos dois idiomas.
 // Uso: node site/teste.mjs [pasta-das-capturas]
 import { chromium } from '../app/node_modules/playwright-core/index.mjs';
-import { existsSync, mkdirSync, readFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, readdirSync } from 'node:fs';
 
 const raiz = new URL('..', import.meta.url).pathname;
 const dist = `${raiz}site/dist`;
@@ -11,7 +11,19 @@ mkdirSync(saida, { recursive: true });
 const TIPOS = { html: 'text/html', css: 'text/css', json: 'application/json', png: 'image/png', webp: 'image/webp', js: 'text/javascript' };
 const erros = [];
 
-const navegador = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell' });
+// Navegador dos testes: RX_CHROMIUM, ou o headless shell pré-instalado no ambiente (a versão muda entre imagens).
+function navegadorDeTeste() {
+  if (process.env.RX_CHROMIUM) return process.env.RX_CHROMIUM;
+  const base = '/opt/pw-browsers';
+  for (const d of readdirSync(base).filter((n) => n.startsWith('chromium_headless_shell-')).sort().reverse()) {
+    for (const sub of readdirSync(`${base}/${d}`)) {
+      for (const nome of ['chrome-headless-shell', 'headless_shell']) if (existsSync(`${base}/${d}/${sub}/${nome}`)) return `${base}/${d}/${sub}/${nome}`;
+    }
+  }
+  return `${base}/chromium`;
+}
+
+const navegador = await chromium.launch({ executablePath: navegadorDeTeste() });
 async function nova(largura, altura) {
   const ctx = await navegador.newContext({ viewport: { width: largura, height: altura } });
   await ctx.route('**/*', (rota) => {

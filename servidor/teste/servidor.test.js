@@ -861,3 +861,28 @@ test('admin: contas de admin aparecem na lista e podem virar conta de aluno para
   await adm.post(`/api/admin/alunos/${u.id}/acesso`, { acao: 'conceder', plano: 'segunda-etapa', meses: 1 });
   assert.deepEqual((await teste.get('/api/eu')).corpo.acesso.recursos.sort(), ['dupla', 'estacoes']);
 });
+
+test('questões RX: só chegam ao aluno depois da revisão médica, com o gabarito do revisor', async () => {
+  const aluno = await alunoNovo('Leitor');
+  const adm = await alunoNovo('Revisora');
+  await banco.consulta(`UPDATE usuarios SET papel = 'admin' WHERE email = $1`, [adm.email]);
+  assert.deepEqual((await aluno.get('/api/questoes/extras')).corpo.questoes, [], 'nada aprovado ainda');
+  assert.equal((await aluno.get('/api/admin/questoes-rx')).status, 403);
+  const fila = (await adm.get('/api/admin/questoes-rx')).corpo;
+  assert.ok(fila.total > 0 && fila.contagem.pendente === fila.total, 'tudo pendente');
+  const [q1, q2] = fila.questoes;
+  assert.equal((await adm.post(`/api/admin/questoes-rx/${q1.id}`, { acao: 'aprovar' })).status, 400, 'exige revisor');
+  assert.equal((await adm.post(`/api/admin/questoes-rx/${q2.id}`, { acao: 'reprovar', revisor: 'Dra. Ana Souza' })).status, 400, 'reprovar exige motivo');
+  const outra = 'ABCDE'.split('').find((l) => l !== q1.gabarito);
+  assert.equal((await adm.post(`/api/admin/questoes-rx/${q1.id}`, { acao: 'aprovar', revisor: 'Dra. Ana Souza', crm: 'CRM/SP 123456', gabarito: outra })).status, 200);
+  assert.equal((await adm.post(`/api/admin/questoes-rx/${q2.id}`, { acao: 'reprovar', revisor: 'Dra. Ana Souza', observacao: 'Dose desatualizada.' })).status, 200);
+  const extras = (await aluno.get('/api/questoes/extras')).corpo.questoes;
+  assert.equal(extras.length, 1);
+  assert.equal(extras[0].id, q1.id);
+  assert.equal(extras[0].gabarito, outra, 'gabarito corrigido pelo revisor');
+  assert.equal(extras[0].revisao.por, 'Dra. Ana Souza');
+  const depois = (await adm.get('/api/admin/questoes-rx')).corpo.contagem;
+  assert.equal(depois.aprovada, 1);
+  assert.equal(depois.reprovada, 1);
+  assert.equal(depois.pendente, fila.total - 2);
+});

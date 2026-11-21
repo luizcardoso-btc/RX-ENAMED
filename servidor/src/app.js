@@ -7,6 +7,7 @@ import { rotasAvisos } from './rotas/avisos.js';
 import { rotasAdmin } from './rotas/admin.js';
 import { rotasProgresso } from './rotas/progresso.js';
 import { rotasNacional } from './rotas/nacional.js';
+import { rotasQuestoesRx } from './rotas/questoes-rx.js';
 import { criarCorreio } from './email.js';
 import { criarLimitador } from './limitador.js';
 import { contarVisitas } from './metas.js';
@@ -134,6 +135,7 @@ export function criarApp({ banco, config, planos, mp, correio = criarCorreio({ b
   app.use('/api', rotasResidencia({ config }));
   app.use('/api', rotasPratica({ banco, config, limitar, cliente: ia, acervo }));
   app.use('/api', rotasDupla({ banco, limitar, acervo }));
+  app.use('/api', rotasQuestoesRx({ banco, config }));
   app.use('/api/admin', rotasAdmin({ banco, planos, mp, correio, config }));
   app.use('/api', (_req, res) => res.status(404).json({ erro: 'Rota inexistente.' }));
 

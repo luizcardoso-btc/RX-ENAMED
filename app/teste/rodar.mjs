@@ -3,7 +3,7 @@
 // Uso: node teste/rodar.mjs [saida-das-capturas]
 import { chromium } from 'playwright-core';
 import { createHash } from 'node:crypto';
-import { existsSync, mkdirSync, readFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, readdirSync } from 'node:fs';
 
 const app = new URL('..', import.meta.url).pathname;
 const saida = process.argv[2] || `${app}teste/capturas`;
@@ -131,7 +131,19 @@ async function foto(pagina, nome, inteira = true) {
   await pagina.screenshot({ path: `${saida}/${nome}.png`, fullPage: inteira });
 }
 
-const navegador = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell' });
+// Navegador dos testes: RX_CHROMIUM, ou o headless shell pré-instalado no ambiente (a versão muda entre imagens).
+function navegadorDeTeste() {
+  if (process.env.RX_CHROMIUM) return process.env.RX_CHROMIUM;
+  const base = '/opt/pw-browsers';
+  for (const d of readdirSync(base).filter((n) => n.startsWith('chromium_headless_shell-')).sort().reverse()) {
+    for (const sub of readdirSync(`${base}/${d}`)) {
+      for (const nome of ['chrome-headless-shell', 'headless_shell']) if (existsSync(`${base}/${d}/${sub}/${nome}`)) return `${base}/${d}/${sub}/${nome}`;
+    }
+  }
+  return `${base}/chromium`;
+}
+
+const navegador = await chromium.launch({ executablePath: navegadorDeTeste() });
 try {
   // ---- desktop claro: fluxo completo
   const p = await novaPagina(navegador);

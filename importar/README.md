@@ -41,3 +41,10 @@ carregando as questões por filtro. O formato gerado aqui (`banco_externo.json`)
 
 Provas de residência são publicadas pelas bancas; os comentários de outros cursos não podem ser copiados.
 Registre a `origem` de cada questão e escreva comentários próprios.
+
+## Revisão pelo painel (sem editar planilha)
+
+O servidor lê `banco_externo.json` e mostra as questões pendentes em **Admin › Questões**. O médico revisor aprova
+(pode corrigir o gabarito), pede correção ou reprova, com nome e CRM. As aprovadas chegam aos alunos na hora, sem novo
+deploy. "Exportar decisões" baixa a planilha das revisões, caso queira fixá-las também na coluna `revisao`/`revisor`.
+Os lotes de questões inéditas ficam em `ferramentas/questoes_rx/` (plano em `PLANO-10000.md`).

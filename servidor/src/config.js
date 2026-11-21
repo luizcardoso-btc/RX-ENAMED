@@ -67,6 +67,7 @@ export function carregarConfig(envBruto = process.env) {
     pastaSite: env.PASTA_SITE || new URL('../../site/dist', import.meta.url).pathname,
     pastaConteudo: env.PASTA_CONTEUDO || new URL('../../conteudo', import.meta.url).pathname,
     arquivoResidencia: env.ARQUIVO_RESIDENCIA || new URL('../../conteudo/residencia/ineditas.json', import.meta.url).pathname,
+    arquivoQuestoesRx: env.ARQUIVO_QUESTOES_RX || new URL('../../importar/banco_externo.json', import.meta.url).pathname,
     arquivoPlanos: env.ARQUIVO_PLANOS || new URL('../../conteudo/planos.json', import.meta.url).pathname,
   };
 }

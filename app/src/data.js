@@ -17,9 +17,20 @@ export async function carregarBanco() {
   const resp = await fetch('data/questoes.json');
   if (!resp.ok) throw new Error(t('Não foi possível carregar o banco de questões (HTTP {s}).', { s: resp.status }));
   const dados = await resp.json();
-  const questoes = dados.questoes.map((q) => ({
+  // No site com servidor: questões autorais e importadas já aprovadas na revisão médica entram no banco.
+  let extras = [];
+  if (document.querySelector('meta[name="rx-servidor"]')) {
+    try {
+      const r = await fetch('/api/questoes/extras', { credentials: 'same-origin' });
+      if (r.ok && (r.headers.get('content-type') || '').includes('json')) {
+        const ids = new Set(dados.questoes.map((q) => q.id));
+        extras = ((await r.json()).questoes || []).filter((q) => !ids.has(q.id));
+      }
+    } catch { /* segue só com as oficiais */ }
+  }
+  const questoes = [...dados.questoes, ...extras].map((q) => ({
     ...q,
-    rotulo: `${q.exame} ${q.edicao}${q.tambem ? ` · ${q.tambem}` : ''}`,
+    rotulo: `${q.exame}${q.edicao ? ` ${q.edicao}` : ''}${q.tambem ? ` · ${q.tambem}` : ''}`,
     busca: normalizar(`${q.enunciado} ${q.alternativas.join(' ')} ${q.especialidade} ${q.tema}`),
   }));
   const porId = Object.fromEntries(questoes.map((q) => [q.id, q]));
@@ -44,6 +55,8 @@ export async function carregarBanco() {
     const r = await fetch('data/comentarios.json');
     if (r.ok) comentarios = await r.json();
   } catch { /* segue sem comentários */ }
+  // Questões revisadas que não vêm do Inep trazem o próprio comentário.
+  for (const q of extras) if (q.comentario && !comentarios[q.id]) comentarios[q.id] = { inedita: true, pt: { resumo: q.comentario, alternativas: {} }, es: { resumo: q.comentario, alternativas: {} } };
   const mentorDaArea = Object.fromEntries(conteudo.mentores.map((m) => [m.area, m]));
   const mentorPorId = Object.fromEntries(conteudo.mentores.map((m) => [m.id, m]));
 
