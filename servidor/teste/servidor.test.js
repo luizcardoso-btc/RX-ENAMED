@@ -52,7 +52,7 @@ function cliente() {
     const tipo = r.headers.get('content-type') || '';
     return { status: r.status, corpo: tipo.includes('json') ? await r.json() : await r.text() };
   };
-  return { get: (c) => req('GET', c), post: (c, b, e) => req('POST', c, b, e), put: (c, b) => req('PUT', c, b), del: (c) => req('DELETE', c, {}), cookie: () => cookie };
+  return { get: (c) => req('GET', c), post: (c, b, e) => req('POST', c, b, e), put: (c, b) => req('PUT', c, b), patch: (c, b) => req('PATCH', c, b), del: (c) => req('DELETE', c, {}), cookie: () => cookie };
 }
 const assinar = (idDado, idReq = 'req-1', ts = Math.floor(Date.now() / 1000)) =>
   `ts=${ts},v1=${createHmac('sha256', SEGREDO).update(`id:${idDado};request-id:${idReq};ts:${ts};`).digest('hex')}`;
@@ -885,4 +885,52 @@ test('questões RX: só chegam ao aluno depois da revisão médica, com o gabari
   assert.equal(depois.aprovada, 1);
   assert.equal(depois.reprovada, 1);
   assert.equal(depois.pendente, fila.total - 2);
+});
+
+test('prédio: pauta da semana, aprovação, publicação com métricas e respostas da Sofia', async () => {
+  const adm = await alunoNovo('Ceo');
+  await banco.consulta(`UPDATE usuarios SET papel = 'admin' WHERE email = $1`, [adm.email]);
+  const aluno = await alunoNovo('Curioso');
+  assert.equal((await aluno.get('/api/admin/predio')).status, 403);
+  const inicio = (await adm.get('/api/admin/predio')).corpo;
+  assert.ok(inicio.equipe.some((a) => a.nome === 'Davi' && a.papel === 'Copywriter de vídeo'));
+  assert.ok(inicio.resumo.tarefas.some((t) => t.sala === 'cto'), 'Helena pede a pauta');
+
+  const segunda = '2026-11-23';
+  const pauta = (await adm.post('/api/admin/predio/semana', { segunda })).corpo;
+  assert.ok(pauta.pecas.length >= 6);
+  assert.ok(pauta.pecas.every((p) => p.semana === segunda && p.dia >= segunda));
+  const carrossel = pauta.pecas.find((p) => p.formato === 'carrossel' && p.questao_id);
+  assert.ok(carrossel.conteudo.legenda.includes('Fonte: Inep'), 'questão oficial sempre com a fonte');
+  const textoTodo = JSON.stringify(pauta.pecas).toLowerCase();
+  assert.ok(!textoTodo.includes('aprovação garantida') && !textoTodo.includes('garantimos'), 'sem promessa de aprovação');
+
+  // Aprovar, refazer (a aprovada fica) e postar com métricas.
+  assert.equal((await adm.patch(`/api/admin/predio/pecas/${carrossel.id}`, { status: 'aprovada' })).status, 200);
+  const refeita = (await adm.post('/api/admin/predio/semana', { segunda })).corpo.pecas;
+  assert.ok(refeita.some((p) => p.id === carrossel.id && p.status === 'aprovada'), 'aprovada não é refeita');
+  assert.equal(new Set(refeita.filter((p) => p.questao_id).map((p) => p.questao_id)).size, refeita.filter((p) => p.questao_id).length, 'sem questão repetida');
+  assert.equal((await adm.patch(`/api/admin/predio/pecas/${carrossel.id}`, { status: 'postada' })).status, 400, 'postar exige link');
+  assert.equal((await adm.patch(`/api/admin/predio/pecas/${carrossel.id}`, { status: 'postada', link: 'https://golpe.test/x' })).status, 400);
+  assert.equal((await adm.patch(`/api/admin/predio/pecas/${carrossel.id}`, { status: 'postada', link: 'https://www.instagram.com/p/abc123/' })).status, 200);
+  const m = (await adm.patch(`/api/admin/predio/pecas/${carrossel.id}`, { metricas: { alcance: 1000, salvos: 40, comentarios: 8, compartilhamentos: 2 } })).corpo.peca;
+  assert.equal(m.metricas.alcance, 1000);
+
+  // A semana seguinte não repete a questão já usada.
+  const prox = (await adm.post('/api/admin/predio/semana', { segunda: '2026-11-30' })).corpo.pecas;
+  assert.ok(!prox.some((p) => p.questao_id === carrossel.questao_id));
+
+  const sofia = (await adm.get('/api/admin/predio/sofia')).corpo.respostas;
+  assert.ok(sofia.find((r) => r.pergunta === 'Quanto custa?').resposta.includes('R$'));
+  assert.ok(sofia.find((r) => /garantem/.test(r.pergunta)).resposta.startsWith('Ninguém pode garantir'));
+  assert.equal((await adm.put('/api/admin/predio/ajustes', { palavraChave: 'RXMED', provas: [{ nome: 'ENAMED 2027', data: '2027-03-14' }], horarios: { feed: ['12:00'], stories: ['09:00'] }, nomes: { gerente: 'Helô' } })).status, 200);
+  const depois = (await adm.get('/api/admin/predio')).corpo;
+  assert.equal(depois.equipe.find((a) => a.id === 'gerente').nome, 'Helô');
+  assert.equal((await adm.get('/api/admin/predio/financeiro')).status, 200);
+  const reels = refeita.find((p) => p.formato === 'reels');
+  await adm.patch(`/api/admin/predio/pecas/${reels.id}`, { status: 'postada', link: 'https://www.instagram.com/reel/xyz789/' });
+  await adm.patch(`/api/admin/predio/pecas/${reels.id}`, { metricas: { alcance: 1000, salvos: 40, comentarios: 8, compartilhamentos: 2 } });
+  const davi = (await adm.get('/api/admin/predio/davi')).corpo.aprendizado;
+  assert.equal(davi[0].tipo, reels.conteudo.tipoGancho);
+  assert.equal(davi[0].engajamento, 5, '(40 + 8 + 2) / 1000');
 });

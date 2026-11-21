@@ -2,6 +2,7 @@ import { $, api, reais, data, dataHora, esc } from './comum.js';
 import { faculdades } from './faculdades.js';
 import { eventos } from './eventos.js';
 import { questoesRx } from './questoes-rx.js';
+import { predio } from './predio.js';
 import { nacionalAdmin } from './nacional-admin.js';
 import { turmas } from './turmas.js';
 
@@ -76,6 +77,7 @@ function abrir() {
   for (const b of document.querySelectorAll('[data-aba]')) b.style.color = b.dataset.aba === aba ? 'var(--tinta)' : '';
   fecharGaveta();
   if (aba === 'nacional') return nacionalAdmin(conteudo, (html) => { $('#gaveta').innerHTML = html; }, fecharGaveta).catch((e) => { conteudo.innerHTML = `<p class="rx-erro">${esc(e.message)}</p>`; });
+  if (aba === 'predio') return predio(conteudo).catch((e) => { conteudo.innerHTML = `<p class="rx-erro">${esc(e.message)}</p>`; });
   if (aba === 'questoes') return questoesRx(conteudo).catch((e) => { conteudo.innerHTML = `<p class="rx-erro">${esc(e.message)}</p>`; });
   if (aba === 'turmas') return turmas(conteudo).catch((e) => { conteudo.innerHTML = `<p class="rx-erro">${esc(e.message)}</p>`; });
   if (aba === 'eventos') return eventos(conteudo, (html) => { $('#gaveta').innerHTML = html; }, fecharGaveta).catch((e) => { conteudo.innerHTML = `<p class="rx-erro">${esc(e.message)}</p>`; });

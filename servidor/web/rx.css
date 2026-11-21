@@ -211,3 +211,32 @@ tr.ev-porta td { background: rgb(245 185 66 / .08); }
   .rx-cartao, .rx-kpi { background: #fff !important; border-color: #ccc !important; break-inside: avoid; }
   .rx-mudo, .rx-kpi span, .rx-kpi small, .rel-semanas small { color: #555 !important; }
 }
+
+/* Prédio (time de marketing) */
+.pd-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 16px 0; }
+.pd-kpis .rx-kpi small { display: block; margin-top: 4px; }
+.pd-predio { max-width: 860px; margin: 20px auto; border: 1px solid var(--linha); border-radius: 18px; overflow: hidden; background: linear-gradient(180deg, var(--folha), var(--papel)); }
+.pd-telhado { text-align: center; font-family: var(--f-display); font-weight: 800; font-size: 1.5rem; padding: 18px; border-bottom: 3px solid var(--realce); background: var(--folha-2); }
+.pd-telhado span { color: var(--realce); }
+.pd-andar { border-bottom: 1px solid var(--linha); padding: 12px 14px 14px; }
+.pd-andar:last-child { border-bottom: 0; background: var(--acento-suave); }
+.pd-andar-nome { display: block; font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: var(--tinta-3); margin-bottom: 8px; }
+.pd-salas { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; }
+.pd-sala { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; align-items: center; text-align: left; background: var(--folha-2); border: 1px solid var(--linha); border-radius: 14px; padding: 12px; color: var(--tinta); font: inherit; cursor: pointer; transition: border-color .15s, transform .15s; }
+.pd-sala:hover, .pd-sala:focus-visible { border-color: var(--realce); transform: translateY(-2px); }
+.pd-av { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; font-size: 1.6rem; background: var(--papel); border: 2px solid var(--realce); }
+.pd-nome { display: grid; } .pd-nome small { color: var(--tinta-3); }
+.pd-bal { grid-column: 1 / -1; font-size: .85rem; color: var(--tinta-2); background: var(--papel); border-radius: 10px; padding: 6px 10px; }
+.pd-cab { display: flex; gap: 14px; align-items: center; margin-bottom: 16px; }
+.pd-lista { list-style: none; padding: 0; display: grid; gap: 8px; }
+.pd-lista li { display: flex; justify-content: space-between; gap: 12px; align-items: center; background: var(--folha-2); border: 1px solid var(--linha); border-radius: 12px; padding: 10px 12px; }
+.pd-peca summary { display: flex; justify-content: space-between; gap: 10px; cursor: pointer; align-items: center; }
+.pd-peca { margin-bottom: 10px; }
+.pd-linha { display: flex; justify-content: space-between; gap: 10px; align-items: center; flex-wrap: wrap; }
+.pd-hora { width: 64px; background: var(--folha-2); color: var(--tinta); border: 1px solid var(--linha); border-radius: 8px; padding: 4px 6px; font: inherit; }
+.pd-slides { display: grid; gap: 8px; padding-left: 20px; }
+.pd-slide-ed { border: 1px solid var(--linha); border-radius: 12px; margin: 0 0 10px; padding: 10px 12px; }
+.pd-artes { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; margin-top: 14px; }
+.pd-artes figure { margin: 0; display: grid; gap: 8px; }
+.pd-artes canvas { width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--linha); }
+.rx-campo textarea { background: var(--folha-2); color: var(--tinta); border: 1px solid var(--linha); border-radius: 10px; padding: 11px 12px; font: inherit; width: 100%; box-sizing: border-box; resize: vertical; }
